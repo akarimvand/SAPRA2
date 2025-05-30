@@ -25,9 +25,10 @@
             left: 0;
             height: 100vh;
             width: 320px; /* Increased width for larger screens */
-            background: linear-gradient(135deg, #232931 60%, #393e46 100%);
-            color: #adb5bd; /* Lighter text for better contrast on dark bg */
-            padding-top: 1rem;
+            /* Updated styles to resemble Bootstrap sidebars */
+            background-color: #343a40; /* Darker background color */
+            color: #e9ecef; /* Lighter text color */
+            padding-top: 0;
             transition: transform 0.3s ease-in-out;
             z-index: 1050;
             display: flex;
@@ -59,11 +60,13 @@
 
         .sidebar-header {
             padding: 1rem 1.5rem;
-            text-align: center;
-            border-bottom: 1px solid #495057; /* Darker border */
+            /* Updated styles for header */
+            text-align: left; /* Align text to left */
+            border-bottom: 1px solid rgba(255,255,255,.1); /* Lighter border for dark theme */
+            margin-bottom: 1rem;
         }
         .sidebar-header h1 {
-            color: #ffffff;
+            color: #e9ecef; /* Lighter text color */
         }
         .sidebar-header .bi-diagram-3-fill {
             color: #00adb5; /* accent */
@@ -82,44 +85,46 @@
         }
 
         .sidebar-search {
-            padding: 1rem 1.5rem;
+            padding: 0 1.5rem 1rem;
         }
         .sidebar-search input {
-            background-color: #495057; /* Darker input bg */
-            border-color: #6c757d;
-            color: #ffffff;
+            /* Updated input styles */
+            background-color: #454d55; /* Slightly lighter dark for input */
+            border-color: #5a6268;
+            color: #e9ecef;
         }
         .sidebar-search input::placeholder {
-            color: #adb5bd;
+            color: #ced4da;
         }
          .sidebar-search .input-group-text {
-            background-color: #495057;
-            border-color: #6c757d;
-            color: #adb5bd;
+            background-color: #454d55;
+            border-color: #5a6268;
+            color: #ced4da;
         }
 
         .tree-view-container {
             flex-grow: 1;
             overflow-y: auto;
-            padding: 0 1.5rem 1rem;
+            padding: 0 0.5rem 1rem 0.5rem; /* Adjust padding for tree view items */
         }
 
         .tree-node {
             display: flex;
             align-items: center;
-            padding: 0.65rem 0.75rem; /* Adjusted padding */
-            border-radius: 0.375rem; /* rounded-md */
-            margin-bottom: 0.125rem; /* my-0.5 */
+            /* Updated tree node styles */
+            padding: 0.5rem 1rem; /* Adjust padding for click area */
+            border-radius: 0.25rem; /* Smaller border radius */
+            margin-bottom: 0;
             cursor: pointer;
             color: #ced4da; /* Default node text color */
             font-size: 0.875rem; /* text-sm */
-            transition: background-color 0.15s, color 0.15s, transform 0.2s ease-in-out;
+            transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out, transform 0.2s ease-in-out; /* Ensure smooth transitions */
         }
         .tree-node:hover {
             background-color: rgba(255, 255, 255, 0.1); /* gray-700/70 equivalent */
             color: #ffffff;
-            /* Add transition for smooth transform effect */
-            transition: background-color 0.15s, color 0.15s, transform 0.2s ease-in-out;
+            /* Combine transitions */
+            transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out, transform 0.2s ease-in-out;
         }
         .tree-node.selected {
             background-color: rgba(0, 173, 181, 0.2); /* accent/20 */
@@ -131,7 +136,7 @@
             font-size: 1.1em;
         }
         .tree-children {
-            padding-left: 1rem; /* Indentation for children */
+            padding-left: 1.25rem; /* Increased Indentation for children */
             display: none; /* Hidden by default */
         }
         .tree-node.open > .tree-children {
@@ -146,10 +151,10 @@
 
         .sidebar-footer {
             padding: 1rem 1.5rem;
-            text-align: center;
+            text-align: left; /* Align text to left */
             font-size: 0.75rem;
             color: #6c757d; /* Darker gray for footer text */
-            border-top: 1px solid #495057;
+            border-top: 1px solid rgba(255,255,255,.1); /* Lighter border for dark theme */
         }
         
         .summary-card {
@@ -177,19 +182,23 @@
 
         /* Gradient and Animation Styles from React version */
         .gradient-form-a {
-            background: linear-gradient(135deg, #0092ca, #00719c);
+            /* Windows 8.1 Blue */
+            background-color: #0078D7; 
             color: white;
         }
         .gradient-form-b {
-            background: linear-gradient(135deg, #4caf50, #388e3c);
+            /* Windows 8.1 Green */
+            background-color: #00B294;
             color: white;
         }
         .gradient-form-c {
-            background: linear-gradient(135deg, #ffa600, #cc8500);
+            /* Windows 8.1 Orange */
+            background-color: #FF8000;
             color: white;
         }
         .gradient-form-d {
-            background: linear-gradient(135deg, #00adb5, #008288);
+            /* Windows 8.1 Purple */
+            background-color: #A200FF;
             color: white;
         }
 
@@ -216,10 +225,10 @@
         .gradient-form-b:hover,
         .gradient-form-c:hover,
         .gradient-form-d:hover {
-            transform: perspective(600px) rotateX(8deg) rotateY(-8deg) scale(1.04); /* More pronounced tilt and slight scale */
-            box-shadow: 0 1.5rem 2.5rem rgba(0,0,0,0.25)!important;
+            /* Hover effect similar to the linked site: lift, scale, subtle tilt, and shadow */
+            transform: perspective(600px) translateY(8px) scale(1.03) rotateX(10deg); /* Adjust translateY and rotateX for downward bend */
+            box-shadow: 0 12px 24px rgba(0,0,0,0.3) !important; /* Stronger shadow */
             border-radius: 1.5rem 0.5rem 1.5rem 0.5rem/1.5rem 1.5rem 0.5rem 0.5rem; /* Asymmetric border radius for a 'bent' look */
-            transition: transform 0.4s cubic-bezier(.4,2,.6,1), box-shadow 0.4s, border-radius 0.4s;
         }
 
         /* Add to the style section for smooth transition */
@@ -227,17 +236,12 @@
         .gradient-form-b,
         .gradient-form-c,
         .gradient-form-d {
-            transition: transform 0.3s cubic-bezier(.4,2,.6,1), box-shadow 0.3s, border-radius 0.3s;
+            transition: transform 0.4s cubic-bezier(.4,2,.6,1), box-shadow 0.4s ease, border-radius 0.4s ease; /* Smooth transition for transform, shadow, and border-radius */
             will-change: transform;
         }
 
         .animated-gradient {
             background-size: 250% 250%;
-            animation: gradientAnimation 12s ease infinite alternate;
-        }
-        @keyframes gradientAnimation {
-            0% { background-position: 0% 50%; }
-            100% { background-position: 100% 50%; }
         }
 
         /* Custom scrollbar */
@@ -294,6 +298,20 @@
              transition: transform 0.4s cubic-bezier(.4,2,.6,1); /* Add transition for hover effect */
              will-change: transform; /* Optimize for animation */
         }
+        /* Styling for dashboard title */
+        #dashboardTitle {
+             color: #f8f9fa; /* Bright text color */
+             margin-left: 15px; /* Shift to the right */
+             transition: transform 0.4s cubic-bezier(.4,2,.6,1);
+             will-change: transform;
+        }
+        /* Styling for main content navbar */
+        .sapra-navbar-header {
+            background-color: #343a40; /* Match sidebar background */
+        }
+        .sapra-navbar-header .navbar-toggler-icon {
+            filter: invert(1);
+        }
     </style>
 <script type="importmap">
 {
@@ -333,7 +351,7 @@
 
 
     <div class="main-content" id="mainContent">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark sapra-navbar-header shadow-sm sticky-top"> <!-- Changed bg-white to sapra-navbar-header and navbar-light to navbar-dark for text color contrast -->
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" id="sidebarToggle" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -1235,8 +1253,21 @@
         
         function updateView() {
             aggregatedStats = _aggregateStatsForView(selectedView, processedData.systemMap, processedData.subSystemMap);
-            
-            DOMElements.dashboardTitle.textContent = selectedView.name || 'Dashboard';
+
+            // Update the dashboard title based on the selected view type
+            let titleText = 'Dashboard';
+            if (selectedView.type === 'system' && selectedView.id) {
+                const systemName = processedData.systemMap[selectedView.id]?.name || selectedView.name;
+                titleText = `System: ${selectedView.id} - ${systemName}`;
+            } else if (selectedView.type === 'subsystem' && selectedView.id) {
+                const systemName = processedData.systemMap[selectedView.parentId]?.name || selectedView.parentId;
+                const subsystemName = processedData.subSystemMap[selectedView.id]?.name || selectedView.name;
+                titleText = `System: ${selectedView.parentId} - ${systemName}<br>Subsystem: ${selectedView.id} - ${subsystemName}`;
+            } else if (selectedView.type === 'all') {
+                titleText = 'Dashboard';
+            }
+            DOMElements.dashboardTitle.innerHTML = titleText;
+
             DOMElements.totalItemsCounter.textContent = aggregatedStats.totalItems.toLocaleString();
 
             renderSummaryCards();
@@ -1541,7 +1572,7 @@
                             const badgeClass = row.statusPercent > 80 ? 'bg-success-subtle text-success' : row.statusPercent > 50 ? 'bg-info-subtle text-info' : 'bg-warning-subtle text-warning';
                             cellValue = `<span class="badge ${badgeClass} rounded-pill">${row.statusPercent}%</span>`;
                         } else if (col.accessor === 'system') {
-                            cellValue = `${row.system} - ${row.systemName}`;
+                            cellValue = row.system;
                         } else if (col.accessor === 'subsystem') {
                             cellValue = `${row.subsystem} - ${row.subsystemName}`;
                         } else {
@@ -1758,20 +1789,19 @@
             const percentY = y / rect.height; // 0 (top) to 1 (bottom)
             const percentX = x / rect.width; // 0 (left) to 1 (right)
 
-            const maxTiltY = 18; // Max tilt in Y direction (for X rotation)
-             const maxTiltX = 8; // Max tilt in X direction (for Y rotation)
+            const maxTiltY = 25; // Increased max tilt in Y direction for more X rotation
+             const maxTiltX = 15; // Increased max tilt in X direction for more Y rotation
 
             // Calculate tilt based on mouse position
-            const tiltX = -percentY * maxTiltY; // More tilt when mouse is lower
+            const tiltX = -percentY * maxTiltY + (maxTiltY / 2); // Tilt from top (+maxTiltY/2) to bottom (-maxTiltY/2)
             const tiltY = percentX * maxTiltX - (maxTiltX / 2); // Tilt from left (-maxTiltX/2) to right (+maxTiltX/2)
 
             // Apply transform with perspective and rotation
-            element.style.transform = `perspective(600px) rotateX(${tiltX}deg) rotateY(${tiltY}deg) scale(1.04)`;
-            // Keep the box shadow and border radius logic for cards, but not necessarily for the logo or tree nodes
-            if (element.classList.contains('summary-card')) {
-                 element.style.boxShadow = '0 1.5rem 2.5rem rgba(0,0,0,0.25)';
-                 element.style.borderRadius = '1.5rem 0.5rem 1.5rem 0.5rem/1.5rem 1.5rem 0.5rem 0.5rem';
-            }
+            element.style.transform = `perspective(800px) rotateX(${tiltX}deg) rotateY(${tiltY}deg) scale(1.02)`; // Adjusted scale slightly
+             // Only apply specific styles (like shadows) if needed, otherwise just apply the transform
+             // In this case, we want the gradient cards to just have the transform like the title
+             // Removed old card-specific shadow/border-radius application from here.
+
             // Remove any specific hover styles that might interfere
             if (element.classList.contains('tree-node')) {
                  // For tree nodes, only apply the transform, no shadow or border radius changes needed
@@ -1784,25 +1814,21 @@
 
         function handleMouseLeave(e) {
             const element = e.currentTarget;
-            element.style.transform = ''; // Reset transform
-            // Reset box shadow and border radius only for cards
-            if (element.classList.contains('summary-card')) {
-                 element.style.boxShadow = '';
-                 element.style.borderRadius = '';
-            }
+            // Reset transform
+            element.style.transform = '';
+
             // Remove any specific hover styles that were applied
-             if (element.classList.contains('tree-node')) {
+            if (element.classList.contains('tree-node')) {
                  // For tree nodes, reset transform and remove the will-change property set on hover
                  element.style.willChange = 'auto'; // Reset will-change
-             }
+            }
         }
 
         document.addEventListener('DOMContentLoaded', function() {
             // Apply hover effects to gradient cards
             cardSelectors.forEach(selector => {
                 document.querySelectorAll(selector).forEach(card => {
-                    card.addEventListener('mousemove', handleMouseMove);
-                    card.addEventListener('mouseleave', handleMouseLeave);
+                    // Rely on CSS :hover for the new effect, remove JS listeners
                 });
             });
 
@@ -1834,6 +1860,13 @@
                  contactElement.addEventListener('mousemove', handleMouseMove);
                  contactElement.addEventListener('mouseleave', handleMouseLeave);
              });
+
+             // Apply hover effects to the dashboard title
+             const dashboardTitle = document.getElementById('dashboardTitle');
+             if (dashboardTitle) {
+                  dashboardTitle.addEventListener('mousemove', handleMouseMove);
+                  dashboardTitle.addEventListener('mouseleave', handleMouseLeave);
+             }
         });
     })();
     </script>
