@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
@@ -25,7 +24,7 @@
             top: 0;
             left: 0;
             height: 100vh;
-            width: 260px; /* Default width for large screens */
+            width: 320px; /* Increased width for larger screens */
             background: linear-gradient(135deg, #232931 60%, #393e46 100%);
             color: #adb5bd; /* Lighter text for better contrast on dark bg */
             padding-top: 1rem;
@@ -53,7 +52,7 @@
 
         @media (min-width: 992px) { /* lg breakpoint */
             .main-content {
-                margin-left: 260px;
+                margin-left: 320px; /* Adjust margin to match new sidebar width */
             }
         }
 
@@ -189,9 +188,17 @@
         .gradient-form-b .card-title-custom,
         .gradient-form-c .card-title-custom,
         .gradient-form-d .card-title-custom {
-            font-size: 1.1rem;  /* Larger font size */
-            font-weight: 700; /* Bolder font */
-            color: #ffffff !important; /* Ensure full white color, overriding text-white-50 */
+            font-size: 1.35rem !important;
+            font-weight: 800;
+            color: #fff !important;
+        }
+        .gradient-form-a .count-display,
+        .gradient-form-b .count-display,
+        .gradient-form-c .count-display,
+        .gradient-form-d .count-display {
+            font-size: 3rem !important;
+            font-weight: 900;
+            color: #fff !important;
         }
         
         /* Specific hover effect for gradient cards */
@@ -199,10 +206,20 @@
         .gradient-form-b:hover,
         .gradient-form-c:hover,
         .gradient-form-d:hover {
-            transform: translateY(-6px) rotateX(4deg) rotateY(-4deg); /* Tilt effect */
-            box-shadow: 0 0.75rem 1.5rem rgba(0,0,0,0.2)!important; /* Enhanced shadow */
+            transform: perspective(600px) rotateX(8deg) rotateY(-8deg) scale(1.04); /* More pronounced tilt and slight scale */
+            box-shadow: 0 1.5rem 2.5rem rgba(0,0,0,0.25)!important;
+            border-radius: 1.5rem 0.5rem 1.5rem 0.5rem/1.5rem 1.5rem 0.5rem 0.5rem; /* Asymmetric border radius for a 'bent' look */
+            transition: transform 0.4s cubic-bezier(.4,2,.6,1), box-shadow 0.4s, border-radius 0.4s;
         }
 
+        /* Add to the style section for smooth transition */
+        .gradient-form-a,
+        .gradient-form-b,
+        .gradient-form-c,
+        .gradient-form-d {
+            transition: transform 0.3s cubic-bezier(.4,2,.6,1), box-shadow 0.3s, border-radius 0.3s;
+            will-change: transform;
+        }
 
         .animated-gradient {
             background-size: 250% 250%;
@@ -215,7 +232,7 @@
 
         /* Custom scrollbar */
         ::-webkit-scrollbar { width: 8px; height: 8px;}
-        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-track { background: #343a40; }
         ::-webkit-scrollbar-thumb { background: #c1c1c1; border-radius: 4px;}
         ::-webkit-scrollbar-thumb:hover { background: #a8a8a8;}
 
@@ -244,6 +261,8 @@
         .sidebar.open + .sidebar-overlay {
             display: block;
         }
+
+        .sapra-loader svg { display: block; margin: 0 auto; }
 
     </style>
 <script type="importmap">
@@ -303,17 +322,16 @@
         </nav>
 
         <main class="container-fluid py-4" role="main">
-            <div id="loadingMessage" class="alert alert-info" role="status" style="display: none;">Loading data...</div>
             <div id="errorMessage" class="alert alert-danger" role="alert" style="display: none;">Error loading data.</div>
             
-            <!-- Row 1: Original Summary Cards + Issues Card -->
-            <div class="row mb-4 g-4" id="summaryCardsRow1">
-                {/* <!-- Summary cards will be injected here --> */}
-            </div>
-
-            <!-- Row 2: FORM A-D Cards -->
+            <!-- Row 1: FORM A-D Cards -->
             <div class="row mb-4 g-4" id="summaryCardsRow2">
                 {/* <!-- FORM cards will be injected here --> */}
+            </div>
+
+            <!-- Row 2: Original Summary Cards + Issues Card -->
+            <div class="row mb-4 g-4" id="summaryCardsRow1">
+                {/* <!-- Summary cards will be injected here --> */}
             </div>
 
             <!-- Charts Section -->
@@ -443,7 +461,6 @@
             dataTableHead: document.getElementById('dataTableHead'),
             dataTableBody: document.getElementById('dataTableBody'),
             exportExcelBtn: document.getElementById('exportExcelBtn'),
-            loadingMessage: document.getElementById('loadingMessage'),
             errorMessage: document.getElementById('errorMessage'),
         };
 
@@ -518,7 +535,11 @@
 
         // --- Data Loading and Processing ---
         async function loadAndProcessData() {
-            DOMElements.loadingMessage.style.display = 'block';
+            const loadingModal = new bootstrap.Modal(document.getElementById('loadingModal'), {});
+            loadingModal.show();
+            // Hide the modal after 1.5 seconds
+            setTimeout(() => { loadingModal.hide(); }, 1500);
+
             DOMElements.errorMessage.style.display = 'none';
             try {
                 const response = await fetch(CSV_URL);
@@ -541,7 +562,7 @@
                             const systemId = row.SD_System.trim();
                             const systemName = (row.SD_System_Name || 'Unknown System').trim();
                             const subId = row.SD_Sub_System.trim();
-                            const subName = (row.SD_Subsystem_Name || 'Unknown SubSystem').trim();
+                            const subName = (row.SD_Subsystem_Name || 'Unknown Subsystem').trim();
                             const discipline = row.discipline.trim();
 
                             if (!systemMap[systemId]) {
@@ -569,18 +590,18 @@
                             };
                         });
                         processedData = { systemMap, subSystemMap, allRawData: data };
-                        DOMElements.loadingMessage.style.display = 'none';
+                        // Modal is hidden by the initial setTimeout, no need to hide here
                         updateView(); // Initial render after data load
                     },
                     error: (err) => {
-                        DOMElements.loadingMessage.style.display = 'none';
+                        // Modal is hidden by the initial setTimeout, no need to hide here
                         DOMElements.errorMessage.textContent = `Failed to load or parse CSV: ${err.message}`;
                         DOMElements.errorMessage.style.display = 'block';
                         console.error("PapaParse error:", err);
                     }
                 });
             } catch (e) {
-                DOMElements.loadingMessage.style.display = 'none';
+                 // Modal is hidden by the initial setTimeout, no need to hide here
                 DOMElements.errorMessage.textContent = `Error fetching data: ${e.message}`;
                 DOMElements.errorMessage.style.display = 'block';
                 console.error("Fetch error:", e);
@@ -595,30 +616,34 @@
                 const hasChildren = node.children && node.children.length > 0;
                 let childrenHTML = '';
                 let isOpen = node.isOpen || false;
-                 let isExpanded = isOpen; // For ARIA
+                let isExpanded = isOpen; // For ARIA
 
                 if (searchTerm && node.children?.some(child => child.name.toLowerCase().includes(searchTerm))) {
-                   isOpen = true; 
-                   isExpanded = true;
+                    isOpen = true; 
+                    isExpanded = true;
                 }
-
 
                 if (hasChildren && isOpen) {
                     childrenHTML = `<div class="tree-children" role="group" style="display: block;">${node.children.map(child => createNodeHTML(child, level + 1, node.id)).join('')}</div>`;
                 } else if (hasChildren) {
-                     childrenHTML = `<div class="tree-children" role="group" style="display: none;">${node.children.map(child => createNodeHTML(child, level + 1, node.id)).join('')}</div>`;
+                    childrenHTML = `<div class="tree-children" role="group" style="display: none;">${node.children.map(child => createNodeHTML(child, level + 1, node.id)).join('')}</div>`;
                 }
-                
                 const paddingLeft = level * 12 + 12; // px
                 const nodeId = `tree-node-${node.type}-${node.id.replace(/[^a-zA-Z0-9-_]/g, '')}`;
-                
+                let subtitle = '';
+                if (node.type === 'system' && processedData.systemMap[node.id]) {
+                    subtitle = `<div class='small' style='font-size:0.78em; color: #ced4da !important;'>${processedData.systemMap[node.id].name}</div>`;
+                }
+                if (node.type === 'subsystem' && processedData.subSystemMap[node.id]) {
+                    subtitle = `<div class='small' style='font-size:0.78em; color: #ced4da !important;'>${processedData.subSystemMap[node.id].name}</div>`;
+                }
                 return `
                     <div id="${nodeId}" class="tree-node ${isSelected ? 'selected' : ''} ${isOpen ? 'open' : ''}" 
                          role="treeitem" aria-selected="${isSelected}" ${hasChildren ? `aria-expanded="${isExpanded}"` : ''}
                          data-type="${node.type}" data-id="${node.id}" data-name="${node.name}" 
                          data-parent-id="${parentId || ''}" style="padding-left: ${paddingLeft}px;" tabindex="${isSelected || (level === 0 && !document.querySelector('.tree-node.selected')) ? '0' : '-1'}">
                         ${node.icon || ''}
-                        <span class="flex-grow-1 text-truncate me-2">${node.name}</span>
+                        <span class="flex-grow-1 text-truncate me-2">${node.name}${subtitle}</span>
                         ${hasChildren ? ICONS.ChevronRight : ''}
                     </div>
                     ${childrenHTML}
@@ -751,11 +776,6 @@
                     </div>`;
             });
             
-            const issuesPercent = aggregatedStats.totalItems > 0 && (aggregatedStats.punch + aggregatedStats.hold) > 0 
-                        ? `${Math.round(((aggregatedStats.punch + aggregatedStats.hold) / aggregatedStats.totalItems) * 100)}% of total items`
-                        : aggregatedStats.totalItems === 0 && (aggregatedStats.punch + aggregatedStats.hold) > 0 
-                        ? 'N/A % (No total items)'
-                        : '0% of total items';
             row1HTML += `
                 <div class="col">
                     <section class="card summary-card shadow-sm bg-white" aria-labelledby="summary-title-issues">
@@ -774,17 +794,16 @@
                                     <h4 class="text-danger fw-semibold">${aggregatedStats.hold.toLocaleString()}</h4>
                                 </div>
                             </div>
-                             <p class="text-muted small mt-1 mb-0">${issuesPercent}</p>
                         </div>
                     </section>
                 </div>`;
             DOMElements.summaryCardsRow1.innerHTML = row1HTML;
 
             const formCardsData = [
-                { title: 'FORM A', count: 0, gradientClass: 'gradient-form-a animated-gradient', icon: ICONS.FileEarmarkText },
-                { title: 'FORM B', count: 0, gradientClass: 'gradient-form-b animated-gradient', icon: ICONS.FileEarmarkCheck },
-                { title: 'FORM C', count: 0, gradientClass: 'gradient-form-c animated-gradient', icon: ICONS.FileEarmarkMedical },
-                { title: 'FORM D', count: 0, gradientClass: 'gradient-form-d animated-gradient', icon: ICONS.FileEarmarkSpreadsheet },
+                { title: 'FORM A', count: 0, gradientClass: 'gradient-form-a animated-gradient', icon: ICONS.FileEarmarkText, desc: 'Submitted to Client for Mechanical Completion Approval' },
+                { title: 'FORM B', count: 0, gradientClass: 'gradient-form-b animated-gradient', icon: ICONS.FileEarmarkCheck, desc: 'Returned by Client with Pre-Commissioning Punches' },
+                { title: 'FORM C', count: 0, gradientClass: 'gradient-form-c animated-gradient', icon: ICONS.FileEarmarkMedical, desc: 'Precom Punches Cleared and Resubmitted for Approval' },
+                { title: 'FORM D', count: 0, gradientClass: 'gradient-form-d animated-gradient', icon: ICONS.FileEarmarkSpreadsheet, desc: 'Final Client Approval and Subsystem Handover' },
             ];
             formCardsData.forEach(card => {
                 row2HTML += `
@@ -796,7 +815,7 @@
                                     <span class="icon-wrapper" style="background-color: rgba(0,0,0,0.2);" aria-hidden="true">${card.icon}</span>
                                 </div>
                                 <h3 class="count-display mb-1">${card.count.toLocaleString()}</h3>
-                                <p class="small mb-0 text-white-50 opacity-75">&nbsp;</p> 
+                                <small class="d-block mt-2 text-white" style="color: #fff !important;">${card.desc}</small>
                             </div>
                         </section>
                     </div>`;
@@ -1145,8 +1164,63 @@
                  alert("No data has been loaded yet to export.");
             }
         }
-
     </script>
+    <script>
+    (function() {
+        const cardSelectors = [
+            '.gradient-form-a',
+            '.gradient-form-b',
+            '.gradient-form-c',
+            '.gradient-form-d'
+        ];
+        function handleMouseMove(e) {
+            const card = e.currentTarget;
+            const rect = card.getBoundingClientRect();
+            const y = e.clientY - rect.top;
+            const percentY = y / rect.height; // 0 (top) to 1 (bottom)
+            const maxTilt = 18;
+            // خمیدگی از 0 (بالا) تا -maxTilt (پایین)
+            const tiltX = -percentY * maxTilt;
+            card.style.transform = `perspective(600px) rotateX(${tiltX}deg) scale(1.04)`;
+            card.style.boxShadow = `0 1.5rem 2.5rem rgba(0,0,0,0.25)`;
+            card.style.borderRadius = '1.5rem 0.5rem 1.5rem 0.5rem/1.5rem 1.5rem 0.5rem 0.5rem';
+        }
+        function handleMouseLeave(e) {
+            const card = e.currentTarget;
+            card.style.transform = '';
+            card.style.boxShadow = '';
+            card.style.borderRadius = '';
+        }
+        document.addEventListener('DOMContentLoaded', function() {
+            cardSelectors.forEach(selector => {
+                document.querySelectorAll(selector).forEach(card => {
+                    card.addEventListener('mousemove', handleMouseMove);
+                    card.addEventListener('mouseleave', handleMouseLeave);
+                });
+            });
+        });
+    })();
+    </script>
+    <div class="modal fade" id="loadingModal" tabindex="-1" aria-labelledby="loadingModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body d-flex flex-column align-items-center justify-content-center" style="min-height:180px;">
+            <div class="sapra-loader mb-3">
+              <svg width="48" height="48" viewBox="0 0 48 48">
+                <circle cx="24" cy="24" r="20" fill="none" stroke="#00adb5" stroke-width="4" stroke-linecap="round" stroke-dasharray="31.4 31.4" stroke-dashoffset="0">
+                  <animateTransform attributeName="transform" type="rotate" from="0 24 24" to="360 24 24" dur="1s" repeatCount="indefinite"/>
+                </circle>
+                <circle cx="24" cy="24" r="12" fill="none" stroke="#393e46" stroke-width="4" stroke-linecap="round" stroke-dasharray="18.8 18.8" stroke-dashoffset="0">
+                  <animateTransform attributeName="transform" type="rotate" from="360 24 24" to="0 24 24" dur="1.2s" repeatCount="indefinite"/>
+                </circle>
+              </svg>
+            </div>
+            <div id="loadingModalLabel" class="fw-bold text-info mb-1">Loading data...</div>
+            <div class="text-secondary small">Please wait a moment.</div>
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
 </html><link rel="stylesheet" href="index.css">
 <script src="index.tsx" type="module"></script>
