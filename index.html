@@ -1,0 +1,1152 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" 
+          content="default-src 'self'; 
+                   script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://esm.sh; 
+                   style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com; 
+                   font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com;
+                   img-src 'self' data:;
+                   connect-src 'self' https://raw.githubusercontent.com;">
+    <title>SAPRA Dashboard (Bootstrap)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+        }
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 260px; /* Default width for large screens */
+            background: linear-gradient(135deg, #232931 60%, #393e46 100%);
+            color: #adb5bd; /* Lighter text for better contrast on dark bg */
+            padding-top: 1rem;
+            transition: transform 0.3s ease-in-out;
+            z-index: 1050;
+            display: flex;
+            flex-direction: column;
+        }
+
+        @media (max-width: 991.98px) { /* lg breakpoint */
+            .sidebar {
+                transform: translateX(-100%);
+            }
+            .sidebar.open {
+                transform: translateX(0);
+            }
+            .main-content.sidebar-open {
+                filter: blur(2px); /* Optional: blur content when sidebar is open on mobile */
+            }
+        }
+
+        .main-content {
+            transition: margin-left 0.3s ease-in-out;
+        }
+
+        @media (min-width: 992px) { /* lg breakpoint */
+            .main-content {
+                margin-left: 260px;
+            }
+        }
+
+
+        .sidebar-header {
+            padding: 1rem 1.5rem;
+            text-align: center;
+            border-bottom: 1px solid #495057; /* Darker border */
+        }
+        .sidebar-header h1 {
+            color: #ffffff;
+        }
+        .sidebar-header .bi-diagram-3-fill {
+            color: #00adb5; /* accent */
+        }
+         .sidebar-header .slogan {
+            font-size: 0.75rem;
+            color: #adb5bd;
+        }
+
+        .sidebar-search {
+            padding: 1rem 1.5rem;
+        }
+        .sidebar-search input {
+            background-color: #495057; /* Darker input bg */
+            border-color: #6c757d;
+            color: #ffffff;
+        }
+        .sidebar-search input::placeholder {
+            color: #adb5bd;
+        }
+         .sidebar-search .input-group-text {
+            background-color: #495057;
+            border-color: #6c757d;
+            color: #adb5bd;
+        }
+
+        .tree-view-container {
+            flex-grow: 1;
+            overflow-y: auto;
+            padding: 0 1.5rem 1rem;
+        }
+
+        .tree-node {
+            display: flex;
+            align-items: center;
+            padding: 0.65rem 0.75rem; /* Adjusted padding */
+            border-radius: 0.375rem; /* rounded-md */
+            margin-bottom: 0.125rem; /* my-0.5 */
+            cursor: pointer;
+            color: #ced4da; /* Default node text color */
+            font-size: 0.875rem; /* text-sm */
+            transition: background-color 0.15s, color 0.15s;
+        }
+        .tree-node:hover {
+            background-color: rgba(255, 255, 255, 0.1); /* gray-700/70 equivalent */
+            color: #ffffff;
+        }
+        .tree-node.selected {
+            background-color: rgba(0, 173, 181, 0.2); /* accent/20 */
+            color: #00adb5; /* accent */
+            font-weight: 500; /* font-medium */
+        }
+        .tree-node .bi {
+            margin-right: 0.625rem; /* mr-2.5 */
+            font-size: 1.1em;
+        }
+        .tree-children {
+            padding-left: 1rem; /* Indentation for children */
+            display: none; /* Hidden by default */
+        }
+        .tree-node.open > .tree-children {
+            display: block;
+        }
+        .tree-node .chevron-toggle {
+             transition: transform 0.2s ease-in-out;
+        }
+        .tree-node.open > div > .chevron-toggle {
+            transform: rotate(90deg);
+        }
+
+        .sidebar-footer {
+            padding: 1rem 1.5rem;
+            text-align: center;
+            font-size: 0.75rem;
+            color: #6c757d; /* Darker gray for footer text */
+            border-top: 1px solid #495057;
+        }
+        
+        .summary-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Ensure 'ease' for smoother effect */
+            min-height: 160px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .summary-card:hover { /* Default hover for non-gradient cards */
+            transform: translateY(-4px);
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+        }
+        .summary-card .card-title-custom {
+             font-size: 0.875rem; /* text-sm */
+        }
+        .summary-card .count-display {
+            font-size: 2.5rem; /* text-5xl is ~3rem, this is closer to text-4xl */
+            font-weight: bold;
+        }
+        .summary-card .icon-wrapper {
+            padding: 0.375rem; /* p-1.5 */
+            border-radius: 0.375rem; /* rounded-md */
+        }
+
+        /* Gradient and Animation Styles from React version */
+        .gradient-form-a {
+            background: linear-gradient(135deg, #0092ca, #00719c);
+            color: white;
+        }
+        .gradient-form-b {
+            background: linear-gradient(135deg, #4caf50, #388e3c);
+            color: white;
+        }
+        .gradient-form-c {
+            background: linear-gradient(135deg, #ffa600, #cc8500);
+            color: white;
+        }
+        .gradient-form-d {
+            background: linear-gradient(135deg, #00adb5, #008288);
+            color: white;
+        }
+
+        /* Specific styles for gradient card titles */
+        .gradient-form-a .card-title-custom,
+        .gradient-form-b .card-title-custom,
+        .gradient-form-c .card-title-custom,
+        .gradient-form-d .card-title-custom {
+            font-size: 1.1rem;  /* Larger font size */
+            font-weight: 700; /* Bolder font */
+            color: #ffffff !important; /* Ensure full white color, overriding text-white-50 */
+        }
+        
+        /* Specific hover effect for gradient cards */
+        .gradient-form-a:hover,
+        .gradient-form-b:hover,
+        .gradient-form-c:hover,
+        .gradient-form-d:hover {
+            transform: translateY(-6px) rotateX(4deg) rotateY(-4deg); /* Tilt effect */
+            box-shadow: 0 0.75rem 1.5rem rgba(0,0,0,0.2)!important; /* Enhanced shadow */
+        }
+
+
+        .animated-gradient {
+            background-size: 250% 250%;
+            animation: gradientAnimation 12s ease infinite alternate;
+        }
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar { width: 8px; height: 8px;}
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #c1c1c1; border-radius: 4px;}
+        ::-webkit-scrollbar-thumb:hover { background: #a8a8a8;}
+
+        .nav-tabs .nav-link.active {
+            border-color: #dee2e6 #dee2e6 #fff;
+            border-bottom: 3px solid #00adb5 !important; /* accent */
+            color: #00adb5 !important; /* accent */
+        }
+        .table th, .table td {
+            white-space: nowrap;
+        }
+        .chart-container {
+            height: 288px; /* h-72 */
+            position: relative;
+        }
+        .sidebar-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 1040; /* Below sidebar */
+            display: none; /* Hidden by default */
+        }
+        .sidebar.open + .sidebar-overlay {
+            display: block;
+        }
+
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "recharts": "https://esm.sh/recharts@^2.15.3"
+  }
+}
+</script>
+</head>
+<body>
+    <aside class="sidebar" id="sidebar" role="complementary">
+        <div class="sidebar-header">
+            <div class="d-flex align-items-center justify-content-center">
+                <i class="bi bi-diagram-3-fill fs-2 me-2"></i>
+                <h1 class="fs-4 mb-0">SAPRA</h1>
+            </div>
+            <p class="slogan mb-0">Smart Access for Pre-commissioning Activities</p>
+        </div>
+        <div class="sidebar-search">
+            <div class="input-group">
+                <span class="input-group-text"><i class="bi bi-search"></i></span>
+                <input type="text" class="form-control form-control-sm" placeholder="Search system..." id="searchInput">
+            </div>
+        </div>
+        <div class="tree-view-container" id="treeView">
+            <!-- Tree nodes will be injected here by JavaScript -->
+        </div>
+        <footer class="sidebar-footer mt-auto">
+            <p class="mb-0">Developed by Amin Naseri</p>
+            <p class="mb-0">Contact: akarimvand@gmail.com</p>
+        </footer>
+    </aside>
+     <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+
+    <div class="main-content" id="mainContent">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" id="sidebarToggle" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <h5 class="mb-0 ms-2 ms-lg-0" id="dashboardTitle">Dashboard</h5>
+                <div class="ms-auto d-flex align-items-center">
+                    <button class="btn btn-success btn-sm me-2 d-flex align-items-center" id="exportExcelBtn">
+                        <i class="bi bi-file-earmark-excel me-1"></i> Export to Excel
+                    </button>
+                    <span class="badge bg-primary d-flex align-items-center">
+                        <i class="bi bi-box-seam me-1"></i>
+                        <span id="totalItemsCounter">0</span>&nbsp;items
+                    </span>
+                </div>
+            </div>
+        </nav>
+
+        <main class="container-fluid py-4" role="main">
+            <div id="loadingMessage" class="alert alert-info" role="status" style="display: none;">Loading data...</div>
+            <div id="errorMessage" class="alert alert-danger" role="alert" style="display: none;">Error loading data.</div>
+            
+            <!-- Row 1: Original Summary Cards + Issues Card -->
+            <div class="row mb-4 g-4" id="summaryCardsRow1">
+                {/* <!-- Summary cards will be injected here --> */}
+            </div>
+
+            <!-- Row 2: FORM A-D Cards -->
+            <div class="row mb-4 g-4" id="summaryCardsRow2">
+                {/* <!-- FORM cards will be injected here --> */}
+            </div>
+
+            <!-- Charts Section -->
+            <div class="card shadow-sm mb-4">
+                <div class="card-body">
+                    <ul class="nav nav-tabs" id="chartTabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="overview-tab-btn" data-bs-toggle="tab" data-bs-target="#overviewChartsContainer" data-tab-name="Overview" type="button" role="tab" aria-controls="overviewChartsContainer" aria-selected="true">Overview</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="bydiscipline-tab-btn" data-bs-toggle="tab" data-bs-target="#disciplineChartsContainer" data-tab-name="By Discipline" type="button" role="tab" aria-controls="disciplineChartsContainer" aria-selected="false">By Discipline</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="bysystem-tab-btn" data-bs-toggle="tab" data-bs-target="#systemChartsContainer" data-tab-name="By System" type="button" role="tab" aria-controls="systemChartsContainer" aria-selected="false">By System</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content pt-3">
+                        <div id="overviewChartsContainer" class="tab-pane fade show active chart-tab-content" role="tabpanel" aria-labelledby="overview-tab-btn">
+                             <div class="row">
+                                <div class="col-lg-6 mb-3 mb-lg-0">
+                                    <h6 class="text-muted mb-2 text-center fw-medium">General Status</h6>
+                                    <div class="chart-container"><canvas id="overviewChart" role="img" aria-label="General status doughnut chart"></canvas></div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <h6 class="text-muted mb-2 text-center fw-medium">Issue Distribution</h6>
+                                    <div class="chart-container"><canvas id="issuesChart" role="img" aria-label="Issue distribution pie chart"></canvas></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="disciplineChartsContainer" class="tab-pane fade chart-tab-content" role="tabpanel" aria-labelledby="bydiscipline-tab-btn">
+                            {/* <!-- Discipline charts will be injected here --> */}
+                        </div>
+                        <div id="systemChartsContainer" class="tab-pane fade chart-tab-content" role="tabpanel" aria-labelledby="bysystem-tab-btn">
+                            {/* <!-- System/Subsystem charts will be injected here --> */}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Data Table -->
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title text-secondary mb-3">Items Details</h5>
+                    <div class="table-responsive">
+                        <table class="table table-hover table-sm" id="dataTable" aria-live="polite">
+                            <caption class="visually-hidden">Detailed item data based on current selection</caption>
+                            <thead class="table-light">
+                                <tr id="dataTableHead">
+                                    {/* <!-- Table headers will be injected here --> */}
+                                </tr>
+                            </thead>
+                            <tbody id="dataTableBody">
+                                {/* <!-- Table rows will be injected here --> */}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+
+    <script>
+        // --- Constants ---
+        const CSV_URL = "https://raw.githubusercontent.com/akarimvand/hos/refs/heads/main/data.csv";
+        const COLORS_STATUS_CHARTJS = {
+            done: 'rgba(76, 175, 80, 0.8)',    // success
+            pending: 'rgba(255, 166, 0, 0.8)', // warning
+            remaining: 'rgba(0, 146, 202, 0.8)' // info
+        };
+        const COLORS_ISSUES_CHARTJS = {
+            punch: 'rgba(255, 46, 99, 0.8)',   // danger
+            hold: 'rgba(155, 89, 182, 0.8)'    // purple
+        };
+        // Icon SVGs (simplified for direct use, could be more complex if needed)
+        const ICONS = {
+             Collection: '<i class="bi bi-collection" aria-hidden="true"></i>',
+             Folder: '<i class="bi bi-folder" aria-hidden="true"></i>',
+             Puzzle: '<i class="bi bi-puzzle" aria-hidden="true"></i>',
+             ChevronRight: '<i class="bi bi-chevron-right chevron-toggle" aria-hidden="true"></i>',
+             CheckCircle: '<i class="bi bi-check-circle" aria-hidden="true"></i>',
+             Clock: '<i class="bi bi-clock" aria-hidden="true"></i>',
+             ArrowRepeat: '<i class="bi bi-arrow-repeat" aria-hidden="true"></i>',
+             ExclamationTriangle: '<i class="bi bi-exclamation-triangle" aria-hidden="true"></i>',
+             FileEarmarkText: '<i class="bi bi-file-earmark-text" aria-hidden="true"></i>',
+             FileEarmarkCheck: '<i class="bi bi-file-earmark-check" aria-hidden="true"></i>',
+             FileEarmarkMedical: '<i class="bi bi-file-earmark-medical" aria-hidden="true"></i>',
+             FileEarmarkSpreadsheet: '<i class="bi bi-file-earmark-spreadsheet" aria-hidden="true"></i>',
+             PieChartIcon: '<i class="bi bi-pie-chart-fill fs-1" aria-hidden="true"></i>'
+        };
+
+        // --- Global State ---
+        let processedData = { systemMap: {}, subSystemMap: {}, allRawData: [] };
+        let selectedView = { type: 'all', id: 'all', name: 'All Systems' };
+        let searchTerm = '';
+        let activeChartTab = 'Overview';
+        let aggregatedStats = { totalItems: 0, done: 0, pending: 0, punch: 0, hold: 0, remaining: 0 };
+        
+        const chartInstances = {
+            overview: null,
+            issues: null,
+            disciplines: {}, // { disciplineName: chartInstance }
+            systems: {}      // { systemOrSubId: chartInstance }
+        };
+        let bootstrapTabObjects = {}; // To store Bootstrap Tab instances
+
+        // --- DOM Elements ---
+        const DOMElements = {
+            sidebar: document.getElementById('sidebar'),
+            sidebarToggle: document.getElementById('sidebarToggle'),
+            sidebarOverlay: document.getElementById('sidebarOverlay'),
+            mainContent: document.getElementById('mainContent'),
+            treeView: document.getElementById('treeView'),
+            searchInput: document.getElementById('searchInput'),
+            dashboardTitle: document.getElementById('dashboardTitle'),
+            totalItemsCounter: document.getElementById('totalItemsCounter'),
+            summaryCardsRow1: document.getElementById('summaryCardsRow1'),
+            summaryCardsRow2: document.getElementById('summaryCardsRow2'),
+            chartTabs: document.getElementById('chartTabs'),
+            overviewChartsContainer: document.getElementById('overviewChartsContainer'),
+            disciplineChartsContainer: document.getElementById('disciplineChartsContainer'),
+            systemChartsContainer: document.getElementById('systemChartsContainer'),
+            dataTableHead: document.getElementById('dataTableHead'),
+            dataTableBody: document.getElementById('dataTableBody'),
+            exportExcelBtn: document.getElementById('exportExcelBtn'),
+            loadingMessage: document.getElementById('loadingMessage'),
+            errorMessage: document.getElementById('errorMessage'),
+        };
+
+
+        // --- Initialization ---
+        document.addEventListener('DOMContentLoaded', () => {
+            initEventListeners();
+            initBootstrapTabs();
+            loadAndProcessData();
+        });
+
+        function initBootstrapTabs() {
+            DOMElements.chartTabs.querySelectorAll('button[data-bs-toggle="tab"]').forEach(tabEl => {
+                 bootstrapTabObjects[tabEl.id] = new bootstrap.Tab(tabEl);
+            });
+        }
+
+        function initEventListeners() {
+            DOMElements.sidebarToggle.addEventListener('click', () => {
+                const isOpen = DOMElements.sidebar.classList.contains('open');
+                DOMElements.sidebar.classList.toggle('open');
+                DOMElements.mainContent.classList.toggle('sidebar-open');
+                DOMElements.sidebarOverlay.style.display = DOMElements.sidebar.classList.contains('open') ? 'block' : 'none';
+                DOMElements.sidebarToggle.setAttribute('aria-expanded', !isOpen);
+            });
+            DOMElements.sidebarOverlay.addEventListener('click', () => {
+                DOMElements.sidebar.classList.remove('open');
+                DOMElements.mainContent.classList.remove('sidebar-open');
+                DOMElements.sidebarOverlay.style.display = 'none';
+                DOMElements.sidebarToggle.setAttribute('aria-expanded', 'false');
+            });
+
+            DOMElements.searchInput.addEventListener('input', (e) => {
+                searchTerm = e.target.value.toLowerCase();
+                renderSidebar();
+            });
+             DOMElements.searchInput.setAttribute('aria-label', 'Search system or subsystem');
+
+
+            DOMElements.exportExcelBtn.addEventListener('click', handleExport);
+
+            DOMElements.chartTabs.addEventListener('click', (e) => {
+                const button = e.target.closest('button[data-bs-toggle="tab"]');
+                if (button) {
+                    const tabName = button.dataset.tabName;
+                    if (tabName && tabName !== activeChartTab) {
+                        activeChartTab = tabName;
+                        // Bootstrap handles the tab UI update automatically via data-bs-toggle
+                        renderCharts(); 
+                    }
+                }
+            });
+        }
+
+        function updateActiveTabUI() { // No longer strictly needed for BS tabs, but kept if manual control is desired elsewhere
+            const buttons = DOMElements.chartTabs.querySelectorAll('button');
+            buttons.forEach(btn => {
+                const isActive = btn.dataset.tabName === activeChartTab;
+                btn.classList.toggle('active', isActive);
+                btn.setAttribute('aria-selected', isActive);
+                
+                const targetPaneId = btn.dataset.bsTarget;
+                if (targetPaneId) {
+                    const targetPane = document.querySelector(targetPaneId);
+                    if (targetPane) {
+                        targetPane.classList.toggle('show', isActive);
+                        targetPane.classList.toggle('active', isActive);
+                    }
+                }
+            });
+        }
+
+        // --- Data Loading and Processing ---
+        async function loadAndProcessData() {
+            DOMElements.loadingMessage.style.display = 'block';
+            DOMElements.errorMessage.style.display = 'none';
+            try {
+                const response = await fetch(CSV_URL);
+                if (!response.ok) {
+                    throw new Error(`Network response was not ok: ${response.statusText}`);
+                }
+                const csvText = await response.text();
+
+                Papa.parse(csvText, {
+                    header: true,
+                    skipEmptyLines: true,
+                    complete: (results) => {
+                        const data = results.data;
+                        const systemMap = {};
+                        const subSystemMap = {};
+
+                        data.forEach(row => {
+                            if (!row.SD_System || !row.SD_Sub_System || !row.discipline) return;
+
+                            const systemId = row.SD_System.trim();
+                            const systemName = (row.SD_System_Name || 'Unknown System').trim();
+                            const subId = row.SD_Sub_System.trim();
+                            const subName = (row.SD_Subsystem_Name || 'Unknown SubSystem').trim();
+                            const discipline = row.discipline.trim();
+
+                            if (!systemMap[systemId]) {
+                                systemMap[systemId] = { id: systemId, name: systemName, subs: [] };
+                            }
+                            if (!systemMap[systemId].subs.find(s => s.id === subId)) {
+                                systemMap[systemId].subs.push({ id: subId, name: subName });
+                            }
+
+                            if (!subSystemMap[subId]) {
+                                subSystemMap[subId] = { id: subId, name: subName, systemId: systemId, title: `${subId} - ${subName}`, disciplines: {} };
+                            }
+                            
+                            const total = parseInt(row["TOTAL ITEM"]) || 0;
+                            const done = parseInt(row["TOTAL DONE"]) || 0;
+                            const pending = parseInt(row["TOTAL PENDING"]) || 0;
+                            
+                            subSystemMap[subId].disciplines[discipline] = {
+                                total: total,
+                                done: done,
+                                pending: pending,
+                                punch: parseInt(row["TOTAL NOT CLEAR PUNCH"]) || 0,
+                                hold: parseInt(row["TOTAL HOLD POINT"]) || 0,
+                                remaining: Math.max(0, total - done - pending)
+                            };
+                        });
+                        processedData = { systemMap, subSystemMap, allRawData: data };
+                        DOMElements.loadingMessage.style.display = 'none';
+                        updateView(); // Initial render after data load
+                    },
+                    error: (err) => {
+                        DOMElements.loadingMessage.style.display = 'none';
+                        DOMElements.errorMessage.textContent = `Failed to load or parse CSV: ${err.message}`;
+                        DOMElements.errorMessage.style.display = 'block';
+                        console.error("PapaParse error:", err);
+                    }
+                });
+            } catch (e) {
+                DOMElements.loadingMessage.style.display = 'none';
+                DOMElements.errorMessage.textContent = `Error fetching data: ${e.message}`;
+                DOMElements.errorMessage.style.display = 'block';
+                console.error("Fetch error:", e);
+            }
+        }
+
+        // --- Rendering Functions ---
+        function renderSidebar() {
+            let html = '';
+            const createNodeHTML = (node, level = 0, parentId = null) => {
+                const isSelected = selectedView.type === node.type && selectedView.id === node.id;
+                const hasChildren = node.children && node.children.length > 0;
+                let childrenHTML = '';
+                let isOpen = node.isOpen || false;
+                 let isExpanded = isOpen; // For ARIA
+
+                if (searchTerm && node.children?.some(child => child.name.toLowerCase().includes(searchTerm))) {
+                   isOpen = true; 
+                   isExpanded = true;
+                }
+
+
+                if (hasChildren && isOpen) {
+                    childrenHTML = `<div class="tree-children" role="group" style="display: block;">${node.children.map(child => createNodeHTML(child, level + 1, node.id)).join('')}</div>`;
+                } else if (hasChildren) {
+                     childrenHTML = `<div class="tree-children" role="group" style="display: none;">${node.children.map(child => createNodeHTML(child, level + 1, node.id)).join('')}</div>`;
+                }
+                
+                const paddingLeft = level * 12 + 12; // px
+                const nodeId = `tree-node-${node.type}-${node.id.replace(/[^a-zA-Z0-9-_]/g, '')}`;
+                
+                return `
+                    <div id="${nodeId}" class="tree-node ${isSelected ? 'selected' : ''} ${isOpen ? 'open' : ''}" 
+                         role="treeitem" aria-selected="${isSelected}" ${hasChildren ? `aria-expanded="${isExpanded}"` : ''}
+                         data-type="${node.type}" data-id="${node.id}" data-name="${node.name}" 
+                         data-parent-id="${parentId || ''}" style="padding-left: ${paddingLeft}px;" tabindex="${isSelected || (level === 0 && !document.querySelector('.tree-node.selected')) ? '0' : '-1'}">
+                        ${node.icon || ''}
+                        <span class="flex-grow-1 text-truncate me-2">${node.name}</span>
+                        ${hasChildren ? ICONS.ChevronRight : ''}
+                    </div>
+                    ${childrenHTML}
+                `;
+            };
+
+            const treeNodes = [
+                { id: 'all', name: 'All Systems', type: 'all', icon: ICONS.Collection, isOpen: selectedView.id === 'all' ? true : processedData.systemMap[selectedView.parentId]?.isOpenOnSearch }
+            ];
+
+            Object.values(processedData.systemMap).forEach(system => {
+                const systemNode = {
+                    id: system.id,
+                    name: system.id,
+                    type: 'system',
+                    icon: ICONS.Folder,
+                    children: system.subs.map(sub => ({
+                        id: sub.id,
+                        name: sub.id,
+                        type: 'subsystem',
+                        icon: ICONS.Puzzle,
+                        parentId: system.id,
+                        isOpen: selectedView.id === sub.id 
+                    })),
+                    isOpen: selectedView.id === system.id || selectedView.parentId === system.id || (searchTerm && system.subs.some(s => s.id.toLowerCase().includes(searchTerm)))
+                };
+                treeNodes.push(systemNode);
+            });
+
+            const filterNodes = (nodes) => {
+                if (!searchTerm) return nodes;
+                return nodes.map(node => {
+                    const isMatch = node.name.toLowerCase().includes(searchTerm);
+                    const filteredChildren = node.children ? filterNodes(node.children) : null;
+                    if (isMatch || (filteredChildren && filteredChildren.length > 0)) {
+                        return { ...node, children: filteredChildren, isOpen: true }; 
+                    }
+                    return null;
+                }).filter(Boolean);
+            };
+            
+            const finalTreeNodes = filterNodes(treeNodes);
+            html = finalTreeNodes.map(node => createNodeHTML(node)).join('');
+             if (finalTreeNodes.length === 0 && searchTerm) {
+                html = `<p class="text-muted text-center small p-3">No matching items found.</p>`;
+            }
+
+            DOMElements.treeView.innerHTML = `<div role="tree" aria-label="System and Subsystem Navigation">${html}</div>`;
+            attachSidebarEventListeners();
+        }
+        
+        function attachSidebarEventListeners() {
+            DOMElements.treeView.querySelectorAll('.tree-node').forEach(el => {
+                el.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    const type = this.dataset.type;
+                    const id = this.dataset.id;
+                    const name = this.dataset.name;
+                    const parentId = this.dataset.parentId;
+
+                    const targetIsChevron = e.target.classList.contains('chevron-toggle') || e.target.closest('.chevron-toggle');
+                    const hasChildren = this.hasAttribute('aria-expanded');
+                    
+                    if (targetIsChevron && hasChildren) { // Toggle children
+                        const isOpen = this.classList.toggle('open');
+                        this.setAttribute('aria-expanded', isOpen);
+                        const childrenContainer = this.nextElementSibling;
+                        if (childrenContainer && childrenContainer.classList.contains('tree-children')) {
+                            childrenContainer.style.display = isOpen ? 'block' : 'none';
+                        }
+                    } else { // Select node
+                         handleNodeSelect(type, id, name, parentId);
+                         if (window.innerWidth < 992) { // Close sidebar on mobile after selection
+                            DOMElements.sidebar.classList.remove('open');
+                            DOMElements.mainContent.classList.remove('sidebar-open');
+                            DOMElements.sidebarOverlay.style.display = 'none';
+                            DOMElements.sidebarToggle.setAttribute('aria-expanded', 'false');
+                        }
+                    }
+                });
+            });
+        }
+
+        function handleNodeSelect(type, id, name, parentId = null) {
+            selectedView = { type, id, name, parentId }; 
+            updateView();
+        }
+        
+        function updateView() {
+            aggregatedStats = _aggregateStatsForView(selectedView, processedData.systemMap, processedData.subSystemMap);
+            
+            DOMElements.dashboardTitle.textContent = selectedView.name || 'Dashboard';
+            DOMElements.totalItemsCounter.textContent = aggregatedStats.totalItems.toLocaleString();
+
+            renderSummaryCards();
+            renderCharts(); 
+            renderDataTable();
+            renderSidebar(); 
+        }
+
+        function renderSummaryCards() {
+            let row1HTML = '';
+            let row2HTML = '';
+
+            const originalCardsData = [
+                { title: 'Completed', count: aggregatedStats.done, total: aggregatedStats.totalItems, baseClass: 'bg-white', icon: ICONS.CheckCircle, iconWrapperBgClass: 'bg-success-subtle', iconColorClass: 'text-success', progressColor: 'success', countColor: 'text-success', titleColor: 'text-muted' },
+                { title: 'Pending', count: aggregatedStats.pending, total: aggregatedStats.totalItems, baseClass: 'bg-white', icon: ICONS.Clock, iconWrapperBgClass: 'bg-warning-subtle', iconColorClass: 'text-warning', progressColor: 'warning', countColor: 'text-warning', titleColor: 'text-muted' },
+                { title: 'Remaining', count: aggregatedStats.remaining, total: aggregatedStats.totalItems, baseClass: 'bg-white', icon: ICONS.ArrowRepeat, iconWrapperBgClass: 'bg-info-subtle', iconColorClass: 'text-info', progressColor: 'info', countColor: 'text-info', titleColor: 'text-muted' },
+            ];
+
+            originalCardsData.forEach(card => {
+                const percentage = (card.total && card.total > 0 && card.count >= 0) ? Math.round((card.count / card.total) * 100) : 0;
+                row1HTML += `
+                    <div class="col">
+                        <section class="card summary-card shadow-sm ${card.baseClass}" aria-labelledby="summary-title-${card.title.toLowerCase()}">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h6 id="summary-title-${card.title.toLowerCase()}" class="card-title-custom fw-medium ${card.titleColor}">${card.title}</h6>
+                                    <span class="icon-wrapper ${card.iconWrapperBgClass} ${card.iconColorClass}" aria-hidden="true">${card.icon}</span>
+                                </div>
+                                <h3 class="count-display ${card.countColor} mb-1">${card.count.toLocaleString()}</h3>
+                                ${card.total > 0 ? `
+                                <div class="progress mt-2" style="height: 6px;" aria-label="${card.title} progress ${percentage}%">
+                                    <div class="progress-bar bg-${card.progressColor}" role="progressbar" style="width: ${percentage}%" aria-valuenow="${percentage}" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <p class="text-muted small mt-1 mb-0">${percentage}% of total items</p>
+                                ` : '<div style="height: 28px;"></div>'} 
+                            </div>
+                        </section>
+                    </div>`;
+            });
+            
+            const issuesPercent = aggregatedStats.totalItems > 0 && (aggregatedStats.punch + aggregatedStats.hold) > 0 
+                        ? `${Math.round(((aggregatedStats.punch + aggregatedStats.hold) / aggregatedStats.totalItems) * 100)}% of total items`
+                        : aggregatedStats.totalItems === 0 && (aggregatedStats.punch + aggregatedStats.hold) > 0 
+                        ? 'N/A % (No total items)'
+                        : '0% of total items';
+            row1HTML += `
+                <div class="col">
+                    <section class="card summary-card shadow-sm bg-white" aria-labelledby="summary-title-issues">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h6 id="summary-title-issues" class="card-title-custom fw-medium text-muted">Issues</h6>
+                                <span class="icon-wrapper bg-danger-subtle text-danger" aria-hidden="true">${ICONS.ExclamationTriangle}</span>
+                            </div>
+                            <div class="row g-2">
+                                <div class="col-6">
+                                    <p class="small text-muted mb-0">Punch</p>
+                                    <h4 class="text-danger fw-semibold">${aggregatedStats.punch.toLocaleString()}</h4>
+                                </div>
+                                <div class="col-6">
+                                    <p class="small text-muted mb-0">Hold Point</p>
+                                    <h4 class="text-danger fw-semibold">${aggregatedStats.hold.toLocaleString()}</h4>
+                                </div>
+                            </div>
+                             <p class="text-muted small mt-1 mb-0">${issuesPercent}</p>
+                        </div>
+                    </section>
+                </div>`;
+            DOMElements.summaryCardsRow1.innerHTML = row1HTML;
+
+            const formCardsData = [
+                { title: 'FORM A', count: 0, gradientClass: 'gradient-form-a animated-gradient', icon: ICONS.FileEarmarkText },
+                { title: 'FORM B', count: 0, gradientClass: 'gradient-form-b animated-gradient', icon: ICONS.FileEarmarkCheck },
+                { title: 'FORM C', count: 0, gradientClass: 'gradient-form-c animated-gradient', icon: ICONS.FileEarmarkMedical },
+                { title: 'FORM D', count: 0, gradientClass: 'gradient-form-d animated-gradient', icon: ICONS.FileEarmarkSpreadsheet },
+            ];
+            formCardsData.forEach(card => {
+                row2HTML += `
+                    <div class="col">
+                        <section class="card summary-card shadow-sm ${card.gradientClass}" aria-labelledby="summary-title-${card.title.toLowerCase().replace(' ','-')}">
+                            <div class="card-body text-white">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h6 id="summary-title-${card.title.toLowerCase().replace(' ','-')}" class="card-title-custom">${card.title}</h6>
+                                    <span class="icon-wrapper" style="background-color: rgba(0,0,0,0.2);" aria-hidden="true">${card.icon}</span>
+                                </div>
+                                <h3 class="count-display mb-1">${card.count.toLocaleString()}</h3>
+                                <p class="small mb-0 text-white-50 opacity-75">&nbsp;</p> 
+                            </div>
+                        </section>
+                    </div>`;
+            });
+            DOMElements.summaryCardsRow2.innerHTML = row2HTML;
+        }
+
+        function destroyChart(chartInstance) {
+            if (chartInstance) {
+                chartInstance.destroy();
+            }
+        }
+        
+        function renderCharts() {
+            destroyChart(chartInstances.overview);
+            destroyChart(chartInstances.issues);
+            Object.values(chartInstances.disciplines).forEach(destroyChart);
+            chartInstances.disciplines = {};
+            Object.values(chartInstances.systems).forEach(destroyChart);
+            chartInstances.systems = {};
+
+            const activeTabPane = document.querySelector(`.tab-pane.active[role="tabpanel"]`);
+
+            if (activeTabPane && activeTabPane.id === 'overviewChartsContainer') {
+                renderOverviewCharts();
+            } else if (activeTabPane && activeTabPane.id === 'disciplineChartsContainer') {
+                renderDisciplineCharts();
+            } else if (activeTabPane && activeTabPane.id === 'systemChartsContainer') {
+                renderSystemSubsystemCharts();
+            }
+        }
+
+        function renderOverviewCharts() {
+            const overviewCanvas = document.getElementById('overviewChart');
+            const overviewParent = overviewCanvas.parentElement;
+            overviewParent.innerHTML = '<canvas id="overviewChart" role="img" aria-label="General status doughnut chart"></canvas>'; // Reset for no data message
+            const overviewCtx = document.getElementById('overviewChart').getContext('2d');
+
+            const overviewChartData = {
+                labels: ['Completed', 'Pending', 'Remaining'],
+                datasets: [{
+                    label: 'General Status',
+                    data: [aggregatedStats.done, aggregatedStats.pending, aggregatedStats.remaining].filter(v => v >=0), 
+                    backgroundColor: [COLORS_STATUS_CHARTJS.done, COLORS_STATUS_CHARTJS.pending, COLORS_STATUS_CHARTJS.remaining],
+                    hoverOffset: 4
+                }]
+            };
+            if (aggregatedStats.totalItems === 0 || (aggregatedStats.done === 0 && aggregatedStats.pending === 0 && aggregatedStats.remaining === 0)) {
+                 overviewParent.insertAdjacentHTML('beforeend', '<div class="text-center text-muted small p-5">No data to display for General Status.</div>');
+            } else {
+                chartInstances.overview = new Chart(overviewCtx, { type: 'doughnut', data: overviewChartData, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom' }, tooltip: { callbacks: { label: (context) => `${context.label}: ${context.formattedValue} (${Math.round(context.parsed / aggregatedStats.totalItems * 100)}%)`}}}} });
+            }
+
+            const issuesCanvas = document.getElementById('issuesChart');
+            const issuesParent = issuesCanvas.parentElement;
+            issuesParent.innerHTML = '<canvas id="issuesChart" role="img" aria-label="Issue distribution pie chart"></canvas>';
+            const issuesCtx = document.getElementById('issuesChart').getContext('2d');
+            const issuesChartData = {
+                labels: ['Punch', 'Hold Point'],
+                datasets: [{
+                    label: 'Issues Distribution',
+                    data: [aggregatedStats.punch, aggregatedStats.hold].filter(v=>v>=0),
+                    backgroundColor: [COLORS_ISSUES_CHARTJS.punch, COLORS_ISSUES_CHARTJS.hold],
+                    hoverOffset: 4
+                }]
+            };
+             if (aggregatedStats.punch === 0 && aggregatedStats.hold === 0) {
+                  issuesParent.insertAdjacentHTML('beforeend', '<div class="text-center text-muted small p-5">No issues data to display.</div>');
+            } else {
+                const totalIssues = aggregatedStats.punch + aggregatedStats.hold;
+                chartInstances.issues = new Chart(issuesCtx, { type: 'pie', data: issuesChartData, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom' }, tooltip: { callbacks: { label: (context) => `${context.label}: ${context.formattedValue} (${Math.round(context.parsed / totalIssues * 100)}%)`}}}} });
+            }
+        }
+
+        function renderDisciplineCharts() {
+            const container = DOMElements.disciplineChartsContainer;
+            container.innerHTML = ''; 
+
+            if (selectedView.type !== 'subsystem' || !selectedView.id) {
+                container.innerHTML = `<div class="col-12 text-center py-5 text-muted" role="status">${ICONS.PieChartIcon}<p class="mt-2">Select a subsystem to view discipline details.</p></div>`;
+                return;
+            }
+            const subSystem = processedData.subSystemMap[selectedView.id];
+            if (!subSystem || Object.keys(subSystem.disciplines).length === 0) {
+                container.innerHTML = `<div class="col-12 text-center py-5 text-muted" role="status">${ICONS.PieChartIcon}<p class="mt-2">No discipline data available for this subsystem.</p></div>`;
+                return;
+            }
+
+            const row = document.createElement('div');
+            row.className = 'row g-3';
+
+            Object.entries(subSystem.disciplines).forEach(([name, data]) => {
+                const col = document.createElement('div');
+                col.className = 'col-12 col-md-6 col-lg-4 col-xl-3';
+                const chartId = `disciplineChart-${name.replace(/\s+/g, '-')}`;
+                const chartLabel = `${name} status for subsystem ${selectedView.id}`;
+                col.innerHTML = `
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <h6 class="text-muted small fw-medium mb-1">${name}</h6>
+                            <p class="text-muted small mb-2">${data.total.toLocaleString()} items</p>
+                            <div class="chart-container" style="height: 200px;"><canvas id="${chartId}" role="img" aria-label="${chartLabel}"></canvas></div>
+                        </div>
+                    </div>`;
+                row.appendChild(col);
+                
+                if (data.total > 0) {
+                    setTimeout(() => { 
+                        const ctx = document.getElementById(chartId).getContext('2d');
+                        const chartData = {
+                            labels: ['Completed', 'Pending', 'Remaining'],
+                            datasets: [{ label: name, data: [data.done, data.pending, data.remaining], backgroundColor: [COLORS_STATUS_CHARTJS.done, COLORS_STATUS_CHARTJS.pending, COLORS_STATUS_CHARTJS.remaining] }]
+                        };
+                        chartInstances.disciplines[name] = new Chart(ctx, { type: 'doughnut', data: chartData, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: true, position: 'bottom', labels: { boxWidth:10, font: {size: 10}} }, tooltip: { callbacks: { label: (context) => `${context.label}: ${context.formattedValue} (${Math.round(context.parsed / data.total * 100)}%)`}}} } });
+                    }, 0);
+                } else {
+                     setTimeout(() => {document.getElementById(chartId).parentElement.innerHTML = '<div class="text-center text-muted small p-5" style="height:100%; display:flex; align-items:center; justify-content:center;">No data.</div>';},0);
+                }
+            });
+            container.appendChild(row);
+        }
+
+        function renderSystemSubsystemCharts() {
+            const container = DOMElements.systemChartsContainer;
+            container.innerHTML = '';
+            let itemsToDisplay = [];
+
+            if (selectedView.type === 'all') {
+                itemsToDisplay = Object.values(processedData.systemMap).map(system => ({
+                    id: system.id,
+                    name: `${system.id} - ${system.name}`,
+                    data: _aggregateStatsForSystem(system.id, processedData.systemMap, processedData.subSystemMap)
+                }));
+            } else if (selectedView.type === 'system' && selectedView.id) {
+                const system = processedData.systemMap[selectedView.id];
+                if (system) {
+                    itemsToDisplay = system.subs.map(subRef => {
+                        const subSystem = processedData.subSystemMap[subRef.id];
+                        return {
+                            id: subRef.id,
+                            name: `${subRef.id} - ${subSystem?.name || 'N/A'}`,
+                            data: _aggregateStatsForSubSystem(subRef.id, processedData.subSystemMap)
+                        };
+                    });
+                }
+            } else if (selectedView.type === 'subsystem' && selectedView.id) {
+                const subSystem = processedData.subSystemMap[selectedView.id];
+                 if (subSystem) {
+                    itemsToDisplay = [{
+                        id: subSystem.id, name: `${subSystem.id} - ${subSystem.name}`,
+                        data: _aggregateStatsForSubSystem(subSystem.id, processedData.subSystemMap)
+                    }];
+                 }
+            }
+            
+            itemsToDisplay = itemsToDisplay.filter(item => item.data.totalItems > 0);
+
+
+            if (itemsToDisplay.length === 0) {
+                container.innerHTML = `<div class="col-12 text-center py-5 text-muted" role="status">${ICONS.PieChartIcon}<p class="mt-2">No systems or subsystems with data to display for this view.</p></div>`;
+                return;
+            }
+            
+            const row = document.createElement('div');
+            row.className = 'row g-3';
+
+            itemsToDisplay.forEach(item => {
+                const col = document.createElement('div');
+                col.className = 'col-12 col-md-6 col-lg-4 col-xl-3';
+                const chartId = `systemSubChart-${item.id.replace(/\s+/g, '-')}`;
+                const chartLabel = `Status for ${item.name}`;
+                 col.innerHTML = `
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <h6 class="text-muted small fw-medium mb-1 text-truncate" title="${item.name}">${item.name}</h6>
+                            <p class="text-muted small mb-2">${item.data.totalItems.toLocaleString()} items</p>
+                            <div class="chart-container" style="height: 200px;"><canvas id="${chartId}" role="img" aria-label="${chartLabel}"></canvas></div>
+                        </div>
+                    </div>`;
+                row.appendChild(col);
+                
+                if (item.data.totalItems > 0) {
+                     setTimeout(() => {
+                        const ctx = document.getElementById(chartId).getContext('2d');
+                        const chartData = {
+                            labels: ['Completed', 'Pending', 'Remaining'],
+                            datasets: [{ label: item.name, data: [item.data.done, item.data.pending, item.data.remaining], backgroundColor: [COLORS_STATUS_CHARTJS.done, COLORS_STATUS_CHARTJS.pending, COLORS_STATUS_CHARTJS.remaining] }]
+                        };
+                        chartInstances.systems[item.id] = new Chart(ctx, { type: 'doughnut', data: chartData, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: true, position: 'bottom', labels: { boxWidth:10, font: {size: 10}} }, tooltip: { callbacks: { label: (context) => `${context.label}: ${context.formattedValue} (${Math.round(context.parsed / item.data.totalItems * 100)}%)`}} }} });
+                    }, 0);
+                } else {
+                    setTimeout(() => {document.getElementById(chartId).parentElement.innerHTML = '<div class="text-center text-muted small p-5" style="height:100%; display:flex; align-items:center; justify-content:center;">No data.</div>';},0);
+                }
+            });
+             container.appendChild(row);
+        }
+
+
+        function renderDataTable() {
+            const columns = [
+                { header: 'System', accessor: 'system' }, { header: 'Subsystem', accessor: 'subsystem' },
+                { header: 'Discipline', accessor: 'discipline' }, { header: 'Total Items', accessor: 'totalItems' },
+                { header: 'Completed', accessor: 'completed' }, { header: 'Pending', accessor: 'pending' },
+                { header: 'Punch', accessor: 'punch' }, { header: 'Hold Point', accessor: 'holdPoint' },
+                { header: 'Status', accessor: 'statusPercent' },
+            ];
+            DOMElements.dataTableHead.innerHTML = columns.map(col => `<th scope="col">${col.header}</th>`).join('');
+
+            const tableData = _generateTableDataForView(selectedView, processedData, aggregatedStats.totalItems === 0);
+            let bodyHTML = '';
+            if (tableData.length === 0) {
+                bodyHTML = `<tr><td colspan="${columns.length}" class="text-center py-5 text-muted">Please select a subsystem or system to view details, or no data matches the current filter.</td></tr>`;
+            } else {
+                tableData.forEach(row => {
+                    bodyHTML += '<tr>';
+                    columns.forEach((col, index) => {
+                        let cellValue = row[col.accessor];
+                         if (col.accessor === 'statusPercent') {
+                            const badgeClass = row.statusPercent > 80 ? 'bg-success-subtle text-success' : row.statusPercent > 50 ? 'bg-info-subtle text-info' : 'bg-warning-subtle text-warning';
+                            cellValue = `<span class="badge ${badgeClass} rounded-pill">${row.statusPercent}%</span>`;
+                        } else if (col.accessor === 'system') {
+                            cellValue = `${row.system} - ${row.systemName}`;
+                        } else if (col.accessor === 'subsystem') {
+                            cellValue = `${row.subsystem} - ${row.subsystemName}`;
+                        } else {
+                            cellValue = (typeof cellValue === 'number') ? cellValue.toLocaleString() : cellValue;
+                        }
+                        const cellTag = index === 0 ? `<th scope="row">${cellValue}</th>` : `<td>${cellValue}</td>`;
+                        bodyHTML += cellTag;
+                    });
+                    bodyHTML += '</tr>';
+                });
+            }
+            DOMElements.dataTableBody.innerHTML = bodyHTML;
+        }
+
+        // --- Data Aggregation (Adapted from dataAggregator.ts) ---
+        const _emptyStats = () => ({ totalItems: 0, done: 0, pending: 0, punch: 0, hold: 0, remaining: 0 });
+
+        function _aggregateStatsForSubSystem(subSystemId, subSystemMap) {
+            const subSystem = subSystemMap[subSystemId];
+            if (!subSystem) return _emptyStats();
+            return Object.values(subSystem.disciplines).reduce((acc, discipline) => {
+                acc.totalItems += discipline.total;
+                acc.done += discipline.done;
+                acc.pending += discipline.pending;
+                acc.punch += discipline.punch;
+                acc.hold += discipline.hold;
+                return acc;
+            }, _emptyStats());
+        }
+
+        function _aggregateStatsForSystem(systemId, systemMap, subSystemMap) {
+            const system = systemMap[systemId];
+            if (!system) return _emptyStats();
+            return system.subs.reduce((acc, subRef) => {
+                const subSystemStats = _aggregateStatsForSubSystem(subRef.id, subSystemMap);
+                Object.keys(subSystemStats).forEach(key => acc[key] += subSystemStats[key]);
+                return acc;
+            }, _emptyStats());
+        }
+
+        function _aggregateStatsForAll(systemMap, subSystemMap) {
+            return Object.keys(systemMap).reduce((acc, systemId) => {
+                const systemStats = _aggregateStatsForSystem(systemId, systemMap, subSystemMap);
+                Object.keys(systemStats).forEach(key => acc[key] += systemStats[key]);
+                return acc;
+            }, _emptyStats());
+        }
+
+        function _aggregateStatsForView(view, systemMap, subSystemMap) {
+            let stats;
+            if (view.type === 'all' || !view.id) stats = _aggregateStatsForAll(systemMap, subSystemMap);
+            else if (view.type === 'system') stats = _aggregateStatsForSystem(view.id, systemMap, subSystemMap);
+            else stats = _aggregateStatsForSubSystem(view.id, subSystemMap);
+            stats.remaining = Math.max(0, stats.totalItems - stats.done - stats.pending);
+            return stats;
+        }
+        
+        function _generateTableDataForView(view, pData, isEmptyView, forExport = false) {
+            const { systemMap, subSystemMap, allRawData } = pData;
+            if (!forExport && isEmptyView && view.type !== 'all') return [];
+
+            let relevantRawData = [];
+            if (view.type === 'all') relevantRawData = allRawData;
+            else if (view.type === 'system' && view.id) {
+                const system = systemMap[view.id];
+                if (system) {
+                    const subIdsInSystem = new Set(system.subs.map(s => s.id));
+                    relevantRawData = allRawData.filter(row => subIdsInSystem.has(row.SD_Sub_System.trim()));
+                }
+            } else if (view.type === 'subsystem' && view.id) {
+                relevantRawData = allRawData.filter(row => row.SD_Sub_System.trim() === view.id);
+            }
+            
+            if (!forExport && relevantRawData.length === 0 && view.type !== 'all') return [];
+
+            return relevantRawData.map(row => {
+                const totalItems = parseInt(row["TOTAL ITEM"]) || 0;
+                const completed = parseInt(row["TOTAL DONE"]) || 0;
+                return {
+                    system: row.SD_System.trim(), systemName: (row.SD_System_Name || 'N/A').trim(),
+                    subsystem: row.SD_Sub_System.trim(), subsystemName: (row.SD_Subsystem_Name || 'N/A').trim(),
+                    discipline: row.discipline.trim(), totalItems, completed,
+                    pending: parseInt(row["TOTAL PENDING"]) || 0,
+                    punch: parseInt(row["TOTAL NOT CLEAR PUNCH"]) || 0,
+                    holdPoint: parseInt(row["TOTAL HOLD POINT"]) || 0,
+                    statusPercent: totalItems > 0 ? Math.round((completed / totalItems) * 100) : 0,
+                };
+            });
+        }
+
+        // --- Export to Excel ---
+        function handleExport() {
+            if (processedData && processedData.allRawData && processedData.allRawData.length > 0) {
+                const dataToExportRaw = _generateTableDataForView(selectedView, processedData, false, true);
+                 if (dataToExportRaw.length === 0) {
+                    alert("No data available to export for the current selection.");
+                    return;
+                }
+                const dataToExport = dataToExportRaw.map(row => ({
+                    System: row.system, SystemName: row.systemName,
+                    SubSystem: row.subsystem, SubSystemName: row.subsystemName,
+                    Discipline: row.discipline, TotalItems: row.totalItems,
+                    Completed: row.completed, Pending: row.pending,
+                    Punch: row.punch, HoldPoint: row.holdPoint,
+                    ProgressPercent: `${row.statusPercent}%`
+                }));
+
+                const currentDate = new Date().toISOString().split('T')[0];
+                let viewName = "AllSystems";
+                if (selectedView.type === 'system' && selectedView.id) viewName = `System_${selectedView.id.replace(/[^a-zA-Z0-9]/g, '_')}`;
+                else if (selectedView.type === 'subsystem' && selectedView.id) viewName = `SubSystem_${selectedView.id.replace(/[^a-zA-Z0-9]/g, '_')}`;
+                
+                const fileName = `SAPRA_Report_${viewName}_${currentDate}.xlsx`;
+                try {
+                    const worksheet = XLSX.utils.json_to_sheet(dataToExport);
+                    const workbook = XLSX.utils.book_new();
+                    XLSX.utils.book_append_sheet(workbook, worksheet, 'SAPRA Report');
+                    XLSX.writeFile(workbook, fileName);
+                } catch (error) {
+                    console.error("Error exporting to Excel:", error);
+                    alert("An error occurred while exporting to Excel.");
+                }
+            } else {
+                 alert("No data has been loaded yet to export.");
+            }
+        }
+
+    </script>
+</body>
+</html><link rel="stylesheet" href="index.css">
+<script src="index.tsx" type="module"></script>
