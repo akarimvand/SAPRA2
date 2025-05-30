@@ -1,0 +1,192 @@
+SD_System,SD_System_Name,SD_Sub_System,SD_Subsystem_Name,discipline,TOTAL ITEM,TOTAL DONE,TOTAL PENDING,TOTAL PUNCH,TOTAL CLEAR PUNCH,TOTAL NOT CLEAR PUNCH,TOTAL HOLD POINT
+1000,Gas Preparation,1000-01,Natural Gas and Desulphurization,INSTRUMENT,166,0,0,0,0,0,0
+1000,Gas Preparation,1000-01,Natural Gas and Desulphurization,MECHANICAL(STATIC),5,0,0,28,0,28,0
+1000,Gas Preparation,1000-01,Natural Gas and Desulphurization,PIPING,21,6,7,44,7,37,2
+1000,Gas Preparation,1000-02,Fuel Gas & Distribution,INSTRUMENT,171,0,0,0,0,0,0
+1000,Gas Preparation,1000-02,Fuel Gas & Distribution,MECHANICAL(STATIC),1,0,0,0,0,0,0
+1000,Gas Preparation,1000-02,Fuel Gas & Distribution,PIPING,12,1,2,21,4,17,0
+1000,Gas Preparation,1000-03,Natural Gas Saturation & Condensate,INSTRUMENT,327,0,0,0,0,0,0
+1000,Gas Preparation,1000-03,Natural Gas Saturation & Condensate,MECHANICAL(ROTARY),9,0,0,0,0,0,0
+1000,Gas Preparation,1000-03,Natural Gas Saturation & Condensate,MECHANICAL(STATIC),13,0,0,8,0,8,0
+1000,Gas Preparation,1000-03,Natural Gas Saturation & Condensate,PIPING,56,35,14,165,47,118,1
+1000,Gas Preparation,1000-04,Gas Station,INSTRUMENT,2,0,0,0,0,0,0
+1000,Gas Preparation,1000-04,Gas Station,PIPING,1,0,0,0,0,0,0
+120,Electrical Distribution Substation,120-01,6kV SWITCHBOARD SS-SWB2A/B-01,ELECTRICAL,136,0,0,563,0,563,0
+120,Electrical Distribution Substation,120-02,0-4KV SWITCHBOARD SS-SWB3A/B-01,ELECTRICAL,249,0,0,775,0,775,0
+120,Electrical Distribution Substation,120-03,0-4KV SWITCHBOARD SS-SWB3A/B-02,ELECTRICAL,235,0,0,683,0,683,0
+120,Electrical Distribution Substation,120-04,0-4KV SWITCHBOARD SS-SWB3A/B-03,ELECTRICAL,180,0,0,532,0,532,0
+120,Electrical Distribution Substation,120-05,0-4KV SWITCHBOARD SS-SWB3A/B-04,ELECTRICAL,172,0,0,540,0,540,0
+120,Electrical Distribution Substation,120-06,0-4KV SWITCHBOARD SS-SWB3A/B-05,ELECTRICAL,171,0,0,588,0,588,0
+120,Electrical Distribution Substation,120-07,0-4KV SWITCHBOARD SS-ESWB3A/B-01,ELECTRICAL,136,0,0,258,0,258,0
+120,Electrical Distribution Substation,120-08,Emergency Diesel Generator SS-DG-5701,ELECTRICAL,8,0,0,0,0,0,0
+120,Electrical Distribution Substation,120-09,CR-UPS-01 for Instrument Supply 190/110 AC UPS,ELECTRICAL,29,0,0,12,0,12,0
+120,Electrical Distribution Substation,120-10,SS-CH-01 for Electrical Supply 110V DC,ELECTRICAL,24,0,0,0,0,0,0
+120,Electrical Distribution Substation,120-11,SS-UPS-01 for Safety Lighting Supply 230 AC UPS,ELECTRICAL,18,0,0,31,0,31,0
+120,Electrical Distribution Substation,120-12,SS PDCS System,ELECTRICAL,10,0,0,4,0,4,0
+120,Electrical Distribution Substation,120-13,Cathodic Protection System,ELECTRICAL,131,0,0,0,0,0,0
+120,Electrical Distribution Substation,120-14,Electric Heat Tracing System,ELECTRICAL,3,0,0,0,0,0,0
+120,Electrical Distribution Substation,120-15,Capacitor Bank,ELECTRICAL,5,0,0,0,0,0,0
+120,Electrical Distribution Substation,120-16,MV Transformer,ELECTRICAL,10,0,0,12,0,12,6
+120,Electrical Distribution Substation,120-17,LV Transformer,ELECTRICAL,15,0,0,64,0,64,3
+120,Electrical Distribution Substation,120-18,E/I Cabinet,ELECTRICAL,16,0,0,48,0,48,0
+2000,Reforming,2000-01,Pre Reforming,INSTRUMENT,77,0,0,0,0,0,0
+2000,Reforming,2000-01,Pre Reforming,MECHANICAL(STATIC),2,0,0,0,0,0,0
+2000,Reforming,2000-01,Pre Reforming,PIPING,8,4,1,11,0,11,0
+2000,Reforming,2000-02,Primary Reforming,INSTRUMENT,696,0,0,0,0,0,0
+2000,Reforming,2000-02,Primary Reforming,MECHANICAL(STATIC),8,0,0,0,0,0,0
+2000,Reforming,2000-02,Primary Reforming,PIPING,9,4,1,14,2,12,0
+2000,Reforming,2000-03,Process Oxygen and Secondary Reformer,INSTRUMENT,341,0,0,0,0,0,0
+2000,Reforming,2000-03,Process Oxygen and Secondary Reformer,MECHANICAL(STATIC),6,0,0,0,0,0,0
+2000,Reforming,2000-03,Process Oxygen and Secondary Reformer,PIPING,24,5,0,8,0,8,2
+2000,Reforming,2000-04,Steam Generation & Superheated Steam,INSTRUMENT,224,0,0,0,0,0,0
+2000,Reforming,2000-04,Steam Generation & Superheated Steam,MECHANICAL(ROTARY),2,0,0,0,0,0,0
+2000,Reforming,2000-04,Steam Generation & Superheated Steam,MECHANICAL(STATIC),11,0,0,0,0,0,0
+2000,Reforming,2000-04,Steam Generation & Superheated Steam,PIPING,23,11,4,30,1,29,2
+2000,Reforming,2000-05,Gas Cooling and Separation,INSTRUMENT,216,0,0,0,0,0,0
+2000,Reforming,2000-05,Gas Cooling and Separation,MECHANICAL(ROTARY),4,0,0,0,0,0,0
+2000,Reforming,2000-05,Gas Cooling and Separation,MECHANICAL(STATIC),7,0,0,20,0,20,0
+2000,Reforming,2000-05,Gas Cooling and Separation,PIPING,38,12,20,113,41,72,0
+2000,Reforming,2000-06,Nitrogen Circuit,INSTRUMENT,21,0,0,0,0,0,0
+2000,Reforming,2000-06,Nitrogen Circuit,MECHANICAL(ROTARY),1,0,0,0,0,0,0
+2000,Reforming,2000-06,Nitrogen Circuit,PIPING,2,0,2,13,0,13,0
+3000,Compression and Synthesis,3000-01,Synthesis Gas Compression,INSTRUMENT,747,0,0,0,0,0,0
+3000,Compression and Synthesis,3000-01,Synthesis Gas Compression,MECHANICAL(ROTARY),3,0,0,0,0,0,0
+3000,Compression and Synthesis,3000-01,Synthesis Gas Compression,MECHANICAL(STATIC),5,0,0,0,0,0,0
+3000,Compression and Synthesis,3000-01,Synthesis Gas Compression,PIPING,36,24,4,62,15,47,2
+3000,Compression and Synthesis,3000-02,Methanol Synthesis,INSTRUMENT,127,0,0,0,0,0,0
+3000,Compression and Synthesis,3000-02,Methanol Synthesis,MECHANICAL(STATIC),11,0,0,7,0,7,0
+3000,Compression and Synthesis,3000-02,Methanol Synthesis,PIPING,36,6,8,34,4,30,14
+3000,Compression and Synthesis,3000-03,Synthesis Gas Cooling,INSTRUMENT,270,0,0,0,0,0,0
+3000,Compression and Synthesis,3000-03,Synthesis Gas Cooling,MECHANICAL(STATIC),7,0,0,6,0,6,0
+3000,Compression and Synthesis,3000-03,Synthesis Gas Cooling,PIPING,32,9,19,98,12,86,0
+3000,Compression and Synthesis,3000-04,Hydrogen System,INSTRUMENT,147,0,0,0,0,0,0
+3000,Compression and Synthesis,3000-04,Hydrogen System,MECHANICAL(ROTARY),1,0,0,0,0,0,0
+3000,Compression and Synthesis,3000-04,Hydrogen System,MECHANICAL(STATIC),2,0,0,0,0,0,0
+3000,Compression and Synthesis,3000-04,Hydrogen System,PIPING,5,4,0,7,0,7,0
+4000,Utility,4000-01,Nitrogen,INSTRUMENT,61,0,0,0,0,0,0
+4000,Utility,4000-01,Nitrogen,PIPING,23,8,12,36,19,17,1
+4000,Utility,4000-02,HHP, HP and LP Steam,INSTRUMENT,240,0,0,0,0,0,0
+4000,Utility,4000-02,HHP, HP and LP Steam,MECHANICAL(STATIC),2,0,0,0,0,0,0
+4000,Utility,4000-02,HHP, HP and LP Steam,PIPING,64,26,18,145,9,136,3
+4000,Utility,4000-03,MP Steam,INSTRUMENT,56,0,0,0,0,0,0
+4000,Utility,4000-03,MP Steam,MECHANICAL(STATIC),1,0,0,0,0,0,0
+4000,Utility,4000-03,MP Steam,PIPING,5,5,0,37,6,31,0
+4000,Utility,4000-04,Boiler Feed Water (BFW) Generation & Distribution,INSTRUMENT,497,0,0,0,0,0,0
+4000,Utility,4000-04,Boiler Feed Water (BFW) Generation & Distribution,MECHANICAL(ROTARY),6,0,0,0,0,0,0
+4000,Utility,4000-04,Boiler Feed Water (BFW) Generation & Distribution,MECHANICAL(STATIC),5,0,0,0,0,0,0
+4000,Utility,4000-04,Boiler Feed Water (BFW) Generation & Distribution,PIPING,47,16,14,101,56,45,2
+4000,Utility,4000-05,Blow Down,INSTRUMENT,17,0,0,0,0,0,0
+4000,Utility,4000-05,Blow Down,MECHANICAL(STATIC),4,0,0,0,0,0,0
+4000,Utility,4000-05,Blow Down,PIPING,24,6,11,23,10,13,1
+4000,Utility,4000-06,DM & Polishing Water & Neutralization System,INSTRUMENT,249,0,0,0,0,0,0
+4000,Utility,4000-06,DM & Polishing Water & Neutralization System,MECHANICAL(ROTARY),11,0,0,0,0,0,0
+4000,Utility,4000-06,DM & Polishing Water & Neutralization System,MECHANICAL(STATIC),15,0,0,4,0,4,0
+4000,Utility,4000-06,DM & Polishing Water & Neutralization System,PIPING,46,9,17,107,47,60,1
+4000,Utility,4000-07,Plant Air,INSTRUMENT,6,0,0,0,0,0,6
+4000,Utility,4000-07,Plant Air,MECHANICAL(ROTARY),1,0,0,0,0,0,0
+4000,Utility,4000-07,Plant Air,PIPING,10,0,0,7,0,7,0
+4000,Utility,4000-08,Cooling Water,INSTRUMENT,526,0,0,0,0,0,0
+4000,Utility,4000-08,Cooling Water,MECHANICAL(ROTARY),8,0,0,0,0,0,0
+4000,Utility,4000-08,Cooling Water,PIPING,273,52,203,497,139,358,8
+4000,Utility,4000-09,Oily Water Treatment,INSTRUMENT,20,0,0,0,0,0,0
+4000,Utility,4000-09,Oily Water Treatment,MECHANICAL(ROTARY),2,0,0,0,0,0,0
+4000,Utility,4000-09,Oily Water Treatment,PIPING,230,3,173,19,9,10,2
+4000,Utility,4000-10,Sanitary Water Collection,INSTRUMENT,12,0,0,0,0,0,0
+4000,Utility,4000-10,Sanitary Water Collection,MECHANICAL(ROTARY),1,0,0,0,0,0,0
+4000,Utility,4000-10,Sanitary Water Collection,PIPING,16,0,6,2,0,2,0
+4000,Utility,4000-11,Instrument Air,INSTRUMENT,69,0,0,0,0,0,21
+4000,Utility,4000-11,Instrument Air,PIPING,11,0,0,9,2,7,1
+4000,Utility,4000-12,COC Water and Lab Chemical Sump,INSTRUMENT,25,0,0,0,0,0,0
+4000,Utility,4000-12,COC Water and Lab Chemical Sump,MECHANICAL(ROTARY),4,0,0,0,0,0,0
+4000,Utility,4000-12,COC Water and Lab Chemical Sump,PIPING,19,0,6,0,0,0,0
+4000,Utility,4000-13,Slope Close Drain,MECHANICAL(ROTARY),1,0,0,0,0,0,0
+4000,Utility,4000-13,Slope Close Drain,PIPING,30,0,21,8,0,8,0
+4000,Utility,4000-14,Fire Water,INSTRUMENT,33,0,0,0,0,0,33
+4000,Utility,4000-14,Fire Water,MECHANICAL(STATIC),1,0,0,0,0,0,0
+4000,Utility,4000-14,Fire Water,PIPING,124,0,0,139,35,104,0
+4000,Utility,4000-15,Potable & Service Water,PIPING,62,0,0,72,13,59,0
+5000,Distillation & Methanol Product,5000-01,Crude Methanol and Stabilizer & Slope Methanol,INSTRUMENT,414,0,0,0,0,0,0
+5000,Distillation & Methanol Product,5000-01,Crude Methanol and Stabilizer & Slope Methanol,MECHANICAL(ROTARY),8,0,0,0,0,0,0
+5000,Distillation & Methanol Product,5000-01,Crude Methanol and Stabilizer & Slope Methanol,MECHANICAL(STATIC),14,0,0,20,0,20,0
+5000,Distillation & Methanol Product,5000-01,Crude Methanol and Stabilizer & Slope Methanol,PIPING,67,16,46,201,52,149,3
+5000,Distillation & Methanol Product,5000-02,Low Pressure (LP) Methanol,INSTRUMENT,462,0,0,0,0,0,0
+5000,Distillation & Methanol Product,5000-02,Low Pressure (LP) Methanol,MECHANICAL(ROTARY),4,0,0,0,0,0,0
+5000,Distillation & Methanol Product,5000-02,Low Pressure (LP) Methanol,MECHANICAL(STATIC),7,0,0,26,0,26,0
+5000,Distillation & Methanol Product,5000-02,Low Pressure (LP) Methanol,PIPING,50,9,40,134,38,96,0
+5000,Distillation & Methanol Product,5000-03,Medium Pressure (MP) Methanol,INSTRUMENT,258,0,0,0,0,0,0
+5000,Distillation & Methanol Product,5000-03,Medium Pressure (MP) Methanol,MECHANICAL(ROTARY),6,0,0,0,0,0,0
+5000,Distillation & Methanol Product,5000-03,Medium Pressure (MP) Methanol,MECHANICAL(STATIC),5,0,0,19,0,19,0
+5000,Distillation & Methanol Product,5000-03,Medium Pressure (MP) Methanol,PIPING,46,11,35,131,54,77,0
+5000,Distillation & Methanol Product,5000-04,Methanol Product,INSTRUMENT,205,0,0,0,0,0,0
+5000,Distillation & Methanol Product,5000-04,Methanol Product,MECHANICAL(ROTARY),4,0,0,0,0,0,0
+5000,Distillation & Methanol Product,5000-04,Methanol Product,MECHANICAL(STATIC),6,0,0,14,0,14,0
+5000,Distillation & Methanol Product,5000-04,Methanol Product,PIPING,30,4,19,120,30,90,3
+5000,Distillation & Methanol Product,5000-05,Liquid Off Stream,INSTRUMENT,60,0,0,0,0,0,0
+5000,Distillation & Methanol Product,5000-05,Liquid Off Stream,MECHANICAL(ROTARY),2,0,0,0,0,0,0
+5000,Distillation & Methanol Product,5000-05,Liquid Off Stream,MECHANICAL(STATIC),2,0,0,0,0,0,0
+5000,Distillation & Methanol Product,5000-05,Liquid Off Stream,PIPING,10,2,7,29,7,22,0
+7000,Flare,7000-01,Flare System,INSTRUMENT,143,0,0,0,0,0,0
+7000,Flare,7000-01,Flare System,MECHANICAL(ROTARY),2,0,0,0,0,0,0
+7000,Flare,7000-01,Flare System,MECHANICAL(STATIC),2,0,0,2,0,2,0
+7000,Flare,7000-01,Flare System,PIPING,49,9,32,75,13,62,2
+BLD,#N/A,BLD-01,Substation,PIPING,3,0,2,2,0,2,0
+BLD,#N/A,BLD-02,Control Building,PIPING,1,0,1,5,0,5,0
+BLD,#N/A,BLD-06,Warehouse Building,PIPING,3,0,0,0,0,0,0
+DCS,Distributed Control System,DCS-01,Panels & Marshaling Cabinets,INSTRUMENT,2537,0,0,0,0,0,0
+ES,Earthing System,ES-01,Earthing & Roof Lightning System for Substation,ELECTRICAL,281,0,0,0,0,0,0
+ES,Earthing System,ES-02,Earthing & Roof Lightning System for Control Building,ELECTRICAL,188,0,0,0,0,0,0
+ES,Earthing System,ES-03,Earthing & Roof Lightning System for Laboratory & Yard Office,ELECTRICAL,32,0,0,0,0,0,0
+ES,Earthing System,ES-04,Earthing & Roof Lightning System for Analyzer House,ELECTRICAL,11,0,0,0,0,0,0
+ES,Earthing System,ES-05,Earthing & Roof Lightning System for Warehouse,ELECTRICAL,22,0,0,0,0,0,0
+ES,Earthing System,ES-06,Earthing System for Area-02,ELECTRICAL,696,0,0,0,0,0,0
+ES,Earthing System,ES-07,Earthing System for Area-03,ELECTRICAL,379,0,0,0,0,0,0
+ES,Earthing System,ES-08,Earthing System for Area-04,ELECTRICAL,461,0,0,0,0,0,0
+ES,Earthing System,ES-09,Earthing System for Area-05,ELECTRICAL,503,0,0,0,0,0,0
+ES,Earthing System,ES-10,Earthing System for Area-06,ELECTRICAL,394,0,0,0,0,0,0
+ES,Earthing System,ES-11,Earthing System for Area-07,ELECTRICAL,484,0,0,0,0,0,0
+FGS,Fire and Gas Detection,FGS-01,Fire & Gas Detection for Fire Zone 1001,INSTRUMENT,93,0,0,0,0,0,0
+FGS,Fire and Gas Detection,FGS-02,Fire & Gas Detection for Fire Zone 1002,INSTRUMENT,143,0,0,0,0,0,0
+FGS,Fire and Gas Detection,FGS-03,Fire & Gas Detection for Fire Zone 1003,INSTRUMENT,151,0,0,0,0,0,0
+FGS,Fire and Gas Detection,FGS-04,Fire & Gas Detection for Fire Zone 1004,INSTRUMENT,173,0,0,0,0,0,0
+FGS,Fire and Gas Detection,FGS-05,Fire & Gas Detection for Fire Zone 1005,INSTRUMENT,130,0,0,0,0,0,0
+FGS,Fire and Gas Detection,FGS-06,Fire & Gas Detection for Fire Zone 1006,INSTRUMENT,30,0,0,0,0,0,0
+FGS,Fire and Gas Detection,FGS-07,Fire & Gas Detection for Fire Zone 1007,INSTRUMENT,34,0,0,0,0,0,0
+FGS,Fire and Gas Detection,FGS-08,Fire & Gas Detection for Substation,ELECTRICAL,95,0,0,0,0,0,0
+FGS,Fire and Gas Detection,FGS-08,Fire & Gas Detection for Substation,INSTRUMENT,2,0,0,0,0,0,0
+FGS,Fire and Gas Detection,FGS-09,Fire & Gas Detection for Control Building,ELECTRICAL,91,0,0,0,0,0,0
+FGS,Fire and Gas Detection,FGS-09,Fire & Gas Detection for Control Building,INSTRUMENT,3,0,0,0,0,0,0
+FGS,Fire and Gas Detection,FGS-10,Fire & Gas Detection for Laboratory,ELECTRICAL,50,0,0,0,0,0,0
+FGS,Fire and Gas Detection,FGS-10,Fire & Gas Detection for Laboratory,INSTRUMENT,2,0,0,0,0,0,0
+FGS,Fire and Gas Detection,FGS-11,Fire & Gas Detection for Diesel Room,ELECTRICAL,4,0,0,0,0,0,0
+FGS,Fire and Gas Detection,FGS-14,Fire & Gas Detection for Warehouse Building,INSTRUMENT,15,0,0,0,0,0,0
+HVAC,HVAC System,HVAC-01,HVAC for Substation,ELECTRICAL,2,0,0,0,0,0,0
+HVAC,HVAC System,HVAC-02,HVAC for Control Building,ELECTRICAL,3,0,0,0,0,0,0
+HVAC,HVAC System,HVAC-03,HVAC for Laboratory & Yard Office,ELECTRICAL,1,0,0,0,0,0,0
+HVAC,HVAC System,HVAC-04,HVAC for Analyzer House,ELECTRICAL,1,0,0,0,0,0,0
+LS,Lighting System,LS-01,SS-MLP-01 for Normal Lighting System,ELECTRICAL,100,0,0,75,0,75,0
+LS,Lighting System,LS-02,SS-EMLP-01 for Emergency Lighting System,ELECTRICAL,58,0,0,49,0,49,0
+LS,Lighting System,LS-03,Lighting System for Substation,ELECTRICAL,272,0,0,0,0,0,0
+LS,Lighting System,LS-04,Lighting System for Control Building,ELECTRICAL,286,0,0,0,0,0,0
+LS,Lighting System,LS-05,Lighting System for Laboratory & Yard Office,ELECTRICAL,314,0,0,0,0,0,0
+LS,Lighting System,LS-06,Lighting System for Street,ELECTRICAL,38,0,0,5,0,5,0
+LS,Lighting System,LS-07,Lighting System for Area-02,ELECTRICAL,555,0,0,0,0,0,0
+LS,Lighting System,LS-08,Lighting System for Area-03,ELECTRICAL,230,0,0,0,0,0,0
+LS,Lighting System,LS-09,Lighting System for Area-04,ELECTRICAL,170,0,0,0,0,0,0
+LS,Lighting System,LS-10,Lighting System for Area-05,ELECTRICAL,363,0,0,268,0,268,0
+LS,Lighting System,LS-11,Lighting System for Area-06,ELECTRICAL,307,0,0,140,0,140,0
+LS,Lighting System,LS-12,Lighting System for Area-07,ELECTRICAL,216,0,0,0,0,0,0
+LS,Lighting System,LS-13,Lighting System for Warehouse,ELECTRICAL,8,0,0,0,0,0,0
+LS,Lighting System,LS-14,Lighting System for Analyzer House,ELECTRICAL,31,0,0,0,0,0,0
+TELE,Telecom Systems,TEL-01,Telecom System for Area-01,ELECTRICAL,24,0,0,0,0,0,0
+TELE,Telecom Systems,TEL-02,Telecom System for Area-02,ELECTRICAL,61,0,0,0,0,0,0
+TELE,Telecom Systems,TEL-03,Telecom System for Area-03,ELECTRICAL,39,0,0,0,0,0,0
+TELE,Telecom Systems,TEL-04,Telecom System for Area-04,ELECTRICAL,37,0,0,0,0,0,0
+TELE,Telecom Systems,TEL-05,Telecom System for Area-05,ELECTRICAL,71,0,0,0,0,0,0
+TELE,Telecom Systems,TEL-06,Telecom System for Area-06,ELECTRICAL,46,0,0,0,0,0,0
+TELE,Telecom Systems,TEL-07,Telecom System for Area-07,ELECTRICAL,44,0,0,0,0,0,0
+TELE,Telecom Systems,TEL-08,Telecom System for Substation,ELECTRICAL,30,0,0,0,0,0,0
+TELE,Telecom Systems,TEL-09,Telecom System for Control Building,ELECTRICAL,94,0,0,0,0,0,0
+TELE,Telecom Systems,TEL-10,Telecom System for Laboratory,ELECTRICAL,89,0,0,0,0,0,0
+TELE,Telecom Systems,TEL-11,CCTV,ELECTRICAL,57,0,0,0,0,0,0
+TELE,Telecom Systems,TEL-12,Telecom System for Analyzer House,ELECTRICAL,8,0,0,0,0,0,0
+UNKNOW,UNKNOW,UNKNOW_SUBSYSTEM,UNKNOW_SUBSYSTEM,INSTRUMENT,6,0,0,0,0,0,0
