@@ -264,6 +264,18 @@
 
         .sapra-loader svg { display: block; margin: 0 auto; }
 
+        /* Add cursor pointer to clickable elements */
+        .summary-card .count-display,
+        .summary-card .row.g-2 .col-6 h4,
+        #dataTableBody td:nth-child(4), /* Total Items column */
+        #dataTableBody td:nth-child(5), /* Completed column */
+        #dataTableBody td:nth-child(6), /* Pending column */
+        #dataTableBody td:nth-child(7), /* Punch column */
+        #dataTableBody td:nth-child(8), /* Hold Point column */
+        #dataTableBody td:nth-child(9) /* Status column */
+         {
+            cursor: pointer;
+        }
     </style>
 <script type="importmap">
 {
@@ -401,6 +413,9 @@
     <script>
         // --- Constants ---
         const CSV_URL = "https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/data.csv";
+        const ITEMS_CSV_URL = "https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/items.csv"; // Added detailed items URL
+        const PUNCH_CSV_URL = "https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/PUNCH.CSV"; // Added punch items URL
+        const HOLD_POINT_CSV_URL = "https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/HOLD_POINT.CSV"; // Added hold point items URL
         const COLORS_STATUS_CHARTJS = {
             done: 'rgba(76, 175, 80, 0.8)',    // success
             pending: 'rgba(255, 166, 0, 0.8)', // warning
@@ -433,6 +448,11 @@
         let searchTerm = '';
         let activeChartTab = 'Overview';
         let aggregatedStats = { totalItems: 0, done: 0, pending: 0, punch: 0, hold: 0, remaining: 0 };
+        let detailedItemsData = []; // Added global variable for detailed items data
+        let punchItemsData = []; // Added global variable for punch items data
+        let holdPointItemsData = []; // Added global variable for hold point items data
+        let displayedItemsInModal = []; // Added to store items currently shown in the modal
+        let currentModalDataType = null; // 'items' or 'punch' or 'hold'
         
         const chartInstances = {
             overview: null,
@@ -441,6 +461,7 @@
             systems: {}      // { systemOrSubId: chartInstance }
         };
         let bootstrapTabObjects = {}; // To store Bootstrap Tab instances
+        let itemDetailsModal; // Added variable for item details modal instance
 
         // --- DOM Elements ---
         const DOMElements = {
@@ -469,13 +490,24 @@
         document.addEventListener('DOMContentLoaded', () => {
             initEventListeners();
             initBootstrapTabs();
+            initModals(); // Initialize modals
             loadAndProcessData();
+            DOMElements.sidebarToggle.setAttribute('aria-expanded', 'false');
         });
 
         function initBootstrapTabs() {
             DOMElements.chartTabs.querySelectorAll('button[data-bs-toggle="tab"]').forEach(tabEl => {
                  bootstrapTabObjects[tabEl.id] = new bootstrap.Tab(tabEl);
             });
+        }
+
+        function initModals() {
+             itemDetailsModal = new bootstrap.Modal(document.getElementById('itemDetailsModal'), {});
+             // Get reference to the export button inside the modal
+            const exportDetailsExcelBtn = document.getElementById('exportDetailsExcelBtn');
+             if (exportDetailsExcelBtn) {
+                 exportDetailsExcelBtn.addEventListener('click', handleDetailsExport);
+             }
         }
 
         function initEventListeners() {
@@ -513,6 +545,380 @@
                     }
                 }
             });
+
+            // Add click listeners to summary cards and data table for showing details
+            document.addEventListener('click', handleDetailsClick);
+
+             // Add click listener for the total items counter badge
+            DOMElements.totalItemsCounter.closest('span.badge').style.cursor = 'pointer'; // Indicate clickable
+            DOMElements.totalItemsCounter.closest('span.badge').addEventListener('click', () => {
+                 if (detailedItemsData.length > 0) {
+                     const filteredItems = filterDetailedItems({ type: 'summary', status: 'TOTAL' });
+                    populateDetailsModal(filteredItems, { type: 'summary', status: 'TOTAL' });
+                    itemDetailsModal.show();
+                } else {
+                    alert("Detailed item data not loaded yet.");
+                }
+            });
+        }
+
+        function handleDetailsClick(e) {
+            let target = e.target;
+            let statusType = null;
+            let filterContext = null; // { type: 'summary', status: 'DONE' } or { type: 'table', rowData: {...}, status: 'PUNCH' } or { type: 'table', rowData: {...}, status: 'HOLD' }
+             let dataType = null; // 'items' or 'punch' or 'hold'
+
+            // Check if click is on the total items counter badge
+             if (target.closest('span.badge') === DOMElements.totalItemsCounter.closest('span.badge')) {
+                 statusType = 'TOTAL';
+                 filterContext = { type: 'summary', status: statusType };
+                 dataType = 'items'; // Total items counter always shows general items
+             }
+            
+            // Check if click is on a summary card count (excluding total items counter)
+            if (!filterContext) { 
+                const summaryCard = target.closest('.summary-card'); // Find the closest summary card
+                if (summaryCard) {
+                     const cardBody = summaryCard.querySelector('.card-body');
+                     const cardTitleElement = cardBody.querySelector('.card-title-custom');
+                     const title = cardTitleElement ? cardTitleElement.textContent.trim() : '';
+
+                    // Check if clicked on the main count display (Completed, Pending, Remaining)
+                    const mainCountDisplay = target.closest('h3.count-display');
+                    if (mainCountDisplay && cardBody.contains(mainCountDisplay)) {
+                        if (title === 'Completed') { statusType = 'DONE'; dataType = 'items'; }
+                        else if (title === 'Pending') { statusType = 'PENDING'; dataType = 'items'; }
+                        else if (title === 'Remaining') { statusType = 'OTHER'; dataType = 'items'; }
+                    }
+                    
+                    // Check if clicked on the Punch or Hold Point counts in the Issues card
+                     if (title === 'Issues') {
+                         const punchCountElement = cardBody.querySelector('.row.g-2 .col-6:first-child h4');
+                         const holdCountElement = cardBody.querySelector('.row.g-2 .col-6:last-child h4');
+                         
+                         if (target === punchCountElement || punchCountElement.contains(target)) {
+                             statusType = 'PUNCH';
+                             dataType = 'punch';
+                         } else if (target === holdCountElement || holdCountElement.contains(target)) {
+                             statusType = 'HOLD'; 
+                             dataType = 'hold'; // Set data type to 'hold' for hold points
+                         }
+                     }
+
+                    if (statusType) {
+                        filterContext = { type: 'summary', status: statusType };
+                    }
+                }
+            }
+
+            // Check if click is on a data table cell with a status count or Total Items
+            if (!filterContext) { 
+                const dataTableCell = target.closest('#dataTableBody td, #dataTableBody th');
+                 if (dataTableCell) {
+                    const tableRow = dataTableCell.closest('tr');
+                    if (tableRow) {
+                        const cells = Array.from(tableRow.children);
+                        const cellIndex = cells.indexOf(dataTableCell);
+                        const headerCell = DOMElements.dataTableHead.querySelector(`th:nth-child(${cellIndex + 1})`);
+                         if (headerCell) {
+                             const headerText = headerCell.textContent.trim();
+                             if (headerText === 'Completed') { statusType = 'DONE'; dataType = 'items'; }
+                             else if (headerText === 'Pending') { statusType = 'PENDING'; dataType = 'items'; }
+                             else if (headerText === 'Punch') { statusType = 'PUNCH'; dataType = 'punch'; }
+                             else if (headerText === 'Hold Point') { statusType = 'HOLD'; dataType = 'hold'; } // Set data type to 'hold' for hold points
+                             else if (headerText === 'Status') { statusType = 'OTHER'; dataType = 'items'; }
+                             else if (headerText === 'Total Items') { statusType = 'TOTAL'; dataType = 'items'; }
+
+                             if (statusType) {
+                                 // Get the row data for filtering
+                                 const rowData = {};
+                                 Array.from(tableRow.children).forEach((cell, idx) => {
+                                     // Use the correct accessor names from renderDataTable
+                                      const accessorMap = ['system', 'subsystem', 'discipline', 'totalItems', 'completed', 'pending', 'punch', 'holdPoint', 'statusPercent'];
+                                      if (accessorMap[idx]) {
+                                          rowData[accessorMap[idx]] = cell.textContent.trim();
+                                      }
+                                 });
+                                 filterContext = { type: 'table', rowData: rowData, status: statusType };
+                             }
+                         }
+                     }
+                 }
+            }
+
+            if (filterContext) {
+                 let dataToDisplay = [];
+                 let dataLoaded = false;
+
+                 if (dataType === 'items') {
+                     if (detailedItemsData.length > 0) {
+                          dataToDisplay = filterDetailedItems(filterContext);
+                          dataLoaded = true;
+                     }
+                 } else if (dataType === 'punch') {
+                     if (punchItemsData.length > 0) {
+                         dataToDisplay = filterPunchItems(filterContext);
+                         dataLoaded = true;
+                     }
+                 } else if (dataType === 'hold') { // Handle 'hold' data type
+                     if (holdPointItemsData.length > 0) {
+                         dataToDisplay = filterHoldItems(filterContext);
+                         dataLoaded = true;
+                     }
+                 }
+
+                 if (dataLoaded) {
+                    populateDetailsModal(dataToDisplay, filterContext, dataType);
+                     itemDetailsModal.show();
+                 } else {
+                    // Data loaded was true, but filteredData was empty. Populate modal with empty data.
+                    populateDetailsModal([], filterContext, dataType);
+                    itemDetailsModal.show();
+                 }
+             }
+        }
+
+        function filterDetailedItems(context) {
+            let filtered = detailedItemsData;
+            let modalTitle = 'Item Details';
+
+            if (context.type === 'summary') {
+                 // Filter based on current selected view
+                 if (selectedView.type === 'system' && selectedView.id) {
+                     const subSystemIds = processedData.systemMap[selectedView.id]?.subs.map(sub => sub.id.toLowerCase()) || []; // Convert subSystemIds to lower case
+                     filtered = filtered.filter(item => item.subsystem.toLowerCase() && subSystemIds.includes(item.subsystem.toLowerCase())); // Convert item.subsystem to lower case
+                      modalTitle = `${context.status === 'DONE' ? 'Completed' : context.status === 'PENDING' ? 'Pending' : context.status === 'TOTAL' ? 'Total' : 'Remaining'} Items in System: ${selectedView.name}`;
+                 } else if (selectedView.type === 'subsystem' && selectedView.id) {
+                     filtered = filtered.filter(item => item.subsystem.toLowerCase() === selectedView.id.toLowerCase()); // Convert both to lower case
+                      modalTitle = `${context.status === 'DONE' ? 'Completed' : context.status === 'PENDING' ? 'Pending' : context.status === 'TOTAL' ? 'Total' : 'Remaining'} Items in Subsystem: ${selectedView.name}`;
+                 } else { // 'all' view - no subsystem filter needed here
+                      modalTitle = `${context.status === 'DONE' ? 'Completed' : context.status === 'PENDING' ? 'Pending' : context.status === 'TOTAL' ? 'Total' : 'Remaining'} Items (All Systems)`;
+                 }
+
+                 // Filter by status (unless status is TOTAL)
+                 if (context.status !== 'TOTAL') {
+                      if (context.status === 'OTHER') {
+                           // Filter items whose status is NOT DONE or PENDING (case-insensitive)
+                           filtered = filtered.filter(item =>
+                               // Check if status is defined and not empty, THEN compare case-insensitively
+                               // If status is empty or null/undefined, this condition will be false, including them.
+                               !item.status || (item.status.toLowerCase() !== 'done' && item.status.toLowerCase() !== 'pending')
+                            );
+                      } else if (context.status === 'HOLD') { // Added filtering for HOLD status
+                           filtered = filtered.filter(item => item.status && item.status.toLowerCase() === 'hold'); // Convert to lower case
+                      } else { // Filter by specific status (DONE or PENDING) (case-insensitive)
+                           filtered = filtered.filter(item => item.status && item.status.toLowerCase() === context.status.toLowerCase()); // Convert both to lower case
+                      }
+                 } // If status is TOTAL, no further status filtering needed
+
+            } else if (context.type === 'table') {
+                const rowData = context.rowData;
+                // Filter by Subsystem and Discipline from the clicked row (case-insensitive)
+                 const clickedSubsystem = rowData.subsystem.split(' - ')[0].toLowerCase();
+                 const clickedDiscipline = rowData.discipline.toLowerCase();
+
+                 filtered = filtered.filter(item =>
+                      item.subsystem && item.subsystem.toLowerCase() === clickedSubsystem &&
+                      item.discipline && item.discipline.toLowerCase() === clickedDiscipline
+                 );
+
+                 // Filter by status based on the clicked column (unless status is TOTAL) (case-insensitive)
+                 if (context.status !== 'TOTAL') {
+                      if (context.status === 'OTHER') { // Status percentage column
+                           // Filter items whose status is NOT DONE or PENDING (case-insensitive)
+                           filtered = filtered.filter(item =>
+                               // Check if status is defined and not empty, THEN compare case-insensitively
+                               // If status is empty or null/undefined, this condition will be false, including them.
+                               !item.status || (item.status.toLowerCase() !== 'done' && item.status.toLowerCase() !== 'pending')
+                            );
+                      } else if (context.status === 'HOLD') { // Added filtering for HOLD status
+                           filtered = filtered.filter(item => item.status && item.status.toLowerCase() === 'hold'); // Convert to lower case
+                      } else { // Filter by specific status (Completed, Pending, Punch) (case-insensitive)
+                           filtered = filtered.filter(item => item.status && item.status.toLowerCase() === context.status.toLowerCase()); // Convert both to lower case
+                      }
+                 } // If status is TOTAL, no further status filtering needed
+
+                 modalTitle = `${context.status === 'DONE' ? 'Completed' : context.status === 'TOTAL' ? 'Total' : context.status} Items in ${rowData.subsystem.split(' - ')[0]} / ${rowData.discipline}`;
+            }
+
+            document.getElementById('itemDetailsModalLabel').textContent = modalTitle;
+            return filtered;
+        }
+
+        function filterPunchItems(context) {
+             let filtered = punchItemsData;
+             let modalTitle = 'Punch Details';
+
+             if (context.type === 'summary') {
+                  // Filter based on current selected view (case-insensitive subsystem)
+                 if (selectedView.type === 'system' && selectedView.id) {
+                     const subSystemIds = processedData.systemMap[selectedView.id]?.subs.map(sub => sub.id.toLowerCase()) || []; // Convert subSystemIds to lower case
+                     filtered = filtered.filter(item => item.subsystem.toLowerCase() && subSystemIds.includes(item.subsystem.toLowerCase())); // Convert item.subsystem to lower case
+                     modalTitle = `Punch Items in System: ${selectedView.name}`;
+                 } else if (selectedView.type === 'subsystem' && selectedView.id) {
+                     filtered = filtered.filter(item => item.subsystem.toLowerCase() === selectedView.id.toLowerCase()); // Convert both to lower case
+                     modalTitle = `Punch Items in Subsystem: ${selectedView.name}`;
+                 } else { // 'all' view - no subsystem filter needed here
+                     modalTitle = 'Punch Items (All Systems)';
+                 }
+                // For punch summary, status is always 'PUNCH', no further filtering by status needed here.
+
+             } else if (context.type === 'table') {
+                 const rowData = context.rowData;
+                // Filter by Subsystem and Discipline from the clicked row (case-insensitive)
+                 const clickedSubsystem = rowData.subsystem.split(' - ')[0].toLowerCase();
+                 const clickedDiscipline = rowData.discipline.toLowerCase();
+
+                 filtered = filtered.filter(item =>
+                     item.subsystem && item.subsystem.toLowerCase() === clickedSubsystem &&
+                     item.discipline && item.discipline.toLowerCase() === clickedDiscipline
+                 );
+                // For punch table column, status is always 'PUNCH', no further filtering by status needed here.
+
+                 modalTitle = `Punch Items in ${rowData.subsystem.split(' - ')[0]} / ${rowData.discipline}`;
+             }
+
+            document.getElementById('itemDetailsModalLabel').textContent = modalTitle;
+            return filtered;
+        }
+
+        function filterHoldItems(context) {
+             let filtered = holdPointItemsData;
+             let modalTitle = 'Hold Point Details';
+
+             if (context.type === 'summary') {
+                  // Filter based on current selected view (case-insensitive subsystem)
+                 if (selectedView.type === 'system' && selectedView.id) {
+                     const subSystemIds = processedData.systemMap[selectedView.id]?.subs.map(sub => sub.id.toLowerCase()) || []; // Convert subSystemIds to lower case
+                     filtered = filtered.filter(item => item.subsystem.toLowerCase() && subSystemIds.includes(item.subsystem.toLowerCase())); // Convert item.subsystem to lower case
+                     modalTitle = `Hold Point Items in System: ${selectedView.name}`;
+                 } else if (selectedView.type === 'subsystem' && selectedView.id) {
+                     filtered = filtered.filter(item => item.subsystem.toLowerCase() === selectedView.id.toLowerCase()); // Convert both to lower case
+                     modalTitle = `Hold Point Items in Subsystem: ${selectedView.name}`;
+                 } else { // 'all' view - no subsystem filter needed here
+                     modalTitle = 'Hold Point Items (All Systems)';
+                 }
+                // For hold point summary, status is always 'HOLD', no further filtering by status needed here.
+
+             } else if (context.type === 'table') {
+                 const rowData = context.rowData;
+                // Filter by Subsystem and Discipline from the clicked row (case-insensitive)
+                 const clickedSubsystem = rowData.subsystem.split(' - ')[0].toLowerCase();
+                 const clickedDiscipline = rowData.discipline.toLowerCase();
+
+                 filtered = filtered.filter(item =>
+                     item.subsystem && item.subsystem.toLowerCase() === clickedSubsystem &&
+                     item.discipline && item.discipline.toLowerCase() === clickedDiscipline
+                 );
+                // For hold point table column, status is always 'HOLD', no further filtering by status needed here.
+
+                 modalTitle = `Hold Point Items in ${rowData.subsystem.split(' - ')[0]} / ${rowData.discipline}`;
+             }
+
+            document.getElementById('itemDetailsModalLabel').textContent = modalTitle;
+            return filtered;
+        }
+
+        function populateDetailsModal(items, context, dataType) {
+             const tbody = document.getElementById('itemDetailsTableBody');
+            const noDetailsMessage = document.getElementById('noDetailsMessage');
+            tbody.innerHTML = ''; // Clear previous results
+             displayedItemsInModal = items; // Store items being displayed
+             currentModalDataType = dataType; // Store the type of data being displayed
+
+            // Update table headers based on data type
+            const theadRow = document.getElementById('itemDetailsModal').querySelector('thead tr');
+             if (dataType === 'items') {
+                 theadRow.innerHTML = `
+-                    <th scope="col">#</th>
+                     <th scope="col">Subsystem</th>
+                     <th scope="col">Discipline</th>
+                     <th scope="col">Tag No</th>
+                     <th scope="col">Type</th>
+                     <th scope="col">Description</th>
+                     <th scope="col">Status</th>
+                 `;
+             } else if (dataType === 'punch') {
+                 theadRow.innerHTML = `
+-                     <th scope="col">#</th>
+                      <th scope="col">Subsystem</th>
+                      <th scope="col">Discipline</th>
+                      <th scope="col">Tag No</th>
+                      <th scope="col">Type</th>
+                      <th scope="col">Category</th>
+                      <th scope="col">Description</th>
+                 `;
+             } else if (dataType === 'hold') { // Add headers for hold points
+                 theadRow.innerHTML = `
+-                     <th scope="col">#</th>
+                      <th scope="col">Subsystem</th>
+                      <th scope="col">Discipline</th>
+                      <th scope="col">Tag No</th>
+                      <th scope="col">Type</th>
+                      <th scope="col">HP Priority</th>
+                      <th scope="col">HP Description</th>
+                      <th scope="col">HP Location</th>
+                 `;
+             }
+
+
+            if (items.length === 0) {
+                noDetailsMessage.style.display = 'none';
+            } else {
+                noDetailsMessage.style.display = 'none';
+                items.forEach((item, index) => { // Added index for row numbering
+                    const row = document.createElement('tr');
+                    let rowContent = '';
+                     let rowClass = '';
+
+                    if (dataType === 'items') {
+                         rowContent = `
+-                            <td>${index + 1}</td>
+                             <td>${item.subsystem}</td>
+                             <td>${item.discipline}</td>
+                             <td>${item.tagNo}</td>
+                             <td>${item.typeCode}</td>
+                             <td>${item.description}</td>
+                             <td>${item.status}</td>
+                         `;
+                    } else if (dataType === 'punch') {
+                         // Apply color based on punch category (case-insensitive)
+                         switch (item.punchCategory.toLowerCase()) {
+                             case 'a': rowClass = 'table-danger'; break;
+                             case 'b': rowClass = 'table-info'; break;
+                             case 'c': rowClass = 'table-success'; break;
+                             default: rowClass = '';
+                         }
+                         rowContent = `
+-                            <td>${index + 1}</td>
+                             <td>${item.subsystem}</td>
+                             <td>${item.discipline}</td>
+                             <td>${item.tagNo}</td>
+                             <td>${item.typeCode || 'N/A'}</td>
+                             <td>${item.punchCategory}</td>
+                             <td>${item.punchDescription}</td>
+                         `;
+                    } else if (dataType === 'hold') { // Populate with hold point data
+                         rowContent = `
+-                             <td>${index + 1}</td>
+                              <td>${item.subsystem}</td>
+                              <td>${item.discipline}</td>
+                              <td>${item.tagNo}</td>
+                              <td>${item.typeCode || 'N/A'}</td>
+                               <td>${item.hpPriority || 'N/A'}</td>
+                               <td>${item.hpDescription || 'N/A'}</td>
+                               <td>${item.hpLocation || 'N/A'}</td>
+                         `;
+                         rowClass = ''; // No special coloring for hold points requested
+                    }
+
+                    row.innerHTML = rowContent;
+                     if (rowClass) {
+                         row.classList.add(rowClass);
+                     }
+                    tbody.appendChild(row);
+                });
+            }
         }
 
         function updateActiveTabUI() { // No longer strictly needed for BS tabs, but kept if manual control is desired elsewhere
@@ -549,9 +955,9 @@
                 const csvText = await response.text();
 
                 Papa.parse(csvText, {
-                    header: true,
+                header: true,
                     skipEmptyLines: true,
-                    complete: (results) => {
+                complete: (results) => {
                         const data = results.data;
                         const systemMap = {};
                         const subSystemMap = {};
@@ -600,6 +1006,83 @@
                         console.error("PapaParse error:", err);
                     }
                 });
+
+                // Fetch and parse detailed items data
+                const itemsResponse = await fetch(ITEMS_CSV_URL);
+                if (!itemsResponse.ok) {
+                     throw new Error(`Network response for items CSV was not ok: ${itemsResponse.statusText}`);
+                }
+                const itemsCsvText = await itemsResponse.text();
+                Papa.parse(itemsCsvText, {
+                    header: true,
+                    skipEmptyLines: true,
+                    complete: (results) => {
+                        detailedItemsData = results.data.map(item => ({
+                            subsystem: item.SD_Sub_System?.trim() || '',
+                            discipline: item.Discipline_Name?.trim() || '',
+                            tagNo: item.ITEM_Tag_NO?.trim() || '',
+                            typeCode: item.ITEM_Type_Code?.trim() || '',
+                            description: item.ITEM_Description?.trim() || '',
+                            status: item.ITEM_Status?.trim() || ''
+                        }));
+                         console.log("Detailed items data loaded:", detailedItemsData.length, "items");
+                    },
+                     error: (err) => {
+                         console.error("PapaParse error for items CSV:", err);
+                     }
+                });
+
+                // Fetch and parse punch items data
+                 const punchResponse = await fetch(PUNCH_CSV_URL);
+                 if (!punchResponse.ok) {
+                      throw new Error(`Network response for punch CSV was not ok: ${punchResponse.statusText}`);
+                 }
+                 const punchCsvText = await punchResponse.text();
+                 Papa.parse(punchCsvText, {
+                     header: true,
+                     skipEmptyLines: true,
+                     complete: (results) => {
+                         punchItemsData = results.data.map(item => ({
+                             subsystem: item.SD_SUB_SYSTEM?.trim() || '',
+                             discipline: item.Discipline_Name?.trim() || '',
+                             tagNo: item.ITEM_Tag_NO?.trim() || '',
+                             typeCode: item.ITEM_Type_Code?.trim() || '',
+                             punchCategory: item.PL_Punch_Category?.trim() || '',
+                             punchDescription: item.PL_Punch_Description?.trim() || ''
+                         }));
+                          console.log("Punch items data loaded:", punchItemsData.length, "items");
+                     },
+                      error: (err) => {
+                         console.error("PapaParse error for punch CSV:", err);
+                     }
+                 });
+
+                 // Fetch and parse hold point items data
+                  const holdResponse = await fetch(HOLD_POINT_CSV_URL);
+                  if (!holdResponse.ok) {
+                       throw new Error(`Network response for hold point CSV was not ok: ${holdResponse.statusText}`);
+                  }
+                  const holdCsvText = await holdResponse.text();
+                  Papa.parse(holdCsvText, {
+                      header: true,
+                      skipEmptyLines: true,
+                      complete: (results) => {
+                          holdPointItemsData = results.data.map(item => ({
+                              subsystem: item.SD_SUB_SYSTEM?.trim() || '',
+                              discipline: item.Discipline_Name?.trim() || '',
+                              tagNo: item.ITEM_Tag_NO?.trim() || '',
+                              typeCode: item.ITEM_Type_Code?.trim() || '',
+                              hpPriority: item.HP_Priority?.trim() || '',
+                              hpDescription: item.HP_Description?.trim() || '',
+                              hpLocation: item.HP_Location?.trim() || ''
+                          }));
+                           console.log("Hold point items data loaded:", holdPointItemsData.length, "items");
+                      },
+                       error: (err) => {
+                          console.error("PapaParse error for hold point CSV:", err);
+                       }
+                  });
+
             } catch (e) {
                  // Modal is hidden by the initial setTimeout, no need to hide here
                 DOMElements.errorMessage.textContent = `Error fetching data: ${e.message}`;
@@ -645,7 +1128,7 @@
                         ${node.icon || ''}
                         <span class="flex-grow-1 text-truncate me-2">${node.name}${subtitle}</span>
                         ${hasChildren ? ICONS.ChevronRight : ''}
-                    </div>
+                </div>
                     ${childrenHTML}
                 `;
             };
@@ -759,19 +1242,19 @@
                 row1HTML += `
                     <div class="col">
                         <section class="card summary-card shadow-sm ${card.baseClass}" aria-labelledby="summary-title-${card.title.toLowerCase()}">
-                            <div class="card-body">
+                        <div class="card-body">
                                 <div class="d-flex justify-content-between align-items-center mb-2">
                                     <h6 id="summary-title-${card.title.toLowerCase()}" class="card-title-custom fw-medium ${card.titleColor}">${card.title}</h6>
                                     <span class="icon-wrapper ${card.iconWrapperBgClass} ${card.iconColorClass}" aria-hidden="true">${card.icon}</span>
-                                </div>
+                        </div>
                                 <h3 class="count-display ${card.countColor} mb-1">${card.count.toLocaleString()}</h3>
                                 ${card.total > 0 ? `
                                 <div class="progress mt-2" style="height: 6px;" aria-label="${card.title} progress ${percentage}%">
                                     <div class="progress-bar bg-${card.progressColor}" role="progressbar" style="width: ${percentage}%" aria-valuenow="${percentage}" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
+                    </div>
                                 <p class="text-muted small mt-1 mb-0">${percentage}% of total items</p>
                                 ` : '<div style="height: 28px;"></div>'} 
-                            </div>
+                </div>
                         </section>
                     </div>`;
             });
@@ -783,7 +1266,7 @@
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <h6 id="summary-title-issues" class="card-title-custom fw-medium text-muted">Issues</h6>
                                 <span class="icon-wrapper bg-danger-subtle text-danger" aria-hidden="true">${ICONS.ExclamationTriangle}</span>
-                            </div>
+                        </div>
                             <div class="row g-2">
                                 <div class="col-6">
                                     <p class="small text-muted mb-0">Punch</p>
@@ -813,10 +1296,10 @@
                                 <div class="d-flex justify-content-between align-items-center mb-2">
                                     <h6 id="summary-title-${card.title.toLowerCase().replace(' ','-')}" class="card-title-custom">${card.title}</h6>
                                     <span class="icon-wrapper" style="background-color: rgba(0,0,0,0.2);" aria-hidden="true">${card.icon}</span>
-                                </div>
+                    </div>
                                 <h3 class="count-display mb-1">${card.count.toLocaleString()}</h3>
                                 <small class="d-block mt-2 text-white" style="color: #fff !important;">${card.desc}</small>
-                            </div>
+                </div>
                         </section>
                     </div>`;
             });
@@ -842,7 +1325,7 @@
             if (activeTabPane && activeTabPane.id === 'overviewChartsContainer') {
                 renderOverviewCharts();
             } else if (activeTabPane && activeTabPane.id === 'disciplineChartsContainer') {
-                renderDisciplineCharts();
+            renderDisciplineCharts();
             } else if (activeTabPane && activeTabPane.id === 'systemChartsContainer') {
                 renderSystemSubsystemCharts();
             }
@@ -1164,6 +1647,74 @@
                  alert("No data has been loaded yet to export.");
             }
         }
+
+        // --- Export to Excel from Modal ---
+        function handleDetailsExport() {
+            if (displayedItemsInModal.length === 0) {
+                alert("No data in the modal to export.");
+                return;
+            }
+
+            // Format the data for Excel export based on current data type
+             let dataToExport = [];
+             let sheetName = '';
+
+             if (currentModalDataType === 'items') {
+                  dataToExport = displayedItemsInModal.map((item, index) => ({
+                    '#': index + 1,
+                      Subsystem: item.subsystem,
+                      Discipline: item.discipline,
+                      TagNo: item.tagNo,
+                      TypeCode: item.typeCode,
+                      Description: item.description,
+                      Status: item.status,
+                  }));
+                 sheetName = 'Item Details';
+             } else if (currentModalDataType === 'punch') {
+                 dataToExport = displayedItemsInModal.map((item, index) => ({
+                    '#': index + 1,
+                      Subsystem: item.subsystem,
+                      Discipline: item.discipline,
+                      TagNo: item.tagNo,
+                      TypeCode: item.typeCode || 'N/A',
+                      PunchCategory: item.punchCategory,
+                      PunchDescription: item.punchDescription,
+                  }));
+                 sheetName = 'Punch Details';
+             } else if (currentModalDataType === 'hold') { // Format hold point data for export
+                  dataToExport = displayedItemsInModal.map((item, index) => ({
+                    '#': index + 1,
+                      Subsystem: item.subsystem,
+                      Discipline: item.discipline,
+                      TagNo: item.tagNo,
+                      TypeCode: item.typeCode || 'N/A',
+                      HPPriority: item.hpPriority || 'N/A',
+                      HPDescription: item.hpDescription || 'N/A',
+                      HPLocation: item.hpLocation || 'N/A',
+                  }));
+                  sheetName = 'Hold Point Details';
+             }
+
+            if (dataToExport.length === 0) { // Should not happen if displayedItemsInModal is not empty, but for safety
+                 alert("Failed to format data for export.");
+                 return;
+            }
+
+            const currentDate = new Date().toISOString().split('T')[0];
+            // Generate filename based on modal title or a default
+            const modalTitle = document.getElementById('itemDetailsModalLabel').textContent.replace(/[^a-zA-Z0-9 ]/g, '').replace(/ /g, '_');
+            const fileName = `SAPRA_Details_${modalTitle || 'Items'}_${currentDate}.xlsx`;
+
+            try {
+                const worksheet = XLSX.utils.json_to_sheet(dataToExport);
+                const workbook = XLSX.utils.book_new();
+                XLSX.utils.book_append_sheet(workbook, worksheet, sheetName);
+                XLSX.writeFile(workbook, fileName);
+            } catch (error) {
+                console.error("Error exporting modal details to Excel:", error);
+                alert("An error occurred while exporting details to Excel.");
+            }
+        }
     </script>
     <script>
     (function() {
@@ -1221,6 +1772,44 @@
         </div>
       </div>
     </div>
+
+    <!-- Item Details Modal -->
+    <div class="modal fade" id="itemDetailsModal" tabindex="-1" aria-labelledby="itemDetailsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable"> <!-- Changed modal-lg to modal-xl -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="itemDetailsModalLabel">Item Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover table-sm">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Subsystem</th>
+                                    <th scope="col">Discipline</th>
+                                    <th scope="col">Tag No</th>
+                                    <th scope="col">Type</th>
+                                    <th scope="col">Description</th>
+                                    <th scope="col">Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="itemDetailsTableBody">
+                                <!-- Item details will be injected here -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="noDetailsMessage" class="text-center text-muted py-4" style="display: none;">No matching items found.</div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success btn-sm me-auto" id="exportDetailsExcelBtn">
+                         <i class="bi bi-file-earmark-excel me-1"></i> Export Visible to Excel
+                     </button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
-</html><link rel="stylesheet" href="index.css">
-<script src="index.tsx" type="module"></script>
+</html>
