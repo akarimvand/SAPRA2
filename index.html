@@ -71,6 +71,14 @@
          .sidebar-header .slogan {
             font-size: 0.75rem;
             color: #adb5bd;
+            /* Add animation properties */
+            animation: sloganAnimation 10s ease-in-out infinite alternate;
+        }
+
+        @keyframes sloganAnimation {
+            0% { transform: translateY(0); opacity: 1; }
+            50% { transform: translateY(-3px); opacity: 0.9; }
+            100% { transform: translateY(0); opacity: 1; }
         }
 
         .sidebar-search {
@@ -105,11 +113,13 @@
             cursor: pointer;
             color: #ced4da; /* Default node text color */
             font-size: 0.875rem; /* text-sm */
-            transition: background-color 0.15s, color 0.15s;
+            transition: background-color 0.15s, color 0.15s, transform 0.2s ease-in-out;
         }
         .tree-node:hover {
             background-color: rgba(255, 255, 255, 0.1); /* gray-700/70 equivalent */
             color: #ffffff;
+            /* Add transition for smooth transform effect */
+            transition: background-color 0.15s, color 0.15s, transform 0.2s ease-in-out;
         }
         .tree-node.selected {
             background-color: rgba(0, 173, 181, 0.2); /* accent/20 */
@@ -292,8 +302,7 @@
     <aside class="sidebar" id="sidebar" role="complementary">
         <div class="sidebar-header">
             <div class="d-flex align-items-center justify-content-center">
-                <i class="bi bi-diagram-3-fill fs-2 me-2"></i>
-                <h1 class="fs-4 mb-0">SAPRA</h1>
+                <img src="SAPRA_WHITE-100.png" alt="SAPRA Logo" style="height: 100px; margin-right: 0.5rem;">
             </div>
             <p class="slogan mb-0">Smart Access for Pre-commissioning Activities</p>
         </div>
@@ -1466,9 +1475,12 @@
             row.className = 'row g-3';
 
             itemsToDisplay.forEach(item => {
+                // Calculate remaining items for this system/subsystem
+                item.data.remaining = Math.max(0, item.data.totalItems - item.data.done - item.data.pending);
+
                 const col = document.createElement('div');
                 col.className = 'col-12 col-md-6 col-lg-4 col-xl-3';
-                const chartId = `systemSubChart-${item.id.replace(/\s+/g, '-')}`;
+                const chartId = `systemSubChart-${item.id.replace(/\s+/g, '-|')}`;
                 const chartLabel = `Status for ${item.name}`;
                  col.innerHTML = `
                     <div class="card h-100 shadow-sm">
@@ -1724,31 +1736,84 @@
             '.gradient-form-c',
             '.gradient-form-d'
         ];
+         const logoSelector = '.sidebar-header img'; // Selector for the logo image
+        const treeNodeSelector = '.tree-node'; // Selector for sidebar tree nodes
+
         function handleMouseMove(e) {
-            const card = e.currentTarget;
-            const rect = card.getBoundingClientRect();
-            const y = e.clientY - rect.top;
+            const element = e.currentTarget;
+            const rect = element.getBoundingClientRect();
+            const y = e.clientY - rect.top; // Y position relative to element
+            const x = e.clientX - rect.left; // X position relative to element
+
             const percentY = y / rect.height; // 0 (top) to 1 (bottom)
-            const maxTilt = 18;
-            // خمیدگی از 0 (بالا) تا -maxTilt (پایین)
-            const tiltX = -percentY * maxTilt;
-            card.style.transform = `perspective(600px) rotateX(${tiltX}deg) scale(1.04)`;
-            card.style.boxShadow = `0 1.5rem 2.5rem rgba(0,0,0,0.25)`;
-            card.style.borderRadius = '1.5rem 0.5rem 1.5rem 0.5rem/1.5rem 1.5rem 0.5rem 0.5rem';
+            const percentX = x / rect.width; // 0 (left) to 1 (right)
+
+            const maxTiltY = 18; // Max tilt in Y direction (for X rotation)
+             const maxTiltX = 8; // Max tilt in X direction (for Y rotation)
+
+            // Calculate tilt based on mouse position
+            const tiltX = -percentY * maxTiltY; // More tilt when mouse is lower
+            const tiltY = percentX * maxTiltX - (maxTiltX / 2); // Tilt from left (-maxTiltX/2) to right (+maxTiltX/2)
+
+            // Apply transform with perspective and rotation
+            element.style.transform = `perspective(600px) rotateX(${tiltX}deg) rotateY(${tiltY}deg) scale(1.04)`;
+            // Keep the box shadow and border radius logic for cards, but not necessarily for the logo or tree nodes
+            if (element.classList.contains('summary-card')) {
+                 element.style.boxShadow = '0 1.5rem 2.5rem rgba(0,0,0,0.25)';
+                 element.style.borderRadius = '1.5rem 0.5rem 1.5rem 0.5rem/1.5rem 1.5rem 0.5rem 0.5rem';
+            }
+            // Remove any specific hover styles that might interfere
+            if (element.classList.contains('tree-node')) {
+                 // For tree nodes, only apply the transform, no shadow or border radius changes needed
+            }
         }
+
         function handleMouseLeave(e) {
-            const card = e.currentTarget;
-            card.style.transform = '';
-            card.style.boxShadow = '';
-            card.style.borderRadius = '';
+            const element = e.currentTarget;
+            element.style.transform = ''; // Reset transform
+            // Reset box shadow and border radius only for cards
+            if (element.classList.contains('summary-card')) {
+                 element.style.boxShadow = '';
+                 element.style.borderRadius = '';
+            }
+            // Remove any specific hover styles that were applied
+             if (element.classList.contains('tree-node')) {
+                 // For tree nodes, reset transform and remove the will-change property set on hover
+                 element.style.willChange = 'auto'; // Reset will-change
+             }
         }
+
         document.addEventListener('DOMContentLoaded', function() {
+            // Apply hover effects to gradient cards
             cardSelectors.forEach(selector => {
                 document.querySelectorAll(selector).forEach(card => {
                     card.addEventListener('mousemove', handleMouseMove);
                     card.addEventListener('mouseleave', handleMouseLeave);
                 });
             });
+
+            // Apply hover effects to the logo image
+             const logoImage = document.querySelector(logoSelector);
+            if (logoImage) {
+                 // Add transition for smooth effect
+                 logoImage.style.transition = 'transform 0.4s cubic-bezier(.4,2,.6,1)';
+                 logoImage.style.willChange = 'transform';
+
+                 logoImage.addEventListener('mousemove', handleMouseMove);
+                 logoImage.addEventListener('mouseleave', handleMouseLeave);
+            }
+
+            // Apply hover effects to tree view nodes
+             document.querySelectorAll(treeNodeSelector).forEach(treeNode => {
+                 // Add transition for smooth effect
+                 treeNode.style.transition = 'transform 0.2s ease-in-out'; // Use a slightly faster transition for nodes
+                 // Set will-change on hover to optimize
+                 treeNode.addEventListener('mouseenter', () => { treeNode.style.willChange = 'transform'; });
+                 treeNode.addEventListener('mouseleave', () => { treeNode.style.willChange = 'auto'; }); // Reset on leave
+
+                 treeNode.addEventListener('mousemove', handleMouseMove);
+                 treeNode.addEventListener('mouseleave', handleMouseLeave);
+             });
         });
     })();
     </script>
