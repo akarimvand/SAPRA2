@@ -286,6 +286,14 @@
          {
             cursor: pointer;
         }
+        /* Styling for contact info */
+        .sidebar-footer .contact-info {
+             font-size: 0.85rem; /* Slightly larger font */
+             color: #adb5bd; /* Brighter color, same as default sidebar text */
+             cursor: pointer; /* Indicate interactivity */
+             transition: transform 0.4s cubic-bezier(.4,2,.6,1); /* Add transition for hover effect */
+             will-change: transform; /* Optimize for animation */
+        }
     </style>
 <script type="importmap">
 {
@@ -317,7 +325,8 @@
         </div>
         <footer class="sidebar-footer mt-auto">
             <p class="mb-0">Developed by Amin Naseri</p>
-            <p class="mb-0">Contact: akarimvand@gmail.com</p>
+            <p class="mb-0 contact-info">Contact Email: akarimvand@gmail.com</p> <!-- Added class for styling and animation -->
+            <p class="mb-0 contact-info">Contact Phone: +9809366302800</p> <!-- Added class for styling and animation -->
         </footer>
     </aside>
      <div class="sidebar-overlay" id="sidebarOverlay"></div>
@@ -1738,6 +1747,7 @@
         ];
          const logoSelector = '.sidebar-header img'; // Selector for the logo image
         const treeNodeSelector = '.tree-node'; // Selector for sidebar tree nodes
+        const contactInfoSelector = '.sidebar-footer .contact-info'; // Selector for all contact info paragraphs
 
         function handleMouseMove(e) {
             const element = e.currentTarget;
@@ -1765,6 +1775,10 @@
             // Remove any specific hover styles that might interfere
             if (element.classList.contains('tree-node')) {
                  // For tree nodes, only apply the transform, no shadow or border radius changes needed
+            }
+            // Handle contact info hover
+            if (element.classList.contains('contact-info')) {
+                 // Only apply transform, no shadow/border radius
             }
         }
 
@@ -1813,6 +1827,12 @@
 
                  treeNode.addEventListener('mousemove', handleMouseMove);
                  treeNode.addEventListener('mouseleave', handleMouseLeave);
+             });
+
+             // Apply hover effects to contact info
+             document.querySelectorAll(contactInfoSelector).forEach(contactElement => {
+                 contactElement.addEventListener('mousemove', handleMouseMove);
+                 contactElement.addEventListener('mouseleave', handleMouseLeave);
              });
         });
     })();
