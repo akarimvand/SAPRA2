@@ -21,10 +21,8 @@
     </form>
   </div>
 
-  <!-- PapaParse for CSV parsing -->
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
 
-  <!-- Load transformers.js version 2.5.0 -->
   <script type="module">
     import { pipeline } from "https://cdn.jsdelivr.net/npm/@xenova/transformers@2.5.0";
 
@@ -39,7 +37,7 @@
         if (!res.ok) throw new Error('Failed to load DATA.CSV');
         const text = await res.text();
         const parsed = Papa.parse(text, { header: true });
-        const rows = parsed.data.slice(0, 5); // فقط 5 ردیف اول رو خلاصه می‌کنیم
+        const rows = parsed.data.slice(0, 5);
         csvSummary = rows.map((row, i) => `Row ${i + 1}: ${JSON.stringify(row)}`).join('\n');
       } catch (e) {
         appendMessage('Error loading CSV: ' + e.message, 'bot');
@@ -49,7 +47,13 @@
     let generator;
     async function initModel() {
       try {
-        generator = await pipeline("text2text-generation", "Xenova/flan-t5-small");
+        generator = await pipeline(
+          "text2text-generation",
+          "Xenova/flan-t5-small",
+          {
+            modelUrl: "https://cdn.jsdelivr.net/npm/@xenova/transformers@2.5.0/models/Xenova/flan-t5-small/model.json"
+          }
+        );
       } catch (e) {
         appendMessage('Error loading AI model: ' + e.message, 'bot');
       }
@@ -81,7 +85,6 @@
       chatBox.scrollTop = chatBox.scrollHeight;
     }
 
-    // ابتدا CSV را بارگذاری و مدل را آماده کن
     (async () => {
       await loadCSV();
       await initModel();
