@@ -76,7 +76,7 @@
 <div class="chat-container">
     <div class="chat-header">چت بات داشبورد SAPRA</div>
     <div class="chat-body" id="chatBody">
-        <div class="message bot-message">سلام! من دستیار هوشمند شما در زمینه داشبورد SAPRA هستم. شما می‌توانید سوالاتی درباره وضعیت ایتم‌ها، پانچ‌ها، نقاط ایست و سایر بخش‌های داشبورد بپرسید.</div>
+        <div class="message bot-message">سلام! من دستیار هوشمند شما در زمینه داشبورد SAPRA هستم. شما می‌توانید سوالاتی درباره وضعیت ایتم‌ها، رشته‌ها، زیرسیستم‌ها و سایر بخش‌های داشبورد بپرسید.</div>
     </div>
     <div class="chat-input">
         <input type="text" id="userInput" placeholder="سوال خود را بنویسید...">
@@ -88,27 +88,28 @@
     const chatBody = document.getElementById('chatBody');
 
     // URL فایل‌های CSV
-    const CSV_URL = "DATA.CSV";
     const ITEMS_CSV_URL = "ITEMS.CSV";
     const PUNCH_CSV_URL = "PUNCH.CSV";
     const HOLD_POINT_CSV_URL = "HOLD_POINT.CSV";
 
-    let dataFiles = {};
+    let csvData = {
+        items: [],
+        punch: [],
+        hold: []
+    };
 
     // بارگذاری تمام فایل‌های CSV در لحظه بارگذاری صفحه
     window.onload = async () => {
         try {
-            const [dataRes, itemsRes, punchRes, holdRes] = await Promise.all([
-                fetch(CSV_URL),
+            const [itemsRes, punchRes, holdRes] = await Promise.all([
                 fetch(ITEMS_CSV_URL),
                 fetch(PUNCH_CSV_URL),
                 fetch(HOLD_POINT_CSV_URL)
             ]);
 
-            dataFiles.data = parseCSV(await dataRes.text());
-            dataFiles.items = parseCSV(await itemsRes.text());
-            dataFiles.punch = parseCSV(await punchRes.text());
-            dataFiles.hold = parseCSV(await holdRes.text());
+            csvData.items = parseCSV(await itemsRes.text());
+            csvData.punch = parseCSV(await punchRes.text());
+            csvData.hold = parseCSV(await holdRes.text());
 
             addMessage(`داده‌ها با موفقیت بارگذاری شدند.`, false);
         } catch (error) {
@@ -144,7 +145,7 @@
         input.value = '';
 
         setTimeout(() => {
-            const response = getBotResponse(text, dataFiles);
+            const response = getBotResponse(text, csvData);
             addMessage(response, false);
         }, 500);
     }
@@ -152,7 +153,7 @@
     function getBotResponse(userQuery, data) {
         const query = userQuery.toLowerCase();
 
-        if (!data.items || !data.punch || !data.hold) {
+        if (data.items.length === 0 && (query.includes("چند") || query.includes("وضعیت"))) {
             return "داده‌ای برای پردازش وجود ندارد. لطفاً فایل‌های CSV را بررسی کنید.";
         }
 
