@@ -1,6 +1,3 @@
-در اینجا یک نسخه به‌روزشده از کد چت بات آورده شده است که متناسب با ساختار و محتوای فایل `SASHBOARD.TXT` پاسخ هوشمندانه می‌دهد. این کد کاملاً مستقل است و هیچ نیازی به نصب کتابخانه یا API خارجی ندارد.
-
-```html
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
@@ -30,7 +27,7 @@
         }
         .chat-body {
             padding: 20px;
-            height: 400px;
+            height: 300px;
             overflow-y: auto;
             background-color: #fafafa;
         }
@@ -79,7 +76,7 @@
 <div class="chat-container">
     <div class="chat-header">چت بات داشبورد SAPRA</div>
     <div class="chat-body" id="chatBody">
-        <div class="message bot-message">سلام! من دستیار هوشمند شما در زمینه داشبورد SAPRA هستم. شما می‌توانید سوالاتی درباره وضعیت ایتم‌ها، رشته‌ها، زیرسیستم‌ها و سایر قسمت‌های داشبورد بپرسید. برای مثال: "وضعیت آخرین ایتم‌ها چگونه است؟"، "چند ایتم باز وجود دارد؟"، "آیا مشکلی در سیستم الکتریکی وجود دارد؟"</div>
+        <div class="message bot-message">سلام! من دستیار هوشمند شما در زمینه داشبورد SAPRA هستم. شما می‌توانید سوالاتی درباره وضعیت ایتم‌ها، پانچ‌ها، نقاط ایست و سایر بخش‌های داشبورد بپرسید.</div>
     </div>
     <div class="chat-input">
         <input type="text" id="userInput" placeholder="سوال خود را بنویسید...">
@@ -89,6 +86,46 @@
 
 <script>
     const chatBody = document.getElementById('chatBody');
+
+    // URL فایل‌های CSV
+    const CSV_URL = "DATA.CSV";
+    const ITEMS_CSV_URL = "ITEMS.CSV";
+    const PUNCH_CSV_URL = "PUNCH.CSV";
+    const HOLD_POINT_CSV_URL = "HOLD_POINT.CSV";
+
+    let dataFiles = {};
+
+    // بارگذاری تمام فایل‌های CSV در لحظه بارگذاری صفحه
+    window.onload = async () => {
+        try {
+            const [dataRes, itemsRes, punchRes, holdRes] = await Promise.all([
+                fetch(CSV_URL),
+                fetch(ITEMS_CSV_URL),
+                fetch(PUNCH_CSV_URL),
+                fetch(HOLD_POINT_CSV_URL)
+            ]);
+
+            dataFiles.data = parseCSV(await dataRes.text());
+            dataFiles.items = parseCSV(await itemsRes.text());
+            dataFiles.punch = parseCSV(await punchRes.text());
+            dataFiles.hold = parseCSV(await holdRes.text());
+
+            addMessage(`داده‌ها با موفقیت بارگذاری شدند.`, false);
+        } catch (error) {
+            addMessage(`خطا در بارگذاری فایل‌ها: ${error.message}`, false);
+        }
+    };
+
+    function parseCSV(data) {
+        const lines = data.split('\n');
+        const headers = lines[0].split(',').map(h => h.trim());
+        return lines.slice(1).map(line => {
+            const values = line.split(',').map(v => v.trim());
+            const obj = {};
+            headers.forEach((h, i) => obj[h] = values[i]);
+            return obj;
+        });
+    }
 
     function addMessage(text, isUser) {
         const message = document.createElement('div');
@@ -107,37 +144,58 @@
         input.value = '';
 
         setTimeout(() => {
-            const response = getBotResponse(text);
+            const response = getBotResponse(text, dataFiles);
             addMessage(response, false);
         }, 500);
     }
 
-    function getBotResponse(userQuery) {
+    function getBotResponse(userQuery, data) {
         const query = userQuery.toLowerCase();
 
+        if (!data.items || !data.punch || !data.hold) {
+            return "داده‌ای برای پردازش وجود ندارد. لطفاً فایل‌های CSV را بررسی کنید.";
+        }
+
         // تعداد ایتم‌ها
-        if (query.includes("چند") && (query.includes("ایتم") || query.includes("داده"))) {
-            return "در حال حاضر داده‌ای در داشبورد وجود ندارد ('No matching items found'). لطفاً اطمینان حاصل کنید که فایل‌های CSV به درستی بارگذاری شده‌اند.";
+        if ((query.includes("چند") || query.includes("چه تعداد")) && query.includes("ایتم")) {
+            return `تعداد ایتم‌ها: ${data.items.length}`;
 
-        // وضعیت ایتم‌های باز
+        // تعداد پانچ‌ها
+        } else if ((query.includes("چند") || query.includes("چه تعداد")) && query.includes("پانچ")) {
+            return `تعداد پانچ‌ها: ${data.punch.length}`;
+
+        // تعداد نقاط ایست
+        } else if ((query.includes("چند") || query.includes("چه تعداد")) && query.includes("نقطه ایست")) {
+            return `تعداد نقاط ایست: ${data.hold.length}`;
+
+        // تعداد ایتم‌های الکتریکی
+        } else if ((query.includes("الکتریک") || query.includes("electrical")) && query.includes("ایتم")) {
+            const electricalItems = data.items.filter(i => i.Discipline?.toLowerCase() === "electrical");
+            return `تعداد ایتم‌های الکتریکی: ${electricalItems.length}`;
+
+        // تعداد ایتم‌های باز (Open)
         } else if ((query.includes("باز") || query.includes("open")) && query.includes("ایتم")) {
-            return "متاسفانه در حال حاضر ایتم بازی در داشبورد یافت نشد ('No matching items found').";
+            const openItems = data.items.filter(i => i.Status?.toLowerCase() === "open");
+            return `تعداد ایتم‌های باز: ${openItems.length}`;
 
-        // سوالات درباره الکتریکی‌ها
-        } else if ((query.includes("الکتریک") || query.includes("electrical")) && query.includes("مشکل")) {
-            return "اطلاعاتی درباره سیستم الکتریکی در داشبورد وجود ندارد. ممکن است داده‌ها در حال بارگذاری باشند یا هنوز وارد نشده باشند.";
-
-        // سوالات عمومی درباره داشبورد
-        } else if (query.includes("وضعیت") && (query.includes("کلی") || query.includes("پروژه"))) {
-            return "در حال حاضر داشبورد وضعیت کلی پروژه را به دلیل عدم بارگذاری داده‌ها نمایش نمی‌دهد ('Error loading data'). لطفاً بعداً دوباره بررسی کنید.";
-
-        // جزئیات ایتم‌ها
+        // وضعیت عمومی پروژه
+        } else if (query.includes("وضعیت") && query.includes("کلی")) {
+            const totalItems = data.items.length;
+            const openItems = data.items.filter(i => i.Status?.toLowerCase() === "open").length;
+            return `وضعیت کلی پروژه:\nتعداد کل ایتم‌ها: ${totalItems}\nتعداد ایتم‌های باز: ${openItems}`;
+        
+        // جزئیات اولین ایتم
         } else if (query.includes("جزئیات") && query.includes("ایتم")) {
-            return "بخش 'Items Details' شامل ستون‌های زیر است:\n| # | Subsystem | Discipline | Tag No | Type | Description | Status |\nدر حال حاضر داده‌ای برای نمایش وجود ندارد.";
+            if (data.items.length > 0) {
+                const item = data.items[0];
+                return `# ${item["#"]} | Subsystem: ${item.Subsystem} | Discipline: ${item.Discipline} | Tag No: ${item["Tag No"]} | Type: ${item.Type} | Description: ${item.Description} | Status: ${item.Status}`;
+            } else {
+                return "هیچ ایتمی وجود ندارد.";
+            }
 
-        // سوالات غیرمرتبط
+        // سوالات عمومی
         } else {
-            return "من متخصص داشبورد SAPRA هستم. شما می‌توانید سوالاتی درباره وضعیت ایتم‌ها، رشته‌ها، زیرسیستم‌ها و سایر بخش‌های داشبورد بپرسید.";
+            return "من متخصص داشبورد SAPRA هستم. شما می‌توانید سوالاتی درباره وضعیت ایتم‌ها، پانچ‌ها، نقاط ایست و سایر بخش‌های داشبورد بپرسید.";
         }
     }
 
@@ -151,32 +209,3 @@
 
 </body>
 </html>
-```
-
----
-
-## ✅ این چت بات چه کارهایی انجام می‌دهد؟
-
-- **فقط با استفاده از دانش داخلی** و بدون نیاز به API خارجی یا CSV:
-    - متوجه ساختار داشبورد می‌شود (`SASHBOARD.TXT`)
-    - به سوالاتی درباره "ایتم‌ها"، "رشته‌ها"، "وضعیت کلی"، "سیستم‌ها" و غیره پاسخ می‌دهد
-    - نقش یک **متخصص داشبورد SAPRA** را بازی می‌کند
-
----
-
-## 📦 نحوه استفاده:
-
-1. فایل بالا را به عنوان `chatbot.html` ذخیره کنید.
-2. فقط کافی است آن را در مرورگر باز کنید.
-3. بدون هیچ نصبی، شروع به گفت‌وگو کنید!
-
----
-
-## 🔚 آیا می‌خواهید ادامه دهیم؟
-
-اگر مایل باشید، می‌توانم:
-- یک **نسخه گرافیکی پیشرفته‌تر** ارائه دهم
-- یک **نمونه JSON فرضی از داده‌ها** اضافه کنم
-- چت‌بات را با **فایل CSV فرضی** ارتباط دهم
-
-آیا می‌خواهید ادامه دهیم؟
