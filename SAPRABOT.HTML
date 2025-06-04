@@ -1,1 +1,224 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>چت بات لری بختیاری - شبیه واتساپ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+    <style>
+        body, html {
+            height: 100%;
+            background: #121212;
+            color: #eee;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .chat-container {
+            max-width: 600px;
+            height: 100vh;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 0 15px #222;
+        }
+        header {
+            padding: 15px;
+            background-color: #2a2a2a;
+            font-weight: bold;
+            font-size: 1.3rem;
+            text-align: center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        #messages {
+            flex: 1;
+            padding: 10px;
+            overflow-y: auto;
+            scroll-behavior: smooth;
+        }
+        .message {
+            display: inline-block;
+            clear: both;
+            padding: 8px 14px;
+            margin-bottom: 8px;
+            border-radius: 20px;
+            max-width: 80%;
+            word-wrap: break-word;
+            white-space: pre-wrap;
+            font-size: 0.95rem;
+            line-height: 1.3;
+        }
+        .message.user {
+            background-color: #0b93f6;
+            color: white;
+            float: left;
+            border-bottom-left-radius: 2px;
+            border-bottom-right-radius: 20px;
+        }
+        .message.bot {
+            background-color: #2e2e2e;
+            color: #ccc;
+            float: right;
+            border-bottom-right-radius: 2px;
+            border-bottom-left-radius: 20px;
+        }
+        form {
+            display: flex;
+            padding: 10px;
+            background-color: #2a2a2a;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        textarea {
+            resize: none;
+            flex: 1;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 15px;
+            font-size: 1rem;
+            background-color: #121212;
+            color: #eee;
+            height: 40px;
+            max-height: 80px;
+            outline: none;
+        }
+        button {
+            background-color: #0b93f6;
+            border: none;
+            color: white;
+            padding: 0 20px;
+            margin-right: 10px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:disabled {
+            background-color: #4a7db3;
+            cursor: not-allowed;
+        }
+        button:hover:not(:disabled) {
+            background-color: #086ed1;
+        }
+        @media (max-width: 600px) {
+            .chat-container {
+                height: 100vh;
+                border-radius: 0;
+                box-shadow: none;
+                max-width: 100%;
+            }
+            header {
+                font-size: 1.1rem;
+            }
+            button {
+                padding: 0 14px;
+                font-size: 1rem;
+            }
+            textarea {
+                font-size: 0.9rem;
+                height: 35px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <header>چت بات لری بختیاری</header>
+        <div id="messages"></div>
+        <form id="chat-form">
+            <textarea id="inputMessage" placeholder="پیامتو بنویس..." rows="1" autocomplete="off"></textarea>
+            <button type="submit" id="btnSend">ارسال</button>
+        </form>
+    </div>
 
+    <script>
+        const apiUrl = "https://openrouter.ai/api/v1/chat/completions";
+        const apiKey = "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";
+        const model = "gpt-4o-mini";
+
+        const messagesContainer = document.getElementById("messages");
+        const form = document.getElementById("chat-form");
+        const inputMessage = document.getElementById("inputMessage");
+        const btnSend = document.getElementById("btnSend");
+
+        function addMessage(text, sender) {
+            const msgDiv = document.createElement("div");
+            msgDiv.classList.add("message", sender);
+            msgDiv.textContent = text;
+            messagesContainer.appendChild(msgDiv);
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+
+        form.addEventListener("submit", async (e) => {
+            e.preventDefault();
+            const userText = inputMessage.value.trim();
+            if (!userText) return;
+
+            addMessage(userText, "user");
+            inputMessage.value = "";
+            inputMessage.disabled = true;
+            btnSend.disabled = true;
+
+            addMessage("در حال دریافت پاسخ...", "bot");
+
+            try {
+                // تشخیص درخواست معنی یا ترجمه به فارسی
+                const needFarsi = /معنی|ترجمه|فهمیدن|چی یعنی|چی معنیش|معنیش چیه/i.test(userText);
+
+                const systemContent = needFarsi ?
+                    " تو دستیار هوشمند SAPRA هستی " :
+                    " کلیه پاسخها را بر اساس مرحله پریکامیشنینگ مطابق برنامه icaps توضیح بده ولی به جای icaps بگو SAPRA";
+
+                const payload = {
+                    model: model,
+                    messages: [
+                        { role: "system", content: systemContent },
+                        { role: "user", content: userText }
+                    ]
+                };
+
+                const response = await fetch(apiUrl, {
+                    method: "POST",
+                    headers: {
+                        "Authorization": "Bearer " + apiKey,
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(payload)
+                });
+
+                // حذف پیام در حال دریافت پاسخ
+                const waitingMsg = messagesContainer.querySelector(".message.bot:last-child");
+                if (waitingMsg) messagesContainer.removeChild(waitingMsg);
+
+                if (!response.ok) {
+                    addMessage(`خطا از سرور: ${response.status}`, "bot");
+                } else {
+                    const data = await response.json();
+                    const answer = data.choices?.[0]?.message?.content?.trim() || "پاسخی دریافت نشد.";
+                    addMessage(answer, "bot");
+                }
+
+            } catch (error) {
+                addMessage("خطا: " + error.message, "bot");
+            } finally {
+                inputMessage.disabled = false;
+                btnSend.disabled = false;
+                inputMessage.focus();
+            }
+        });
+
+        // فعال کردن ارسال با دکمه Enter در موبایل و دسکتاپ
+        inputMessage.addEventListener("keydown", function (e) {
+            if (e.key === "Enter" && !e.shiftKey) {
+                e.preventDefault();
+                btnSend.click();
+            }
+        });
+    </script>
+</body>
+</html>
