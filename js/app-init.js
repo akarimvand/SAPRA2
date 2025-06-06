@@ -1,0 +1,1 @@
+window.SAPRA_APP = {};
