@@ -9561,8 +9561,8 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,
 120-01,EL,EAP-MP-8001C,Power Cable A,Cooling Water Pump- MP-8001C,
 120-01,EL,EAP-MP-8001D,Power Cable A,Cooling Water Pump- MP-8001D,
 120-01,EL,EAP-NI-TR2-07,Power Cable A,6/0.42kV Transformer for Owner Non-Industrial Buildings- NI-TR7-01,
-120-16,EL,EAP-SS-NGR1A-01,Power Cable A,Neutral Grounding Resistor- SS-NGR1A-01,Complete
-120-16,EL,EAP-SS-NGR1B-01,Power Cable A,Neutral Grounding Resistor- SS-NGR1B-01,Complete
+120-16,EL,EAP-SS-NGR1A-01,Power Cable A,Neutral Grounding Resistor- SS-NGR1A-01,Completed
+120-16,EL,EAP-SS-NGR1B-01,Power Cable A,Neutral Grounding Resistor- SS-NGR1B-01,Completed
 120-16,EL,EAP-SS-TR1A-01_1,Power Cable A,20/6.3 KV Transformer- SS-TR1A-01,Exception
 120-16,EL,EAP-SS-TR1A-01_2,Power Cable A,20/6.3 KV Transformer- SS-TR1A-01,Exception
 120-16,EL,EAP-SS-TR1A-01_3,Power Cable A,20/6.3 KV Transformer- SS-TR1A-01,Exception
@@ -18862,8 +18862,8 @@ LS-03,EL,SS-LP-01-8-L3-12,Lighting Fixture,Bulkhead Lighting Fixture 30w Energy 
 LS-03,EL,SS-LP-01-8-L3-13,Lighting Fixture,Bulkhead Lighting Fixture 30w Energy Saving- WP (TR),
 LS-03,EL,SS-LP-01-8-L3-14,Lighting Fixture,Bulkhead Lighting Fixture 30w Energy Saving- WP (TR),
 LS-01,EL,SS-MLP-01,Panel,Main Normal Lighting Panel,
-120-16,EL,SS-NGR1A-01,Natural Ground Resistance,Neutral Grounding Resistor- SS-NGR1A-01,Complete
-120-16,EL,SS-NGR1B-01,Natural Ground Resistance,Neutral Grounding Resistor- SS-NGR1B-01,Complete
+120-16,EL,SS-NGR1A-01,Natural Ground Resistance,Neutral Grounding Resistor- SS-NGR1A-01,Completed
+120-16,EL,SS-NGR1B-01,Natural Ground Resistance,Neutral Grounding Resistor- SS-NGR1B-01,Completed
 120-12,EL,SS-PDCS-01,Panel,Power Distribution Control System,
 TEL-08,EL,SS-PJB1,Paging Device,Paging Junction Box,
 TEL-08,EL,SS-PJB2,Paging Device,Paging Junction Box,
@@ -18879,23 +18879,23 @@ TEL-08,EL,SS-TEL-01,Telecom Device,Telephone Station Without Hood,
 TEL-08,EL,SS-TEL-02,Telecom Device,Telephone Station Without Hood,
 TEL-08,EL,SS-TEL-03,Telecom Device,Telephone Station Without Hood,
 TEL-08,EL,SS-TJB1,Telecom Device,Telephone Junction Box,
-120-16,EL,SS-TR1A-01,Transformer,Transformer,Complete
-120-16,EL,SS-TR1B-01,Transformer,Transformer,Complete
-120-17,EL,SS-TR2A-01,Transformer,Transformer,COMPLETED
-120-17,EL,SS-TR2A-02,Transformer,Transformer,COMPLETED
-120-17,EL,SS-TR2A-03,Transformer,Transformer,COMPLETED
-120-17,EL,SS-TR2A-04,Transformer,Transformer,COMPLETED
-120-17,EL,SS-TR2A-05,Transformer,Transformer,COMPLETED
-120-17,EL,SS-TR2A-06,Transformer,Transformer,COMPLETED
-120-17,EL,SS-TR2B-01,Transformer,Transformer,COMPLETED
-120-17,EL,SS-TR2B-02,Transformer,Transformer,COMPLETED
-120-17,EL,SS-TR2B-03,Transformer,Transformer,COMPLETED
-120-17,EL,SS-TR2B-04,Transformer,Transformer,COMPLETED
-120-17,EL,SS-TR2B-05,Transformer,Transformer,COMPLETED
-120-17,EL,SS-TR2B-06,Transformer,Transformer,COMPLETED
-120-17,EL,SS-TR3-02,Transformer,Main Emergency Lighting Transformer,
-120-17,EL,SS-TR3A-01,Transformer,Main Normal Lighting Transformer A,
-120-17,EL,SS-TR3B-01,Transformer,Main Normal Lighting Transformer B,
+120-16,EL,SS-TR1A-01,Transformer,Transformer,Completed
+120-16,EL,SS-TR1B-01,Transformer,Transformer,Completed
+120-17,EL,SS-TR2A-01,Transformer,Transformer,Completed
+120-17,EL,SS-TR2A-02,Transformer,Transformer,Completed
+120-17,EL,SS-TR2A-03,Transformer,Transformer,Completed
+120-17,EL,SS-TR2A-04,Transformer,Transformer,Completed
+120-17,EL,SS-TR2A-05,Transformer,Transformer,Completed
+120-17,EL,SS-TR2A-06,Transformer,Transformer,Completed
+120-17,EL,SS-TR2B-01,Transformer,Transformer,Completed
+120-17,EL,SS-TR2B-02,Transformer,Transformer,Completed
+120-17,EL,SS-TR2B-03,Transformer,Transformer,Completed
+120-17,EL,SS-TR2B-04,Transformer,Transformer,Completed
+120-17,EL,SS-TR2B-05,Transformer,Transformer,Completed
+120-17,EL,SS-TR2B-06,Transformer,Transformer,Completed
+120-17,EL,SS-TR3-02,Transformer,Main Emergency Lighting Transformer,EXCEPTION
+120-17,EL,SS-TR3A-01,Transformer,Main Normal Lighting Transformer A,EXCEPTION
+120-17,EL,SS-TR3B-01,Transformer,Main Normal Lighting Transformer B,EXCEPTION
 120-15,EL,SS-UBT-01,UPS & Battery,230V AC Safety Lighting UPS Battery Set,
 120-11,EL,SS-UIS-01,UPS & Battery,230V AC Safety Lighting UPS Battery Isolator Box,
 120-11,EL,SS-UPS-01,UPS & Battery, 230V AC Safety Lighting UPS,
