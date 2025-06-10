@@ -12,110 +12,38 @@
       background-color: #f8f9fa;
       padding: 1rem;
     }
-
     .container-form {
       max-width: 1200px;
       margin: auto;
     }
-
-    .form-control,
-    .form-select {
-      font-size: 0.875rem;
-    }
-
+    .form-control, .form-select { font-size: 0.875rem; }
     .btn-group-top {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-      justify-content: end;
-      margin-bottom: 1rem;
+      display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: end; margin-bottom: 1rem;
     }
-
-    .btn-group-top .btn {
-      flex: 1 1 calc(33% - 0.3rem);
-      min-width: 140px;
-      white-space: nowrap;
-    }
-
-    @media (max-width: 768px) {
-      .btn-group-top .btn {
-        flex: 1 1 100%;
-      }
-    }
-
-    .table-responsive {
-      overflow-x: auto;
-    }
-
-    .card {
-      margin-bottom: 1rem;
-    }
-
-    .sapra-loader svg {
-      display: block;
-      margin: 0 auto;
-    }
-
-    .footer {
-      font-size: 0.85rem;
-      color: #adb5bd;
-      cursor: pointer;
-      transition: transform 0.4s cubic-bezier(.4, 2, .6, 1);
-    }
-
-    .footer a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    .footer a:hover {
-      text-decoration: underline;
-    }
-
+    .btn-group-top .btn { flex: 1 1 calc(33% - 0.3rem); min-width: 140px; white-space: nowrap; }
+    @media (max-width: 768px) { .btn-group-top .btn { flex: 1 1 100%; } }
+    .table-responsive { overflow-x: auto; }
+    .card { margin-bottom: 1rem; }
+    .footer { font-size: 0.85rem; color: #adb5bd; cursor: pointer; transition: transform 0.4s cubic-bezier(.4, 2, .6, 1);}
+    .footer a { color: inherit; text-decoration: none; }
+    .footer a:hover { text-decoration: underline; }
     .loading-modal {
-      position: fixed;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background: rgba(0, 0, 0, 0.6);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      z-index: 9999;
-      display: none;
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;
+      z-index: 9999; display: none;
     }
-
     .loading-modal-content {
-      background: white;
-      padding: 2rem;
-      border-radius: 8px;
-      text-align: center;
+      background: white; padding: 2rem; border-radius: 8px; text-align: center;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     }
-
-    .loading-modal svg {
-      width: 64px;
-      height: 64px;
-      animation: spin 1.5s linear infinite;
-    }
-
-    @keyframes spin {
-      from { transform: rotate(0deg); }
-      to { transform: rotate(360deg); }
-    }
-
-    .search-btn {
-      background-color: #00adb5;
-      color: white;
-    }
-
-    .search-btn:hover {
-      background-color: #008d95;
-    }
+    .loading-modal svg { width: 64px; height: 64px; animation: spin 1.5s linear infinite; }
+    @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    .search-btn { background-color: #00adb5; color: white; }
+    .search-btn:hover { background-color: #008d95; }
   </style>
 </head>
 <body>
 
-<!-- Container -->
 <div class="container-fluid container-form">
   <div class="card shadow-sm mb-4">
     <div class="card-header d-flex justify-content-between align-items-center flex-wrap">
@@ -182,22 +110,6 @@
   </div>
 </div>
 
-<!-- Hidden template for styled Excel export -->
-<table id="excelTemplate" class="excel-template" style="display:none;">
-  <thead>
-    <tr>
-      <th>#</th>
-      <th>Subsystem</th>
-      <th>Discipline</th>
-      <th>Tag No</th>
-      <th>Type Code</th>
-      <th>Category</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody id="excelTemplateBody"></tbody>
-</table>
-
 <!-- Modal لودینگ -->
 <div class="loading-modal" id="loadingModal">
   <div class="loading-modal-content">
@@ -222,151 +134,148 @@
 <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script> 
 
 <script>
-  const PUNCH_CSV_URL = "PUNCH.CSV";
-  let punchData = [];
-  let filteredData = [];
+const PUNCH_CSV_URL = "PUNCH.CSV";
+let punchData = [];
+let filteredData = [];
 
-  document.addEventListener('DOMContentLoaded', () => {
-    setupEventListeners();
-    loadPunchData();
+document.addEventListener('DOMContentLoaded', () => {
+  setupEventListeners();
+  loadPunchData();
+});
+
+function setupEventListeners() {
+  document.getElementById('applyFilterBtn').addEventListener('click', applyFilters);
+  document.getElementById('exportExcelBtn').addEventListener('click', () => exportToExcel());
+  document.getElementById('shareBtn').addEventListener('click', shareResults);
+}
+
+function showLoading() {
+  document.getElementById('loadingModal').style.display = 'flex';
+}
+function hideLoading() {
+  document.getElementById('loadingModal').style.display = 'none';
+}
+
+function loadPunchData() {
+  showLoading();
+  Papa.parse(PUNCH_CSV_URL, {
+    header: true,
+    download: true,
+    skipEmptyLines: true,
+    complete: (results) => {
+      punchData = results.data.map(item => ({
+        subsystem: item.SD_SUB_SYSTEM?.trim() || '',
+        discipline: item.Discipline_Name?.trim() || '',
+        tagNo: item.ITEM_Tag_NO?.trim() || '',
+        typeCode: item.ITEM_Type_Code?.trim() || '',
+        punchCategory: item.PL_Punch_Category?.trim() || '',
+        punchDescription: item.PL_Punch_Description?.trim() || ''
+      }));
+      hideLoading();
+      renderTable(punchData);
+      filteredData = punchData;
+    },
+    error: (err) => {
+      console.error("Error loading CSV:", err);
+      alert("خطا در بارگذاری داده‌ها");
+      hideLoading();
+    }
   });
+}
 
-  function setupEventListeners() {
-    document.getElementById('applyFilterBtn').addEventListener('click', applyFilters);
-    document.getElementById('exportExcelBtn').addEventListener('click', exportToExcel);
-    document.getElementById('shareBtn').addEventListener('click', shareResults);
+function applyFilters() {
+  const subsystem = document.getElementById('filterSubsystem').value.trim().toLowerCase();
+  const discipline = document.getElementById('filterDiscipline').value.trim().toLowerCase();
+  const tagNo = document.getElementById('filterTagNo').value.trim().toLowerCase();
+  const category = document.getElementById('filterPunchCategory').value.trim().toLowerCase();
+
+  filteredData = punchData.filter(item =>
+    item.subsystem.toLowerCase().includes(subsystem) &&
+    item.discipline.toLowerCase().includes(discipline) &&
+    item.tagNo.toLowerCase().includes(tagNo) &&
+    (category === '' || item.punchCategory.toLowerCase() === category)
+  );
+  renderTable(filteredData);
+}
+
+function renderTable(data) {
+  const tbody = document.getElementById('punchDataTableBody');
+  tbody.innerHTML = '';
+  if (data.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="7" class="text-center text-muted">داده‌ای یافت نشد.</td></tr>`;
+    return;
   }
+  data.forEach((item, index) => {
+    const row = document.createElement('tr');
+    row.innerHTML = `
+      <td>${index + 1}</td>
+      <td>${item.subsystem}</td>
+      <td>${item.discipline}</td>
+      <td>${item.tagNo}</td>
+      <td>${item.typeCode || 'N/A'}</td>
+      <td>${item.punchCategory || 'N/A'}</td>
+      <td>${item.punchDescription}</td>
+    `;
+    tbody.appendChild(row);
+  });
+}
 
-  function showLoading() {
-    document.getElementById('loadingModal').style.display = 'flex';
+function getFilteredDataForExport(dataToUse = null) {
+  const data = dataToUse || filteredData;
+  return data.map((item, index) => ({
+    '#': index + 1,
+    Subsystem: item.subsystem,
+    Discipline: item.discipline,
+    'Tag No': item.tagNo,
+    'Type Code': item.typeCode || 'N/A',
+    Category: item.punchCategory || 'N/A',
+    Description: item.punchDescription
+  }));
+}
+
+function exportToExcel(dataToExport = null) {
+  const exportData = dataToExport || getFilteredDataForExport();
+  if (exportData.length === 0) {
+    alert("داده‌ای برای خروجی وجود ندارد.");
+    return;
   }
+  const worksheet = XLSX.utils.json_to_sheet(exportData);
+  const workbook = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(workbook, worksheet, 'Punch Data');
+  XLSX.writeFile(workbook, `Punch_Items_${new Date().toISOString().split('T')[0]}.xlsx`);
+}
 
-  function hideLoading() {
-    document.getElementById('loadingModal').style.display = 'none';
+async function shareResults() {
+  const dataToShare = getFilteredDataForExport();
+  if (dataToShare.length === 0) {
+    alert("داده‌ای برای اشتراک‌گذاری وجود ندارد.");
+    return;
   }
-
-  function loadPunchData() {
-    showLoading();
-    Papa.parse(PUNCH_CSV_URL, {
-      header: true,
-      download: true,
-      skipEmptyLines: true,
-      complete: (results) => {
-        punchData = results.data.map(item => ({
-          subsystem: item.SD_SUB_SYSTEM?.trim() || '',
-          discipline: item.Discipline_Name?.trim() || '',
-          tagNo: item.ITEM_Tag_NO?.trim() || '',
-          typeCode: item.ITEM_Type_Code?.trim() || '',
-          punchCategory: item.PL_Punch_Category?.trim() || '',
-          punchDescription: item.PL_Punch_Description?.trim() || ''
-        }));
-        hideLoading();
-        renderTable(punchData);
-      },
-      error: (err) => {
-        console.error("Error loading CSV:", err);
-        alert("خطا در بارگذاری داده‌ها");
-        hideLoading();
-      }
+  try {
+    const ws = XLSX.utils.json_to_sheet(dataToShare);
+    const wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, ws, "Punch Data");
+    const excelBuffer = XLSX.write(wb, { bookType: 'xlsx', type: 'array' });
+    const blob = new Blob([excelBuffer], { type: 'application/octet-stream' });
+    const file = new File([blob], `Punch_Items_Shared.xlsx`, {
+      type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
     });
-  }
 
-  function applyFilters() {
-    const subsystem = document.getElementById('filterSubsystem').value.trim().toLowerCase();
-    const discipline = document.getElementById('filterDiscipline').value.trim().toLowerCase();
-    const tagNo = document.getElementById('filterTagNo').value.trim().toLowerCase();
-    const category = document.getElementById('filterPunchCategory').value.trim().toLowerCase();
-
-    filteredData = punchData.filter(item =>
-      item.subsystem.toLowerCase().includes(subsystem) &&
-      item.discipline.toLowerCase().includes(discipline) &&
-      item.tagNo.toLowerCase().includes(tagNo) &&
-      (category === '' || item.punchCategory.toLowerCase() === category)
-    );
-
-    renderTable(filteredData);
-  }
-
-  function renderTable(data) {
-    const tbody = document.getElementById('punchDataTableBody');
-    tbody.innerHTML = '';
-    if (data.length === 0) {
-      tbody.innerHTML = `<tr><td colspan="7" class="text-center text-muted">داده‌ای یافت نشد.</td></tr>`;
-      return;
-    }
-    data.forEach((item, index) => {
-      const row = document.createElement('tr');
-      row.innerHTML = `
-        <td>${index + 1}</td>
-        <td>${item.subsystem}</td>
-        <td>${item.discipline}</td>
-        <td>${item.tagNo}</td>
-        <td>${item.typeCode || 'N/A'}</td>
-        <td>${item.punchCategory || 'N/A'}</td>
-        <td>${item.punchDescription}</td>
-      `;
-      tbody.appendChild(row);
-    });
-  }
-
-  function getFilteredDataForExport(dataToUse = null) {
-    const data = dataToUse || filteredData;
-    return data.map((item, index) => ({
-      '#': index + 1,
-      Subsystem: item.subsystem,
-      Discipline: item.discipline,
-      'Tag No': item.tagNo,
-      'Type Code': item.typeCode || 'N/A',
-      Category: item.punchCategory || 'N/A',
-      Description: item.punchDescription
-    }));
-  }
-
-  function exportToExcel(dataToExport = null) {
-    const exportData = dataToExport || getFilteredDataForExport();
-    if (exportData.length === 0) {
-      alert("داده‌ای برای خروجی وجود ندارد.");
-      return;
-    }
-    const worksheet = XLSX.utils.json_to_sheet(exportData);
-    const workbook = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(workbook, worksheet, 'Punch Data');
-    XLSX.writeFile(workbook, `Punch_Items_${new Date().toISOString().split('T')[0]}.xlsx`);
-  }
-
-  async function shareResults() {
-    const dataToShare = getFilteredDataForExport();
-    if (dataToShare.length === 0) {
-      alert("داده‌ای برای اشتراک‌گذاری وجود ندارد.");
-      return;
-    }
-
-    try {
-      const ws = XLSX.utils.json_to_sheet(dataToShare);
-      const wb = XLSX.utils.book_new();
-      XLSX.utils.book_append_sheet(wb, ws, "Punch Data");
-      const excelBuffer = XLSX.write(wb, { bookType: 'xlsx', type: 'array' });
-      const blob = new Blob([excelBuffer], { type: 'application/octet-stream' });
-      const file = new File([blob], `Punch_Items_Shared.xlsx`, {
-        type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      await navigator.share({
+        title: 'Punch Items Report',
+        text: `${dataToShare.length} items exported.`,
+        files: [file]
       });
-
-      if (navigator.canShare && navigator.canShare({ files: [file] })) {
-        await navigator.share({
-          title: 'Punch Items Report',
-          text: `${dataToShare.length} items exported.`,
-          files: [file]
-        });
-      } else {
-        exportToExcel(dataToShare);
-        alert(`فایل به عنوان Punch_Items_Shared.xlsx ذخیره شد.\nلطفاً آن را در پوشه دانلود‌ها پیدا کنید.`);
-      }
-    } catch (error) {
-      console.error("اشتراک‌گذاری با خطا مواجه شد:", error);
-      alert("خطا در اشتراک‌گذاری فایل.");
+    } else {
+      exportToExcel(dataToShare);
+      alert(`فایل به عنوان Punch_Items_Shared.xlsx ذخیره شد.\nلطفاً آن را در پوشه دانلود‌ها پیدا کنید و به صورت دستی به اشتراک بگذارید.`);
     }
+  } catch (error) {
+    console.error("اشتراک‌گذاری با خطا مواجه شد:", error);
+    alert("خطا در اشتراک‌گذاری فایل.");
   }
+}
 </script>
-
 </body>
 </html>
