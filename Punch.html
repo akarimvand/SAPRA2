@@ -9,31 +9,33 @@
   <style>
     body {
       font-family: 'Roboto', sans-serif;
-      background-color: #f8f9fa;
+      background-color: #181a1b !important;
+      color: #f8f9fa !important;
       padding: 1rem;
+      transition: background 0.3s;
     }
-    .container-form {
-      max-width: 1200px;
-      margin: auto;
-    }
-    .form-control, .form-select { font-size: 0.875rem; }
-    .table-responsive { overflow-x: auto; }
-    .card { margin-bottom: 1rem; }
+    .container-form { max-width: 1200px; margin: auto; }
+    .form-control, .form-select { font-size: 0.875rem; background: #23272b !important; color: #f8f9fa !important; border: 1px solid #393e46; }
+    .form-label { color: #d1d5db !important; }
+    .table { color: #f8f9fa; }
+    .table-light th { background: #23272b !important; color: #f8f9fa !important; }
+    .table-striped > tbody > tr:nth-of-type(odd) { background-color: #23272b; }
+    .table-striped > tbody > tr:nth-of-type(even) { background-color: #181a1b; }
+    .card { background: #23272b; color: #f8f9fa; border: 1px solid #393e46; margin-bottom: 1rem; }
+    .btn-success { background: #198754; border: none; }
+    .btn-success:hover { background: #157347; }
     .loading-modal {
       position: fixed; top: 0; left: 0; width: 100%; height: 100%;
       background: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;
       z-index: 9999; display: none;
     }
     .loading-modal-content {
-      background: white; padding: 2rem; border-radius: 8px; text-align: center;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      background: #23272b; padding: 2rem; border-radius: 8px; text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); color: #f8f9fa;
     }
     .loading-modal svg { width: 64px; height: 64px; animation: spin 1.5s linear infinite; }
     @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-    .search-btn { background-color: #00adb5; color: white; }
-    .search-btn:hover { background-color: #008d95; }
-    /* دکمه‌ها کنار هم */
-    .action-btns-row { display: flex; gap: .5rem; justify-content: flex-end; align-items: center; flex-wrap: wrap; margin-top: 8px;}
+    ::placeholder { color: #adb5bd !important; opacity: 1; }
   </style>
 </head>
 <body>
@@ -41,42 +43,38 @@
   <div class="card shadow-sm mb-4">
     <div class="card-header d-flex justify-content-between align-items-center flex-wrap">
       <h5 class="mb-2 mb-md-0">Punch Items Management</h5>
+      <button class="btn btn-success btn-sm" id="exportExcelBtn" type="button">
+        <i class="bi bi-file-earmark-excel me-1"></i> Export to Excel
+      </button>
     </div>
     <div class="card-body">
       <form id="punchFilterForm" class="mb-3">
         <div class="row g-3 align-items-end">
           <div class="col-12 col-md-3">
             <label for="filterSubsystem" class="form-label">Subsystem</label>
-            <input type="text" class="form-control form-control-sm" id="filterSubsystem" placeholder="Search...">
+            <select class="form-select form-select-sm" id="filterSubsystem">
+              <option value="">همه</option>
+            </select>
           </div>
           <div class="col-12 col-md-3">
             <label for="filterDiscipline" class="form-label">Discipline</label>
-            <input type="text" class="form-control form-control-sm" id="filterDiscipline" placeholder="Search...">
+            <select class="form-select form-select-sm" id="filterDiscipline">
+              <option value="">همه</option>
+            </select>
           </div>
           <div class="col-12 col-md-3">
             <label for="filterTagNo" class="form-label">Tag No</label>
-            <input type="text" class="form-control form-control-sm" id="filterTagNo" placeholder="Search...">
+            <input type="text" class="form-control form-control-sm" id="filterTagNo" placeholder="جستجو...">
           </div>
           <div class="col-12 col-md-3">
             <label for="filterPunchCategory" class="form-label">Category</label>
             <select class="form-select form-select-sm" id="filterPunchCategory">
-              <option value="">All</option>
+              <option value="">همه</option>
               <option value="A">A</option>
               <option value="B">B</option>
               <option value="C">C</option>
             </select>
           </div>
-        </div>
-        <div class="action-btns-row mt-2">
-          <button type="button" class="btn btn-sm search-btn" id="applyFilterBtn">
-            <i class="bi bi-search me-1"></i> Search
-          </button>
-          <button class="btn btn-primary btn-sm" id="shareBtn" type="button">
-            <i class="bi bi-share me-1"></i> Share Results
-          </button>
-          <button class="btn btn-success btn-sm" id="exportExcelBtn" type="button">
-            <i class="bi bi-file-earmark-excel me-1"></i> Export to Excel
-          </button>
         </div>
       </form>
       <div class="table-responsive data-grid">
@@ -100,7 +98,6 @@
     </div>
   </div>
 </div>
-
 <div class="loading-modal" id="loadingModal">
   <div class="loading-modal-content">
     <svg viewBox="0 0 48 48">
@@ -115,29 +112,41 @@
           repeatCount="indefinite" />
       </circle>
     </svg>
-    <p class="mt-3 fw-bold text-info">Loading data...</p>
+    <p class="mt-3 fw-bold text-info">در حال بارگذاری داده‌ها...</p>
   </div>
 </div>
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
 <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script> 
 <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script> 
-
 <script>
 const PUNCH_CSV_URL = "PUNCH.CSV";
 let punchData = [];
 let filteredData = [];
-let csvLoaded = false;
 
 document.addEventListener('DOMContentLoaded', () => {
-  setupEventListeners();
-  // داده‌ها در ابتدا لود نمی‌شوند
+  enableDarkTheme();
+  loadPunchData();
+  setupLiveFilters();
 });
 
-function setupEventListeners() {
-  document.getElementById('applyFilterBtn').addEventListener('click', handleSearchClick);
-  document.getElementById('exportExcelBtn').addEventListener('click', exportToExcel);
-  document.getElementById('shareBtn').addEventListener('click', shareResults);
+function enableDarkTheme() {
+  document.documentElement.style.background = "#181a1b";
+  document.body.classList.add('bg-dark');
+  // ذخیره تم دارک در localStorage
+  localStorage.setItem('theme', 'dark');
+}
+
+function setupLiveFilters() {
+  document.getElementById('filterSubsystem').addEventListener('change', applyFilters);
+  document.getElementById('filterDiscipline').addEventListener('change', () => {
+    updateSubsystemOptions();
+    applyFilters();
+  });
+  document.getElementById('filterTagNo').addEventListener('input', applyFilters);
+  document.getElementById('filterPunchCategory').addEventListener('change', () => {
+    updateSubsystemOptions();
+    applyFilters();
+  });
 }
 
 function showLoading() {
@@ -147,49 +156,62 @@ function hideLoading() {
   document.getElementById('loadingModal').style.display = 'none';
 }
 
-function handleSearchClick() {
-  if (!csvLoaded) {
-    showLoading();
-    Papa.parse(PUNCH_CSV_URL, {
-      header: true,
-      download: true,
-      skipEmptyLines: true,
-      fastMode: true, // سرعت بالاتر
-      complete: (results) => {
-        punchData = results.data.map(item => ({
-          subsystem: item.SD_SUB_SYSTEM?.trim() || '',
-          discipline: item.Discipline_Name?.trim() || '',
-          tagNo: item.ITEM_Tag_NO?.trim() || '',
-          typeCode: item.ITEM_Type_Code?.trim() || '',
-          punchCategory: item.PL_Punch_Category?.trim() || '',
-          punchDescription: item.PL_Punch_Description?.trim() || ''
-        }));
-        csvLoaded = true;
-        hideLoading();
-        applyFilters();
-      },
-      error: (err) => {
-        console.error("Error loading CSV:", err);
-        alert("خطا در بارگذاری داده‌ها");
-        hideLoading();
-      }
-    });
-  } else {
-    applyFilters();
-  }
+function loadPunchData() {
+  showLoading();
+  Papa.parse(PUNCH_CSV_URL, {
+    header: true,
+    download: true,
+    skipEmptyLines: true,
+    complete: (results) => {
+      punchData = results.data.map(item => ({
+        subsystem: item.SD_SUB_SYSTEM?.trim() || '',
+        discipline: item.Discipline_Name?.trim() || '',
+        tagNo: item.ITEM_Tag_NO?.trim() || '',
+        typeCode: item.ITEM_Type_Code?.trim() || '',
+        punchCategory: item.PL_Punch_Category?.trim() || '',
+        punchDescription: item.PL_Punch_Description?.trim() || ''
+      }));
+      populateDisciplineOptions();
+      updateSubsystemOptions();
+      applyFilters();
+      hideLoading();
+    },
+    error: (err) => {
+      console.error("Error loading CSV:", err);
+      alert("خطا در بارگذاری داده‌ها");
+      hideLoading();
+    }
+  });
+}
+
+function populateDisciplineOptions() {
+  const select = document.getElementById('filterDiscipline');
+  const disciplines = Array.from(new Set(punchData.map(item => item.discipline))).filter(Boolean).sort();
+  select.innerHTML = `<option value="">همه</option>` + disciplines.map(d => `<option value="${d}">${d}</option>`).join('');
+}
+
+function updateSubsystemOptions() {
+  const discipline = document.getElementById('filterDiscipline').value;
+  const category = document.getElementById('filterPunchCategory').value;
+  let filtered = punchData;
+  if (discipline) filtered = filtered.filter(item => item.discipline === discipline);
+  if (category) filtered = filtered.filter(item => item.punchCategory === category);
+  const subsystems = Array.from(new Set(filtered.map(item => item.subsystem))).filter(Boolean).sort();
+  const select = document.getElementById('filterSubsystem');
+  select.innerHTML = `<option value="">همه</option>` + subsystems.map(s => `<option value="${s}">${s}</option>`).join('');
 }
 
 function applyFilters() {
-  const subsystem = document.getElementById('filterSubsystem').value.trim().toLowerCase();
-  const discipline = document.getElementById('filterDiscipline').value.trim().toLowerCase();
+  const subsystem = document.getElementById('filterSubsystem').value;
+  const discipline = document.getElementById('filterDiscipline').value;
   const tagNo = document.getElementById('filterTagNo').value.trim().toLowerCase();
-  const category = document.getElementById('filterPunchCategory').value.trim().toLowerCase();
+  const category = document.getElementById('filterPunchCategory').value;
 
   filteredData = punchData.filter(item =>
-    item.subsystem.toLowerCase().includes(subsystem) &&
-    item.discipline.toLowerCase().includes(discipline) &&
-    item.tagNo.toLowerCase().includes(tagNo) &&
-    (category === '' || item.punchCategory.toLowerCase() === category)
+    (subsystem === "" || item.subsystem === subsystem) &&
+    (discipline === "" || item.discipline === discipline) &&
+    (category === "" || item.punchCategory === category) &&
+    (tagNo === "" || item.tagNo.toLowerCase().includes(tagNo))
   );
   renderTable(filteredData);
 }
@@ -201,7 +223,7 @@ function renderTable(data) {
     tbody.innerHTML = `<tr><td colspan="7" class="text-center text-muted">داده‌ای یافت نشد.</td></tr>`;
     return;
   }
-  // بهینه‌سازی رندر: استفاده از fragment
+  // رندر سریع با fragment
   const fragment = document.createDocumentFragment();
   data.forEach((item, index) => {
     const row = document.createElement('tr');
@@ -219,9 +241,8 @@ function renderTable(data) {
   tbody.appendChild(fragment);
 }
 
-function getFilteredDataForExport(dataToUse = null) {
-  const data = dataToUse || filteredData;
-  return data.map((item, index) => ({
+function getFilteredDataForExport() {
+  return filteredData.map((item, index) => ({
     '#': index + 1,
     Subsystem: item.subsystem,
     Discipline: item.discipline,
@@ -232,8 +253,8 @@ function getFilteredDataForExport(dataToUse = null) {
   }));
 }
 
-function exportToExcel(dataToExport = null) {
-  const exportData = dataToExport || getFilteredDataForExport();
+function exportToExcel() {
+  const exportData = getFilteredDataForExport();
   if (exportData.length === 0) {
     alert("داده‌ای برای خروجی وجود ندارد.");
     return;
@@ -242,38 +263,6 @@ function exportToExcel(dataToExport = null) {
   const workbook = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(workbook, worksheet, 'Punch Data');
   XLSX.writeFile(workbook, `Punch_Items_${new Date().toISOString().split('T')[0]}.xlsx`);
-}
-
-async function shareResults() {
-  const dataToShare = getFilteredDataForExport();
-  if (dataToShare.length === 0) {
-    alert("داده‌ای برای اشتراک‌گذاری وجود ندارد.");
-    return;
-  }
-  try {
-    const ws = XLSX.utils.json_to_sheet(dataToShare);
-    const wb = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(wb, ws, "Punch Data");
-    const excelBuffer = XLSX.write(wb, { bookType: 'xlsx', type: 'array' });
-    const blob = new Blob([excelBuffer], { type: 'application/octet-stream' });
-    const file = new File([blob], `Punch_Items_Shared.xlsx`, {
-      type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-    });
-
-    if (navigator.canShare && navigator.canShare({ files: [file] })) {
-      await navigator.share({
-        title: 'Punch Items Report',
-        text: `${dataToShare.length} items exported.`,
-        files: [file]
-      });
-    } else {
-      exportToExcel(dataToShare);
-      alert(`فایل به عنوان Punch_Items_Shared.xlsx ذخیره شد.\nلطفاً آن را در پوشه دانلود‌ها پیدا کنید.`);
-    }
-  } catch (error) {
-    console.error("اشتراک‌گذاری با خطا مواجه شد:", error);
-    alert("خطا در اشتراک‌گذاری فایل.");
-  }
 }
 </script>
 </body>
