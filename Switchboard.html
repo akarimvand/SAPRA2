@@ -24,13 +24,13 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 0.75rem;
+      gap: 1rem;
       margin-bottom: 1rem;
       user-select: none;
     }
 
     header img.logo {
-      height: 40px; /* اندازه مناسب لوگو */
+      height: 48px; /* اندازه لوگو برابر با ارتفاع متن */
       width: auto;
       user-select: none;
     }
@@ -42,6 +42,7 @@
       letter-spacing: 0.15em;
       margin: 0;
       user-select: none;
+      line-height: 1;
     }
 
     .sapra-subtitle {
@@ -54,29 +55,17 @@
       user-select: none;
     }
 
-    .dashboard-container {
-      display: flex;
-      gap: 1rem;
-      flex-grow: 1;
-      max-width: 1200px;
-      margin: 0 auto;
-      height: calc(100vh - 130px);
-    }
-
     main {
-      flex: 1 1 400px;
+      max-width: 900px;
+      margin: 0 auto;
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
       gap: 1.5rem;
-      overflow-y: auto;
-      padding-right: 0.5rem;
-      border-right: 1px solid #333;
-      max-width: 650px;
     }
 
     .tile {
       background: #1f2937;
-      color: #e0e0e0;
+      color: #f3c623; /* زرد کاترپیلار */
       border-radius: 12px;
       box-shadow:
         0 4px 10px rgba(0,0,0,0.5),
@@ -86,7 +75,7 @@
       align-items: center;
       justify-content: center;
       font-weight: 700;
-      font-size: 1.3rem; /* بزرگتر */
+      font-size: 1.4rem; /* کمی بزرگتر */
       cursor: pointer;
       user-select: none;
       transition:
@@ -109,41 +98,41 @@
       transform: translateY(-6px) scale(1.07);
       box-shadow:
         0 12px 25px rgba(0,0,0,0.7),
-        0 0 30px rgba(77,171,247,0.6);
+        0 0 30px rgba(243,198,35,0.8);
       outline: none;
-      background-color: #2563eb;
-      color: #f0f9ff;
+      background-color: #b8860b; /* طلایی تیره */
+      color: #fff8dc;
     }
     .tile:focus-visible {
-      outline: 3px solid #4dabf7;
+      outline: 3px solid #f3c623;
       outline-offset: 4px;
     }
 
     .tile-icon {
-      font-size: 2.5rem; /* بزرگتر */
+      font-size: 2.8rem; /* بزرگتر */
       line-height: 1;
       user-select: none;
       pointer-events: none;
-      color: #60a5fa;
+      color: #f3c623; /* زرد کاترپیلار */
       transition: color 0.3s;
     }
 
     .tile:hover .tile-icon,
     .tile:focus .tile-icon {
-      color: #dbeafe;
+      color: #fff8dc;
     }
 
     .tile-title {
-      font-size: 1.25rem; /* بزرگتر */
+      font-size: 1.4rem; /* بزرگتر */
       font-weight: 700;
       margin-top: 0.4rem;
       user-select: none;
     }
 
     .tile-desc {
-      font-size: 0.8rem; /* بزرگتر */
+      font-size: 0.85rem; /* بزرگتر */
       font-weight: 400;
-      color: #a0aec0;
+      color: #d4af37cc; /* طلایی کمی شفاف */
       margin-top: 0.3rem;
       user-select: none;
       line-height: 1.3;
@@ -157,7 +146,7 @@
       height: 100%;
       top: 0; left: 0;
       pointer-events: none;
-      background: radial-gradient(circle, rgba(255,255,255,0.12) 10%, transparent 10.01%);
+      background: radial-gradient(circle, rgba(243,198,35,0.12) 10%, transparent 10.01%);
       background-repeat: no-repeat;
       background-position: 50%;
       transform: scale(10);
@@ -171,17 +160,9 @@
     }
 
     @media (max-width: 992px) {
-      .dashboard-container {
-        flex-direction: column;
-        height: auto;
-      }
       main {
-        max-width: 100%;
-        border-right: none;
-        padding-right: 0;
         grid-template-columns: repeat(2, 1fr);
-        margin-bottom: 1rem;
-        height: auto;
+        gap: 1.2rem;
       }
     }
 
@@ -191,16 +172,16 @@
         gap: 1rem;
       }
       .tile {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         max-width: none;
         padding: 0.9rem 1rem;
         border-radius: 10px;
       }
       .tile-icon {
-        font-size: 2rem;
+        font-size: 2.2rem;
       }
       .tile-title {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
       }
       .tile-desc {
         font-size: 0.75rem;
