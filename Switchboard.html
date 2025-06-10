@@ -38,7 +38,7 @@
     .sapra-title {
       font-weight: 900;
       font-size: 2.8rem;
-      color: #f3c623; /* زرد کاترپیلار */
+      color: #f0f0f0; /* رنگ روشن و خنثی */
       letter-spacing: 0.15em;
       margin: 0;
       user-select: none;
@@ -64,12 +64,10 @@
     }
 
     .tile {
-      background: #1f2937;
-      color: #f3c623; /* زرد کاترپیلار */
       border-radius: 12px;
       box-shadow:
-        0 4px 10px rgba(0,0,0,0.5),
-        inset 0 0 10px rgba(255,255,255,0.1);
+        0 4px 10px rgba(0,0,0,0.6),
+        inset 0 0 10px rgba(255,255,255,0.08);
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -84,7 +82,7 @@
         background 0.3s ease;
       position: relative;
       overflow: hidden;
-      text-shadow: 0 1px 3px rgba(0,0,0,0.7);
+      text-shadow: 0 1px 2px rgba(0,0,0,0.8);
       aspect-ratio: 1 / 1;
       padding: 1rem 1.2rem;
       gap: 0.5rem;
@@ -92,48 +90,75 @@
       max-width: 240px;
       margin-left: auto;
       margin-right: auto;
+      color: white; /* متن سفید برای خوانایی */
+    }
+
+    /* رنگ‌های حرفه‌ای و متعادل، بدون درخشش */
+    .tile:nth-child(1) {
+      background: linear-gradient(135deg, #3b82f6, #2563eb);
+    }
+    .tile:nth-child(2) {
+      background: linear-gradient(135deg, #f97316, #ea580c);
+    }
+    .tile:nth-child(3) {
+      background: linear-gradient(135deg, #10b981, #059669);
+    }
+    .tile:nth-child(4) {
+      background: linear-gradient(135deg, #ef4444, #b91c1c);
+    }
+    .tile:nth-child(5) {
+      background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+    }
+    .tile:nth-child(6) {
+      background: linear-gradient(135deg, #ec4899, #be185d);
+    }
+    .tile:nth-child(7) {
+      background: linear-gradient(135deg, #facc15, #eab308);
+      color: #1a1a1a; /* متن تیره برای خوانایی روی زرد */
+    }
+    .tile:nth-child(8) {
+      background: linear-gradient(135deg, #3b82f6, #1e40af);
     }
 
     .tile:hover, .tile:focus {
       transform: translateY(-6px) scale(1.07);
       box-shadow:
-        0 12px 25px rgba(0,0,0,0.7),
-        0 0 30px rgba(243,198,35,0.8);
+        0 14px 30px rgba(0,0,0,0.8);
       outline: none;
-      background-color: #b8860b; /* طلایی تیره */
-      color: #fff8dc;
+      filter: brightness(1.1);
+      color: white !important;
     }
     .tile:focus-visible {
-      outline: 3px solid #f3c623;
+      outline: 3px solid #e0e0e0;
       outline-offset: 4px;
     }
 
     .tile-icon {
-      font-size: 3.2rem; /* بزرگ‌تر */
+      font-size: 3.8rem;
       line-height: 1;
       user-select: none;
       pointer-events: none;
-      color: #f3c623; /* زرد کاترپیلار */
+      color: #f0f0f0; /* رنگ روشن و خنثی */
       transition: color 0.3s;
     }
 
     .tile:hover .tile-icon,
     .tile:focus .tile-icon {
-      color: #fff8dc;
+      color: #dbeafe;
     }
 
     .tile-title {
-      font-size: 1.5rem; /* بزرگ‌تر */
+      font-size: 1.6rem;
       font-weight: 700;
       margin-top: 0.4rem;
       user-select: none;
-      color: #f3c623; /* زرد کاترپیلار */
+      color: #f0f0f0; /* رنگ روشن و خنثی */
     }
 
     .tile-desc {
-      font-size: 0.9rem; /* بزرگ‌تر */
+      font-size: 0.9rem;
       font-weight: 400;
-      color: #d4af37cc; /* طلایی کمی شفاف */
+      color: rgba(255,255,255,0.8);
       margin-top: 0.3rem;
       user-select: none;
       line-height: 1.3;
@@ -147,7 +172,7 @@
       height: 100%;
       top: 0; left: 0;
       pointer-events: none;
-      background: radial-gradient(circle, rgba(243,198,35,0.12) 10%, transparent 10.01%);
+      background: radial-gradient(circle, rgba(255,255,255,0.12) 10%, transparent 10.01%);
       background-repeat: no-repeat;
       background-position: 50%;
       transform: scale(10);
@@ -173,19 +198,19 @@
         gap: 1rem;
       }
       .tile {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         max-width: none;
-        padding: 0.9rem 1rem;
+        padding: 1rem 1.1rem;
         border-radius: 10px;
       }
       .tile-icon {
-        font-size: 2.6rem;
+        font-size: 3rem;
       }
       .tile-title {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
       }
       .tile-desc {
-        font-size: 0.75rem;
+        font-size: 0.8rem;
       }
     }
   </style>
