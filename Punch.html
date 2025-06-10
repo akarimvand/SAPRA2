@@ -4,38 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Punch Items Dashboard</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"  rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"  rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
   <style>
     body {
       font-family: 'Roboto', sans-serif;
-      background-color: #181a1b !important;
-      color: #f8f9fa !important;
+      background-color: #f8f9fa;
       padding: 1rem;
-      transition: background 0.3s;
     }
     .container-form { max-width: 1200px; margin: auto; }
-    .form-control, .form-select { font-size: 0.875rem; background: #23272b !important; color: #f8f9fa !important; border: 1px solid #393e46; }
-    .form-label { color: #d1d5db !important; }
-    .table { color: #f8f9fa; }
-    .table-light th { background: #23272b !important; color: #f8f9fa !important; }
-    .table-striped > tbody > tr:nth-of-type(odd) { background-color: #23272b; }
-    .table-striped > tbody > tr:nth-of-type(even) { background-color: #181a1b; }
-    .card { background: #23272b; color: #f8f9fa; border: 1px solid #393e46; margin-bottom: 1rem; }
-    .btn-success { background: #198754; border: none; }
-    .btn-success:hover { background: #157347; }
+    .form-control, .form-select { font-size: 0.875rem; }
+    .table-responsive { overflow-x: auto; }
+    .card { margin-bottom: 1rem; }
     .loading-modal {
       position: fixed; top: 0; left: 0; width: 100%; height: 100%;
       background: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;
       z-index: 9999; display: none;
     }
     .loading-modal-content {
-      background: #23272b; padding: 2rem; border-radius: 8px; text-align: center;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); color: #f8f9fa;
+      background: white; padding: 2rem; border-radius: 8px; text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     }
     .loading-modal svg { width: 64px; height: 64px; animation: spin 1.5s linear infinite; }
     @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-    ::placeholder { color: #adb5bd !important; opacity: 1; }
+    .btn-success { background: #198754; border: none; }
+    .btn-success:hover { background: #157347; }
   </style>
 </head>
 <body>
@@ -63,17 +56,14 @@
             </select>
           </div>
           <div class="col-12 col-md-3">
-            <label for="filterTagNo" class="form-label">Tag No</label>
-            <input type="text" class="form-control form-control-sm" id="filterTagNo" placeholder="جستجو...">
-          </div>
-          <div class="col-12 col-md-3">
             <label for="filterPunchCategory" class="form-label">Category</label>
             <select class="form-select form-select-sm" id="filterPunchCategory">
               <option value="">همه</option>
-              <option value="A">A</option>
-              <option value="B">B</option>
-              <option value="C">C</option>
             </select>
+          </div>
+          <div class="col-12 col-md-3">
+            <label for="filterTagNo" class="form-label">Tag No</label>
+            <input type="text" class="form-control form-control-sm" id="filterTagNo" placeholder="جستجو...">
           </div>
         </div>
       </form>
@@ -115,38 +105,25 @@
     <p class="mt-3 fw-bold text-info">در حال بارگذاری داده‌ها...</p>
   </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
-<script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script> 
-<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 <script>
 const PUNCH_CSV_URL = "PUNCH.CSV";
 let punchData = [];
 let filteredData = [];
 
 document.addEventListener('DOMContentLoaded', () => {
-  enableDarkTheme();
   loadPunchData();
   setupLiveFilters();
 });
 
-function enableDarkTheme() {
-  document.documentElement.style.background = "#181a1b";
-  document.body.classList.add('bg-dark');
-  // ذخیره تم دارک در localStorage
-  localStorage.setItem('theme', 'dark');
-}
-
 function setupLiveFilters() {
-  document.getElementById('filterSubsystem').addEventListener('change', applyFilters);
-  document.getElementById('filterDiscipline').addEventListener('change', () => {
-    updateSubsystemOptions();
-    applyFilters();
-  });
+  document.getElementById('filterSubsystem').addEventListener('change', onAnyFilterChange);
+  document.getElementById('filterDiscipline').addEventListener('change', onAnyFilterChange);
+  document.getElementById('filterPunchCategory').addEventListener('change', onAnyFilterChange);
   document.getElementById('filterTagNo').addEventListener('input', applyFilters);
-  document.getElementById('filterPunchCategory').addEventListener('change', () => {
-    updateSubsystemOptions();
-    applyFilters();
-  });
+  document.getElementById('exportExcelBtn').addEventListener('click', exportToExcel);
 }
 
 function showLoading() {
@@ -171,8 +148,7 @@ function loadPunchData() {
         punchCategory: item.PL_Punch_Category?.trim() || '',
         punchDescription: item.PL_Punch_Description?.trim() || ''
       }));
-      populateDisciplineOptions();
-      updateSubsystemOptions();
+      updateAllCombos();
       applyFilters();
       hideLoading();
     },
@@ -184,28 +160,55 @@ function loadPunchData() {
   });
 }
 
-function populateDisciplineOptions() {
-  const select = document.getElementById('filterDiscipline');
-  const disciplines = Array.from(new Set(punchData.map(item => item.discipline))).filter(Boolean).sort();
-  select.innerHTML = `<option value="">همه</option>` + disciplines.map(d => `<option value="${d}">${d}</option>`).join('');
+// هر بار که یکی از کمبوها تغییر کند، همه کمبوها مجدداً مقداردهی می‌شوند تا فقط آیتم‌های معتبر باقی بمانند
+function onAnyFilterChange() {
+  updateAllCombos();
+  applyFilters();
 }
 
-function updateSubsystemOptions() {
+// بروزرسانی همه کمبوها بر اساس فیلترهای فعلی
+function updateAllCombos() {
+  const subsystem = document.getElementById('filterSubsystem').value;
   const discipline = document.getElementById('filterDiscipline').value;
   const category = document.getElementById('filterPunchCategory').value;
-  let filtered = punchData;
-  if (discipline) filtered = filtered.filter(item => item.discipline === discipline);
-  if (category) filtered = filtered.filter(item => item.punchCategory === category);
-  const subsystems = Array.from(new Set(filtered.map(item => item.subsystem))).filter(Boolean).sort();
-  const select = document.getElementById('filterSubsystem');
-  select.innerHTML = `<option value="">همه</option>` + subsystems.map(s => `<option value="${s}">${s}</option>`).join('');
+
+  // فیلتر داده‌ها بر اساس انتخاب فعلی هر کمبو
+  let filteredForSubsystem = punchData.filter(item =>
+    (discipline === "" || item.discipline === discipline) &&
+    (category === "" || item.punchCategory === category)
+  );
+  let filteredForDiscipline = punchData.filter(item =>
+    (subsystem === "" || item.subsystem === subsystem) &&
+    (category === "" || item.punchCategory === category)
+  );
+  let filteredForCategory = punchData.filter(item =>
+    (subsystem === "" || item.subsystem === subsystem) &&
+    (discipline === "" || item.discipline === discipline)
+  );
+
+  // استخراج مقادیر یکتا و مرتب‌سازی
+  const subsystems = Array.from(new Set(filteredForSubsystem.map(item => item.subsystem))).filter(Boolean).sort();
+  const disciplines = Array.from(new Set(filteredForDiscipline.map(item => item.discipline))).filter(Boolean).sort();
+  const categories = Array.from(new Set(filteredForCategory.map(item => item.punchCategory))).filter(Boolean).sort();
+
+  // مقدار فعلی هر کمبو را نگه می‌داریم تا اگر هنوز معتبر بود، انتخاب بماند
+  setComboOptions('filterSubsystem', subsystems, subsystem);
+  setComboOptions('filterDiscipline', disciplines, discipline);
+  setComboOptions('filterPunchCategory', categories, category);
+}
+
+function setComboOptions(comboId, options, currentValue) {
+  const select = document.getElementById(comboId);
+  select.innerHTML = `<option value="">همه</option>` + options.map(opt =>
+    `<option value="${opt}"${opt === currentValue ? ' selected' : ''}>${opt}</option>`
+  ).join('');
 }
 
 function applyFilters() {
   const subsystem = document.getElementById('filterSubsystem').value;
   const discipline = document.getElementById('filterDiscipline').value;
-  const tagNo = document.getElementById('filterTagNo').value.trim().toLowerCase();
   const category = document.getElementById('filterPunchCategory').value;
+  const tagNo = document.getElementById('filterTagNo').value.trim().toLowerCase();
 
   filteredData = punchData.filter(item =>
     (subsystem === "" || item.subsystem === subsystem) &&
@@ -223,7 +226,6 @@ function renderTable(data) {
     tbody.innerHTML = `<tr><td colspan="7" class="text-center text-muted">داده‌ای یافت نشد.</td></tr>`;
     return;
   }
-  // رندر سریع با fragment
   const fragment = document.createDocumentFragment();
   data.forEach((item, index) => {
     const row = document.createElement('tr');
