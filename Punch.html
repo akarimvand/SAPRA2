@@ -17,16 +17,8 @@
       margin: auto;
     }
     .form-control, .form-select { font-size: 0.875rem; }
-    .btn-group-top {
-      display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: end; margin-bottom: 1rem;
-    }
-    .btn-group-top .btn { flex: 1 1 calc(33% - 0.3rem); min-width: 140px; white-space: nowrap; }
-    @media (max-width: 768px) { .btn-group-top .btn { flex: 1 1 100%; } }
     .table-responsive { overflow-x: auto; }
     .card { margin-bottom: 1rem; }
-    .footer { font-size: 0.85rem; color: #adb5bd; cursor: pointer; transition: transform 0.4s cubic-bezier(.4, 2, .6, 1);}
-    .footer a { color: inherit; text-decoration: none; }
-    .footer a:hover { text-decoration: underline; }
     .loading-modal {
       position: fixed; top: 0; left: 0; width: 100%; height: 100%;
       background: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;
@@ -40,26 +32,19 @@
     @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
     .search-btn { background-color: #00adb5; color: white; }
     .search-btn:hover { background-color: #008d95; }
+    /* دکمه‌ها کنار هم */
+    .action-btns-row { display: flex; gap: .5rem; justify-content: flex-end; align-items: center; flex-wrap: wrap; margin-top: 8px;}
   </style>
 </head>
 <body>
-
 <div class="container-fluid container-form">
   <div class="card shadow-sm mb-4">
     <div class="card-header d-flex justify-content-between align-items-center flex-wrap">
       <h5 class="mb-2 mb-md-0">Punch Items Management</h5>
-      <div class="btn-group-top w-100 w-md-auto justify-content-end mt-2 mt-md-0">
-        <button class="btn btn-primary" id="shareBtn">
-          <i class="bi bi-share me-1"></i> Share Results
-        </button>
-        <button class="btn btn-success" id="exportExcelBtn">
-          <i class="bi bi-file-earmark-excel me-1"></i> Export to Excel
-        </button>
-      </div>
     </div>
     <div class="card-body">
       <form id="punchFilterForm" class="mb-3">
-        <div class="row g-3">
+        <div class="row g-3 align-items-end">
           <div class="col-12 col-md-3">
             <label for="filterSubsystem" class="form-label">Subsystem</label>
             <input type="text" class="form-control form-control-sm" id="filterSubsystem" placeholder="Search...">
@@ -81,11 +66,17 @@
               <option value="C">C</option>
             </select>
           </div>
-          <div class="col-12 text-end">
-            <button type="button" class="btn btn-sm search-btn" id="applyFilterBtn">
-              <i class="bi bi-search me-1"></i> Search
-            </button>
-          </div>
+        </div>
+        <div class="action-btns-row mt-2">
+          <button type="button" class="btn btn-sm search-btn" id="applyFilterBtn">
+            <i class="bi bi-search me-1"></i> Search
+          </button>
+          <button class="btn btn-primary btn-sm" id="shareBtn" type="button">
+            <i class="bi bi-share me-1"></i> Share Results
+          </button>
+          <button class="btn btn-success btn-sm" id="exportExcelBtn" type="button">
+            <i class="bi bi-file-earmark-excel me-1"></i> Export to Excel
+          </button>
         </div>
       </form>
       <div class="table-responsive data-grid">
@@ -110,7 +101,6 @@
   </div>
 </div>
 
-<!-- Modal لودینگ -->
 <div class="loading-modal" id="loadingModal">
   <div class="loading-modal-content">
     <svg viewBox="0 0 48 48">
@@ -137,15 +127,16 @@
 const PUNCH_CSV_URL = "PUNCH.CSV";
 let punchData = [];
 let filteredData = [];
+let csvLoaded = false;
 
 document.addEventListener('DOMContentLoaded', () => {
   setupEventListeners();
-  loadPunchData();
+  // داده‌ها در ابتدا لود نمی‌شوند
 });
 
 function setupEventListeners() {
-  document.getElementById('applyFilterBtn').addEventListener('click', applyFilters);
-  document.getElementById('exportExcelBtn').addEventListener('click', () => exportToExcel());
+  document.getElementById('applyFilterBtn').addEventListener('click', handleSearchClick);
+  document.getElementById('exportExcelBtn').addEventListener('click', exportToExcel);
   document.getElementById('shareBtn').addEventListener('click', shareResults);
 }
 
@@ -156,31 +147,36 @@ function hideLoading() {
   document.getElementById('loadingModal').style.display = 'none';
 }
 
-function loadPunchData() {
-  showLoading();
-  Papa.parse(PUNCH_CSV_URL, {
-    header: true,
-    download: true,
-    skipEmptyLines: true,
-    complete: (results) => {
-      punchData = results.data.map(item => ({
-        subsystem: item.SD_SUB_SYSTEM?.trim() || '',
-        discipline: item.Discipline_Name?.trim() || '',
-        tagNo: item.ITEM_Tag_NO?.trim() || '',
-        typeCode: item.ITEM_Type_Code?.trim() || '',
-        punchCategory: item.PL_Punch_Category?.trim() || '',
-        punchDescription: item.PL_Punch_Description?.trim() || ''
-      }));
-      hideLoading();
-      renderTable(punchData);
-      filteredData = punchData;
-    },
-    error: (err) => {
-      console.error("Error loading CSV:", err);
-      alert("خطا در بارگذاری داده‌ها");
-      hideLoading();
-    }
-  });
+function handleSearchClick() {
+  if (!csvLoaded) {
+    showLoading();
+    Papa.parse(PUNCH_CSV_URL, {
+      header: true,
+      download: true,
+      skipEmptyLines: true,
+      fastMode: true, // سرعت بالاتر
+      complete: (results) => {
+        punchData = results.data.map(item => ({
+          subsystem: item.SD_SUB_SYSTEM?.trim() || '',
+          discipline: item.Discipline_Name?.trim() || '',
+          tagNo: item.ITEM_Tag_NO?.trim() || '',
+          typeCode: item.ITEM_Type_Code?.trim() || '',
+          punchCategory: item.PL_Punch_Category?.trim() || '',
+          punchDescription: item.PL_Punch_Description?.trim() || ''
+        }));
+        csvLoaded = true;
+        hideLoading();
+        applyFilters();
+      },
+      error: (err) => {
+        console.error("Error loading CSV:", err);
+        alert("خطا در بارگذاری داده‌ها");
+        hideLoading();
+      }
+    });
+  } else {
+    applyFilters();
+  }
 }
 
 function applyFilters() {
@@ -205,6 +201,8 @@ function renderTable(data) {
     tbody.innerHTML = `<tr><td colspan="7" class="text-center text-muted">داده‌ای یافت نشد.</td></tr>`;
     return;
   }
+  // بهینه‌سازی رندر: استفاده از fragment
+  const fragment = document.createDocumentFragment();
   data.forEach((item, index) => {
     const row = document.createElement('tr');
     row.innerHTML = `
@@ -216,8 +214,9 @@ function renderTable(data) {
       <td>${item.punchCategory || 'N/A'}</td>
       <td>${item.punchDescription}</td>
     `;
-    tbody.appendChild(row);
+    fragment.appendChild(row);
   });
+  tbody.appendChild(fragment);
 }
 
 function getFilteredDataForExport(dataToUse = null) {
@@ -269,7 +268,7 @@ async function shareResults() {
       });
     } else {
       exportToExcel(dataToShare);
-      alert(`فایل به عنوان Punch_Items_Shared.xlsx ذخیره شد.\nلطفاً آن را در پوشه دانلود‌ها پیدا کنید و به صورت دستی به اشتراک بگذارید.`);
+      alert(`فایل به عنوان Punch_Items_Shared.xlsx ذخیره شد.\nلطفاً آن را در پوشه دانلود‌ها پیدا کنید.`);
     }
   } catch (error) {
     console.error("اشتراک‌گذاری با خطا مواجه شد:", error);
