@@ -15,7 +15,22 @@
     .container-form { max-width: 1200px; margin: auto; }
     .form-control, .form-select { font-size: 0.875rem; }
     .table-responsive { overflow-x: auto; }
-    .card { margin-bottom: 1rem; }
+    .sapra-title {
+      font-weight: bold;
+      font-size: 1.3rem;
+      letter-spacing: 0.1em;
+      color: #0d6efd;
+      margin-bottom: 0;
+    }
+    .sapra-subtitle {
+      font-size: 0.95rem;
+      color: #555;
+      font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', sans-serif;
+      margin-top: -2px;
+      margin-bottom: 8px;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+    }
     .loading-modal {
       position: fixed; top: 0; left: 0; width: 100%; height: 100%;
       background: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;
@@ -23,77 +38,72 @@
     }
     .loading-modal-content {
       background: white; padding: 2rem; border-radius: 8px; text-align: center;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-      color: #222;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); color: #222;
     }
     .loading-modal svg { width: 64px; height: 64px; animation: spin 1.5s linear infinite; }
     @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
     .btn-success { background: #198754; border: none; }
     .btn-success:hover { background: #157347; }
-    .sapra-title {
-      font-weight: bold;
-      font-size: 1.3rem;
-      letter-spacing: 0.1em;
-      color: #0d6efd;
-    }
   </style>
 </head>
 <body>
 <div class="container-fluid container-form">
-  <div class="card shadow-sm mb-4">
-    <div class="card-header d-flex justify-content-between align-items-center flex-wrap">
-      <span class="sapra-title">SAPRA</span>
-      <h5 class="mb-2 mb-md-0">Punch Items Management</h5>
-      <button class="btn btn-success btn-sm" id="exportExcelBtn" type="button">
+  <div class="mb-2">
+    <div class="d-flex align-items-center gap-3">
+      <div>
+        <div class="sapra-title">SAPRA</div>
+        <div class="sapra-subtitle">Smart Access to Project Activities</div>
+      </div>
+      <h5 class="mb-0 ms-auto">Punch Items Management</h5>
+      <button class="btn btn-success btn-sm ms-2" id="exportExcelBtn" type="button">
         <i class="bi bi-file-earmark-excel me-1"></i> Export to Excel
       </button>
     </div>
-    <div class="card-body">
-      <form id="punchFilterForm" class="mb-3">
-        <div class="row g-3 align-items-end">
-          <div class="col-12 col-md-3">
-            <label for="filterSubsystem" class="form-label">Subsystem</label>
-            <select class="form-select form-select-sm" id="filterSubsystem">
-              <option value="">All</option>
-            </select>
-          </div>
-          <div class="col-12 col-md-3">
-            <label for="filterDiscipline" class="form-label">Discipline</label>
-            <select class="form-select form-select-sm" id="filterDiscipline">
-              <option value="">All</option>
-            </select>
-          </div>
-          <div class="col-12 col-md-3">
-            <label for="filterPunchCategory" class="form-label">Category</label>
-            <select class="form-select form-select-sm" id="filterPunchCategory">
-              <option value="">All</option>
-            </select>
-          </div>
-          <div class="col-12 col-md-3">
-            <label for="filterTagNo" class="form-label">Tag No</label>
-            <input type="text" class="form-control form-control-sm" id="filterTagNo" placeholder="Search...">
-          </div>
-        </div>
-      </form>
-      <div class="table-responsive data-grid">
-        <table class="table table-hover table-striped table-sm">
-          <thead class="table-light">
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">Subsystem</th>
-              <th scope="col">Discipline</th>
-              <th scope="col">Tag No</th>
-              <th scope="col">Type Code</th>
-              <th scope="col">Category</th>
-              <th scope="col">Description</th>
-            </tr>
-          </thead>
-          <tbody id="punchDataTableBody">
-            <!-- Data rows will be inserted here -->
-          </tbody>
-        </table>
+  </div>
+  <form id="punchFilterForm" class="mb-3">
+    <div class="row g-3 align-items-end">
+      <div class="col-12 col-md-3">
+        <label for="filterSubsystem" class="form-label">Subsystem</label>
+        <select class="form-select form-select-sm" id="filterSubsystem">
+          <option value="">All</option>
+        </select>
+      </div>
+      <div class="col-12 col-md-3">
+        <label for="filterDiscipline" class="form-label">Discipline</label>
+        <select class="form-select form-select-sm" id="filterDiscipline">
+          <option value="">All</option>
+        </select>
+      </div>
+      <div class="col-12 col-md-3">
+        <label for="filterPunchCategory" class="form-label">Category</label>
+        <select class="form-select form-select-sm" id="filterPunchCategory">
+          <option value="">All</option>
+        </select>
+      </div>
+      <div class="col-12 col-md-3">
+        <label for="filterTagNo" class="form-label">Tag No</label>
+        <input type="text" class="form-control form-control-sm" id="filterTagNo" placeholder="Search...">
       </div>
     </div>
+  </form>
+  <!-- Table outside card, full width -->
+  <div class="table-responsive data-grid">
+    <table class="table table-hover table-striped table-sm">
+      <thead class="table-light">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Subsystem</th>
+          <th scope="col">Discipline</th>
+          <th scope="col">Tag No</th>
+          <th scope="col">Type Code</th>
+          <th scope="col">Category</th>
+          <th scope="col">Description</th>
+        </tr>
+      </thead>
+      <tbody id="punchDataTableBody">
+        <!-- Data rows will be inserted here -->
+      </tbody>
+    </table>
   </div>
 </div>
 <div class="loading-modal" id="loadingModal">
