@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Punch Items Management</title>
+  <title>Punch Items Dashboard</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"  rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"  rel="stylesheet">
   <style>
@@ -60,6 +60,7 @@
       font-size: 0.85rem;
       color: #adb5bd;
       cursor: pointer;
+      transition: transform 0.4s cubic-bezier(.4, 2, .6, 1);
     }
 
     .footer a {
@@ -80,6 +81,7 @@
       align-items: center;
       justify-content: center;
       z-index: 9999;
+      display: none;
     }
 
     .loading-modal-content {
@@ -100,23 +102,30 @@
       from { transform: rotate(0deg); }
       to { transform: rotate(360deg); }
     }
+
+    .search-btn {
+      background-color: #00adb5;
+      color: white;
+    }
+
+    .search-btn:hover {
+      background-color: #008d95;
+    }
   </style>
 </head>
 <body>
 
+<!-- Container -->
 <div class="container-fluid container-form">
   <div class="card shadow-sm mb-4">
     <div class="card-header d-flex justify-content-between align-items-center flex-wrap">
       <h5 class="mb-2 mb-md-0">Punch Items Management</h5>
       <div class="btn-group-top w-100 w-md-auto justify-content-end mt-2 mt-md-0">
-        <button class="btn btn-primary" id="applyFilterBtn">
-          <i class="bi bi-funnel me-1"></i> Apply Filter
+        <button class="btn btn-primary" id="shareBtn">
+          <i class="bi bi-share me-1"></i> Share Results
         </button>
         <button class="btn btn-success" id="exportExcelBtn">
           <i class="bi bi-file-earmark-excel me-1"></i> Export to Excel
-        </button>
-        <button class="btn btn-info" id="shareBtn">
-          <i class="bi bi-share me-1"></i> Share Results
         </button>
       </div>
     </div>
@@ -144,6 +153,11 @@
               <option value="C">C</option>
             </select>
           </div>
+          <div class="col-12 text-end">
+            <button type="button" class="btn btn-sm search-btn" id="applyFilterBtn">
+              <i class="bi bi-search me-1"></i> Search
+            </button>
+          </div>
         </div>
       </form>
       <div class="table-responsive data-grid">
@@ -168,15 +182,35 @@
   </div>
 </div>
 
+<!-- Hidden template for styled Excel export -->
+<table id="excelTemplate" class="excel-template" style="display:none;">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Subsystem</th>
+      <th>Discipline</th>
+      <th>Tag No</th>
+      <th>Type Code</th>
+      <th>Category</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody id="excelTemplateBody"></tbody>
+</table>
+
 <!-- Modal لودینگ -->
 <div class="loading-modal" id="loadingModal">
   <div class="loading-modal-content">
     <svg viewBox="0 0 48 48">
-      <circle cx="24" cy="24" r="20" fill="none" stroke="#00adb5" stroke-width="4" stroke-linecap="round" stroke-dasharray="31.4 31.4" stroke-dashoffset="0">
-        <animateTransform attributeName="transform" type="rotate" from="0 24 24" to="360 24 24" dur="1s" repeatCount="indefinite"/>
+      <circle cx="24" cy="24" r="20" fill="none" stroke="#00adb5" stroke-width="4" stroke-linecap="round"
+        stroke-dasharray="31.4 31.4" stroke-dashoffset="0">
+        <animateTransform attributeName="transform" type="rotate" from="0 24 24" to="360 24 24" dur="1s"
+          repeatCount="indefinite" />
       </circle>
-      <circle cx="24" cy="24" r="12" fill="none" stroke="#393e46" stroke-width="4" stroke-linecap="round" stroke-dasharray="18.8 18.8" stroke-dashoffset="0">
-        <animateTransform attributeName="transform" type="rotate" from="360 24 24" to="0 24 24" dur="1.2s" repeatCount="indefinite"/>
+      <circle cx="24" cy="24" r="12" fill="none" stroke="#393e46" stroke-width="4" stroke-linecap="round"
+        stroke-dasharray="18.8 18.8" stroke-dashoffset="0">
+        <animateTransform attributeName="transform" type="rotate" from="360 24 24" to="0 24 24" dur="1.2s"
+          repeatCount="indefinite" />
       </circle>
     </svg>
     <p class="mt-3 fw-bold text-info">Loading data...</p>
@@ -186,20 +220,11 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
 <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script> 
 <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script> 
+
 <script>
   const PUNCH_CSV_URL = "PUNCH.CSV";
   let punchData = [];
   let filteredData = [];
-
-  // نمایش مودال لودینگ
-  function showLoading() {
-    document.getElementById('loadingModal').style.display = 'flex';
-  }
-
-  // پنهان کردن مودال لودینگ
-  function hideLoading() {
-    document.getElementById('loadingModal').style.display = 'none';
-  }
 
   document.addEventListener('DOMContentLoaded', () => {
     setupEventListeners();
@@ -210,6 +235,14 @@
     document.getElementById('applyFilterBtn').addEventListener('click', applyFilters);
     document.getElementById('exportExcelBtn').addEventListener('click', exportToExcel);
     document.getElementById('shareBtn').addEventListener('click', shareResults);
+  }
+
+  function showLoading() {
+    document.getElementById('loadingModal').style.display = 'flex';
+  }
+
+  function hideLoading() {
+    document.getElementById('loadingModal').style.display = 'none';
   }
 
   function loadPunchData() {
@@ -227,8 +260,8 @@
           punchCategory: item.PL_Punch_Category?.trim() || '',
           punchDescription: item.PL_Punch_Description?.trim() || ''
         }));
-        renderTable(punchData);
         hideLoading();
+        renderTable(punchData);
       },
       error: (err) => {
         console.error("Error loading CSV:", err);
@@ -258,7 +291,7 @@
     const tbody = document.getElementById('punchDataTableBody');
     tbody.innerHTML = '';
     if (data.length === 0) {
-      tbody.innerHTML = `<tr><td colspan="7" class="text-center text-muted">No data found.</td></tr>`;
+      tbody.innerHTML = `<tr><td colspan="7" class="text-center text-muted">داده‌ای یافت نشد.</td></tr>`;
       return;
     }
     data.forEach((item, index) => {
@@ -276,60 +309,48 @@
     });
   }
 
+  function getFilteredDataForExport(dataToUse = null) {
+    const data = dataToUse || filteredData;
+    return data.map((item, index) => ({
+      '#': index + 1,
+      Subsystem: item.subsystem,
+      Discipline: item.discipline,
+      'Tag No': item.tagNo,
+      'Type Code': item.typeCode || 'N/A',
+      Category: item.punchCategory || 'N/A',
+      Description: item.punchDescription
+    }));
+  }
+
   function exportToExcel(dataToExport = null) {
     const exportData = dataToExport || getFilteredDataForExport();
     if (exportData.length === 0) {
-      alert("No data available to export.");
+      alert("داده‌ای برای خروجی وجود ندارد.");
       return;
     }
-
     const worksheet = XLSX.utils.json_to_sheet(exportData);
     const workbook = XLSX.utils.book_new();
     XLSX.utils.book_append_sheet(workbook, worksheet, 'Punch Data');
     XLSX.writeFile(workbook, `Punch_Items_${new Date().toISOString().split('T')[0]}.xlsx`);
   }
 
-  function getFilteredDataForExport() {
-    const subsystem = document.getElementById('filterSubsystem').value.trim().toLowerCase();
-    const discipline = document.getElementById('filterDiscipline').value.trim().toLowerCase();
-    const tagNo = document.getElementById('filterTagNo').value.trim().toLowerCase();
-    const category = document.getElementById('filterPunchCategory').value.trim().toLowerCase();
-
-    return punchData
-      .filter(item =>
-        item.subsystem.toLowerCase().includes(subsystem) &&
-        item.discipline.toLowerCase().includes(discipline) &&
-        item.tagNo.toLowerCase().includes(tagNo) &&
-        (category === '' || item.punchCategory.toLowerCase() === category)
-      )
-      .map((item, index) => ({
-        '#': index + 1,
-        Subsystem: item.subsystem,
-        Discipline: item.discipline,
-        'Tag No': item.tagNo,
-        'Type Code': item.typeCode || 'N/A',
-        Category: item.punchCategory || 'N/A',
-        Description: item.punchDescription
-      }));
-  }
-
   async function shareResults() {
     const dataToShare = getFilteredDataForExport();
     if (dataToShare.length === 0) {
-      alert("No data available to share.");
+      alert("داده‌ای برای اشتراک‌گذاری وجود ندارد.");
       return;
     }
 
     try {
-      // ساخت فایل اکسل
       const ws = XLSX.utils.json_to_sheet(dataToShare);
       const wb = XLSX.utils.book_new();
       XLSX.utils.book_append_sheet(wb, ws, "Punch Data");
       const excelBuffer = XLSX.write(wb, { bookType: 'xlsx', type: 'array' });
       const blob = new Blob([excelBuffer], { type: 'application/octet-stream' });
-      const file = new File([blob], `Punch_Items_Shared.xlsx`, { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
+      const file = new File([blob], `Punch_Items_Shared.xlsx`, {
+        type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+      });
 
-      // اشتراک‌گذاری از طریق Web Share API
       if (navigator.canShare && navigator.canShare({ files: [file] })) {
         await navigator.share({
           title: 'Punch Items Report',
@@ -337,31 +358,15 @@
           files: [file]
         });
       } else {
-        // در صورت عدم پشتیبانی، فقط فایل را دانلود کن
         exportToExcel(dataToShare);
-        alert(`File saved as Punch_Items_Shared.xlsx\nPlease find it in your downloads.`);
+        alert(`فایل به عنوان Punch_Items_Shared.xlsx ذخیره شد.\nلطفاً آن را در پوشه دانلود‌ها پیدا کنید.`);
       }
     } catch (error) {
-      console.error("Share error:", error);
-      alert("Failed to share the file.");
+      console.error("اشتراک‌گذاری با خطا مواجه شد:", error);
+      alert("خطا در اشتراک‌گذاری فایل.");
     }
   }
 </script>
-
-<!-- مودال لودینگ -->
-<div class="loading-modal" id="loadingModal">
-  <div class="loading-modal-content">
-    <svg viewBox="0 0 48 48">
-      <circle cx="24" cy="24" r="20" fill="none" stroke="#00adb5" stroke-width="4" stroke-linecap="round" stroke-dasharray="31.4 31.4" stroke-dashoffset="0">
-        <animateTransform attributeName="transform" type="rotate" from="0 24 24" to="360 24 24" dur="1s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="24" cy="24" r="12" fill="none" stroke="#393e46" stroke-width="4" stroke-linecap="round" stroke-dasharray="18.8 18.8" stroke-dashoffset="0">
-        <animateTransform attributeName="transform" type="rotate" from="360 24 24" to="0 24 24" dur="1.2s" repeatCount="indefinite"/>
-      </circle>
-    </svg>
-    <p class="mt-3 fw-bold text-info">Loading data...</p>
-  </div>
-</div>
 
 </body>
 </html>
