@@ -21,8 +21,17 @@
     }
 
     header {
-      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
       margin-bottom: 1rem;
+      user-select: none;
+    }
+
+    header img.logo {
+      height: 40px; /* اندازه مناسب لوگو */
+      width: auto;
       user-select: none;
     }
 
@@ -31,7 +40,8 @@
       font-size: 2.8rem;
       color: #4dabf7;
       letter-spacing: 0.15em;
-      margin-bottom: 0.25rem;
+      margin: 0;
+      user-select: none;
     }
 
     .sapra-subtitle {
@@ -40,16 +50,28 @@
       color: #a0aec0;
       letter-spacing: 0.05em;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin-top: -2px;
-      margin-bottom: 8px;
+      margin: 0;
+      user-select: none;
+    }
+
+    .dashboard-container {
+      display: flex;
+      gap: 1rem;
+      flex-grow: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      height: calc(100vh - 130px);
     }
 
     main {
-      max-width: 900px;
-      margin: 0 auto;
+      flex: 1 1 400px;
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-      gap: 1.2rem;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 1.5rem;
+      overflow-y: auto;
+      padding-right: 0.5rem;
+      border-right: 1px solid #333;
+      max-width: 650px;
     }
 
     .tile {
@@ -64,7 +86,7 @@
       align-items: center;
       justify-content: center;
       font-weight: 700;
-      font-size: 1.15rem;
+      font-size: 1.3rem; /* بزرگتر */
       cursor: pointer;
       user-select: none;
       transition:
@@ -75,16 +97,16 @@
       overflow: hidden;
       text-shadow: 0 1px 3px rgba(0,0,0,0.7);
       aspect-ratio: 1 / 1;
-      padding: 0.8rem 1rem;
-      gap: 0.4rem;
+      padding: 1rem 1.2rem;
+      gap: 0.5rem;
       text-align: center;
-      max-width: 220px;
+      max-width: 240px;
       margin-left: auto;
       margin-right: auto;
     }
 
     .tile:hover, .tile:focus {
-      transform: translateY(-6px) scale(1.05);
+      transform: translateY(-6px) scale(1.07);
       box-shadow:
         0 12px 25px rgba(0,0,0,0.7),
         0 0 30px rgba(77,171,247,0.6);
@@ -98,7 +120,7 @@
     }
 
     .tile-icon {
-      font-size: 2rem;
+      font-size: 2.5rem; /* بزرگتر */
       line-height: 1;
       user-select: none;
       pointer-events: none;
@@ -112,19 +134,19 @@
     }
 
     .tile-title {
-      font-size: 1.1rem;
+      font-size: 1.25rem; /* بزرگتر */
       font-weight: 700;
-      margin-top: 0.3rem;
+      margin-top: 0.4rem;
       user-select: none;
     }
 
     .tile-desc {
-      font-size: 0.7rem;
+      font-size: 0.8rem; /* بزرگتر */
       font-weight: 400;
       color: #a0aec0;
-      margin-top: 0.2rem;
+      margin-top: 0.3rem;
       user-select: none;
-      line-height: 1.2;
+      line-height: 1.3;
     }
 
     .tile::after {
@@ -148,33 +170,51 @@
       transition: 0s;
     }
 
+    @media (max-width: 992px) {
+      .dashboard-container {
+        flex-direction: column;
+        height: auto;
+      }
+      main {
+        max-width: 100%;
+        border-right: none;
+        padding-right: 0;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 1rem;
+        height: auto;
+      }
+    }
+
     @media (max-width: 576px) {
       main {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
       }
       .tile {
-        font-size: 1rem;
+        font-size: 1.1rem;
         max-width: none;
-        padding: 0.7rem 0.9rem;
+        padding: 0.9rem 1rem;
         border-radius: 10px;
       }
       .tile-icon {
-        font-size: 1.6rem;
+        font-size: 2rem;
       }
       .tile-title {
-        font-size: 0.95rem;
+        font-size: 1.1rem;
       }
       .tile-desc {
-        font-size: 0.65rem;
+        font-size: 0.75rem;
       }
     }
   </style>
 </head>
 <body>
   <header>
-    <div class="sapra-title" tabindex="0">SAPRA</div>
-    <div class="sapra-subtitle">Smart Access to Project Activities</div>
+    <img src="SAPRA_WHITE (2).png" alt="SAPRA Logo" class="logo" />
+    <div>
+      <div class="sapra-title" tabindex="0">SAPRA</div>
+      <div class="sapra-subtitle">Smart Access to Project Activities</div>
+    </div>
   </header>
   <main>
     <div class="tile" tabindex="0" role="button" aria-label="Open Dashboard" data-form="Form1.html">
