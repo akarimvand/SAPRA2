@@ -1,0 +1,325 @@
+```html
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فرم جستجوی Punch</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+            padding: 1rem;
+        }
+
+        .container-form {
+            max-width: 100%;
+        }
+
+        .form-control,
+        .form-select {
+            font-size: 0.875rem;
+        }
+
+        .data-grid {
+            font-size: 0.875rem;
+        }
+
+        .btn-custom {
+            font-size: 0.875rem;
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+        }
+
+        .card {
+            margin-bottom: 1rem;
+        }
+
+        @media (min-width: 768px) {
+            .container-form {
+                max-width: 960px;
+                margin: auto;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .container-form {
+                max-width: 1200px;
+            }
+        }
+
+        /* تنظیمات دکمه‌ها */
+        .btn-group-top {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            justify-content: end;
+            margin-bottom: 1rem;
+        }
+
+        .btn-group-top .btn {
+            flex: 1 1 calc(33% - 0.3rem);
+            min-width: 140px;
+            white-space: nowrap;
+        }
+
+        @media (max-width: 768px) {
+            .btn-group-top .btn {
+                flex: 1 1 100%;
+            }
+        }
+
+        /* سبک خروجی اکسل بهتر */
+        .excel-template {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .excel-template th,
+        .excel-template td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .excel-template thead {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container-fluid container-form">
+    <div class="card shadow-sm mb-4">
+        <div class="card-header d-flex justify-content-between align-items-center flex-wrap">
+            <h5 class="mb-2 mb-md-0">جستجو و مدیریت Punch Items</h5>
+            <div class="btn-group-top w-100 w-md-auto justify-content-end mt-2 mt-md-0">
+                <button class="btn btn-primary" id="sendBtn">
+                    <i class="bi bi-send me-1"></i> ارسال نتایج
+                </button>
+                <button class="btn btn-success" id="exportExcelBtn">
+                    <i class="bi bi-file-earmark-excel me-1"></i> خروجی اکسل
+                </button>
+                <button class="btn btn-outline-secondary" id="downloadTemplateBtn">
+                    <i class="bi bi-download me-1"></i> دانلود قالب اکسل
+                </button>
+            </div>
+        </div>
+        <div class="card-body">
+            <form id="punchFilterForm" class="mb-3">
+                <div class="row g-3">
+                    <div class="col-12 col-md-3">
+                        <label for="filterSubsystem" class="form-label">Subsystem</label>
+                        <input type="text" class="form-control form-control-sm" id="filterSubsystem"
+                               placeholder="جستجو...">
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <label for="filterDiscipline" class="form-label">Discipline</label>
+                        <input type="text" class="form-control form-control-sm" id="filterDiscipline"
+                               placeholder="جستجو...">
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <label for="filterTagNo" class="form-label">Tag No</label>
+                        <input type="text" class="form-control form-control-sm" id="filterTagNo"
+                               placeholder="جستجو...">
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <label for="filterPunchCategory" class="form-label">دسته‌بندی</label>
+                        <select class="form-select form-select-sm" id="filterPunchCategory">
+                            <option value="">همه</option>
+                            <option value="A">A</option>
+                            <option value="B">B</option>
+                            <option value="C">C</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+            <div class="table-responsive data-grid">
+                <table class="table table-hover table-striped table-sm">
+                    <thead class="table-light">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Subsystem</th>
+                        <th scope="col">Discipline</th>
+                        <th scope="col">Tag No</th>
+                        <th scope="col">Type Code</th>
+                        <th scope="col">دسته</th>
+                        <th scope="col">شرح</th>
+                    </tr>
+                    </thead>
+                    <tbody id="punchDataTableBody">
+                    <!-- داده‌ها در اینجا قرار می‌گیرند -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- قالب اکسل پنهان -->
+<table id="excelTemplate" class="excel-template" style="display:none;">
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>Subsystem</th>
+        <th>Discipline</th>
+        <th>Tag No</th>
+        <th>Type Code</th>
+        <th>دسته</th>
+        <th>شرح</th>
+    </tr>
+    </thead>
+    <tbody id="excelTemplateBody">
+    <!-- داده‌ها اینجا قرار می‌گیرند -->
+    </tbody>
+</table>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+<script>
+    const PUNCH_CSV_URL = "PUNCH.CSV";
+    let punchData = [];
+
+    document.addEventListener('DOMContentLoaded', () => {
+        loadPunchData();
+        setupEventListeners();
+
+        // دانلود قالب اکسل
+        document.getElementById('downloadTemplateBtn').addEventListener('click', downloadExcelTemplate);
+    });
+
+    function setupEventListeners() {
+        document.getElementById('punchFilterForm').addEventListener('input', applyFilters);
+        document.getElementById('punchFilterForm').addEventListener('change', applyFilters);
+        document.getElementById('exportExcelBtn').addEventListener('click', exportToExcel);
+        document.getElementById('sendBtn').addEventListener('click', sendResults);
+    }
+
+    function loadPunchData() {
+        Papa.parse(PUNCH_CSV_URL, {
+            header: true,
+            download: true,
+            skipEmptyLines: true,
+            complete: (results) => {
+                punchData = results.data.map(item => ({
+                    subsystem: item.SD_SUB_SYSTEM?.trim() || '',
+                    discipline: item.Discipline_Name?.trim() || '',
+                    tagNo: item.ITEM_Tag_NO?.trim() || '',
+                    typeCode: item.ITEM_Type_Code?.trim() || '',
+                    punchCategory: item.PL_Punch_Category?.trim() || '',
+                    punchDescription: item.PL_Punch_Description?.trim() || ''
+                }));
+                renderTable(punchData);
+            },
+            error: (err) => {
+                console.error("خطا در بارگذاری CSV:", err);
+            }
+        });
+    }
+
+    function applyFilters() {
+        const subsystem = document.getElementById('filterSubsystem').value.trim().toLowerCase();
+        const discipline = document.getElementById('filterDiscipline').value.trim().toLowerCase();
+        const tagNo = document.getElementById('filterTagNo').value.trim().toLowerCase();
+        const category = document.getElementById('filterPunchCategory').value.trim().toLowerCase();
+
+        const filtered = punchData.filter(item =>
+            (item.subsystem.toLowerCase().includes(subsystem)) &&
+            (item.discipline.toLowerCase().includes(discipline)) &&
+            (item.tagNo.toLowerCase().includes(tagNo)) &&
+            (category === '' || item.punchCategory.toLowerCase() === category)
+        );
+
+        renderTable(filtered);
+    }
+
+    function renderTable(data) {
+        const tbody = document.getElementById('punchDataTableBody');
+        tbody.innerHTML = '';
+        if (data.length === 0) {
+            tbody.innerHTML = `<tr><td colspan="7" class="text-center text-muted">داده‌ای یافت نشد.</td></tr>`;
+            return;
+        }
+        data.forEach((item, index) => {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>${index + 1}</td>
+                <td>${item.subsystem}</td>
+                <td>${item.discipline}</td>
+                <td>${item.tagNo}</td>
+                <td>${item.typeCode || 'N/A'}</td>
+                <td>${item.punchCategory || 'N/A'}</td>
+                <td>${item.punchDescription}</td>
+            `;
+            tbody.appendChild(row);
+        });
+    }
+
+    function exportToExcel() {
+        const filteredData = getFilteredDataForExport();
+
+        if (filteredData.length === 0) {
+            alert("داده‌ای برای خروجی وجود ندارد.");
+            return;
+        }
+
+        const worksheet = XLSX.utils.json_to_sheet(filteredData);
+        const workbook = XLSX.utils.book_new();
+        XLSX.utils.book_append_sheet(workbook, worksheet, 'Punch Data');
+        XLSX.writeFile(workbook, `Punch_Items_${new Date().toISOString().split('T')[0]}.xlsx`);
+    }
+
+    function getFilteredDataForExport() {
+        const subsystem = document.getElementById('filterSubsystem').value.trim().toLowerCase();
+        const discipline = document.getElementById('filterDiscipline').value.trim().toLowerCase();
+        const tagNo = document.getElementById('filterTagNo').value.trim().toLowerCase();
+        const category = document.getElementById('filterPunchCategory').value.trim().toLowerCase();
+
+        return punchData.filter(item =>
+            (item.subsystem.toLowerCase().includes(subsystem)) &&
+            (item.discipline.toLowerCase().includes(discipline)) &&
+            (item.tagNo.toLowerCase().includes(tagNo)) &&
+            (category === '' || item.punchCategory.toLowerCase() === category)
+        ).map((item, index) => ({
+            '#': index + 1,
+            Subsystem: item.subsystem,
+            Discipline: item.discipline,
+            'Tag No': item.tagNo,
+            'Type Code': item.typeCode || 'N/A',
+            دسته: item.punchCategory || 'N/A',
+            شرح: item.punchDescription
+        }));
+    }
+
+    function downloadExcelTemplate() {
+        const template = [
+            { "#": 1, Subsystem: "مثال: SYS-01", Discipline: "مثال: Electrical", "Tag No": "TAG-001", "Type Code": "TC-01", دسته: "A", شرح: "توضیحات..." }
+        ];
+
+        const worksheet = XLSX.utils.json_to_sheet(template);
+        const workbook = XLSX.utils.book_new();
+        XLSX.utils.book_append_sheet(workbook, worksheet, 'قالب اکسل');
+        XLSX.writeFile(workbook, `قالب_ورودی.xlsx`);
+    }
+
+    function sendResults() {
+        const filteredData = getFilteredDataForExport();
+
+        if (filteredData.length === 0) {
+            alert("داده‌ای برای ارسال وجود ندارد.");
+            return;
+        }
+
+        // شبیه‌سازی ارسال با کنسول لاگ
+        console.log("ارسال داده‌ها:", filteredData);
+        alert(`${filteredData.length} ردیف با موفقیت ارسال شد.`);
+    }
+</script>
+</body>
+</html>
+```
