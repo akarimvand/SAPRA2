@@ -11,20 +11,34 @@
   <style>
     body, .form-control, .form-select, .table, .sapra-title, .sapra-subtitle {
       font-family: Vazir, 'Vazir', 'Tahoma', 'Arial', sans-serif !important;
+      background-color: #1f2c3c;
+      color: #e0e0e0;
     }
     .container-form { max-width: 1200px; margin: auto; }
-    .form-control, .form-select { font-size: 0.875rem; }
+    .form-control, .form-select { font-size: 0.875rem; background-color: #2a2f40; color: #e0e0e0; border: none; }
+    .form-control:focus, .form-select:focus { background-color: #2a2f40; color: #e0e0e0; border-color: #00adb5; box-shadow: none; }
     .table-responsive { overflow-x: auto; }
+    .table {
+      background-color: #2a2f40;
+      color: #e0e0e0;
+    }
+    .table-hover tbody tr:hover {
+      background-color: #3a3f50;
+    }
+    .table-hover tbody tr.category-a {
+      color: #ff6b6b;
+      font-weight: 700;
+    }
     .sapra-title {
       font-weight: bold;
       font-size: 1.3rem;
       letter-spacing: 0.1em;
-      color: #0d6efd;
+      color: #00adb5;
       margin-bottom: 0;
     }
     .sapra-subtitle {
       font-size: 0.95rem;
-      color: #555;
+      color: #adb5bd;
       font-family: Vazir, 'Vazir', 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', sans-serif;
       margin-top: -2px;
       margin-bottom: 8px;
@@ -37,13 +51,13 @@
       z-index: 9999; display: none;
     }
     .loading-modal-content {
-      background: white; padding: 2rem; border-radius: 8px; text-align: center;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); color: #222;
+      background: #2a2f40; padding: 2rem; border-radius: 8px; text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); color: #e0e0e0;
     }
     .loading-modal svg { width: 64px; height: 64px; animation: spin 1.5s linear infinite; }
     @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-    .btn-success { background: #198754; border: none; }
-    .btn-success:hover { background: #157347; }
+    .btn-success { background: #00adb5; border: none; }
+    .btn-success:hover { background: #019ca3; }
     /* Description column styles */
     .desc-cell {
       direction: rtl;
@@ -102,7 +116,7 @@
   <!-- Table outside card, full width -->
   <div class="table-responsive data-grid">
     <table class="table table-hover table-striped table-sm">
-      <thead class="table-light">
+      <thead class="table-dark">
         <tr>
           <th scope="col">#</th>
           <th scope="col">Subsystem</th>
@@ -256,6 +270,9 @@ function renderTable(data) {
   const fragment = document.createDocumentFragment();
   data.forEach((item, index) => {
     const row = document.createElement('tr');
+    if (item.punchCategory === 'A') {
+      row.classList.add('category-a');
+    }
     row.innerHTML = `
       <td>${index + 1}</td>
       <td>${item.subsystem}</td>
