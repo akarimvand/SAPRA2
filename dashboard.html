@@ -948,12 +948,12 @@
                         }
                         rowContent = `
                             <td>${index + 1}</td>
-                            <td>${item.subsystem || 'N/A'}</td>
-                            <td>${item.discipline || 'N/A'}</td>
-                            <td>${item.tagNo || 'N/A'}</td>
-                            <td>${item.typeCode || 'N/A'}</td>
-                            <td>${item.punchCategory || 'N/A'}</td>
-                            <td>${item.punchDescription || 'N/A'}</td>
+                            <td>${item.SD_Sub_System || 'N/A'}</td>
+                            <td>${item.Discipline_Name || 'N/A'}</td>
+                            <td>${item.ITEM_Tag_NO || 'N/A'}</td>
+                            <td>${item.ITEM_Type_Code || 'N/A'}</td>
+                            <td>${item.PL_Punch_Category || 'N/A'}</td>
+                            <td>${item.PL_Punch_Description || 'N/A'}</td>
                             <td>${item.PL_No || 'N/A'}</td>
                         `;
                     } else if (dataType === 'hold') { // Populate with hold point data
