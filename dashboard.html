@@ -793,37 +793,45 @@
         }
 
         function filterPunchItems(context) {
-             let filtered = punchItemsData;
-             let modalTitle = 'Punch Details';
+            let filtered = punchItemsData;
+            let modalTitle = 'Punch Details';
 
-             if (context.type === 'summary') {
-                  // Filter based on current selected view (case-insensitive subsystem)
-                 if (selectedView.type === 'system' && selectedView.id) {
-                     const subSystemIds = processedData.systemMap[selectedView.id]?.subs.map(sub => sub.id.toLowerCase()) || []; // Convert subSystemIds to lower case
-                     filtered = filtered.filter(item => item.subsystem.toLowerCase() && subSystemIds.includes(item.subsystem.toLowerCase())); // Convert item.subsystem to lower case
-                     modalTitle = `Punch Items in System: ${selectedView.name}`;
-                 } else if (selectedView.type === 'subsystem' && selectedView.id) {
-                     filtered = filtered.filter(item => item.subsystem.toLowerCase() === selectedView.id.toLowerCase()); // Convert both to lower case
-                     modalTitle = `Punch Items in Subsystem: ${selectedView.name}`;
-                 } else { // 'all' view - no subsystem filter needed here
-                     modalTitle = 'Punch Items (All Systems)';
-                 }
-                // For punch summary, status is always 'PUNCH', no further filtering by status needed here.
+            if (context.type === 'summary') {
+                // Filter based on current selected view
+                if (selectedView.type === 'system' && selectedView.id) {
+                    const system = processedData.systemMap[selectedView.id];
+                    if (system) {
+                        const subSystemIds = system.subs.map(sub => sub.id.toLowerCase());
+                        filtered = filtered.filter(item => 
+                            item.subsystem && subSystemIds.includes(item.subsystem.toLowerCase())
+                        );
+                    }
+                    modalTitle = `Punch Items in System: ${selectedView.name}`;
+                } else if (selectedView.type === 'subsystem' && selectedView.id) {
+                    filtered = filtered.filter(item => 
+                        item.subsystem && item.subsystem.toLowerCase() === selectedView.id.toLowerCase()
+                    );
+                    modalTitle = `Punch Items in Subsystem: ${selectedView.name}`;
+                } else { // 'all' view
+                    modalTitle = 'Punch Items (All Systems)';
+                }
+            } else if (context.type === 'table') {
+                const rowData = context.rowData;
+                // Extract subsystem and discipline from row data
+                const clickedSubsystem = rowData.subsystem.split(' - ')[0].trim().toLowerCase();
+                const clickedDiscipline = rowData.discipline.trim().toLowerCase();
 
-             } else if (context.type === 'table') {
-                 const rowData = context.rowData;
-                // Filter by Subsystem and Discipline from the clicked row (case-insensitive)
-                 const clickedSubsystem = rowData.subsystem.split(' - ')[0].toLowerCase();
-                 const clickedDiscipline = rowData.discipline.toLowerCase();
+                filtered = filtered.filter(item => 
+                    item.subsystem && item.subsystem.trim().toLowerCase() === clickedSubsystem &&
+                    item.discipline && item.discipline.trim().toLowerCase() === clickedDiscipline
+                );
+                modalTitle = `Punch Items in ${rowData.subsystem.split(' - ')[0]} / ${rowData.discipline}`;
+            }
 
-                 filtered = filtered.filter(item =>
-                     item.subsystem && item.subsystem.toLowerCase() === clickedSubsystem &&
-                     item.discipline && item.discipline.toLowerCase() === clickedDiscipline
-                 );
-                // For punch table column, status is always 'PUNCH', no further filtering by status needed here.
-
-                 modalTitle = `Punch Items in ${rowData.subsystem.split(' - ')[0]} / ${rowData.discipline}`;
-             }
+            // Additional filtering to ensure we have valid data
+            filtered = filtered.filter(item => 
+                item.subsystem && item.discipline && item.tagNo && item.punchCategory
+            );
 
             document.getElementById('itemDetailsModalLabel').textContent = modalTitle;
             return filtered;
@@ -930,23 +938,24 @@
                              <td>${item.status}</td>
                          `;
                     } else if (dataType === 'punch') {
-                         // Apply color based on punch category (case-insensitive)
-                         switch (item.punchCategory.toLowerCase()) {
-                             case 'a': rowClass = 'table-danger'; break;
-                             case 'b': rowClass = 'table-info'; break;
-                             case 'c': rowClass = 'table-success'; break;
-                             default: rowClass = '';
-                         }
-                         rowContent = `
--                            <td>${index + 1}</td>
-                             <td>${item.subsystem}</td>
-                             <td>${item.discipline}</td>
-                             <td>${item.tagNo}</td>
-                             <td>${item.typeCode || 'N/A'}</td>
-                             <td>${item.punchCategory}</td>
-                             <td>${item.punchDescription}</td>
-                             <td>${item.PL_No || 'N/A'}</td>
-                         `;
+                        // Apply color based on punch category (case-insensitive)
+                        const punchCat = item.punchCategory ? item.punchCategory.toLowerCase() : '';
+                        switch (punchCat) {
+                            case 'a': rowClass = 'table-danger'; break;
+                            case 'b': rowClass = 'table-info'; break;
+                            case 'c': rowClass = 'table-success'; break;
+                            default: rowClass = '';
+                        }
+                        rowContent = `
+                            <td>${index + 1}</td>
+                            <td>${item.subsystem || 'N/A'}</td>
+                            <td>${item.discipline || 'N/A'}</td>
+                            <td>${item.tagNo || 'N/A'}</td>
+                            <td>${item.typeCode || 'N/A'}</td>
+                            <td>${item.punchCategory || 'N/A'}</td>
+                            <td>${item.punchDescription || 'N/A'}</td>
+                            <td>${item.PL_No || 'N/A'}</td>
+                        `;
                     } else if (dataType === 'hold') { // Populate with hold point data
                          rowContent = `
 -                             <td>${index + 1}</td>
