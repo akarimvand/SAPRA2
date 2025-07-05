@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
@@ -1723,72 +1724,94 @@
             }
         }
 
-        // --- Export to Excel from Modal ---
+        // --- Optimized Punch Items Export ---
         function handleDetailsExport() {
             if (displayedItemsInModal.length === 0) {
                 alert("No data in the modal to export.");
                 return;
             }
 
-            // Format the data for Excel export based on current data type
-             let dataToExport = [];
-             let sheetName = '';
-
-             if (currentModalDataType === 'items') {
-                  dataToExport = displayedItemsInModal.map((item, index) => ({
-                    '#': index + 1,
-                      Subsystem: item.subsystem,
-                      Discipline: item.discipline,
-                      TagNo: item.tagNo,
-                      TypeCode: item.typeCode,
-                      Description: item.description,
-                      Status: item.status,
-                  }));
-                 sheetName = 'Item Details';
-             } else if (currentModalDataType === 'punch') {
-                 dataToExport = displayedItemsInModal.map((item, index) => ({
-                    '#': index + 1,
-                      Subsystem: item.subsystem,
-                      Discipline: item.discipline,
-                      TagNo: item.tagNo,
-                      TypeCode: item.typeCode || 'N/A',
-                      PunchCategory: item.punchCategory,
-                      PunchDescription: item.punchDescription,
-                      PLNo: item.PL_No || 'N/A',
-                  }));
-                 sheetName = 'Punch Details';
-             } else if (currentModalDataType === 'hold') { // Format hold point data for export
-                  dataToExport = displayedItemsInModal.map((item, index) => ({
-                    '#': index + 1,
-                      Subsystem: item.subsystem,
-                      Discipline: item.discipline,
-                      TagNo: item.tagNo,
-                      TypeCode: item.typeCode || 'N/A',
-                      HPPriority: item.hpPriority || 'N/A',
-                      HPDescription: item.hpDescription || 'N/A',
-                      HPLocation: item.hpLocation || 'N/A',
-                  }));
-                  sheetName = 'Hold Point Details';
-             }
-
-            if (dataToExport.length === 0) { // Should not happen if displayedItemsInModal is not empty, but for safety
-                 alert("Failed to format data for export.");
-                 return;
+            // Get current date for filename
+            const currentDate = new Date().toISOString().split('T')[0];
+            const modalTitle = document.getElementById('itemDetailsModalLabel').textContent
+                .replace(/[^a-zA-Z0-9 ]/g, '')
+                .replace(/ /g, '_');
+            
+            // Prepare export data based on type
+            let exportConfig;
+            
+            if (currentModalDataType === 'punch') {
+                exportConfig = {
+                    fileName: `SAPRA_Punch_Details_${modalTitle || 'All'}_${currentDate}.xlsx`,
+                    sheetName: 'Punch Items',
+                    headers: [
+                        '#', 'Subsystem', 'Discipline', 'Tag No', 
+                        'Type', 'Category', 'Description', 'PL No'
+                    ],
+                    data: displayedItemsInModal.map((item, index) => [
+                        index + 1,
+                        item.SD_Sub_System || 'N/A',
+                        item.Discipline_Name || 'N/A',
+                        item.ITEM_Tag_NO || 'N/A',
+                        item.ITEM_Type_Code || 'N/A',
+                        item.PL_Punch_Category || 'N/A',
+                        item.PL_Punch_Description || 'N/A',
+                        item.PL_No || 'N/A'
+                    ])
+                };
+            } else if (currentModalDataType === 'items') {
+                exportConfig = {
+                    fileName: `SAPRA_Item_Details_${modalTitle || 'All'}_${currentDate}.xlsx`,
+                    sheetName: 'Item Details',
+                    headers: [
+                        '#', 'Subsystem', 'Discipline', 'Tag No',
+                        'Type', 'Description', 'Status'
+                    ],
+                    data: displayedItemsInModal.map((item, index) => [
+                        index + 1,
+                        item.subsystem,
+                        item.discipline,
+                        item.tagNo,
+                        item.typeCode,
+                        item.description,
+                        item.status
+                    ])
+                };
+            } else if (currentModalDataType === 'hold') {
+                exportConfig = {
+                    fileName: `SAPRA_Hold_Details_${modalTitle || 'All'}_${currentDate}.xlsx`,
+                    sheetName: 'Hold Points',
+                    headers: [
+                        '#', 'Subsystem', 'Discipline', 'Tag No',
+                        'Type', 'Priority', 'Description', 'Location'
+                    ],
+                    data: displayedItemsInModal.map((item, index) => [
+                        index + 1,
+                        item.subsystem,
+                        item.discipline,
+                        item.tagNo,
+                        item.typeCode || 'N/A',
+                        item.hpPriority || 'N/A',
+                        item.hpDescription || 'N/A',
+                        item.hpLocation || 'N/A'
+                    ])
+                };
             }
 
-            const currentDate = new Date().toISOString().split('T')[0];
-            // Generate filename based on modal title or a default
-            const modalTitle = document.getElementById('itemDetailsModalLabel').textContent.replace(/[^a-zA-Z0-9 ]/g, '').replace(/ /g, '_');
-            const fileName = `SAPRA_Details_${modalTitle || 'Items'}_${currentDate}.xlsx`;
-
             try {
-                const worksheet = XLSX.utils.json_to_sheet(dataToExport);
-                const workbook = XLSX.utils.book_new();
-                XLSX.utils.book_append_sheet(workbook, worksheet, sheetName);
-                XLSX.writeFile(workbook, fileName);
+                // Create worksheet with headers
+                const ws = XLSX.utils.aoa_to_sheet([
+                    exportConfig.headers,
+                    ...exportConfig.data
+                ]);
+                
+                // Create workbook and export
+                const wb = XLSX.utils.book_new();
+                XLSX.utils.book_append_sheet(wb, ws, exportConfig.sheetName);
+                XLSX.writeFile(wb, exportConfig.fileName);
             } catch (error) {
-                console.error("Error exporting modal details to Excel:", error);
-                alert("An error occurred while exporting details to Excel.");
+                console.error("Export error:", error);
+                alert(`Error exporting ${currentModalDataType} data: ${error.message}`);
             }
         }
     </script>
