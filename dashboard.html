@@ -894,6 +894,7 @@
                       <th scope="col">Type</th>
                       <th scope="col">Category</th>
                       <th scope="col">Description</th>
+                      <th scope="col">PL No</th>
                  `;
              } else if (dataType === 'hold') { // Add headers for hold points
                  theadRow.innerHTML = `
@@ -944,6 +945,7 @@
                              <td>${item.typeCode || 'N/A'}</td>
                              <td>${item.punchCategory}</td>
                              <td>${item.punchDescription}</td>
+                             <td>${item.PL_No || 'N/A'}</td>
                          `;
                     } else if (dataType === 'hold') { // Populate with hold point data
                          rowContent = `
@@ -1743,6 +1745,7 @@
                       TypeCode: item.typeCode || 'N/A',
                       PunchCategory: item.punchCategory,
                       PunchDescription: item.punchDescription,
+                      PLNo: item.PL_No || 'N/A',
                   }));
                  sheetName = 'Punch Details';
              } else if (currentModalDataType === 'hold') { // Format hold point data for export
