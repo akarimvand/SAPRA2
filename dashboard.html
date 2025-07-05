@@ -803,13 +803,13 @@
                     if (system) {
                         const subSystemIds = system.subs.map(sub => sub.id.toLowerCase());
                         filtered = filtered.filter(item => 
-                            item.subsystem && subSystemIds.includes(item.subsystem.toLowerCase())
+                            item.SD_Sub_System && subSystemIds.includes(item.SD_Sub_System.trim().toLowerCase())
                         );
                     }
                     modalTitle = `Punch Items in System: ${selectedView.name}`;
                 } else if (selectedView.type === 'subsystem' && selectedView.id) {
                     filtered = filtered.filter(item => 
-                        item.subsystem && item.subsystem.toLowerCase() === selectedView.id.toLowerCase()
+                        item.SD_Sub_System && item.SD_Sub_System.trim().toLowerCase() === selectedView.id.toLowerCase()
                     );
                     modalTitle = `Punch Items in Subsystem: ${selectedView.name}`;
                 } else { // 'all' view
@@ -822,15 +822,15 @@
                 const clickedDiscipline = rowData.discipline.trim().toLowerCase();
 
                 filtered = filtered.filter(item => 
-                    item.subsystem && item.subsystem.trim().toLowerCase() === clickedSubsystem &&
-                    item.discipline && item.discipline.trim().toLowerCase() === clickedDiscipline
+                    item.SD_Sub_System && item.SD_Sub_System.trim().toLowerCase() === clickedSubsystem &&
+                    item.Discipline_Name && item.Discipline_Name.trim().toLowerCase() === clickedDiscipline
                 );
                 modalTitle = `Punch Items in ${rowData.subsystem.split(' - ')[0]} / ${rowData.discipline}`;
             }
 
             // Additional filtering to ensure we have valid data
             filtered = filtered.filter(item => 
-                item.subsystem && item.discipline && item.tagNo && item.punchCategory
+                item.SD_Sub_System && item.Discipline_Name && item.ITEM_Tag_NO && item.PL_Punch_Category
             );
 
             document.getElementById('itemDetailsModalLabel').textContent = modalTitle;
@@ -948,12 +948,12 @@
                         }
                         rowContent = `
                             <td>${index + 1}</td>
-                            <td>${item.subsystem || 'N/A'}</td>
-                            <td>${item.discipline || 'N/A'}</td>
-                            <td>${item.tagNo || 'N/A'}</td>
-                            <td>${item.typeCode || 'N/A'}</td>
-                            <td>${item.punchCategory || 'N/A'}</td>
-                            <td>${item.punchDescription || 'N/A'}</td>
+                            <td>${item.SD_Sub_System || 'N/A'}</td>
+                            <td>${item.Discipline_Name || 'N/A'}</td>
+                            <td>${item.ITEM_Tag_NO || 'N/A'}</td>
+                            <td>${item.ITEM_Type_Code || 'N/A'}</td>
+                            <td>${item.PL_Punch_Category || 'N/A'}</td>
+                            <td>${item.PL_Punch_Description || 'N/A'}</td>
                             <td>${item.PL_No || 'N/A'}</td>
                         `;
                     } else if (dataType === 'hold') { // Populate with hold point data
@@ -1101,12 +1101,12 @@
                      skipEmptyLines: true,
                      complete: (results) => {
                          punchItemsData = results.data.map(item => ({
-                             subsystem: item.SD_SUB_SYSTEM?.trim() || '',
-                             discipline: item.Discipline_Name?.trim() || '',
-                             tagNo: item.ITEM_Tag_NO?.trim() || '',
-                             typeCode: item.ITEM_Type_Code?.trim() || '',
-                             punchCategory: item.PL_Punch_Category?.trim() || '',
-                             punchDescription: item.PL_Punch_Description?.trim() || '',
+                             SD_Sub_System: item.SD_Sub_System?.trim() || '',
+                             Discipline_Name: item.Discipline_Name?.trim() || '',
+                             ITEM_Tag_NO: item.ITEM_Tag_NO?.trim() || '',
+                             ITEM_Type_Code: item.ITEM_Type_Code?.trim() || '',
+                             PL_Punch_Category: item.PL_Punch_Category?.trim() || '',
+                             PL_Punch_Description: item.PL_Punch_Description?.trim() || '',
                              PL_No: item.PL_No?.trim() || ''
                          }));
                           console.log("Punch items data loaded:", punchItemsData.length, "items");
