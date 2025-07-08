@@ -51,7 +51,7 @@
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,0,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,0,0,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,747,0,0,0,0,0,0
-3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,0,0,65,15,50,2
+3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,0,0,66,15,51,2
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,0,0,0,0,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,127,0,0,0,0,0,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,36,0,0,34,4,30,14
@@ -90,7 +90,7 @@
 4000,4000-08,Utility,Cooling Water,IN,526,0,0,0,0,0,0
 4000,4000-08-01,Utility,ROW Service,PI,6,0,0,18,8,10,0
 4000,4000-09,Utility,Oily Water Treatment,MER,2,0,0,0,0,0,0
-4000,4000-09,Utility,Oily Water Treatment,PI,230,0,0,16,6,10,2
+4000,4000-09,Utility,Oily Water Treatment,PI,230,0,0,20,6,14,2
 4000,4000-09,Utility,Oily Water Treatment,IN,20,0,0,0,0,0,0
 4000,4000-10,Utility,Sanitary Water Collection,MER,1,0,0,0,0,0,0
 4000,4000-10,Utility,Sanitary Water Collection,IN,12,0,0,0,0,0,0
