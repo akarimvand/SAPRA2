@@ -42,9 +42,9 @@
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MER,2,0,0,0,0,0,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,23,14,0,43,8,35,2
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,224,0,0,0,0,0,0
-2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,0,0,38,5,33,0
-2000,2000-05,Reforming,Gas Cooling and Separation,IN,216,0,0,0,0,0,0
-2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,14,0,115,41,74,0
+2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,0,0,48,10,38,0
+2000,2000-05,Reforming,Gas Cooling and Separation,IN,216,0,0,36,0,36,0
+2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,15,0,114,40,74,0
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,0,0,0,0,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,2,1,0,13,0,13,0
 2000,2000-06,Reforming,Nitrogen Circuit,IN,21,0,0,0,0,0,0
@@ -55,42 +55,42 @@
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,0,0,0,0,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,127,0,0,0,0,0,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,36,6,0,34,4,30,14
-3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,0,0,9,0,9,0
+3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,0,0,19,0,19,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,7,0,0,20,0,20,0
-3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,12,0,98,12,86,0
+3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,13,0,98,12,86,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,270,0,0,0,0,0,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,0,0,0,0,0,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,4,0,7,0,7,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,147,0,0,0,0,0,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,MER,1,0,0,0,0,0,0
-4000,4000-01,Utility,Nitrogen,PI,23,9,0,38,20,18,1
+4000,4000-01,Utility,Nitrogen,PI,23,11,0,38,20,18,1
 4000,4000-01,Utility,Nitrogen,IN,61,0,0,0,0,0,0
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,0,0,0,0,0,0
-4000,4000-02,Utility,HHP & HP & LP Steam,IN,240,0,0,0,0,0,0
+4000,4000-02,Utility,HHP & HP & LP Steam,IN,240,0,0,6,0,6,0
 4000,4000-02,Utility,HHP & HP & LP Steam,PI,64,28,0,148,9,139,3
 4000,4000-03,Utility,MP Steam,MES,1,0,0,0,0,0,0
-4000,4000-03,Utility,MP Steam,IN,56,0,0,0,0,0,0
+4000,4000-03,Utility,MP Steam,IN,56,0,0,6,0,6,0
 4000,4000-03,Utility,MP Steam,PI,5,5,0,37,6,31,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,0,0,0,0,0,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,0,0,0,0,0
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,47,20,0,105,56,49,2
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,47,21,0,105,56,49,2
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,497,0,0,0,0,0,0
 4000,4000-05,Utility,Blow Down,PI,24,9,0,31,10,21,1
 4000,4000-05,Utility,Blow Down,MES,4,0,0,0,0,0,0
 4000,4000-05,Utility,Blow Down,IN,17,0,0,0,0,0,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,0,0,4,0,4,0
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,46,12,0,112,47,65,1
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,46,13,0,112,47,65,1
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,11,0,0,0,0,0,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,249,0,0,0,0,0,0
 4000,4000-07,Utility,Plant Air,MER,1,0,0,0,0,0,0
 4000,4000-07,Utility,Plant Air,IN,6,0,0,0,0,0,6
 4000,4000-07,Utility,Plant Air,PI,10,9,0,7,0,7,0
 4000,4000-08,Utility,Cooling Water,MER,8,0,0,0,0,0,0
-4000,4000-08,Utility,Cooling Water,PI,267,54,0,481,133,348,8
+4000,4000-08,Utility,Cooling Water,PI,267,57,0,481,133,348,8
 4000,4000-08,Utility,Cooling Water,IN,526,0,0,0,0,0,0
 4000,4000-08-01,Utility,ROW Service,PI,6,3,0,18,8,10,0
 4000,4000-09,Utility,Oily Water Treatment,MER,2,0,0,0,0,0,0
-4000,4000-09,Utility,Oily Water Treatment,PI,230,6,0,20,6,14,2
+4000,4000-09,Utility,Oily Water Treatment,PI,230,23,0,20,6,14,2
 4000,4000-09,Utility,Oily Water Treatment,IN,20,0,0,0,0,0,0
 4000,4000-10,Utility,Sanitary Water Collection,MER,1,0,0,0,0,0,0
 4000,4000-10,Utility,Sanitary Water Collection,IN,12,0,0,0,0,0,0
@@ -99,24 +99,24 @@
 4000,4000-11,Utility,Instrument Air,IN,69,0,0,0,0,0,21
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,MER,4,0,0,0,0,0,0
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,IN,25,0,0,0,0,0,0
-4000,4000-12,Utility,COC Water and Lab Chemical Sump,PI,20,0,0,3,3,0,0
+4000,4000-12,Utility,COC Water and Lab Chemical Sump,PI,20,1,0,3,3,0,0
 4000,4000-13,Utility,Slope Close Drain,MER,1,0,0,0,0,0,0
 4000,4000-13,Utility,Slope Close Drain,PI,30,0,0,8,0,8,0
 4000,4000-14_AG,Utility,Fire Water(AG),PI,35,2,0,92,35,57,0
 4000,4000-14_AG,Utility,Fire Water(AG),IN,33,0,0,0,0,0,33
 4000,4000-14_AG,Utility,Fire Water(AG),MES,1,0,0,0,0,0,0
 4000,4000-14_UG,Utility,Fire Water(UG),PI,89,0,0,47,0,47,0
-4000,4000-15,Utility,Potable & Service Water,PI,61,12,0,75,13,62,0
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,14,0,0,55,3,52,0
+4000,4000-15,Utility,Potable & Service Water,PI,61,14,0,75,13,62,0
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,14,0,0,63,6,57,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,0,0,0,0,0
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,414,0,0,0,0,0,0
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,73,30,0,216,66,150,3
-5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,7,0,0,65,17,48,0
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,414,0,0,172,0,172,0
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,73,36,0,216,66,150,3
+5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,7,0,0,84,37,47,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,0,0,0,0,0,0
-5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,462,0,0,0,0,0,0
-5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,PI,46,12,0,133,38,95,0
+5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,462,0,0,66,0,66,0
+5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,PI,46,14,0,133,38,95,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,33,0,135,57,78,0
-5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,0,0,38,4,34,0
+5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,0,0,44,11,33,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,258,0,0,0,0,0,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,0,0,0,0,0,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MES,6,0,0,27,0,27,0
@@ -126,7 +126,7 @@
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MES,2,0,0,0,0,0,0
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MER,2,0,0,0,0,0,0
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,60,0,0,0,0,0,0
-5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,10,3,0,29,7,22,0
+5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,10,4,0,29,7,22,0
 7000,7000-01,Flare,Flare System,IN,143,0,0,0,0,0,0
 7000,7000-01,Flare,Flare System,MER,2,0,0,0,0,0,0
 7000,7000-01,Flare,Flare System,MES,2,0,0,6,0,6,0
