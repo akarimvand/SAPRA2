@@ -43,7 +43,7 @@
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,23,14,0,43,8,35,2
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,224,0,0,0,0,0,0
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,0,0,48,10,38,0
-2000,2000-05,Reforming,Gas Cooling and Separation,IN,216,0,0,36,0,36,0
+2000,2000-05,Reforming,Gas Cooling and Separation,IN,216,0,0,55,0,55,0
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,15,0,114,40,74,0
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,0,0,0,0,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,2,1,0,13,0,13,0
@@ -109,23 +109,23 @@
 4000,4000-15,Utility,Potable & Service Water,PI,61,14,0,75,13,62,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,14,0,0,63,6,57,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,0,0,0,0,0
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,414,0,0,172,0,172,0
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,414,0,0,262,0,262,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,73,36,0,216,68,148,3
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,7,0,0,84,37,47,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,0,0,0,0,0,0
-5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,462,0,0,122,0,122,0
+5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,462,0,0,167,0,167,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,PI,46,14,0,133,39,94,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,33,0,135,57,78,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,0,0,44,11,33,0
-5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,258,0,0,0,0,0,0
+5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,258,0,0,10,0,10,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,0,0,0,0,0,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MES,6,0,0,27,0,27,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,PI,30,5,0,123,30,93,3
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MER,4,0,0,0,0,0,0
-5000,5000-04,Distillation & Methanol Product,Methanol Product,IN,205,0,0,0,0,0,0
+5000,5000-04,Distillation & Methanol Product,Methanol Product,IN,205,0,0,4,0,4,0
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MES,2,0,0,0,0,0,0
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MER,2,0,0,0,0,0,0
-5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,60,0,0,0,0,0,0
+5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,60,0,0,5,0,5,0
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,10,4,0,29,7,22,0
 7000,7000-01,Flare,Flare System,IN,143,0,0,0,0,0,0
 7000,7000-01,Flare,Flare System,MER,2,0,0,0,0,0,0
@@ -135,7 +135,7 @@ BLD,BLD-01,Building,Substation,PI,3,0,0,2,0,2,0
 BLD,BLD-02,Building,Control Building,PI,1,1,0,5,0,5,0
 BLD,BLD-02,Building,Control Building,CV,9,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,PI,3,0,0,0,0,0,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2537,0,0,914,0,914,0
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2537,0,0,920,0,920,0
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,281,0,0,0,0,0,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,188,0,0,0,0,0,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,32,0,0,0,0,0,0
