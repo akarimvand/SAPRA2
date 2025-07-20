@@ -5334,6 +5334,7 @@ NO SUBS.,PI,61-SUMP-091,PI_TP,,Reinstatement
 7000-01,PI,7000-01-VA-01-439,PI_TP,PIPING TEST PACKAGE,DONE
 4000-14_UG,PI,70-FW-UG-246,PI_TP,PIPING TEST PACKAGE,Reinstatement
 4000-14_UG,PI,70-FW-UG-KC-285,PI_TP,PIPING TEST PACKAGE,Reinstatement
+4000-14_UG,PI,70-FW-UU-KC-291,PI_TP,,
 4000-09,PI,70-MSS-03-UG-KC-216,PI_TP,PIPING TEST PACKAGE,DONE
 4000-09,PI,70-MSS-04-UG-KC-287,PI_TP,PIPING TEST PACKAGE,DONE
 4000-09,PI,70-MSS-05-UG-KC-217,PI_TP,PIPING TEST PACKAGE,DONE
@@ -13503,8 +13504,8 @@ ES-09,EL,IN-E07-66,Earthing System,Instrument JB- 70*35,
 ES-09,EL,IN-E07-68,Earthing System,Instrument JB- 70*70,
 ES-09,EL,IN-E07-69,Earthing System,Instrument JB- 70*35,
 BLD-02,CV,Initial Architecture(BLD-02),04-Initial Architecture,Basic partitions and rough interior layout,
-BLD-01,CV,Initial Architecture(First Floor BLD-01),04-Initial Architecture,Initial Architecture(First Floor BLD-01),
-BLD-01,CV,Initial Architecture(Ground Floor BLD-01),04-Initial Architecture,Initial Architecture(Ground Floor BLD-01),
+BLD-01,CV,Initial Architecture(First Floor BLD-01),04-Initial Architecture-2,Initial Architecture(First Floor BLD-01),
+BLD-01,CV,Initial Architecture(Ground Floor BLD-01),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-01),
 2000-02,MES,INLET MANIFOLD,Inlet_Manifold,MANIFOLD,
 3000-03,MES,J-3001,Ejector(J),Ejector,
 3000-02,MES,J-3002-1,Ejector(J),Start up Ejector for R 3001 1,
