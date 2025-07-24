@@ -11,13 +11,13 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,39,0,165,48,117,1
 1000,1000-04,Gas Preparation,Gas Station,IN,2,0,0,0,0,0,0
 1000,1000-04,Gas Preparation,Gas Station,PI,1,0,0,0,0,0,0
-120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,169,0,0,1244,631,613,0
-120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,308,0,0,1269,397,872,0
+120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,169,0,0,1244,632,612,0
+120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,308,0,0,1269,486,783,0
 120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,290,0,0,1069,247,822,0
 120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,264,0,0,1099,529,570,0
 120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,244,0,0,1093,489,604,0
 120,120-06,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-05,EL,222,0,0,1096,295,801,0
-120,120-07,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-ESWB3A/B-01,EL,147,0,0,491,106,385,0
+120,120-07,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-ESWB3A/B-01,EL,147,0,0,491,126,365,0
 120,120-08,Electrical Distribution Substation,Emergency Diesel Generator SS-DG-5701,EL,8,0,0,0,0,0,0
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,EL,29,0,0,14,5,9,0
 120,120-10,Electrical Distribution Substation,SS-CH-01 for Electrical Supply 110V DC,EL,24,0,0,136,0,136,0
@@ -172,13 +172,13 @@ LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,0,0,55,1
 LS,LS-03,Lighting System,Lighting System for Substation,EL,514,0,0,1697,1641,56,0
 LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,0,0,0,0,0,0
 LS,LS-05,Lighting System,Lighting System for Laboratory & Yard Office,EL,315,0,0,0,0,0,0
-LS,LS-06,Lighting System,Lighting System for Street,EL,73,0,0,26,3,23,0
+LS,LS-06,Lighting System,Lighting System for Street,EL,73,0,0,26,9,17,0
 LS,LS-07,Lighting System,Lighting System for Area-02,EL,1075,0,0,0,0,0,0
 LS,LS-08,Lighting System,Lighting System for Area-03,EL,440,0,0,192,27,165,0
 LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,0,0,275,0,275,0
 LS,LS-10,Lighting System,Lighting System for Area-05,EL,706,0,0,268,0,268,0
-LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,0,0,362,28,334,0
-LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,0,0,362,120,242,0
+LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,0,0,362,68,294,0
+LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,0,0,362,158,204,0
 LS,LS-13,Lighting System,Lighting System for Warehouse,EL,8,0,0,0,0,0,0
 LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,33,0,0,0,0,0,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,1179,0,0,0,0,0,0
@@ -190,7 +190,7 @@ TELE,TEL-03,Telecom Systems,Telecom System for Area-03,EL,39,0,0,0,0,0,0
 TELE,TEL-04,Telecom Systems,Telecom System for Area-04,EL,37,0,0,0,0,0,0
 TELE,TEL-05,Telecom Systems,Telecom System for Area-05,EL,71,0,0,0,0,0,0
 TELE,TEL-06,Telecom Systems,Telecom System for Area-06,EL,46,0,0,10,0,10,0
-TELE,TEL-07,Telecom Systems,Telecom System for Area-07,EL,44,0,0,103,0,103,0
+TELE,TEL-07,Telecom Systems,Telecom System for Area-07,EL,44,0,0,112,0,112,0
 TELE,TEL-08,Telecom Systems,Telecom System for Substation,EL,30,0,0,0,0,0,0
 TELE,TEL-09,Telecom Systems,Telecom System for Control Building,EL,94,0,0,0,0,0,0
 TELE,TEL-10,Telecom Systems,Telecom System for Laboratory,EL,89,0,0,0,0,0,0
