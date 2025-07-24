@@ -46,7 +46,7 @@
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,216,0,0,80,0,80,0
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,21,0,115,41,74,0
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,0,0,0,0,0
-2000,2000-06,Reforming,Nitrogen Circuit,PI,2,1,0,13,0,13,0
+2000,2000-06,Reforming,Nitrogen Circuit,PI,4,1,0,15,0,15,0
 2000,2000-06,Reforming,Nitrogen Circuit,IN,21,0,0,0,0,0,0
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,0,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,0,0,0,0,0,0
@@ -63,7 +63,7 @@
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,4,0,10,0,10,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,147,0,0,6,0,6,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,MER,1,0,0,0,0,0,0
-4000,4000-01,Utility,Nitrogen,PI,23,13,0,38,20,18,1
+4000,4000-01,Utility,Nitrogen,PI,21,13,0,36,20,16,1
 4000,4000-01,Utility,Nitrogen,IN,61,0,0,0,0,0,0
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,0,0,0,0,0,0
 4000,4000-02,Utility,HHP & HP & LP Steam,IN,240,0,0,32,0,32,0
@@ -105,7 +105,7 @@
 4000,4000-14_AG,Utility,Fire Water(AG),PI,35,3,0,94,35,59,0
 4000,4000-14_AG,Utility,Fire Water(AG),IN,33,0,0,0,0,0,33
 4000,4000-14_AG,Utility,Fire Water(AG),MES,1,0,0,0,0,0,0
-4000,4000-14_UG,Utility,Fire Water(UG),PI,91,7,0,49,0,49,0
+4000,4000-14_UG,Utility,Fire Water(UG),PI,90,7,0,49,0,49,0
 4000,4000-15,Utility,Potable & Service Water,PI,61,21,0,75,13,62,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,14,0,0,63,6,57,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,0,0,0,0,0
