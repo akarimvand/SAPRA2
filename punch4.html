@@ -80,6 +80,7 @@
             margin-bottom: 20px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             transition: transform 0.3s ease;
+            cursor: pointer;
         }
         
         .summary-card:hover {
@@ -177,9 +178,60 @@
             background-color: #3498db !important;
             color: white !important;
         }
+        
+        /* Modal styles */
+        .modal-grid {
+            height: 400px;
+            width: 100%;
+        }
+        
+        .search-container {
+            margin-bottom: 15px;
+        }
+        
+        .filter-buttons {
+            margin-bottom: 15px;
+        }
+        
+        .filter-buttons .btn {
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
     </style>
 </head>
 <body>
+    <!-- Modal for detailed view -->
+    <div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="detailsModalLabel">Detailed Items</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="search-container">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text"><i class="fas fa-search"></i></span>
+                            <input type="text" id="modalSearch" class="form-control" placeholder="Search...">
+                            <button class="btn btn-outline-secondary" type="button" id="clearSearch">Clear</button>
+                        </div>
+                    </div>
+                    <div class="filter-buttons">
+                        <button class="btn btn-sm btn-outline-primary filter-btn" data-filter="all">All</button>
+                        <button class="btn btn-sm btn-outline-success filter-btn" data-filter="released">Released</button>
+                        <button class="btn btn-sm btn-outline-danger filter-btn" data-filter="remaining">Remaining</button>
+                        <button class="btn btn-sm btn-outline-info filter-btn" data-filter="recent">Recent (30d)</button>
+                    </div>
+                    <div id="modalGrid" class="modal-grid ag-theme-alpine"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="exportModalData">Export</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container-fluid">
         <!-- Dashboard Header -->
         <div class="dashboard-header">
@@ -198,28 +250,28 @@
         <!-- Summary Cards -->
         <div class="row">
             <div class="col-md-3">
-                <div class="summary-card total-issues">
+                <div class="summary-card total-issues" id="totalIssuesCard">
                     <div class="summary-icon"><i class="fas fa-tasks"></i></div>
                     <div class="summary-value" id="totalIssues">-</div>
                     <div class="summary-label">Total Issues</div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="summary-card remaining">
+                <div class="summary-card remaining" id="totalRemainingCard">
                     <div class="summary-icon"><i class="fas fa-exclamation-circle"></i></div>
                     <div class="summary-value" id="totalRemaining">-</div>
                     <div class="summary-label">Total Remaining</div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="summary-card released">
+                <div class="summary-card released" id="totalReleasedCard">
                     <div class="summary-icon"><i class="fas fa-check-circle"></i></div>
                     <div class="summary-value" id="totalReleased">-</div>
                     <div class="summary-label">Total Released</div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="summary-card recent-activity">
+                <div class="summary-card recent-activity" id="recentIssuedCard">
                     <div class="summary-icon"><i class="fas fa-bolt"></i></div>
                     <div class="summary-value" id="recentIssued">-</div>
                     <div class="summary-label">Issued Last 30 Days</div>
@@ -451,6 +503,9 @@
             discipline: [],
             category: []
         };
+        let modalGrid = null;
+        let modalData = [];
+        let currentFilter = 'all';
         
         // Load data from CSV
         function loadData() {
@@ -459,50 +514,187 @@
             loadingSpinner.innerHTML = '<div class="spinner-border text-primary spinner" role="status"><span class="visually-hidden">Loading...</span></div>';
             document.getElementById('dataGrid').replaceWith(loadingSpinner);
             
-            Papa.parse('pnc2.csv', {
+            // Use a sample data URL - replace with your actual CSV path
+            const dataUrl = 'pnc2.csv';
+            
+            Papa.parse(dataUrl, {
                 download: true,
                 header: true,
                 skipEmptyLines: true,
                 complete: function(results) {
-                    gridData = results.data.map(item => {
-                        return {
-                            subSystem: item.ITEM_Sub_System,
-                            discipline: item.PL_Discipline,
-                            category: item.Category,
-                            issued: parseInt(item.Total_Issued),
-                            released: parseInt(item.Total_Released),
-                            remaining: parseInt(item.Remaining),
-                            releasedToday: parseInt(item.Released_Today),
-                            released7: parseInt(item.Released_Last_7_Days),
-                            released30: parseInt(item.Released_Last_30_Days),
-                            issuedToday: parseInt(item.Issued_Today),
-                            issued7: parseInt(item.Issued_Last_7_Days),
-                            issued30: parseInt(item.Issued_Last_30_Days),
-                            completionRate: (parseInt(item.Total_Released) / parseInt(item.Total_Issued) * 100).toFixed(1)
-                        };
-                    });
-                    
-                    // Update summary cards
-                    updateSummaryCards();
-                    
-                    // Initialize charts
-                    initCharts();
-                    
-                    // Initialize grids
-                    initMainGrid();
-                    initSubsystemGrid();
-                    
-                    // Initialize subsystem filters
-                    initSubsystemFilters();
-                    
-                    // Update last updated time
-                    document.getElementById('lastUpdated').textContent = new Date().toLocaleString();
+                    // Check if data was loaded successfully
+                    if (results.data && results.data.length > 0) {
+                        gridData = results.data.map(item => {
+                            return {
+                                subSystem: item.ITEM_Sub_System,
+                                discipline: item.PL_Discipline,
+                                category: item.Category,
+                                issued: parseInt(item.Total_Issued) || 0,
+                                released: parseInt(item.Total_Released) || 0,
+                                remaining: parseInt(item.Remaining) || 0,
+                                releasedToday: parseInt(item.Released_Today) || 0,
+                                released7: parseInt(item.Released_Last_7_Days) || 0,
+                                released30: parseInt(item.Released_Last_30_Days) || 0,
+                                issuedToday: parseInt(item.Issued_Today) || 0,
+                                issued7: parseInt(item.Issued_Last_7_Days) || 0,
+                                issued30: parseInt(item.Issued_Last_30_Days) || 0,
+                                completionRate: (parseInt(item.Total_Released) / (parseInt(item.Total_Issued) || 1) * 100).toFixed(1)
+                            };
+                        });
+                        
+                        // Update summary cards
+                        updateSummaryCards();
+                        
+                        // Initialize charts
+                        initCharts();
+                        
+                        // Initialize grids
+                        initMainGrid();
+                        initSubsystemGrid();
+                        
+                        // Initialize subsystem filters
+                        initSubsystemFilters();
+                        
+                        // Initialize modal grid
+                        initModalGrid();
+                        
+                        // Update last updated time
+                        document.getElementById('lastUpdated').textContent = new Date().toLocaleString();
+                        
+                        // Add click handlers to summary cards
+                        addSummaryCardClickHandlers();
+                    } else {
+                        console.error('No data loaded from CSV');
+                        document.getElementById('dataGrid').innerHTML = '<div class="alert alert-danger">No data loaded from CSV file.</div>';
+                    }
                 },
                 error: function(error) {
                     console.error('Error loading CSV:', error);
-                    document.getElementById('dataGrid').innerHTML = '<div class="alert alert-danger">Error loading data. Please try again later.</div>';
+                    document.getElementById('dataGrid').innerHTML = '<div class="alert alert-danger">Error loading data. Please check the CSV file path and format.</div>';
                 }
             });
+        }
+        
+        // Add click handlers to summary cards
+        function addSummaryCardClickHandlers() {
+            document.getElementById('totalIssuesCard').addEventListener('click', function() {
+                showDetailsModal('All Items', gridData);
+            });
+            
+            document.getElementById('totalRemainingCard').addEventListener('click', function() {
+                const remainingItems = gridData.filter(item => item.remaining > 0);
+                showDetailsModal('Remaining Items', remainingItems);
+            });
+            
+            document.getElementById('totalReleasedCard').addEventListener('click', function() {
+                const releasedItems = gridData.filter(item => item.released > 0);
+                showDetailsModal('Released Items', releasedItems);
+            });
+            
+            document.getElementById('recentIssuedCard').addEventListener('click', function() {
+                const recentItems = gridData.filter(item => item.issued30 > 0);
+                showDetailsModal('Recently Issued Items (30d)', recentItems);
+            });
+        }
+        
+        // Show details modal
+        function showDetailsModal(title, data) {
+            document.getElementById('detailsModalLabel').textContent = title;
+            modalData = data;
+            
+            // Apply current filter
+            applyModalFilter(currentFilter);
+            
+            // Show the modal
+            const modal = new bootstrap.Modal(document.getElementById('detailsModal'));
+            modal.show();
+        }
+        
+        // Initialize modal grid
+        function initModalGrid() {
+            const columnDefs = [
+                { headerName: "Sub-System", field: "subSystem", sortable: true, filter: true, width: 120 },
+                { headerName: "Discipline", field: "discipline", sortable: true, filter: true, width: 100 },
+                { headerName: "Category", field: "category", sortable: true, filter: true, width: 100 },
+                { headerName: "Issued", field: "issued", sortable: true, filter: true, width: 100 },
+                { headerName: "Released", field: "released", sortable: true, filter: true, width: 100 },
+                { headerName: "Remaining", field: "remaining", sortable: true, filter: true, width: 120,
+                    cellStyle: params => params.value > 0 ? { color: '#e74c3c', fontWeight: 'bold' } : null },
+                { headerName: "Released (30d)", field: "released30", sortable: true, filter: true, width: 130 },
+                { headerName: "Issued (30d)", field: "issued30", sortable: true, filter: true, width: 120 },
+                { headerName: "Completion %", field: "completionRate", sortable: true, filter: true, width: 130,
+                    cellStyle: params => params.value < 50 ? { color: '#e74c3c' } : { color: '#2ecc71' } }
+            ];
+            
+            const gridOptions = {
+                columnDefs: columnDefs,
+                defaultColDef: {
+                    resizable: true
+                },
+                pagination: true,
+                paginationPageSize: 10,
+                domLayout: 'autoHeight',
+                onGridReady: function(params) {
+                    params.api.sizeColumnsToFit();
+                }
+            };
+            
+            modalGrid = new agGrid.Grid(document.getElementById('modalGrid'), gridOptions);
+            
+            // Search functionality
+            document.getElementById('modalSearch').addEventListener('input', function() {
+                modalGrid.api.setQuickFilter(this.value);
+            });
+            
+            document.getElementById('clearSearch').addEventListener('click', function() {
+                document.getElementById('modalSearch').value = '';
+                modalGrid.api.setQuickFilter('');
+            });
+            
+            // Filter buttons
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    currentFilter = this.getAttribute('data-filter');
+                    applyModalFilter(currentFilter);
+                    
+                    // Update button states
+                    document.querySelectorAll('.filter-btn').forEach(b => {
+                        b.classList.remove('active');
+                    });
+                    this.classList.add('active');
+                });
+            });
+            
+            // Export button
+            document.getElementById('exportModalData').addEventListener('click', function() {
+                modalGrid.api.exportDataAsCsv({
+                    fileName: 'punch_list_details.csv'
+                });
+            });
+        }
+        
+        // Apply filter to modal data
+        function applyModalFilter(filter) {
+            let filteredData = [];
+            
+            switch(filter) {
+                case 'all':
+                    filteredData = [...modalData];
+                    break;
+                case 'released':
+                    filteredData = modalData.filter(item => item.released > 0);
+                    break;
+                case 'remaining':
+                    filteredData = modalData.filter(item => item.remaining > 0);
+                    break;
+                case 'recent':
+                    filteredData = modalData.filter(item => item.issued30 > 0 || item.released30 > 0);
+                    break;
+                default:
+                    filteredData = [...modalData];
+            }
+            
+            modalGrid.api.setRowData(filteredData);
         }
         
         // Update summary cards
