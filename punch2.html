@@ -1,0 +1,364 @@
+```html
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>گزارش مدیریتی PNC</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Vazir&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Vazir', sans-serif;
+        }
+        body {
+            background-color: #f5f7fa;
+            margin: 0;
+            padding: 20px;
+            direction: rtl;
+            text-align: right;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .chart-container {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .table-container {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: right;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f8f9fa;
+            font-weight: bold;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        .stats-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .stat-item {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .stat-label {
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 گزارش مدیریتی PNC</h1>
+            <p>تحلیل عملکرد و آمار کلی</p>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-item">
+                <div class="stat-label">کل پانچ‌های صادر شده</div>
+                <div class="stat-number" id="totalIssued">0</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">کل پانچ‌های باز</div>
+                <div class="stat-number" id="totalRemaining">0</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">کل پانچ‌های رفع شده</div>
+                <div class="stat-number" id="totalReleased">0</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">صادر شده امروز</div>
+                <div class="stat-number" id="issuedToday">0</div>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <h2>📈 توزیع پانچ‌ها بر اساس دیسیپلین</h2>
+            <canvas id="disciplineChart"></canvas>
+        </div>
+
+        <div class="chart-container">
+            <h2>📊 مقایسه صادر شده و رفع شده</h2>
+            <canvas id="comparisonChart"></canvas>
+        </div>
+
+        <div class="chart-container">
+            <h2>⏱️ فعالیت اخیر</h2>
+            <canvas id="recentActivityChart"></canvas>
+        </div>
+
+        <div class="table-container">
+            <h2>📋 جزئیات داده‌ها</h2>
+            <table id="dataTable">
+                <thead>
+                    <tr>
+                        <th>دیسیپلین</th>
+                        <th>دسته‌بندی</th>
+                        <th>پانچ‌های صادر شده</th>
+                        <th>پانچ‌های رفع شده</th>
+                        <th>باقی‌مانده</th>
+                        <th>رفع شده (30 روز)</th>
+                        <th>رفع شده (7 روز)</th>
+                        <th>رفع شده (امروز)</th>
+                        <th>صادر شده (30 روز)</th>
+                        <th>صادر شده (7 روز)</th>
+                        <th>صادر شده (امروز)</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        let csvData = [];
+        let disciplineStats = {};
+
+        // Load and parse CSV data
+        Papa.parse('https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/PNC.CSV', {
+            download: true,
+            header: true,
+            complete: function(results) {
+                csvData = results.data;
+                processData();
+                createCharts();
+                populateTable();
+            }
+        });
+
+        function processData() {
+            // Calculate totals
+            let totalIssued = 0;
+            let totalRemaining = 0;
+            let totalReleased = 0;
+            let issuedToday = 0;
+
+            // Initialize discipline stats
+            disciplineStats = {};
+
+            csvData.forEach(row => {
+                const issued = parseInt(row.Issue_Punch) || 0;
+                const released = parseInt(row.Release_Punch) || 0;
+                const remaining = parseInt(row.Total_Remain) || 0;
+                const todayIssued = parseInt(row.Issued_Today) || 0;
+
+                totalIssued += issued;
+                totalReleased += released;
+                totalRemaining += remaining;
+                issuedToday += todayIssued;
+
+                // Aggregate by discipline
+                const discipline = row.PL_Discipline;
+                if (!disciplineStats[discipline]) {
+                    disciplineStats[discipline] = {
+                        issued: 0,
+                        released: 0,
+                        remaining: 0
+                    };
+                }
+                disciplineStats[discipline].issued += issued;
+                disciplineStats[discipline].released += released;
+                disciplineStats[discipline].remaining += remaining;
+            });
+
+            // Update stats cards
+            document.getElementById('totalIssued').textContent = totalIssued.toLocaleString('fa-IR');
+            document.getElementById('totalReleased').textContent = totalReleased.toLocaleString('fa-IR');
+            document.getElementById('totalRemaining').textContent = totalRemaining.toLocaleString('fa-IR');
+            document.getElementById('issuedToday').textContent = issuedToday.toLocaleString('fa-IR');
+        }
+
+        function createCharts() {
+            // Discipline Chart
+            const disciplineCtx = document.getElementById('disciplineChart').getContext('2d');
+            const disciplineLabels = Object.keys(disciplineStats);
+            const disciplineData = disciplineLabels.map(label => disciplineStats[label].remaining);
+
+            new Chart(disciplineCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: disciplineLabels,
+                    datasets: [{
+                        data: disciplineData,
+                        backgroundColor: [
+                            '#FF6384',
+                            '#36A2EB',
+                            '#FFCE56',
+                            '#4BC0C0',
+                            '#9966FF',
+                            '#FF9F40'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            });
+
+            // Comparison Chart
+            const comparisonCtx = document.getElementById('comparisonChart').getContext('2d');
+            const issuedData = csvData.map(row => parseInt(row.Issue_Punch) || 0);
+            const releasedData = csvData.map(row => parseInt(row.Release_Punch) || 0);
+            const labels = csvData.map(row => `${row.PL_Discipline}-${row.PL_Punch_Category}`);
+
+            new Chart(comparisonCtx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: 'صادر شده',
+                            data: issuedData,
+                            backgroundColor: '#FF6384',
+                            borderColor: '#FF6384',
+                            borderWidth: 1
+                        },
+                        {
+                            label: 'رفع شده',
+                            data: releasedData,
+                            backgroundColor: '#36A2EB',
+                            borderColor: '#36A2EB',
+                            borderWidth: 1
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            position: 'top'
+                        }
+                    }
+                }
+            });
+
+            // Recent Activity Chart
+            const recentCtx = document.getElementById('recentActivityChart').getContext('2d');
+            const last30Days = csvData.reduce((sum, row) => sum + (parseInt(row.Released_Last_30_Days) || 0), 0);
+            const last7Days = csvData.reduce((sum, row) => sum + (parseInt(row.Released_Last_7_Days) || 0), 0);
+            const today = csvData.reduce((sum, row) => sum + (parseInt(row.Released_Today) || 0), 0);
+            const issuedLast30 = csvData.reduce((sum, row) => sum + (parseInt(row.Issued_Last_30_Days) || 0), 0);
+            const issuedLast7 = csvData.reduce((sum, row) => sum + (parseInt(row.Issued_Last_7_Days) || 0), 0);
+            const issuedToday = csvData.reduce((sum, row) => sum + (parseInt(row.Issued_Today) || 0), 0);
+
+            new Chart(recentCtx, {
+                type: 'line',
+                data: {
+                    labels: ['30 روز گذشته', '7 روز گذشته', 'امروز'],
+                    datasets: [
+                        {
+                            label: 'رفع شده',
+                            data: [last30Days, last7Days, today],
+                            borderColor: '#36A2EB',
+                            backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                            fill: true,
+                            tension: 0.4
+                        },
+                        {
+                            label: 'صادر شده',
+                            data: [issuedLast30, issuedLast7, issuedToday],
+                            borderColor: '#FF6384',
+                            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                            fill: true,
+                            tension: 0.4
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            position: 'top'
+                        }
+                    }
+                }
+            });
+        }
+
+        function populateTable() {
+            const tbody = document.querySelector('#dataTable tbody');
+            tbody.innerHTML = '';
+
+            csvData.forEach(row => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td>${row.PL_Discipline}</td>
+                    <td>${row.PL_Punch_Category}</td>
+                    <td>${parseInt(row.Issue_Punch).toLocaleString('fa-IR')}</td>
+                    <td>${parseInt(row.Release_Punch).toLocaleString('fa-IR')}</td>
+                    <td>${parseInt(row.Total_Remain).toLocaleString('fa-IR')}</td>
+                    <td>${parseInt(row.Released_Last_30_Days).toLocaleString('fa-IR')}</td>
+                    <td>${parseInt(row.Released_Last_7_Days).toLocaleString('fa-IR')}</td>
+                    <td>${parseInt(row.Released_Today).toLocaleString('fa-IR')}</td>
+                    <td>${parseInt(row.Issued_Last_30_Days).toLocaleString('fa-IR')}</td>
+                    <td>${parseInt(row.Issued_Last_7_Days).toLocaleString('fa-IR')}</td>
+                    <td>${parseInt(row.Issued_Today).toLocaleString('fa-IR')}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+    </script>
+</body>
+</html>
+```
