@@ -3994,7 +3994,7 @@ TEL-07,EL,07-SP-15,Paging Device,Loud Speaker - 25W|EX,
 2000-05,PI,2000-05-SG-02-821,PI_TP,PIPING TEST PACKAGE,Reinstatement
 2000-05,PI,2000-05-SG-03-877,PI_TP,PIPING TEST PACKAGE,DONE
 2000-05,PI,2000-05-VA-01-571,PI_TP,PIPING TEST PACKAGE,Reinstatement
-4000-01,PI,2000-06-VA-01-220,PI_TP,PIPING TEST PACKAGE,DONE
+2000-06,PI,2000-06-VA-01-220,PI_TP,PIPING TEST PACKAGE,DONE
 3000-01,PI,3000-01-HPC-01-861,PI_TP,PIPING TEST PACKAGE,DONE
 3000-01,PI,3000-01-LPC-01-855,PI_TP,PIPING TEST PACKAGE,DONE
 3000-01,PI,3000-01-LPC-02-856,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4101,11 +4101,11 @@ TEL-07,EL,07-SP-15,Paging Device,Loud Speaker - 25W|EX,
 3000-03,PI,3000-03-SG-09-822,PI_TP,PIPING TEST PACKAGE,DONE
 3000-03,PI,3000-03-SG-10-896,PI_TP,PIPING TEST PACKAGE,Reinstatement
 3000-03,PI,3000-03-SG-11-1044,PI_TP,PIPING TEST PACKAGE,DONE
-3000-04,PI,3000-04-HG-01-041,PI_TP,PIPING TEST PACKAGE,Reinstatement
+3000-04,PI,3000-04-HG-01-041,PI_TP,PIPING TEST PACKAGE,DONE
 3000-04,PI,3000-04-HG-03-849,PI_TP,PIPING TEST PACKAGE,DONE
 3000-04,PI,3000-04-HG-04-850,PI_TP,PIPING TEST PACKAGE,DONE
 3000-04,PI,3000-04-HG-05-654,PI_TP,PIPING TEST PACKAGE,DONE
-4000-01,PI,3000-04-VA-01-749,PI_TP,PIPING TEST PACKAGE,DONE
+2000-06,PI,3000-04-VA-01-749,PI_TP,PIPING TEST PACKAGE,DONE
 3000-04,PI,3000-04-VA-02-750,PI_TP,PIPING TEST PACKAGE,DONE
 LS-08,EL,3-RJB1_2-1-L1-01,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,
 LS-08,EL,3-RJB1_2-1-L1-02,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,
@@ -4210,7 +4210,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,
 4000-04,PI,4000-04-HPC-01-1012,PI_TP,PIPING TEST PACKAGE,DONE
 4000-04,PI,4000-04-HZ-01-551,PI_TP,PIPING TEST PACKAGE,DONE
 4000-04,PI,4000-04-LO-01-902,PI_TP,PIPING TEST PACKAGE,DONE
-4000-04,PI,4000-04-LO-02-903,PI_TP,PIPING TEST PACKAGE,Reinstatement
+4000-04,PI,4000-04-LO-02-903,PI_TP,PIPING TEST PACKAGE,DONE
 4000-04,PI,4000-04-LO-03-904,PI_TP,PIPING TEST PACKAGE,DONE
 4000-04,PI,4000-04-LO-04-905,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
 4000-04,PI,4000-04-LO-05-906,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4269,7 +4269,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,
 4000-06,PI,4000-06-AC-07-1077,PI_TP,,Not Yet Activity
 4000-06,PI,4000-06-AC-08-1078,PI_TP,,Not Yet Activity
 4000-06,PI,4000-06-AC-08-1079,PI_TP,,Not Yet Activity
-4000-06,PI,4000-06-AC-09-1070,PI_TP,,Line Check
+4000-06,PI,4000-06-AC-09-1070,PI_TP,,FL/DRY
 4000-06,PI,4000-06-CS-01-241,PI_TP,PIPING TEST PACKAGE,DONE
 4000-06,PI,4000-06-CS-02-990,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-06,PI,4000-06-CS-03-1052,PI_TP,,Not Yet Activity
@@ -4277,7 +4277,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,
 4000-06,PI,4000-06-CS-05-1055,PI_TP,,Not Yet Activity
 4000-06,PI,4000-06-CS-06-1056,PI_TP,,HYDROTEST
 4000-06,PI,4000-06-CS-07-1048,PI_TP,,FL/DRY
-4000-06,PI,4000-06-CS-08-1057,PI_TP,,Line Check
+4000-06,PI,4000-06-CS-08-1057,PI_TP,,FL/DRY
 4000-06,PI,4000-06-CS-09-1060,PI_TP,,FL/DRY
 4000-06,PI,4000-06-CS-10-1063,PI_TP,,FL/DRY
 4000-06,PI,4000-06-CS-11-1064,PI_TP,,Not Yet Activity
@@ -4587,7 +4587,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,
 4000-11,PI,4000-11-IA-10-1053,PI_TP,,FL/DRY
 4000-11,PI,4000-11-VA-01-570,PI_TP,PIPING TEST PACKAGE,DONE
 4000-12,PI,4000-12-WWC-01-1061,PI_TP,,Not Yet Activity
-4000-12,PI,4000-12-WWC-02-1066,PI_TP,,Not Yet Activity
+4000-12,PI,4000-12-WWC-02-1066,PI_TP,,Line Check
 4000-12,PI,4000-12-WWC-03-1072,PI_TP,,HYDROTEST
 4000-13,PI,4000-13-HG-01-703,PI_TP,PIPING TEST PACKAGE,Reinstatement
 4000-13,PI,4000-13-HG-02-814,PI_TP,PIPING TEST PACKAGE,Reinstatement
@@ -5176,7 +5176,7 @@ NO SUBS.,PI,61-SUMP-091,PI_TP,,Reinstatement
 4000-14_UG,PI,66-FW-UG-114,PI_TP,PIPING TEST PACKAGE,DONE
 4000-14_UG,PI,66-FW-UG-116,PI_TP,PIPING TEST PACKAGE,DONE
 4000-14_UG,PI,66-FW-UG-138,PI_TP,PIPING TEST PACKAGE,Reinstatement
-4000-14_UG,PI,66-FW-UG-KC-222,PI_TP,PIPING TEST PACKAGE,Reinstatement
+4000-14_UG,PI,66-FW-UG-KC-222,PI_TP,PIPING TEST PACKAGE,DONE
 4000-09,PI,66-MO-23-UG-KC-197,PI_TP,PIPING TEST PACKAGE,DONE
 4000-13,PI,66-PMP-071,PI_TP,PIPING TEST PACKAGE,Reinstatement
 4000-13,PI,66-PMP-UG-113,PI_TP,PIPING TEST PACKAGE,Reinstatement
@@ -5237,10 +5237,10 @@ NO SUBS.,PI,61-SUMP-091,PI_TP,,Reinstatement
 4000-09,PI,68-MO-19-UG-KC-263,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-09,PI,68-MO-35-UG-KC-264,PI_TP,PIPING TEST PACKAGE,DONE
 4000-01,PI,68-N-UG-KC-119,PI_TP,PIPING TEST PACKAGE,FL/DRY
-4000-07,PI,68-PA-UG-KC-120,PI_TP,PIPING TEST PACKAGE,Reinstatement
+4000-07,PI,68-PA-UG-KC-120,PI_TP,PIPING TEST PACKAGE,DONE
 4000-15,PI,68-SRW-UG-KC-126,PI_TP,PIPING TEST PACKAGE,Reinstatement
 4000-09,PI,68-WWO-UG-KC-062,PI_TP,PIPING TEST PACKAGE,Reinstatement
-4000-09,PI,68-WWO-UG-KC-129,PI_TP,PIPING TEST PACKAGE,Line Check
+4000-09,PI,68-WWO-UG-KC-129,PI_TP,PIPING TEST PACKAGE,FL/DRY
 4000-09,PI,68-WWO-UG-KC-130,PI_TP,PIPING TEST PACKAGE,Reinstatement
 4000-09,PI,68-WWO-UG-KC-131,PI_TP,PIPING TEST PACKAGE,Reinstatement
 4000-09,PI,68-WWO-UG-KC-132,PI_TP,PIPING TEST PACKAGE,Reinstatement
@@ -5595,7 +5595,17 @@ NO SUBS.,IN,AY-1001-3,SIGNAL,SIGNAL,
 120-13,EL,BD_6-WWO-00-762,Cathodic Protection,Bonding Cable 1x16,
 BLD-02,CV,Beams & Slab(BLD-02),03-Beams & Slab,Beam and slab installation,
 BLD-01,CV,Beams & Slab(First Floor BLD-01),03-Beams & Slab,Beams & Slab(First Floor BLD-01),
+BLD-03,CV,Beams & Slab(First Floor BLD-03),03-Beams & Slab,Beams & Slab(First Floor BLD-03),
+BLD-04,CV,Beams & Slab(First Floor BLD-04),03-Beams & Slab,Beams & Slab(First Floor BLD-04),
+BLD-05,CV,Beams & Slab(First Floor BLD-05),03-Beams & Slab,Beams & Slab(First Floor BLD-05),
+BLD-06,CV,Beams & Slab(First Floor BLD-06),03-Beams & Slab,Beams & Slab(First Floor BLD-06),
+BLD-07,CV,Beams & Slab(First Floor BLD-07),03-Beams & Slab,Beams & Slab(First Floor BLD-07),
 BLD-01,CV,Beams & Slab(Ground Floor BLD-01),03-Beams & Slab,Beams & Slab(Ground Floor BLD-01),
+BLD-03,CV,Beams & Slab(Ground Floor BLD-03),03-Beams & Slab,Beams & Slab(Ground Floor BLD-03),
+BLD-04,CV,Beams & Slab(Ground Floor BLD-04),03-Beams & Slab,Beams & Slab(Ground Floor BLD-04),
+BLD-05,CV,Beams & Slab(Ground Floor BLD-05),03-Beams & Slab,Beams & Slab(Ground Floor BLD-05),
+BLD-06,CV,Beams & Slab(Ground Floor BLD-06),03-Beams & Slab,Beams & Slab(Ground Floor BLD-06),
+BLD-07,CV,Beams & Slab(Ground Floor BLD-07),03-Beams & Slab,Beams & Slab(Ground Floor BLD-07),
 BLD-01,PI,BLD-01-IG55-01-689,PI_TP,PIPING TEST PACKAGE,Reinstatement
 BLD-01,PI,BLD-01-IG55-02-758,PI_TP,PIPING TEST PACKAGE,Reinstatement
 BLD-01,PI,BLD-01-IG55-03-993,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
@@ -5608,7 +5618,17 @@ NO SUBS.,IN,BRAUN--FLT,PKG,PKG,
 3000-01,MER,C-3001,Compressor,,
 BLD-02,CV,Column & Walls(BLD-02),02-Column & Walls,Structural columns and wall building,
 BLD-01,CV,Column & Walls(First Floor BLD-01),02-Column & Walls,Column & Walls(First Floor BLD-01),
+BLD-03,CV,Column & Walls(First Floor BLD-03),02-Column & Walls,Column & Walls(First Floor BLD-03),
+BLD-04,CV,Column & Walls(First Floor BLD-04),02-Column & Walls,Column & Walls(First Floor BLD-04),
+BLD-05,CV,Column & Walls(First Floor BLD-05),02-Column & Walls,Column & Walls(First Floor BLD-05),
+BLD-06,CV,Column & Walls(First Floor BLD-06),02-Column & Walls,Column & Walls(First Floor BLD-06),
+BLD-07,CV,Column & Walls(First Floor BLD-07),02-Column & Walls,Column & Walls(First Floor BLD-07),
 BLD-01,CV,Column & Walls(Ground Floor BLD-01),02-Column & Walls,Column & Walls(Ground Floor BLD-01),
+BLD-03,CV,Column & Walls(Ground Floor BLD-03),02-Column & Walls,Column & Walls(Ground Floor BLD-03),
+BLD-04,CV,Column & Walls(Ground Floor BLD-04),02-Column & Walls,Column & Walls(Ground Floor BLD-04),
+BLD-05,CV,Column & Walls(Ground Floor BLD-05),02-Column & Walls,Column & Walls(Ground Floor BLD-05),
+BLD-06,CV,Column & Walls(Ground Floor BLD-06),02-Column & Walls,Column & Walls(Ground Floor BLD-06),
+BLD-07,CV,Column & Walls(Ground Floor BLD-07),02-Column & Walls,Column & Walls(Ground Floor BLD-07),
 DCS-01,IN,COM-PDP-CR-01,JUNCTION BOX,JUNCTION BOX(PANEL),
 DCS-01,IN,COM-PDP-CR-02,JUNCTION BOX,JUNCTION BOX(PANEL),
 4000-02,PI,CONTROL BULDING-FW Line-02,PI_TP,,Not Yet Activity
@@ -12249,9 +12269,24 @@ NO SUBS.,IN,FI-75154,Instrument(FI),Instrument(FI),
 4000-06,IN,FI-8401,Instrument(FI),Instrument(FI),
 4000-06,IN,FI-8402,Instrument(FI),Instrument(FI),
 BLD-01,CV,final Architecture(External works BLD-01),07-Final Architecture(External),The final Architecture(External works of Building BLD-01),
+BLD-03,CV,final Architecture(External works BLD-03),07-Final Architecture(External),The final Architecture(External works of Building BLD-03),
+BLD-04,CV,final Architecture(External works BLD-04),07-Final Architecture(External),The final Architecture(External works of Building BLD-04),
+BLD-05,CV,final Architecture(External works BLD-05),07-Final Architecture(External),The final Architecture(External works of Building BLD-05),
+BLD-06,CV,final Architecture(External works BLD-06),07-Final Architecture(External),The final Architecture(External works of Building BLD-06),
+BLD-07,CV,final Architecture(External works BLD-07),07-Final Architecture(External),The final Architecture(External works of Building BLD-07),
 BLD-02,CV,Final Architecture(External),07-Final Architecture(External),Final finishes like Brick Facing  and Walkway,
 BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),The final Architecture(First Floor BLD-01),
+BLD-03,CV,final Architecture(First Floor BLD-03),06-Final Architecture(Internal),The final Architecture(First Floor BLD-03),
+BLD-04,CV,final Architecture(First Floor BLD-04),06-Final Architecture(Internal),The final Architecture(First Floor BLD-04),
+BLD-05,CV,final Architecture(First Floor BLD-05),06-Final Architecture(Internal),The final Architecture(First Floor BLD-05),
+BLD-06,CV,final Architecture(First Floor BLD-06),06-Final Architecture(Internal),The final Architecture(First Floor BLD-06),
+BLD-07,CV,final Architecture(First Floor BLD-07),06-Final Architecture(Internal),The final Architecture(First Floor BLD-07),
 BLD-01,CV,final Architecture(Grouand Floor BLD-01),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-01),
+BLD-03,CV,final Architecture(Grouand Floor BLD-03),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-03),
+BLD-04,CV,final Architecture(Grouand Floor BLD-04),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-04),
+BLD-05,CV,final Architecture(Grouand Floor BLD-05),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-05),
+BLD-06,CV,final Architecture(Grouand Floor BLD-06),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-06),
+BLD-07,CV,final Architecture(Grouand Floor BLD-07),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-07),
 BLD-02,CV,Final Architecture(Internal),06-Final Architecture(Internal),Final finishes like flooring and painting,
 3000-01,IN,FIT-30165A(FIT),Instrument(FIT),Instrument(FIT),
 3000-01,IN,FIT-30165A(NA),CABLE,CABLE(NA),
@@ -12410,6 +12445,11 @@ NO SUBS.,IN,FO-5365,Instrument(FO),Instrument(FO),
 4000-08,IN,FO-8001,Instrument(FO),Instrument(FO),
 BLD-01,CV,Foundation(BLD-01),01-Foundation,Foundation(BLD-01),
 BLD-02,CV,Foundation(BLD-02),01-Foundation,Base and footing construction,
+BLD-03,CV,Foundation(BLD-03),01-Foundation,Foundation(BLD-03),
+BLD-04,CV,Foundation(BLD-04),01-Foundation,Foundation(BLD-04),
+BLD-05,CV,Foundation(BLD-05),01-Foundation,Foundation(BLD-05),
+BLD-06,CV,Foundation(BLD-06),01-Foundation,Foundation(BLD-06),
+BLD-07,CV,Foundation(BLD-07),01-Foundation,Foundation(BLD-07),
 LS-03,EL,From S01(LS-03),Switch,One Pole Two Way Switch Surface Mounted,
 LS-04,EL,From S01(LS-04),Switch,One Pole Two Way Switch Surface Mounted,
 LS-03,EL,From S01-FJB,Lighting Cable,One Pole Two Way Switch Surface Mounted,
@@ -13507,7 +13547,17 @@ ES-09,EL,IN-E07-68,Earthing System,Instrument JB- 70*70,
 ES-09,EL,IN-E07-69,Earthing System,Instrument JB- 70*35,
 BLD-02,CV,Initial Architecture(BLD-02),04-Initial Architecture,Basic partitions and rough interior layout,
 BLD-01,CV,Initial Architecture(First Floor BLD-01),04-Initial Architecture-2,Initial Architecture(First Floor BLD-01),
+BLD-03,CV,Initial Architecture(First Floor BLD-03),04-Initial Architecture-2,Initial Architecture(First Floor BLD-03),
+BLD-04,CV,Initial Architecture(First Floor BLD-04),04-Initial Architecture-2,Initial Architecture(First Floor BLD-04),
+BLD-05,CV,Initial Architecture(First Floor BLD-05),04-Initial Architecture-2,Initial Architecture(First Floor BLD-05),
+BLD-06,CV,Initial Architecture(First Floor BLD-06),04-Initial Architecture-2,Initial Architecture(First Floor BLD-06),
+BLD-07,CV,Initial Architecture(First Floor BLD-07),04-Initial Architecture-2,Initial Architecture(First Floor BLD-07),
 BLD-01,CV,Initial Architecture(Ground Floor BLD-01),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-01),
+BLD-03,CV,Initial Architecture(Ground Floor BLD-03),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-03),
+BLD-04,CV,Initial Architecture(Ground Floor BLD-04),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-04),
+BLD-05,CV,Initial Architecture(Ground Floor BLD-05),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-05),
+BLD-06,CV,Initial Architecture(Ground Floor BLD-06),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-06),
+BLD-07,CV,Initial Architecture(Ground Floor BLD-07),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-07),
 2000-02,MES,INLET MANIFOLD,Inlet_Manifold,MANIFOLD,
 3000-03,MES,J-3001,Ejector(J),Ejector,
 3000-02,MES,J-3002-1,Ejector(J),Start up Ejector for R 3001 1,
@@ -15313,7 +15363,17 @@ FGS-08,EL,MCP-0361,FGS Device,Manual Call Point,
 FGS-08,EL,MCP-0362,FGS Device,Manual Call Point,
 BLD-02,CV,Mechanical Work(BLD-02),05-Mechanical Work,HVAC and piping systems installation,
 BLD-01,CV,Mechanical Work(First Floor BLD-01),05-Mechanical Work,Mechanical Work(First Floor BLD-01),
+BLD-03,CV,Mechanical Work(First Floor BLD-03),05-Mechanical Work,Mechanical Work(First Floor BLD-03),
+BLD-04,CV,Mechanical Work(First Floor BLD-04),05-Mechanical Work,Mechanical Work(First Floor BLD-04),
+BLD-05,CV,Mechanical Work(First Floor BLD-05),05-Mechanical Work,Mechanical Work(First Floor BLD-05),
+BLD-06,CV,Mechanical Work(First Floor BLD-06),05-Mechanical Work,Mechanical Work(First Floor BLD-06),
+BLD-07,CV,Mechanical Work(First Floor BLD-07),05-Mechanical Work,Mechanical Work(First Floor BLD-07),
 BLD-01,CV,Mechanical Work(Ground Floor BLD-01),05-Mechanical Work,Mechanical Work(Ground Floor BLD-01),
+BLD-03,CV,Mechanical Work(Ground Floor BLD-03),05-Mechanical Work,Mechanical Work(Ground Floor BLD-03),
+BLD-04,CV,Mechanical Work(Ground Floor BLD-04),05-Mechanical Work,Mechanical Work(Ground Floor BLD-04),
+BLD-05,CV,Mechanical Work(Ground Floor BLD-05),05-Mechanical Work,Mechanical Work(Ground Floor BLD-05),
+BLD-06,CV,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Work(Ground Floor BLD-06),
+BLD-07,CV,Mechanical Work(Ground Floor BLD-07),05-Mechanical Work,Mechanical Work(Ground Floor BLD-07),
 120-01,EL,MF-2001,Local_Control_Panel,Local Control Panel (Ammeter)- MF-2001-LCP,
 120-01,EL,MF-2001-SH,SPACE_HEATER,Motor Space Heater- MF-2001-SH,
 120-01,EL,MF-2002,Local_Control_Panel,Local Control Panel (Ammeter)- MF-2002-LCP,
@@ -16206,7 +16266,7 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),
 4000-09,MER,P-8401-P2B,Pump,OILY WATER TRANSFER PUMP,
 4000-10,MER,P-8402A,Pump,SANITARY EFFLUENT TRANSFER PUMP,
 4000-06,MER,P-8403A,Pump,Neutralization basin pumps,
-4000-07,MER,P-8403B,Pump,Neutralization basin pumps,
+4000-06,MER,P-8403B,Pump,Neutralization basin pumps,
 4000-12,MER,P-8404A,Pump,COC WATER TRANSFER PUMPS,
 4000-12,MER,P-8404B,Pump,COC WATER TRANSFER PUMPS,
 4000-12,MER,P-8405A,Pump, Laboratory Chemical Effluent Transfer Pumps,
@@ -18220,6 +18280,11 @@ FGS-04,IN,RO-9030A,Fire Fighting,Fire Fighting(RO),
 4000-14_AG,IN,RO-9060,Fire Fighting,Fire Fighting(RO),
 BLD-01,CV,Roof(BLD-01),08-Roof,Roof(BLD-01),
 BLD-02,CV,Roof(BLD-02),08-Roof,Roof structure and waterproofing,
+BLD-03,CV,Roof(BLD-03),08-Roof,Roof(BLD-03),
+BLD-04,CV,Roof(BLD-04),08-Roof,Roof(BLD-04),
+BLD-05,CV,Roof(BLD-05),08-Roof,Roof(BLD-05),
+BLD-06,CV,Roof(BLD-06),08-Roof,Roof(BLD-06),
+BLD-07,CV,Roof(BLD-07),08-Roof,Roof(BLD-07),
 LS-03,EL,S01(LS-03),Switch,One Pole Two Way Switch Surface Mounted,
 LS-04,EL,S01(LS-04),Switch,One Pole Two Way Switch Flush Mounted,
 LS-05,EL,S01(LS-05),Switch,One Pole Two Way Switch Flush Mounted,
@@ -19178,6 +19243,11 @@ TEL-08,EL,SS-TJB1,Telecom Device,Telephone Junction Box,
 3000-01,IN,SSV-30101,Instrument(SSV),Instrument(SSV),
 3000-01,IN,SSV-30102,Instrument(SSV),Instrument(SSV),
 BLD-01,CV,Stair Ways(Ground Floor BLD-01),09-Stair Ways,Stair Ways(Ground Floor BLD-01),
+BLD-03,CV,Stair Ways(Ground Floor BLD-03),09-Stair Ways,Stair Ways(Ground Floor BLD-03),
+BLD-04,CV,Stair Ways(Ground Floor BLD-04),09-Stair Ways,Stair Ways(Ground Floor BLD-04),
+BLD-05,CV,Stair Ways(Ground Floor BLD-05),09-Stair Ways,Stair Ways(Ground Floor BLD-05),
+BLD-06,CV,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor BLD-06),
+BLD-07,CV,Stair Ways(Ground Floor BLD-07),09-Stair Ways,Stair Ways(Ground Floor BLD-07),
 NO SUBS.,IN,SV-001,CABLE,CABLE(NA),
 NO SUBS.,IN,SV-001~004(),CHECK,CHECK,
 NO SUBS.,IN,SV-001~004(SV),Fire Fighting,Fire Fighting(SV),
