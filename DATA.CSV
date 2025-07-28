@@ -12,7 +12,7 @@
 1000,1000-04,Gas Preparation,Gas Station,IN,2,0,0,0,0,0,0
 1000,1000-04,Gas Preparation,Gas Station,PI,1,0,0,0,0,0,0
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,169,0,0,1244,633,611,0
-120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,308,0,0,1269,542,727,0
+120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,308,0,0,1300,542,758,0
 120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,290,0,0,1111,317,794,0
 120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,264,0,0,1099,531,568,0
 120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,244,0,0,1093,507,586,0
@@ -188,7 +188,7 @@ LS,LS-13,Lighting System,Lighting System for Warehouse,EL,8,0,0,0,0,0,0
 LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,33,0,0,0,0,0,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,1179,0,0,0,0,0,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,CV,1,0,0,0,0,0,0
-NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,PI,6,0,0,0,0,0,0
+NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,PI,7,0,0,0,0,0,0
 TELE,TEL-01,Telecom Systems,Telecom System for Area-01,EL,24,0,0,0,0,0,0
 TELE,TEL-02,Telecom Systems,Telecom System for Area-02,EL,61,0,0,4,0,4,0
 TELE,TEL-03,Telecom Systems,Telecom System for Area-03,EL,39,0,0,0,0,0,0
