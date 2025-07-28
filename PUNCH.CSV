@@ -3274,6 +3274,17 @@ TEL-07,EL,07-SP-15,Paging Device,A,Earth body shall be installed.,PL-17093
 4000-14_UG,PI,70-FW-UG-KC-285,PI_TP,C,"INSULATION KIT 2""-CL:150 SHALL BE INSTALL",PL-02480
 4000-10,PI,70-WWS-UG-KC-243,PI_TP,C,THE INSTRUMENT DEVICE PG:5716 SHALL BE INSTALL,PL-02500
 4000-10,PI,70-WWS-UG-KC-243,PI_TP,C,ALL VALVES SHALL BE LUBRICATE,PL-02501
+LS-02,EL,AH-EDP-01,Panel,B,Touch up support  shall be done.,PL-21153
+LS-02,EL,AH-EDP-01,Panel,B,As-Built Drawing Should be done.,PL-21154
+LS-02,EL,AH-EDP-01,Panel,A,Termination shall be done and connected.,PL-21155
+LS-02,EL,AH-EDP-01,Panel,A,Full bolt shall be done.,PL-21156
+LS-02,EL,AH-EDP-01,Panel,C,Cleaning  shall be done,PL-21157
+LS-02,EL,AH-EDP-01,Panel,A,EARTH  panel SHOULD BE installed.,PL-21158
+LS-14,EL,AH-EDP-01-5-L2-01,Socket Outlet,A,Termination shall be done and connected.,PL-21191
+LS-14,EL,AH-EDP-01-5-L2-02,Socket Outlet,A,Termination shall be done and connected.,PL-21192
+LS-14,EL,AH-EDP-01-5-L2-03,Socket Outlet,A,Termination shall be done and connected.,PL-21193
+LS-14,EL,AH-EDP-01-5-L2-04,Socket Outlet,A,Termination shall be done and connected.,PL-21194
+LS-14,EL,AH-EDP-01-5-L2-05,Socket Outlet,A,Termination shall be done and connected.,PL-21195
 BLD-01,PI,BLD-01-IG55-01-689,PI_TP,C,ALL SPARAY NOZZEL SHALL BE INSTALLED AFTER,PL-01749
 BLD-01,PI,BLD-01-IG55-01-689,PI_TP,C,ALL IG NOZZLE (INERT GAS) 360 DEGREE SHOULD BE INSTALLED BEFORE PRECOMM,PL-01750
 BLD-02,PI,BLD-02-IG55-01-986,PI_TP,C,"ALL SIZE (1/2"" | 3//4"" | 1"") IG NOZZLE 360-GALVANIZE MUST BE INSTALL",PL-02188
@@ -6113,12 +6124,16 @@ ES-01,EL,E8-26(ES-01),Earthing System,A,Conection Shall Be Done,PL-19929
 120-02,EL,EBC-FT7001A-HE-1,Power Cable B,B,ابتدا و انتهاي کابل ها بايستي سيل شود,PL-05337
 120-02,EL,EBC-FT7001A-HE-1,Power Cable B,B,S.S tags shall be install.,PL-05202
 120-02,EL,EBC-FT7001A-HE-1,Power Cable B,B,ارنج کابل ها انجام شود,PL-05247
+120-02,EL,EBC-FT7001A-HE-1,Power Cable B,B,Cable Arrangment Shall Be Done.,PL-21159
+120-02,EL,EBC-FT7001A-HE-1,Power Cable B,B,Cable Tag (S.S) Shall Be Installed.,PL-21175
 120-02,EL,EBC-FT7001A-HE-2,Power Cable B,B,ارنج کابل ها انجام شود,PL-05255
 120-02,EL,EBC-FT7001A-HE-2,Power Cable B,B,S.S tags shall be install.,PL-05210
 120-02,EL,EBC-FT7001A-HE-2,Power Cable B,B,ابتدا و انتهاي کابل ها بايستي سيل شود,PL-05345
 120-02,EL,EBC-FT7001A-MF-1,Power Cable B,B,ابتدا و انتهاي کابل ها بايستي سيل شود,PL-05335
 120-02,EL,EBC-FT7001A-MF-1,Power Cable B,B,S.S tags shall be install.,PL-05200
 120-02,EL,EBC-FT7001A-MF-1,Power Cable B,B,ارنج کابل ها انجام شود,PL-05245
+120-02,EL,EBC-FT7001A-MF-1,Power Cable B,B,Cable Tag (S.S) Shall Be Installed.,PL-21176
+120-02,EL,EBC-FT7001A-MF-1,Power Cable B,B,Cable Arrangment Shall Be Done.,PL-21160
 120-02,EL,EBC-FT7001A-MP-1A,Power Cable B,B,ارنج کابل ها انجام شود,PL-05253
 120-02,EL,EBC-FT7001A-MP-1A,Power Cable B,B,S.S tags shall be install.,PL-05208
 120-02,EL,EBC-FT7001A-MP-1A,Power Cable B,B,ابتدا و انتهاي کابل ها بايستي سيل شود,PL-05343
@@ -6128,6 +6143,8 @@ ES-01,EL,E8-26(ES-01),Earthing System,A,Conection Shall Be Done,PL-19929
 120-02,EL,EBC-FT7001B-HE-1,Power Cable B,B,ارنج کابل ها انجام شود,PL-05249
 120-02,EL,EBC-FT7001B-HE-1,Power Cable B,B,S.S tags shall be install.,PL-05204
 120-02,EL,EBC-FT7001B-HE-1,Power Cable B,B,ابتدا و انتهاي کابل ها بايستي سيل شود,PL-05339
+120-02,EL,EBC-FT7001B-HE-1,Power Cable B,B,Cable Arrangment Shall Be Done.,PL-21161
+120-02,EL,EBC-FT7001B-HE-1,Power Cable B,B,Cable Tag (S.S) Shall Be Installed.,PL-21177
 120-02,EL,EBC-FT7001B-HE-2,Power Cable B,B,ابتدا و انتهاي کابل ها بايستي سيل شود,PL-05351
 120-02,EL,EBC-FT7001B-HE-2,Power Cable B,B,S.S tags shall be install.,PL-05216
 120-02,EL,EBC-FT7001B-HE-2,Power Cable B,B,ارنج کابل ها انجام شود,PL-05261
@@ -6887,6 +6904,8 @@ ES-01,EL,E8-26(ES-01),Earthing System,A,Conection Shall Be Done,PL-19929
 120-02,EL,EBC-MP-0001A,Power Cable B,B,Tag No shall be installed.,PL-08412
 120-02,EL,EBC-MP-0001A,Power Cable B,B,Cable Arrangement shall be done.,PL-08425
 120-02,EL,EBC-MP-0001A,Power Cable B,C,As-Built Drawing Should be done.,PL-08464
+120-02,EL,EBC-MP-0001A,Power Cable B,B,Cable Tag (S.S) Shall Be Installed.,PL-21178
+120-02,EL,EBC-MP-0001A,Power Cable B,B,Cable Arrangment Shall Be Done.,PL-21162
 120-02,EL,EBC-MP-0001B,Power Cable B,C,As-Built Drawing Should be done.,PL-08466
 120-02,EL,EBC-MP-0001B,Power Cable B,B,Cable Arrangement shall be done.,PL-08427
 120-02,EL,EBC-MP-0001B,Power Cable B,B,Tag No shall be installed.,PL-08414
@@ -6896,12 +6915,20 @@ ES-01,EL,E8-26(ES-01),Earthing System,A,Conection Shall Be Done,PL-19929
 120-02,EL,EBC-MP-2001A,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-03195
 120-02,EL,EBC-MP-2001A,Power Cable B,C,As-Built Drawing Should be done.,PL-03196
 120-02,EL,EBC-MP-2001A,Power Cable B,B,S.S tags shall be install.,PL-08204
+120-02,EL,EBC-MP-2001A,Power Cable B,B,Cable Arrangment Shall Be Done.,PL-21163
+120-02,EL,EBC-MP-2001A,Power Cable B,B,Cable Tag (S.S) Shall Be Installed.,PL-21179
+120-02,EL,EBC-MP-2001B,Power Cable B,B,Cable Tag (S.S) Shall Be Installed.,PL-21180
+120-02,EL,EBC-MP-2001B,Power Cable B,B,Cable Arrangment Shall Be Done.,PL-21164
 120-02,EL,EBC-MP-2001B,Power Cable B,B,S.S tags shall be install.,PL-08190
 120-02,EL,EBC-MP-2001B,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-03110
 120-02,EL,EBC-MP-2001B,Power Cable B,C,As-Built Drawing Should be done.,PL-03111
 120-02,EL,EBC-MP-2002A,Power Cable B,C,As-Built Drawing Should be done.,PL-04305
 120-02,EL,EBC-MP-2002A,Power Cable B,C,کليه داکت بانک ها بعد از اتمام کابل کشي بايستي با اسپري فوم سيل شوند,PL-04306
 120-02,EL,EBC-MP-2002A,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-04307
+120-02,EL,EBC-MP-2002A,Power Cable B,B,Cable Arrangment Shall Be Done.,PL-21165
+120-02,EL,EBC-MP-2002A,Power Cable B,B,Cable Tag (S.S) Shall Be Installed.,PL-21181
+120-02,EL,EBC-MP-2002B,Power Cable B,B,Cable Tag (S.S) Shall Be Installed.,PL-21182
+120-02,EL,EBC-MP-2002B,Power Cable B,B,Cable Arrangment Shall Be Done.,PL-21166
 120-02,EL,EBC-MP-2002B,Power Cable B,C,As-Built Drawing Should be done.,PL-04323
 120-02,EL,EBC-MP-2002B,Power Cable B,C,کليه داکت بانک ها بعد از اتمام کابل کشي بايستي با اسپري فوم سيل شوند,PL-04324
 120-02,EL,EBC-MP-2002B,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-04325
@@ -6932,16 +6959,28 @@ ES-01,EL,E8-26(ES-01),Earthing System,A,Conection Shall Be Done,PL-19929
 120-07,EL,EBC-MP-3013,Power Cable B,C,As-Built Drawing Should be done.,PL-03296
 120-02,EL,EBC-MP-5001A,Power Cable B,B,S.S tags shall be install.,PL-08034
 120-02,EL,EBC-MP-5001A,Power Cable B,C,As-Built Drawing Should be done.,PL-08062
+120-02,EL,EBC-MP-5001A,Power Cable B,B,Cable Arrangment Shall Be Done.,PL-21167
+120-02,EL,EBC-MP-5001A,Power Cable B,B,Cable Tag (S.S) Shall Be Installed.,PL-21183
+120-02,EL,EBC-MP-5001B,Power Cable B,B,Cable Tag (S.S) Shall Be Installed.,PL-21184
+120-02,EL,EBC-MP-5001B,Power Cable B,B,Cable Arrangment Shall Be Done.,PL-21168
 120-02,EL,EBC-MP-5001B,Power Cable B,B,S.S tags shall be install.,PL-08039
 120-02,EL,EBC-MP-5001B,Power Cable B,C,As-Built Drawing Should be done.,PL-08067
 120-02,EL,EBC-MP-5002A,Power Cable B,B,کليه داکت بانک ها بعد از اتمام کابل کشي بايستي با اسپري فوم سيل شوند,PL-04551
 120-02,EL,EBC-MP-5002A,Power Cable B,C,Tag فلزي کابل ها نصب شود,PL-04552
+120-02,EL,EBC-MP-5002A,Power Cable B,B,Cable Arrangment Shall Be Done.,PL-21169
+120-02,EL,EBC-MP-5002A,Power Cable B,B,Cable Tag (S.S) Shall Be Installed.,PL-21185
+120-02,EL,EBC-MP-5002B,Power Cable B,B,Cable Tag (S.S) Shall Be Installed.,PL-21186
+120-02,EL,EBC-MP-5002B,Power Cable B,B,Cable Arrangment Shall Be Done.,PL-21170
 120-02,EL,EBC-MP-5002B,Power Cable B,B,کليه داکت بانک ها بعد از اتمام کابل کشي بايستي با اسپري فوم سيل شوند,PL-04559
 120-02,EL,EBC-MP-5002B,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-04560
 120-02,EL,EBC-MP-5003A,Power Cable B,C,As-Built Drawing Should be done.,PL-04283
 120-02,EL,EBC-MP-5003A,Power Cable B,C,کليه داکت بانک ها بعد از اتمام کابل کشي بايستي با اسپري فوم سيل شوند,PL-04284
 120-02,EL,EBC-MP-5003A,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-04285
 120-02,EL,EBC-MP-5003A,Power Cable B,B,S.S tags shall be install.,PL-07805
+120-02,EL,EBC-MP-5003A,Power Cable B,B,Cable Arrangment Shall Be Done.,PL-21171
+120-02,EL,EBC-MP-5003A,Power Cable B,B,Cable Tag (S.S) Shall Be Installed.,PL-21187
+120-02,EL,EBC-MP-5003B,Power Cable B,B,Cable Tag (S.S) Shall Be Installed.,PL-21188
+120-02,EL,EBC-MP-5003B,Power Cable B,B,Cable Arrangment Shall Be Done.,PL-21172
 120-02,EL,EBC-MP-5003B,Power Cable B,B,S.S tags shall be install.,PL-07803
 120-02,EL,EBC-MP-5003B,Power Cable B,C,As-Built Drawing Should be done.,PL-04273
 120-02,EL,EBC-MP-5003B,Power Cable B,C,کليه داکت بانک ها بعد از اتمام کابل کشي بايستي با اسپري فوم سيل شوند,PL-04274
@@ -6949,10 +6988,10 @@ ES-01,EL,E8-26(ES-01),Earthing System,A,Conection Shall Be Done,PL-19929
 120-02,EL,EBC-MP-5005A,Power Cable B,C,As-Built Drawing Should be done.,PL-04462
 120-02,EL,EBC-MP-5005A,Power Cable B,C,کليه داکت بانک ها بعد از اتمام کابل کشي بايستي با اسپري فوم سيل شوند,PL-04463
 120-02,EL,EBC-MP-5005A,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-04464
-120-02,EL,EBC-MP-5005A,Power Cable B,B,Cable arrangement shall be done.,PL-21144
 120-02,EL,EBC-MP-5005A,Power Cable B,B,Cable Tag(S.S) shall be installed.,PL-21127
-120-02,EL,EBC-MP-5005B,Power Cable B,B,Cable Tag(S.S) shall be installed.,PL-21128
+120-02,EL,EBC-MP-5005A,Power Cable B,B,Cable arrangement shall be done.,PL-21144
 120-02,EL,EBC-MP-5005B,Power Cable B,B,Cable arrangement shall be done.,PL-21145
+120-02,EL,EBC-MP-5005B,Power Cable B,B,Cable Tag(S.S) shall be installed.,PL-21128
 120-02,EL,EBC-MP-5005B,Power Cable B,C,As-Built Drawing Should be done.,PL-04447
 120-02,EL,EBC-MP-5005B,Power Cable B,C,کليه داکت بانک ها بعد از اتمام کابل کشي بايستي با اسپري فوم سيل شوند,PL-04448
 120-02,EL,EBC-MP-5005B,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-04449
@@ -6962,26 +7001,26 @@ ES-01,EL,E8-26(ES-01),Earthing System,A,Conection Shall Be Done,PL-19929
 120-02,EL,EBC-MP-5007B,Power Cable B,C,As-Built Drawing Should be done.,PL-04482
 120-02,EL,EBC-MP-5007B,Power Cable B,C,کليه داکت بانک ها بعد از اتمام کابل کشي بايستي با اسپري فوم سيل شوند,PL-04483
 120-02,EL,EBC-MP-5007B,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-04484
-120-02,EL,EBC-MP-5007B,Power Cable B,B,Cable arrangement shall be done.,PL-21146
 120-02,EL,EBC-MP-5007B,Power Cable B,B,Cable Tag(S.S) shall be installed.,PL-21129
-120-02,EL,EBC-MP-5009A,Power Cable B,B,Cable Tag(S.S) shall be installed.,PL-21130
+120-02,EL,EBC-MP-5007B,Power Cable B,B,Cable arrangement shall be done.,PL-21146
 120-02,EL,EBC-MP-5009A,Power Cable B,B,Cable arrangement shall be done.,PL-21147
+120-02,EL,EBC-MP-5009A,Power Cable B,B,Cable Tag(S.S) shall be installed.,PL-21130
 120-02,EL,EBC-MP-5009A,Power Cable B,C,کليه داکت بانک ها بعد از اتمام کابل کشي بايستي با اسپري فوم سيل شوند,PL-04499
 120-02,EL,EBC-MP-5009A,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-04500
 120-02,EL,EBC-MP-5009B,Power Cable B,C,کليه داکت بانک ها بعد از اتمام کابل کشي بايستي با اسپري فوم سيل شوند,PL-04491
 120-02,EL,EBC-MP-5009B,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-04492
-120-02,EL,EBC-MP-5009B,Power Cable B,B,Cable arrangement shall be done.,PL-21148
 120-02,EL,EBC-MP-5009B,Power Cable B,B,Cable Tag(S.S) shall be installed.,PL-21131
+120-02,EL,EBC-MP-5009B,Power Cable B,B,Cable arrangement shall be done.,PL-21148
 120-02,EL,EBC-MP-5010A,Power Cable B,B,مرتب سازي کل مسير,PL-04627
 120-02,EL,EBC-MP-5010A,Power Cable B,B,S.S tags shall be install.,PL-04653
 120-02,EL,EBC-MP-5010A,Power Cable B,C,As-Built Drawing Should be done.,PL-04679
 120-02,EL,EBC-MP-5010B,Power Cable B,C,As-Built Drawing Should be done.,PL-04682
 120-02,EL,EBC-MP-5010B,Power Cable B,B,S.S tags shall be install.,PL-04656
 120-02,EL,EBC-MP-5010B,Power Cable B,B,مرتب سازي کل مسير,PL-04630
-120-02,EL,EBC-MP-5010B,Power Cable B,B,Cable Tag(S.S) shall be installed.,PL-21132
 120-02,EL,EBC-MP-5010B,Power Cable B,B,Cable arrangement shall be done.,PL-21149
-120-02,EL,EBC-MP-5011A,Power Cable B,B,Cable arrangement shall be done.,PL-21150
+120-02,EL,EBC-MP-5010B,Power Cable B,B,Cable Tag(S.S) shall be installed.,PL-21132
 120-02,EL,EBC-MP-5011A,Power Cable B,B,Cable Tag(S.S) shall be installed.,PL-21133
+120-02,EL,EBC-MP-5011A,Power Cable B,B,Cable arrangement shall be done.,PL-21150
 120-02,EL,EBC-MP-5011A,Power Cable B,C,کليه داکت بانک ها بعد از اتمام کابل کشي بايستي با اسپري فوم سيل شوند,PL-04535
 120-02,EL,EBC-MP-5011A,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-04536
 120-02,EL,EBC-MP-5011B,Power Cable B,C,کليه داکت بانک ها بعد از اتمام کابل کشي بايستي با اسپري فوم سيل شوند,PL-04543
@@ -7003,6 +7042,10 @@ ES-01,EL,E8-26(ES-01),Earthing System,A,Conection Shall Be Done,PL-19929
 120-02,EL,EBC-MP-6001A,Power Cable B,B,S.S tags shall be install.,PL-08209
 120-02,EL,EBC-MP-6001A,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-03205
 120-02,EL,EBC-MP-6001A,Power Cable B,C,As-Built Drawing Should be done.,PL-03206
+120-02,EL,EBC-MP-6001A,Power Cable B,B,Cable Arrangment Shall Be Done.,PL-21173
+120-02,EL,EBC-MP-6001A,Power Cable B,B,Cable Tag (S.S) Shall Be Installed.,PL-21189
+120-02,EL,EBC-MP-6001B,Power Cable B,B,Cable Tag (S.S) Shall Be Installed.,PL-21190
+120-02,EL,EBC-MP-6001B,Power Cable B,B,Cable Arrangment Shall Be Done.,PL-21174
 120-02,EL,EBC-MP-6001B,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-03120
 120-02,EL,EBC-MP-6001B,Power Cable B,C,As-Built Drawing Should be done.,PL-03121
 120-02,EL,EBC-MP-6001B,Power Cable B,B,S.S tags shall be install.,PL-08195
@@ -10281,6 +10324,21 @@ LS-03,EL,From S10-FJB,Lighting Cable,A,Lighting Battery Shall Be Install And Ter
 4000-02,IN,FT-7030(FT),Instrument(FT),A,EARTH should be done.,PL-15957
 4000-02,IN,FT-7030(FT),Instrument(FT),A,GLAND should be done.,PL-15973
 4000-02,IN,FT-7030(FT),Instrument(FT),A,Termination should be done.,PL-15969
+1000-03,IN,FT-7101(FT),Instrument(FT),A,Earth should be done.,PL-21196
+1000-03,IN,FT-7101(FT),Instrument(FT),A,Termination should be done.,PL-21202
+1000-03,IN,FT-7101(FT),Instrument(FT),A,Gland should be done.,PL-21208
+1000-03,IN,FT-7101(FT),Instrument(FT),A,Tube should be install.,PL-21214
+1000-03,IN,FT-7101(FT),Instrument(FT),C,Grout should be done.,PL-21220
+4000-02,IN,FT-7129(FT),Instrument(FT),C,Grout should be done.,PL-21221
+4000-02,IN,FT-7129(FT),Instrument(FT),A,Tube should be install.,PL-21215
+4000-02,IN,FT-7129(FT),Instrument(FT),A,Gland should be done.,PL-21209
+4000-02,IN,FT-7129(FT),Instrument(FT),A,Termination should be done.,PL-21203
+4000-02,IN,FT-7129(FT),Instrument(FT),A,Earth should be done.,PL-21197
+4000-02,IN,FT-7134(FT),Instrument(FT),A,Earth should be done.,PL-21198
+4000-02,IN,FT-7134(FT),Instrument(FT),A,Termination should be done.,PL-21204
+4000-02,IN,FT-7134(FT),Instrument(FT),A,Gland should be done.,PL-21210
+4000-02,IN,FT-7134(FT),Instrument(FT),A,Tube should be install.,PL-21216
+4000-02,IN,FT-7134(FT),Instrument(FT),C,Grout should be done.,PL-21222
 4000-04,IN,FT-7141(FT),Instrument(FT),C,Touch up should be done.,PL-16310
 4000-04,IN,FT-7141(FT),Instrument(FT),A,Earth should be done.,PL-16306
 4000-04,IN,FT-7141(FT),Instrument(FT),A,Tube should be done.,PL-16308
@@ -12187,6 +12245,21 @@ DCS-01,IN,LHSP-9001,CABLE,B,Tag no(s.s) shall be install.,PL-07216
 5000-02,IN,PST-5207C(PST),Instrument(PST),C,Touch up  shall be done.,PL-15884
 5000-02,IN,PST-5207C(PST),Instrument(PST),A,EARTH SHOULD BE DONE.,PL-15869
 5000-02,IN,PST-5207C(PST),Instrument(PST),A,SUN SHADE SHOULD BE INSTALL.,PL-15899
+4000-04,IN,PST-7112(PST),Instrument(PST),C,Grout should be done.,PL-21223
+4000-04,IN,PST-7112(PST),Instrument(PST),A,Tube should be install.,PL-21217
+4000-04,IN,PST-7112(PST),Instrument(PST),A,Gland should be done.,PL-21211
+4000-04,IN,PST-7112(PST),Instrument(PST),A,Termination should be done.,PL-21205
+4000-04,IN,PST-7112(PST),Instrument(PST),A,Earth should be done.,PL-21199
+4000-04,IN,PST-7116(PST),Instrument(PST),A,Earth should be done.,PL-21200
+4000-04,IN,PST-7116(PST),Instrument(PST),A,Termination should be done.,PL-21206
+4000-04,IN,PST-7116(PST),Instrument(PST),A,Gland should be done.,PL-21212
+4000-04,IN,PST-7116(PST),Instrument(PST),A,Tube should be install.,PL-21218
+4000-04,IN,PST-7116(PST),Instrument(PST),C,Grout should be done.,PL-21224
+4000-04,IN,PST-7120(PST),Instrument(PST),C,Grout should be done.,PL-21225
+4000-04,IN,PST-7120(PST),Instrument(PST),A,Tube should be install.,PL-21219
+4000-04,IN,PST-7120(PST),Instrument(PST),A,Gland should be done.,PL-21213
+4000-04,IN,PST-7120(PST),Instrument(PST),A,Termination should be done.,PL-21207
+4000-04,IN,PST-7120(PST),Instrument(PST),A,Earth should be done.,PL-21201
 1000-02,IN,PT-1011(PT),Instrument(PT),B,Touch up support shall be done.(stand),PL-16869
 1000-02,IN,PT-1011(PT),Instrument(PT),A,Earth shall be installed.,PL-16875
 1000-02,IN,PT-1011(PT),Instrument(PT),B,Sun shade shall be installed and fixed.,PL-16881
@@ -12287,26 +12360,26 @@ DCS-01,IN,LHSP-9001,CABLE,B,Tag no(s.s) shall be install.,PL-07216
 5000-01,IN,PT-5004(PT),Instrument(PT),A,Tube should be done.,PL-16455
 5000-01,IN,PT-5004(PT),Instrument(PT),A,Gland should be done.,PL-16461
 5000-01,IN,PT-5004(PT),Instrument(PT),C,Touch up should be done.,PL-16467
-5000-01,IN,PT-5047(NA),CABLE,B,TAG No (S.S)  shall be installed.,PL-20695
 5000-01,IN,PT-5047(NA),CABLE,A,Core Number (Heated) and fixed shall be installed.,PL-20728
 5000-01,IN,PT-5047(NA),CABLE,B,Cable Arrangement shall be done.,PL-20706
 5000-01,IN,PT-5047(NA),CABLE,A,Termination shall be done and connected.,PL-20717
+5000-01,IN,PT-5047(NA),CABLE,B,TAG No (S.S)  shall be installed.,PL-20695
 5000-01,IN,PT-5047(PT),Instrument(PT),C,Touch up  shall be done.,PL-15565
 5000-01,IN,PT-5047(PT),Instrument(PT),A,S.S tags should be install.,PL-15584
 5000-01,IN,PT-5047(PT),Instrument(PT),A,Termination shall be done.,PL-15603
 5000-01,IN,PT-5047(PT),Instrument(PT),A,SUN SHADE SHOULD BE INSTALL.,PL-15622
+5000-01,IN,PT-5049(NA),CABLE,B,TAG No (S.S)  shall be installed.,PL-20696
 5000-01,IN,PT-5049(NA),CABLE,A,Termination shall be done and connected.,PL-20718
 5000-01,IN,PT-5049(NA),CABLE,B,Cable Arrangement shall be done.,PL-20707
 5000-01,IN,PT-5049(NA),CABLE,A,Core Number (Heated) and fixed shall be installed.,PL-20729
-5000-01,IN,PT-5049(NA),CABLE,B,TAG No (S.S)  shall be installed.,PL-20696
 5000-01,IN,PT-5049(PT),Instrument(PT),A,SUN SHADE SHOULD BE INSTALL.,PL-15623
 5000-01,IN,PT-5049(PT),Instrument(PT),A,Termination shall be done.,PL-15604
 5000-01,IN,PT-5049(PT),Instrument(PT),A,S.S tags should be install.,PL-15585
 5000-01,IN,PT-5049(PT),Instrument(PT),C,Touch up  shall be done.,PL-15566
-5000-01,IN,PT-5051(NA),CABLE,B,TAG No (S.S)  shall be installed.,PL-20697
 5000-01,IN,PT-5051(NA),CABLE,A,Core Number (Heated) and fixed shall be installed.,PL-20730
 5000-01,IN,PT-5051(NA),CABLE,B,Cable Arrangement shall be done.,PL-20708
 5000-01,IN,PT-5051(NA),CABLE,A,Termination shall be done and connected.,PL-20719
+5000-01,IN,PT-5051(NA),CABLE,B,TAG No (S.S)  shall be installed.,PL-20697
 5000-01,IN,PT-5051(PT),Instrument(PT),C,Touch up  shall be done.,PL-15567
 5000-01,IN,PT-5051(PT),Instrument(PT),A,S.S tags should be install.,PL-15586
 5000-01,IN,PT-5051(PT),Instrument(PT),A,Termination shall be done.,PL-15605
