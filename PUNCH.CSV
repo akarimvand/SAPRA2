@@ -7367,6 +7367,8 @@ LS-01,EL,EBP-YO-LP-01,Power Cable B,C,As-Built Drawing Should be done.,PL-04794
 120-01,EL,ECC-MF-2002-RTD1,Power Cable B,C,As-Built Drawing Should be done.,PL-08097
 120-01,EL,ECC-MF-2002-RTD1,Power Cable B,B,S.S tags shall be install.,PL-08079
 120-01,EL,ECC-MF-2002-RTD1,Power Cable B,C,کليه داکت بانک ها بعد از اتمام کابل کشي بايستي با اسپري فوم سيل شوند,PL-08072
+120-03,EL,ECC-MF-8001A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21669
+120-03,EL,ECC-MF-8001A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21682
 120-03,EL,ECC-MF-8001B_1,Power Cable B,A,Termination shall be done.,PL-09072
 120-03,EL,ECC-MF-8001B_1,Power Cable B,B,Cable Arrangement shall be done.,PL-09038
 120-03,EL,ECC-MF-8001B_1,Power Cable B,B,Tag No shall be installed.,PL-09004
@@ -7377,6 +7379,8 @@ LS-01,EL,EBP-YO-LP-01,Power Cable B,C,As-Built Drawing Should be done.,PL-04794
 120-03,EL,ECC-MF-8001C_1,Power Cable B,B,Tag No shall be installed.,PL-09005
 120-03,EL,ECC-MF-8001C_1,Power Cable B,B,Cable Arrangement shall be done.,PL-09039
 120-03,EL,ECC-MF-8001C_1,Power Cable B,A,Termination shall be done.,PL-09073
+120-03,EL,ECC-MF-8001D_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21683
+120-03,EL,ECC-MF-8001D_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21670
 120-02,EL,ECC-MP-0001B_1,Power Cable B,A,cable shall be fixed by clamp,PL-09088
 120-02,EL,ECC-MP-0001B_1,Power Cable B,A,Termination shall be done.,PL-09054
 120-02,EL,ECC-MP-0001B_1,Power Cable B,B,Cable Arrangement shall be done.,PL-09020
@@ -7522,6 +7526,8 @@ LS-01,EL,EBP-YO-LP-01,Power Cable B,C,As-Built Drawing Should be done.,PL-04794
 120-03,EL,ECC-MP-7503B_1,Power Cable B,B,Cable Arrangement shall be done.,PL-09033
 120-03,EL,ECC-MP-7503B_1,Power Cable B,A,Termination shall be done.,PL-09067
 120-03,EL,ECC-MP-7503B_1,Power Cable B,B,Tag No shall be installed.,PL-08999
+120-03,EL,ECC-MP-7506A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21671
+120-03,EL,ECC-MP-7506A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21684
 120-03,EL,ECC-MP-7506B_1,Power Cable B,B,Tag No shall be installed.,PL-09003
 120-03,EL,ECC-MP-7506B_1,Power Cable B,A,Termination shall be done.,PL-09071
 120-03,EL,ECC-MP-7506B_1,Power Cable B,B,Cable Arrangement shall be done.,PL-09037
@@ -7557,6 +7563,12 @@ LS-01,EL,EBP-YO-LP-01,Power Cable B,C,As-Built Drawing Should be done.,PL-04794
 120-01,EL,ECC-MP-8001D-RTD1,Power Cable B,B,S.S tags shall be install.,PL-04865
 120-01,EL,ECC-MP-8001D-RTD1,Power Cable B,C,کليه داکت بانک ها بعد از اتمام کابل کشي بايستي با اسپري فوم سيل شوند,PL-04822
 120-01,EL,ECC-MP-8001D-RTD1,Power Cable B,C,As-Built Drawing Should be done.,PL-04951
+120-03,EL,ECC-MP-8403B_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21685
+120-03,EL,ECC-MP-8403B_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21672
+120-03,EL,ECC-MP-8404A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21673
+120-03,EL,ECC-MP-8404A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21686
+120-03,EL,ECC-MP-8405A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21687
+120-03,EL,ECC-MP-8405A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21674
 120-02,EL,ECC-MX-7060_1,Power Cable B,C,Cleaning ladder shall be done.,PL-09131
 120-02,EL,ECC-MX-7060_1,Power Cable B,B,Cable Arrangement shall be done.,PL-09029
 120-02,EL,ECC-MX-7060_1,Power Cable B,A,Termination shall be done.,PL-09063
@@ -7572,26 +7584,40 @@ LS-01,EL,EBP-YO-LP-01,Power Cable B,C,As-Built Drawing Should be done.,PL-04794
 120-02,EL,ECC-P7001C-HE-1_1,Power Cable B,A,cable shall be fixed by clamp,PL-09083
 120-02,EL,ECC-P7001C-HE-1_1,Power Cable B,B,Cable Arrangement shall be done.,PL-09015
 120-02,EL,ECC-P7001C-HE-1_1,Power Cable B,B,Tag No shall be installed.,PL-08981
+120-03,EL,ECC-PK7502-MB-1A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21675
+120-03,EL,ECC-PK7502-MB-1A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21688
+120-03,EL,ECC-PK7502-MP-1A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21689
+120-03,EL,ECC-PK7502-MP-1A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21676
+120-03,EL,ECC-PK8002-MP-1A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21677
+120-03,EL,ECC-PK8002-MP-1A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21690
 120-03,EL,ECC-PK8002-MP-1B_1,Power Cable B,B,Tag No shall be installed.,PL-09006
 120-03,EL,ECC-PK8002-MP-1B_1,Power Cable B,A,Termination shall be done.,PL-09074
 120-03,EL,ECC-PK8002-MP-1B_1,Power Cable B,B,Cable Arrangement shall be done.,PL-09040
 120-03,EL,ECC-PK8002-MP-1B_1,Power Cable B,A,cable shall be fixed by clamp,PL-09108
 120-03,EL,ECC-PK8002-MP-1B_1,Power Cable B,C,Cleaning ladder shall be done.,PL-09142
+120-03,EL,ECC-PK8003-MP-1A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21691
+120-03,EL,ECC-PK8003-MP-1A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21678
 120-03,EL,ECC-PK8003-MP-1B_1,Power Cable B,C,Cleaning ladder shall be done.,PL-09143
 120-03,EL,ECC-PK8003-MP-1B_1,Power Cable B,A,cable shall be fixed by clamp,PL-09109
 120-03,EL,ECC-PK8003-MP-1B_1,Power Cable B,B,Cable Arrangement shall be done.,PL-09041
 120-03,EL,ECC-PK8003-MP-1B_1,Power Cable B,A,Termination shall be done.,PL-09075
 120-03,EL,ECC-PK8003-MP-1B_1,Power Cable B,B,Tag No shall be installed.,PL-09007
+120-03,EL,ECC-PK8004-MP-1A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21679
+120-03,EL,ECC-PK8004-MP-1A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21692
 120-03,EL,ECC-PK8004-MP-1B_1,Power Cable B,B,Tag No shall be installed.,PL-09008
 120-03,EL,ECC-PK8004-MP-1B_1,Power Cable B,A,Termination shall be done.,PL-09076
 120-03,EL,ECC-PK8004-MP-1B_1,Power Cable B,B,Cable Arrangement shall be done.,PL-09042
 120-03,EL,ECC-PK8004-MP-1B_1,Power Cable B,A,cable shall be fixed by clamp,PL-09110
 120-03,EL,ECC-PK8004-MP-1B_1,Power Cable B,C,Cleaning ladder shall be done.,PL-09144
+120-03,EL,ECC-PK8005-MP-1A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21693
+120-03,EL,ECC-PK8005-MP-1A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21680
 120-03,EL,ECC-PK8005-MP-1B_1,Power Cable B,C,Cleaning ladder shall be done.,PL-09145
 120-03,EL,ECC-PK8005-MP-1B_1,Power Cable B,A,cable shall be fixed by clamp,PL-09111
 120-03,EL,ECC-PK8005-MP-1B_1,Power Cable B,B,Cable Arrangement shall be done.,PL-09043
 120-03,EL,ECC-PK8005-MP-1B_1,Power Cable B,A,Termination shall be done.,PL-09077
 120-03,EL,ECC-PK8005-MP-1B_1,Power Cable B,B,Tag No shall be installed.,PL-09009
+120-03,EL,ECC-PK8401-MP-1A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21681
+120-03,EL,ECC-PK8401-MP-1A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21694
 120-01,EL,ECC-SS-NGR1A-01,Power Cable B,A,Termination shall be done.,PL-11859
 120-01,EL,ECC-SS-NGR1A-01,Power Cable B,B,Tag No shall be installed.,PL-11657
 120-01,EL,ECC-SS-NGR1A-01,Power Cable B,B,CABLE tag (S.S) shall be install.,PL-16717
@@ -10250,6 +10276,10 @@ DCS-01,IN,LHSP-9001,CABLE,B,Tag no(s.s) shall be install.,PL-07216
 120-03,EL,PK7502-MP-1A,Local_Control_Station,A,سربندي تجهيز انجام شود,PL-10624
 120-03,EL,PK7502-MP-1B,Local_Control_Station,C,Preservation  تجهيز انجام شود,PL-10627
 120-03,EL,PK7502-MP-1B,Local_Control_Station,A,سربندي تجهيز انجام شود,PL-10630
+120-03,EL,PK7502-MP-2A,Local_Control_Station,C,Preservation shall be done.,PL-21695
+120-03,EL,PK7502-MP-2B,Local_Control_Station,C,Preservation shall be done.,PL-21696
+120-03,EL,PK7502-MP-3A,Local_Control_Station,C,Preservation shall be done.,PL-21697
+120-03,EL,PK7502-MP-3B,Local_Control_Station,C,Preservation shall be done.,PL-21698
 120-03,EL,PK8401-MP-1A,Local_Control_Station,A,Termination shall be done and connection.,PL-16998
 120-03,EL,PK8401-MP-1A,Local_Control_Station,C,Cleaning shall be done.,PL-16993
 120-03,EL,PK8401-MP-1A,Local_Control_Station,C,Preservation shall be done.,PL-16988
