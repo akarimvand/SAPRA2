@@ -31,12 +31,12 @@
 120,120-18,Electrical Distribution Substation,E/I Cabinet,EL,16,0,0,46,0,46,0
 120,120-18,Electrical Distribution Substation,E/I Cabinet,IN,16,0,0,12,0,12,0
 2000,2000-01,Reforming,Pre Reforming,MES,2,0,0,0,0,0,0
-2000,2000-01,Reforming,Pre Reforming,PI,8,6,0,17,0,17,0
+2000,2000-01,Reforming,Pre Reforming,PI,8,7,0,17,0,17,0
 2000,2000-01,Reforming,Pre Reforming,IN,77,0,0,7,0,7,0
 2000,2000-02,Reforming,Primary Reforming,PI,9,6,0,19,2,17,0
 2000,2000-02,Reforming,Primary Reforming,MES,8,0,0,0,0,0,0
 2000,2000-02,Reforming,Primary Reforming,IN,696,0,0,95,0,95,0
-2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,24,7,0,18,1,17,2
+2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,24,8,0,18,1,17,2
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,341,0,0,30,0,30,0
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,MES,6,0,0,0,0,0,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MES,11,0,0,0,0,0,0
@@ -45,7 +45,7 @@
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,224,0,0,37,0,37,0
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,0,0,48,10,38,0
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,216,0,0,84,0,84,0
-2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,21,0,119,41,78,0
+2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,22,0,119,41,78,0
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,0,0,0,0,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,3,0,19,3,16,0
 2000,2000-06,Reforming,Nitrogen Circuit,IN,21,0,0,0,0,0,0
@@ -68,7 +68,7 @@
 4000,4000-01,Utility,Nitrogen,IN,61,0,0,0,0,0,0
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,0,0,0,0,0,0
 4000,4000-02,Utility,HHP & HP & LP Steam,IN,240,0,0,48,0,48,0
-4000,4000-02,Utility,HHP & HP & LP Steam,PI,62,32,0,165,9,156,3
+4000,4000-02,Utility,HHP & HP & LP Steam,PI,62,32,0,170,9,161,3
 4000,4000-03,Utility,MP Steam,MES,1,0,0,0,0,0,0
 4000,4000-03,Utility,MP Steam,IN,56,0,0,18,0,18,0
 4000,4000-03,Utility,MP Steam,PI,5,5,0,37,6,31,0
