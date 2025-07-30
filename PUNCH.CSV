@@ -1997,6 +1997,11 @@ TEL-07,EL,07-SP-15,Paging Device,A,Earth body shall be installed.,PL-17093
 4000-02,PI,4000-02-LPS-08-720,PI_TP,C,(TG7139) | (PG7139) SHALL BE INSTALL BEFORE PRECOMM,PL-01824
 4000-02,PI,4000-02-LPS-08-720,PI_TP,C,ALL OF GASKETS ARE TEMPORARY AS ORDER BY PRECOMM GROUP,PL-01825
 4000-02,PI,4000-02-LPS-08-720,PI_TP,C,EXPANSION JOINT|STEAM TRAP|CHECK VALVE BOLT| SPRING SUPPORT IS NIS,PL-01826
+4000-02,PI,4000-02-LPS-09-965,PI_TP,C,All steam trap in opposite line shall be install,PL-21623
+4000-02,PI,4000-02-LPS-09-965,PI_TP,C,All valve shall be lubricate,PL-21624
+4000-02,PI,4000-02-LPS-09-965,PI_TP,C,"joint no: 12TN should be after installed hose coupling 3/4"" | cl-3000|NPT reported Also |history sheet updated and attached",PL-21625
+4000-02,PI,4000-02-LPS-09-965,PI_TP,C,All temporary gaskets used for steam traps All class| shall be replaced with the original gaskets also| studbollts related for shortage steam traps,PL-21626
+4000-02,PI,4000-02-LPS-09-965,PI_TP,C,All steam traps ( All class|shortage ) should be installed before precom      (NIS),PL-21627
 4000-02,PI,4000-02-LPS-12-972,PI_TP,C,ALL VALVES SHALL BE LUBRICATE,PL-02478
 4000-02,PI,4000-02-LPS-13-973,PI_TP,C,SPRING SUPPORT IS NIS,PL-01823
 4000-02,PI,4000-02-LPS-14-974,PI_TP,B,ALL ORIGINAL B|N|G SHALL BE INSTALL AFTER TEST,PL-01696
@@ -8444,21 +8449,21 @@ LS-03,EL,From S09,Switch,B,Panel Installation And Termination Shall Be Done,PL-2
 LS-03,EL,From S09-FJB,Lighting Cable,A,Lighting Battery Shall Be Install And Termination,PL-20425
 LS-03,EL,From S10,Switch,B,Panel Installation And Termination Shall Be Done,PL-20219
 LS-03,EL,From S10-FJB,Lighting Cable,A,Lighting Battery Shall Be Install And Termination,PL-20424
-2000-03,IN,FST-2040A(FST),Instrument(FST),C,Touch Up Support Should Be Done.,PL-21593
 2000-03,IN,FST-2040A(FST),Instrument(FST),A,Termination And Gland Should Be Done.,PL-21599
 2000-03,IN,FST-2040A(FST),Instrument(FST),A,S.S Cap Should Be Install.,PL-21605
 2000-03,IN,FST-2040A(FST),Instrument(FST),A,Hook Up Should Be Install.,PL-21611
 2000-03,IN,FST-2040A(FST),Instrument(FST),C,Preservation Should Be Done.,PL-21617
+2000-03,IN,FST-2040A(FST),Instrument(FST),C,Touch Up Support Should Be Done.,PL-21593
+2000-03,IN,FST-2040B(FST),Instrument(FST),C,Touch Up Support Should Be Done.,PL-21594
 2000-03,IN,FST-2040B(FST),Instrument(FST),C,Preservation Should Be Done.,PL-21618
 2000-03,IN,FST-2040B(FST),Instrument(FST),A,Hook Up Should Be Install.,PL-21612
 2000-03,IN,FST-2040B(FST),Instrument(FST),A,S.S Cap Should Be Install.,PL-21606
 2000-03,IN,FST-2040B(FST),Instrument(FST),A,Termination And Gland Should Be Done.,PL-21600
-2000-03,IN,FST-2040B(FST),Instrument(FST),C,Touch Up Support Should Be Done.,PL-21594
-2000-03,IN,FST-2040C(FST),Instrument(FST),C,Touch Up Support Should Be Done.,PL-21595
 2000-03,IN,FST-2040C(FST),Instrument(FST),A,Termination And Gland Should Be Done.,PL-21601
 2000-03,IN,FST-2040C(FST),Instrument(FST),A,S.S Cap Should Be Install.,PL-21607
 2000-03,IN,FST-2040C(FST),Instrument(FST),A,Hook Up Should Be Install.,PL-21613
 2000-03,IN,FST-2040C(FST),Instrument(FST),C,Preservation Should Be Done.,PL-21619
+2000-03,IN,FST-2040C(FST),Instrument(FST),C,Touch Up Support Should Be Done.,PL-21595
 4000-08,IN,FT-0001(FT),Instrument(FT),A,Termination should be done.,PL-16507
 4000-08,IN,FT-0001(FT),Instrument(FT),A,Earth should be done.,PL-16492
 4000-08,IN,FT-0001(FT),Instrument(FT),C,Touch up should be done.,PL-16497
