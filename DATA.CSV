@@ -43,7 +43,7 @@
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MER,2,0,0,0,0,0,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,23,16,0,43,8,35,2
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,224,0,0,37,0,37,0
-2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,0,0,48,19,29,0
+2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,0,0,48,20,28,0
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,216,0,0,84,0,84,0
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,22,0,120,41,79,0
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,0,0,0,0,0
@@ -64,7 +64,7 @@
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,11,0,11,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,147,0,0,6,0,6,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,MER,1,0,0,0,0,0,0
-4000,4000-01,Utility,Nitrogen,PI,19,12,0,32,17,15,1
+4000,4000-01,Utility,Nitrogen,PI,19,13,0,32,17,15,1
 4000,4000-01,Utility,Nitrogen,IN,61,0,0,0,0,0,0
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,0,0,0,0,0,0
 4000,4000-02,Utility,HHP & HP & LP Steam,IN,240,0,0,48,0,48,0
@@ -77,7 +77,7 @@
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,47,27,0,114,56,58,2
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,497,0,0,30,0,30,0
 4000,4000-05,Utility,Blow Down,PI,24,11,0,34,10,24,1
-4000,4000-05,Utility,Blow Down,MES,4,0,0,3,0,3,0
+4000,4000-05,Utility,Blow Down,MES,4,0,0,4,0,4,0
 4000,4000-05,Utility,Blow Down,IN,17,0,0,0,0,0,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,0,0,4,0,4,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,54,19,0,112,47,65,1
@@ -134,7 +134,7 @@
 7000,7000-01-1,Flare,Flare System (Out of Site),PI,24,3,0,9,1,8,0
 BLD,BLD-01,Building,Substation,CV,14,0,0,0,0,0,0
 BLD,BLD-01,Building,Substation,PI,3,0,0,2,0,2,0
-BLD,BLD-02,Building,Control Building,PI,1,1,0,5,0,5,0
+BLD,BLD-02,Building,Control Building,PI,1,1,0,6,5,1,0
 BLD,BLD-02,Building,Control Building,CV,8,0,0,0,0,0,0
 BLD,BLD-03,Building,Laboratory,CV,14,0,0,0,0,0,0
 BLD,BLD-04,Building,Security Building,CV,14,0,0,0,0,0,0
@@ -143,7 +143,7 @@ BLD,BLD-06,Building,Warehouse Building,PI,3,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,CV,14,0,0,0,0,0,0
 BLD,BLD-07,Building,Analyzer House,CV,8,0,0,0,0,0,0
 DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2537,0,0,1574,0,1574,0
-ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,281,0,0,2175,1883,292,0
+ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,281,0,0,2187,1883,304,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,188,0,0,0,0,0,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,32,0,0,0,0,0,0
 ES,ES-04,Earthing System,Earthing & Roof Lightning System for Analyzer House,EL,11,0,0,0,0,0,0
