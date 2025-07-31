@@ -11,13 +11,13 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,39,0,165,48,117,1
 1000,1000-04,Gas Preparation,Gas Station,IN,2,0,0,0,0,0,0
 1000,1000-04,Gas Preparation,Gas Station,PI,1,0,0,0,0,0,0
-120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,169,0,0,1244,719,525,0
-120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,308,0,0,1332,598,734,0
-120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,290,0,0,1141,416,725,0
+120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,169,0,0,1244,723,521,0
+120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,308,0,0,1332,606,726,0
+120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,290,0,0,1141,436,705,0
 120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,264,0,0,1099,546,553,0
 120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,244,0,0,1093,515,578,0
 120,120-06,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-05,EL,222,0,0,1096,397,699,0
-120,120-07,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-ESWB3A/B-01,EL,147,0,0,491,149,342,0
+120,120-07,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-ESWB3A/B-01,EL,147,0,0,491,151,340,0
 120,120-08,Electrical Distribution Substation,Emergency Diesel Generator SS-DG-5701,EL,8,0,0,0,0,0,0
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,EL,29,0,0,25,5,20,0
 120,120-10,Electrical Distribution Substation,SS-CH-01 for Electrical Supply 110V DC,EL,24,0,0,136,0,136,0
@@ -143,7 +143,7 @@ BLD,BLD-06,Building,Warehouse Building,PI,3,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,CV,14,0,0,0,0,0,0
 BLD,BLD-07,Building,Analyzer House,CV,8,0,0,0,0,0,0
 DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2537,0,0,1574,0,1574,0
-ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,281,0,0,2187,1883,304,0
+ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,281,0,0,2187,1894,293,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,188,0,0,0,0,0,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,32,0,0,0,0,0,0
 ES,ES-04,Earthing System,Earthing & Roof Lightning System for Analyzer House,EL,11,0,0,0,0,0,0
@@ -175,7 +175,7 @@ HVAC,HVAC-03,HVAC System,HVAC for Laboratory & Yard Office,EL,1,0,0,0,0,0,0
 HVAC,HVAC-04,HVAC System,HVAC for Analyzer House,EL,1,0,0,0,0,0,0
 LS,LS-01,Lighting System,SS-MLP-01 for Normal Lighting System,EL,100,0,0,87,25,62,0
 LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,0,0,61,17,44,0
-LS,LS-03,Lighting System,Lighting System for Substation,EL,514,0,0,2208,1641,567,0
+LS,LS-03,Lighting System,Lighting System for Substation,EL,514,0,0,1697,1641,56,0
 LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,0,0,0,0,0,0
 LS,LS-05,Lighting System,Lighting System for Laboratory & Yard Office,EL,315,0,0,0,0,0,0
 LS,LS-06,Lighting System,Lighting System for Street,EL,73,0,0,26,9,17,0
