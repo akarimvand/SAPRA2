@@ -143,8 +143,8 @@ BLD,BLD-06,Building,Warehouse Building,PI,3,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,CV,14,0,0,0,0,0,0
 BLD,BLD-07,Building,Analyzer House,CV,8,0,0,0,0,0,0
 DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2537,0,0,1574,0,1574,0
-ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,281,0,0,2187,1894,293,0
-ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,188,0,0,0,0,0,0
+ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,0,0,2190,1894,296,0
+ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,0,0,0,0,0,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,32,0,0,0,0,0,0
 ES,ES-04,Earthing System,Earthing & Roof Lightning System for Analyzer House,EL,11,0,0,0,0,0,0
 ES,ES-05,Earthing System,Earthing & Roof Lightning System for Warehouse,EL,22,0,0,0,0,0,0
@@ -175,7 +175,7 @@ HVAC,HVAC-03,HVAC System,HVAC for Laboratory & Yard Office,EL,1,0,0,0,0,0,0
 HVAC,HVAC-04,HVAC System,HVAC for Analyzer House,EL,1,0,0,0,0,0,0
 LS,LS-01,Lighting System,SS-MLP-01 for Normal Lighting System,EL,100,0,0,87,25,62,0
 LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,0,0,61,17,44,0
-LS,LS-03,Lighting System,Lighting System for Substation,EL,514,0,0,1697,1641,56,0
+LS,LS-03,Lighting System,Lighting System for Substation,EL,516,0,0,1699,1641,58,0
 LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,0,0,0,0,0,0
 LS,LS-05,Lighting System,Lighting System for Laboratory & Yard Office,EL,315,0,0,0,0,0,0
 LS,LS-06,Lighting System,Lighting System for Street,EL,73,0,0,26,9,17,0
@@ -186,7 +186,7 @@ LS,LS-10,Lighting System,Lighting System for Area-05,EL,706,0,0,268,0,268,0
 LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,0,0,362,48,314,0
 LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,0,0,362,158,204,0
 LS,LS-13,Lighting System,Lighting System for Warehouse,EL,8,0,0,0,0,0,0
-LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,33,0,0,109,0,109,0
+LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,0,0,175,0,175,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,1179,0,0,0,0,0,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,CV,1,0,0,0,0,0,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,PI,7,0,0,0,0,0,0
