@@ -12,11 +12,11 @@
 1000,1000-04,Gas Preparation,Gas Station,IN,2,0,0,0,0,0,0
 1000,1000-04,Gas Preparation,Gas Station,PI,1,0,0,0,0,0,0
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,169,0,0,1244,723,521,0
-120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,308,0,0,1332,606,726,0
-120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,290,0,0,1141,436,705,0
+120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,308,0,0,1332,626,706,0
+120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,290,0,0,1141,442,699,0
 120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,264,0,0,1099,546,553,0
-120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,244,0,0,1093,515,578,0
-120,120-06,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-05,EL,222,0,0,1096,397,699,0
+120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,244,0,0,1093,523,570,0
+120,120-06,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-05,EL,222,0,0,1096,401,695,0
 120,120-07,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-ESWB3A/B-01,EL,147,0,0,491,151,340,0
 120,120-08,Electrical Distribution Substation,Emergency Diesel Generator SS-DG-5701,EL,8,0,0,0,0,0,0
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,EL,29,0,0,25,5,20,0
@@ -71,7 +71,7 @@
 4000,4000-02,Utility,HHP & HP & LP Steam,PI,62,33,0,170,10,160,3
 4000,4000-03,Utility,MP Steam,MES,1,0,0,0,0,0,0
 4000,4000-03,Utility,MP Steam,IN,56,0,0,18,0,18,0
-4000,4000-03,Utility,MP Steam,PI,5,5,0,37,6,31,0
+4000,4000-03,Utility,MP Steam,PI,5,5,0,37,8,29,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,0,0,6,0,6,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,0,0,0,0,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,47,27,0,114,59,55,2
@@ -95,7 +95,7 @@
 4000,4000-10,Utility,Sanitary Water Collection,MER,1,0,0,0,0,0,0
 4000,4000-10,Utility,Sanitary Water Collection,IN,12,0,0,0,0,0,0
 4000,4000-10,Utility,Sanitary Water Collection,PI,16,0,0,2,0,2,0
-4000,4000-11,Utility,Instrument Air,PI,11,8,0,10,4,6,1
+4000,4000-11,Utility,Instrument Air,PI,11,8,0,10,5,5,1
 4000,4000-11,Utility,Instrument Air,IN,69,0,0,0,0,0,21
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,MER,4,0,0,0,0,0,0
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,IN,25,0,0,0,0,0,0
@@ -143,7 +143,7 @@ BLD,BLD-06,Building,Warehouse Building,PI,3,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,CV,14,0,0,0,0,0,0
 BLD,BLD-07,Building,Analyzer House,CV,8,0,0,0,0,0,0
 DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2537,0,0,1574,0,1574,0
-ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,0,0,2190,1894,296,0
+ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,0,0,2190,2136,54,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,0,0,0,0,0,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,32,0,0,0,0,0,0
 ES,ES-04,Earthing System,Earthing & Roof Lightning System for Analyzer House,EL,11,0,0,0,0,0,0
@@ -175,7 +175,7 @@ HVAC,HVAC-03,HVAC System,HVAC for Laboratory & Yard Office,EL,1,0,0,0,0,0,0
 HVAC,HVAC-04,HVAC System,HVAC for Analyzer House,EL,1,0,0,0,0,0,0
 LS,LS-01,Lighting System,SS-MLP-01 for Normal Lighting System,EL,100,0,0,87,25,62,0
 LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,0,0,61,17,44,0
-LS,LS-03,Lighting System,Lighting System for Substation,EL,516,0,0,1699,1641,58,0
+LS,LS-03,Lighting System,Lighting System for Substation,EL,516,0,0,1699,1699,0,0
 LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,0,0,0,0,0,0
 LS,LS-05,Lighting System,Lighting System for Laboratory & Yard Office,EL,315,0,0,0,0,0,0
 LS,LS-06,Lighting System,Lighting System for Street,EL,73,0,0,26,9,17,0
