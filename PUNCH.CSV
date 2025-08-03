@@ -150,8 +150,6 @@ LS-08,EL,03-JB2_1-2-L3-05,Lighting Fixture,B,Cap JB shall be installed.,PL-09407
 LS-08,EL,03-JB2_1-2-L3-05,Lighting Fixture,B,Touch up  shall be done.,PL-09461
 LS-08,EL,03-JB2_1-2-L3-05-FJB01,Lighting Cable,B,Tag No shall be installed.,PL-09195
 LS-14,EL,03-JB2-2-L2-12-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21849
-LS-14,EL,03-JB2-2-L2-12-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21882
-LS-14,EL,03-JB2-2-L3-11-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21883
 LS-14,EL,03-JB2-2-L3-11-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21850
 LS-08,EL,03-RJB1_2-1-L2-02-FJB01,Lighting Cable,B,S.S CABLE TAGS SHOULD BE INSTALL.,PL-09146
 LS-08,EL,03-RJB1_2-1-L2-02-FJB01,Lighting Cable,B,Cable Arrangement shall be done.,PL-09147
@@ -1480,10 +1478,10 @@ TEL-07,EL,07-SP-15,Paging Device,A,Earth body shall be installed.,PL-17093
 2000-01,PI,2000-01-PMP-01-379,PI_TP,C,ALL INSTALLED VALVE SHALL BE LUBRICATE,PL-01970
 2000-01,PI,2000-01-PRC-01-837,PI_TP,C,GROUTING FOR SUPPORT SHALL BE COMPELETE,PL-12193
 2000-01,PI,2000-01-PRC-01-837,PI_TP,C,ORIFICE PLATE SHALL BE INSTALL,PL-12194
-2000-01,PI,2000-01-PRG-02-522,PI_TP,C,All spring supports should be installed and completed,PL-21426
-2000-01,PI,2000-01-PRG-02-522,PI_TP,C,Tie in joints no-001TN & 002TN muste be welded & NDT Also | history sheet updated and attached,PL-21427
 2000-01,PI,2000-01-PRG-02-522,PI_TP,C,instrument indicator shall be install,PL-17069
 2000-01,PI,2000-01-PRG-02-522,PI_TP,C,All valve shall be lubricate,PL-17070
+2000-01,PI,2000-01-PRG-02-522,PI_TP,C,All spring supports should be installed and completed,PL-21426
+2000-01,PI,2000-01-PRG-02-522,PI_TP,C,Tie in joints no-001TN & 002TN muste be welded & NDT Also | history sheet updated and attached,PL-21427
 2000-01,PI,2000-01-PRG-03-530,PI_TP,C,3-WAY IN LINE FZ 2233 SHALL BE INSTALL IN OPPOSITE LINE,PL-21916
 2000-01,PI,2000-01-PRG-03-530,PI_TP,C,INSTRUMENT TIC-2232 SHALL BE INSTALL,PL-21917
 2000-01,PI,2000-01-PRG-04-942,PI_TP,C,CHECK VALVE BOLT SHALL BE INSTALL. NIS,PL-01852
@@ -1656,11 +1654,11 @@ TEL-07,EL,07-SP-15,Paging Device,A,Earth body shall be installed.,PL-17093
 2000-05,PI,2000-05-SG-01-321,PI_TP,C,STUD BOLT 1.1/8*220-5PCS (GALV) SHALL BE INSTALL BEFOE PRECOMM NIS,PL-02276
 2000-05,PI,2000-05-SG-01-321,PI_TP,C,DEM WATER ANALYS SHALL BE ATTACH,PL-02277
 2000-05,PI,2000-05-SG-01-321,PI_TP,C,ALL VALVES SHALL BE LUBRICATE,PL-02278
+2000-05,PI,2000-05-SG-02-821,PI_TP,C,J:32ATN AND J:33ATN SHALL BE WELDED AND NDT DONE AND HISTORY CHANGED,PL-21668
 2000-05,PI,2000-05-SG-02-821,PI_TP,C,All installed valves shell be lubricated,PL-21416
 2000-05,PI,2000-05-SG-02-821,PI_TP,C,All instrument devices must be installed ( PIT-30182|30188|A|B|C & PIDT -30183 & FT-3020 & TE-30166 A|B|C & 30166 BA |BB| BC & TE-30165 A|B ),PL-21417
 2000-05,PI,2000-05-SG-02-821,PI_TP,C,The approved water (DEM) analysis shall be attached to the package,PL-21418
 2000-05,PI,2000-05-SG-02-821,PI_TP,C,joint no:26TN after connected to iso-34114 must be reported and history sheets updated and attached,PL-21419
-2000-05,PI,2000-05-SG-02-821,PI_TP,C,J:32ATN AND J:33ATN SHALL BE WELDED AND NDT DONE AND HISTORY CHANGED,PL-21668
 2000-05,PI,2000-05-SG-03-877,PI_TP,C,ORIFICE PLATE SHALL BE INSTALL,PL-02444
 2000-05,PI,2000-05-SG-03-877,PI_TP,C,DEM WATER ANALYSIS SHALL BE ATTACH,PL-02445
 2000-05,PI,2000-05-SG-03-877,PI_TP,C,ALL VALVES SHALL BE LUBRICATE,PL-02446
@@ -3255,140 +3253,30 @@ LS-02,EL,AH-EDP-01,Panel,A,Termination shall be done and connected.,PL-21155
 LS-02,EL,AH-EDP-01,Panel,A,Full bolt shall be done.,PL-21156
 LS-02,EL,AH-EDP-01,Panel,C,Cleaning  shall be done,PL-21157
 LS-02,EL,AH-EDP-01,Panel,A,EARTH  panel SHOULD BE installed.,PL-21158
-LS-14,EL,AH-EDP-01-1-L1-01,Lighting Fixture,B,Tag lighting shall be installed.,PL-21231
-LS-14,EL,AH-EDP-01-1-L1-01,Lighting Fixture,A,Termination and connection shall be done.,PL-21257
-LS-14,EL,AH-EDP-01-1-L1-01,Lighting Fixture,B,Touch up support for jb shall be done.,PL-21283
-LS-14,EL,AH-EDP-01-1-L1-01,Lighting Fixture,B,Head bushing shall be installed.,PL-21309
 LS-14,EL,AH-EDP-01-1-L1-01-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21831
-LS-14,EL,AH-EDP-01-1-L1-01-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21864
-LS-14,EL,AH-EDP-01-1-L1-02,Lighting Fixture,B,Head bushing shall be installed.,PL-21310
-LS-14,EL,AH-EDP-01-1-L1-02,Lighting Fixture,B,Touch up support for jb shall be done.,PL-21284
-LS-14,EL,AH-EDP-01-1-L1-02,Lighting Fixture,A,Termination and connection shall be done.,PL-21258
-LS-14,EL,AH-EDP-01-1-L1-02,Lighting Fixture,B,Tag lighting shall be installed.,PL-21232
-LS-14,EL,AH-EDP-01-1-L1-02-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21865
 LS-14,EL,AH-EDP-01-1-L1-02-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21832
-LS-14,EL,AH-EDP-01-1-L1-03,Lighting Fixture,B,Tag lighting shall be installed.,PL-21233
-LS-14,EL,AH-EDP-01-1-L1-03,Lighting Fixture,A,Termination and connection shall be done.,PL-21259
-LS-14,EL,AH-EDP-01-1-L1-03,Lighting Fixture,B,Touch up support for jb shall be done.,PL-21285
-LS-14,EL,AH-EDP-01-1-L1-03,Lighting Fixture,B,Head bushing shall be installed.,PL-21311
 LS-14,EL,AH-EDP-01-1-L1-03-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21833
-LS-14,EL,AH-EDP-01-1-L1-03-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21866
-LS-14,EL,AH-EDP-01-1-L1-04,Lighting Fixture,B,Head bushing shall be installed.,PL-21312
-LS-14,EL,AH-EDP-01-1-L1-04,Lighting Fixture,B,Touch up support for jb shall be done.,PL-21286
-LS-14,EL,AH-EDP-01-1-L1-04,Lighting Fixture,A,Termination and connection shall be done.,PL-21260
-LS-14,EL,AH-EDP-01-1-L1-04,Lighting Fixture,B,Tag lighting shall be installed.,PL-21234
-LS-14,EL,AH-EDP-01-1-L1-04-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21867
 LS-14,EL,AH-EDP-01-1-L1-04-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21834
-LS-14,EL,AH-EDP-01-1-L1-05,Lighting Fixture,B,Tag lighting shall be installed.,PL-21235
-LS-14,EL,AH-EDP-01-1-L1-05,Lighting Fixture,A,Termination and connection shall be done.,PL-21261
-LS-14,EL,AH-EDP-01-1-L1-05,Lighting Fixture,B,Touch up support for jb shall be done.,PL-21287
-LS-14,EL,AH-EDP-01-1-L1-05,Lighting Fixture,B,Head bushing shall be installed.,PL-21313
 LS-14,EL,AH-EDP-01-1-L1-05-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21835
-LS-14,EL,AH-EDP-01-1-L1-05-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21868
-LS-14,EL,AH-EDP-01-1-L1-06,Lighting Fixture,B,Head bushing shall be installed.,PL-21314
-LS-14,EL,AH-EDP-01-1-L1-06,Lighting Fixture,B,Touch up support for jb shall be done.,PL-21288
-LS-14,EL,AH-EDP-01-1-L1-06,Lighting Fixture,A,Termination and connection shall be done.,PL-21262
-LS-14,EL,AH-EDP-01-1-L1-06,Lighting Fixture,B,Tag lighting shall be installed.,PL-21236
-LS-14,EL,AH-EDP-01-1-L1-06-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21869
 LS-14,EL,AH-EDP-01-1-L1-06-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21836
-LS-14,EL,AH-EDP-01-2-L2-01,Lighting Fixture,B,Tag lighting shall be installed.,PL-21237
-LS-14,EL,AH-EDP-01-2-L2-01,Lighting Fixture,A,Termination and connection shall be done.,PL-21263
-LS-14,EL,AH-EDP-01-2-L2-01,Lighting Fixture,B,Touch up support for jb shall be done.,PL-21289
-LS-14,EL,AH-EDP-01-2-L2-01,Lighting Fixture,B,Head bushing shall be installed.,PL-21315
 LS-14,EL,AH-EDP-01-2-L2-01-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21837
-LS-14,EL,AH-EDP-01-2-L2-01-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21870
-LS-14,EL,AH-EDP-01-2-L2-02,Lighting Fixture,B,Head bushing shall be installed.,PL-21316
-LS-14,EL,AH-EDP-01-2-L2-02,Lighting Fixture,B,Touch up support for jb shall be done.,PL-21290
-LS-14,EL,AH-EDP-01-2-L2-02,Lighting Fixture,A,Termination and connection shall be done.,PL-21264
-LS-14,EL,AH-EDP-01-2-L2-02,Lighting Fixture,B,Tag lighting shall be installed.,PL-21238
-LS-14,EL,AH-EDP-01-2-L2-02-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21871
 LS-14,EL,AH-EDP-01-2-L2-02-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21838
-LS-14,EL,AH-EDP-01-2-L2-03,Lighting Fixture,B,Tag lighting shall be installed.,PL-21239
-LS-14,EL,AH-EDP-01-2-L2-03,Lighting Fixture,A,Termination and connection shall be done.,PL-21265
-LS-14,EL,AH-EDP-01-2-L2-03,Lighting Fixture,B,Touch up support for jb shall be done.,PL-21291
-LS-14,EL,AH-EDP-01-2-L2-03,Lighting Fixture,B,Head bushing shall be installed.,PL-21317
 LS-14,EL,AH-EDP-01-2-L2-03-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21839
-LS-14,EL,AH-EDP-01-2-L2-03-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21872
-LS-14,EL,AH-EDP-01-2-L2-04,Lighting Fixture,B,Head bushing shall be installed.,PL-21318
-LS-14,EL,AH-EDP-01-2-L2-04,Lighting Fixture,B,Touch up support for jb shall be done.,PL-21292
-LS-14,EL,AH-EDP-01-2-L2-04,Lighting Fixture,A,Termination and connection shall be done.,PL-21266
-LS-14,EL,AH-EDP-01-2-L2-04,Lighting Fixture,B,Tag lighting shall be installed.,PL-21240
-LS-14,EL,AH-EDP-01-2-L2-04-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21873
 LS-14,EL,AH-EDP-01-2-L2-04-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21840
-LS-14,EL,AH-EDP-01-2-L2-05,Lighting Fixture,B,Tag lighting shall be installed.,PL-21241
-LS-14,EL,AH-EDP-01-2-L2-05,Lighting Fixture,A,Termination and connection shall be done.,PL-21267
-LS-14,EL,AH-EDP-01-2-L2-05,Lighting Fixture,B,Touch up support for jb shall be done.,PL-21293
-LS-14,EL,AH-EDP-01-2-L2-05,Lighting Fixture,B,Head bushing shall be installed.,PL-21319
 LS-14,EL,AH-EDP-01-2-L2-05-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21841
-LS-14,EL,AH-EDP-01-2-L2-05-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21874
-LS-14,EL,AH-EDP-01-2-L2-06,Lighting Fixture,B,Head bushing shall be installed.,PL-21320
-LS-14,EL,AH-EDP-01-2-L2-06,Lighting Fixture,B,Touch up support for jb shall be done.,PL-21294
-LS-14,EL,AH-EDP-01-2-L2-06,Lighting Fixture,A,Termination and connection shall be done.,PL-21268
-LS-14,EL,AH-EDP-01-2-L2-06,Lighting Fixture,B,Tag lighting shall be installed.,PL-21242
-LS-14,EL,AH-EDP-01-2-L2-06-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21875
 LS-14,EL,AH-EDP-01-2-L2-06-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21842
-LS-14,EL,AH-EDP-01-3-L3-01,Lighting Fixture,B,Tag lighting shall be installed.,PL-21243
-LS-14,EL,AH-EDP-01-3-L3-01,Lighting Fixture,A,Termination and connection shall be done.,PL-21269
-LS-14,EL,AH-EDP-01-3-L3-01,Lighting Fixture,B,Touch up support for jb shall be done.,PL-21295
-LS-14,EL,AH-EDP-01-3-L3-01,Lighting Fixture,B,Head bushing shall be installed.,PL-21321
 LS-14,EL,AH-EDP-01-3-L3-01-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21843
-LS-14,EL,AH-EDP-01-3-L3-01-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21876
-LS-14,EL,AH-EDP-01-3-L3-02,Lighting Fixture,B,Head bushing shall be installed.,PL-21322
-LS-14,EL,AH-EDP-01-3-L3-02,Lighting Fixture,B,Touch up support for jb shall be done.,PL-21296
-LS-14,EL,AH-EDP-01-3-L3-02,Lighting Fixture,A,Termination and connection shall be done.,PL-21270
-LS-14,EL,AH-EDP-01-3-L3-02,Lighting Fixture,B,Tag lighting shall be installed.,PL-21244
-LS-14,EL,AH-EDP-01-3-L3-02-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21877
 LS-14,EL,AH-EDP-01-3-L3-02-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21844
-LS-14,EL,AH-EDP-01-3-L3-03,Lighting Fixture,B,Tag lighting shall be installed.,PL-21245
-LS-14,EL,AH-EDP-01-3-L3-03,Lighting Fixture,A,Termination and connection shall be done.,PL-21271
-LS-14,EL,AH-EDP-01-3-L3-03,Lighting Fixture,B,Touch up support for jb shall be done.,PL-21297
-LS-14,EL,AH-EDP-01-3-L3-03,Lighting Fixture,B,Head bushing shall be installed.,PL-21323
 LS-14,EL,AH-EDP-01-3-L3-03-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21845
-LS-14,EL,AH-EDP-01-3-L3-03-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21878
-LS-14,EL,AH-EDP-01-3-L3-04,Lighting Fixture,B,Head bushing shall be installed.,PL-21324
-LS-14,EL,AH-EDP-01-3-L3-04,Lighting Fixture,B,Touch up support for jb shall be done.,PL-21298
-LS-14,EL,AH-EDP-01-3-L3-04,Lighting Fixture,A,Termination and connection shall be done.,PL-21272
-LS-14,EL,AH-EDP-01-3-L3-04,Lighting Fixture,B,Tag lighting shall be installed.,PL-21246
-LS-14,EL,AH-EDP-01-3-L3-04-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21879
 LS-14,EL,AH-EDP-01-3-L3-04-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21846
-LS-14,EL,AH-EDP-01-3-L3-05,Lighting Fixture,B,Tag lighting shall be installed.,PL-21247
-LS-14,EL,AH-EDP-01-3-L3-05,Lighting Fixture,A,Termination and connection shall be done.,PL-21273
-LS-14,EL,AH-EDP-01-3-L3-05,Lighting Fixture,B,Touch up support for jb shall be done.,PL-21299
-LS-14,EL,AH-EDP-01-3-L3-05,Lighting Fixture,B,Head bushing shall be installed.,PL-21325
 LS-14,EL,AH-EDP-01-3-L3-05-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21847
-LS-14,EL,AH-EDP-01-3-L3-05-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21880
-LS-14,EL,AH-EDP-01-3-L3-06,Lighting Fixture,B,Head bushing shall be installed.,PL-21326
-LS-14,EL,AH-EDP-01-3-L3-06,Lighting Fixture,B,Touch up support for jb shall be done.,PL-21300
-LS-14,EL,AH-EDP-01-3-L3-06,Lighting Fixture,A,Termination and connection shall be done.,PL-21274
-LS-14,EL,AH-EDP-01-3-L3-06,Lighting Fixture,B,Tag lighting shall be installed.,PL-21248
-LS-14,EL,AH-EDP-01-3-L3-06-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21881
 LS-14,EL,AH-EDP-01-3-L3-06-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21848
-LS-14,EL,AH-EDP-01-5-L2-01,Socket Outlet,A,Termination shall be done and connected.,PL-21191
-LS-14,EL,AH-EDP-01-5-L2-01-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21857
 LS-14,EL,AH-EDP-01-5-L2-01-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21824
-LS-14,EL,AH-EDP-01-5-L2-02,Socket Outlet,A,Termination shall be done and connected.,PL-21192
 LS-14,EL,AH-EDP-01-5-L2-02-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21825
-LS-14,EL,AH-EDP-01-5-L2-02-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21858
-LS-14,EL,AH-EDP-01-5-L2-03,Socket Outlet,A,Termination shall be done and connected.,PL-21193
-LS-14,EL,AH-EDP-01-5-L2-03-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21859
 LS-14,EL,AH-EDP-01-5-L2-03-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21826
-LS-14,EL,AH-EDP-01-5-L2-04,Socket Outlet,A,Termination shall be done and connected.,PL-21194
 LS-14,EL,AH-EDP-01-5-L2-04-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21827
-LS-14,EL,AH-EDP-01-5-L2-04-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21860
-LS-14,EL,AH-EDP-01-5-L2-05,Socket Outlet,A,Termination shall be done and connected.,PL-21195
-LS-14,EL,AH-EDP-01-5-L2-05-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21861
 LS-14,EL,AH-EDP-01-5-L2-05-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21828
-LS-14,EL,AH-EJB1,Lighting Main JB,B,Tag lighting shall be installed.,PL-21249
-LS-14,EL,AH-EJB1,Lighting Main JB,A,Termination and connection shall be done.,PL-21275
-LS-14,EL,AH-EJB1,Lighting Main JB,B,Touch up support for jb shall be done.,PL-21301
-LS-14,EL,AH-EJB1,Lighting Main JB,B,Head bushing shall be installed.,PL-21327
 LS-14,EL,AH-EJB1-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21829
-LS-14,EL,AH-EJB1-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21862
-LS-14,EL,AH-EJB2,Lighting Main JB,B,Head bushing shall be installed.,PL-21328
-LS-14,EL,AH-EJB2,Lighting Main JB,B,Touch up support for jb shall be done.,PL-21302
-LS-14,EL,AH-EJB2,Lighting Main JB,A,Termination and connection shall be done.,PL-21276
-LS-14,EL,AH-EJB2,Lighting Main JB,B,Tag lighting shall be installed.,PL-21250
-LS-14,EL,AH-EJB2-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21863
 LS-14,EL,AH-EJB2-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21830
 BLD-01,PI,BLD-01-IG55-01-689,PI_TP,C,ALL SPARAY NOZZEL SHALL BE INSTALLED AFTER,PL-01749
 BLD-01,PI,BLD-01-IG55-01-689,PI_TP,C,ALL IG NOZZLE (INERT GAS) 360 DEGREE SHOULD BE INSTALLED BEFORE PRECOMM,PL-01750
@@ -6890,8 +6778,8 @@ LS-01,EL,EBP-YO-LP-01,Power Cable B,C,کليه داکت بانک ها بعد ا�
 120-01,EL,ECC-MF-2002-RTD1,Power Cable B,B,S.S tags shall be install.,PL-08079
 120-01,EL,ECC-MF-2002-RTD1,Power Cable B,C,As-Built Drawing Should be done.,PL-08097
 120-01,EL,ECC-MF-2002-RTD1,Power Cable B,C,کليه داکت بانک ها بعد از اتمام کابل کشي بايستي با اسپري فوم سيل شوند,PL-08072
-120-03,EL,ECC-MF-8001A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21669
 120-03,EL,ECC-MF-8001A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21682
+120-03,EL,ECC-MF-8001A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21669
 120-03,EL,ECC-MF-8001B_1,Power Cable B,C,Cleaning ladder shall be done.,PL-09140
 120-03,EL,ECC-MF-8001B_1,Power Cable B,A,Termination shall be done.,PL-09072
 120-03,EL,ECC-MF-8001B_1,Power Cable B,A,cable shall be fixed by clamp,PL-09106
@@ -6902,8 +6790,8 @@ LS-01,EL,EBP-YO-LP-01,Power Cable B,C,کليه داکت بانک ها بعد ا�
 120-03,EL,ECC-MF-8001C_1,Power Cable B,A,cable shall be fixed by clamp,PL-09107
 120-03,EL,ECC-MF-8001C_1,Power Cable B,A,Termination shall be done.,PL-09073
 120-03,EL,ECC-MF-8001C_1,Power Cable B,C,Cleaning ladder shall be done.,PL-09141
-120-03,EL,ECC-MF-8001D_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21683
 120-03,EL,ECC-MF-8001D_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21670
+120-03,EL,ECC-MF-8001D_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21683
 120-02,EL,ECC-MP-0001B_1,Power Cable B,C,Cleaning ladder shall be done.,PL-09122
 120-02,EL,ECC-MP-0001B_1,Power Cable B,A,cable shall be fixed by clamp,PL-09088
 120-02,EL,ECC-MP-0001B_1,Power Cable B,A,Termination shall be done.,PL-09054
@@ -7049,8 +6937,8 @@ LS-01,EL,EBP-YO-LP-01,Power Cable B,C,کليه داکت بانک ها بعد ا�
 120-03,EL,ECC-MP-7503B_1,Power Cable B,B,Cable Arrangement shall be done.,PL-09033
 120-03,EL,ECC-MP-7503B_1,Power Cable B,A,Termination shall be done.,PL-09067
 120-03,EL,ECC-MP-7503B_1,Power Cable B,B,Tag No shall be installed.,PL-08999
-120-03,EL,ECC-MP-7506A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21671
 120-03,EL,ECC-MP-7506A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21684
+120-03,EL,ECC-MP-7506A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21671
 120-03,EL,ECC-MP-7506B_1,Power Cable B,A,Termination shall be done.,PL-09071
 120-03,EL,ECC-MP-7506B_1,Power Cable B,B,Cable Arrangement shall be done.,PL-09037
 120-03,EL,ECC-MP-7506B_1,Power Cable B,B,Tag No shall be installed.,PL-09003
@@ -7086,12 +6974,12 @@ LS-01,EL,EBP-YO-LP-01,Power Cable B,C,کليه داکت بانک ها بعد ا�
 120-01,EL,ECC-MP-8001D-RTD1,Power Cable B,C,As-Built Drawing Should be done.,PL-04951
 120-01,EL,ECC-MP-8001D-RTD1,Power Cable B,B,S.S tags shall be install.,PL-04865
 120-01,EL,ECC-MP-8001D-RTD1,Power Cable B,C,کليه داکت بانک ها بعد از اتمام کابل کشي بايستي با اسپري فوم سيل شوند,PL-04822
-120-03,EL,ECC-MP-8403B_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21685
 120-03,EL,ECC-MP-8403B_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21672
-120-03,EL,ECC-MP-8404A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21673
+120-03,EL,ECC-MP-8403B_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21685
 120-03,EL,ECC-MP-8404A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21686
-120-03,EL,ECC-MP-8405A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21687
+120-03,EL,ECC-MP-8404A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21673
 120-03,EL,ECC-MP-8405A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21674
+120-03,EL,ECC-MP-8405A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21687
 120-02,EL,ECC-MX-7060_1,Power Cable B,A,cable shall be fixed by clamp,PL-09097
 120-02,EL,ECC-MX-7060_1,Power Cable B,C,Cleaning ladder shall be done.,PL-09131
 120-02,EL,ECC-MX-7060_1,Power Cable B,B,Cable Arrangement shall be done.,PL-09029
@@ -7107,40 +6995,40 @@ LS-01,EL,EBP-YO-LP-01,Power Cable B,C,کليه داکت بانک ها بعد ا�
 120-02,EL,ECC-P7001C-HE-1_1,Power Cable B,B,Cable Arrangement shall be done.,PL-09015
 120-02,EL,ECC-P7001C-HE-1_1,Power Cable B,A,Termination shall be done.,PL-09049
 120-02,EL,ECC-P7001C-HE-1_1,Power Cable B,B,Tag No shall be installed.,PL-08981
-120-03,EL,ECC-PK7502-MB-1A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21675
 120-03,EL,ECC-PK7502-MB-1A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21688
-120-03,EL,ECC-PK7502-MP-1A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21689
+120-03,EL,ECC-PK7502-MB-1A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21675
 120-03,EL,ECC-PK7502-MP-1A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21676
-120-03,EL,ECC-PK8002-MP-1A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21677
+120-03,EL,ECC-PK7502-MP-1A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21689
 120-03,EL,ECC-PK8002-MP-1A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21690
+120-03,EL,ECC-PK8002-MP-1A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21677
 120-03,EL,ECC-PK8002-MP-1B_1,Power Cable B,B,Cable Arrangement shall be done.,PL-09040
 120-03,EL,ECC-PK8002-MP-1B_1,Power Cable B,B,Tag No shall be installed.,PL-09006
 120-03,EL,ECC-PK8002-MP-1B_1,Power Cable B,C,Cleaning ladder shall be done.,PL-09142
 120-03,EL,ECC-PK8002-MP-1B_1,Power Cable B,A,Termination shall be done.,PL-09074
 120-03,EL,ECC-PK8002-MP-1B_1,Power Cable B,A,cable shall be fixed by clamp,PL-09108
-120-03,EL,ECC-PK8003-MP-1A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21691
 120-03,EL,ECC-PK8003-MP-1A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21678
+120-03,EL,ECC-PK8003-MP-1A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21691
 120-03,EL,ECC-PK8003-MP-1B_1,Power Cable B,A,cable shall be fixed by clamp,PL-09109
 120-03,EL,ECC-PK8003-MP-1B_1,Power Cable B,A,Termination shall be done.,PL-09075
 120-03,EL,ECC-PK8003-MP-1B_1,Power Cable B,C,Cleaning ladder shall be done.,PL-09143
 120-03,EL,ECC-PK8003-MP-1B_1,Power Cable B,B,Tag No shall be installed.,PL-09007
 120-03,EL,ECC-PK8003-MP-1B_1,Power Cable B,B,Cable Arrangement shall be done.,PL-09041
-120-03,EL,ECC-PK8004-MP-1A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21679
 120-03,EL,ECC-PK8004-MP-1A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21692
+120-03,EL,ECC-PK8004-MP-1A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21679
 120-03,EL,ECC-PK8004-MP-1B_1,Power Cable B,B,Cable Arrangement shall be done.,PL-09042
 120-03,EL,ECC-PK8004-MP-1B_1,Power Cable B,B,Tag No shall be installed.,PL-09008
 120-03,EL,ECC-PK8004-MP-1B_1,Power Cable B,C,Cleaning ladder shall be done.,PL-09144
 120-03,EL,ECC-PK8004-MP-1B_1,Power Cable B,A,Termination shall be done.,PL-09076
 120-03,EL,ECC-PK8004-MP-1B_1,Power Cable B,A,cable shall be fixed by clamp,PL-09110
-120-03,EL,ECC-PK8005-MP-1A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21693
 120-03,EL,ECC-PK8005-MP-1A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21680
+120-03,EL,ECC-PK8005-MP-1A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21693
 120-03,EL,ECC-PK8005-MP-1B_1,Power Cable B,A,cable shall be fixed by clamp,PL-09111
 120-03,EL,ECC-PK8005-MP-1B_1,Power Cable B,A,Termination shall be done.,PL-09077
 120-03,EL,ECC-PK8005-MP-1B_1,Power Cable B,C,Cleaning ladder shall be done.,PL-09145
 120-03,EL,ECC-PK8005-MP-1B_1,Power Cable B,B,Tag No shall be installed.,PL-09009
 120-03,EL,ECC-PK8005-MP-1B_1,Power Cable B,B,Cable Arrangement shall be done.,PL-09043
-120-03,EL,ECC-PK8401-MP-1A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21681
 120-03,EL,ECC-PK8401-MP-1A_1,Power Cable B,B,Cable Arrangement Shall Be Done.,PL-21694
+120-03,EL,ECC-PK8401-MP-1A_1,Power Cable B,B,Tag No (S.S) Shall Be Installed.,PL-21681
 120-01,EL,ECC-SS-NGR1A-01,Power Cable B,A,Termination shall be done.,PL-11859
 120-01,EL,ECC-SS-NGR1A-01,Power Cable B,B,Tag No shall be installed.,PL-11657
 120-01,EL,ECC-SS-NGR1A-01,Power Cable B,B,CABLE tag (S.S) shall be install.,PL-16717
@@ -7758,20 +7646,20 @@ FGS-04,IN,FGD-0018(NA),CABLE,B,Cable arrangement shall be done.,PL-17298
 FGS-04,IN,FGD-0018(NA),CABLE,B,فاشت فلزي از جنس S.S جهت نگهداري کابل,PL-17313
 FGS-04,IN,FGD-0018(NA),CABLE,B,جداسازي مسير کابل ارت,PL-17328
 2000-03,IN,FST-2040A(FST),Instrument(FST),C,Preservation Should Be Done.,PL-21617
-2000-03,IN,FST-2040A(FST),Instrument(FST),A,S.S Cap Should Be Install.,PL-21605
-2000-03,IN,FST-2040A(FST),Instrument(FST),A,Hook Up Should Be Install.,PL-21611
 2000-03,IN,FST-2040A(FST),Instrument(FST),C,Touch Up Support Should Be Done.,PL-21593
 2000-03,IN,FST-2040A(FST),Instrument(FST),A,Termination And Gland Should Be Done.,PL-21599
-2000-03,IN,FST-2040B(FST),Instrument(FST),A,Termination And Gland Should Be Done.,PL-21600
-2000-03,IN,FST-2040B(FST),Instrument(FST),C,Touch Up Support Should Be Done.,PL-21594
+2000-03,IN,FST-2040A(FST),Instrument(FST),A,S.S Cap Should Be Install.,PL-21605
+2000-03,IN,FST-2040A(FST),Instrument(FST),A,Hook Up Should Be Install.,PL-21611
 2000-03,IN,FST-2040B(FST),Instrument(FST),A,Hook Up Should Be Install.,PL-21612
 2000-03,IN,FST-2040B(FST),Instrument(FST),A,S.S Cap Should Be Install.,PL-21606
+2000-03,IN,FST-2040B(FST),Instrument(FST),A,Termination And Gland Should Be Done.,PL-21600
+2000-03,IN,FST-2040B(FST),Instrument(FST),C,Touch Up Support Should Be Done.,PL-21594
 2000-03,IN,FST-2040B(FST),Instrument(FST),C,Preservation Should Be Done.,PL-21618
 2000-03,IN,FST-2040C(FST),Instrument(FST),C,Preservation Should Be Done.,PL-21619
-2000-03,IN,FST-2040C(FST),Instrument(FST),A,S.S Cap Should Be Install.,PL-21607
-2000-03,IN,FST-2040C(FST),Instrument(FST),A,Hook Up Should Be Install.,PL-21613
 2000-03,IN,FST-2040C(FST),Instrument(FST),C,Touch Up Support Should Be Done.,PL-21595
 2000-03,IN,FST-2040C(FST),Instrument(FST),A,Termination And Gland Should Be Done.,PL-21601
+2000-03,IN,FST-2040C(FST),Instrument(FST),A,S.S Cap Should Be Install.,PL-21607
+2000-03,IN,FST-2040C(FST),Instrument(FST),A,Hook Up Should Be Install.,PL-21613
 4000-08,IN,FT-0001(FT),Instrument(FT),A,Earth should be done.,PL-16492
 4000-08,IN,FT-0001(FT),Instrument(FT),C,Touch up should be done.,PL-16497
 4000-08,IN,FT-0001(FT),Instrument(FT),A,Sun shade should be install.,PL-16502
@@ -7788,34 +7676,34 @@ FGS-04,IN,FGD-0018(NA),CABLE,B,جداسازي مسير کابل ارت,PL-17328
 2000-03,IN,FT-2009(FT),Instrument(FT),C,Touch Up Should Be Done.,PL-21751
 2000-03,IN,FT-2009(FT),Instrument(FT),A,S.S Cap Should Be Install,PL-21763
 2000-03,IN,FT-2009(FT),Instrument(FT),A,Hook Up Should Be Install.,PL-21775
+2000-04,IN,FT-2372(FT),Instrument(FT),A,Hook Up Should Be Install.,PL-21785
 2000-04,IN,FT-2372(FT),Instrument(FT),C,Touch Up Should Be Done.,PL-21761
 2000-04,IN,FT-2372(FT),Instrument(FT),A,S.S Cap Should Be Install,PL-21773
-2000-04,IN,FT-2372(FT),Instrument(FT),A,Hook Up Should Be Install.,PL-21785
 2000-04,IN,FT-2372(FT),Instrument(FT),A,Sun Shade Should Be Install,PL-21749
-2000-04,IN,FT-2417(FT),Instrument(FT),A,Drain and tube shall be installed.,PL-21413
-2000-04,IN,FT-2417(FT),Instrument(FT),A,Check conformity with hook up.,PL-21404
-2000-04,IN,FT-2417(FT),Instrument(FT),C,Sun shade shall be installed.,PL-21368
-2000-04,IN,FT-2417(FT),Instrument(FT),B,Support Of Tube shall be done.,PL-21377
-2000-04,IN,FT-2417(FT),Instrument(FT),C,Grout shall be done.,PL-21386
-2000-04,IN,FT-2417(FT),Instrument(FT),B,U Bolt(H.D.G) shall be Changed by u bolt (S.S),PL-21395
 2000-04,IN,FT-2417(FT),Instrument(FT),A,Earth shall be complete.,PL-21341
 2000-04,IN,FT-2417(FT),Instrument(FT),A,Hook Up shall be complete.,PL-21350
 2000-04,IN,FT-2417(FT),Instrument(FT),B,Touch up support shall be done.,PL-21359
+2000-04,IN,FT-2417(FT),Instrument(FT),C,Sun shade shall be installed.,PL-21368
+2000-04,IN,FT-2417(FT),Instrument(FT),A,Drain and tube shall be installed.,PL-21413
+2000-04,IN,FT-2417(FT),Instrument(FT),B,Support Of Tube shall be done.,PL-21377
+2000-04,IN,FT-2417(FT),Instrument(FT),C,Grout shall be done.,PL-21386
+2000-04,IN,FT-2417(FT),Instrument(FT),B,U Bolt(H.D.G) shall be Changed by u bolt (S.S),PL-21395
+2000-04,IN,FT-2417(FT),Instrument(FT),A,Check conformity with hook up.,PL-21404
 2000-05,IN,FT-2476(FT),Instrument(FT),A,Earth should be done,PL-16057
 2000-05,IN,FT-2476(FT),Instrument(FT),C,touch up should be done.,PL-16068
 2000-05,IN,FT-2476(FT),Instrument(FT),B,S.S tag should be install.,PL-16079
 2000-05,IN,FT-2476(FT),Instrument(FT),A,Termination should be done.,PL-16090
 2000-05,IN,FT-2476(FT),Instrument(FT),A,Gland should be done.,PL-16101
 2000-05,IN,FT-2476(FT),Instrument(FT),A,Tube should be done.,PL-16112
-1000-02,IN,FT-2536(FT),Instrument(FT),B,Touch up support shall be done.,PL-21357
-1000-02,IN,FT-2536(FT),Instrument(FT),A,Hook Up shall be complete.,PL-21348
-1000-02,IN,FT-2536(FT),Instrument(FT),A,Earth shall be complete.,PL-21339
+1000-02,IN,FT-2536(FT),Instrument(FT),A,Check conformity with hook up.,PL-21402
 1000-02,IN,FT-2536(FT),Instrument(FT),B,U Bolt(H.D.G) shall be Changed by u bolt (S.S),PL-21393
 1000-02,IN,FT-2536(FT),Instrument(FT),C,Grout shall be done.,PL-21384
 1000-02,IN,FT-2536(FT),Instrument(FT),B,Support Of Tube shall be done.,PL-21375
-1000-02,IN,FT-2536(FT),Instrument(FT),C,Sun shade shall be installed.,PL-21366
-1000-02,IN,FT-2536(FT),Instrument(FT),A,Check conformity with hook up.,PL-21402
 1000-02,IN,FT-2536(FT),Instrument(FT),A,Drain and tube shall be installed.,PL-21411
+1000-02,IN,FT-2536(FT),Instrument(FT),C,Sun shade shall be installed.,PL-21366
+1000-02,IN,FT-2536(FT),Instrument(FT),B,Touch up support shall be done.,PL-21357
+1000-02,IN,FT-2536(FT),Instrument(FT),A,Hook Up shall be complete.,PL-21348
+1000-02,IN,FT-2536(FT),Instrument(FT),A,Earth shall be complete.,PL-21339
 3000-03,IN,FT-2607(FT),Instrument(FT),A,Tube should be done.,PL-16114
 3000-03,IN,FT-2607(FT),Instrument(FT),A,Gland should be done.,PL-16103
 3000-03,IN,FT-2607(FT),Instrument(FT),A,Termination should be done.,PL-16092
@@ -7901,17 +7789,17 @@ FGS-04,IN,FGD-0018(NA),CABLE,B,جداسازي مسير کابل ارت,PL-17328
 4000-04,IN,FT-6060(FT),Instrument(FT),A,Earth shall be complete.,PL-21343
 4000-04,IN,FT-6060(FT),Instrument(FT),A,Hook Up shall be complete.,PL-21352
 4000-04,IN,FT-6060(FT),Instrument(FT),B,Touch up support shall be done.,PL-21361
-4000-04,IN,FT-6060(FT),Instrument(FT),A,Check conformity with hook up.,PL-21406
-4000-04,IN,FT-6060(FT),Instrument(FT),A,Drain and tube shall be installed.,PL-21415
 4000-04,IN,FT-6060(FT),Instrument(FT),C,Sun shade shall be installed.,PL-21370
+4000-04,IN,FT-6060(FT),Instrument(FT),A,Drain and tube shall be installed.,PL-21415
 4000-04,IN,FT-6060(FT),Instrument(FT),B,Support Of Tube shall be done.,PL-21379
 4000-04,IN,FT-6060(FT),Instrument(FT),C,Grout shall be done.,PL-21388
 4000-04,IN,FT-6060(FT),Instrument(FT),B,U Bolt(H.D.G) shall be Changed by u bolt (S.S),PL-21397
+4000-04,IN,FT-6060(FT),Instrument(FT),A,Check conformity with hook up.,PL-21406
 1000-03,IN,FT-6081(FT),Instrument(FT),A,Hook Up Should Install.,PL-21434
-1000-03,IN,FT-6081(FT),Instrument(FT),A,Termination And Gland Should Be Done.,PL-21428
 1000-03,IN,FT-6081(FT),Instrument(FT),A,Earth Should Be Done.,PL-21440
-1000-03,IN,FT-6082(FT),Instrument(FT),A,Earth Should Be Done.,PL-21441
+1000-03,IN,FT-6081(FT),Instrument(FT),A,Termination And Gland Should Be Done.,PL-21428
 1000-03,IN,FT-6082(FT),Instrument(FT),A,Termination And Gland Should Be Done.,PL-21429
+1000-03,IN,FT-6082(FT),Instrument(FT),A,Earth Should Be Done.,PL-21441
 1000-03,IN,FT-6082(FT),Instrument(FT),A,Hook Up Should Install.,PL-21435
 4000-02,IN,FT-7001(FT),Instrument(FT),B,S.S tag should be install.,PL-16088
 4000-02,IN,FT-7001(FT),Instrument(FT),A,Earth should be done,PL-16066
@@ -7931,21 +7819,21 @@ FGS-04,IN,FGD-0018(NA),CABLE,B,جداسازي مسير کابل ارت,PL-17328
 4000-02,IN,FT-7030(FT),Instrument(FT),A,Termination should be done.,PL-15969
 4000-02,IN,FT-7030(FT),Instrument(FT),C,Touch up should be done.,PL-15965
 4000-02,IN,FT-7030(FT),Instrument(FT),A,GLAND should be done.,PL-15973
-1000-03,IN,FT-7101(FT),Instrument(FT),A,Earth should be done.,PL-21196
 1000-03,IN,FT-7101(FT),Instrument(FT),A,Termination should be done.,PL-21202
 1000-03,IN,FT-7101(FT),Instrument(FT),A,Gland should be done.,PL-21208
 1000-03,IN,FT-7101(FT),Instrument(FT),A,Tube should be install.,PL-21214
 1000-03,IN,FT-7101(FT),Instrument(FT),C,Grout should be done.,PL-21220
+1000-03,IN,FT-7101(FT),Instrument(FT),A,Earth should be done.,PL-21196
+4000-02,IN,FT-7129(FT),Instrument(FT),A,Earth should be done.,PL-21197
 4000-02,IN,FT-7129(FT),Instrument(FT),C,Grout should be done.,PL-21221
 4000-02,IN,FT-7129(FT),Instrument(FT),A,Tube should be install.,PL-21215
 4000-02,IN,FT-7129(FT),Instrument(FT),A,Gland should be done.,PL-21209
 4000-02,IN,FT-7129(FT),Instrument(FT),A,Termination should be done.,PL-21203
-4000-02,IN,FT-7129(FT),Instrument(FT),A,Earth should be done.,PL-21197
-4000-02,IN,FT-7134(FT),Instrument(FT),A,Earth should be done.,PL-21198
 4000-02,IN,FT-7134(FT),Instrument(FT),A,Termination should be done.,PL-21204
 4000-02,IN,FT-7134(FT),Instrument(FT),A,Gland should be done.,PL-21210
 4000-02,IN,FT-7134(FT),Instrument(FT),A,Tube should be install.,PL-21216
 4000-02,IN,FT-7134(FT),Instrument(FT),C,Grout should be done.,PL-21222
+4000-02,IN,FT-7134(FT),Instrument(FT),A,Earth should be done.,PL-21198
 4000-04,IN,FT-7141(FT),Instrument(FT),C,Touch up should be done.,PL-16310
 4000-04,IN,FT-7141(FT),Instrument(FT),A,Earth should be done.,PL-16306
 4000-04,IN,FT-7141(FT),Instrument(FT),A,Tube should be done.,PL-16308
@@ -9204,37 +9092,37 @@ DCS-01,IN,LHSP-9001,CABLE,B,Tag no(s.s) shall be install.,PL-07216
 5000-01,IN,LI1-5001(NA),CABLE,A,Earth jumper shall be install.,PL-17375
 5000-01,IN,LI1-5001(NA),CABLE,A,Termination shall be done.,PL-17345
 5000-01,IN,LI1-5001(NA),CABLE,B,Cable arrangement shall be done.,PL-17332
+1000-01,IN,LST-1004A(LST),Instrument(LST),A,Preservation should be done.,PL-21563
+1000-01,IN,LST-1004A(LST),Instrument(LST),A,Termination and gland should be done.,PL-21578
 1000-01,IN,LST-1004A(LST),Instrument(LST),C,Touch up support should be done.,PL-21503
 1000-01,IN,LST-1004A(LST),Instrument(LST),A,Hook up should be install.,PL-21518
 1000-01,IN,LST-1004A(LST),Instrument(LST),C,Grout should be done.,PL-21533
-1000-01,IN,LST-1004A(LST),Instrument(LST),A,Termination and gland should be done.,PL-21578
 1000-01,IN,LST-1004A(LST),Instrument(LST),C,S.S cap should be install.,PL-21548
-1000-01,IN,LST-1004A(LST),Instrument(LST),A,Preservation should be done.,PL-21563
-1000-01,IN,LST-1004B(LST),Instrument(LST),A,Preservation should be done.,PL-21564
 1000-01,IN,LST-1004B(LST),Instrument(LST),C,S.S cap should be install.,PL-21549
-1000-01,IN,LST-1004B(LST),Instrument(LST),A,Termination and gland should be done.,PL-21579
 1000-01,IN,LST-1004B(LST),Instrument(LST),C,Grout should be done.,PL-21534
 1000-01,IN,LST-1004B(LST),Instrument(LST),A,Hook up should be install.,PL-21519
 1000-01,IN,LST-1004B(LST),Instrument(LST),C,Touch up support should be done.,PL-21504
+1000-01,IN,LST-1004B(LST),Instrument(LST),A,Termination and gland should be done.,PL-21579
+1000-01,IN,LST-1004B(LST),Instrument(LST),A,Preservation should be done.,PL-21564
+1000-01,IN,LST-1004C(LST),Instrument(LST),A,Preservation should be done.,PL-21565
+1000-01,IN,LST-1004C(LST),Instrument(LST),A,Termination and gland should be done.,PL-21580
 1000-01,IN,LST-1004C(LST),Instrument(LST),C,Touch up support should be done.,PL-21505
 1000-01,IN,LST-1004C(LST),Instrument(LST),A,Hook up should be install.,PL-21520
 1000-01,IN,LST-1004C(LST),Instrument(LST),C,Grout should be done.,PL-21535
-1000-01,IN,LST-1004C(LST),Instrument(LST),A,Termination and gland should be done.,PL-21580
 1000-01,IN,LST-1004C(LST),Instrument(LST),C,S.S cap should be install.,PL-21550
-1000-01,IN,LST-1004C(LST),Instrument(LST),A,Preservation should be done.,PL-21565
 3000-02,IN,LST-3042A(LST),Instrument(LST),A,Earth should be done.,PL-16377
 3000-02,IN,LST-3042A(LST),Instrument(LST),A,Gland should be done.,PL-16381
 3000-02,IN,LST-3042A(LST),Instrument(LST),A,Tube should be done.,PL-16389
 3000-02,IN,LST-3042A(LST),Instrument(LST),C,Touch up should be done.,PL-16385
 3000-02,IN,LST-3042B(LST),Instrument(LST),A,S.S Cap Should Be Install.,PL-21734
-3000-02,IN,LST-3042B(LST),Instrument(LST),C,Preservation Should Be Done,PL-21714
-3000-02,IN,LST-3042B(LST),Instrument(LST),A,Hook Up Should Be Install.,PL-21719
 3000-02,IN,LST-3042B(LST),Instrument(LST),C,Touch Up Should Be Done.,PL-21724
 3000-02,IN,LST-3042B(LST),Instrument(LST),A,Sun Shade Should Be Install.,PL-21729
-3000-02,IN,LST-3042C(LST),Instrument(LST),A,Sun Shade Should Be Install.,PL-21730
-3000-02,IN,LST-3042C(LST),Instrument(LST),C,Touch Up Should Be Done.,PL-21725
+3000-02,IN,LST-3042B(LST),Instrument(LST),C,Preservation Should Be Done,PL-21714
+3000-02,IN,LST-3042B(LST),Instrument(LST),A,Hook Up Should Be Install.,PL-21719
 3000-02,IN,LST-3042C(LST),Instrument(LST),A,Hook Up Should Be Install.,PL-21720
 3000-02,IN,LST-3042C(LST),Instrument(LST),C,Preservation Should Be Done,PL-21715
+3000-02,IN,LST-3042C(LST),Instrument(LST),A,Sun Shade Should Be Install.,PL-21730
+3000-02,IN,LST-3042C(LST),Instrument(LST),C,Touch Up Should Be Done.,PL-21725
 3000-02,IN,LST-3042C(LST),Instrument(LST),A,S.S Cap Should Be Install.,PL-21735
 5000-01,IN,LST-5002(NA),CABLE,B,Cable arrangement shall be done.,PL-17333
 5000-01,IN,LST-5002(NA),CABLE,A,Termination shall be done.,PL-17346
@@ -9257,18 +9145,18 @@ DCS-01,IN,LHSP-9001,CABLE,B,Tag no(s.s) shall be install.,PL-07216
 5000-03,IN,LST-5271(NA),CABLE,B,Tag No (S.S) shall be installed.,PL-17719
 5000-03,IN,LST-5271(NA),CABLE,A,Termination shall be done.,PL-17736
 5000-03,IN,LST-5271(NA),CABLE,A,Test shall be done.,PL-17753
-1000-03,IN,LST-6022-1(LST),Instrument(LST),B,Touch Up Support Should Be Done.,PL-21487
-1000-03,IN,LST-6022-1(LST),Instrument(LST),A,Sun Shade Should Be Install.,PL-21495
 1000-03,IN,LST-6022-1(LST),Instrument(LST),A,Termination And Gland Should Be Done.,PL-21455
 1000-03,IN,LST-6022-1(LST),Instrument(LST),A,S.S Cap Should Be Install.,PL-21463
 1000-03,IN,LST-6022-1(LST),Instrument(LST),B,Full Bolt Should Be Done.,PL-21471
 1000-03,IN,LST-6022-1(LST),Instrument(LST),A,Hook Up Should Be Install,PL-21479
+1000-03,IN,LST-6022-1(LST),Instrument(LST),B,Touch Up Support Should Be Done.,PL-21487
+1000-03,IN,LST-6022-1(LST),Instrument(LST),A,Sun Shade Should Be Install.,PL-21495
+1000-03,IN,LST-6022-2(LST),Instrument(LST),A,Sun Shade Should Be Install.,PL-21496
+1000-03,IN,LST-6022-2(LST),Instrument(LST),B,Touch Up Support Should Be Done.,PL-21488
 1000-03,IN,LST-6022-2(LST),Instrument(LST),A,Hook Up Should Be Install,PL-21480
 1000-03,IN,LST-6022-2(LST),Instrument(LST),B,Full Bolt Should Be Done.,PL-21472
 1000-03,IN,LST-6022-2(LST),Instrument(LST),A,S.S Cap Should Be Install.,PL-21464
 1000-03,IN,LST-6022-2(LST),Instrument(LST),A,Termination And Gland Should Be Done.,PL-21456
-1000-03,IN,LST-6022-2(LST),Instrument(LST),A,Sun Shade Should Be Install.,PL-21496
-1000-03,IN,LST-6022-2(LST),Instrument(LST),B,Touch Up Support Should Be Done.,PL-21488
 5000-01,IN,LT-5001(NA),CABLE,B,Tag no shall be install.,PL-17360
 5000-01,IN,LT-5001(NA),CABLE,A,Earth jumper shall be install.,PL-17377
 5000-01,IN,LT-5001(NA),CABLE,A,Termination shall be done.,PL-17347
@@ -9290,18 +9178,18 @@ DCS-01,IN,LHSP-9001,CABLE,B,Tag no(s.s) shall be install.,PL-07216
 5000-03,IN,LT-5270(NA),CABLE,B,Cable arrangement shall be done.,PL-17703
 5000-03,IN,LT-5270(NA),CABLE,A,Test shall be done.,PL-17754
 5000-03,IN,LT-5270(NA),CABLE,A,Termination shall be done.,PL-17737
-1000-03,IN,LT-6021(LT),Instrument(LT),B,Touch Up Support Should Be Done.,PL-21489
-1000-03,IN,LT-6021(LT),Instrument(LT),A,Sun Shade Should Be Install.,PL-21497
 1000-03,IN,LT-6021(LT),Instrument(LT),A,Termination And Gland Should Be Done.,PL-21457
 1000-03,IN,LT-6021(LT),Instrument(LT),A,S.S Cap Should Be Install.,PL-21465
 1000-03,IN,LT-6021(LT),Instrument(LT),B,Full Bolt Should Be Done.,PL-21473
 1000-03,IN,LT-6021(LT),Instrument(LT),A,Hook Up Should Be Install,PL-21481
+1000-03,IN,LT-6021(LT),Instrument(LT),B,Touch Up Support Should Be Done.,PL-21489
+1000-03,IN,LT-6021(LT),Instrument(LT),A,Sun Shade Should Be Install.,PL-21497
+1000-03,IN,LT-6082(LT),Instrument(LT),A,Sun Shade Should Be Install.,PL-21498
+1000-03,IN,LT-6082(LT),Instrument(LT),B,Touch Up Support Should Be Done.,PL-21490
 1000-03,IN,LT-6082(LT),Instrument(LT),A,Hook Up Should Be Install,PL-21482
 1000-03,IN,LT-6082(LT),Instrument(LT),B,Full Bolt Should Be Done.,PL-21474
 1000-03,IN,LT-6082(LT),Instrument(LT),A,S.S Cap Should Be Install.,PL-21466
 1000-03,IN,LT-6082(LT),Instrument(LT),A,Termination And Gland Should Be Done.,PL-21458
-1000-03,IN,LT-6082(LT),Instrument(LT),A,Sun Shade Should Be Install.,PL-21498
-1000-03,IN,LT-6082(LT),Instrument(LT),B,Touch Up Support Should Be Done.,PL-21490
 120-05,EL,MAE-2026-01,Local_Control_Station,C,Preservation  تجهيز انجام شود,PL-10353
 120-05,EL,MAE-2026-02,Local_Control_Station,C,Preservation  تجهيز انجام شود,PL-10799
 120-05,EL,MAE-2026-02,Local_Control_Station,A,سربندي تجهيز انجام شود,PL-10800
@@ -9632,39 +9520,39 @@ DCS-01,IN,LHSP-9001,CABLE,B,Tag no(s.s) shall be install.,PL-07216
 120-07,EL,P7001C-MP-1B,Local_Control_Station,C,Preservation shall be done.,PL-17056
 120-07,EL,P7001C-MP-1B,Local_Control_Station,C,Preservation  تجهيز انجام شود,PL-10573
 120-07,EL,P7001C-MP-1B,Local_Control_Station,A,سربندي تجهيز انجام شود,PL-10576
-2000-03,IN,PDST-2036A(PDST),Instrument(PDST),A,Termination And Gland Should Be Done.,PL-21602
-2000-03,IN,PDST-2036A(PDST),Instrument(PDST),C,Touch Up Support Should Be Done.,PL-21596
 2000-03,IN,PDST-2036A(PDST),Instrument(PDST),A,Hook Up Should Be Install.,PL-21614
 2000-03,IN,PDST-2036A(PDST),Instrument(PDST),A,S.S Cap Should Be Install.,PL-21608
+2000-03,IN,PDST-2036A(PDST),Instrument(PDST),A,Termination And Gland Should Be Done.,PL-21602
+2000-03,IN,PDST-2036A(PDST),Instrument(PDST),C,Touch Up Support Should Be Done.,PL-21596
 2000-03,IN,PDST-2036A(PDST),Instrument(PDST),C,Preservation Should Be Done.,PL-21620
 2000-03,IN,PDST-2036B(PDST),Instrument(PDST),C,Preservation Should Be Done.,PL-21621
-2000-03,IN,PDST-2036B(PDST),Instrument(PDST),A,S.S Cap Should Be Install.,PL-21609
-2000-03,IN,PDST-2036B(PDST),Instrument(PDST),A,Hook Up Should Be Install.,PL-21615
 2000-03,IN,PDST-2036B(PDST),Instrument(PDST),C,Touch Up Support Should Be Done.,PL-21597
 2000-03,IN,PDST-2036B(PDST),Instrument(PDST),A,Termination And Gland Should Be Done.,PL-21603
-2000-03,IN,PDST-2036C(PDST),Instrument(PDST),A,Termination And Gland Should Be Done.,PL-21604
-2000-03,IN,PDST-2036C(PDST),Instrument(PDST),C,Touch Up Support Should Be Done.,PL-21598
+2000-03,IN,PDST-2036B(PDST),Instrument(PDST),A,S.S Cap Should Be Install.,PL-21609
+2000-03,IN,PDST-2036B(PDST),Instrument(PDST),A,Hook Up Should Be Install.,PL-21615
 2000-03,IN,PDST-2036C(PDST),Instrument(PDST),A,Hook Up Should Be Install.,PL-21616
 2000-03,IN,PDST-2036C(PDST),Instrument(PDST),A,S.S Cap Should Be Install.,PL-21610
+2000-03,IN,PDST-2036C(PDST),Instrument(PDST),A,Termination And Gland Should Be Done.,PL-21604
+2000-03,IN,PDST-2036C(PDST),Instrument(PDST),C,Touch Up Support Should Be Done.,PL-21598
 2000-03,IN,PDST-2036C(PDST),Instrument(PDST),C,Preservation Should Be Done.,PL-21622
+1000-01,IN,PDT-1032(PDT),Instrument(PDT),A,Earth shall be complete.,PL-21335
+1000-01,IN,PDT-1032(PDT),Instrument(PDT),B,Support Of Tube shall be done.,PL-21371
+1000-01,IN,PDT-1032(PDT),Instrument(PDT),C,Sun shade shall be installed.,PL-21362
+1000-01,IN,PDT-1032(PDT),Instrument(PDT),B,Touch up support shall be done.,PL-21353
+1000-01,IN,PDT-1032(PDT),Instrument(PDT),A,Hook Up shall be complete.,PL-21344
 1000-01,IN,PDT-1032(PDT),Instrument(PDT),A,Drain and tube shall be installed.,PL-21407
 1000-01,IN,PDT-1032(PDT),Instrument(PDT),A,Check conformity with hook up.,PL-21398
 1000-01,IN,PDT-1032(PDT),Instrument(PDT),B,U Bolt(H.D.G) shall be Changed by u bolt (S.S),PL-21389
 1000-01,IN,PDT-1032(PDT),Instrument(PDT),C,Grout shall be done.,PL-21380
-1000-01,IN,PDT-1032(PDT),Instrument(PDT),B,Support Of Tube shall be done.,PL-21371
-1000-01,IN,PDT-1032(PDT),Instrument(PDT),A,Earth shall be complete.,PL-21335
-1000-01,IN,PDT-1032(PDT),Instrument(PDT),A,Hook Up shall be complete.,PL-21344
-1000-01,IN,PDT-1032(PDT),Instrument(PDT),C,Sun shade shall be installed.,PL-21362
-1000-01,IN,PDT-1032(PDT),Instrument(PDT),B,Touch up support shall be done.,PL-21353
-2000-02,IN,PDT-2252(PDT),Instrument(PDT),A,Hook Up shall be complete.,PL-21349
-2000-02,IN,PDT-2252(PDT),Instrument(PDT),B,Touch up support shall be done.,PL-21358
-2000-02,IN,PDT-2252(PDT),Instrument(PDT),A,Earth shall be complete.,PL-21340
-2000-02,IN,PDT-2252(PDT),Instrument(PDT),C,Sun shade shall be installed.,PL-21367
 2000-02,IN,PDT-2252(PDT),Instrument(PDT),B,Support Of Tube shall be done.,PL-21376
 2000-02,IN,PDT-2252(PDT),Instrument(PDT),C,Grout shall be done.,PL-21385
 2000-02,IN,PDT-2252(PDT),Instrument(PDT),B,U Bolt(H.D.G) shall be Changed by u bolt (S.S),PL-21394
 2000-02,IN,PDT-2252(PDT),Instrument(PDT),A,Check conformity with hook up.,PL-21403
 2000-02,IN,PDT-2252(PDT),Instrument(PDT),A,Drain and tube shall be installed.,PL-21412
+2000-02,IN,PDT-2252(PDT),Instrument(PDT),A,Earth shall be complete.,PL-21340
+2000-02,IN,PDT-2252(PDT),Instrument(PDT),A,Hook Up shall be complete.,PL-21349
+2000-02,IN,PDT-2252(PDT),Instrument(PDT),B,Touch up support shall be done.,PL-21358
+2000-02,IN,PDT-2252(PDT),Instrument(PDT),C,Sun shade shall be installed.,PL-21367
 3000-02,IN,PDT-3112(PDT),Instrument(PDT),C,Touch up should be done.,PL-16386
 3000-02,IN,PDT-3112(PDT),Instrument(PDT),A,Tube should be done.,PL-16390
 3000-02,IN,PDT-3112(PDT),Instrument(PDT),A,Gland should be done.,PL-16382
@@ -9729,10 +9617,10 @@ DCS-01,IN,LHSP-9001,CABLE,B,Tag no(s.s) shall be install.,PL-07216
 120-03,EL,PK8401-MP-2B,Local_Control_Station,C,Preservation shall be done.,PL-16991
 120-03,EL,PK8401-MP-2B,Local_Control_Station,C,Cleaning shall be done.,PL-16996
 120-03,EL,PK8401-MP-2B,Local_Control_Station,A,Termination shall be done and connection.,PL-17001
+2000-03,IN,PST-2047(PST),Instrument(PST),C,Touch Up Should Be Done.,PL-21752
 2000-03,IN,PST-2047(PST),Instrument(PST),A,Sun Shade Should Be Install,PL-21740
 2000-03,IN,PST-2047(PST),Instrument(PST),A,Hook Up Should Be Install.,PL-21776
 2000-03,IN,PST-2047(PST),Instrument(PST),A,S.S Cap Should Be Install,PL-21764
-2000-03,IN,PST-2047(PST),Instrument(PST),C,Touch Up Should Be Done.,PL-21752
 2000-04,IN,PST-2372A(PST),Instrument(PST),C,Cleaning shall be done.,PL-16941
 2000-04,IN,PST-2372A(PST),Instrument(PST),B,Steel bolt shall be installed.,PL-16931
 2000-04,IN,PST-2372A(PST),Instrument(PST),B,Grouting shall be done.,PL-16936
@@ -9754,21 +9642,21 @@ DCS-01,IN,LHSP-9001,CABLE,B,Tag no(s.s) shall be install.,PL-07216
 2000-04,IN,PST-2372C(PST),Instrument(PST),A,Earth shall be installed.,PL-16918
 2000-04,IN,PST-2372C(PST),Instrument(PST),B,Sun shade shall be install and fixed.,PL-16923
 2000-04,IN,PST-2372C(PST),Instrument(PST),A,Installation (fitting/tubing)) shall be done.(check conformity with hook up),PL-16928
+3000-02,IN,PST-3042A(PST),Instrument(PST),C,Touch Up Should Be Done.,PL-21726
+3000-02,IN,PST-3042A(PST),Instrument(PST),A,Sun Shade Should Be Install.,PL-21731
 3000-02,IN,PST-3042A(PST),Instrument(PST),A,S.S Cap Should Be Install.,PL-21736
 3000-02,IN,PST-3042A(PST),Instrument(PST),C,Preservation Should Be Done,PL-21716
 3000-02,IN,PST-3042A(PST),Instrument(PST),A,Hook Up Should Be Install.,PL-21721
-3000-02,IN,PST-3042A(PST),Instrument(PST),C,Touch Up Should Be Done.,PL-21726
-3000-02,IN,PST-3042A(PST),Instrument(PST),A,Sun Shade Should Be Install.,PL-21731
-3000-02,IN,PST-3042B(PST),Instrument(PST),A,Sun Shade Should Be Install.,PL-21732
-3000-02,IN,PST-3042B(PST),Instrument(PST),C,Touch Up Should Be Done.,PL-21727
 3000-02,IN,PST-3042B(PST),Instrument(PST),A,Hook Up Should Be Install.,PL-21722
 3000-02,IN,PST-3042B(PST),Instrument(PST),C,Preservation Should Be Done,PL-21717
 3000-02,IN,PST-3042B(PST),Instrument(PST),A,S.S Cap Should Be Install.,PL-21737
+3000-02,IN,PST-3042B(PST),Instrument(PST),A,Sun Shade Should Be Install.,PL-21732
+3000-02,IN,PST-3042B(PST),Instrument(PST),C,Touch Up Should Be Done.,PL-21727
+3000-02,IN,PST-3042C(PST),Instrument(PST),C,Touch Up Should Be Done.,PL-21728
+3000-02,IN,PST-3042C(PST),Instrument(PST),A,Sun Shade Should Be Install.,PL-21733
 3000-02,IN,PST-3042C(PST),Instrument(PST),A,S.S Cap Should Be Install.,PL-21738
 3000-02,IN,PST-3042C(PST),Instrument(PST),C,Preservation Should Be Done,PL-21718
 3000-02,IN,PST-3042C(PST),Instrument(PST),A,Hook Up Should Be Install.,PL-21723
-3000-02,IN,PST-3042C(PST),Instrument(PST),C,Touch Up Should Be Done.,PL-21728
-3000-02,IN,PST-3042C(PST),Instrument(PST),A,Sun Shade Should Be Install.,PL-21733
 5000-02,IN,PST-5207A(PST),Instrument(PST),C,S.S tags should be install.,PL-15932
 5000-02,IN,PST-5207A(PST),Instrument(PST),A,Termination shall be done.,PL-15917
 5000-02,IN,PST-5207A(PST),Instrument(PST),A,SUN SHADE SHOULD BE INSTALL.,PL-15902
@@ -9799,33 +9687,33 @@ DCS-01,IN,LHSP-9001,CABLE,B,Tag no(s.s) shall be install.,PL-07216
 4000-04,IN,PST-7120(PST),Instrument(PST),A,Gland should be done.,PL-21213
 4000-04,IN,PST-7120(PST),Instrument(PST),A,Termination should be done.,PL-21207
 4000-04,IN,PST-7120(PST),Instrument(PST),A,Earth should be done.,PL-21201
-1000-01,IN,PT-1001(PT),Instrument(PT),A,Hook Up shall be complete.,PL-21345
 1000-01,IN,PT-1001(PT),Instrument(PT),A,Earth shall be complete.,PL-21336
+1000-01,IN,PT-1001(PT),Instrument(PT),B,Support Of Tube shall be done.,PL-21372
 1000-01,IN,PT-1001(PT),Instrument(PT),C,Sun shade shall be installed.,PL-21363
 1000-01,IN,PT-1001(PT),Instrument(PT),B,Touch up support shall be done.,PL-21354
+1000-01,IN,PT-1001(PT),Instrument(PT),A,Hook Up shall be complete.,PL-21345
 1000-01,IN,PT-1001(PT),Instrument(PT),A,Drain and tube shall be installed.,PL-21408
 1000-01,IN,PT-1001(PT),Instrument(PT),A,Check conformity with hook up.,PL-21399
 1000-01,IN,PT-1001(PT),Instrument(PT),B,U Bolt(H.D.G) shall be Changed by u bolt (S.S),PL-21390
 1000-01,IN,PT-1001(PT),Instrument(PT),C,Grout shall be done.,PL-21381
-1000-01,IN,PT-1001(PT),Instrument(PT),B,Support Of Tube shall be done.,PL-21372
-1000-01,IN,PT-1005(PT),Instrument(PT),B,Support Of Tube shall be done.,PL-21373
 1000-01,IN,PT-1005(PT),Instrument(PT),C,Grout shall be done.,PL-21382
 1000-01,IN,PT-1005(PT),Instrument(PT),B,U Bolt(H.D.G) shall be Changed by u bolt (S.S),PL-21391
 1000-01,IN,PT-1005(PT),Instrument(PT),A,Check conformity with hook up.,PL-21400
 1000-01,IN,PT-1005(PT),Instrument(PT),A,Drain and tube shall be installed.,PL-21409
+1000-01,IN,PT-1005(PT),Instrument(PT),A,Hook Up shall be complete.,PL-21346
 1000-01,IN,PT-1005(PT),Instrument(PT),B,Touch up support shall be done.,PL-21355
 1000-01,IN,PT-1005(PT),Instrument(PT),C,Sun shade shall be installed.,PL-21364
+1000-01,IN,PT-1005(PT),Instrument(PT),B,Support Of Tube shall be done.,PL-21373
 1000-01,IN,PT-1005(PT),Instrument(PT),A,Earth shall be complete.,PL-21337
-1000-01,IN,PT-1005(PT),Instrument(PT),A,Hook Up shall be complete.,PL-21346
-1000-01,IN,PT-1006(PT),Instrument(PT),A,Hook Up shall be complete.,PL-21347
 1000-01,IN,PT-1006(PT),Instrument(PT),A,Earth shall be complete.,PL-21338
+1000-01,IN,PT-1006(PT),Instrument(PT),B,Support Of Tube shall be done.,PL-21374
 1000-01,IN,PT-1006(PT),Instrument(PT),C,Sun shade shall be installed.,PL-21365
 1000-01,IN,PT-1006(PT),Instrument(PT),B,Touch up support shall be done.,PL-21356
+1000-01,IN,PT-1006(PT),Instrument(PT),A,Hook Up shall be complete.,PL-21347
 1000-01,IN,PT-1006(PT),Instrument(PT),A,Drain and tube shall be installed.,PL-21410
 1000-01,IN,PT-1006(PT),Instrument(PT),A,Check conformity with hook up.,PL-21401
 1000-01,IN,PT-1006(PT),Instrument(PT),B,U Bolt(H.D.G) shall be Changed by u bolt (S.S),PL-21392
 1000-01,IN,PT-1006(PT),Instrument(PT),C,Grout shall be done.,PL-21383
-1000-01,IN,PT-1006(PT),Instrument(PT),B,Support Of Tube shall be done.,PL-21374
 1000-02,IN,PT-1011(PT),Instrument(PT),C,Cleaning shall be done.,PL-16905
 1000-02,IN,PT-1011(PT),Instrument(PT),B,Sun shade shall be installed and fixed.,PL-16881
 1000-02,IN,PT-1011(PT),Instrument(PT),A,Installation (fitting/tubing)shall be done.(check conformity with hook-up),PL-16887
@@ -9833,16 +9721,16 @@ DCS-01,IN,LHSP-9001,CABLE,B,Tag no(s.s) shall be install.,PL-07216
 1000-02,IN,PT-1011(PT),Instrument(PT),B,Grouting shall be done.,PL-16899
 1000-02,IN,PT-1011(PT),Instrument(PT),B,Touch up support shall be done.(stand),PL-16869
 1000-02,IN,PT-1011(PT),Instrument(PT),A,Earth shall be installed.,PL-16875
-2000-03,IN,PT-2046(PT),Instrument(PT),A,Sun Shade Should Be Install,PL-21741
 2000-03,IN,PT-2046(PT),Instrument(PT),C,Touch Up Should Be Done.,PL-21753
+2000-03,IN,PT-2046(PT),Instrument(PT),A,Sun Shade Should Be Install,PL-21741
 2000-03,IN,PT-2046(PT),Instrument(PT),A,S.S Cap Should Be Install,PL-21765
 2000-03,IN,PT-2046(PT),Instrument(PT),A,Hook Up Should Be Install.,PL-21777
-1000-03,IN,PT-2061(PT),Instrument(PT),B,Touch Up Support Should Be Done.,PL-21491
-1000-03,IN,PT-2061(PT),Instrument(PT),A,Sun Shade Should Be Install.,PL-21499
 1000-03,IN,PT-2061(PT),Instrument(PT),A,Termination And Gland Should Be Done.,PL-21459
 1000-03,IN,PT-2061(PT),Instrument(PT),A,S.S Cap Should Be Install.,PL-21467
 1000-03,IN,PT-2061(PT),Instrument(PT),B,Full Bolt Should Be Done.,PL-21475
 1000-03,IN,PT-2061(PT),Instrument(PT),A,Hook Up Should Be Install,PL-21483
+1000-03,IN,PT-2061(PT),Instrument(PT),B,Touch Up Support Should Be Done.,PL-21491
+1000-03,IN,PT-2061(PT),Instrument(PT),A,Sun Shade Should Be Install.,PL-21499
 1000-03,IN,PT-2073(PT),Instrument(PT),B,Touch up support shall be done.(stand),PL-16871
 1000-03,IN,PT-2073(PT),Instrument(PT),B,Steel bolt shall be installed.,PL-16895
 1000-03,IN,PT-2073(PT),Instrument(PT),B,Grouting shall be done.,PL-16901
@@ -10112,23 +10000,23 @@ DCS-01,IN,LHSP-9001,CABLE,B,Tag no(s.s) shall be install.,PL-07216
 5000-04,IN,PT-5421(PT),Instrument(PT),A,Earth should be done.,PL-16495
 5000-04,IN,PT-5421(PT),Instrument(PT),A,Sun shade should be install.,PL-16505
 5000-04,IN,PT-5421(PT),Instrument(PT),A,Termination should be done.,PL-16510
-1000-03,IN,PT-6010(PT),Instrument(PT),A,Earth Should Be Done.,PL-21442
-1000-03,IN,PT-6010(PT),Instrument(PT),A,Hook Up Should Install.,PL-21436
 1000-03,IN,PT-6010(PT),Instrument(PT),A,Termination And Gland Should Be Done.,PL-21430
+1000-03,IN,PT-6010(PT),Instrument(PT),A,Hook Up Should Install.,PL-21436
+1000-03,IN,PT-6010(PT),Instrument(PT),A,Earth Should Be Done.,PL-21442
+4000-03,IN,PT-6025(PT),Instrument(PT),A,Earth Should Be Done.,PL-21445
 4000-03,IN,PT-6025(PT),Instrument(PT),A,Termination And Gland Should Be Done.,PL-21433
 4000-03,IN,PT-6025(PT),Instrument(PT),A,Hook Up Should Install.,PL-21439
-4000-03,IN,PT-6025(PT),Instrument(PT),A,Earth Should Be Done.,PL-21445
-1000-03,IN,PT-6031(PT),Instrument(PT),A,Earth Should Be Done.,PL-21443
 1000-03,IN,PT-6031(PT),Instrument(PT),A,Hook Up Should Install.,PL-21437
+1000-03,IN,PT-6031(PT),Instrument(PT),A,Earth Should Be Done.,PL-21443
 1000-03,IN,PT-6031(PT),Instrument(PT),A,Termination And Gland Should Be Done.,PL-21431
 1000-03,IN,PT-6054(PT),Instrument(PT),A,Termination And Gland Should Be Done.,PL-21460
-1000-03,IN,PT-6054(PT),Instrument(PT),A,Hook Up Should Be Install,PL-21484
 1000-03,IN,PT-6054(PT),Instrument(PT),B,Full Bolt Should Be Done.,PL-21476
 1000-03,IN,PT-6054(PT),Instrument(PT),A,S.S Cap Should Be Install.,PL-21468
+1000-03,IN,PT-6054(PT),Instrument(PT),A,Hook Up Should Be Install,PL-21484
 1000-03,IN,PT-6054(PT),Instrument(PT),A,Sun Shade Should Be Install.,PL-21500
 1000-03,IN,PT-6054(PT),Instrument(PT),B,Touch Up Support Should Be Done.,PL-21492
-1000-03,IN,PT-6088(PT),Instrument(PT),A,Earth Should Be Done.,PL-21444
 1000-03,IN,PT-6088(PT),Instrument(PT),A,Termination And Gland Should Be Done.,PL-21432
+1000-03,IN,PT-6088(PT),Instrument(PT),A,Earth Should Be Done.,PL-21444
 1000-03,IN,PT-6088(PT),Instrument(PT),A,Hook Up Should Install.,PL-21438
 4000-02,IN,PT-7002(PT),Instrument(PT),A,GLAND should be done.,PL-15974
 4000-02,IN,PT-7002(PT),Instrument(PT),C,Touch up should be done.,PL-15966
@@ -10140,21 +10028,21 @@ DCS-01,IN,LHSP-9001,CABLE,B,Tag no(s.s) shall be install.,PL-07216
 4000-02,IN,PT-7025(PT),Instrument(PT),A,Termination should be done.,PL-15971
 4000-02,IN,PT-7025(PT),Instrument(PT),c,Touch up should be done.,PL-15967
 4000-02,IN,PT-7025(PT),Instrument(PT),A,GLAND should be done.,PL-15975
-4000-02,IN,PT-7028(PT),Instrument(PT),A,Termination And Gland Should Be Done.,PL-21461
-4000-02,IN,PT-7028(PT),Instrument(PT),A,S.S Cap Should Be Install.,PL-21469
-4000-02,IN,PT-7028(PT),Instrument(PT),B,Full Bolt Should Be Done.,PL-21477
-4000-02,IN,PT-7028(PT),Instrument(PT),A,Hook Up Should Be Install,PL-21485
 4000-02,IN,PT-7028(PT),Instrument(PT),B,Touch Up Support Should Be Done.,PL-21493
 4000-02,IN,PT-7028(PT),Instrument(PT),A,Sun Shade Should Be Install.,PL-21501
-4000-03,IN,PT-7031(PT),Instrument(PT),A,Check conformity with hook up.,PL-21405
+4000-02,IN,PT-7028(PT),Instrument(PT),A,Hook Up Should Be Install,PL-21485
+4000-02,IN,PT-7028(PT),Instrument(PT),A,S.S Cap Should Be Install.,PL-21469
+4000-02,IN,PT-7028(PT),Instrument(PT),B,Full Bolt Should Be Done.,PL-21477
+4000-02,IN,PT-7028(PT),Instrument(PT),A,Termination And Gland Should Be Done.,PL-21461
 4000-03,IN,PT-7031(PT),Instrument(PT),A,Drain and tube shall be installed.,PL-21414
-4000-03,IN,PT-7031(PT),Instrument(PT),C,Sun shade shall be installed.,PL-21369
 4000-03,IN,PT-7031(PT),Instrument(PT),B,Support Of Tube shall be done.,PL-21378
 4000-03,IN,PT-7031(PT),Instrument(PT),C,Grout shall be done.,PL-21387
 4000-03,IN,PT-7031(PT),Instrument(PT),B,U Bolt(H.D.G) shall be Changed by u bolt (S.S),PL-21396
+4000-03,IN,PT-7031(PT),Instrument(PT),A,Check conformity with hook up.,PL-21405
+4000-03,IN,PT-7031(PT),Instrument(PT),A,Earth shall be complete.,PL-21342
 4000-03,IN,PT-7031(PT),Instrument(PT),A,Hook Up shall be complete.,PL-21351
 4000-03,IN,PT-7031(PT),Instrument(PT),B,Touch up support shall be done.,PL-21360
-4000-03,IN,PT-7031(PT),Instrument(PT),A,Earth shall be complete.,PL-21342
+4000-03,IN,PT-7031(PT),Instrument(PT),C,Sun shade shall be installed.,PL-21369
 4000-04,IN,PT-7094(PT),Instrument(PT),C,Touch up should be done.,PL-16311
 4000-04,IN,PT-7094(PT),Instrument(PT),A,Tube should be done.,PL-16309
 4000-04,IN,PT-7094(PT),Instrument(PT),A,Earth should be done.,PL-16307
@@ -10187,41 +10075,11 @@ DCS-01,IN,LHSP-9001,CABLE,B,Tag no(s.s) shall be install.,PL-07216
 1000-01,MES,R-1002-2,Reactor(R),A,INTERNAL NOT INSTALLED,PL-02565
 1000-01,MES,R-1002-2,Reactor(R),C,FOUNDATION TAG NUMBERING NOT DONE,PL-02600
 1000-01,MES,R-1002-2,Reactor(R),A,EXTERNAL ACCESSORY NOT INSTALLED,PL-02542
-LS-14,EL,S01(LS-14),Switch,B,Touch up support for jb shall be done.,PL-21303
-LS-14,EL,S01(LS-14),Switch,B,Head bushing shall be installed.,PL-21329
-LS-14,EL,S01(LS-14),Switch,B,Tag lighting shall be installed.,PL-21251
-LS-14,EL,S01(LS-14),Switch,A,Termination and connection shall be done.,PL-21277
 LS-14,EL,S01(LS-14)-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21818
-LS-14,EL,S01(LS-14)-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21851
-LS-14,EL,S02(LS-14),Switch,A,Termination and connection shall be done.,PL-21278
-LS-14,EL,S02(LS-14),Switch,B,Tag lighting shall be installed.,PL-21252
-LS-14,EL,S02(LS-14),Switch,B,Head bushing shall be installed.,PL-21330
-LS-14,EL,S02(LS-14),Switch,B,Touch up support for jb shall be done.,PL-21304
-LS-14,EL,S02(LS-14)-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21852
 LS-14,EL,S02(LS-14)-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21819
-LS-14,EL,S03(LS-14),Switch,B,Touch up support for jb shall be done.,PL-21305
-LS-14,EL,S03(LS-14),Switch,B,Head bushing shall be installed.,PL-21331
-LS-14,EL,S03(LS-14),Switch,B,Tag lighting shall be installed.,PL-21253
-LS-14,EL,S03(LS-14),Switch,A,Termination and connection shall be done.,PL-21279
 LS-14,EL,S03(LS-14)-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21820
-LS-14,EL,S03(LS-14)-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21853
-LS-14,EL,S04(LS-14),Switch,A,Termination and connection shall be done.,PL-21280
-LS-14,EL,S04(LS-14),Switch,B,Tag lighting shall be installed.,PL-21254
-LS-14,EL,S04(LS-14),Switch,B,Head bushing shall be installed.,PL-21332
-LS-14,EL,S04(LS-14),Switch,B,Touch up support for jb shall be done.,PL-21306
-LS-14,EL,S04(LS-14)-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21854
 LS-14,EL,S04(LS-14)-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21821
-LS-14,EL,S05(LS-14),Switch,B,Touch up support for jb shall be done.,PL-21307
-LS-14,EL,S05(LS-14),Switch,B,Head bushing shall be installed.,PL-21333
-LS-14,EL,S05(LS-14),Switch,B,Tag lighting shall be installed.,PL-21255
-LS-14,EL,S05(LS-14),Switch,A,Termination and connection shall be done.,PL-21281
 LS-14,EL,S05(LS-14)-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21822
-LS-14,EL,S05(LS-14)-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21855
-LS-14,EL,S06(LS-14),Switch,A,Termination and connection shall be done.,PL-21282
-LS-14,EL,S06(LS-14),Switch,B,Tag lighting shall be installed.,PL-21256
-LS-14,EL,S06(LS-14),Switch,B,Head bushing shall be installed.,PL-21334
-LS-14,EL,S06(LS-14),Switch,B,Touch up support for jb shall be done.,PL-21308
-LS-14,EL,S06(LS-14)-FJB01,Lighting Cable,B,Cable Arrangement Shall Be Done.,PL-21856
 LS-14,EL,S06(LS-14)-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21823
 120-13,EL,SA_TR-P-001,Cathodic Protection,C,TOUCH UP THE DOOR OF TRANSFORMER SHOULD BE DONE,PL-12643
 120-13,EL,SA_TR-P-001,Cathodic Protection,C,Cleaning THE TRANSFORMER  SHALL BE DONE,PL-12644
@@ -10814,110 +10672,110 @@ LS-06,EL,SL9-FJB01,Lighting Cable,B,Tag No shall be installed.,PL-11553
 4000-06,MES,TK-8401,Tank(TK),C,Some points need touch up,PL-02548
 4000-06,MES,TK-8402,Tank(TK),C,Some points need touch up,PL-02549
 4000-06,MES,TK-8402,Tank(TK),C,ALL FLANGE AND TOP CAP BOLT AND NUT MISSED,PL-02572
-2000-03,IN,TT-2039(TT),Instrument(TT),A,Sun Shade Should Be Install,PL-21742
 2000-03,IN,TT-2039(TT),Instrument(TT),A,Hook Up Should Be Install.,PL-21778
 2000-03,IN,TT-2039(TT),Instrument(TT),A,S.S Cap Should Be Install,PL-21766
 2000-03,IN,TT-2039(TT),Instrument(TT),C,Touch Up Should Be Done.,PL-21754
+2000-03,IN,TT-2039(TT),Instrument(TT),A,Sun Shade Should Be Install,PL-21742
+2000-03,IN,TT-2044(TT),Instrument(TT),A,Sun Shade Should Be Install,PL-21743
 2000-03,IN,TT-2044(TT),Instrument(TT),C,Touch Up Should Be Done.,PL-21755
 2000-03,IN,TT-2044(TT),Instrument(TT),A,S.S Cap Should Be Install,PL-21767
 2000-03,IN,TT-2044(TT),Instrument(TT),A,Hook Up Should Be Install.,PL-21779
-2000-03,IN,TT-2044(TT),Instrument(TT),A,Sun Shade Should Be Install,PL-21743
-2000-03,IN,TT-2050(TT),Instrument(TT),A,Sun Shade Should Be Install,PL-21744
 2000-03,IN,TT-2050(TT),Instrument(TT),A,Hook Up Should Be Install.,PL-21780
 2000-03,IN,TT-2050(TT),Instrument(TT),A,S.S Cap Should Be Install,PL-21768
 2000-03,IN,TT-2050(TT),Instrument(TT),C,Touch Up Should Be Done.,PL-21756
+2000-03,IN,TT-2050(TT),Instrument(TT),A,Sun Shade Should Be Install,PL-21744
+2000-03,IN,TT-2051(TT),Instrument(TT),A,Sun Shade Should Be Install,PL-21745
 2000-03,IN,TT-2051(TT),Instrument(TT),C,Touch Up Should Be Done.,PL-21757
 2000-03,IN,TT-2051(TT),Instrument(TT),A,S.S Cap Should Be Install,PL-21769
 2000-03,IN,TT-2051(TT),Instrument(TT),A,Hook Up Should Be Install.,PL-21781
-2000-03,IN,TT-2051(TT),Instrument(TT),A,Sun Shade Should Be Install,PL-21745
-2000-02,IN,TT-2254(TT),Instrument(TT),A,Termination and gland should be done.,PL-21581
-2000-02,IN,TT-2254(TT),Instrument(TT),A,Preservation should be done.,PL-21566
 2000-02,IN,TT-2254(TT),Instrument(TT),C,S.S cap should be install.,PL-21551
-2000-02,IN,TT-2254(TT),Instrument(TT),C,Touch up support should be done.,PL-21506
 2000-02,IN,TT-2254(TT),Instrument(TT),C,Grout should be done.,PL-21536
 2000-02,IN,TT-2254(TT),Instrument(TT),A,Hook up should be install.,PL-21521
-2000-02,IN,TT-2255(TT),Instrument(TT),A,Hook up should be install.,PL-21522
-2000-02,IN,TT-2255(TT),Instrument(TT),C,Grout should be done.,PL-21537
-2000-02,IN,TT-2255(TT),Instrument(TT),C,Touch up support should be done.,PL-21507
-2000-02,IN,TT-2255(TT),Instrument(TT),C,S.S cap should be install.,PL-21552
+2000-02,IN,TT-2254(TT),Instrument(TT),C,Touch up support should be done.,PL-21506
+2000-02,IN,TT-2254(TT),Instrument(TT),A,Termination and gland should be done.,PL-21581
+2000-02,IN,TT-2254(TT),Instrument(TT),A,Preservation should be done.,PL-21566
 2000-02,IN,TT-2255(TT),Instrument(TT),A,Preservation should be done.,PL-21567
 2000-02,IN,TT-2255(TT),Instrument(TT),A,Termination and gland should be done.,PL-21582
-2000-02,IN,TT-2256(TT),Instrument(TT),A,Termination and gland should be done.,PL-21583
-2000-02,IN,TT-2256(TT),Instrument(TT),A,Preservation should be done.,PL-21568
+2000-02,IN,TT-2255(TT),Instrument(TT),C,Touch up support should be done.,PL-21507
+2000-02,IN,TT-2255(TT),Instrument(TT),A,Hook up should be install.,PL-21522
+2000-02,IN,TT-2255(TT),Instrument(TT),C,Grout should be done.,PL-21537
+2000-02,IN,TT-2255(TT),Instrument(TT),C,S.S cap should be install.,PL-21552
 2000-02,IN,TT-2256(TT),Instrument(TT),C,S.S cap should be install.,PL-21553
-2000-02,IN,TT-2256(TT),Instrument(TT),C,Touch up support should be done.,PL-21508
 2000-02,IN,TT-2256(TT),Instrument(TT),C,Grout should be done.,PL-21538
 2000-02,IN,TT-2256(TT),Instrument(TT),A,Hook up should be install.,PL-21523
-2000-02,IN,TT-2257(TT),Instrument(TT),A,Hook up should be install.,PL-21524
-2000-02,IN,TT-2257(TT),Instrument(TT),C,Grout should be done.,PL-21539
-2000-02,IN,TT-2257(TT),Instrument(TT),C,Touch up support should be done.,PL-21509
-2000-02,IN,TT-2257(TT),Instrument(TT),C,S.S cap should be install.,PL-21554
+2000-02,IN,TT-2256(TT),Instrument(TT),C,Touch up support should be done.,PL-21508
+2000-02,IN,TT-2256(TT),Instrument(TT),A,Termination and gland should be done.,PL-21583
+2000-02,IN,TT-2256(TT),Instrument(TT),A,Preservation should be done.,PL-21568
 2000-02,IN,TT-2257(TT),Instrument(TT),A,Preservation should be done.,PL-21569
 2000-02,IN,TT-2257(TT),Instrument(TT),A,Termination and gland should be done.,PL-21584
-2000-02,IN,TT-2258(TT),Instrument(TT),A,Termination and gland should be done.,PL-21585
-2000-02,IN,TT-2258(TT),Instrument(TT),A,Preservation should be done.,PL-21570
+2000-02,IN,TT-2257(TT),Instrument(TT),C,Touch up support should be done.,PL-21509
+2000-02,IN,TT-2257(TT),Instrument(TT),A,Hook up should be install.,PL-21524
+2000-02,IN,TT-2257(TT),Instrument(TT),C,Grout should be done.,PL-21539
+2000-02,IN,TT-2257(TT),Instrument(TT),C,S.S cap should be install.,PL-21554
 2000-02,IN,TT-2258(TT),Instrument(TT),C,S.S cap should be install.,PL-21555
-2000-02,IN,TT-2258(TT),Instrument(TT),C,Touch up support should be done.,PL-21510
 2000-02,IN,TT-2258(TT),Instrument(TT),C,Grout should be done.,PL-21540
 2000-02,IN,TT-2258(TT),Instrument(TT),A,Hook up should be install.,PL-21525
-2000-02,IN,TT-2259(TT),Instrument(TT),A,Hook up should be install.,PL-21526
-2000-02,IN,TT-2259(TT),Instrument(TT),C,Grout should be done.,PL-21541
-2000-02,IN,TT-2259(TT),Instrument(TT),C,Touch up support should be done.,PL-21511
-2000-02,IN,TT-2259(TT),Instrument(TT),C,S.S cap should be install.,PL-21556
+2000-02,IN,TT-2258(TT),Instrument(TT),C,Touch up support should be done.,PL-21510
+2000-02,IN,TT-2258(TT),Instrument(TT),A,Termination and gland should be done.,PL-21585
+2000-02,IN,TT-2258(TT),Instrument(TT),A,Preservation should be done.,PL-21570
 2000-02,IN,TT-2259(TT),Instrument(TT),A,Preservation should be done.,PL-21571
 2000-02,IN,TT-2259(TT),Instrument(TT),A,Termination and gland should be done.,PL-21586
-2000-02,IN,TT-2260(TT),Instrument(TT),A,Termination and gland should be done.,PL-21587
-2000-02,IN,TT-2260(TT),Instrument(TT),A,Preservation should be done.,PL-21572
+2000-02,IN,TT-2259(TT),Instrument(TT),C,Touch up support should be done.,PL-21511
+2000-02,IN,TT-2259(TT),Instrument(TT),A,Hook up should be install.,PL-21526
+2000-02,IN,TT-2259(TT),Instrument(TT),C,Grout should be done.,PL-21541
+2000-02,IN,TT-2259(TT),Instrument(TT),C,S.S cap should be install.,PL-21556
 2000-02,IN,TT-2260(TT),Instrument(TT),C,S.S cap should be install.,PL-21557
-2000-02,IN,TT-2260(TT),Instrument(TT),C,Touch up support should be done.,PL-21512
 2000-02,IN,TT-2260(TT),Instrument(TT),C,Grout should be done.,PL-21542
 2000-02,IN,TT-2260(TT),Instrument(TT),A,Hook up should be install.,PL-21527
-2000-02,IN,TT-2261(TT),Instrument(TT),A,Hook up should be install.,PL-21528
-2000-02,IN,TT-2261(TT),Instrument(TT),C,Grout should be done.,PL-21543
-2000-02,IN,TT-2261(TT),Instrument(TT),C,Touch up support should be done.,PL-21513
-2000-02,IN,TT-2261(TT),Instrument(TT),C,S.S cap should be install.,PL-21558
+2000-02,IN,TT-2260(TT),Instrument(TT),C,Touch up support should be done.,PL-21512
+2000-02,IN,TT-2260(TT),Instrument(TT),A,Termination and gland should be done.,PL-21587
+2000-02,IN,TT-2260(TT),Instrument(TT),A,Preservation should be done.,PL-21572
 2000-02,IN,TT-2261(TT),Instrument(TT),A,Preservation should be done.,PL-21573
 2000-02,IN,TT-2261(TT),Instrument(TT),A,Termination and gland should be done.,PL-21588
-2000-02,IN,TT-2262(TT),Instrument(TT),A,Termination and gland should be done.,PL-21589
-2000-02,IN,TT-2262(TT),Instrument(TT),A,Preservation should be done.,PL-21574
+2000-02,IN,TT-2261(TT),Instrument(TT),C,Touch up support should be done.,PL-21513
+2000-02,IN,TT-2261(TT),Instrument(TT),A,Hook up should be install.,PL-21528
+2000-02,IN,TT-2261(TT),Instrument(TT),C,Grout should be done.,PL-21543
+2000-02,IN,TT-2261(TT),Instrument(TT),C,S.S cap should be install.,PL-21558
 2000-02,IN,TT-2262(TT),Instrument(TT),C,S.S cap should be install.,PL-21559
-2000-02,IN,TT-2262(TT),Instrument(TT),C,Touch up support should be done.,PL-21514
 2000-02,IN,TT-2262(TT),Instrument(TT),C,Grout should be done.,PL-21544
 2000-02,IN,TT-2262(TT),Instrument(TT),A,Hook up should be install.,PL-21529
-2000-02,IN,TT-2263(TT),Instrument(TT),A,Hook up should be install.,PL-21530
-2000-02,IN,TT-2263(TT),Instrument(TT),C,Grout should be done.,PL-21545
-2000-02,IN,TT-2263(TT),Instrument(TT),C,Touch up support should be done.,PL-21515
-2000-02,IN,TT-2263(TT),Instrument(TT),C,S.S cap should be install.,PL-21560
+2000-02,IN,TT-2262(TT),Instrument(TT),C,Touch up support should be done.,PL-21514
+2000-02,IN,TT-2262(TT),Instrument(TT),A,Termination and gland should be done.,PL-21589
+2000-02,IN,TT-2262(TT),Instrument(TT),A,Preservation should be done.,PL-21574
 2000-02,IN,TT-2263(TT),Instrument(TT),A,Preservation should be done.,PL-21575
 2000-02,IN,TT-2263(TT),Instrument(TT),A,Termination and gland should be done.,PL-21590
-2000-02,IN,TT-2264(TT),Instrument(TT),A,Termination and gland should be done.,PL-21591
-2000-02,IN,TT-2264(TT),Instrument(TT),A,Preservation should be done.,PL-21576
+2000-02,IN,TT-2263(TT),Instrument(TT),C,Touch up support should be done.,PL-21515
+2000-02,IN,TT-2263(TT),Instrument(TT),A,Hook up should be install.,PL-21530
+2000-02,IN,TT-2263(TT),Instrument(TT),C,Grout should be done.,PL-21545
+2000-02,IN,TT-2263(TT),Instrument(TT),C,S.S cap should be install.,PL-21560
 2000-02,IN,TT-2264(TT),Instrument(TT),C,S.S cap should be install.,PL-21561
-2000-02,IN,TT-2264(TT),Instrument(TT),C,Touch up support should be done.,PL-21516
 2000-02,IN,TT-2264(TT),Instrument(TT),C,Grout should be done.,PL-21546
 2000-02,IN,TT-2264(TT),Instrument(TT),A,Hook up should be install.,PL-21531
-2000-02,IN,TT-2265(TT),Instrument(TT),A,Hook up should be install.,PL-21532
-2000-02,IN,TT-2265(TT),Instrument(TT),C,Grout should be done.,PL-21547
-2000-02,IN,TT-2265(TT),Instrument(TT),C,Touch up support should be done.,PL-21517
-2000-02,IN,TT-2265(TT),Instrument(TT),C,S.S cap should be install.,PL-21562
+2000-02,IN,TT-2264(TT),Instrument(TT),C,Touch up support should be done.,PL-21516
+2000-02,IN,TT-2264(TT),Instrument(TT),A,Termination and gland should be done.,PL-21591
+2000-02,IN,TT-2264(TT),Instrument(TT),A,Preservation should be done.,PL-21576
 2000-02,IN,TT-2265(TT),Instrument(TT),A,Preservation should be done.,PL-21577
 2000-02,IN,TT-2265(TT),Instrument(TT),A,Termination and gland should be done.,PL-21592
-2000-03,IN,TT-2326(TT),Instrument(TT),A,Sun Shade Should Be Install,PL-21746
+2000-02,IN,TT-2265(TT),Instrument(TT),C,Touch up support should be done.,PL-21517
+2000-02,IN,TT-2265(TT),Instrument(TT),A,Hook up should be install.,PL-21532
+2000-02,IN,TT-2265(TT),Instrument(TT),C,Grout should be done.,PL-21547
+2000-02,IN,TT-2265(TT),Instrument(TT),C,S.S cap should be install.,PL-21562
 2000-03,IN,TT-2326(TT),Instrument(TT),A,Hook Up Should Be Install.,PL-21782
 2000-03,IN,TT-2326(TT),Instrument(TT),A,S.S Cap Should Be Install,PL-21770
 2000-03,IN,TT-2326(TT),Instrument(TT),C,Touch Up Should Be Done.,PL-21758
+2000-03,IN,TT-2326(TT),Instrument(TT),A,Sun Shade Should Be Install,PL-21746
+2000-03,IN,TT-2327(TT),Instrument(TT),A,Sun Shade Should Be Install,PL-21747
 2000-03,IN,TT-2327(TT),Instrument(TT),C,Touch Up Should Be Done.,PL-21759
 2000-03,IN,TT-2327(TT),Instrument(TT),A,S.S Cap Should Be Install,PL-21771
 2000-03,IN,TT-2327(TT),Instrument(TT),A,Hook Up Should Be Install.,PL-21783
-2000-03,IN,TT-2327(TT),Instrument(TT),A,Sun Shade Should Be Install,PL-21747
-2000-03,IN,TT-2328(TT),Instrument(TT),A,Sun Shade Should Be Install,PL-21748
 2000-03,IN,TT-2328(TT),Instrument(TT),A,Hook Up Should Be Install.,PL-21784
 2000-03,IN,TT-2328(TT),Instrument(TT),A,S.S Cap Should Be Install,PL-21772
 2000-03,IN,TT-2328(TT),Instrument(TT),C,Touch Up Should Be Done.,PL-21760
+2000-03,IN,TT-2328(TT),Instrument(TT),A,Sun Shade Should Be Install,PL-21748
+2000-04,IN,TT-2352(TT),Instrument(TT),A,Sun Shade Should Be Install,PL-21750
+2000-04,IN,TT-2352(TT),Instrument(TT),A,Hook Up Should Be Install.,PL-21786
 2000-04,IN,TT-2352(TT),Instrument(TT),A,S.S Cap Should Be Install,PL-21774
 2000-04,IN,TT-2352(TT),Instrument(TT),C,Touch Up Should Be Done.,PL-21762
-2000-04,IN,TT-2352(TT),Instrument(TT),A,Hook Up Should Be Install.,PL-21786
-2000-04,IN,TT-2352(TT),Instrument(TT),A,Sun Shade Should Be Install,PL-21750
 2000-05,IN,TT-2421(TT),Instrument(TT),A,EARTH SHOULD BE DONE.,PL-15859
 2000-05,IN,TT-2421(TT),Instrument(TT),A,SUN SHADE SHOULD BE INSTALL.,PL-15889
 2000-05,IN,TT-2421(TT),Instrument(TT),C,Touch up  shall be done.,PL-15874
@@ -10928,17 +10786,17 @@ LS-06,EL,SL9-FJB01,Lighting Cable,B,Tag No shall be installed.,PL-11553
 1000-02,IN,TT-2536(TT),Instrument(TT),A,Hook Up Should Be Install.,PL-21797
 1000-02,IN,TT-2536(TT),Instrument(TT),C,Touch Up Should Be Done.,PL-21802
 3000-03,IN,TT-3142(TT),Instrument(TT),A,S.S Cap Should Be Install.,PL-21794
+3000-03,IN,TT-3142(TT),Instrument(TT),C,Preservation Should Be Done.,PL-21789
 3000-03,IN,TT-3142(TT),Instrument(TT),C,Touch Up Should Be Done.,PL-21804
 3000-03,IN,TT-3142(TT),Instrument(TT),A,Hook Up Should Be Install.,PL-21799
-3000-03,IN,TT-3142(TT),Instrument(TT),C,Preservation Should Be Done.,PL-21789
-3000-03,IN,TT-3145(TT),Instrument(TT),C,Preservation Should Be Done.,PL-21790
 3000-03,IN,TT-3145(TT),Instrument(TT),A,Hook Up Should Be Install.,PL-21800
 3000-03,IN,TT-3145(TT),Instrument(TT),C,Touch Up Should Be Done.,PL-21805
+3000-03,IN,TT-3145(TT),Instrument(TT),C,Preservation Should Be Done.,PL-21790
 3000-03,IN,TT-3145(TT),Instrument(TT),A,S.S Cap Should Be Install.,PL-21795
 3000-03,IN,TT-3148(TT),Instrument(TT),A,S.S Cap Should Be Install.,PL-21796
+3000-03,IN,TT-3148(TT),Instrument(TT),C,Preservation Should Be Done.,PL-21791
 3000-03,IN,TT-3148(TT),Instrument(TT),C,Touch Up Should Be Done.,PL-21806
 3000-03,IN,TT-3148(TT),Instrument(TT),A,Hook Up Should Be Install.,PL-21801
-3000-03,IN,TT-3148(TT),Instrument(TT),C,Preservation Should Be Done.,PL-21791
 5000-01,IN,TT-5020(NA),CABLE,B,Tag no shall be install.,PL-17362
 5000-01,IN,TT-5020(NA),CABLE,A,Earth jumper shall be install.,PL-17379
 5000-01,IN,TT-5020(NA),CABLE,A,Termination shall be done.,PL-17349
@@ -11693,139 +11551,139 @@ LS-06,EL,SL9-FJB01,Lighting Cable,B,Tag No shall be installed.,PL-11553
 5000-05,IN,TW-5441,Instrument(TW),A,Termination should be done.,PL-16274
 5000-05,IN,TW-5441,Instrument(TW),B,S.S tag should be install.,PL-16265
 5000-05,IN,TW-5441,Instrument(TW),A,Gland should be install.,PL-16283
+DCS-01,IN,UCP-C2001-01,JUNCTION BOX,A,Termination Shall Be Done,PL-21055
 DCS-01,IN,UCP-C2001-01,JUNCTION BOX,B,As-Built Drawing Shall Be Done.,PL-20815
 DCS-01,IN,UCP-C2001-01,JUNCTION BOX,A,Earthing /Bonding Shall Be Done.,PL-20767
 DCS-01,IN,UCP-C2001-01,JUNCTION BOX,B,شکستگي درب شيشه اي پنل هاي 12.13,PL-21007
 DCS-01,IN,UCP-C2001-01,JUNCTION BOX,A,Expansion Full Bolted.,PL-20959
 DCS-01,IN,UCP-C2001-01,JUNCTION BOX,B,Tag No Panel Shall Be Install,PL-20911
 DCS-01,IN,UCP-C2001-01,JUNCTION BOX,B,Panel Cover Should Be Dull Bolted.,PL-20863
-DCS-01,IN,UCP-C2001-01,JUNCTION BOX,A,Termination Shall Be Done,PL-21055
-DCS-01,IN,UCP-C2002-01,JUNCTION BOX,A,Termination Shall Be Done,PL-21056
 DCS-01,IN,UCP-C2002-01,JUNCTION BOX,B,Panel Cover Should Be Dull Bolted.,PL-20864
 DCS-01,IN,UCP-C2002-01,JUNCTION BOX,B,Tag No Panel Shall Be Install,PL-20912
 DCS-01,IN,UCP-C2002-01,JUNCTION BOX,A,Expansion Full Bolted.,PL-20960
 DCS-01,IN,UCP-C2002-01,JUNCTION BOX,B,شکستگي درب شيشه اي پنل هاي 12.13,PL-21008
 DCS-01,IN,UCP-C2002-01,JUNCTION BOX,A,Earthing /Bonding Shall Be Done.,PL-20768
 DCS-01,IN,UCP-C2002-01,JUNCTION BOX,B,As-Built Drawing Shall Be Done.,PL-20816
+DCS-01,IN,UCP-C2002-01,JUNCTION BOX,A,Termination Shall Be Done,PL-21056
+DCS-01,IN,UCP-C2002-02,JUNCTION BOX,A,Termination Shall Be Done,PL-21057
 DCS-01,IN,UCP-C2002-02,JUNCTION BOX,B,As-Built Drawing Shall Be Done.,PL-20817
 DCS-01,IN,UCP-C2002-02,JUNCTION BOX,A,Earthing /Bonding Shall Be Done.,PL-20769
 DCS-01,IN,UCP-C2002-02,JUNCTION BOX,B,شکستگي درب شيشه اي پنل هاي 12.13,PL-21009
 DCS-01,IN,UCP-C2002-02,JUNCTION BOX,A,Expansion Full Bolted.,PL-20961
 DCS-01,IN,UCP-C2002-02,JUNCTION BOX,B,Tag No Panel Shall Be Install,PL-20913
 DCS-01,IN,UCP-C2002-02,JUNCTION BOX,B,Panel Cover Should Be Dull Bolted.,PL-20865
-DCS-01,IN,UCP-C2002-02,JUNCTION BOX,A,Termination Shall Be Done,PL-21057
-DCS-01,IN,UCP-C3001_C3002-01,JUNCTION BOX,A,Termination Shall Be Done,PL-21058
 DCS-01,IN,UCP-C3001_C3002-01,JUNCTION BOX,B,Panel Cover Should Be Dull Bolted.,PL-20866
 DCS-01,IN,UCP-C3001_C3002-01,JUNCTION BOX,B,Tag No Panel Shall Be Install,PL-20914
 DCS-01,IN,UCP-C3001_C3002-01,JUNCTION BOX,A,Expansion Full Bolted.,PL-20962
 DCS-01,IN,UCP-C3001_C3002-01,JUNCTION BOX,B,شکستگي درب شيشه اي پنل هاي 12.13,PL-21010
 DCS-01,IN,UCP-C3001_C3002-01,JUNCTION BOX,A,Earthing /Bonding Shall Be Done.,PL-20770
 DCS-01,IN,UCP-C3001_C3002-01,JUNCTION BOX,B,As-Built Drawing Shall Be Done.,PL-20818
+DCS-01,IN,UCP-C3001_C3002-01,JUNCTION BOX,A,Termination Shall Be Done,PL-21058
+DCS-01,IN,UCP-C3001_C3002-02,JUNCTION BOX,A,Termination Shall Be Done,PL-21059
 DCS-01,IN,UCP-C3001_C3002-02,JUNCTION BOX,B,As-Built Drawing Shall Be Done.,PL-20819
 DCS-01,IN,UCP-C3001_C3002-02,JUNCTION BOX,A,Earthing /Bonding Shall Be Done.,PL-20771
 DCS-01,IN,UCP-C3001_C3002-02,JUNCTION BOX,B,شکستگي درب شيشه اي پنل هاي 12.13,PL-21011
 DCS-01,IN,UCP-C3001_C3002-02,JUNCTION BOX,A,Expansion Full Bolted.,PL-20963
 DCS-01,IN,UCP-C3001_C3002-02,JUNCTION BOX,B,Tag No Panel Shall Be Install,PL-20915
 DCS-01,IN,UCP-C3001_C3002-02,JUNCTION BOX,B,Panel Cover Should Be Dull Bolted.,PL-20867
-DCS-01,IN,UCP-C3001_C3002-02,JUNCTION BOX,A,Termination Shall Be Done,PL-21059
-DCS-01,IN,UCP-C3001_C3002-03,JUNCTION BOX,A,Termination Shall Be Done,PL-21060
 DCS-01,IN,UCP-C3001_C3002-03,JUNCTION BOX,B,Panel Cover Should Be Dull Bolted.,PL-20868
 DCS-01,IN,UCP-C3001_C3002-03,JUNCTION BOX,B,Tag No Panel Shall Be Install,PL-20916
 DCS-01,IN,UCP-C3001_C3002-03,JUNCTION BOX,A,Expansion Full Bolted.,PL-20964
 DCS-01,IN,UCP-C3001_C3002-03,JUNCTION BOX,B,شکستگي درب شيشه اي پنل هاي 12.13,PL-21012
 DCS-01,IN,UCP-C3001_C3002-03,JUNCTION BOX,A,Earthing /Bonding Shall Be Done.,PL-20772
 DCS-01,IN,UCP-C3001_C3002-03,JUNCTION BOX,B,As-Built Drawing Shall Be Done.,PL-20820
+DCS-01,IN,UCP-C3001_C3002-03,JUNCTION BOX,A,Termination Shall Be Done,PL-21060
+DCS-01,IN,UCP-C3001_C3002-04,JUNCTION BOX,A,Termination Shall Be Done,PL-21061
 DCS-01,IN,UCP-C3001_C3002-04,JUNCTION BOX,B,As-Built Drawing Shall Be Done.,PL-20821
 DCS-01,IN,UCP-C3001_C3002-04,JUNCTION BOX,A,Earthing /Bonding Shall Be Done.,PL-20773
 DCS-01,IN,UCP-C3001_C3002-04,JUNCTION BOX,B,شکستگي درب شيشه اي پنل هاي 12.13,PL-21013
 DCS-01,IN,UCP-C3001_C3002-04,JUNCTION BOX,A,Expansion Full Bolted.,PL-20965
 DCS-01,IN,UCP-C3001_C3002-04,JUNCTION BOX,B,Tag No Panel Shall Be Install,PL-20917
 DCS-01,IN,UCP-C3001_C3002-04,JUNCTION BOX,B,Panel Cover Should Be Dull Bolted.,PL-20869
-DCS-01,IN,UCP-C3001_C3002-04,JUNCTION BOX,A,Termination Shall Be Done,PL-21061
-DCS-01,IN,UCP-C3001_C3002-05,JUNCTION BOX,A,Termination Shall Be Done,PL-21062
 DCS-01,IN,UCP-C3001_C3002-05,JUNCTION BOX,B,Panel Cover Should Be Dull Bolted.,PL-20870
 DCS-01,IN,UCP-C3001_C3002-05,JUNCTION BOX,B,Tag No Panel Shall Be Install,PL-20918
 DCS-01,IN,UCP-C3001_C3002-05,JUNCTION BOX,A,Expansion Full Bolted.,PL-20966
 DCS-01,IN,UCP-C3001_C3002-05,JUNCTION BOX,B,شکستگي درب شيشه اي پنل هاي 12.13,PL-21014
 DCS-01,IN,UCP-C3001_C3002-05,JUNCTION BOX,A,Earthing /Bonding Shall Be Done.,PL-20774
 DCS-01,IN,UCP-C3001_C3002-05,JUNCTION BOX,B,As-Built Drawing Shall Be Done.,PL-20822
+DCS-01,IN,UCP-C3001_C3002-05,JUNCTION BOX,A,Termination Shall Be Done,PL-21062
+DCS-01,IN,UCP-F&G-01,JUNCTION BOX,A,Termination Shall Be Done,PL-21063
 DCS-01,IN,UCP-F&G-01,JUNCTION BOX,B,As-Built Drawing Shall Be Done.,PL-20823
 DCS-01,IN,UCP-F&G-01,JUNCTION BOX,A,Earthing /Bonding Shall Be Done.,PL-20775
 DCS-01,IN,UCP-F&G-01,JUNCTION BOX,B,شکستگي درب شيشه اي پنل هاي 12.13,PL-21015
 DCS-01,IN,UCP-F&G-01,JUNCTION BOX,A,Expansion Full Bolted.,PL-20967
 DCS-01,IN,UCP-F&G-01,JUNCTION BOX,B,Tag No Panel Shall Be Install,PL-20919
 DCS-01,IN,UCP-F&G-01,JUNCTION BOX,B,Panel Cover Should Be Dull Bolted.,PL-20871
-DCS-01,IN,UCP-F&G-01,JUNCTION BOX,A,Termination Shall Be Done,PL-21063
-DCS-01,IN,UCP-F&G-02,JUNCTION BOX,A,Termination Shall Be Done,PL-21064
 DCS-01,IN,UCP-F&G-02,JUNCTION BOX,B,Panel Cover Should Be Dull Bolted.,PL-20872
 DCS-01,IN,UCP-F&G-02,JUNCTION BOX,B,Tag No Panel Shall Be Install,PL-20920
 DCS-01,IN,UCP-F&G-02,JUNCTION BOX,A,Expansion Full Bolted.,PL-20968
 DCS-01,IN,UCP-F&G-02,JUNCTION BOX,B,شکستگي درب شيشه اي پنل هاي 12.13,PL-21016
 DCS-01,IN,UCP-F&G-02,JUNCTION BOX,A,Earthing /Bonding Shall Be Done.,PL-20776
 DCS-01,IN,UCP-F&G-02,JUNCTION BOX,B,As-Built Drawing Shall Be Done.,PL-20824
+DCS-01,IN,UCP-F&G-02,JUNCTION BOX,A,Termination Shall Be Done,PL-21064
+DCS-01,IN,UCP-FT-2001_2002-01,JUNCTION BOX,A,Termination Shall Be Done,PL-21065
 DCS-01,IN,UCP-FT-2001_2002-01,JUNCTION BOX,B,As-Built Drawing Shall Be Done.,PL-20825
 DCS-01,IN,UCP-FT-2001_2002-01,JUNCTION BOX,A,Earthing /Bonding Shall Be Done.,PL-20777
 DCS-01,IN,UCP-FT-2001_2002-01,JUNCTION BOX,B,شکستگي درب شيشه اي پنل هاي 12.13,PL-21017
 DCS-01,IN,UCP-FT-2001_2002-01,JUNCTION BOX,A,Expansion Full Bolted.,PL-20969
 DCS-01,IN,UCP-FT-2001_2002-01,JUNCTION BOX,B,Tag No Panel Shall Be Install,PL-20921
 DCS-01,IN,UCP-FT-2001_2002-01,JUNCTION BOX,B,Panel Cover Should Be Dull Bolted.,PL-20873
-DCS-01,IN,UCP-FT-2001_2002-01,JUNCTION BOX,A,Termination Shall Be Done,PL-21065
-DCS-01,IN,UCP-FT-2001_2002-02,JUNCTION BOX,A,Termination Shall Be Done,PL-21066
 DCS-01,IN,UCP-FT-2001_2002-02,JUNCTION BOX,B,Panel Cover Should Be Dull Bolted.,PL-20874
 DCS-01,IN,UCP-FT-2001_2002-02,JUNCTION BOX,B,Tag No Panel Shall Be Install,PL-20922
 DCS-01,IN,UCP-FT-2001_2002-02,JUNCTION BOX,A,Expansion Full Bolted.,PL-20970
 DCS-01,IN,UCP-FT-2001_2002-02,JUNCTION BOX,B,شکستگي درب شيشه اي پنل هاي 12.13,PL-21018
 DCS-01,IN,UCP-FT-2001_2002-02,JUNCTION BOX,A,Earthing /Bonding Shall Be Done.,PL-20778
 DCS-01,IN,UCP-FT-2001_2002-02,JUNCTION BOX,B,As-Built Drawing Shall Be Done.,PL-20826
+DCS-01,IN,UCP-FT-2001_2002-02,JUNCTION BOX,A,Termination Shall Be Done,PL-21066
+DCS-01,IN,UCP-FT-2001_2002-03,JUNCTION BOX,A,Termination Shall Be Done,PL-21067
 DCS-01,IN,UCP-FT-2001_2002-03,JUNCTION BOX,B,As-Built Drawing Shall Be Done.,PL-20827
 DCS-01,IN,UCP-FT-2001_2002-03,JUNCTION BOX,A,Earthing /Bonding Shall Be Done.,PL-20779
 DCS-01,IN,UCP-FT-2001_2002-03,JUNCTION BOX,B,شکستگي درب شيشه اي پنل هاي 12.13,PL-21019
 DCS-01,IN,UCP-FT-2001_2002-03,JUNCTION BOX,A,Expansion Full Bolted.,PL-20971
 DCS-01,IN,UCP-FT-2001_2002-03,JUNCTION BOX,B,Tag No Panel Shall Be Install,PL-20923
 DCS-01,IN,UCP-FT-2001_2002-03,JUNCTION BOX,B,Panel Cover Should Be Dull Bolted.,PL-20875
-DCS-01,IN,UCP-FT-2001_2002-03,JUNCTION BOX,A,Termination Shall Be Done,PL-21067
-DCS-01,IN,UCP-FT-2001_2002-04,JUNCTION BOX,A,Termination Shall Be Done,PL-21068
 DCS-01,IN,UCP-FT-2001_2002-04,JUNCTION BOX,B,Panel Cover Should Be Dull Bolted.,PL-20876
 DCS-01,IN,UCP-FT-2001_2002-04,JUNCTION BOX,B,Tag No Panel Shall Be Install,PL-20924
 DCS-01,IN,UCP-FT-2001_2002-04,JUNCTION BOX,A,Expansion Full Bolted.,PL-20972
 DCS-01,IN,UCP-FT-2001_2002-04,JUNCTION BOX,B,شکستگي درب شيشه اي پنل هاي 12.13,PL-21020
 DCS-01,IN,UCP-FT-2001_2002-04,JUNCTION BOX,A,Earthing /Bonding Shall Be Done.,PL-20780
 DCS-01,IN,UCP-FT-2001_2002-04,JUNCTION BOX,B,As-Built Drawing Shall Be Done.,PL-20828
+DCS-01,IN,UCP-FT-2001_2002-04,JUNCTION BOX,A,Termination Shall Be Done,PL-21068
+DCS-01,IN,UCP-P7001A-01,JUNCTION BOX,A,Termination Shall Be Done,PL-21069
 DCS-01,IN,UCP-P7001A-01,JUNCTION BOX,B,As-Built Drawing Shall Be Done.,PL-20829
 DCS-01,IN,UCP-P7001A-01,JUNCTION BOX,A,Earthing /Bonding Shall Be Done.,PL-20781
 DCS-01,IN,UCP-P7001A-01,JUNCTION BOX,B,شکستگي درب شيشه اي پنل هاي 12.13,PL-21021
 DCS-01,IN,UCP-P7001A-01,JUNCTION BOX,A,Expansion Full Bolted.,PL-20973
 DCS-01,IN,UCP-P7001A-01,JUNCTION BOX,B,Tag No Panel Shall Be Install,PL-20925
 DCS-01,IN,UCP-P7001A-01,JUNCTION BOX,B,Panel Cover Should Be Dull Bolted.,PL-20877
-DCS-01,IN,UCP-P7001A-01,JUNCTION BOX,A,Termination Shall Be Done,PL-21069
-DCS-01,IN,UCP-P7001B-01,JUNCTION BOX,A,Termination Shall Be Done,PL-21070
 DCS-01,IN,UCP-P7001B-01,JUNCTION BOX,B,Panel Cover Should Be Dull Bolted.,PL-20878
 DCS-01,IN,UCP-P7001B-01,JUNCTION BOX,B,Tag No Panel Shall Be Install,PL-20926
 DCS-01,IN,UCP-P7001B-01,JUNCTION BOX,A,Expansion Full Bolted.,PL-20974
 DCS-01,IN,UCP-P7001B-01,JUNCTION BOX,B,شکستگي درب شيشه اي پنل هاي 12.13,PL-21022
 DCS-01,IN,UCP-P7001B-01,JUNCTION BOX,A,Earthing /Bonding Shall Be Done.,PL-20782
 DCS-01,IN,UCP-P7001B-01,JUNCTION BOX,B,As-Built Drawing Shall Be Done.,PL-20830
+DCS-01,IN,UCP-P7001B-01,JUNCTION BOX,A,Termination Shall Be Done,PL-21070
+DCS-01,IN,UCP-P7001C&8001C_D-01,JUNCTION BOX,A,Termination Shall Be Done,PL-21071
 DCS-01,IN,UCP-P7001C&8001C_D-01,JUNCTION BOX,B,As-Built Drawing Shall Be Done.,PL-20831
 DCS-01,IN,UCP-P7001C&8001C_D-01,JUNCTION BOX,A,Earthing /Bonding Shall Be Done.,PL-20783
 DCS-01,IN,UCP-P7001C&8001C_D-01,JUNCTION BOX,B,شکستگي درب شيشه اي پنل هاي 12.13,PL-21023
 DCS-01,IN,UCP-P7001C&8001C_D-01,JUNCTION BOX,A,Expansion Full Bolted.,PL-20975
 DCS-01,IN,UCP-P7001C&8001C_D-01,JUNCTION BOX,B,Tag No Panel Shall Be Install,PL-20927
 DCS-01,IN,UCP-P7001C&8001C_D-01,JUNCTION BOX,B,Panel Cover Should Be Dull Bolted.,PL-20879
-DCS-01,IN,UCP-P7001C&8001C_D-01,JUNCTION BOX,A,Termination Shall Be Done,PL-21071
-DCS-01,IN,UCP-P8001A-01,JUNCTION BOX,A,Termination Shall Be Done,PL-21072
 DCS-01,IN,UCP-P8001A-01,JUNCTION BOX,B,Panel Cover Should Be Dull Bolted.,PL-20880
 DCS-01,IN,UCP-P8001A-01,JUNCTION BOX,B,Tag No Panel Shall Be Install,PL-20928
 DCS-01,IN,UCP-P8001A-01,JUNCTION BOX,A,Expansion Full Bolted.,PL-20976
 DCS-01,IN,UCP-P8001A-01,JUNCTION BOX,B,شکستگي درب شيشه اي پنل هاي 12.13,PL-21024
 DCS-01,IN,UCP-P8001A-01,JUNCTION BOX,A,Earthing /Bonding Shall Be Done.,PL-20784
 DCS-01,IN,UCP-P8001A-01,JUNCTION BOX,B,As-Built Drawing Shall Be Done.,PL-20832
+DCS-01,IN,UCP-P8001A-01,JUNCTION BOX,A,Termination Shall Be Done,PL-21072
+DCS-01,IN,UCP-P8001B-01,JUNCTION BOX,A,Termination Shall Be Done,PL-21073
 DCS-01,IN,UCP-P8001B-01,JUNCTION BOX,B,As-Built Drawing Shall Be Done.,PL-20833
 DCS-01,IN,UCP-P8001B-01,JUNCTION BOX,A,Earthing /Bonding Shall Be Done.,PL-20785
 DCS-01,IN,UCP-P8001B-01,JUNCTION BOX,B,شکستگي درب شيشه اي پنل هاي 12.13,PL-21025
 DCS-01,IN,UCP-P8001B-01,JUNCTION BOX,A,Expansion Full Bolted.,PL-20977
 DCS-01,IN,UCP-P8001B-01,JUNCTION BOX,B,Tag No Panel Shall Be Install,PL-20929
 DCS-01,IN,UCP-P8001B-01,JUNCTION BOX,B,Panel Cover Should Be Dull Bolted.,PL-20881
-DCS-01,IN,UCP-P8001B-01,JUNCTION BOX,A,Termination Shall Be Done,PL-21073
 5000-01,IN,UY-5021(NA),CABLE,A,Earth jumper shall be install.,PL-17380
 5000-01,IN,UY-5021(NA),CABLE,B,Tag no shall be install.,PL-17363
 5000-01,IN,UY-5021(NA),CABLE,B,Cable arrangement shall be done.,PL-17337
