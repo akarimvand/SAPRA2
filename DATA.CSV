@@ -74,7 +74,7 @@
 4000,4000-03,Utility,MP Steam,PI,5,5,0,37,8,29,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,0,0,6,0,6,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,0,0,0,0,0
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,47,27,0,114,59,55,2
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,35,22,0,102,59,43,2
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,497,0,0,30,0,30,0
 4000,4000-05,Utility,Blow Down,PI,24,11,0,34,10,24,1
 4000,4000-05,Utility,Blow Down,MES,4,0,0,4,0,4,0
@@ -86,7 +86,7 @@
 4000,4000-07,Utility,Plant Air,IN,6,0,0,0,0,0,6
 4000,4000-07,Utility,Plant Air,PI,10,10,0,13,2,11,0
 4000,4000-08,Utility,Cooling Water(AG),MER,8,0,0,0,0,0,0
-4000,4000-08,Utility,Cooling Water(AG),PI,211,61,0,486,158,328,8
+4000,4000-08,Utility,Cooling Water(AG),PI,206,57,0,480,158,322,8
 4000,4000-08,Utility,Cooling Water(AG),IN,526,0,0,8,0,8,0
 4000,4000-08-01,Utility,ROW Service,PI,6,3,0,18,10,8,0
 4000,4000-08-02,Utility,Cooling Water(UG),PI,56,0,0,0,0,0,0
@@ -108,26 +108,27 @@
 4000,4000-14_AG,Utility,Fire Water(AG),MES,1,0,0,0,0,0,0
 4000,4000-14_UG,Utility,Fire Water(UG),PI,90,9,0,50,0,50,0
 4000,4000-15,Utility,Potable & Service Water,PI,61,22,0,75,13,62,0
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,14,0,0,69,11,58,0
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,0,0,0,0,0
+4000,4000-16,Utility,Lubrication Oil Service (Lube Oil),PI,17,9,0,18,0,18,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,414,0,0,437,0,437,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,49,0,216,68,148,3
-5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,7,0,0,84,42,42,0
-5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,0,0,0,0,0,0
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,14,0,0,69,11,58,0
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,0,0,0,0,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,462,0,0,328,0,328,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,PI,46,28,0,134,43,91,0
-5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,37,0,137,57,80,0
-5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,0,0,44,11,33,0
+5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,7,0,0,84,42,42,0
+5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,0,0,0,0,0,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,258,0,0,376,0,376,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,0,0,0,0,0,0
-5000,5000-04,Distillation & Methanol Product,Methanol Product,MES,6,0,0,27,0,27,0
-5000,5000-04,Distillation & Methanol Product,Methanol Product,PI,30,8,0,123,31,92,3
+5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,37,0,137,57,80,0
+5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,0,0,44,11,33,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MER,4,0,0,0,0,0,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,IN,205,0,0,96,0,96,0
-5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MES,2,0,0,0,0,0,0
+5000,5000-04,Distillation & Methanol Product,Methanol Product,MES,6,0,0,27,0,27,0
+5000,5000-04,Distillation & Methanol Product,Methanol Product,PI,30,8,0,123,31,92,3
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MER,2,0,0,0,0,0,0
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,60,0,0,17,0,17,0
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,10,5,0,29,7,22,0
+5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MES,2,0,0,0,0,0,0
 7000,7000-01,Flare,Flare System (In Site),IN,143,0,0,22,0,22,0
 7000,7000-01,Flare,Flare System (In Site),MER,2,0,0,0,0,0,0
 7000,7000-01,Flare,Flare System (In Site),MES,2,0,0,6,0,6,0
