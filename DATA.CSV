@@ -1,6 +1,6 @@
 ﻿SD_System,SD_Sub_System,SD_System_Name,SD_Subsystem_Name,discipline,TOTAL ITEM,TOTAL DONE,TOTAL PENDING,TOTAL PUNCH,TOTAL CLEAR PUNCH,TOTAL NOT CLEAR PUNCH,TOTAL HOLD POINT
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,166,0,0,58,0,58,0
-1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,21,10,0,53,9,44,2
+1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,21,12,0,53,9,44,2
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,0,0,29,0,29,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,0,0,0,0,0,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,PI,12,9,0,24,4,20,0
@@ -55,7 +55,7 @@
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,29,0,66,15,51,2
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,0,0,0,0,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,127,0,0,41,0,41,0
-3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,38,8,0,35,4,31,14
+3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,38,9,0,35,4,31,14
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,0,0,19,0,19,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,7,0,0,30,0,30,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,15,0,98,12,86,0
@@ -64,7 +64,7 @@
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,11,0,11,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,147,0,0,6,0,6,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,MER,1,0,0,0,0,0,0
-4000,4000-01,Utility,Nitrogen,PI,19,13,0,39,20,19,1
+4000,4000-01,Utility,Nitrogen,PI,19,15,0,39,22,17,1
 4000,4000-01,Utility,Nitrogen,IN,61,0,0,1,0,1,0
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,0,0,0,0,0,0
 4000,4000-02,Utility,HHP & HP & LP Steam,IN,240,0,0,48,0,48,0
@@ -80,7 +80,7 @@
 4000,4000-05,Utility,Blow Down,MES,4,0,0,4,0,4,0
 4000,4000-05,Utility,Blow Down,IN,17,0,0,0,0,0,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,0,0,4,0,4,0
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,54,19,0,112,47,65,1
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,54,20,0,112,47,65,1
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,0,0,0,0,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,249,0,0,12,0,12,0
 4000,4000-07,Utility,Plant Air,IN,6,0,0,0,0,0,6
@@ -96,18 +96,18 @@
 4000,4000-10,Utility,Sanitary Water Collection,IN,12,0,0,0,0,0,0
 4000,4000-10,Utility,Sanitary Water Collection,PI,16,0,0,2,0,2,0
 4000,4000-10,Utility,Sanitary Water Collection,MER,1,0,0,0,0,0,0
-4000,4000-11,Utility,Instrument Air,PI,11,8,0,11,6,5,1
+4000,4000-11,Utility,Instrument Air,PI,11,10,0,11,6,5,1
 4000,4000-11,Utility,Instrument Air,IN,69,0,0,0,0,0,21
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,MER,4,0,0,0,0,0,0
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,IN,25,0,0,0,0,0,0
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,PI,20,1,0,3,3,0,0
 4000,4000-13,Utility,Slope Close Drain,MER,1,0,0,0,0,0,0
-4000,4000-13,Utility,Slope Close Drain,PI,29,2,0,11,1,10,0
+4000,4000-13,Utility,Slope Close Drain,PI,29,3,0,11,1,10,0
 4000,4000-14_AG,Utility,Fire Water(AG),PI,35,3,0,94,38,56,0
 4000,4000-14_AG,Utility,Fire Water(AG),IN,33,0,0,0,0,0,33
 4000,4000-14_AG,Utility,Fire Water(AG),MES,1,0,0,0,0,0,0
 4000,4000-14_UG,Utility,Fire Water(UG),PI,90,9,0,50,0,50,0
-4000,4000-15,Utility,Potable & Service Water,PI,61,21,0,75,13,62,0
+4000,4000-15,Utility,Potable & Service Water,PI,61,22,0,75,13,62,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,14,0,0,69,11,58,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,0,0,0,0,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,414,0,0,437,0,437,0
