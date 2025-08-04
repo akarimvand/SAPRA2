@@ -11,10 +11,10 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,39,0,165,48,117,1
 1000,1000-04,Gas Preparation,Gas Station,IN,2,0,0,0,0,0,0
 1000,1000-04,Gas Preparation,Gas Station,PI,1,0,0,0,0,0,0
-120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,169,0,0,1244,725,519,0
-120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,308,0,0,1332,636,696,0
-120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,290,0,0,1141,442,699,0
-120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,264,0,0,1099,550,549,0
+120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,169,0,0,1244,726,518,0
+120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,308,0,0,1332,638,694,0
+120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,290,0,0,1141,450,691,0
+120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,264,0,0,1099,552,547,0
 120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,244,0,0,1093,523,570,0
 120,120-06,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-05,EL,222,0,0,1096,413,683,0
 120,120-07,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-ESWB3A/B-01,EL,147,0,0,491,151,340,0
@@ -147,8 +147,8 @@ DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2537,0,0,1
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,0,0,2190,2136,54,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,0,0,0,0,0,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,32,0,0,0,0,0,0
-ES,ES-04,Earthing System,Earthing & Roof Lightning System for Analyzer House,EL,11,0,0,0,0,0,0
-ES,ES-05,Earthing System,Earthing & Roof Lightning System for Warehouse,EL,22,0,0,0,0,0,0
+ES,ES-04,Earthing System,Earthing & Roof Lightning System for Analyzer House,EL,11,0,0,11,0,11,0
+ES,ES-05,Earthing System,Earthing & Roof Lightning System for Warehouse,EL,22,0,0,44,0,44,0
 ES,ES-06,Earthing System,Earthing System for Area-02,EL,696,0,0,0,0,0,0
 ES,ES-07,Earthing System,Earthing System for Area-03,EL,379,0,0,0,0,0,0
 ES,ES-08,Earthing System,Earthing System for Area-04,EL,461,0,0,0,0,0,0
