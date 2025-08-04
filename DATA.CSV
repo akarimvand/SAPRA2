@@ -47,7 +47,7 @@
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,216,0,0,92,0,92,0
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,22,0,122,41,81,0
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,0,0,0,0,0
-2000,2000-06,Reforming,Nitrogen Circuit,PI,6,3,0,19,4,15,0
+2000,2000-06,Reforming,Nitrogen Circuit,PI,6,3,0,19,6,13,0
 2000,2000-06,Reforming,Nitrogen Circuit,IN,21,0,0,1,0,1,0
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,0,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,0,0,0,0,0,0
@@ -102,7 +102,7 @@
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,IN,25,0,0,0,0,0,0
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,PI,20,1,0,3,3,0,0
 4000,4000-13,Utility,Slope Close Drain,MER,1,0,0,0,0,0,0
-4000,4000-13,Utility,Slope Close Drain,PI,29,3,0,11,1,10,0
+4000,4000-13,Utility,Slope Close Drain,PI,29,3,0,13,1,12,0
 4000,4000-14_AG,Utility,Fire Water(AG),PI,35,3,0,94,38,56,0
 4000,4000-14_AG,Utility,Fire Water(AG),IN,33,0,0,0,0,0,33
 4000,4000-14_AG,Utility,Fire Water(AG),MES,1,0,0,0,0,0,0
