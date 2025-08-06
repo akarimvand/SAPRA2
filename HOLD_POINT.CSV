@@ -118,3 +118,12 @@
 120-17,EL,SS-TR3A-01,Transformer,,HOLD SHORTAGE(MATERIAL),SS| First Floor
 120-17,EL,SS-TR3B-01,Transformer,,HOLD SHORTAGE(MATERIAL),SS| First Floor
 4000-11,IN,PT-0013(PT),Instrument(PT),,NOT PERMISSION(OWNER),
+4000-06,MES,FI-8001A,Filter(X),,Shortage,
+4000-06,MES,FI-8001C,Filter(X),,Shortage,
+4000-06,MES,PK-7502-MB-1A,PAKAGE(PK),,Shortage,
+2000-03,MES,X-2001-A,Filter(X),,Shortage,
+2000-03,MES,X-2001-B,Filter(X),,Shortage,
+5000-01,MES,X-5003,Filter(X),,Shortage,
+4000-04,MES,X-7001,Filter(X),,Shortage,
+4000-04,MES,X-7002,Filter(X),,Shortage,
+4000-04,MES,X-7003,Filter(X),,Shortage,
