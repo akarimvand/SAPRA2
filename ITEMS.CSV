@@ -5999,7 +5999,7 @@ TEL-09,EL,CR-TJB3,Telecom Device,Telephone Junction Box,
 1000-02,PI,DE-RF-FG-004,PI_TP,PIPING TEST PACKAGE,DONE
 1000-02,PI,DE-RF-FG-005,PI_TP,PIPING TEST PACKAGE,DONE
 1000-02,PI,DE-RF-FG-006,PI_TP,PIPING TEST PACKAGE,DONE
-1000-01,PI,DE-RF-PRG-008,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
+1000-01,PI,DE-RF-PRG-008,PI_TP,PIPING TEST PACKAGE,AKARIMVAND
 120-18,EL,DMPC-R_IO-SS-01,Panel,Damavand Remote I/O Cabinet,
 120-18,IN,DMPC-R_IO-SS-01-IN,Panel,Damavand Remote I/O Cabinet,
 120-18,EL,DMPC-R_IO-SS-02,Panel,Damavand Remote I/O Cabinet,
@@ -12313,9 +12313,9 @@ NO SUBS.,IN,FI-75154,Instrument(FI),Instrument(FI),
 4000-06,IN,FI-75203A,Instrument(FI),Instrument(FI),
 4000-06,IN,FI-75203B,Instrument(FI),Instrument(FI),
 4000-06,IN,FI-75204A,Instrument(FI),Instrument(FI),
-4000-06,MES,FI-8001A,Filter(X),Side Strem Sand Filters B,
+4000-06,MES,FI-8001A,Filter(X),Side Strem Sand Filters B,HOLD
 4000-06,MES,FI-8001B,Filter(X),Side Strem Sand Filters C,
-4000-06,MES,FI-8001C,Filter(X),Side Strem Sand Filters A,
+4000-06,MES,FI-8001C,Filter(X),Side Strem Sand Filters A,HOLD
 4000-06,IN,FI-8401,Instrument(FI),Instrument(FI),
 4000-06,IN,FI-8402,Instrument(FI),Instrument(FI),
 BLD-07,CV,Final Architecture(EX),07-Final Architecture(External),The final Architecture(External works of Building BLD-07),DONE
@@ -17136,7 +17136,7 @@ NO SUBS.,IN,PIT-30172 (),PKG,PKG,
 3000-01,IN,PIT-30188B(PIT),Instrument(PIT),Instrument(PIT),
 3000-01,IN,PIT-30188C(NA),CABLE,CABLE(NA),
 3000-01,IN,PIT-30188C(PIT),Instrument(PIT),Instrument(PIT),
-4000-06,MES,PK-7502-MB-1A,PAKAGE(PK),Package,
+4000-06,MES,PK-7502-MB-1A,PAKAGE(PK),Package,HOLD
 120-03,EL,PK7502-MB-1A,Local_Control_Station,Local Control Station- PK7502-MB-1A,
 4000-06,MES,PK-7502-MB-1B,PAKAGE(PK),Package,
 120-03,EL,PK7502-MB-1B,Local_Control_Station,Local Control Station- PK7502-MB-1B,
@@ -22650,21 +22650,21 @@ NO SUBS.,IN,VZAHH-30117,PKG,PKG,
 BLD-06,PI,Where House-FW Line-01,PI_TP,PIPING TEST PACKAGE,FL/DRY
 BLD-06,PI,Where House-FW Line-02,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 BLD-06,PI,Where House-PW Line-03,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
-2000-03,MES,X-2001-A,Filter(X),Oxygen Filter,
-2000-03,MES,X-2001-B,Filter(X),Oxygen Filter,
+2000-03,MES,X-2001-A,Filter(X),Oxygen Filter,HOLD
+2000-03,MES,X-2001-B,Filter(X),Oxygen Filter,HOLD
 2000-03,MES,X-2002-A,Filter(X),Steam Filter,
 2000-03,MES,X-2002-B,Filter(X),Steam Filter,
 1000-02,MES,X-2003,Filter(X),Static Fuel Gas Mixer,
 5000-04,MES,X-5001-A,Filter(X),PRODUCT POLISHER UNIT,
 5000-04,MES,X-5001-B,Filter(X),PRODUCT POLISHER UNIT,
-5000-01,MES,X-5003,Filter(X),FILTER,
+5000-01,MES,X-5003,Filter(X),FILTER,HOLD
 1000-03,MES,X-6001-A,Filter(X),Particle Filter,
 1000-03,MES,X-6001-B,Filter(X),Particle Filter,
 1000-03,MES,X-6002-A,Filter(X),Partical Filter,
 1000-03,MES,X-6002-B,Filter(X),Partical Filter,
-4000-04,MES,X-7001,Filter(X),FILTER,
-4000-04,MES,X-7002,Filter(X),FILTER,
-4000-04,MES,X-7003,Filter(X),FILTER,
+4000-04,MES,X-7001,Filter(X),FILTER,HOLD
+4000-04,MES,X-7002,Filter(X),FILTER,HOLD
+4000-04,MES,X-7003,Filter(X),FILTER,HOLD
 4000-06,MES,X-7501,Filter(X),STATIC MIXER,
 2000-02,IN,XA-20101,Instrument(X),Instrument(XA),
 2000-02,IN,XA-20102,Instrument(X),Instrument(XA),
