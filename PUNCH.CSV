@@ -3190,6 +3190,7 @@ DCS-01,IN,CR-CEC-EH-01,JUNCTION BOX,B,Tag No Panel Shall Be Install,PL-20883
 DCS-01,IN,CR-CEC-EH-01,JUNCTION BOX,B,Panel Cover Should Be Dull Bolted.,PL-20835
 DCS-01,IN,CR-CEC-EH-01,JUNCTION BOX,B,As-Built Drawing Shall Be Done.,PL-20787
 DCS-01,IN,CR-CEC-EH-01,JUNCTION BOX,A,Earthing /Bonding Shall Be Done.,PL-20739
+TEL-09,EL,CR-SP-03,Paging Device,A,Loud Speaker is not install.,PL-22421
 120-09,EL,CR-UPS-01,UPS & Battery,A,Earth panel shall be installed.,PL-17194
 120-09,EL,CR-UPS-01,UPS & Battery,C,Preservation shall be done.,PL-17195
 120-09,EL,CR-UPS-01,UPS & Battery,C,Cleaning shall be done.,PL-17196
@@ -9882,6 +9883,12 @@ LS-06,EL,SL9-FJB01,Lighting Cable,B,Tag No shall be installed.,PL-11553
 120-12,EL,SS-PDCS-01,Panel,A,Wiring connection shall be done.,PL-05636
 120-12,EL,SS-PDCS-01,Panel,B,Preservation  تجهيز انجام شود,PL-05637
 120-12,EL,SS-PDCS-01,Panel,A,لولا درب کج شده ميبايست تعمير گردد.,PL-05638
+TEL-08,EL,SS-PJB1,Paging Device,C,Cleaning  shall be done,PL-22416
+TEL-08,EL,SS-PJB1,Paging Device,B,S.S CAP SHOULD BE DONE.,PL-22419
+TEL-08,EL,SS-PJB2,Paging Device,B,S.S CAP SHOULD BE DONE.,PL-22420
+TEL-08,EL,SS-PJB2,Paging Device,C,Cleaning  shall be done,PL-22417
+TEL-08,EL,SS-TJB1,Telecom Device,B,S.S CAP SHOULD BE DONE.,PL-22418
+TEL-08,EL,SS-TJB1,Telecom Device,C,Cleaning  shall be done,PL-22415
 120-16,EL,SS-TR1A-01,Transformer,C,Bolt & nut is not completed,PL-05698
 120-16,EL,SS-TR1A-01,Transformer,B,Touch up body shall be done,PL-05699
 120-16,EL,SS-TR1A-01,Transformer,C,Cleaning Trans shall be done.,PL-05702
