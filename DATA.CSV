@@ -11,17 +11,17 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,39,0,165,50,115,1
 1000,1000-04,Gas Preparation,Gas Station,IN,2,0,0,0,0,0,1
 1000,1000-04,Gas Preparation,Gas Station,PI,1,0,0,0,0,0,0
-120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,169,0,0,1244,778,466,0
-120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,308,0,0,1332,692,640,0
-120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,290,0,0,1151,524,627,0
+120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,169,0,0,1244,833,411,0
+120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,308,0,0,1332,816,516,0
+120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,290,0,0,1151,640,511,0
 120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,264,0,0,1099,676,423,0
-120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,244,0,0,1093,635,458,0
-120,120-06,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-05,EL,222,0,0,1096,493,603,0
-120,120-07,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-ESWB3A/B-01,EL,147,0,0,491,179,312,0
+120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,244,0,0,1093,659,434,0
+120,120-06,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-05,EL,222,0,0,1096,556,540,0
+120,120-07,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-ESWB3A/B-01,EL,147,0,0,491,221,270,0
 120,120-08,Electrical Distribution Substation,Emergency Diesel Generator SS-DG-5701,EL,8,0,0,0,0,0,0
-120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,EL,29,0,0,25,7,18,0
+120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,EL,29,0,0,25,10,15,0
 120,120-10,Electrical Distribution Substation,SS-CH-01 for Electrical Supply 110V DC,EL,24,0,0,136,0,136,0
-120,120-11,Electrical Distribution Substation,SS-UPS-01 for Safety Lighting Supply 230 AC UPS,EL,18,0,0,41,9,32,0
+120,120-11,Electrical Distribution Substation,SS-UPS-01 for Safety Lighting Supply 230 AC UPS,EL,18,0,0,41,10,31,0
 120,120-12,Electrical Distribution Substation,SS PDCS System,EL,10,0,0,8,0,8,0
 120,120-13,Electrical Distribution Substation,Cathodic Protection System,EL,153,0,0,472,462,10,0
 120,120-14,Electrical Distribution Substation,Electric Heat Tracing System,EL,3,0,0,0,0,0,0
@@ -83,7 +83,7 @@
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,55,22,0,112,53,59,1
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,0,0,0,0,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,249,0,0,13,4,9,71
-4000,4000-07,Utility,Plant Air,IN,6,6,0,0,0,0,10
+4000,4000-07,Utility,Plant Air,IN,6,6,0,0,0,0,6
 4000,4000-07,Utility,Plant Air,PI,10,10,0,13,2,11,0
 4000,4000-08,Utility,Cooling Water,MER,8,0,0,0,0,0,0
 4000,4000-08,Utility,Cooling Water,PI,279,64,0,504,169,335,8
@@ -95,7 +95,7 @@
 4000,4000-10,Utility,Sanitary Water Collection,PI,14,0,0,2,0,2,0
 4000,4000-10,Utility,Sanitary Water Collection,MER,1,0,0,0,0,0,0
 4000,4000-11,Utility,Instrument Air,PI,11,10,0,11,6,5,1
-4000,4000-11,Utility,Instrument Air,IN,69,20,0,24,0,24,26
+4000,4000-11,Utility,Instrument Air,IN,69,20,0,24,0,24,21
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,MER,4,0,0,0,0,0,0
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,IN,25,0,0,4,0,4,17
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,PI,19,2,0,3,3,0,0
@@ -170,12 +170,12 @@ HVAC,HVAC-01,HVAC System,HVAC for Substation,EL,2,0,0,0,0,0,0
 HVAC,HVAC-02,HVAC System,HVAC for Control Building,EL,3,0,0,0,0,0,0
 HVAC,HVAC-03,HVAC System,HVAC for Laboratory & Yard Office,EL,1,0,0,0,0,0,0
 HVAC,HVAC-04,HVAC System,HVAC for Analyzer House,EL,1,0,0,0,0,0,0
-LS,LS-01,Lighting System,SS-MLP-01 for Normal Lighting System,EL,100,0,0,87,35,52,0
-LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,0,0,61,24,37,0
+LS,LS-01,Lighting System,SS-MLP-01 for Normal Lighting System,EL,100,0,0,87,45,42,0
+LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,0,0,61,31,30,0
 LS,LS-03,Lighting System,Lighting System for Substation,EL,516,516,0,1699,1699,0,0
 LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,0,0,0,0,0,0
 LS,LS-05,Lighting System,Lighting System for Laboratory & Yard Office,EL,315,0,0,0,0,0,0
-LS,LS-06,Lighting System,Lighting System for Street,EL,73,0,0,26,10,16,0
+LS,LS-06,Lighting System,Lighting System for Street,EL,73,0,0,26,11,15,0
 LS,LS-07,Lighting System,Lighting System for Area-02,EL,1075,0,0,0,0,0,0
 LS,LS-08,Lighting System,Lighting System for Area-03,EL,440,0,0,192,108,84,0
 LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,0,0,275,15,260,0
