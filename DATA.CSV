@@ -28,8 +28,8 @@
 120,120-15,Electrical Distribution Substation,Capacitor Bank,EL,5,0,0,0,0,0,0
 120,120-16,Electrical Distribution Substation,MV Transformer,EL,12,12,0,50,44,6,6
 120,120-17,Electrical Distribution Substation,LV Transformer,EL,15,15,0,104,70,34,3
-120,120-18,Electrical Distribution Substation,E/I Cabinet,EL,16,0,0,46,0,46,0
-120,120-18,Electrical Distribution Substation,E/I Cabinet,IN,16,0,0,12,0,12,0
+120,120-18,Electrical Distribution Substation,E/I Cabinet,EL,16,0,0,46,34,12,0
+120,120-18,Electrical Distribution Substation,E/I Cabinet,IN,16,0,0,12,12,0,0
 2000,2000-01,Reforming,Pre Reforming,MES,2,0,0,0,0,0,0
 2000,2000-01,Reforming,Pre Reforming,PI,8,7,0,19,0,19,0
 2000,2000-01,Reforming,Pre Reforming,IN,77,0,0,7,1,6,7
@@ -84,10 +84,10 @@
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,0,0,0,0,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,249,0,0,13,4,9,71
 4000,4000-07,Utility,Plant Air,IN,6,0,0,0,0,0,6
-4000,4000-07,Utility,Plant Air,PI,10,10,0,13,2,11,0
+4000,4000-07,Utility,Plant Air,PI,10,9,0,13,2,11,0
 4000,4000-08,Utility,Cooling Water,MES,5,0,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,0,0,0,0,0
-4000,4000-08,Utility,Cooling Water,PI,287,65,0,504,178,326,8
+4000,4000-08,Utility,Cooling Water,PI,287,64,0,504,178,326,8
 4000,4000-08,Utility,Cooling Water,IN,526,8,0,8,2,6,138
 4000,4000-09,Utility,Oily Water Treatment,PI,227,34,0,22,11,11,2
 4000,4000-09,Utility,Oily Water Treatment,IN,20,0,0,0,0,0,16
@@ -101,7 +101,7 @@
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,IN,25,0,0,4,0,4,17
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,PI,19,2,0,3,3,0,0
 4000,4000-13,Utility,Slope Close Drain,MER,1,0,0,0,0,0,0
-4000,4000-13,Utility,Slope Close Drain,PI,29,5,0,13,1,12,0
+4000,4000-13,Utility,Slope Close Drain,PI,29,4,0,13,1,12,0
 4000,4000-14,Utility,Fire Water,IN,33,0,0,0,0,0,33
 4000,4000-14,Utility,Fire Water,MES,1,0,0,0,0,0,0
 4000,4000-14,Utility,Fire Water,PI,125,15,0,146,39,107,0
@@ -186,7 +186,7 @@ LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,0,0,362,177,185,0
 LS,LS-13,Lighting System,Lighting System for Warehouse,EL,8,0,0,0,0,0,0
 LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,64,0,175,142,33,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,1179,0,0,0,0,0,328
-NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,PI,6,1,0,0,0,0,0
+NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,PI,6,0,0,0,0,0,0
 TELE,TEL-01,Telecom Systems,Telecom System for Area-01,EL,24,0,0,0,0,0,0
 TELE,TEL-02,Telecom Systems,Telecom System for Area-02,EL,61,0,0,4,0,4,0
 TELE,TEL-03,Telecom Systems,Telecom System for Area-03,EL,39,0,0,0,0,0,0
