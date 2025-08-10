@@ -1,5 +1,5 @@
 ﻿SD_Sub_System,Discipline_Name,ITEM_Tag_NO,ITEM_Type_Code,ITEM_Description,ITEM_Status
-NO SUBS.,PI,-,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
+NO SUBS.,PI,-,PI_TP,PIPING TEST PACKAGE,DONE
 TEL-11,EL,00-CAM-01,CCTV,CCTV,
 TEL-11,EL,00-CAM-02,CCTV,CCTV,
 TEL-11,EL,00-CAM-03,CCTV,CCTV,
@@ -20,7 +20,7 @@ TEL-11,EL,00-CAM-17,CCTV,CCTV,
 TEL-11,EL,00-CAM-18,CCTV,CCTV,
 LS-02,EL,00-ELP-01,Panel,Area Emergency Lighting Panel,
 LS-02,EL,00-ELP-02,Panel,Area Emergency Lighting Panel,
-LS-02,EL,00-ELP-03,Panel,Area Emergency Lighting Panel,
+LS-02,EL,00-ELP-03,Panel,Area Emergency Lighting Panel,DONE
 LS-02,EL,00-ELP-04,Panel,Area Emergency Lighting Panel,
 120-14,EL,00-HTP-01,Panel,Heat Tracing Panel,
 120-14,EL,00-HTP-02,Panel,Heat Tracing Panel,
