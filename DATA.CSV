@@ -54,12 +54,12 @@
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,747,0,0,6,0,6,5
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,29,0,66,20,46,2
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,0,0,0,0,0
-3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,127,0,0,41,0,41,19
+3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,127,0,0,45,0,45,19
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,38,9,0,35,4,31,14
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,0,0,19,0,19,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,7,0,0,30,0,30,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,16,0,98,12,86,0
-3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,270,0,0,58,0,58,84
+3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,270,0,0,62,0,62,84
 3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,0,0,0,0,0,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,11,0,11,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,147,0,0,6,0,6,2
@@ -172,7 +172,7 @@ HVAC,HVAC-02,HVAC System,HVAC for Control Building,EL,3,0,0,0,0,0,0
 HVAC,HVAC-03,HVAC System,HVAC for Laboratory & Yard Office,EL,1,0,0,0,0,0,0
 HVAC,HVAC-04,HVAC System,HVAC for Analyzer House,EL,1,0,0,0,0,0,0
 LS,LS-01,Lighting System,SS-MLP-01 for Normal Lighting System,EL,100,0,0,87,45,42,0
-LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,0,0,61,31,30,0
+LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,1,0,61,31,30,0
 LS,LS-03,Lighting System,Lighting System for Substation,EL,516,516,0,1699,1699,0,0
 LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,0,0,0,0,0,0
 LS,LS-05,Lighting System,Lighting System for Laboratory & Yard Office,EL,315,0,0,0,0,0,0
@@ -186,7 +186,7 @@ LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,0,0,362,177,185,0
 LS,LS-13,Lighting System,Lighting System for Warehouse,EL,8,0,0,0,0,0,0
 LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,64,0,175,142,33,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,1179,0,0,0,0,0,328
-NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,PI,6,0,0,0,0,0,0
+NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,PI,6,1,0,0,0,0,0
 TELE,TEL-01,Telecom Systems,Telecom System for Area-01,EL,24,0,0,0,0,0,0
 TELE,TEL-02,Telecom Systems,Telecom System for Area-02,EL,61,0,0,4,0,4,0
 TELE,TEL-03,Telecom Systems,Telecom System for Area-03,EL,39,0,0,0,0,0,0
