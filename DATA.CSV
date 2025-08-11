@@ -87,7 +87,7 @@
 4000,4000-07,Utility,Plant Air,PI,10,10,0,13,2,11,0
 4000,4000-08,Utility,Cooling Water,MES,5,0,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,0,0,0,0,0
-4000,4000-08,Utility,Cooling Water,PI,287,64,0,504,178,326,8
+4000,4000-08,Utility,Cooling Water,PI,287,64,0,504,190,314,8
 4000,4000-08,Utility,Cooling Water,IN,526,8,0,8,2,6,138
 4000,4000-09,Utility,Oily Water Treatment,PI,227,34,0,22,11,11,2
 4000,4000-09,Utility,Oily Water Treatment,IN,20,0,0,0,0,0,16
@@ -114,12 +114,12 @@
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,0,0,0,0,0,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,PI,46,28,0,134,43,91,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,462,0,0,330,158,172,250
-5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,37,0,137,57,80,0
+5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,37,0,137,59,78,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,0,0,44,11,33,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,258,0,0,376,190,186,50
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,0,0,0,0,0,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MES,6,0,0,27,0,27,0
-5000,5000-04,Distillation & Methanol Product,Methanol Product,PI,30,8,0,123,34,89,3
+5000,5000-04,Distillation & Methanol Product,Methanol Product,PI,30,8,0,123,35,88,3
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MER,4,0,0,0,0,0,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,IN,205,0,0,98,38,60,38
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MES,2,0,0,0,0,0,1
