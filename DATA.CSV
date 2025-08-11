@@ -4,7 +4,7 @@
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,0,0,29,0,29,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,0,0,0,0,0,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,PI,12,9,0,24,17,7,0
-1000,1000-02,Gas Preparation,Fuel Gas & Distribution,IN,171,0,0,36,3,33,5
+1000,1000-02,Gas Preparation,Fuel Gas & Distribution,IN,171,0,0,48,3,45,5
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MES,13,0,0,31,0,31,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,0,0,0,0,0,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,327,0,0,71,4,67,80
@@ -48,7 +48,7 @@
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,22,0,122,41,81,0
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,0,0,0,0,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,3,0,19,7,12,0
-2000,2000-06,Reforming,Nitrogen Circuit,IN,22,0,0,1,0,1,4
+2000,2000-06,Reforming,Nitrogen Circuit,IN,68,0,0,6,0,6,10
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,0,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,0,0,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,747,0,0,6,0,6,5
@@ -65,7 +65,7 @@
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,147,0,0,6,0,6,2
 3000,3000-04,Compression and Synthesis,Hydrogen System,MER,1,0,0,0,0,0,0
 4000,4000-01,Utility,Nitrogen,PI,20,18,0,39,23,16,1
-4000,4000-01,Utility,Nitrogen,IN,60,0,0,1,0,1,12
+4000,4000-01,Utility,Nitrogen,IN,16,0,0,0,0,0,6
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,0,0,0,0,0,0
 4000,4000-02,Utility,HHP & HP & LP Steam,IN,240,0,0,48,2,46,25
 4000,4000-02,Utility,HHP & HP & LP Steam,PI,63,33,0,170,34,136,2
@@ -88,7 +88,7 @@
 4000,4000-08,Utility,Cooling Water,MES,5,0,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,0,0,0,0,0
 4000,4000-08,Utility,Cooling Water,PI,287,64,0,504,190,314,8
-4000,4000-08,Utility,Cooling Water,IN,526,8,0,8,2,6,138
+4000,4000-08,Utility,Cooling Water,IN,526,8,0,26,2,24,138
 4000,4000-09,Utility,Oily Water Treatment,PI,227,34,0,22,11,11,2
 4000,4000-09,Utility,Oily Water Treatment,IN,20,0,0,0,0,0,16
 4000,4000-09,Utility,Oily Water Treatment,MER,2,0,0,0,0,0,0
@@ -96,7 +96,7 @@
 4000,4000-10,Utility,Sanitary Water Collection,PI,14,0,0,2,0,2,0
 4000,4000-10,Utility,Sanitary Water Collection,MER,1,0,0,0,0,0,0
 4000,4000-11,Utility,Instrument Air,PI,11,11,0,13,6,7,1
-4000,4000-11,Utility,Instrument Air,IN,69,22,0,42,0,42,21
+4000,4000-11,Utility,Instrument Air,IN,69,21,0,42,0,42,21
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,MER,4,0,0,0,0,0,0
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,IN,25,0,0,4,0,4,17
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,PI,19,2,0,3,3,0,0
@@ -104,7 +104,7 @@
 4000,4000-13,Utility,Slope Close Drain,PI,29,10,0,13,1,12,0
 4000,4000-14,Utility,Fire Water,IN,33,0,0,0,0,0,33
 4000,4000-14,Utility,Fire Water,MES,1,0,0,0,0,0,0
-4000,4000-14,Utility,Fire Water,PI,125,16,0,146,39,107,0
+4000,4000-14,Utility,Fire Water,PI,125,15,0,146,39,107,0
 4000,4000-15,Utility,Potable & Service Water,PI,61,22,0,75,13,62,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,0,0,0,0,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,0,0,69,11,58,5
@@ -126,7 +126,7 @@
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MER,2,0,0,0,0,0,0
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,60,0,0,17,6,11,17
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,10,5,0,29,7,22,0
-7000,7000-01,Flare,Flare System (In Site),IN,143,0,0,22,11,11,7
+7000,7000-01,Flare,Flare System (In Site),IN,141,0,0,22,11,11,7
 7000,7000-01,Flare,Flare System (In Site),MER,2,0,0,0,0,0,0
 7000,7000-01,Flare,Flare System (In Site),MES,2,0,0,6,0,6,0
 7000,7000-01,Flare,Flare System (In Site),PI,49,13,0,78,18,60,2
@@ -186,7 +186,7 @@ LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,0,0,362,177,185,0
 LS,LS-13,Lighting System,Lighting System for Warehouse,EL,8,0,0,0,0,0,0
 LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,64,0,175,142,33,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,1179,0,0,0,0,0,328
-NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,PI,6,0,0,0,0,0,0
+NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,PI,7,0,0,0,0,0,0
 TELE,TEL-01,Telecom Systems,Telecom System for Area-01,EL,24,0,0,0,0,0,0
 TELE,TEL-02,Telecom Systems,Telecom System for Area-02,EL,61,0,0,4,0,4,0
 TELE,TEL-03,Telecom Systems,Telecom System for Area-03,EL,39,0,0,0,0,0,0
