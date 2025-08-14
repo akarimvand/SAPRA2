@@ -26,8 +26,8 @@
 120,120-13,Electrical Distribution Substation,Cathodic Protection System,EL,153,0,0,472,462,10,0
 120,120-14,Electrical Distribution Substation,Electric Heat Tracing System,EL,3,0,0,0,0,0,0
 120,120-15,Electrical Distribution Substation,Capacitor Bank,EL,5,0,0,0,0,0,0
-120,120-16,Electrical Distribution Substation,MV Transformer,EL,12,12,0,50,44,6,6
-120,120-17,Electrical Distribution Substation,LV Transformer,EL,15,15,0,104,70,34,3
+120,120-16,Electrical Distribution Substation,MV Transformer,EL,12,12,0,50,45,5,6
+120,120-17,Electrical Distribution Substation,LV Transformer,EL,15,15,0,104,82,22,3
 120,120-18,Electrical Distribution Substation,E/I Cabinet,EL,16,0,0,46,34,12,0
 120,120-18,Electrical Distribution Substation,E/I Cabinet,IN,16,0,0,12,12,0,0
 2000,2000-01,Reforming,Pre Reforming,MES,2,0,0,0,0,0,0
@@ -37,7 +37,7 @@
 2000,2000-02,Reforming,Primary Reforming,MES,8,0,0,0,0,0,0
 2000,2000-02,Reforming,Primary Reforming,IN,696,0,0,96,0,96,77
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,24,8,0,28,2,26,2
-2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,341,0,0,80,2,78,53
+2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,341,0,0,84,2,82,53
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,MES,6,0,0,0,0,0,2
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MES,11,0,0,0,0,0,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MER,2,0,0,0,0,0,0
@@ -177,9 +177,9 @@ LS,LS-03,Lighting System,Lighting System for Substation,EL,516,516,0,1699,1699,0
 LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,0,0,0,0,0,0
 LS,LS-05,Lighting System,Lighting System for Laboratory & Yard Office,EL,315,0,0,0,0,0,0
 LS,LS-06,Lighting System,Lighting System for Street,EL,73,0,0,26,11,15,0
-LS,LS-07,Lighting System,Lighting System for Area-02,EL,1075,0,0,0,0,0,0
+LS,LS-07,Lighting System,Lighting System for Area-02,EL,1075,0,0,1,0,1,0
 LS,LS-08,Lighting System,Lighting System for Area-03,EL,440,0,0,192,108,84,0
-LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,0,0,275,67,208,0
+LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,0,0,309,67,242,0
 LS,LS-10,Lighting System,Lighting System for Area-05,EL,706,0,0,268,0,268,0
 LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,0,0,362,217,145,0
 LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,0,0,362,177,185,0
