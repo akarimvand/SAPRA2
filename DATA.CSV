@@ -3,12 +3,12 @@
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,21,12,0,53,9,44,2
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,0,0,29,0,29,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,0,0,0,0,0,0
-1000,1000-02,Gas Preparation,Fuel Gas & Distribution,PI,12,9,0,24,17,7,0
+1000,1000-02,Gas Preparation,Fuel Gas & Distribution,PI,12,10,0,24,18,6,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,IN,171,0,0,48,3,45,5
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MES,13,0,0,31,0,31,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,0,0,0,0,0,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,327,0,0,71,4,67,80
-1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,42,0,165,50,115,1
+1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,43,0,165,51,114,1
 1000,1000-04,Gas Preparation,Gas Station,IN,2,0,0,0,0,0,1
 1000,1000-04,Gas Preparation,Gas Station,PI,1,0,0,0,0,0,0
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,169,0,0,1244,833,411,0
@@ -31,28 +31,28 @@
 120,120-18,Electrical Distribution Substation,E/I Cabinet,EL,16,0,0,46,34,12,0
 120,120-18,Electrical Distribution Substation,E/I Cabinet,IN,16,0,0,12,12,0,0
 2000,2000-01,Reforming,Pre Reforming,MES,2,0,0,0,0,0,0
-2000,2000-01,Reforming,Pre Reforming,PI,8,7,0,19,0,19,0
+2000,2000-01,Reforming,Pre Reforming,PI,8,8,0,19,0,19,0
 2000,2000-01,Reforming,Pre Reforming,IN,77,0,0,7,1,6,7
 2000,2000-02,Reforming,Primary Reforming,PI,9,6,0,24,4,20,0
 2000,2000-02,Reforming,Primary Reforming,MES,8,0,0,0,0,0,0
 2000,2000-02,Reforming,Primary Reforming,IN,696,0,0,96,0,96,77
-2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,24,8,0,28,2,26,2
+2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,24,8,0,28,3,25,2
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,341,0,0,92,2,90,53
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,MES,6,0,0,0,0,0,2
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MES,11,0,0,0,0,0,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MER,2,0,0,0,0,0,0
-2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,23,17,0,47,8,39,2
+2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,23,18,0,47,8,39,2
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,224,0,0,67,2,65,29
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,0,0,48,20,28,0
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,216,0,0,102,41,61,66
-2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,23,0,122,41,81,0
+2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,25,0,122,41,81,0
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,0,0,0,0,0
-2000,2000-06,Reforming,Nitrogen Circuit,PI,6,5,0,19,7,12,0
+2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,19,7,12,0
 2000,2000-06,Reforming,Nitrogen Circuit,IN,68,0,0,6,0,6,10
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,0,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,0,0,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,747,0,0,10,0,10,5
-3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,29,0,66,20,46,2
+3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,30,0,66,20,46,2
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,0,0,0,0,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,127,0,0,45,0,45,19
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,38,9,0,35,4,31,14
@@ -64,7 +64,7 @@
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,11,0,11,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,147,0,0,6,0,6,2
 3000,3000-04,Compression and Synthesis,Hydrogen System,MER,1,0,0,0,0,0,0
-4000,4000-01,Utility,Nitrogen,PI,20,18,0,42,23,19,1
+4000,4000-01,Utility,Nitrogen,PI,20,18,0,43,25,18,1
 4000,4000-01,Utility,Nitrogen,IN,16,0,0,0,0,0,6
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,0,0,0,0,0,0
 4000,4000-02,Utility,HHP & HP & LP Steam,IN,240,0,0,70,2,68,25
@@ -74,63 +74,63 @@
 4000,4000-03,Utility,MP Steam,PI,5,5,0,37,8,29,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,0,0,6,0,6,3
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,0,0,0,0,0
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,47,28,0,118,59,59,2
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,47,30,0,118,60,58,2
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,497,0,0,31,1,30,116
-4000,4000-05,Utility,Blow Down,PI,24,11,0,34,10,24,1
+4000,4000-05,Utility,Blow Down,PI,24,12,0,34,10,24,1
 4000,4000-05,Utility,Blow Down,MES,4,0,0,4,0,4,0
 4000,4000-05,Utility,Blow Down,IN,17,0,0,0,0,0,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,0,0,4,0,4,5
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,55,22,0,112,52,60,1
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,55,23,0,114,53,61,1
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,0,0,0,0,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,249,0,0,13,4,9,71
 4000,4000-07,Utility,Plant Air,IN,6,0,0,0,0,0,6
-4000,4000-07,Utility,Plant Air,PI,10,10,0,13,2,11,0
+4000,4000-07,Utility,Plant Air,PI,10,10,0,13,3,10,0
 4000,4000-08,Utility,Cooling Water,MES,5,0,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,0,0,0,0,0
-4000,4000-08,Utility,Cooling Water,PI,287,65,0,504,190,314,8
-4000,4000-08,Utility,Cooling Water,IN,526,8,0,26,2,24,138
-4000,4000-09,Utility,Oily Water Treatment,PI,227,34,0,22,11,11,2
+4000,4000-08,Utility,Cooling Water,PI,287,66,0,504,211,293,8
+4000,4000-08,Utility,Cooling Water,IN,526,8,0,32,2,30,138
+4000,4000-09,Utility,Oily Water Treatment,PI,227,36,0,22,14,8,2
 4000,4000-09,Utility,Oily Water Treatment,IN,20,0,0,0,0,0,16
 4000,4000-09,Utility,Oily Water Treatment,MER,2,0,0,0,0,0,0
 4000,4000-10,Utility,Sanitary Water Collection,IN,12,0,0,0,0,0,4
 4000,4000-10,Utility,Sanitary Water Collection,PI,14,0,0,2,0,2,0
 4000,4000-10,Utility,Sanitary Water Collection,MER,1,0,0,0,0,0,0
-4000,4000-11,Utility,Instrument Air,PI,11,11,0,13,7,6,1
-4000,4000-11,Utility,Instrument Air,IN,69,21,0,49,0,49,21
+4000,4000-11,Utility,Instrument Air,PI,12,11,0,13,8,5,1
+4000,4000-11,Utility,Instrument Air,IN,69,34,0,59,21,38,21
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,MER,4,0,0,0,0,0,0
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,IN,25,0,0,4,0,4,17
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,PI,19,2,0,3,3,0,0
 4000,4000-13,Utility,Slope Close Drain,MER,1,0,0,0,0,0,0
-4000,4000-13,Utility,Slope Close Drain,PI,29,10,0,13,1,12,0
+4000,4000-13,Utility,Slope Close Drain,PI,29,11,0,19,4,15,0
 4000,4000-14,Utility,Fire Water,IN,33,0,0,0,0,0,33
 4000,4000-14,Utility,Fire Water,MES,1,0,0,0,0,0,0
-4000,4000-14,Utility,Fire Water,PI,125,15,0,146,39,107,0
-4000,4000-15,Utility,Potable & Service Water,PI,61,23,0,75,13,62,0
+4000,4000-14,Utility,Fire Water,PI,125,19,0,213,39,174,0
+4000,4000-15,Utility,Potable & Service Water,PI,61,24,0,75,13,62,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,0,0,0,0,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,0,0,69,11,58,5
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,414,0,0,439,202,237,115
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,52,0,216,80,136,3
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,53,0,216,81,135,3
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,8,0,0,84,42,42,1
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,0,0,0,0,0,0
-5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,PI,46,33,0,134,43,91,0
+5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,PI,46,36,0,134,43,91,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,462,0,0,338,158,180,250
-5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,38,0,137,59,78,0
+5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,38,0,137,64,73,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,0,0,44,11,33,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,258,0,0,382,190,192,50
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,0,0,0,0,0,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MES,6,0,0,27,0,27,0
-5000,5000-04,Distillation & Methanol Product,Methanol Product,PI,30,9,0,123,35,88,3
+5000,5000-04,Distillation & Methanol Product,Methanol Product,PI,30,13,0,123,35,88,3
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MER,4,0,0,0,0,0,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,IN,205,0,0,98,38,60,38
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MES,2,0,0,0,0,0,1
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MER,2,0,0,0,0,0,0
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,60,0,0,17,6,11,17
-5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,10,6,0,29,7,22,0
+5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,10,6,0,29,12,17,0
 7000,7000-01,Flare,Flare System (In Site),IN,141,0,0,22,11,11,7
 7000,7000-01,Flare,Flare System (In Site),MER,2,0,0,0,0,0,0
 7000,7000-01,Flare,Flare System (In Site),MES,2,0,0,6,0,6,0
-7000,7000-01,Flare,Flare System (In Site),PI,49,13,0,78,18,60,2
-BLD,BLD-01,Building,Substation,PI,3,0,0,2,0,2,0
+7000,7000-01,Flare,Flare System (In Site),PI,49,15,0,78,18,60,2
+BLD,BLD-01,Building,Substation,PI,3,0,0,3,0,3,0
 BLD,BLD-01,Building,Substation,CV,14,14,0,55,0,55,0
 BLD,BLD-02,Building,Control Building,CV,8,8,0,0,0,0,0
 BLD,BLD-02,Building,Control Building,PI,1,1,0,6,5,1,0
