@@ -6688,10 +6688,10 @@ ES-01,EL,E2-02,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
 2000-04,MES,E-2022-1,Exchanger(E),BFW Preheater,
 2000-04,MES,E-2022-2,Exchanger(E),BFW Preheater,
 2000-04,MES,E-2022-3,Exchanger(E),BFW Preheater,
-5000-03,MES,E-2023,Exchanger(E),MP Column Reboiler No.2,
-5000-01,MES,E-2024-1,Exchanger(E),Stabilizer Column Reboiler,
-5000-01,MES,E-2024-2,Exchanger(E),Stabilizer Column Reboiler,
-2000-05,MES,E-2025,Exchanger(E),DMW Preheater,
+5000-03,MES,E-2023,Exchanger(E),MP Column Reboiler No.2,DONE
+5000-01,MES,E-2024-1,Exchanger(E),Stabilizer Column Reboiler,DONE
+5000-01,MES,E-2024-2,Exchanger(E),Stabilizer Column Reboiler,DONE
+2000-05,MES,E-2025,Exchanger(E),DMW Preheater,DONE
 2000-05,MES,E-2027,Exchanger(E),Water Cooler,
 ES-01,EL,E2-03,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
 ES-01,EL,E2-04,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
@@ -8055,9 +8055,9 @@ ES-08,EL,E30-01(ES-08),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,
 ES-09,EL,E30-01(ES-09),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,
 ES-10,EL,E30-01(ES-10),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,
 ES-11,EL,E30-01(ES-11),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,
-3000-02,MES,E-3001-1,Exchanger(E),Feed/Effluent Exchanger,
-3000-02,MES,E-3001-2,Exchanger(E),Feed/Effluent Exchanger,
-3000-02,MES,E-3001-3,Exchanger(E),Feed/Effluent Exchanger,
+3000-02,MES,E-3001-1,Exchanger(E),Feed/Effluent Exchanger,DONE
+3000-02,MES,E-3001-2,Exchanger(E),Feed/Effluent Exchanger,DONE
+3000-02,MES,E-3001-3,Exchanger(E),Feed/Effluent Exchanger,DONE
 ES-01,EL,E30-02(ES-01),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,DONE
 ES-03,EL,E30-02(ES-03),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,
 ES-04,EL,E30-02(ES-04),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,DONE
@@ -8074,9 +8074,9 @@ ES-08,EL,E30-03(ES-08),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,
 ES-09,EL,E30-03(ES-09),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,
 ES-10,EL,E30-03(ES-10),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,
 ES-11,EL,E30-03(ES-11),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,
-3000-03,MES,E-3003-1,Exchanger(E),Loop Water Cooler,
-3000-03,MES,E-3003-2,Exchanger(E),Loop Water Cooler,
-3000-03,MES,E-3003-3,Exchanger(E),Loop Water Cooler,
+3000-03,MES,E-3003-1,Exchanger(E),Loop Water Cooler,DONE
+3000-03,MES,E-3003-2,Exchanger(E),Loop Water Cooler,DONE
+3000-03,MES,E-3003-3,Exchanger(E),Loop Water Cooler,DONE
 ES-01,EL,E30-04(ES-01),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,DONE
 ES-04,EL,E30-04(ES-04),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,DONE
 ES-06,EL,E30-04(ES-06),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,
