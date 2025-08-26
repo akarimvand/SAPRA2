@@ -140,7 +140,7 @@ BLD,BLD-04,Building,Security Building,CV,14,14,0,0,0,0,0
 BLD,BLD-05,Building,Diesel Room,CV,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,PI,3,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,CV,14,14,0,25,0,25,0
-BLD,BLD-07,Building,Analyzer House,CV,8,8,0,0,0,0,0
+BLD,BLD-07,Building,Analyzer House,CV,8,8,0,16,0,16,0
 DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2566,0,0,1642,0,1642,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2190,2136,54,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,0,0,0,0,0,0
