@@ -4,7 +4,7 @@
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,1,0,29,0,29,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,0,0,0,0,0,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,PI,12,10,0,24,18,6,3
-1000,1000-02,Gas Preparation,Fuel Gas & Distribution,IN,176,0,0,48,3,45,11
+1000,1000-02,Gas Preparation,Fuel Gas & Distribution,IN,176,0,0,67,3,64,11
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MES,13,2,0,41,2,39,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,0,0,0,0,0,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,0,0,71,6,65,107
@@ -33,10 +33,10 @@
 120,120-18,Electrical Distribution Substation,E/I Cabinet,IN,16,0,0,12,12,0,0
 2000,2000-01,Reforming,Pre Reforming,MES,2,0,0,0,0,0,0
 2000,2000-01,Reforming,Pre Reforming,PI,8,8,0,19,0,19,1
-2000,2000-01,Reforming,Pre Reforming,IN,92,0,0,7,1,6,11
+2000,2000-01,Reforming,Pre Reforming,IN,92,0,0,9,1,8,11
 2000,2000-02,Reforming,Primary Reforming,PI,9,6,0,24,4,20,1
 2000,2000-02,Reforming,Primary Reforming,MES,8,0,0,0,0,0,0
-2000,2000-02,Reforming,Primary Reforming,IN,873,0,0,96,1,95,77
+2000,2000-02,Reforming,Primary Reforming,IN,873,0,0,110,1,109,77
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,24,9,0,44,3,41,79
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,363,0,0,92,2,90,50
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,MES,6,0,0,0,0,0,2
@@ -49,7 +49,7 @@
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,25,0,123,51,72,15
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,0,0,0,0,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,19,7,12,0
-2000,2000-06,Reforming,Nitrogen Circuit,IN,114,0,0,6,0,6,13
+2000,2000-06,Reforming,Nitrogen Circuit,IN,114,0,0,8,0,8,13
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,0,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,0,0,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,0,0,10,0,10,21
@@ -97,7 +97,7 @@
 4000,4000-10,Utility,Sanitary Water Collection,PI,14,1,0,2,0,2,2
 4000,4000-10,Utility,Sanitary Water Collection,MER,1,0,0,0,0,0,0
 4000,4000-11,Utility,Instrument Air,PI,11,11,0,13,8,5,0
-4000,4000-11,Utility,Instrument Air,IN,78,78,0,59,21,38,18
+4000,4000-11,Utility,Instrument Air,IN,78,78,0,61,21,40,18
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,MER,4,0,0,0,0,0,0
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,IN,25,0,0,4,0,4,20
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,PI,19,2,0,3,3,0,14
@@ -127,7 +127,7 @@
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MER,2,0,0,0,0,0,0
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,63,0,0,17,6,11,20
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,10,6,0,29,12,17,2
-7000,7000-01,Flare,Flare System (In Site),IN,145,0,0,22,11,11,17
+7000,7000-01,Flare,Flare System (In Site),IN,145,0,0,25,11,14,17
 7000,7000-01,Flare,Flare System (In Site),MER,2,0,0,0,0,0,0
 7000,7000-01,Flare,Flare System (In Site),MES,2,0,0,6,0,6,0
 7000,7000-01,Flare,Flare System (In Site),PI,49,15,0,86,18,68,77
@@ -139,7 +139,7 @@ BLD,BLD-03,Building,Laboratory,CV,14,0,0,0,0,0,0
 BLD,BLD-04,Building,Security Building,CV,14,14,0,0,0,0,0
 BLD,BLD-05,Building,Diesel Room,CV,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,PI,3,0,0,0,0,0,0
-BLD,BLD-06,Building,Warehouse Building,CV,14,14,0,0,0,0,0
+BLD,BLD-06,Building,Warehouse Building,CV,14,14,0,25,0,25,0
 BLD,BLD-07,Building,Analyzer House,CV,8,8,0,0,0,0,0
 DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2566,0,0,1642,0,1642,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2190,2136,54,0
@@ -187,7 +187,7 @@ LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,0,0,362,177,185,0
 LS,LS-13,Lighting System,Lighting System for Warehouse,EL,8,0,0,0,0,0,0
 LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,64,0,175,142,33,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,63,0,0,0,0,0,0
-NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,PI,3,0,0,0,0,0,0
+NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,PI,4,0,0,0,0,0,0
 TEL,TEL-01,Telecom Systems,Telecom System for Area-01,EL,24,0,0,0,0,0,0
 TEL,TEL-02,Telecom Systems,Telecom System for Area-02,EL,61,0,0,4,0,4,0
 TEL,TEL-03,Telecom Systems,Telecom System for Area-03,EL,39,0,0,0,0,0,0
