@@ -1,698 +1,492 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SAPRA Bot</title>
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet" integrity="sha384-dpuaG1suU0eT09tx5plTaXgzokHJWcTc6AAVzHHRWDn9rbTqrmUP6AFzKhrCifZh" crossorigin="anonymous">
-  <!-- Vazir Font -->
-  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet" type="text/css" />
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>ربات ساپرا - متخصص نفت، گاز و پتروشیمی</title>
 
-  <style>
-    :root {
-      --bg-dark-primary: #111b21;
-      --bg-dark-secondary: #202c33;
-      --bg-dark-tertiary: #2a3942;
-      --text-primary: #e9edef;
-      --text-secondary: #8696a0;
-      --accent-primary: #00a884;
-      --accent-secondary: #005c4b;
-      --danger-color: #dc3545;
-    }
+    <!-- فونت وزیر -->
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet" type="text/css" />
 
-    body {
-      font-family: 'Vazir', sans-serif;
-      background-color: var(--bg-dark-primary);
-      color: var(--text-primary);
-      margin: 0;
-      padding: 0.5rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-    }
+    <!-- Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet" />
 
-    .chat-app-container {
-      width: 100%;
-      max-width: 700px;
-      height: calc(100vh - 1rem);
-      max-height: 800px;
-      background-color: var(--bg-dark-primary);
-      border: 1px solid var(--bg-dark-tertiary);
-      border-radius: 0.75rem;
-      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
-    }
+    <!-- آیکون‌ها -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
-    .chat-header {
-      background-color: var(--bg-dark-secondary);
-      padding: 0.75rem 1rem; /* Adjusted padding */
-      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-      display: flex;
-      align-items: center;
-      justify-content: space-between; 
-    }
-    
-    .btn-icon-header {
-        background: transparent;
-        border: none;
-        color: var(--text-secondary);
-        font-size: 1.3rem; /* Slightly larger icon */
-        padding: 0.5rem;
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .btn-icon-header:hover:not(:disabled) {
-        color: var(--accent-primary);
-        background-color: rgba(255, 255, 255, 0.05);
-    }
-    .btn-icon-header:focus {
-        outline: none;
-        box-shadow: 0 0 0 2px var(--accent-primary);
-    }
-    .btn-icon-header:disabled {
-        color: var(--bg-dark-tertiary);
-        cursor: not-allowed;
-    }
+    <!-- Three.js + Vanta.js Waves -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
 
-    .header-center-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        flex-grow: 1; /* Allows it to take available space for centering */
-    }
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background: #000;
+            color: #fff;
+            font-family: 'Vazir', 'Segoe UI', sans-serif;
+            overflow: hidden;
+        }
 
-    .chat-header .title-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+        .chat-container {
+            max-width: 720px;
+            height: 90vh;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            background: rgba(15, 25, 50, 0.92);
+            backdrop-filter: blur(12px);
+            border-radius: 20px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+            border: 1px solid rgba(60, 90, 160, 0.4);
+            overflow: hidden;
+        }
 
-    .chat-header .logo {
-      height: 40px;
-      width: 40px;
-      object-fit: contain;
-    }
+        header {
+            background: linear-gradient(135deg, #0a2647, #143a73);
+            padding: 14px 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
 
-    .chat-header h1 {
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: var(--accent-primary);
-      margin: 0 0.75rem;
-    }
-    
-    .chat-header .subtitle {
-      font-size: 0.875rem;
-      color: var(--text-secondary);
-      margin-top: 0.1rem; /* Reduced margin */
-    }
-    
-    .header-actions-group {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem; /* For spacing between buttons */
-    }
-    .header-side-placeholder {
-        /* Width of 2 buttons (40px each) + gap (0.5rem ~ 8px) */
-        width: calc(40px + 0.5rem + 40px); 
-        height: 40px; /* Match button height */
-        flex-shrink: 0; /* Prevents shrinking */
-    }
+        header img {
+            width: 50px;
+            height: 50px;
+            border-radius: 12px;
+            object-fit: contain;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        }
 
+        header span {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: white;
+        }
 
-    .chat-messages {
-      flex-grow: 1;
-      padding: 1rem;
-      overflow-y: auto;
-      background-color: var(--bg-dark-primary);
-    }
+        #messages {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            background: rgba(0, 0, 0, 0.05);
+        }
 
-    .chat-messages::-webkit-scrollbar { width: 8px; }
-    .chat-messages::-webkit-scrollbar-track { background: var(--bg-dark-secondary); }
-    .chat-messages::-webkit-scrollbar-thumb { background: var(--accent-secondary); border-radius: 4px; }
-    .chat-messages::-webkit-scrollbar-thumb:hover { background: var(--accent-primary); }
-    .chat-messages { scrollbar-width: thin; scrollbar-color: var(--accent-secondary) var(--bg-dark-secondary); }
+        .message-container {
+            max-width: 80%;
+            border-radius: 18px;
+            padding: 14px 18px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            animation: fadeInUp 0.4s ease-out;
+            position: relative;
+        }
 
-    .message-container {
-      margin-bottom: 0.75rem;
-      display: flex;
-      animation: fadeIn 0.3s ease-out;
-    }
+        .message-container.user {
+            align-self: flex-start;
+            background: #2979ff; /* آبی روشن */
+            color: white;
+        }
 
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(10px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
+        .message-container.bot {
+            align-self: flex-end;
+            background: #0f3b68; /* آبی تیره سورمه‌ای */
+            color: #fff;
+        }
 
-    .message-bubble {
-      padding: 0.75rem 1rem;
-      border-radius: 0.5rem;
-      max-width: 85%;
-      word-break: break-word;
-      box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
-      white-space: pre-wrap;
-    }
-    
-    .message-bubble .message-text { /* For easier text extraction */
-        display: block; /* Or span, just a way to isolate text */
-    }
+        .content {
+            font-size: 1rem;
+            line-height: 1.7;
+            color: #fff;
+        }
 
-    .message-container.user-message .message-bubble {
-      background-color: var(--accent-secondary);
-      color: var(--text-primary);
-      margin-right: auto;
-      border-bottom-right-radius: 0;
-    }
+        .content h3, .content h4 {
+            margin: 16px 0 10px 0;
+            font-size: 1.15rem;
+            color: #bbdefb;
+            border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+            padding-bottom: 4px;
+        }
 
-    .message-container.bot-message .message-bubble,
-    .message-container.typing-indicator .message-bubble {
-      background-color: var(--bg-dark-tertiary);
-      color: var(--text-primary);
-      margin-left: auto;
-      border-bottom-left-radius: 0;
-    }
-    
-    .message-container.error-message .message-bubble {
-        background-color: var(--danger-color);
-        color: white;
-        margin-left: auto;
-        border-bottom-left-radius: 0;
-    }
+        .content ul, .content ol {
+            padding-right: 20px;
+            margin: 10px 0;
+        }
 
-    .source-attributions {
-        margin-top: 0.5rem;
-        padding-top: 0.5rem;
-        border-top: 1px solid rgba(134, 150, 160, 0.3);
-    }
-    .source-attributions h4 {
-        font-size: 0.75rem;
-        font-weight: 600;
-        color: var(--text-secondary);
-        margin-bottom: 0.25rem;
-    }
-    .source-attributions ul {
-        list-style: none;
-        padding-right: 0;
-        margin-bottom: 0;
-        font-size: 0.75rem;
-    }
-    .source-attributions li { margin-bottom: 0.25rem; }
-    .source-attributions a {
-        color: var(--accent-primary);
-        text-decoration: none;
-        display: block;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-    .source-attributions a:hover {
-        text-decoration: underline;
-        color: #00d6a3;
-    }
+        .content li {
+            margin: 6px 0;
+            line-height: 1.6;
+        }
 
-    .typing-indicator-dots span {
-      display: inline-block; width: 8px; height: 8px;
-      background-color: var(--text-secondary); border-radius: 50%;
-      margin: 0 2px; animation: pulse 1.4s infinite ease-in-out both;
-    }
-    .typing-indicator-dots span:nth-child(1) { animation-delay: -0.32s; }
-    .typing-indicator-dots span:nth-child(2) { animation-delay: -0.16s; }
-    @keyframes pulse { 0%, 80%, 100% { transform: scale(0); } 40% { transform: scale(1.0); } }
-    .typing-text { font-size: 0.875rem; color: var(--text-secondary); margin-right: 0.5rem; }
+        .export-btn {
+            margin-top: 10px;
+            font-size: 0.75rem;
+            padding: 5px 10px;
+            background: rgba(255, 255, 255, 0.15);
+            border: none;
+            border-radius: 6px;
+            color: #bbdefb;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            width: fit-content;
+            transition: all 0.2s;
+        }
 
-    .chat-input-form {
-      display: flex; align-items: center; padding: 0.75rem;
-      background-color: var(--bg-dark-secondary); border-top: 1px solid var(--bg-dark-tertiary);
-    }
-    .chat-input-form input[type="text"] {
-      flex-grow: 1; padding: 0.75rem; border-radius: 0.5rem;
-      background-color: var(--bg-dark-tertiary); color: var(--text-primary);
-      border: none; outline: none;
-    }
-    .chat-input-form input[type="text"]::placeholder { color: var(--text-secondary); }
-    .chat-input-form input[type="text"]:focus { box-shadow: 0 0 0 2px var(--accent-primary); }
-    .chat-input-form button {
-      background-color: var(--accent-primary); color: white; border: none;
-      border-radius: 50%; width: 48px; height: 48px; display: flex;
-      align-items: center; justify-content: center; margin-right: 0.75rem;
-      transition: background-color 0.2s ease;
-    }
-    .chat-input-form button:hover:not(:disabled) { background-color: var(--accent-secondary); }
-    .chat-input-form button:disabled { background-color: #1f2c33; cursor: not-allowed; }
-    .chat-input-form button i { font-size: 1.25rem; }
+        .export-btn:hover {
+            background: rgba(255, 255, 255, 0.25);
+            transform: scale(1.05);
+        }
 
-    .chat-footer {
-      padding: 0.5rem; font-size: 0.75rem; text-align: center;
-      color: var(--text-secondary); background-color: var(--bg-dark-secondary);
-      border-top: 1px solid var(--bg-dark-tertiary);
-    }
-    
-    .feedback-toast {
-        position: fixed;
-        bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%);
-        background-color: var(--accent-primary);
-        color: white;
-        padding: 10px 20px;
-        border-radius: 8px; /* Slightly more rounded */
-        box-shadow: 0 4px 12px rgba(0,0,0,0.25); /* Softer shadow */
-        z-index: 1056; /* Above most Bootstrap components */
-        opacity: 0;
-        visibility: hidden;
-        transition: opacity 0.3s ease, visibility 0s linear 0.3s;
-        font-family: 'Vazir', sans-serif; /* Explicit font */
-        font-size: 0.9rem;
-    }
-    .feedback-toast.show {
-        opacity: 1;
-        visibility: visible;
-        transition: opacity 0.3s ease, visibility 0s linear 0s;
-    }
-    .feedback-toast.error {
-        background-color: var(--danger-color);
-    }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(15px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
 
-  </style>
+        form {
+            display: flex;
+            padding: 16px;
+            background: rgba(10, 20, 40, 0.95);
+            border-top: 1px solid rgba(60, 90, 160, 0.3);
+            gap: 12px;
+        }
 
-  <script type="importmap">
-{
-  "imports": {
-    "@google/genai": "https://esm.sh/@google/genai"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
+        textarea {
+            flex: 1;
+            border: none;
+            outline: none;
+            padding: 14px 18px;
+            font-size: 1rem;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border-radius: 24px;
+            height: 50px;
+            max-height: 100px;
+            resize: none;
+            box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s;
+            font-family: 'Vazir', sans-serif;
+        }
+
+        textarea:focus {
+            background: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 0 0 2px #143a73;
+        }
+
+        button {
+            background: #143a73;
+            color: white;
+            border: none;
+            border-radius: 24px;
+            padding: 0 24px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            cursor: pointer;
+            box-shadow: 0 4px 14px rgba(20, 58, 115, 0.5);
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        button:hover:not(:disabled) {
+            background: #0a2647;
+        }
+
+        button:disabled {
+            background: #3a5c88;
+            opacity: 0.7;
+        }
+
+        @media (max-width: 600px) {
+            .chat-container {
+                margin: 10px;
+                height: 95vh;
+                border-radius: 16px;
+            }
+            header span {
+                font-size: 1.2rem;
+            }
+            .message-container {
+                max-width: 90%;
+            }
+            .export-btn {
+                font-size: 0.7rem;
+            }
+        }
+    </style>
 </head>
 <body>
-
-  <div class="chat-app-container">
-    <header class="chat-header">
-      <!-- Left placeholder, will appear on the visual left in RTL (first in DOM order for LTR, last for RTL flex rendering) -->
-      <div class="header-side-placeholder"></div>
-
-      <!-- Center content -->
-      <div class="header-center-content">
-        <div class="title-container">
-          <h1 id="chat-title">SAPRA Bot</h1>
-          <img src="./SAPRA_WHITE (3).png" alt="لوگو SAPRA Bot" class="logo">
-        </div>
-        <p class="subtitle">Smart Access to Project Activities</p>
-      </div>
-
-      <!-- Right actions, will appear on the visual right in RTL (last in DOM order for LTR, first for RTL flex rendering) -->
-      <div class="header-actions-group">
-        <button id="downloadChatButton" class="btn-icon-header" title="دانلود گفتگو به صورت فایل متنی" aria-label="دانلود گفتگو به صورت فایل متنی">
-          <i class="fas fa-download"></i>
-        </button>
-        <button id="shareChatButton" class="btn-icon-header" title="اشتراک گذاری گفتگو" aria-label="اشتراک گذاری گفتگو">
-          <i class="fas fa-share-alt"></i> <!-- Updated icon -->
-        </button>
-      </div>
-    </header>
-
-    <main class="chat-messages" id="chatMessages">
-      <!-- Messages will be appended here -->
-    </main>
-
-    <div class="message-container typing-indicator" id="typingIndicator" style="display: none;">
-      <div class="message-bubble">
-        <div class="d-flex align-items-center">
-            <span class="typing-text">در حال نوشتن</span>
-            <div class="typing-indicator-dots">
-                <span></span><span></span><span></span>
-            </div>
-        </div>
-      </div>
+    <div class="chat-container">
+        <header>
+            <img src="https://raw.githubusercontent.com/akarimvand/SAPRA2/main/SAPRA_WHITE-100.png" alt="لوگو ربات ساپرا">
+            <span>ربات ساپرا</span>
+        </header>
+        <div id="messages"></div>
+        <form id="chat-form">
+            <textarea id="inputMessage" placeholder="سوال خود در مورد نفت، گاز یا پتروشیمی را بپرسید..." rows="1" autocomplete="off"></textarea>
+            <button type="submit" id="btnSend">
+                <i class="material-icons" style="font-size: 18px;">send</i> ارسال
+            </button>
+        </form>
     </div>
 
-    <form class="chat-input-form" id="chatForm">
-      <button type="submit" id="sendButton" aria-label="ارسال پیام">
-        <i class="fas fa-paper-plane"></i>
-      </button>
-      <input type="text" id="userInput" placeholder="پیام شما..." aria-label="پیام شما" required autocomplete="off">
-    </form>
+    <!-- کتابخانه‌های ضروری -->
+    <script src="https://unpkg.com/docx@7.7.0/build/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
 
-    <footer class="chat-footer">
-      amin naseri - akarimvand@gmail.com
-    </footer>
-  </div>
-
-  <div id="feedbackMessage" class="feedback-toast"></div>
-
-  <script type="module">
-    import { GoogleGenAI } from "@google/genai";
-
-    const chatMessagesEl = document.getElementById('chatMessages');
-    const chatFormEl = document.getElementById('chatForm');
-    const userInputEl = document.getElementById('userInput');
-    const sendButtonEl = document.getElementById('sendButton');
-    const typingIndicatorEl = document.getElementById('typingIndicator');
-    const shareChatButtonEl = document.getElementById('shareChatButton');
-    const downloadChatButtonEl = document.getElementById('downloadChatButton'); // New button
-    const feedbackMessageEl = document.getElementById('feedbackMessage');
-
-
-    let ai;
-    let chat;
-    let isLoading = false;
-    let feedbackTimeout;
-
-    // The API key is expected to be available via process.env.API_KEY.
-    // This is a placeholder for browser environments where process.env is not directly available
-    // unless injected by a build tool or server.
-    const API_KEY = "AIzaSyC087teSORgRPnbnvcas94flarmmDQoGFw";
-    const SYSTEM_INSTRUCTION = `You are SAPRA Bot, an expert AI assistant specializing in oil and gas construction projects. Your expertise covers piping, welding standards (e.g., ASME B31.3, API 1104), materials (e.g., carbon steel, stainless steel, duplex), non-destructive testing (NDT), safety protocols, and project management within this industry. 
-When asked about specific project activities, provide detailed, accurate, and professional answers. 
-If a question is outside this domain, politely indicate your specialization. 
-Format your answers clearly, using bullet points or numbered lists for procedures or complex information.
-Your name is SAPRA Bot, which stands for Smart Access to Project Activities.
-If providing information that could be time-sensitive or based on general knowledge, encourage users to verify with the latest official industry standards or project-specific documentation.
-If using Google Search grounding, ensure to list the sources.`;
-
-    function initializeChat() {
-      if (!API_KEY) {
-        console.error("API_KEY is not defined. Please ensure process.env.API_KEY is available. This is crucial for the AI service to function.");
-        addMessage("خطا: کلید API برای ارتباط با سرویس هوش مصنوعی تنظیم نشده است. لطفا با مدیر سیستم تماس بگیرید.", "error", null, true);
-        setLoadingState(false, true); // Disable input permanently
-        return false;
-      }
-
-      try {
-        ai = new GoogleGenAI({ apiKey: API_KEY });
-        chat = ai.chats.create({
-          model: 'gemini-2.5-flash-preview-04-17',
-          config: {
-            systemInstruction: SYSTEM_INSTRUCTION,
-            tools: [{ googleSearch: {} }],
-          },
-        });
-        return true;
-      } catch (e) {
-        console.error("Failed to initialize GoogleGenAI or chat:", e);
-        let errorText = "خطا در مقداردهی اولیه سرویس چت.";
-        if (e.message) {
-            errorText += ` (${e.message})`;
-        }
-        addMessage(errorText, "error", null, true);
-        setLoadingState(false, true); // Disable input
-        return false;
-      }
-    }
-
-    function scrollToBottom() {
-      chatMessagesEl.scrollTop = chatMessagesEl.scrollHeight;
-    }
-    
-    function showFeedback(message, type = 'success') {
-        clearTimeout(feedbackTimeout);
-        feedbackMessageEl.textContent = message;
-        feedbackMessageEl.className = 'feedback-toast'; // Reset classes
-        feedbackMessageEl.classList.add('show');
-        if (type === 'error') {
-            feedbackMessageEl.classList.add('error');
-        }
-        feedbackTimeout = setTimeout(() => {
-            feedbackMessageEl.classList.remove('show');
-        }, 3000);
-    }
-
-    function addMessage(text, sender = 'user', sourceAttributions = null, isStaticMessage = false) {
-      const messageContainer = document.createElement('div');
-      messageContainer.className = `message-container ${sender}-message`;
-      if (isStaticMessage) { // For initial or error messages not part of dynamic chat history for export
-        messageContainer.dataset.static = "true";
-      }
-      
-      const messageBubble = document.createElement('div');
-      messageBubble.className = 'message-bubble';
-      
-      const messageTextSpan = document.createElement('span'); // Wrap actual text
-      messageTextSpan.className = 'message-text';
-      messageTextSpan.textContent = text;
-      messageBubble.appendChild(messageTextSpan);
-
-      if (sender === 'bot' && sourceAttributions && sourceAttributions.length > 0) {
-        const sourcesDiv = document.createElement('div');
-        sourcesDiv.className = 'source-attributions';
-        const sourcesTitle = document.createElement('h4');
-        sourcesTitle.textContent = 'منابع:';
-        sourcesDiv.appendChild(sourcesTitle);
-        const sourcesList = document.createElement('ul');
-        sourceAttributions.forEach((source, index) => {
-          const uri = source.web?.uri || source.retrievedContext?.uri;
-          const title = source.web?.title || source.retrievedContext?.title || uri;
-          if (uri) {
-            const listItem = document.createElement('li');
-            const link = document.createElement('a');
-            link.href = uri;
-            link.target = '_blank';
-            link.rel = 'noopener noreferrer';
-            link.textContent = `${index + 1}. ${title || uri}`;
-            link.title = title || uri;
-            listItem.appendChild(link);
-            sourcesList.appendChild(listItem);
-          }
-        });
-        if (sourcesList.hasChildNodes()) {
-            messageBubble.appendChild(sourcesDiv);
-        }
-      }
-      
-      messageContainer.appendChild(messageBubble);
-      chatMessagesEl.appendChild(messageContainer);
-      scrollToBottom();
-      return messageBubble; // Return the bubble for streaming updates
-    }
-    
-    function setLoadingState(loading, disableInputPermanently = false) {
-        isLoading = loading;
-        if (loading) {
-            typingIndicatorEl.style.display = 'flex';
-            sendButtonEl.disabled = true;
-            sendButtonEl.innerHTML = '<i class="fas fa-spinner fa-spin"></i>';
-            userInputEl.disabled = true;
-        } else {
-            typingIndicatorEl.style.display = 'none';
-            sendButtonEl.disabled = disableInputPermanently || !userInputEl.value.trim();
-            sendButtonEl.innerHTML = '<i class="fas fa-paper-plane"></i>';
-            userInputEl.disabled = disableInputPermanently;
-        }
-         if (disableInputPermanently) {
-            userInputEl.placeholder = "امکان ارسال پیام وجود ندارد.";
-            sendButtonEl.disabled = true;
-            shareChatButtonEl.disabled = true; 
-            downloadChatButtonEl.disabled = true; // Disable download button too
-        } else {
-             shareChatButtonEl.disabled = false;
-             downloadChatButtonEl.disabled = false; // Enable download button
-        }
-    }
-
-    userInputEl.addEventListener('input', () => {
-        if (!isLoading) {
-            sendButtonEl.disabled = !userInputEl.value.trim();
-        }
-    });
-
-    chatFormEl.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      if (!chat) {
-        addMessage("سرویس چت در دسترس نیست. لطفا از صحت تنظیمات اطمینان حاصل کنید.", "error", null, true);
-        return;
-      }
-      const userText = userInputEl.value.trim();
-      if (!userText || isLoading) return;
-
-      addMessage(userText, 'user');
-      userInputEl.value = '';
-      setLoadingState(true);
-      sendButtonEl.disabled = true;
-
-      let currentBotBubble = null;
-      let accumulatedBotText = '';
-      let sourceAttributions = null;
-
-      try {
-        const stream = await chat.sendMessageStream({ message: userText });
-        
-        for await (const chunk of stream) {
-          if (chunk.text) { 
-            accumulatedBotText += chunk.text;
-          }
-          if (!currentBotBubble) {
-             const messageContainer = document.createElement('div');
-             messageContainer.className = 'message-container bot-message';
-             currentBotBubble = document.createElement('div');
-             currentBotBubble.className = 'message-bubble';
-             const messageTextSpan = document.createElement('span');
-             messageTextSpan.className = 'message-text';
-             currentBotBubble.appendChild(messageTextSpan);
-             messageContainer.appendChild(currentBotBubble);
-             chatMessagesEl.appendChild(messageContainer);
-          }
-          currentBotBubble.querySelector('.message-text').textContent = accumulatedBotText;
-          scrollToBottom();
-
-          if (chunk.candidates && chunk.candidates[0].groundingMetadata && chunk.candidates[0].groundingMetadata.groundingChunks) {
-             sourceAttributions = chunk.candidates[0].groundingMetadata.groundingChunks.map(gChunk => ({
-                web: gChunk.web,
-                retrievedContext: gChunk.retrievedContext,
-             })).filter(gChunk => gChunk.web || gChunk.retrievedContext);
-          }
-        }
-        
-        if (currentBotBubble && sourceAttributions && sourceAttributions.length > 0) {
-            const sourcesDiv = document.createElement('div');
-            sourcesDiv.className = 'source-attributions';
-            const sourcesTitle = document.createElement('h4');
-            sourcesTitle.textContent = 'منابع:';
-            sourcesDiv.appendChild(sourcesTitle);
-            const sourcesList = document.createElement('ul');
-            sourceAttributions.forEach((source, index) => {
-              const uri = source.web?.uri || source.retrievedContext?.uri;
-              const title = source.web?.title || source.retrievedContext?.title || uri;
-              if (uri) {
-                const listItem = document.createElement('li');
-                const link = document.createElement('a');
-                link.href = uri;
-                link.target = '_blank';
-                link.rel = 'noopener noreferrer';
-                link.textContent = `${index + 1}. ${title || uri}`;
-                link.title = title || uri;
-                listItem.appendChild(link);
-                sourcesList.appendChild(listItem);
-              }
+    <script>
+        // Vanta Waves با رنگ سورمه‌ای
+        document.addEventListener("DOMContentLoaded", function () {
+            VANTA.WAVES({
+                el: "body",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                color: 0x143a73,
+                backgroundColor: 0x00000a,
+                waveHeight: 20,
+                zoom: 0.7,
+                speed: 1.3
             });
-            if (sourcesList.hasChildNodes()) {
-                 currentBotBubble.appendChild(sourcesDiv);
-                 scrollToBottom();
-            }
-        } else if (!currentBotBubble && accumulatedBotText) { 
-             addMessage(accumulatedBotText, 'bot', sourceAttributions);
-        } else if (currentBotBubble && !accumulatedBotText && (!sourceAttributions || sourceAttributions.length === 0)) {
-            currentBotBubble.querySelector('.message-text').textContent = "پاسخی دریافت نشد.";
+        });
+
+        const messagesContainer = document.getElementById("messages");
+        const form = document.getElementById("chat-form");
+        const inputMessage = document.getElementById("inputMessage");
+        const btnSend = document.getElementById("btnSend");
+
+        // معرفی اولیه
+        window.addEventListener("load", () => {
+            const intro = `
+# ربات ساپرا
+
+**متخصص صنایع نفت، گاز و پتروشیمی**
+
+- تحلیل فنی و تخصصی از دید یک مهندس ارش
+- پاسخ‌های ساختاریافته و قابل استناد
+- قابلیت ذخیره پاسخ‌ها در فرمت Word
+
+لطفاً سوال خود را مطرح کنید.
+            `;
+            addBotMessage(intro);
+        });
+
+        function addBotMessage(markdownText) {
+            const container = document.createElement("div");
+            container.className = "message-container bot";
+
+            const contentDiv = document.createElement("div");
+            contentDiv.className = "content";
+            contentDiv.innerHTML = parseMarkdownLike(markdownText);
+
+            const exportBtn = document.createElement("button");
+            exportBtn.className = "export-btn";
+            exportBtn.innerHTML = '<i class="material-icons" style="font-size:16px">download</i> ذخیره پاسخ';
+            exportBtn.onclick = () => exportToDocx(markdownText, "پاسخ_ربات_ساپرا");
+
+            container.appendChild(contentDiv);
+            container.appendChild(exportBtn);
+            messagesContainer.appendChild(container);
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
         }
 
-      } catch (error) {
-        console.error("Error sending message to Gemini:", error);
-        let errorMsg = "متاسفانه در حال حاضر امکان پاسخگویی وجود ندارد. لطفا بعدا تلاش کنید.";
-        if(error && error.message) {
-            errorMsg = `خطا: ${error.message}`;
+        function addUserMessage(text) {
+            const container = document.createElement("div");
+            container.className = "message-container user";
+
+            const contentDiv = document.createElement("div");
+            contentDiv.className = "content";
+            contentDiv.textContent = text;
+
+            container.appendChild(contentDiv);
+            messagesContainer.appendChild(container);
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
         }
-        addMessage(errorMsg, 'error', null, true);
-      } finally {
-        setLoadingState(false);
-        userInputEl.focus();
-        sendButtonEl.disabled = !userInputEl.value.trim();
-      }
-    });
 
-    function getChatContentAsString() {
-        let chatContent = `گفتگوی SAPRA Bot (${new Date().toLocaleString('fa-IR', { dateStyle: 'short', timeStyle: 'short' })})\n\n`;
-        const messages = chatMessagesEl.querySelectorAll('.message-container:not([data-static="true"])');
-        
-        messages.forEach(msgContainer => {
-            const isUser = msgContainer.classList.contains('user-message');
-            const isBot = msgContainer.classList.contains('bot-message');
-            
-            if (isUser || isBot) {
-                const prefix = isUser ? "کاربر: " : "ربات SAPRA: ";
-                const bubble = msgContainer.querySelector('.message-bubble');
-                if (bubble) {
-                    const mainTextEl = bubble.querySelector('.message-text');
-                    let text = mainTextEl ? mainTextEl.textContent.trim() : '';
-                    
-                    chatContent += prefix + text + "\n";
+        // تبدیل Markdown ساده به HTML
+        function parseMarkdownLike(text) {
+            return text
+                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                .replace(/\*(.*?)\*/g, '<em>$1</em>')
+                .replace(/^# (.*$)/gm, '<h3>$1</h3>')
+                .replace(/^## (.*$)/gm, '<h4>$1</h4>')
+                .replace(/^\d+\. (.*$)/gm, '<li class="numbered">$1</li>')
+                .replace(/^\- (.*$)/gm, '<li class="bulleted">$1</li>')
+                .replace(/((?:<li class="numbered">.*?<\/li>\n?)+)/g, '<ol>$1</ol>')
+                .replace(/((?:<li class="bulleted">.*?<\/li>\n?)+)/g, '<ul>$1</ul>')
+                .replace(/\n/g, '<br>')
+                .trim();
+        }
 
-                    if (isBot) {
-                        const sourcesDiv = bubble.querySelector('.source-attributions');
-                        if (sourcesDiv) {
-                            chatContent += "منابع:\n";
-                            const links = sourcesDiv.querySelectorAll('ul li a');
-                            links.forEach(link => {
-                                chatContent += `- ${link.textContent} (${link.href})\n`;
-                            });
-                        }
-                    }
-                    chatContent += "\n"; 
+        // ایجاد فایل Word با فونت Vazir و قالب مناسب
+        function exportToDocx(content, filename) {
+            const { Document, Paragraph, TextRun, Packer } = docx;
+
+            const lines = content.split('\n').filter(line => line.trim() !== '');
+            const children = [];
+
+            lines.forEach(line => {
+                if (line.startsWith('# ')) {
+                    children.push(new Paragraph({
+                        children: [new TextRun({
+                            text: line.replace('# ', ''),
+                            size: 28, // 14pt
+                            bold: true,
+                            font: 'Vazir'
+                        })],
+                        spacing: { after: 120 }
+                    }));
+                } else if (line.startsWith('## ')) {
+                    children.push(new Paragraph({
+                        children: [new TextRun({
+                            text: line.replace('## ', ''),
+                            size: 24,
+                            bold: true,
+                            font: 'Vazir',
+                            color: '143a73'
+                        })],
+                        spacing: { after: 100 }
+                    }));
+                } else if (/^\d+\. /.test(line)) {
+                    children.push(new Paragraph({
+                        children: [new TextRun({
+                            text: line.replace(/^\d+\. /, ''),
+                            size: 20,
+                            font: 'Vazir'
+                        })],
+                        numbering: { reference: 'my-numbering', level: 0 },
+                        spacing: { after: 60 }
+                    }));
+                } else if (line.startsWith('- ')) {
+                    children.push(new Paragraph({
+                        children: [new TextRun({
+                            text: line.replace('- ', ''),
+                            size: 20,
+                            font: 'Vazir'
+                        })],
+                        bullet: { level: 0 },
+                        spacing: { after: 60 }
+                    }));
+                } else {
+                    children.push(new Paragraph({
+                        children: [new TextRun({
+                            text: line,
+                            size: 20,
+                            font: 'Vazir'
+                        })],
+                        spacing: { after: 100 }
+                    }));
                 }
+            });
+
+            const doc = new Document({
+                numbering: {
+                    config: [{
+                        reference: "my-numbering",
+                        levels: [
+                            { level: 0, format: "decimal", text: "%1.", restart: 1 }
+                        ]
+                    }]
+                },
+                sections: [{ properties: {}, children }]
+            });
+
+            Packer.toBlob(doc).then(blob => {
+                saveAs(blob, `${filename}.docx`);
+            }).catch(err => {
+                addBotMessage("❌ خطای ایجاد فایل: " + err.message);
+            });
+        }
+
+        // تنظیمات API
+        const apiUrl = "https://openrouter.ai/api/v1/chat/completions";
+        const apiKey = "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";
+        const model = "gpt-4o-mini";
+
+        form.addEventListener("submit", async (e) => {
+            e.preventDefault();
+            const userText = inputMessage.value.trim();
+            if (!userText) return;
+
+            addUserMessage(userText);
+            inputMessage.value = "";
+            inputMessage.disabled = true;
+            btnSend.disabled = true;
+
+            addBotMessage("لطفاً چند لحظه صبر کنید تا پاسخ بدم...");
+
+            try {
+                const response = await fetch(apiUrl, {
+                    method: "POST",
+                    headers: {
+                        "Authorization": "Bearer " + apiKey,
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        model: model,
+                        messages: [
+                            {
+                                role: "system",
+                                content: `تو ربات ساپرا هستی، یک متخصص برجسته در صنایع نفت، گاز و پتروشیمی. 
+                                پاسخ‌ها را به صورت ساختارمند، با عناوین، تعاریف و لیست‌ها بنویس. 
+                                از فرمت زیر استفاده کن:
+                                # عنوان اصلی
+                                توضیح کلی...
+                                ## زیرعنوان
+                                - نکته ۱
+                                - نکته ۲
+                                یا
+                                1. مورد اول
+                                2. مورد دوم
+                                حتی اگر سوال عمومی است، آن را به صنعت نفت و گاز مرتبط کن و ساختارمند پاسخ بده.`
+                            },
+                            { role: "user", content: userText }
+                        ],
+                        temperature: 0.7,
+                        max_tokens: 600
+                    })
+                });
+
+                const waitingMsg = messagesContainer.lastChild;
+                if (waitingMsg && waitingMsg.querySelector('.content')?.textContent.includes("لطفاً چند لحظه")) {
+                    messagesContainer.removeChild(waitingMsg);
+                }
+
+                if (!response.ok) {
+                    addBotMessage(`❌ خطای سرور: ${response.status}`);
+                } else {
+                    const data = await response.json();
+                    const answer = data.choices?.[0]?.message?.content?.trim() || "پاسخی دریافت نشد.";
+                    addBotMessage(answer);
+                }
+
+            } catch (error) {
+                if (messagesContainer.lastChild?.querySelector('.content')?.textContent.includes("لطفاً چند لحظه")) {
+                    messagesContainer.removeChild(messagesContainer.lastChild);
+                }
+                addBotMessage("⚠️ خطای شبکه: " + error.message);
+            } finally {
+                inputMessage.disabled = false;
+                btnSend.disabled = false;
+                inputMessage.focus();
             }
         });
-        return chatContent;
-    }
 
-    shareChatButtonEl.addEventListener('click', async () => {
-        const messages = chatMessagesEl.querySelectorAll('.message-container:not([data-static="true"])');
-        if (messages.length === 0) {
-            showFeedback("هیچ پیامی برای اشتراک گذاری وجود ندارد.", "error");
-            return;
-        }
-        const chatContent = getChatContentAsString();
-
-        try {
-            if (navigator.share) {
-                await navigator.share({
-                    title: 'گفتگوی SAPRA Bot',
-                    text: chatContent,
-                });
-                showFeedback('گفتگو برای اشتراک گذاری آماده شد!');
-            } else if (navigator.clipboard) {
-                await navigator.clipboard.writeText(chatContent);
-                showFeedback('گفتگو در کلیپ‌بورد کپی شد!');
-            } else {
-                showFeedback('مرورگر شما از اشتراک گذاری یا کپی پشتیبانی نمی‌کند.', 'error');
+        inputMessage.addEventListener("keydown", function (e) {
+            if (e.key === "Enter" && !e.shiftKey) {
+                e.preventDefault();
+                btnSend.click();
             }
-        } catch (err) {
-            console.error('Error sharing/copying chat:', err);
-            if (err.name !== 'AbortError') { // Don't show generic error if user cancels share dialog
-                 showFeedback('خطا در اشتراک گذاری/کپی گفتگو.', 'error');
-            }
-        }
-    });
-
-    downloadChatButtonEl.addEventListener('click', () => {
-        const messages = chatMessagesEl.querySelectorAll('.message-container:not([data-static="true"])');
-        if (messages.length === 0) {
-            showFeedback("هیچ پیامی برای دانلود وجود ندارد.", "error");
-            return;
-        }
-
-        const chatText = getChatContentAsString();
-        const blob = new Blob([chatText], { type: 'text/plain;charset=utf-8' });
-        
-        const now = new Date();
-        const timestamp = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}_${String(now.getHours()).padStart(2, '0')}-${String(now.getMinutes()).padStart(2, '0')}`;
-        const filename = `SAPRA_Bot_Chat_${timestamp}.txt`;
-
-        const link = document.createElement('a');
-        link.href = URL.createObjectURL(blob);
-        link.download = filename;
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-        URL.revokeObjectURL(link.href);
-        showFeedback('فایل گفتگو با موفقیت دانلود شد!');
-    });
-
-
-    // Initial setup
-    if (initializeChat()) {
-        addMessage('سلام! من SAPRA Bot هستم. در مورد پروژه های نفت و گاز، به خصوص پایپینگ و جوشکاری، از من بپرسید.', 'bot', null, true);
-    }
-    userInputEl.focus();
-    setLoadingState(false); // Initial state for buttons
-
-  </script>
-<script type="module" src="/index.tsx"></script>
+        });
+    </script>
 </body>
 </html>
