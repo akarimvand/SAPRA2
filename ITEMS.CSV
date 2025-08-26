@@ -1,4 +1,5 @@
 ﻿SD_Sub_System,Discipline_Name,ITEM_Tag_NO,ITEM_Type_Code,ITEM_Description,ITEM_Status
+NO SUBS.,PI,-,PI_TP,,Not Yet Activity
 TEL-11,EL,00-CAM-01,CCTV,CCTV,DONE
 TEL-11,EL,00-CAM-02,CCTV,CCTV,
 TEL-11,EL,00-CAM-03,CCTV,CCTV,
@@ -5373,41 +5374,41 @@ NO SUBS.,PI,61-SUMP-091,PI_TP,PIPING TEST PACKAGE,Reinstatement
 5000-01,MES,AE-5006,Air_Cooler(AE),Air_Cooler,
 LS-02,EL,AH-EDP-01,Panel,Emergency Distribution Panel,
 LS-14,EL,AH-EDP-01-1-L1-01,Lighting Fixture,LED Luminaires Fixture 40w| EX,DONE
-LS-14,EL,AH-EDP-01-1-L1-01-FJB01,Lighting Cable,Cable of Fluorescent Fixture 2*36w- EX,DONE
+LS-14,EL,AH-EDP-01-1-L1-01-FJB01,Lighting Cable,Cable of LED Luminaires Fixture 40w| EX,DONE
 LS-14,EL,AH-EDP-01-1-L1-02,Lighting Fixture,LED Luminaires Fixture 40w| EX,DONE
-LS-14,EL,AH-EDP-01-1-L1-02-FJB01,Lighting Cable,Cable of Fluorescent Fixture 2*36w- EX,DONE
+LS-14,EL,AH-EDP-01-1-L1-02-FJB01,Lighting Cable,Cable of LED Luminaires Fixture 40w| EX,DONE
 LS-14,EL,AH-EDP-01-1-L1-03,Lighting Fixture,LED Luminaires Fixture 40w| EX,DONE
-LS-14,EL,AH-EDP-01-1-L1-03-FJB01,Lighting Cable,Cable of Fluorescent Fixture 2*36w- EX,DONE
+LS-14,EL,AH-EDP-01-1-L1-03-FJB01,Lighting Cable,Cable of LED Luminaires Fixture 40w| EX,DONE
 LS-14,EL,AH-EDP-01-1-L1-04,Lighting Fixture,LED Luminaires Fixture 40w| EX,DONE
-LS-14,EL,AH-EDP-01-1-L1-04-FJB01,Lighting Cable,Cable of Fluorescent Fixture 2*36w- EX,DONE
+LS-14,EL,AH-EDP-01-1-L1-04-FJB01,Lighting Cable,Cable of LED Luminaires Fixture 40w| EX,DONE
 LS-14,EL,AH-EDP-01-1-L1-05,Lighting Fixture,LED Luminaires Fixture 40w| EX,DONE
-LS-14,EL,AH-EDP-01-1-L1-05-FJB01,Lighting Cable,Cable of Fluorescent Fixture 2*36w- EX,DONE
+LS-14,EL,AH-EDP-01-1-L1-05-FJB01,Lighting Cable,Cable of LED Luminaires Fixture 40w| EX,DONE
 LS-14,EL,AH-EDP-01-1-L1-06,Lighting Fixture,LED Luminaires Fixture 40w| EX,DONE
-LS-14,EL,AH-EDP-01-1-L1-06-FJB01,Lighting Cable,Cable of Fluorescent Fixture 2*36w- EX,DONE
+LS-14,EL,AH-EDP-01-1-L1-06-FJB01,Lighting Cable,Cable of LED Luminaires Fixture 40w| EX,DONE
 LS-14,EL,AH-EDP-01-2-L2-01,Lighting Fixture,LED Luminaires Fixture 40w| EX| Safety Lights with Battery Backup,DONE
-LS-14,EL,AH-EDP-01-2-L2-01-FJB01,Lighting Cable,Cable of Fluorescent Fixture 2*36w- EX|Safety Lights with Battery Backup,DONE
+LS-14,EL,AH-EDP-01-2-L2-01-FJB01,Lighting Cable,Cable of LED Luminaires Fixture 40w| EX| Safety Lights with Battery Backup,DONE
 LS-14,EL,AH-EDP-01-2-L2-02,Lighting Fixture,LED Luminaires Fixture 40w| EX| Safety Lights with Battery Backup,DONE
-LS-14,EL,AH-EDP-01-2-L2-02-FJB01,Lighting Cable,Cable of Fluorescent Fixture 2*36w- EX|Safety Lights with Battery Backup,DONE
+LS-14,EL,AH-EDP-01-2-L2-02-FJB01,Lighting Cable,Cable of LED Luminaires Fixture 40w| EX| Safety Lights with Battery Backup,DONE
 LS-14,EL,AH-EDP-01-2-L2-03,Lighting Fixture,LED Luminaires Fixture Exit| 1*15w With Battery Backup,DONE
-LS-14,EL,AH-EDP-01-2-L2-03-FJB01,Lighting Cable,Cable of Fluorescent Fixture Exit- 1*8w With Battery Backup,DONE
+LS-14,EL,AH-EDP-01-2-L2-03-FJB01,Lighting Cable,Cable of LED Luminaires Fixture Exit| 1*15w With Battery Backup,DONE
 LS-14,EL,AH-EDP-01-2-L2-04,Lighting Fixture,LED Luminaires Fixture 40w| EX,DONE
-LS-14,EL,AH-EDP-01-2-L2-04-FJB01,Lighting Cable,Cable of Fluorescent Fixture 2*36w- EX,DONE
+LS-14,EL,AH-EDP-01-2-L2-04-FJB01,Lighting Cable,Cable of LED Luminaires Fixture 40w| EX,DONE
 LS-14,EL,AH-EDP-01-2-L2-05,Lighting Fixture,LED Luminaires Fixture 40w| EX,DONE
-LS-14,EL,AH-EDP-01-2-L2-05-FJB01,Lighting Cable,Cable of Fluorescent Fixture 2*36w- EX,DONE
+LS-14,EL,AH-EDP-01-2-L2-05-FJB01,Lighting Cable,Cable of LED Luminaires Fixture 40w| EX,DONE
 LS-14,EL,AH-EDP-01-2-L2-06,Lighting Fixture,LED Luminaires Fixture 40w| EX,DONE
-LS-14,EL,AH-EDP-01-2-L2-06-FJB01,Lighting Cable,Cable of Fluorescent Fixture 2*36w- EX,DONE
+LS-14,EL,AH-EDP-01-2-L2-06-FJB01,Lighting Cable,Cable of LED Luminaires Fixture 40w| EX,DONE
 LS-14,EL,AH-EDP-01-3-L3-01,Lighting Fixture,LED Luminaires Fixture 40w| EX| Safety Lights with Battery Backup,DONE
-LS-14,EL,AH-EDP-01-3-L3-01-FJB01,Lighting Cable,Cable of Fluorescent Fixture 2*36w- EX|Safety Lights with Battery Backup,DONE
+LS-14,EL,AH-EDP-01-3-L3-01-FJB01,Lighting Cable,Cable of LED Luminaires Fixture 40w| EX| Safety Lights with Battery Backup,DONE
 LS-14,EL,AH-EDP-01-3-L3-02,Lighting Fixture,LED Luminaires Fixture 40w| EX| Safety Lights with Battery Backup,DONE
-LS-14,EL,AH-EDP-01-3-L3-02-FJB01,Lighting Cable,Cable of Fluorescent Fixture 2*36w- EX|Safety Lights with Battery Backup,DONE
+LS-14,EL,AH-EDP-01-3-L3-02-FJB01,Lighting Cable,Cable of LED Luminaires Fixture 40w| EX| Safety Lights with Battery Backup,DONE
 LS-14,EL,AH-EDP-01-3-L3-03,Lighting Fixture,LED Luminaires Fixture Exit| 1*15w With Battery Backup,DONE
-LS-14,EL,AH-EDP-01-3-L3-03-FJB01,Lighting Cable,Cable of Fluorescent Fixture Exit- 1*8w With Battery Backup,DONE
+LS-14,EL,AH-EDP-01-3-L3-03-FJB01,Lighting Cable,Cable of LED Luminaires Fixture Exit| 1*15w With Battery Backup,DONE
 LS-14,EL,AH-EDP-01-3-L3-04,Lighting Fixture,LED Luminaires Fixture 40w| EX,DONE
-LS-14,EL,AH-EDP-01-3-L3-04-FJB01,Lighting Cable,Cable of Fluorescent Fixture 2*36w- EX,DONE
+LS-14,EL,AH-EDP-01-3-L3-04-FJB01,Lighting Cable,Cable of LED Luminaires Fixture 40w| EX,DONE
 LS-14,EL,AH-EDP-01-3-L3-05,Lighting Fixture,LED Luminaires Fixture 40w| EX,DONE
-LS-14,EL,AH-EDP-01-3-L3-05-FJB01,Lighting Cable,Cable of Fluorescent Fixture 2*36w- EX,DONE
+LS-14,EL,AH-EDP-01-3-L3-05-FJB01,Lighting Cable,Cable of LED Luminaires Fixture 40w| EX,DONE
 LS-14,EL,AH-EDP-01-3-L3-06,Lighting Fixture,LED Luminaires Fixture 40w| EX,DONE
-LS-14,EL,AH-EDP-01-3-L3-06-FJB01,Lighting Cable,Cable of Fluorescent Fixture 2*36w- EX,DONE
+LS-14,EL,AH-EDP-01-3-L3-06-FJB01,Lighting Cable,Cable of LED Luminaires Fixture 40w| EX,DONE
 LS-14,EL,AH-EDP-01-5-L2-01,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,DONE
 LS-14,EL,AH-EDP-01-5-L2-01-FJB01,Lighting Cable,Cable of Outlet 3-Pole- 230v|16A|EX,DONE
 LS-14,EL,AH-EDP-01-5-L2-02,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,DONE
