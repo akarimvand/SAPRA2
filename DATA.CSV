@@ -19,18 +19,18 @@
 120,120-06,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-05,EL,222,0,0,1132,558,574,11
 120,120-07,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-ESWB3A/B-01,EL,147,0,0,491,221,270,134
 120,120-08,Electrical Distribution Substation,Emergency Diesel Generator SS-DG-5701,EL,8,0,0,0,0,0,7
-120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,EL,29,0,0,25,10,15,0
+120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,EL,29,0,0,26,10,16,0
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,IN,2,0,0,6,0,6,0
 120,120-10,Electrical Distribution Substation,SS-CH-01 for Electrical Supply 110V DC,EL,24,0,0,136,0,136,0
 120,120-11,Electrical Distribution Substation,SS-UPS-01 for Safety Lighting Supply 230 AC UPS,EL,18,0,0,41,10,31,0
 120,120-12,Electrical Distribution Substation,SS PDCS System,EL,10,0,0,8,2,6,2
 120,120-13,Electrical Distribution Substation,Cathodic Protection System,EL,373,371,0,472,472,0,0
 120,120-14,Electrical Distribution Substation,Electric Heat Tracing System,EL,3,0,0,0,0,0,3
-120,120-15,Electrical Distribution Substation,Capacitor Bank,EL,5,0,0,0,0,0,0
+120,120-15,Electrical Distribution Substation,Capacitor Bank,EL,5,0,0,32,0,32,0
 120,120-16,Electrical Distribution Substation,MV Transformer,EL,12,12,0,50,45,5,0
 120,120-17,Electrical Distribution Substation,LV Transformer,EL,15,15,0,104,82,22,0
 120,120-18,Electrical Distribution Substation,E/I Cabinet,EL,16,16,0,46,44,2,0
-120,120-18,Electrical Distribution Substation,E/I Cabinet,IN,16,14,0,12,12,0,0
+120,120-18,Electrical Distribution Substation,E/I Cabinet,IN,16,16,0,12,12,0,0
 2000,2000-01,Reforming,Pre Reforming,MES,2,0,0,0,0,0,0
 2000,2000-01,Reforming,Pre Reforming,PI,8,8,0,19,0,19,1
 2000,2000-01,Reforming,Pre Reforming,IN,92,0,0,9,1,8,11
@@ -114,7 +114,7 @@
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,8,5,0,84,42,42,1
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,0,0,0,0,0,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,PI,46,36,0,134,45,89,9
-5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,465,0,0,338,158,180,287
+5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,465,0,0,338,170,168,287
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,39,0,137,65,72,13
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,5,0,44,11,33,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,0,0,382,196,186,78
