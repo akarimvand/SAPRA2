@@ -1803,15 +1803,15 @@ TEL-07,EL,07-SP-15,Paging Device,A,Earth body shall be installed.,PL-17093
 4000-04,PI,4000-04-LO-09-1018,PI_TP,C,all gaskets temporary installed according to precom note on p and id,PL-23794
 4000-04,PI,4000-04-LO-10-1019,PI_TP,C,FG 30103 & oriface plate shall be install,PL-17067
 4000-04,PI,4000-04-LO-10-1019,PI_TP,C,the approved Water (DEM) analysis should be attached,PL-17068
-4000-04,PI,4000-04-LO-11-1020,PI_TP,C,All Gasket Is Temporary Installed Acording To Pre Com Note On P&ID,PL-24188
-4000-04,PI,4000-04-LO-11-1020,PI_TP,C,"Spectacle Blind 3""-CL:150-RF-Shall Be Installed",PL-24189
-4000-04,PI,4000-04-LO-11-1020,PI_TP,C,Installed Valve Must Be Lubricated,PL-24190
-4000-04,PI,4000-04-LO-11-1020,PI_TP,C,All Instrument Devices Shall Be Installed (FO:31101|31102 And FG:31103),PL-24191
 4000-04,PI,4000-04-LO-11-1020,PI_TP,C,DEM WATER CERTIFACATE SHALL BE ATTACH,PL-23800
 4000-04,PI,4000-04-LO-11-1020,PI_TP,C,THE RELATED FLANGES (LINE)MUST BE CONNECTED TO THE OIL TANK NOZZLE (C:3001),PL-23801
 4000-04,PI,4000-04-LO-11-1020,PI_TP,C,THE RELATED FLANGES (LINE)MUST BE CONNECTED TO THE OIL TANK NOZZLE (C:3001),PL-23802
 4000-04,PI,4000-04-LO-11-1020,PI_TP,C,"ALL SPECTACLE FLANGES 4""AND8""-CL-150AND RELATED GASKETS AND STUD BOLTS SHOULD BE INSTALLED",PL-23803
 4000-04,PI,4000-04-LO-11-1020,PI_TP,C,"ALL SPECTACLE FLANGES 4""AND8""-CL-150AND RELATED GASKETS AND STUD BOLTS SHOULD BE INSTALLED",PL-23804
+4000-04,PI,4000-04-LO-11-1020,PI_TP,C,All Gasket Is Temporary Installed Acording To Pre Com Note On P&ID,PL-24188
+4000-04,PI,4000-04-LO-11-1020,PI_TP,C,"Spectacle Blind 3""-CL:150-RF-Shall Be Installed",PL-24189
+4000-04,PI,4000-04-LO-11-1020,PI_TP,C,Installed Valve Must Be Lubricated,PL-24190
+4000-04,PI,4000-04-LO-11-1020,PI_TP,C,All Instrument Devices Shall Be Installed (FO:31101|31102 And FG:31103),PL-24191
 4000-04,PI,4000-04-LO-12-1021,PI_TP,C,DEM WATER CERTIFACATE SHALL BE ATTACH,PL-23805
 4000-04,PI,4000-04-LO-12-1021,PI_TP,C,THE RELATED FLANGES (LINE)MUST BE CONNECTED TO THE OIL TANK NOZZLE (C:3001),PL-23806
 4000-04,PI,4000-04-LO-12-1021,PI_TP,C,THE RELATED FLANGES (LINE)MUST BE CONNECTED TO THE OIL TANK NOZZLE (C:3001),PL-23807
@@ -3096,6 +3096,7 @@ FGS-08,EL,ALS-0301,FGS Device,C, Cable  S.S Tag Should Be Done.,PL-22215
 FGS-08,EL,ALS-0302,FGS Device,C, Cable S.S Tag Should Be Done.,PL-22216
 FGS-08,EL,ALS-0302,FGS Device,C,EXTRA HOLES SHOULD BE DONE.,PL-22099
 FGS-08,EL,ALS-0302,FGS Device,C,S.S TAG SHOULD BE DONE.,PL-22035
+BLD-07,CV,Beams & Slab(BLD-07),03-Beams & Slab,A,تکميل QC FORM هاي مربوطه,PL-24531
 BLD-01,PI,BLD-01-IG55-02-758,PI_TP,C,All IG And PSH Must Be Installed,PL-23752
 BLD-02,PI,BLD-02-IG55-01-986,PI_TP,C,ALL INSTRUMENT DEVICE SHALL BE INSTALLED AND COMPELETED (PSH-001~psh-00) and (ro-007 ~ ro-005),PL-21713
 120-09,IN,COM-PDP-CR-01,JUNCTION BOX,A,EARTH SHOULD BE DONE.,PL-15754
@@ -3126,10 +3127,10 @@ TEL-09,EL,CR-SP-03,Paging Device,A,Loud Speaker is not install.,PL-22421
 120-15,EL,CR-UBT-01_1,UPS & Battery,B,Bolt & Nuts Is Not Complete.,PL-24263
 120-15,EL,CR-UBT-01_1,UPS & Battery,B,Bracket Is Not Complete.,PL-24265
 120-15,EL,CR-UBT-01_1,UPS & Battery,B,Alignment Shall Be Done.,PL-24267
-120-15,EL,CR-UBT-01_1,UPS & Battery,A,Electrolyte Is Not Complete.,PL-24269
 120-15,EL,CR-UBT-01_1,UPS & Battery,A,Cover Terminal And Inter Connector Shall Be Install.,PL-24271
-120-15,EL,CR-UBT-01_2,UPS & Battery,A,Cover Terminal And Inter Connector Shall Be Install.,PL-24272
+120-15,EL,CR-UBT-01_1,UPS & Battery,A,Electrolyte Is Not Complete.,PL-24269
 120-15,EL,CR-UBT-01_2,UPS & Battery,A,Electrolyte Is Not Complete.,PL-24270
+120-15,EL,CR-UBT-01_2,UPS & Battery,A,Cover Terminal And Inter Connector Shall Be Install.,PL-24272
 120-15,EL,CR-UBT-01_2,UPS & Battery,B,Alignment Shall Be Done.,PL-24268
 120-15,EL,CR-UBT-01_2,UPS & Battery,B,Bracket Is Not Complete.,PL-24266
 120-15,EL,CR-UBT-01_2,UPS & Battery,B,Bolt & Nuts Is Not Complete.,PL-24264
@@ -4355,18 +4356,18 @@ ES-05,EL,E8-24(ES-05),Earthing System,C,Touch Up Should Be Done.,PL-22031
 120-03,EL,EBC-MP-7506B,Power Cable B,B,S.S tags shall be install.,PL-05230
 120-03,EL,EBC-MP-8401,Power Cable B,B,S.S tags shall be install.,PL-04663
 120-03,EL,EBC-MP-8401,Power Cable B,B,مرتب سازي کل مسير,PL-04637
-120-03,EL,EBC-MP-8401,Power Cable B,B, CABLE ARRANGEMENT SHOULD BE DONE.,PL-24488
 120-03,EL,EBC-MP-8401,Power Cable B,B,FIXED CABLES UNDER THE PANEL SHALL BE DONE.,PL-24500
 120-03,EL,EBC-MP-8401,Power Cable B,B,S.S TAG SHOULD BE DONE.,PL-24476
+120-03,EL,EBC-MP-8401,Power Cable B,B, CABLE ARRANGEMENT SHOULD BE DONE.,PL-24488
 120-03,EL,EBC-MP-8402,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-04588
 120-03,EL,EBC-MP-8402,Power Cable B,A,Core Number (Heated) and fixed shall be installed.,PL-17186
 120-03,EL,EBC-MP-8402,Power Cable B,B,Tag No shall be installed.,PL-17157
 120-03,EL,EBC-MP-8402,Power Cable B,B,Cable arrangement shall be done.,PL-17170
 120-03,EL,EBC-MP-8403A,Power Cable B,A,S.S Cable TIE Shall BE done.,PL-05547
 120-03,EL,EBC-MP-8403A,Power Cable B,B,Cable Arrangement shall be done.,PL-05567
+120-03,EL,EBC-MP-8403A,Power Cable B,B, CABLE ARRANGEMENT SHOULD BE DONE.,PL-24489
 120-03,EL,EBC-MP-8403A,Power Cable B,B,S.S TAG SHOULD BE DONE.,PL-24477
 120-03,EL,EBC-MP-8403A,Power Cable B,B,FIXED CABLES UNDER THE PANEL SHALL BE DONE.,PL-24501
-120-03,EL,EBC-MP-8403A,Power Cable B,B, CABLE ARRANGEMENT SHOULD BE DONE.,PL-24489
 120-03,EL,EBC-MP-8403B,Power Cable B,B,Cable Arrangement shall be done.,PL-05559
 120-03,EL,EBC-MP-8403B,Power Cable B,A,S.S Cable TIE Shall BE done.,PL-05539
 120-03,EL,EBC-MP-8404A,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-03255
@@ -4377,9 +4378,9 @@ ES-05,EL,E8-24(ES-05),Earthing System,C,Touch Up Should Be Done.,PL-22031
 120-03,EL,EBC-MP-8404B,Power Cable B,B,Cable Arrangement shall be done.,PL-08431
 120-03,EL,EBC-MP-8404B,Power Cable B,B,S.S tags shall be install.,PL-08218
 120-03,EL,EBC-MP-8404B,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-03275
-120-03,EL,EBC-MP-8404B,Power Cable B,B,S.S TAG SHOULD BE DONE.,PL-24424
 120-03,EL,EBC-MP-8404B,Power Cable B,B, CABLE ARRANGEMENT SHOULD BE DONE.,PL-24440
 120-03,EL,EBC-MP-8404B,Power Cable B,C,CLEANING SHALL BE DONE.,PL-24456
+120-03,EL,EBC-MP-8404B,Power Cable B,B,S.S TAG SHOULD BE DONE.,PL-24424
 120-03,EL,EBC-MP-8405A,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-04596
 120-03,EL,EBC-MP-8405B,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-04604
 120-02,EL,EBC-MX-7050,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-03245
@@ -4395,16 +4396,16 @@ ES-05,EL,E8-24(ES-05),Earthing System,C,Touch Up Should Be Done.,PL-22031
 120-02,EL,EBC-P7001C-HE-2,Power Cable B,B,S.S TAG SHOULD BE DONE.,PL-24419
 120-02,EL,EBC-P7001C-HE-2,Power Cable B,B, CABLE ARRANGEMENT SHOULD BE DONE.,PL-24435
 120-02,EL,EBC-P7001C-HE-2,Power Cable B,C,CLEANING SHALL BE DONE.,PL-24451
+120-02,EL,EBC-P7001C-MF-1,Power Cable B,B,FIXED CABLES UNDER THE PANEL SHALL BE DONE.,PL-24491
 120-02,EL,EBC-P7001C-MF-1,Power Cable B,B,S.S TAG SHOULD BE DONE.,PL-24467
 120-02,EL,EBC-P7001C-MF-1,Power Cable B,B, CABLE ARRANGEMENT SHOULD BE DONE.,PL-24479
-120-02,EL,EBC-P7001C-MF-1,Power Cable B,B,FIXED CABLES UNDER THE PANEL SHALL BE DONE.,PL-24491
 120-02,EL,EBC-P7001C-MF-1,Power Cable B,B,S.S tags shall be install.,PL-05458
 120-02,EL,EBC-P7001C-MF-1,Power Cable B,B,Cable Arrangement shall be done.,PL-05459
 120-02,EL,EBC-P7001C-MP-1A,Power Cable B,B,S.S tags shall be install.,PL-05426
 120-02,EL,EBC-P7001C-MP-1A,Power Cable B,B,Cable Arrangement shall be done.,PL-05427
-120-02,EL,EBC-P7001C-MP-1A,Power Cable B,B,FIXED CABLES UNDER THE PANEL SHALL BE DONE.,PL-24492
 120-02,EL,EBC-P7001C-MP-1A,Power Cable B,B, CABLE ARRANGEMENT SHOULD BE DONE.,PL-24480
 120-02,EL,EBC-P7001C-MP-1A,Power Cable B,B,S.S TAG SHOULD BE DONE.,PL-24468
+120-02,EL,EBC-P7001C-MP-1A,Power Cable B,B,FIXED CABLES UNDER THE PANEL SHALL BE DONE.,PL-24492
 120-07,EL,EBC-P7001C-MP-1B,Power Cable B,B,S.S tags shall be install.,PL-05514
 120-07,EL,EBC-P7001C-MP-1B,Power Cable B,B,Cable Arrangement shall be done.,PL-05515
 120-03,EL,EBC-PK7502-MB-1A,Power Cable B,B,ارنج کابل ها انجام شود,PL-05267
@@ -4705,9 +4706,9 @@ LS-01,EL,EBP-CR-LP-01,Power Cable B,B,S.S tags shall be install.,PL-04757
 120-02,EL,EBP-FT7001B-HE-1,Power Cable B,C,CABLE TAG NO SHALL BE INSTALL.,PL-22677
 120-02,EL,EBP-FT7001B-HE-2,Power Cable B,B,S.S tags shall be install.,PL-05215
 120-02,EL,EBP-FT7001B-HE-2,Power Cable B,B,ارنج کابل ها انجام شود,PL-05260
-120-02,EL,EBP-FT7001B-HE-2,Power Cable B,B,S.S TAG SHOULD BE DONE.,PL-24470
 120-02,EL,EBP-FT7001B-HE-2,Power Cable B,B,FIXED CABLES UNDER THE PANEL SHALL BE DONE.,PL-24494
 120-02,EL,EBP-FT7001B-HE-2,Power Cable B,B, CABLE ARRANGEMENT SHOULD BE DONE.,PL-24482
+120-02,EL,EBP-FT7001B-HE-2,Power Cable B,B,S.S TAG SHOULD BE DONE.,PL-24470
 120-02,EL,EBP-FT7001B-MF-1,Power Cable B,B,ارنج کابل ها انجام شود,PL-05258
 120-02,EL,EBP-FT7001B-MF-1,Power Cable B,B,S.S tags shall be install.,PL-05213
 120-02,EL,EBP-FT7001B-MP-1A,Power Cable B,B,S.S tags shall be install.,PL-05211
@@ -5118,12 +5119,12 @@ LS-01,EL,EBP-LAB-LP-01,Power Cable B,B,Tag فلزي کابل ها نصب شود,
 120-02,EL,EBP-MP-3014,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-03090
 120-07,EL,EBP-MP-3015,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-03740
 120-02,EL,EBP-MP-5001A_1,Power Cable B,B,S.S tags shall be install.,PL-08032
+120-02,EL,EBP-MP-5001A_1,Power Cable B,B,FIXED CABLES UNDER THE PANEL SHALL BE DONE.,PL-24495
 120-02,EL,EBP-MP-5001A_1,Power Cable B,B,S.S TAG SHOULD BE DONE.,PL-24471
 120-02,EL,EBP-MP-5001A_1,Power Cable B,B, CABLE ARRANGEMENT SHOULD BE DONE.,PL-24483
-120-02,EL,EBP-MP-5001A_1,Power Cable B,B,FIXED CABLES UNDER THE PANEL SHALL BE DONE.,PL-24495
-120-02,EL,EBP-MP-5001A_2,Power Cable B,B,FIXED CABLES UNDER THE PANEL SHALL BE DONE.,PL-24496
 120-02,EL,EBP-MP-5001A_2,Power Cable B,B, CABLE ARRANGEMENT SHOULD BE DONE.,PL-24484
 120-02,EL,EBP-MP-5001A_2,Power Cable B,B,S.S TAG SHOULD BE DONE.,PL-24472
+120-02,EL,EBP-MP-5001A_2,Power Cable B,B,FIXED CABLES UNDER THE PANEL SHALL BE DONE.,PL-24496
 120-02,EL,EBP-MP-5001A_2,Power Cable B,B,S.S tags shall be install.,PL-08033
 120-02,EL,EBP-MP-5001B_1,Power Cable B,B,S.S tags shall be install.,PL-08037
 120-02,EL,EBP-MP-5001B_1,Power Cable B,B,CABLE TAG NO SHALL BE INSTALL.,PL-22635
@@ -5307,12 +5308,12 @@ LS-01,EL,EBP-LAB-LP-01,Power Cable B,B,Tag فلزي کابل ها نصب شود,
 120-02,EL,EBP-MP-7002A_1,Power Cable B,A,TERMINATION SHALL BE DONE.,PL-22758
 120-02,EL,EBP-MP-7002A_2,Power Cable B,B,Cable Arrangement shall be done.,PL-05552
 120-02,EL,EBP-MP-7002A_2,Power Cable B,A,S.S Cable Tray Shall BE done.,PL-05532
+120-02,EL,EBP-MP-7002A_2,Power Cable B,B,FIXED CABLES UNDER THE PANEL SHALL BE DONE.,PL-24497
 120-02,EL,EBP-MP-7002A_2,Power Cable B,B,S.S TAG SHOULD BE DONE.,PL-24473
 120-02,EL,EBP-MP-7002A_2,Power Cable B,B, CABLE ARRANGEMENT SHOULD BE DONE.,PL-24485
-120-02,EL,EBP-MP-7002A_2,Power Cable B,B,FIXED CABLES UNDER THE PANEL SHALL BE DONE.,PL-24497
-120-02,EL,EBP-MP-7002B_1,Power Cable B,B,FIXED CABLES UNDER THE PANEL SHALL BE DONE.,PL-24498
 120-02,EL,EBP-MP-7002B_1,Power Cable B,B, CABLE ARRANGEMENT SHOULD BE DONE.,PL-24486
 120-02,EL,EBP-MP-7002B_1,Power Cable B,B,S.S TAG SHOULD BE DONE.,PL-24474
+120-02,EL,EBP-MP-7002B_1,Power Cable B,B,FIXED CABLES UNDER THE PANEL SHALL BE DONE.,PL-24498
 120-02,EL,EBP-MP-7002B_1,Power Cable B,A,S.S Cable Tray Shall BE done.,PL-05528
 120-02,EL,EBP-MP-7002B_1,Power Cable B,B,Cable Arrangement shall be done.,PL-05548
 120-02,EL,EBP-MP-7002B_2,Power Cable B,B,Cable Arrangement shall be done.,PL-05549
@@ -7228,102 +7229,83 @@ FGS-04,IN,FGD-0018(NA),CABLE,B,TAG NO SHALL BE INSTALLED.,PL-17283
 FGS-04,IN,FGD-0018(NA),CABLE,B,Cable arrangement shall be done.,PL-17298
 FGS-04,IN,FGD-0018(NA),CABLE,B,فاشت فلزي از جنس S.S جهت نگهداري کابل,PL-17313
 FGS-04,IN,FGD-0018(NA),CABLE,B,جداسازي مسير کابل ارت,PL-17328
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,ساب زدن بتن کف پله هاي شرقي و غربي ساختمان ,PL-23475
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تاچ آپ و رنگ آميزي نبشي راه  پله شرقي و غربي ساختمان ,PL-23476
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تکميل و اصلاح  سنگ نما ستون هاي شرقي و غربي ساختمان ,PL-23477
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,اجراي بتن(ملات) پاگرد ورودي شرقي و غربي ساختمان,PL-23478
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,ترميم و مرمت آجر نماي جانپناه  ضلع جنوب شرقي ساختمان,PL-23479
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تکميل بتن اطراف opening شرقي و اجراي چيکرپليت (داخل ساختمان ضلع شرق),PL-23480
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,ترميم و مرمت پاشنه ديوار  جنوبي از داخل ساختمان(جنوب شرقي),PL-23481
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تميز کاري درز انقطاع ساختمان و پوشش درز طبق ديتايل فني و اجرايي(کف و ديوار),PL-23482
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تاچ آپ و  رنگ نبشي  درز انقطاع,PL-23483
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تاچ آپ و رنگ آميزي نعل درگاه  درب هاي ضد حريق  ضلع شرقي و غربي ساختمان,PL-23484
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تکميل آجر نماي opening ضلع شرقي ساختمان,PL-23485
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تکميل پياده رو ضلع شرقي و جنوبي ساختمان,PL-23486
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تميز کاري فضاي کيبل گالري ساختمان,PL-23487
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تکميل pavingداخل کيبل گالري (ضلع شرق),PL-23488
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تاچ آپ و رنگ آميزي نبشي  opening مابين کيبل گالري و ديزل روم,PL-23489
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,درز گيري اطراف درب هاي ضلع شرقي و غربي  ,PL-23490
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تکميل بند کشي موزاييک پشت بام (دوغاب ريزي),PL-23491
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,اجراي ماسه آسفالت درز هاي اجرايي پشت بام,PL-23492
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,پر کردن زير نبشي جانپناه  با ملات ترميم  ,PL-23493
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,ترميم و مرمت بتن ديواره ي ترانس ضلع شمال,PL-23494
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,بريدن بيرون زدگي  يونوليت هاي paving شمال ساختمان,PL-23495
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,ترميم و مرمت درز هاي اجرايي paving و اجراي ماستيک  ضلع شمال ساختمان,PL-23496
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تکميل سنگ آب چک ضلع شرقي و غربي,PL-23497
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تعويض دستگيره درب ضلع شرقي ,PL-23498
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تاچ آپ و رنگ نبشي تمامي opening هاي  موجود در ساختمان ,PL-23499
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تاچ آپ و رنگ نبشي زير جانپناه   ,PL-23500
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تميز کاري فضاي داخلي ترانس هاي شمالي ,PL-23501
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,ساخت و نصب راه پله هاي ورودي ترانس هاي شمالي ساختمان,PL-23502
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,زنگ زدايي و رنگ بولت هاي استراکچر ,PL-23503
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,پر کردن درز انبساط paving,PL-23504
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تکميل paving داخل ترانس ,PL-23505
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,رنگ آميزي نهايي درب هاي فنس ترانس,PL-23506
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تکميل ديوار بلوکي ديچ ترانس هاي mv و ساخت اسلب آنها,PL-23507
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,ساخت چيکر پليت روي ترنچ هاي داخل ترانس,PL-23508
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,نصب لدر هاي داخلي ساختمان از همکف به طبقه اول,PL-23509
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,اجراي کلادينگ hvac ساختمان substation,PL-23510
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,نصب آب چک روي سقف,PL-23511
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تميز کاري داخل  اتاق باطري روم ,PL-23512
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,سيل کردن اطراف لوله ورودي به اتاق باطري روم,PL-23513
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تکميل پلاستر و سيمان سفيد ديوار باطري روم ,PL-23514
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,اجراي کاشي ضد اسيد کف (دور لوله برق)با ملات ضد اسيد اتاق باطري روم,PL-23515
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,اجراي ملات ضد اسيد و ماستيک زير پايه هاي استراکچر  اتاق باطري روم,PL-23516
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,نصب eye wash اتاق باطري روم,PL-23517
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,اصلاح شيرآب روشويي اتاق باطري روم,PL-23518
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تکميل و اصلاح لوله آسيب ديده  خط فاضلاب  ضلع شرق ساختمان ديزل ژنراتور,PL-23519
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,اجراي رنگ آميزي  فضاي داخلي ديوار  ساختمان ديزل ژنراتور,PL-23520
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,اصلاح ترک خوردگي ديوار  داخل ساختمان ديزل ژنراتور,PL-23521
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تاچ آپ و رنگ نبشي کانال داخل ساختمان ديزل ژنراتور,PL-23522
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تميز کاري فضاي داخل ساختمان ديزل ژنراتور,PL-23523
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تعويض روشويي شکسته شده و نصب شيرآلات شست شو ساختمان ديزل ژنراتور,PL-23524
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,پر کردن درز هاي اجراي کف با ماستيک ساختمان ديزل ژنراتور ,PL-23525
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,درز گيري اطراف درب و لوور ساختمان ديزل ژنراتور,PL-23526
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,اجراي ساپورت لوله PVC(ناودان) ساختمان ديزل ژنراتور,PL-23527
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تعويض سنگ کف لوور ساختمان ديزل ژنراتور,PL-23528
-BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),C,تکميل و  مرمت ديوار آجري (اطراف سيني کابل و لوله)د ساختمان ديزل ژنراتور,PL-23529
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,تميز کاري بتن از روي سنگ ازاره,PL-24121
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,تعويض شيشه شکسته شده W18 ضلع جنوب غربي (طبقه همکف) ,PL-24122
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,اصلاح سنگ پلاک روي ستون هاي اطراف درب ورودي ضلع جنوب,PL-24123
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,تهيه و نصب گريتينگ ديچ خروجي طبقه همکف,PL-24124
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,تهيه و نصب HB طبقه همکف و طبقه اول,PL-24125
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,تهيه و نصب و اجراي دوش و آبگرمکن در سرويس بهداشتي طبقه همکف به همراه کليه ي اتصالات,PL-24126
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,قفسه بندي بين ستون ها جهت چيدمان ابزارآلات ,PL-24127
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,ساخت اتاق پرسنل شاپ,PL-24128
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,بند کشي سنگ اطراف درب ورودي طبقه اول,PL-24129
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,اجراي سنگ آبچک پنجره ها ,PL-24130
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,تميزکاري و سنباده زني آجر ورودي درب طبقه اول,PL-24131
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,ساخت درپوش فلزي جهت بازديد از سپتيک ساختمان,PL-24132
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,اصلاح رمپ ورودي ,PL-24133
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,اصلاح آجر هاي شکسته (توالت),PL-24134
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,تهيه و نصب درپوش فلزي سيني کابل در ضلع جنوب غربي,PL-24135
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,تميز کاري سنگ ها از ملات,PL-24136
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,تميزکاري رنگ از روي ديوار داخلي (ضلع شرقي),PL-24137
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,اصلاح آجر تخريب شده ي اطراف درب ضد حريق  ضلع شمال شرقي ,PL-24138
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,باز کردن شاسي موقت جهت درب موقت ضلع شمال شرقي (از داخل),PL-24139
+BLD-07,CV,Final Architecture(EX),07-Final Architecture(External),B,سنگ نما شکسته شده ضلع جنوب غربي ساختمان ترميم گردد,PL-24213
+BLD-07,CV,Final Architecture(EX),07-Final Architecture(External),A,سيل کردن اطراف لوله آب باران  زير کنسول ترميم گردد,PL-24214
+BLD-07,CV,Final Architecture(EX),07-Final Architecture(External),B,سنگ نماي زير کنسول اجرا گردد(اتصال ديوار به دال کنسول),PL-24215
+BLD-07,CV,Final Architecture(EX),07-Final Architecture(External),B,بند کشي آجر نما ترميم گردد,PL-24216
+BLD-07,CV,Final Architecture(EX),07-Final Architecture(External),A,فلاشينگ روي جانپناه اجرا گردد,PL-24217
+BLD-07,CV,Final Architecture(EX),07-Final Architecture(External),A,تاچ آپ و رنگ مانکي لدر ضلع جنوب ساختمان ,PL-24218
+BLD-07,CV,Final Architecture(EX),07-Final Architecture(External),A,اطراف OPENING هاي ورودي HVAC سيل شود,PL-24220
+BLD-07,CV,Final Architecture(EX),07-Final Architecture(External),B,بندکشي سنگ ازاره ساختمان,PL-24223
+BLD-07,CV,Final Architecture(EX),07-Final Architecture(External),B,شستشو و تميز کاري سيرابه هاي ملات بندکشي از روي نماي آجري,PL-24528
+BLD-07,CV,Final Architecture(EX),07-Final Architecture(External),A,آب بندي محل اتصال کانال HVAC در محل سقف,PL-24530
+BLD-01,CV,final Architecture(External works BLD-01),07-Final Architecture(External),A,اصلاح جانپناه و آب چک سيماني در محل LADDER ساختمان ديزل ژنراتور,PL-24585
+BLD-01,CV,final Architecture(External works BLD-01),07-Final Architecture(External),B,تميزکاري نوشته هاي روي ديوار ضلع شمالي ( بالاي ديزل روم ),PL-24587
+BLD-01,CV,final Architecture(External works BLD-01),07-Final Architecture(External),B,شستشو و تميز کاري سيرابه هاي ملات بندکشي از روي نماي آجري,PL-24592
+BLD-01,CV,final Architecture(External works BLD-01),07-Final Architecture(External),B,ساب زدن بتن کف پله هاي شرقي و غربي ساختمان ,PL-23475
+BLD-01,CV,final Architecture(External works BLD-01),07-Final Architecture(External),B,تاچ آپ و رنگ آميزي نبشي راه  پله شرقي و غربي ساختمان ,PL-23476
+BLD-01,CV,final Architecture(External works BLD-01),07-Final Architecture(External),A,تکميل و اصلاح  سنگ نما ستون هاي شرقي و غربي ساختمان ,PL-23477
+BLD-01,CV,final Architecture(External works BLD-01),07-Final Architecture(External),A,اجراي بتن(ملات) پاگرد ورودي شرقي و غربي ساختمان,PL-23478
+BLD-01,CV,final Architecture(External works BLD-01),07-Final Architecture(External),B,ترميم و مرمت آجر نماي جانپناه  ضلع جنوب شرقي ساختمان,PL-23479
+BLD-01,CV,final Architecture(External works BLD-01),07-Final Architecture(External),B,پر کردن زير نبشي جانپناه  با ملات ترميم  ,PL-23493
+BLD-01,CV,final Architecture(External works BLD-01),07-Final Architecture(External),A,ترميم و مرمت بتن ديواره ي ترانس ضلع شمال,PL-23494
+BLD-01,CV,final Architecture(External works BLD-01),07-Final Architecture(External),A,تکميل آجر نماي opening ضلع شرقي ساختمان,PL-23485
+BLD-01,CV,final Architecture(External works BLD-01),07-Final Architecture(External),A,تکميل سنگ آب چک ضلع شرقي و غربي,PL-23497
+BLD-01,CV,final Architecture(External works BLD-01),07-Final Architecture(External),B,تاچ آپ و رنگ نبشي زير جانپناه   ,PL-23500
+BLD-01,CV,final Architecture(External works BLD-01),07-Final Architecture(External),A,تميز کاري فضاي داخلي ترانس هاي شمالي ,PL-23501
+BLD-01,CV,final Architecture(External works BLD-01),07-Final Architecture(External),A,اجراي رنگ آميزي  فضاي داخلي ديوار  ساختمان ديزل ژنراتور,PL-23520
+BLD-06,CV,final Architecture(External works BLD-06),07-Final Architecture(External),C,آجرچيني OPENING هاي روي ديوار شمالي (مربوط به جرثقيل),PL-24145
+BLD-06,CV,final Architecture(External works BLD-06),07-Final Architecture(External),B,اصلاح سنگ پلاک روي ستون هاي اطراف درب ورودي ضلع جنوب,PL-24123
+BLD-06,CV,final Architecture(External works BLD-06),07-Final Architecture(External),B,تميز کاري بتن از روي سنگ ازاره,PL-24121
+BLD-06,CV,final Architecture(External works BLD-06),07-Final Architecture(External),C,قفسه بندي بين ستون ها جهت چيدمان ابزارآلات ,PL-24127
+BLD-06,CV,final Architecture(External works BLD-06),07-Final Architecture(External),B,ساخت اتاق پرسنل شاپ,PL-24128
+BLD-06,CV,final Architecture(External works BLD-06),07-Final Architecture(External),C,اجراي سنگ آبچک پنجره ها ,PL-24130
+BLD-06,CV,final Architecture(External works BLD-06),07-Final Architecture(External),C,تميزکاري و سنباده زني آجر ورودي درب طبقه اول,PL-24131
+BLD-06,CV,final Architecture(External works BLD-06),07-Final Architecture(External),B,تميز کاري سنگ ها از ملات (فضاي بيروني),PL-24136
+BLD-06,CV,final Architecture(External works BLD-06),07-Final Architecture(External),A,تخريب ديوار بلوکي داخل OPENING هاي  ضلع شرقي و غربي به ابعاد 100*100,PL-24521
+BLD-06,CV,final Architecture(External works BLD-06),07-Final Architecture(External),A,ايجاد دو عدد OPENING به ابعاد 40*40 در گذر ارتفاعي زير تير بتني,PL-24522
+BLD-06,CV,final Architecture(External works BLD-06),07-Final Architecture(External),A,تکميل QC FORM هاي مربوطه,PL-24523
+BLD-06,CV,final Architecture(External works BLD-06),07-Final Architecture(External),B,شستشو و تميز کاري سيرابه هاي ملات بندکشي از روي نماي آجري,PL-24517
+BLD-06,CV,final Architecture(External works BLD-06),07-Final Architecture(External),A,تعويض درب جنوبي و جايگزيني با درب کرکره اي برقي,PL-24518
+BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),A,تاچ آپ و رنگ نبشي کانال داخل ساختمان ديزل ژنراتور,PL-23522
+BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),A,تميز کاري فضاي داخل ساختمان ديزل ژنراتور,PL-23523
+BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),A,تعويض سنگ کف لوور ساختمان ديزل ژنراتور,PL-23528
+BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),A,تکميل و  مرمت ديوار آجري (اطراف سيني کابل و لوله)د ساختمان ديزل ژنراتور,PL-23529
+BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),A,تاچ آپ و رنگ نبشي تمامي opening هاي  موجود در ساختمان ,PL-23499
+BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),A,تکميل پلاستر و سيمان سفيد ديوار باطري روم اطراف کانال HVAC,PL-23514
+BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),A,اجراي کاشي ضد اسيد کف (دور لوله برق)با ملات ضد اسيد اتاق باطري روم,PL-23515
+BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),A,اجراي ملات ضد اسيد و ماستيک زير پايه هاي استراکچر  اتاق باطري روم,PL-23516
+BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),A,ترميم و مرمت پاشنه ديوار  جنوبي از داخل ساختمان(جنوب شرقي),PL-23481
+BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),A,تميز کاري درز انقطاع ساختمان و پوشش درز طبق ديتايل فني و اجرايي(کف و ديوار),PL-23482
+BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),A,تاچ آپ و  رنگ نبشي  درز انقطاع,PL-23483
+BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),A,تاچ آپ و رنگ آميزي نعل درگاه  درب هاي ضد حريق  ضلع شرقي و غربي ساختمان,PL-23484
+BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),A,تکميل pavingداخل کيبل گالري (ضلع شرق),PL-23488
+BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),A,تاچ آپ و رنگ آميزي نبشي  opening مابين کيبل گالري و ديزل روم,PL-23489
+BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),A,درز گيري اطراف درب هاي ضلع شرقي و غربي  ,PL-23490
+BLD-01,CV,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),A,درز گيري اطراف درب و لوور ساختمان ديزل ژنراتور,PL-23526
+BLD-06,CV,final Architecture(First Floor BLD-06),06-Final Architecture(Internal),C,بند کشي سنگ داخل ساختمان طبقه اول,PL-24141
+BLD-06,CV,final Architecture(First Floor BLD-06),06-Final Architecture(Internal),A,کندن پلاستيک از روي پنل هاي آلومينيومي سقف کاذب طبقه اول,PL-24520
+BLD-01,CV,final Architecture(Grouand Floor BLD-01),06-Final Architecture(Internal),A,تکميل بتن اطراف opening شرقي و اجراي چيکرپليت (داخل ساختمان ضلع شرق),PL-23480
+BLD-06,CV,final Architecture(Grouand Floor BLD-06),06-Final Architecture(Internal),C,اصلاح آجر هاي شکسته (توالت),PL-24134
+BLD-06,CV,final Architecture(Grouand Floor BLD-06),06-Final Architecture(Internal),C,تميزکاري رنگ از روي ديوار داخلي (ضلع شرقي) طبقه همکف,PL-24137
+BLD-06,CV,final Architecture(Grouand Floor BLD-06),06-Final Architecture(Internal),C,اصلاح آجر تخريب شده ي اطراف درب ضد حريق  ضلع شمال شرقي ,PL-24138
+BLD-06,CV,final Architecture(Grouand Floor BLD-06),06-Final Architecture(Internal),C,باز کردن شاسي موقت جهت درب موقت ضلع شمال شرقي (از داخل),PL-24139
+BLD-06,CV,final Architecture(Grouand Floor BLD-06),06-Final Architecture(Internal),C,تعويض شيشه شکسته شده W18 ضلع جنوب غربي (طبقه همکف) ,PL-24122
+BLD-01,CV,Foundation(BLD-01),01-Foundation,A,پر کردن درز انبساط paving,PL-23504
+BLD-01,CV,Foundation(BLD-01),01-Foundation,A,تکميل paving داخل ترانس ,PL-23505
+BLD-01,CV,Foundation(BLD-01),01-Foundation,A,تکميل ديوار بلوکي ديچ ترانس هاي mv و ساخت اسلب آنها,PL-23507
+BLD-01,CV,Foundation(BLD-01),01-Foundation,A,تکميل پياده رو ضلع شرقي و جنوبي ساختمان,PL-23486
+BLD-01,CV,Foundation(BLD-01),01-Foundation,A,تميز کاري فضاي کيبل گالري ساختمان,PL-23487
+BLD-01,CV,Foundation(BLD-01),01-Foundation,A,بريدن بيرون زدگي  يونوليت هاي paving شمال ساختمان,PL-23495
+BLD-01,CV,Foundation(BLD-01),01-Foundation,A,ترميم و مرمت درز هاي اجرايي paving و اجراي ماستيک  ضلع شمال ساختمان,PL-23496
+BLD-01,CV,Foundation(BLD-01),01-Foundation,A,پر کردن درز هاي اجراي کف با ماستيک ساختمان ديزل ژنراتور ,PL-23525
 BLD-06,CV,Foundation(BLD-06),01-Foundation,C,نصب و ساخت درپوش هاي بتني اطراف ساختمان  IC ،EP,PL-24140
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,بند کشي سنگ داخل ساختمان طبقه اول,PL-24141
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,اجراي دوغاب ريزي موزاييک سقف,PL-24142
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,اجراي ماستيک درزهاي اجرايي موزاييک سقف,PL-24143
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,تميزکاري روي سقف از مصالح و ضايعات ,PL-24144
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,آجرچيني OPENING هاي روي ديوار شمالي ,PL-24145
-BLD-07,CV,Foundation(BLD-07),01-Foundation,C,اجراي ماستيک درز هاي انبساط PAVING,PL-24212
-BLD-07,CV,Foundation(BLD-07),01-Foundation,C,سنگ نما شکسته شده ضلع جنوب غربي ساختمان ترميم گردد,PL-24213
-BLD-07,CV,Foundation(BLD-07),01-Foundation,C,سيل کردن اطراف لوله آب باران  زير کنسول ترميم گردد,PL-24214
-BLD-07,CV,Foundation(BLD-07),01-Foundation,C,سنگ نماي زير کنسول اجرا گردد(اتصال ديوار به دال کنسول),PL-24215
-BLD-07,CV,Foundation(BLD-07),01-Foundation,C,بند کشي آجر نما ترميم گردد,PL-24216
-BLD-07,CV,Foundation(BLD-07),01-Foundation,C,فلاشينگ روي جانپناه اجرا گردد,PL-24217
-BLD-07,CV,Foundation(BLD-07),01-Foundation,C,تاچ آپ و رنگ مانکي لدر ضلع جنوب ساختمان ,PL-24218
-BLD-07,CV,Foundation(BLD-07),01-Foundation,C,گرفتگي لوله فاضلاب برطرف شود,PL-24219
-BLD-07,CV,Foundation(BLD-07),01-Foundation,C,اطراف OPENING هاي ورودي HVAC سيل بندي شود,PL-24220
-BLD-07,CV,Foundation(BLD-07),01-Foundation,C,روشويي و شيرآلات داخل ساختمان نصب گردد,PL-24221
-BLD-07,CV,Foundation(BLD-07),01-Foundation,C,تاچ آپ پليت هاي اجرا شده داخل ديوار,PL-24222
-BLD-07,CV,Foundation(BLD-07),01-Foundation,C,بندکشي سنگ ازاره ساختمان,PL-24223
-BLD-07,CV,Foundation(BLD-07),01-Foundation,C,دوغاب ريزي موزاييک پشت بام,PL-24224
-BLD-07,CV,Foundation(BLD-07),01-Foundation,C,اجراي ماستيک درز هاي اجرايي پشت بام,PL-24225
-BLD-07,CV,Foundation(BLD-07),01-Foundation,C,تکميل درپوش GT وCB و VB هاي اطراف ساختمان,PL-24226
-BLD-07,CV,Foundation(BLD-07),01-Foundation,C,اجراي دريچه بازديد خط فاضلاب ضلع شرقي ساختمان (داخل پياده رو),PL-24227
+BLD-06,CV,Foundation(BLD-06),01-Foundation,B,بند کشي سنگ اطراف درب ورودي طبقه اول,PL-24129
+BLD-06,CV,Foundation(BLD-06),01-Foundation,C,تهيه و نصب و اجراي دوش و آبگرمکن در سرويس بهداشتي طبقه همکف به همراه کليه ي اتصالات,PL-24126
+BLD-06,CV,Foundation(BLD-06),01-Foundation,C,اصلاح رمپ ورودي ,PL-24133
+BLD-06,CV,Foundation(BLD-06),01-Foundation,B,پرکردن درزهاي PAVING بوسيله ماستيک,PL-24519
+BLD-07,CV,Foundation(BLD-07),01-Foundation,B,اجراي ماستيک درز هاي انبساط PAVING,PL-24212
+BLD-07,CV,Foundation(BLD-07),01-Foundation,A,تکميل درپوش GT وCB و VB هاي اطراف ساختمان,PL-24226
 2000-03,IN,FST-2007A(FST),Instrument(FST),C,Preservation Should Be Done.,PL-23608
 2000-03,IN,FST-2007A(FST),Instrument(FST),A,Hook Up should be install.,PL-23609
 2000-03,IN,FST-2007A(FST),Instrument(FST),C,Touch up support  shall be done.,PL-23610
@@ -7589,6 +7571,9 @@ FGS-08,EL,IEL-0304,FGS Device,C, Cable S.S Tag Should Be Done.,PL-22218
 FGS-08,EL,IEL-0305,FGS Device,C, Cable S.S Tag Should Be Done.,PL-22219
 FGS-08,EL,IEL-0305,FGS Device,C,S.S TAG SHOULD BE DONE.,PL-22038
 FGS-08,EL,IEL-0305,FGS Device,C,EXTRA HOLES SHOULD BE DONE.,PL-22102
+BLD-07,CV,Initial Architecture(BLD-07),04-Initial Architecture,A,گرفتگي لوله فاضلاب برطرف شود,PL-24219
+BLD-07,CV,Initial Architecture(BLD-07),04-Initial Architecture,A,تاچ آپ پليت هاي اجرا شده داخل ديوار,PL-24222
+BLD-01,CV,Initial Architecture(Ground Floor BLD-01),04-Initial Architecture-2,A,اصلاح ترک خوردگي ديوار  داخل ساختمان ديزل ژنراتور,PL-23521
 DCS-01,IN,JIAE-1001,JUNCTION BOX,C,S.S CAP SHOULD BE INSTALL.,PL-23410
 DCS-01,IN,JIAE-1001,JUNCTION BOX,B,TOUCH UP SHOULD BE DONE.,PL-23414
 DCS-01,IN,JIAE-1001,JUNCTION BOX,C,PRESERVATION SHOULD BE DONE.,PL-23418
@@ -8885,6 +8870,8 @@ DCS-01,IN,LHSP-9001,CABLE,B,Tag no(s.s) shall be install.,PL-07216
 1000-03,IN,LST-6022-2(LST),Instrument(LST),B,Touch Up Support Should Be Done.,PL-21488
 1000-03,IN,LST-6022-2(LST),Instrument(LST),A,Hook Up Should Be Install,PL-21480
 1000-03,IN,LST-6022-2(LST),Instrument(LST),B,Full Bolt Should Be Done.,PL-21472
+1000-03,IN,LST-6083(LT),Instrument(LT),C,Preservation shall be done.,PL-24559
+1000-03,IN,LST-6083(LT),Instrument(LT),B,HANGING TAG SHALL BE DONE.,PL-24560
 5000-01,IN,LT-5001(NA),CABLE,A,Termination shall be done.,PL-17347
 5000-01,IN,LT-5001(NA),CABLE,B,Tag no shall be install.,PL-17360
 5000-01,IN,LT-5001(NA),CABLE,A,Earth jumper shall be install.,PL-17377
@@ -8931,64 +8918,64 @@ DCS-01,IN,LHSP-9001,CABLE,B,Tag no(s.s) shall be install.,PL-07216
 120-06,EL,MAE-2026-12,Local_Control_Station,C,Preservation  تجهيز انجام شود,PL-10839
 120-06,EL,MAE-3002_1-01,Local_Control_Station,B,پليسه گيري و تاچ آپ سه لايه ساپورت انجام شود,PL-09818
 120-06,EL,MAE-3002_1-01,Local_Control_Station,C,Preservation  تجهيز انجام شود,PL-09819
+120-06,EL,MAE-3002_1-02,Local_Control_Station,C,cleaning shallbe done,PL-23937
 120-06,EL,MAE-3002_1-02,Local_Control_Station,C,PRESERUATION SHALLBE DONE,PL-23925
 120-06,EL,MAE-3002_1-02,Local_Control_Station,B,TOUCH UP shall be done.,PL-23913
-120-06,EL,MAE-3002_1-02,Local_Control_Station,C,cleaning shallbe done,PL-23937
 120-06,EL,MAE-3002_1-03,Local_Control_Station,B,پليسه گيري و تاچ آپ سه لايه ساپورت انجام شود,PL-09827
 120-06,EL,MAE-3002_1-03,Local_Control_Station,C,Preservation  تجهيز انجام شود,PL-09828
-120-06,EL,MAE-3002_1-04,Local_Control_Station,C,cleaning shallbe done,PL-23938
 120-06,EL,MAE-3002_1-04,Local_Control_Station,B,TOUCH UP shall be done.,PL-23914
 120-06,EL,MAE-3002_1-04,Local_Control_Station,C,PRESERUATION SHALLBE DONE,PL-23926
+120-06,EL,MAE-3002_1-04,Local_Control_Station,C,cleaning shallbe done,PL-23938
 120-06,EL,MAE-3002_1-05,Local_Control_Station,B,پليسه گيري و تاچ آپ سه لايه ساپورت انجام شود,PL-09836
 120-06,EL,MAE-3002_1-05,Local_Control_Station,C,Preservation  تجهيز انجام شود,PL-09837
+120-06,EL,MAE-3002_1-06,Local_Control_Station,C,cleaning shallbe done,PL-23939
 120-06,EL,MAE-3002_1-06,Local_Control_Station,C,PRESERUATION SHALLBE DONE,PL-23927
 120-06,EL,MAE-3002_1-06,Local_Control_Station,B,TOUCH UP shall be done.,PL-23915
-120-06,EL,MAE-3002_1-06,Local_Control_Station,C,cleaning shallbe done,PL-23939
 120-06,EL,MAE-3002_1-07,Local_Control_Station,B,پليسه گيري و تاچ آپ سه لايه ساپورت انجام شود,PL-09845
 120-06,EL,MAE-3002_1-07,Local_Control_Station,C,Preservation  تجهيز انجام شود,PL-09846
-120-06,EL,MAE-3002_1-08,Local_Control_Station,C,cleaning shallbe done,PL-23940
 120-06,EL,MAE-3002_1-08,Local_Control_Station,B,TOUCH UP shall be done.,PL-23916
 120-06,EL,MAE-3002_1-08,Local_Control_Station,C,PRESERUATION SHALLBE DONE,PL-23928
+120-06,EL,MAE-3002_1-08,Local_Control_Station,C,cleaning shallbe done,PL-23940
 120-06,EL,MAE-3002_2-01,Local_Control_Station,B,پليسه گيري و تاچ آپ سه لايه ساپورت انجام شود,PL-09854
 120-06,EL,MAE-3002_2-01,Local_Control_Station,C,Preservation  تجهيز انجام شود,PL-09855
+120-06,EL,MAE-3002_2-02,Local_Control_Station,C,cleaning shallbe done,PL-23941
 120-06,EL,MAE-3002_2-02,Local_Control_Station,C,PRESERUATION SHALLBE DONE,PL-23929
 120-06,EL,MAE-3002_2-02,Local_Control_Station,B,TOUCH UP shall be done.,PL-23917
-120-06,EL,MAE-3002_2-02,Local_Control_Station,C,cleaning shallbe done,PL-23941
 120-06,EL,MAE-3002_2-03,Local_Control_Station,B,پليسه گيري و تاچ آپ سه لايه ساپورت انجام شود,PL-09863
 120-06,EL,MAE-3002_2-03,Local_Control_Station,C,Preservation  تجهيز انجام شود,PL-09864
-120-06,EL,MAE-3002_2-04,Local_Control_Station,C,cleaning shallbe done,PL-23942
 120-06,EL,MAE-3002_2-04,Local_Control_Station,B,TOUCH UP shall be done.,PL-23918
 120-06,EL,MAE-3002_2-04,Local_Control_Station,C,PRESERUATION SHALLBE DONE,PL-23930
+120-06,EL,MAE-3002_2-04,Local_Control_Station,C,cleaning shallbe done,PL-23942
 120-06,EL,MAE-3002_2-05,Local_Control_Station,B,پليسه گيري و تاچ آپ سه لايه ساپورت انجام شود,PL-09872
 120-06,EL,MAE-3002_2-05,Local_Control_Station,C,Preservation  تجهيز انجام شود,PL-09873
+120-06,EL,MAE-3002_2-06,Local_Control_Station,C,cleaning shallbe done,PL-23943
 120-06,EL,MAE-3002_2-06,Local_Control_Station,C,PRESERUATION SHALLBE DONE,PL-23931
 120-06,EL,MAE-3002_2-06,Local_Control_Station,B,TOUCH UP shall be done.,PL-23919
-120-06,EL,MAE-3002_2-06,Local_Control_Station,C,cleaning shallbe done,PL-23943
 120-06,EL,MAE-3002_2-07,Local_Control_Station,B,پليسه گيري و تاچ آپ سه لايه ساپورت انجام شود,PL-09881
 120-06,EL,MAE-3002_2-07,Local_Control_Station,C,Preservation  تجهيز انجام شود,PL-09882
-120-06,EL,MAE-3002_2-08,Local_Control_Station,C,cleaning shallbe done,PL-23944
 120-06,EL,MAE-3002_2-08,Local_Control_Station,B,TOUCH UP shall be done.,PL-23920
 120-06,EL,MAE-3002_2-08,Local_Control_Station,C,PRESERUATION SHALLBE DONE,PL-23932
+120-06,EL,MAE-3002_2-08,Local_Control_Station,C,cleaning shallbe done,PL-23944
 120-06,EL,MAE-3002_3-01,Local_Control_Station,B,پليسه گيري و تاچ آپ سه لايه ساپورت انجام شود,PL-09890
 120-06,EL,MAE-3002_3-01,Local_Control_Station,C,Preservation  تجهيز انجام شود,PL-09891
+120-06,EL,MAE-3002_3-02,Local_Control_Station,C,cleaning shallbe done,PL-23945
 120-06,EL,MAE-3002_3-02,Local_Control_Station,C,PRESERUATION SHALLBE DONE,PL-23933
 120-06,EL,MAE-3002_3-02,Local_Control_Station,B,TOUCH UP shall be done.,PL-23921
-120-06,EL,MAE-3002_3-02,Local_Control_Station,C,cleaning shallbe done,PL-23945
 120-06,EL,MAE-3002_3-03,Local_Control_Station,B,پليسه گيري و تاچ آپ سه لايه ساپورت انجام شود,PL-09899
-120-06,EL,MAE-3002_3-04,Local_Control_Station,C,cleaning shallbe done,PL-23946
 120-06,EL,MAE-3002_3-04,Local_Control_Station,B,TOUCH UP shall be done.,PL-23922
 120-06,EL,MAE-3002_3-04,Local_Control_Station,C,PRESERUATION SHALLBE DONE,PL-23934
+120-06,EL,MAE-3002_3-04,Local_Control_Station,C,cleaning shallbe done,PL-23946
 120-06,EL,MAE-3002_3-05,Local_Control_Station,A,فول بولت کردن تجهيز به ساپورت,PL-09906
 120-06,EL,MAE-3002_3-05,Local_Control_Station,B,پليسه گيري و تاچ آپ سه لايه ساپورت انجام شود,PL-09908
 120-06,EL,MAE-3002_3-05,Local_Control_Station,C,Preservation  تجهيز انجام شود,PL-09909
+120-06,EL,MAE-3002_3-06,Local_Control_Station,C,cleaning shallbe done,PL-23947
 120-06,EL,MAE-3002_3-06,Local_Control_Station,C,PRESERUATION SHALLBE DONE,PL-23935
 120-06,EL,MAE-3002_3-06,Local_Control_Station,B,TOUCH UP shall be done.,PL-23923
-120-06,EL,MAE-3002_3-06,Local_Control_Station,C,cleaning shallbe done,PL-23947
 120-06,EL,MAE-3002_3-07,Local_Control_Station,B,پليسه گيري و تاچ آپ سه لايه ساپورت انجام شود,PL-09917
 120-06,EL,MAE-3002_3-07,Local_Control_Station,C,Preservation  تجهيز انجام شود,PL-09918
-120-06,EL,MAE-3002_3-08,Local_Control_Station,,cleaning shallbe done,PL-23948
 120-06,EL,MAE-3002_3-08,Local_Control_Station,B,TOUCH UP shall be done.,PL-23924
 120-06,EL,MAE-3002_3-08,Local_Control_Station,C,PRESERUATION SHALLBE DONE,PL-23936
+120-06,EL,MAE-3002_3-08,Local_Control_Station,,cleaning shallbe done,PL-23948
 120-06,EL,MAE-5004-01,Local_Control_Station,C,Preservation  تجهيز انجام شود,PL-10373
 120-06,EL,MAE-5004-02,Local_Control_Station,C,Preservation  تجهيز انجام شود,PL-10379
 120-06,EL,MAE-5004-03,Local_Control_Station,C,Preservation  تجهيز انجام شود,PL-10385
@@ -9137,6 +9124,28 @@ FGS-08,EL,MCP-0361,FGS Device,C, Cable S.S Tag Should Be Done.,PL-22224
 FGS-08,EL,MCP-0362,FGS Device,C, Cable S.S Tag Should Be Done.,PL-22225
 FGS-08,EL,MCP-0362,FGS Device,C,S.S TAG SHOULD BE DONE.,PL-22044
 FGS-08,EL,MCP-0362,FGS Device,C,EXTRA HOLES SHOULD BE DONE.,PL-22108
+BLD-07,CV,Mechanical Work(BLD-07),05-Mechanical Work,A,روشويي و شيرآلات داخل ساختمان نصب گردد,PL-24221
+BLD-07,CV,Mechanical Work(BLD-07),05-Mechanical Work,B,اجراي دريچه بازديد خط فاضلاب ضلع شرقي ساختمان (داخل پياده رو),PL-24227
+BLD-01,CV,Mechanical Work(First Floor BLD-01),05-Mechanical Work,A,اجراي ساپورت لوله PVC(ناودان) ساختمان ديزل ژنراتور,PL-23527
+BLD-01,CV,Mechanical Work(First Floor BLD-01),05-Mechanical Work,A,تعويض روشويي شکسته شده و نصب شيرآلات شست شو ساختمان ديزل ژنراتور,PL-23524
+BLD-01,CV,Mechanical Work(First Floor BLD-01),05-Mechanical Work,A,رنگ آميزي نهايي درب هاي فنس ترانس,PL-23506
+BLD-01,CV,Mechanical Work(First Floor BLD-01),05-Mechanical Work,A,سيل کردن اطراف لوله ورودي به اتاق باطري روم,PL-23513
+BLD-01,CV,Mechanical Work(First Floor BLD-01),05-Mechanical Work,A,نصب eye wash اتاق باطري روم,PL-23517
+BLD-01,CV,Mechanical Work(First Floor BLD-01),05-Mechanical Work,A,اصلاح شيرآب روشويي اتاق باطري روم,PL-23518
+BLD-01,CV,Mechanical Work(First Floor BLD-01),05-Mechanical Work,A,تکميل و اصلاح لوله آسيب ديده  خط فاضلاب  ضلع شرق ساختمان ديزل ژنراتور,PL-23519
+BLD-01,CV,Mechanical Work(First Floor BLD-01),05-Mechanical Work,A,ساخت چيکر پليت روي ترنچ هاي داخل ترانس,PL-23508
+BLD-01,CV,Mechanical Work(First Floor BLD-01),05-Mechanical Work,A,نصب لدر هاي داخلي ساختمان از همکف به طبقه اول,PL-23509
+BLD-06,CV,Mechanical Work(First Floor BLD-06),05-Mechanical Work,C,تهيه و نصب HB طبقه همکف و طبقه اول,PL-24125
+BLD-01,CV,Mechanical Work(Ground Floor BLD-01),05-Mechanical Work,A,ساخت و نصب راه پله هاي ورودي ترانس هاي شمالي ساختمان,PL-23502
+BLD-01,CV,Mechanical Work(Ground Floor BLD-01),05-Mechanical Work,A,زنگ زدايي و رنگ بولت هاي استراکچر ,PL-23503
+BLD-01,CV,Mechanical Work(Ground Floor BLD-01),05-Mechanical Work,A,تعويض دستگيره درب ضلع شرقي ,PL-23498
+BLD-01,CV,Mechanical Work(Ground Floor BLD-01),05-Mechanical Work,A,تکميل QC FORM هاي مربوطه,PL-24593
+BLD-01,CV,Mechanical Work(Ground Floor BLD-01),05-Mechanical Work,B,اتصال لوله آب PW به VB ورودي . کنترل نشتي,PL-24589
+BLD-01,CV,Mechanical Work(Ground Floor BLD-01),05-Mechanical Work,A,تهيه و نصب ضربه گير لاستيکي براي درب هاي ضد حريق,PL-24590
+BLD-01,CV,Mechanical Work(Ground Floor BLD-01),05-Mechanical Work,A,تکميل لوله PW 3/4 پشت بام براي HVAC,PL-24591
+BLD-01,CV,Mechanical Work(Ground Floor BLD-01),05-Mechanical Work,B,کنترل نشتي آب از مصرف کنندهاي داخل ساختمان و شيرآلات,PL-24586
+BLD-06,CV,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,C,تهيه و نصب گريتينگ ديچ خروجي طبقه همکف,PL-24124
+BLD-06,CV,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,C,ساخت درپوش فلزي جهت بازديد از سپتيک ساختمان,PL-24132
 120-01,EL,MF-2001,Local_Control_Panel,A,Earth LCS is not complete.,PL-17002
 120-01,EL,MF-2001,Local_Control_Panel,B,Full bolt shall be done.,PL-17007
 120-01,EL,MF-2001,Local_Control_Panel,B,Touch up support shall be done.,PL-17012
@@ -9583,6 +9592,10 @@ FGS-09,EL,NEL-0107,F&G Device,B, Cable  S.S Tag Should Be Done.,PL-22302
 1000-02,IN,PT-1011(PT),Instrument(PT),B,Touch up support shall be done.(stand),PL-16869
 1000-02,IN,PT-1011(PT),Instrument(PT),A,Earth shall be installed.,PL-16875
 1000-02,IN,PT-1011(PT),Instrument(PT),A,Installation (fitting/tubing)shall be done.(check conformity with hook-up),PL-16887
+1000-01,IN,PT-1045(PT),Instrument(PT),C,Preservation shall be done.,PL-24524
+1000-01,IN,PT-1045(PT),Instrument(PT),B,GROUT shall be done.(BY CIVIL),PL-24525
+1000-01,IN,PT-1045(PT),Instrument(PT),A,EARTH SYSTEM SHOULD BE DONE.,PL-24526
+1000-01,IN,PT-1045(PT),Instrument(PT),A,S.S CAP SHOULD BE DONE.,PL-24527
 4000-02,IN,PT-2035(PT),Instrument(PT),C,Preservation Should Be Done.,PL-23642
 4000-02,IN,PT-2035(PT),Instrument(PT),A,EARTH SHOULD BE DONE,PL-23643
 4000-02,IN,PT-2035(PT),Instrument(PT),A,Hook Up should be install.,PL-23644
@@ -9950,6 +9963,16 @@ FGS-09,EL,NEL-0107,F&G Device,B, Cable  S.S Tag Should Be Done.,PL-22302
 1000-01,MES,R-1002-2,Reactor(R),C,FOUNDATION TAG NUMBERING NOT DONE,PL-02600
 1000-01,MES,R-1002-2,Reactor(R),C,INSIDE OF SKIRT AT BOTTOM TO BE LEVEL,PL-02638
 1000-01,MES,R-1002-2,Reactor(R),C,PRESERVATION NOT DONE,PL-02620
+BLD-01,CV,Roof(BLD-01),08-Roof,B,تکميل بند کشي موزاييک پشت بام (دوغاب ريزي),PL-23491
+BLD-01,CV,Roof(BLD-01),08-Roof,B,اجراي ماسه آسفالت درز هاي اجرايي پشت بام,PL-23492
+BLD-01,CV,Roof(BLD-01),08-Roof,A,نصب آب چک روي سقف,PL-23511
+BLD-01,CV,Roof(BLD-01),08-Roof,A,تميز کاري داخل  اتاق باطري روم ,PL-23512
+BLD-01,CV,Roof(BLD-01),08-Roof,A,تميزکاري روي بام ساختمان SUB و ديزل روم,PL-24588
+BLD-06,CV,Roof(BLD-06),08-Roof,C,اجراي دوغاب ريزي موزاييک سقف,PL-24142
+BLD-06,CV,Roof(BLD-06),08-Roof,C,اجراي ماستيک درزهاي اجرايي موزاييک سقف,PL-24143
+BLD-06,CV,Roof(BLD-06),08-Roof,C,تميزکاري روي سقف از مصالح و ضايعات ,PL-24144
+BLD-07,CV,Roof(BLD-07),08-Roof,A,تميز کاري و دوغاب ريزي موزاييک پشت بام,PL-24224
+BLD-07,CV,Roof(BLD-07),08-Roof,A,اجراي ماستيک درز هاي اجرايي پشت بام,PL-24225
 LS-14,EL,S01(LS-14)-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21818
 LS-14,EL,S02(LS-14)-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21819
 LS-14,EL,S03(LS-14)-FJB01,Lighting Cable,B,Cable Tag(S.S) Shall Be Installed.,PL-21820
@@ -10322,13 +10345,13 @@ LS-06,EL,SL9,Lighting Fixture,B,Touch up support shall be done.,PL-08479
 LS-06,EL,SL9,Lighting Fixture,A,CAP NEED TO INSTALL FOR JB,PL-08483
 LS-06,EL,SL9,Lighting Fixture,A,Termination shall be done.,PL-08481
 LS-06,EL,SL9-FJB01,Lighting Cable,B,Tag No shall be installed.,PL-11553
-120-15,EL,SS-CBT-01,UPS & Battery,B,Tag (Dc Charger & Ups) Shall Be Install.,PL-24241
 120-15,EL,SS-CBT-01,UPS & Battery,C,Cleaning Shall Be Done.,PL-24243
 120-15,EL,SS-CBT-01,UPS & Battery,C,Cable Fix Shall Be Done.,PL-24245
 120-15,EL,SS-CBT-01,UPS & Battery,B,Tempereture Is High.,PL-24247
+120-15,EL,SS-CBT-01,UPS & Battery,B,Tag (Dc Charger & Ups) Shall Be Install.,PL-24241
+120-15,EL,SS-CBT-01,UPS & Battery,B,Bracket Is Not Complete.,PL-24253
 120-15,EL,SS-CBT-01,UPS & Battery,B,Heat Shrink Is Not Heated.,PL-24249
 120-15,EL,SS-CBT-01,UPS & Battery,B,Bolt & Nuts Is Not Complete.,PL-24251
-120-15,EL,SS-CBT-01,UPS & Battery,B,Bracket Is Not Complete.,PL-24253
 120-16,EL,SS-NGR1A-01,Natural Ground Resistance,B,tightening bolts and nuts shall be done.,PL-08959
 120-16,EL,SS-NGR1A-01,Natural Ground Resistance,C,Cleaning l shall be done,PL-08964
 120-12,EL,SS-PDCS-01,Panel,B,Preservation  تجهيز انجام شود,PL-05637
@@ -10367,13 +10390,13 @@ TEL-08,EL,SS-TJB1,Telecom Device,B,EARTH SHOULD BE DONE,PL-22426
 120-17,EL,SS-TR2B-05,Transformer,C,Cleaning shall be done.,PL-05772
 120-17,EL,SS-TR2B-05,Transformer,C,Bolt & nut is not completed,PL-05773
 120-17,EL,SS-TR2B-06,Transformer,B,Bolt & nut is not completed,PL-05713
-120-15,EL,SS-UBT-01,UPS & Battery,B,Bracket Is Not Complete.,PL-24254
 120-15,EL,SS-UBT-01,UPS & Battery,B,Bolt & Nuts Is Not Complete.,PL-24252
 120-15,EL,SS-UBT-01,UPS & Battery,B,Heat Shrink Is Not Heated.,PL-24250
+120-15,EL,SS-UBT-01,UPS & Battery,B,Bracket Is Not Complete.,PL-24254
+120-15,EL,SS-UBT-01,UPS & Battery,B,Tag (Dc Charger & Ups) Shall Be Install.,PL-24242
 120-15,EL,SS-UBT-01,UPS & Battery,B,Tempereture Is High.,PL-24248
 120-15,EL,SS-UBT-01,UPS & Battery,C,Cable Fix Shall Be Done.,PL-24246
 120-15,EL,SS-UBT-01,UPS & Battery,C,Cleaning Shall Be Done.,PL-24244
-120-15,EL,SS-UBT-01,UPS & Battery,B,Tag (Dc Charger & Ups) Shall Be Install.,PL-24242
 120-11,EL,SS-UPS-01,UPS & Battery,A,All Item ITP (AF-111 REV-01)shall be done,PL-05687
 120-11,EL,SS-UPS-01,UPS & Battery,A,Batteries and racks installed| checked for proper and Mechanical Installation|Including Connections.,PL-05688
 120-11,EL,SS-UPS-01,UPS & Battery,A,Batteries filled with electrolyte to Proper level and charged in Accordance with Manufactures Recommendations.,PL-05689
@@ -10633,8 +10656,8 @@ TEL-08,EL,SS-TJB1,Telecom Device,B,EARTH SHOULD BE DONE,PL-22426
 2000-05,IN,TE-2444(TE),Instrument(TE),B,S.S tag should be install.,PL-21449
 2000-05,IN,TE-2444(TE),Instrument(TE),A,Termination And Gland Should Be Done.,PL-21446
 4000-06,IN,TE-2457(TE),Instrument(TE),A,Termination should be done.,PL-16301
-2000-05,IN,TE-2476(TE),Instrument(TE),C,S.S TAG SHOULD BE DONE.,PL-23554
 2000-05,IN,TE-2476(TE),Instrument(TE),C,PRESERVATION SHOULD BE DONE.,PL-23544
+2000-05,IN,TE-2476(TE),Instrument(TE),C,S.S TAG SHOULD BE DONE.,PL-23554
 1000-02,IN,TE-2536(TE),Instrument(TE),C,S.S TAGS SHOULD BE INSTALL.,PL-23352
 1000-02,IN,TE-2536(TE),Instrument(TE),C,PRESERVATION SHOULD BE DONE.,PL-23355
 3000-01,IN,TE-3044(TE),Instrument(TE),C,PRESERVATION SHOULD BE DONE.,PL-23546
@@ -10644,14 +10667,14 @@ TEL-08,EL,SS-TJB1,Telecom Device,B,EARTH SHOULD BE DONE,PL-22426
 3000-03,IN,TE-3119(TE),Instrument(TE),C,PRESERVATION SHOULD BE DONE.,PL-22973
 3000-03,IN,TE-3121(TE),Instrument(TE),C,PRESERVATION SHOULD BE DONE.,PL-22974
 3000-03,IN,TE-3142(TE),Instrument(TE),C,Preservation Should Be Done.,PL-21963
-3000-03,IN,TE-3144(TE),Instrument(TE),C,PRESERVATION SHOULD BE DONE.,PL-23548
 3000-03,IN,TE-3144(TE),Instrument(TE),C,S.S TAG SHOULD BE DONE.,PL-23558
+3000-03,IN,TE-3144(TE),Instrument(TE),C,PRESERVATION SHOULD BE DONE.,PL-23548
 3000-03,IN,TE-3145(TE),Instrument(TE),C,Preservation Should Be Done.,PL-21964
-3000-03,IN,TE-3147(TE),Instrument(TE),C,S.S TAG SHOULD BE DONE.,PL-23559
 3000-03,IN,TE-3147(TE),Instrument(TE),C,PRESERVATION SHOULD BE DONE.,PL-23549
+3000-03,IN,TE-3147(TE),Instrument(TE),C,S.S TAG SHOULD BE DONE.,PL-23559
 3000-03,IN,TE-3148(TE),Instrument(TE),C,Preservation Should Be Done.,PL-21965
-3000-03,IN,TE-3150(TE),Instrument(TE),C,PRESERVATION SHOULD BE DONE.,PL-23550
 3000-03,IN,TE-3150(TE),Instrument(TE),C,S.S TAG SHOULD BE DONE.,PL-23560
+3000-03,IN,TE-3150(TE),Instrument(TE),C,PRESERVATION SHOULD BE DONE.,PL-23550
 3000-03,IN,TE-3194(TE),Instrument(TE),C,PRESERVATION SHOULD BE DONE.,PL-23356
 3000-03,IN,TE-3194(TE),Instrument(TE),C,S.S TAGS SHOULD BE INSTALL.,PL-23353
 3000-03,IN,TE-3198(TE),Instrument(TE),C,S.S TAGS SHOULD BE INSTALL.,PL-23354
@@ -10731,38 +10754,38 @@ TEL-08,EL,SS-TJB1,Telecom Device,B,EARTH SHOULD BE DONE,PL-22426
 4000-06,MES,TK-8402,Tank(TK),C,ALL FLANGE AND TOP CAP BOLT AND NUT MISSED,PL-02572
 4000-06,MES,TK-8402,Tank(TK),C,Some points need touch up,PL-02549
 2000-03,IN,TST-2047A(TST),Instrument(TST),C,PRESERVATION SHALL BE DONE.,PL-24382
-2000-03,IN,TST-2047A(TST),Instrument(TST),A,SUN SHADE SHALL BE INSTALL.,PL-24388
 2000-03,IN,TST-2047A(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24385
-2000-03,IN,TST-2047B(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24386
+2000-03,IN,TST-2047A(TST),Instrument(TST),A,SUN SHADE SHALL BE INSTALL.,PL-24388
 2000-03,IN,TST-2047B(TST),Instrument(TST),A,SUN SHADE SHALL BE INSTALL.,PL-24389
+2000-03,IN,TST-2047B(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24386
 2000-03,IN,TST-2047B(TST),Instrument(TST),C,PRESERVATION SHALL BE DONE.,PL-24383
 2000-03,IN,TST-2047C(TST),Instrument(TST),C,PRESERVATION SHALL BE DONE.,PL-24384
-2000-03,IN,TST-2047C(TST),Instrument(TST),A,SUN SHADE SHALL BE INSTALL.,PL-24390
 2000-03,IN,TST-2047C(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24387
-2000-03,IN,TST-2325A(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24276
+2000-03,IN,TST-2047C(TST),Instrument(TST),A,SUN SHADE SHALL BE INSTALL.,PL-24390
 2000-03,IN,TST-2325A(TST),Instrument(TST),C,PRESERVATION SHALL BE DONE.,PL-24286
 2000-03,IN,TST-2325A(TST),Instrument(TST),A,SUN SHADE SHALL BE INSTALL.,PL-24296
+2000-03,IN,TST-2325A(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24276
+2000-03,IN,TST-2325B(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24277
 2000-03,IN,TST-2325B(TST),Instrument(TST),A,SUN SHADE SHALL BE INSTALL.,PL-24297
 2000-03,IN,TST-2325B(TST),Instrument(TST),C,PRESERVATION SHALL BE DONE.,PL-24287
-2000-03,IN,TST-2325B(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24277
-2000-03,IN,TST-2325C(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24278
 2000-03,IN,TST-2325C(TST),Instrument(TST),C,PRESERVATION SHALL BE DONE.,PL-24288
 2000-03,IN,TST-2325C(TST),Instrument(TST),A,SUN SHADE SHALL BE INSTALL.,PL-24298
+2000-03,IN,TST-2325C(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24278
+2000-03,IN,TST-2329A(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24279
 2000-03,IN,TST-2329A(TST),Instrument(TST),A,SUN SHADE SHALL BE INSTALL.,PL-24299
 2000-03,IN,TST-2329A(TST),Instrument(TST),C,PRESERVATION SHALL BE DONE.,PL-24289
-2000-03,IN,TST-2329A(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24279
-2000-03,IN,TST-2329B(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24280
 2000-03,IN,TST-2329B(TST),Instrument(TST),C,PRESERVATION SHALL BE DONE.,PL-24290
 2000-03,IN,TST-2329B(TST),Instrument(TST),A,SUN SHADE SHALL BE INSTALL.,PL-24300
+2000-03,IN,TST-2329B(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24280
+2000-03,IN,TST-2329C(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24281
 2000-03,IN,TST-2329C(TST),Instrument(TST),A,SUN SHADE SHALL BE INSTALL.,PL-24301
 2000-03,IN,TST-2329C(TST),Instrument(TST),C,PRESERVATION SHALL BE DONE.,PL-24291
-2000-03,IN,TST-2329C(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24281
-2000-03,IN,TST-2333A(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24282
 2000-03,IN,TST-2333A(TST),Instrument(TST),C,PRESERVATION SHALL BE DONE.,PL-24292
 2000-03,IN,TST-2333A(TST),Instrument(TST),A,SUN SHADE SHALL BE INSTALL.,PL-24302
+2000-03,IN,TST-2333A(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24282
+2000-03,IN,TST-2333C(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24283
 2000-03,IN,TST-2333C(TST),Instrument(TST),A,SUN SHADE SHALL BE INSTALL.,PL-24303
 2000-03,IN,TST-2333C(TST),Instrument(TST),C,PRESERVATION SHALL BE DONE.,PL-24293
-2000-03,IN,TST-2333C(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24283
 2000-04,IN,TST-2335A(TST),Instrument(TST),A,EARTH SYSTEM SHALL BE COMPLETE.,PL-24355
 2000-04,IN,TST-2335A(TST),Instrument(TST),C,PRESERVATION SHALL BE DONE.,PL-24364
 2000-04,IN,TST-2335A(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24373
@@ -10772,10 +10795,10 @@ TEL-08,EL,SS-TJB1,Telecom Device,B,EARTH SHOULD BE DONE,PL-22426
 2000-04,IN,TST-2335C(TST),Instrument(TST),A,EARTH SYSTEM SHALL BE COMPLETE.,PL-24357
 2000-04,IN,TST-2335C(TST),Instrument(TST),C,PRESERVATION SHALL BE DONE.,PL-24366
 2000-04,IN,TST-2335C(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24375
-2000-04,IN,TST-2336A(TST),Instrument(TST),C,PRESERVATION SHALL BE DONE.,PL-24391
 2000-04,IN,TST-2336A(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24393
-2000-04,IN,TST-2336B(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24394
+2000-04,IN,TST-2336A(TST),Instrument(TST),C,PRESERVATION SHALL BE DONE.,PL-24391
 2000-04,IN,TST-2336B(TST),Instrument(TST),C,PRESERVATION SHALL BE DONE.,PL-24392
+2000-04,IN,TST-2336B(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24394
 2000-04,IN,TST-2355A(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24376
 2000-04,IN,TST-2355A(TST),Instrument(TST),C,PRESERVATION SHALL BE DONE.,PL-24367
 2000-04,IN,TST-2355A(TST),Instrument(TST),A,EARTH SYSTEM SHALL BE COMPLETE.,PL-24358
@@ -10794,18 +10817,37 @@ TEL-08,EL,SS-TJB1,Telecom Device,B,EARTH SHOULD BE DONE,PL-22426
 2000-04,IN,TST-2356C(TST),Instrument(TST),A,EARTH SYSTEM SHALL BE COMPLETE.,PL-24363
 2000-04,IN,TST-2356C(TST),Instrument(TST),C,PRESERVATION SHALL BE DONE.,PL-24372
 2000-04,IN,TST-2356C(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24381
-4000-02,IN,TST-7071A(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24284
 4000-02,IN,TST-7071A(TST),Instrument(TST),C,PRESERVATION SHALL BE DONE.,PL-24294
 4000-02,IN,TST-7071A(TST),Instrument(TST),A,SUN SHADE SHALL BE INSTALL.,PL-24304
+4000-02,IN,TST-7071A(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24284
+4000-02,IN,TST-7071B(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24285
 4000-02,IN,TST-7071B(TST),Instrument(TST),A,SUN SHADE SHALL BE INSTALL.,PL-24305
 4000-02,IN,TST-7071B(TST),Instrument(TST),C,PRESERVATION SHALL BE DONE.,PL-24295
-4000-02,IN,TST-7071B(TST),Instrument(TST),C,TOUCH UP SUPPORT SHALL BE DONE.,PL-24285
+1000-01,IN,TT-1001(TT),Instrument(TT),C,Preservation shall be done.,PL-24529
+1000-01,IN,TT-1001(TT),Instrument(TT),B,GROUT shall be done.(BY CIVIL),PL-24532
+1000-01,IN,TT-1001(TT),Instrument(TT),A,EARTH  SYSTEM SHOULD BE DONE.,PL-24533
+1000-01,IN,TT-1001(TT),Instrument(TT),A,SUN SHADE SHALL BE INSTALL.,PL-24534
 1000-02,IN,TT-1010(TT),Instrument(TT),C,Touch up support shall be done.,PL-24152
 1000-02,IN,TT-1010(TT),Instrument(TT),A,SUN SHADE SHALL BE INSTALL.,PL-24153
 1000-02,IN,TT-1010(TT),Instrument(TT),C,Preservation shall be done.,PL-24154
 1000-02,IN,TT-1012(TT),Instrument(TT),C,Touch up support shall be done.,PL-24155
 1000-02,IN,TT-1012(TT),Instrument(TT),A,SUN SHADE SHALL BE INSTALL.,PL-24156
 1000-02,IN,TT-1012(TT),Instrument(TT),C,Preservation shall be done.,PL-24157
+1000-01,IN,TT-1034(TT),Instrument(TT),C,Preservation shall be done.,PL-24535
+1000-01,IN,TT-1034(TT),Instrument(TT),B,GROUT shall be done.(BY CIVIL),PL-24536
+1000-01,IN,TT-1034(TT),Instrument(TT),A,EARTH  SYSTEM SHOULD BE DONE.,PL-24537
+1000-01,IN,TT-1035(TT),Instrument(TT),C,Preservation shall be done.,PL-24538
+1000-01,IN,TT-1035(TT),Instrument(TT),B,GROUT shall be done.(BY CIVIL),PL-24539
+1000-01,IN,TT-1035(TT),Instrument(TT),A,EARTH  SYSTEM SHOULD BE DONE.,PL-24540
+1000-01,IN,TT-1037(TT),Instrument(TT),C,Preservation shall be done.,PL-24541
+1000-01,IN,TT-1037(TT),Instrument(TT),B,GROUT shall be done.(BY CIVIL),PL-24542
+1000-01,IN,TT-1037(TT),Instrument(TT),A,EARTH  SYSTEM SHOULD BE DONE.,PL-24543
+1000-01,IN,TT-1041(TT),Instrument(TT),C,Preservation shall be done.,PL-24544
+1000-01,IN,TT-1041(TT),Instrument(TT),B,GROUT shall be done.(BY CIVIL),PL-24545
+1000-01,IN,TT-1041(TT),Instrument(TT),A,EARTH  SYSTEM SHOULD BE DONE.,PL-24546
+1000-01,IN,TT-1045(TT),Instrument(TT),C,Preservation shall be done.,PL-24547
+1000-01,IN,TT-1045(TT),Instrument(TT),B,GROUT shall be done.(BY CIVIL),PL-24548
+1000-01,IN,TT-1045(TT),Instrument(TT),A,EARTH  SYSTEM SHOULD BE DONE.,PL-24549
 2000-03,IN,TT-2039(TT),Instrument(TT),C,Preservation should be done.,PL-22386
 2000-03,IN,TT-2039(TT),Instrument(TT),A,Hook Up Should Be Install.,PL-21778
 2000-03,IN,TT-2039(TT),Instrument(TT),A,S.S Cap Should Be Install,PL-21766
@@ -10917,6 +10959,9 @@ TEL-08,EL,SS-TJB1,Telecom Device,B,EARTH SHOULD BE DONE,PL-22426
 2000-02,IN,TT-2265(TT),Instrument(TT),C,S.S cap should be install.,PL-21562
 2000-02,IN,TT-2265(TT),Instrument(TT),A,Preservation should be done.,PL-21577
 2000-02,IN,TT-2265(TT),Instrument(TT),A,Termination and gland should be done.,PL-21592
+2000-02,IN,TT-2268(TT),Instrument(TT),C,Preservation shall be done.,PL-24550
+2000-02,IN,TT-2268(TT),Instrument(TT),B,GROUT shall be done.(BY CIVIL),PL-24551
+2000-02,IN,TT-2268(TT),Instrument(TT),A,EARTH  SYSTEM SHOULD BE DONE.,PL-24552
 2000-03,IN,TT-2326(TT),Instrument(TT),A,Sun Shade Should Be Install,PL-21746
 2000-03,IN,TT-2326(TT),Instrument(TT),A,Hook Up Should Be Install.,PL-21782
 2000-03,IN,TT-2326(TT),Instrument(TT),A,S.S Cap Should Be Install,PL-21770
@@ -10940,6 +10985,9 @@ TEL-08,EL,SS-TJB1,Telecom Device,B,EARTH SHOULD BE DONE,PL-22426
 2000-04,IN,TT-2371(TT),Instrument(TT),C,Preservation Should Be Done.,PL-23646
 2000-04,IN,TT-2371(TT),Instrument(TT),C,Touch up  shall be done.,PL-23647
 2000-04,IN,TT-2371(TT),Instrument(TT),A,SUN SHADE SHALL BE INSTALL.,PL-23648
+2000-04,IN,TT-2407(TT),Instrument(TT),C,Preservation shall be done.,PL-24553
+2000-04,IN,TT-2407(TT),Instrument(TT),A,SUN SHADE SHALL BE INSTALL.,PL-24554
+2000-04,IN,TT-2407(TT),Instrument(TT),C,TOUCH up OF STAND shall be done.,PL-24555
 2000-04,IN,TT-2418(TT),Instrument(TT),C,Preservation Should Be Done.,PL-23649
 2000-04,IN,TT-2418(TT),Instrument(TT),A,EARTH SHOULD BE DONE,PL-23650
 2000-04,IN,TT-2418(TT),Instrument(TT),C,Touch up  shall be done.,PL-23651
@@ -10948,6 +10996,10 @@ TEL-08,EL,SS-TJB1,Telecom Device,B,EARTH SHOULD BE DONE,PL-22426
 2000-05,IN,TT-2421(TT),Instrument(TT),C,S.S tags should be install.,PL-15919
 2000-05,IN,TT-2421(TT),Instrument(TT),A,Termination shall be done.,PL-15904
 2000-05,IN,TT-2421(TT),Instrument(TT),C,Touch up  shall be done.,PL-15874
+2000-05,IN,TT-2472(TT),Instrument(TT),C,PRESERVATION SHALL BE DONE.,PL-24564
+2000-05,IN,TT-2472(TT),Instrument(TT),C,TOUCH UP OF STAND SHALL BE DONE.,PL-24576
+2000-05,IN,TT-2493(TT),Instrument(TT),C,TOUCH UP OF STAND SHALL BE DONE.,PL-24577
+2000-05,IN,TT-2493(TT),Instrument(TT),C,PRESERVATION SHALL BE DONE.,PL-24565
 1000-02,IN,TT-2536(TT),Instrument(TT),C,Preservation Should Be Done.,PL-21787
 1000-02,IN,TT-2536(TT),Instrument(TT),A,S.S Cap Should Be Install.,PL-21792
 1000-02,IN,TT-2536(TT),Instrument(TT),A,Hook Up Should Be Install.,PL-21797
@@ -11291,6 +11343,17 @@ TEL-08,EL,SS-TJB1,Telecom Device,B,EARTH SHOULD BE DONE,PL-22426
 5000-05,IN,TT-5441(TT),Instrument(TT),B,S.S tag should be install.,PL-16005
 5000-05,IN,TT-5441(TT),Instrument(TT),C,TOUCH UP should be done.,PL-15995
 5000-05,IN,TT-5441(TT),Instrument(TT),A,GLAND should be install.,PL-16034
+1000-03,IN,TT-6024(TT),Instrument(TT),C,PRESERVATION SHALL BE DONE.,PL-24561
+1000-03,IN,TT-6024(TT),Instrument(TT),C,TOUCH UP OF STAND SHALL BE DONE.,PL-24573
+4000-03,IN,TT-6026(TT),Instrument(TT),C,PRESERVATION SHALL BE DONE.,PL-24569
+4000-03,IN,TT-6026(TT),Instrument(TT),C,TOUCH UP OF STAND SHALL BE DONE.,PL-24581
+1000-03,IN,TT-6034(TT),Instrument(TT),C,TOUCH UP OF STAND SHALL BE DONE.,PL-24574
+1000-03,IN,TT-6034(TT),Instrument(TT),C,PRESERVATION SHALL BE DONE.,PL-24562
+1000-03,IN,TT-6058(TT),Instrument(TT),C,Preservation shall be done.,PL-24556
+1000-03,IN,TT-6058(TT),Instrument(TT),B,GROUT shall be done.(BY CIVIL),PL-24557
+1000-03,IN,TT-6058(TT),Instrument(TT),A,EARTH  SYSTEM SHOULD BE DONE.,PL-24558
+1000-03,IN,TT-6059(TT),Instrument(TT),C,PRESERVATION SHALL BE DONE.,PL-24563
+1000-03,IN,TT-6059(TT),Instrument(TT),C,TOUCH UP OF STAND SHALL BE DONE.,PL-24575
 4000-02,IN,TT-7002(TT),Instrument(TT),C,Preservation Should Be Done.,PL-23655
 4000-02,IN,TT-7002(TT),Instrument(TT),C,Touch up  shall be done.,PL-23656
 4000-02,IN,TT-7003(TT),Instrument(TT),C,Preservation Should Be Done.,PL-23657
@@ -11299,6 +11362,18 @@ TEL-08,EL,SS-TJB1,Telecom Device,B,EARTH SHOULD BE DONE,PL-22426
 4000-02,IN,TT-7004(TT),Instrument(TT),C,Preservation Should Be Done.,PL-23660
 4000-02,IN,TT-7004(TT),Instrument(TT),C,Touch up  shall be done.,PL-23661
 4000-02,IN,TT-7004(TT),Instrument(TT),A,FUll bolt shall be done.,PL-23662
+4000-02,IN,TT-7007(TT),Instrument(TT),C,TOUCH UP OF STAND SHALL BE DONE.,PL-24578
+4000-02,IN,TT-7007(TT),Instrument(TT),C,PRESERVATION SHALL BE DONE.,PL-24566
+4000-02,IN,TT-7025(TT),Instrument(TT),C,PRESERVATION SHALL BE DONE.,PL-24567
+4000-02,IN,TT-7025(TT),Instrument(TT),C,TOUCH UP OF STAND SHALL BE DONE.,PL-24579
+4000-03,IN,TT-7031(TT),Instrument(TT),C,TOUCH UP OF STAND SHALL BE DONE.,PL-24582
+4000-03,IN,TT-7031(TT),Instrument(TT),C,PRESERVATION SHALL BE DONE.,PL-24570
+4000-03,IN,TT-7032(TT),Instrument(TT),C,PRESERVATION SHALL BE DONE.,PL-24571
+4000-03,IN,TT-7032(TT),Instrument(TT),C,TOUCH UP OF STAND SHALL BE DONE.,PL-24583
+4000-03,IN,TT-7033(TT),Instrument(TT),C,TOUCH UP OF STAND SHALL BE DONE.,PL-24584
+4000-03,IN,TT-7033(TT),Instrument(TT),C,PRESERVATION SHALL BE DONE.,PL-24572
+4000-02,IN,TT-7056(TT),Instrument(TT),C,TOUCH UP OF STAND SHALL BE DONE.,PL-24580
+4000-02,IN,TT-7056(TT),Instrument(TT),C,PRESERVATION SHALL BE DONE.,PL-24568
 4000-03,IN,TT-7074(TT),Instrument(TT),A,GLAND AND CONNECTION SHOULD BE DONE.,PL-15482
 4000-03,IN,TT-7074(TT),Instrument(TT),B,S.S tags should be install.,PL-15362
 4000-03,IN,TT-7074(TT),Instrument(TT),C,Touch up  shall be done.,PL-15386
@@ -11323,8 +11398,8 @@ TEL-08,EL,SS-TJB1,Telecom Device,B,EARTH SHOULD BE DONE,PL-22426
 4000-06,IN,TW-2456,Instrument(TW),B,S.S tag should be install.,PL-21451
 4000-06,IN,TW-2456,Instrument(TW),A,Termination And Gland Should Be Done.,PL-21448
 4000-06,IN,TW-2456,Instrument(TW),C,Preservation Should Be Done.,PL-22351
-2000-05,IN,TW-2476,Instrument(TW),C,S.S TAG SHOULD BE DONE.,PL-23555
 2000-05,IN,TW-2476,Instrument(TW),C,PRESERVATION SHOULD BE DONE.,PL-23545
+2000-05,IN,TW-2476,Instrument(TW),C,S.S TAG SHOULD BE DONE.,PL-23555
 2000-06,IN,TW-2574,Instrument(TW),C,Preservation Should Be Done.,PL-21808
 2000-06,IN,TW-2579,Instrument(TW),C,Preservation Should Be Done.,PL-21807
 3000-01,IN,TW-3044,Instrument(TW),C,PRESERVATION SHOULD BE DONE.,PL-23547
@@ -11334,14 +11409,14 @@ TEL-08,EL,SS-TJB1,Telecom Device,B,EARTH SHOULD BE DONE,PL-22426
 3000-03,IN,TW-3119,Instrument(TW),C,PRESERVATION SHOULD BE DONE.,PL-22975
 3000-03,IN,TW-3121,Instrument(TW),C,PRESERVATION SHOULD BE DONE.,PL-22976
 3000-03,IN,TW-3142,Instrument(TW),C,Preservation Should Be Done.,PL-21966
-3000-03,IN,TW-3144,Instrument(TW),C,PRESERVATION SHOULD BE DONE.,PL-23551
 3000-03,IN,TW-3144,Instrument(TW),C,S.S TAG SHOULD BE DONE.,PL-23561
+3000-03,IN,TW-3144,Instrument(TW),C,PRESERVATION SHOULD BE DONE.,PL-23551
 3000-03,IN,TW-3145,Instrument(TW),C,Preservation Should Be Done.,PL-21967
-3000-03,IN,TW-3147,Instrument(TW),C,S.S TAG SHOULD BE DONE.,PL-23562
 3000-03,IN,TW-3147,Instrument(TW),C,PRESERVATION SHOULD BE DONE.,PL-23552
+3000-03,IN,TW-3147,Instrument(TW),C,S.S TAG SHOULD BE DONE.,PL-23562
 3000-03,IN,TW-3148,Instrument(TW),C,Preservation Should Be Done.,PL-21968
-3000-03,IN,TW-3150,Instrument(TW),C,PRESERVATION SHOULD BE DONE.,PL-23553
 3000-03,IN,TW-3150,Instrument(TW),C,S.S TAG SHOULD BE DONE.,PL-23563
+3000-03,IN,TW-3150,Instrument(TW),C,PRESERVATION SHOULD BE DONE.,PL-23553
 5000-04,IN,TW-5412,Instrument(TW),C,Preservation shall be done.,PL-22363
 5000-04,IN,TW-5413,Instrument(TW),C,Preservation shall be done.,PL-22364
 4000-03,IN,TW-7074,Instrument(TW),B,S.S tag should be install.,PL-22380
