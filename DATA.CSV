@@ -12,7 +12,7 @@
 1000,1000-04,Gas Preparation,Gas Station,IN,66,0,0,0,0,0,21
 1000,1000-04,Gas Preparation,Gas Station,PI,1,0,0,0,0,0,1
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,169,0,0,1244,833,411,2
-120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,308,0,0,1625,816,809,31
+120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,308,0,0,1637,816,821,31
 120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,290,0,0,1483,667,816,44
 120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,264,0,0,1099,676,423,42
 120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,244,0,0,1093,659,434,32
@@ -46,7 +46,7 @@
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,231,0,0,101,4,97,45
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,1,0,48,20,28,0
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,0,0,110,41,69,86
-2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,25,0,123,51,72,15
+2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,26,0,123,51,72,15
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,0,0,0,0,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,19,7,12,0
 2000,2000-06,Reforming,Nitrogen Circuit,IN,114,0,0,8,0,8,13
@@ -65,7 +65,7 @@
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,11,0,11,2
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,176,0,0,6,0,6,5
 3000,3000-04,Compression and Synthesis,Hydrogen System,MER,1,0,0,0,0,0,0
-4000,4000-01,Utility,Nitrogen,PI,20,19,0,46,26,20,64
+4000,4000-01,Utility,Nitrogen,PI,20,20,0,46,26,20,64
 4000,4000-01,Utility,Nitrogen,IN,14,0,0,0,0,0,6
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,0,0,0,0,0,0
 4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,0,0,82,2,80,35
@@ -75,14 +75,14 @@
 4000,4000-03,Utility,MP Steam,PI,5,5,0,37,8,29,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,1,0,6,0,6,3
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,0,0,0,0,0
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,47,33,0,150,63,87,19
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,47,33,0,153,63,90,19
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,0,0,33,1,32,384
 4000,4000-05,Utility,Blow Down,PI,24,12,0,34,10,24,13
 4000,4000-05,Utility,Blow Down,MES,4,0,0,4,0,4,0
 4000,4000-05,Utility,Blow Down,IN,17,0,0,0,0,0,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,0,0,4,0,4,5
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,58,30,0,123,66,57,167
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,0,4,0,4,0
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,0,8,0,8,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,0,0,15,4,11,107
 4000,4000-07,Utility,Plant Air,IN,2,0,0,0,0,0,2
 4000,4000-07,Utility,Plant Air,PI,10,10,0,13,4,9,30
@@ -92,13 +92,13 @@
 4000,4000-08,Utility,Cooling Water,IN,745,8,0,46,5,41,533
 4000,4000-09,Utility,Oily Water Treatment,PI,225,53,0,33,16,17,4
 4000,4000-09,Utility,Oily Water Treatment,IN,28,0,0,0,0,0,26
-4000,4000-09,Utility,Oily Water Treatment,MER,2,0,0,0,0,0,0
+4000,4000-09,Utility,Oily Water Treatment,MER,2,0,0,3,0,3,0
 4000,4000-10,Utility,Sanitary Water Collection,IN,12,0,0,0,0,0,4
 4000,4000-10,Utility,Sanitary Water Collection,PI,14,2,0,3,0,3,2
 4000,4000-10,Utility,Sanitary Water Collection,MER,1,0,0,0,0,0,0
 4000,4000-11,Utility,Instrument Air,PI,13,11,0,13,8,5,0
 4000,4000-11,Utility,Instrument Air,IN,78,78,0,70,23,47,18
-4000,4000-12,Utility,COC Water and Lab Chemical Sump,MER,4,0,0,0,0,0,0
+4000,4000-12,Utility,COC Water and Lab Chemical Sump,MER,4,0,0,8,0,8,0
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,IN,25,0,0,4,0,4,20
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,PI,22,2,0,3,3,0,14
 4000,4000-13,Utility,Slope Close Drain,MER,1,0,0,0,0,0,0
@@ -106,7 +106,7 @@
 4000,4000-14,Utility,Fire Water,IN,33,0,0,0,0,0,0
 4000,4000-14,Utility,Fire Water,MES,1,0,0,0,0,0,0
 4000,4000-14,Utility,Fire Water,PI,125,21,0,281,61,220,2536
-4000,4000-15,Utility,Potable & Service Water,PI,61,24,0,75,13,62,29
+4000,4000-15,Utility,Potable & Service Water,PI,61,24,0,80,13,67,29
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,0,0,0,0,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,5,0,69,11,58,5
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,0,0,451,206,245,147
