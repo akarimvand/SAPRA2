@@ -1779,6 +1779,9 @@ TEL-07,EL,07-SP-15,Paging Device,A,Earth body shall be installed.,PL-17093
 4000-04,PI,4000-04-BFW-06-240,PI_TP,C,Spring Support 3619 Didn’t Install According To NIS Report,PL-24514
 4000-04,PI,4000-04-BFW-06-240,PI_TP,C,Tie in Joint Shall Be Weld To Opposite Line,PL-24515
 4000-04,PI,4000-04-BFW-06-240,PI_TP,C,All Groting For Support Shall Be Complete,PL-24516
+4000-04,PI,4000-04-BFW-06-240,PI_TP,C,Line Shall Be Connected Opposite Line,PL-24594
+4000-04,PI,4000-04-BFW-06-240,PI_TP,C,Oriffice Plate Didn’t Install,PL-24595
+4000-04,PI,4000-04-BFW-06-240,PI_TP,C,Tie in Shall Be Welded To Oppsite Line,PL-24596
 4000-04,PI,4000-04-BFW-07-803,PI_TP,C,ALL VALVES SHALL BE LUBRICATE,PL-02121
 4000-04,PI,4000-04-BFW-07-803,PI_TP,C,ALL TEMPORARY GASKET USED FOR PSV FLANGES ARE THE ORIGINAL GASKET REPLACED AFTER CALIBRATED,PL-02122
 4000-04,PI,4000-04-BFW-10-961,PI_TP,C,All temporary gaskets used for the ptessure safety valves ( psv:7072 and 7073 ) must be orginal gaskets replaced after calibrated,PL-12162
@@ -3056,6 +3059,11 @@ TEL-07,EL,07-SP-15,Paging Device,A,Earth body shall be installed.,PL-17093
 4000-14,PI,70-FW-UG-KC-285,PI_TP,C,THE TEMPORARY GASKET USED FOR THE FLANGE MUST BE REPLACED WITH ORIGINAL GASKET AFTER INSTALLING INSULATION KIT,PL-02479
 4000-14,PI,70-FW-UG-KC-285,PI_TP,C,"INSULATION KIT 2""-CL:150 SHALL BE INSTALL",PL-02480
 4000-14,PI,70-FW-UG-KC-291,PI_TP,C,ALL VALVES SHALL BE LUBRICATE,PL-21921
+4000-15,PI,70-PW-UG-KC-282,PI_TP,C,"Insulation Kits 2""150# | RF Must Be Installed",PL-24597
+4000-15,PI,70-PW-UG-KC-282,PI_TP,C,All Installed Valves Shall Be Lubricated,PL-24598
+4000-15,PI,70-PW-UG-KC-282,PI_TP,C,All Manholes Should Be Drying And Cleaning (VB-7001|VB-7003),PL-24599
+4000-15,PI,70-PW-UG-KC-282,PI_TP,C,All Isometrics Must Be New Revesion Attached To The Opposite Package (TP-70-PW-UG-KC-249),PL-24600
+4000-15,PI,70-PW-UG-KC-282,PI_TP,C,All Temporary Gasketes Used For The Flages Connection Should Be Replaced With Original Gaskets,PL-24601
 4000-10,PI,70-WWS-UG-KC-243,PI_TP,C,THE INSTRUMENT DEVICE PG:5716 SHALL BE INSTALL,PL-02500
 4000-10,PI,70-WWS-UG-KC-243,PI_TP,C,ALL VALVES SHALL BE LUBRICATE,PL-02501
 4000-10,PI,70-WWS-UG-KC-247,PI_TP,C,All Manhols Should Be Final Cleaning . (MSS-06 AND SU-8402),PL-24192
@@ -5089,10 +5097,22 @@ LS-01,EL,EBP-LAB-LP-01,Power Cable B,B,Tag فلزي کابل ها نصب شود,
 120-02,EL,EBP-MP-2002B_2,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-04319
 120-02,EL,EBP-MP-2003A_1,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-03708
 120-02,EL,EBP-MP-2003A_1,Power Cable B,B,S.S tags shall be install.,PL-08205
+120-02,EL,EBP-MP-2003A_1,Power Cable B,B,CABLE ARRANGEMENT SHALL BE DONE.,PL-24603
+120-02,EL,EBP-MP-2003A_1,Power Cable B,B,CABLE TAG SHALL BE INSTALL.(S.S),PL-24607
+120-02,EL,EBP-MP-2003A_1,Power Cable B,C,CLEANING SHALL BE DONE.,PL-24611
+120-02,EL,EBP-MP-2003A_2,Power Cable B,C,CLEANING SHALL BE DONE.,PL-24612
+120-02,EL,EBP-MP-2003A_2,Power Cable B,B,CABLE TAG SHALL BE INSTALL.(S.S),PL-24608
+120-02,EL,EBP-MP-2003A_2,Power Cable B,B,CABLE ARRANGEMENT SHALL BE DONE.,PL-24604
 120-02,EL,EBP-MP-2003A_2,Power Cable B,B,S.S tags shall be install.,PL-08206
 120-02,EL,EBP-MP-2003A_2,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-03712
 120-02,EL,EBP-MP-2003B_1,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-03696
 120-02,EL,EBP-MP-2003B_1,Power Cable B,B,S.S tags shall be install.,PL-08191
+120-02,EL,EBP-MP-2003B_1,Power Cable B,B,CABLE ARRANGEMENT SHALL BE DONE.,PL-24605
+120-02,EL,EBP-MP-2003B_1,Power Cable B,B,CABLE TAG SHALL BE INSTALL.(S.S),PL-24609
+120-02,EL,EBP-MP-2003B_1,Power Cable B,C,CLEANING SHALL BE DONE.,PL-24613
+120-02,EL,EBP-MP-2003B_2,Power Cable B,C,CLEANING SHALL BE DONE.,PL-24614
+120-02,EL,EBP-MP-2003B_2,Power Cable B,B,CABLE TAG SHALL BE INSTALL.(S.S),PL-24610
+120-02,EL,EBP-MP-2003B_2,Power Cable B,B,CABLE ARRANGEMENT SHALL BE DONE.,PL-24606
 120-02,EL,EBP-MP-2003B_2,Power Cable B,B,S.S tags shall be install.,PL-08192
 120-02,EL,EBP-MP-2003B_2,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-03700
 120-07,EL,EBP-MP-3001,Power Cable B,B,Tag فلزي کابل ها نصب شود,PL-04331
@@ -9332,6 +9352,10 @@ FGS-09,EL,NEL-0107,F&G Device,B, Cable  S.S Tag Should Be Done.,PL-22302
 120-07,EL,P7001C-MP-1B,Local_Control_Station,C,Preservation shall be done.,PL-17056
 120-07,EL,P7001C-MP-1B,Local_Control_Station,C,Preservation  تجهيز انجام شود,PL-10573
 120-07,EL,P7001C-MP-1B,Local_Control_Station,A,سربندي تجهيز انجام شود,PL-10576
+4000-06,MER,P-7506A,Pump,C,Some points need touch up,PL-24626
+4000-06,MER,P-7506A,Pump,C,Genral Cleaning,PL-24627
+4000-06,MER,P-7506A,Pump,C,Surface Grout,PL-24628
+4000-06,MER,P-7506A,Pump,B,Oil Patch and device shall be instal,PL-24629
 4000-06,MER,P-7506B,Pump,C,Some points need touch up,PL-24021
 4000-06,MER,P-7506B,Pump,C,Genral Cleaning,PL-24022
 4000-06,MER,P-7506B,Pump,C,Surface Grout,PL-24023
@@ -9344,6 +9368,17 @@ FGS-09,EL,NEL-0107,F&G Device,B, Cable  S.S Tag Should Be Done.,PL-22302
 4000-08,MER,P-8001D,Pump,C,Genral Cleaning,PL-24026
 4000-08,MER,P-8001D,Pump,C,Surface Grout,PL-24027
 4000-08,MER,P-8001D,Pump,B,Oil Patch and device shall be instal,PL-24028
+4000-09,MER,P-8401-P2B,Pump,B,Oil Patch and device shall be instal,PL-24622
+4000-09,MER,P-8401-P2B,Pump,C,Some points need touch up,PL-24624
+4000-09,MER,P-8401-P2B,Pump,C,Genral Cleaning,PL-24625
+4000-12,MER,P-8404A,Pump,B,Remove scaffold and final structure,PL-24615
+4000-12,MER,P-8404A,Pump,C,Some points need touch up,PL-24616
+4000-12,MER,P-8404A,Pump,C,Genral Cleaning,PL-24617
+4000-12,MER,P-8404A,Pump,B,Oil Patch and device shall be instal,PL-24602
+4000-12,MER,P-8404B,Pump,B,Oil Patch and device shall be instal,PL-24618
+4000-12,MER,P-8404B,Pump,B,Remove scaffold and final structure,PL-24619
+4000-12,MER,P-8404B,Pump,C,Some points need touch up,PL-24620
+4000-12,MER,P-8404B,Pump,C,Genral Cleaning,PL-24621
 2000-03,IN,PDST-2036A(PDST),Instrument(PDST),A,Hook Up Should Be Install.,PL-21614
 2000-03,IN,PDST-2036A(PDST),Instrument(PDST),A,S.S Cap Should Be Install.,PL-21608
 2000-03,IN,PDST-2036A(PDST),Instrument(PDST),A,Termination And Gland Should Be Done.,PL-21602
