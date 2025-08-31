@@ -18,22 +18,22 @@ TEL-11,EL,00-CAM-15,CCTV,CCTV,
 TEL-11,EL,00-CAM-16,CCTV,CCTV,
 TEL-11,EL,00-CAM-17,CCTV,CCTV,
 TEL-11,EL,00-CAM-18,CCTV,CCTV,
-LS-02,EL,00-ELP-01,Panel,Area Emergency Lighting Panel,
-LS-02,EL,00-ELP-02,Panel,Area Emergency Lighting Panel,
-LS-02,EL,00-ELP-03,Panel,Area Emergency Lighting Panel,
-LS-02,EL,00-ELP-04,Panel,Area Emergency Lighting Panel,
-120-14,EL,00-HTP-01,Panel,Heat Tracing Panel,
-120-14,EL,00-HTP-02,Panel,Heat Tracing Panel,
-120-14,EL,00-HTP-03,Panel,Heat Tracing Panel,
-LS-01,EL,00-LP-01,Panel,Area Normal Lighting Panel,
-LS-01,EL,00-LP-02,Panel,Area Normal Lighting Panel,
-LS-01,EL,00-LP-03,Panel,Area Normal Lighting Panel,
-LS-01,EL,00-LP-04,Panel,Area Normal Lighting Panel,
-LS-01,EL,00-RP-01,Panel,Area Receptacle Panel,
-LS-01,EL,00-RP-02,Panel,Area Receptacle Panel,
-LS-01,EL,00-RP-03,Panel,Area Receptacle Panel,
-LS-01,EL,00-RP-04,Panel,Area Receptacle Panel,
-LS-01,EL,00-SLP-01,Panel,Street Lighting Panel,
+LS-02,EL,00-ELP-01,PANEL(EL),Area Emergency Lighting Panel,
+LS-02,EL,00-ELP-02,PANEL(EL),Area Emergency Lighting Panel,
+LS-02,EL,00-ELP-03,PANEL(EL),Area Emergency Lighting Panel,
+LS-02,EL,00-ELP-04,PANEL(EL),Area Emergency Lighting Panel,
+120-14,EL,00-HTP-01,PANEL(EL),Heat Tracing Panel,
+120-14,EL,00-HTP-02,PANEL(EL),Heat Tracing Panel,
+120-14,EL,00-HTP-03,PANEL(EL),Heat Tracing Panel,
+LS-01,EL,00-LP-01,PANEL(EL),Area Normal Lighting Panel,
+LS-01,EL,00-LP-02,PANEL(EL),Area Normal Lighting Panel,
+LS-01,EL,00-LP-03,PANEL(EL),Area Normal Lighting Panel,
+LS-01,EL,00-LP-04,PANEL(EL),Area Normal Lighting Panel,
+LS-01,EL,00-RP-01,PANEL(EL),Area Receptacle Panel,
+LS-01,EL,00-RP-02,PANEL(EL),Area Receptacle Panel,
+LS-01,EL,00-RP-03,PANEL(EL),Area Receptacle Panel,
+LS-01,EL,00-RP-04,PANEL(EL),Area Receptacle Panel,
+LS-01,EL,00-SLP-01,PANEL(EL),Street Lighting Panel,
 LS-04,EL,01-EJB-1,Lighting Main JB,Emergency Lighting Junction Box,
 LS-04,EL,01-EJB1-1-L1-01,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving Lamp 30w- EX,
 LS-05,EL,01-EJB1-1-L1-02,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving Lamp 30w- EX,
@@ -3973,8 +3973,8 @@ TEL-07,EL,07-SP-15,Paging Device,Loud Speaker - 25W|EX,
 1000-03,PI,2000-05-PRC-15-768,PI_TP,PIPING TEST PACKAGE,DONE
 1000-03,PI,2000-05-PRC-16-769,PI_TP,PIPING TEST PACKAGE,Reinstatement
 2000-05,PI,2000-05-PRC-17-770,PI_TP,PIPING TEST PACKAGE,DONE
-2000-05,PI,2000-05-PRC-18-771,PI_TP,PIPING TEST PACKAGE,HYDROTEST
-2000-05,PI,2000-05-PRC-19-772,PI_TP,PIPING TEST PACKAGE,HYDROTEST
+2000-05,PI,2000-05-PRC-18-771,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
+2000-05,PI,2000-05-PRC-19-772,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
 2000-05,PI,2000-05-PRC-20-851,PI_TP,PIPING TEST PACKAGE,DONE
 2000-05,PI,2000-05-PRC-21-852,PI_TP,PIPING TEST PACKAGE,DONE
 2000-05,PI,2000-05-PRC-22-881,PI_TP,PIPING TEST PACKAGE,FL/DRY
@@ -4067,7 +4067,7 @@ TEL-07,EL,07-SP-15,Paging Device,Loud Speaker - 25W|EX,
 3000-02,PI,3000-02-SG-15-941,PI_TP,PIPING TEST PACKAGE,Reinstatement
 3000-02,PI,3000-02-SG-16-1081,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 3000-02,PI,3000-02-VA-01-557,PI_TP,PIPING TEST PACKAGE,DONE
-3000-02,PI,3000-02-VA-02-745,PI_TP,PIPING TEST PACKAGE,FL/DRY
+3000-02,PI,3000-02-VA-02-745,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
 3000-02,PI,3000-02-VA-03-746,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
 3000-02,PI,3000-02-VA-04-754,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 3000-02,PI,3000-02-VA-05-755,PI_TP,PIPING TEST PACKAGE,HYDROTEST
@@ -4287,7 +4287,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,
 4000-06,PI,4000-06-CS-08-1057,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
 4000-06,PI,4000-06-CS-09-1060,PI_TP,PIPING TEST PACKAGE,DONE
 4000-06,PI,4000-06-CS-10-1063,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
-4000-06,PI,4000-06-CS-11-1064,PI_TP,PIPING TEST PACKAGE,FL/DRY
+4000-06,PI,4000-06-CS-11-1064,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
 4000-06,PI,4000-06-CS-12-1068,PI_TP,PIPING TEST PACKAGE,DONE
 4000-06,PI,4000-06-CS-13-1069,PI_TP,PIPING TEST PACKAGE,DONE
 4000-06,PI,4000-06-CS-14-1082,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
@@ -4607,7 +4607,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,
 4000-11,PI,4000-11-IA-12-1103,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-11,PI,4000-11-VA-01-570,PI_TP,PIPING TEST PACKAGE,DONE
 4000-12,PI,4000-12-WW-06-1088,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
-4000-12,PI,4000-12-WWC-01-1061,PI_TP,PIPING TEST PACKAGE,FL/DRY
+4000-12,PI,4000-12-WWC-01-1061,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
 4000-12,PI,4000-12-WWC-02-1066,PI_TP,PIPING TEST PACKAGE,FL/DRY
 4000-12,PI,4000-12-WWC-03-1072,PI_TP,PIPING TEST PACKAGE,DONE
 4000-12,PI,4000-12-WWC-04-1100,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
@@ -4652,7 +4652,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,
 4000-14,PI,4000-14-FW-29-491,PI_TP,PIPING TEST PACKAGE,Reinstatement
 4000-14,PI,4000-14-FW-30-494,PI_TP,PIPING TEST PACKAGE,Reinstatement
 4000-14,PI,4000-14-FW-31-721,PI_TP,PIPING TEST PACKAGE,Reinstatement
-4000-14,PI,4000-14-FW-32-1067,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
+4000-14,PI,4000-14-FW-32-1067,PI_TP,PIPING TEST PACKAGE,FL/DRY
 4000-13,PI,4000-21-PMC-01-175,PI_TP,PIPING TEST PACKAGE,DONE
 4000-13,PI,4000-21-PMC-02-184,PI_TP,PIPING TEST PACKAGE,DONE
 4000-15,PI,4000-21-SRW-01-112,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4775,7 +4775,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,
 5000-02,PI,5000-02-VA-02-142,PI_TP,PIPING TEST PACKAGE,DONE
 5000-02,PI,5000-02-VA-03-143,PI_TP,PIPING TEST PACKAGE,DONE
 5000-02,PI,5000-02-VA-04-204,PI_TP,PIPING TEST PACKAGE,DONE
-5000-02,PI,5000-02-VA-05-573,PI_TP,PIPING TEST PACKAGE,FL/DRY
+5000-02,PI,5000-02-VA-05-573,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
 4000-08,PI,5000-02-VA-06-414,PI_TP,PIPING TEST PACKAGE,DONE
 5000-03,PI,5000-03-LPC-01-024,PI_TP,PIPING TEST PACKAGE,DONE
 5000-03,PI,5000-03-LPC-02-180,PI_TP,PIPING TEST PACKAGE,Reinstatement
@@ -5379,12 +5379,12 @@ NO SUBS.,PI,61-SUMP-091,PI_TP,PIPING TEST PACKAGE,Reinstatement
 3000-03,MES,AE-3002,Air_Cooler(AE),Air_Cooler,
 5000-01,MES,AE-5004,Air_Cooler(AE),Air_Cooler,
 5000-02,MES,AE-5005,Air_Cooler(AE),Air_Cooler,
-5000-01,MES,AE-5005-A,Package,,
-5000-01,MES,AE-5005-B,Package,,
-5000-01,MES,AE-5005-C,Package,,
-5000-02,MES,AE-5005-D,Package,,
+5000-01,MES,AE-5005-A,PAKAGE(PK),,
+5000-01,MES,AE-5005-B,PAKAGE(PK),,
+5000-01,MES,AE-5005-C,PAKAGE(PK),,
+5000-02,MES,AE-5005-D,PAKAGE(PK),,
 5000-01,MES,AE-5006,Air_Cooler(AE),Air_Cooler,
-LS-02,EL,AH-EDP-01,Panel,Emergency Distribution Panel,
+LS-02,EL,AH-EDP-01,PANEL(EL),Emergency Distribution Panel,
 LS-14,EL,AH-EDP-01-1-L1-01,Lighting Fixture,LED Luminaires Fixture 40w| EX,DONE
 LS-14,EL,AH-EDP-01-1-L1-01-FJB01,Lighting Cable,Cable of LED Luminaires Fixture 40w| EX,DONE
 LS-14,EL,AH-EDP-01-1-L1-02,Lighting Fixture,LED Luminaires Fixture 40w| EX,DONE
@@ -5435,13 +5435,13 @@ LS-14,EL,AH-EJB1,Lighting Main JB,Emergency Lighting Junction Box,DONE
 LS-14,EL,AH-EJB1-FJB01,Lighting Cable,Cable of Emergency Lighting Junction Box,DONE
 LS-14,EL,AH-EJB2,Lighting Main JB,Emergency Lighting Junction Box,DONE
 LS-14,EL,AH-EJB2-FJB01,Lighting Cable,Cable of Emergency Lighting Junction Box,DONE
-HVAC-04,EL,AH-HDP-01,Panel,HVAC Distribution Panel,
+HVAC-04,EL,AH-HDP-01,PANEL(EL),HVAC Distribution Panel,
 TEL-12,EL,AH-IS-01,Telecom Device,Intercom Station Without Hood - EX,DONE
 TEL-12,EL,AH-SP-01,Paging Device,Loud Speaker - 25W|EX,DONE
 TEL-12,EL,AH-TEL-01,Telecom Device,Telephone Station Without Hood- EX,DONE
 TEL-12,EL,AH-TJB1,Telecom Device,Telephone Junction Box - EX,DONE
-120-13,EL,AJB01-DW01,Cathodic Protection,Cable 1x16,EXE_DON-E
-120-13,EL,AJB01-DW02,Cathodic Protection,Cable 1x16,EXE_DON-E
+120-13,EL,AJB01-DW01,Cathodic Protection,Cable 1x16,DONE
+120-13,EL,AJB01-DW02,Cathodic Protection,Cable 1x16,DONE
 DCS-01,IN,ALM_T1,CABLE,CABLE(NA),
 DCS-01,IN,ALM_T2,CABLE,CABLE(NA),
 DCS-01,IN,ALM_T3,CABLE,CABLE(NA),
@@ -5608,12 +5608,12 @@ FGS-08,EL,AMI-0305,FGS Device,Auto / Manual / Inhibit Switch,
 4000-08,IN,AT-8004(NA),CABLE,CABLE(NA),
 4000-06,IN,AT-8413(AT),Instrument(AT),Instrument(AT),
 4000-06,IN,AT-8413(NA),CABLE,CABLE(NA),
-LS-07,EL,AWLP1(LS-07),Panel,Aircraft Warning Light Control Panel,
-LS-11,EL,AWLP1(LS-11),Panel,Aircraft Warning Light Control Panel,
-LS-07,EL,AWLP2(LS-07),Panel,Aircraft Warning Light Control Panel,
-LS-11,EL,AWLP2(LS-11),Panel,Aircraft Warning Light Control Panel,
-LS-07,EL,AWLP3(LS-07),Panel,Aircraft Warning Light Control Panel,
-LS-11,EL,AWLP3(LS-11),Panel,Aircraft Warning Light Control Panel,
+LS-07,EL,AWLP1(LS-07),PANEL(EL),Aircraft Warning Light Control Panel,
+LS-11,EL,AWLP1(LS-11),PANEL(EL),Aircraft Warning Light Control Panel,
+LS-07,EL,AWLP2(LS-07),PANEL(EL),Aircraft Warning Light Control Panel,
+LS-11,EL,AWLP2(LS-11),PANEL(EL),Aircraft Warning Light Control Panel,
+LS-07,EL,AWLP3(LS-07),PANEL(EL),Aircraft Warning Light Control Panel,
+LS-11,EL,AWLP3(LS-11),PANEL(EL),Aircraft Warning Light Control Panel,
 1000-01,IN,AY-1001-1,SIGNAL,SIGNAL,
 1000-01,IN,AY-1001-2,SIGNAL,SIGNAL,
 1000-01,IN,AY-1001-3,SIGNAL,SIGNAL,
@@ -5873,7 +5873,7 @@ BLD-06,CV,Beams & Slab(Ground Floor BLD-06),03-Beams & Slab,Beams & Slab(Ground 
 BLD-01,PI,BLD-01-IG55-01-689,PI_TP,PIPING TEST PACKAGE,DONE
 BLD-01,PI,BLD-01-IG55-02-758,PI_TP,PIPING TEST PACKAGE,Reinstatement
 BLD-01,PI,BLD-01-IG55-03-993,PI_TP,PIPING TEST PACKAGE,DONE
-BLD-01,PI,BLD-01-IG55-04-1089,PI_TP,PIPING TEST PACKAGE,HYDROTEST
+BLD-01,PI,BLD-01-IG55-04-1089,PI_TP,PIPING TEST PACKAGE,Reinstatement
 BLD-02,PI,BLD-02-IG55-01-986,PI_TP,PIPING TEST PACKAGE,DONE
 3000-01,IN,BRAUN--FLT,PKG,PKG,
 2000-06,MER,C-2001,Compressor,START UP NITROGEN COMPRESSOR,
@@ -5904,8 +5904,8 @@ DCS-01,IN,CR-CEC-EH-01,JUNCTION BOX,JUNCTION BOX(PANEL),
 TEL-11,EL,CR-CMR-01,CCTV,"Control Room CCTV Monitor 32""",
 TEL-11,EL,CR-CMR-02,CCTV,"Control Room CCTV Monitor 65""",
 TEL-11,EL,CR-CSP-01,CCTV,CCTV Control/Switch Panel,
-120-07,EL,CR-EDP-01,Panel,Emergency Distribution Panel,
-LS-02,EL,CR-ELP-01,Panel,Emergency Lighting Panel,
+120-07,EL,CR-EDP-01,PANEL(EL),Emergency Distribution Panel,
+LS-02,EL,CR-ELP-01,PANEL(EL),Emergency Lighting Panel,
 LS-04,EL,CR-ELP-01-01-L1-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,
 LS-04,EL,CR-ELP-01-01-L1-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,
 LS-04,EL,CR-ELP-01-01-L1-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,
@@ -5976,12 +5976,12 @@ LS-04,EL,CR-ELP-01-07-L1-06,Lighting Fixture,Fluorescent Fixture 4*18w- Louver T
 LS-04,EL,CR-ELP-01-07-L1-07,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type|Safety Lights with Battery Backup,
 LS-04,EL,CR-ELP-01-07-L1-08,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,
 120-12,EL,CR-ESP-01,PDCS System ,PDC System Ethernet Switch Panel,
-FGS-09,EL,CR-FACP-01,Panel,Fire Alarm Control Panel,
-FGS-09,EL,CR-FECP-01,Panel,Fire Extinguishing Control Panel,
-HVAC-02,EL,CR-HDP-01,Panel,HVAC Distribution Panel,
-HVAC-02,EL,CR-HDP-02,Panel,HVAC Distribution Panel,
-HVAC-02,EL,CR-LCP-0010,Panel,HVAC Local Control Panel,
-LS-01,EL,CR-LP-01,Panel,Normal Lighting Panel,
+FGS-09,EL,CR-FACP-01,PANEL(EL),Fire Alarm Control Panel,
+FGS-09,EL,CR-FECP-01,PANEL(EL),Fire Extinguishing Control Panel,
+HVAC-02,EL,CR-HDP-01,PANEL(EL),HVAC Distribution Panel,
+HVAC-02,EL,CR-HDP-02,PANEL(EL),HVAC Distribution Panel,
+HVAC-02,EL,CR-LCP-0010,PANEL(EL),HVAC Local Control Panel,
+LS-01,EL,CR-LP-01,PANEL(EL),Normal Lighting Panel,
 LS-04,EL,CR-LP-01-01-L1-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,
 LS-04,EL,CR-LP-01-01-L1-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,
 LS-04,EL,CR-LP-01-01-L1-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,
@@ -6128,13 +6128,13 @@ LS-04,EL,CR-LP-01-21-L3-04,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,
 LS-04,EL,CR-LP-01-21-L3-05,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,
 LS-04,EL,CR-LP-01-21-L3-06,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,
 LS-04,EL,CR-LP-01-22-L1|L2|L3-01,Socket Outlet,Outlet 5-Pole- 400v|25A|Indust Type,
-ES-02,EL,CR-L-PRO(ES-02),Ligtining Protection,Ligtining Protection,
+ES-02,EL,CR-L-PRO(ES-02),Lightning Protection,Ligtining Protection,
 TEL-09,EL,CR-MCS-01-1,Telecom Device,Master Call Station Media Converter,
 TEL-09,EL,CR-MCS-01-2,Paging Device,Paging Master Call Station,
 TEL-09,EL,CR-MTJB1,Telecom Device,Main Telephone Junction Box,
 TEL-09,EL,CR-PJB1,Paging Device,Paging Junction Box,
 DCS-01,IN,CR-RBS-01,JUNCTION BOX,JUNCTION BOX(PANEL),
-120-07,EL,CR-SIP-01,Panel,Fire & Gas Detection System Siren Panel,
+120-07,EL,CR-SIP-01,PANEL(EL),Fire & Gas Detection System Siren Panel,
 TEL-09,EL,CR-SP-01,Paging Device,Loud Speaker Celling Mounted- 6W,
 TEL-09,EL,CR-SP-02,Paging Device,Loud Speaker Celling Mounted- 6W,
 TEL-09,EL,CR-SP-03,Paging Device,Loud Speaker Celling Mounted- 6W,
@@ -6240,10 +6240,10 @@ TEL-09,EL,CR-TJB3,Telecom Device,Telephone Junction Box,
 1000-02,PI,DE-RF-FG-005,PI_TP,PIPING TEST PACKAGE,DONE
 1000-02,PI,DE-RF-FG-006,PI_TP,PIPING TEST PACKAGE,DONE
 1000-01,PI,DE-RF-PRG-008,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
-120-18,EL,DMPC-R_IO-SS-01,Panel,Damavand Remote I/O Cabinet,DONE
-120-18,IN,DMPC-R_IO-SS-01-IN,Panel,Damavand Remote I/O Cabinet,DONE
-120-18,EL,DMPC-R_IO-SS-02,Panel,Damavand Remote I/O Cabinet,DONE
-120-18,IN,DMPC-R_IO-SS-02-IN,Panel,Damavand Remote I/O Cabinet,DONE
+120-18,EL,DMPC-R_IO-SS-01,PANEL(EL),Damavand Remote I/O Cabinet,DONE
+120-18,IN,DMPC-R_IO-SS-01-IN,PANEL(IN),Damavand Remote I/O Cabinet,DONE
+120-18,EL,DMPC-R_IO-SS-02,PANEL(EL),Damavand Remote I/O Cabinet,DONE
+120-18,IN,DMPC-R_IO-SS-02-IN,PANEL(IN),Damavand Remote I/O Cabinet,DONE
 FGS-05,IN,DV-2001,Fire Fighting,Fire Fighting(DV),
 FGS-05,IN,DV-2002,Fire Fighting,Fire Fighting(DV),
 FGS-04,IN,DV-2003,Fire Fighting,Fire Fighting(DV),
@@ -6346,10 +6346,10 @@ FGS-01,IN,DY-9003(DY),Fire Fighting,Fire Fighting(DY),
 FGS-01,IN,DY-9003(NA),CABLE,CABLE(NA),
 FGS-01,IN,DY-9004(DY),Fire Fighting,Fire Fighting(DY),
 FGS-01,IN,DY-9004(NA),CABLE,CABLE(NA),
-120-18,EL,E_I-MC-SS-01,Panel,E/I Marshaling Cabinet,DONE
-120-18,IN,E_I-MC-SS-01-IN,Panel,E/I Marshaling Cabinet,DONE
-120-18,EL,E_I-MC-SS-02,Panel,E/I Marshaling Cabinet,DONE
-120-18,IN,E_I-MC-SS-02-IN,Panel,E/I Marshaling Cabinet,DONE
+120-18,EL,E_I-MC-SS-01,PANEL(EL),E/I Marshaling Cabinet,DONE
+120-18,IN,E_I-MC-SS-01-IN,PANEL(IN),E/I Marshaling Cabinet,DONE
+120-18,EL,E_I-MC-SS-02,PANEL(EL),E/I Marshaling Cabinet,DONE
+120-18,IN,E_I-MC-SS-02-IN,PANEL(IN),E/I Marshaling Cabinet,DONE
 ES-02,EL,E07-01(ES-02),Earthing System,THERMOWELD EARTH CONNECTION 70 TO 70mm2,
 ES-05,EL,E07-01(ES-05),Earthing System,THERMOWELD EARTH CONNECTION 70 TO 70mm2,DONE
 ES-06,EL,E07-01(ES-06),Earthing System,THERMOWELD EARTH CONNECTION 70 TO 70mm2,
@@ -12044,23 +12044,23 @@ DCS-01,IN,FCS-MC-CR-07,JUNCTION BOX,JUNCTION BOX(PANEL),
 DCS-01,IN,FCS-MC-CR-08,JUNCTION BOX,JUNCTION BOX(PANEL),
 DCS-01,IN,FCS-MC-CR-09,JUNCTION BOX,JUNCTION BOX(PANEL),
 DCS-01,IN,FCS-MC-CR-10,JUNCTION BOX,JUNCTION BOX(PANEL),
-120-18,EL,FCS-MC-RIO-01,Panel,FCS Marshaling Cabinet,DONE
-120-18,IN,FCS-MC-RIO-01-IN,Panel,FCS Marshaling Cabinet,DONE
-120-18,EL,FCS-MC-RIO-02,Panel,FCS Marshaling Cabinet,DONE
-120-18,IN,FCS-MC-RIO-02-IN,Panel,FCS Marshaling Cabinet,DONE
-120-18,EL,FCS-MC-RIO-03,Panel,FCS Marshaling Cabinet,DONE
-120-18,IN,FCS-MC-RIO-03-IN,Panel,FCS Marshaling Cabinet,DONE
-120-18,EL,FCS-MC-RIO-04,Panel,FCS Marshaling Cabinet,DONE
-120-18,IN,FCS-MC-RIO-04-IN,Panel,FCS Marshaling Cabinet,DONE
-120-18,EL,FCS-MC-RIO-05,Panel,FCS Marshaling Cabinet,DONE
-120-18,IN,FCS-MC-RIO-05-IN,Panel,FCS Marshaling Cabinet,DONE
-120-18,EL,FCS-MC-RIO-06,Panel,FCS Marshaling Cabinet,DONE
-120-18,IN,FCS-MC-RIO-06-IN,Panel,FCS Marshaling Cabinet,DONE
-120-18,EL,FCS-MC-RIO-07,Panel,FCS Marshaling Cabinet,DONE
-120-18,IN,FCS-MC-RIO-07-IN,Panel,FCS Marshaling Cabinet,DONE
+120-18,EL,FCS-MC-RIO-01,PANEL(EL),FCS Marshaling Cabinet,DONE
+120-18,IN,FCS-MC-RIO-01-IN,PANEL(IN),FCS Marshaling Cabinet,DONE
+120-18,EL,FCS-MC-RIO-02,PANEL(EL),FCS Marshaling Cabinet,DONE
+120-18,IN,FCS-MC-RIO-02-IN,PANEL(IN),FCS Marshaling Cabinet,DONE
+120-18,EL,FCS-MC-RIO-03,PANEL(EL),FCS Marshaling Cabinet,DONE
+120-18,IN,FCS-MC-RIO-03-IN,PANEL(IN),FCS Marshaling Cabinet,DONE
+120-18,EL,FCS-MC-RIO-04,PANEL(EL),FCS Marshaling Cabinet,DONE
+120-18,IN,FCS-MC-RIO-04-IN,PANEL(IN),FCS Marshaling Cabinet,DONE
+120-18,EL,FCS-MC-RIO-05,PANEL(EL),FCS Marshaling Cabinet,DONE
+120-18,IN,FCS-MC-RIO-05-IN,PANEL(IN),FCS Marshaling Cabinet,DONE
+120-18,EL,FCS-MC-RIO-06,PANEL(EL),FCS Marshaling Cabinet,DONE
+120-18,IN,FCS-MC-RIO-06-IN,PANEL(IN),FCS Marshaling Cabinet,DONE
+120-18,EL,FCS-MC-RIO-07,PANEL(EL),FCS Marshaling Cabinet,DONE
+120-18,IN,FCS-MC-RIO-07-IN,PANEL(IN),FCS Marshaling Cabinet,DONE
 DCS-01,IN,FCS-NET-CR-01,JUNCTION BOX,JUNCTION BOX(PANEL),
-120-18,EL,FCS-PD-RIO-01,Panel,Power Distribution Panel,DONE
-120-18,IN,FCS-PD-RIO-01-IN,Panel,Power Distribution Panel,DONE
+120-18,EL,FCS-PD-RIO-01,PANEL(EL),Power Distribution Panel,DONE
+120-18,IN,FCS-PD-RIO-01-IN,PANEL(IN),Power Distribution Panel,DONE
 DCS-01,IN,FCS-SC-CR-01,JUNCTION BOX,JUNCTION BOX(PANEL),
 DCS-01,IN,FCS-SC-CR-02,JUNCTION BOX,JUNCTION BOX(PANEL),
 DCS-01,IN,FCS-SC-CR-03,JUNCTION BOX,JUNCTION BOX(PANEL),
@@ -12069,14 +12069,14 @@ DCS-01,IN,FCS-SC-CR-05,JUNCTION BOX,JUNCTION BOX(PANEL),
 DCS-01,IN,FCS-SC-CR-06,JUNCTION BOX,JUNCTION BOX(PANEL),
 DCS-01,IN,FCS-SC-CR-07,JUNCTION BOX,JUNCTION BOX(PANEL),
 DCS-01,IN,FCS-SC-CR-08,JUNCTION BOX,JUNCTION BOX(PANEL),
-120-18,EL,FCS-SC-RIO-01,Panel,FCS System Cabinet,DONE
-120-18,IN,FCS-SC-RIO-01-IN,Panel,FCS System Cabinet,DONE
-120-18,EL,FCS-SC-RIO-02,Panel,FCS System Cabinet,DONE
-120-18,IN,FCS-SC-RIO-02-IN,Panel,FCS System Cabinet,DONE
-120-18,EL,FCS-SC-RIO-03,Panel,FCS System Cabinet,DONE
-120-18,IN,FCS-SC-RIO-03-IN,Panel,FCS System Cabinet,DONE
-120-18,EL,FCS-SC-RIO-04,Panel,FCS System Cabinet,DONE
-120-18,IN,FCS-SC-RIO-04-IN,Panel,FCS System Cabinet,DONE
+120-18,EL,FCS-SC-RIO-01,PANEL(EL),FCS System Cabinet,DONE
+120-18,IN,FCS-SC-RIO-01-IN,PANEL(IN),FCS System Cabinet,DONE
+120-18,EL,FCS-SC-RIO-02,PANEL(EL),FCS System Cabinet,DONE
+120-18,IN,FCS-SC-RIO-02-IN,PANEL(IN),FCS System Cabinet,DONE
+120-18,EL,FCS-SC-RIO-03,PANEL(EL),FCS System Cabinet,DONE
+120-18,IN,FCS-SC-RIO-03-IN,PANEL(IN),FCS System Cabinet,DONE
+120-18,EL,FCS-SC-RIO-04,PANEL(EL),FCS System Cabinet,DONE
+120-18,IN,FCS-SC-RIO-04-IN,PANEL(IN),FCS System Cabinet,DONE
 DCS-01,IN,FCS-SV-CR-01,JUNCTION BOX,JUNCTION BOX(PANEL),
 DCS-01,IN,FCSSW1A-05,CABLE,CABLE(NA),
 DCS-01,IN,FCSSW1A-06,CABLE,CABLE(NA),
@@ -13386,7 +13386,7 @@ DCS-01,IN,GA-0001,Fire Fighting,Fire Fighting(GA),
 DCS-01,IN,GA-0002,Fire Fighting,Fire Fighting(GA),
 DCS-01,IN,GA-0003,Fire Fighting,Fire Fighting(GA),
 DCS-01,IN,GA-0004,Fire Fighting,Fire Fighting(GA),
-120-02,EL,H-3013-TCP,Panel,Seal Gas Heater Thristor Control Panel,
+120-02,EL,H-3013-TCP,PANEL(EL),Seal Gas Heater Thristor Control Panel,
 FGS-09,EL,HD-0133,F&G Device,Rate Of Rise Heat Detector,
 FGS-10,EL,HD-0237,FGS Device,Rate Of Rise Heat Detector,
 FGS-11,EL,HD-0319,FGS Device,Rate Of Rise Heat Detector,
@@ -13624,7 +13624,7 @@ DCS-01,IN,HS-80156B,SIGNAL,SIGNAL,
 5000-02,IN,HY-5202-60,Instrument(X),Instrument(HY),
 5000-02,IN,HY-5202-63,Instrument(X),Instrument(HY),
 5000-02,IN,HY-5202-66,Instrument(X),Instrument(HY),
-5000-02,IN,HY-5202-69,INSTRUMENT,INSTRUMENT,
+5000-02,IN,HY-5202-69,Instrument(X),INSTRUMENT,
 5000-02,IN,HY-5202-72,SIGNAL,SIGNAL,
 5000-02,IN,HY-5202-9,Instrument(X),Instrument(HY),
 5000-04,IN,HY-5404(HY),Instrument(X),Instrument(HY),
@@ -14282,7 +14282,7 @@ DCS-01,IN,JNXX-PK7502-08,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),
 4000-08,IN,KT-80219D,Instrument(KT),Instrument(KT),
 4000-08,IN,KT-80236A,Instrument(KT),Instrument(KT),
 4000-08,IN,KT-80236B,Instrument(KT),Instrument(KT),
-LS-02,EL,LAB-ELP-01,Panel,Emergency Lighting Panel,
+LS-02,EL,LAB-ELP-01,PANEL(EL),Emergency Lighting Panel,
 LS-05,EL,LAB-ELP-01-01-L1-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,
 LS-05,EL,LAB-ELP-01-01-L1-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,
 LS-05,EL,LAB-ELP-01-01-L1-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,
@@ -14324,9 +14324,9 @@ LS-05,EL,LAB-ELP-01-04-L3-09,Lighting Fixture,Fluorescent Fixture Exit- 1*8w Wit
 LS-05,EL,LAB-ELP-01-04-L3-10,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,
 LS-05,EL,LAB-ELP-01-04-L3-11,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type|Safety Lights with Battery Backup,
 LS-05,EL,LAB-ELP-01-04-L3-12,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type|Safety Lights with Battery Backup,
-FGS-10,EL,LAB-FACP-01,Panel,Fire Alarm Control Panel,
-HVAC-03,EL,LAB-HDP-01,Panel,HVAC Distribution Panel,
-LS-01,EL,LAB-LP-01,Panel,Normal Lighting Panel,
+FGS-10,EL,LAB-FACP-01,PANEL(EL),Fire Alarm Control Panel,
+HVAC-03,EL,LAB-HDP-01,PANEL(EL),HVAC Distribution Panel,
+LS-01,EL,LAB-LP-01,PANEL(EL),Normal Lighting Panel,
 LS-05,EL,LAB-LP-01-01-L1-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,
 LS-05,EL,LAB-LP-01-01-L1-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,
 LS-05,EL,LAB-LP-01-01-L1-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,
@@ -17386,20 +17386,20 @@ NO SUBS.,IN,PIT-30172 (),PKG,PKG,
 120-03,EL,PK7502-MP-3B,Local_Control_Station,Local Control Station- PK7502-MP-3B,
 4000-06,MES,PK-7502-TK-1,PAKAGE(PK),Package,
 4000-06,MES,PK-7502-TK-2,PAKAGE(PK),Package,
-4000-08,MES,PK-8001,Package,,
-4000-08,MES,PK-8002,Package,,
+4000-08,MES,PK-8001,PAKAGE(PK),,
+4000-08,MES,PK-8002,PAKAGE(PK),,
 120-03,EL,PK8002-MP-1A,Local_Control_Station,Local Control Station- PK8002-MP-1A,
 120-03,EL,PK8002-MP-1B,Local_Control_Station,Local Control Station- PK8002-MP-1B,
 120-03,EL,PK8002-MX-1,Local_Control_Station,Local Control Station- PK8002-MX-1,
-4000-08,MES,PK-8003,Package,,
+4000-08,MES,PK-8003,PAKAGE(PK),,
 120-03,EL,PK8003-MP-1A,Local_Control_Station,Local Control Station- PK8003-MP-1A,
 120-03,EL,PK8003-MP-1B,Local_Control_Station,Local Control Station- PK8003-MP-1B,
 120-03,EL,PK8003-MX-1,Local_Control_Station,Local Control Station- PK8003-MX-1,
-4000-08,MES,PK-8004,Package,,
+4000-08,MES,PK-8004,PAKAGE(PK),,
 120-03,EL,PK8004-MP-1A,Local_Control_Station,Local Control Station- PK8004-MP-1A,
 120-03,EL,PK8004-MP-1B,Local_Control_Station,Local Control Station- PK8004-MP-1B,
 120-03,EL,PK8004-MX-1,Local_Control_Station,Local Control Station- PK8004-MX-1,
-4000-08,MES,PK-8005,Package,,
+4000-08,MES,PK-8005,PAKAGE(PK),,
 120-03,EL,PK8005-MP-1A,Local_Control_Station,Local Control Station- PK8005-MP-1A,
 120-03,EL,PK8005-MP-1B,Local_Control_Station,Local Control Station- PK8005-MP-1B,
 120-03,EL,PK8401-MP-1A,Local_Control_Station,Local Control Station- PK8401-MP-1A,
@@ -17428,7 +17428,7 @@ DCS-01,IN,POS-6000-IS-29,SIGNAL,SIGNAL,
 3000-01,IN,PP-30154,Instrument(PP),Instrument(PP),
 FGS-07,IN,PSH-001(NA),CABLE,CABLE(NA),
 FGS-07,IN,PSH-001(PSH),Fire Fighting,Fire Fighting(PSH),
-NO SUBS.,IN,PSH-001~005(),CHECK,CHECK,
+NO SUBS.,IN,PSH-001~005(),CABLE,CHECK,
 NO SUBS.,IN,PSH-001~005(PSH),Fire Fighting,Fire Fighting(PSH),
 NO SUBS.,IN,PSH-001~005*,Fire Fighting,Fire Fighting(PSH),
 FGS-07,IN,PSH-002(NA),CABLE,CABLE(NA),
@@ -17569,7 +17569,7 @@ FGS-03,IN,PSH-9052(PSH),Fire Fighting,Fire Fighting(PSH),
 FGS-02,IN,PSH-9053(NA),CABLE,CABLE(NA),
 FGS-02,IN,PSH-9053(PSH),Fire Fighting,Fire Fighting(PSH),
 NO SUBS.,IN,PSL-001,CABLE,CABLE(NA),
-NO SUBS.,IN,PSL-001~002(),CHECK,CHECK,
+NO SUBS.,IN,PSL-001~002(),CABLE,CHECK,
 NO SUBS.,IN,PSL-001~002(PSL),Fire Fighting,Fire Fighting(PSL),
 NO SUBS.,IN,PSL-001~002*,Fire Fighting,Fire Fighting(PSL),
 NO SUBS.,IN,PSL-002,CABLE,CABLE(NA),
@@ -19083,9 +19083,9 @@ FGS-07,IN,SOV-105,Fire Fighting,Fire Fighting(SOV),
 120-10,EL,SS-CH-01,UPS & Battery,110V DC Battery Charger Panel ,
 120-10,EL,SS-CIS-01,UPS & Battery,110V DC Charger Battery Isolator Box,
 120-08,EL,SS-DG-5701,Diesel Generator,Diesel Generator,
-120-07,EL,SS-EDP-01,Panel,Emergency Distribution System,
-LS-02,EL,SS-ELP-01(LS-02),Panel,Main Emergency Lighting Panel,
-LS-03,EL,SS-ELP-01(LS-03),Panel,Main Emergency Lighting Panel,DONE
+120-07,EL,SS-EDP-01,PANEL(EL),Emergency Distribution System,
+LS-02,EL,SS-ELP-01(LS-02),PANEL(EL),Main Emergency Lighting Panel,
+LS-03,EL,SS-ELP-01(LS-03),PANEL(EL),Main Emergency Lighting Panel,DONE
 LS-03,EL,SS-ELP-01-1-L1-01,Lighting Fixture,LED Luminaires Fixture 64w,DONE
 LS-03,EL,SS-ELP-01-1-L1-01-FJB,Lighting Cable,LED Luminaires Fixture 64w| WP,DONE
 LS-03,EL,SS-ELP-01-1-L1-02,Lighting Fixture,LED Luminaires Fixture 64w,DONE
@@ -19188,16 +19188,16 @@ LS-03,EL,SS-ELP-01-5-L2-11,Lighting Fixture,LED Luminaires Fixture Exit| 1*15w W
 LS-03,EL,SS-ELP-01-5-L2-11-FJB,Lighting Cable,LED Luminaires Fixture Exit| 1*15w With Battery Backup,DONE
 LS-03,EL,SS-ELP-01-5-L2-12,Lighting Fixture,LED Luminaires Fixture Exit| 1*15w With Battery Backup,DONE
 LS-03,EL,SS-ELP-01-5-L2-12-FJB,Lighting Cable,LED Luminaires Fixture Exit| 1*15w With Battery Backup,DONE
-FGS-08,EL,SS-FACP-01,Panel,Fire Alarm Control Panel,
+FGS-08,EL,SS-FACP-01,PANEL(EL),Fire Alarm Control Panel,
 FGS-08,EL,SS-FAJB-01,FGS JB,Fire Alarm Junction Box,
 FGS-08,EL,SS-FAJB-02,FGS JB,Fire Alarm Junction Box,
-FGS-08,EL,SS-FECP-01,Panel,Fire Extinguishing Control Panel,
-HVAC-01,EL,SS-HDP-01,Panel,HVAC Distribution Panel,
+FGS-08,EL,SS-FECP-01,PANEL(EL),Fire Extinguishing Control Panel,
+HVAC-01,EL,SS-HDP-01,PANEL(EL),HVAC Distribution Panel,
 TEL-08,EL,SS-IS-01,Telecom Device,Intercom Station Without Hood,DONE
 TEL-08,EL,SS-IS-02,Telecom Device,Intercom Station Without Hood,DONE
-HVAC-01,EL,SS-LCP-0030,Panel,HVAC Local Control Panel,
-LS-01,EL,SS-LP-01,Panel,Normal Lighting Panel,
-LS-03,EL,SS-LP-01(LS-03),Panel,Normal Lighting Panel,DONE
+HVAC-01,EL,SS-LCP-0030,PANEL(EL),HVAC Local Control Panel,
+LS-01,EL,SS-LP-01,PANEL(EL),Normal Lighting Panel,
+LS-03,EL,SS-LP-01(LS-03),PANEL(EL),Normal Lighting Panel,DONE
 LS-03,EL,SS-LP-01-11-L1-01,Socket Outlet,Outlet 3-Pole- 230v|16A|WP,DONE
 LS-03,EL,SS-LP-01-11-L1-01-FJB,Lighting Cable,Outlet 3-Pole| 230v| 16A| WP,DONE
 LS-03,EL,SS-LP-01-11-L1-02,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,DONE
@@ -19500,14 +19500,14 @@ LS-03,EL,SS-LP-01-8-L3-13,Lighting Fixture,Bulkhead Lighting Fixture| 30w| WP,DO
 LS-03,EL,SS-LP-01-8-L3-13-FJB,Lighting Cable,Bulkhead Lighting Fixture| 30w| WP,DONE
 LS-03,EL,SS-LP-01-8-L3-14,Lighting Fixture,Bulkhead Lighting Fixture| 30w| WP,DONE
 LS-03,EL,SS-LP-01-8-L3-14-FJB,Lighting Cable,Bulkhead Lighting Fixture| 30w| WP,DONE
-ES-01,EL,SS-L-PRO(ES-01),Ligtining Protection,Ligtining Protection,DONE
-LS-01,EL,SS-MLP-01,Panel,Main Normal Lighting Panel,
+ES-01,EL,SS-L-PRO(ES-01),Lightning Protection,Ligtining Protection,DONE
+LS-01,EL,SS-MLP-01,PANEL(EL),Main Normal Lighting Panel,
 120-16,EL,SS-NGR1A-01,Natural Ground Resistance,Neutral Grounding Resistor- SS-NGR1A-01,DONE
 120-16,EL,SS-NGR1B-01,Natural Ground Resistance,Neutral Grounding Resistor- SS-NGR1B-01,DONE
-120-12,EL,SS-PDCS-01,Panel,Power Distribution Control System,
+120-12,EL,SS-PDCS-01,PANEL(EL),Power Distribution Control System,
 TEL-08,EL,SS-PJB1,Paging Device,Paging Junction Box,DONE
 TEL-08,EL,SS-PJB2,Paging Device,Paging Junction Box,DONE
-LS-01,EL,SS-PRB-01,Panel,Photocell Relay Box,
+LS-01,EL,SS-PRB-01,PANEL(EL),Photocell Relay Box,
 TEL-08,EL,SS-SP-01,Paging Device,Loud Speaker Wall Mounted- 15W,DONE
 TEL-08,EL,SS-SP-02,Paging Device,Loud Speaker Wall Mounted- 15W,DONE
 TEL-08,EL,SS-SP-03,Paging Device,Loud Speaker Wall Mounted- 15W,DONE
@@ -19547,9 +19547,9 @@ BLD-04,CV,Stair Ways(Ground Floor BLD-04),09-Stair Ways,Stair Ways(Ground Floor 
 BLD-05,CV,Stair Ways(Ground Floor BLD-05),09-Stair Ways,Stair Ways(Ground Floor BLD-05),
 BLD-06,CV,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor BLD-06),DONE
 NO SUBS.,IN,SV-001,CABLE,CABLE(NA),
-NO SUBS.,IN,SV-001~004(),CHECK,CHECK,
+NO SUBS.,IN,SV-001~004(),CABLE,CHECK,
 NO SUBS.,IN,SV-001~004(SV),Fire Fighting,Fire Fighting(SV),
-NO SUBS.,IN,SV-001~005(),CHECK,CHECK,
+NO SUBS.,IN,SV-001~005(),CABLE,CHECK,
 NO SUBS.,IN,SV-001~005(SV),Fire Fighting,Fire Fighting(SV),
 NO SUBS.,IN,SV-002,CABLE,CABLE(NA),
 NO SUBS.,IN,SV-003,CABLE,CABLE(NA),
@@ -20689,16 +20689,16 @@ FGS-01,IN,TGD-0022(NA),CABLE,CABLE(NA),
 FGS-01,IN,TGD-0022(TGD),Fire Alarm,Fire Alarm(TGD),
 2000-02,IN,TI-2112,Instrument(TI),Instrument(TI),
 3000-01,IN,TI-30140,PKG,PKG,
-5000-01,MES,TK-5001,Tank(TK),Raw Methanol Buffer Tank (TK 5001) OUT OF SCOPE,
-5000-04,MES,TK-5002-1,Tank(TK),Methanol Product Buffer Tank (TK 5002 1) OUT OF SCOPE,
-5000-04,MES,TK-5002-2,Tank(TK),Methanol Product Buffer Tank (TK 5002 2) OUT OF SCOPE,
-5000-05,MES,TK-5003,Tank(TK),Liquid off -stream Tank (TK 5003) OUT OF SCOPE,
-4000-06,MES,TK-7001-1,Tank(TK),Demineralized Water Tank (TK 7001 1) OUT OF SCOPE,
-4000-06,MES,TK-7001-2,Tank(TK),Demineralized Water Tank (TK 7001 2) OUT OF SCOPE,
-1000-03,MES,TK-7002,Tank(TK),Process Condensate Buffer Tank (TK 7002) OUT OF SCOPE,
-4000-06,MES,TK-7501,Tank(TK),CONDENSATE TANK (TK 7501) OUT OF SCOPE,
-4000-06,MES,TK-8401,Tank(TK),CAUSTIC SODA TANK,
-4000-06,MES,TK-8402,Tank(TK),SULPHURIC ACID TANK,
+5000-01,MES,TK-5001,005-Tank(TK),Raw Methanol Buffer Tank (TK 5001) OUT OF SCOPE,
+5000-04,MES,TK-5002-1,005-Tank(TK),Methanol Product Buffer Tank (TK 5002 1) OUT OF SCOPE,
+5000-04,MES,TK-5002-2,005-Tank(TK),Methanol Product Buffer Tank (TK 5002 2) OUT OF SCOPE,
+5000-05,MES,TK-5003,005-Tank(TK),Liquid off -stream Tank (TK 5003) OUT OF SCOPE,
+4000-06,MES,TK-7001-1,005-Tank(TK),Demineralized Water Tank (TK 7001 1) OUT OF SCOPE,
+4000-06,MES,TK-7001-2,005-Tank(TK),Demineralized Water Tank (TK 7001 2) OUT OF SCOPE,
+1000-03,MES,TK-7002,005-Tank(TK),Process Condensate Buffer Tank (TK 7002) OUT OF SCOPE,
+4000-06,MES,TK-7501,005-Tank(TK),CONDENSATE TANK (TK 7501) OUT OF SCOPE,
+4000-06,MES,TK-8401,005-Tank(TK),CAUSTIC SODA TANK,
+4000-06,MES,TK-8402,005-Tank(TK),SULPHURIC ACID TANK,
 120-13,EL,TR01-AJB01_1,Cathodic Protection,Cable 1x35,DONE
 120-13,EL,TR01-AJB01_2,Cathodic Protection,Cable 1x35,DONE
 120-13,EL,TR01-NBB05,Cathodic Protection,Cable 1x35,DONE
@@ -24208,7 +24208,7 @@ DCS-01,IN,XS-Synch-7502,SIGNAL,SIGNAL,
 4000-08,IN,XZSL-8020(XZSL),Instrument(X),Instrument(XZSL),
 4000-08,IN,XZSL-8021(NA),CABLE,CABLE(NA),
 4000-08,IN,XZSL-8021(XZSL),Instrument(X),Instrument(XZSL),
-LS-02,EL,YO-ELP-01,Panel,Emergency Lighting Panel,
+LS-02,EL,YO-ELP-01,PANEL(EL),Emergency Lighting Panel,
 LS-05,EL,YO-ELP-01-01-L1-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,
 LS-05,EL,YO-ELP-01-01-L1-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,
 LS-05,EL,YO-ELP-01-01-L1-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,
@@ -24241,7 +24241,7 @@ LS-05,EL,YO-ELP-01-04-L3-08,Lighting Fixture,Fluorescent Fixture 4*18w- Louver T
 LS-05,EL,YO-ELP-01-04-L3-09,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type|Safety Lights with Battery Backup,
 LS-05,EL,YO-ELP-01-04-L3-10,Lighting Fixture,Fluorescent Fixture 2*36w- WP,
 LS-05,EL,YO-ELP-01-04-L3-11,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,
-LS-01,EL,YO-LP-01,Panel,Normal Lighting Panel,
+LS-01,EL,YO-LP-01,PANEL(EL),Normal Lighting Panel,
 LS-05,EL,YO-LP-01-01-L1-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,
 LS-05,EL,YO-LP-01-01-L1-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,
 LS-05,EL,YO-LP-01-01-L1-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,
