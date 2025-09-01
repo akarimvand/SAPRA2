@@ -17712,7 +17712,7 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,
 4000-08,IN,PST-80105B-1,Instrument(PST),Instrument(PST),
 4000-08,IN,PST-80105B-2,Instrument(PST),Instrument(PST),
 4000-08,IN,PST-80105B-3,Instrument(PST),Instrument(PST),
-4000-01,IN,PSV-0009,Instrument(PSV),Instrument(PSV),
+4000-01,IN,PSV-0009,Instrument(PSV),Instrument(PSV),DONE
 4000-11,IN,PSV-0010,Instrument(PSV),Instrument(PSV),DONE
 4000-11,IN,PSV-0011,Instrument(PSV),Instrument(PSV),DONE
 7000-01,IN,PSV-1008,Instrument(PSV),Instrument(PSV),
@@ -17760,8 +17760,8 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,
 2000-04,IN,PSV-2380,Instrument(PSV),Instrument(PSV),
 4000-06,IN,PSV-2458,Instrument(PSV),Instrument(PSV),
 2000-05,IN,PSV-2494,Instrument(PSV),Instrument(PSV),
-4000-01,IN,PSV-2546,Instrument(PSV),Instrument(PSV),50%
-4000-01,IN,PSV-2555,Instrument(PSV),Instrument(PSV),
+4000-01,IN,PSV-2546,Instrument(PSV),Instrument(PSV),DONE
+4000-01,IN,PSV-2555,Instrument(PSV),Instrument(PSV),DONE
 2000-06,IN,PSV-2581,Instrument(PSV),Instrument(PSV),
 7000-01,IN,PSV-2604,Instrument(PSV),Instrument(PSV),
 7000-01,IN,PSV-2605,Instrument(PSV),Instrument(PSV),
