@@ -26,7 +26,7 @@
 120,120-12,Electrical Distribution Substation,SS PDCS System,EL,10,0,0,8,2,6,2
 120,120-13,Electrical Distribution Substation,Cathodic Protection System,EL,373,373,0,474,472,2,0
 120,120-14,Electrical Distribution Substation,Electric Heat Tracing System,EL,3,0,0,0,0,0,3
-120,120-15,Electrical Distribution Substation,Capacitor Bank,EL,5,0,0,32,10,22,0
+120,120-15,Electrical Distribution Substation,Capacitor Bank,EL,5,0,0,34,10,24,0
 120,120-16,Electrical Distribution Substation,MV Transformer,EL,12,12,0,50,45,5,0
 120,120-17,Electrical Distribution Substation,LV Transformer,EL,15,15,0,104,82,22,0
 120,120-18,Electrical Distribution Substation,E/I Cabinet,EL,16,16,0,46,44,2,0
@@ -66,7 +66,7 @@
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,176,0,0,6,0,6,5
 3000,3000-04,Compression and Synthesis,Hydrogen System,MER,1,0,0,0,0,0,0
 4000,4000-01,Utility,Nitrogen,PI,20,20,0,46,27,19,64
-4000,4000-01,Utility,Nitrogen,IN,14,5,0,0,0,0,6
+4000,4000-01,Utility,Nitrogen,IN,14,8,0,0,0,0,6
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,0,0,0,0,0,0
 4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,0,0,84,2,82,35
 4000,4000-02,Utility,HHP & HP & LP Steam,PI,63,35,0,180,74,106,74
