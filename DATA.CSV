@@ -19,14 +19,14 @@
 120,120-06,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-05,EL,222,0,0,1132,574,558,11
 120,120-07,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-ESWB3A/B-01,EL,147,0,0,491,221,270,134
 120,120-08,Electrical Distribution Substation,Emergency Diesel Generator SS-DG-5701,EL,8,0,0,0,0,0,7
-120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,EL,29,0,0,27,11,16,0
+120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,EL,29,1,0,27,11,16,0
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,IN,2,0,0,6,0,6,0
 120,120-10,Electrical Distribution Substation,SS-CH-01 for Electrical Supply 110V DC,EL,24,0,0,136,10,126,0
 120,120-11,Electrical Distribution Substation,SS-UPS-01 for Safety Lighting Supply 230 AC UPS,EL,18,0,0,41,10,31,0
 120,120-12,Electrical Distribution Substation,SS PDCS System,EL,10,0,0,8,2,6,2
 120,120-13,Electrical Distribution Substation,Cathodic Protection System,EL,373,373,0,474,472,2,0
 120,120-14,Electrical Distribution Substation,Electric Heat Tracing System,EL,3,0,0,0,0,0,3
-120,120-15,Electrical Distribution Substation,Capacitor Bank,EL,5,0,0,34,10,24,0
+120,120-15,Electrical Distribution Substation,Capacitor Bank,EL,5,5,0,34,10,24,0
 120,120-16,Electrical Distribution Substation,MV Transformer,EL,12,12,0,50,45,5,0
 120,120-17,Electrical Distribution Substation,LV Transformer,EL,15,15,0,104,82,22,0
 120,120-18,Electrical Distribution Substation,E/I Cabinet,EL,16,16,0,46,44,2,0
@@ -89,7 +89,7 @@
 4000,4000-08,Utility,Cooling Water,MES,5,0,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,0,8,0,8,0
 4000,4000-08,Utility,Cooling Water,PI,282,70,0,585,269,316,37
-4000,4000-08,Utility,Cooling Water,IN,745,8,0,46,5,41,533
+4000,4000-08,Utility,Cooling Water,IN,745,8,0,55,5,50,533
 4000,4000-09,Utility,Oily Water Treatment,PI,225,53,0,33,16,17,4
 4000,4000-09,Utility,Oily Water Treatment,IN,28,0,0,0,0,0,26
 4000,4000-09,Utility,Oily Water Treatment,MER,2,0,0,3,0,3,0
@@ -141,7 +141,7 @@ BLD,BLD-05,Building,Diesel Room,CV,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,PI,3,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,CV,14,14,0,31,0,31,0
 BLD,BLD-07,Building,Analyzer House,CV,8,8,0,19,0,19,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2566,0,0,1678,111,1567,805
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2566,0,0,1690,111,1579,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2190,2136,54,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,0,0,0,0,0,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,13,0,13,0
