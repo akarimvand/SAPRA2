@@ -6202,8 +6202,8 @@ TEL-09,EL,CR-TEL-OUTLET-8-05,Telecom Device,Telephone Outlet- Flush Mounted,0%
 TEL-09,EL,CR-TJB1,Telecom Device,Telephone Junction Box,0%
 TEL-09,EL,CR-TJB2,Telecom Device,Telephone Junction Box,0%
 TEL-09,EL,CR-TJB3,Telecom Device,Telephone Junction Box,0%
-120-15,EL,CR-UBT-01_1,UPS & Battery,110V AC UPS Battery Set,25%
-120-15,EL,CR-UBT-01_2,UPS & Battery,110V AC UPS Battery Set,25%
+120-15,EL,CR-UBT-01_1,UPS & Battery,110V AC UPS Battery Set,DONE
+120-15,EL,CR-UBT-01_2,UPS & Battery,110V AC UPS Battery Set,DONE
 120-09,EL,CR-UIS-01,UPS & Battery,110V AC UPS Battery Isolator Box,0%
 120-09,EL,CR-UPS-01,UPS & Battery,110V AC UPS Panel,25%
 1000-01,MES,D-1001,Drum(D),Natural gas K.O. drum,DONE
@@ -10511,7 +10511,7 @@ LS-01,EL,EBP-CR-LP-01,Power Cable B,Control Room Normal Lighting & Socket Outlet
 120-07,EL,EBP-DG5701-CP-02,Power Cable B,Emergency Diesel Generator Fuel Pump Panel- DG5701-CP-02 (Power Supply),0%
 120-09,EL,EBP-F&G-UCP-01_1,Power Cable B,F&G System Panel- F&G-UCP-01,0%
 120-09,EL,EBP-F&G-UCP-01_2,Power Cable B,F&G System Panel- F&G-UCP-01,0%
-120-07,EL,EBP-F&G-UPS-01,Power Cable B,Fire & Gas Detection System UPS- F&G-UPS-01,33%
+120-07,EL,EBP-F&G-UPS-01,Power Cable B,Fire & Gas Detection System UPS- F&G-UPS-01,
 120-09,EL,EBP-F&G-UPS-01_AS,Power Cable B,230V AC F&G UPS Panel- F&G-UPS-01 (Auxiliary Supply),0%
 120-02,EL,EBP-FT2001-HE-1,Power Cable B,Lube Oil Heater for FT-2001- FT2001-HE-1,33%
 120-02,EL,EBP-FT2001-MP-1,Power Cable B,Main Lube Oil Pump for FT-2001- FT2001-MP-1,33%
@@ -11676,8 +11676,8 @@ DCS-01,IN,ESD-SC-CR-02,JUNCTION BOX,JUNCTION BOX(PANEL),
 120-13,EL,EX_TB-P-009,Cathodic Protection,Test Box,DONE
 120-13,EL,EX_TB-P-010,Cathodic Protection,Test Box,DONE
 120-13,EL,EX_TB-P-011,Cathodic Protection,Test Box,DONE
-120-15,EL,F&G-UBT-01,UPS & Battery,F&G System UPS Battery set,0%
-120-09,EL,F&G-UPS-01,UPS & Battery,230V AC F&G UPS Panel,50%
+120-15,EL,F&G-UBT-01,UPS & Battery,F&G System UPS Battery set,DONE
+120-09,EL,F&G-UPS-01,UPS & Battery,230V AC F&G UPS Panel,DONE
 DCS-01,IN,FA-0001,Fire Fighting,Fire Fighting(FA),
 DCS-01,IN,FCFA-0001,CABLE,CABLE(NA),
 FGS-08,IN,FCFGD-0041,CABLE,CABLE(NA),
@@ -19079,7 +19079,7 @@ FGS-07,IN,SOV-102,Fire Fighting,Fire Fighting(SOV),
 FGS-07,IN,SOV-103,Fire Fighting,Fire Fighting(SOV),
 FGS-07,IN,SOV-104,Fire Fighting,Fire Fighting(SOV),
 FGS-07,IN,SOV-105,Fire Fighting,Fire Fighting(SOV),
-120-15,EL,SS-CBT-01,UPS & Battery,110V DC Charger Battery Set,25%
+120-15,EL,SS-CBT-01,UPS & Battery,110V DC Charger Battery Set,DONE
 120-10,EL,SS-CH-01,UPS & Battery,110V DC Battery Charger Panel ,0%
 120-10,EL,SS-CIS-01,UPS & Battery,110V DC Charger Battery Isolator Box,0%
 120-08,EL,SS-DG-5701,Diesel Generator,Diesel Generator,0%
@@ -19536,7 +19536,7 @@ TEL-08,EL,SS-TJB1,Telecom Device,Telephone Junction Box,DONE
 120-17,EL,SS-TR3-02,Transformer,Main Emergency Lighting Transformer,DONE
 120-17,EL,SS-TR3A-01,Transformer,Main Normal Lighting Transformer A,DONE
 120-17,EL,SS-TR3B-01,Transformer,Main Normal Lighting Transformer B,DONE
-120-15,EL,SS-UBT-01,UPS & Battery,230V AC Safety Lighting UPS Battery Set,25%
+120-15,EL,SS-UBT-01,UPS & Battery,230V AC Safety Lighting UPS Battery Set,DONE
 120-11,EL,SS-UIS-01,UPS & Battery,230V AC Safety Lighting UPS Battery Isolator Box,0%
 120-11,EL,SS-UPS-01,UPS & Battery, 230V AC Safety Lighting UPS,25%
 3000-01,IN,SSV-30101,Instrument(SSV),Instrument(SSV),
