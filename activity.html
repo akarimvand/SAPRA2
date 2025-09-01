@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>فعالیت‌های Tag No</title>
+  <!-- استایل‌های یکسان با داشبورد اصلی -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+      padding: 20px;
+    }
+    .activity-container {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    .activity-header {
+      background: #343a40;
+      color: #e9ecef;
+      padding: 16px 20px;
+      text-align: right;
+    }
+    .activity-header h5 {
+      margin: 0;
+      font-weight: 500;
+    }
+    .activity-body {
+      padding: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      font-size: 0.875rem;
+    }
+    table th {
+      background: #f1f3f4;
+      color: #5f6368;
+      text-align: right;
+      padding: 10px;
+      font-weight: 500;
+      border-bottom: 1px solid #dee2e6;
+    }
+    table td {
+      padding: 10px;
+      border-bottom: 1px solid #e9ecef;
+      color: #212529;
+    }
+    table tr:hover {
+      background-color: #f8f9fa;
+    }
+    .status {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+    .done {
+      color: #34a853;
+    }
+    .not-done {
+      color: #ea4335;
+    }
+    .progress-container {
+      margin: 20px 0;
+    }
+    .progress-label {
+      display: flex;
+      justify-content: space-between;
+      color: #495057;
+      font-size: 0.875rem;
+      margin-bottom: 6px;
+    }
+    .progress-bar {
+      height: 10px;
+      background-color: #e9ecef;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    .progress-fill {
+      height: 100%;
+      background-color: #34a853;
+      width: 0%;
+      transition: width 0.6s ease;
+    }
+    .no-activities {
+      text-align: center;
+      color: #6c757d;
+      font-style: italic;
+      padding: 20px;
+    }
+    .text-center {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="activity-container">
+    <div class="activity-header">
+      <h5 id="tagTitle">فعالیت‌ها برای: </h5>
+    </div>
+    <div class="activity-body">
+      <div class="table-responsive">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>عنوان فرم</th>
+              <th>وضعیت</th>
+            </tr>
+          </thead>
+          <tbody id="activityList">
+            <!-- فعالیت‌ها اینجا لود می‌شوند -->
+          </tbody>
+        </table>
+      </div>
+
+      <div class="progress-container">
+        <div class="progress-label">
+          <span>پیشرفت</span>
+          <span id="progressText">0%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <script>
+    let tagNo = null;
+
+    // دریافت Tag_No از پیام والد (وقتی در مودال باز می‌شود)
+    window.addEventListener('message', function(e) {
+      if (e.data.tagNo) {
+        tagNo = e.data.tagNo;
+        loadAndFilter();
+      }
+    });
+
+    // اگر مستقیماً باز شده، از localStorage استفاده کن
+    if (!tagNo) {
+      tagNo = localStorage.getItem('currentTagNo');
+      if (tagNo) loadAndFilter();
+    }
+
+    async function loadAndFilter() {
+      if (!tagNo) {
+        document.getElementById('activityList').innerHTML = '<tr><td colspan="3" class="no-activities">هیچ Tag Noای ارسال نشد.</td></tr>';
+        return;
+      }
+
+      document.getElementById('tagTitle').textContent += tagNo;
+
+      try {
+        const res = await fetch('https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/ACTIVITES.CSV');
+        const data = await res.text();
+        const lines = data.trim().split('\n');
+        const headers = lines[0].split(',').map(h => h.trim());
+        const activities = lines.slice(1).map(line => {
+          const values = line.split(',');
+          const obj = {};
+          headers.forEach((h, i) => obj[h] = values[i] ? values[i].trim() : '');
+          return obj;
+        });
+
+        const filtered = activities.filter(a => a.Tag_No === tagNo);
+        const list = document.getElementById('activityList');
+        let doneCount = 0;
+
+        if (filtered.length === 0) {
+          list.innerHTML = '<tr><td colspan="3" class="no-activities">هیچ فعالیتی برای این Tag No یافت نشد.</td></tr>';
+          document.getElementById('progressText').textContent = '0%';
+          return;
+        }
+
+        filtered.forEach((act, index) => {
+          const tr = document.createElement('tr');
+          const status = act.Done === '1' ? '✅' : '❌';
+          const cls = act.Done === '1' ? 'done' : 'not-done';
+          tr.innerHTML = `
+            <td class="text-center">${index + 1}</td>
+            <td>${act.Form_Title}</td>
+            <td class="text-center"><span class="${cls}">${status}</span></td>
+          `;
+          list.appendChild(tr);
+          if (act.Done === '1') doneCount++;
+        });
+
+        const percent = Math.round((doneCount / filtered.length) * 100);
+        document.getElementById('progressFill').style.width = percent + '%';
+        document.getElementById('progressText').textContent = `${percent}% (${doneCount}/${filtered.length})`;
+
+      } catch (err) {
+        console.error(err);
+        document.getElementById('activityList').innerHTML = '<tr><td colspan="3" class="no-activities">خطا در بارگذاری داده‌ها.</td></tr>';
+      }
+    }
+
+    // قابلیت خروجی اکسل (در صورت استفاده مستقیم)
+    window.exportToExcel = function() {
+      const wb = XLSX.utils.book_new();
+      const ws = XLSX.utils.table_to_sheet(document.querySelector('table'));
+      XLSX.utils.book_append_sheet(wb, ws, "فعالیت‌ها");
+      XLSX.writeFile(wb, `فعالیت‌های_${tagNo || 'نامشخص'}.xlsx`);
+    };
+  </script>
+
+</body>
+</html>
