@@ -7,7 +7,7 @@
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,IN,176,0,0,67,3,64,11
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MES,13,2,0,41,2,39,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,0,0,0,0,0,0
-1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,0,0,82,6,76,107
+1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,0,0,83,6,77,107
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,43,0,165,58,107,57
 1000,1000-04,Gas Preparation,Gas Station,IN,66,0,0,0,0,0,21
 1000,1000-04,Gas Preparation,Gas Station,PI,1,0,0,0,0,0,1
@@ -66,7 +66,7 @@
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,176,0,0,6,0,6,5
 3000,3000-04,Compression and Synthesis,Hydrogen System,MER,1,0,0,0,0,0,0
 4000,4000-01,Utility,Nitrogen,PI,20,20,0,46,27,19,64
-4000,4000-01,Utility,Nitrogen,IN,14,8,0,0,0,0,6
+4000,4000-01,Utility,Nitrogen,IN,14,11,0,0,0,0,6
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,0,0,0,0,0,0
 4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,0,0,84,2,82,35
 4000,4000-02,Utility,HHP & HP & LP Steam,PI,63,35,0,180,74,106,74
