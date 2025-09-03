@@ -16880,30 +16880,39 @@ MES,AE-2026,Package Mechanical,0
 MES,AE-2026,Air Cooler,0
 MES,AE-2026,Air Cooler,0
 MES,AE-2026,Belt Checking (Air Fin),0
+MES,AE-2026,Piping to Eq. Report(MES),0
 MES,AE-3002,Package Mechanical,0
 MES,AE-3002,Air Cooler,0
 MES,AE-3002,Air Cooler,0
 MES,AE-3002,Belt Checking (Air Fin),0
+MES,AE-3002,Piping to Eq. Report(MES),0
 MES,AE-5004,Package Mechanical,0
 MES,AE-5004,Air Cooler,0
 MES,AE-5004,Air Cooler,0
 MES,AE-5004,Belt Checking (Air Fin),0
+MES,AE-5004,Piping to Eq. Report(MES),0
 MES,AE-5005,Package Mechanical,0
 MES,AE-5005,Air Cooler,0
 MES,AE-5005,Air Cooler,0
 MES,AE-5005,Belt Checking (Air Fin),0
+MES,AE-5005,Piping to Eq. Report(MES),0
 MES,AE-5005-A,Final Box Up,0
 MES,AE-5005-A,Package Mechanical,0
+MES,AE-5005-A,Piping to Eq. Report(MES),0
 MES,AE-5005-B,Final Box Up,0
 MES,AE-5005-B,Package Mechanical,0
+MES,AE-5005-B,Piping to Eq. Report(MES),0
 MES,AE-5005-C,Final Box Up,0
 MES,AE-5005-C,Package Mechanical,0
+MES,AE-5005-C,Piping to Eq. Report(MES),0
 MES,AE-5005-D,Final Box Up,0
 MES,AE-5005-D,Package Mechanical,0
+MES,AE-5005-D,Piping to Eq. Report(MES),0
 MES,AE-5006,Package Mechanical,0
 MES,AE-5006,Air Cooler,0
 MES,AE-5006,Air Cooler,0
 MES,AE-5006,Belt Checking (Air Fin),0
+MES,AE-5006,Piping to Eq. Report(MES),0
 EL,AH-EDP-01,panel & box install,1
 EL,AH-EDP-01-1-L1-01,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,AH-EDP-01-1-L1-01,Lighting install,1
@@ -19370,6 +19379,7 @@ MER,C-2001,Mechanical Metering Pump,0
 MER,C-2001,Steam Turbine Drive,0
 MER,C-2001,Reciprocating Compressor,0
 MER,C-2001,Centrifugal Compressor,0
+MER,C-2001,Piping to Eq. Report(MER),0
 EL,C2001-MF-1,Miscellaeous-LCS,0
 EL,C2001-MF-1,Miscellaeous-LCS test,0
 EL,C2001-MF-2,Miscellaeous-LCS,0
@@ -19381,6 +19391,7 @@ MER,C-2002,Mechanical Metering Pump,0
 MER,C-2002,Steam Turbine Drive,0
 MER,C-2002,Reciprocating Compressor,0
 MER,C-2002,Centrifugal Compressor,0
+MER,C-2002,Piping to Eq. Report(MER),0
 MER,C-3001,Rotary Pump,0
 MER,C-3001,Reciprocating Pump,0
 MER,C-3001,Vertical Centrifugal Pump,0
@@ -19388,6 +19399,7 @@ MER,C-3001,Mechanical Metering Pump,0
 MER,C-3001,Steam Turbine Drive,0
 MER,C-3001,Reciprocating Compressor,0
 MER,C-3001,Centrifugal Compressor,0
+MER,C-3001,Piping to Eq. Report(MER),0
 CV,Column & Walls(BLD-02),REINFORCEMENT,0
 CV,Column & Walls(BLD-02),MAIN CONC,0
 CV,Column & Walls(BLD-07),REINFORCEMENT,0
@@ -19965,114 +19977,141 @@ EL,CR-UPS-01,UPS & Battery Install,1
 EL,CR-UPS-01,UPS & Battery field test,0
 EL,CR-UPS-01,Battery installation,0
 EL,CR-UPS-01,panel & box install,0
-MES,D-1001,Internal Cleaning Report,0
-MES,D-1001,Final Box Up,0
-MES,D-1001,Pressure Vessel,0
+MES,D-1001,Internal Cleaning Report,1
+MES,D-1001,Final Box Up,1
+MES,D-1001,Pressure Vessel,1
 MES,D-1001,Package Mechanical,0
+MES,D-1001,Piping to Eq. Report(MES),1
 MES,D-2001,Internal Cleaning Report,0
 MES,D-2001,Final Box Up,0
 MES,D-2001,Pressure Vessel,0
 MES,D-2001,Package Mechanical,0
+MES,D-2001,Piping to Eq. Report(MES),0
 MES,D-2002,Internal Cleaning Report,1
 MES,D-2002,Final Box Up,1
 MES,D-2002,Pressure Vessel,0
 MES,D-2002,Package Mechanical,0
+MES,D-2002,Piping to Eq. Report(MES),0
 MES,D-2003,Internal Cleaning Report,1
 MES,D-2003,Final Box Up,1
 MES,D-2003,Pressure Vessel,0
 MES,D-2003,Package Mechanical,0
+MES,D-2003,Piping to Eq. Report(MES),0
 MES,D-2004,Internal Cleaning Report,1
 MES,D-2004,Final Box Up,1
 MES,D-2004,Pressure Vessel,0
 MES,D-2004,Package Mechanical,0
+MES,D-2004,Piping to Eq. Report(MES),0
 MES,D-2005,Internal Cleaning Report,1
 MES,D-2005,Final Box Up,1
 MES,D-2005,Pressure Vessel,0
 MES,D-2005,Package Mechanical,0
-MES,D-2011,Internal Cleaning Report,0
-MES,D-2011,Final Box Up,0
-MES,D-2011,Pressure Vessel,0
+MES,D-2005,Piping to Eq. Report(MES),0
+MES,D-2011,Internal Cleaning Report,1
+MES,D-2011,Final Box Up,1
+MES,D-2011,Pressure Vessel,1
 MES,D-2011,Package Mechanical,0
+MES,D-2011,Piping to Eq. Report(MES),1
 MES,D-2022-1,Internal Cleaning Report,0
-MES,D-2022-1,Final Box Up,0
-MES,D-2022-1,Pressure Vessel,0
+MES,D-2022-1,Final Box Up,1
+MES,D-2022-1,Pressure Vessel,1
 MES,D-2022-1,Package Mechanical,0
+MES,D-2022-1,Piping to Eq. Report(MES),1
 MES,D-2022-2,Internal Cleaning Report,0
-MES,D-2022-2,Final Box Up,0
-MES,D-2022-2,Pressure Vessel,0
+MES,D-2022-2,Final Box Up,1
+MES,D-2022-2,Pressure Vessel,1
 MES,D-2022-2,Package Mechanical,0
+MES,D-2022-2,Piping to Eq. Report(MES),1
 MES,D-3001,Internal Cleaning Report,1
 MES,D-3001,Final Box Up,1
 MES,D-3001,Pressure Vessel,0
 MES,D-3001,Package Mechanical,0
-MES,D-3002,Internal Cleaning Report,0
-MES,D-3002,Final Box Up,0
-MES,D-3002,Pressure Vessel,0
+MES,D-3001,Piping to Eq. Report(MES),0
+MES,D-3002,Internal Cleaning Report,1
+MES,D-3002,Final Box Up,1
+MES,D-3002,Pressure Vessel,1
 MES,D-3002,Package Mechanical,0
+MES,D-3002,Piping to Eq. Report(MES),1
 MES,D-3003,Internal Cleaning Report,0
 MES,D-3003,Final Box Up,0
 MES,D-3003,Pressure Vessel,0
 MES,D-3003,Package Mechanical,0
-MES,D-3004,Internal Cleaning Report,0
-MES,D-3004,Final Box Up,0
-MES,D-3004,Pressure Vessel,0
+MES,D-3003,Piping to Eq. Report(MES),0
+MES,D-3004,Internal Cleaning Report,1
+MES,D-3004,Final Box Up,1
+MES,D-3004,Pressure Vessel,1
 MES,D-3004,Package Mechanical,0
+MES,D-3004,Piping to Eq. Report(MES),1
 MES,D-3010,Internal Cleaning Report,0
 MES,D-3010,Final Box Up,0
 MES,D-3010,Pressure Vessel,0
 MES,D-3010,Package Mechanical,0
+MES,D-3010,Piping to Eq. Report(MES),0
 MES,D-5001,Internal Cleaning Report,1
 MES,D-5001,Final Box Up,1
 MES,D-5001,Pressure Vessel,0
 MES,D-5001,Package Mechanical,0
+MES,D-5001,Piping to Eq. Report(MES),0
 MES,D-5002,Internal Cleaning Report,1
 MES,D-5002,Final Box Up,1
 MES,D-5002,Pressure Vessel,0
 MES,D-5002,Package Mechanical,0
+MES,D-5002,Piping to Eq. Report(MES),0
 MES,D-5003,Internal Cleaning Report,1
 MES,D-5003,Final Box Up,1
-MES,D-5003,Pressure Vessel,0
+MES,D-5003,Pressure Vessel,1
 MES,D-5003,Package Mechanical,0
+MES,D-5003,Piping to Eq. Report(MES),1
 MES,D-5009,Internal Cleaning Report,1
 MES,D-5009,Final Box Up,1
 MES,D-5009,Pressure Vessel,0
 MES,D-5009,Package Mechanical,0
+MES,D-5009,Piping to Eq. Report(MES),0
 MES,D-6001,Internal Cleaning Report,1
 MES,D-6001,Final Box Up,1
 MES,D-6001,Pressure Vessel,0
 MES,D-6001,Package Mechanical,0
+MES,D-6001,Piping to Eq. Report(MES),0
 MES,D-6002,Internal Cleaning Report,1
 MES,D-6002,Final Box Up,1
 MES,D-6002,Pressure Vessel,0
 MES,D-6002,Package Mechanical,0
+MES,D-6002,Piping to Eq. Report(MES),0
 MES,D-7001,Internal Cleaning Report,0
 MES,D-7001,Final Box Up,0
 MES,D-7001,Pressure Vessel,0
 MES,D-7001,Package Mechanical,0
-MES,D-7002,Internal Cleaning Report,0
-MES,D-7002,Final Box Up,0
-MES,D-7002,Pressure Vessel,0
+MES,D-7001,Piping to Eq. Report(MES),0
+MES,D-7002,Internal Cleaning Report,1
+MES,D-7002,Final Box Up,1
+MES,D-7002,Pressure Vessel,1
 MES,D-7002,Package Mechanical,0
+MES,D-7002,Piping to Eq. Report(MES),1
 MES,D-7003,Internal Cleaning Report,1
 MES,D-7003,Final Box Up,1
 MES,D-7003,Pressure Vessel,0
 MES,D-7003,Package Mechanical,0
+MES,D-7003,Piping to Eq. Report(MES),0
 MES,D-7004,Internal Cleaning Report,0
 MES,D-7004,Final Box Up,0
 MES,D-7004,Pressure Vessel,0
 MES,D-7004,Package Mechanical,0
+MES,D-7004,Piping to Eq. Report(MES),0
 MES,D-7101,Internal Cleaning Report,1
 MES,D-7101,Final Box Up,1
-MES,D-7101,Pressure Vessel,0
+MES,D-7101,Pressure Vessel,1
 MES,D-7101,Package Mechanical,0
+MES,D-7101,Piping to Eq. Report(MES),1
 MES,D-7501,Internal Cleaning Report,0
 MES,D-7501,Final Box Up,0
 MES,D-7501,Pressure Vessel,0
 MES,D-7501,Package Mechanical,0
+MES,D-7501,Piping to Eq. Report(MES),0
 MES,D-7502,Internal Cleaning Report,0
 MES,D-7502,Final Box Up,0
 MES,D-7502,Pressure Vessel,0
 MES,D-7502,Package Mechanical,0
+MES,D-7502,Piping to Eq. Report(MES),0
 PI,DE-RF-FG-001,Leak Test No,0
 PI,DE-RF-FG-001,Steam Out,0
 PI,DE-RF-FG-001,Pickling,0
@@ -21359,11 +21398,13 @@ IN,E2_ALM_04,CABLE INSULATION & CONTINUITY TEST,0
 MES,E-2001,Exchanger,0
 MES,E-2001,Plate Heat Exchanger,0
 MES,E-2001,Package Mechanical,0
+MES,E-2001,Piping to Eq. Report(MES),0
 EL,E20-01,Earthig & Lightning Work T,0
 EL,E20-01,Earthig & Lightning Work T,0
 MES,E-2002,Exchanger,0
 MES,E-2002,Plate Heat Exchanger,0
 MES,E-2002,Package Mechanical,0
+MES,E-2002,Piping to Eq. Report(MES),0
 EL,E20-02,Earthig & Lightning Work T,0
 EL,E20-02,Earthig & Lightning Work T,0
 EL,E20-03,Earthig & Lightning Work T,0
@@ -21371,64 +21412,83 @@ EL,E20-03,Earthig & Lightning Work T,0
 MES,E-2004,Exchanger,0
 MES,E-2004,Plate Heat Exchanger,0
 MES,E-2004,Package Mechanical,0
+MES,E-2004,Piping to Eq. Report(MES),0
 MES,E-2006,Exchanger,0
 MES,E-2006,Plate Heat Exchanger,0
 MES,E-2006,Package Mechanical,0
+MES,E-2006,Piping to Eq. Report(MES),0
 MES,E-2007,Exchanger,0
 MES,E-2007,Plate Heat Exchanger,0
 MES,E-2007,Package Mechanical,0
+MES,E-2007,Piping to Eq. Report(MES),0
 MES,E-2008,Exchanger,0
 MES,E-2008,Plate Heat Exchanger,0
 MES,E-2008,Package Mechanical,0
+MES,E-2008,Piping to Eq. Report(MES),0
 MES,E-2009,Exchanger,0
 MES,E-2009,Plate Heat Exchanger,0
 MES,E-2009,Package Mechanical,0
+MES,E-2009,Piping to Eq. Report(MES),0
 EL,E2-01,Earthig & Lightning Work T,1
 EL,E2-01,Earthig & Lightning Work T,0
 MES,E-2015,Exchanger,0
 MES,E-2015,Plate Heat Exchanger,0
 MES,E-2015,Package Mechanical,0
+MES,E-2015,Piping to Eq. Report(MES),0
 EL,E2-02,Earthig & Lightning Work T,1
 EL,E2-02,Earthig & Lightning Work T,0
 MES,E-2020-1,Exchanger,0
 MES,E-2020-1,Plate Heat Exchanger,0
 MES,E-2020-1,Package Mechanical,0
+MES,E-2020-1,Piping to Eq. Report(MES),0
 MES,E-2020-2,Exchanger,0
 MES,E-2020-2,Plate Heat Exchanger,0
 MES,E-2020-2,Package Mechanical,0
+MES,E-2020-2,Piping to Eq. Report(MES),0
 MES,E-2021-1,Exchanger,0
 MES,E-2021-1,Plate Heat Exchanger,0
 MES,E-2021-1,Package Mechanical,0
+MES,E-2021-1,Piping to Eq. Report(MES),0
 MES,E-2021-2,Exchanger,0
 MES,E-2021-2,Plate Heat Exchanger,0
 MES,E-2021-2,Package Mechanical,0
+MES,E-2021-2,Piping to Eq. Report(MES),0
 MES,E-2021-3,Exchanger,0
 MES,E-2021-3,Plate Heat Exchanger,0
 MES,E-2021-3,Package Mechanical,0
+MES,E-2021-3,Piping to Eq. Report(MES),0
 MES,E-2022-1,Exchanger,0
 MES,E-2022-1,Plate Heat Exchanger,0
 MES,E-2022-1,Package Mechanical,0
+MES,E-2022-1,Piping to Eq. Report(MES),0
 MES,E-2022-2,Exchanger,0
 MES,E-2022-2,Plate Heat Exchanger,0
 MES,E-2022-2,Package Mechanical,0
+MES,E-2022-2,Piping to Eq. Report(MES),0
 MES,E-2022-3,Exchanger,0
 MES,E-2022-3,Plate Heat Exchanger,0
 MES,E-2022-3,Package Mechanical,0
+MES,E-2022-3,Piping to Eq. Report(MES),0
 MES,E-2023,Exchanger,0
 MES,E-2023,Plate Heat Exchanger,0
 MES,E-2023,Package Mechanical,0
+MES,E-2023,Piping to Eq. Report(MES),1
 MES,E-2024-1,Exchanger,0
 MES,E-2024-1,Plate Heat Exchanger,0
 MES,E-2024-1,Package Mechanical,0
+MES,E-2024-1,Piping to Eq. Report(MES),1
 MES,E-2024-2,Exchanger,0
 MES,E-2024-2,Plate Heat Exchanger,0
 MES,E-2024-2,Package Mechanical,0
+MES,E-2024-2,Piping to Eq. Report(MES),1
 MES,E-2025,Exchanger,0
 MES,E-2025,Plate Heat Exchanger,0
 MES,E-2025,Package Mechanical,0
+MES,E-2025,Piping to Eq. Report(MES),1
 MES,E-2027,Exchanger,0
 MES,E-2027,Plate Heat Exchanger,0
 MES,E-2027,Package Mechanical,0
+MES,E-2027,Piping to Eq. Report(MES),0
 EL,E2-03,Earthig & Lightning Work T,1
 EL,E2-03,Earthig & Lightning Work T,0
 EL,E2-04,Earthig & Lightning Work T,1
@@ -24164,12 +24224,15 @@ EL,E30-01(ES-11),Earthig & Lightning Work T,0
 MES,E-3001-1,Exchanger,0
 MES,E-3001-1,Plate Heat Exchanger,0
 MES,E-3001-1,Package Mechanical,0
+MES,E-3001-1,Piping to Eq. Report(MES),1
 MES,E-3001-2,Exchanger,0
 MES,E-3001-2,Plate Heat Exchanger,0
 MES,E-3001-2,Package Mechanical,0
+MES,E-3001-2,Piping to Eq. Report(MES),1
 MES,E-3001-3,Exchanger,0
 MES,E-3001-3,Plate Heat Exchanger,0
 MES,E-3001-3,Package Mechanical,0
+MES,E-3001-3,Piping to Eq. Report(MES),1
 EL,E30-02(ES-01),Earthig & Lightning Work T,1
 EL,E30-02(ES-01),Earthig & Lightning Work T,0
 EL,E30-02(ES-03),Earthig & Lightning Work T,0
@@ -24205,12 +24268,15 @@ EL,E30-03(ES-11),Earthig & Lightning Work T,0
 MES,E-3003-1,Exchanger,0
 MES,E-3003-1,Plate Heat Exchanger,0
 MES,E-3003-1,Package Mechanical,0
+MES,E-3003-1,Piping to Eq. Report(MES),1
 MES,E-3003-2,Exchanger,0
 MES,E-3003-2,Plate Heat Exchanger,0
 MES,E-3003-2,Package Mechanical,0
+MES,E-3003-2,Piping to Eq. Report(MES),1
 MES,E-3003-3,Exchanger,0
 MES,E-3003-3,Plate Heat Exchanger,0
 MES,E-3003-3,Package Mechanical,0
+MES,E-3003-3,Piping to Eq. Report(MES),1
 EL,E30-04(ES-01),Earthig & Lightning Work T,1
 EL,E30-04(ES-01),Earthig & Lightning Work T,0
 EL,E30-04(ES-04),Earthig & Lightning Work T,0
@@ -24298,6 +24364,7 @@ EL,E3-01,Earthig & Lightning Work T,0
 MES,E-3010,Exchanger,0
 MES,E-3010,Plate Heat Exchanger,0
 MES,E-3010,Package Mechanical,0
+MES,E-3010,Piping to Eq. Report(MES),0
 EL,E30-10(ES-01),Earthig & Lightning Work T,1
 EL,E30-10(ES-01),Earthig & Lightning Work T,0
 EL,E30-10(ES-06),Earthig & Lightning Work T,0
@@ -24333,6 +24400,7 @@ EL,E30-109,Earthig & Lightning Work T,0
 MES,E-3011,Exchanger,0
 MES,E-3011,Plate Heat Exchanger,0
 MES,E-3011,Package Mechanical,0
+MES,E-3011,Piping to Eq. Report(MES),0
 EL,E30-11(ES-06),Earthig & Lightning Work T,0
 EL,E30-11(ES-06),Earthig & Lightning Work T,0
 EL,E30-11(ES-07),Earthig & Lightning Work T,0
@@ -24356,6 +24424,7 @@ EL,E30-114,Earthig & Lightning Work T,0
 MES,E-3012,Exchanger,0
 MES,E-3012,Plate Heat Exchanger,0
 MES,E-3012,Package Mechanical,0
+MES,E-3012,Piping to Eq. Report(MES),0
 EL,E30-12(ES-06),Earthig & Lightning Work T,0
 EL,E30-12(ES-06),Earthig & Lightning Work T,0
 EL,E30-12(ES-07),Earthig & Lightning Work T,0
@@ -24369,6 +24438,7 @@ EL,E30-12(ES-11),Earthig & Lightning Work T,0
 MES,E-3013,Exchanger,0
 MES,E-3013,Plate Heat Exchanger,0
 MES,E-3013,Package Mechanical,0
+MES,E-3013,Piping to Eq. Report(MES),0
 EL,E30-13(ES-06),Earthig & Lightning Work T,0
 EL,E30-13(ES-06),Earthig & Lightning Work T,0
 EL,E30-13(ES-07),Earthig & Lightning Work T,0
@@ -25758,39 +25828,51 @@ EL,E48-12,Earthig & Lightning Work T,0
 MES,E-5001,Exchanger,0
 MES,E-5001,Plate Heat Exchanger,0
 MES,E-5001,Package Mechanical,0
+MES,E-5001,Piping to Eq. Report(MES),1
 MES,E-5002-1,Exchanger,0
 MES,E-5002-1,Plate Heat Exchanger,0
 MES,E-5002-1,Package Mechanical,0
+MES,E-5002-1,Piping to Eq. Report(MES),1
 MES,E-5002-2,Exchanger,0
 MES,E-5002-2,Plate Heat Exchanger,0
 MES,E-5002-2,Package Mechanical,0
+MES,E-5002-2,Piping to Eq. Report(MES),1
 MES,E-5002-3,Exchanger,0
 MES,E-5002-3,Plate Heat Exchanger,0
 MES,E-5002-3,Package Mechanical,0
+MES,E-5002-3,Piping to Eq. Report(MES),1
 MES,E-5002-4,Exchanger,0
 MES,E-5002-4,Plate Heat Exchanger,0
 MES,E-5002-4,Package Mechanical,0
+MES,E-5002-4,Piping to Eq. Report(MES),1
 MES,E-5003-1,Exchanger,0
 MES,E-5003-1,Plate Heat Exchanger,0
 MES,E-5003-1,Package Mechanical,0
+MES,E-5003-1,Piping to Eq. Report(MES),1
 MES,E-5003-2,Exchanger,0
 MES,E-5003-2,Plate Heat Exchanger,0
 MES,E-5003-2,Package Mechanical,0
+MES,E-5003-2,Piping to Eq. Report(MES),1
 MES,E-5007,Exchanger,0
 MES,E-5007,Plate Heat Exchanger,0
 MES,E-5007,Package Mechanical,0
+MES,E-5007,Piping to Eq. Report(MES),0
 MES,E-5008,Exchanger,0
 MES,E-5008,Plate Heat Exchanger,0
 MES,E-5008,Package Mechanical,0
+MES,E-5008,Piping to Eq. Report(MES),0
 MES,E-5010,Exchanger,0
 MES,E-5010,Plate Heat Exchanger,0
 MES,E-5010,Package Mechanical,0
+MES,E-5010,Piping to Eq. Report(MES),1
 MES,E-5011,Exchanger,0
 MES,E-5011,Plate Heat Exchanger,0
 MES,E-5011,Package Mechanical,0
+MES,E-5011,Piping to Eq. Report(MES),0
 MES,E-5012,Exchanger,0
 MES,E-5012,Plate Heat Exchanger,0
 MES,E-5012,Package Mechanical,0
+MES,E-5012,Piping to Eq. Report(MES),1
 EL,E51-01(ES-03),Earthig & Lightning Work T,0
 EL,E51-01(ES-03),Earthig & Lightning Work T,0
 EL,E51-01(ES-07),Earthig & Lightning Work T,0
@@ -26334,21 +26416,25 @@ EL,E58-WH-05,Earthig & Lightning Work T,0
 MES,E-6001,Exchanger,0
 MES,E-6001,Plate Heat Exchanger,0
 MES,E-6001,Package Mechanical,0
+MES,E-6001,Piping to Eq. Report(MES),0
 EL,E60-01,Earthig & Lightning Work T,0
 EL,E60-01,Earthig & Lightning Work T,0
 MES,E-6002,Exchanger,0
 MES,E-6002,Plate Heat Exchanger,0
 MES,E-6002,Package Mechanical,0
+MES,E-6002,Piping to Eq. Report(MES),0
 EL,E60-02,Earthig & Lightning Work T,0
 EL,E60-02,Earthig & Lightning Work T,0
 MES,E-6003,Exchanger,0
 MES,E-6003,Plate Heat Exchanger,0
 MES,E-6003,Package Mechanical,0
+MES,E-6003,Piping to Eq. Report(MES),0
 EL,E60-03,Earthig & Lightning Work T,0
 EL,E60-03,Earthig & Lightning Work T,0
 MES,E-6004,Exchanger,0
 MES,E-6004,Plate Heat Exchanger,0
 MES,E-6004,Package Mechanical,0
+MES,E-6004,Piping to Eq. Report(MES),0
 EL,E60-04,Earthig & Lightning Work T,0
 EL,E60-04,Earthig & Lightning Work T,0
 EL,E60-05,Earthig & Lightning Work T,0
@@ -26438,6 +26524,7 @@ EL,E63-08,Earthig & Lightning Work T,0
 MES,E-7001,Exchanger,0
 MES,E-7001,Plate Heat Exchanger,0
 MES,E-7001,Package Mechanical,0
+MES,E-7001,Piping to Eq. Report(MES),0
 EL,E8-01(ES-02),Earthig & Lightning Work T,0
 EL,E8-01(ES-02),Earthig & Lightning Work T,0
 EL,E8-01(ES-05),Earthig & Lightning Work T,0
@@ -34147,16 +34234,19 @@ MES,FI-8001A,Catalyst Loading,0
 MES,FI-8001A,Final Box Up,0
 MES,FI-8001A,Package Mechanical,0
 MES,FI-8001A,Ejector,0
+MES,FI-8001A,Piping to Eq. Report(MES),0
 MES,FI-8001B,Internal Cleaning Report,0
 MES,FI-8001B,Catalyst Loading,0
 MES,FI-8001B,Final Box Up,0
 MES,FI-8001B,Package Mechanical,0
 MES,FI-8001B,Ejector,0
+MES,FI-8001B,Piping to Eq. Report(MES),0
 MES,FI-8001C,Internal Cleaning Report,0
 MES,FI-8001C,Catalyst Loading,0
 MES,FI-8001C,Final Box Up,0
 MES,FI-8001C,Package Mechanical,0
 MES,FI-8001C,Ejector,0
+MES,FI-8001C,Piping to Eq. Report(MES),0
 IN,FI-8401,CALIBRATION RECORD FLOW ELEMENT,0
 IN,FI-8401,IN LINE INSTRUMENT INSTALLATION,0
 IN,FI-8402,CALIBRATION RECORD FLOW ELEMENT,0
@@ -37381,14 +37471,19 @@ CV,Initial Architecture(Ground Floor BLD-06),lintel of Door and Window,0
 MES,INLET MANIFOLD,Internal Cleaning Report,0
 MES,INLET MANIFOLD,Final Box Up,0
 MES,INLET MANIFOLD,Package Mechanical,0
+MES,INLET MANIFOLD,Piping to Eq. Report(MES),0
 MES,J-3001,Package Mechanical,0
 MES,J-3001,Silencer,0
+MES,J-3001,Piping to Eq. Report(MES),0
 MES,J-3002-1,Package Mechanical,0
 MES,J-3002-1,Silencer,0
+MES,J-3002-1,Piping to Eq. Report(MES),0
 MES,J-3002-2,Package Mechanical,0
 MES,J-3002-2,Silencer,0
+MES,J-3002-2,Piping to Eq. Report(MES),0
 MES,J-3002-3,Package Mechanical,0
 MES,J-3002-3,Silencer,0
+MES,J-3002-3,Piping to Eq. Report(MES),0
 IN,JIAE-1001,JUNCTION BOX INSTALLATION INSPECTION,1
 IN,JIAE-2001,JUNCTION BOX INSTALLATION INSPECTION,1
 IN,JIAE-2002,JUNCTION BOX INSTALLATION INSPECTION,1
@@ -42690,6 +42785,7 @@ MER,P-0001A,Reciprocating Pump,0
 MER,P-0001A,Vertical Centrifugal Pump,0
 MER,P-0001A,Mechanical Metering Pump,0
 MER,P-0001A,Steam Turbine Drive,0
+MER,P-0001A,Piping to Eq. Report(MER),0
 MER,P-0001B,Final Alignment Report,0
 MER,P-0001B,Oil Flushing Detail,0
 MER,P-0001B,Oil Flushing Activity,0
@@ -42699,6 +42795,7 @@ MER,P-0001B,Reciprocating Pump,0
 MER,P-0001B,Vertical Centrifugal Pump,0
 MER,P-0001B,Mechanical Metering Pump,0
 MER,P-0001B,Steam Turbine Drive,0
+MER,P-0001B,Piping to Eq. Report(MER),0
 MER,P-2001A,Final Alignment Report,0
 MER,P-2001A,Oil Flushing Detail,0
 MER,P-2001A,Oil Flushing Activity,0
@@ -42708,6 +42805,7 @@ MER,P-2001A,Reciprocating Pump,0
 MER,P-2001A,Vertical Centrifugal Pump,0
 MER,P-2001A,Mechanical Metering Pump,0
 MER,P-2001A,Steam Turbine Drive,0
+MER,P-2001A,Piping to Eq. Report(MER),0
 MER,P-2001B,Final Alignment Report,0
 MER,P-2001B,Oil Flushing Detail,0
 MER,P-2001B,Oil Flushing Activity,0
@@ -42717,6 +42815,7 @@ MER,P-2001B,Reciprocating Pump,0
 MER,P-2001B,Vertical Centrifugal Pump,0
 MER,P-2001B,Mechanical Metering Pump,0
 MER,P-2001B,Steam Turbine Drive,0
+MER,P-2001B,Piping to Eq. Report(MER),0
 MER,P-2002A,Final Alignment Report,0
 MER,P-2002A,Oil Flushing Detail,0
 MER,P-2002A,Oil Flushing Activity,0
@@ -42726,6 +42825,7 @@ MER,P-2002A,Reciprocating Pump,0
 MER,P-2002A,Vertical Centrifugal Pump,0
 MER,P-2002A,Mechanical Metering Pump,0
 MER,P-2002A,Steam Turbine Drive,0
+MER,P-2002A,Piping to Eq. Report(MER),0
 MER,P-2002B,Final Alignment Report,0
 MER,P-2002B,Oil Flushing Detail,0
 MER,P-2002B,Oil Flushing Activity,0
@@ -42735,6 +42835,7 @@ MER,P-2002B,Reciprocating Pump,0
 MER,P-2002B,Vertical Centrifugal Pump,0
 MER,P-2002B,Mechanical Metering Pump,0
 MER,P-2002B,Steam Turbine Drive,0
+MER,P-2002B,Piping to Eq. Report(MER),0
 MER,P-2003A,Final Alignment Report,0
 MER,P-2003A,Oil Flushing Detail,0
 MER,P-2003A,Oil Flushing Activity,0
@@ -42744,6 +42845,7 @@ MER,P-2003A,Reciprocating Pump,0
 MER,P-2003A,Vertical Centrifugal Pump,0
 MER,P-2003A,Mechanical Metering Pump,0
 MER,P-2003A,Steam Turbine Drive,0
+MER,P-2003A,Piping to Eq. Report(MER),0
 MER,P-2003B,Final Alignment Report,0
 MER,P-2003B,Oil Flushing Detail,0
 MER,P-2003B,Oil Flushing Activity,0
@@ -42753,6 +42855,7 @@ MER,P-2003B,Reciprocating Pump,0
 MER,P-2003B,Vertical Centrifugal Pump,0
 MER,P-2003B,Mechanical Metering Pump,0
 MER,P-2003B,Steam Turbine Drive,0
+MER,P-2003B,Piping to Eq. Report(MER),0
 MER,P-3001A,Final Alignment Report,0
 MER,P-3001A,Oil Flushing Detail,0
 MER,P-3001A,Oil Flushing Activity,0
@@ -42762,6 +42865,7 @@ MER,P-3001A,Reciprocating Pump,0
 MER,P-3001A,Vertical Centrifugal Pump,0
 MER,P-3001A,Mechanical Metering Pump,0
 MER,P-3001A,Steam Turbine Drive,0
+MER,P-3001A,Piping to Eq. Report(MER),0
 MER,P-3011A,Final Alignment Report,0
 MER,P-3011A,Oil Flushing Detail,0
 MER,P-3011A,Oil Flushing Activity,0
@@ -42771,6 +42875,7 @@ MER,P-3011A,Reciprocating Pump,0
 MER,P-3011A,Vertical Centrifugal Pump,0
 MER,P-3011A,Mechanical Metering Pump,0
 MER,P-3011A,Steam Turbine Drive,0
+MER,P-3011A,Piping to Eq. Report(MER),0
 MER,P-3011B,Final Alignment Report,0
 MER,P-3011B,Oil Flushing Detail,0
 MER,P-3011B,Oil Flushing Activity,0
@@ -42780,6 +42885,7 @@ MER,P-3011B,Reciprocating Pump,0
 MER,P-3011B,Vertical Centrifugal Pump,0
 MER,P-3011B,Mechanical Metering Pump,0
 MER,P-3011B,Steam Turbine Drive,0
+MER,P-3011B,Piping to Eq. Report(MER),0
 MER,P-5001A,Final Alignment Report,0
 MER,P-5001A,Oil Flushing Detail,0
 MER,P-5001A,Oil Flushing Activity,0
@@ -42789,6 +42895,7 @@ MER,P-5001A,Reciprocating Pump,0
 MER,P-5001A,Vertical Centrifugal Pump,0
 MER,P-5001A,Mechanical Metering Pump,0
 MER,P-5001A,Steam Turbine Drive,0
+MER,P-5001A,Piping to Eq. Report(MER),0
 MER,P-5001B,Final Alignment Report,0
 MER,P-5001B,Oil Flushing Detail,0
 MER,P-5001B,Oil Flushing Activity,0
@@ -42798,6 +42905,7 @@ MER,P-5001B,Reciprocating Pump,0
 MER,P-5001B,Vertical Centrifugal Pump,0
 MER,P-5001B,Mechanical Metering Pump,0
 MER,P-5001B,Steam Turbine Drive,0
+MER,P-5001B,Piping to Eq. Report(MER),0
 MER,P-5002A,Final Alignment Report,0
 MER,P-5002A,Oil Flushing Detail,0
 MER,P-5002A,Oil Flushing Activity,0
@@ -42807,6 +42915,7 @@ MER,P-5002A,Reciprocating Pump,0
 MER,P-5002A,Vertical Centrifugal Pump,0
 MER,P-5002A,Mechanical Metering Pump,0
 MER,P-5002A,Steam Turbine Drive,0
+MER,P-5002A,Piping to Eq. Report(MER),0
 MER,P-5002B,Final Alignment Report,0
 MER,P-5002B,Oil Flushing Detail,0
 MER,P-5002B,Oil Flushing Activity,0
@@ -42816,6 +42925,7 @@ MER,P-5002B,Reciprocating Pump,0
 MER,P-5002B,Vertical Centrifugal Pump,0
 MER,P-5002B,Mechanical Metering Pump,0
 MER,P-5002B,Steam Turbine Drive,0
+MER,P-5002B,Piping to Eq. Report(MER),0
 MER,P-5003A,Final Alignment Report,0
 MER,P-5003A,Oil Flushing Detail,0
 MER,P-5003A,Oil Flushing Activity,0
@@ -42825,6 +42935,7 @@ MER,P-5003A,Reciprocating Pump,0
 MER,P-5003A,Vertical Centrifugal Pump,0
 MER,P-5003A,Mechanical Metering Pump,0
 MER,P-5003A,Steam Turbine Drive,0
+MER,P-5003A,Piping to Eq. Report(MER),0
 MER,P-5003B,Final Alignment Report,0
 MER,P-5003B,Oil Flushing Detail,0
 MER,P-5003B,Oil Flushing Activity,0
@@ -42834,6 +42945,7 @@ MER,P-5003B,Reciprocating Pump,0
 MER,P-5003B,Vertical Centrifugal Pump,0
 MER,P-5003B,Mechanical Metering Pump,0
 MER,P-5003B,Steam Turbine Drive,0
+MER,P-5003B,Piping to Eq. Report(MER),0
 MER,P-5004A,Final Alignment Report,0
 MER,P-5004A,Oil Flushing Detail,0
 MER,P-5004A,Oil Flushing Activity,0
@@ -42843,6 +42955,7 @@ MER,P-5004A,Reciprocating Pump,0
 MER,P-5004A,Vertical Centrifugal Pump,0
 MER,P-5004A,Mechanical Metering Pump,0
 MER,P-5004A,Steam Turbine Drive,0
+MER,P-5004A,Piping to Eq. Report(MER),0
 MER,P-5004B,Final Alignment Report,0
 MER,P-5004B,Oil Flushing Detail,0
 MER,P-5004B,Oil Flushing Activity,0
@@ -42852,6 +42965,7 @@ MER,P-5004B,Reciprocating Pump,0
 MER,P-5004B,Vertical Centrifugal Pump,0
 MER,P-5004B,Mechanical Metering Pump,0
 MER,P-5004B,Steam Turbine Drive,0
+MER,P-5004B,Piping to Eq. Report(MER),0
 MER,P-5005A,Final Alignment Report,0
 MER,P-5005A,Oil Flushing Detail,0
 MER,P-5005A,Oil Flushing Activity,0
@@ -42861,6 +42975,7 @@ MER,P-5005A,Reciprocating Pump,0
 MER,P-5005A,Vertical Centrifugal Pump,0
 MER,P-5005A,Mechanical Metering Pump,0
 MER,P-5005A,Steam Turbine Drive,0
+MER,P-5005A,Piping to Eq. Report(MER),0
 MER,P-5005B,Final Alignment Report,0
 MER,P-5005B,Oil Flushing Detail,0
 MER,P-5005B,Oil Flushing Activity,0
@@ -42870,6 +42985,7 @@ MER,P-5005B,Reciprocating Pump,0
 MER,P-5005B,Vertical Centrifugal Pump,0
 MER,P-5005B,Mechanical Metering Pump,0
 MER,P-5005B,Steam Turbine Drive,0
+MER,P-5005B,Piping to Eq. Report(MER),0
 MER,P-5006A,Final Alignment Report,0
 MER,P-5006A,Oil Flushing Detail,0
 MER,P-5006A,Oil Flushing Activity,0
@@ -42879,6 +42995,7 @@ MER,P-5006A,Reciprocating Pump,0
 MER,P-5006A,Vertical Centrifugal Pump,0
 MER,P-5006A,Mechanical Metering Pump,0
 MER,P-5006A,Steam Turbine Drive,0
+MER,P-5006A,Piping to Eq. Report(MER),0
 MER,P-5006B,Final Alignment Report,0
 MER,P-5006B,Oil Flushing Detail,0
 MER,P-5006B,Oil Flushing Activity,0
@@ -42888,6 +43005,7 @@ MER,P-5006B,Reciprocating Pump,0
 MER,P-5006B,Vertical Centrifugal Pump,0
 MER,P-5006B,Mechanical Metering Pump,0
 MER,P-5006B,Steam Turbine Drive,0
+MER,P-5006B,Piping to Eq. Report(MER),0
 MER,P-5007A,Final Alignment Report,0
 MER,P-5007A,Oil Flushing Detail,0
 MER,P-5007A,Oil Flushing Activity,0
@@ -42897,6 +43015,7 @@ MER,P-5007A,Reciprocating Pump,0
 MER,P-5007A,Vertical Centrifugal Pump,0
 MER,P-5007A,Mechanical Metering Pump,0
 MER,P-5007A,Steam Turbine Drive,0
+MER,P-5007A,Piping to Eq. Report(MER),0
 MER,P-5007B,Final Alignment Report,0
 MER,P-5007B,Oil Flushing Detail,0
 MER,P-5007B,Oil Flushing Activity,0
@@ -42906,6 +43025,7 @@ MER,P-5007B,Reciprocating Pump,0
 MER,P-5007B,Vertical Centrifugal Pump,0
 MER,P-5007B,Mechanical Metering Pump,0
 MER,P-5007B,Steam Turbine Drive,0
+MER,P-5007B,Piping to Eq. Report(MER),0
 MER,P-5008A,Final Alignment Report,0
 MER,P-5008A,Oil Flushing Detail,0
 MER,P-5008A,Oil Flushing Activity,0
@@ -42915,6 +43035,7 @@ MER,P-5008A,Reciprocating Pump,0
 MER,P-5008A,Vertical Centrifugal Pump,0
 MER,P-5008A,Mechanical Metering Pump,0
 MER,P-5008A,Steam Turbine Drive,0
+MER,P-5008A,Piping to Eq. Report(MER),0
 MER,P-5008B,Final Alignment Report,0
 MER,P-5008B,Oil Flushing Detail,0
 MER,P-5008B,Oil Flushing Activity,0
@@ -42924,6 +43045,7 @@ MER,P-5008B,Reciprocating Pump,0
 MER,P-5008B,Vertical Centrifugal Pump,0
 MER,P-5008B,Mechanical Metering Pump,0
 MER,P-5008B,Steam Turbine Drive,0
+MER,P-5008B,Piping to Eq. Report(MER),0
 MER,P-5009A,Final Alignment Report,0
 MER,P-5009A,Oil Flushing Detail,0
 MER,P-5009A,Oil Flushing Activity,0
@@ -42933,6 +43055,7 @@ MER,P-5009A,Reciprocating Pump,0
 MER,P-5009A,Vertical Centrifugal Pump,0
 MER,P-5009A,Mechanical Metering Pump,0
 MER,P-5009A,Steam Turbine Drive,0
+MER,P-5009A,Piping to Eq. Report(MER),0
 MER,P-5009B,Final Alignment Report,0
 MER,P-5009B,Oil Flushing Detail,0
 MER,P-5009B,Oil Flushing Activity,0
@@ -42942,6 +43065,7 @@ MER,P-5009B,Reciprocating Pump,0
 MER,P-5009B,Vertical Centrifugal Pump,0
 MER,P-5009B,Mechanical Metering Pump,0
 MER,P-5009B,Steam Turbine Drive,0
+MER,P-5009B,Piping to Eq. Report(MER),0
 MER,P-5010A,Final Alignment Report,0
 MER,P-5010A,Oil Flushing Detail,0
 MER,P-5010A,Oil Flushing Activity,0
@@ -42951,6 +43075,7 @@ MER,P-5010A,Reciprocating Pump,0
 MER,P-5010A,Vertical Centrifugal Pump,0
 MER,P-5010A,Mechanical Metering Pump,0
 MER,P-5010A,Steam Turbine Drive,0
+MER,P-5010A,Piping to Eq. Report(MER),0
 MER,P-5010B,Final Alignment Report,0
 MER,P-5010B,Oil Flushing Detail,0
 MER,P-5010B,Oil Flushing Activity,0
@@ -42960,6 +43085,7 @@ MER,P-5010B,Reciprocating Pump,0
 MER,P-5010B,Vertical Centrifugal Pump,0
 MER,P-5010B,Mechanical Metering Pump,0
 MER,P-5010B,Steam Turbine Drive,0
+MER,P-5010B,Piping to Eq. Report(MER),0
 MER,P-5011A,Final Alignment Report,0
 MER,P-5011A,Oil Flushing Detail,0
 MER,P-5011A,Oil Flushing Activity,0
@@ -42969,6 +43095,7 @@ MER,P-5011A,Reciprocating Pump,0
 MER,P-5011A,Vertical Centrifugal Pump,0
 MER,P-5011A,Mechanical Metering Pump,0
 MER,P-5011A,Steam Turbine Drive,0
+MER,P-5011A,Piping to Eq. Report(MER),0
 MER,P-5011B,Final Alignment Report,0
 MER,P-5011B,Oil Flushing Detail,0
 MER,P-5011B,Oil Flushing Activity,0
@@ -42978,6 +43105,7 @@ MER,P-5011B,Reciprocating Pump,0
 MER,P-5011B,Vertical Centrifugal Pump,0
 MER,P-5011B,Mechanical Metering Pump,0
 MER,P-5011B,Steam Turbine Drive,0
+MER,P-5011B,Piping to Eq. Report(MER),0
 MER,P-5012A,Final Alignment Report,0
 MER,P-5012A,Oil Flushing Detail,0
 MER,P-5012A,Oil Flushing Activity,0
@@ -42987,6 +43115,7 @@ MER,P-5012A,Reciprocating Pump,0
 MER,P-5012A,Vertical Centrifugal Pump,0
 MER,P-5012A,Mechanical Metering Pump,0
 MER,P-5012A,Steam Turbine Drive,0
+MER,P-5012A,Piping to Eq. Report(MER),0
 MER,P-5012B,Final Alignment Report,0
 MER,P-5012B,Oil Flushing Detail,0
 MER,P-5012B,Oil Flushing Activity,0
@@ -42996,6 +43125,7 @@ MER,P-5012B,Reciprocating Pump,0
 MER,P-5012B,Vertical Centrifugal Pump,0
 MER,P-5012B,Mechanical Metering Pump,0
 MER,P-5012B,Steam Turbine Drive,0
+MER,P-5012B,Piping to Eq. Report(MER),0
 MER,P-6001A,Final Alignment Report,0
 MER,P-6001A,Oil Flushing Detail,0
 MER,P-6001A,Oil Flushing Activity,0
@@ -43005,6 +43135,7 @@ MER,P-6001A,Reciprocating Pump,0
 MER,P-6001A,Vertical Centrifugal Pump,0
 MER,P-6001A,Mechanical Metering Pump,0
 MER,P-6001A,Steam Turbine Drive,0
+MER,P-6001A,Piping to Eq. Report(MER),0
 MER,P-6001B,Final Alignment Report,0
 MER,P-6001B,Oil Flushing Detail,0
 MER,P-6001B,Oil Flushing Activity,0
@@ -43014,6 +43145,7 @@ MER,P-6001B,Reciprocating Pump,0
 MER,P-6001B,Vertical Centrifugal Pump,0
 MER,P-6001B,Mechanical Metering Pump,0
 MER,P-6001B,Steam Turbine Drive,0
+MER,P-6001B,Piping to Eq. Report(MER),0
 MER,P-6002A,Final Alignment Report,0
 MER,P-6002A,Oil Flushing Detail,0
 MER,P-6002A,Oil Flushing Activity,0
@@ -43023,6 +43155,7 @@ MER,P-6002A,Reciprocating Pump,0
 MER,P-6002A,Vertical Centrifugal Pump,0
 MER,P-6002A,Mechanical Metering Pump,0
 MER,P-6002A,Steam Turbine Drive,0
+MER,P-6002A,Piping to Eq. Report(MER),0
 MER,P-6002B,Final Alignment Report,0
 MER,P-6002B,Oil Flushing Detail,0
 MER,P-6002B,Oil Flushing Activity,0
@@ -43032,6 +43165,7 @@ MER,P-6002B,Reciprocating Pump,0
 MER,P-6002B,Vertical Centrifugal Pump,0
 MER,P-6002B,Mechanical Metering Pump,0
 MER,P-6002B,Steam Turbine Drive,0
+MER,P-6002B,Piping to Eq. Report(MER),0
 MER,P-6002C,Final Alignment Report,0
 MER,P-6002C,Oil Flushing Detail,0
 MER,P-6002C,Oil Flushing Activity,0
@@ -43041,6 +43175,7 @@ MER,P-6002C,Reciprocating Pump,0
 MER,P-6002C,Vertical Centrifugal Pump,0
 MER,P-6002C,Mechanical Metering Pump,0
 MER,P-6002C,Steam Turbine Drive,0
+MER,P-6002C,Piping to Eq. Report(MER),0
 MER,P-7001A,Final Alignment Report,0
 MER,P-7001A,Oil Flushing Detail,0
 MER,P-7001A,Oil Flushing Activity,0
@@ -43050,6 +43185,7 @@ MER,P-7001A,Reciprocating Pump,0
 MER,P-7001A,Vertical Centrifugal Pump,0
 MER,P-7001A,Mechanical Metering Pump,0
 MER,P-7001A,Steam Turbine Drive,0
+MER,P-7001A,Piping to Eq. Report(MER),0
 MER,P-7001A-Lub-Oil-Unit,Final Alignment Report,0
 MER,P-7001A-Lub-Oil-Unit,Oil Flushing Detail,0
 MER,P-7001A-Lub-Oil-Unit,Oil Flushing Activity,0
@@ -43059,6 +43195,7 @@ MER,P-7001A-Lub-Oil-Unit,Reciprocating Pump,0
 MER,P-7001A-Lub-Oil-Unit,Vertical Centrifugal Pump,0
 MER,P-7001A-Lub-Oil-Unit,Mechanical Metering Pump,0
 MER,P-7001A-Lub-Oil-Unit,Steam Turbine Drive,0
+MER,P-7001A-Lub-Oil-Unit,Piping to Eq. Report(MER),0
 MER,P-7001B,Final Alignment Report,0
 MER,P-7001B,Oil Flushing Detail,0
 MER,P-7001B,Oil Flushing Activity,0
@@ -43068,6 +43205,7 @@ MER,P-7001B,Reciprocating Pump,0
 MER,P-7001B,Vertical Centrifugal Pump,0
 MER,P-7001B,Mechanical Metering Pump,0
 MER,P-7001B,Steam Turbine Drive,0
+MER,P-7001B,Piping to Eq. Report(MER),0
 MER,P-7001B-Lub-Oil-Unit,Final Alignment Report,0
 MER,P-7001B-Lub-Oil-Unit,Oil Flushing Detail,0
 MER,P-7001B-Lub-Oil-Unit,Oil Flushing Activity,0
@@ -43077,6 +43215,7 @@ MER,P-7001B-Lub-Oil-Unit,Reciprocating Pump,0
 MER,P-7001B-Lub-Oil-Unit,Vertical Centrifugal Pump,0
 MER,P-7001B-Lub-Oil-Unit,Mechanical Metering Pump,0
 MER,P-7001B-Lub-Oil-Unit,Steam Turbine Drive,0
+MER,P-7001B-Lub-Oil-Unit,Piping to Eq. Report(MER),0
 MER,P-7001C,Final Alignment Report,0
 MER,P-7001C,Oil Flushing Detail,0
 MER,P-7001C,Oil Flushing Activity,0
@@ -43086,6 +43225,7 @@ MER,P-7001C,Reciprocating Pump,0
 MER,P-7001C,Vertical Centrifugal Pump,0
 MER,P-7001C,Mechanical Metering Pump,0
 MER,P-7001C,Steam Turbine Drive,0
+MER,P-7001C,Piping to Eq. Report(MER),0
 MER,P-7001C-Lub-Oil-Unit,Final Alignment Report,0
 MER,P-7001C-Lub-Oil-Unit,Oil Flushing Detail,0
 MER,P-7001C-Lub-Oil-Unit,Oil Flushing Activity,0
@@ -43095,6 +43235,7 @@ MER,P-7001C-Lub-Oil-Unit,Reciprocating Pump,0
 MER,P-7001C-Lub-Oil-Unit,Vertical Centrifugal Pump,0
 MER,P-7001C-Lub-Oil-Unit,Mechanical Metering Pump,0
 MER,P-7001C-Lub-Oil-Unit,Steam Turbine Drive,0
+MER,P-7001C-Lub-Oil-Unit,Piping to Eq. Report(MER),0
 EL,P7001C-MF-1,Miscellaeous-LCS,1
 EL,P7001C-MF-1,Miscellaeous-LCS test,0
 EL,P7001C-MP-1A,Miscellaeous-LCS,1
@@ -43110,6 +43251,7 @@ MER,P-7002A,Reciprocating Pump,0
 MER,P-7002A,Vertical Centrifugal Pump,0
 MER,P-7002A,Mechanical Metering Pump,0
 MER,P-7002A,Steam Turbine Drive,0
+MER,P-7002A,Piping to Eq. Report(MER),0
 MER,P-7002B,Final Alignment Report,0
 MER,P-7002B,Oil Flushing Detail,0
 MER,P-7002B,Oil Flushing Activity,0
@@ -43119,6 +43261,7 @@ MER,P-7002B,Reciprocating Pump,0
 MER,P-7002B,Vertical Centrifugal Pump,0
 MER,P-7002B,Mechanical Metering Pump,0
 MER,P-7002B,Steam Turbine Drive,0
+MER,P-7002B,Piping to Eq. Report(MER),0
 MER,P-7003A,Final Alignment Report,0
 MER,P-7003A,Oil Flushing Detail,0
 MER,P-7003A,Oil Flushing Activity,0
@@ -43128,6 +43271,7 @@ MER,P-7003A,Reciprocating Pump,0
 MER,P-7003A,Vertical Centrifugal Pump,0
 MER,P-7003A,Mechanical Metering Pump,0
 MER,P-7003A,Steam Turbine Drive,0
+MER,P-7003A,Piping to Eq. Report(MER),0
 MER,P-7003B,Final Alignment Report,0
 MER,P-7003B,Oil Flushing Detail,0
 MER,P-7003B,Oil Flushing Activity,0
@@ -43137,6 +43281,7 @@ MER,P-7003B,Reciprocating Pump,0
 MER,P-7003B,Vertical Centrifugal Pump,0
 MER,P-7003B,Mechanical Metering Pump,0
 MER,P-7003B,Steam Turbine Drive,0
+MER,P-7003B,Piping to Eq. Report(MER),0
 MER,P-7004A,Final Alignment Report,0
 MER,P-7004A,Oil Flushing Detail,0
 MER,P-7004A,Oil Flushing Activity,0
@@ -43146,6 +43291,7 @@ MER,P-7004A,Reciprocating Pump,0
 MER,P-7004A,Vertical Centrifugal Pump,0
 MER,P-7004A,Mechanical Metering Pump,0
 MER,P-7004A,Steam Turbine Drive,0
+MER,P-7004A,Piping to Eq. Report(MER),0
 MER,P-7004B,Final Alignment Report,0
 MER,P-7004B,Oil Flushing Detail,0
 MER,P-7004B,Oil Flushing Activity,0
@@ -43155,6 +43301,7 @@ MER,P-7004B,Reciprocating Pump,0
 MER,P-7004B,Vertical Centrifugal Pump,0
 MER,P-7004B,Mechanical Metering Pump,0
 MER,P-7004B,Steam Turbine Drive,0
+MER,P-7004B,Piping to Eq. Report(MER),0
 MER,P-7101A,Final Alignment Report,0
 MER,P-7101A,Oil Flushing Detail,0
 MER,P-7101A,Oil Flushing Activity,0
@@ -43164,6 +43311,7 @@ MER,P-7101A,Reciprocating Pump,0
 MER,P-7101A,Vertical Centrifugal Pump,0
 MER,P-7101A,Mechanical Metering Pump,0
 MER,P-7101A,Steam Turbine Drive,0
+MER,P-7101A,Piping to Eq. Report(MER),0
 MER,P-7101B,Final Alignment Report,0
 MER,P-7101B,Oil Flushing Detail,0
 MER,P-7101B,Oil Flushing Activity,0
@@ -43173,6 +43321,7 @@ MER,P-7101B,Reciprocating Pump,0
 MER,P-7101B,Vertical Centrifugal Pump,0
 MER,P-7101B,Mechanical Metering Pump,0
 MER,P-7101B,Steam Turbine Drive,0
+MER,P-7101B,Piping to Eq. Report(MER),0
 MER,P-7502A,Final Alignment Report,0
 MER,P-7502A,Oil Flushing Detail,0
 MER,P-7502A,Oil Flushing Activity,0
@@ -43182,6 +43331,7 @@ MER,P-7502A,Reciprocating Pump,0
 MER,P-7502A,Vertical Centrifugal Pump,0
 MER,P-7502A,Mechanical Metering Pump,0
 MER,P-7502A,Steam Turbine Drive,0
+MER,P-7502A,Piping to Eq. Report(MER),0
 MER,P-7502B,Final Alignment Report,0
 MER,P-7502B,Oil Flushing Detail,0
 MER,P-7502B,Oil Flushing Activity,0
@@ -43191,6 +43341,7 @@ MER,P-7502B,Reciprocating Pump,0
 MER,P-7502B,Vertical Centrifugal Pump,0
 MER,P-7502B,Mechanical Metering Pump,0
 MER,P-7502B,Steam Turbine Drive,0
+MER,P-7502B,Piping to Eq. Report(MER),0
 MER,P-7503A,Final Alignment Report,0
 MER,P-7503A,Oil Flushing Detail,0
 MER,P-7503A,Oil Flushing Activity,0
@@ -43200,6 +43351,7 @@ MER,P-7503A,Reciprocating Pump,0
 MER,P-7503A,Vertical Centrifugal Pump,0
 MER,P-7503A,Mechanical Metering Pump,0
 MER,P-7503A,Steam Turbine Drive,0
+MER,P-7503A,Piping to Eq. Report(MER),0
 MER,P-7503B,Final Alignment Report,0
 MER,P-7503B,Oil Flushing Detail,0
 MER,P-7503B,Oil Flushing Activity,0
@@ -43209,6 +43361,7 @@ MER,P-7503B,Reciprocating Pump,0
 MER,P-7503B,Vertical Centrifugal Pump,0
 MER,P-7503B,Mechanical Metering Pump,0
 MER,P-7503B,Steam Turbine Drive,0
+MER,P-7503B,Piping to Eq. Report(MER),0
 MER,P-7504A,Final Alignment Report,0
 MER,P-7504A,Oil Flushing Detail,0
 MER,P-7504A,Oil Flushing Activity,0
@@ -43218,6 +43371,7 @@ MER,P-7504A,Reciprocating Pump,0
 MER,P-7504A,Vertical Centrifugal Pump,0
 MER,P-7504A,Mechanical Metering Pump,0
 MER,P-7504A,Steam Turbine Drive,0
+MER,P-7504A,Piping to Eq. Report(MER),0
 MER,P-7505A,Final Alignment Report,0
 MER,P-7505A,Oil Flushing Detail,0
 MER,P-7505A,Oil Flushing Activity,0
@@ -43227,7 +43381,8 @@ MER,P-7505A,Reciprocating Pump,0
 MER,P-7505A,Vertical Centrifugal Pump,0
 MER,P-7505A,Mechanical Metering Pump,0
 MER,P-7505A,Steam Turbine Drive,0
-MER,P-7506A,Final Alignment Report,0
+MER,P-7505A,Piping to Eq. Report(MER),0
+MER,P-7506A,Final Alignment Report,1
 MER,P-7506A,Oil Flushing Detail,0
 MER,P-7506A,Oil Flushing Activity,0
 MER,P-7506A,Lube Oil Package,0
@@ -43236,7 +43391,8 @@ MER,P-7506A,Reciprocating Pump,0
 MER,P-7506A,Vertical Centrifugal Pump,0
 MER,P-7506A,Mechanical Metering Pump,0
 MER,P-7506A,Steam Turbine Drive,0
-MER,P-7506B,Final Alignment Report,0
+MER,P-7506A,Piping to Eq. Report(MER),1
+MER,P-7506B,Final Alignment Report,1
 MER,P-7506B,Oil Flushing Detail,0
 MER,P-7506B,Oil Flushing Activity,0
 MER,P-7506B,Lube Oil Package,0
@@ -43245,6 +43401,7 @@ MER,P-7506B,Reciprocating Pump,0
 MER,P-7506B,Vertical Centrifugal Pump,0
 MER,P-7506B,Mechanical Metering Pump,0
 MER,P-7506B,Steam Turbine Drive,0
+MER,P-7506B,Piping to Eq. Report(MER),1
 MER,P-8001A,Final Alignment Report,0
 MER,P-8001A,Oil Flushing Detail,0
 MER,P-8001A,Oil Flushing Activity,0
@@ -43254,6 +43411,7 @@ MER,P-8001A,Reciprocating Pump,0
 MER,P-8001A,Vertical Centrifugal Pump,0
 MER,P-8001A,Mechanical Metering Pump,0
 MER,P-8001A,Steam Turbine Drive,0
+MER,P-8001A,Piping to Eq. Report(MER),0
 MER,P-8001A-Lub-Oil-Unit,Final Alignment Report,0
 MER,P-8001A-Lub-Oil-Unit,Oil Flushing Detail,0
 MER,P-8001A-Lub-Oil-Unit,Oil Flushing Activity,0
@@ -43263,6 +43421,7 @@ MER,P-8001A-Lub-Oil-Unit,Reciprocating Pump,0
 MER,P-8001A-Lub-Oil-Unit,Vertical Centrifugal Pump,0
 MER,P-8001A-Lub-Oil-Unit,Mechanical Metering Pump,0
 MER,P-8001A-Lub-Oil-Unit,Steam Turbine Drive,0
+MER,P-8001A-Lub-Oil-Unit,Piping to Eq. Report(MER),0
 MER,P-8001B,Final Alignment Report,0
 MER,P-8001B,Oil Flushing Detail,0
 MER,P-8001B,Oil Flushing Activity,0
@@ -43272,6 +43431,7 @@ MER,P-8001B,Reciprocating Pump,0
 MER,P-8001B,Vertical Centrifugal Pump,0
 MER,P-8001B,Mechanical Metering Pump,0
 MER,P-8001B,Steam Turbine Drive,0
+MER,P-8001B,Piping to Eq. Report(MER),0
 MER,P-8001B-Lub-Oil-Unit,Final Alignment Report,0
 MER,P-8001B-Lub-Oil-Unit,Oil Flushing Detail,0
 MER,P-8001B-Lub-Oil-Unit,Oil Flushing Activity,0
@@ -43281,7 +43441,8 @@ MER,P-8001B-Lub-Oil-Unit,Reciprocating Pump,0
 MER,P-8001B-Lub-Oil-Unit,Vertical Centrifugal Pump,0
 MER,P-8001B-Lub-Oil-Unit,Mechanical Metering Pump,0
 MER,P-8001B-Lub-Oil-Unit,Steam Turbine Drive,0
-MER,P-8001C,Final Alignment Report,0
+MER,P-8001B-Lub-Oil-Unit,Piping to Eq. Report(MER),0
+MER,P-8001C,Final Alignment Report,1
 MER,P-8001C,Oil Flushing Detail,0
 MER,P-8001C,Oil Flushing Activity,0
 MER,P-8001C,Lube Oil Package,0
@@ -43290,7 +43451,8 @@ MER,P-8001C,Reciprocating Pump,0
 MER,P-8001C,Vertical Centrifugal Pump,0
 MER,P-8001C,Mechanical Metering Pump,0
 MER,P-8001C,Steam Turbine Drive,0
-MER,P-8001D,Final Alignment Report,0
+MER,P-8001C,Piping to Eq. Report(MER),1
+MER,P-8001D,Final Alignment Report,1
 MER,P-8001D,Oil Flushing Detail,0
 MER,P-8001D,Oil Flushing Activity,0
 MER,P-8001D,Lube Oil Package,0
@@ -43299,6 +43461,7 @@ MER,P-8001D,Reciprocating Pump,0
 MER,P-8001D,Vertical Centrifugal Pump,0
 MER,P-8001D,Mechanical Metering Pump,0
 MER,P-8001D,Steam Turbine Drive,0
+MER,P-8001D,Piping to Eq. Report(MER),1
 MER,P-8401-P2B,Final Alignment Report,0
 MER,P-8401-P2B,Oil Flushing Detail,0
 MER,P-8401-P2B,Oil Flushing Activity,0
@@ -43308,6 +43471,7 @@ MER,P-8401-P2B,Reciprocating Pump,0
 MER,P-8401-P2B,Vertical Centrifugal Pump,0
 MER,P-8401-P2B,Mechanical Metering Pump,0
 MER,P-8401-P2B,Steam Turbine Drive,0
+MER,P-8401-P2B,Piping to Eq. Report(MER),0
 MER,P-8402A,Final Alignment Report,0
 MER,P-8402A,Oil Flushing Detail,0
 MER,P-8402A,Oil Flushing Activity,0
@@ -43317,6 +43481,7 @@ MER,P-8402A,Reciprocating Pump,0
 MER,P-8402A,Vertical Centrifugal Pump,0
 MER,P-8402A,Mechanical Metering Pump,0
 MER,P-8402A,Steam Turbine Drive,0
+MER,P-8402A,Piping to Eq. Report(MER),0
 MER,P-8403A,Final Alignment Report,0
 MER,P-8403A,Oil Flushing Detail,0
 MER,P-8403A,Oil Flushing Activity,0
@@ -43326,6 +43491,7 @@ MER,P-8403A,Reciprocating Pump,0
 MER,P-8403A,Vertical Centrifugal Pump,0
 MER,P-8403A,Mechanical Metering Pump,0
 MER,P-8403A,Steam Turbine Drive,0
+MER,P-8403A,Piping to Eq. Report(MER),0
 MER,P-8403B,Final Alignment Report,0
 MER,P-8403B,Oil Flushing Detail,0
 MER,P-8403B,Oil Flushing Activity,0
@@ -43335,7 +43501,8 @@ MER,P-8403B,Reciprocating Pump,0
 MER,P-8403B,Vertical Centrifugal Pump,0
 MER,P-8403B,Mechanical Metering Pump,0
 MER,P-8403B,Steam Turbine Drive,0
-MER,P-8404A,Final Alignment Report,0
+MER,P-8403B,Piping to Eq. Report(MER),0
+MER,P-8404A,Final Alignment Report,1
 MER,P-8404A,Oil Flushing Detail,0
 MER,P-8404A,Oil Flushing Activity,0
 MER,P-8404A,Lube Oil Package,0
@@ -43344,7 +43511,8 @@ MER,P-8404A,Reciprocating Pump,0
 MER,P-8404A,Vertical Centrifugal Pump,0
 MER,P-8404A,Mechanical Metering Pump,0
 MER,P-8404A,Steam Turbine Drive,0
-MER,P-8404B,Final Alignment Report,0
+MER,P-8404A,Piping to Eq. Report(MER),1
+MER,P-8404B,Final Alignment Report,1
 MER,P-8404B,Oil Flushing Detail,0
 MER,P-8404B,Oil Flushing Activity,0
 MER,P-8404B,Lube Oil Package,0
@@ -43353,6 +43521,7 @@ MER,P-8404B,Reciprocating Pump,0
 MER,P-8404B,Vertical Centrifugal Pump,0
 MER,P-8404B,Mechanical Metering Pump,0
 MER,P-8404B,Steam Turbine Drive,0
+MER,P-8404B,Piping to Eq. Report(MER),1
 MER,P-8405A,Final Alignment Report,0
 MER,P-8405A,Oil Flushing Detail,0
 MER,P-8405A,Oil Flushing Activity,0
@@ -43362,6 +43531,7 @@ MER,P-8405A,Reciprocating Pump,0
 MER,P-8405A,Vertical Centrifugal Pump,0
 MER,P-8405A,Mechanical Metering Pump,0
 MER,P-8405A,Steam Turbine Drive,0
+MER,P-8405A,Piping to Eq. Report(MER),0
 MER,P-8405B,Final Alignment Report,0
 MER,P-8405B,Oil Flushing Detail,0
 MER,P-8405B,Oil Flushing Activity,0
@@ -43371,6 +43541,7 @@ MER,P-8405B,Reciprocating Pump,0
 MER,P-8405B,Vertical Centrifugal Pump,0
 MER,P-8405B,Mechanical Metering Pump,0
 MER,P-8405B,Steam Turbine Drive,0
+MER,P-8405B,Piping to Eq. Report(MER),0
 IN,PCV-0007,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-0007,IN LINE INSTRUMENT INSTALLATION,0
 IN,PCV-0007,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
@@ -45284,10 +45455,12 @@ IN,PIT-30188C(PIT),INSTRUMENT HOOK-UP TUBING INSTALLATION,0
 IN,PIT-30188C(PIT),INSTRUMENT PRESSURE TUBE & PIPE TEST,0
 MES,PK-7502-MB-1A,Final Box Up,0
 MES,PK-7502-MB-1A,Package Mechanical,0
+MES,PK-7502-MB-1A,Piping to Eq. Report(MES),0
 EL,PK7502-MB-1A,Miscellaeous-LCS,1
 EL,PK7502-MB-1A,Miscellaeous-LCS test,0
 MES,PK-7502-MB-1B,Final Box Up,0
 MES,PK-7502-MB-1B,Package Mechanical,0
+MES,PK-7502-MB-1B,Piping to Eq. Report(MES),0
 EL,PK7502-MB-1B,Miscellaeous-LCS,1
 EL,PK7502-MB-1B,Miscellaeous-LCS test,0
 EL,PK7502-MP-1A,Miscellaeous-LCS,0
@@ -45304,12 +45477,16 @@ EL,PK7502-MP-3B,Miscellaeous-LCS,1
 EL,PK7502-MP-3B,Miscellaeous-LCS test,0
 MES,PK-7502-TK-1,Final Box Up,0
 MES,PK-7502-TK-1,Package Mechanical,0
+MES,PK-7502-TK-1,Piping to Eq. Report(MES),0
 MES,PK-7502-TK-2,Final Box Up,0
 MES,PK-7502-TK-2,Package Mechanical,0
+MES,PK-7502-TK-2,Piping to Eq. Report(MES),0
 MES,PK-8001,Final Box Up,0
 MES,PK-8001,Package Mechanical,0
+MES,PK-8001,Piping to Eq. Report(MES),0
 MES,PK-8002,Final Box Up,0
 MES,PK-8002,Package Mechanical,0
+MES,PK-8002,Piping to Eq. Report(MES),0
 EL,PK8002-MP-1A,Miscellaeous-LCS,1
 EL,PK8002-MP-1A,Miscellaeous-LCS test,0
 EL,PK8002-MP-1B,Miscellaeous-LCS,1
@@ -45318,6 +45495,7 @@ EL,PK8002-MX-1,Miscellaeous-LCS,1
 EL,PK8002-MX-1,Miscellaeous-LCS test,0
 MES,PK-8003,Final Box Up,0
 MES,PK-8003,Package Mechanical,0
+MES,PK-8003,Piping to Eq. Report(MES),0
 EL,PK8003-MP-1A,Miscellaeous-LCS,1
 EL,PK8003-MP-1A,Miscellaeous-LCS test,0
 EL,PK8003-MP-1B,Miscellaeous-LCS,1
@@ -45326,6 +45504,7 @@ EL,PK8003-MX-1,Miscellaeous-LCS,1
 EL,PK8003-MX-1,Miscellaeous-LCS test,0
 MES,PK-8004,Final Box Up,0
 MES,PK-8004,Package Mechanical,0
+MES,PK-8004,Piping to Eq. Report(MES),0
 EL,PK8004-MP-1A,Miscellaeous-LCS,1
 EL,PK8004-MP-1A,Miscellaeous-LCS test,0
 EL,PK8004-MP-1B,Miscellaeous-LCS,1
@@ -45334,6 +45513,7 @@ EL,PK8004-MX-1,Miscellaeous-LCS,1
 EL,PK8004-MX-1,Miscellaeous-LCS test,0
 MES,PK-8005,Final Box Up,0
 MES,PK-8005,Package Mechanical,0
+MES,PK-8005,Piping to Eq. Report(MES),0
 EL,PK8005-MP-1A,Miscellaeous-LCS,1
 EL,PK8005-MP-1A,Miscellaeous-LCS test,0
 EL,PK8005-MP-1B,Miscellaeous-LCS,1
@@ -45355,8 +45535,10 @@ MER,PK-8401-P2A,Reciprocating Pump,0
 MER,PK-8401-P2A,Vertical Centrifugal Pump,0
 MER,PK-8401-P2A,Mechanical Metering Pump,0
 MER,PK-8401-P2A,Steam Turbine Drive,0
+MER,PK-8401-P2A,Piping to Eq. Report(MER),0
 MES,PK-9001,Final Box Up,0
 MES,PK-9001,Package Mechanical,0
+MES,PK-9001,Piping to Eq. Report(MES),0
 IN,POS-0001,LOOP ACCEPTANCE CERTIFICATE,0
 IN,POS-0001,LOOP CHECKING DCS,0
 IN,POS-0001,LOOP CHECKING F&GESDHIPPS,0
@@ -47825,34 +48007,42 @@ MES,R-1001,Internal Cleaning Report,0
 MES,R-1001,Catalyst Loading,0
 MES,R-1001,Final Box Up,0
 MES,R-1001,Package Mechanical,0
+MES,R-1001,Piping to Eq. Report(MES),0
 MES,R-1002-1,Internal Cleaning Report,0
 MES,R-1002-1,Catalyst Loading,0
 MES,R-1002-1,Final Box Up,0
 MES,R-1002-1,Package Mechanical,0
+MES,R-1002-1,Piping to Eq. Report(MES),0
 MES,R-1002-2,Internal Cleaning Report,0
 MES,R-1002-2,Catalyst Loading,0
 MES,R-1002-2,Final Box Up,0
 MES,R-1002-2,Package Mechanical,0
+MES,R-1002-2,Piping to Eq. Report(MES),0
 MES,R-2003,Internal Cleaning Report,0
 MES,R-2003,Catalyst Loading,0
 MES,R-2003,Final Box Up,0
 MES,R-2003,Package Mechanical,0
+MES,R-2003,Piping to Eq. Report(MES),0
 MES,R-2004,Internal Cleaning Report,0
 MES,R-2004,Catalyst Loading,0
 MES,R-2004,Final Box Up,0
 MES,R-2004,Package Mechanical,0
+MES,R-2004,Piping to Eq. Report(MES),0
 MES,R-3001-1,Internal Cleaning Report,0
 MES,R-3001-1,Catalyst Loading,0
 MES,R-3001-1,Final Box Up,0
 MES,R-3001-1,Package Mechanical,0
+MES,R-3001-1,Piping to Eq. Report(MES),0
 MES,R-3001-2,Internal Cleaning Report,0
 MES,R-3001-2,Catalyst Loading,0
 MES,R-3001-2,Final Box Up,0
 MES,R-3001-2,Package Mechanical,0
+MES,R-3001-2,Piping to Eq. Report(MES),0
 MES,R-3001-3,Internal Cleaning Report,0
 MES,R-3001-3,Catalyst Loading,0
 MES,R-3001-3,Final Box Up,0
 MES,R-3001-3,Package Mechanical,0
+MES,R-3001-3,Piping to Eq. Report(MES),0
 IN,RB01-RS01R-F RMBDO19:1-RM02R-F,INSTRUMENT CABLE INSTALLATION,0
 IN,RB01-RS01R-F RMBDO19:1-RM02R-F,CABLE INSULATION & CONTINUITY TEST,0
 IN,RB01-RS01R-F RMBDO19:2-RM02R-F,INSTRUMENT CABLE INSTALLATION,0
@@ -48566,6 +48756,7 @@ EL,S44,Lighting ON-OFF Test,0
 MES,S-7101,Internal Cleaning Report,0
 MES,S-7101,Final Box Up,0
 MES,S-7101,Package Mechanical,0
+MES,S-7101,Piping to Eq. Report(MES),0
 EL,SA_AJB-P-002,Cathodic Install C,1
 EL,SA_AJB-P-002,Cathodic test T,0
 EL,SA_AJB-P-002,Cathodic Test for impress current,0
@@ -49001,15 +49192,19 @@ EL,SL20,Lighting install,0
 MES,SL-2001,Final Box Up,0
 MES,SL-2001,Package Mechanical,0
 MES,SL-2001,Silencer,0
+MES,SL-2001,Piping to Eq. Report(MES),1
 MES,SL-2002,Final Box Up,0
 MES,SL-2002,Package Mechanical,0
 MES,SL-2002,Silencer,0
+MES,SL-2002,Piping to Eq. Report(MES),0
 MES,SL-2003,Final Box Up,0
 MES,SL-2003,Package Mechanical,0
 MES,SL-2003,Silencer,0
+MES,SL-2003,Piping to Eq. Report(MES),0
 MES,SL-2004,Final Box Up,0
 MES,SL-2004,Package Mechanical,0
 MES,SL-2004,Silencer,0
+MES,SL-2004,Piping to Eq. Report(MES),1
 EL,SL20-FJB01,Cable pulling C,0
 EL,SL20-FJB01,ITP for cable install C,0
 EL,SL20-FJB01,LV.Cont. cable megger test T,0
@@ -49068,6 +49263,7 @@ EL,SL30,Lighting install,0
 MES,SL-3001,Final Box Up,0
 MES,SL-3001,Package Mechanical,0
 MES,SL-3001,Silencer,0
+MES,SL-3001,Piping to Eq. Report(MES),0
 IN,SL-3001.2.3-ST1,INSTRUMENT CABLE INSTALLATION,0
 IN,SL-3001.2.3-ST1,CABLE INSULATION & CONTINUITY TEST,0
 IN,SL-3001.2.3-ST2,INSTRUMENT CABLE INSTALLATION,0
@@ -49127,12 +49323,15 @@ EL,SL7,Lighting install,0
 MES,SL-7001,Final Box Up,0
 MES,SL-7001,Package Mechanical,0
 MES,SL-7001,Silencer,0
+MES,SL-7001,Piping to Eq. Report(MES),0
 MES,SL-7002,Final Box Up,0
 MES,SL-7002,Package Mechanical,0
 MES,SL-7002,Silencer,0
+MES,SL-7002,Piping to Eq. Report(MES),0
 MES,SL-7003,Final Box Up,0
 MES,SL-7003,Package Mechanical,0
 MES,SL-7003,Silencer,0
+MES,SL-7003,Piping to Eq. Report(MES),0
 EL,SL7-FJB01,Cable pulling C,0
 EL,SL7-FJB01,ITP for cable install C,0
 EL,SL7-FJB01,LV.Cont. cable megger test T,0
@@ -50654,31 +50853,37 @@ MES,T-5001,Catalyst Loading,0
 MES,T-5001,Final Box Up,1
 MES,T-5001,Pressure Vessel,0
 MES,T-5001,Package Mechanical,0
+MES,T-5001,Piping to Eq. Report(MES),0
 MES,T-5002,Internal Cleaning Report,1
 MES,T-5002,Catalyst Loading,0
 MES,T-5002,Final Box Up,1
-MES,T-5002,Pressure Vessel,0
+MES,T-5002,Pressure Vessel,1
 MES,T-5002,Package Mechanical,0
-MES,T-5003,Internal Cleaning Report,0
+MES,T-5002,Piping to Eq. Report(MES),1
+MES,T-5003,Internal Cleaning Report,1
 MES,T-5003,Catalyst Loading,0
-MES,T-5003,Final Box Up,0
-MES,T-5003,Pressure Vessel,0
+MES,T-5003,Final Box Up,1
+MES,T-5003,Pressure Vessel,1
 MES,T-5003,Package Mechanical,0
+MES,T-5003,Piping to Eq. Report(MES),1
 MES,T-5004,Internal Cleaning Report,1
 MES,T-5004,Catalyst Loading,0
 MES,T-5004,Final Box Up,1
 MES,T-5004,Pressure Vessel,0
 MES,T-5004,Package Mechanical,0
-MES,T-6001-1,Internal Cleaning Report,0
+MES,T-5004,Piping to Eq. Report(MES),0
+MES,T-6001-1,Internal Cleaning Report,1
 MES,T-6001-1,Catalyst Loading,0
-MES,T-6001-1,Final Box Up,0
-MES,T-6001-1,Pressure Vessel,0
+MES,T-6001-1,Final Box Up,1
+MES,T-6001-1,Pressure Vessel,1
 MES,T-6001-1,Package Mechanical,0
-MES,T-6001-2,Internal Cleaning Report,0
+MES,T-6001-1,Piping to Eq. Report(MES),1
+MES,T-6001-2,Internal Cleaning Report,1
 MES,T-6001-2,Catalyst Loading,0
-MES,T-6001-2,Final Box Up,0
-MES,T-6001-2,Pressure Vessel,0
+MES,T-6001-2,Final Box Up,1
+MES,T-6001-2,Pressure Vessel,1
 MES,T-6001-2,Package Mechanical,0
+MES,T-6001-2,Piping to Eq. Report(MES),1
 IN,TAH-30139,INSTRUMENT INSTALLATION,0
 IN,TAH-30139,IN LINE INSTRUMENT INSTALLATION,0
 IN,TAH-30139,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
@@ -53513,42 +53718,52 @@ MES,TK-5001,Internal Cleaning Report,0
 MES,TK-5001,Final Box Up,0
 MES,TK-5001,Storage Tank,0
 MES,TK-5001,Package Mechanical,0
+MES,TK-5001,Piping to Eq. Report(MES),0
 MES,TK-5002-1,Internal Cleaning Report,0
 MES,TK-5002-1,Final Box Up,0
 MES,TK-5002-1,Storage Tank,0
 MES,TK-5002-1,Package Mechanical,0
+MES,TK-5002-1,Piping to Eq. Report(MES),0
 MES,TK-5002-2,Internal Cleaning Report,0
 MES,TK-5002-2,Final Box Up,0
 MES,TK-5002-2,Storage Tank,0
 MES,TK-5002-2,Package Mechanical,0
+MES,TK-5002-2,Piping to Eq. Report(MES),0
 MES,TK-5003,Internal Cleaning Report,0
 MES,TK-5003,Final Box Up,0
 MES,TK-5003,Storage Tank,0
 MES,TK-5003,Package Mechanical,0
+MES,TK-5003,Piping to Eq. Report(MES),0
 MES,TK-7001-1,Internal Cleaning Report,0
 MES,TK-7001-1,Final Box Up,0
 MES,TK-7001-1,Storage Tank,0
 MES,TK-7001-1,Package Mechanical,0
+MES,TK-7001-1,Piping to Eq. Report(MES),0
 MES,TK-7001-2,Internal Cleaning Report,0
 MES,TK-7001-2,Final Box Up,0
 MES,TK-7001-2,Storage Tank,0
 MES,TK-7001-2,Package Mechanical,0
+MES,TK-7001-2,Piping to Eq. Report(MES),0
 MES,TK-7002,Internal Cleaning Report,0
 MES,TK-7002,Final Box Up,0
 MES,TK-7002,Storage Tank,0
 MES,TK-7002,Package Mechanical,0
+MES,TK-7002,Piping to Eq. Report(MES),0
 MES,TK-7501,Internal Cleaning Report,0
 MES,TK-7501,Final Box Up,0
 MES,TK-7501,Storage Tank,0
 MES,TK-7501,Package Mechanical,0
+MES,TK-7501,Piping to Eq. Report(MES),0
 MES,TK-8401,Internal Cleaning Report,0
 MES,TK-8401,Final Box Up,0
 MES,TK-8401,Storage Tank,0
 MES,TK-8401,Package Mechanical,0
+MES,TK-8401,Piping to Eq. Report(MES),0
 MES,TK-8402,Internal Cleaning Report,0
 MES,TK-8402,Final Box Up,0
 MES,TK-8402,Storage Tank,0
 MES,TK-8402,Package Mechanical,0
+MES,TK-8402,Piping to Eq. Report(MES),0
 EL,TR01-AJB01_1,Cathodic Install C,0
 EL,TR01-AJB01_1,Cathodic test T,0
 EL,TR01-AJB01_1,Cathodic Test for impress current,0
@@ -58347,81 +58562,97 @@ MES,X-2001-A,Catalyst Loading,0
 MES,X-2001-A,Final Box Up,0
 MES,X-2001-A,Package Mechanical,0
 MES,X-2001-A,Ejector,0
+MES,X-2001-A,Piping to Eq. Report(MES),0
 MES,X-2001-B,Internal Cleaning Report,0
 MES,X-2001-B,Catalyst Loading,0
 MES,X-2001-B,Final Box Up,0
 MES,X-2001-B,Package Mechanical,0
 MES,X-2001-B,Ejector,0
+MES,X-2001-B,Piping to Eq. Report(MES),0
 MES,X-2002-A,Internal Cleaning Report,0
 MES,X-2002-A,Catalyst Loading,0
 MES,X-2002-A,Final Box Up,0
 MES,X-2002-A,Package Mechanical,0
 MES,X-2002-A,Ejector,0
+MES,X-2002-A,Piping to Eq. Report(MES),0
 MES,X-2002-B,Internal Cleaning Report,0
 MES,X-2002-B,Catalyst Loading,0
 MES,X-2002-B,Final Box Up,0
 MES,X-2002-B,Package Mechanical,0
 MES,X-2002-B,Ejector,0
+MES,X-2002-B,Piping to Eq. Report(MES),0
 MES,X-2003,Internal Cleaning Report,0
 MES,X-2003,Catalyst Loading,0
 MES,X-2003,Final Box Up,0
 MES,X-2003,Package Mechanical,0
 MES,X-2003,Ejector,0
+MES,X-2003,Piping to Eq. Report(MES),0
 MES,X-5001-A,Internal Cleaning Report,0
 MES,X-5001-A,Catalyst Loading,0
 MES,X-5001-A,Final Box Up,0
 MES,X-5001-A,Package Mechanical,0
 MES,X-5001-A,Ejector,0
+MES,X-5001-A,Piping to Eq. Report(MES),0
 MES,X-5001-B,Internal Cleaning Report,0
 MES,X-5001-B,Catalyst Loading,0
 MES,X-5001-B,Final Box Up,0
 MES,X-5001-B,Package Mechanical,0
 MES,X-5001-B,Ejector,0
+MES,X-5001-B,Piping to Eq. Report(MES),0
 MES,X-5003,Internal Cleaning Report,0
 MES,X-5003,Catalyst Loading,0
 MES,X-5003,Final Box Up,0
 MES,X-5003,Package Mechanical,0
 MES,X-5003,Ejector,0
+MES,X-5003,Piping to Eq. Report(MES),0
 MES,X-6001-A,Internal Cleaning Report,0
 MES,X-6001-A,Catalyst Loading,0
 MES,X-6001-A,Final Box Up,0
 MES,X-6001-A,Package Mechanical,0
 MES,X-6001-A,Ejector,0
+MES,X-6001-A,Piping to Eq. Report(MES),0
 MES,X-6001-B,Internal Cleaning Report,0
 MES,X-6001-B,Catalyst Loading,0
 MES,X-6001-B,Final Box Up,0
 MES,X-6001-B,Package Mechanical,0
 MES,X-6001-B,Ejector,0
+MES,X-6001-B,Piping to Eq. Report(MES),0
 MES,X-6002-A,Internal Cleaning Report,0
 MES,X-6002-A,Catalyst Loading,0
 MES,X-6002-A,Final Box Up,0
 MES,X-6002-A,Package Mechanical,0
 MES,X-6002-A,Ejector,0
+MES,X-6002-A,Piping to Eq. Report(MES),0
 MES,X-6002-B,Internal Cleaning Report,0
 MES,X-6002-B,Catalyst Loading,0
 MES,X-6002-B,Final Box Up,0
 MES,X-6002-B,Package Mechanical,0
 MES,X-6002-B,Ejector,0
+MES,X-6002-B,Piping to Eq. Report(MES),0
 MES,X-7001,Internal Cleaning Report,0
 MES,X-7001,Catalyst Loading,0
 MES,X-7001,Final Box Up,0
 MES,X-7001,Package Mechanical,0
 MES,X-7001,Ejector,0
+MES,X-7001,Piping to Eq. Report(MES),0
 MES,X-7002,Internal Cleaning Report,0
 MES,X-7002,Catalyst Loading,0
 MES,X-7002,Final Box Up,0
 MES,X-7002,Package Mechanical,0
 MES,X-7002,Ejector,0
+MES,X-7002,Piping to Eq. Report(MES),0
 MES,X-7003,Internal Cleaning Report,0
 MES,X-7003,Catalyst Loading,0
 MES,X-7003,Final Box Up,0
 MES,X-7003,Package Mechanical,0
 MES,X-7003,Ejector,0
+MES,X-7003,Piping to Eq. Report(MES),0
 MES,X-7501,Internal Cleaning Report,0
 MES,X-7501,Catalyst Loading,0
 MES,X-7501,Final Box Up,0
 MES,X-7501,Package Mechanical,0
 MES,X-7501,Ejector,0
+MES,X-7501,Piping to Eq. Report(MES),0
 IN,XA-20101,INSTRUMENT INSTALLATION,0
 IN,XA-20102,INSTRUMENT INSTALLATION,0
 IN,XA-20103,INSTRUMENT INSTALLATION,0
