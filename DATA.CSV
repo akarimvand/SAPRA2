@@ -1,6 +1,6 @@
 ﻿SD_System,SD_Sub_System,SD_System_Name,SD_Subsystem_Name,discipline,TOTAL ITEM,TOTAL DONE,TOTAL PENDING,TOTAL PUNCH,TOTAL CLEAR PUNCH,TOTAL NOT CLEAR PUNCH,TOTAL HOLD POINT
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,0,0,99,28,71,34
-1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,22,12,0,53,17,36,27
+1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,23,12,0,53,17,36,27
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,1,0,29,0,29,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,0,0,0,0,0,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,PI,12,10,0,24,18,6,3
@@ -46,7 +46,7 @@
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,231,0,0,101,14,87,45
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,1,0,48,20,28,0
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,0,0,113,72,41,86
-2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,26,0,123,51,72,15
+2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,26,0,125,51,74,15
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,0,0,0,0,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,19,7,12,0
 2000,2000-06,Reforming,Nitrogen Circuit,IN,114,0,0,15,0,15,13
@@ -81,14 +81,14 @@
 4000,4000-05,Utility,Blow Down,MES,4,1,0,11,0,11,0
 4000,4000-05,Utility,Blow Down,IN,17,0,0,0,0,0,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,0,0,4,0,4,5
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,58,30,0,123,69,54,167
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,58,30,0,140,69,71,167
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,0,8,0,8,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,0,0,15,9,6,107
 4000,4000-07,Utility,Plant Air,IN,2,2,0,0,0,0,2
 4000,4000-07,Utility,Plant Air,PI,10,10,0,13,4,9,30
 4000,4000-08,Utility,Cooling Water,MES,5,0,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,0,8,0,8,0
-4000,4000-08,Utility,Cooling Water,PI,282,70,0,586,269,317,37
+4000,4000-08,Utility,Cooling Water,PI,282,73,0,586,269,317,37
 4000,4000-08,Utility,Cooling Water,IN,745,8,0,55,10,45,533
 4000,4000-09,Utility,Oily Water Treatment,PI,225,53,0,33,16,17,4
 4000,4000-09,Utility,Oily Water Treatment,IN,28,0,0,0,0,0,26
@@ -106,7 +106,7 @@
 4000,4000-14,Utility,Fire Water,IN,33,0,0,0,0,0,0
 4000,4000-14,Utility,Fire Water,MES,1,0,0,0,0,0,0
 4000,4000-14,Utility,Fire Water,PI,125,21,0,281,63,218,2536
-4000,4000-15,Utility,Potable & Service Water,PI,61,25,0,84,13,71,29
+4000,4000-15,Utility,Potable & Service Water,PI,61,26,0,84,13,71,29
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,0,0,0,0,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,5,0,69,11,58,5
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,0,0,455,292,163,147
@@ -130,8 +130,8 @@
 7000,7000-01,Flare,Flare System (In Site),IN,145,0,0,25,16,9,17
 7000,7000-01,Flare,Flare System (In Site),MER,2,0,0,0,0,0,0
 7000,7000-01,Flare,Flare System (In Site),MES,2,1,0,8,0,8,0
-7000,7000-01,Flare,Flare System (In Site),PI,49,15,0,88,20,68,77
-BLD,BLD-01,Building,Substation,PI,4,3,0,5,2,3,9
+7000,7000-01,Flare,Flare System (In Site),PI,49,16,0,88,20,68,77
+BLD,BLD-01,Building,Substation,PI,4,4,0,6,3,3,9
 BLD,BLD-01,Building,Substation,CV,14,14,0,63,0,63,0
 BLD,BLD-02,Building,Control Building,CV,8,8,0,0,0,0,0
 BLD,BLD-02,Building,Control Building,PI,1,1,0,6,5,1,1
@@ -141,7 +141,7 @@ BLD,BLD-05,Building,Diesel Room,CV,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,PI,3,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,CV,14,14,0,31,0,31,0
 BLD,BLD-07,Building,Analyzer House,CV,8,8,0,19,0,19,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2566,0,0,1740,180,1560,805
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2566,0,0,1740,332,1408,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2190,2136,54,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,0,0,0,0,0,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,13,0,13,0
