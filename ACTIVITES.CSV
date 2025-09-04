@@ -88,7 +88,7 @@ EL,01-EJB1-1-L3-01,Lighting install,0
 EL,01-EJB1-1-L3-02,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,01-EJB1-1-L3-02,Lighting install,0
 EL,01-EJB2-2,panel & box install,0
-EL,01-EJB2-2-FJB,Cable pulling C,0
+EL,01-EJB2-2-FJB,Cable pulling C,1
 EL,01-EJB2-2-FJB,ITP for cable install C,0
 EL,01-EJB2-2-FJB,LV.Cont. cable megger test T,0
 EL,01-EJB2-2-L1-01,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
@@ -163,7 +163,7 @@ EL,01-JB1-1-L3-07,Lighting install,0
 EL,01-JB1-1-L3-08,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,01-JB1-1-L3-08,Lighting install,0
 EL,01-JB2-2,panel & box install,0
-EL,01-JB2-2-FJB,Cable pulling C,0
+EL,01-JB2-2-FJB,Cable pulling C,1
 EL,01-JB2-2-FJB,ITP for cable install C,0
 EL,01-JB2-2-FJB,LV.Cont. cable megger test T,0
 EL,01-JB2-2-L1-01,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
@@ -234,7 +234,7 @@ EL,01-SJB1-1-11,Lighting install,0
 EL,01-SJB1-1-CR,Cable pulling C,0
 EL,01-SJB1-1-CR,ITP for cable install C,0
 EL,01-SJB1-1-CR,LV.Cont. cable megger test T,0
-EL,01-SJB1-1-FJB,Cable pulling C,0
+EL,01-SJB1-1-FJB,Cable pulling C,1
 EL,01-SJB1-1-FJB,ITP for cable install C,0
 EL,01-SJB1-1-FJB,LV.Cont. cable megger test T,0
 EL,01-SJB1-1-LAB,Cable pulling C,0
@@ -17047,14 +17047,14 @@ EL,AJB01-DW01,Cathodic Test for impress current,0
 EL,AJB01-DW01,Cathodic sys.grid,0
 EL,AJB01-DW01,Cathodic Test for magnesium anode,0
 EL,AJB01-DW01,Cathodic commissioning Data,0
-EL,AJB01-DW01,CABLING Cathodic Protection,0
+EL,AJB01-DW01,CABLING Cathodic Protection,1
 EL,AJB01-DW02,Cathodic Install C,0
 EL,AJB01-DW02,Cathodic test T,0
 EL,AJB01-DW02,Cathodic Test for impress current,0
 EL,AJB01-DW02,Cathodic sys.grid,0
 EL,AJB01-DW02,Cathodic Test for magnesium anode,0
 EL,AJB01-DW02,Cathodic commissioning Data,0
-EL,AJB01-DW02,CABLING Cathodic Protection,0
+EL,AJB01-DW02,CABLING Cathodic Protection,1
 IN,ALM_T1,INSTRUMENT CABLE INSTALLATION,0
 IN,ALM_T1,CABLE INSULATION & CONTINUITY TEST,0
 IN,ALM_T2,INSTRUMENT CABLE INSTALLATION,0
@@ -20288,9 +20288,9 @@ IN,DY-9004(DY),F&G SYSTEM-REMOTE HALON INDICATOR ACCEPTANCE CERTIFICATE (FGH),0
 IN,DY-9004(NA),INSTRUMENT CABLE INSTALLATION,0
 IN,DY-9004(NA),CABLE INSULATION & CONTINUITY TEST,0
 EL,E_I-MC-SS-01,panel & box install,1
-IN,E_I-MC-SS-01-IN,PANEL-CONSOL INSTALLATION INSPECTION,0
+IN,E_I-MC-SS-01-IN,PANEL-CONSOL INSTALLATION INSPECTION,1
 EL,E_I-MC-SS-02,panel & box install,1
-IN,E_I-MC-SS-02-IN,PANEL-CONSOL INSTALLATION INSPECTION,0
+IN,E_I-MC-SS-02-IN,PANEL-CONSOL INSTALLATION INSPECTION,1
 EL,E07-01(ES-02),Earthig & Lightning Work T,0
 EL,E07-01(ES-02),Earthig & Lightning Work T,0
 EL,E07-01(ES-05),Earthig & Lightning Work T,0
@@ -20493,7 +20493,7 @@ EL,E07-118,Earthig & Lightning Work T,0
 EL,E07-118,Earthig & Lightning Work T,0
 EL,E07-119,Earthig & Lightning Work T,0
 EL,E07-119,Earthig & Lightning Work T,0
-EL,E07-12(ES-03),Earthig & Lightning Work T,0
+EL,E07-12(ES-03),Earthig & Lightning Work T,1
 EL,E07-12(ES-03),Earthig & Lightning Work T,0
 EL,E07-12(ES-06),Earthig & Lightning Work T,0
 EL,E07-12(ES-06),Earthig & Lightning Work T,0
@@ -20529,7 +20529,7 @@ EL,E07-128,Earthig & Lightning Work T,0
 EL,E07-128,Earthig & Lightning Work T,0
 EL,E07-129,Earthig & Lightning Work T,0
 EL,E07-129,Earthig & Lightning Work T,0
-EL,E07-13(ES-03),Earthig & Lightning Work T,0
+EL,E07-13(ES-03),Earthig & Lightning Work T,1
 EL,E07-13(ES-03),Earthig & Lightning Work T,0
 EL,E07-13(ES-06),Earthig & Lightning Work T,0
 EL,E07-13(ES-06),Earthig & Lightning Work T,0
@@ -20547,7 +20547,7 @@ EL,E07-131,Earthig & Lightning Work T,0
 EL,E07-131,Earthig & Lightning Work T,0
 EL,E07-132,Earthig & Lightning Work T,0
 EL,E07-132,Earthig & Lightning Work T,0
-EL,E07-14(ES-03),Earthig & Lightning Work T,0
+EL,E07-14(ES-03),Earthig & Lightning Work T,1
 EL,E07-14(ES-03),Earthig & Lightning Work T,0
 EL,E07-14(ES-06),Earthig & Lightning Work T,0
 EL,E07-14(ES-06),Earthig & Lightning Work T,0
@@ -20561,7 +20561,7 @@ EL,E07-14(ES-10),Earthig & Lightning Work T,0
 EL,E07-14(ES-10),Earthig & Lightning Work T,0
 EL,E07-14(ES-11),Earthig & Lightning Work T,0
 EL,E07-14(ES-11),Earthig & Lightning Work T,0
-EL,E07-15(ES-03),Earthig & Lightning Work T,0
+EL,E07-15(ES-03),Earthig & Lightning Work T,1
 EL,E07-15(ES-03),Earthig & Lightning Work T,0
 EL,E07-15(ES-06),Earthig & Lightning Work T,0
 EL,E07-15(ES-06),Earthig & Lightning Work T,0
@@ -20575,7 +20575,7 @@ EL,E07-15(ES-10),Earthig & Lightning Work T,0
 EL,E07-15(ES-10),Earthig & Lightning Work T,0
 EL,E07-15(ES-11),Earthig & Lightning Work T,0
 EL,E07-15(ES-11),Earthig & Lightning Work T,0
-EL,E07-16(ES-03),Earthig & Lightning Work T,0
+EL,E07-16(ES-03),Earthig & Lightning Work T,1
 EL,E07-16(ES-03),Earthig & Lightning Work T,0
 EL,E07-16(ES-06),Earthig & Lightning Work T,0
 EL,E07-16(ES-06),Earthig & Lightning Work T,0
@@ -21271,13 +21271,13 @@ EL,E10-07(ES-07),Earthig & Lightning Work T,0
 EL,E10-07(ES-07),Earthig & Lightning Work T,0
 EL,E10-07(ES-08),Earthig & Lightning Work T,0
 EL,E10-07(ES-08),Earthig & Lightning Work T,0
-EL,E10-08(ES-03),Earthig & Lightning Work T,0
+EL,E10-08(ES-03),Earthig & Lightning Work T,1
 EL,E10-08(ES-03),Earthig & Lightning Work T,0
 EL,E10-08(ES-07),Earthig & Lightning Work T,0
 EL,E10-08(ES-07),Earthig & Lightning Work T,0
 EL,E10-08(ES-08),Earthig & Lightning Work T,0
 EL,E10-08(ES-08),Earthig & Lightning Work T,0
-EL,E10-09(ES-03),Earthig & Lightning Work T,0
+EL,E10-09(ES-03),Earthig & Lightning Work T,1
 EL,E10-09(ES-03),Earthig & Lightning Work T,0
 EL,E10-09(ES-07),Earthig & Lightning Work T,0
 EL,E10-09(ES-07),Earthig & Lightning Work T,0
@@ -22555,7 +22555,7 @@ EL,E28-02(ES-01),Earthig & Lightning Work T,1
 EL,E28-02(ES-01),Earthig & Lightning Work T,0
 EL,E28-02(ES-02),Earthig & Lightning Work T,0
 EL,E28-02(ES-02),Earthig & Lightning Work T,0
-EL,E28-02(ES-03),Earthig & Lightning Work T,0
+EL,E28-02(ES-03),Earthig & Lightning Work T,1
 EL,E28-02(ES-03),Earthig & Lightning Work T,0
 EL,E28-02(ES-06),Earthig & Lightning Work T,0
 EL,E28-02(ES-06),Earthig & Lightning Work T,0
@@ -22569,7 +22569,7 @@ EL,E28-02(ES-10),Earthig & Lightning Work T,0
 EL,E28-02(ES-10),Earthig & Lightning Work T,0
 EL,E28-03(ES-01),Earthig & Lightning Work T,1
 EL,E28-03(ES-01),Earthig & Lightning Work T,0
-EL,E28-03(ES-03),Earthig & Lightning Work T,0
+EL,E28-03(ES-03),Earthig & Lightning Work T,1
 EL,E28-03(ES-03),Earthig & Lightning Work T,0
 EL,E28-03(ES-06),Earthig & Lightning Work T,0
 EL,E28-03(ES-06),Earthig & Lightning Work T,0
@@ -23133,7 +23133,7 @@ EL,E29-08(ES-01),Earthig & Lightning Work T,1
 EL,E29-08(ES-01),Earthig & Lightning Work T,0
 EL,E29-08(ES-02),Earthig & Lightning Work T,0
 EL,E29-08(ES-02),Earthig & Lightning Work T,0
-EL,E29-08(ES-03),Earthig & Lightning Work T,0
+EL,E29-08(ES-03),Earthig & Lightning Work T,1
 EL,E29-08(ES-03),Earthig & Lightning Work T,0
 EL,E29-08(ES-06),Earthig & Lightning Work T,0
 EL,E29-08(ES-06),Earthig & Lightning Work T,0
@@ -23151,7 +23151,7 @@ EL,E29-09(ES-01),Earthig & Lightning Work T,1
 EL,E29-09(ES-01),Earthig & Lightning Work T,0
 EL,E29-09(ES-02),Earthig & Lightning Work T,0
 EL,E29-09(ES-02),Earthig & Lightning Work T,0
-EL,E29-09(ES-03),Earthig & Lightning Work T,0
+EL,E29-09(ES-03),Earthig & Lightning Work T,1
 EL,E29-09(ES-03),Earthig & Lightning Work T,0
 EL,E29-09(ES-06),Earthig & Lightning Work T,0
 EL,E29-09(ES-06),Earthig & Lightning Work T,0
@@ -23305,7 +23305,7 @@ EL,E29-136,Earthig & Lightning Work T,0
 EL,E29-136,Earthig & Lightning Work T,0
 EL,E29-14(ES-02),Earthig & Lightning Work T,0
 EL,E29-14(ES-02),Earthig & Lightning Work T,0
-EL,E29-14(ES-03),Earthig & Lightning Work T,0
+EL,E29-14(ES-03),Earthig & Lightning Work T,1
 EL,E29-14(ES-03),Earthig & Lightning Work T,0
 EL,E29-14(ES-06),Earthig & Lightning Work T,0
 EL,E29-14(ES-06),Earthig & Lightning Work T,0
@@ -23321,7 +23321,7 @@ EL,E29-14(ES-11),Earthig & Lightning Work T,0
 EL,E29-14(ES-11),Earthig & Lightning Work T,0
 EL,E29-15(ES-02),Earthig & Lightning Work T,0
 EL,E29-15(ES-02),Earthig & Lightning Work T,0
-EL,E29-15(ES-03),Earthig & Lightning Work T,0
+EL,E29-15(ES-03),Earthig & Lightning Work T,1
 EL,E29-15(ES-03),Earthig & Lightning Work T,0
 EL,E29-15(ES-06),Earthig & Lightning Work T,0
 EL,E29-15(ES-06),Earthig & Lightning Work T,0
@@ -24235,7 +24235,7 @@ MES,E-3001-3,Package Mechanical,0
 MES,E-3001-3,Piping to Eq. Report(MES),1
 EL,E30-02(ES-01),Earthig & Lightning Work T,1
 EL,E30-02(ES-01),Earthig & Lightning Work T,0
-EL,E30-02(ES-03),Earthig & Lightning Work T,0
+EL,E30-02(ES-03),Earthig & Lightning Work T,1
 EL,E30-02(ES-03),Earthig & Lightning Work T,0
 EL,E30-02(ES-04),Earthig & Lightning Work T,0
 EL,E30-02(ES-04),Earthig & Lightning Work T,0
@@ -24251,7 +24251,7 @@ EL,E30-02(ES-11),Earthig & Lightning Work T,0
 EL,E30-02(ES-11),Earthig & Lightning Work T,0
 EL,E30-03(ES-01),Earthig & Lightning Work T,1
 EL,E30-03(ES-01),Earthig & Lightning Work T,0
-EL,E30-03(ES-03),Earthig & Lightning Work T,0
+EL,E30-03(ES-03),Earthig & Lightning Work T,1
 EL,E30-03(ES-03),Earthig & Lightning Work T,0
 EL,E30-03(ES-04),Earthig & Lightning Work T,0
 EL,E30-03(ES-04),Earthig & Lightning Work T,0
@@ -24917,7 +24917,7 @@ EL,E33-06(ES-08),Earthig & Lightning Work T,0
 EL,E33-06(ES-08),Earthig & Lightning Work T,0
 EL,E33-07,Earthig & Lightning Work T,0
 EL,E33-07,Earthig & Lightning Work T,0
-EL,E34-01(ES-03),Earthig & Lightning Work T,0
+EL,E34-01(ES-03),Earthig & Lightning Work T,1
 EL,E34-01(ES-03),Earthig & Lightning Work T,0
 EL,E34-01(ES-06),Earthig & Lightning Work T,0
 EL,E34-01(ES-06),Earthig & Lightning Work T,0
@@ -24941,7 +24941,7 @@ EL,E34-02(ES-09),Earthig & Lightning Work T,0
 EL,E34-02(ES-09),Earthig & Lightning Work T,0
 EL,E34-02(ES-10),Earthig & Lightning Work T,0
 EL,E34-02(ES-10),Earthig & Lightning Work T,0
-EL,E34-03(ES-03),Earthig & Lightning Work T,0
+EL,E34-03(ES-03),Earthig & Lightning Work T,1
 EL,E34-03(ES-03),Earthig & Lightning Work T,0
 EL,E34-03(ES-06),Earthig & Lightning Work T,0
 EL,E34-03(ES-06),Earthig & Lightning Work T,0
@@ -25873,7 +25873,7 @@ MES,E-5012,Exchanger,0
 MES,E-5012,Plate Heat Exchanger,0
 MES,E-5012,Package Mechanical,0
 MES,E-5012,Piping to Eq. Report(MES),1
-EL,E51-01(ES-03),Earthig & Lightning Work T,0
+EL,E51-01(ES-03),Earthig & Lightning Work T,1
 EL,E51-01(ES-03),Earthig & Lightning Work T,0
 EL,E51-01(ES-07),Earthig & Lightning Work T,0
 EL,E51-01(ES-07),Earthig & Lightning Work T,0
@@ -26049,13 +26049,13 @@ EL,E55-01(ES-01),Earthig & Lightning Work T,1
 EL,E55-01(ES-01),Earthig & Lightning Work T,0
 EL,E55-01(ES-02),Earthig & Lightning Work T,0
 EL,E55-01(ES-02),Earthig & Lightning Work T,0
-EL,E55-01(ES-03),Earthig & Lightning Work T,0
+EL,E55-01(ES-03),Earthig & Lightning Work T,1
 EL,E55-01(ES-03),Earthig & Lightning Work T,0
 EL,E55-02(ES-01),Earthig & Lightning Work T,1
 EL,E55-02(ES-01),Earthig & Lightning Work T,0
 EL,E55-02(ES-02),Earthig & Lightning Work T,0
 EL,E55-02(ES-02),Earthig & Lightning Work T,0
-EL,E55-02(ES-03),Earthig & Lightning Work T,0
+EL,E55-02(ES-03),Earthig & Lightning Work T,1
 EL,E55-02(ES-03),Earthig & Lightning Work T,0
 EL,E55-03(ES-01),Earthig & Lightning Work T,1
 EL,E55-03(ES-01),Earthig & Lightning Work T,0
@@ -26365,17 +26365,17 @@ EL,E58-CR-07,Earthig & Lightning Work T,0
 EL,E58-CR-07,Earthig & Lightning Work T,0
 EL,E58-CR-08,Earthig & Lightning Work T,0
 EL,E58-CR-08,Earthig & Lightning Work T,0
+EL,E58-LAB-01,Earthig & Lightning Work T,1
 EL,E58-LAB-01,Earthig & Lightning Work T,0
-EL,E58-LAB-01,Earthig & Lightning Work T,0
+EL,E58-LAB-02,Earthig & Lightning Work T,1
 EL,E58-LAB-02,Earthig & Lightning Work T,0
-EL,E58-LAB-02,Earthig & Lightning Work T,0
+EL,E58-LAB-03,Earthig & Lightning Work T,1
 EL,E58-LAB-03,Earthig & Lightning Work T,0
-EL,E58-LAB-03,Earthig & Lightning Work T,0
+EL,E58-LAB-04,Earthig & Lightning Work T,1
 EL,E58-LAB-04,Earthig & Lightning Work T,0
-EL,E58-LAB-04,Earthig & Lightning Work T,0
+EL,E58-LAB-05,Earthig & Lightning Work T,1
 EL,E58-LAB-05,Earthig & Lightning Work T,0
-EL,E58-LAB-05,Earthig & Lightning Work T,0
-EL,E58-LAB-06,Earthig & Lightning Work T,0
+EL,E58-LAB-06,Earthig & Lightning Work T,1
 EL,E58-LAB-06,Earthig & Lightning Work T,0
 EL,E58-SS-01,Earthig & Lightning Work T,1
 EL,E58-SS-01,Earthig & Lightning Work T,0
@@ -26447,7 +26447,7 @@ EL,E60-08,Earthig & Lightning Work T,0
 EL,E60-08,Earthig & Lightning Work T,0
 EL,E60-09,Earthig & Lightning Work T,0
 EL,E60-09,Earthig & Lightning Work T,0
-EL,E6-01(ES-03),Earthig & Lightning Work T,0
+EL,E6-01(ES-03),Earthig & Lightning Work T,1
 EL,E6-01(ES-03),Earthig & Lightning Work T,0
 EL,E6-01(ES-06),Earthig & Lightning Work T,0
 EL,E6-01(ES-06),Earthig & Lightning Work T,0
@@ -26647,7 +26647,7 @@ EL,E8-07(ES-10),Earthig & Lightning Work T,0
 EL,E8-07(ES-10),Earthig & Lightning Work T,0
 EL,E8-08(ES-02),Earthig & Lightning Work T,0
 EL,E8-08(ES-02),Earthig & Lightning Work T,0
-EL,E8-08(ES-03),Earthig & Lightning Work T,0
+EL,E8-08(ES-03),Earthig & Lightning Work T,1
 EL,E8-08(ES-03),Earthig & Lightning Work T,0
 EL,E8-08(ES-06),Earthig & Lightning Work T,0
 EL,E8-08(ES-06),Earthig & Lightning Work T,0
@@ -26663,7 +26663,7 @@ EL,E8-08(ES-11),Earthig & Lightning Work T,0
 EL,E8-08(ES-11),Earthig & Lightning Work T,0
 EL,E8-09(ES-02),Earthig & Lightning Work T,0
 EL,E8-09(ES-02),Earthig & Lightning Work T,0
-EL,E8-09(ES-03),Earthig & Lightning Work T,0
+EL,E8-09(ES-03),Earthig & Lightning Work T,1
 EL,E8-09(ES-03),Earthig & Lightning Work T,0
 EL,E8-09(ES-06),Earthig & Lightning Work T,0
 EL,E8-09(ES-06),Earthig & Lightning Work T,0
@@ -26843,7 +26843,7 @@ EL,E8-21(ES-09),Earthig & Lightning Work T,0
 EL,E8-21(ES-09),Earthig & Lightning Work T,0
 EL,E8-21(ES-10),Earthig & Lightning Work T,0
 EL,E8-21(ES-10),Earthig & Lightning Work T,0
-EL,E8-22(ES-03),Earthig & Lightning Work T,0
+EL,E8-22(ES-03),Earthig & Lightning Work T,1
 EL,E8-22(ES-03),Earthig & Lightning Work T,0
 EL,E8-22(ES-06),Earthig & Lightning Work T,0
 EL,E8-22(ES-06),Earthig & Lightning Work T,0
@@ -26855,7 +26855,7 @@ EL,E8-22(ES-09),Earthig & Lightning Work T,0
 EL,E8-22(ES-09),Earthig & Lightning Work T,0
 EL,E8-22(ES-10),Earthig & Lightning Work T,0
 EL,E8-22(ES-10),Earthig & Lightning Work T,0
-EL,E8-23(ES-03),Earthig & Lightning Work T,0
+EL,E8-23(ES-03),Earthig & Lightning Work T,1
 EL,E8-23(ES-03),Earthig & Lightning Work T,0
 EL,E8-23(ES-06),Earthig & Lightning Work T,0
 EL,E8-23(ES-06),Earthig & Lightning Work T,0
@@ -27197,7 +27197,7 @@ EL,E8-68,Earthig & Lightning Work T,0
 EL,E8-68,Earthig & Lightning Work T,0
 EL,E8-69,Earthig & Lightning Work T,0
 EL,E8-69,Earthig & Lightning Work T,0
-EL,E9-01(ES-03),Earthig & Lightning Work T,0
+EL,E9-01(ES-03),Earthig & Lightning Work T,1
 EL,E9-01(ES-03),Earthig & Lightning Work T,0
 EL,E9-01(ES-06),Earthig & Lightning Work T,0
 EL,E9-01(ES-06),Earthig & Lightning Work T,0
@@ -33135,23 +33135,23 @@ IN,FCS-MC-CR-07,JUNCTION BOX INSTALLATION INSPECTION,1
 IN,FCS-MC-CR-08,JUNCTION BOX INSTALLATION INSPECTION,1
 IN,FCS-MC-CR-09,JUNCTION BOX INSTALLATION INSPECTION,1
 IN,FCS-MC-CR-10,JUNCTION BOX INSTALLATION INSPECTION,1
-EL,FCS-MC-RIO-01,panel & box install,0
-IN,FCS-MC-RIO-01-IN,PANEL-CONSOL INSTALLATION INSPECTION,0
-EL,FCS-MC-RIO-02,panel & box install,0
-IN,FCS-MC-RIO-02-IN,PANEL-CONSOL INSTALLATION INSPECTION,0
-EL,FCS-MC-RIO-03,panel & box install,0
-IN,FCS-MC-RIO-03-IN,PANEL-CONSOL INSTALLATION INSPECTION,0
-EL,FCS-MC-RIO-04,panel & box install,0
-IN,FCS-MC-RIO-04-IN,PANEL-CONSOL INSTALLATION INSPECTION,0
-EL,FCS-MC-RIO-05,panel & box install,0
-IN,FCS-MC-RIO-05-IN,PANEL-CONSOL INSTALLATION INSPECTION,0
-EL,FCS-MC-RIO-06,panel & box install,0
-IN,FCS-MC-RIO-06-IN,PANEL-CONSOL INSTALLATION INSPECTION,0
-EL,FCS-MC-RIO-07,panel & box install,0
-IN,FCS-MC-RIO-07-IN,PANEL-CONSOL INSTALLATION INSPECTION,0
+EL,FCS-MC-RIO-01,panel & box install,1
+IN,FCS-MC-RIO-01-IN,PANEL-CONSOL INSTALLATION INSPECTION,1
+EL,FCS-MC-RIO-02,panel & box install,1
+IN,FCS-MC-RIO-02-IN,PANEL-CONSOL INSTALLATION INSPECTION,1
+EL,FCS-MC-RIO-03,panel & box install,1
+IN,FCS-MC-RIO-03-IN,PANEL-CONSOL INSTALLATION INSPECTION,1
+EL,FCS-MC-RIO-04,panel & box install,1
+IN,FCS-MC-RIO-04-IN,PANEL-CONSOL INSTALLATION INSPECTION,1
+EL,FCS-MC-RIO-05,panel & box install,1
+IN,FCS-MC-RIO-05-IN,PANEL-CONSOL INSTALLATION INSPECTION,1
+EL,FCS-MC-RIO-06,panel & box install,1
+IN,FCS-MC-RIO-06-IN,PANEL-CONSOL INSTALLATION INSPECTION,1
+EL,FCS-MC-RIO-07,panel & box install,1
+IN,FCS-MC-RIO-07-IN,PANEL-CONSOL INSTALLATION INSPECTION,1
 IN,FCS-NET-CR-01,JUNCTION BOX INSTALLATION INSPECTION,1
-EL,FCS-PD-RIO-01,panel & box install,0
-IN,FCS-PD-RIO-01-IN,PANEL-CONSOL INSTALLATION INSPECTION,0
+EL,FCS-PD-RIO-01,panel & box install,1
+IN,FCS-PD-RIO-01-IN,PANEL-CONSOL INSTALLATION INSPECTION,1
 IN,FCS-SC-CR-01,JUNCTION BOX INSTALLATION INSPECTION,1
 IN,FCS-SC-CR-02,JUNCTION BOX INSTALLATION INSPECTION,1
 IN,FCS-SC-CR-03,JUNCTION BOX INSTALLATION INSPECTION,1
@@ -33160,14 +33160,14 @@ IN,FCS-SC-CR-05,JUNCTION BOX INSTALLATION INSPECTION,1
 IN,FCS-SC-CR-06,JUNCTION BOX INSTALLATION INSPECTION,1
 IN,FCS-SC-CR-07,JUNCTION BOX INSTALLATION INSPECTION,1
 IN,FCS-SC-CR-08,JUNCTION BOX INSTALLATION INSPECTION,1
-EL,FCS-SC-RIO-01,panel & box install,0
-IN,FCS-SC-RIO-01-IN,PANEL-CONSOL INSTALLATION INSPECTION,0
-EL,FCS-SC-RIO-02,panel & box install,0
-IN,FCS-SC-RIO-02-IN,PANEL-CONSOL INSTALLATION INSPECTION,0
-EL,FCS-SC-RIO-03,panel & box install,0
-IN,FCS-SC-RIO-03-IN,PANEL-CONSOL INSTALLATION INSPECTION,0
-EL,FCS-SC-RIO-04,panel & box install,0
-IN,FCS-SC-RIO-04-IN,PANEL-CONSOL INSTALLATION INSPECTION,0
+EL,FCS-SC-RIO-01,panel & box install,1
+IN,FCS-SC-RIO-01-IN,PANEL-CONSOL INSTALLATION INSPECTION,1
+EL,FCS-SC-RIO-02,panel & box install,1
+IN,FCS-SC-RIO-02-IN,PANEL-CONSOL INSTALLATION INSPECTION,1
+EL,FCS-SC-RIO-03,panel & box install,1
+IN,FCS-SC-RIO-03-IN,PANEL-CONSOL INSTALLATION INSPECTION,1
+EL,FCS-SC-RIO-04,panel & box install,1
+IN,FCS-SC-RIO-04-IN,PANEL-CONSOL INSTALLATION INSPECTION,1
 IN,FCS-SV-CR-01,JUNCTION BOX INSTALLATION INSPECTION,1
 IN,FCSSW1A-05,INSTRUMENT CABLE INSTALLATION,0
 IN,FCSSW1A-05,CABLE INSULATION & CONTINUITY TEST,0
@@ -34159,10 +34159,10 @@ IN,FI-50223A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,FI-50223A,IN LINE INSTRUMENT INSTALLATION,0
 IN,FI-50223B,CALIBRATION RECORD FLOW ELEMENT,0
 IN,FI-50223B,IN LINE INSTRUMENT INSTALLATION,0
-IN,FI-5408,CALIBRATION RECORD FLOW ELEMENT,0
-IN,FI-5408,IN LINE INSTRUMENT INSTALLATION,0
-IN,FI-5422,CALIBRATION RECORD FLOW ELEMENT,0
-IN,FI-5422,IN LINE INSTRUMENT INSTALLATION,0
+IN,FI-5408,CALIBRATION RECORD FLOW ELEMENT,1
+IN,FI-5408,IN LINE INSTRUMENT INSTALLATION,1
+IN,FI-5422,CALIBRATION RECORD FLOW ELEMENT,1
+IN,FI-5422,IN LINE INSTRUMENT INSTALLATION,1
 IN,FI-5442,CALIBRATION RECORD FLOW ELEMENT,0
 IN,FI-5442,IN LINE INSTRUMENT INSTALLATION,0
 IN,FI-60301A,CALIBRATION RECORD FLOW ELEMENT,0
@@ -34819,52 +34819,52 @@ EL,From S01(LS-03),Lighting install,1
 EL,From S01(LS-03),Lighting ON-OFF Test,0
 EL,From S01(LS-04),Lighting install,0
 EL,From S01(LS-04),Lighting ON-OFF Test,0
-EL,From S01-FJB,Cable pulling C,0
+EL,From S01-FJB,Cable pulling C,1
 EL,From S01-FJB,ITP for cable install C,0
 EL,From S01-FJB,LV.Cont. cable megger test T,0
 EL,From S02(LS-03),Lighting install,1
 EL,From S02(LS-03),Lighting ON-OFF Test,0
 EL,From S02(LS-04),Lighting install,0
 EL,From S02(LS-04),Lighting ON-OFF Test,0
-EL,From S02-FJB,Cable pulling C,0
+EL,From S02-FJB,Cable pulling C,1
 EL,From S02-FJB,ITP for cable install C,0
 EL,From S02-FJB,LV.Cont. cable megger test T,0
 EL,From S03(LS-03),Lighting install,1
 EL,From S03(LS-03),Lighting ON-OFF Test,0
 EL,From S03(LS-04),Lighting install,0
 EL,From S03(LS-04),Lighting ON-OFF Test,0
-EL,From S03-FJB,Cable pulling C,0
+EL,From S03-FJB,Cable pulling C,1
 EL,From S03-FJB,ITP for cable install C,0
 EL,From S03-FJB,LV.Cont. cable megger test T,0
 EL,From S04(LS-03),Lighting install,1
 EL,From S04(LS-03),Lighting ON-OFF Test,0
 EL,From S04(LS-04),Lighting install,0
 EL,From S04(LS-04),Lighting ON-OFF Test,0
-EL,From S04-FJB,Cable pulling C,0
+EL,From S04-FJB,Cable pulling C,1
 EL,From S04-FJB,ITP for cable install C,0
 EL,From S04-FJB,LV.Cont. cable megger test T,0
 EL,From S05(LS-03),Lighting install,1
 EL,From S05(LS-03),Lighting ON-OFF Test,0
 EL,From S05(LS-04),Lighting install,0
 EL,From S05(LS-04),Lighting ON-OFF Test,0
-EL,From S05-FJB,Cable pulling C,0
+EL,From S05-FJB,Cable pulling C,1
 EL,From S05-FJB,ITP for cable install C,0
 EL,From S05-FJB,LV.Cont. cable megger test T,0
 EL,From S06(LS-03),Lighting install,1
 EL,From S06(LS-03),Lighting ON-OFF Test,0
 EL,From S06(LS-04),Lighting install,0
 EL,From S06(LS-04),Lighting ON-OFF Test,0
-EL,From S06-FJB,Cable pulling C,0
+EL,From S06-FJB,Cable pulling C,1
 EL,From S06-FJB,ITP for cable install C,0
 EL,From S06-FJB,LV.Cont. cable megger test T,0
 EL,From S07,Lighting install,1
 EL,From S07,Lighting ON-OFF Test,0
-EL,From S07-FJB,Cable pulling C,0
+EL,From S07-FJB,Cable pulling C,1
 EL,From S07-FJB,ITP for cable install C,0
 EL,From S07-FJB,LV.Cont. cable megger test T,0
 EL,From S08,Lighting install,1
 EL,From S08,Lighting ON-OFF Test,0
-EL,From S08-FJB,Cable pulling C,0
+EL,From S08-FJB,Cable pulling C,1
 EL,From S08-FJB,ITP for cable install C,0
 EL,From S08-FJB,LV.Cont. cable megger test T,0
 EL,From S09,Lighting install,1
@@ -43542,12 +43542,12 @@ MER,P-8405B,Vertical Centrifugal Pump,0
 MER,P-8405B,Mechanical Metering Pump,0
 MER,P-8405B,Steam Turbine Drive,0
 MER,P-8405B,Piping to Eq. Report(MER),0
-IN,PCV-0007,CALIBRATION RECORD CONTROL VALVE,0
-IN,PCV-0007,IN LINE INSTRUMENT INSTALLATION,0
+IN,PCV-0007,CALIBRATION RECORD CONTROL VALVE,1
+IN,PCV-0007,IN LINE INSTRUMENT INSTALLATION,1
 IN,PCV-0007,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
 IN,PCV-0007,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-0008,CALIBRATION RECORD CONTROL VALVE,0
-IN,PCV-0008,IN LINE INSTRUMENT INSTALLATION,0
+IN,PCV-0008,CALIBRATION RECORD CONTROL VALVE,1
+IN,PCV-0008,IN LINE INSTRUMENT INSTALLATION,1
 IN,PCV-0008,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
 IN,PCV-0008,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
 IN,PCV-1001A1,CALIBRATION RECORD CONTROL VALVE,0
@@ -48435,7 +48435,7 @@ EL,S01(LS-14),Lighting ON-OFF Test,0
 EL,S01(LS-14)-FJB01,Cable pulling C,0
 EL,S01(LS-14)-FJB01,ITP for cable install C,0
 EL,S01(LS-14)-FJB01,LV.Cont. cable megger test T,0
-EL,S01-FJB,Cable pulling C,0
+EL,S01-FJB,Cable pulling C,1
 EL,S01-FJB,ITP for cable install C,0
 EL,S01-FJB,LV.Cont. cable megger test T,0
 EL,S02(LS-03),Lighting install,1
@@ -48449,7 +48449,7 @@ EL,S02(LS-14),Lighting ON-OFF Test,0
 EL,S02(LS-14)-FJB01,Cable pulling C,0
 EL,S02(LS-14)-FJB01,ITP for cable install C,0
 EL,S02(LS-14)-FJB01,LV.Cont. cable megger test T,0
-EL,S02-FJB,Cable pulling C,0
+EL,S02-FJB,Cable pulling C,1
 EL,S02-FJB,ITP for cable install C,0
 EL,S02-FJB,LV.Cont. cable megger test T,0
 EL,S03(LS-03),Lighting install,1
@@ -48463,7 +48463,7 @@ EL,S03(LS-14),Lighting ON-OFF Test,0
 EL,S03(LS-14)-FJB01,Cable pulling C,0
 EL,S03(LS-14)-FJB01,ITP for cable install C,0
 EL,S03(LS-14)-FJB01,LV.Cont. cable megger test T,0
-EL,S03-FJB,Cable pulling C,0
+EL,S03-FJB,Cable pulling C,1
 EL,S03-FJB,ITP for cable install C,0
 EL,S03-FJB,LV.Cont. cable megger test T,0
 EL,S04(LS-03),Lighting install,1
@@ -48477,7 +48477,7 @@ EL,S04(LS-14),Lighting ON-OFF Test,0
 EL,S04(LS-14)-FJB01,Cable pulling C,0
 EL,S04(LS-14)-FJB01,ITP for cable install C,0
 EL,S04(LS-14)-FJB01,LV.Cont. cable megger test T,0
-EL,S04-FJB,Cable pulling C,0
+EL,S04-FJB,Cable pulling C,1
 EL,S04-FJB,ITP for cable install C,0
 EL,S04-FJB,LV.Cont. cable megger test T,0
 EL,S05(LS-03),Lighting install,1
@@ -48491,7 +48491,7 @@ EL,S05(LS-14),Lighting ON-OFF Test,0
 EL,S05(LS-14)-FJB01,Cable pulling C,0
 EL,S05(LS-14)-FJB01,ITP for cable install C,0
 EL,S05(LS-14)-FJB01,LV.Cont. cable megger test T,0
-EL,S05-FJB,Cable pulling C,0
+EL,S05-FJB,Cable pulling C,1
 EL,S05-FJB,ITP for cable install C,0
 EL,S05-FJB,LV.Cont. cable megger test T,0
 EL,S06(LS-03),Lighting install,1
@@ -48505,7 +48505,7 @@ EL,S06(LS-14),Lighting ON-OFF Test,0
 EL,S06(LS-14)-FJB01,Cable pulling C,0
 EL,S06(LS-14)-FJB01,ITP for cable install C,0
 EL,S06(LS-14)-FJB01,LV.Cont. cable megger test T,0
-EL,S06-FJB,Cable pulling C,0
+EL,S06-FJB,Cable pulling C,1
 EL,S06-FJB,ITP for cable install C,0
 EL,S06-FJB,LV.Cont. cable megger test T,0
 EL,S07(LS-03),Lighting install,1
@@ -48514,7 +48514,7 @@ EL,S07(LS-04),Lighting install,0
 EL,S07(LS-04),Lighting ON-OFF Test,0
 EL,S07(LS-05),Lighting install,0
 EL,S07(LS-05),Lighting ON-OFF Test,0
-EL,S07-FJB,Cable pulling C,0
+EL,S07-FJB,Cable pulling C,1
 EL,S07-FJB,ITP for cable install C,0
 EL,S07-FJB,LV.Cont. cable megger test T,0
 EL,S08(LS-03),Lighting install,1
@@ -48523,7 +48523,7 @@ EL,S08(LS-04),Lighting install,0
 EL,S08(LS-04),Lighting ON-OFF Test,0
 EL,S08(LS-05),Lighting install,0
 EL,S08(LS-05),Lighting ON-OFF Test,0
-EL,S08-FJB,Cable pulling C,0
+EL,S08-FJB,Cable pulling C,1
 EL,S08-FJB,ITP for cable install C,0
 EL,S08-FJB,LV.Cont. cable megger test T,0
 EL,S09(LS-03),Lighting install,1
@@ -48532,7 +48532,7 @@ EL,S09(LS-04),Lighting install,0
 EL,S09(LS-04),Lighting ON-OFF Test,0
 EL,S09(LS-05),Lighting install,0
 EL,S09(LS-05),Lighting ON-OFF Test,0
-EL,S09-FJB,Cable pulling C,0
+EL,S09-FJB,Cable pulling C,1
 EL,S09-FJB,ITP for cable install C,0
 EL,S09-FJB,LV.Cont. cable megger test T,0
 EL,S10(LS-03),Lighting install,1
@@ -48541,7 +48541,7 @@ EL,S10(LS-04),Lighting install,0
 EL,S10(LS-04),Lighting ON-OFF Test,0
 EL,S10(LS-05),Lighting install,0
 EL,S10(LS-05),Lighting ON-OFF Test,0
-EL,S10-FJB,Cable pulling C,0
+EL,S10-FJB,Cable pulling C,1
 EL,S10-FJB,ITP for cable install C,0
 EL,S10-FJB,LV.Cont. cable megger test T,0
 EL,S11(LS-03),Lighting install,1
@@ -48577,7 +48577,7 @@ EL,S14(LS-04),Lighting install,0
 EL,S14(LS-04),Lighting ON-OFF Test,0
 EL,S14(LS-05),Lighting install,0
 EL,S14(LS-05),Lighting ON-OFF Test,0
-EL,S14-FJB,Cable pulling C,0
+EL,S14-FJB,Cable pulling C,1
 EL,S14-FJB,ITP for cable install C,0
 EL,S14-FJB,LV.Cont. cable megger test T,0
 EL,S15(LS-03),Lighting install,1
@@ -48586,7 +48586,7 @@ EL,S15(LS-04),Lighting install,0
 EL,S15(LS-04),Lighting ON-OFF Test,0
 EL,S15(LS-05),Lighting install,0
 EL,S15(LS-05),Lighting ON-OFF Test,0
-EL,S15-FJB,Cable pulling C,0
+EL,S15-FJB,Cable pulling C,1
 EL,S15-FJB,ITP for cable install C,0
 EL,S15-FJB,LV.Cont. cable megger test T,0
 EL,S16(LS-03),Lighting install,1
@@ -48595,7 +48595,7 @@ EL,S16(LS-04),Lighting install,0
 EL,S16(LS-04),Lighting ON-OFF Test,0
 EL,S16(LS-05),Lighting install,0
 EL,S16(LS-05),Lighting ON-OFF Test,0
-EL,S16-FJB,Cable pulling C,0
+EL,S16-FJB,Cable pulling C,1
 EL,S16-FJB,ITP for cable install C,0
 EL,S16-FJB,LV.Cont. cable megger test T,0
 EL,S17(LS-03),Lighting install,1
@@ -48604,7 +48604,7 @@ EL,S17(LS-04),Lighting install,0
 EL,S17(LS-04),Lighting ON-OFF Test,0
 EL,S17(LS-05),Lighting install,0
 EL,S17(LS-05),Lighting ON-OFF Test,0
-EL,S17-FJB,Cable pulling C,0
+EL,S17-FJB,Cable pulling C,1
 EL,S17-FJB,ITP for cable install C,0
 EL,S17-FJB,LV.Cont. cable megger test T,0
 EL,S18(LS-03),Lighting install,1
@@ -48613,7 +48613,7 @@ EL,S18(LS-04),Lighting install,0
 EL,S18(LS-04),Lighting ON-OFF Test,0
 EL,S18(LS-05),Lighting install,0
 EL,S18(LS-05),Lighting ON-OFF Test,0
-EL,S18-FJB,Cable pulling C,0
+EL,S18-FJB,Cable pulling C,1
 EL,S18-FJB,ITP for cable install C,0
 EL,S18-FJB,LV.Cont. cable megger test T,0
 EL,S19(LS-03),Lighting install,1
@@ -48622,7 +48622,7 @@ EL,S19(LS-04),Lighting install,0
 EL,S19(LS-04),Lighting ON-OFF Test,0
 EL,S19(LS-05),Lighting install,0
 EL,S19(LS-05),Lighting ON-OFF Test,0
-EL,S19-FJB,Cable pulling C,0
+EL,S19-FJB,Cable pulling C,1
 EL,S19-FJB,ITP for cable install C,0
 EL,S19-FJB,LV.Cont. cable megger test T,0
 EL,S20(LS-03),Lighting install,1
@@ -48631,7 +48631,7 @@ EL,S20(LS-04),Lighting install,0
 EL,S20(LS-04),Lighting ON-OFF Test,0
 EL,S20(LS-05),Lighting install,0
 EL,S20(LS-05),Lighting ON-OFF Test,0
-EL,S20-FJB,Cable pulling C,0
+EL,S20-FJB,Cable pulling C,1
 EL,S20-FJB,ITP for cable install C,0
 EL,S20-FJB,LV.Cont. cable megger test T,0
 EL,S21(LS-03),Lighting install,1
@@ -48640,7 +48640,7 @@ EL,S21(LS-04),Lighting install,0
 EL,S21(LS-04),Lighting ON-OFF Test,0
 EL,S21(LS-05),Lighting install,0
 EL,S21(LS-05),Lighting ON-OFF Test,0
-EL,S21-FJB,Cable pulling C,0
+EL,S21-FJB,Cable pulling C,1
 EL,S21-FJB,ITP for cable install C,0
 EL,S21-FJB,LV.Cont. cable megger test T,0
 EL,S22(LS-03),Lighting install,1
@@ -48649,7 +48649,7 @@ EL,S22(LS-04),Lighting install,0
 EL,S22(LS-04),Lighting ON-OFF Test,0
 EL,S22(LS-05),Lighting install,0
 EL,S22(LS-05),Lighting ON-OFF Test,0
-EL,S22-FJB,Cable pulling C,0
+EL,S22-FJB,Cable pulling C,1
 EL,S22-FJB,ITP for cable install C,0
 EL,S22-FJB,LV.Cont. cable megger test T,0
 EL,S23(LS-03),Lighting install,1
@@ -48658,7 +48658,7 @@ EL,S23(LS-04),Lighting install,0
 EL,S23(LS-04),Lighting ON-OFF Test,0
 EL,S23(LS-05),Lighting install,0
 EL,S23(LS-05),Lighting ON-OFF Test,0
-EL,S23-FJB,Cable pulling C,0
+EL,S23-FJB,Cable pulling C,1
 EL,S23-FJB,ITP for cable install C,0
 EL,S23-FJB,LV.Cont. cable megger test T,0
 EL,S24(LS-03),Lighting install,1
@@ -48667,7 +48667,7 @@ EL,S24(LS-04),Lighting install,0
 EL,S24(LS-04),Lighting ON-OFF Test,0
 EL,S24(LS-05),Lighting install,0
 EL,S24(LS-05),Lighting ON-OFF Test,0
-EL,S24-FJB,Cable pulling C,0
+EL,S24-FJB,Cable pulling C,1
 EL,S24-FJB,ITP for cable install C,0
 EL,S24-FJB,LV.Cont. cable megger test T,0
 EL,S25(LS-03),Lighting install,1
@@ -48676,7 +48676,7 @@ EL,S25(LS-04),Lighting install,0
 EL,S25(LS-04),Lighting ON-OFF Test,0
 EL,S25(LS-05),Lighting install,0
 EL,S25(LS-05),Lighting ON-OFF Test,0
-EL,S25-FJB,Cable pulling C,0
+EL,S25-FJB,Cable pulling C,1
 EL,S25-FJB,ITP for cable install C,0
 EL,S25-FJB,LV.Cont. cable megger test T,0
 EL,S26(LS-03),Lighting install,1
@@ -48685,7 +48685,7 @@ EL,S26(LS-04),Lighting install,0
 EL,S26(LS-04),Lighting ON-OFF Test,0
 EL,S26(LS-05),Lighting install,0
 EL,S26(LS-05),Lighting ON-OFF Test,0
-EL,S26-FJB,Cable pulling C,0
+EL,S26-FJB,Cable pulling C,1
 EL,S26-FJB,ITP for cable install C,0
 EL,S26-FJB,LV.Cont. cable megger test T,0
 EL,S27(LS-03),Lighting install,1
@@ -48694,7 +48694,7 @@ EL,S27(LS-04),Lighting install,0
 EL,S27(LS-04),Lighting ON-OFF Test,0
 EL,S27(LS-05),Lighting install,0
 EL,S27(LS-05),Lighting ON-OFF Test,0
-EL,S27-FJB,Cable pulling C,0
+EL,S27-FJB,Cable pulling C,1
 EL,S27-FJB,ITP for cable install C,0
 EL,S27-FJB,LV.Cont. cable megger test T,0
 EL,S28(LS-03),Lighting install,1
@@ -49427,257 +49427,257 @@ EL,SS-ELP-01(LS-02),panel & box install,0
 EL,SS-ELP-01(LS-03),panel & box install,0
 EL,SS-ELP-01-1-L1-01,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-1-L1-01,Lighting install,1
-EL,SS-ELP-01-1-L1-01-FJB,Cable pulling C,0
+EL,SS-ELP-01-1-L1-01-FJB,Cable pulling C,1
 EL,SS-ELP-01-1-L1-01-FJB,ITP for cable install C,0
 EL,SS-ELP-01-1-L1-01-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-1-L1-02,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-1-L1-02,Lighting install,1
-EL,SS-ELP-01-1-L1-02-FJB,Cable pulling C,0
+EL,SS-ELP-01-1-L1-02-FJB,Cable pulling C,1
 EL,SS-ELP-01-1-L1-02-FJB,ITP for cable install C,0
 EL,SS-ELP-01-1-L1-02-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-1-L1-03,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-1-L1-03,Lighting install,1
-EL,SS-ELP-01-1-L1-03-FJB,Cable pulling C,0
+EL,SS-ELP-01-1-L1-03-FJB,Cable pulling C,1
 EL,SS-ELP-01-1-L1-03-FJB,ITP for cable install C,0
 EL,SS-ELP-01-1-L1-03-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-1-L1-04,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-1-L1-04,Lighting install,1
-EL,SS-ELP-01-1-L1-04-FJB,Cable pulling C,0
+EL,SS-ELP-01-1-L1-04-FJB,Cable pulling C,1
 EL,SS-ELP-01-1-L1-04-FJB,ITP for cable install C,0
 EL,SS-ELP-01-1-L1-04-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-1-L1-05,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-1-L1-05,Lighting install,1
-EL,SS-ELP-01-1-L1-05-FJB,Cable pulling C,0
+EL,SS-ELP-01-1-L1-05-FJB,Cable pulling C,1
 EL,SS-ELP-01-1-L1-05-FJB,ITP for cable install C,0
 EL,SS-ELP-01-1-L1-05-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-1-L1-06,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-1-L1-06,Lighting install,1
-EL,SS-ELP-01-1-L1-06-FJB,Cable pulling C,0
+EL,SS-ELP-01-1-L1-06-FJB,Cable pulling C,1
 EL,SS-ELP-01-1-L1-06-FJB,ITP for cable install C,0
 EL,SS-ELP-01-1-L1-06-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-1-L1-07,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-1-L1-07,Lighting install,1
-EL,SS-ELP-01-1-L1-07-FJB,Cable pulling C,0
+EL,SS-ELP-01-1-L1-07-FJB,Cable pulling C,1
 EL,SS-ELP-01-1-L1-07-FJB,ITP for cable install C,0
 EL,SS-ELP-01-1-L1-07-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-1-L1-08,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-1-L1-08,Lighting install,1
-EL,SS-ELP-01-1-L1-08-FJB,Cable pulling C,0
+EL,SS-ELP-01-1-L1-08-FJB,Cable pulling C,1
 EL,SS-ELP-01-1-L1-08-FJB,ITP for cable install C,0
 EL,SS-ELP-01-1-L1-08-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-1-L1-09,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-1-L1-09,Lighting install,1
-EL,SS-ELP-01-1-L1-09-FJB,Cable pulling C,0
+EL,SS-ELP-01-1-L1-09-FJB,Cable pulling C,1
 EL,SS-ELP-01-1-L1-09-FJB,ITP for cable install C,0
 EL,SS-ELP-01-1-L1-09-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-1-L1-10,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-1-L1-10,Lighting install,1
-EL,SS-ELP-01-1-L1-10-FJB,Cable pulling C,0
+EL,SS-ELP-01-1-L1-10-FJB,Cable pulling C,1
 EL,SS-ELP-01-1-L1-10-FJB,ITP for cable install C,0
 EL,SS-ELP-01-1-L1-10-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-1-L1-11,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-1-L1-11,Lighting install,1
-EL,SS-ELP-01-1-L1-11-FJB,Cable pulling C,0
+EL,SS-ELP-01-1-L1-11-FJB,Cable pulling C,1
 EL,SS-ELP-01-1-L1-11-FJB,ITP for cable install C,0
 EL,SS-ELP-01-1-L1-11-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-1-L1-12,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-1-L1-12,Lighting install,1
-EL,SS-ELP-01-1-L1-12-FJB,Cable pulling C,0
+EL,SS-ELP-01-1-L1-12-FJB,Cable pulling C,1
 EL,SS-ELP-01-1-L1-12-FJB,ITP for cable install C,0
 EL,SS-ELP-01-1-L1-12-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-1-L1-13,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-1-L1-13,Lighting install,1
-EL,SS-ELP-01-1-L1-13-FJB,Cable pulling C,0
+EL,SS-ELP-01-1-L1-13-FJB,Cable pulling C,1
 EL,SS-ELP-01-1-L1-13-FJB,ITP for cable install C,0
 EL,SS-ELP-01-1-L1-13-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-2-L2-01,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-2-L2-01,Lighting install,1
-EL,SS-ELP-01-2-L2-01-FJB,Cable pulling C,0
+EL,SS-ELP-01-2-L2-01-FJB,Cable pulling C,1
 EL,SS-ELP-01-2-L2-01-FJB,ITP for cable install C,0
 EL,SS-ELP-01-2-L2-01-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-2-L2-02,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-2-L2-02,Lighting install,1
-EL,SS-ELP-01-2-L2-02-FJB,Cable pulling C,0
+EL,SS-ELP-01-2-L2-02-FJB,Cable pulling C,1
 EL,SS-ELP-01-2-L2-02-FJB,ITP for cable install C,0
 EL,SS-ELP-01-2-L2-02-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-2-L2-03,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-2-L2-03,Lighting install,1
-EL,SS-ELP-01-2-L2-03-FJB,Cable pulling C,0
+EL,SS-ELP-01-2-L2-03-FJB,Cable pulling C,1
 EL,SS-ELP-01-2-L2-03-FJB,ITP for cable install C,0
 EL,SS-ELP-01-2-L2-03-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-2-L2-04,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-2-L2-04,Lighting install,1
-EL,SS-ELP-01-2-L2-04-FJB,Cable pulling C,0
+EL,SS-ELP-01-2-L2-04-FJB,Cable pulling C,1
 EL,SS-ELP-01-2-L2-04-FJB,ITP for cable install C,0
 EL,SS-ELP-01-2-L2-04-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-2-L2-05,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-2-L2-05,Lighting install,1
-EL,SS-ELP-01-2-L2-05-FJB,Cable pulling C,0
+EL,SS-ELP-01-2-L2-05-FJB,Cable pulling C,1
 EL,SS-ELP-01-2-L2-05-FJB,ITP for cable install C,0
 EL,SS-ELP-01-2-L2-05-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-2-L2-06,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-2-L2-06,Lighting install,1
-EL,SS-ELP-01-2-L2-06-FJB,Cable pulling C,0
+EL,SS-ELP-01-2-L2-06-FJB,Cable pulling C,1
 EL,SS-ELP-01-2-L2-06-FJB,ITP for cable install C,0
 EL,SS-ELP-01-2-L2-06-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-2-L2-07,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-2-L2-07,Lighting install,1
-EL,SS-ELP-01-2-L2-07-FJB,Cable pulling C,0
+EL,SS-ELP-01-2-L2-07-FJB,Cable pulling C,1
 EL,SS-ELP-01-2-L2-07-FJB,ITP for cable install C,0
 EL,SS-ELP-01-2-L2-07-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-2-L2-08,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-2-L2-08,Lighting install,1
-EL,SS-ELP-01-2-L2-08-FJB,Cable pulling C,0
+EL,SS-ELP-01-2-L2-08-FJB,Cable pulling C,1
 EL,SS-ELP-01-2-L2-08-FJB,ITP for cable install C,0
 EL,SS-ELP-01-2-L2-08-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-3-L3-01,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-3-L3-01,Lighting install,1
-EL,SS-ELP-01-3-L3-01-FJB,Cable pulling C,0
+EL,SS-ELP-01-3-L3-01-FJB,Cable pulling C,1
 EL,SS-ELP-01-3-L3-01-FJB,ITP for cable install C,0
 EL,SS-ELP-01-3-L3-01-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-3-L3-02,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-3-L3-02,Lighting install,1
-EL,SS-ELP-01-3-L3-02-FJB,Cable pulling C,0
+EL,SS-ELP-01-3-L3-02-FJB,Cable pulling C,1
 EL,SS-ELP-01-3-L3-02-FJB,ITP for cable install C,0
 EL,SS-ELP-01-3-L3-02-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-3-L3-03,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-3-L3-03,Lighting install,1
-EL,SS-ELP-01-3-L3-03-FJB,Cable pulling C,0
+EL,SS-ELP-01-3-L3-03-FJB,Cable pulling C,1
 EL,SS-ELP-01-3-L3-03-FJB,ITP for cable install C,0
 EL,SS-ELP-01-3-L3-03-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-3-L3-04,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-3-L3-04,Lighting install,1
-EL,SS-ELP-01-3-L3-04-FJB,Cable pulling C,0
+EL,SS-ELP-01-3-L3-04-FJB,Cable pulling C,1
 EL,SS-ELP-01-3-L3-04-FJB,ITP for cable install C,0
 EL,SS-ELP-01-3-L3-04-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-3-L3-05,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-3-L3-05,Lighting install,1
-EL,SS-ELP-01-3-L3-05-FJB,Cable pulling C,0
+EL,SS-ELP-01-3-L3-05-FJB,Cable pulling C,1
 EL,SS-ELP-01-3-L3-05-FJB,ITP for cable install C,0
 EL,SS-ELP-01-3-L3-05-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-3-L3-06,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-3-L3-06,Lighting install,1
-EL,SS-ELP-01-3-L3-06-FJB,Cable pulling C,0
+EL,SS-ELP-01-3-L3-06-FJB,Cable pulling C,1
 EL,SS-ELP-01-3-L3-06-FJB,ITP for cable install C,0
 EL,SS-ELP-01-3-L3-06-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-3-L3-07,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-3-L3-07,Lighting install,1
-EL,SS-ELP-01-3-L3-07-FJB,Cable pulling C,0
+EL,SS-ELP-01-3-L3-07-FJB,Cable pulling C,1
 EL,SS-ELP-01-3-L3-07-FJB,ITP for cable install C,0
 EL,SS-ELP-01-3-L3-07-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-3-L3-08,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-3-L3-08,Lighting install,1
-EL,SS-ELP-01-3-L3-08-FJB,Cable pulling C,0
+EL,SS-ELP-01-3-L3-08-FJB,Cable pulling C,1
 EL,SS-ELP-01-3-L3-08-FJB,ITP for cable install C,0
 EL,SS-ELP-01-3-L3-08-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-4-L3-01,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-4-L3-01,Lighting install,1
-EL,SS-ELP-01-4-L3-01-FJB,Cable pulling C,0
+EL,SS-ELP-01-4-L3-01-FJB,Cable pulling C,1
 EL,SS-ELP-01-4-L3-01-FJB,ITP for cable install C,0
 EL,SS-ELP-01-4-L3-01-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-4-L3-02,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-4-L3-02,Lighting install,1
-EL,SS-ELP-01-4-L3-02-FJB,Cable pulling C,0
+EL,SS-ELP-01-4-L3-02-FJB,Cable pulling C,1
 EL,SS-ELP-01-4-L3-02-FJB,ITP for cable install C,0
 EL,SS-ELP-01-4-L3-02-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-4-L3-03,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-4-L3-03,Lighting install,1
-EL,SS-ELP-01-4-L3-03-FJB,Cable pulling C,0
+EL,SS-ELP-01-4-L3-03-FJB,Cable pulling C,1
 EL,SS-ELP-01-4-L3-03-FJB,ITP for cable install C,0
 EL,SS-ELP-01-4-L3-03-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-4-L3-04,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-4-L3-04,Lighting install,1
-EL,SS-ELP-01-4-L3-04-FJB,Cable pulling C,0
+EL,SS-ELP-01-4-L3-04-FJB,Cable pulling C,1
 EL,SS-ELP-01-4-L3-04-FJB,ITP for cable install C,0
 EL,SS-ELP-01-4-L3-04-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-4-L3-05,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-4-L3-05,Lighting install,1
-EL,SS-ELP-01-4-L3-05-FJB,Cable pulling C,0
+EL,SS-ELP-01-4-L3-05-FJB,Cable pulling C,1
 EL,SS-ELP-01-4-L3-05-FJB,ITP for cable install C,0
 EL,SS-ELP-01-4-L3-05-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-4-L3-06,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-4-L3-06,Lighting install,1
-EL,SS-ELP-01-4-L3-06-FJB,Cable pulling C,0
+EL,SS-ELP-01-4-L3-06-FJB,Cable pulling C,1
 EL,SS-ELP-01-4-L3-06-FJB,ITP for cable install C,0
 EL,SS-ELP-01-4-L3-06-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-4-L3-07,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-4-L3-07,Lighting install,1
-EL,SS-ELP-01-4-L3-07-FJB,Cable pulling C,0
+EL,SS-ELP-01-4-L3-07-FJB,Cable pulling C,1
 EL,SS-ELP-01-4-L3-07-FJB,ITP for cable install C,0
 EL,SS-ELP-01-4-L3-07-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-4-L3-08,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-4-L3-08,Lighting install,1
-EL,SS-ELP-01-4-L3-08-FJB,Cable pulling C,0
+EL,SS-ELP-01-4-L3-08-FJB,Cable pulling C,1
 EL,SS-ELP-01-4-L3-08-FJB,ITP for cable install C,0
 EL,SS-ELP-01-4-L3-08-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-4-L3-09,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-4-L3-09,Lighting install,1
-EL,SS-ELP-01-4-L3-09-FJB,Cable pulling C,0
+EL,SS-ELP-01-4-L3-09-FJB,Cable pulling C,1
 EL,SS-ELP-01-4-L3-09-FJB,ITP for cable install C,0
 EL,SS-ELP-01-4-L3-09-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-4-L3-10,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-4-L3-10,Lighting install,1
-EL,SS-ELP-01-4-L3-10-FJB,Cable pulling C,0
+EL,SS-ELP-01-4-L3-10-FJB,Cable pulling C,1
 EL,SS-ELP-01-4-L3-10-FJB,ITP for cable install C,0
 EL,SS-ELP-01-4-L3-10-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-5-L2-01,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-5-L2-01,Lighting install,1
-EL,SS-ELP-01-5-L2-01-FJB,Cable pulling C,0
+EL,SS-ELP-01-5-L2-01-FJB,Cable pulling C,1
 EL,SS-ELP-01-5-L2-01-FJB,ITP for cable install C,0
 EL,SS-ELP-01-5-L2-01-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-5-L2-02,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-5-L2-02,Lighting install,1
-EL,SS-ELP-01-5-L2-02-FJB,Cable pulling C,0
+EL,SS-ELP-01-5-L2-02-FJB,Cable pulling C,1
 EL,SS-ELP-01-5-L2-02-FJB,ITP for cable install C,0
 EL,SS-ELP-01-5-L2-02-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-5-L2-03,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-5-L2-03,Lighting install,1
-EL,SS-ELP-01-5-L2-03-FJB,Cable pulling C,0
+EL,SS-ELP-01-5-L2-03-FJB,Cable pulling C,1
 EL,SS-ELP-01-5-L2-03-FJB,ITP for cable install C,0
 EL,SS-ELP-01-5-L2-03-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-5-L2-04,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-5-L2-04,Lighting install,1
-EL,SS-ELP-01-5-L2-04-FJB,Cable pulling C,0
+EL,SS-ELP-01-5-L2-04-FJB,Cable pulling C,1
 EL,SS-ELP-01-5-L2-04-FJB,ITP for cable install C,0
 EL,SS-ELP-01-5-L2-04-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-5-L2-05,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-5-L2-05,Lighting install,1
-EL,SS-ELP-01-5-L2-05-FJB,Cable pulling C,0
+EL,SS-ELP-01-5-L2-05-FJB,Cable pulling C,1
 EL,SS-ELP-01-5-L2-05-FJB,ITP for cable install C,0
 EL,SS-ELP-01-5-L2-05-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-5-L2-06,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-5-L2-06,Lighting install,1
-EL,SS-ELP-01-5-L2-06-FJB,Cable pulling C,0
+EL,SS-ELP-01-5-L2-06-FJB,Cable pulling C,1
 EL,SS-ELP-01-5-L2-06-FJB,ITP for cable install C,0
 EL,SS-ELP-01-5-L2-06-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-5-L2-07,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-5-L2-07,Lighting install,1
-EL,SS-ELP-01-5-L2-07-FJB,Cable pulling C,0
+EL,SS-ELP-01-5-L2-07-FJB,Cable pulling C,1
 EL,SS-ELP-01-5-L2-07-FJB,ITP for cable install C,0
 EL,SS-ELP-01-5-L2-07-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-5-L2-08,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-5-L2-08,Lighting install,1
-EL,SS-ELP-01-5-L2-08-FJB,Cable pulling C,0
+EL,SS-ELP-01-5-L2-08-FJB,Cable pulling C,1
 EL,SS-ELP-01-5-L2-08-FJB,ITP for cable install C,0
 EL,SS-ELP-01-5-L2-08-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-5-L2-09,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-5-L2-09,Lighting install,1
-EL,SS-ELP-01-5-L2-09-FJB,Cable pulling C,0
+EL,SS-ELP-01-5-L2-09-FJB,Cable pulling C,1
 EL,SS-ELP-01-5-L2-09-FJB,ITP for cable install C,0
 EL,SS-ELP-01-5-L2-09-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-5-L2-10,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-5-L2-10,Lighting install,1
-EL,SS-ELP-01-5-L2-10-FJB,Cable pulling C,0
+EL,SS-ELP-01-5-L2-10-FJB,Cable pulling C,1
 EL,SS-ELP-01-5-L2-10-FJB,ITP for cable install C,0
 EL,SS-ELP-01-5-L2-10-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-5-L2-11,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-5-L2-11,Lighting install,1
-EL,SS-ELP-01-5-L2-11-FJB,Cable pulling C,0
+EL,SS-ELP-01-5-L2-11-FJB,Cable pulling C,1
 EL,SS-ELP-01-5-L2-11-FJB,ITP for cable install C,0
 EL,SS-ELP-01-5-L2-11-FJB,LV.Cont. cable megger test T,0
 EL,SS-ELP-01-5-L2-12,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-ELP-01-5-L2-12,Lighting install,1
-EL,SS-ELP-01-5-L2-12-FJB,Cable pulling C,0
+EL,SS-ELP-01-5-L2-12-FJB,Cable pulling C,1
 EL,SS-ELP-01-5-L2-12-FJB,ITP for cable install C,0
 EL,SS-ELP-01-5-L2-12-FJB,LV.Cont. cable megger test T,0
 EL,SS-FACP-01,panel & box install,0
@@ -49693,609 +49693,609 @@ EL,SS-LCP-0030,panel & box install,0
 EL,SS-LP-01,panel & box install,0
 EL,SS-LP-01(LS-03),panel & box install,0
 EL,SS-LP-01-11-L1-01,Socket outlet install,1
-EL,SS-LP-01-11-L1-01-FJB,Cable pulling C,0
+EL,SS-LP-01-11-L1-01-FJB,Cable pulling C,1
 EL,SS-LP-01-11-L1-01-FJB,ITP for cable install C,0
 EL,SS-LP-01-11-L1-01-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-11-L1-02,Socket outlet install,1
-EL,SS-LP-01-11-L1-02-FJB,Cable pulling C,0
+EL,SS-LP-01-11-L1-02-FJB,Cable pulling C,1
 EL,SS-LP-01-11-L1-02-FJB,ITP for cable install C,0
 EL,SS-LP-01-11-L1-02-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-11-L1-03,Socket outlet install,1
-EL,SS-LP-01-11-L1-03-FJB,Cable pulling C,0
+EL,SS-LP-01-11-L1-03-FJB,Cable pulling C,1
 EL,SS-LP-01-11-L1-03-FJB,ITP for cable install C,0
 EL,SS-LP-01-11-L1-03-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-11-L1-04,Socket outlet install,1
-EL,SS-LP-01-11-L1-04-FJB,Cable pulling C,0
+EL,SS-LP-01-11-L1-04-FJB,Cable pulling C,1
 EL,SS-LP-01-11-L1-04-FJB,ITP for cable install C,0
 EL,SS-LP-01-11-L1-04-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-11-L1-05,Socket outlet install,1
-EL,SS-LP-01-11-L1-05-FJB,Cable pulling C,0
+EL,SS-LP-01-11-L1-05-FJB,Cable pulling C,1
 EL,SS-LP-01-11-L1-05-FJB,ITP for cable install C,0
 EL,SS-LP-01-11-L1-05-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-11-L1-06,Socket outlet install,1
-EL,SS-LP-01-11-L1-06-FJB,Cable pulling C,0
+EL,SS-LP-01-11-L1-06-FJB,Cable pulling C,1
 EL,SS-LP-01-11-L1-06-FJB,ITP for cable install C,0
 EL,SS-LP-01-11-L1-06-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-11-L1-07,Socket outlet install,1
-EL,SS-LP-01-11-L1-07-FJB,Cable pulling C,0
+EL,SS-LP-01-11-L1-07-FJB,Cable pulling C,1
 EL,SS-LP-01-11-L1-07-FJB,ITP for cable install C,0
 EL,SS-LP-01-11-L1-07-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-11-L1-08,Socket outlet install,1
-EL,SS-LP-01-11-L1-08-FJB,Cable pulling C,0
+EL,SS-LP-01-11-L1-08-FJB,Cable pulling C,1
 EL,SS-LP-01-11-L1-08-FJB,ITP for cable install C,0
 EL,SS-LP-01-11-L1-08-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-12-L2-01,Socket outlet install,1
-EL,SS-LP-01-12-L2-01-FJB,Cable pulling C,0
+EL,SS-LP-01-12-L2-01-FJB,Cable pulling C,1
 EL,SS-LP-01-12-L2-01-FJB,ITP for cable install C,0
 EL,SS-LP-01-12-L2-01-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-12-L2-02,Socket outlet install,1
-EL,SS-LP-01-12-L2-02-FJB,Cable pulling C,0
+EL,SS-LP-01-12-L2-02-FJB,Cable pulling C,1
 EL,SS-LP-01-12-L2-02-FJB,ITP for cable install C,0
 EL,SS-LP-01-12-L2-02-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-12-L2-03,Socket outlet install,1
-EL,SS-LP-01-12-L2-03-FJB,Cable pulling C,0
+EL,SS-LP-01-12-L2-03-FJB,Cable pulling C,1
 EL,SS-LP-01-12-L2-03-FJB,ITP for cable install C,0
 EL,SS-LP-01-12-L2-03-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-12-L2-04,Socket outlet install,1
-EL,SS-LP-01-12-L2-04-FJB,Cable pulling C,0
+EL,SS-LP-01-12-L2-04-FJB,Cable pulling C,1
 EL,SS-LP-01-12-L2-04-FJB,ITP for cable install C,0
 EL,SS-LP-01-12-L2-04-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-12-L2-05,Socket outlet install,1
-EL,SS-LP-01-12-L2-05-FJB,Cable pulling C,0
+EL,SS-LP-01-12-L2-05-FJB,Cable pulling C,1
 EL,SS-LP-01-12-L2-05-FJB,ITP for cable install C,0
 EL,SS-LP-01-12-L2-05-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-12-L2-06,Socket outlet install,1
-EL,SS-LP-01-12-L2-06-FJB,Cable pulling C,0
+EL,SS-LP-01-12-L2-06-FJB,Cable pulling C,1
 EL,SS-LP-01-12-L2-06-FJB,ITP for cable install C,0
 EL,SS-LP-01-12-L2-06-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-12-L2-07,Socket outlet install,1
-EL,SS-LP-01-12-L2-07-FJB,Cable pulling C,0
+EL,SS-LP-01-12-L2-07-FJB,Cable pulling C,1
 EL,SS-LP-01-12-L2-07-FJB,ITP for cable install C,0
 EL,SS-LP-01-12-L2-07-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-13-L3-01,Socket outlet install,1
-EL,SS-LP-01-13-L3-01-FJB,Cable pulling C,0
+EL,SS-LP-01-13-L3-01-FJB,Cable pulling C,1
 EL,SS-LP-01-13-L3-01-FJB,ITP for cable install C,0
 EL,SS-LP-01-13-L3-01-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-13-L3-02,Socket outlet install,1
-EL,SS-LP-01-13-L3-02-FJB,Cable pulling C,0
+EL,SS-LP-01-13-L3-02-FJB,Cable pulling C,1
 EL,SS-LP-01-13-L3-02-FJB,ITP for cable install C,0
 EL,SS-LP-01-13-L3-02-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-13-L3-03,Socket outlet install,1
-EL,SS-LP-01-13-L3-03-FJB,Cable pulling C,0
+EL,SS-LP-01-13-L3-03-FJB,Cable pulling C,1
 EL,SS-LP-01-13-L3-03-FJB,ITP for cable install C,0
 EL,SS-LP-01-13-L3-03-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-13-L3-04,Socket outlet install,1
-EL,SS-LP-01-13-L3-04-FJB,Cable pulling C,0
+EL,SS-LP-01-13-L3-04-FJB,Cable pulling C,1
 EL,SS-LP-01-13-L3-04-FJB,ITP for cable install C,0
 EL,SS-LP-01-13-L3-04-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-13-L3-05,Socket outlet install,1
-EL,SS-LP-01-13-L3-05-FJB,Cable pulling C,0
+EL,SS-LP-01-13-L3-05-FJB,Cable pulling C,1
 EL,SS-LP-01-13-L3-05-FJB,ITP for cable install C,0
 EL,SS-LP-01-13-L3-05-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-13-L3-06,Socket outlet install,1
-EL,SS-LP-01-13-L3-06-FJB,Cable pulling C,0
+EL,SS-LP-01-13-L3-06-FJB,Cable pulling C,1
 EL,SS-LP-01-13-L3-06-FJB,ITP for cable install C,0
 EL,SS-LP-01-13-L3-06-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-14-L1-01,Socket outlet install,1
-EL,SS-LP-01-14-L1-01-FJB,Cable pulling C,0
+EL,SS-LP-01-14-L1-01-FJB,Cable pulling C,1
 EL,SS-LP-01-14-L1-01-FJB,ITP for cable install C,0
 EL,SS-LP-01-14-L1-01-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-14-L1-02,Socket outlet install,1
-EL,SS-LP-01-14-L1-02-FJB,Cable pulling C,0
+EL,SS-LP-01-14-L1-02-FJB,Cable pulling C,1
 EL,SS-LP-01-14-L1-02-FJB,ITP for cable install C,0
 EL,SS-LP-01-14-L1-02-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-14-L1-03,Socket outlet install,1
-EL,SS-LP-01-14-L1-03-FJB,Cable pulling C,0
+EL,SS-LP-01-14-L1-03-FJB,Cable pulling C,1
 EL,SS-LP-01-14-L1-03-FJB,ITP for cable install C,0
 EL,SS-LP-01-14-L1-03-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-14-L1-04,Socket outlet install,1
-EL,SS-LP-01-14-L1-04-FJB,Cable pulling C,0
+EL,SS-LP-01-14-L1-04-FJB,Cable pulling C,1
 EL,SS-LP-01-14-L1-04-FJB,ITP for cable install C,0
 EL,SS-LP-01-14-L1-04-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-14-L1-05,Socket outlet install,1
-EL,SS-LP-01-14-L1-05-FJB,Cable pulling C,0
+EL,SS-LP-01-14-L1-05-FJB,Cable pulling C,1
 EL,SS-LP-01-14-L1-05-FJB,ITP for cable install C,0
 EL,SS-LP-01-14-L1-05-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-14-L1-06,Socket outlet install,1
-EL,SS-LP-01-14-L1-06-FJB,Cable pulling C,0
+EL,SS-LP-01-14-L1-06-FJB,Cable pulling C,1
 EL,SS-LP-01-14-L1-06-FJB,ITP for cable install C,0
 EL,SS-LP-01-14-L1-06-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-15-L2-01,Socket outlet install,1
-EL,SS-LP-01-15-L2-01-FJB,Cable pulling C,0
+EL,SS-LP-01-15-L2-01-FJB,Cable pulling C,1
 EL,SS-LP-01-15-L2-01-FJB,ITP for cable install C,0
 EL,SS-LP-01-15-L2-01-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-15-L2-02,Socket outlet install,1
-EL,SS-LP-01-15-L2-02-FJB,Cable pulling C,0
+EL,SS-LP-01-15-L2-02-FJB,Cable pulling C,1
 EL,SS-LP-01-15-L2-02-FJB,ITP for cable install C,0
 EL,SS-LP-01-15-L2-02-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-15-L2-03,Socket outlet install,1
-EL,SS-LP-01-15-L2-03-FJB,Cable pulling C,0
+EL,SS-LP-01-15-L2-03-FJB,Cable pulling C,1
 EL,SS-LP-01-15-L2-03-FJB,ITP for cable install C,0
 EL,SS-LP-01-15-L2-03-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-15-L2-04,Socket outlet install,1
-EL,SS-LP-01-15-L2-04-FJB,Cable pulling C,0
+EL,SS-LP-01-15-L2-04-FJB,Cable pulling C,1
 EL,SS-LP-01-15-L2-04-FJB,ITP for cable install C,0
 EL,SS-LP-01-15-L2-04-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-15-L2-05,Socket outlet install,1
-EL,SS-LP-01-15-L2-05-FJB,Cable pulling C,0
+EL,SS-LP-01-15-L2-05-FJB,Cable pulling C,1
 EL,SS-LP-01-15-L2-05-FJB,ITP for cable install C,0
 EL,SS-LP-01-15-L2-05-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-15-L2-06,Socket outlet install,1
-EL,SS-LP-01-15-L2-06-FJB,Cable pulling C,0
+EL,SS-LP-01-15-L2-06-FJB,Cable pulling C,1
 EL,SS-LP-01-15-L2-06-FJB,ITP for cable install C,0
 EL,SS-LP-01-15-L2-06-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-15-L2-07,Socket outlet install,1
-EL,SS-LP-01-15-L2-07-FJB,Cable pulling C,0
+EL,SS-LP-01-15-L2-07-FJB,Cable pulling C,1
 EL,SS-LP-01-15-L2-07-FJB,ITP for cable install C,0
 EL,SS-LP-01-15-L2-07-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-16-L3-01,Socket outlet install,1
-EL,SS-LP-01-16-L3-01-FJB,Cable pulling C,0
+EL,SS-LP-01-16-L3-01-FJB,Cable pulling C,1
 EL,SS-LP-01-16-L3-01-FJB,ITP for cable install C,0
 EL,SS-LP-01-16-L3-01-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-16-L3-02,Socket outlet install,1
-EL,SS-LP-01-16-L3-02-FJB,Cable pulling C,0
+EL,SS-LP-01-16-L3-02-FJB,Cable pulling C,1
 EL,SS-LP-01-16-L3-02-FJB,ITP for cable install C,0
 EL,SS-LP-01-16-L3-02-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-16-L3-03,Socket outlet install,1
-EL,SS-LP-01-16-L3-03-FJB,Cable pulling C,0
+EL,SS-LP-01-16-L3-03-FJB,Cable pulling C,1
 EL,SS-LP-01-16-L3-03-FJB,ITP for cable install C,0
 EL,SS-LP-01-16-L3-03-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-16-L3-04,Socket outlet install,1
-EL,SS-LP-01-16-L3-04-FJB,Cable pulling C,0
+EL,SS-LP-01-16-L3-04-FJB,Cable pulling C,1
 EL,SS-LP-01-16-L3-04-FJB,ITP for cable install C,0
 EL,SS-LP-01-16-L3-04-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-16-L3-05,Socket outlet install,1
-EL,SS-LP-01-16-L3-05-FJB,Cable pulling C,0
+EL,SS-LP-01-16-L3-05-FJB,Cable pulling C,1
 EL,SS-LP-01-16-L3-05-FJB,ITP for cable install C,0
 EL,SS-LP-01-16-L3-05-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-16-L3-06,Socket outlet install,1
-EL,SS-LP-01-16-L3-06-FJB,Cable pulling C,0
+EL,SS-LP-01-16-L3-06-FJB,Cable pulling C,1
 EL,SS-LP-01-16-L3-06-FJB,ITP for cable install C,0
 EL,SS-LP-01-16-L3-06-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-16-L3-07,Socket outlet install,1
-EL,SS-LP-01-16-L3-07-FJB,Cable pulling C,0
+EL,SS-LP-01-16-L3-07-FJB,Cable pulling C,1
 EL,SS-LP-01-16-L3-07-FJB,ITP for cable install C,0
 EL,SS-LP-01-16-L3-07-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-16-L3-08,Socket outlet install,1
-EL,SS-LP-01-16-L3-08-FJB,Cable pulling C,0
+EL,SS-LP-01-16-L3-08-FJB,Cable pulling C,1
 EL,SS-LP-01-16-L3-08-FJB,ITP for cable install C,0
 EL,SS-LP-01-16-L3-08-FJB,LV.Cont. cable megger test T,0
-EL,SS-LP-01-17-L1|L2|L3-01-FJB,Cable pulling C,0
+EL,SS-LP-01-17-L1|L2|L3-01-FJB,Cable pulling C,1
 EL,SS-LP-01-17-L1|L2|L3-01-FJB,ITP for cable install C,0
 EL,SS-LP-01-17-L1|L2|L3-01-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-17-L1|L2|L3-01,Socket outlet install,1
-EL,SS-LP-01-18-L1|L2|L3-01-FJB,Cable pulling C,0
+EL,SS-LP-01-18-L1|L2|L3-01-FJB,Cable pulling C,1
 EL,SS-LP-01-18-L1|L2|L3-01-FJB,ITP for cable install C,0
 EL,SS-LP-01-18-L1|L2|L3-01-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-18-L1|L2|L3-01,Socket outlet install,1
 EL,SS-LP-01-1-L1-01,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-1-L1-01,Lighting install,1
-EL,SS-LP-01-1-L1-01-FJB,Cable pulling C,0
+EL,SS-LP-01-1-L1-01-FJB,Cable pulling C,1
 EL,SS-LP-01-1-L1-01-FJB,ITP for cable install C,0
 EL,SS-LP-01-1-L1-01-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-1-L1-02,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-1-L1-02,Lighting install,1
-EL,SS-LP-01-1-L1-02-FJB,Cable pulling C,0
+EL,SS-LP-01-1-L1-02-FJB,Cable pulling C,1
 EL,SS-LP-01-1-L1-02-FJB,ITP for cable install C,0
 EL,SS-LP-01-1-L1-02-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-1-L1-03,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-1-L1-03,Lighting install,1
-EL,SS-LP-01-1-L1-03-FJB,Cable pulling C,0
+EL,SS-LP-01-1-L1-03-FJB,Cable pulling C,1
 EL,SS-LP-01-1-L1-03-FJB,ITP for cable install C,0
 EL,SS-LP-01-1-L1-03-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-1-L1-04,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-1-L1-04,Lighting install,1
-EL,SS-LP-01-1-L1-04-FJB,Cable pulling C,0
+EL,SS-LP-01-1-L1-04-FJB,Cable pulling C,1
 EL,SS-LP-01-1-L1-04-FJB,ITP for cable install C,0
 EL,SS-LP-01-1-L1-04-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-1-L1-05,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-1-L1-05,Lighting install,1
-EL,SS-LP-01-1-L1-05-FJB,Cable pulling C,0
+EL,SS-LP-01-1-L1-05-FJB,Cable pulling C,1
 EL,SS-LP-01-1-L1-05-FJB,ITP for cable install C,0
 EL,SS-LP-01-1-L1-05-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-1-L1-06,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-1-L1-06,Lighting install,1
-EL,SS-LP-01-1-L1-06-FJB,Cable pulling C,0
+EL,SS-LP-01-1-L1-06-FJB,Cable pulling C,1
 EL,SS-LP-01-1-L1-06-FJB,ITP for cable install C,0
 EL,SS-LP-01-1-L1-06-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-1-L1-07,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-1-L1-07,Lighting install,1
-EL,SS-LP-01-1-L1-07-FJB,Cable pulling C,0
+EL,SS-LP-01-1-L1-07-FJB,Cable pulling C,1
 EL,SS-LP-01-1-L1-07-FJB,ITP for cable install C,0
 EL,SS-LP-01-1-L1-07-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-1-L1-08,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-1-L1-08,Lighting install,1
-EL,SS-LP-01-1-L1-08-FJB,Cable pulling C,0
+EL,SS-LP-01-1-L1-08-FJB,Cable pulling C,1
 EL,SS-LP-01-1-L1-08-FJB,ITP for cable install C,0
 EL,SS-LP-01-1-L1-08-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-1-L1-09,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-1-L1-09,Lighting install,1
-EL,SS-LP-01-1-L1-09-FJB,Cable pulling C,0
+EL,SS-LP-01-1-L1-09-FJB,Cable pulling C,1
 EL,SS-LP-01-1-L1-09-FJB,ITP for cable install C,0
 EL,SS-LP-01-1-L1-09-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-1-L1-10,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-1-L1-10,Lighting install,1
-EL,SS-LP-01-1-L1-10-FJB,Cable pulling C,0
+EL,SS-LP-01-1-L1-10-FJB,Cable pulling C,1
 EL,SS-LP-01-1-L1-10-FJB,ITP for cable install C,0
 EL,SS-LP-01-1-L1-10-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-1-L1-11,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-1-L1-11,Lighting install,1
-EL,SS-LP-01-1-L1-11-FJB,Cable pulling C,0
+EL,SS-LP-01-1-L1-11-FJB,Cable pulling C,1
 EL,SS-LP-01-1-L1-11-FJB,ITP for cable install C,0
 EL,SS-LP-01-1-L1-11-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-1-L1-12,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-1-L1-12,Lighting install,1
-EL,SS-LP-01-1-L1-12-FJB,Cable pulling C,0
+EL,SS-LP-01-1-L1-12-FJB,Cable pulling C,1
 EL,SS-LP-01-1-L1-12-FJB,ITP for cable install C,0
 EL,SS-LP-01-1-L1-12-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-1-L1-13,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-1-L1-13,Lighting install,1
-EL,SS-LP-01-1-L1-13-FJB,Cable pulling C,0
+EL,SS-LP-01-1-L1-13-FJB,Cable pulling C,1
 EL,SS-LP-01-1-L1-13-FJB,ITP for cable install C,0
 EL,SS-LP-01-1-L1-13-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-1-L1-14,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-1-L1-14,Lighting install,1
-EL,SS-LP-01-1-L1-14-FJB,Cable pulling C,0
+EL,SS-LP-01-1-L1-14-FJB,Cable pulling C,1
 EL,SS-LP-01-1-L1-14-FJB,ITP for cable install C,0
 EL,SS-LP-01-1-L1-14-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-1-L1-15,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-1-L1-15,Lighting install,1
-EL,SS-LP-01-1-L1-15-FJB,Cable pulling C,0
+EL,SS-LP-01-1-L1-15-FJB,Cable pulling C,1
 EL,SS-LP-01-1-L1-15-FJB,ITP for cable install C,0
 EL,SS-LP-01-1-L1-15-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-1-L1-16,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-1-L1-16,Lighting install,1
-EL,SS-LP-01-1-L1-16-FJB,Cable pulling C,0
+EL,SS-LP-01-1-L1-16-FJB,Cable pulling C,1
 EL,SS-LP-01-1-L1-16-FJB,ITP for cable install C,0
 EL,SS-LP-01-1-L1-16-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-1-L1-17,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-1-L1-17,Lighting install,1
-EL,SS-LP-01-1-L1-17-FJB,Cable pulling C,0
+EL,SS-LP-01-1-L1-17-FJB,Cable pulling C,1
 EL,SS-LP-01-1-L1-17-FJB,ITP for cable install C,0
 EL,SS-LP-01-1-L1-17-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-1-L1-18,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-1-L1-18,Lighting install,1
-EL,SS-LP-01-1-L1-18-FJB,Cable pulling C,0
+EL,SS-LP-01-1-L1-18-FJB,Cable pulling C,1
 EL,SS-LP-01-1-L1-18-FJB,ITP for cable install C,0
 EL,SS-LP-01-1-L1-18-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-2-L2-01,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-2-L2-01,Lighting install,1
-EL,SS-LP-01-2-L2-01-FJB,Cable pulling C,0
+EL,SS-LP-01-2-L2-01-FJB,Cable pulling C,1
 EL,SS-LP-01-2-L2-01-FJB,ITP for cable install C,0
 EL,SS-LP-01-2-L2-01-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-2-L2-02,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-2-L2-02,Lighting install,1
-EL,SS-LP-01-2-L2-02-FJB,Cable pulling C,0
+EL,SS-LP-01-2-L2-02-FJB,Cable pulling C,1
 EL,SS-LP-01-2-L2-02-FJB,ITP for cable install C,0
 EL,SS-LP-01-2-L2-02-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-2-L2-03,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-2-L2-03,Lighting install,1
-EL,SS-LP-01-2-L2-03-FJB,Cable pulling C,0
+EL,SS-LP-01-2-L2-03-FJB,Cable pulling C,1
 EL,SS-LP-01-2-L2-03-FJB,ITP for cable install C,0
 EL,SS-LP-01-2-L2-03-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-2-L2-04,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-2-L2-04,Lighting install,1
-EL,SS-LP-01-2-L2-04-FJB,Cable pulling C,0
+EL,SS-LP-01-2-L2-04-FJB,Cable pulling C,1
 EL,SS-LP-01-2-L2-04-FJB,ITP for cable install C,0
 EL,SS-LP-01-2-L2-04-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-2-L2-05,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-2-L2-05,Lighting install,1
-EL,SS-LP-01-2-L2-05-FJB,Cable pulling C,0
+EL,SS-LP-01-2-L2-05-FJB,Cable pulling C,1
 EL,SS-LP-01-2-L2-05-FJB,ITP for cable install C,0
 EL,SS-LP-01-2-L2-05-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-2-L2-06,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-2-L2-06,Lighting install,1
-EL,SS-LP-01-2-L2-06-FJB,Cable pulling C,0
+EL,SS-LP-01-2-L2-06-FJB,Cable pulling C,1
 EL,SS-LP-01-2-L2-06-FJB,ITP for cable install C,0
 EL,SS-LP-01-2-L2-06-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-2-L2-07,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-2-L2-07,Lighting install,1
-EL,SS-LP-01-2-L2-07-FJB,Cable pulling C,0
+EL,SS-LP-01-2-L2-07-FJB,Cable pulling C,1
 EL,SS-LP-01-2-L2-07-FJB,ITP for cable install C,0
 EL,SS-LP-01-2-L2-07-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-2-L2-08,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-2-L2-08,Lighting install,1
-EL,SS-LP-01-2-L2-08-FJB,Cable pulling C,0
+EL,SS-LP-01-2-L2-08-FJB,Cable pulling C,1
 EL,SS-LP-01-2-L2-08-FJB,ITP for cable install C,0
 EL,SS-LP-01-2-L2-08-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-2-L2-09,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-2-L2-09,Lighting install,1
-EL,SS-LP-01-2-L2-09-FJB,Cable pulling C,0
+EL,SS-LP-01-2-L2-09-FJB,Cable pulling C,1
 EL,SS-LP-01-2-L2-09-FJB,ITP for cable install C,0
 EL,SS-LP-01-2-L2-09-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-2-L2-10,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-2-L2-10,Lighting install,1
-EL,SS-LP-01-2-L2-10-FJB,Cable pulling C,0
+EL,SS-LP-01-2-L2-10-FJB,Cable pulling C,1
 EL,SS-LP-01-2-L2-10-FJB,ITP for cable install C,0
 EL,SS-LP-01-2-L2-10-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-3-L3-01,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-3-L3-01,Lighting install,1
-EL,SS-LP-01-3-L3-01-FJB,Cable pulling C,0
+EL,SS-LP-01-3-L3-01-FJB,Cable pulling C,1
 EL,SS-LP-01-3-L3-01-FJB,ITP for cable install C,0
 EL,SS-LP-01-3-L3-01-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-3-L3-02,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-3-L3-02,Lighting install,1
-EL,SS-LP-01-3-L3-02-FJB,Cable pulling C,0
+EL,SS-LP-01-3-L3-02-FJB,Cable pulling C,1
 EL,SS-LP-01-3-L3-02-FJB,ITP for cable install C,0
 EL,SS-LP-01-3-L3-02-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-3-L3-03,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-3-L3-03,Lighting install,1
-EL,SS-LP-01-3-L3-03-FJB,Cable pulling C,0
+EL,SS-LP-01-3-L3-03-FJB,Cable pulling C,1
 EL,SS-LP-01-3-L3-03-FJB,ITP for cable install C,0
 EL,SS-LP-01-3-L3-03-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-3-L3-04,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-3-L3-04,Lighting install,1
-EL,SS-LP-01-3-L3-04-FJB,Cable pulling C,0
+EL,SS-LP-01-3-L3-04-FJB,Cable pulling C,1
 EL,SS-LP-01-3-L3-04-FJB,ITP for cable install C,0
 EL,SS-LP-01-3-L3-04-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-3-L3-05,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-3-L3-05,Lighting install,1
-EL,SS-LP-01-3-L3-05-FJB,Cable pulling C,0
+EL,SS-LP-01-3-L3-05-FJB,Cable pulling C,1
 EL,SS-LP-01-3-L3-05-FJB,ITP for cable install C,0
 EL,SS-LP-01-3-L3-05-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-3-L3-06,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-3-L3-06,Lighting install,1
-EL,SS-LP-01-3-L3-06-FJB,Cable pulling C,0
+EL,SS-LP-01-3-L3-06-FJB,Cable pulling C,1
 EL,SS-LP-01-3-L3-06-FJB,ITP for cable install C,0
 EL,SS-LP-01-3-L3-06-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-3-L3-07,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-3-L3-07,Lighting install,1
-EL,SS-LP-01-3-L3-07-FJB,Cable pulling C,0
+EL,SS-LP-01-3-L3-07-FJB,Cable pulling C,1
 EL,SS-LP-01-3-L3-07-FJB,ITP for cable install C,0
 EL,SS-LP-01-3-L3-07-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-3-L3-08,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-3-L3-08,Lighting install,1
-EL,SS-LP-01-3-L3-08-FJB,Cable pulling C,0
+EL,SS-LP-01-3-L3-08-FJB,Cable pulling C,1
 EL,SS-LP-01-3-L3-08-FJB,ITP for cable install C,0
 EL,SS-LP-01-3-L3-08-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-3-L3-09,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-3-L3-09,Lighting install,1
-EL,SS-LP-01-3-L3-09-FJB,Cable pulling C,0
+EL,SS-LP-01-3-L3-09-FJB,Cable pulling C,1
 EL,SS-LP-01-3-L3-09-FJB,ITP for cable install C,0
 EL,SS-LP-01-3-L3-09-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-3-L3-10,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-3-L3-10,Lighting install,1
-EL,SS-LP-01-3-L3-10-FJB,Cable pulling C,0
+EL,SS-LP-01-3-L3-10-FJB,Cable pulling C,1
 EL,SS-LP-01-3-L3-10-FJB,ITP for cable install C,0
 EL,SS-LP-01-3-L3-10-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-3-L3-11,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-3-L3-11,Lighting install,1
-EL,SS-LP-01-3-L3-11-FJB,Cable pulling C,0
+EL,SS-LP-01-3-L3-11-FJB,Cable pulling C,1
 EL,SS-LP-01-3-L3-11-FJB,ITP for cable install C,0
 EL,SS-LP-01-3-L3-11-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-3-L3-12,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-3-L3-12,Lighting install,1
-EL,SS-LP-01-3-L3-12-FJB,Cable pulling C,0
+EL,SS-LP-01-3-L3-12-FJB,Cable pulling C,1
 EL,SS-LP-01-3-L3-12-FJB,ITP for cable install C,0
 EL,SS-LP-01-3-L3-12-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-3-L3-13,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-3-L3-13,Lighting install,1
-EL,SS-LP-01-3-L3-13-FJB,Cable pulling C,0
+EL,SS-LP-01-3-L3-13-FJB,Cable pulling C,1
 EL,SS-LP-01-3-L3-13-FJB,ITP for cable install C,0
 EL,SS-LP-01-3-L3-13-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-4-L1-01,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-4-L1-01,Lighting install,1
-EL,SS-LP-01-4-L1-01-FJB,Cable pulling C,0
+EL,SS-LP-01-4-L1-01-FJB,Cable pulling C,1
 EL,SS-LP-01-4-L1-01-FJB,ITP for cable install C,0
 EL,SS-LP-01-4-L1-01-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-4-L1-02,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-4-L1-02,Lighting install,1
-EL,SS-LP-01-4-L1-02-FJB,Cable pulling C,0
+EL,SS-LP-01-4-L1-02-FJB,Cable pulling C,1
 EL,SS-LP-01-4-L1-02-FJB,ITP for cable install C,0
 EL,SS-LP-01-4-L1-02-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-4-L1-03,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-4-L1-03,Lighting install,1
-EL,SS-LP-01-4-L1-03-FJB,Cable pulling C,0
+EL,SS-LP-01-4-L1-03-FJB,Cable pulling C,1
 EL,SS-LP-01-4-L1-03-FJB,ITP for cable install C,0
 EL,SS-LP-01-4-L1-03-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-4-L1-04,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-4-L1-04,Lighting install,1
-EL,SS-LP-01-4-L1-04-FJB,Cable pulling C,0
+EL,SS-LP-01-4-L1-04-FJB,Cable pulling C,1
 EL,SS-LP-01-4-L1-04-FJB,ITP for cable install C,0
 EL,SS-LP-01-4-L1-04-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-4-L1-05,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-4-L1-05,Lighting install,1
-EL,SS-LP-01-4-L1-05-FJB,Cable pulling C,0
+EL,SS-LP-01-4-L1-05-FJB,Cable pulling C,1
 EL,SS-LP-01-4-L1-05-FJB,ITP for cable install C,0
 EL,SS-LP-01-4-L1-05-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-4-L1-06,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-4-L1-06,Lighting install,1
-EL,SS-LP-01-4-L1-06-FJB,Cable pulling C,0
+EL,SS-LP-01-4-L1-06-FJB,Cable pulling C,1
 EL,SS-LP-01-4-L1-06-FJB,ITP for cable install C,0
 EL,SS-LP-01-4-L1-06-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-4-L1-07,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-4-L1-07,Lighting install,1
-EL,SS-LP-01-4-L1-07-FJB,Cable pulling C,0
+EL,SS-LP-01-4-L1-07-FJB,Cable pulling C,1
 EL,SS-LP-01-4-L1-07-FJB,ITP for cable install C,0
 EL,SS-LP-01-4-L1-07-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-4-L1-08,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-4-L1-08,Lighting install,1
-EL,SS-LP-01-4-L1-08-FJB,Cable pulling C,0
+EL,SS-LP-01-4-L1-08-FJB,Cable pulling C,1
 EL,SS-LP-01-4-L1-08-FJB,ITP for cable install C,0
 EL,SS-LP-01-4-L1-08-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-5-L2-01,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-5-L2-01,Lighting install,1
-EL,SS-LP-01-5-L2-01-FJB,Cable pulling C,0
+EL,SS-LP-01-5-L2-01-FJB,Cable pulling C,1
 EL,SS-LP-01-5-L2-01-FJB,ITP for cable install C,0
 EL,SS-LP-01-5-L2-01-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-5-L2-02,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-5-L2-02,Lighting install,1
-EL,SS-LP-01-5-L2-02-FJB,Cable pulling C,0
+EL,SS-LP-01-5-L2-02-FJB,Cable pulling C,1
 EL,SS-LP-01-5-L2-02-FJB,ITP for cable install C,0
 EL,SS-LP-01-5-L2-02-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-5-L2-03,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-5-L2-03,Lighting install,1
-EL,SS-LP-01-5-L2-03-FJB,Cable pulling C,0
+EL,SS-LP-01-5-L2-03-FJB,Cable pulling C,1
 EL,SS-LP-01-5-L2-03-FJB,ITP for cable install C,0
 EL,SS-LP-01-5-L2-03-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-5-L2-04,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-5-L2-04,Lighting install,1
-EL,SS-LP-01-5-L2-04-FJB,Cable pulling C,0
+EL,SS-LP-01-5-L2-04-FJB,Cable pulling C,1
 EL,SS-LP-01-5-L2-04-FJB,ITP for cable install C,0
 EL,SS-LP-01-5-L2-04-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-5-L2-05,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-5-L2-05,Lighting install,1
-EL,SS-LP-01-5-L2-05-FJB,Cable pulling C,0
+EL,SS-LP-01-5-L2-05-FJB,Cable pulling C,1
 EL,SS-LP-01-5-L2-05-FJB,ITP for cable install C,0
 EL,SS-LP-01-5-L2-05-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-5-L2-06,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-5-L2-06,Lighting install,1
-EL,SS-LP-01-5-L2-06-FJB,Cable pulling C,0
+EL,SS-LP-01-5-L2-06-FJB,Cable pulling C,1
 EL,SS-LP-01-5-L2-06-FJB,ITP for cable install C,0
 EL,SS-LP-01-5-L2-06-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-5-L2-07,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-5-L2-07,Lighting install,1
-EL,SS-LP-01-5-L2-07-FJB,Cable pulling C,0
+EL,SS-LP-01-5-L2-07-FJB,Cable pulling C,1
 EL,SS-LP-01-5-L2-07-FJB,ITP for cable install C,0
 EL,SS-LP-01-5-L2-07-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-5-L2-08,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-5-L2-08,Lighting install,1
-EL,SS-LP-01-5-L2-08-FJB,Cable pulling C,0
+EL,SS-LP-01-5-L2-08-FJB,Cable pulling C,1
 EL,SS-LP-01-5-L2-08-FJB,ITP for cable install C,0
 EL,SS-LP-01-5-L2-08-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-5-L2-09,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-5-L2-09,Lighting install,1
-EL,SS-LP-01-5-L2-09-FJB,Cable pulling C,0
+EL,SS-LP-01-5-L2-09-FJB,Cable pulling C,1
 EL,SS-LP-01-5-L2-09-FJB,ITP for cable install C,0
 EL,SS-LP-01-5-L2-09-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-5-L2-10,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-5-L2-10,Lighting install,1
-EL,SS-LP-01-5-L2-10-FJB,Cable pulling C,0
+EL,SS-LP-01-5-L2-10-FJB,Cable pulling C,1
 EL,SS-LP-01-5-L2-10-FJB,ITP for cable install C,0
 EL,SS-LP-01-5-L2-10-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-5-L2-11,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-5-L2-11,Lighting install,1
-EL,SS-LP-01-5-L2-11-FJB,Cable pulling C,0
+EL,SS-LP-01-5-L2-11-FJB,Cable pulling C,1
 EL,SS-LP-01-5-L2-11-FJB,ITP for cable install C,0
 EL,SS-LP-01-5-L2-11-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-5-L2-12,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-5-L2-12,Lighting install,1
-EL,SS-LP-01-5-L2-12-FJB,Cable pulling C,0
+EL,SS-LP-01-5-L2-12-FJB,Cable pulling C,1
 EL,SS-LP-01-5-L2-12-FJB,ITP for cable install C,0
 EL,SS-LP-01-5-L2-12-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-5-L2-13,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-5-L2-13,Lighting install,1
-EL,SS-LP-01-5-L2-13-FJB,Cable pulling C,0
+EL,SS-LP-01-5-L2-13-FJB,Cable pulling C,1
 EL,SS-LP-01-5-L2-13-FJB,ITP for cable install C,0
 EL,SS-LP-01-5-L2-13-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-5-L2-14,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-5-L2-14,Lighting install,1
-EL,SS-LP-01-5-L2-14-FJB,Cable pulling C,0
+EL,SS-LP-01-5-L2-14-FJB,Cable pulling C,1
 EL,SS-LP-01-5-L2-14-FJB,ITP for cable install C,0
 EL,SS-LP-01-5-L2-14-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-6-L3-01,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-6-L3-01,Lighting install,1
-EL,SS-LP-01-6-L3-01-FJB,Cable pulling C,0
+EL,SS-LP-01-6-L3-01-FJB,Cable pulling C,1
 EL,SS-LP-01-6-L3-01-FJB,ITP for cable install C,0
 EL,SS-LP-01-6-L3-01-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-6-L3-02,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-6-L3-02,Lighting install,1
-EL,SS-LP-01-6-L3-02-FJB,Cable pulling C,0
+EL,SS-LP-01-6-L3-02-FJB,Cable pulling C,1
 EL,SS-LP-01-6-L3-02-FJB,ITP for cable install C,0
 EL,SS-LP-01-6-L3-02-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-6-L3-03,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-6-L3-03,Lighting install,1
-EL,SS-LP-01-6-L3-03-FJB,Cable pulling C,0
+EL,SS-LP-01-6-L3-03-FJB,Cable pulling C,1
 EL,SS-LP-01-6-L3-03-FJB,ITP for cable install C,0
 EL,SS-LP-01-6-L3-03-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-6-L3-04,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-6-L3-04,Lighting install,1
-EL,SS-LP-01-6-L3-04-FJB,Cable pulling C,0
+EL,SS-LP-01-6-L3-04-FJB,Cable pulling C,1
 EL,SS-LP-01-6-L3-04-FJB,ITP for cable install C,0
 EL,SS-LP-01-6-L3-04-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-6-L3-05,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-6-L3-05,Lighting install,1
-EL,SS-LP-01-6-L3-05-FJB,Cable pulling C,0
+EL,SS-LP-01-6-L3-05-FJB,Cable pulling C,1
 EL,SS-LP-01-6-L3-05-FJB,ITP for cable install C,0
 EL,SS-LP-01-6-L3-05-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-6-L3-06,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-6-L3-06,Lighting install,1
-EL,SS-LP-01-6-L3-06-FJB,Cable pulling C,0
+EL,SS-LP-01-6-L3-06-FJB,Cable pulling C,1
 EL,SS-LP-01-6-L3-06-FJB,ITP for cable install C,0
 EL,SS-LP-01-6-L3-06-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-6-L3-07,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-6-L3-07,Lighting install,1
-EL,SS-LP-01-6-L3-07-FJB,Cable pulling C,0
+EL,SS-LP-01-6-L3-07-FJB,Cable pulling C,1
 EL,SS-LP-01-6-L3-07-FJB,ITP for cable install C,0
 EL,SS-LP-01-6-L3-07-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-6-L3-08,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-6-L3-08,Lighting install,1
-EL,SS-LP-01-6-L3-08-FJB,Cable pulling C,0
+EL,SS-LP-01-6-L3-08-FJB,Cable pulling C,1
 EL,SS-LP-01-6-L3-08-FJB,ITP for cable install C,0
 EL,SS-LP-01-6-L3-08-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-6-L3-09,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-6-L3-09,Lighting install,1
-EL,SS-LP-01-6-L3-09-FJB,Cable pulling C,0
+EL,SS-LP-01-6-L3-09-FJB,Cable pulling C,1
 EL,SS-LP-01-6-L3-09-FJB,ITP for cable install C,0
 EL,SS-LP-01-6-L3-09-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-6-L3-10,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-6-L3-10,Lighting install,1
-EL,SS-LP-01-6-L3-10-FJB,Cable pulling C,0
+EL,SS-LP-01-6-L3-10-FJB,Cable pulling C,1
 EL,SS-LP-01-6-L3-10-FJB,ITP for cable install C,0
 EL,SS-LP-01-6-L3-10-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-6-L3-11,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-6-L3-11,Lighting install,1
-EL,SS-LP-01-6-L3-11-FJB,Cable pulling C,0
+EL,SS-LP-01-6-L3-11-FJB,Cable pulling C,1
 EL,SS-LP-01-6-L3-11-FJB,ITP for cable install C,0
 EL,SS-LP-01-6-L3-11-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-6-L3-12,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-6-L3-12,Lighting install,1
-EL,SS-LP-01-6-L3-12-FJB,Cable pulling C,0
+EL,SS-LP-01-6-L3-12-FJB,Cable pulling C,1
 EL,SS-LP-01-6-L3-12-FJB,ITP for cable install C,0
 EL,SS-LP-01-6-L3-12-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-6-L3-13,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-6-L3-13,Lighting install,1
-EL,SS-LP-01-6-L3-13-FJB,Cable pulling C,0
+EL,SS-LP-01-6-L3-13-FJB,Cable pulling C,1
 EL,SS-LP-01-6-L3-13-FJB,ITP for cable install C,0
 EL,SS-LP-01-6-L3-13-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-6-L3-14,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-6-L3-14,Lighting install,1
-EL,SS-LP-01-6-L3-14-FJB,Cable pulling C,0
+EL,SS-LP-01-6-L3-14-FJB,Cable pulling C,1
 EL,SS-LP-01-6-L3-14-FJB,ITP for cable install C,0
 EL,SS-LP-01-6-L3-14-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-6-L3-15,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-6-L3-15,Lighting install,1
-EL,SS-LP-01-6-L3-15-FJB,Cable pulling C,0
+EL,SS-LP-01-6-L3-15-FJB,Cable pulling C,1
 EL,SS-LP-01-6-L3-15-FJB,ITP for cable install C,0
 EL,SS-LP-01-6-L3-15-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-7-L2-01,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-7-L2-01,Lighting install,1
-EL,SS-LP-01-7-L2-01-FJB,Cable pulling C,0
+EL,SS-LP-01-7-L2-01-FJB,Cable pulling C,1
 EL,SS-LP-01-7-L2-01-FJB,ITP for cable install C,0
 EL,SS-LP-01-7-L2-01-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-7-L2-02,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-7-L2-02,Lighting install,1
-EL,SS-LP-01-7-L2-02-FJB,Cable pulling C,0
+EL,SS-LP-01-7-L2-02-FJB,Cable pulling C,1
 EL,SS-LP-01-7-L2-02-FJB,ITP for cable install C,0
 EL,SS-LP-01-7-L2-02-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-7-L2-03,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-7-L2-03,Lighting install,1
-EL,SS-LP-01-7-L2-03-FJB,Cable pulling C,0
+EL,SS-LP-01-7-L2-03-FJB,Cable pulling C,1
 EL,SS-LP-01-7-L2-03-FJB,ITP for cable install C,0
 EL,SS-LP-01-7-L2-03-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-7-L2-04,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-7-L2-04,Lighting install,1
-EL,SS-LP-01-7-L2-04-FJB,Cable pulling C,0
+EL,SS-LP-01-7-L2-04-FJB,Cable pulling C,1
 EL,SS-LP-01-7-L2-04-FJB,ITP for cable install C,0
 EL,SS-LP-01-7-L2-04-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-7-L2-05,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-7-L2-05,Lighting install,1
-EL,SS-LP-01-7-L2-05-FJB,Cable pulling C,0
+EL,SS-LP-01-7-L2-05-FJB,Cable pulling C,1
 EL,SS-LP-01-7-L2-05-FJB,ITP for cable install C,0
 EL,SS-LP-01-7-L2-05-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-7-L2-06,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-7-L2-06,Lighting install,1
-EL,SS-LP-01-7-L2-06-FJB,Cable pulling C,0
+EL,SS-LP-01-7-L2-06-FJB,Cable pulling C,1
 EL,SS-LP-01-7-L2-06-FJB,ITP for cable install C,0
 EL,SS-LP-01-7-L2-06-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-7-L2-07,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-7-L2-07,Lighting install,1
-EL,SS-LP-01-7-L2-07-FJB,Cable pulling C,0
+EL,SS-LP-01-7-L2-07-FJB,Cable pulling C,1
 EL,SS-LP-01-7-L2-07-FJB,ITP for cable install C,0
 EL,SS-LP-01-7-L2-07-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-7-L2-08,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-7-L2-08,Lighting install,1
-EL,SS-LP-01-7-L2-08-FJB,Cable pulling C,0
+EL,SS-LP-01-7-L2-08-FJB,Cable pulling C,1
 EL,SS-LP-01-7-L2-08-FJB,ITP for cable install C,0
 EL,SS-LP-01-7-L2-08-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-7-L2-09,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
@@ -50305,102 +50305,102 @@ EL,SS-LP-01-7-L2-09-FJB,ITP for cable install C,0
 EL,SS-LP-01-7-L2-09-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-7-L2-10,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-7-L2-10,Lighting install,1
-EL,SS-LP-01-7-L2-10-FJB,Cable pulling C,0
+EL,SS-LP-01-7-L2-10-FJB,Cable pulling C,1
 EL,SS-LP-01-7-L2-10-FJB,ITP for cable install C,0
 EL,SS-LP-01-7-L2-10-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-7-L2-11,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-7-L2-11,Lighting install,1
-EL,SS-LP-01-7-L2-11-FJB,Cable pulling C,0
+EL,SS-LP-01-7-L2-11-FJB,Cable pulling C,1
 EL,SS-LP-01-7-L2-11-FJB,ITP for cable install C,0
 EL,SS-LP-01-7-L2-11-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-7-L2-12,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-7-L2-12,Lighting install,1
-EL,SS-LP-01-7-L2-12-FJB,Cable pulling C,0
+EL,SS-LP-01-7-L2-12-FJB,Cable pulling C,1
 EL,SS-LP-01-7-L2-12-FJB,ITP for cable install C,0
 EL,SS-LP-01-7-L2-12-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-7-L2-13,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-7-L2-13,Lighting install,1
-EL,SS-LP-01-7-L2-13-FJB,Cable pulling C,0
+EL,SS-LP-01-7-L2-13-FJB,Cable pulling C,1
 EL,SS-LP-01-7-L2-13-FJB,ITP for cable install C,0
 EL,SS-LP-01-7-L2-13-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-7-L2-14,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-7-L2-14,Lighting install,1
-EL,SS-LP-01-7-L2-14-FJB,Cable pulling C,0
+EL,SS-LP-01-7-L2-14-FJB,Cable pulling C,1
 EL,SS-LP-01-7-L2-14-FJB,ITP for cable install C,0
 EL,SS-LP-01-7-L2-14-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-7-L2-15,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-7-L2-15,Lighting install,1
-EL,SS-LP-01-7-L2-15-FJB,Cable pulling C,0
+EL,SS-LP-01-7-L2-15-FJB,Cable pulling C,1
 EL,SS-LP-01-7-L2-15-FJB,ITP for cable install C,0
 EL,SS-LP-01-7-L2-15-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-8-L3-01,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-8-L3-01,Lighting install,1
-EL,SS-LP-01-8-L3-01-FJB,Cable pulling C,0
+EL,SS-LP-01-8-L3-01-FJB,Cable pulling C,1
 EL,SS-LP-01-8-L3-01-FJB,ITP for cable install C,0
 EL,SS-LP-01-8-L3-01-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-8-L3-02,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-8-L3-02,Lighting install,1
-EL,SS-LP-01-8-L3-02-FJB,Cable pulling C,0
+EL,SS-LP-01-8-L3-02-FJB,Cable pulling C,1
 EL,SS-LP-01-8-L3-02-FJB,ITP for cable install C,0
 EL,SS-LP-01-8-L3-02-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-8-L3-03,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-8-L3-03,Lighting install,1
-EL,SS-LP-01-8-L3-03-FJB,Cable pulling C,0
+EL,SS-LP-01-8-L3-03-FJB,Cable pulling C,1
 EL,SS-LP-01-8-L3-03-FJB,ITP for cable install C,0
 EL,SS-LP-01-8-L3-03-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-8-L3-04,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-8-L3-04,Lighting install,1
-EL,SS-LP-01-8-L3-04-FJB,Cable pulling C,0
+EL,SS-LP-01-8-L3-04-FJB,Cable pulling C,1
 EL,SS-LP-01-8-L3-04-FJB,ITP for cable install C,0
 EL,SS-LP-01-8-L3-04-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-8-L3-05,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-8-L3-05,Lighting install,1
-EL,SS-LP-01-8-L3-05-FJB,Cable pulling C,0
+EL,SS-LP-01-8-L3-05-FJB,Cable pulling C,1
 EL,SS-LP-01-8-L3-05-FJB,ITP for cable install C,0
 EL,SS-LP-01-8-L3-05-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-8-L3-06,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-8-L3-06,Lighting install,1
-EL,SS-LP-01-8-L3-06-FJB,Cable pulling C,0
+EL,SS-LP-01-8-L3-06-FJB,Cable pulling C,1
 EL,SS-LP-01-8-L3-06-FJB,ITP for cable install C,0
 EL,SS-LP-01-8-L3-06-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-8-L3-07,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-8-L3-07,Lighting install,1
-EL,SS-LP-01-8-L3-07-FJB,Cable pulling C,0
+EL,SS-LP-01-8-L3-07-FJB,Cable pulling C,1
 EL,SS-LP-01-8-L3-07-FJB,ITP for cable install C,0
 EL,SS-LP-01-8-L3-07-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-8-L3-08,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-8-L3-08,Lighting install,1
-EL,SS-LP-01-8-L3-08-FJB,Cable pulling C,0
+EL,SS-LP-01-8-L3-08-FJB,Cable pulling C,1
 EL,SS-LP-01-8-L3-08-FJB,ITP for cable install C,0
 EL,SS-LP-01-8-L3-08-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-8-L3-09,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-8-L3-09,Lighting install,1
-EL,SS-LP-01-8-L3-09-FJB,Cable pulling C,0
+EL,SS-LP-01-8-L3-09-FJB,Cable pulling C,1
 EL,SS-LP-01-8-L3-09-FJB,ITP for cable install C,0
 EL,SS-LP-01-8-L3-09-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-8-L3-10,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-8-L3-10,Lighting install,1
-EL,SS-LP-01-8-L3-10-FJB,Cable pulling C,0
+EL,SS-LP-01-8-L3-10-FJB,Cable pulling C,1
 EL,SS-LP-01-8-L3-10-FJB,ITP for cable install C,0
 EL,SS-LP-01-8-L3-10-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-8-L3-11,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-8-L3-11,Lighting install,1
-EL,SS-LP-01-8-L3-11-FJB,Cable pulling C,0
+EL,SS-LP-01-8-L3-11-FJB,Cable pulling C,1
 EL,SS-LP-01-8-L3-11-FJB,ITP for cable install C,0
 EL,SS-LP-01-8-L3-11-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-8-L3-12,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-8-L3-12,Lighting install,1
-EL,SS-LP-01-8-L3-12-FJB,Cable pulling C,0
+EL,SS-LP-01-8-L3-12-FJB,Cable pulling C,1
 EL,SS-LP-01-8-L3-12-FJB,ITP for cable install C,0
 EL,SS-LP-01-8-L3-12-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-8-L3-13,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-8-L3-13,Lighting install,1
-EL,SS-LP-01-8-L3-13-FJB,Cable pulling C,0
+EL,SS-LP-01-8-L3-13-FJB,Cable pulling C,1
 EL,SS-LP-01-8-L3-13-FJB,ITP for cable install C,0
 EL,SS-LP-01-8-L3-13-FJB,LV.Cont. cable megger test T,0
 EL,SS-LP-01-8-L3-14,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,SS-LP-01-8-L3-14,Lighting install,1
-EL,SS-LP-01-8-L3-14-FJB,Cable pulling C,0
+EL,SS-LP-01-8-L3-14-FJB,Cable pulling C,1
 EL,SS-LP-01-8-L3-14-FJB,ITP for cable install C,0
 EL,SS-LP-01-8-L3-14-FJB,LV.Cont. cable megger test T,0
 EL,SS-L-PRO(ES-01),Miscellaeous-LCS test,0
@@ -53770,14 +53770,14 @@ EL,TR01-AJB01_1,Cathodic Test for impress current,0
 EL,TR01-AJB01_1,Cathodic sys.grid,0
 EL,TR01-AJB01_1,Cathodic Test for magnesium anode,0
 EL,TR01-AJB01_1,Cathodic commissioning Data,0
-EL,TR01-AJB01_1,CABLING Cathodic Protection,0
+EL,TR01-AJB01_1,CABLING Cathodic Protection,1
 EL,TR01-AJB01_2,Cathodic Install C,0
 EL,TR01-AJB01_2,Cathodic test T,0
 EL,TR01-AJB01_2,Cathodic Test for impress current,0
 EL,TR01-AJB01_2,Cathodic sys.grid,0
 EL,TR01-AJB01_2,Cathodic Test for magnesium anode,0
 EL,TR01-AJB01_2,Cathodic commissioning Data,0
-EL,TR01-AJB01_2,CABLING Cathodic Protection,0
+EL,TR01-AJB01_2,CABLING Cathodic Protection,1
 EL,TR01-NBB05,Cathodic Install C,0
 EL,TR01-NBB05,Cathodic test T,0
 EL,TR01-NBB05,Cathodic Test for impress current,0
@@ -53791,14 +53791,14 @@ EL,TR02-AJB02_1,Cathodic Test for impress current,0
 EL,TR02-AJB02_1,Cathodic sys.grid,0
 EL,TR02-AJB02_1,Cathodic Test for magnesium anode,0
 EL,TR02-AJB02_1,Cathodic commissioning Data,0
-EL,TR02-AJB02_1,CABLING Cathodic Protection,0
+EL,TR02-AJB02_1,CABLING Cathodic Protection,1
 EL,TR02-AJB02_2,Cathodic Install C,0
 EL,TR02-AJB02_2,Cathodic test T,0
 EL,TR02-AJB02_2,Cathodic Test for impress current,0
 EL,TR02-AJB02_2,Cathodic sys.grid,0
 EL,TR02-AJB02_2,Cathodic Test for magnesium anode,0
 EL,TR02-AJB02_2,Cathodic commissioning Data,0
-EL,TR02-AJB02_2,CABLING Cathodic Protection,0
+EL,TR02-AJB02_2,CABLING Cathodic Protection,1
 EL,TR02-NBB01,Cathodic Install C,0
 EL,TR02-NBB01,Cathodic test T,0
 EL,TR02-NBB01,Cathodic Test for impress current,0
