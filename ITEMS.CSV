@@ -12488,7 +12488,7 @@ FGS-10,IN,FGD-0057,Fire Alarm,Fire Alarm(FGD),0%
 5000-02,IN,FI-50208B,Instrument(FI),Instrument(FI),0%
 5000-02,IN,FI-50209A,Instrument(FI),Instrument(FI),0%
 5000-02,IN,FI-50209B,Instrument(FI),Instrument(FI),0%
-4000-01,IN,FI-5021,Instrument(FI),Instrument(FI),0%
+4000-01,IN,FI-5021,Instrument(FI),Instrument(FI),DONE
 5000-03,IN,FI-50210A,Instrument(FI),Instrument(FI),0%
 5000-03,IN,FI-50210B,Instrument(FI),Instrument(FI),0%
 5000-03,IN,FI-50211A,Instrument(FI),Instrument(FI),0%
@@ -12517,7 +12517,7 @@ FGS-10,IN,FGD-0057,Fire Alarm,Fire Alarm(FGD),0%
 4000-04,IN,FI-50223B,Instrument(FI),Instrument(FI),0%
 4000-01,IN,FI-5408,Instrument(FI),Instrument(FI),DONE
 4000-01,IN,FI-5422,Instrument(FI),Instrument(FI),DONE
-4000-01,IN,FI-5442,Instrument(FI),Instrument(FI),0%
+4000-01,IN,FI-5442,Instrument(FI),Instrument(FI),DONE
 1000-03,IN,FI-60301A,Instrument(FI),Instrument(FI),0%
 1000-03,IN,FI-60301B,Instrument(FI),Instrument(FI),0%
 1000-03,IN,FI-60302A,Instrument(FI),Instrument(FI),0%
@@ -12703,7 +12703,7 @@ FGS-14,IN,FLD-0029(NA),CABLE,CABLE(NA),0%
 3000-01,IN,FO-30167,Instrument(FO),Instrument(FO),0%
 3000-01,IN,FO-30169,Instrument(FO),Instrument(FO),0%
 3000-03,IN,FO-3191,Instrument(FO),Instrument(FO),0%
-4000-01,IN,FO-3210,Instrument(FO),Instrument(FO),0%
+4000-01,IN,FO-3210,Instrument(FO),Instrument(FO),DONE
 5000-03,IN,FO-5353,Instrument(FO),Instrument(FO),0%
 5000-03,IN,FO-5357,Instrument(FO),Instrument(FO),0%
 5000-03,IN,FO-5361,Instrument(FO),Instrument(FO),0%
