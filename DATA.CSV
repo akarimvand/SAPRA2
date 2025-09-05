@@ -59,7 +59,7 @@
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,38,10,0,39,9,30,45
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,0,0,19,0,19,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,7,0,0,30,0,30,0
-3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,17,0,98,16,82,8
+3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,17,0,100,16,84,8
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,6,0,88,35,53,99
 3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,0,0,20,0,20,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,11,0,11,2
@@ -69,7 +69,7 @@
 4000,4000-01,Utility,Nitrogen,IN,14,11,0,0,0,0,6
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,0,0,0,0,0,0
 4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,9,0,84,29,55,35
-4000,4000-02,Utility,HHP & HP & LP Steam,PI,63,35,0,183,80,103,74
+4000,4000-02,Utility,HHP & HP & LP Steam,PI,63,35,0,187,80,107,74
 4000,4000-03,Utility,MP Steam,MES,1,0,0,0,0,0,0
 4000,4000-03,Utility,MP Steam,IN,56,5,0,32,13,19,3
 4000,4000-03,Utility,MP Steam,PI,5,5,0,37,8,29,0
@@ -81,7 +81,7 @@
 4000,4000-05,Utility,Blow Down,MES,4,0,0,11,0,11,0
 4000,4000-05,Utility,Blow Down,IN,17,0,0,0,0,0,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,0,0,4,0,4,5
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,58,32,0,145,70,75,167
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,58,33,0,146,70,76,167
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,0,8,0,8,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,0,0,15,9,6,107
 4000,4000-07,Utility,Plant Air,IN,2,2,0,0,0,0,2
