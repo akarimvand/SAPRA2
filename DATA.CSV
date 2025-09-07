@@ -46,7 +46,7 @@
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,231,15,0,101,14,87,45
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,0,0,48,20,28,0
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,9,0,113,72,41,86
-2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,27,0,128,51,77,15
+2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,28,0,128,51,77,15
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,0,0,0,0,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,19,7,12,0
 2000,2000-06,Reforming,Nitrogen Circuit,IN,114,1,0,15,0,15,13
@@ -102,7 +102,7 @@
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,IN,25,0,0,4,0,4,20
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,PI,22,2,0,3,3,0,14
 4000,4000-13,Utility,Slope Close Drain,MER,1,0,0,0,0,0,0
-4000,4000-13,Utility,Slope Close Drain,PI,29,17,0,37,10,27,3
+4000,4000-13,Utility,Slope Close Drain,PI,29,17,0,37,12,25,3
 4000,4000-14,Utility,Fire Water,IN,33,0,0,0,0,0,0
 4000,4000-14,Utility,Fire Water,MES,1,0,0,0,0,0,0
 4000,4000-14,Utility,Fire Water,PI,125,21,0,281,73,208,2536
@@ -142,11 +142,11 @@ BLD,BLD-06,Building,Warehouse Building,PI,3,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,CV,14,14,0,31,0,31,0
 BLD,BLD-07,Building,Analyzer House,CV,8,8,0,19,0,19,0
 DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2566,241,0,1740,517,1223,805
-ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2190,2136,54,0
+ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2190,2178,12,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,0,0,0,0,0,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,13,0,13,0
-ES,ES-04,Earthing System,Earthing & Roof Lightning System for Analyzer House,EL,11,11,0,11,0,11,0
-ES,ES-05,Earthing System,Earthing & Roof Lightning System for Warehouse,EL,22,22,0,44,0,44,0
+ES,ES-04,Earthing System,Earthing & Roof Lightning System for Analyzer House,EL,11,11,0,11,11,0,0
+ES,ES-05,Earthing System,Earthing & Roof Lightning System for Warehouse,EL,22,22,0,44,22,22,0
 ES,ES-06,Earthing System,Earthing System for Area-02,EL,696,0,0,0,0,0,0
 ES,ES-07,Earthing System,Earthing System for Area-03,EL,379,0,0,0,0,0,0
 ES,ES-08,Earthing System,Earthing System for Area-04,EL,461,0,0,0,0,0,0
