@@ -6207,33 +6207,33 @@ TEL-09,EL,CR-TJB3,Telecom Device,Telephone Junction Box,0%
 120-15,EL,CR-UBT-01_2,UPS & Battery,110V AC UPS Battery Set,DONE
 120-09,EL,CR-UIS-01,UPS & Battery,110V AC UPS Battery Isolator Box,25%
 120-09,EL,CR-UPS-01,UPS & Battery,110V AC UPS Panel,25%
-1000-01,MES,D-1001,Drum(D),Natural gas K.O. drum,80%
-2000-04,MES,D-2001,Drum(D),HHP Steam Drum,0%
-2000-05,MES,D-2002,Drum(D),1 st Separator,40%
-2000-05,MES,D-2003,Drum(D),2nd Separator,40%
-2000-05,MES,D-2004,Drum(D),3rd Separator,40%
-2000-05,MES,D-2005,Drum(D),Final Separator,40%
-4000-04,MES,D-2011,Drum(D),Steam Cond. K.O. Drum for E 2008,80%
-3000-04,MES,D-2022-1,Drum(D),DRUM,60%
-3000-04,MES,D-2022-2,Drum(D),DRUM,60%
-3000-03,MES,D-3001,Drum(D),HP Separator,40%
-3000-03,MES,D-3002,Drum(D),LP Separator,80%
-3000-02,MES,D-3003,Drum(D),MP Steam Drum,0%
-5000-01,MES,D-3004,Drum(D),Slops Methanol Drum,80%
-3000-01,MES,D-3010,Drum(D),Seprator Vessle,0%
-5000-01,MES,D-5001,Drum(D),Stabilizer Column OH Accumulator,40%
-5000-02,MES,D-5002,Drum(D),LP Column OH Accumulator,40%
-5000-03,MES,D-5003,Drum(D),MP Column OH Accumulator,80%
-5000-01,MES,D-5009,Drum(D),Steam Condensate KO Drum for E5001,40%
-1000-03,MES,D-6001,Drum(D),Feed Gas Separator,40%
-1000-03,MES,D-6002,Drum(D),Saturator Blow Down Drum,40%
-4000-04,MES,D-7001,Drum(D),Thermal Deaerator,0%
-4000-05,MES,D-7002,Drum(D),Continuous Blow-down Drum,80%
+1000-01,MES,D-1001,Drum(D),Natural gas K.O. drum,Done
+2000-04,MES,D-2001,Drum(D),HHP Steam Drum,20%
+2000-05,MES,D-2002,Drum(D),1 st Separator,60%
+2000-05,MES,D-2003,Drum(D),2nd Separator,60%
+2000-05,MES,D-2004,Drum(D),3rd Separator,60%
+2000-05,MES,D-2005,Drum(D),Final Separator,60%
+4000-04,MES,D-2011,Drum(D),Steam Cond. K.O. Drum for E 2008,Done
+3000-04,MES,D-2022-1,Drum(D),DRUM,Done
+3000-04,MES,D-2022-2,Drum(D),DRUM,Done
+3000-03,MES,D-3001,Drum(D),HP Separator,60%
+3000-03,MES,D-3002,Drum(D),LP Separator,Done
+3000-02,MES,D-3003,Drum(D),MP Steam Drum,20%
+5000-01,MES,D-3004,Drum(D),Slops Methanol Drum,Done
+3000-01,MES,D-3010,Drum(D),Seprator Vessle,20%
+5000-01,MES,D-5001,Drum(D),Stabilizer Column OH Accumulator,60%
+5000-02,MES,D-5002,Drum(D),LP Column OH Accumulator,60%
+5000-03,MES,D-5003,Drum(D),MP Column OH Accumulator,Done
+5000-01,MES,D-5009,Drum(D),Steam Condensate KO Drum for E5001,60%
+1000-03,MES,D-6001,Drum(D),Feed Gas Separator,60%
+1000-03,MES,D-6002,Drum(D),Saturator Blow Down Drum,60%
+4000-04,MES,D-7001,Drum(D),Thermal Deaerator,20%
+4000-05,MES,D-7002,Drum(D),Continuous Blow-down Drum,Done
 4000-05,MES,D-7003,Drum(D),Intermediate Blow Down Drum No.1,DONE
-4000-05,MES,D-7004,Drum(D),Intermediate Blow Down Drum No.2,0%
-7000-01,MES,D-7101,Drum(D),Knock Out Drum,80%
-4000-06,MES,D-7501,Drum(D),CAUSTIC STORAGE DRUM,0%
-4000-06,MES,D-7502,Drum(D),SULFURIC ACID DRUM,0%
+4000-05,MES,D-7004,Drum(D),Intermediate Blow Down Drum No.2,20%
+7000-01,MES,D-7101,Drum(D),Knock Out Drum,Done
+4000-06,MES,D-7501,Drum(D),CAUSTIC STORAGE DRUM,20%
+4000-06,MES,D-7502,Drum(D),SULFURIC ACID DRUM,20%
 1000-02,PI,DE-RF-FG-001,PI_TP,PIPING TEST PACKAGE,DONE
 1000-02,PI,DE-RF-FG-002,PI_TP,PIPING TEST PACKAGE,DONE
 1000-02,PI,DE-RF-FG-003,PI_TP,PIPING TEST PACKAGE,DONE
@@ -6897,32 +6897,32 @@ DCS-01,IN,E1-ALM-05,SIGNAL,SIGNAL,0%
 DCS-01,IN,E1-ALM-06,SIGNAL,SIGNAL,0%
 DCS-01,IN,E2_ALM_03,CABLE,CABLE(NA),0%
 DCS-01,IN,E2_ALM_04,CABLE,CABLE(NA),0%
-2000-02,MES,E-2001,Exchanger(E),Reformer Feed Preheat Coil,0%
+2000-02,MES,E-2001,Exchanger(E),Reformer Feed Preheat Coil,25%
 ES-09,EL,E20-01,Earthing System,CRIMPED EARTH CONNECTION 16 TO 70mm2,0%
-2000-02,MES,E-2002,Exchanger(E),Prereformer Feed Preheat Coil,0%
+2000-02,MES,E-2002,Exchanger(E),Prereformer Feed Preheat Coil,25%
 ES-09,EL,E20-02,Earthing System,CRIMPED EARTH CONNECTION 16 TO 70mm2,0%
 ES-09,EL,E20-03,Earthing System,CRIMPED EARTH CONNECTION 16 TO 70mm2,0%
-2000-02,MES,E-2004,Exchanger(E),2 nd Natural Gas Feed Preheat Coil,0%
-2000-02,MES,E-2006,Exchanger(E),1st Natural Gas Feed Preheat Coil,0%
-2000-02,MES,E-2007,Exchanger(E),Combustion Air Preheater,0%
-2000-03,MES,E-2008,Exchanger(E),Oxygen Preheater,0%
-1000-01,MES,E-2009,Exchanger(E),Fuel Gas Preheater,0%
+2000-02,MES,E-2004,Exchanger(E),2 nd Natural Gas Feed Preheat Coil,25%
+2000-02,MES,E-2006,Exchanger(E),1st Natural Gas Feed Preheat Coil,25%
+2000-02,MES,E-2007,Exchanger(E),Combustion Air Preheater,25%
+2000-03,MES,E-2008,Exchanger(E),Oxygen Preheater,25%
+1000-01,MES,E-2009,Exchanger(E),Fuel Gas Preheater,25%
 ES-01,EL,E2-01,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
-2000-02,MES,E-2015,Exchanger(E),Steam Air Preheater,0%
+2000-02,MES,E-2015,Exchanger(E),Steam Air Preheater,25%
 ES-01,EL,E2-02,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
-2000-04,MES,E-2020-1,Exchanger(E),Waste Heat Boiler,0%
-2000-04,MES,E-2020-2,Exchanger(E),Waste Heat Boiler,0%
-2000-04,MES,E-2021-1,Exchanger(E),Steam Superheater,0%
-2000-04,MES,E-2021-2,Exchanger(E),Steam Superheater,0%
-2000-04,MES,E-2021-3,Exchanger(E),Steam Superheater,0%
-2000-04,MES,E-2022-1,Exchanger(E),BFW Preheater,0%
-2000-04,MES,E-2022-2,Exchanger(E),BFW Preheater,0%
-2000-04,MES,E-2022-3,Exchanger(E),BFW Preheater,0%
-5000-03,MES,E-2023,Exchanger(E),MP Column Reboiler No.2,25%
-5000-01,MES,E-2024-1,Exchanger(E),Stabilizer Column Reboiler,25%
-5000-01,MES,E-2024-2,Exchanger(E),Stabilizer Column Reboiler,25%
-2000-05,MES,E-2025,Exchanger(E),DMW Preheater,25%
-2000-05,MES,E-2027,Exchanger(E),Water Cooler,0%
+2000-04,MES,E-2020-1,Exchanger(E),Waste Heat Boiler,25%
+2000-04,MES,E-2020-2,Exchanger(E),Waste Heat Boiler,25%
+2000-04,MES,E-2021-1,Exchanger(E),Steam Superheater,25%
+2000-04,MES,E-2021-2,Exchanger(E),Steam Superheater,25%
+2000-04,MES,E-2021-3,Exchanger(E),Steam Superheater,25%
+2000-04,MES,E-2022-1,Exchanger(E),BFW Preheater,25%
+2000-04,MES,E-2022-2,Exchanger(E),BFW Preheater,25%
+2000-04,MES,E-2022-3,Exchanger(E),BFW Preheater,25%
+5000-03,MES,E-2023,Exchanger(E),MP Column Reboiler No.2,Done
+5000-01,MES,E-2024-1,Exchanger(E),Stabilizer Column Reboiler,Done
+5000-01,MES,E-2024-2,Exchanger(E),Stabilizer Column Reboiler,Done
+2000-05,MES,E-2025,Exchanger(E),DMW Preheater,50%
+2000-05,MES,E-2027,Exchanger(E),Water Cooler,Done
 ES-01,EL,E2-03,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
 ES-01,EL,E2-04,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
 ES-01,EL,E2-05,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
@@ -8285,9 +8285,9 @@ ES-08,EL,E30-01(ES-08),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-09,EL,E30-01(ES-09),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-10,EL,E30-01(ES-10),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-11,EL,E30-01(ES-11),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
-3000-02,MES,E-3001-1,Exchanger(E),Feed/Effluent Exchanger,25%
-3000-02,MES,E-3001-2,Exchanger(E),Feed/Effluent Exchanger,25%
-3000-02,MES,E-3001-3,Exchanger(E),Feed/Effluent Exchanger,25%
+3000-02,MES,E-3001-1,Exchanger(E),Feed/Effluent Exchanger,Done
+3000-02,MES,E-3001-2,Exchanger(E),Feed/Effluent Exchanger,Done
+3000-02,MES,E-3001-3,Exchanger(E),Feed/Effluent Exchanger,Done
 ES-01,EL,E30-02(ES-01),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,DONE
 ES-03,EL,E30-02(ES-03),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,DONE
 ES-04,EL,E30-02(ES-04),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,DONE
@@ -8304,9 +8304,9 @@ ES-08,EL,E30-03(ES-08),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-09,EL,E30-03(ES-09),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-10,EL,E30-03(ES-10),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-11,EL,E30-03(ES-11),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
-3000-03,MES,E-3003-1,Exchanger(E),Loop Water Cooler,25%
-3000-03,MES,E-3003-2,Exchanger(E),Loop Water Cooler,25%
-3000-03,MES,E-3003-3,Exchanger(E),Loop Water Cooler,25%
+3000-03,MES,E-3003-1,Exchanger(E),Loop Water Cooler,Done
+3000-03,MES,E-3003-2,Exchanger(E),Loop Water Cooler,Done
+3000-03,MES,E-3003-3,Exchanger(E),Loop Water Cooler,Done
 ES-01,EL,E30-04(ES-01),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,DONE
 ES-04,EL,E30-04(ES-04),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,DONE
 ES-06,EL,E30-04(ES-06),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
@@ -8349,7 +8349,7 @@ ES-08,EL,E30-09(ES-08),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-09,EL,E30-09(ES-09),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-11,EL,E30-09(ES-11),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-01,EL,E3-01,Earthing System,THERMOWELD EARTH CONNECTION 70 TO 300mm2,DONE
-3000-01,MES,E-3010,Exchanger(E),Inter Stage Cooler,0%
+3000-01,MES,E-3010,Exchanger(E),Inter Stage Cooler,25%
 ES-01,EL,E30-10(ES-01),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,DONE
 ES-06,EL,E30-10(ES-06),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-07,EL,E30-10(ES-07),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
@@ -8366,7 +8366,7 @@ ES-11,EL,E30-106,Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-11,EL,E30-107,Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-11,EL,E30-108,Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-11,EL,E30-109,Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
-3000-01,MES,E-3011,Exchanger(E),Turbine Condensate  for FT- 3001,0%
+3000-01,MES,E-3011,Exchanger(E),Turbine Condensate  for FT- 3001,25%
 ES-06,EL,E30-11(ES-06),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-07,EL,E30-11(ES-07),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-08,EL,E30-11(ES-08),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
@@ -8377,13 +8377,13 @@ ES-11,EL,E30-111,Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-11,EL,E30-112,Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-11,EL,E30-113,Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-11,EL,E30-114,Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
-3000-01,MES,E-3012,Exchanger(E),Steam Ejector,0%
+3000-01,MES,E-3012,Exchanger(E),Steam Ejector,25%
 ES-06,EL,E30-12(ES-06),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-07,EL,E30-12(ES-07),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-08,EL,E30-12(ES-08),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-09,EL,E30-12(ES-09),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-11,EL,E30-12(ES-11),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
-3000-01,MES,E-3013,Exchanger(E),Recycler Cooler,0%
+3000-01,MES,E-3013,Exchanger(E),Recycler Cooler,25%
 ES-06,EL,E30-13(ES-06),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-07,EL,E30-13(ES-07),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-08,EL,E30-13(ES-08),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
@@ -9077,18 +9077,18 @@ ES-08,EL,E48-10(ES-08),Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE
 ES-10,EL,E48-10(ES-10),Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO HORIZONTAL L.V. MOTOR,0%
 ES-08,EL,E48-11,Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO HORIZONTAL L.V. MOTOR,0%
 ES-08,EL,E48-12,Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO HORIZONTAL L.V. MOTOR,0%
-5000-01,MES,E-5001,Exchanger(E),Stabilizer Column Steam Reboiler,25%
-5000-02,MES,E-5002-1,Exchanger(E),LP Column Reboiler,25%
-5000-02,MES,E-5002-2,Exchanger(E),LP Column Reboiler,25%
-5000-02,MES,E-5002-3,Exchanger(E),LP Column Reboiler,25%
-5000-02,MES,E-5002-4,Exchanger(E),LP Column Reboiler,25%
-5000-03,MES,E-5003-1,Exchanger(E),MP Column Reboiler No.1,25%
-5000-03,MES,E-5003-2,Exchanger(E),MP Column Reboiler No.2,25%
-5000-01,MES,E-5007,Exchanger(E),Wash Water Cooler,0%
-5000-04,MES,E-5008,Exchanger(E),Methanol Product Cooler,0%
-5000-01,MES,E-5010,Exchanger(E),OH Gas Condenser,25%
-5000-05,MES,E-5011,Exchanger(E),Liquid Off Stream Cooler,0%
-5000-04,MES,E-5012,Exchanger(E),Methanol Product Cooler No.2,25%
+5000-01,MES,E-5001,Exchanger(E),Stabilizer Column Steam Reboiler,Done
+5000-02,MES,E-5002-1,Exchanger(E),LP Column Reboiler,Done
+5000-02,MES,E-5002-2,Exchanger(E),LP Column Reboiler,Done
+5000-02,MES,E-5002-3,Exchanger(E),LP Column Reboiler,Done
+5000-02,MES,E-5002-4,Exchanger(E),LP Column Reboiler,Done
+5000-03,MES,E-5003-1,Exchanger(E),MP Column Reboiler No.1,Done
+5000-03,MES,E-5003-2,Exchanger(E),MP Column Reboiler No.2,Done
+5000-01,MES,E-5007,Exchanger(E),Wash Water Cooler,25%
+5000-04,MES,E-5008,Exchanger(E),Methanol Product Cooler,25%
+5000-01,MES,E-5010,Exchanger(E),OH Gas Condenser,Done
+5000-05,MES,E-5011,Exchanger(E),Liquid Off Stream Cooler,25%
+5000-04,MES,E-5012,Exchanger(E),Methanol Product Cooler No.2,Done
 ES-03,EL,E51-01(ES-03),Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO VERTICAL L.V. MOTOR,DONE
 ES-07,EL,E51-01(ES-07),Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO VERTICAL L.V. MOTOR,0%
 ES-07,EL,E51-02,Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO VERTICAL L.V. MOTOR,0%
@@ -9359,13 +9359,13 @@ ES-05,EL,E58-WH-02,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,DONE
 ES-05,EL,E58-WH-03,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,DONE
 ES-05,EL,E58-WH-04,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,DONE
 ES-05,EL,E58-WH-05,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,DONE
-1000-03,MES,E-6001,Exchanger(E),Saturator Feed /Effluent Exchanger,0%
+1000-03,MES,E-6001,Exchanger(E),Saturator Feed /Effluent Exchanger,25%
 ES-02,EL,E60-01,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE AND 3.6m LENGTH ROD,0%
-1000-03,MES,E-6002,Exchanger(E),Process Condensate Preheater,0%
+1000-03,MES,E-6002,Exchanger(E),Process Condensate Preheater,25%
 ES-02,EL,E60-02,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE AND 3.6m LENGTH ROD,0%
-1000-03,MES,E-6003,Exchanger(E),Saturator Blow-down Cooler,0%
+1000-03,MES,E-6003,Exchanger(E),Saturator Blow-down Cooler,25%
 ES-02,EL,E60-03,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE AND 3.6m LENGTH ROD,0%
-1000-03,MES,E-6004,Exchanger(E),Wash Water Preheater,0%
+1000-03,MES,E-6004,Exchanger(E),Wash Water Preheater,25%
 ES-02,EL,E60-04,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE AND 3.6m LENGTH ROD,0%
 ES-02,EL,E60-05,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE AND 3.6m LENGTH ROD,0%
 ES-02,EL,E60-06,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE AND 3.6m LENGTH ROD,0%
@@ -9409,7 +9409,7 @@ ES-08,EL,E63-06(ES-08),Earthing System,EARTHING CONNECTION WITH 70 mm2 EARTH WIR
 ES-10,EL,E63-06(ES-10),Earthing System,EARTHING CONNECTION WITH 70 mm2 EARTH WIRETO HORIZONTAL MV MOTOR,0%
 ES-10,EL,E63-07,Earthing System,EARTHING CONNECTION WITH 70 mm2 EARTH WIRETO HORIZONTAL MV MOTOR,0%
 ES-10,EL,E63-08,Earthing System,EARTHING CONNECTION WITH 70 mm2 EARTH WIRETO HORIZONTAL MV MOTOR,0%
-4000-05,MES,E-7001,Exchanger(E),Blow down Cooler for D7003,0%
+4000-05,MES,E-7001,Exchanger(E),Blow down Cooler for D7003,25%
 ES-02,EL,E8-01(ES-02),Earthing System,THERMOWELD EARTH CONNECTION 35 TO 70mm2,0%
 ES-05,EL,E8-01(ES-05),Earthing System,THERMOWELD EARTH CONNECTION 35 TO 70mm2,DONE
 ES-06,EL,E8-01(ES-06),Earthing System,THERMOWELD EARTH CONNECTION 35 TO 70mm2,0%
@@ -10855,8 +10855,8 @@ LS-01,EL,EBP-SS-MLP-01B_3,Power Cable B,Main Normal Lighting Panel (Incomer B)- 
 120-07,EL,EBP-SS-NGR1A-01_AS,Power Cable B,Neutral Grounding Resistor- SS-NGR1A-01 (Space Heater Terminal Box),0%
 120-07,EL,EBP-SS-NGR1B-01_AS,Power Cable B,Neutral Grounding Resistor- SS-NGR1B-01 (Space Heater Terminal Box),0%
 120-07,EL,EBP-SS-PDCS-01_AS,Power Cable B,PDC System Panel  SS-PDCS-01 (Auxiliary Supply),0%
-120-11,EL,EBP-SS-PDCS-01A,Power Cable B,PDC System Panel- SS-PDCS-01 (Feeder A),0%
-120-11,EL,EBP-SS-PDCS-01B,Power Cable B,PDC System Panel- SS-PDCS-01 (Feeder B),0%
+120-11,EL,EBP-SS-PDCS-01A,Power Cable B,PDC System Panel- SS-PDCS-01 (Feeder A),33%
+120-11,EL,EBP-SS-PDCS-01B,Power Cable B,PDC System Panel- SS-PDCS-01 (Feeder B),33%
 120-07,EL,EBP-SS-PRB-01,Power Cable B,Photocell Relay Box- SS-PRB-01 (Auxiliary Supply),0%
 120-07,EL,EBP-SS-SWB2A-01_AS,Power Cable B,6kV Switchboard- SS-SWB2A-01 Bus VT Panel (Auxiliary Supply),0%
 120-07,EL,EBP-SS-SWB2B-01_AS,Power Cable B,6kV Switchboard- SS-SWB2B-01 Bus VT Panel (Auxiliary Supply),0%
@@ -11369,8 +11369,8 @@ TEL-09,EL,ECP-CR-CEC-05,Comminucation Cable,Paging Central Exchange Cabinet (in 
 120-09,EL,ECP-F&G-UBT-01+,Power Cable B,F&G System UPS Battery set- F&G-UBT-01 (+),67%
 120-09,EL,ECP-FT2001-MP-3,Power Cable B,Emergency Lube Oil Pump for FT-2001- FT2001-MP-3,33%
 120-09,EL,ECP-FT2002-MP-3,Power Cable B,Emergency Lube Oil Pump for FT-2002- FT2002-MP-3,33%
-120-10,EL,ECP-SS-CBT-01-,Power Cable B,110V DC Charger Battery Set- SS-CBT-01 (-),0%
-120-10,EL,ECP-SS-CBT-01+,Power Cable B,110V DC Charger Battery Set- SS-CBT-01 (+),0%
+120-10,EL,ECP-SS-CBT-01-,Power Cable B,110V DC Charger Battery Set- SS-CBT-01 (-),33%
+120-10,EL,ECP-SS-CBT-01+,Power Cable B,110V DC Charger Battery Set- SS-CBT-01 (+),33%
 120-10,EL,ECP-SS-CIS-01-,Power Cable B,110V DC Charger Battery Isolator Box- SS-CIS-01 (-),0%
 120-10,EL,ECP-SS-CIS-01+,Power Cable B,110V DC Charger Battery Isolator Box- SS-CIS-01 (+),0%
 120-10,EL,ECP-SS-ESWB3A-01,Power Cable B,Emergency LV Switchboard- SS-ESWB3A-01 (110V DC Supply),0%
@@ -11391,7 +11391,7 @@ TEL-09,EL,ECP-CR-CEC-05,Comminucation Cable,Paging Central Exchange Cabinet (in 
 120-10,EL,ECP-SS-SWB3B-04,Power Cable B,LV Switchboard No. 04- SS-SWB3B-04 (110V DC Supply),67%
 120-10,EL,ECP-SS-SWB3B-05,Power Cable B,LV Switchboard No. 05- SS-SWB3B-05 (110V DC Supply),67%
 120-11,EL,ECP-SS-UBT-01-,Power Cable B,230V AC Safety Lighting UPS Battery Set- SS-UBT-01 (-),0%
-120-11,EL,ECP-SS-UBT-01+,Power Cable B,230V AC Safety Lighting UPS Battery Set- SS-UBT-01 (+),0%
+120-11,EL,ECP-SS-UBT-01+,Power Cable B,230V AC Safety Lighting UPS Battery Set- SS-UBT-01 (+),33%
 120-11,EL,ECP-SS-UIS-01-,Power Cable B,230V AC Safety Lighting UPS Battery Isolator Box- SS-UIS-01 (-),0%
 120-11,EL,ECP-SS-UIS-01+,Power Cable B,230V AC Safety Lighting UPS Battery Isolator Box- SS-UIS-01 (+),0%
 TEL-11,EL,ECR-00-CamJB-01,Comminucation Cable,CCTV Camera Station Number 01,0%
@@ -11678,7 +11678,7 @@ DCS-01,IN,ESD-SC-CR-02,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
 120-13,EL,EX_TB-P-010,Cathodic Protection,Test Box,DONE
 120-13,EL,EX_TB-P-011,Cathodic Protection,Test Box,DONE
 120-15,EL,F&G-UBT-01,UPS & Battery,F&G System UPS Battery set,DONE
-120-09,EL,F&G-UPS-01,UPS & Battery,230V AC F&G UPS Panel,DONE
+120-09,EL,F&G-UPS-01,UPS & Battery,230V AC F&G UPS Panel,50%
 DCS-01,IN,FA-0001,Fire Fighting,Fire Fighting(FA),0%
 DCS-01,IN,FCFA-0001,CABLE,CABLE(NA),0%
 FGS-08,IN,FCFGD-0041,CABLE,CABLE(NA),0%
@@ -12973,7 +12973,7 @@ NO SUBS.,IN,FT-1007,Instrument(FT),Instrument(FT),0%
 120-02,EL,FT7001B-MF-1,Local_Control_Station,Local Control Station- FT7001B-MF-1,50%
 120-02,EL,FT7001B-MP-1A,Local_Control_Station,Local Control Station- FT7001B-MP-1A,0%
 120-07,EL,FT7001B-MP-1B,Local_Control_Station,Local Control Station- FT7001B-MP-1B,0%
-4000-02,IN,FT-7029(FT),Instrument(FT),Instrument(FT),75%
+4000-02,IN,FT-7029(FT),Instrument(FT),Instrument(FT),Done
 4000-02,IN,FT-7029(NA),CABLE,CABLE(NA),0%
 4000-02,IN,FT-7030(FT),Instrument(FT),Instrument(FT),50%
 4000-02,IN,FT-7030(NA),CABLE,CABLE(NA),0%
@@ -14957,7 +14957,7 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 4000-04,IN,LST-7091B(NA),CABLE,CABLE(NA),0%
 4000-04,IN,LST-7091C(LST),Instrument(LST),Instrument(LST),25%
 4000-04,IN,LST-7091C(NA),CABLE,CABLE(NA),0%
-7000-01,IN,LST-7152(LST),Instrument(LST),Instrument(LST),50%
+7000-01,IN,LST-7152(LST),Instrument(LST),Instrument(LST),75%
 7000-01,IN,LST-7152(NA),CABLE,CABLE(NA),0%
 4000-08,IN,LST-8001A(LST),Instrument(LST),Instrument(LST),25%
 4000-08,IN,LST-8001A(NA),CABLE,CABLE(NA),0%
@@ -15064,7 +15064,7 @@ NO SUBS.,IN,LT-20151(LT),Instrument(LT),Instrument(LT),0%
 1000-03,IN,LT-7101(NA),CABLE,CABLE(NA),0%
 1000-03,IN,LT-7102(LT),Instrument(LT),Instrument(LT),0%
 1000-03,IN,LT-7102(NA),CABLE,CABLE(NA),0%
-7000-01,IN,LT-7153(LT),Instrument(LT),Instrument(LT),50%
+7000-01,IN,LT-7153(LT),Instrument(LT),Instrument(LT),75%
 7000-01,IN,LT-7153(NA),CABLE,CABLE(NA),0%
 4000-04,IN,LT-7162(LT),Instrument(LT),Instrument(LT),0%
 4000-04,IN,LT-7162(NA),CABLE,CABLE(NA),0%
@@ -16487,10 +16487,10 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),0%
 2000-05,MER,P-2003A,Pump,PROSECC CONDENSATE PUMP,0%
 2000-05,MER,P-2003B,Pump,PROSECC CONDENSATE PUMP,0%
 4000-13,MER,P-3001A,Pump,SLOPS METHANOL PUMP,0%
-3000-01,MER,P-3011A,Pump,TURBINE CONDENSATE PUMP,0%
-3000-01,MER,P-3011B,Pump,TURBINE CONDENSATE PUMP,0%
-5000-01,MER,P-5001A,Pump,RAW METHANOL PUMP,0%
-5000-01,MER,P-5001B,Pump,RAW METHANOL PUMP,0%
+3000-01,MER,P-3011A,Pump,TURBINE CONDENSATE PUMP,30%
+3000-01,MER,P-3011B,Pump,TURBINE CONDENSATE PUMP,30%
+5000-01,MER,P-5001A,Pump,RAW METHANOL PUMP,50%
+5000-01,MER,P-5001B,Pump,RAW METHANOL PUMP,50%
 5000-01,MER,P-5002A,Pump,STABLIZER METHANOL PUMP,0%
 5000-01,MER,P-5002B,Pump,STABLIZER METHANOL PUMP,0%
 5000-01,MER,P-5003A,Pump,STABLIZER COLUMN REFLUX PUMP,0%
@@ -16501,8 +16501,8 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),0%
 5000-02,MER,P-5005B,Pump,MP COLUMN FEED PUMP,0%
 5000-03,MER,P-5006A,Pump,MP COLUMN REFLUX PUMP,0%
 5000-03,MER,P-5006B,Pump,MP COLUMN REFLUX PUMP,0%
-5000-03,MER,P-5007A,Pump,MP COLUMN RECYCLE PUMP,0%
-5000-03,MER,P-5007B,Pump,MP COLUMN RECYCLE PUMP,0%
+5000-03,MER,P-5007A,Pump,MP COLUMN RECYCLE PUMP,30%
+5000-03,MER,P-5007B,Pump,MP COLUMN RECYCLE PUMP,30%
 5000-04,MER,P-5008A,Pump,METHANOL PRODUCT PUMP,0%
 5000-04,MER,P-5008B,Pump,METHANOL PRODUCT PUMP,0%
 5000-05,MER,P-5009A,Pump,LIQUID OFF STREAM PUMP,0%
@@ -16527,8 +16527,8 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),0%
 120-02,EL,P7001C-MF-1,Local_Control_Station,Local Control Station- P7001C-MF-1,50%
 120-02,EL,P7001C-MP-1A,Local_Control_Station,Local Control Station- P7001C-MP-1A,50%
 120-07,EL,P7001C-MP-1B,Local_Control_Station,Local Control Station- P7001C-MP-1B,50%
-4000-06,MER,P-7002A,Pump,DMW Pump,0%
-4000-06,MER,P-7002B,Pump,DMW Pump,0%
+4000-06,MER,P-7002A,Pump,DMW Pump,30%
+4000-06,MER,P-7002B,Pump,DMW Pump,30%
 1000-03,MER,P-7003A,Pump,Excess Process Condensate Pump,0%
 1000-03,MER,P-7003B,Pump,Excess Process Condensate Pump,0%
 1000-03,MER,P-7004A,Pump,ROCESS CONDENSATE PUMP,0%
@@ -16541,20 +16541,20 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),0%
 4000-06,MER,P-7503B,Pump,SULPHURIC ACID TRASFER PUMPS,0%
 4000-06,MER,P-7504A,Pump,CAUSTIC UNLOADING PUMPS,0%
 4000-06,MER,P-7505A,Pump,Sulfuric Acid unloading pumps,0%
-4000-06,MER,P-7506A,Pump,CONDENSATE TRANSFER PUMPS,20%
-4000-06,MER,P-7506B,Pump,CONDENSATE TRANSFER PUMPS,20%
+4000-06,MER,P-7506A,Pump,CONDENSATE TRANSFER PUMPS,30%
+4000-06,MER,P-7506B,Pump,CONDENSATE TRANSFER PUMPS,30%
 4000-08,MER,P-8001A,Pump,HEAVY DUTY CENTRIFUGAL PUMPS,0%
 4000-08,MER,P-8001A-Lub-Oil-Unit,Pump,HEAVY DUTY CENTRIFUGAL PUMPS LUBE OIL,0%
 4000-08,MER,P-8001B,Pump,HEAVY DUTY CENTRIFUGAL PUMPS,0%
 4000-08,MER,P-8001B-Lub-Oil-Unit,Pump,HEAVY DUTY CENTRIFUGAL PUMPS LUBE OIL,0%
-4000-08,MER,P-8001C,Pump,HEAVY DUTY CENTRIFUGAL PUMPS,20%
-4000-08,MER,P-8001D,Pump,HEAVY DUTY CENTRIFUGAL PUMPS,20%
-4000-09,MER,P-8401-P2B,Pump,OILY WATER TRANSFER PUMP,0%
+4000-08,MER,P-8001C,Pump,HEAVY DUTY CENTRIFUGAL PUMPS,30%
+4000-08,MER,P-8001D,Pump,HEAVY DUTY CENTRIFUGAL PUMPS,30%
+4000-09,MER,P-8401-P2B,Pump,OILY WATER TRANSFER PUMP,60%
 4000-10,MER,P-8402A,Pump,SANITARY EFFLUENT TRANSFER PUMP,0%
 4000-06,MER,P-8403A,Pump,Neutralization basin pumps,0%
 4000-06,MER,P-8403B,Pump,Neutralization basin pumps,0%
-4000-12,MER,P-8404A,Pump,COC WATER TRANSFER PUMPS,20%
-4000-12,MER,P-8404B,Pump,COC WATER TRANSFER PUMPS,20%
+4000-12,MER,P-8404A,Pump,COC WATER TRANSFER PUMPS,60%
+4000-12,MER,P-8404B,Pump,COC WATER TRANSFER PUMPS,60%
 4000-12,MER,P-8405A,Pump, Laboratory Chemical Effluent Transfer Pumps,0%
 4000-12,MER,P-8405B,Pump, Laboratory Chemical Effluent Transfer Pumps,0%
 4000-01,IN,PCV-0007,Instrument(PCV),Instrument(PCV),DONE
@@ -16673,7 +16673,7 @@ NO SUBS.,IN,PDIT-30187 (),PKG,PKG,0%
 3000-02,IN,PDT-3117(NA),CABLE,CABLE(NA),0%
 3000-02,IN,PDT-3117(PDT),Instrument(PDT),Instrument(PDT),50%
 5000-04,IN,PDT-5385(NA),CABLE,CABLE(NA),0%
-5000-04,IN,PDT-5385(PDT),Instrument(PDT),Instrument(PDT),75%
+5000-04,IN,PDT-5385(PDT),Instrument(PDT),Instrument(PDT),Done
 1000-03,IN,PDT-6026(NA),CABLE,CABLE(NA),0%
 1000-03,IN,PDT-6026(PDT),Instrument(PDT),Instrument(PDT),25%
 1000-03,IN,PDT-6028(NA),CABLE,CABLE(NA),0%
@@ -17985,7 +17985,7 @@ NO SUBS.,IN,PT-1007,Instrument(PT),Instrument(PT),25%
 2000-03,IN,PT-2046(NA),CABLE,CABLE(NA),0%
 2000-03,IN,PT-2046(PT),Instrument(PT),Instrument(PT),50%
 1000-03,IN,PT-2061(NA),CABLE,CABLE(NA),0%
-1000-03,IN,PT-2061(PT),Instrument(PT),Instrument(PT),75%
+1000-03,IN,PT-2061(PT),Instrument(PT),Instrument(PT),Done
 1000-03,IN,PT-2073(NA),CABLE,CABLE(NA),0%
 1000-03,IN,PT-2073(PT),Instrument(PT),Instrument(PT),50%
 2000-01,IN,PT-2077(NA),CABLE,CABLE(NA),0%
@@ -18040,7 +18040,7 @@ NO SUBS.,IN,PT-1007,Instrument(PT),Instrument(PT),25%
 2000-06,IN,PT-25108(NA),CABLE,CABLE(NA),0%
 2000-06,IN,PT-25108(PT),Instrument(PT),Instrument(PT),0%
 1000-02,IN,PT-2536(NA),CABLE,CABLE(NA),0%
-1000-02,IN,PT-2536(PT),Instrument(PT),Instrument(PT),50%
+1000-02,IN,PT-2536(PT),Instrument(PT),Instrument(PT),75%
 1000-02,IN,PT-2540(NA),CABLE,CABLE(NA),0%
 1000-02,IN,PT-2540(PT),Instrument(PT),Instrument(PT),50%
 2000-06,IN,PT-2579(NA),CABLE,CABLE(NA),50%
@@ -18060,7 +18060,7 @@ NO SUBS.,IN,PT-1007,Instrument(PT),Instrument(PT),25%
 3000-02,IN,PT-3079(NA),CABLE,CABLE(NA),0%
 3000-02,IN,PT-3079(PT),Instrument(PT),Instrument(PT),25%
 3000-03,IN,PT-3166(NA),CABLE,CABLE(NA),0%
-3000-03,IN,PT-3166(PT),Instrument(PT),Instrument(PT),50%
+3000-03,IN,PT-3166(PT),Instrument(PT),Instrument(PT),75%
 3000-03,IN,PT-3194(NA),CABLE,CABLE(NA),0%
 3000-03,IN,PT-3194(PT),Instrument(PT),Instrument(PT),50%
 5000-01,IN,PT-5004(NA),CABLE,CABLE(NA),50%
@@ -18086,13 +18086,13 @@ NO SUBS.,IN,PT-1007,Instrument(PT),Instrument(PT),25%
 5000-01,IN,PT-5139(NA),CABLE,CABLE(NA),50%
 5000-01,IN,PT-5139(PT),Instrument(PT),Instrument(PT),0%
 5000-02,IN,PT-5166(NA),CABLE,CABLE(NA),50%
-5000-02,IN,PT-5166(PT),Instrument(PT),Instrument(PT),50%
+5000-02,IN,PT-5166(PT),Instrument(PT),Instrument(PT),75%
 5000-02,IN,PT-5168(NA),CABLE,CABLE(NA),50%
-5000-02,IN,PT-5168(PT),Instrument(PT),Instrument(PT),50%
+5000-02,IN,PT-5168(PT),Instrument(PT),Instrument(PT),75%
 5000-02,IN,PT-5170(NA),CABLE,CABLE(NA),50%
-5000-02,IN,PT-5170(PT),Instrument(PT),Instrument(PT),50%
+5000-02,IN,PT-5170(PT),Instrument(PT),Instrument(PT),75%
 5000-02,IN,PT-5172(NA),CABLE,CABLE(NA),50%
-5000-02,IN,PT-5172(PT),Instrument(PT),Instrument(PT),50%
+5000-02,IN,PT-5172(PT),Instrument(PT),Instrument(PT),75%
 5000-02,IN,PT-5176(NA),CABLE,CABLE(NA),50%
 5000-02,IN,PT-5176(PT),Instrument(PT),Instrument(PT),50%
 5000-02,IN,PT-5219(NA),CABLE,CABLE(NA),0%
@@ -18100,15 +18100,15 @@ NO SUBS.,IN,PT-1007,Instrument(PT),Instrument(PT),25%
 5000-02,IN,PT-5240(NA),CABLE,CABLE(NA),0%
 5000-02,IN,PT-5240(PT),Instrument(PT),Instrument(PT),0%
 5000-03,IN,PT-5252(NA),CABLE,CABLE(NA),50%
-5000-03,IN,PT-5252(PT),Instrument(PT),Instrument(PT),50%
+5000-03,IN,PT-5252(PT),Instrument(PT),Instrument(PT),75%
 5000-03,IN,PT-5254(NA),CABLE,CABLE(NA),50%
-5000-03,IN,PT-5254(PT),Instrument(PT),Instrument(PT),50%
+5000-03,IN,PT-5254(PT),Instrument(PT),Instrument(PT),75%
 5000-03,IN,PT-5256(NA),CABLE,CABLE(NA),50%
-5000-03,IN,PT-5256(PT),Instrument(PT),Instrument(PT),25%
+5000-03,IN,PT-5256(PT),Instrument(PT),Instrument(PT),50%
 5000-03,IN,PT-5258(NA),CABLE,CABLE(NA),50%
-5000-03,IN,PT-5258(PT),Instrument(PT),Instrument(PT),50%
+5000-03,IN,PT-5258(PT),Instrument(PT),Instrument(PT),75%
 5000-03,IN,PT-5260(NA),CABLE,CABLE(NA),50%
-5000-03,IN,PT-5260(PT),Instrument(PT),Instrument(PT),50%
+5000-03,IN,PT-5260(PT),Instrument(PT),Instrument(PT),75%
 5000-03,IN,PT-5307(NA),CABLE,CABLE(NA),0%
 5000-03,IN,PT-5307(PT),Instrument(PT),Instrument(PT),25%
 5000-03,IN,PT-5335(NA),CABLE,CABLE(NA),0%
@@ -18159,7 +18159,7 @@ NO SUBS.,IN,PT-1007,Instrument(PT),Instrument(PT),25%
 4000-02,IN,PT-7025(PT),Instrument(PT),Instrument(PT),50%
 4000-04,IN,PT-70272,Instrument(PT),Instrument(PT),0%
 4000-02,IN,PT-7028(NA),CABLE,CABLE(NA),0%
-4000-02,IN,PT-7028(PT),Instrument(PT),Instrument(PT),50%
+4000-02,IN,PT-7028(PT),Instrument(PT),Instrument(PT),75%
 4000-03,IN,PT-7031(NA),CABLE,CABLE(NA),0%
 4000-03,IN,PT-7031(PT),Instrument(PT),Instrument(PT),50%
 4000-03,IN,PT-7034(NA),CABLE,CABLE(NA),0%
@@ -18176,7 +18176,7 @@ NO SUBS.,IN,PT-1007,Instrument(PT),Instrument(PT),25%
 4000-04,IN,PT-7127(NA),CABLE,CABLE(NA),0%
 4000-04,IN,PT-7127(PT),Instrument(PT),Instrument(PT),25%
 4000-04,IN,PT-7141(NA),CABLE,CABLE(NA),0%
-4000-04,IN,PT-7141(PT),Instrument(PT),Instrument(PT),50%
+4000-04,IN,PT-7141(PT),Instrument(PT),Instrument(PT),75%
 7000-01,IN,PT-7151(NA),CABLE,CABLE(NA),0%
 7000-01,IN,PT-7151(PT),Instrument(PT),Instrument(PT),50%
 4000-08,IN,PT-8007(NA),CABLE,CABLE(NA),0%
@@ -18986,10 +18986,10 @@ LS-06,EL,SL19-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL1-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL2,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL20,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
-2000-01,MES,SL-2001,Silencer(SL),HPS Secondary Reforming Silencer,25%
-2000-01,MES,SL-2002,Silencer(SL),HPS Reforming Silencer,DONE
-2000-04,MES,SL-2003,Silencer(SL),HHP Steam Silencer,DONE
-2000-04,MES,SL-2004,Silencer(SL),HHP Steam Drum Silencer,25%
+2000-01,MES,SL-2001,Silencer(SL),HPS Secondary Reforming Silencer,Done
+2000-01,MES,SL-2002,Silencer(SL),HPS Reforming Silencer,Done
+2000-04,MES,SL-2003,Silencer(SL),HHP Steam Silencer,Done
+2000-04,MES,SL-2004,Silencer(SL),HHP Steam Drum Silencer,Done
 LS-06,EL,SL20-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL21,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
 LS-06,EL,SL21-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
@@ -19012,7 +19012,7 @@ LS-06,EL,SL29-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL2-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,33%
 LS-06,EL,SL3,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL30,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
-3000-02,MES,SL-3001,Silencer(SL),MP Steam Drum Silencer,0%
+3000-02,MES,SL-3001,Silencer(SL),MP Steam Drum Silencer,50%
 3000-02,IN,SL-3001.2.3-ST1,CABLE,CABLE(NA),0%
 3000-02,IN,SL-3001.2.3-ST2,CABLE,CABLE(NA),0%
 3000-02,IN,SL-3001_2_3-ST1,Instrument(SL),Instrument(SL),0%
@@ -19036,9 +19036,9 @@ LS-06,EL,SL5-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL6,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
 LS-06,EL,SL6-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL7,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
-4000-02,MES,SL-7001,Silencer(SL),HP Steam Silencer,0%
-4000-03,MES,SL-7002,Silencer(SL),MP Steam Silencer,0%
-4000-02,MES,SL-7003,Silencer(SL),LP Steam Silencer,0%
+4000-02,MES,SL-7001,Silencer(SL),HP Steam Silencer,Done
+4000-03,MES,SL-7002,Silencer(SL),MP Steam Silencer,Done
+4000-02,MES,SL-7003,Silencer(SL),LP Steam Silencer,Done
 LS-06,EL,SL7-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL8,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL8-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,33%
@@ -19615,12 +19615,12 @@ NO SUBS.,IN,SV-004,CABLE,CABLE(NA),0%
 1000-04,IN,SZSL-84209,Instrument(X),Instrument(SZSL),0%
 1000-04,IN,SZSL-84212,Instrument(X),Instrument(SZSL),0%
 1000-04,IN,SZSL-84214,Instrument(X),Instrument(SZSL),0%
-5000-01,MES,T-5001,Tower(T),STABILIZER COLUMN,33%
-5000-02,MES,T-5002,Tower(T),LP METHANOL COLUMN,67%
-5000-03,MES,T-5003,Tower(T),MP METHANOL COLUMN,67%
+5000-01,MES,T-5001,Tower(T),STABILIZER COLUMN,50%
+5000-02,MES,T-5002,Tower(T),LP METHANOL COLUMN,Done
+5000-03,MES,T-5003,Tower(T),MP METHANOL COLUMN,Done
 5000-01,MES,T-5004,Tower(T),Vent Wash Column,33%
-1000-03,MES,T-6001-1,Tower(T),Saturator,67%
-1000-03,MES,T-6001-2,Tower(T),Saturator,67%
+1000-03,MES,T-6001-1,Tower(T),Saturator,Done
+1000-03,MES,T-6001-2,Tower(T),Saturator,Done
 3000-01,IN,TAH-30139,PKG,PKG,0%
 120-13,EL,TB01-TC01,Cathodic Protection,Cable 1x16,DONE
 120-13,EL,TB01-TC02,Cathodic Protection,Cable 1x16,DONE
