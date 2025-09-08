@@ -42,7 +42,7 @@
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,MES,6,0,0,0,0,0,2
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MES,11,1,0,40,0,40,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MER,2,0,0,0,0,0,0
-2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,24,19,0,55,20,35,17
+2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,24,19,0,55,23,32,17
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,231,15,0,101,14,87,45
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,0,0,48,20,28,0
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,9,0,113,72,41,86
@@ -75,7 +75,7 @@
 4000,4000-03,Utility,MP Steam,PI,5,5,0,37,8,29,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,0,0,6,0,6,3
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,0,0,0,0,0
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,47,34,0,155,74,81,19
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,47,34,0,155,77,78,19
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,2,0,36,16,20,384
 4000,4000-05,Utility,Blow Down,PI,24,13,0,37,15,22,13
 4000,4000-05,Utility,Blow Down,MES,4,1,0,14,0,14,0
@@ -115,7 +115,7 @@
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,0,0,0,0,0,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,PI,46,36,0,134,45,89,9
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,465,14,0,341,217,124,287
-5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,39,0,137,69,68,13
+5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,39,0,137,72,65,13
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,0,0,44,11,33,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,14,0,383,236,147,78
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,0,0,0,0,0,0
@@ -126,7 +126,7 @@
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MES,2,0,0,0,0,0,1
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MER,2,0,0,0,0,0,0
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,63,1,0,19,13,6,20
-5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,10,6,0,29,12,17,2
+5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,10,6,0,29,14,15,2
 7000,7000-01,Flare,Flare System (In Site),IN,145,3,0,25,16,9,17
 7000,7000-01,Flare,Flare System (In Site),MER,2,0,0,0,0,0,0
 7000,7000-01,Flare,Flare System (In Site),MES,2,0,0,8,0,8,0
@@ -166,8 +166,6 @@ FGS,FGS-09,Fire and Gas Detection,Fire & Gas Detection for Control Building,IN,3
 FGS,FGS-09,Fire and Gas Detection,Fire & Gas Detection for Control Building,EL,91,59,0,0,0,0,0
 FGS,FGS-10,Fire and Gas Detection,Fire & Gas Detection for Laboratory,IN,2,0,0,0,0,0,0
 FGS,FGS-10,Fire and Gas Detection,Fire & Gas Detection for Laboratory,EL,50,0,0,0,0,0,0
-FGS,FGS-11,Fire and Gas Detection,Fire & Gas Detection for Diesel Room,EL,4,0,0,0,0,0,0
-FGS,FGS-14,Fire and Gas Detection,Fire & Gas Detection for Warehouse Building,IN,15,0,0,0,0,0,0
 HVAC,HVAC-01,HVAC System,HVAC for Substation,EL,2,0,0,0,0,0,2
 HVAC,HVAC-02,HVAC System,HVAC for Control Building,EL,3,0,0,0,0,0,3
 HVAC,HVAC-03,HVAC System,HVAC for Laboratory & Yard Office,EL,1,0,0,0,0,0,1
@@ -184,9 +182,9 @@ LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,0,0,309,73,236,0
 LS,LS-10,Lighting System,Lighting System for Area-05,EL,706,0,0,268,0,268,0
 LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,0,0,362,217,145,0
 LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,0,0,362,177,185,0
-LS,LS-13,Lighting System,Lighting System for Warehouse,EL,8,0,0,0,0,0,0
 LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,64,0,175,142,33,0
-NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,63,0,0,0,0,0,0
+NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,EL,12,0,0,0,0,0,0
+NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,78,0,0,0,0,0,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,PI,4,0,0,0,0,0,0
 TEL,TEL-01,Telecom Systems,Telecom System for Area-01,EL,24,0,0,4,0,4,0
 TEL,TEL-02,Telecom Systems,Telecom System for Area-02,EL,61,0,0,4,0,4,0
@@ -194,7 +192,7 @@ TEL,TEL-03,Telecom Systems,Telecom System for Area-03,EL,39,0,0,0,0,0,0
 TEL,TEL-04,Telecom Systems,Telecom System for Area-04,EL,37,0,0,0,0,0,0
 TEL,TEL-05,Telecom Systems,Telecom System for Area-05,EL,71,0,0,0,0,0,0
 TEL,TEL-06,Telecom Systems,Telecom System for Area-06,EL,46,0,0,10,2,8,0
-TEL,TEL-07,Telecom Systems,Telecom System for Area-07,EL,43,14,0,129,47,82,0
+TEL,TEL-07,Telecom Systems,Telecom System for Area-07,EL,43,14,0,129,55,74,0
 TEL,TEL-08,Telecom Systems,Telecom System for Substation,EL,30,30,0,39,0,39,0
 TEL,TEL-09,Telecom Systems,Telecom System for Control Building,EL,103,0,0,10,0,10,5
 TEL,TEL-09,Telecom Systems,Telecom System for Control Building,IN,1,1,0,7,0,7,0
