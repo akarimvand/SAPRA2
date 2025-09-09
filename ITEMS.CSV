@@ -4040,12 +4040,12 @@ TEL-07,EL,07-SP-15,Paging Device,Loud Speaker - 25W|EX,50%
 3000-02,PI,3000-02-CBD-02-1080,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 3000-02,PI,3000-02-MPC-01-933,PI_TP,PIPING TEST PACKAGE,DONE
 3000-02,PI,3000-02-MPC-02-950,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
-3000-02,PI,3000-02-MPC-03-951,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
+3000-02,PI,3000-02-MPC-03-951,PI_TP,PIPING TEST PACKAGE,Reinstatement
 3000-02,PI,3000-02-MPC-04-952,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
 3000-02,PI,3000-02-MPC-05-966,PI_TP,PIPING TEST PACKAGE,DONE
 3000-02,PI,3000-02-MPS-01-731,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
 3000-02,PI,3000-02-MPS-02-732,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
-3000-02,PI,3000-02-MPS-03-733,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
+3000-02,PI,3000-02-MPS-03-733,PI_TP,PIPING TEST PACKAGE,Reinstatement
 3000-02,PI,3000-02-MPS-04-734,PI_TP,PIPING TEST PACKAGE,DONE
 3000-02,PI,3000-02-MPS-05-735,PI_TP,PIPING TEST PACKAGE,Reinstatement
 3000-02,PI,3000-02-MPS-06-736,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4055,8 +4055,8 @@ TEL-07,EL,07-SP-15,Paging Device,Loud Speaker - 25W|EX,50%
 3000-02,PI,3000-02-SG-03-555,PI_TP,PIPING TEST PACKAGE,Cleaning
 3000-02,PI,3000-02-SG-04-643,PI_TP,PIPING TEST PACKAGE,DONE
 3000-02,PI,3000-02-SG-05-711,PI_TP,PIPING TEST PACKAGE,DONE
-3000-02,PI,3000-02-SG-06-818,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
-3000-02,PI,3000-02-SG-07-819,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
+3000-02,PI,3000-02-SG-06-818,PI_TP,PIPING TEST PACKAGE,Line Check
+3000-02,PI,3000-02-SG-07-819,PI_TP,PIPING TEST PACKAGE,Line Check
 3000-02,PI,3000-02-SG-08-820,PI_TP,PIPING TEST PACKAGE,FL/DRY
 3000-02,PI,3000-02-SG-09-897,PI_TP,PIPING TEST PACKAGE,Reinstatement
 3000-02,PI,3000-02-SG-10-390,PI_TP,PIPING TEST PACKAGE,DONE
@@ -5318,7 +5318,7 @@ NO SUBS.,PI,61-SUMP-091,PI_TP,PIPING TEST PACKAGE,Reinstatement
 7000-01,PI,7000-01-FLG-12-867,PI_TP,PIPING TEST PACKAGE,DONE
 7000-01,PI,7000-01-FLG-13-878,PI_TP,PIPING TEST PACKAGE,DONE
 7000-01,PI,7000-01-FLG-14-910,PI_TP,PIPING TEST PACKAGE,Reinstatement
-7000-01,PI,7000-01-FLG-15-911,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
+7000-01,PI,7000-01-FLG-15-911,PI_TP,PIPING TEST PACKAGE,FL/DRY
 7000-01,PI,7000-01-FLG-16-913,PI_TP,PIPING TEST PACKAGE,FL/DRY
 7000-01,PI,7000-01-FLG-17-916,PI_TP,PIPING TEST PACKAGE,DONE
 7000-01,PI,7000-01-FLG-18-917,PI_TP,PIPING TEST PACKAGE,DONE
@@ -9858,10 +9858,10 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-01,EL,EAP-MF-2002_2,Power Cable A,Combustion Air Blower (FD FAN)- MF-2002,33%
 120-01,EL,EAP-MP-5004A,Power Cable A,LP Column Reflux Pump- MP-5004A,33%
 120-01,EL,EAP-MP-5004B,Power Cable A,LP Column Reflux Pump- MP-5004B,33%
-120-01,EL,EAP-MP-5006A,Power Cable A,MP Column Reflux Pump- MP-5006A,33%
-120-01,EL,EAP-MP-5006B,Power Cable A,MP Column Reflux Pump- MP-5006B,33%
-120-01,EL,EAP-MP-5008A,Power Cable A,Methanol Product Pump- MP-5008A,33%
-120-01,EL,EAP-MP-5008B,Power Cable A,Methanol Product Pump- MP-5008B,33%
+120-01,EL,EAP-MP-5006A,Power Cable A,MP Column Reflux Pump- MP-5006A,67%
+120-01,EL,EAP-MP-5006B,Power Cable A,MP Column Reflux Pump- MP-5006B,67%
+120-01,EL,EAP-MP-5008A,Power Cable A,Methanol Product Pump- MP-5008A,67%
+120-01,EL,EAP-MP-5008B,Power Cable A,Methanol Product Pump- MP-5008B,67%
 120-01,EL,EAP-MP-6002A,Power Cable A,Steam Condensate Return Pump- MP-6002A,33%
 120-01,EL,EAP-MP-6002B,Power Cable A,Steam Condensate Return Pump- MP-6002B,33%
 120-01,EL,EAP-MP-6002C,Power Cable A,Steam Condensate Return Pump- MP-6002C,33%
@@ -9892,31 +9892,31 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-01,EL,EAP-SS-TR2B-06,Power Cable A,6/0.42 KV Transformer- SS-TR2B-06,33%
 120-02,EL,EBC-C2001-MF-1,Power Cable B,Local Control Station- C2001-MF-1,33%
 120-02,EL,EBC-C2001-MF-2,Power Cable B,Local Control Station- C2001-MF-2,33%
-120-02,EL,EBC-C2002-HE-1,Power Cable B,Heater Safety Thermostat for C2002-HE-1,33%
+120-02,EL,EBC-C2002-HE-1,Power Cable B,Heater Safety Thermostat for C2002-HE-1,67%
 120-02,EL,EBC-C2002-HE-2,Power Cable B,Heater Safety Thermostat for C2002-HE-2,33%
 120-02,EL,EBC-FT2001-HE-1,Power Cable B,Heater Safety Thermostat for FT2001-HE-1,33%
-120-02,EL,EBC-FT2002-HE-1,Power Cable B,Heater Safety Thermostat for FT2002-HE-1,33%
-120-02,EL,EBC-FT7001A-HE-1,Power Cable B,Heater Safety Thermostat for FT7001A-HE-1,33%
-120-02,EL,EBC-FT7001A-HE-2,Power Cable B,Heater Safety Thermostat for FT7001A-HE-2,33%
-120-02,EL,EBC-FT7001A-MF-1,Power Cable B,Local Control Station- FT7001A-MF-1,33%
-120-02,EL,EBC-FT7001A-MP-1A,Power Cable B,Local Control Station- FT7001A-MP-1A,33%
+120-02,EL,EBC-FT2002-HE-1,Power Cable B,Heater Safety Thermostat for FT2002-HE-1,67%
+120-02,EL,EBC-FT7001A-HE-1,Power Cable B,Heater Safety Thermostat for FT7001A-HE-1,67%
+120-02,EL,EBC-FT7001A-HE-2,Power Cable B,Heater Safety Thermostat for FT7001A-HE-2,67%
+120-02,EL,EBC-FT7001A-MF-1,Power Cable B,Local Control Station- FT7001A-MF-1,67%
+120-02,EL,EBC-FT7001A-MP-1A,Power Cable B,Local Control Station- FT7001A-MP-1A,67%
 120-07,EL,EBC-FT7001A-MP-1B,Power Cable B,Local Control Station- FT7001A-MP-1B,33%
-120-02,EL,EBC-FT7001B-HE-1,Power Cable B,Heater Safety Thermostat for FT7001B-HE-1,33%
-120-02,EL,EBC-FT7001B-HE-2,Power Cable B,Heater Safety Thermostat for FT7001B-HE-2,33%
-120-02,EL,EBC-FT7001B-MF-1,Power Cable B,Local Control Station- FT7001B-MF-1,33%
-120-02,EL,EBC-FT7001B-MP-1A,Power Cable B,Local Control Station- FT7001B-MP-1A,33%
+120-02,EL,EBC-FT7001B-HE-1,Power Cable B,Heater Safety Thermostat for FT7001B-HE-1,67%
+120-02,EL,EBC-FT7001B-HE-2,Power Cable B,Heater Safety Thermostat for FT7001B-HE-2,67%
+120-02,EL,EBC-FT7001B-MF-1,Power Cable B,Local Control Station- FT7001B-MF-1,67%
+120-02,EL,EBC-FT7001B-MP-1A,Power Cable B,Local Control Station- FT7001B-MP-1A,67%
 120-07,EL,EBC-FT7001B-MP-1B,Power Cable B,Local Control Station- FT7001B-MP-1B,33%
-120-03,EL,EBC-FT8001A-HE-1,Power Cable B,Heater Safety Thermostat for FT8001A-HE-1,33%
-120-03,EL,EBC-FT8001A-HE-2,Power Cable B,Heater Safety Thermostat for FT8001A-HE-2,33%
-120-03,EL,EBC-FT8001A-HE-3,Power Cable B,Heater Safety Thermostat for FT8001A-HE-3,33%
-120-03,EL,EBC-FT8001A-MF-1,Power Cable B,Local Control Station- FT8001A-MF-1,33%
-120-02,EL,EBC-FT8001A-MP-1A,Power Cable B,Local Control Station- FT8001A-MP-1A,33%
+120-03,EL,EBC-FT8001A-HE-1,Power Cable B,Heater Safety Thermostat for FT8001A-HE-1,67%
+120-03,EL,EBC-FT8001A-HE-2,Power Cable B,Heater Safety Thermostat for FT8001A-HE-2,67%
+120-03,EL,EBC-FT8001A-HE-3,Power Cable B,Heater Safety Thermostat for FT8001A-HE-3,67%
+120-03,EL,EBC-FT8001A-MF-1,Power Cable B,Local Control Station- FT8001A-MF-1,67%
+120-02,EL,EBC-FT8001A-MP-1A,Power Cable B,Local Control Station- FT8001A-MP-1A,67%
 120-07,EL,EBC-FT8001A-MP-1B,Power Cable B,Local Control Station- FT8001A-MP-1B,33%
-120-03,EL,EBC-FT8001B-HE-1,Power Cable B,Heater Safety Thermostat for FT8001B-HE-1,33%
-120-03,EL,EBC-FT8001B-HE-2,Power Cable B,Heater Safety Thermostat for FT8001B-HE-2,33%
-120-03,EL,EBC-FT8001B-HE-3,Power Cable B,Heater Safety Thermostat for FT8001B-HE-3,33%
-120-03,EL,EBC-FT8001B-MF-1,Power Cable B,Local Control Station- FT8001B-MF-1,33%
-120-02,EL,EBC-FT8001B-MP-1A,Power Cable B,Local Control Station- FT8001B-MP-1A,33%
+120-03,EL,EBC-FT8001B-HE-1,Power Cable B,Heater Safety Thermostat for FT8001B-HE-1,67%
+120-03,EL,EBC-FT8001B-HE-2,Power Cable B,Heater Safety Thermostat for FT8001B-HE-2,67%
+120-03,EL,EBC-FT8001B-HE-3,Power Cable B,Heater Safety Thermostat for FT8001B-HE-3,67%
+120-03,EL,EBC-FT8001B-MF-1,Power Cable B,Local Control Station- FT8001B-MF-1,67%
+120-02,EL,EBC-FT8001B-MP-1A,Power Cable B,Local Control Station- FT8001B-MP-1A,67%
 120-07,EL,EBC-FT8001B-MP-1B,Power Cable B,Local Control Station- FT8001B-MP-1B,33%
 120-05,EL,EBC-MAE-2026-01,Power Cable B,Local Control Station- MAE-2026-01,33%
 120-05,EL,EBC-MAE-2026-01_VS,Power Cable B,Vibration Switch- MAE-2026-01/VS,0%
@@ -10172,48 +10172,48 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-03,EL,EBC-MF-8001C_VS,Power Cable B,Vibration Switch- MF-8001C/VS,0%
 120-03,EL,EBC-MF-8001D,Power Cable B,Local Control Station- MF-8001D,33%
 120-03,EL,EBC-MF-8001D_VS,Power Cable B,Vibration Switch- MF-8001D/VS,0%
-120-02,EL,EBC-MP-0001A,Power Cable B,Local Control Station- MP-0001A,33%
-120-02,EL,EBC-MP-0001B,Power Cable B,Local Control Station- MP-0001B,33%
-120-02,EL,EBC-MP-2001A,Power Cable B,Local Control Station- MP-2001A,33%
-120-02,EL,EBC-MP-2001B,Power Cable B,Local Control Station- MP-2001B,33%
-120-02,EL,EBC-MP-2002A,Power Cable B,Local Control Station- MP-2002A,33%
-120-02,EL,EBC-MP-2002B,Power Cable B,Local Control Station- MP-2002B,33%
-120-02,EL,EBC-MP-2003A,Power Cable B,Local Control Station- MP-2003A,33%
-120-02,EL,EBC-MP-2003B,Power Cable B,Local Control Station- MP-2003B,33%
+120-02,EL,EBC-MP-0001A,Power Cable B,Local Control Station- MP-0001A,67%
+120-02,EL,EBC-MP-0001B,Power Cable B,Local Control Station- MP-0001B,67%
+120-02,EL,EBC-MP-2001A,Power Cable B,Local Control Station- MP-2001A,67%
+120-02,EL,EBC-MP-2001B,Power Cable B,Local Control Station- MP-2001B,67%
+120-02,EL,EBC-MP-2002A,Power Cable B,Local Control Station- MP-2002A,67%
+120-02,EL,EBC-MP-2002B,Power Cable B,Local Control Station- MP-2002B,67%
+120-02,EL,EBC-MP-2003A,Power Cable B,Local Control Station- MP-2003A,67%
+120-02,EL,EBC-MP-2003B,Power Cable B,Local Control Station- MP-2003B,67%
 120-07,EL,EBC-MP-3001,Power Cable B,Local Control Station- MP-3001,33%
 120-02,EL,EBC-MP-3011A,Power Cable B,Compressor Local Control Panel (Ammeter for MP-3011A),33%
 120-02,EL,EBC-MP-3011B,Power Cable B,Compressor Local Control Panel (Ammeter for MP-3011B),33%
-120-02,EL,EBC-MP-3012A,Power Cable B,Compressor Local Control Panel (Ammeter for MP-3012A),33%
-120-02,EL,EBC-MP-3012B,Power Cable B,Compressor Local Control Panel (Ammeter for MP-3012B),33%
+120-02,EL,EBC-MP-3012A,Power Cable B,Compressor Local Control Panel (Ammeter for MP-3012A),67%
+120-02,EL,EBC-MP-3012B,Power Cable B,Compressor Local Control Panel (Ammeter for MP-3012B),67%
 120-07,EL,EBC-MP-3013,Power Cable B,Compressor Local Control Panel (Ammeter for MP-3013),33%
-120-02,EL,EBC-MP-5001A,Power Cable B,Local Control Station- MP-5001A,33%
-120-02,EL,EBC-MP-5001B,Power Cable B,Local Control Station- MP-5001B,33%
-120-02,EL,EBC-MP-5002A,Power Cable B,Local Control Station- MP-5002A,33%
-120-02,EL,EBC-MP-5002B,Power Cable B,Local Control Station- MP-5002B,33%
-120-02,EL,EBC-MP-5003A,Power Cable B,Local Control Station- MP-5003A,33%
-120-02,EL,EBC-MP-5003B,Power Cable B,Local Control Station- MP-5003B,33%
-120-02,EL,EBC-MP-5005A,Power Cable B,Local Control Station- MP-5005A,33%
-120-02,EL,EBC-MP-5005B,Power Cable B,Local Control Station- MP-5005B,33%
+120-02,EL,EBC-MP-5001A,Power Cable B,Local Control Station- MP-5001A,67%
+120-02,EL,EBC-MP-5001B,Power Cable B,Local Control Station- MP-5001B,67%
+120-02,EL,EBC-MP-5002A,Power Cable B,Local Control Station- MP-5002A,67%
+120-02,EL,EBC-MP-5002B,Power Cable B,Local Control Station- MP-5002B,67%
+120-02,EL,EBC-MP-5003A,Power Cable B,Local Control Station- MP-5003A,67%
+120-02,EL,EBC-MP-5003B,Power Cable B,Local Control Station- MP-5003B,67%
+120-02,EL,EBC-MP-5005A,Power Cable B,Local Control Station- MP-5005A,67%
+120-02,EL,EBC-MP-5005B,Power Cable B,Local Control Station- MP-5005B,67%
 120-02,EL,EBC-MP-5007A,Power Cable B,Local Control Station- MP-5007A,33%
-120-02,EL,EBC-MP-5007B,Power Cable B,Local Control Station- MP-5007B,33%
-120-02,EL,EBC-MP-5009A,Power Cable B,Local Control Station- MP-5009A,33%
-120-02,EL,EBC-MP-5009B,Power Cable B,Local Control Station- MP-5009B,33%
+120-02,EL,EBC-MP-5007B,Power Cable B,Local Control Station- MP-5007B,67%
+120-02,EL,EBC-MP-5009A,Power Cable B,Local Control Station- MP-5009A,67%
+120-02,EL,EBC-MP-5009B,Power Cable B,Local Control Station- MP-5009B,67%
 120-02,EL,EBC-MP-5010A,Power Cable B,Local Control Station- MP-5010A,33%
-120-02,EL,EBC-MP-5010B,Power Cable B,Local Control Station- MP-5010B,33%
-120-02,EL,EBC-MP-5011A,Power Cable B,Local Control Station- MP-5011A,33%
+120-02,EL,EBC-MP-5010B,Power Cable B,Local Control Station- MP-5010B,67%
+120-02,EL,EBC-MP-5011A,Power Cable B,Local Control Station- MP-5011A,67%
 120-02,EL,EBC-MP-5011B,Power Cable B,Local Control Station- MP-5011B,33%
 120-07,EL,EBC-MP-5012A,Power Cable B,Local Control Station- MP-5012A,33%
 120-07,EL,EBC-MP-5012B,Power Cable B,Local Control Station- MP-5012B,33%
 120-02,EL,EBC-MP-5070A,Power Cable B,Local Control Station- MP-5070A,33%
 120-02,EL,EBC-MP-5070B,Power Cable B,Local Control Station- MP-5070B,33%
-120-02,EL,EBC-MP-6001A,Power Cable B,Local Control Station- MP-6001A,33%
-120-02,EL,EBC-MP-6001B,Power Cable B,Local Control Station- MP-6001B,33%
-120-02,EL,EBC-MP-7002A,Power Cable B,Local Control Station- MP-7002A,33%
-120-02,EL,EBC-MP-7002B,Power Cable B,Local Control Station- MP-7002B,33%
-120-02,EL,EBC-MP-7003A,Power Cable B,Local Control Station- MP-7003A,33%
-120-02,EL,EBC-MP-7003B,Power Cable B,Local Control Station- MP-7003B,33%
+120-02,EL,EBC-MP-6001A,Power Cable B,Local Control Station- MP-6001A,67%
+120-02,EL,EBC-MP-6001B,Power Cable B,Local Control Station- MP-6001B,67%
+120-02,EL,EBC-MP-7002A,Power Cable B,Local Control Station- MP-7002A,67%
+120-02,EL,EBC-MP-7002B,Power Cable B,Local Control Station- MP-7002B,67%
+120-02,EL,EBC-MP-7003A,Power Cable B,Local Control Station- MP-7003A,67%
+120-02,EL,EBC-MP-7003B,Power Cable B,Local Control Station- MP-7003B,67%
 120-02,EL,EBC-MP-7004A,Power Cable B,Local Control Station- MP-7004A,33%
-120-02,EL,EBC-MP-7004B,Power Cable B,Local Control Station- MP-7004B,33%
+120-02,EL,EBC-MP-7004B,Power Cable B,Local Control Station- MP-7004B,67%
 120-02,EL,EBC-MP-7051A,Power Cable B,Local Control Station- MP-7051A,33%
 120-02,EL,EBC-MP-7051B,Power Cable B,Local Control Station- MP-7051B,33%
 120-02,EL,EBC-MP-7052A,Power Cable B,Local Control Station- MP-7052A,33%
@@ -10229,7 +10229,7 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-03,EL,EBC-MP-7503A,Power Cable B,Local Control Station- MP-7503A,67%
 120-03,EL,EBC-MP-7503B,Power Cable B,Local Control Station- MP-7503B,33%
 120-03,EL,EBC-MP-7504,Power Cable B,Local Control Station- MP-7504,33%
-120-03,EL,EBC-MP-7505,Power Cable B,Local Control Station- MP-7505,33%
+120-03,EL,EBC-MP-7505,Power Cable B,Local Control Station- MP-7505,67%
 120-03,EL,EBC-MP-7506A,Power Cable B,Local Control Station- MP-7506A,33%
 120-03,EL,EBC-MP-7506B,Power Cable B,Local Control Station- MP-7506B,67%
 120-03,EL,EBC-MP-8401,Power Cable B,Local Control Station- MP-8401,33%
@@ -10243,13 +10243,13 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-02,EL,EBC-MX-7050,Power Cable B,Local Control Station- MX-7050,33%
 120-02,EL,EBC-MX-7060,Power Cable B,Local Control Station- MX-7060,33%
 120-02,EL,EBC-MX-7070,Power Cable B,Local Control Station- MX-7070,33%
-120-02,EL,EBC-P7001C-HE-1,Power Cable B,Heater Safety Thermostat for P7001C-HE-1,33%
+120-02,EL,EBC-P7001C-HE-1,Power Cable B,Heater Safety Thermostat for P7001C-HE-1,67%
 120-02,EL,EBC-P7001C-HE-2,Power Cable B,Heater Safety Thermostat for P7001C-HE-2,33%
 120-02,EL,EBC-P7001C-MF-1,Power Cable B,Local Control Station- P7001C-MF-1,33%
 120-02,EL,EBC-P7001C-MP-1A,Power Cable B,Local Control Station- P7001C-MP-1A,33%
 120-07,EL,EBC-P7001C-MP-1B,Power Cable B,Local Control Station- P7001C-MP-1B,33%
 120-03,EL,EBC-PK7502-MB-1A,Power Cable B,Local Control Station- PK7502-MB-1A,33%
-120-03,EL,EBC-PK7502-MB-1B,Power Cable B,Local Control Station- PK7502-MB-1B,33%
+120-03,EL,EBC-PK7502-MB-1B,Power Cable B,Local Control Station- PK7502-MB-1B,67%
 120-03,EL,EBC-PK7502-MP-1A,Power Cable B,Local Control Station- PK7502-MP-1A,33%
 120-03,EL,EBC-PK7502-MP-1B,Power Cable B,Local Control Station- PK7502-MP-1B,67%
 120-03,EL,EBC-PK7502-MP-2A,Power Cable B,Local Control Station- PK7502-MP-2A,33%
@@ -10267,9 +10267,9 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-03,EL,EBC-PK8004-MX-1,Power Cable B,Local Control Station- PK8004-MX-1,33%
 120-03,EL,EBC-PK8005-MP-1A,Power Cable B,Local Control Station- PK8005-MP-1A,33%
 120-03,EL,EBC-PK8005-MP-1B,Power Cable B,Local Control Station- PK8005-MP-1B,67%
-120-03,EL,EBC-PK8401-MP-1A,Power Cable B,Local Control Station- PK8401-MP-1A,33%
+120-03,EL,EBC-PK8401-MP-1A,Power Cable B,Local Control Station- PK8401-MP-1A,67%
 120-03,EL,EBC-PK8401-MP-1A-PTC,Power Cable B,Oily Sludge transfer pump PK8401-MP-1A- Intermediate JB,33%
-120-03,EL,EBC-PK8401-MP-1B,Power Cable B,Local Control Station- PK8401-MP-1B,33%
+120-03,EL,EBC-PK8401-MP-1B,Power Cable B,Local Control Station- PK8401-MP-1B,67%
 120-03,EL,EBC-PK8401-MP-1B-PTC,Power Cable B,Oily Sludge Transfer Pump PK8401-MP-1B- Intermediate JB,33%
 120-03,EL,EBC-PK8401-MP-2A,Power Cable B,Local Control Station- PK8401-MP-2A,33%
 120-03,EL,EBC-PK8401-MP-2B,Power Cable B,Local Control Station- PK8401-MP-2B,67%
@@ -10327,7 +10327,7 @@ LS-01,EL,EBL-02-RJB2_1-2,Power Cable B,Area 02 Socket JB No. 2/1  - 02-RJB2/1-2,
 LS-01,EL,EBL-02-RJB2_2-2,Power Cable B,Area 02 Socket JB No. 2/2  - 02-RJB2/2-2,0%
 LS-01,EL,EBL-02-RJB2_3-2,Power Cable B,Area 02 Socket JB No. 2/3  - 02-RJB2/3-2,0%
 LS-01,EL,EBL-02-RJB2-2,Power Cable B,Area 02 Socket JB No. 2  - 02-RJB2-2,0%
-120-11,EL,EBL-02-SJB1-2,Power Cable B,Safety Lighting JB No. 1 For Area 02- 02-SJB1-2,33%
+120-11,EL,EBL-02-SJB1-2,Power Cable B,Safety Lighting JB No. 1 For Area 02- 02-SJB1-2,67%
 NO SUBS.,EL,EBL-0301,FGS Device,Evacuation Bell,0%
 FGS-08,EL,EBL-0302,FGS Device,Evacuation Bell,0%
 FGS-08,EL,EBL-0303,FGS Device,Evacuation Bell- EX,0%
@@ -10347,7 +10347,7 @@ LS-01,EL,EBL-03-JB2-2,Power Cable B,Area 03  Normal Lighting JB No. 2 - 03-JB2-2
 LS-01,EL,EBL-03-RJB1_1-1,Power Cable B,Area 03 Socket JB No. 1/1 - 03-RJB1/1-1,0%
 LS-01,EL,EBL-03-RJB1_2-1,Power Cable B,Area 03 Socket JB No. 1/2  - 03-RJB1/2-1,0%
 LS-01,EL,EBL-03-RJB1-1,Power Cable B,Area 03 Socket JB No. 1  - 03-RJB1-1,0%
-120-11,EL,EBL-03-SJB1-3,Power Cable B,Safety Lighting JB No. 1 For Area 03- 03-SJB1-3,33%
+120-11,EL,EBL-03-SJB1-3,Power Cable B,Safety Lighting JB No. 1 For Area 03- 03-SJB1-3,67%
 LS-02,EL,EBL-04-EJB1_1-3,Power Cable B,Area 04 Emergency Lighting JB No. 1/1-04-EJB1/1-3,0%
 LS-02,EL,EBL-04-EJB1_2-3,Power Cable B,Area 04 Emergency Lighting JB No. 1/2-04-EJB1/2-3,0%
 LS-02,EL,EBL-04-EJB1-3,Power Cable B,Area 04 Emergency Lighting JB No. 1-04-EJB1-3,0%
@@ -10359,7 +10359,7 @@ LS-01,EL,EBL-04-JB2-4,Power Cable B,Area 04  Normal Lighting JB No. 2- 04-JB2-4,
 LS-01,EL,EBL-04-RJB1_1-1,Power Cable B,Area 04 Socket JB No. 1/1 - 04-RJB1/1-1,0%
 LS-01,EL,EBL-04-RJB1-1,Power Cable B,Area 04 Socket JB No. 1 - 04-RJB1-1,0%
 LS-01,EL,EBL-04-RJB2-2,Power Cable B,Area 04 Socket JB No. 2 - 04-RJB2-2,33%
-120-11,EL,EBL-04-SJB1-4,Power Cable B,Safety Lighting JB No. 1 For Area 04- 04-SJB1-4,0%
+120-11,EL,EBL-04-SJB1-4,Power Cable B,Safety Lighting JB No. 1 For Area 04- 04-SJB1-4,67%
 LS-02,EL,EBL-05-EJB1_1-5,Power Cable B,Area 05 Emergency Lighting JB No. 1/1-05-EJB1/1-5,0%
 LS-02,EL,EBL-05-EJB1-5,Power Cable B,Area 05 Emergency Lighting JB No. 1-05-EJB1-5,0%
 LS-02,EL,EBL-05-EJB2_1-6,Power Cable B,Area 05 Emergency Lighting JB No. 2/1 -05-EJB2/1-6,0%
@@ -10399,7 +10399,7 @@ LS-01,EL,EBL-06-JB2-4,Power Cable B,Area 06  Normal Lighting JB No. 2- 06-JB2-4,
 LS-01,EL,EBL-06-RJB1_1-2,Power Cable B,Area 06 Socket JB No. 1/1 - 06-RJB1/1-2,0%
 LS-01,EL,EBL-06-RJB1_2-2,Power Cable B,Area 06 Socket JB No. 1 /2- 06-RJB1/2-2,0%
 LS-01,EL,EBL-06-RJB1-2,Power Cable B,Area 06 Socket JB No. 1 - 06-RJB1-2,0%
-120-11,EL,EBL-06-SJB1-6,Power Cable B,Safety Lighting JB No. 1 For Area 06- 06-SJB1-6,33%
+120-11,EL,EBL-06-SJB1-6,Power Cable B,Safety Lighting JB No. 1 For Area 06- 06-SJB1-6,67%
 LS-02,EL,EBL-07-EJB1_1-1,Power Cable B,Area 07 Emergency Lighting JB No. 1/1-07-EJB1/1-1,0%
 LS-02,EL,EBL-07-EJB1-1,Power Cable B,Area 07 Emergency Lighting JB No. 1-07-EJB1-1,0%
 LS-02,EL,EBL-07-EJB2_1-2,Power Cable B,Area 07 Emergency Lighting JBNo. 2/1 -07-EJB2/1-2,0%
@@ -10412,7 +10412,7 @@ LS-01,EL,EBL-07-RJB1_1-1,Power Cable B,Area 07 Socket JB No. 1  /1- 07-RJB1/1-1,
 LS-01,EL,EBL-07-RJB1-1,Power Cable B,Area 07 Socket JB No. 1  - 07-RJB1-1,0%
 LS-01,EL,EBL-07-RJB2_1-2,Power Cable B,Area 07 Socket JB No. 2/1  - 07-RJB2/1-2,0%
 LS-01,EL,EBL-07-RJB2-2,Power Cable B,Area 07 Socket JB No. 2- 07-RJB2-2,0%
-120-11,EL,EBL-07-SJB1-7,Power Cable B,Safety Lighting JB No. 1 For Area 07- 07-SJB1-7,33%
+120-11,EL,EBL-07-SJB1-7,Power Cable B,Safety Lighting JB No. 1 For Area 07- 07-SJB1-7,67%
 LS-02,EL,EBP-00-ELP-01,Power Cable B,Area Emergency Lighting Panel No. 1- 00-ELP-01,0%
 LS-02,EL,EBP-00-ELP-02,Power Cable B,Area Emergency Lighting Panel No. 2- 00-ELP-02,33%
 LS-02,EL,EBP-00-ELP-03,Power Cable B,Area Emergency Lighting Panel No. 3- 00-ELP-03,33%
@@ -10462,7 +10462,7 @@ LS-02,EL,EBP-AH-EDP-01,Power Cable B,Analyzer House Distribution Panel- AH-EDP-0
 120-02,EL,EBP-C2001-MF-1,Power Cable B,Noise Hood Cooling Fan No.1 for C2001 - C2001-MF-1,33%
 120-02,EL,EBP-C2001-MF-2,Power Cable B,Noise Hood Cooling Fan No.2 for C2001 - C2001-MF-2,33%
 120-02,EL,EBP-C2001-MP-1B,Power Cable B,Auxiliary Lube Oil Pump for C2001- C2001-MP-1B,33%
-120-02,EL,EBP-C2002-HE-1,Power Cable B,Lube Oil Heater No.1 for C2002- C2002-HE-1,33%
+120-02,EL,EBP-C2002-HE-1,Power Cable B,Lube Oil Heater No.1 for C2002- C2002-HE-1,67%
 120-02,EL,EBP-C2002-HE-2,Power Cable B,Lube Oil Heater No.2 for C2002- C2002-HE-2,33%
 120-02,EL,EBP-C2002-MP-1B,Power Cable B,Auxiliary Lube Oil Pump for C2002- C2002-MP-1B,33%
 120-03,EL,EBP-CN2002-PSB,Power Cable B,Overhead Monorail Crane for E2022/2023- CN2002-PSB,0%
@@ -10481,14 +10481,14 @@ LS-02,EL,EBP-CR-ELP-01,Power Cable B,Control Room Emergency Lighting Panel- CR-E
 120-03,EL,EBP-CR-HDP-02,Power Cable B,Control Building Normal HVAC Panel- CR-HDP-02,33%
 LS-01,EL,EBP-CR-LP-01,Power Cable B,Control Room Normal Lighting & Socket Outlet Panel- CR-LP-01,33%
 120-07,EL,EBP-CR-SIP-01,Power Cable B,Fire & Gas Detection System Siren Panel- CR-SIP-01,33%
-120-09,EL,EBP-CR-UBT-01-_1,Power Cable B,110V AC UPS Battery Set- CR-UBT-01 (-),67%
-120-09,EL,EBP-CR-UBT-01-_2,Power Cable B,110V AC UPS Battery Set- CR-UBT-01 (-),67%
-120-09,EL,EBP-CR-UBT-01+_1,Power Cable B,110V AC UPS Battery Set- CR-UBT-01 (+),67%
-120-09,EL,EBP-CR-UBT-01+_2,Power Cable B,110V AC UPS Battery Set- CR-UBT-01 (+),67%
-120-09,EL,EBP-CR-UIS-01-_1,Power Cable B,110V AC UPS Battery Isolator Box- CR-UIS-01 (-),67%
-120-09,EL,EBP-CR-UIS-01-_2,Power Cable B,110V AC UPS Battery Isolator Box- CR-UIS-01 (-),67%
-120-09,EL,EBP-CR-UIS-01+_1,Power Cable B,110V AC UPS Battery Isolator Box- CR-UIS-01 (+),67%
-120-09,EL,EBP-CR-UIS-01+_2,Power Cable B,110V AC UPS Battery Isolator Box- CR-UIS-01 (+),67%
+120-09,EL,EBP-CR-UBT-01-_1,Power Cable B,110V AC UPS Battery Set- CR-UBT-01 (-),Done
+120-09,EL,EBP-CR-UBT-01-_2,Power Cable B,110V AC UPS Battery Set- CR-UBT-01 (-),Done
+120-09,EL,EBP-CR-UBT-01+_1,Power Cable B,110V AC UPS Battery Set- CR-UBT-01 (+),Done
+120-09,EL,EBP-CR-UBT-01+_2,Power Cable B,110V AC UPS Battery Set- CR-UBT-01 (+),Done
+120-09,EL,EBP-CR-UIS-01-_1,Power Cable B,110V AC UPS Battery Isolator Box- CR-UIS-01 (-),Done
+120-09,EL,EBP-CR-UIS-01-_2,Power Cable B,110V AC UPS Battery Isolator Box- CR-UIS-01 (-),Done
+120-09,EL,EBP-CR-UIS-01+_1,Power Cable B,110V AC UPS Battery Isolator Box- CR-UIS-01 (+),Done
+120-09,EL,EBP-CR-UIS-01+_2,Power Cable B,110V AC UPS Battery Isolator Box- CR-UIS-01 (+),Done
 120-09,EL,EBP-CR-UPS-01_AS,Power Cable B,110V AC UPS Panel- CR-UPS-01 (Auxiliary Supply),0%
 120-07,EL,EBP-CR-UPS-01_BY_1,Power Cable B,110V AC UPS Bypass Panel- CR-UPS-01/BY,33%
 120-07,EL,EBP-CR-UPS-01_BY_2,Power Cable B,110V AC UPS Bypass Panel- CR-UPS-01/BY,33%
@@ -10517,12 +10517,12 @@ LS-01,EL,EBP-CR-LP-01,Power Cable B,Control Room Normal Lighting & Socket Outlet
 120-02,EL,EBP-FT2001-HE-1,Power Cable B,Lube Oil Heater for FT-2001- FT2001-HE-1,33%
 120-02,EL,EBP-FT2001-MP-1,Power Cable B,Main Lube Oil Pump for FT-2001- FT2001-MP-1,33%
 120-07,EL,EBP-FT2001-MP-2,Power Cable B,Auxiliary Lube Oil Pump for FT-2001- FT2001-MP-2,33%
-120-02,EL,EBP-FT2002-HE-1,Power Cable B,Lube Oil Heater for FT-2002- FT2002-HE-1,33%
+120-02,EL,EBP-FT2002-HE-1,Power Cable B,Lube Oil Heater for FT-2002- FT2002-HE-1,67%
 120-02,EL,EBP-FT2002-MP-1,Power Cable B,Main Lube Oil Pump for FT-2002- FT2002-MP-1,33%
 120-07,EL,EBP-FT2002-MP-2,Power Cable B,Auxiliary Lube Oil Pump for FT-2002- FT2002-MP-2,33%
-120-02,EL,EBP-FT7001A-HE-1,Power Cable B,Lube Oil Heater No.1 for FT-7001A- FT7001A-HE-1,33%
+120-02,EL,EBP-FT7001A-HE-1,Power Cable B,Lube Oil Heater No.1 for FT-7001A- FT7001A-HE-1,67%
 120-02,EL,EBP-FT7001A-HE-2,Power Cable B,Lube Oil Heater No.2 for FT-7001A- FT7001A-HE-2,33%
-120-02,EL,EBP-FT7001A-MF-1,Power Cable B,Oil Mist Fan for FT-7001A- FT7001A-MF-1,33%
+120-02,EL,EBP-FT7001A-MF-1,Power Cable B,Oil Mist Fan for FT-7001A- FT7001A-MF-1,67%
 120-02,EL,EBP-FT7001A-MP-1A,Power Cable B,Main Lube Oil Pump for FT7001A- FT7001A-MP-1A,33%
 120-07,EL,EBP-FT7001A-MP-1B,Power Cable B,Emergency Lube Oil Pump for FT-7001A- FT7001A-MP-1B,33%
 120-02,EL,EBP-FT7001B-HE-1,Power Cable B,Lube Oil Heater No.1 for FT-7001B- FT7001B-HE-1,33%
@@ -10530,17 +10530,17 @@ LS-01,EL,EBP-CR-LP-01,Power Cable B,Control Room Normal Lighting & Socket Outlet
 120-02,EL,EBP-FT7001B-MF-1,Power Cable B,Oil Mist Fan for FT-7001B- FT7001B-MF-1,33%
 120-02,EL,EBP-FT7001B-MP-1A,Power Cable B,Main Lube Oil Pump for FT7001B- FT7001B-MP-1A,33%
 120-07,EL,EBP-FT7001B-MP-1B,Power Cable B,Emergency Lube Oil Pump for FT-7001B- FT7001B-MP-1B,33%
-120-03,EL,EBP-FT8001A-HE-1,Power Cable B,Lube Oil Heater No.1 for FT-8001A- FT8001A-HE-1,33%
-120-03,EL,EBP-FT8001A-HE-2,Power Cable B,Lube Oil Heater No.2 for FT-8001A- FT8001A-HE-2,33%
-120-03,EL,EBP-FT8001A-HE-3,Power Cable B,Lube Oil Heater No.3 for FT-8001A- FT8001A-HE-3,33%
-120-03,EL,EBP-FT8001A-MF-1,Power Cable B,Oil Mist Fan for FT-8001A- FT8001A-MF-1,33%
+120-03,EL,EBP-FT8001A-HE-1,Power Cable B,Lube Oil Heater No.1 for FT-8001A- FT8001A-HE-1,67%
+120-03,EL,EBP-FT8001A-HE-2,Power Cable B,Lube Oil Heater No.2 for FT-8001A- FT8001A-HE-2,67%
+120-03,EL,EBP-FT8001A-HE-3,Power Cable B,Lube Oil Heater No.3 for FT-8001A- FT8001A-HE-3,67%
+120-03,EL,EBP-FT8001A-MF-1,Power Cable B,Oil Mist Fan for FT-8001A- FT8001A-MF-1,67%
 120-02,EL,EBP-FT8001A-MP-1A,Power Cable B,Main Lube Oil Pump for FT8001A- FT8001A-MP-1A,33%
 120-07,EL,EBP-FT8001A-MP-1B,Power Cable B,Emergency Lube Oil Pump for FT-8001A- FT8001A-MP-1B,33%
-120-03,EL,EBP-FT8001B-HE-1,Power Cable B,Lube Oil Heater No.1 for FT-8001B- FT8001B-HE-1,33%
-120-03,EL,EBP-FT8001B-HE-2,Power Cable B,Lube Oil Heater No.2 for FT-8001B- FT8001B-HE-2,33%
-120-03,EL,EBP-FT8001B-HE-3,Power Cable B,Lube Oil Heater No.3 for FT-8001B- FT8001B-HE-3,33%
-120-03,EL,EBP-FT8001B-MF-1,Power Cable B,Oil Mist Fan for FT-8001B- FT8001B-MF-1,33%
-120-02,EL,EBP-FT8001B-MP-1A,Power Cable B,Main Lube Oil Pump for FT8001B- FT8001B-MP-1A,33%
+120-03,EL,EBP-FT8001B-HE-1,Power Cable B,Lube Oil Heater No.1 for FT-8001B- FT8001B-HE-1,67%
+120-03,EL,EBP-FT8001B-HE-2,Power Cable B,Lube Oil Heater No.2 for FT-8001B- FT8001B-HE-2,67%
+120-03,EL,EBP-FT8001B-HE-3,Power Cable B,Lube Oil Heater No.3 for FT-8001B- FT8001B-HE-3,67%
+120-03,EL,EBP-FT8001B-MF-1,Power Cable B,Oil Mist Fan for FT-8001B- FT8001B-MF-1,67%
+120-02,EL,EBP-FT8001B-MP-1A,Power Cable B,Main Lube Oil Pump for FT8001B- FT8001B-MP-1A,67%
 120-07,EL,EBP-FT8001B-MP-1B,Power Cable B,Emergency Lube Oil Pump for FT-8001B- FT8001B-MP-1B,33%
 120-02,EL,EBP-H-3012,Power Cable B,Lube Oil Heater- H-3012,33%
 120-02,EL,EBP-H-3013,Power Cable B,Seal Gas Heater- H-3013,33%
@@ -10552,146 +10552,154 @@ LS-02,EL,EBP-LAB-ELP-01,Power Cable B,Laboratory Emergency Lighting Panel- LAB-E
 120-03,EL,EBP-LAB-HDP-01_2,Power Cable B,Laboratory HVAC Panel- LAB-HDP-01,33%
 LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet Panel- LAB-LP-01,33%
 120-07,EL,EBP-LP-FL7101-01,Power Cable B,Dena Flare Control Panel- LP-FL7101-01,0%
-120-05,EL,EBP-MAE-2026-01,Power Cable B,Air Cooler Fan- MAE-2026-01,33%
-120-05,EL,EBP-MAE-2026-02,Power Cable B,Air Cooler Fan- MAE-2026-02,33%
-120-05,EL,EBP-MAE-2026-03,Power Cable B,Air Cooler Fan- MAE-2026-03,33%
-120-05,EL,EBP-MAE-2026-04,Power Cable B,Air Cooler Fan- MAE-2026-04,33%
-120-05,EL,EBP-MAE-2026-05,Power Cable B,Air Cooler Fan- MAE-2026-05,33%
-120-05,EL,EBP-MAE-2026-06,Power Cable B,Air Cooler Fan- MAE-2026-06,33%
-120-05,EL,EBP-MAE-2026-07,Power Cable B,Air Cooler Fan- MAE-2026-07,33%
-120-05,EL,EBP-MAE-2026-08,Power Cable B,Air Cooler Fan- MAE-2026-08,33%
-120-06,EL,EBP-MAE-2026-09,Power Cable B,Air Cooler Fan- MAE-2026-09,33%
-120-06,EL,EBP-MAE-2026-10,Power Cable B,Air Cooler Fan- MAE-2026-10,33%
-120-06,EL,EBP-MAE-2026-11,Power Cable B,Air Cooler Fan- MAE-2026-11,33%
-120-06,EL,EBP-MAE-2026-12,Power Cable B,Air Cooler Fan- MAE-2026-12,33%
-120-06,EL,EBP-MAE-3002_1-01,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-01,33%
-120-06,EL,EBP-MAE-3002_1-02,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-02,33%
-120-06,EL,EBP-MAE-3002_1-03,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-03,33%
-120-06,EL,EBP-MAE-3002_1-04,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-04,33%
-120-06,EL,EBP-MAE-3002_1-05,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-05,33%
-120-06,EL,EBP-MAE-3002_1-06,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-06,33%
-120-06,EL,EBP-MAE-3002_1-07,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-07,33%
-120-06,EL,EBP-MAE-3002_1-08,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-08,33%
-120-06,EL,EBP-MAE-3002_2-01,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-01,33%
-120-06,EL,EBP-MAE-3002_2-02,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-02,33%
-120-06,EL,EBP-MAE-3002_2-03,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-03,33%
-120-06,EL,EBP-MAE-3002_2-04,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-04,33%
-120-06,EL,EBP-MAE-3002_2-05,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-05,33%
-120-06,EL,EBP-MAE-3002_2-06,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-06,33%
-120-06,EL,EBP-MAE-3002_2-07,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-07,33%
-120-06,EL,EBP-MAE-3002_2-08,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-08,33%
-120-06,EL,EBP-MAE-3002_3-01,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-01,33%
-120-06,EL,EBP-MAE-3002_3-02,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-02,33%
-120-06,EL,EBP-MAE-3002_3-03,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-03,33%
-120-06,EL,EBP-MAE-3002_3-04,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-04,33%
-120-06,EL,EBP-MAE-3002_3-05,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-05,33%
-120-06,EL,EBP-MAE-3002_3-06,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-06,33%
-120-06,EL,EBP-MAE-3002_3-07,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-07,33%
-120-06,EL,EBP-MAE-3002_3-08,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-08,33%
+120-05,EL,EBP-MAE-2026-01,Power Cable B,Air Cooler Fan- MAE-2026-01,67%
+120-05,EL,EBP-MAE-2026-02,Power Cable B,Air Cooler Fan- MAE-2026-02,67%
+120-05,EL,EBP-MAE-2026-03,Power Cable B,Air Cooler Fan- MAE-2026-03,67%
+120-05,EL,EBP-MAE-2026-04,Power Cable B,Air Cooler Fan- MAE-2026-04,67%
+120-05,EL,EBP-MAE-2026-05,Power Cable B,Air Cooler Fan- MAE-2026-05,67%
+120-05,EL,EBP-MAE-2026-06,Power Cable B,Air Cooler Fan- MAE-2026-06,67%
+120-05,EL,EBP-MAE-2026-07,Power Cable B,Air Cooler Fan- MAE-2026-07,67%
+120-05,EL,EBP-MAE-2026-08,Power Cable B,Air Cooler Fan- MAE-2026-08,67%
+120-06,EL,EBP-MAE-2026-09,Power Cable B,Air Cooler Fan- MAE-2026-09,67%
+120-06,EL,EBP-MAE-2026-10,Power Cable B,Air Cooler Fan- MAE-2026-10,67%
+120-06,EL,EBP-MAE-2026-11,Power Cable B,Air Cooler Fan- MAE-2026-11,67%
+120-06,EL,EBP-MAE-2026-12,Power Cable B,Air Cooler Fan- MAE-2026-12,67%
+120-06,EL,EBP-MAE-3002_1-01,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-01,67%
+120-06,EL,EBP-MAE-3002_1-02,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-02,67%
+120-06,EL,EBP-MAE-3002_1-03,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-03,67%
+120-06,EL,EBP-MAE-3002_1-04,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-04,67%
+120-06,EL,EBP-MAE-3002_1-05,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-05,67%
+120-06,EL,EBP-MAE-3002_1-06,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-06,67%
+120-06,EL,EBP-MAE-3002_1-07,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-07,67%
+120-06,EL,EBP-MAE-3002_1-08,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-08,67%
+120-06,EL,EBP-MAE-3002_2-01,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-01,67%
+120-06,EL,EBP-MAE-3002_2-02,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-02,67%
+120-06,EL,EBP-MAE-3002_2-03,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-03,67%
+120-06,EL,EBP-MAE-3002_2-04,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-04,67%
+120-06,EL,EBP-MAE-3002_2-05,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-05,67%
+120-06,EL,EBP-MAE-3002_2-06,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-06,67%
+120-06,EL,EBP-MAE-3002_2-07,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-07,67%
+120-06,EL,EBP-MAE-3002_2-08,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-08,67%
+120-06,EL,EBP-MAE-3002_3-01,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-01,67%
+120-06,EL,EBP-MAE-3002_3-02,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-02,67%
+120-06,EL,EBP-MAE-3002_3-03,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-03,67%
+120-06,EL,EBP-MAE-3002_3-04,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-04,67%
+120-06,EL,EBP-MAE-3002_3-05,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-05,67%
+120-06,EL,EBP-MAE-3002_3-06,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-06,67%
+120-06,EL,EBP-MAE-3002_3-07,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-07,67%
+120-06,EL,EBP-MAE-3002_3-08,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-08,67%
 120-06,EL,EBP-MAE-5004-01,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-01,33%
 120-06,EL,EBP-MAE-5004-02,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-02,33%
 120-06,EL,EBP-MAE-5004-03,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-03,33%
-120-06,EL,EBP-MAE-5004-04,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-04,33%
+120-06,EL,EBP-MAE-5004-04,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-04,67%
 120-06,EL,EBP-MAE-5004-05,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-05,33%
-120-06,EL,EBP-MAE-5004-06,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-06,33%
+120-06,EL,EBP-MAE-5004-06,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-06,67%
 120-06,EL,EBP-MAE-5004-07,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-07,33%
-120-06,EL,EBP-MAE-5004-08,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-08,33%
+120-06,EL,EBP-MAE-5004-08,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-08,67%
 120-06,EL,EBP-MAE-5004-09,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-09,33%
-120-06,EL,EBP-MAE-5004-10,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-10,33%
+120-06,EL,EBP-MAE-5004-10,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-10,67%
 120-06,EL,EBP-MAE-5004-11,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-11,33%
-120-06,EL,EBP-MAE-5004-12,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-12,33%
-120-04,EL,EBP-MAE-5005A-01,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-01,33%
-120-04,EL,EBP-MAE-5005A-02,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-02,33%
-120-04,EL,EBP-MAE-5005A-03,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-03,33%
-120-04,EL,EBP-MAE-5005A-04,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-04,33%
-120-04,EL,EBP-MAE-5005A-05,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-05,33%
-120-04,EL,EBP-MAE-5005A-06,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-06,33%
-120-04,EL,EBP-MAE-5005A-07,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-07,33%
-120-04,EL,EBP-MAE-5005A-08,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-08,33%
-120-04,EL,EBP-MAE-5005A-09,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-09,33%
-120-04,EL,EBP-MAE-5005A-10,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-10,33%
-120-04,EL,EBP-MAE-5005A-11,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-11,33%
-120-04,EL,EBP-MAE-5005A-12,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-12,33%
-120-04,EL,EBP-MAE-5005A-13,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-13,33%
-120-04,EL,EBP-MAE-5005A-14,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-14,33%
-120-04,EL,EBP-MAE-5005A-15,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-15,33%
-120-04,EL,EBP-MAE-5005A-16,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-16,33%
-120-04,EL,EBP-MAE-5005A-17,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-17,33%
-120-04,EL,EBP-MAE-5005A-18,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-18,33%
-120-04,EL,EBP-MAE-5005B-01,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-01,33%
-120-04,EL,EBP-MAE-5005B-02,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-02,33%
-120-04,EL,EBP-MAE-5005B-03,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-03,33%
-120-04,EL,EBP-MAE-5005B-04,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-04,33%
-120-04,EL,EBP-MAE-5005B-05,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-05,33%
-120-04,EL,EBP-MAE-5005B-06,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-06,33%
-120-04,EL,EBP-MAE-5005B-07,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-07,33%
-120-04,EL,EBP-MAE-5005B-08,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-08,33%
-120-04,EL,EBP-MAE-5005B-09,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-09,33%
-120-04,EL,EBP-MAE-5005B-10,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-10,33%
-120-04,EL,EBP-MAE-5005B-11,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-11,33%
-120-04,EL,EBP-MAE-5005B-12,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-12,33%
-120-04,EL,EBP-MAE-5005B-13,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-13,33%
-120-04,EL,EBP-MAE-5005B-14,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-14,33%
-120-04,EL,EBP-MAE-5005B-15,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-15,33%
-120-04,EL,EBP-MAE-5005B-16,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-16,33%
-120-04,EL,EBP-MAE-5005B-17,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-17,33%
-120-04,EL,EBP-MAE-5005B-18,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-18,33%
-120-05,EL,EBP-MAE-5005C-01,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-01,33%
-120-05,EL,EBP-MAE-5005C-02,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-02,33%
-120-05,EL,EBP-MAE-5005C-03,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-03,33%
-120-05,EL,EBP-MAE-5005C-04,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-04,33%
-120-05,EL,EBP-MAE-5005C-05,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-05,33%
-120-05,EL,EBP-MAE-5005C-06,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-06,33%
-120-05,EL,EBP-MAE-5005C-07,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-07,33%
-120-05,EL,EBP-MAE-5005C-08,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-08,33%
-120-05,EL,EBP-MAE-5005C-09,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-09,33%
-120-05,EL,EBP-MAE-5005C-10,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-10,33%
-120-05,EL,EBP-MAE-5005C-11,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-11,33%
-120-05,EL,EBP-MAE-5005C-12,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-12,33%
-120-05,EL,EBP-MAE-5005C-13,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-13,33%
-120-05,EL,EBP-MAE-5005C-14,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-14,33%
-120-04,EL,EBP-MAE-5005C-15,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-15,33%
-120-04,EL,EBP-MAE-5005C-16,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-16,33%
-120-04,EL,EBP-MAE-5005C-17,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-17,33%
-120-04,EL,EBP-MAE-5005C-18,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-18,33%
-120-05,EL,EBP-MAE-5005D-01,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-01,33%
-120-05,EL,EBP-MAE-5005D-02,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-02,33%
-120-05,EL,EBP-MAE-5005D-03,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-03,33%
-120-05,EL,EBP-MAE-5005D-04,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-04,33%
-120-05,EL,EBP-MAE-5005D-05,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-05,33%
-120-05,EL,EBP-MAE-5005D-06,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-06,33%
-120-05,EL,EBP-MAE-5005D-07,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-07,33%
-120-05,EL,EBP-MAE-5005D-08,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-08,33%
-120-05,EL,EBP-MAE-5005D-09,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-09,33%
-120-05,EL,EBP-MAE-5005D-10,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-10,33%
-120-05,EL,EBP-MAE-5005D-11,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-11,33%
-120-05,EL,EBP-MAE-5005D-12,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-12,33%
-120-05,EL,EBP-MAE-5005D-13,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-13,33%
-120-05,EL,EBP-MAE-5005D-14,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-14,33%
-120-05,EL,EBP-MAE-5005D-15,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-15,33%
+120-06,EL,EBP-MAE-5004-12,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-12,67%
+120-04,EL,EBP-MAE-5005A-01,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-01,67%
+120-04,EL,EBP-MAE-5005A-02,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-02,67%
+120-04,EL,EBP-MAE-5005A-03,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-03,67%
+120-04,EL,EBP-MAE-5005A-04,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-04,67%
+120-04,EL,EBP-MAE-5005A-05,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-05,67%
+120-04,EL,EBP-MAE-5005A-06,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-06,67%
+120-04,EL,EBP-MAE-5005A-07,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-07,67%
+120-04,EL,EBP-MAE-5005A-08,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-08,67%
+120-04,EL,EBP-MAE-5005A-09,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-09,67%
+120-04,EL,EBP-MAE-5005A-10,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-10,67%
+120-04,EL,EBP-MAE-5005A-11,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-11,67%
+120-04,EL,EBP-MAE-5005A-12,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-12,67%
+120-04,EL,EBP-MAE-5005A-13,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-13,67%
+120-04,EL,EBP-MAE-5005A-14,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-14,67%
+120-04,EL,EBP-MAE-5005A-15,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-15,67%
+120-04,EL,EBP-MAE-5005A-16,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-16,67%
+120-04,EL,EBP-MAE-5005A-17,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-17,67%
+120-04,EL,EBP-MAE-5005A-18,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-18,67%
+120-04,EL,EBP-MAE-5005B-01,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-01,67%
+120-04,EL,EBP-MAE-5005B-02,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-02,67%
+120-04,EL,EBP-MAE-5005B-03,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-03,67%
+120-04,EL,EBP-MAE-5005B-04,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-04,67%
+120-04,EL,EBP-MAE-5005B-05,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-05,67%
+120-04,EL,EBP-MAE-5005B-06,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-06,67%
+120-04,EL,EBP-MAE-5005B-07,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-07,67%
+120-04,EL,EBP-MAE-5005B-08,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-08,67%
+120-04,EL,EBP-MAE-5005B-09,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-09,67%
+120-04,EL,EBP-MAE-5005B-10,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-10,67%
+120-04,EL,EBP-MAE-5005B-11,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-11,67%
+120-04,EL,EBP-MAE-5005B-12,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-12,67%
+120-04,EL,EBP-MAE-5005B-13,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-13,67%
+120-04,EL,EBP-MAE-5005B-14,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-14,67%
+120-04,EL,EBP-MAE-5005B-15,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-15,67%
+120-04,EL,EBP-MAE-5005B-16,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-16,67%
+120-04,EL,EBP-MAE-5005B-17,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-17,67%
+120-04,EL,EBP-MAE-5005B-18,Power Cable B,LP Column OH Condenser Fan- MAE-5005B-18,67%
+120-05,EL,EBP-MAE-5005C-01,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-01,67%
+120-05,EL,EBP-MAE-5005C-02,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-02,67%
+120-05,EL,EBP-MAE-5005C-03,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-03,67%
+120-05,EL,EBP-MAE-5005C-04,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-04,67%
+120-05,EL,EBP-MAE-5005C-05,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-05,67%
+120-05,EL,EBP-MAE-5005C-06,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-06,67%
+120-05,EL,EBP-MAE-5005C-07,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-07,67%
+120-05,EL,EBP-MAE-5005C-08,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-08,67%
+120-05,EL,EBP-MAE-5005C-09,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-09,67%
+120-05,EL,EBP-MAE-5005C-10,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-10,67%
+120-05,EL,EBP-MAE-5005C-11,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-11,67%
+120-05,EL,EBP-MAE-5005C-12,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-12,67%
+120-05,EL,EBP-MAE-5005C-13,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-13,67%
+120-05,EL,EBP-MAE-5005C-14,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-14,67%
+120-04,EL,EBP-MAE-5005C-15,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-15,67%
+120-04,EL,EBP-MAE-5005C-16,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-16,67%
+120-04,EL,EBP-MAE-5005C-17,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-17,67%
+120-04,EL,EBP-MAE-5005C-18,Power Cable B,LP Column OH Condenser Fan- MAE-5005C-18,67%
+120-05,EL,EBP-MAE-5005D-01,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-01,67%
+120-05,EL,EBP-MAE-5005D-02,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-02,67%
+120-05,EL,EBP-MAE-5005D-03,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-03,67%
+120-05,EL,EBP-MAE-5005D-04,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-04,67%
+120-05,EL,EBP-MAE-5005D-05,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-05,67%
+120-05,EL,EBP-MAE-5005D-06,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-06,67%
+120-05,EL,EBP-MAE-5005D-07,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-07,67%
+120-05,EL,EBP-MAE-5005D-08,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-08,67%
+120-05,EL,EBP-MAE-5005D-09,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-09,67%
+120-05,EL,EBP-MAE-5005D-10,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-10,67%
+120-05,EL,EBP-MAE-5005D-11,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-11,67%
+120-05,EL,EBP-MAE-5005D-12,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-12,67%
+120-05,EL,EBP-MAE-5005D-13,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-13,67%
+120-05,EL,EBP-MAE-5005D-14,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-14,67%
+120-05,EL,EBP-MAE-5005D-15,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-15,67%
 120-05,EL,EBP-MAE-5005D-16,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-16,33%
-120-05,EL,EBP-MAE-5005D-17,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-17,33%
-120-05,EL,EBP-MAE-5005D-18,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-18,33%
-120-04,EL,EBP-MAE-5006-01,Power Cable B,Wash Water Air Cooler Fan- MAE-5006-01,33%
-120-04,EL,EBP-MAE-5006-02,Power Cable B,Wash Water Air Cooler Fan- MAE-5006-02,33%
+120-05,EL,EBP-MAE-5005D-17,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-17,67%
+120-05,EL,EBP-MAE-5005D-18,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-18,67%
+120-04,EL,EBP-MAE-5006-01,Power Cable B,Wash Water Air Cooler Fan- MAE-5006-01,67%
+120-04,EL,EBP-MAE-5006-02,Power Cable B,Wash Water Air Cooler Fan- MAE-5006-02,67%
 120-03,EL,EBP-MB-8001A,Power Cable B,Air Blower for Side Stream Filter Package - MB-8001A,33%
 120-03,EL,EBP-MB-8001B,Power Cable B,Air Blower for Side Stream Filter Package - MB-8001B,33%
-120-01,EL,EBP-MC-2001-SH,Power Cable B,Motor Space Heater- MC-2001-SH,67%
-120-01,EL,EBP-MC-2002-SH,Power Cable B,Motor Space Heater- MC-2002-SH,67%
+120-01,EL,EBP-MC-2001-SH,Power Cable B,Motor Space Heater- MC-2001-SH,Done
+4000-01,EL,EBP-MC-2001-SH_1,POWER CABLE A,CABLE(NA),0%
+120-01,EL,EBP-MC-2002-SH,Power Cable B,Motor Space Heater- MC-2002-SH,Done
+4000-13,EL,EBP-MC-2002-SH_1,POWER CABLE A,CABLE(NA),Done
 120-01,EL,EBP-MF-2001-SH,Power Cable B,Motor Space Heater- MF-2001-SH,33%
+2000-01,EL,EBP-MF-2001-SH_1,POWER CABLE A,CABLE(NA),Done
 120-01,EL,EBP-MF-2002-SH,Power Cable B,Motor Space Heater- MF-2002-SH,33%
+2000-01,EL,EBP-MF-2002-SH_1,POWER CABLE A,CABLE(NA),Done
 120-03,EL,EBP-MF-8001A_1,Power Cable B,Cooling Tower Fan- MF-8001A,33%
 120-03,EL,EBP-MF-8001A_2,Power Cable B,Cooling Tower Fan- MF-8001A,33%
 120-03,EL,EBP-MF-8001A-SH,Power Cable B,Motor Space Heater- MF-8001A-SH,33%
+4000-08,EL,EBP-MF-8001A-SH_1,POWER CABLE A,CABLE(NA),0%
 120-03,EL,EBP-MF-8001B_1,Power Cable B,Cooling Tower Fan- MF-8001B,33%
 120-03,EL,EBP-MF-8001B_2,Power Cable B,Cooling Tower Fan- MF-8001B,33%
 120-03,EL,EBP-MF-8001B-SH,Power Cable B,Motor Space Heater- MF-8001B-SH,33%
+4000-08,EL,EBP-MF-8001B-SH_1,POWER CABLE A,CABLE(NA),0%
 120-03,EL,EBP-MF-8001C_1,Power Cable B,Cooling Tower Fan- MF-8001C,33%
 120-03,EL,EBP-MF-8001C_2,Power Cable B,Cooling Tower Fan- MF-8001C,33%
 120-03,EL,EBP-MF-8001C-SH,Power Cable B,Motor Space Heater- MF-8001C-SH,33%
+4000-08,EL,EBP-MF-8001C-SH_1,POWER CABLE A,CABLE(NA),0%
 120-03,EL,EBP-MF-8001D_1,Power Cable B,Cooling Tower Fan- MF-8001D,33%
 120-03,EL,EBP-MF-8001D_2,Power Cable B,Cooling Tower Fan- MF-8001D,33%
 120-03,EL,EBP-MF-8001D-SH,Power Cable B,Motor Space Heater- MF-8001D-SH,33%
+4000-08,EL,EBP-MF-8001D-SH_1,POWER CABLE A,CABLE(NA),0%
 120-07,EL,EBP-MOV-30101,Power Cable B,Motor Operated Valve- MOV-30101,33%
 120-07,EL,EBP-MOV-30103,Power Cable B,Motor Operated Valve- MOV-30103,33%
 120-07,EL,EBP-MOV-30105,Power Cable B,Motor Operated Valve- MOV-30105,33%
@@ -10701,22 +10709,22 @@ LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet 
 120-02,EL,EBP-MP-0001A,Power Cable B,Cooling Water Blow-Down Pump- MP-0001A,33%
 120-02,EL,EBP-MP-0001B,Power Cable B,Cooling Water Blow-Down Pump- MP-0001B,33%
 120-02,EL,EBP-MP-2001A,Power Cable B,Process Condensate Pump No 1- MP-2001A,33%
-120-02,EL,EBP-MP-2001B,Power Cable B,Process Condensate Pump No 1- MP-2001B,33%
-120-02,EL,EBP-MP-2002A_1,Power Cable B,Process Condensate Pump No 2- MP-2002A,33%
-120-02,EL,EBP-MP-2002A_2,Power Cable B,Process Condensate Pump No 2- MP-2002A,33%
+120-02,EL,EBP-MP-2001B,Power Cable B,Process Condensate Pump No 1- MP-2001B,67%
+120-02,EL,EBP-MP-2002A_1,Power Cable B,Process Condensate Pump No 2- MP-2002A,67%
+120-02,EL,EBP-MP-2002A_2,Power Cable B,Process Condensate Pump No 2- MP-2002A,67%
 120-02,EL,EBP-MP-2002B_1,Power Cable B,Process Condensate Pump No 2- MP-2002B,33%
 120-02,EL,EBP-MP-2002B_2,Power Cable B,Process Condensate Pump No 2- MP-2002B,33%
-120-02,EL,EBP-MP-2003A_1,Power Cable B,Process Condensate Pump No 3- MP-2003A,33%
-120-02,EL,EBP-MP-2003A_2,Power Cable B,Process Condensate Pump No 3- MP-2003A,33%
-120-02,EL,EBP-MP-2003B_1,Power Cable B,Process Condensate Pump No 3- MP-2003B,33%
-120-02,EL,EBP-MP-2003B_2,Power Cable B,Process Condensate Pump No 3- MP-2003B,33%
+120-02,EL,EBP-MP-2003A_1,Power Cable B,Process Condensate Pump No 3- MP-2003A,67%
+120-02,EL,EBP-MP-2003A_2,Power Cable B,Process Condensate Pump No 3- MP-2003A,67%
+120-02,EL,EBP-MP-2003B_1,Power Cable B,Process Condensate Pump No 3- MP-2003B,67%
+120-02,EL,EBP-MP-2003B_2,Power Cable B,Process Condensate Pump No 3- MP-2003B,67%
 120-07,EL,EBP-MP-3001,Power Cable B,Slops Methanol Pump- MP-3001,33%
 120-02,EL,EBP-MP-3011A,Power Cable B,Main Turbine Condensate Pump for C3001- MP-3011A,33%
 120-02,EL,EBP-MP-3011B,Power Cable B,Main Turbine Condensate Pump for C3001- MP-3011B,33%
-120-02,EL,EBP-MP-3012A,Power Cable B,Main Lube Oil Pump  for C3001- MP-3012A,0%
+120-02,EL,EBP-MP-3012A,Power Cable B,Main Lube Oil Pump  for C3001- MP-3012A,67%
 120-02,EL,EBP-MP-3012A-JB_1,Power Cable B,Main Lube Oil Pump  for C3001- MP-3012A Intermediate JB,33%
 120-02,EL,EBP-MP-3012A-JB_2,Power Cable B,Main Lube Oil Pump  for C3001- MP-3012A Intermediate JB,33%
-120-02,EL,EBP-MP-3012B,Power Cable B,Main Lube Oil Pump  for C3001- MP-3012B,0%
+120-02,EL,EBP-MP-3012B,Power Cable B,Main Lube Oil Pump  for C3001- MP-3012B,67%
 120-02,EL,EBP-MP-3012B-JB_1,Power Cable B,Main Lube Oil Pump  for C3001- MP-3012B Intermediate JB,33%
 120-02,EL,EBP-MP-3012B-JB_2,Power Cable B,Main Lube Oil Pump  for C3001- MP-3012B Intermediate JB,33%
 120-07,EL,EBP-MP-3013,Power Cable B,Emergency Lube Oil Pump for C3001- MP-3013,33%
@@ -10729,26 +10737,32 @@ LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet 
 120-02,EL,EBP-MP-5002A,Power Cable B,Stabilizer Methanol Pump- MP-5002A,33%
 120-02,EL,EBP-MP-5002B,Power Cable B,Stabilizer Methanol Pump- MP-5002B,33%
 120-02,EL,EBP-MP-5003A,Power Cable B,Stabilizer Column Reflux Pump- MP-5003A,33%
-120-02,EL,EBP-MP-5003B,Power Cable B,Stabilizer Column Reflux Pump- MP-5003B,33%
-120-01,EL,EBP-MP-5004A-SH,Power Cable B,Motor Space Heater- MP-5004A-SH,67%
-120-01,EL,EBP-MP-5004B-SH,Power Cable B,Motor Space Heater- MP-5004B-SH,67%
+120-02,EL,EBP-MP-5003B,Power Cable B,Stabilizer Column Reflux Pump- MP-5003B,67%
+120-01,EL,EBP-MP-5004A-SH,Power Cable B,Motor Space Heater- MP-5004A-SH,Done
+5000-02,EL,EBP-MP-5004A-SH_1,POWER CABLE A,CABLE(NA),Done
+120-01,EL,EBP-MP-5004B-SH,Power Cable B,Motor Space Heater- MP-5004B-SH,Done
+5000-02,EL,EBP-MP-5004B-SH_1,POWER CABLE A,CABLE(NA),Done
 120-02,EL,EBP-MP-5005A_1,Power Cable B,MP Column Feed Pump- MP-5005A,33%
 120-02,EL,EBP-MP-5005A_2,Power Cable B,MP Column Feed Pump- MP-5005A,33%
-120-02,EL,EBP-MP-5005B_1,Power Cable B,MP Column Feed Pump- MP-5005B,33%
-120-02,EL,EBP-MP-5005B_2,Power Cable B,MP Column Feed Pump- MP-5005B,33%
-120-01,EL,EBP-MP-5006A-SH,Power Cable B,Motor Space Heater- MP-5006A-SH,67%
-120-01,EL,EBP-MP-5006B-SH,Power Cable B,Motor Space Heater- MP-5006B-SH,67%
+120-02,EL,EBP-MP-5005B_1,Power Cable B,MP Column Feed Pump- MP-5005B,67%
+120-02,EL,EBP-MP-5005B_2,Power Cable B,MP Column Feed Pump- MP-5005B,67%
+120-01,EL,EBP-MP-5006A-SH,Power Cable B,Motor Space Heater- MP-5006A-SH,Done
+5000-03,EL,EBP-MP-5006A-SH_1,POWER CABLE A,CABLE(NA),Done
+120-01,EL,EBP-MP-5006B-SH,Power Cable B,Motor Space Heater- MP-5006B-SH,Done
+5000-03,EL,EBP-MP-5006B-SH_1,POWER CABLE A,CABLE(NA),Done
 120-02,EL,EBP-MP-5007A,Power Cable B,MP Column Recycle Pump- MP-5007A,33%
 120-02,EL,EBP-MP-5007B,Power Cable B,MP Column Recycle Pump- MP-5007B,33%
-120-01,EL,EBP-MP-5008A-SH,Power Cable B,Motor Space Heater- MP-5008A-SH,67%
-120-01,EL,EBP-MP-5008B-SH,Power Cable B,Motor Space Heater- MP-5008B-SH,67%
+120-01,EL,EBP-MP-5008A-SH,Power Cable B,Motor Space Heater- MP-5008A-SH,Done
+5000-04,EL,EBP-MP-5008A-SH_1,POWER CABLE A,CABLE(NA),Done
+120-01,EL,EBP-MP-5008B-SH,Power Cable B,Motor Space Heater- MP-5008B-SH,Done
+5000-04,EL,EBP-MP-5008B-SH_1,POWER CABLE A,CABLE(NA),Done
 120-02,EL,EBP-MP-5009A,Power Cable B,Liquid Off-stream Pump- MP-5009A,33%
 120-02,EL,EBP-MP-5009B,Power Cable B,Liquid Off-stream Pump- MP-5009B,33%
 120-02,EL,EBP-MP-5010A_1,Power Cable B,Excess Water Pump- MP-5010A,33%
 120-02,EL,EBP-MP-5010A_2,Power Cable B,Excess Water Pump- MP-5010A,33%
 120-02,EL,EBP-MP-5010B_1,Power Cable B,Excess Water Pump- MP-5010B,33%
 120-02,EL,EBP-MP-5010B_2,Power Cable B,Excess Water Pump- MP-5010B,33%
-120-02,EL,EBP-MP-5011A,Power Cable B,Steam Condensate Pump- MP-5011A,33%
+120-02,EL,EBP-MP-5011A,Power Cable B,Steam Condensate Pump- MP-5011A,67%
 120-02,EL,EBP-MP-5011B,Power Cable B,Steam Condensate Pump- MP-5011B,33%
 120-07,EL,EBP-MP-5012A,Power Cable B,Methanol Start Up Pump- MP-5012A,33%
 120-07,EL,EBP-MP-5012B,Power Cable B,Methanol Start Up Pump- MP-5012B,33%
@@ -10757,10 +10771,14 @@ LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet 
 120-02,EL,EBP-MP-6001A,Power Cable B,Saturator Circulation Pump- MP-6001A,33%
 120-02,EL,EBP-MP-6001B,Power Cable B,Saturator Circulation Pump- MP-6001B,33%
 120-01,EL,EBP-MP-6002A-SH,Power Cable B,Motor Space Heater- MP-6002A-SH,33%
+1000-03,EL,EBP-MP-6002A-SH_1,POWER CABLE A,CABLE(NA),Done
 120-01,EL,EBP-MP-6002B-SH,Power Cable B,Motor Space Heater- MP-6002B-SH,33%
+1000-03,EL,EBP-MP-6002B-SH_1,POWER CABLE A,CABLE(NA),Done
 120-01,EL,EBP-MP-6002C-SH,Power Cable B,Motor Space Heater- MP-6002C-SH,33%
+1000-03,EL,EBP-MP-6002C-SH_1,POWER CABLE A,CABLE(NA),0%
 120-07,EL,EBP-MP-7001C-RD,Power Cable B,Motor Regreasing Device- MP-7001C-RD,33%
 120-01,EL,EBP-MP-7001C-SH,Power Cable B,Motor Space Heater- MP-7001C-SH,33%
+4000-04,EL,EBP-MP-7001C-SH_1,POWER CABLE A,CABLE(NA),Done
 120-02,EL,EBP-MP-7002A_1,Power Cable B,DMW Pump- MP-7002A,33%
 120-02,EL,EBP-MP-7002A_2,Power Cable B,DMW Pump- MP-7002A,33%
 120-02,EL,EBP-MP-7002B_1,Power Cable B,DMW Pump- MP-7002B,33%
@@ -10780,16 +10798,18 @@ LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet 
 120-07,EL,EBP-MP-7101A,Power Cable B,Flare Knock-out Drum Pump- MP-7101A,33%
 120-07,EL,EBP-MP-7101B,Power Cable B,Flare Knock-out Drum Pump- MP-7101B,33%
 120-03,EL,EBP-MP-7502A,Power Cable B,Caustic Transfer Pump- MP-7502A,33%
-120-03,EL,EBP-MP-7502B,Power Cable B,Caustic Transfer Pump- MP-7502B,33%
-120-03,EL,EBP-MP-7503A,Power Cable B,Sulfuric Acid Transfer Pump- MP-7503A,33%
+120-03,EL,EBP-MP-7502B,Power Cable B,Caustic Transfer Pump- MP-7502B,67%
+120-03,EL,EBP-MP-7503A,Power Cable B,Sulfuric Acid Transfer Pump- MP-7503A,67%
 120-03,EL,EBP-MP-7503B,Power Cable B,Sulfuric Acid Transfer Pump- MP-7503B,33%
 120-03,EL,EBP-MP-7504,Power Cable B,Caustic Unloading Pump- MP-7504,33%
 120-03,EL,EBP-MP-7505,Power Cable B,Sulfuric Acid Unloading Pump- MP-7505,33%
 120-03,EL,EBP-MP-7506A,Power Cable B,Condensate Transfer Pump- MP-7506A,33%
-120-03,EL,EBP-MP-7506B,Power Cable B,Condensate Transfer Pump- MP-7506B,33%
+120-03,EL,EBP-MP-7506B,Power Cable B,Condensate Transfer Pump- MP-7506B,67%
 120-01,EL,EBP-MP-8001C-SH,Power Cable B,Motor Space Heater- MP-8001C-SH,33%
+4000-08,EL,EBP-MP-8001C-SH_1,POWER CABLE A,CABLE(NA),Done
 120-01,EL,EBP-MP-8001D-SH,Power Cable B,Motor Space Heater- MP-8001D-SH,33%
-120-03,EL,EBP-MP-8401,Power Cable B,Oily Water Transfer Pump- MP-8401,33%
+4000-08,EL,EBP-MP-8001D-SH_1,POWER CABLE A,CABLE(NA),Done
+120-03,EL,EBP-MP-8401,Power Cable B,Oily Water Transfer Pump- MP-8401,67%
 120-03,EL,EBP-MP-8402,Power Cable B,Sanitary effluent transfer pump- MP-8402,33%
 120-03,EL,EBP-MP-8403A,Power Cable B,Neutralization Basin Pump A- MP-8403A,33%
 120-03,EL,EBP-MP-8403B,Power Cable B,Neutralization Basin Pump B- MP-8403B,33%
@@ -10801,7 +10821,7 @@ LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet 
 120-02,EL,EBP-MX-7050,Power Cable B,Phosphate Dosing Tank Stirrer- MX-7050,33%
 120-02,EL,EBP-MX-7060,Power Cable B,Amine Dosing Tank Stirrer- MX-7060,33%
 120-02,EL,EBP-MX-7070,Power Cable B,Oxygen Scavenger Dosing Tank Stirrer- MX-7070,33%
-120-02,EL,EBP-P7001C-HE-1,Power Cable B,Lube Oil Heater No.1 for P-7001C- P7001C-HE-1,33%
+120-02,EL,EBP-P7001C-HE-1,Power Cable B,Lube Oil Heater No.1 for P-7001C- P7001C-HE-1,67%
 120-02,EL,EBP-P7001C-HE-2,Power Cable B,Lube Oil Heater No.2 for P-7001C- P7001C-HE-2,33%
 120-02,EL,EBP-P7001C-MF-1,Power Cable B,Oil Mist Fan for P7001C- P7001C-MF-1,33%
 120-02,EL,EBP-P7001C-MP-1A,Power Cable B,Main Lube Oil Pump for P7001C- P7001C-MP-1A,33%
@@ -10914,19 +10934,19 @@ FGS-09,EL,ECC-CR-FECP-01_2,Power Cable B,Control Building Fire Fighting Control 
 FGS-09,EL,ECC-CR-FECP-01_3,Power Cable B,Control Building Fire Fighting Control Panel JB,0%
 FGS-09,EL,ECC-CR-FECP-01_4,Power Cable B,Control Building Fire Fighting Control Panel JB,0%
 FGS-09,EL,ECC-CR-FECP-01_5,Power Cable B,Control Building Fire Fighting Control Panel JB,0%
-120-09,EL,ECC-CR-UIS-01,Power Cable B,110V AC UPS Battery Isolator Box- CR-UIS-01,67%
+120-09,EL,ECC-CR-UIS-01,Power Cable B,110V AC UPS Battery Isolator Box- CR-UIS-01,Done
 120-08,EL,ECC-DG-5701_1,Power Cable B,Substation PDC System- SS-PDCS-01,0%
 120-07,EL,ECC-DG-5701_2,Power Cable B,Emergency Diesel Generator DG-5701- Start Control Panel (Control/Status Signals),0%
 120-07,EL,ECC-DG-5701_3,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel (Control/Status Signals),0%
-120-09,EL,ECC-F&G-UPS-01,Power Cable B,F&G System MIMIC Panel (Monitoring Signals),67%
+120-09,EL,ECC-F&G-UPS-01,Power Cable B,F&G System MIMIC Panel (Monitoring Signals),Done
 120-02,EL,ECC-FT2001-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-FT2001-MP-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-07,EL,ECC-FT2001-MP-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-09,EL,ECC-FT2001-MP-3_1,Power Cable B,Reformer Unit Control Panel for FT2001 (Command/Indication Signals),67%
+120-09,EL,ECC-FT2001-MP-3_1,Power Cable B,Reformer Unit Control Panel for FT2001 (Command/Indication Signals),Done
 120-02,EL,ECC-FT2002-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-FT2002-MP-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-07,EL,ECC-FT2002-MP-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-09,EL,ECC-FT2002-MP-3_1,Power Cable B,Reformer Unit Control Panel for FT2002 (Command/Indication Signals),67%
+120-09,EL,ECC-FT2002-MP-3_1,Power Cable B,Reformer Unit Control Panel for FT2002 (Command/Indication Signals),Done
 120-02,EL,ECC-FT7001A-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-FT7001A-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-02,EL,ECC-FT7001A-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
@@ -10935,14 +10955,14 @@ FGS-09,EL,ECC-CR-FECP-01_5,Power Cable B,Control Building Fire Fighting Control 
 120-02,EL,ECC-FT7001B-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-02,EL,ECC-FT7001B-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-07,EL,ECC-FT7001B-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-FT8001A-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-FT8001A-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-FT8001A-HE-3_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-03,EL,ECC-FT8001A-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-03,EL,ECC-FT8001A-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-03,EL,ECC-FT8001A-HE-3_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-02,EL,ECC-FT8001A-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-07,EL,ECC-FT8001A-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-FT8001B-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-03,EL,ECC-FT8001B-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-03,EL,ECC-FT8001B-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-03,EL,ECC-FT8001B-HE-3_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-03,EL,ECC-FT8001B-HE-3_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-02,EL,ECC-FT8001B-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-07,EL,ECC-FT8001B-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-H-3012_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
@@ -10951,7 +10971,7 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-05,EL,ECC-MAE-2026-02_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
 120-05,EL,ECC-MAE-2026-03_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
 120-05,EL,ECC-MAE-2026-04_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
-120-05,EL,ECC-MAE-2026-05_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-05,EL,ECC-MAE-2026-05_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-05,EL,ECC-MAE-2026-06_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
 120-05,EL,ECC-MAE-2026-07_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
 120-05,EL,ECC-MAE-2026-08_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
@@ -10959,29 +10979,29 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-06,EL,ECC-MAE-2026-10_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
 120-06,EL,ECC-MAE-2026-11_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
 120-06,EL,ECC-MAE-2026-12_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
-120-06,EL,ECC-MAE-3002_1-01_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-06,EL,ECC-MAE-3002_1-01_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-06,EL,ECC-MAE-3002_1-02_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-06,EL,ECC-MAE-3002_1-03_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-06,EL,ECC-MAE-3002_1-03_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-06,EL,ECC-MAE-3002_1-04_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-06,EL,ECC-MAE-3002_1-05_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-06,EL,ECC-MAE-3002_1-05_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-06,EL,ECC-MAE-3002_1-06_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-06,EL,ECC-MAE-3002_1-07_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-06,EL,ECC-MAE-3002_1-08_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-06,EL,ECC-MAE-3002_2-01_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-06,EL,ECC-MAE-3002_1-07_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-06,EL,ECC-MAE-3002_1-08_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-06,EL,ECC-MAE-3002_2-01_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-06,EL,ECC-MAE-3002_2-02_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-06,EL,ECC-MAE-3002_2-03_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-06,EL,ECC-MAE-3002_2-03_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-06,EL,ECC-MAE-3002_2-04_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-06,EL,ECC-MAE-3002_2-05_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-06,EL,ECC-MAE-3002_2-05_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-06,EL,ECC-MAE-3002_2-06_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-06,EL,ECC-MAE-3002_2-07_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-06,EL,ECC-MAE-3002_2-07_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-06,EL,ECC-MAE-3002_2-08_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-06,EL,ECC-MAE-3002_3-01_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-06,EL,ECC-MAE-3002_3-01_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-06,EL,ECC-MAE-3002_3-02_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-06,EL,ECC-MAE-3002_3-03_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-06,EL,ECC-MAE-3002_3-03_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-06,EL,ECC-MAE-3002_3-04_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-06,EL,ECC-MAE-3002_3-05_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-06,EL,ECC-MAE-3002_3-06_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-06,EL,ECC-MAE-3002_3-07_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-06,EL,ECC-MAE-3002_3-05_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-06,EL,ECC-MAE-3002_3-06_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-06,EL,ECC-MAE-3002_3-07_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-06,EL,ECC-MAE-3002_3-08_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-06,EL,ECC-MAE-5004-01_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
 120-06,EL,ECC-MAE-5004-02_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
@@ -11024,7 +11044,7 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-04,EL,ECC-MAE-5005B-09_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-04,EL,ECC-MAE-5005B-10_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-04,EL,ECC-MAE-5005B-11_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-04,EL,ECC-MAE-5005B-12_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-04,EL,ECC-MAE-5005B-12_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-04,EL,ECC-MAE-5005B-13_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-04,EL,ECC-MAE-5005B-14_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-04,EL,ECC-MAE-5005B-15_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
@@ -11049,13 +11069,13 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-04,EL,ECC-MAE-5005C-16_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-04,EL,ECC-MAE-5005C-17_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-04,EL,ECC-MAE-5005C-18_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-05,EL,ECC-MAE-5005D-01_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-05,EL,ECC-MAE-5005D-01_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-05,EL,ECC-MAE-5005D-02_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-05,EL,ECC-MAE-5005D-03_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-05,EL,ECC-MAE-5005D-03_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-05,EL,ECC-MAE-5005D-04_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-05,EL,ECC-MAE-5005D-05_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-05,EL,ECC-MAE-5005D-05_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-05,EL,ECC-MAE-5005D-06_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-05,EL,ECC-MAE-5005D-07_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-05,EL,ECC-MAE-5005D-07_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-05,EL,ECC-MAE-5005D-08_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-05,EL,ECC-MAE-5005D-09_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-05,EL,ECC-MAE-5005D-10_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
@@ -11071,62 +11091,62 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-04,EL,ECC-MAE-5006-02_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-MB-8001A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-03,EL,ECC-MB-8001B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-01,EL,ECC-MC-2001,Power Cable B,Local Control Panel (Ammeter)- MC-2001,67%
-120-01,EL,ECC-MC-2001_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-01,EL,ECC-MC-2001-RTD1,Power Cable B,Motor Winding RTD- MC-2001-RTD1,67%
-120-01,EL,ECC-MC-2002,Power Cable B,Local Control Panel (Ammeter)- MC-2002,67%
-120-01,EL,ECC-MC-2002_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-01,EL,ECC-MC-2002-RTD1,Power Cable B,Motor Winding RTD- MC-2002-RTD1,67%
+120-01,EL,ECC-MC-2001,Power Cable B,Local Control Panel (Ammeter)- MC-2001,Done
+120-01,EL,ECC-MC-2001_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-01,EL,ECC-MC-2001-RTD1,Power Cable B,Motor Winding RTD- MC-2001-RTD1,Done
+120-01,EL,ECC-MC-2002,Power Cable B,Local Control Panel (Ammeter)- MC-2002,Done
+120-01,EL,ECC-MC-2002_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-01,EL,ECC-MC-2002-RTD1,Power Cable B,Motor Winding RTD- MC-2002-RTD1,Done
 120-01,EL,ECC-MF-2001,Power Cable B,Local Control Panel (Ammeter)- MF-2001-LCP,33%
-120-01,EL,ECC-MF-2001_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-01,EL,ECC-MF-2001_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-01,EL,ECC-MF-2001-CT,Power Cable B,Motor Current Transformer- MF-2001-CT,33%
 120-01,EL,ECC-MF-2001-RTD1,Power Cable B,Motor Winding RTD- MF-2001-RTD1,33%
 120-01,EL,ECC-MF-2002,Power Cable B,Local Control Panel (Ammeter)- MF-2002-LCP,33%
-120-01,EL,ECC-MF-2002_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-01,EL,ECC-MF-2002_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-01,EL,ECC-MF-2002-CT,Power Cable B,Motor Current Transformer- MF-2002-CT,33%
 120-01,EL,ECC-MF-2002-RTD1,Power Cable B,Motor Winding RTD- MF-2002-RTD1,33%
-120-03,EL,ECC-MF-8001A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-MF-8001B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-03,EL,ECC-MF-8001C_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-03,EL,ECC-MF-8001D_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-02,EL,ECC-MP-0001A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-03,EL,ECC-MF-8001A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-03,EL,ECC-MF-8001B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-03,EL,ECC-MF-8001C_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-03,EL,ECC-MF-8001D_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-02,EL,ECC-MP-0001A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-02,EL,ECC-MP-0001B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-02,EL,ECC-MP-2001A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-02,EL,ECC-MP-2001B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-02,EL,ECC-MP-2002A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-02,EL,ECC-MP-2001B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-02,EL,ECC-MP-2002A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-02,EL,ECC-MP-2002B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-MP-2003A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-02,EL,ECC-MP-2003B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-02,EL,ECC-MP-2003B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-07,EL,ECC-MP-3001_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-MP-3011A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-MP-3011B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-MP-3012A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-MP-3012B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-07,EL,ECC-MP-3013_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-02,EL,ECC-MP-3014_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-02,EL,ECC-MP-3014_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-07,EL,ECC-MP-3015_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-02,EL,ECC-MP-5001A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-02,EL,ECC-MP-5001A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-02,EL,ECC-MP-5001B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-02,EL,ECC-MP-5002A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-02,EL,ECC-MP-5002A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-02,EL,ECC-MP-5002B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-02,EL,ECC-MP-5003A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-02,EL,ECC-MP-5003B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-01,EL,ECC-MP-5004A,Power Cable B,Local Control Station- MP-5004A,67%
-120-01,EL,ECC-MP-5004A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-01,EL,ECC-MP-5004B,Power Cable B,Local Control Station- MP-5004B,67%
-120-01,EL,ECC-MP-5004B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-02,EL,ECC-MP-5003B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-01,EL,ECC-MP-5004A,Power Cable B,Local Control Station- MP-5004A,Done
+120-01,EL,ECC-MP-5004A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-01,EL,ECC-MP-5004B,Power Cable B,Local Control Station- MP-5004B,Done
+120-01,EL,ECC-MP-5004B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-MP-5005A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-02,EL,ECC-MP-5005B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-01,EL,ECC-MP-5006A,Power Cable B,Local Control Station- MP-5006A,67%
-120-01,EL,ECC-MP-5006A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-01,EL,ECC-MP-5006B,Power Cable B,Local Control Station- MP-5006B,67%
-120-01,EL,ECC-MP-5006B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-02,EL,ECC-MP-5007A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-02,EL,ECC-MP-5005B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-01,EL,ECC-MP-5006A,Power Cable B,Local Control Station- MP-5006A,Done
+120-01,EL,ECC-MP-5006A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-01,EL,ECC-MP-5006B,Power Cable B,Local Control Station- MP-5006B,Done
+120-01,EL,ECC-MP-5006B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-02,EL,ECC-MP-5007A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-02,EL,ECC-MP-5007B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-01,EL,ECC-MP-5008A,Power Cable B,Local Control Station- MP-5008A,67%
-120-01,EL,ECC-MP-5008A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-01,EL,ECC-MP-5008B,Power Cable B,Local Control Station- MP-5008B,67%
-120-01,EL,ECC-MP-5008B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-01,EL,ECC-MP-5008A,Power Cable B,Local Control Station- MP-5008A,Done
+120-01,EL,ECC-MP-5008A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-01,EL,ECC-MP-5008B,Power Cable B,Local Control Station- MP-5008B,Done
+120-01,EL,ECC-MP-5008B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-MP-5009A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-MP-5009B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-MP-5010A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
@@ -11140,13 +11160,13 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-02,EL,ECC-MP-6001A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-MP-6001B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-01,EL,ECC-MP-6002A,Power Cable B,Local Control Station- MP-6002A,33%
-120-01,EL,ECC-MP-6002A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-01,EL,ECC-MP-6002A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-01,EL,ECC-MP-6002B,Power Cable B,Local Control Station- MP-6002B,33%
-120-01,EL,ECC-MP-6002B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-01,EL,ECC-MP-6002B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-01,EL,ECC-MP-6002C,Power Cable B,Local Control Station- MP-6002C,33%
-120-01,EL,ECC-MP-6002C_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-01,EL,ECC-MP-6002C_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-01,EL,ECC-MP-7001C,Power Cable B,Local Control Station- MP-7001C,33%
-120-01,EL,ECC-MP-7001C_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-01,EL,ECC-MP-7001C_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-01,EL,ECC-MP-7001C-CT,Power Cable B,Motor Current Transformer- MP-7001C-CT,33%
 120-01,EL,ECC-MP-7001C-RTD1,Power Cable B,Motor Winding RTD- MP-7001C-RTD1,33%
 120-02,EL,ECC-MP-7002A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
@@ -11165,28 +11185,28 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-02,EL,ECC-MP-7070B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-07,EL,ECC-MP-7101A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-07,EL,ECC-MP-7101B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-MP-7502A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-03,EL,ECC-MP-7502B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-MP-7503A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-MP-7503B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-03,EL,ECC-MP-7502A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-03,EL,ECC-MP-7502B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-03,EL,ECC-MP-7503A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-03,EL,ECC-MP-7503B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-03,EL,ECC-MP-7504_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-MP-7505_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-MP-7506A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-MP-7506B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-03,EL,ECC-MP-7505_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-03,EL,ECC-MP-7506A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-03,EL,ECC-MP-7506B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-01,EL,ECC-MP-8001C,Power Cable B,Local Control Station- MP-8001C,33%
-120-01,EL,ECC-MP-8001C_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-01,EL,ECC-MP-8001C_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-01,EL,ECC-MP-8001C-RTD1,Power Cable B,Motor Winding RTD- MP-8001C-RTD1,33%
 120-01,EL,ECC-MP-8001D,Power Cable B,Local Control Station- MP-8001D,33%
-120-01,EL,ECC-MP-8001D_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-01,EL,ECC-MP-8001D_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-01,EL,ECC-MP-8001D-RTD1,Power Cable B,Motor Winding RTD- MP-8001D-RTD1,33%
-120-03,EL,ECC-MP-8401_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-MP-8402_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-MP-8403A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-03,EL,ECC-MP-8401_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-03,EL,ECC-MP-8402_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-03,EL,ECC-MP-8403A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-MP-8403B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-03,EL,ECC-MP-8404A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-MP-8404B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-03,EL,ECC-MP-8404B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-MP-8405A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-MP-8405B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-03,EL,ECC-MP-8405B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-02,EL,ECC-MX-7050_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-MX-7060_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-02,EL,ECC-MX-7070_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
@@ -11197,26 +11217,26 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-03,EL,ECC-PK7502-MB-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-03,EL,ECC-PK7502-MB-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-03,EL,ECC-PK7502-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-PK7502-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-03,EL,ECC-PK7502-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-PK7502-MP-2A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-PK7502-MP-2B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-03,EL,ECC-PK7502-MP-2B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-PK7502-MP-3A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-PK7502-MP-3B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-03,EL,ECC-PK7502-MP-3B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-PK8002-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-PK8002-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-03,EL,ECC-PK8002-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-03,EL,ECC-PK8002-MX-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-PK8003-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-PK8003-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-03,EL,ECC-PK8003-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-03,EL,ECC-PK8003-MX-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-PK8004-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-PK8004-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-03,EL,ECC-PK8004-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-03,EL,ECC-PK8004-MX-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-PK8005-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-PK8005-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-03,EL,ECC-PK8005-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-03,EL,ECC-PK8401-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-PK8401-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-03,EL,ECC-PK8401-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-PK8401-MP-2A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-PK8401-MP-2B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-03,EL,ECC-PK8401-MP-2B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-10,EL,ECC-SS-CIS-01,Power Cable B,110V DC Battery Isolator Box- SS-CIS-01,0%
 120-07,EL,ECC-SS-ESWB3A-01_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Feeder SS-TR2A-06,0%
 120-02,EL,ECC-SS-ESWB3A-01_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),0%
@@ -11248,8 +11268,8 @@ FGS-08,EL,ECC-SS-FECP-01_4,Power Cable B,Substation Fire Fighting Control Panel 
 120-03,EL,ECC-SS-PDCS01-2_6,Power Cable B,LV Switchboard SS-SWB3A-02- Bus Coupler,0%
 120-12,EL,ECC-SS-PDCS01-3_1,Power Cable B,LV Switchboard SS-SWB3A-04- Incomer,0%
 120-05,EL,ECC-SS-PDCS01-3_2,Power Cable B,LV Switchboard SS-SWB3B-04- Incomer,0%
-120-05,EL,ECC-SS-PDCS01-3_3,Power Cable B,LV Switchboard SS-SWB3A-03- Incomer,0%
-120-04,EL,ECC-SS-PDCS01-3_4,Power Cable B,LV Switchboard SS-SWB3B-03- Incomer,0%
+120-05,EL,ECC-SS-PDCS01-3_3,Power Cable B,LV Switchboard SS-SWB3A-03- Incomer,33%
+120-04,EL,ECC-SS-PDCS01-3_4,Power Cable B,LV Switchboard SS-SWB3B-03- Incomer,33%
 120-04,EL,ECC-SS-PDCS01-3_5,Power Cable B,Emergency LV Switchboard SS-ESWB3A-01- Incomer,0%
 120-07,EL,ECC-SS-PDCS01-3_6,Power Cable B,Emergency LV Switchboard SS-ESWB3B-01- Incomer,0%
 120-12,EL,ECC-SS-PDCS01-4_1,Power Cable B,110V DC Battery Charger Panel A- SS-CH-01A,0%
@@ -11258,58 +11278,58 @@ FGS-08,EL,ECC-SS-FECP-01_4,Power Cable B,Substation Fire Fighting Control Panel 
 120-12,EL,ECC-SS-PDCS01-5_1,Power Cable B,110V AC UPS Bypass Panel - CR-UPS-01/BY,0%
 120-12,EL,ECC-SS-PDCS01-7,Power Cable B,Substation E/I Cabinet- SS-E/I-01 (FCS Clock Signal),0%
 120-01,EL,ECC-SS-SWB2A-01_1,Power Cable B,Damavand Substation 20KV Switchboard- Dena Feeder SS-TR1A-01,0%
-120-01,EL,ECC-SS-SWB2A-01_10,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),33%
-120-01,EL,ECC-SS-SWB2A-01_11,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),33%
-120-01,EL,ECC-SS-SWB2A-01_12,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),33%
+120-01,EL,ECC-SS-SWB2A-01_10,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
+120-01,EL,ECC-SS-SWB2A-01_11,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
+120-01,EL,ECC-SS-SWB2A-01_12,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
 120-01,EL,ECC-SS-SWB2A-01_15,Power Cable B,6/0.42 KV Transformer- SS-TR2A-01,67%
 120-01,EL,ECC-SS-SWB2A-01_16,Power Cable B,6/0.42 KV Transformer- SS-TR2A-02,67%
-120-01,EL,ECC-SS-SWB2A-01_17,Power Cable B,6/0.42 KV Transformer- SS-TR2A-03,33%
-120-01,EL,ECC-SS-SWB2A-01_18,Power Cable B,6/0.42 KV Transformer- SS-TR2A-04,33%
-120-01,EL,ECC-SS-SWB2A-01_19,Power Cable B,6/0.42 KV Transformer- SS-TR2A-05,33%
+120-01,EL,ECC-SS-SWB2A-01_17,Power Cable B,6/0.42 KV Transformer- SS-TR2A-03,Done
+120-01,EL,ECC-SS-SWB2A-01_18,Power Cable B,6/0.42 KV Transformer- SS-TR2A-04,Done
+120-01,EL,ECC-SS-SWB2A-01_19,Power Cable B,6/0.42 KV Transformer- SS-TR2A-05,Done
 120-01,EL,ECC-SS-SWB2A-01_2,Power Cable B,20/6.3 KV Transformer- SS-TR1A-01,0%
-120-01,EL,ECC-SS-SWB2A-01_20,Power Cable B,6/0.42 KV Transformer- SS-TR2A-06,33%
+120-01,EL,ECC-SS-SWB2A-01_20,Power Cable B,6/0.42 KV Transformer- SS-TR2A-06,Done
 120-01,EL,ECC-SS-SWB2A-01_3,Power Cable B,20/6.3 KV Transformer- SS-TR1A-01 (Current Transformer),0%
 120-01,EL,ECC-SS-SWB2A-01_4,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01 (Command and Status Signals),0%
 120-01,EL,ECC-SS-SWB2A-01_6,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command|Trip & Status Signals),0%
-120-01,EL,ECC-SS-SWB2A-01_7,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),33%
-120-01,EL,ECC-SS-SWB2A-01_8,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),33%
-120-01,EL,ECC-SS-SWB2A-01_9,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),33%
+120-01,EL,ECC-SS-SWB2A-01_7,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
+120-01,EL,ECC-SS-SWB2A-01_8,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
+120-01,EL,ECC-SS-SWB2A-01_9,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
 120-01,EL,ECC-SS-SWB2AB-01_1,Power Cable B,6kV Switchboard SS-SWB2B-01- Incomer,67%
 120-01,EL,ECC-SS-SWB2AB-01_2,Power Cable B,6kV Switchboard SS-SWB2B-01- Bus VT B,67%
 120-01,EL,ECC-SS-SWB2AB-01_3,Power Cable B,6kV Switchboard SS-SWB2B-01-Incomer,67%
 120-01,EL,ECC-SS-SWB2AB-01_5,Power Cable B,Substation E/I CABINET- SS-E/I-01 (FCS-MC-RIO-05R),0%
 120-01,EL,ECC-SS-SWB2B-01_1,Power Cable B,Damavand Substation 20KV Switchboard- Dena Feeder SS-TR1B-01,0%
-120-01,EL,ECC-SS-SWB2B-01_10,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),33%
-120-01,EL,ECC-SS-SWB2B-01_11,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),33%
-120-01,EL,ECC-SS-SWB2B-01_12,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),33%
+120-01,EL,ECC-SS-SWB2B-01_10,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
+120-01,EL,ECC-SS-SWB2B-01_11,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
+120-01,EL,ECC-SS-SWB2B-01_12,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
 120-01,EL,ECC-SS-SWB2B-01_13,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),0%
 120-01,EL,ECC-SS-SWB2B-01_15,Power Cable B,6/0.42 KV Transformer- SS-TR2B-01,67%
 120-01,EL,ECC-SS-SWB2B-01_16,Power Cable B,6/0.42 KV Transformer- SS-TR2B-02,67%
-120-01,EL,ECC-SS-SWB2B-01_17,Power Cable B,6/0.42 KV Transformer- SS-TR2B-03,33%
-120-01,EL,ECC-SS-SWB2B-01_18,Power Cable B,6/0.42 KV Transformer- SS-TR2B-04,33%
-120-01,EL,ECC-SS-SWB2B-01_19,Power Cable B,6/0.42 KV Transformer- SS-TR2B-05,33%
+120-01,EL,ECC-SS-SWB2B-01_17,Power Cable B,6/0.42 KV Transformer- SS-TR2B-03,Done
+120-01,EL,ECC-SS-SWB2B-01_18,Power Cable B,6/0.42 KV Transformer- SS-TR2B-04,Done
+120-01,EL,ECC-SS-SWB2B-01_19,Power Cable B,6/0.42 KV Transformer- SS-TR2B-05,Done
 120-01,EL,ECC-SS-SWB2B-01_2,Power Cable B,20/6.3 KV Transformer- SS-TR1B-01,0%
-120-01,EL,ECC-SS-SWB2B-01_20,Power Cable B,6/0.42 KV Transformer- SS-TR2B-06,33%
+120-01,EL,ECC-SS-SWB2B-01_20,Power Cable B,6/0.42 KV Transformer- SS-TR2B-06,Done
 120-01,EL,ECC-SS-SWB2B-01_21,Power Cable B,Non Industrial Buildings - LV Panel- Incomer,0%
 120-01,EL,ECC-SS-SWB2B-01_3,Power Cable B,20/6.3 KV Transformer- SS-TR1B-01 (Current Transformer),0%
 120-01,EL,ECC-SS-SWB2B-01_4,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command and Status Signals),0%
-120-01,EL,ECC-SS-SWB2B-01_7,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),33%
-120-01,EL,ECC-SS-SWB2B-01_8,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),33%
-120-01,EL,ECC-SS-SWB2B-01_9,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),33%
+120-01,EL,ECC-SS-SWB2B-01_7,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
+120-01,EL,ECC-SS-SWB2B-01_8,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
+120-01,EL,ECC-SS-SWB2B-01_9,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
 120-02,EL,ECC-SS-SWB3A-01_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Feeder SS-TR2A-01,67%
-120-02,EL,ECC-SS-SWB3A-01_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),0%
+120-02,EL,ECC-SS-SWB3A-01_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),67%
 120-02,EL,ECC-SS-SWB3A-01_4,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command|Trip & Status Signals),0%
 120-03,EL,ECC-SS-SWB3A-02_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Feeder SS-TR2A-02,0%
-120-03,EL,ECC-SS-SWB3A-02_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),0%
+120-03,EL,ECC-SS-SWB3A-02_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),67%
 120-03,EL,ECC-SS-SWB3A-02_4,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command|Trip & Status Signals),0%
-120-04,EL,ECC-SS-SWB3A-03_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Feeder SS-TR2A-03,0%
-120-04,EL,ECC-SS-SWB3A-03_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),0%
-120-04,EL,ECC-SS-SWB3A-03_4,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command|Trip & Status Signals),0%
+120-04,EL,ECC-SS-SWB3A-03_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Feeder SS-TR2A-03,33%
+120-04,EL,ECC-SS-SWB3A-03_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),33%
+120-04,EL,ECC-SS-SWB3A-03_4,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command|Trip & Status Signals),67%
 120-05,EL,ECC-SS-SWB3A-04_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Feeder SS-TR2A-04,0%
-120-05,EL,ECC-SS-SWB3A-04_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),0%
+120-05,EL,ECC-SS-SWB3A-04_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),67%
 120-05,EL,ECC-SS-SWB3A-04_4,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command|Trip & Status Signals),0%
-120-06,EL,ECC-SS-SWB3A-05_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Feeder SS-TR2A-05,33%
-120-06,EL,ECC-SS-SWB3A-05_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),0%
+120-06,EL,ECC-SS-SWB3A-05_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Feeder SS-TR2A-05,Done
+120-06,EL,ECC-SS-SWB3A-05_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),67%
 120-06,EL,ECC-SS-SWB3A-05_4,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command|Trip & Status Signals),0%
 120-02,EL,ECC-SS-SWB3AB-01_1,Power Cable B,LV Switchboard SS-SWB3B-01- Incomer,0%
 120-02,EL,ECC-SS-SWB3AB-01_2_1,Power Cable B,LV Switchboard SS-SWB3B-01- Incomer,0%
@@ -11317,25 +11337,25 @@ FGS-08,EL,ECC-SS-FECP-01_4,Power Cable B,Substation Fire Fighting Control Panel 
 120-03,EL,ECC-SS-SWB3AB-02_1,Power Cable B,LV Switchboard SS-SWB3B-02- Incomer,0%
 120-03,EL,ECC-SS-SWB3AB-02_2_1,Power Cable B,LV Switchboard SS-SWB3B-02- Incomer,0%
 120-03,EL,ECC-SS-SWB3AB-02_2_2,Power Cable B,LV Switchboard SS-SWB3B-02- Incomer,0%
-120-04,EL,ECC-SS-SWB3AB-03_1,Power Cable B,LV Switchboard SS-SWB3B-03- Incomer,0%
-120-04,EL,ECC-SS-SWB3AB-03_2_1,Power Cable B,LV Switchboard SS-SWB3B-03- Incomer,0%
-120-04,EL,ECC-SS-SWB3AB-03_2_2,Power Cable B,LV Switchboard SS-SWB3B-03- Incomer,0%
-120-05,EL,ECC-SS-SWB3AB-04_1,Power Cable B,LV Switchboard SS-SWB3B-04- Incomer,0%
+120-04,EL,ECC-SS-SWB3AB-03_1,Power Cable B,LV Switchboard SS-SWB3B-03- Incomer,33%
+120-04,EL,ECC-SS-SWB3AB-03_2_1,Power Cable B,LV Switchboard SS-SWB3B-03- Incomer,33%
+120-04,EL,ECC-SS-SWB3AB-03_2_2,Power Cable B,LV Switchboard SS-SWB3B-03- Incomer,33%
+120-05,EL,ECC-SS-SWB3AB-04_1,Power Cable B,LV Switchboard SS-SWB3B-04- Incomer,67%
 120-05,EL,ECC-SS-SWB3AB-04_2_1,Power Cable B,LV Switchboard SS-SWB3B-04- Incomer,33%
 120-05,EL,ECC-SS-SWB3AB-04_2_2,Power Cable B,LV Switchboard SS-SWB3B-04- Incomer,33%
-120-06,EL,ECC-SS-SWB3AB-05_1,Power Cable B,LV Switchboard SS-SWB3B-05- Incomer,0%
-120-06,EL,ECC-SS-SWB3AB-05_2_1,Power Cable B,LV Switchboard SS-SWB3B-05- Incomer,0%
-120-06,EL,ECC-SS-SWB3AB-05_2_2,Power Cable B,LV Switchboard SS-SWB3B-05- Incomer,0%
+120-06,EL,ECC-SS-SWB3AB-05_1,Power Cable B,LV Switchboard SS-SWB3B-05- Incomer,33%
+120-06,EL,ECC-SS-SWB3AB-05_2_1,Power Cable B,LV Switchboard SS-SWB3B-05- Incomer,33%
+120-06,EL,ECC-SS-SWB3AB-05_2_2,Power Cable B,LV Switchboard SS-SWB3B-05- Incomer,33%
 120-02,EL,ECC-SS-SWB3B-01_1,Power Cable B,6kV Switchboard SS-SWB2B-01- Feeder SS-TR2B-01,67%
-120-02,EL,ECC-SS-SWB3B-01_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),0%
-120-03,EL,ECC-SS-SWB3B-02_1,Power Cable B,6kV Switchboard SS-SWB2B-01- Feeder SS-TR2B-02,0%
-120-03,EL,ECC-SS-SWB3B-02_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),0%
+120-02,EL,ECC-SS-SWB3B-01_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),67%
+120-03,EL,ECC-SS-SWB3B-02_1,Power Cable B,6kV Switchboard SS-SWB2B-01- Feeder SS-TR2B-02,67%
+120-03,EL,ECC-SS-SWB3B-02_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),67%
 120-04,EL,ECC-SS-SWB3B-03_1,Power Cable B,6kV Switchboard SS-SWB2B-01- Feeder SS-TR2B-03,0%
-120-04,EL,ECC-SS-SWB3B-03_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),0%
+120-04,EL,ECC-SS-SWB3B-03_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),33%
 120-05,EL,ECC-SS-SWB3B-04_1,Power Cable B,6kV Switchboard SS-SWB2B-01- Feeder SS-TR2B-04,0%
-120-05,EL,ECC-SS-SWB3B-04_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),0%
-120-06,EL,ECC-SS-SWB3B-05_1,Power Cable B,6kV Switchboard SS-SWB2B-01- Feeder SS-TR2B-05,33%
-120-06,EL,ECC-SS-SWB3B-05_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),0%
+120-05,EL,ECC-SS-SWB3B-04_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),67%
+120-06,EL,ECC-SS-SWB3B-05_1,Power Cable B,6kV Switchboard SS-SWB2B-01- Feeder SS-TR2B-05,Done
+120-06,EL,ECC-SS-SWB3B-05_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),67%
 120-11,EL,ECC-SS-UIS-01,Power Cable B,230V AC Safety Lighting UPS Battery Isolator Box- SS-UIS-01,0%
 TEL-11,EL,ECP-00-CamJB-01,Comminucation Cable,CCTV Camera Station Number 01,0%
 TEL-11,EL,ECP-00-CamJB-02,Comminucation Cable,CCTV Camera Station Number 02,0%
@@ -11365,8 +11385,8 @@ TEL-09,EL,ECP-CR-CEC-04,Comminucation Cable,Paging Central Exchange Cabinet (in 
 TEL-09,EL,ECP-CR-CEC-05,Comminucation Cable,Paging Central Exchange Cabinet (in Auxiliary Room)CR-CEC-01,0%
 120-09,EL,ECP-CR-CSP-01,Power Cable B,CCTV Panel Cabinet- CR-CSP-01,0%
 120-09,EL,ECP-CR-RBS-01,Power Cable B,Radio System Base Station Cabinet- CR-RBS-01,0%
-120-09,EL,ECP-F&G-UBT-01-,Power Cable B,F&G System UPS Battery set- F&G-UBT-01 (-),67%
-120-09,EL,ECP-F&G-UBT-01+,Power Cable B,F&G System UPS Battery set- F&G-UBT-01 (+),67%
+120-09,EL,ECP-F&G-UBT-01-,Power Cable B,F&G System UPS Battery set- F&G-UBT-01 (-),Done
+120-09,EL,ECP-F&G-UBT-01+,Power Cable B,F&G System UPS Battery set- F&G-UBT-01 (+),Done
 120-09,EL,ECP-FT2001-MP-3,Power Cable B,Emergency Lube Oil Pump for FT-2001- FT2001-MP-3,33%
 120-09,EL,ECP-FT2002-MP-3,Power Cable B,Emergency Lube Oil Pump for FT-2002- FT2002-MP-3,33%
 120-10,EL,ECP-SS-CBT-01-,Power Cable B,110V DC Charger Battery Set- SS-CBT-01 (-),33%
@@ -11390,7 +11410,7 @@ TEL-09,EL,ECP-CR-CEC-05,Comminucation Cable,Paging Central Exchange Cabinet (in 
 120-10,EL,ECP-SS-SWB3B-03,Power Cable B,LV Switchboard No. 03- SS-SWB3B-03 (110V DC Supply),67%
 120-10,EL,ECP-SS-SWB3B-04,Power Cable B,LV Switchboard No. 04- SS-SWB3B-04 (110V DC Supply),67%
 120-10,EL,ECP-SS-SWB3B-05,Power Cable B,LV Switchboard No. 05- SS-SWB3B-05 (110V DC Supply),67%
-120-11,EL,ECP-SS-UBT-01-,Power Cable B,230V AC Safety Lighting UPS Battery Set- SS-UBT-01 (-),0%
+120-11,EL,ECP-SS-UBT-01-,Power Cable B,230V AC Safety Lighting UPS Battery Set- SS-UBT-01 (-),33%
 120-11,EL,ECP-SS-UBT-01+,Power Cable B,230V AC Safety Lighting UPS Battery Set- SS-UBT-01 (+),33%
 120-11,EL,ECP-SS-UIS-01-,Power Cable B,230V AC Safety Lighting UPS Battery Isolator Box- SS-UIS-01 (-),0%
 120-11,EL,ECP-SS-UIS-01+,Power Cable B,230V AC Safety Lighting UPS Battery Isolator Box- SS-UIS-01 (+),0%
@@ -16078,261 +16098,261 @@ BLD-06,CV,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Wor
 4000-12,IN,MS-8407A,I/O EL,I/O EL,0%
 4000-12,IN,MS-8407B,I/O EL,I/O EL,0%
 FGS-05,IN,MSR-0001,Fire Alarm,Fire Alarm(MSR),0%
-120-02,EL,MT-C2001-MF-1,MOTOR,Motor Fan,
-120-02,EL,MT-C2001-MF-2,MOTOR,Motor Fan,
-120-02,EL,MT-FT7001A-MF-1,MOTOR,Motor Fan,
-120-02,EL,MT-FT7001A-MP-1A,MOTOR,Motor Pump,
-120-07,EL,MT-FT7001A-MP-1B,MOTOR,Motor Pump,
-120-02,EL,MT-FT7001B-MF-1,MOTOR,Motor Fan,
-120-02,EL,MT-FT7001B-MP-1A,MOTOR,Motor Pump,
-120-07,EL,MT-FT7001B-MP-1B,MOTOR,Motor Pump,
-120-03,EL,MT-FT8001A-MF-1,MOTOR,Motor Fan,
-120-02,EL,MT-FT8001A-MP-1A,MOTOR,Motor Pump,
-120-07,EL,MT-FT8001A-MP-1B,MOTOR,Motor Pump,
-120-03,EL,MT-FT8001B-MF-1,MOTOR,Motor Fan,
-120-02,EL,MT-FT8001B-MP-1A,MOTOR,Motor Pump,
-120-07,EL,MT-FT8001B-MP-1B,MOTOR,Motor Pump,
-120-05,EL,MT-MAE-2026-01,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-2026-02,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-2026-03,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-2026-04,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-2026-05,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-2026-06,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-2026-07,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-2026-08,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-2026-09,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-2026-10,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-2026-11,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-2026-12,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-3002_1-01,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-3002_1-02,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-3002_1-03,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-3002_1-04,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-3002_1-05,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-3002_1-06,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-3002_1-07,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-3002_1-08,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-3002_2-01,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-3002_2-02,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-3002_2-03,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-3002_2-04,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-3002_2-05,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-3002_2-06,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-3002_2-07,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-3002_2-08,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-3002_3-01,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-3002_3-02,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-3002_3-03,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-3002_3-04,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-3002_3-05,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-3002_3-06,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-3002_3-07,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-3002_3-08,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-5004-01,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-5004-02,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-5004-03,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-5004-04,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-5004-05,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-5004-06,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-5004-07,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-5004-08,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-5004-09,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-5004-10,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-5004-11,MOTOR,Motor Fan,
-120-06,EL,MT-MAE-5004-12,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005A-01,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005A-02,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005A-03,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005A-04,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005A-05,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005A-06,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005A-07,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005A-08,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005A-09,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005A-10,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005A-11,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005A-12,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005A-13,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005A-14,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005A-15,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005A-16,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005A-17,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005A-18,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005B-01,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005B-02,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005B-03,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005B-04,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005B-05,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005B-06,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005B-07,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005B-08,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005B-09,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005B-10,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005B-11,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005B-12,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005B-13,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005B-14,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005B-15,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005B-16,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005B-17,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005B-18,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005C-01,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005C-02,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005C-03,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005C-04,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005C-05,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005C-06,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005C-07,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005C-08,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005C-09,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005C-10,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005C-11,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005C-12,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005C-13,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005C-14,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005C-15,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005C-16,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005C-17,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5005C-18,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005D-01,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005D-02,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005D-03,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005D-04,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005D-05,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005D-06,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005D-07,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005D-08,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005D-09,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005D-10,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005D-11,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005D-12,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005D-13,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005D-14,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005D-15,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005D-16,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005D-17,MOTOR,Motor Fan,
-120-05,EL,MT-MAE-5005D-18,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5006-01,MOTOR,Motor Fan,
-120-04,EL,MT-MAE-5006-02,MOTOR,Motor Fan,
-120-03,EL,MT-MB-8001A,MOTOR,Motor Pump,
-120-03,EL,MT-MB-8001B,MOTOR,Motor Pump,
-120-01,EL,MT-MC-2001,MOTOR,Motor Compresor,
-120-01,EL,MT-MC-2002,MOTOR,Motor Compresor,0
-120-01,EL,MT-MF-2001,MOTOR,Motor Fan,
-120-01,EL,MT-MF-2002,MOTOR,Motor Fan,
-120-03,EL,MT-MF-8001A,MOTOR,Motor Fan,
-120-03,EL,MT-MF-8001B,MOTOR,Motor Fan,
-120-03,EL,MT-MF-8001C,MOTOR,Motor Fan,
-120-03,EL,MT-MF-8001D,MOTOR,Motor Fan,
-120-02,EL,MT-MP-0001A,MOTOR,Motor Pump,
-120-02,EL,MT-MP-0001B,MOTOR,Motor Pump,
-120-02,EL,MT-MP-2001A,MOTOR,Motor Pump,
-120-02,EL,MT-MP-2001B,MOTOR,Motor Pump,
-120-02,EL,MT-MP-2002A,MOTOR,Motor Pump,
-120-02,EL,MT-MP-2002B,MOTOR,Motor Pump,
-120-02,EL,MT-MP-2003A,MOTOR,Motor Pump,
-120-02,EL,MT-MP-2003B,MOTOR,Motor Pump,
-120-07,EL,MT-MP-3001,MOTOR,Motor Pump,
-120-02,EL,MT-MP-3011A,MOTOR,Motor Pump,
-120-02,EL,MT-MP-3011B,MOTOR,Motor Pump,
-120-02,EL,MT-MP-3012A,MOTOR,Motor Pump,
-120-02,EL,MT-MP-3012B,MOTOR,Motor Pump,
-120-07,EL,MT-MP-3013,MOTOR,Motor Pump,
-120-02,EL,MT-MP-5001A,MOTOR,Motor Pump,
-120-02,EL,MT-MP-5001B,MOTOR,Motor Pump,
-120-02,EL,MT-MP-5002A,MOTOR,Motor Pump,
-120-02,EL,MT-MP-5002B,MOTOR,Motor Pump,
-120-02,EL,MT-MP-5003A,MOTOR,Motor Pump,
-120-02,EL,MT-MP-5003B,MOTOR,Motor Pump,
-120-01,EL,MT-MP-5004A,MOTOR,Motor Pump,
-120-01,EL,MT-MP-5004B,MOTOR,Motor Pump,
-120-02,EL,MT-MP-5005A,MOTOR,Motor Pump,
-120-02,EL,MT-MP-5005B,MOTOR,Motor Pump,
-120-01,EL,MT-MP-5006A,MOTOR,Motor Pump,
-120-01,EL,MT-MP-5006B,MOTOR,Motor Pump,
-120-02,EL,MT-MP-5007A,MOTOR,Motor Pump,
-120-02,EL,MT-MP-5007B,MOTOR,Motor Pump,
-120-01,EL,MT-MP-5008A,MOTOR,Motor Pump,
-120-01,EL,MT-MP-5008B,MOTOR,Motor Pump,
-120-02,EL,MT-MP-5009A,MOTOR,Motor Pump,
-120-02,EL,MT-MP-5009B,MOTOR,Motor Pump,
-120-02,EL,MT-MP-5010A,MOTOR,Motor Pump,
-120-02,EL,MT-MP-5010B,MOTOR,Motor Pump,
-120-02,EL,MT-MP-5011A,MOTOR,Motor Pump,
-120-02,EL,MT-MP-5011B,MOTOR,Motor Pump,
-120-07,EL,MT-MP-5012A,MOTOR,Motor Pump,
-120-07,EL,MT-MP-5012B,MOTOR,Motor Pump,
-120-02,EL,MT-MP-5070A,MOTOR,Motor Pump,
-120-02,EL,MT-MP-5070B,MOTOR,Motor Pump,
-120-02,EL,MT-MP-6001A,MOTOR,Motor Pump,
-120-02,EL,MT-MP-6001B,MOTOR,Motor Pump,
-120-01,EL,MT-MP-6002A,MOTOR,Motor Pump,
-120-01,EL,MT-MP-6002B,MOTOR,Motor Pump,
-120-01,EL,MT-MP-6002C,MOTOR,Motor Pump,
-120-01,EL,MT-MP-7001C,MOTOR,Motor Pump,
-120-02,EL,MT-MP-7002A,MOTOR,Motor Pump,
-120-02,EL,MT-MP-7002B,MOTOR,Motor Pump,
-120-02,EL,MT-MP-7003A,MOTOR,Motor Pump,
-120-02,EL,MT-MP-7003B,MOTOR,Motor Pump,
-120-02,EL,MT-MP-7004A,MOTOR,Motor Pump,
-120-02,EL,MT-MP-7004B,MOTOR,Motor Pump,
-120-02,EL,MT-MP-7051A,MOTOR,Motor Pump,
-120-02,EL,MT-MP-7051B,MOTOR,Motor Pump,
-120-02,EL,MT-MP-7052A,MOTOR,Motor Pump,
-120-02,EL,MT-MP-7052B,MOTOR,Motor Pump,
-120-02,EL,MT-MP-7060A,MOTOR,Motor Pump,
-120-02,EL,MT-MP-7060B,MOTOR,Motor Pump,
-120-02,EL,MT-MP-7070A,MOTOR,Motor Pump,
-120-02,EL,MT-MP-7070B,MOTOR,Motor Pump,
-120-07,EL,MT-MP-7101A,MOTOR,Motor Pump,
-120-07,EL,MT-MP-7101B,MOTOR,Motor Pump,
-120-03,EL,MT-MP-7502A,MOTOR,Motor Pump,
-120-03,EL,MT-MP-7502B,MOTOR,Motor Pump,
-120-03,EL,MT-MP-7503A,MOTOR,Motor Pump,
-120-03,EL,MT-MP-7503B,MOTOR,Motor Pump,
-120-03,EL,MT-MP-7504,MOTOR,Motor Pump,
-120-03,EL,MT-MP-7505,MOTOR,Motor Pump,
-120-03,EL,MT-MP-7506A,MOTOR,Motor Pump,
-120-03,EL,MT-MP-7506B,MOTOR,Motor Pump,
-120-01,EL,MT-MP-8001C,MOTOR,Motor Pump,
-120-01,EL,MT-MP-8001D,MOTOR,Motor Pump,
-120-03,EL,MT-MP-8401,MOTOR,Motor Pump,
-120-03,EL,MT-MP-8402,MOTOR,Motor Pump,
-120-03,EL,MT-MP-8403A,MOTOR,Motor Pump,
-120-03,EL,MT-MP-8403B,MOTOR,Motor Pump,
-120-03,EL,MT-MP-8404A,MOTOR,Motor Pump,
-120-03,EL,MT-MP-8404B,MOTOR,Motor Pump,
-120-03,EL,MT-MP-8405A,MOTOR,Motor Pump,
-120-03,EL,MT-MP-8405B,MOTOR,Motor Pump,
-120-02,EL,MT-MX-7050,MOTOR,Motor Mixer,
-120-02,EL,MT-MX-7060,MOTOR,Motor Mixer,
-120-02,EL,MT-MX-7070,MOTOR,Motor Mixer,
-120-02,EL,MT-P7001C-MF-1,MOTOR,Motor Fan,
-120-02,EL,MT-P7001C-MP-1A,MOTOR,Motor Pump,
-120-07,EL,MT-P7001C-MP-1B,MOTOR,Motor Pump,
-120-03,EL,MT-PK7502-MB-1A,MOTOR,Motor Pump,
-120-03,EL,MT-PK7502-MB-1B,MOTOR,Motor Pump,
-120-03,EL,MT-PK7502-MP-1A,MOTOR,Motor Pump,
-120-03,EL,MT-PK7502-MP-1B,MOTOR,Motor Pump,
-120-03,EL,MT-PK7502-MP-2A,MOTOR,Motor Pump,
-120-03,EL,MT-PK7502-MP-2B,MOTOR,Motor Pump,
-120-03,EL,MT-PK7502-MP-3A,MOTOR,Motor Pump,
-120-03,EL,MT-PK7502-MP-3B,MOTOR,Motor Pump,
-120-03,EL,MT-PK8002-MP-1A,MOTOR,Motor Pump,
-120-03,EL,MT-PK8002-MP-1B,MOTOR,Motor Pump,
-120-03,EL,MT-PK8002-MX-1,MOTOR,Motor Mixer,
-120-03,EL,MT-PK8003-MP-1A,MOTOR,Motor Pump,
-120-03,EL,MT-PK8003-MP-1B,MOTOR,Motor Pump,
-120-03,EL,MT-PK8003-MX-1,MOTOR,Motor Mixer,
-120-03,EL,MT-PK8004-MP-1A,MOTOR,Motor Pump,
-120-03,EL,MT-PK8004-MP-1B,MOTOR,Motor Pump,
-120-03,EL,MT-PK8004-MX-1,MOTOR,Motor Mixer,
-120-03,EL,MT-PK8005-MP-1A,MOTOR,Motor Pump,
-120-03,EL,MT-PK8005-MP-1B,MOTOR,Motor Pump,
-120-03,EL,MT-PK8401-MP-1A,MOTOR,Motor Pump,
-120-03,EL,MT-PK8401-MP-1B,MOTOR,Motor Pump,
-120-03,EL,MT-PK8401-MP-2A,MOTOR,Motor Pump,
-120-03,EL,MT-PK8401-MP-2B,MOTOR,Motor Pump,
+120-02,EL,MT-C2001-MF-1,MOTOR,Motor Fan,0%
+120-02,EL,MT-C2001-MF-2,MOTOR,Motor Fan,0%
+120-02,EL,MT-FT7001A-MF-1,MOTOR,Motor Fan,0%
+120-02,EL,MT-FT7001A-MP-1A,MOTOR,Motor Pump,0%
+120-07,EL,MT-FT7001A-MP-1B,MOTOR,Motor Pump,0%
+120-02,EL,MT-FT7001B-MF-1,MOTOR,Motor Fan,0%
+120-02,EL,MT-FT7001B-MP-1A,MOTOR,Motor Pump,0%
+120-07,EL,MT-FT7001B-MP-1B,MOTOR,Motor Pump,0%
+120-03,EL,MT-FT8001A-MF-1,MOTOR,Motor Fan,0%
+120-02,EL,MT-FT8001A-MP-1A,MOTOR,Motor Pump,0%
+120-07,EL,MT-FT8001A-MP-1B,MOTOR,Motor Pump,0%
+120-03,EL,MT-FT8001B-MF-1,MOTOR,Motor Fan,0%
+120-02,EL,MT-FT8001B-MP-1A,MOTOR,Motor Pump,0%
+120-07,EL,MT-FT8001B-MP-1B,MOTOR,Motor Pump,0%
+120-05,EL,MT-MAE-2026-01,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-2026-02,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-2026-03,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-2026-04,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-2026-05,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-2026-06,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-2026-07,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-2026-08,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-2026-09,MOTOR,Motor Fan,50%
+120-06,EL,MT-MAE-2026-10,MOTOR,Motor Fan,50%
+120-06,EL,MT-MAE-2026-11,MOTOR,Motor Fan,50%
+120-06,EL,MT-MAE-2026-12,MOTOR,Motor Fan,50%
+120-06,EL,MT-MAE-3002_1-01,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-3002_1-02,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-3002_1-03,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-3002_1-04,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-3002_1-05,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-3002_1-06,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-3002_1-07,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-3002_1-08,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-3002_2-01,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-3002_2-02,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-3002_2-03,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-3002_2-04,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-3002_2-05,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-3002_2-06,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-3002_2-07,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-3002_2-08,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-3002_3-01,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-3002_3-02,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-3002_3-03,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-3002_3-04,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-3002_3-05,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-3002_3-06,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-3002_3-07,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-3002_3-08,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-5004-01,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-5004-02,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-5004-03,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-5004-04,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-5004-05,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-5004-06,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-5004-07,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-5004-08,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-5004-09,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-5004-10,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-5004-11,MOTOR,Motor Fan,0%
+120-06,EL,MT-MAE-5004-12,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005A-01,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005A-02,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005A-03,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005A-04,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005A-05,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005A-06,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005A-07,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005A-08,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005A-09,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005A-10,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005A-11,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005A-12,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005A-13,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005A-14,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005A-15,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005A-16,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005A-17,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005A-18,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005B-01,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005B-02,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005B-03,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005B-04,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005B-05,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005B-06,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005B-07,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005B-08,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005B-09,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005B-10,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005B-11,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005B-12,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005B-13,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005B-14,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005B-15,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005B-16,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005B-17,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005B-18,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005C-01,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005C-02,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005C-03,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005C-04,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005C-05,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005C-06,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005C-07,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005C-08,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005C-09,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005C-10,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005C-11,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005C-12,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005C-13,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005C-14,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005C-15,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005C-16,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005C-17,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5005C-18,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005D-01,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005D-02,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005D-03,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005D-04,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005D-05,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005D-06,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005D-07,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005D-08,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005D-09,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005D-10,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005D-11,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005D-12,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005D-13,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005D-14,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005D-15,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005D-16,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005D-17,MOTOR,Motor Fan,0%
+120-05,EL,MT-MAE-5005D-18,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5006-01,MOTOR,Motor Fan,0%
+120-04,EL,MT-MAE-5006-02,MOTOR,Motor Fan,0%
+120-03,EL,MT-MB-8001A,MOTOR,Motor Pump,0%
+120-03,EL,MT-MB-8001B,MOTOR,Motor Pump,0%
+120-01,EL,MT-MC-2001,MOTOR,Motor Compresor,0%
+120-01,EL,MT-MC-2002,MOTOR,Motor Compresor,0%
+120-01,EL,MT-MF-2001,MOTOR,Motor Fan,0%
+120-01,EL,MT-MF-2002,MOTOR,Motor Fan,0%
+120-03,EL,MT-MF-8001A,MOTOR,Motor Fan,0%
+120-03,EL,MT-MF-8001B,MOTOR,Motor Fan,0%
+120-03,EL,MT-MF-8001C,MOTOR,Motor Fan,0%
+120-03,EL,MT-MF-8001D,MOTOR,Motor Fan,0%
+120-02,EL,MT-MP-0001A,MOTOR,Motor Pump,50%
+120-02,EL,MT-MP-0001B,MOTOR,Motor Pump,50%
+120-02,EL,MT-MP-2001A,MOTOR,Motor Pump,50%
+120-02,EL,MT-MP-2001B,MOTOR,Motor Pump,50%
+120-02,EL,MT-MP-2002A,MOTOR,Motor Pump,50%
+120-02,EL,MT-MP-2002B,MOTOR,Motor Pump,50%
+120-02,EL,MT-MP-2003A,MOTOR,Motor Pump,50%
+120-02,EL,MT-MP-2003B,MOTOR,Motor Pump,50%
+120-07,EL,MT-MP-3001,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-3011A,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-3011B,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-3012A,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-3012B,MOTOR,Motor Pump,0%
+120-07,EL,MT-MP-3013,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-5001A,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-5001B,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-5002A,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-5002B,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-5003A,MOTOR,Motor Pump,50%
+120-02,EL,MT-MP-5003B,MOTOR,Motor Pump,50%
+120-01,EL,MT-MP-5004A,MOTOR,Motor Pump,0%
+120-01,EL,MT-MP-5004B,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-5005A,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-5005B,MOTOR,Motor Pump,0%
+120-01,EL,MT-MP-5006A,MOTOR,Motor Pump,0%
+120-01,EL,MT-MP-5006B,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-5007A,MOTOR,Motor Pump,Done
+120-02,EL,MT-MP-5007B,MOTOR,Motor Pump,Done
+120-01,EL,MT-MP-5008A,MOTOR,Motor Pump,0%
+120-01,EL,MT-MP-5008B,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-5009A,MOTOR,Motor Pump,50%
+120-02,EL,MT-MP-5009B,MOTOR,Motor Pump,50%
+120-02,EL,MT-MP-5010A,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-5010B,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-5011A,MOTOR,Motor Pump,50%
+120-02,EL,MT-MP-5011B,MOTOR,Motor Pump,50%
+120-07,EL,MT-MP-5012A,MOTOR,Motor Pump,0%
+120-07,EL,MT-MP-5012B,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-5070A,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-5070B,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-6001A,MOTOR,Motor Pump,50%
+120-02,EL,MT-MP-6001B,MOTOR,Motor Pump,50%
+120-01,EL,MT-MP-6002A,MOTOR,Motor Pump,0%
+120-01,EL,MT-MP-6002B,MOTOR,Motor Pump,0%
+120-01,EL,MT-MP-6002C,MOTOR,Motor Pump,0%
+120-01,EL,MT-MP-7001C,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-7002A,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-7002B,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-7003A,MOTOR,Motor Pump,50%
+120-02,EL,MT-MP-7003B,MOTOR,Motor Pump,50%
+120-02,EL,MT-MP-7004A,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-7004B,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-7051A,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-7051B,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-7052A,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-7052B,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-7060A,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-7060B,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-7070A,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-7070B,MOTOR,Motor Pump,0%
+120-07,EL,MT-MP-7101A,MOTOR,Motor Pump,0%
+120-07,EL,MT-MP-7101B,MOTOR,Motor Pump,0%
+120-03,EL,MT-MP-7502A,MOTOR,Motor Pump,0%
+120-03,EL,MT-MP-7502B,MOTOR,Motor Pump,0%
+120-03,EL,MT-MP-7503A,MOTOR,Motor Pump,0%
+120-03,EL,MT-MP-7503B,MOTOR,Motor Pump,0%
+120-03,EL,MT-MP-7504,MOTOR,Motor Pump,0%
+120-03,EL,MT-MP-7505,MOTOR,Motor Pump,0%
+120-03,EL,MT-MP-7506A,MOTOR,Motor Pump,0%
+120-03,EL,MT-MP-7506B,MOTOR,Motor Pump,0%
+120-01,EL,MT-MP-8001C,MOTOR,Motor Pump,0%
+120-01,EL,MT-MP-8001D,MOTOR,Motor Pump,0%
+120-03,EL,MT-MP-8401,MOTOR,Motor Pump,0%
+120-03,EL,MT-MP-8402,MOTOR,Motor Pump,0%
+120-03,EL,MT-MP-8403A,MOTOR,Motor Pump,0%
+120-03,EL,MT-MP-8403B,MOTOR,Motor Pump,0%
+120-03,EL,MT-MP-8404A,MOTOR,Motor Pump,50%
+120-03,EL,MT-MP-8404B,MOTOR,Motor Pump,50%
+120-03,EL,MT-MP-8405A,MOTOR,Motor Pump,0%
+120-03,EL,MT-MP-8405B,MOTOR,Motor Pump,0%
+120-02,EL,MT-MX-7050,MOTOR,Motor Mixer,0%
+120-02,EL,MT-MX-7060,MOTOR,Motor Mixer,0%
+120-02,EL,MT-MX-7070,MOTOR,Motor Mixer,0%
+120-02,EL,MT-P7001C-MF-1,MOTOR,Motor Fan,0%
+120-02,EL,MT-P7001C-MP-1A,MOTOR,Motor Pump,0%
+120-07,EL,MT-P7001C-MP-1B,MOTOR,Motor Pump,0%
+120-03,EL,MT-PK7502-MB-1A,MOTOR,Motor Pump,0%
+120-03,EL,MT-PK7502-MB-1B,MOTOR,Motor Pump,0%
+120-03,EL,MT-PK7502-MP-1A,MOTOR,Motor Pump,0%
+120-03,EL,MT-PK7502-MP-1B,MOTOR,Motor Pump,0%
+120-03,EL,MT-PK7502-MP-2A,MOTOR,Motor Pump,0%
+120-03,EL,MT-PK7502-MP-2B,MOTOR,Motor Pump,0%
+120-03,EL,MT-PK7502-MP-3A,MOTOR,Motor Pump,0%
+120-03,EL,MT-PK7502-MP-3B,MOTOR,Motor Pump,0%
+120-03,EL,MT-PK8002-MP-1A,MOTOR,Motor Pump,0%
+120-03,EL,MT-PK8002-MP-1B,MOTOR,Motor Pump,0%
+120-03,EL,MT-PK8002-MX-1,MOTOR,Motor Mixer,0%
+120-03,EL,MT-PK8003-MP-1A,MOTOR,Motor Pump,0%
+120-03,EL,MT-PK8003-MP-1B,MOTOR,Motor Pump,0%
+120-03,EL,MT-PK8003-MX-1,MOTOR,Motor Mixer,0%
+120-03,EL,MT-PK8004-MP-1A,MOTOR,Motor Pump,0%
+120-03,EL,MT-PK8004-MP-1B,MOTOR,Motor Pump,0%
+120-03,EL,MT-PK8004-MX-1,MOTOR,Motor Mixer,0%
+120-03,EL,MT-PK8005-MP-1A,MOTOR,Motor Pump,0%
+120-03,EL,MT-PK8005-MP-1B,MOTOR,Motor Pump,0%
+120-03,EL,MT-PK8401-MP-1A,MOTOR,Motor Pump,0%
+120-03,EL,MT-PK8401-MP-1B,MOTOR,Motor Pump,0%
+120-03,EL,MT-PK8401-MP-2A,MOTOR,Motor Pump,0%
+120-03,EL,MT-PK8401-MP-2B,MOTOR,Motor Pump,0%
 120-02,EL,MX-7050,Local_Control_Station,Local Control Station- MX-7050,0%
 120-02,EL,MX-7060,Local_Control_Station,Local Control Station- MX-7060,0%
 120-02,EL,MX-7070,Local_Control_Station,Local Control Station- MX-7070,0%
