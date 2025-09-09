@@ -24742,7 +24742,7 @@ EL,ECC-MB-8001B_1,LV.Cont. cable megger test T,0
 EL,ECC-MC-2001,Cable pulling C,1
 EL,ECC-MC-2001,ITP for cable install C,1
 EL,ECC-MC-2001,LV.Cont. cable megger test T,0
-EL,ECC-MC-2001_1,Cable pulling C,0
+EL,ECC-MC-2001_1,Cable pulling C,1
 EL,ECC-MC-2001_1,ITP for cable install C,1
 EL,ECC-MC-2001_1,LV.Cont. cable megger test T,0
 EL,ECC-MC-2001-RTD1,Cable pulling C,1
@@ -24751,7 +24751,7 @@ EL,ECC-MC-2001-RTD1,LV.Cont. cable megger test T,0
 EL,ECC-MC-2002,Cable pulling C,1
 EL,ECC-MC-2002,ITP for cable install C,1
 EL,ECC-MC-2002,LV.Cont. cable megger test T,0
-EL,ECC-MC-2002_1,Cable pulling C,0
+EL,ECC-MC-2002_1,Cable pulling C,1
 EL,ECC-MC-2002_1,ITP for cable install C,1
 EL,ECC-MC-2002_1,LV.Cont. cable megger test T,0
 EL,ECC-MC-2002-RTD1,Cable pulling C,1
@@ -24760,7 +24760,7 @@ EL,ECC-MC-2002-RTD1,LV.Cont. cable megger test T,0
 EL,ECC-MF-2001,Cable pulling C,1
 EL,ECC-MF-2001,ITP for cable install C,0
 EL,ECC-MF-2001,LV.Cont. cable megger test T,0
-EL,ECC-MF-2001_1,Cable pulling C,0
+EL,ECC-MF-2001_1,Cable pulling C,1
 EL,ECC-MF-2001_1,ITP for cable install C,1
 EL,ECC-MF-2001_1,LV.Cont. cable megger test T,0
 EL,ECC-MF-2001-CT,Cable pulling C,1
@@ -25057,7 +25057,7 @@ EL,ECC-MP-8001C-RTD1,LV.Cont. cable megger test T,0
 EL,ECC-MP-8001D,Cable pulling C,1
 EL,ECC-MP-8001D,ITP for cable install C,0
 EL,ECC-MP-8001D,LV.Cont. cable megger test T,0
-EL,ECC-MP-8001D_1,Cable pulling C,0
+EL,ECC-MP-8001D_1,Cable pulling C,1
 EL,ECC-MP-8001D_1,ITP for cable install C,1
 EL,ECC-MP-8001D_1,LV.Cont. cable megger test T,0
 EL,ECC-MP-8001D-RTD1,Cable pulling C,1
@@ -25300,13 +25300,13 @@ EL,ECC-SS-PDCS01-7,LV.Cont. cable megger test T,0
 EL,ECC-SS-SWB2A-01_1,Cable pulling C,0
 EL,ECC-SS-SWB2A-01_1,ITP for cable install C,0
 EL,ECC-SS-SWB2A-01_1,LV.Cont. cable megger test T,0
-EL,ECC-SS-SWB2A-01_10,Cable pulling C,0
+EL,ECC-SS-SWB2A-01_10,Cable pulling C,1
 EL,ECC-SS-SWB2A-01_10,ITP for cable install C,1
 EL,ECC-SS-SWB2A-01_10,LV.Cont. cable megger test T,0
-EL,ECC-SS-SWB2A-01_11,Cable pulling C,0
+EL,ECC-SS-SWB2A-01_11,Cable pulling C,1
 EL,ECC-SS-SWB2A-01_11,ITP for cable install C,1
 EL,ECC-SS-SWB2A-01_11,LV.Cont. cable megger test T,0
-EL,ECC-SS-SWB2A-01_12,Cable pulling C,0
+EL,ECC-SS-SWB2A-01_12,Cable pulling C,1
 EL,ECC-SS-SWB2A-01_12,ITP for cable install C,1
 EL,ECC-SS-SWB2A-01_12,LV.Cont. cable megger test T,0
 EL,ECC-SS-SWB2A-01_15,Cable pulling C,1
@@ -25315,19 +25315,19 @@ EL,ECC-SS-SWB2A-01_15,LV.Cont. cable megger test T,0
 EL,ECC-SS-SWB2A-01_16,Cable pulling C,1
 EL,ECC-SS-SWB2A-01_16,ITP for cable install C,1
 EL,ECC-SS-SWB2A-01_16,LV.Cont. cable megger test T,0
-EL,ECC-SS-SWB2A-01_17,Cable pulling C,0
+EL,ECC-SS-SWB2A-01_17,Cable pulling C,1
 EL,ECC-SS-SWB2A-01_17,ITP for cable install C,1
 EL,ECC-SS-SWB2A-01_17,LV.Cont. cable megger test T,0
-EL,ECC-SS-SWB2A-01_18,Cable pulling C,0
+EL,ECC-SS-SWB2A-01_18,Cable pulling C,1
 EL,ECC-SS-SWB2A-01_18,ITP for cable install C,1
 EL,ECC-SS-SWB2A-01_18,LV.Cont. cable megger test T,0
-EL,ECC-SS-SWB2A-01_19,Cable pulling C,0
+EL,ECC-SS-SWB2A-01_19,Cable pulling C,1
 EL,ECC-SS-SWB2A-01_19,ITP for cable install C,1
 EL,ECC-SS-SWB2A-01_19,LV.Cont. cable megger test T,0
 EL,ECC-SS-SWB2A-01_2,Cable pulling C,0
 EL,ECC-SS-SWB2A-01_2,ITP for cable install C,0
 EL,ECC-SS-SWB2A-01_2,LV.Cont. cable megger test T,0
-EL,ECC-SS-SWB2A-01_20,Cable pulling C,0
+EL,ECC-SS-SWB2A-01_20,Cable pulling C,1
 EL,ECC-SS-SWB2A-01_20,ITP for cable install C,1
 EL,ECC-SS-SWB2A-01_20,LV.Cont. cable megger test T,0
 EL,ECC-SS-SWB2A-01_3,Cable pulling C,0
@@ -25339,13 +25339,13 @@ EL,ECC-SS-SWB2A-01_4,LV.Cont. cable megger test T,0
 EL,ECC-SS-SWB2A-01_6,Cable pulling C,0
 EL,ECC-SS-SWB2A-01_6,ITP for cable install C,0
 EL,ECC-SS-SWB2A-01_6,LV.Cont. cable megger test T,0
-EL,ECC-SS-SWB2A-01_7,Cable pulling C,0
+EL,ECC-SS-SWB2A-01_7,Cable pulling C,1
 EL,ECC-SS-SWB2A-01_7,ITP for cable install C,1
 EL,ECC-SS-SWB2A-01_7,LV.Cont. cable megger test T,0
-EL,ECC-SS-SWB2A-01_8,Cable pulling C,0
+EL,ECC-SS-SWB2A-01_8,Cable pulling C,1
 EL,ECC-SS-SWB2A-01_8,ITP for cable install C,1
 EL,ECC-SS-SWB2A-01_8,LV.Cont. cable megger test T,0
-EL,ECC-SS-SWB2A-01_9,Cable pulling C,0
+EL,ECC-SS-SWB2A-01_9,Cable pulling C,1
 EL,ECC-SS-SWB2A-01_9,ITP for cable install C,1
 EL,ECC-SS-SWB2A-01_9,LV.Cont. cable megger test T,0
 EL,ECC-SS-SWB2AB-01_1,Cable pulling C,1
@@ -25363,13 +25363,13 @@ EL,ECC-SS-SWB2AB-01_5,LV.Cont. cable megger test T,0
 EL,ECC-SS-SWB2B-01_1,Cable pulling C,0
 EL,ECC-SS-SWB2B-01_1,ITP for cable install C,0
 EL,ECC-SS-SWB2B-01_1,LV.Cont. cable megger test T,0
-EL,ECC-SS-SWB2B-01_10,Cable pulling C,0
+EL,ECC-SS-SWB2B-01_10,Cable pulling C,1
 EL,ECC-SS-SWB2B-01_10,ITP for cable install C,1
 EL,ECC-SS-SWB2B-01_10,LV.Cont. cable megger test T,0
-EL,ECC-SS-SWB2B-01_11,Cable pulling C,0
+EL,ECC-SS-SWB2B-01_11,Cable pulling C,1
 EL,ECC-SS-SWB2B-01_11,ITP for cable install C,1
 EL,ECC-SS-SWB2B-01_11,LV.Cont. cable megger test T,0
-EL,ECC-SS-SWB2B-01_12,Cable pulling C,0
+EL,ECC-SS-SWB2B-01_12,Cable pulling C,1
 EL,ECC-SS-SWB2B-01_12,ITP for cable install C,1
 EL,ECC-SS-SWB2B-01_12,LV.Cont. cable megger test T,0
 EL,ECC-SS-SWB2B-01_13,Cable pulling C,0
@@ -25381,19 +25381,19 @@ EL,ECC-SS-SWB2B-01_15,LV.Cont. cable megger test T,0
 EL,ECC-SS-SWB2B-01_16,Cable pulling C,1
 EL,ECC-SS-SWB2B-01_16,ITP for cable install C,1
 EL,ECC-SS-SWB2B-01_16,LV.Cont. cable megger test T,0
-EL,ECC-SS-SWB2B-01_17,Cable pulling C,0
+EL,ECC-SS-SWB2B-01_17,Cable pulling C,1
 EL,ECC-SS-SWB2B-01_17,ITP for cable install C,1
 EL,ECC-SS-SWB2B-01_17,LV.Cont. cable megger test T,0
-EL,ECC-SS-SWB2B-01_18,Cable pulling C,0
+EL,ECC-SS-SWB2B-01_18,Cable pulling C,1
 EL,ECC-SS-SWB2B-01_18,ITP for cable install C,1
 EL,ECC-SS-SWB2B-01_18,LV.Cont. cable megger test T,0
-EL,ECC-SS-SWB2B-01_19,Cable pulling C,0
+EL,ECC-SS-SWB2B-01_19,Cable pulling C,1
 EL,ECC-SS-SWB2B-01_19,ITP for cable install C,1
 EL,ECC-SS-SWB2B-01_19,LV.Cont. cable megger test T,0
 EL,ECC-SS-SWB2B-01_2,Cable pulling C,0
 EL,ECC-SS-SWB2B-01_2,ITP for cable install C,0
 EL,ECC-SS-SWB2B-01_2,LV.Cont. cable megger test T,0
-EL,ECC-SS-SWB2B-01_20,Cable pulling C,0
+EL,ECC-SS-SWB2B-01_20,Cable pulling C,1
 EL,ECC-SS-SWB2B-01_20,ITP for cable install C,1
 EL,ECC-SS-SWB2B-01_20,LV.Cont. cable megger test T,0
 EL,ECC-SS-SWB2B-01_21,Cable pulling C,0
@@ -25405,13 +25405,13 @@ EL,ECC-SS-SWB2B-01_3,LV.Cont. cable megger test T,0
 EL,ECC-SS-SWB2B-01_4,Cable pulling C,0
 EL,ECC-SS-SWB2B-01_4,ITP for cable install C,0
 EL,ECC-SS-SWB2B-01_4,LV.Cont. cable megger test T,0
-EL,ECC-SS-SWB2B-01_7,Cable pulling C,0
+EL,ECC-SS-SWB2B-01_7,Cable pulling C,1
 EL,ECC-SS-SWB2B-01_7,ITP for cable install C,1
 EL,ECC-SS-SWB2B-01_7,LV.Cont. cable megger test T,0
-EL,ECC-SS-SWB2B-01_8,Cable pulling C,0
+EL,ECC-SS-SWB2B-01_8,Cable pulling C,1
 EL,ECC-SS-SWB2B-01_8,ITP for cable install C,1
 EL,ECC-SS-SWB2B-01_8,LV.Cont. cable megger test T,0
-EL,ECC-SS-SWB2B-01_9,Cable pulling C,0
+EL,ECC-SS-SWB2B-01_9,Cable pulling C,1
 EL,ECC-SS-SWB2B-01_9,ITP for cable install C,1
 EL,ECC-SS-SWB2B-01_9,LV.Cont. cable megger test T,0
 EL,ECC-SS-SWB3A-01_1,Cable pulling C,1
@@ -25450,7 +25450,7 @@ EL,ECC-SS-SWB3A-04_2,LV.Cont. cable megger test T,0
 EL,ECC-SS-SWB3A-04_4,Cable pulling C,0
 EL,ECC-SS-SWB3A-04_4,ITP for cable install C,0
 EL,ECC-SS-SWB3A-04_4,LV.Cont. cable megger test T,0
-EL,ECC-SS-SWB3A-05_1,Cable pulling C,0
+EL,ECC-SS-SWB3A-05_1,Cable pulling C,1
 EL,ECC-SS-SWB3A-05_1,ITP for cable install C,1
 EL,ECC-SS-SWB3A-05_1,LV.Cont. cable megger test T,0
 EL,ECC-SS-SWB3A-05_2,Cable pulling C,0
@@ -25528,7 +25528,7 @@ EL,ECC-SS-SWB3B-04_1,LV.Cont. cable megger test T,0
 EL,ECC-SS-SWB3B-04_2,Cable pulling C,0
 EL,ECC-SS-SWB3B-04_2,ITP for cable install C,0
 EL,ECC-SS-SWB3B-04_2,LV.Cont. cable megger test T,0
-EL,ECC-SS-SWB3B-05_1,Cable pulling C,0
+EL,ECC-SS-SWB3B-05_1,Cable pulling C,1
 EL,ECC-SS-SWB3B-05_1,ITP for cable install C,1
 EL,ECC-SS-SWB3B-05_1,LV.Cont. cable megger test T,0
 EL,ECC-SS-SWB3B-05_2,Cable pulling C,0
@@ -35749,25 +35749,25 @@ EL,MT-MP-5006A,MV.LV DC Motor Install,0
 EL,MT-MP-5006A,LV MOTOR,0
 EL,MT-MP-5006B,MV.LV DC Motor Install,0
 EL,MT-MP-5006B,LV MOTOR,0
-EL,MT-MP-5007A,MV.LV DC Motor Install,0
-EL,MT-MP-5007A,LV MOTOR,0
-EL,MT-MP-5007B,MV.LV DC Motor Install,0
-EL,MT-MP-5007B,LV MOTOR,0
+EL,MT-MP-5007A,MV.LV DC Motor Install,1
+EL,MT-MP-5007A,LV MOTOR,1
+EL,MT-MP-5007B,MV.LV DC Motor Install,1
+EL,MT-MP-5007B,LV MOTOR,1
 EL,MT-MP-5008A,MV.LV DC Motor Install,0
 EL,MT-MP-5008A,LV MOTOR,0
 EL,MT-MP-5008B,MV.LV DC Motor Install,0
 EL,MT-MP-5008B,LV MOTOR,0
-EL,MT-MP-5009A,MV.LV DC Motor Install,0
+EL,MT-MP-5009A,MV.LV DC Motor Install,1
 EL,MT-MP-5009A,LV MOTOR,0
-EL,MT-MP-5009B,MV.LV DC Motor Install,0
+EL,MT-MP-5009B,MV.LV DC Motor Install,1
 EL,MT-MP-5009B,LV MOTOR,0
 EL,MT-MP-5010A,MV.LV DC Motor Install,0
 EL,MT-MP-5010A,LV MOTOR,0
 EL,MT-MP-5010B,MV.LV DC Motor Install,0
 EL,MT-MP-5010B,LV MOTOR,0
-EL,MT-MP-5011A,MV.LV DC Motor Install,0
+EL,MT-MP-5011A,MV.LV DC Motor Install,1
 EL,MT-MP-5011A,LV MOTOR,0
-EL,MT-MP-5011B,MV.LV DC Motor Install,0
+EL,MT-MP-5011B,MV.LV DC Motor Install,1
 EL,MT-MP-5011B,LV MOTOR,0
 EL,MT-MP-5012A,MV.LV DC Motor Install,0
 EL,MT-MP-5012A,LV MOTOR,0
