@@ -22279,10 +22279,10 @@ EL,EBC-MP-8403A,ITP for cable install C,0
 EL,EBC-MP-8403A,LV.Cont. cable megger test T,0
 EL,EBC-MP-8403B,Cable pulling C,1
 EL,EBC-MP-8403B,ITP for cable install C,0
-EL,EBC-MP-8403B,LV.Cont. cable megger test T,0
+EL,EBC-MP-8403B,LV.Cont. cable megger test T,1
 EL,EBC-MP-8404A,Cable pulling C,1
 EL,EBC-MP-8404A,ITP for cable install C,0
-EL,EBC-MP-8404A,LV.Cont. cable megger test T,0
+EL,EBC-MP-8404A,LV.Cont. cable megger test T,1
 EL,EBC-MP-8404B,Cable pulling C,1
 EL,EBC-MP-8404B,ITP for cable install C,0
 EL,EBC-MP-8404B,LV.Cont. cable megger test T,0
@@ -23966,7 +23966,7 @@ EL,EBP-MP-8403A,ITP for cable install C,0
 EL,EBP-MP-8403A,LV.Cont. cable megger test T,0
 EL,EBP-MP-8403B,Cable pulling C,1
 EL,EBP-MP-8403B,ITP for cable install C,0
-EL,EBP-MP-8403B,LV.Cont. cable megger test T,0
+EL,EBP-MP-8403B,LV.Cont. cable megger test T,1
 EL,EBP-MP-8404A,Cable pulling C,1
 EL,EBP-MP-8404A,ITP for cable install C,0
 EL,EBP-MP-8404A,LV.Cont. cable megger test T,0
@@ -24071,7 +24071,7 @@ EL,EBP-PK8401-MP-1B,ITP for cable install C,0
 EL,EBP-PK8401-MP-1B,LV.Cont. cable megger test T,0
 EL,EBP-PK8401-MP-2A,Cable pulling C,1
 EL,EBP-PK8401-MP-2A,ITP for cable install C,0
-EL,EBP-PK8401-MP-2A,LV.Cont. cable megger test T,0
+EL,EBP-PK8401-MP-2A,LV.Cont. cable megger test T,1
 EL,EBP-PK8401-MP-2B,Cable pulling C,1
 EL,EBP-PK8401-MP-2B,ITP for cable install C,0
 EL,EBP-PK8401-MP-2B,LV.Cont. cable megger test T,0
@@ -25134,16 +25134,16 @@ EL,ECC-MP-8403A_1,ITP for cable install C,0
 EL,ECC-MP-8403A_1,LV.Cont. cable megger test T,1
 EL,ECC-MP-8403B_1,Cable pulling C,0
 EL,ECC-MP-8403B_1,ITP for cable install C,0
-EL,ECC-MP-8403B_1,LV.Cont. cable megger test T,0
+EL,ECC-MP-8403B_1,LV.Cont. cable megger test T,1
 EL,ECC-MP-8404A_1,Cable pulling C,0
 EL,ECC-MP-8404A_1,ITP for cable install C,0
-EL,ECC-MP-8404A_1,LV.Cont. cable megger test T,0
+EL,ECC-MP-8404A_1,LV.Cont. cable megger test T,1
 EL,ECC-MP-8404B_1,Cable pulling C,0
 EL,ECC-MP-8404B_1,ITP for cable install C,0
 EL,ECC-MP-8404B_1,LV.Cont. cable megger test T,1
 EL,ECC-MP-8405A_1,Cable pulling C,0
 EL,ECC-MP-8405A_1,ITP for cable install C,0
-EL,ECC-MP-8405A_1,LV.Cont. cable megger test T,0
+EL,ECC-MP-8405A_1,LV.Cont. cable megger test T,1
 EL,ECC-MP-8405B_1,Cable pulling C,0
 EL,ECC-MP-8405B_1,ITP for cable install C,0
 EL,ECC-MP-8405B_1,LV.Cont. cable megger test T,1
@@ -25170,13 +25170,13 @@ EL,ECC-P7001C-MP-1B_1,ITP for cable install C,0
 EL,ECC-P7001C-MP-1B_1,LV.Cont. cable megger test T,0
 EL,ECC-PK7502-MB-1A_1,Cable pulling C,0
 EL,ECC-PK7502-MB-1A_1,ITP for cable install C,0
-EL,ECC-PK7502-MB-1A_1,LV.Cont. cable megger test T,0
+EL,ECC-PK7502-MB-1A_1,LV.Cont. cable megger test T,1
 EL,ECC-PK7502-MB-1B_1,Cable pulling C,0
 EL,ECC-PK7502-MB-1B_1,ITP for cable install C,0
 EL,ECC-PK7502-MB-1B_1,LV.Cont. cable megger test T,0
 EL,ECC-PK7502-MP-1A_1,Cable pulling C,0
 EL,ECC-PK7502-MP-1A_1,ITP for cable install C,0
-EL,ECC-PK7502-MP-1A_1,LV.Cont. cable megger test T,0
+EL,ECC-PK7502-MP-1A_1,LV.Cont. cable megger test T,1
 EL,ECC-PK7502-MP-1B_1,Cable pulling C,0
 EL,ECC-PK7502-MP-1B_1,ITP for cable install C,0
 EL,ECC-PK7502-MP-1B_1,LV.Cont. cable megger test T,1
@@ -25194,7 +25194,7 @@ EL,ECC-PK7502-MP-3B_1,ITP for cable install C,0
 EL,ECC-PK7502-MP-3B_1,LV.Cont. cable megger test T,1
 EL,ECC-PK8002-MP-1A_1,Cable pulling C,0
 EL,ECC-PK8002-MP-1A_1,ITP for cable install C,0
-EL,ECC-PK8002-MP-1A_1,LV.Cont. cable megger test T,0
+EL,ECC-PK8002-MP-1A_1,LV.Cont. cable megger test T,1
 EL,ECC-PK8002-MP-1B_1,Cable pulling C,1
 EL,ECC-PK8002-MP-1B_1,ITP for cable install C,0
 EL,ECC-PK8002-MP-1B_1,LV.Cont. cable megger test T,1
@@ -25203,7 +25203,7 @@ EL,ECC-PK8002-MX-1_1,ITP for cable install C,0
 EL,ECC-PK8002-MX-1_1,LV.Cont. cable megger test T,0
 EL,ECC-PK8003-MP-1A_1,Cable pulling C,0
 EL,ECC-PK8003-MP-1A_1,ITP for cable install C,0
-EL,ECC-PK8003-MP-1A_1,LV.Cont. cable megger test T,0
+EL,ECC-PK8003-MP-1A_1,LV.Cont. cable megger test T,1
 EL,ECC-PK8003-MP-1B_1,Cable pulling C,1
 EL,ECC-PK8003-MP-1B_1,ITP for cable install C,0
 EL,ECC-PK8003-MP-1B_1,LV.Cont. cable megger test T,1
@@ -25212,7 +25212,7 @@ EL,ECC-PK8003-MX-1_1,ITP for cable install C,0
 EL,ECC-PK8003-MX-1_1,LV.Cont. cable megger test T,0
 EL,ECC-PK8004-MP-1A_1,Cable pulling C,0
 EL,ECC-PK8004-MP-1A_1,ITP for cable install C,0
-EL,ECC-PK8004-MP-1A_1,LV.Cont. cable megger test T,0
+EL,ECC-PK8004-MP-1A_1,LV.Cont. cable megger test T,1
 EL,ECC-PK8004-MP-1B_1,Cable pulling C,1
 EL,ECC-PK8004-MP-1B_1,ITP for cable install C,0
 EL,ECC-PK8004-MP-1B_1,LV.Cont. cable megger test T,1
@@ -25221,13 +25221,13 @@ EL,ECC-PK8004-MX-1_1,ITP for cable install C,0
 EL,ECC-PK8004-MX-1_1,LV.Cont. cable megger test T,0
 EL,ECC-PK8005-MP-1A_1,Cable pulling C,0
 EL,ECC-PK8005-MP-1A_1,ITP for cable install C,0
-EL,ECC-PK8005-MP-1A_1,LV.Cont. cable megger test T,0
+EL,ECC-PK8005-MP-1A_1,LV.Cont. cable megger test T,1
 EL,ECC-PK8005-MP-1B_1,Cable pulling C,1
 EL,ECC-PK8005-MP-1B_1,ITP for cable install C,0
 EL,ECC-PK8005-MP-1B_1,LV.Cont. cable megger test T,1
 EL,ECC-PK8401-MP-1A_1,Cable pulling C,0
 EL,ECC-PK8401-MP-1A_1,ITP for cable install C,0
-EL,ECC-PK8401-MP-1A_1,LV.Cont. cable megger test T,0
+EL,ECC-PK8401-MP-1A_1,LV.Cont. cable megger test T,1
 EL,ECC-PK8401-MP-1B_1,Cable pulling C,0
 EL,ECC-PK8401-MP-1B_1,ITP for cable install C,0
 EL,ECC-PK8401-MP-1B_1,LV.Cont. cable megger test T,1
