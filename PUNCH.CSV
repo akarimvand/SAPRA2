@@ -1375,6 +1375,12 @@ TEL-07,EL,07-SP-15,Paging Device,B,Tag no shall be installed.,PL-17108
 3000-01,PI,3000-01-VA-10-729,PI_TP,C,THE GASKET AND STUD BOLTS SHOULD BE INSTALLED BEFORE THE PRECOM ( FLAME ARESTORE),PL-01049
 3000-02,PI,3000-02-MPC-01-933,PI_TP,C,THE INSTRUMENT DEVICE (FT:3041) SHOULD BE INSTALLED BEFORE PRECOM,PL-01786
 3000-02,PI,3000-02-MPC-01-933,PI_TP,C,SPRING SUPPORT SP(3101) SHOULD BE INSTALL BEFORE PRECOMM,PL-01787
+3000-02,PI,3000-02-MPC-03-951,PI_TP,C,INSTRUMENT INDICATOR SHALL BE INSTALL,PL-25367
+3000-02,PI,3000-02-MPC-03-951,PI_TP,C,ALL TEMPORARY GASKETS USED FOR THE FLANGES CONNECTION SHALL BE REPLACED WITH THE ORIGINAL GASKETS,PL-25368
+3000-02,PI,3000-02-MPC-03-951,PI_TP,C,ALL VALVES SHALL BE LUBRICATE,PL-25369
+3000-02,PI,3000-02-MPS-03-733,PI_TP,C,INSTRUMENT INDICATOR SHALL BE INSTALL,PL-25370
+3000-02,PI,3000-02-MPS-03-733,PI_TP,C,ALL TEMPORARY GASKET USED FOR FLANGES CONNECTION SHALL BE REPLACED WITH ORIGINAL GASKET,PL-25371
+3000-02,PI,3000-02-MPS-03-733,PI_TP,C,ALL VALVES SHALL BE LUBRICATE,PL-25372
 3000-02,PI,3000-02-MPS-04-734,PI_TP,C,ALL LG SHALL BE INSTALL,PL-02437
 3000-02,PI,3000-02-MPS-04-734,PI_TP,C,ALL INSTRUMENT DEVICES SHALL BE INSTALL,PL-02438
 3000-02,PI,3000-02-MPS-04-734,PI_TP,C,ALL TEMPORARY GASKET USED FOR FLANGES AND LAVEL GAUGE MUST BE  REPLACED WITH ORIGINAL GASKETS,PL-02439
@@ -1862,6 +1868,9 @@ TEL-07,EL,07-SP-15,Paging Device,B,Tag no shall be installed.,PL-17108
 4000-15,PI,4000-06-SRW-25-1050,PI_TP,C,Tie in joints shall be after installed hose coupling steam (HS-003 & 025) reported . Also |history sheet updated and attached,PL-12165
 4000-15,PI,4000-06-SRW-25-1050,PI_TP,C,all installed valves should be lubricated,PL-12166
 4000-15,PI,4000-06-SRW-25-1050,PI_TP,C,"All insulation kitsb2""-CL:150-RF must be installed",PL-12167
+4000-07,PI,4000-07-PA-01-178,PI_TP,A,J:1 TIE-IN NDT STATUS SHALL BE CLEARED,PL-25373
+4000-07,PI,4000-07-PA-01-178,PI_TP,A,DESCRIPTION OF REV:0 SHLL BE MODIFIED (J:5-23) CHANGED TO TN,PL-25374
+4000-07,PI,4000-07-PA-01-178,PI_TP,A,DESCRIPTION OF REV:0 SHLL BE MODIFIED (J:5-21) CHANGED TO TN,PL-25375
 4000-07,PI,4000-07-PA-01-178,PI_TP,C,ALL INSTRUMENTION DEVICES SHOULD BE INSTALLED AFTER FACE Cleaning AND BEFORE PRECOMM (FI:3016 | PG:0003 | 3015 AND ALL HOSE COUPLINGS,PL-01619
 4000-07,PI,4000-07-PA-01-178,PI_TP,C,ALL TIE-IN WELDS AFTER INSTALLING HOSES COUPLINGS AIR SHOULD BE DONE FITUP AND WELDING REPORT BEFORE PRECOME AND THE UPDATED HISTORY SHEET MUST BE ATTACHED TO THE PACKAGE,PL-01620
 4000-07,PI,4000-07-PA-01-178,PI_TP,C,ALL TIE-IN WELDS AFTER INSTALLING HOSES COUPLINGS AIR SHOULD BE DONE FITUP AND WELDING REPORT | BEFORE PRECOMM AND HISTORY SHEET UPDATE,PL-01635
@@ -1869,6 +1878,7 @@ TEL-07,EL,07-SP-15,Paging Device,B,Tag no shall be installed.,PL-17108
 4000-07,PI,4000-07-PA-06-957,PI_TP,C,ITEM NO:4 SHALL BE DONE,PL-01685
 4000-07,PI,4000-07-PA-07-963,PI_TP,C,J:21TN SHALL BE WORK AFTER THE INSTALLATION OF HS-0003 AND HISTORY UPDATED,PL-02448
 4000-07,PI,4000-07-PA-08-964,PI_TP,C,HOSE CPLG (AIR) SHALL BE INSTALL,PL-02287
+4000-07,PI,4000-07-PA-09-992,PI_TP,A,J:249TN IS THD IF SEAL-WELD WAS DONE SHOULD BE APPLY IN HISTORY REMARK,PL-25376
 4000-07,PI,4000-07-PA-09-992,PI_TP,C,The instrument device Shall Be Installed ( PG-7150),PL-17252
 4000-08,PI,4000-08-CHA-01-513,PI_TP,C,THE APPROVED WATER(DEM) ANALYSIS SHOULD BE ATTACHED TO THE PACKAGE,PL-01782
 4000-08,PI,4000-08-CHA-01-513,PI_TP,C,FLANGE IS DISCONNECT FROM PL-8002,PL-01784
@@ -3079,13 +3089,13 @@ TEL-09,EL,CR-SP-03,Paging Device,A,Loud Speaker is not install.,PL-22421
 4000-05,MES,D-7002,Drum(D),C,Punch List Clear,PL-24649
 4000-05,MES,D-7002,Drum(D),C,PRESERVATION NOT DONE,PL-24650
 4000-05,MES,D-7002,Drum(D),C,REMOVE SCAFFOLD,PL-24651
+4000-05,MES,D-7003,Drum(D),C,PRESERVATION NOT DONE,PL-21712
+4000-05,MES,D-7003,Drum(D),C,Some points need touch up,PL-24910
+4000-05,MES,D-7003,Drum(D),C,CHECK THE GENERAL CLEANING,PL-24911
 4000-05,MES,D-7003,Drum(D),C,REMOVE SCAFFOLD,PL-21654
 4000-05,MES,D-7003,Drum(D),C,GENERAL CLEANING,PL-21655
 4000-05,MES,D-7003,Drum(D),C,Some points need touch up,PL-21656
 4000-05,MES,D-7003,Drum(D),C,PRESERVATION NOT DONE,PL-21712
-4000-05,MES,D-7003,Drum(D),C,PRESERVATION NOT DONE,PL-21712
-4000-05,MES,D-7003,Drum(D),C,Some points need touch up,PL-24910
-4000-05,MES,D-7003,Drum(D),C,CHECK THE GENERAL CLEANING,PL-24911
 7000-01,MES,D-7101,Drum(D),C,GENERAL Cleaning,PL-12251
 7000-01,MES,D-7101,Drum(D),C,REMOVE SCAFFOLD,PL-12265
 7000-01,MES,D-7101,Drum(D),C,Some points need touch up,PL-12227
@@ -3097,28 +3107,7 @@ TEL-09,EL,CR-SP-03,Paging Device,A,Loud Speaker is not install.,PL-22421
 1000-02,PI,DE-RF-FG-005,PI_TP,B,ALL INSTALLED SUPPORTS TYPE FU SHALL BE CHANGED TO TYPE GU,PL-02668
 120-18,EL,E_I-MC-SS-01,PANEL(EL),C,Cleaning Panel shall be done.,PL-16481
 120-18,EL,E_I-MC-SS-02,PANEL(EL),C,Cleaning Panel shall be done.,PL-16482
-ES-05,EL,E07-01(ES-05),Earthing System,B,Earth Resistance Shall Be Below 5 ?,PL-25019
-ES-05,EL,E07-02(ES-05),Earthing System,B,Earth Resistance Shall Be Below 5 ?,PL-25020
-ES-01,EL,E07-03(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25085
-ES-01,EL,E07-04(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25086
-ES-01,EL,E07-30(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25087
-ES-01,EL,E07-31(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25088
-ES-05,EL,E07-33(ES-05),Earthing System,B,Earth Resistance Shall Be Below 5 ?,PL-25021
-ES-05,EL,E07-34(ES-05),Earthing System,B,Earth Resistance Shall Be Below 5 ?,PL-25022
-ES-05,EL,E10-01(ES-05),Earthing System,B,Earth Resistance Shall Be Below 5 ?,PL-25023
-ES-01,EL,E10-02(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25089
-ES-01,EL,E10-03(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25090
-ES-01,EL,E10-04(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25091
-ES-01,EL,E1-01,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25092
-ES-01,EL,E1-02,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25093
-ES-01,EL,E1-03,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25094
-ES-01,EL,E1-04,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25095
-ES-01,EL,E1-07,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25096
-ES-01,EL,E1-08,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25097
-ES-01,EL,E18-01(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25098
-ES-01,EL,E18-02(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25099
-ES-01,EL,E2-01,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25100
-ES-01,EL,E2-02,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25101
+ES-05,EL,E07-01(ES-05),Earthing System,B,Earth Resistance Shall Be Below 5 ?(ALL TAG IN ES-05),PL-25019
 2000-04,MES,E-2022-1,Exchanger(E),B,REMOVE SCAFFOLD,PL-24069
 2000-04,MES,E-2022-1,Exchanger(E),C,Some points need touch up,PL-24070
 2000-04,MES,E-2022-1,Exchanger(E),C,GENRAL CLEANING,PL-24071
@@ -3177,120 +3166,6 @@ ES-01,EL,E2-02,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are inc
 2000-05,MES,E-2025,Exchanger(E),C,Bolting lubricant is not done,PL-15680
 2000-05,MES,E-2025,Exchanger(E),C,PRESERVATION NOT DONE,PL-15681
 2000-05,MES,E-2025,Exchanger(E),C,PUNCH LIST CLEAR,PL-15682
-ES-01,EL,E2-03,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25102
-ES-01,EL,E2-04,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25103
-ES-01,EL,E2-05,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25104
-ES-01,EL,E2-06,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25105
-ES-01,EL,E2-07,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25106
-ES-01,EL,E2-08,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25107
-ES-01,EL,E2-09,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25108
-ES-01,EL,E2-10,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25109
-ES-01,EL,E2-11,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25110
-ES-01,EL,E2-12,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25111
-ES-01,EL,E2-13,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25112
-ES-01,EL,E22-01(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25113
-ES-01,EL,E22-02(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25114
-ES-01,EL,E22-03(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25115
-ES-01,EL,E22-04(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25116
-ES-01,EL,E26-01,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25117
-ES-01,EL,E26-02,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25118
-ES-01,EL,E26-03,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25119
-ES-01,EL,E26-04,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25120
-ES-01,EL,E27-01,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25121
-ES-01,EL,E27-02,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25122
-ES-01,EL,E27-03,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25123
-ES-01,EL,E27-04,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25124
-ES-01,EL,E27-05,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25125
-ES-01,EL,E27-06,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25126
-ES-01,EL,E27-07,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25127
-ES-01,EL,E27-08,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25128
-ES-01,EL,E27-09,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25129
-ES-01,EL,E27-10,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25130
-ES-01,EL,E27-11,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25131
-ES-01,EL,E27-12,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25132
-ES-01,EL,E27-13,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25133
-ES-01,EL,E27-14,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25134
-ES-01,EL,E27-15,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25135
-ES-01,EL,E27-16,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25136
-ES-01,EL,E27-17,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25137
-ES-01,EL,E27-18,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25138
-ES-01,EL,E27-19,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25139
-ES-01,EL,E27-20,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25140
-ES-01,EL,E27-21,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25141
-ES-01,EL,E27-22,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25142
-ES-01,EL,E27-23,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25143
-ES-01,EL,E27-24,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25144
-ES-01,EL,E27-25,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25145
-ES-01,EL,E27-26,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25146
-ES-01,EL,E27-27,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25147
-ES-01,EL,E27-28,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25148
-ES-01,EL,E27-29,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25149
-ES-01,EL,E27-30,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25150
-ES-01,EL,E27-31,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25151
-ES-01,EL,E27-32,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25152
-ES-01,EL,E27-33,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25153
-ES-01,EL,E27-34,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25154
-ES-01,EL,E27-35,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25155
-ES-01,EL,E27-36,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25156
-ES-01,EL,E27-37,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25157
-ES-01,EL,E27-38,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25158
-ES-01,EL,E27-39,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25159
-ES-01,EL,E27-40,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25160
-ES-01,EL,E27-41,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25161
-ES-01,EL,E27-42,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25162
-ES-01,EL,E27-43,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25163
-ES-01,EL,E27-44,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25164
-ES-01,EL,E27-45,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25165
-ES-01,EL,E27-46,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25166
-ES-01,EL,E27-47,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25167
-ES-01,EL,E27-48,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25168
-ES-01,EL,E27-49,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25169
-ES-01,EL,E27-50,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25170
-ES-01,EL,E27-51,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25171
-ES-01,EL,E27-52,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25172
-ES-01,EL,E27-53,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25173
-ES-01,EL,E27-54,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25174
-ES-01,EL,E27-55,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25175
-ES-01,EL,E27-56,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25176
-ES-01,EL,E27-57,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25177
-ES-01,EL,E27-58,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25178
-ES-01,EL,E27-59,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25179
-ES-01,EL,E27-60,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25180
-ES-01,EL,E27-61,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25181
-ES-01,EL,E27-62,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25182
-ES-01,EL,E27-63,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25183
-ES-01,EL,E27-64,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25184
-ES-01,EL,E27-65,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25185
-ES-01,EL,E27-66,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25186
-ES-01,EL,E28-01(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25187
-ES-01,EL,E28-02(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25188
-ES-01,EL,E28-03(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25189
-ES-01,EL,E28-04(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25190
-ES-01,EL,E28-05(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25191
-ES-01,EL,E28-06(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25192
-ES-01,EL,E28-07(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25193
-ES-01,EL,E28-08(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25194
-ES-01,EL,E28-09(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25195
-ES-01,EL,E28-10(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25196
-ES-01,EL,E28-11(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25197
-ES-01,EL,E28-12(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25198
-ES-01,EL,E28-13(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25199
-ES-01,EL,E28-14(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25200
-ES-01,EL,E29-01(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25201
-ES-05,EL,E29-01(ES-05),Earthing System,B,Earth Resistance Shall Be Below 5 ?,PL-25024
-ES-01,EL,E29-02(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25202
-ES-01,EL,E29-03(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25203
-ES-01,EL,E29-04(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25204
-ES-01,EL,E29-05(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25205
-ES-01,EL,E29-06(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25206
-ES-01,EL,E29-07(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25207
-ES-01,EL,E29-08(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25208
-ES-01,EL,E29-09(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25209
-ES-01,EL,E29-10(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25210
-ES-01,EL,E29-11(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25211
-ES-01,EL,E29-12(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25212
-ES-01,EL,E29-13(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25213
-ES-01,EL,E30-01(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25214
 3000-02,MES,E-3001-1,Exchanger(E),C,PUNCH LIST CLEAR,PL-15650
 3000-02,MES,E-3001-1,Exchanger(E),C,Bolting lubricant is not done,PL-15651
 3000-02,MES,E-3001-1,Exchanger(E),C,GENRAL CLEANING,PL-15652
@@ -3310,100 +3185,26 @@ ES-01,EL,E30-01(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…
 3000-02,MES,E-3001-3,Exchanger(E),C,PRESERVATION NOT DONE,PL-02529
 3000-02,MES,E-3001-3,Exchanger(E),C,INSIDE OF SKIRT AT BOTTOM TO BE LEVEL,PL-02590
 3000-02,MES,E-3001-3,Exchanger(E),C,Some points need touch up,PL-02552
-ES-01,EL,E30-02(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25215
-ES-01,EL,E30-03(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25216
+3000-03,MES,E-3003-1,Exchanger(E),C,PRESERVATION NOT DONE,PL-02553
+3000-03,MES,E-3003-1,Exchanger(E),C,Some points need touch up,PL-02530
 3000-03,MES,E-3003-1,Exchanger(E),C,Check the general Cleaning after all activity done,PL-12276
 3000-03,MES,E-3003-1,Exchanger(E),C,Full bolting,PL-12312
 3000-03,MES,E-3003-1,Exchanger(E),C,Some points need touch up,PL-12294
 3000-03,MES,E-3003-1,Exchanger(E),C,Bolting lubricant is not done,PL-12330
 3000-03,MES,E-3003-1,Exchanger(E),C, Punch List clear,PL-12349
-3000-03,MES,E-3003-1,Exchanger(E),C,PRESERVATION NOT DONE,PL-02553
-3000-03,MES,E-3003-1,Exchanger(E),C,Some points need touch up,PL-02530
-3000-03,MES,E-3003-2,Exchanger(E),C,Some points need touch up,PL-02531
-3000-03,MES,E-3003-2,Exchanger(E),C,PRESERVATION NOT DONE,PL-02554
 3000-03,MES,E-3003-2,Exchanger(E),C, Punch List clear,PL-12350
 3000-03,MES,E-3003-2,Exchanger(E),C,Bolting lubricant is not done,PL-12331
 3000-03,MES,E-3003-2,Exchanger(E),C,Some points need touch up,PL-12295
 3000-03,MES,E-3003-2,Exchanger(E),C,Full bolting,PL-12313
 3000-03,MES,E-3003-2,Exchanger(E),C,Check the general Cleaning after all activity done,PL-12277
+3000-03,MES,E-3003-2,Exchanger(E),C,Some points need touch up,PL-02531
+3000-03,MES,E-3003-2,Exchanger(E),C,PRESERVATION NOT DONE,PL-02554
+3000-03,MES,E-3003-3,Exchanger(E),C,PRESERVATION NOT DONE,PL-02555
+3000-03,MES,E-3003-3,Exchanger(E),C,Some points need touch up,PL-02532
 3000-03,MES,E-3003-3,Exchanger(E),C,Check the general Cleaning after all activity done,PL-12278
 3000-03,MES,E-3003-3,Exchanger(E),C,Bolting lubricant is not done,PL-12314
 3000-03,MES,E-3003-3,Exchanger(E),C,Some points need touch up,PL-12296
 3000-03,MES,E-3003-3,Exchanger(E),C, Punch List clear,PL-12342
-3000-03,MES,E-3003-3,Exchanger(E),C,PRESERVATION NOT DONE,PL-02555
-3000-03,MES,E-3003-3,Exchanger(E),C,Some points need touch up,PL-02532
-ES-01,EL,E30-04(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25217
-ES-01,EL,E30-05(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25218
-ES-01,EL,E30-06(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25219
-ES-01,EL,E30-07(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25220
-ES-01,EL,E30-08(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25221
-ES-01,EL,E30-09(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25222
-ES-01,EL,E3-01,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25223
-ES-01,EL,E30-10(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25224
-ES-01,EL,E3-02,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25225
-ES-01,EL,E3-03,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25226
-ES-01,EL,E3-04,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25227
-ES-01,EL,E3-05,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25228
-ES-01,EL,E3-06,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25229
-ES-01,EL,E3-07,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25230
-ES-01,EL,E3-08,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25231
-ES-01,EL,E3-09,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25232
-ES-01,EL,E3-10,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25233
-ES-01,EL,E3-11,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25234
-ES-01,EL,E33-01(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25235
-ES-01,EL,E33-02(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25236
-ES-01,EL,E33-03(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25237
-ES-01,EL,E33-04(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25238
-ES-01,EL,E34-02(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25239
-ES-01,EL,E42-01(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25240
-ES-01,EL,E42-02(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25241
-ES-05,EL,E42-03(ES-05),Earthing System,B,Earth Resistance Shall Be Below 5 ?,PL-25025
-ES-05,EL,E42-04(ES-05),Earthing System,B,Earth Resistance Shall Be Below 5 ?,PL-25026
-ES-01,EL,E42-05(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25242
-ES-01,EL,E45-01(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25243
-ES-01,EL,E45-02(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25244
-ES-01,EL,E45-03,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25245
-ES-01,EL,E45-04,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25246
-ES-01,EL,E45-05,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25247
-ES-01,EL,E45-06,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25248
-ES-01,EL,E45-07,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25249
-ES-01,EL,E45-08,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25250
-ES-01,EL,E45-09,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25251
-ES-01,EL,E45-10,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25252
-ES-01,EL,E45-11,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25253
-ES-01,EL,E45-12,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25254
-ES-01,EL,E45-13,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25255
-ES-01,EL,E45-14,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25256
-ES-01,EL,E45-15,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25257
-ES-01,EL,E45-16,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25258
-ES-01,EL,E45-17,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25259
-ES-01,EL,E45-18,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25260
-ES-01,EL,E45-19,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25261
-ES-01,EL,E45-20,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25262
-ES-01,EL,E45-21,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25263
-ES-01,EL,E45-22,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25264
-ES-01,EL,E45-23,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25265
-ES-01,EL,E45-24,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25266
-ES-01,EL,E45-25,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25267
-ES-01,EL,E45-26,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25268
-ES-01,EL,E45-27,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25269
-ES-01,EL,E45-28,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25270
-ES-01,EL,E45-29,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25271
-ES-01,EL,E45-30,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25272
-ES-01,EL,E46-01(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25273
-ES-05,EL,E46-01(ES-05),Earthing System,B,Earth Resistance Shall Be Below 5 ?,PL-25027
-ES-01,EL,E46-02(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25274
-ES-05,EL,E46-02(ES-05),Earthing System,B,Earth Resistance Shall Be Below 5 ?,PL-25028
-ES-01,EL,E46-03(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25275
-ES-05,EL,E46-03(ES-05),Earthing System,B,Earth Resistance Shall Be Below 5 ?,PL-25029
-ES-01,EL,E46-04(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25276
-ES-01,EL,E46-05(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25277
-ES-01,EL,E46-06(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25278
-ES-01,EL,E46-07(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25279
-ES-01,EL,E46-08(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25280
-ES-01,EL,E46-09(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25281
-ES-01,EL,E46-10(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25282
-ES-01,EL,E46-11,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25283
 5000-01,MES,E-5001,Exchanger(E),C,Bolting lubricant is not done,PL-12332
 5000-01,MES,E-5001,Exchanger(E),C,Some points need touch up,PL-12297
 5000-01,MES,E-5001,Exchanger(E),A,TEST & REINSTATE NOT DONE N(G1 & G2) _ (PUNCH A),PL-12315
@@ -3471,76 +3272,6 @@ ES-01,EL,E46-11,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are in
 5000-04,MES,E-5012,Exchanger(E),C,Some points need touch up,PL-12304
 5000-04,MES,E-5012,Exchanger(E),C,PRESERVATION NOT DONE,PL-12337
 5000-04,MES,E-5012,Exchanger(E),C,PUNCH LIST CLEAR,PL-12345
-ES-01,EL,E55-01(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25284
-ES-01,EL,E55-02(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25285
-ES-01,EL,E55-03(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25286
-ES-01,EL,E55-04(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25287
-ES-01,EL,E55-05(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25288
-ES-01,EL,E55-06(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25289
-ES-01,EL,E55-07(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25290
-ES-01,EL,E55-08(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25291
-ES-01,EL,E55-09(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25292
-ES-01,EL,E55-10(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25293
-ES-01,EL,E55-11(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25294
-ES-01,EL,E55-12(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25295
-ES-01,EL,E55-13(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25296
-ES-01,EL,E55-14,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25297
-ES-01,EL,E55-15,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25298
-ES-01,EL,E55-16,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25299
-ES-01,EL,E55-17,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25300
-ES-01,EL,E55-18,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25301
-ES-01,EL,E55-19,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25302
-ES-01,EL,E55-20,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25303
-ES-01,EL,E55-21,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25304
-ES-01,EL,E55-22,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25305
-ES-01,EL,E55-23,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25306
-ES-01,EL,E55-24,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25307
-ES-01,EL,E55-25,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25308
-ES-01,EL,E55-26,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25309
-ES-01,EL,E55-27,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25310
-ES-01,EL,E55-28,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25311
-ES-01,EL,E55-29,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25312
-ES-01,EL,E55-30,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25313
-ES-01,EL,E55-31,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25314
-ES-01,EL,E55-32,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25315
-ES-01,EL,E55-33,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25316
-ES-01,EL,E55-34,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25317
-ES-01,EL,E55-35,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25318
-ES-01,EL,E55-36,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25319
-ES-01,EL,E55-37,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25320
-ES-01,EL,E55-38,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25321
-ES-01,EL,E55-39,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25322
-ES-01,EL,E55-40,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25323
-ES-01,EL,E55-41,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25324
-ES-01,EL,E56-01,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25325
-ES-01,EL,E56-02,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25326
-ES-01,EL,E56-03,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25327
-ES-01,EL,E56-04,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25328
-ES-01,EL,E56-05,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25329
-ES-01,EL,E56-06,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25330
-ES-01,EL,E56-07,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25331
-ES-01,EL,E56-08,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25332
-ES-01,EL,E56-09,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25333
-ES-01,EL,E56-10,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25334
-ES-01,EL,E56-11,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25335
-ES-01,EL,E58-SS-01,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25336
-ES-01,EL,E58-SS-02,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25337
-ES-01,EL,E58-SS-03,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25338
-ES-01,EL,E58-SS-04,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25339
-ES-01,EL,E58-SS-05,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25340
-ES-01,EL,E58-SS-06,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25341
-ES-01,EL,E58-SS-07,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25342
-ES-01,EL,E58-SS-08,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25343
-ES-01,EL,E58-SS-09,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25344
-ES-01,EL,E58-SS-10,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25345
-ES-01,EL,E58-SS-11,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25346
-ES-01,EL,E58-SS-12,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25347
-ES-01,EL,E58-SS-13,Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25348
-ES-05,EL,E58-WH-01,Earthing System,B,Earth Resistance Shall Be Below 5 ?,PL-25030
-ES-05,EL,E58-WH-02,Earthing System,B,Earth Resistance Shall Be Below 5 ?,PL-25031
-ES-05,EL,E58-WH-03,Earthing System,B,Earth Resistance Shall Be Below 5 ?,PL-25032
-ES-05,EL,E58-WH-04,Earthing System,B,Earth Resistance Shall Be Below 5 ?,PL-25033
-ES-05,EL,E58-WH-05,Earthing System,B,Earth Resistance Shall Be Below 5 ?,PL-25034
 1000-03,MES,E-6001,Exchanger(E),C,GENRAL CLEANING,PL-17218
 1000-03,MES,E-6001,Exchanger(E),C,PRESERVATION NOT DONE,PL-17219
 1000-03,MES,E-6001,Exchanger(E),C,REMOVE SCAFFOLD,PL-17220
@@ -3557,29 +3288,7 @@ ES-05,EL,E58-WH-05,Earthing System,B,Earth Resistance Shall Be Below 5 ?,PL-2503
 1000-03,MES,E-6004,Exchanger(E),C,PRESERVATION NOT DONE,PL-17231
 1000-03,MES,E-6004,Exchanger(E),C,REMOVE SCAFFOLD,PL-17232
 1000-03,MES,E-6004,Exchanger(E),C,Some points need touch up,PL-17233
-ES-05,EL,E61-01,Earthing System,B,Earth Resistance Shall Be Below 5 ?,PL-25035
-ES-05,EL,E61-02,Earthing System,B,Earth Resistance Shall Be Below 5 ?,PL-25036
-ES-05,EL,E8-01(ES-05),Earthing System,B,Earth Resistance Shall Be Below 5 ?,PL-25037
-ES-01,EL,E8-02(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25349
-ES-01,EL,E8-03(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25350
-ES-01,EL,E8-04(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25351
-ES-01,EL,E8-05(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25352
-ES-01,EL,E8-06(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25353
-ES-01,EL,E8-07(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25354
-ES-01,EL,E8-11(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25355
-ES-01,EL,E8-12(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25356
-ES-01,EL,E8-13(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25357
-ES-01,EL,E8-14(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25358
-ES-01,EL,E8-15(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25359
-ES-01,EL,E8-16(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25360
-ES-01,EL,E8-17(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25361
-ES-05,EL,E8-18(ES-05),Earthing System,B,Earth Resistance Shall Be Below 5 ?,PL-25038
-ES-05,EL,E8-19(ES-05),Earthing System,B,Earth Resistance Shall Be Below 5 ?,PL-25039
-ES-01,EL,E8-20(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25362
-ES-01,EL,E8-21(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25363
-ES-05,EL,E8-24(ES-05),Earthing System,B,Earth Resistance Shall Be Below 5 ?,PL-25040
-ES-01,EL,E8-25(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25364
-ES-01,EL,E8-26(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25365
+ES-01,EL,E8-26(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage)ALL TAG IN ES-01,PL-25365
 120-01,EL,EAP-MC-2001,Power Cable A,B,Tag no(s.s) shall be install.,PL-06199
 120-01,EL,EAP-MC-2001,Power Cable A,A,Termination shall be done.,PL-06323
 120-01,EL,EAP-MC-2002,Power Cable A,A,Termination shall be done.,PL-06275
@@ -5349,124 +5058,124 @@ LS-01,EL,EBP-LAB-LP-01,Power Cable B,B,Tag فلزي کابل ها نصب شود,
 120-11,EL,EBP-SS-PDCS-01B,Power Cable B,B,TAG NO (S.S) SHALL BE INSTALLED.,PL-24995
 120-11,EL,EBP-SS-PDCS-01B,Power Cable B,B,CABLE ARRANGEMENT SHALL BE DONE.,PL-25003
 120-11,EL,EBP-SS-PDCS-01B,Power Cable B,C,CLEANING CABLE ROOM SHALL BE DONE.,PL-25011
+120-07,EL,EBP-SS-PRB-01,Power Cable B,C,Cleaning ladder shall be done.,PL-12119
 120-07,EL,EBP-SS-PRB-01,Power Cable B,A,Termination shall be done.,PL-11917
 120-07,EL,EBP-SS-PRB-01,Power Cable B,A,cable shall be fixed by clamp,PL-12018
 120-07,EL,EBP-SS-PRB-01,Power Cable B,B,Tag No shall be installed.,PL-11715
-120-07,EL,EBP-SS-PRB-01,Power Cable B,C,Cleaning ladder shall be done.,PL-12119
+120-07,EL,EBP-SS-SWB2A-01_AS,Power Cable B,B,Tag No shall be installed.,PL-11699
+120-07,EL,EBP-SS-SWB2A-01_AS,Power Cable B,A,cable shall be fixed by clamp,PL-12002
+120-07,EL,EBP-SS-SWB2A-01_AS,Power Cable B,A,Termination shall be done.,PL-11901
 120-07,EL,EBP-SS-SWB2A-01_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12103
 120-07,EL,EBP-SS-SWB2A-01_AS,Power Cable B,B,Fixing cable shall be done.,PL-16854
 120-07,EL,EBP-SS-SWB2A-01_AS,Power Cable B,B,CABLE tag (S.S) shall be install.,PL-16734
 120-07,EL,EBP-SS-SWB2A-01_AS,Power Cable B,C,Cleaning shall be done.,PL-16814
-120-07,EL,EBP-SS-SWB2A-01_AS,Power Cable B,B,Tag No shall be installed.,PL-11699
-120-07,EL,EBP-SS-SWB2A-01_AS,Power Cable B,A,cable shall be fixed by clamp,PL-12002
-120-07,EL,EBP-SS-SWB2A-01_AS,Power Cable B,A,Termination shall be done.,PL-11901
-120-07,EL,EBP-SS-SWB2B-01_AS,Power Cable B,A,Termination shall be done.,PL-11902
-120-07,EL,EBP-SS-SWB2B-01_AS,Power Cable B,A,cable shall be fixed by clamp,PL-12003
-120-07,EL,EBP-SS-SWB2B-01_AS,Power Cable B,B,Tag No shall be installed.,PL-11700
 120-07,EL,EBP-SS-SWB2B-01_AS,Power Cable B,C,Cleaning shall be done.,PL-16815
 120-07,EL,EBP-SS-SWB2B-01_AS,Power Cable B,B,CABLE tag (S.S) shall be install.,PL-16735
 120-07,EL,EBP-SS-SWB2B-01_AS,Power Cable B,B,Fixing cable shall be done.,PL-16855
 120-07,EL,EBP-SS-SWB2B-01_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12104
-120-07,EL,EBP-SS-SWB3A-01_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12105
+120-07,EL,EBP-SS-SWB2B-01_AS,Power Cable B,A,Termination shall be done.,PL-11902
+120-07,EL,EBP-SS-SWB2B-01_AS,Power Cable B,A,cable shall be fixed by clamp,PL-12003
+120-07,EL,EBP-SS-SWB2B-01_AS,Power Cable B,B,Tag No shall be installed.,PL-11700
 120-07,EL,EBP-SS-SWB3A-01_AS,Power Cable B,B,Tag No shall be installed.,PL-11701
 120-07,EL,EBP-SS-SWB3A-01_AS,Power Cable B,A,cable shall be fixed by clamp,PL-12004
 120-07,EL,EBP-SS-SWB3A-01_AS,Power Cable B,A,Termination shall be done.,PL-11903
+120-07,EL,EBP-SS-SWB3A-01_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12105
+120-07,EL,EBP-SS-SWB3A-02_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12107
 120-07,EL,EBP-SS-SWB3A-02_AS,Power Cable B,A,Termination shall be done.,PL-11905
 120-07,EL,EBP-SS-SWB3A-02_AS,Power Cable B,A,cable shall be fixed by clamp,PL-12006
 120-07,EL,EBP-SS-SWB3A-02_AS,Power Cable B,B,Tag No shall be installed.,PL-11703
-120-07,EL,EBP-SS-SWB3A-02_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12107
-120-07,EL,EBP-SS-SWB3A-03_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12109
 120-07,EL,EBP-SS-SWB3A-03_AS,Power Cable B,B,Tag No shall be installed.,PL-11705
 120-07,EL,EBP-SS-SWB3A-03_AS,Power Cable B,A,cable shall be fixed by clamp,PL-12008
 120-07,EL,EBP-SS-SWB3A-03_AS,Power Cable B,A,Termination shall be done.,PL-11907
+120-07,EL,EBP-SS-SWB3A-03_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12109
+120-07,EL,EBP-SS-SWB3A-04_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12111
 120-07,EL,EBP-SS-SWB3A-04_AS,Power Cable B,A,Termination shall be done.,PL-11909
 120-07,EL,EBP-SS-SWB3A-04_AS,Power Cable B,A,cable shall be fixed by clamp,PL-12010
 120-07,EL,EBP-SS-SWB3A-04_AS,Power Cable B,B,Tag No shall be installed.,PL-11707
-120-07,EL,EBP-SS-SWB3A-04_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12111
-120-07,EL,EBP-SS-SWB3A-05_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12113
 120-07,EL,EBP-SS-SWB3A-05_AS,Power Cable B,B,Tag No shall be installed.,PL-11709
 120-07,EL,EBP-SS-SWB3A-05_AS,Power Cable B,A,cable shall be fixed by clamp,PL-12012
 120-07,EL,EBP-SS-SWB3A-05_AS,Power Cable B,A,Termination shall be done.,PL-11911
+120-07,EL,EBP-SS-SWB3A-05_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12113
+120-07,EL,EBP-SS-SWB3B-01_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12106
 120-07,EL,EBP-SS-SWB3B-01_AS,Power Cable B,A,Termination shall be done.,PL-11904
 120-07,EL,EBP-SS-SWB3B-01_AS,Power Cable B,A,cable shall be fixed by clamp,PL-12005
 120-07,EL,EBP-SS-SWB3B-01_AS,Power Cable B,B,Tag No shall be installed.,PL-11702
-120-07,EL,EBP-SS-SWB3B-01_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12106
-120-07,EL,EBP-SS-SWB3B-02_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12108
 120-07,EL,EBP-SS-SWB3B-02_AS,Power Cable B,B,Tag No shall be installed.,PL-11704
 120-07,EL,EBP-SS-SWB3B-02_AS,Power Cable B,A,cable shall be fixed by clamp,PL-12007
 120-07,EL,EBP-SS-SWB3B-02_AS,Power Cable B,A,Termination shall be done.,PL-11906
+120-07,EL,EBP-SS-SWB3B-02_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12108
+120-07,EL,EBP-SS-SWB3B-03_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12110
 120-07,EL,EBP-SS-SWB3B-03_AS,Power Cable B,A,Termination shall be done.,PL-11908
 120-07,EL,EBP-SS-SWB3B-03_AS,Power Cable B,A,cable shall be fixed by clamp,PL-12009
 120-07,EL,EBP-SS-SWB3B-03_AS,Power Cable B,B,Tag No shall be installed.,PL-11706
-120-07,EL,EBP-SS-SWB3B-03_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12110
-120-07,EL,EBP-SS-SWB3B-04_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12112
 120-07,EL,EBP-SS-SWB3B-04_AS,Power Cable B,B,Tag No shall be installed.,PL-11708
 120-07,EL,EBP-SS-SWB3B-04_AS,Power Cable B,A,cable shall be fixed by clamp,PL-12011
 120-07,EL,EBP-SS-SWB3B-04_AS,Power Cable B,A,Termination shall be done.,PL-11910
+120-07,EL,EBP-SS-SWB3B-04_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12112
+120-07,EL,EBP-SS-SWB3B-05_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12114
 120-07,EL,EBP-SS-SWB3B-05_AS,Power Cable B,A,Termination shall be done.,PL-11912
 120-07,EL,EBP-SS-SWB3B-05_AS,Power Cable B,A,cable shall be fixed by clamp,PL-12013
 120-07,EL,EBP-SS-SWB3B-05_AS,Power Cable B,B,Tag No shall be installed.,PL-11710
-120-07,EL,EBP-SS-SWB3B-05_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12114
-120-07,EL,EBP-SS-TR1A-01_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12087
 120-07,EL,EBP-SS-TR1A-01_AS,Power Cable B,B,Tag No shall be installed.,PL-11683
 120-07,EL,EBP-SS-TR1A-01_AS,Power Cable B,A,cable shall be fixed by clamp,PL-11986
 120-07,EL,EBP-SS-TR1A-01_AS,Power Cable B,A,Termination shall be done.,PL-11885
+120-07,EL,EBP-SS-TR1A-01_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12087
+120-07,EL,EBP-SS-TR1B-01_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12088
 120-07,EL,EBP-SS-TR1B-01_AS,Power Cable B,A,Termination shall be done.,PL-11886
 120-07,EL,EBP-SS-TR1B-01_AS,Power Cable B,A,cable shall be fixed by clamp,PL-11987
 120-07,EL,EBP-SS-TR1B-01_AS,Power Cable B,B,Tag No shall be installed.,PL-11684
-120-07,EL,EBP-SS-TR1B-01_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12088
-120-07,EL,EBP-SS-TR2A-01_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12089
 120-07,EL,EBP-SS-TR2A-01_AS,Power Cable B,B,Tag No shall be installed.,PL-11685
 120-07,EL,EBP-SS-TR2A-01_AS,Power Cable B,A,cable shall be fixed by clamp,PL-11988
 120-07,EL,EBP-SS-TR2A-01_AS,Power Cable B,A,Termination shall be done.,PL-11887
+120-07,EL,EBP-SS-TR2A-01_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12089
+120-07,EL,EBP-SS-TR2A-02_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12091
 120-07,EL,EBP-SS-TR2A-02_AS,Power Cable B,A,Termination shall be done.,PL-11889
 120-07,EL,EBP-SS-TR2A-02_AS,Power Cable B,A,cable shall be fixed by clamp,PL-11990
 120-07,EL,EBP-SS-TR2A-02_AS,Power Cable B,B,Tag No shall be installed.,PL-11687
-120-07,EL,EBP-SS-TR2A-02_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12091
-120-07,EL,EBP-SS-TR2A-03_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12093
 120-07,EL,EBP-SS-TR2A-03_AS,Power Cable B,B,Tag No shall be installed.,PL-11689
 120-07,EL,EBP-SS-TR2A-03_AS,Power Cable B,A,cable shall be fixed by clamp,PL-11992
 120-07,EL,EBP-SS-TR2A-03_AS,Power Cable B,A,Termination shall be done.,PL-11891
+120-07,EL,EBP-SS-TR2A-03_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12093
+120-07,EL,EBP-SS-TR2A-04_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12095
 120-07,EL,EBP-SS-TR2A-04_AS,Power Cable B,A,Termination shall be done.,PL-11893
 120-07,EL,EBP-SS-TR2A-04_AS,Power Cable B,A,cable shall be fixed by clamp,PL-11994
 120-07,EL,EBP-SS-TR2A-04_AS,Power Cable B,B,Tag No shall be installed.,PL-11691
-120-07,EL,EBP-SS-TR2A-04_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12095
-120-07,EL,EBP-SS-TR2A-05_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12097
 120-07,EL,EBP-SS-TR2A-05_AS,Power Cable B,B,Tag No shall be installed.,PL-11693
 120-07,EL,EBP-SS-TR2A-05_AS,Power Cable B,A,cable shall be fixed by clamp,PL-11996
 120-07,EL,EBP-SS-TR2A-05_AS,Power Cable B,A,Termination shall be done.,PL-11895
+120-07,EL,EBP-SS-TR2A-05_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12097
+120-07,EL,EBP-SS-TR2A-06_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12099
 120-07,EL,EBP-SS-TR2A-06_AS,Power Cable B,A,cable shall be fixed by clamp,PL-11998
 120-07,EL,EBP-SS-TR2A-06_AS,Power Cable B,A,Termination shall be done.,PL-11897
 120-07,EL,EBP-SS-TR2A-06_AS,Power Cable B,B,Tag No shall be installed.,PL-11695
-120-07,EL,EBP-SS-TR2A-06_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12099
-120-07,EL,EBP-SS-TR2B-01_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12090
 120-07,EL,EBP-SS-TR2B-01_AS,Power Cable B,B,Tag No shall be installed.,PL-11686
 120-07,EL,EBP-SS-TR2B-01_AS,Power Cable B,A,cable shall be fixed by clamp,PL-11989
 120-07,EL,EBP-SS-TR2B-01_AS,Power Cable B,A,Termination shall be done.,PL-11888
+120-07,EL,EBP-SS-TR2B-01_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12090
+120-07,EL,EBP-SS-TR2B-02_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12092
 120-07,EL,EBP-SS-TR2B-02_AS,Power Cable B,A,Termination shall be done.,PL-11890
 120-07,EL,EBP-SS-TR2B-02_AS,Power Cable B,A,cable shall be fixed by clamp,PL-11991
 120-07,EL,EBP-SS-TR2B-02_AS,Power Cable B,B,Tag No shall be installed.,PL-11688
-120-07,EL,EBP-SS-TR2B-02_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12092
-120-07,EL,EBP-SS-TR2B-03_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12094
 120-07,EL,EBP-SS-TR2B-03_AS,Power Cable B,B,Tag No shall be installed.,PL-11690
 120-07,EL,EBP-SS-TR2B-03_AS,Power Cable B,A,cable shall be fixed by clamp,PL-11993
 120-07,EL,EBP-SS-TR2B-03_AS,Power Cable B,A,Termination shall be done.,PL-11892
+120-07,EL,EBP-SS-TR2B-03_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12094
+120-07,EL,EBP-SS-TR2B-04_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12096
 120-07,EL,EBP-SS-TR2B-04_AS,Power Cable B,A,Termination shall be done.,PL-11894
 120-07,EL,EBP-SS-TR2B-04_AS,Power Cable B,A,cable shall be fixed by clamp,PL-11995
 120-07,EL,EBP-SS-TR2B-04_AS,Power Cable B,B,Tag No shall be installed.,PL-11692
-120-07,EL,EBP-SS-TR2B-04_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12096
-120-07,EL,EBP-SS-TR2B-05_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12098
 120-07,EL,EBP-SS-TR2B-05_AS,Power Cable B,B,Tag No shall be installed.,PL-11694
 120-07,EL,EBP-SS-TR2B-05_AS,Power Cable B,A,cable shall be fixed by clamp,PL-11997
 120-07,EL,EBP-SS-TR2B-05_AS,Power Cable B,A,Termination shall be done.,PL-11896
+120-07,EL,EBP-SS-TR2B-05_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12098
+120-07,EL,EBP-SS-TR2B-06_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12100
 120-07,EL,EBP-SS-TR2B-06_AS,Power Cable B,A,cable shall be fixed by clamp,PL-11999
 120-07,EL,EBP-SS-TR2B-06_AS,Power Cable B,A,Termination shall be done.,PL-11898
 120-07,EL,EBP-SS-TR2B-06_AS,Power Cable B,B,Tag No shall be installed.,PL-11696
-120-07,EL,EBP-SS-TR2B-06_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12100
-120-07,EL,EBP-SS-UPS-01_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12117
 120-07,EL,EBP-SS-UPS-01_AS,Power Cable B,B,Tag No shall be installed.,PL-11713
 120-07,EL,EBP-SS-UPS-01_AS,Power Cable B,A,Termination shall be done.,PL-11915
 120-07,EL,EBP-SS-UPS-01_AS,Power Cable B,A,cable shall be fixed by clamp,PL-12016
+120-07,EL,EBP-SS-UPS-01_AS,Power Cable B,C,Cleaning ladder shall be done.,PL-12117
 LS-02,EL,EBP-YO-ELP-01,Power Cable B,B,S.S tags shall be install.,PL-04760
 LS-01,EL,EBP-YO-LP-01,Power Cable B,B,S.S tags shall be install.,PL-04758
 120-02,EL,ECC-FT7001A-HE-2_1,Power Cable B,C,Cleaning ladder shall be done.,PL-09128
@@ -6239,101 +5948,101 @@ LS-01,EL,EBP-YO-LP-01,Power Cable B,B,S.S tags shall be install.,PL-04758
 120-10,EL,ECP-SS-CBT-01+,Power Cable B,B,TAG NO (S.S) SHALL BE INSTALLED.,PL-24999
 120-10,EL,ECP-SS-CBT-01+,Power Cable B,B,CABLE ARRANGEMENT SHALL BE DONE.,PL-25007
 120-10,EL,ECP-SS-CBT-01+,Power Cable B,C,CLEANING CABLE ROOM SHALL BE DONE.,PL-25015
-120-10,EL,ECP-SS-CIS-01-,Power Cable B,B,Tag No shall be installed.,PL-11719
 120-10,EL,ECP-SS-CIS-01-,Power Cable B,C,Cleaning ladder shall be done.,PL-12123
 120-10,EL,ECP-SS-CIS-01-,Power Cable B,A,cable shall be fixed by clamp,PL-12022
+120-10,EL,ECP-SS-CIS-01-,Power Cable B,B,Tag No shall be installed.,PL-11719
+120-10,EL,ECP-SS-CIS-01+,Power Cable B,B,Tag No shall be installed.,PL-11718
 120-10,EL,ECP-SS-CIS-01+,Power Cable B,A,cable shall be fixed by clamp,PL-12021
 120-10,EL,ECP-SS-CIS-01+,Power Cable B,C,Cleaning ladder shall be done.,PL-12122
-120-10,EL,ECP-SS-CIS-01+,Power Cable B,B,Tag No shall be installed.,PL-11718
-120-10,EL,ECP-SS-SWB2A-01_1,Power Cable B,B,Tag No shall be installed.,PL-11720
 120-10,EL,ECP-SS-SWB2A-01_1,Power Cable B,C,Cleaning ladder shall be done.,PL-12124
 120-10,EL,ECP-SS-SWB2A-01_1,Power Cable B,A,cable shall be fixed by clamp,PL-12023
 120-10,EL,ECP-SS-SWB2A-01_1,Power Cable B,C,Cleaning shall be done.,PL-16816
 120-10,EL,ECP-SS-SWB2A-01_1,Power Cable B,B,CABLE tag (S.S) shall be install.,PL-16736
 120-10,EL,ECP-SS-SWB2A-01_1,Power Cable B,B,Fixing cable shall be done.,PL-16856
+120-10,EL,ECP-SS-SWB2A-01_1,Power Cable B,B,Tag No shall be installed.,PL-11720
+120-10,EL,ECP-SS-SWB2A-01_2,Power Cable B,B,Tag No shall be installed.,PL-11721
 120-10,EL,ECP-SS-SWB2A-01_2,Power Cable B,B,Fixing cable shall be done.,PL-16857
 120-10,EL,ECP-SS-SWB2A-01_2,Power Cable B,B,CABLE tag (S.S) shall be install.,PL-16737
 120-10,EL,ECP-SS-SWB2A-01_2,Power Cable B,C,Cleaning shall be done.,PL-16817
 120-10,EL,ECP-SS-SWB2A-01_2,Power Cable B,A,cable shall be fixed by clamp,PL-12024
 120-10,EL,ECP-SS-SWB2A-01_2,Power Cable B,C,Cleaning ladder shall be done.,PL-12125
-120-10,EL,ECP-SS-SWB2A-01_2,Power Cable B,B,Tag No shall be installed.,PL-11721
-120-01,EL,ECP-SS-SWB2AB-01,Power Cable B,B,Tag No shall be installed.,PL-11724
-120-01,EL,ECP-SS-SWB2AB-01,Power Cable B,A,Termination shall be done.,PL-11926
 120-01,EL,ECP-SS-SWB2AB-01,Power Cable B,B,CABLE tag (S.S) shall be install.,PL-16733
 120-01,EL,ECP-SS-SWB2AB-01,Power Cable B,C,Cleaning shall be done.,PL-16813
 120-01,EL,ECP-SS-SWB2AB-01,Power Cable B,B,Fixing cable shall be done.,PL-16853
+120-01,EL,ECP-SS-SWB2AB-01,Power Cable B,B,Tag No shall be installed.,PL-11724
+120-01,EL,ECP-SS-SWB2AB-01,Power Cable B,A,Termination shall be done.,PL-11926
+120-10,EL,ECP-SS-SWB2B-01_1,Power Cable B,B,Tag No shall be installed.,PL-11722
 120-10,EL,ECP-SS-SWB2B-01_1,Power Cable B,C,Cleaning shall be done.,PL-16818
 120-10,EL,ECP-SS-SWB2B-01_1,Power Cable B,B,CABLE tag (S.S) shall be install.,PL-16738
 120-10,EL,ECP-SS-SWB2B-01_1,Power Cable B,B,Fixing cable shall be done.,PL-16858
 120-10,EL,ECP-SS-SWB2B-01_1,Power Cable B,C,Cleaning ladder shall be done.,PL-12126
 120-10,EL,ECP-SS-SWB2B-01_1,Power Cable B,A,cable shall be fixed by clamp,PL-12025
-120-10,EL,ECP-SS-SWB2B-01_1,Power Cable B,B,Tag No shall be installed.,PL-11722
-120-10,EL,ECP-SS-SWB2B-01_2,Power Cable B,B,Tag No shall be installed.,PL-11723
 120-10,EL,ECP-SS-SWB2B-01_2,Power Cable B,A,cable shall be fixed by clamp,PL-12026
 120-10,EL,ECP-SS-SWB2B-01_2,Power Cable B,C,Cleaning ladder shall be done.,PL-12127
 120-10,EL,ECP-SS-SWB2B-01_2,Power Cable B,B,Fixing cable shall be done.,PL-16859
 120-10,EL,ECP-SS-SWB2B-01_2,Power Cable B,B,CABLE tag (S.S) shall be install.,PL-16739
 120-10,EL,ECP-SS-SWB2B-01_2,Power Cable B,C,Cleaning shall be done.,PL-16819
+120-10,EL,ECP-SS-SWB2B-01_2,Power Cable B,B,Tag No shall be installed.,PL-11723
+120-10,EL,ECP-SS-SWB3A-01,Power Cable B,B,Tag No shall be installed.,PL-11725
 120-10,EL,ECP-SS-SWB3A-01,Power Cable B,C,Cleaning ladder shall be done.,PL-12129
 120-10,EL,ECP-SS-SWB3A-01,Power Cable B,A,cable shall be fixed by clamp,PL-12028
 120-10,EL,ECP-SS-SWB3A-01,Power Cable B,B,tag no S.S shall be installed.,PL-12556
 120-10,EL,ECP-SS-SWB3A-01,Power Cable B,A,EARTH JUMPER SHOULD BE DONE,PL-12576
 120-10,EL,ECP-SS-SWB3A-01,Power Cable B,B,Heat shrink shall be installed.,PL-12586
-120-10,EL,ECP-SS-SWB3A-01,Power Cable B,B,Tag No shall be installed.,PL-11725
-120-10,EL,ECP-SS-SWB3A-02,Power Cable B,B,Tag No shall be installed.,PL-11727
 120-10,EL,ECP-SS-SWB3A-02,Power Cable B,B,Heat shrink shall be installed.,PL-12588
 120-10,EL,ECP-SS-SWB3A-02,Power Cable B,A,EARTH JUMPER SHOULD BE DONE,PL-12578
 120-10,EL,ECP-SS-SWB3A-02,Power Cable B,B,tag no S.S shall be installed.,PL-12558
 120-10,EL,ECP-SS-SWB3A-02,Power Cable B,A,cable shall be fixed by clamp,PL-12030
 120-10,EL,ECP-SS-SWB3A-02,Power Cable B,C,Cleaning ladder shall be done.,PL-12131
+120-10,EL,ECP-SS-SWB3A-02,Power Cable B,B,Tag No shall be installed.,PL-11727
+120-10,EL,ECP-SS-SWB3A-03,Power Cable B,B,Tag No shall be installed.,PL-11729
 120-10,EL,ECP-SS-SWB3A-03,Power Cable B,C,Cleaning ladder shall be done.,PL-12133
 120-10,EL,ECP-SS-SWB3A-03,Power Cable B,A,cable shall be fixed by clamp,PL-12032
 120-10,EL,ECP-SS-SWB3A-03,Power Cable B,B,tag no S.S shall be installed.,PL-12560
 120-10,EL,ECP-SS-SWB3A-03,Power Cable B,B,Heat shrink shall be installed.,PL-12590
 120-10,EL,ECP-SS-SWB3A-03,Power Cable B,A,EARTH JUMPER SHOULD BE DONE,PL-12580
-120-10,EL,ECP-SS-SWB3A-03,Power Cable B,B,Tag No shall be installed.,PL-11729
-120-10,EL,ECP-SS-SWB3A-04,Power Cable B,B,Tag No shall be installed.,PL-11731
 120-10,EL,ECP-SS-SWB3A-04,Power Cable B,A,EARTH JUMPER SHOULD BE DONE,PL-12582
 120-10,EL,ECP-SS-SWB3A-04,Power Cable B,B,Heat shrink shall be installed.,PL-12592
 120-10,EL,ECP-SS-SWB3A-04,Power Cable B,B,tag no S.S shall be installed.,PL-12562
 120-10,EL,ECP-SS-SWB3A-04,Power Cable B,A,cable shall be fixed by clamp,PL-12034
 120-10,EL,ECP-SS-SWB3A-04,Power Cable B,C,Cleaning ladder shall be done.,PL-12135
+120-10,EL,ECP-SS-SWB3A-04,Power Cable B,B,Tag No shall be installed.,PL-11731
+120-10,EL,ECP-SS-SWB3A-05,Power Cable B,B,Tag No shall be installed.,PL-11733
 120-10,EL,ECP-SS-SWB3A-05,Power Cable B,C,Cleaning ladder shall be done.,PL-12137
 120-10,EL,ECP-SS-SWB3A-05,Power Cable B,A,cable shall be fixed by clamp,PL-12036
 120-10,EL,ECP-SS-SWB3A-05,Power Cable B,B,tag no S.S shall be installed.,PL-12564
 120-10,EL,ECP-SS-SWB3A-05,Power Cable B,B,Heat shrink shall be installed.,PL-12594
 120-10,EL,ECP-SS-SWB3A-05,Power Cable B,A,EARTH JUMPER SHOULD BE DONE,PL-12584
-120-10,EL,ECP-SS-SWB3A-05,Power Cable B,B,Tag No shall be installed.,PL-11733
-120-10,EL,ECP-SS-SWB3B-01,Power Cable B,B,Tag No shall be installed.,PL-11726
 120-10,EL,ECP-SS-SWB3B-01,Power Cable B,B,Heat shrink shall be installed.,PL-12587
 120-10,EL,ECP-SS-SWB3B-01,Power Cable B,A,EARTH JUMPER SHOULD BE DONE,PL-12577
 120-10,EL,ECP-SS-SWB3B-01,Power Cable B,B,tag no S.S shall be installed.,PL-12557
 120-10,EL,ECP-SS-SWB3B-01,Power Cable B,A,cable shall be fixed by clamp,PL-12029
 120-10,EL,ECP-SS-SWB3B-01,Power Cable B,C,Cleaning ladder shall be done.,PL-12130
+120-10,EL,ECP-SS-SWB3B-01,Power Cable B,B,Tag No shall be installed.,PL-11726
+120-10,EL,ECP-SS-SWB3B-02,Power Cable B,B,Tag No shall be installed.,PL-11728
 120-10,EL,ECP-SS-SWB3B-02,Power Cable B,C,Cleaning ladder shall be done.,PL-12132
 120-10,EL,ECP-SS-SWB3B-02,Power Cable B,A,cable shall be fixed by clamp,PL-12031
 120-10,EL,ECP-SS-SWB3B-02,Power Cable B,B,tag no S.S shall be installed.,PL-12559
 120-10,EL,ECP-SS-SWB3B-02,Power Cable B,A,EARTH JUMPER SHOULD BE DONE,PL-12579
 120-10,EL,ECP-SS-SWB3B-02,Power Cable B,B,Heat shrink shall be installed.,PL-12589
-120-10,EL,ECP-SS-SWB3B-02,Power Cable B,B,Tag No shall be installed.,PL-11728
-120-10,EL,ECP-SS-SWB3B-03,Power Cable B,B,Tag No shall be installed.,PL-11730
 120-10,EL,ECP-SS-SWB3B-03,Power Cable B,B,Heat shrink shall be installed.,PL-12591
 120-10,EL,ECP-SS-SWB3B-03,Power Cable B,A,EARTH JUMPER SHOULD BE DONE,PL-12581
 120-10,EL,ECP-SS-SWB3B-03,Power Cable B,B,tag no S.S shall be installed.,PL-12561
 120-10,EL,ECP-SS-SWB3B-03,Power Cable B,A,cable shall be fixed by clamp,PL-12033
 120-10,EL,ECP-SS-SWB3B-03,Power Cable B,C,Cleaning ladder shall be done.,PL-12134
+120-10,EL,ECP-SS-SWB3B-03,Power Cable B,B,Tag No shall be installed.,PL-11730
+120-10,EL,ECP-SS-SWB3B-04,Power Cable B,B,Tag No shall be installed.,PL-11732
 120-10,EL,ECP-SS-SWB3B-04,Power Cable B,C,Cleaning ladder shall be done.,PL-12136
 120-10,EL,ECP-SS-SWB3B-04,Power Cable B,A,cable shall be fixed by clamp,PL-12035
 120-10,EL,ECP-SS-SWB3B-04,Power Cable B,B,tag no S.S shall be installed.,PL-12563
 120-10,EL,ECP-SS-SWB3B-04,Power Cable B,A,EARTH JUMPER SHOULD BE DONE,PL-12583
 120-10,EL,ECP-SS-SWB3B-04,Power Cable B,B,Heat shrink shall be installed.,PL-12593
-120-10,EL,ECP-SS-SWB3B-04,Power Cable B,B,Tag No shall be installed.,PL-11732
-120-10,EL,ECP-SS-SWB3B-05,Power Cable B,B,Tag No shall be installed.,PL-11734
 120-10,EL,ECP-SS-SWB3B-05,Power Cable B,B,Heat shrink shall be installed.,PL-12595
 120-10,EL,ECP-SS-SWB3B-05,Power Cable B,A,EARTH JUMPER SHOULD BE DONE,PL-12585
 120-10,EL,ECP-SS-SWB3B-05,Power Cable B,B,tag no S.S shall be installed.,PL-12565
 120-10,EL,ECP-SS-SWB3B-05,Power Cable B,A,cable shall be fixed by clamp,PL-12037
 120-10,EL,ECP-SS-SWB3B-05,Power Cable B,C,Cleaning ladder shall be done.,PL-12138
+120-10,EL,ECP-SS-SWB3B-05,Power Cable B,B,Tag No shall be installed.,PL-11734
 120-11,EL,ECP-SS-UBT-01-,Power Cable B,C,CLEANING CABLE ROOM SHALL BE DONE.,PL-25016
 120-11,EL,ECP-SS-UBT-01-,Power Cable B,B,CABLE ARRANGEMENT SHALL BE DONE.,PL-25008
 120-11,EL,ECP-SS-UBT-01-,Power Cable B,B,TAG NO (S.S) SHALL BE INSTALLED.,PL-25000
@@ -8604,11 +8313,11 @@ FGS-09,EL,NEL-0107,F&G Device,B,S.S TAGS SHOULD BE INSTALL.,PL-23045
 2000-05,IN,PT-2493(PT),Instrument(PT),A,S.S Cap Should Be Install.,PL-21973
 2000-05,IN,PT-2493(PT),Instrument(PT),C,Touch Up Should Be Done.,PL-21975
 2000-05,IN,PT-2493(PT),Instrument(PT),C,Preservation Should Be Done.,PL-21969
-1000-02,IN,PT-2536(PT),Instrument(PT),C,touch up should be done.,PL-16067
-1000-02,IN,PT-2536(PT),Instrument(PT),A,Earth should be done,PL-16056
 1000-02,IN,PT-2536(PT),Instrument(PT),A,SLOPE SHALL BE CONNECTED.,PL-24978
 1000-02,IN,PT-2536(PT),Instrument(PT),B,TOUCH UP SUPPORT SHALL BE DONE.,PL-24980
 1000-02,IN,PT-2536(PT),Instrument(PT),B,CAP MANIFOLD SHALL BE CLOSED.,PL-24982
+1000-02,IN,PT-2536(PT),Instrument(PT),C,touch up should be done.,PL-16067
+1000-02,IN,PT-2536(PT),Instrument(PT),A,Earth should be done,PL-16056
 1000-02,IN,PT-2540(PT),Instrument(PT),B,Grouting shall be done.,PL-16900
 1000-02,IN,PT-2540(PT),Instrument(PT),B,Steel bolt shall be installed.,PL-16894
 1000-02,IN,PT-2540(PT),Instrument(PT),A,Earth shall be installed.,PL-16876
@@ -8629,11 +8338,11 @@ FGS-09,EL,NEL-0107,F&G Device,B,S.S TAGS SHOULD BE INSTALL.,PL-23045
 3000-01,IN,PT-3007(PT),Instrument(PT),C,touch up should be done.,PL-16069
 3000-01,IN,PT-3007(PT),Instrument(PT),A,Earth should be done,PL-16058
 3000-01,IN,PT-3007(PT),Instrument(PT),C,Touch up support  shall be done.,PL-24702
-3000-03,IN,PT-3166(PT),Instrument(PT),C,touch up should be done.,PL-16074
-3000-03,IN,PT-3166(PT),Instrument(PT),A,Earth should be done,PL-16063
 3000-03,IN,PT-3166(PT),Instrument(PT),B,CAP MANIFOLD SHALL BE CLOSED.,PL-24983
 3000-03,IN,PT-3166(PT),Instrument(PT),B,TOUCH UP SUPPORT SHALL BE DONE.,PL-24981
 3000-03,IN,PT-3166(PT),Instrument(PT),A,SLOPE SHALL BE CONNECTED.,PL-24979
+3000-03,IN,PT-3166(PT),Instrument(PT),C,touch up should be done.,PL-16074
+3000-03,IN,PT-3166(PT),Instrument(PT),A,Earth should be done,PL-16063
 3000-03,IN,PT-3194(PT),Instrument(PT),A,Earth should be done,PL-16064
 3000-03,IN,PT-3194(PT),Instrument(PT),C,touch up should be done.,PL-16075
 5000-01,IN,PT-5004(NA),CABLE,B,Cable arrangement shall be done.,PL-17335
@@ -8815,11 +8524,11 @@ FGS-09,EL,NEL-0107,F&G Device,B,S.S TAGS SHOULD BE INSTALL.,PL-23045
 4000-02,IN,PT-7028(PT),Instrument(PT),A,SLOPE SHALL BE CONNECTED.,PL-24966
 4000-02,IN,PT-7028(PT),Instrument(PT),B,CAP MANIFOLD SHALL BE CLOSED.,PL-24974
 4000-02,IN,PT-7028(PT),Instrument(PT),B,TOUCH UP SUPPORT SHALL BE DONE.,PL-24970
+4000-03,IN,PT-7031(PT),Instrument(PT),C,Preservation shall be done.,PL-22361
 4000-03,IN,PT-7031(PT),Instrument(PT),B,U Bolt(H.D.G) shall be Changed by u bolt (S.S),PL-21396
 4000-03,IN,PT-7031(PT),Instrument(PT),B,Touch up support shall be done.,PL-21360
 4000-03,IN,PT-7031(PT),Instrument(PT),C,Grout shall be done.,PL-21387
 4000-03,IN,PT-7031(PT),Instrument(PT),A,Earth shall be complete.,PL-21342
-4000-03,IN,PT-7031(PT),Instrument(PT),C,Preservation shall be done.,PL-22361
 4000-04,IN,PT-7094(PT),Instrument(PT),C,Touch up should be done.,PL-16311
 4000-04,IN,PT-7094(PT),Instrument(PT),A,Earth should be done.,PL-16307
 4000-04,IN,PT-7141(PT),Instrument(PT),B,TOUCH UP SUPPORT SHALL BE DONE.,PL-24971
@@ -9238,7 +8947,6 @@ FGS-08,EL,SS-FECP-01,PANEL(EL),B,Touch Up Support Shall Be Done.,PL-24899
 FGS-08,EL,SS-FECP-01,PANEL(EL),B,Tag Panel Shall Be Installed.,PL-24897
 FGS-08,EL,SS-FECP-01,PANEL(EL),C,Cleaning Shall Be Done.,PL-24903
 FGS-08,EL,SS-FECP-01,PANEL(EL),A,Earth Panel Shall Be  Installed.,PL-24901
-ES-01,EL,SS-L-PRO(ES-01),Lightning Protection,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage),PL-25366
 120-16,EL,SS-NGR1A-01,Natural Ground Resistance,B,tightening bolts and nuts shall be done.,PL-08959
 120-16,EL,SS-NGR1A-01,Natural Ground Resistance,C,Cleaning l shall be done,PL-08964
 120-12,EL,SS-PDCS-01,PANEL(EL),A,EARTH SHAL BE INSTALL.,PL-05635
@@ -9283,8 +8991,8 @@ TEL-08,EL,SS-TJB1,Telecom Device,C,Cleaning  shall be done,PL-22415
 120-15,EL,SS-UBT-01,UPS & Battery,B,Heat Shrink Is Not Heated.,PL-24250
 120-15,EL,SS-UBT-01,UPS & Battery,B,Tempereture Is High.,PL-24248
 120-15,EL,SS-UBT-01,UPS & Battery,C,Cleaning Shall Be Done.,PL-24244
-120-11,EL,SS-UIS-01,UPS & Battery,B,TOUCH UP SUPPORT SHALL BE DONE.,PL-24767
 120-11,EL,SS-UIS-01,UPS & Battery,C,CLEANING SHALL BE DONE.,PL-24769
+120-11,EL,SS-UIS-01,UPS & Battery,B,TOUCH UP SUPPORT SHALL BE DONE.,PL-24767
 120-11,EL,SS-UPS-01,UPS & Battery,A,All Item ITP (AF-111 REV-01)shall be done,PL-05687
 120-11,EL,SS-UPS-01,UPS & Battery,A,Batteries and racks installed| checked for proper and Mechanical Installation|Including Connections.,PL-05688
 120-11,EL,SS-UPS-01,UPS & Battery,A,Batteries filled with electrolyte to Proper level and charged in Accordance with Manufactures Recommendations.,PL-05689
