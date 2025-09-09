@@ -10588,17 +10588,17 @@ LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet 
 120-06,EL,EBP-MAE-3002_3-06,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-06,67%
 120-06,EL,EBP-MAE-3002_3-07,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-07,67%
 120-06,EL,EBP-MAE-3002_3-08,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-08,67%
-120-06,EL,EBP-MAE-5004-01,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-01,33%
-120-06,EL,EBP-MAE-5004-02,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-02,33%
-120-06,EL,EBP-MAE-5004-03,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-03,33%
+120-06,EL,EBP-MAE-5004-01,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-01,67%
+120-06,EL,EBP-MAE-5004-02,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-02,67%
+120-06,EL,EBP-MAE-5004-03,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-03,67%
 120-06,EL,EBP-MAE-5004-04,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-04,67%
-120-06,EL,EBP-MAE-5004-05,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-05,33%
+120-06,EL,EBP-MAE-5004-05,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-05,67%
 120-06,EL,EBP-MAE-5004-06,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-06,67%
-120-06,EL,EBP-MAE-5004-07,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-07,33%
+120-06,EL,EBP-MAE-5004-07,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-07,67%
 120-06,EL,EBP-MAE-5004-08,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-08,67%
-120-06,EL,EBP-MAE-5004-09,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-09,33%
+120-06,EL,EBP-MAE-5004-09,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-09,67%
 120-06,EL,EBP-MAE-5004-10,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-10,67%
-120-06,EL,EBP-MAE-5004-11,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-11,33%
+120-06,EL,EBP-MAE-5004-11,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-11,67%
 120-06,EL,EBP-MAE-5004-12,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-12,67%
 120-04,EL,EBP-MAE-5005A-01,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-01,67%
 120-04,EL,EBP-MAE-5005A-02,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-02,67%
@@ -16258,7 +16258,7 @@ FGS-05,IN,MSR-0001,Fire Alarm,Fire Alarm(MSR),0%
 120-02,EL,MT-MP-3012A,MOTOR,Motor Pump,0%
 120-02,EL,MT-MP-3012B,MOTOR,Motor Pump,0%
 120-07,EL,MT-MP-3013,MOTOR,Motor Pump,0%
-120-02,EL,MT-MP-5001A,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-5001A,MOTOR,Motor Pump,50%
 120-02,EL,MT-MP-5001B,MOTOR,Motor Pump,0%
 120-02,EL,MT-MP-5002A,MOTOR,Motor Pump,0%
 120-02,EL,MT-MP-5002B,MOTOR,Motor Pump,0%
@@ -16267,7 +16267,7 @@ FGS-05,IN,MSR-0001,Fire Alarm,Fire Alarm(MSR),0%
 120-01,EL,MT-MP-5004A,MOTOR,Motor Pump,0%
 120-01,EL,MT-MP-5004B,MOTOR,Motor Pump,0%
 120-02,EL,MT-MP-5005A,MOTOR,Motor Pump,0%
-120-02,EL,MT-MP-5005B,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-5005B,MOTOR,Motor Pump,50%
 120-01,EL,MT-MP-5006A,MOTOR,Motor Pump,0%
 120-01,EL,MT-MP-5006B,MOTOR,Motor Pump,0%
 120-02,EL,MT-MP-5007A,MOTOR,Motor Pump,Done
@@ -16277,7 +16277,7 @@ FGS-05,IN,MSR-0001,Fire Alarm,Fire Alarm(MSR),0%
 120-02,EL,MT-MP-5009A,MOTOR,Motor Pump,50%
 120-02,EL,MT-MP-5009B,MOTOR,Motor Pump,50%
 120-02,EL,MT-MP-5010A,MOTOR,Motor Pump,0%
-120-02,EL,MT-MP-5010B,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-5010B,MOTOR,Motor Pump,50%
 120-02,EL,MT-MP-5011A,MOTOR,Motor Pump,50%
 120-02,EL,MT-MP-5011B,MOTOR,Motor Pump,50%
 120-07,EL,MT-MP-5012A,MOTOR,Motor Pump,0%
