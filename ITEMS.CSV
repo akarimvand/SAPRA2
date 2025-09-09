@@ -10235,8 +10235,8 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-03,EL,EBC-MP-8401,Power Cable B,Local Control Station- MP-8401,33%
 120-03,EL,EBC-MP-8402,Power Cable B,Local Control Station- MP-8402,67%
 120-03,EL,EBC-MP-8403A,Power Cable B,Local Control Station- MP-8403A,33%
-120-03,EL,EBC-MP-8403B,Power Cable B,Local Control Station- MP-8403B,33%
-120-03,EL,EBC-MP-8404A,Power Cable B,Local Control Station- MP-8404A,33%
+120-03,EL,EBC-MP-8403B,Power Cable B,Local Control Station- MP-8403B,67%
+120-03,EL,EBC-MP-8404A,Power Cable B,Local Control Station- MP-8404A,67%
 120-03,EL,EBC-MP-8404B,Power Cable B,Local Control Station- MP-8404B,33%
 120-03,EL,EBC-MP-8405A,Power Cable B,Local Control Station- MP-8405A,33%
 120-03,EL,EBC-MP-8405B,Power Cable B,Local Control Station- MP-8405B,33%
@@ -10812,7 +10812,7 @@ LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet 
 120-03,EL,EBP-MP-8401,Power Cable B,Oily Water Transfer Pump- MP-8401,67%
 120-03,EL,EBP-MP-8402,Power Cable B,Sanitary effluent transfer pump- MP-8402,33%
 120-03,EL,EBP-MP-8403A,Power Cable B,Neutralization Basin Pump A- MP-8403A,33%
-120-03,EL,EBP-MP-8403B,Power Cable B,Neutralization Basin Pump B- MP-8403B,33%
+120-03,EL,EBP-MP-8403B,Power Cable B,Neutralization Basin Pump B- MP-8403B,67%
 120-03,EL,EBP-MP-8404A,Power Cable B,COC Water Transfer Pump A- MP-8404A,33%
 120-03,EL,EBP-MP-8404B,Power Cable B,COC Water Transfer Pump B- MP-8404B,33%
 120-03,EL,EBP-MP-8405A,Power Cable B,Laboratory Effluent Transfer Pump A - MP-8405A,33%
@@ -10847,7 +10847,7 @@ LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet 
 120-03,EL,EBP-PK8005-MP-1B,Power Cable B,pH Adjustment Dosing Package Pump- PK8005-MP-1B,33%
 120-03,EL,EBP-PK8401-MP-1A,Power Cable B,Oily Sludge Transfer Pump PK8401-MP-1A- Intermediate JB,33%
 120-03,EL,EBP-PK8401-MP-1B,Power Cable B,Oily Sludge Transfer Pump PK8401-MP-1B- Intermediate JB,33%
-120-03,EL,EBP-PK8401-MP-2A,Power Cable B,Skimmed oil transfer pump- PK8401-MP-2A,33%
+120-03,EL,EBP-PK8401-MP-2A,Power Cable B,Skimmed oil transfer pump- PK8401-MP-2A,67%
 120-03,EL,EBP-PK8401-MP-2B,Power Cable B,Skimmed oil transfer pump- PK8401-MP-2B,33%
 120-07,EL,EBP-SS-CH-01_AS,Power Cable B,110V DC Battery Charger- SS-CH-01 (Auxiliary Supply),0%
 120-03,EL,EBP-SS-CH-01A,Power Cable B,110V DC Battery Charger-A- SS-CH-01A,0%
@@ -10961,7 +10961,7 @@ FGS-09,EL,ECC-CR-FECP-01_5,Power Cable B,Control Building Fire Fighting Control 
 120-02,EL,ECC-FT8001A-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-07,EL,ECC-FT8001A-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-03,EL,ECC-FT8001B-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-03,EL,ECC-FT8001B-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-03,EL,ECC-FT8001B-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-03,EL,ECC-FT8001B-HE-3_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-02,EL,ECC-FT8001B-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-07,EL,ECC-FT8001B-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
@@ -11202,10 +11202,10 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-03,EL,ECC-MP-8401_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-MP-8402_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-MP-8403A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-03,EL,ECC-MP-8403B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-MP-8404A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-03,EL,ECC-MP-8403B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-03,EL,ECC-MP-8404A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-MP-8404B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-03,EL,ECC-MP-8405A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-03,EL,ECC-MP-8405A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-MP-8405B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-02,EL,ECC-MX-7050_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-MX-7060_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
@@ -11214,26 +11214,26 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-02,EL,ECC-P7001C-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-P7001C-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-07,EL,ECC-P7001C-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-PK7502-MB-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-03,EL,ECC-PK7502-MB-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-PK7502-MB-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-PK7502-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-03,EL,ECC-PK7502-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-PK7502-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-PK7502-MP-2A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-03,EL,ECC-PK7502-MP-2B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-PK7502-MP-3A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-03,EL,ECC-PK7502-MP-3B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-03,EL,ECC-PK8002-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-03,EL,ECC-PK8002-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-PK8002-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-03,EL,ECC-PK8002-MX-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-03,EL,ECC-PK8003-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-03,EL,ECC-PK8003-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-PK8003-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-03,EL,ECC-PK8003-MX-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-03,EL,ECC-PK8004-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-03,EL,ECC-PK8004-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-PK8004-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-03,EL,ECC-PK8004-MX-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-03,EL,ECC-PK8005-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-03,EL,ECC-PK8005-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-PK8005-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-03,EL,ECC-PK8401-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-03,EL,ECC-PK8401-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-PK8401-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-PK8401-MP-2A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-03,EL,ECC-PK8401-MP-2B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
