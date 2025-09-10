@@ -217,6 +217,7 @@
       box-shadow: 0 2px 8px rgba(0,0,0,0.08);
       transition: all 0.3s ease;
       border: 1px solid #e9ecef;
+      position: relative; /* Added for badge positioning */
     }
 
     .card:hover {
@@ -271,18 +272,16 @@
       50% { transform: translateY(-5px) scale(1.02); }
     }
 
-    /* New: Shake animation for items older than 3 days */
-    @keyframes shake {
+    /* New: Subtle Shake animation for items older than 3 days */
+    @keyframes subtle-shake {
       0%, 100% { transform: translateX(0); }
-      10%, 30%, 50%, 70%, 90% { transform: translateX(-3px); }
-      20%, 40%, 60%, 80% { transform: translateX(3px); }
+      25% { transform: translateX(-1px); }
+      50% { transform: translateX(1px); }
+      75% { transform: translateX(-1px); }
     }
 
-    .shake-animation {
-      animation: shake 0.8s cubic-bezier(.36,.07,.19,.97) both infinite;
-      transform: translate3d(0, 0, 0);
-      backface-visibility: hidden;
-      perspective: 1000px;
+    .subtle-shake-animation {
+      animation: subtle-shake 1.5s ease-in-out infinite; /* Slower and smoother */
     }
 
     .card-header {
@@ -374,6 +373,42 @@
       display: inline-block;
       margin-top: 8px;
       animation: glow 2s infinite;
+    }
+
+    /* New: Passed on time badge */
+    .passed-on-time-badge {
+      position: absolute;
+      top: -10px; /* Adjust as needed */
+      right: -10px; /* Adjust as needed */
+      background: #28a745; /* Green */
+      color: white;
+      border-radius: 50%;
+      width: 28px;
+      height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      z-index: 10;
+    }
+
+    /* New: Delayed badge */
+    .delayed-badge {
+      position: absolute;
+      top: -10px; /* Adjust as needed */
+      right: -10px; /* Adjust as needed */
+      background: #ffc107; /* Amber/Yellow */
+      color: #333; /* Dark text for contrast */
+      border-radius: 50%;
+      width: 28px;
+      height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      z-index: 10;
     }
 
     @keyframes bounce {
@@ -606,10 +641,20 @@
                 <div class="info-value description">{{ record.DESCRIPTION }}</div>
               </div>
               
-              <div class="duration">⏳ {{ record.daysSpent }} روز</div>
+              <!-- Conditional rendering for duration and badges -->
+              <div v-if="stepName !== 'FORM D'" class="duration">⏳ {{ record.daysSpent }} روز</div>
               
               <div v-if="record.isCurrent && stepName !== 'FORM D'" class="current-badge">در حال انجام</div>
               <div v-if="stepName === 'FORM D'" class="final-badge">تکمیل شده ✓</div>
+              
+              <!-- New: Passed on time badge -->
+              <div v-if="!record.isCurrent && stepName !== 'FORM D' && record.daysSpent <= 3" class="passed-on-time-badge">
+                ✔
+              </div>
+              <!-- New: Delayed badge -->
+              <div v-if="!record.isCurrent && stepName !== 'FORM D' && record.daysSpent > 3" class="delayed-badge">
+                🕒
+              </div>
             </div>
           </div>
         </div>
@@ -751,7 +796,7 @@
             const currentRecord = enrichedRecords.find(r => r.isCurrent);
             if (currentRecord) {
               currentStepInfo.value = {
-                step: step,
+                step: currentRecord.STEP, // Use currentRecord.STEP for accurate step name
                 unit: currentRecord.UNIT,
                 daysSpent: currentRecord.daysSpent
               };
@@ -803,9 +848,9 @@
             classes.push('completed'); // Keep completed for non-current, non-final
           }
 
-          // Add shake animation if daysSpent > 3 and not final
+          // Add subtle shake animation if daysSpent > 3 and not final
           if (record.daysSpent > 3 && stepName !== 'FORM D') {
-            classes.push('shake-animation');
+            classes.push('subtle-shake-animation');
           }
 
           return classes;
