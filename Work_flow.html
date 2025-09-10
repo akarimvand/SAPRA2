@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>گردش اسناد ساب‌سیستم</title>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/papaparse@5.3.2/papaparse.min.js"></script>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Vazirmatn', sans-serif;
+      background: #f8f9fa;
+      color: #495057;
+      padding: 15px;
+      line-height: 1.6;
+    }
+
+    .container {
+      display: flex;
+      gap: 20px;
+      max-width: 100%; /* Changed: Full width */
+      margin: 0 auto;
+      min-height: calc(100vh - 30px);
+    }
+
+    .sidebar {
+      width: 250px; /* Changed: Smaller width */
+      background: white;
+      border-radius: 16px;
+      padding: 15px; /* Changed: Smaller padding */
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+      height: fit-content;
+      position: sticky;
+      top: 15px;
+      align-self: flex-start;
+    }
+
+    .sidebar-header {
+      font-size: 1.2rem; /* Changed: Smaller font size */
+      font-weight: 700;
+      color: #2c3e50;
+      margin-bottom: 15px; /* Changed: Smaller margin */
+      padding-bottom: 10px; /* Changed: Smaller padding */
+      border-bottom: 2px solid #e9ecef;
+      text-align: center;
+    }
+
+    .search-box {
+      width: 100%;
+      padding: 10px 14px; /* Changed: Smaller padding */
+      border: 2px solid #e9ecef;
+      border-radius: 12px;
+      font-size: 1rem;
+      font-family: 'Vazirmatn', sans-serif;
+      margin-bottom: 15px; /* Changed: Smaller margin */
+      transition: all 0.3s ease;
+    }
+
+    .search-box:focus {
+      outline: none;
+      border-color: #3498db;
+      box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+    }
+
+    .subsystem-list {
+      max-height: calc(100vh - 200px); /* Changed: Adjusted max-height for smaller sidebar */
+      overflow-y: auto;
+      padding-right: 5px;
+    }
+
+    .subsystem-item {
+      padding: 10px 12px; /* Changed: Smaller padding */
+      border-radius: 10px;
+      margin-bottom: 6px; /* Changed: Smaller margin */
+      cursor: pointer;
+      transition: all 0.3s ease;
+      border: 2px solid transparent;
+      background: #f8f9fa;
+      display: flex;
+      flex-direction: column;
+      font-size: 0.9rem; /* Changed: Smaller font size */
+    }
+
+    .subsystem-item:hover {
+      background: #e3f2fd;
+      transform: translateX(3px);
+    }
+
+    .subsystem-item.selected {
+      background: linear-gradient(135deg, #3498db, #2980b9);
+      color: white;
+      border-color: #2980b9;
+      transform: translateX(5px);
+      box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+    }
+
+    .subsystem-code {
+      font-weight: 700;
+      font-size: 1rem; /* Changed: Smaller font size */
+      margin-bottom: 3px;
+    }
+
+    .subsystem-name {
+      font-size: 0.85rem; /* Changed: Smaller font size */
+      opacity: 0.9;
+    }
+
+    .main-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .system-header {
+      background: linear-gradient(135deg, #2c3e50, #4a5568);
+      color: white;
+      padding: 25px;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      display: none;
+    }
+
+    .system-header.active {
+      display: block;
+    }
+
+    .system-code {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+
+    .system-name {
+      font-size: 1.3rem;
+      opacity: 0.9;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 40px;
+      font-size: 1.2rem;
+      color: #6c757d;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .error {
+      text-align: center;
+      padding: 40px;
+      font-size: 1.2rem;
+      color: #dc3545;
+      background: #f8d7da;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .no-data {
+      text-align: center;
+      padding: 40px;
+      font-size: 1.2rem;
+      color: #6c757d;
+      background: #fff3cd;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .step-group {
+      background: white;
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .step-header {
+      padding: 10px 15px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: white;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    /* رنگ‌های صنعتی برای هر STEP */
+    .header-form-a { background: linear-gradient(135deg, #e74c3c, #c0392b); } /* Red */
+    .header-form-b { background: linear-gradient(135deg, #f39c12, #d35400); } /* Orange */
+    .header-form-c { background: linear-gradient(135deg, #3498db, #2980b9); } /* Blue */
+    .header-form-d { background: linear-gradient(135deg, #27ae60, #229954); } /* Green */
+
+    .cards-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: flex-start;
+    }
+
+    .card {
+      width: 220px;
+      background: white;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      transition: all 0.3s ease;
+      border: 1px solid #e9ecef;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    }
+
+    /* New: Card colors based on step */
+    .card.form-a {
+      border: 2px solid #e74c3c;
+      background-color: #ffebee; /* Light red */
+    }
+    .card.form-b {
+      border: 2px solid #f39c12;
+      background-color: #fff8e1; /* Light orange */
+    }
+    .card.form-c {
+      border: 2px solid #3498db;
+      background-color: #e3f2fd; /* Light blue */
+    }
+    .card.form-d {
+      border: 2px solid #27ae60;
+      background-color: #e8f5e9; /* Light green */
+    }
+
+    .card.completed {
+      /* Existing styles, can be overridden by step specific colors */
+      /* border: 2px solid #27ae60; */
+      /* background-color: #f0fff4; */
+    }
+
+    .card.current {
+      border: 2px solid #f39c12;
+      animation: pulse 2s infinite;
+      background-color: #fff8e6;
+    }
+
+    .card.final {
+      border: 2px solid #27ae60;
+      background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+      animation: celebrate 3s infinite;
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(243, 156, 18, 0.4); }
+      70% { box-shadow: 0 0 0 8px rgba(243, 156, 18, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(243, 156, 18, 0); }
+    }
+
+    @keyframes celebrate {
+      0%, 100% { transform: translateY(0) scale(1); }
+      50% { transform: translateY(-5px) scale(1.02); }
+    }
+
+    /* New: Shake animation for items older than 3 days */
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      10%, 30%, 50%, 70%, 90% { transform: translateX(-3px); }
+      20%, 40%, 60%, 80% { transform: translateX(3px); }
+    }
+
+    .shake-animation {
+      animation: shake 0.8s cubic-bezier(.36,.07,.19,.97) both infinite;
+      transform: translate3d(0, 0, 0);
+      backface-visibility: hidden;
+      perspective: 1000px;
+    }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    .card-title {
+      font-weight: 700;
+      color: #495057;
+      font-size: 0.95rem;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .card-icon {
+      font-size: 1.2rem;
+    }
+
+    .card-number {
+      background: #6c757d;
+      color: white;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+
+    .info-row {
+      display: flex;
+      margin: 6px 0;
+      font-size: 0.85rem;
+    }
+
+    .info-label {
+      font-weight: 600;
+      color: #6c757d;
+      min-width: 70px;
+    }
+
+    .info-value {
+      color: #495057;
+      font-weight: 500;
+    }
+
+    .unit { color: #2c3e50; font-weight: 600; }
+    .person { color: #3498db; }
+    .date { color: #7f8c8d; font-size: 0.8rem; }
+    .description { color: #5d6d7e; font-style: normal; }
+    .duration { 
+      color: #e74c3c; 
+      font-weight: 700; 
+      text-align: center;
+      padding: 6px;
+      background: rgba(231, 76, 60, 0.1);
+      border-radius: 6px;
+      margin-top: 8px;
+      font-size: 0.9rem;
+    }
+
+    .current-badge {
+      background: #f39c12;
+      color: white;
+      padding: 3px 10px;
+      border-radius: 15px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      display: inline-block;
+      margin-top: 8px;
+      animation: bounce 2s infinite;
+    }
+
+    .final-badge {
+      background: linear-gradient(135deg, #27ae60, #229954);
+      color: white;
+      padding: 4px 12px;
+      border-radius: 15px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      display: inline-block;
+      margin-top: 8px;
+      animation: glow 2s infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-3px); }
+    }
+
+    @keyframes glow {
+      0%, 100% { box-shadow: 0 0 5px rgba(39, 174, 96, 0.5); }
+      50% { box-shadow: 0 0 15px rgba(39, 174, 96, 0.8); }
+    }
+
+    .progress-panel {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: white;
+      padding: 15px 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+      border: 1px solid #e9ecef;
+      font-size: 0.9rem;
+      z-index: 1000;
+      min-width: 250px;
+      display: none;
+    }
+
+    .progress-panel.active {
+      display: block;
+    }
+
+    .progress-title {
+      font-weight: 700;
+      color: #2c3e50;
+      margin-bottom: 8px;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .progress-info {
+      margin: 4px 0;
+      font-size: 0.9rem;
+    }
+
+    /* Scrollbar Styling */
+    .subsystem-list::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .subsystem-list::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      border-radius: 10px;
+    }
+
+    .subsystem-list::-webkit-scrollbar-thumb {
+      background: #c0c0c0;
+      border-radius: 10px;
+    }
+
+    .subsystem-list::-webkit-scrollbar-thumb:hover {
+      background: #a0a0a0;
+    }
+
+    @media (max-width: 1024px) {
+      .container {
+        flex-direction: column;
+      }
+      
+      .sidebar {
+        width: 100%;
+        position: relative;
+        top: 0;
+        margin-bottom: 20px;
+      }
+      
+      .main-content {
+        min-height: 500px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 10px;
+      }
+      
+      .sidebar {
+        padding: 15px;
+      }
+      
+      .sidebar-header {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+      }
+      
+      .search-box {
+        padding: 10px 12px;
+        margin-bottom: 15px;
+      }
+      
+      .subsystem-item {
+        padding: 12px 14px;
+      }
+      
+      .subsystem-code {
+        font-size: 1rem;
+      }
+      
+      .system-header {
+        padding: 20px 15px;
+      }
+      
+      .system-code {
+        font-size: 1.5rem;
+      }
+      
+      .system-name {
+        font-size: 1.1rem;
+      }
+      
+      .card {
+        width: 100%;
+        max-width: 300px;
+      }
+      
+      .cards-container {
+        justify-content: center;
+      }
+      
+      .progress-panel {
+        left: 15px;
+        right: 15px;
+        bottom: 15px;
+        width: auto;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        max-width: 100%;
+        padding: 12px;
+      }
+      
+      .card-title {
+        font-size: 0.9rem;
+      }
+      
+      .info-row {
+        font-size: 0.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container" id="app">
+    <div class="sidebar">
+      <h3 class="sidebar-header">📋 لیست ساب‌سیستم‌ها</h3>
+      <input 
+        type="text" 
+        v-model="searchText" 
+        class="search-box" 
+        placeholder="جستجوی ساب‌سیستم..."
+        dir="auto"
+      >
+      <div class="subsystem-list">
+        <div 
+          v-for="subsystem in filteredSubsystems" 
+          :key="subsystem.code"
+          class="subsystem-item"
+          :class="{ 'selected': selectedSubsystem === subsystem.code }"
+          @click="selectSubsystem(subsystem.code)"
+        >
+          <div class="subsystem-code">{{ subsystem.code }}</div>
+          <div class="subsystem-name">{{ subsystem.name }}</div>
+        </div>
+        
+        <div v-if="filteredSubsystems.length === 0 && !loading" class="no-data" style="margin: 20px; padding: 20px;">
+          ساب‌سیستمی یافت نشد
+        </div>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <div v-if="loading" class="loading">در حال بارگذاری داده‌ها...</div>
+      <div v-else-if="error" class="error">خطا در بارگذاری: {{ error }}</div>
+      
+      <div class="system-header" :class="{ 'active': selectedSubsystem }">
+        <div class="system-code">◂ {{ systemInfo?.Sub_System }} ▸</div>
+        <div class="system-name">{{ systemInfo?.Subsystem_Name }}</div>
+      </div>
+
+      <div v-if="!selectedSubsystem && !loading" class="no-data">
+        لطفاً یک ساب‌سیستم را از لیست سمت چپ انتخاب کنید
+      </div>
+
+      <div v-else-if="selectedSubsystem && !loading">
+        <div v-for="(group, stepName) in groupedData" :key="stepName" class="step-group">
+          <div class="step-header" :class="getHeaderClass(stepName)">
+            <span class="step-icon">{{ getStepIcon(stepName) }}</span>
+            {{ stepName }}
+          </div>
+          <div class="cards-container">
+            <div 
+              v-for="(record, index) in group" 
+              :key="index"
+              class="card"
+              :class="getCardClass(record, stepName)"
+            >
+              <div class="card-header">
+                <div class="card-title">
+                  <span class="card-icon">{{ getCardIcon(stepName) }}</span>
+                  {{ record.UNIT }}
+                </div>
+                <div class="card-number">{{ index + 1 }}</div>
+              </div>
+              
+              <div class="info-row">
+                <div class="info-label">مسئول:</div>
+                <div class="info-value person">{{ record.PERSON }}</div>
+              </div>
+              
+              <div class="info-row">
+                <div class="info-label">تاریخ:</div>
+                <div class="info-value date">{{ formatDate(record.RECEIVED_DATE) }}</div>
+              </div>
+              
+              <div class="info-row">
+                <div class="info-label">شرح:</div>
+                <div class="info-value description">{{ record.DESCRIPTION }}</div>
+              </div>
+              
+              <div class="duration">⏳ {{ record.daysSpent }} روز</div>
+              
+              <div v-if="record.isCurrent && stepName !== 'FORM D'" class="current-badge">در حال انجام</div>
+              <div v-if="stepName === 'FORM D'" class="final-badge">تکمیل شده ✓</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="progress-panel" :class="{ 'active': currentStepInfo }">
+      <div class="progress-title">📌 وضعیت فعلی</div>
+      <div class="progress-info"><strong>فرم:</strong> {{ currentStepInfo?.step }}</div>
+      <div class="progress-info"><strong>واحد:</strong> {{ currentStepInfo?.unit }}</div>
+      <div class="progress-info"><strong>زمان:</strong> {{ currentStepInfo?.daysSpent }} روز</div>
+      <div class="progress-info" v-if="systemInfo"><strong>ساب‌سیستم:</strong> {{ systemInfo?.Subsystem_Name }}</div>
+    </div>
+  </div>
+
+  <script>
+    const { createApp, ref, computed, onMounted } = Vue;
+
+    createApp({
+      setup() {
+        const rawData = ref([]);
+        const allSubsystems = ref([]);
+        const selectedSubsystem = ref(null);
+        const searchText = ref('');
+        const groupedData = ref({});
+        const loading = ref(false);
+        const error = ref(null);
+        const currentStepInfo = ref(null);
+        const systemInfo = ref(null);
+
+        // بارگذاری داده‌ها
+        const fetchData = async () => {
+          try {
+            loading.value = true;
+            const response = await axios.get('https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/TRANS.CSV');
+            const parsedData = Papa.parse(response.data, {
+              header: true,
+              skipEmptyLines: true
+            });
+
+            rawData.value = parsedData.data
+              .filter(row => row.Sub_System && row.UNIT && row.PERSON && row.RECEIVED_DATE && row.DESCRIPTION)
+              .map(row => ({
+                Sub_System: row.Sub_System?.trim() || '',
+                Subsystem_Name: row.Subsystem_Name?.trim() || '',
+                STEP: row.STEP?.trim() || '',
+                UNIT: row.UNIT?.trim() || '',
+                PERSON: row.PERSON?.trim() || '',
+                RECEIVED_DATE: new Date(row.RECEIVED_DATE),
+                DESCRIPTION: row.DESCRIPTION?.trim() || ''
+              }))
+              .filter(item => !isNaN(item.RECEIVED_DATE.getTime()))
+              .sort((a, b) => a.RECEIVED_DATE - b.RECEIVED_DATE);
+
+            // استخراج لیست منحصر به فرد ساب‌سیستم‌ها
+            const uniqueSubsystems = [...new Set(rawData.value.map(item => item.Sub_System))];
+            allSubsystems.value = uniqueSubsystems.map(code => {
+              const item = rawData.value.find(d => d.Sub_System === code);
+              return {
+                code: code,
+                name: item?.Subsystem_Name || 'نامشخص'
+              };
+            });
+
+            loading.value = false;
+          } catch (err) {
+            error.value = 'خطا در اتصال به سرور';
+            console.error(err);
+            loading.value = false;
+          }
+        };
+
+        // لیست فیلتر شده ساب‌سیستم‌ها
+        const filteredSubsystems = computed(() => {
+          if (!searchText.value.trim()) {
+            return allSubsystems.value;
+          }
+          
+          const search = searchText.value.toLowerCase();
+          return allSubsystems.value.filter(subsystem => 
+            subsystem.code.toLowerCase().includes(search) || 
+            subsystem.name.toLowerCase().includes(search)
+          );
+        });
+
+        // انتخاب ساب‌سیستم
+        const selectSubsystem = (code) => {
+          selectedSubsystem.value = code;
+          loadSubsystemData(code);
+        };
+
+        // بارگذاری داده‌های مربوط به ساب‌سیستم انتخاب شده
+        const loadSubsystemData = (subsystemCode) => {
+          const subsystemData = rawData.value.filter(item => item.Sub_System === subsystemCode);
+          
+          if (subsystemData.length > 0) {
+            systemInfo.value = {
+              Sub_System: subsystemData[0].Sub_System,
+              Subsystem_Name: subsystemData[0].Subsystem_Name
+            };
+            
+            processWorkflow(subsystemData);
+          } else {
+            systemInfo.value = null;
+            groupedData.value = {};
+            currentStepInfo.value = null;
+          }
+        };
+
+        // پردازش داده‌های گردش کار
+        const processWorkflow = (data) => {
+          const groups = {};
+          const steps = [...new Set(data.map(d => d.STEP))].sort();
+
+          steps.forEach(step => {
+            const records = data.filter(d => d.STEP === step);
+            const enrichedRecords = records.map((record, idx) => {
+              const currentIndex = data.findIndex(d => 
+                d.STEP === record.STEP && 
+                d.RECEIVED_DATE.getTime() === record.RECEIVED_DATE.getTime() &&
+                d.PERSON === record.PERSON
+              );
+
+              const nextRecord = data[currentIndex + 1] || null;
+              const endDate = nextRecord ? nextRecord.RECEIVED_DATE : new Date();
+              const diffTime = Math.abs(endDate - record.RECEIVED_DATE);
+              const days = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+              return {
+                ...record,
+                daysSpent: days,
+                isCurrent: !nextRecord
+              };
+            });
+
+            groups[step] = enrichedRecords;
+            
+            // تنظیم اطلاعات مرحله فعلی
+            const currentRecord = enrichedRecords.find(r => r.isCurrent);
+            if (currentRecord) {
+              currentStepInfo.value = {
+                step: step,
+                unit: currentRecord.UNIT,
+                daysSpent: currentRecord.daysSpent
+              };
+            }
+          });
+
+          groupedData.value = groups;
+        };
+
+        // توابع کمکی
+        const getHeaderClass = (stepName) => {
+          if (stepName === 'FORM A') return 'header-form-a';
+          if (stepName === 'FORM B') return 'header-form-b';
+          if (stepName === 'FORM C') return 'header-form-c';
+          if (stepName === 'FORM D') return 'header-form-d';
+          return 'header-form-a';
+        };
+
+        const getStepIcon = (stepName) => {
+          if (stepName === 'FORM A') return '▶️';
+          if (stepName === 'FORM B') return '🔄';
+          if (stepName === 'FORM C') return '✅';
+          if (stepName === 'FORM D') return '🏆';
+          return '📄';
+        };
+
+        const getCardIcon = (stepName) => {
+          if (stepName === 'FORM A') return '🚀';
+          if (stepName === 'FORM B') return '🔧';
+          if (stepName === 'FORM C') return '📋';
+          if (stepName === 'FORM D') return '🏅';
+          return '📄';
+        };
+
+        const getCardClass = (record, stepName) => {
+          let classes = ['card'];
+          
+          // Add step-specific color class
+          if (stepName === 'FORM A') classes.push('form-a');
+          else if (stepName === 'FORM B') classes.push('form-b');
+          else if (stepName === 'FORM C') classes.push('form-c');
+          else if (stepName === 'FORM D') classes.push('form-d');
+
+          if (stepName === 'FORM D') {
+            classes.push('final');
+          } else if (record.isCurrent) {
+            classes.push('current');
+          } else {
+            classes.push('completed'); // Keep completed for non-current, non-final
+          }
+
+          // Add shake animation if daysSpent > 3 and not final
+          if (record.daysSpent > 3 && stepName !== 'FORM D') {
+            classes.push('shake-animation');
+          }
+
+          return classes;
+        };
+
+        const formatDate = (date) => {
+          if (!date) return '';
+          return new Intl.DateTimeFormat('fa-IR').format(date);
+        };
+
+        // بارگذاری اولیه داده‌ها
+        onMounted(() => {
+          fetchData();
+        });
+
+        return {
+          allSubsystems,
+          selectedSubsystem,
+          searchText,
+          filteredSubsystems,
+          groupedData,
+          loading,
+          error,
+          currentStepInfo,
+          systemInfo,
+          selectSubsystem,
+          getHeaderClass,
+          getStepIcon,
+          getCardIcon,
+          getCardClass,
+          formatDate
+        };
+      }
+    }).mount('#app');
+  </script>
+</body>
+</html>
