@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>گردش اسناد ساب‌سیستم</title>
   <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="https://unpkg.com/papaparse@5.3.2/papaparse.min.js"></script>
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
@@ -17,99 +19,113 @@
 
     body {
       font-family: 'Vazirmatn', sans-serif;
-      background: #f8f9fa;
-      color: #495057;
-      padding: 15px;
+      background: #f0f2f5; /* Lighter, more formal background */
+      color: #343a40; /* Darker text for formality */
+      padding: 0; /* Remove body padding as container will handle it */
       line-height: 1.6;
     }
 
-    .container {
+    .navbar {
+      background-color: #2c3e50; /* Dark blue for header */
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      padding: 1rem 1.5rem;
+    }
+
+    .navbar-brand {
+      color: #ffffff !important;
+      font-weight: 700;
+      font-size: 1.5rem;
+    }
+
+    .container-fluid.app-container {
       display: flex;
       gap: 20px;
-      max-width: 100%; /* Changed: Full width */
-      margin: 0 auto;
-      min-height: calc(100vh - 30px);
+      padding: 20px; /* Padding for the main content area */
+      min-height: calc(100vh - 80px); /* Adjust for navbar height */
     }
 
     .sidebar {
-      width: 250px; /* Changed: Smaller width */
-      background: white;
-      border-radius: 16px;
-      padding: 15px; /* Changed: Smaller padding */
+      width: 280px; /* Slightly wider sidebar */
+      background: #ffffff;
+      border-radius: 12px; /* Slightly less rounded */
+      padding: 20px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.08);
       height: fit-content;
       position: sticky;
-      top: 15px;
+      top: 20px; /* Adjust top position for navbar */
       align-self: flex-start;
+      border: 1px solid #e0e0e0; /* Subtle border */
     }
 
     .sidebar-header {
-      font-size: 1.2rem; /* Changed: Smaller font size */
+      font-size: 1.3rem;
       font-weight: 700;
       color: #2c3e50;
-      margin-bottom: 15px; /* Changed: Smaller margin */
-      padding-bottom: 10px; /* Changed: Smaller padding */
+      margin-bottom: 20px;
+      padding-bottom: 15px;
       border-bottom: 2px solid #e9ecef;
       text-align: center;
     }
 
     .search-box {
       width: 100%;
-      padding: 10px 14px; /* Changed: Smaller padding */
-      border: 2px solid #e9ecef;
-      border-radius: 12px;
+      padding: 12px 16px;
+      border: 1px solid #ced4da; /* Formal border */
+      border-radius: 8px; /* Slightly less rounded */
       font-size: 1rem;
       font-family: 'Vazirmatn', sans-serif;
-      margin-bottom: 15px; /* Changed: Smaller margin */
+      margin-bottom: 20px;
       transition: all 0.3s ease;
     }
 
     .search-box:focus {
       outline: none;
-      border-color: #3498db;
-      box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+      border-color: #007bff; /* Bootstrap primary blue */
+      box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
     }
 
     .subsystem-list {
-      max-height: calc(100vh - 200px); /* Changed: Adjusted max-height for smaller sidebar */
+      max-height: calc(100vh - 280px); /* Adjusted max-height */
       overflow-y: auto;
       padding-right: 5px;
     }
 
     .subsystem-item {
-      padding: 10px 12px; /* Changed: Smaller padding */
-      border-radius: 10px;
-      margin-bottom: 6px; /* Changed: Smaller margin */
+      padding: 12px 15px;
+      border-radius: 8px;
+      margin-bottom: 8px;
       cursor: pointer;
       transition: all 0.3s ease;
-      border: 2px solid transparent;
+      border: 1px solid #f0f0f0; /* Lighter border */
       background: #f8f9fa;
       display: flex;
       flex-direction: column;
-      font-size: 0.9rem; /* Changed: Smaller font size */
+      font-size: 0.95rem;
+      color: #495057;
     }
 
     .subsystem-item:hover {
-      background: #e3f2fd;
+      background: #e9f5ff; /* Lighter blue on hover */
       transform: translateX(3px);
+      border-color: #cce5ff;
     }
 
     .subsystem-item.selected {
-      background: linear-gradient(135deg, #3498db, #2980b9);
+      background: linear-gradient(135deg, #007bff, #0056b3); /* Bootstrap primary blue gradient */
       color: white;
-      border-color: #2980b9;
+      border-color: #0056b3;
       transform: translateX(5px);
-      box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+      box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
     }
 
     .subsystem-code {
       font-weight: 700;
-      font-size: 1rem; /* Changed: Smaller font size */
-      margin-bottom: 3px;
+      font-size: 1.05rem;
+      margin-bottom: 4px;
     }
 
     .subsystem-name {
-      font-size: 0.85rem; /* Changed: Smaller font size */
+      font-size: 0.88rem;
       opacity: 0.9;
     }
 
@@ -117,16 +133,17 @@
       flex: 1;
       display: flex;
       flex-direction: column;
-      gap: 20px;
+      gap: 25px; /* Increased gap */
     }
 
     .system-header {
-      background: linear-gradient(135deg, #2c3e50, #4a5568);
+      background: linear-gradient(135deg, #34495e, #4a627a); /* Darker, more formal gradient */
       color: white;
-      padding: 25px;
-      border-radius: 16px;
+      padding: 30px;
+      border-radius: 12px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.1);
       display: none;
+      border: 1px solid #2c3e50;
     }
 
     .system-header.active {
@@ -134,137 +151,128 @@
     }
 
     .system-code {
-      font-size: 1.8rem;
+      font-size: 2rem;
       font-weight: 700;
-      margin-bottom: 5px;
+      margin-bottom: 8px;
     }
 
     .system-name {
-      font-size: 1.3rem;
-      opacity: 0.9;
+      font-size: 1.5rem;
+      opacity: 0.95;
+    }
+
+    .loading, .error, .no-data {
+      text-align: center;
+      padding: 40px;
+      font-size: 1.2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      margin-top: 20px;
     }
 
     .loading {
-      text-align: center;
-      padding: 40px;
-      font-size: 1.2rem;
       color: #6c757d;
-      background: white;
-      border-radius: 16px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      background: #ffffff;
     }
 
     .error {
-      text-align: center;
-      padding: 40px;
-      font-size: 1.2rem;
       color: #dc3545;
       background: #f8d7da;
-      border-radius: 16px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      border: 1px solid #f5c6cb;
     }
 
     .no-data {
-      text-align: center;
-      padding: 40px;
-      font-size: 1.2rem;
       color: #6c757d;
       background: #fff3cd;
-      border-radius: 16px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      border: 1px solid #ffeeba;
     }
 
     .step-group {
-      background: white;
-      border-radius: 16px;
-      padding: 20px;
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 25px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      border: 1px solid #e0e0e0;
     }
 
     .step-header {
-      padding: 10px 15px;
+      padding: 12px 20px;
       border-radius: 10px;
-      margin-bottom: 15px;
+      margin-bottom: 20px;
       font-weight: 700;
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       color: white;
       text-align: center;
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
     }
 
-    /* رنگ‌های صنعتی برای هر STEP */
-    .header-form-a { background: linear-gradient(135deg, #e74c3c, #c0392b); } /* Red */
-    .header-form-b { background: linear-gradient(135deg, #f39c12, #d35400); } /* Orange */
-    .header-form-c { background: linear-gradient(135deg, #3498db, #2980b9); } /* Blue */
-    .header-form-d { background: linear-gradient(135deg, #27ae60, #229954); } /* Green */
+    /* Formal color palette for steps */
+    .header-form-a { background: linear-gradient(135deg, #dc3545, #c82333); } /* Red */
+    .header-form-b { background: linear-gradient(135deg, #ffc107, #e0a800); } /* Yellow/Orange */
+    .header-form-c { background: linear-gradient(135deg, #007bff, #0056b3); } /* Blue */
+    .header-form-d { background: linear-gradient(135deg, #28a745, #218838); } /* Green */
 
     .cards-container {
       display: flex;
       flex-wrap: wrap;
-      gap: 15px;
+      gap: 20px; /* Increased gap */
       justify-content: flex-start;
     }
 
     .card {
-      width: 220px;
-      background: white;
-      border-radius: 12px;
-      padding: 15px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      width: 250px; /* Slightly wider cards */
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
       transition: all 0.3s ease;
       border: 1px solid #e9ecef;
-      position: relative; /* Added for badge positioning */
+      position: relative;
     }
 
     .card:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
     }
 
-    /* New: Card colors based on step */
+    /* Card colors based on step - formal light shades */
     .card.form-a {
-      border: 2px solid #e74c3c;
-      background-color: #ffebee; /* Light red */
+      border: 2px solid #dc3545;
+      background-color: #fff5f5; /* Very light red */
     }
     .card.form-b {
-      border: 2px solid #f39c12;
-      background-color: #fff8e1; /* Light orange */
+      border: 2px solid #ffc107;
+      background-color: #fffde7; /* Very light yellow */
     }
     .card.form-c {
-      border: 2px solid #3498db;
-      background-color: #e3f2fd; /* Light blue */
+      border: 2px solid #007bff;
+      background-color: #e6f2ff; /* Very light blue */
     }
     .card.form-d {
-      border: 2px solid #27ae60;
-      background-color: #e8f5e9; /* Light green */
-    }
-
-    .card.completed {
-      /* Existing styles, can be overridden by step specific colors */
-      /* border: 2px solid #27ae60; */
-      /* background-color: #f0fff4; */
+      border: 2px solid #28a745;
+      background-color: #f0fff0; /* Very light green */
     }
 
     .card.current {
-      border: 2px solid #f39c12;
+      border: 2px solid #ffc107;
       animation: pulse 2s infinite;
       background-color: #fff8e6;
     }
 
     .card.final {
-      border: 2px solid #27ae60;
-      background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+      border: 2px solid #28a745;
+      background: linear-gradient(135deg, #e6ffe6, #c8e6c9); /* Lighter green gradient */
       animation: celebrate 3s infinite;
     }
 
     @keyframes pulse {
-      0% { box-shadow: 0 0 0 0 rgba(243, 156, 18, 0.4); }
-      70% { box-shadow: 0 0 0 8px rgba(243, 156, 18, 0); }
-      100% { box-shadow: 0 0 0 0 rgba(243, 156, 18, 0); }
+      0% { box-shadow: 0 0 0 0 rgba(255, 193, 7, 0.4); }
+      70% { box-shadow: 0 0 0 10px rgba(255, 193, 7, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(255, 193, 7, 0); }
     }
 
     @keyframes celebrate {
@@ -272,7 +280,6 @@
       50% { transform: translateY(-5px) scale(1.02); }
     }
 
-    /* New: Subtle Shake animation for items older than 3 days */
     @keyframes subtle-shake {
       0%, 100% { transform: translateX(0); }
       25% { transform: translateX(-1px); }
@@ -281,54 +288,54 @@
     }
 
     .subtle-shake-animation {
-      animation: subtle-shake 1.5s ease-in-out infinite; /* Slower and smoother */
+      animation: subtle-shake 1.5s ease-in-out infinite;
     }
 
     .card-header {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 10px;
-      padding-bottom: 8px;
+      margin-bottom: 12px;
+      padding-bottom: 10px;
       border-bottom: 1px solid #f0f0f0;
     }
 
     .card-title {
       font-weight: 700;
-      color: #495057;
-      font-size: 0.95rem;
+      color: #343a40;
+      font-size: 1rem;
       display: flex;
       align-items: center;
-      gap: 6px;
+      gap: 8px;
     }
 
     .card-icon {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
     }
 
     .card-number {
       background: #6c757d;
       color: white;
-      width: 24px;
-      height: 24px;
+      width: 28px;
+      height: 28px;
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 0.85rem;
+      font-size: 0.9rem;
       font-weight: 600;
     }
 
     .info-row {
       display: flex;
-      margin: 6px 0;
-      font-size: 0.85rem;
+      margin: 8px 0;
+      font-size: 0.9rem;
     }
 
     .info-label {
       font-weight: 600;
       color: #6c757d;
-      min-width: 70px;
+      min-width: 80px;
     }
 
     .info-value {
@@ -337,102 +344,100 @@
     }
 
     .unit { color: #2c3e50; font-weight: 600; }
-    .person { color: #3498db; }
-    .date { color: #7f8c8d; font-size: 0.8rem; }
+    .person { color: #007bff; } /* Bootstrap primary blue */
+    .date { color: #7f8c8d; font-size: 0.85rem; }
     .description { color: #5d6d7e; font-style: normal; }
     .duration { 
-      color: #e74c3c; 
+      color: #dc3545; 
       font-weight: 700; 
       text-align: center;
-      padding: 6px;
-      background: rgba(231, 76, 60, 0.1);
-      border-radius: 6px;
-      margin-top: 8px;
-      font-size: 0.9rem;
+      padding: 8px;
+      background: rgba(220, 53, 69, 0.1); /* Light red background */
+      border-radius: 8px;
+      margin-top: 10px;
+      font-size: 0.95rem;
     }
 
     .current-badge {
-      background: #f39c12;
-      color: white;
-      padding: 3px 10px;
-      border-radius: 15px;
-      font-size: 0.75rem;
+      background: #ffc107;
+      color: #343a40; /* Dark text for contrast */
+      padding: 4px 12px;
+      border-radius: 18px;
+      font-size: 0.8rem;
       font-weight: 700;
       display: inline-block;
-      margin-top: 8px;
+      margin-top: 10px;
       animation: bounce 2s infinite;
     }
 
     .final-badge {
-      background: linear-gradient(135deg, #27ae60, #229954);
+      background: linear-gradient(135deg, #28a745, #218838);
       color: white;
-      padding: 4px 12px;
-      border-radius: 15px;
-      font-size: 0.8rem;
+      padding: 5px 15px;
+      border-radius: 18px;
+      font-size: 0.85rem;
       font-weight: 700;
       display: inline-block;
-      margin-top: 8px;
+      margin-top: 10px;
       animation: glow 2s infinite;
     }
 
-    /* New: Passed on time badge */
     .passed-on-time-badge {
       position: absolute;
-      top: -10px; /* Adjust as needed */
-      right: -10px; /* Adjust as needed */
-      background: #28a745; /* Green */
+      top: -12px;
+      right: -12px;
+      background: #28a745;
       color: white;
       border-radius: 50%;
-      width: 28px;
-      height: 28px;
+      width: 32px;
+      height: 32px;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 1.2rem;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      font-size: 1.3rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
       z-index: 10;
     }
 
-    /* New: Delayed badge */
     .delayed-badge {
       position: absolute;
-      top: -10px; /* Adjust as needed */
-      right: -10px; /* Adjust as needed */
-      background: #ffc107; /* Amber/Yellow */
-      color: #333; /* Dark text for contrast */
+      top: -12px;
+      right: -12px;
+      background: #ffc107;
+      color: #333;
       border-radius: 50%;
-      width: 28px;
-      height: 28px;
+      width: 32px;
+      height: 32px;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 1.2rem;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      font-size: 1.3rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
       z-index: 10;
     }
 
     @keyframes bounce {
       0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-3px); }
+      50% { transform: translateY(-4px); }
     }
 
     @keyframes glow {
-      0%, 100% { box-shadow: 0 0 5px rgba(39, 174, 96, 0.5); }
-      50% { box-shadow: 0 0 15px rgba(39, 174, 96, 0.8); }
+      0%, 100% { box-shadow: 0 0 6px rgba(40, 167, 69, 0.5); }
+      50% { box-shadow: 0 0 18px rgba(40, 167, 69, 0.8); }
     }
 
     .progress-panel {
       position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: white;
-      padding: 15px 20px;
+      bottom: 25px;
+      right: 25px;
+      background: #ffffff;
+      padding: 20px 25px;
       border-radius: 12px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.15);
-      border: 1px solid #e9ecef;
-      font-size: 0.9rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+      border: 1px solid #e0e0e0;
+      font-size: 0.95rem;
       z-index: 1000;
-      min-width: 250px;
+      min-width: 280px;
       display: none;
     }
 
@@ -443,16 +448,17 @@
     .progress-title {
       font-weight: 700;
       color: #2c3e50;
-      margin-bottom: 8px;
-      font-size: 1rem;
+      margin-bottom: 10px;
+      font-size: 1.1rem;
       display: flex;
       align-items: center;
       gap: 8px;
     }
 
     .progress-info {
-      margin: 4px 0;
-      font-size: 0.9rem;
+      margin: 6px 0;
+      font-size: 0.95rem;
+      color: #495057;
     }
 
     /* Scrollbar Styling */
@@ -475,8 +481,9 @@
     }
 
     @media (max-width: 1024px) {
-      .container {
+      .container-fluid.app-container {
         flex-direction: column;
+        padding: 15px;
       }
       
       .sidebar {
@@ -493,9 +500,17 @@
 
     @media (max-width: 768px) {
       body {
-        padding: 10px;
+        padding: 0;
       }
       
+      .navbar {
+        padding: 0.8rem 1rem;
+      }
+
+      .navbar-brand {
+        font-size: 1.3rem;
+      }
+
       .sidebar {
         padding: 15px;
       }
@@ -519,20 +534,20 @@
       }
       
       .system-header {
-        padding: 20px 15px;
+        padding: 25px 20px;
       }
       
       .system-code {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
       }
       
       .system-name {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
       }
       
       .card {
         width: 100%;
-        max-width: 300px;
+        max-width: 320px;
       }
       
       .cards-container {
@@ -544,41 +559,63 @@
         right: 15px;
         bottom: 15px;
         width: auto;
+        padding: 15px 20px;
       }
     }
 
     @media (max-width: 480px) {
       .card {
         max-width: 100%;
-        padding: 12px;
+        padding: 15px;
       }
       
       .card-title {
-        font-size: 0.9rem;
+        font-size: 0.95rem;
       }
       
       .info-row {
+        font-size: 0.85rem;
+      }
+      .duration, .current-badge, .final-badge {
         font-size: 0.8rem;
+        padding: 6px 10px;
+      }
+      .passed-on-time-badge, .delayed-badge {
+        width: 28px;
+        height: 28px;
+        font-size: 1.1rem;
+        top: -8px;
+        right: -8px;
       }
     }
   </style>
 </head>
 <body>
-  <div class="container" id="app">
-    <div class="sidebar">
+  <!-- Navbar (Header) -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <i class="bi bi-bar-chart-steps me-2"></i> گردش اسناد ساب‌سیستم
+      </a>
+      <!-- Optional: Add more navbar items here -->
+    </div>
+  </nav>
+
+  <div class="container-fluid app-container" id="app">
+    <div class="sidebar card">
       <h3 class="sidebar-header">📋 لیست ساب‌سیستم‌ها</h3>
       <input 
         type="text" 
         v-model="searchText" 
-        class="search-box" 
+        class="search-box form-control" 
         placeholder="جستجوی ساب‌سیستم..."
         dir="auto"
       >
-      <div class="subsystem-list">
+      <div class="subsystem-list list-group">
         <div 
           v-for="subsystem in filteredSubsystems" 
           :key="subsystem.code"
-          class="subsystem-item"
+          class="subsystem-item list-group-item list-group-item-action"
           :class="{ 'selected': selectedSubsystem === subsystem.code }"
           @click="selectSubsystem(subsystem.code)"
         >
@@ -586,22 +623,22 @@
           <div class="subsystem-name">{{ subsystem.name }}</div>
         </div>
         
-        <div v-if="filteredSubsystems.length === 0 && !loading" class="no-data" style="margin: 20px; padding: 20px;">
+        <div v-if="filteredSubsystems.length === 0 && !loading" class="no-data alert alert-warning text-center mt-3">
           ساب‌سیستمی یافت نشد
         </div>
       </div>
     </div>
 
     <div class="main-content">
-      <div v-if="loading" class="loading">در حال بارگذاری داده‌ها...</div>
-      <div v-else-if="error" class="error">خطا در بارگذاری: {{ error }}</div>
+      <div v-if="loading" class="loading alert alert-info">در حال بارگذاری داده‌ها...</div>
+      <div v-else-if="error" class="error alert alert-danger">خطا در بارگذاری: {{ error }}</div>
       
-      <div class="system-header" :class="{ 'active': selectedSubsystem }">
+      <div class="system-header card" :class="{ 'active': selectedSubsystem }">
         <div class="system-code">◂ {{ systemInfo?.Sub_System }} ▸</div>
         <div class="system-name">{{ systemInfo?.Subsystem_Name }}</div>
       </div>
 
-      <div v-if="!selectedSubsystem && !loading" class="no-data">
+      <div v-if="!selectedSubsystem && !loading" class="no-data alert alert-info">
         لطفاً ساب‌سیستم مورد نظر را از لیست سمت راست انتخاب کنید
       </div>
 
@@ -659,16 +696,10 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="progress-panel" :class="{ 'active': currentStepInfo }">
-      <div class="progress-title">📌 وضعیت فعلی</div>
-      <div class="progress-info"><strong>فرم:</strong> {{ currentStepInfo?.step }}</div>
-      <div class="progress-info"><strong>واحد:</strong> {{ currentStepInfo?.unit }}</div>
-      <div class="progress-info"><strong>زمان:</strong> {{ currentStepInfo?.daysSpent }} روز</div>
-      <div class="progress-info" v-if="systemInfo"><strong>ساب‌سیستم:</strong> {{ systemInfo?.Subsystem_Name }}</div>
-    </div>
-  </div>
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap Icons (optional, for better icons) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
   <script>
     const { createApp, ref, computed, onMounted } = Vue;
