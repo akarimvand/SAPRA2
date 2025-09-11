@@ -12,8 +12,8 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,43,0,165,62,103,57
 1000,1000-04,Gas Preparation,Gas Station,IN,66,0,0,0,0,0,21
 1000,1000-04,Gas Preparation,Gas Station,PI,1,0,0,0,0,0,1
-120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,57,0,1244,968,276,2
-120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,4,0,1643,1023,620,31
+120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,61,0,1244,968,276,2
+120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,8,0,1643,1023,620,31
 120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,0,0,1489,884,605,44
 120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,306,13,0,1099,745,354,42
 120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,284,13,0,1093,746,347,32
@@ -22,12 +22,12 @@
 120,120-08,Electrical Distribution Substation,Emergency Diesel Generator SS-DG-5701,EL,8,0,0,0,0,0,7
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,EL,29,14,0,27,11,16,0
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,IN,2,2,0,6,0,6,0
-120,120-10,Electrical Distribution Substation,SS-CH-01 for Electrical Supply 110V DC,EL,24,0,0,144,46,98,0
+120,120-10,Electrical Distribution Substation,SS-CH-01 for Electrical Supply 110V DC,EL,24,4,0,144,46,98,0
 120,120-11,Electrical Distribution Substation,SS-UPS-01 for Safety Lighting Supply 230 AC UPS,EL,18,0,0,55,10,45,0
 120,120-12,Electrical Distribution Substation,SS PDCS System,EL,10,1,0,8,2,6,2
 120,120-13,Electrical Distribution Substation,Cathodic Protection System,EL,373,373,0,482,472,10,0
 120,120-14,Electrical Distribution Substation,Electric Heat Tracing System,EL,3,0,0,0,0,0,3
-120,120-15,Electrical Distribution Substation,Capacitor Bank,EL,5,5,0,34,14,20,0
+120,120-15,Electrical Distribution Substation,Capacitor Bank,EL,5,5,0,42,14,28,0
 120,120-16,Electrical Distribution Substation,MV Transformer,EL,12,12,0,50,45,5,0
 120,120-17,Electrical Distribution Substation,LV Transformer,EL,15,15,0,104,82,22,0
 120,120-18,Electrical Distribution Substation,E/I Cabinet,EL,16,16,0,54,44,10,0
