@@ -7,10 +7,10 @@
         };
 
         // --- Constants ---
-        const CSV_URL = "https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/DATA.CSV";
-        const ITEMS_CSV_URL = "https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/ITEMS.CSV"; // Added detailed items URL
-        const PUNCH_CSV_URL = "https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/PUNCH.CSV"; // Added punch items URL
-        const HOLD_POINT_CSV_URL = "https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/HOLD_POINT.CSV"; // Added hold point items URL
+        const CSV_URL = "dbcsv/DATA.CSV";
+        const ITEMS_CSV_URL = "dbcsv/ITEMS.CSV"; // Added detailed items URL
+        const PUNCH_CSV_URL = "dbcsv/PUNCH.CSV"; // Added punch items URL
+        const HOLD_POINT_CSV_URL = "dbcsv/HOLD_POINT.CSV"; // Added hold point items URL
         const COLORS_STATUS_CHARTJS = {
             done: 'rgba(76, 175, 80, 0.8)',    // success
             pending: 'rgba(255, 166, 0, 0.8)', // warning
@@ -20,7 +20,7 @@ const COLORS_ISSUES_CHARTJS = {
     punch: 'rgba(255, 46, 99, 0.8)',   // danger
     hold: 'rgba(155, 89, 182, 0.8)'    // purple
 };
-const ACTIVITIES_CSV_URL = "https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/ACTIVITES.CSV";
+const ACTIVITIES_CSV_URL = "dbcsv/ACTIVITES.CSV";
         // Icon SVGs (simplified for direct use, could be more complex if needed)
         const ICONS = {
              Collection: '<i class="bi bi-collection" aria-hidden="true"></i>',
@@ -696,7 +696,7 @@ function initModals() {
             DOMElements.errorMessage.style.display = 'none';
             try {
                 // Load HOS.CSV to get form counts
-                const hosResponse = await fetch('https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/HOS.CSV');
+                const hosResponse = await fetch('dbcsv/HOS.CSV');
                 if (!hosResponse.ok) {
                     throw new Error(`Network response for HOS CSV was not ok: ${hosResponse.statusText}`);
                 }
