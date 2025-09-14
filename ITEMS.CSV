@@ -1,39 +1,39 @@
 ﻿SD_Sub_System,Discipline_Name,ITEM_Tag_NO,ITEM_Type_Code,ITEM_Description,ITEM_Status
 NO SUBS.,PI,-,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
-TEL-11,EL,00-CAM-01,CCTV,CCTV,DONE
-TEL-11,EL,00-CAM-02,CCTV,CCTV,DONE
-TEL-11,EL,00-CAM-03,CCTV,CCTV,DONE
-TEL-11,EL,00-CAM-04,CCTV,CCTV,DONE
-TEL-11,EL,00-CAM-05,CCTV,CCTV,DONE
-TEL-11,EL,00-CAM-06,CCTV,CCTV,DONE
-TEL-11,EL,00-CAM-07,CCTV,CCTV,DONE
-TEL-11,EL,00-CAM-08,CCTV,CCTV,DONE
-TEL-11,EL,00-CAM-09,CCTV,CCTV,DONE
-TEL-11,EL,00-CAM-10,CCTV,CCTV,DONE
-TEL-11,EL,00-CAM-11,CCTV,CCTV,DONE
-TEL-11,EL,00-CAM-12,CCTV,CCTV,DONE
-TEL-11,EL,00-CAM-13,CCTV,CCTV,DONE
-TEL-11,EL,00-CAM-14,CCTV,CCTV,DONE
-TEL-11,EL,00-CAM-15,CCTV,CCTV,DONE
-TEL-11,EL,00-CAM-16,CCTV,CCTV,DONE
-TEL-11,EL,00-CAM-17,CCTV,CCTV,DONE
-TEL-11,EL,00-CAM-18,CCTV,CCTV,DONE
-LS-02,EL,00-ELP-01,PANEL(EL),Area Emergency Lighting Panel,DONE
+TEL-11,EL,00-CAM-01,CCTV,CCTV,0%
+TEL-11,EL,00-CAM-02,CCTV,CCTV,0%
+TEL-11,EL,00-CAM-03,CCTV,CCTV,0%
+TEL-11,EL,00-CAM-04,CCTV,CCTV,0%
+TEL-11,EL,00-CAM-05,CCTV,CCTV,0%
+TEL-11,EL,00-CAM-06,CCTV,CCTV,0%
+TEL-11,EL,00-CAM-07,CCTV,CCTV,0%
+TEL-11,EL,00-CAM-08,CCTV,CCTV,0%
+TEL-11,EL,00-CAM-09,CCTV,CCTV,0%
+TEL-11,EL,00-CAM-10,CCTV,CCTV,0%
+TEL-11,EL,00-CAM-11,CCTV,CCTV,0%
+TEL-11,EL,00-CAM-12,CCTV,CCTV,0%
+TEL-11,EL,00-CAM-13,CCTV,CCTV,0%
+TEL-11,EL,00-CAM-14,CCTV,CCTV,0%
+TEL-11,EL,00-CAM-15,CCTV,CCTV,0%
+TEL-11,EL,00-CAM-16,CCTV,CCTV,0%
+TEL-11,EL,00-CAM-17,CCTV,CCTV,0%
+TEL-11,EL,00-CAM-18,CCTV,CCTV,0%
+LS-02,EL,00-ELP-01,PANEL(EL),Area Emergency Lighting Panel,0%
 LS-02,EL,00-ELP-02,PANEL(EL),Area Emergency Lighting Panel,DONE
 LS-02,EL,00-ELP-03,PANEL(EL),Area Emergency Lighting Panel,DONE
 LS-02,EL,00-ELP-04,PANEL(EL),Area Emergency Lighting Panel,DONE
-120-14,EL,00-HTP-01,PANEL(EL),Heat Tracing Panel,DONE
-120-14,EL,00-HTP-02,PANEL(EL),Heat Tracing Panel,DONE
-120-14,EL,00-HTP-03,PANEL(EL),Heat Tracing Panel,DONE
-LS-01,EL,00-LP-01,PANEL(EL),Area Normal Lighting Panel,DONE
+120-14,EL,00-HTP-01,PANEL(EL),Heat Tracing Panel,0%
+120-14,EL,00-HTP-02,PANEL(EL),Heat Tracing Panel,0%
+120-14,EL,00-HTP-03,PANEL(EL),Heat Tracing Panel,0%
+LS-01,EL,00-LP-01,PANEL(EL),Area Normal Lighting Panel,0%
 LS-01,EL,00-LP-02,PANEL(EL),Area Normal Lighting Panel,DONE
 LS-01,EL,00-LP-03,PANEL(EL),Area Normal Lighting Panel,DONE
 LS-01,EL,00-LP-04,PANEL(EL),Area Normal Lighting Panel,DONE
-LS-01,EL,00-RP-01,PANEL(EL),Area Receptacle Panel,DONE
+LS-01,EL,00-RP-01,PANEL(EL),Area Receptacle Panel,0%
 LS-01,EL,00-RP-02,PANEL(EL),Area Receptacle Panel,DONE
 LS-01,EL,00-RP-03,PANEL(EL),Area Receptacle Panel,DONE
 LS-01,EL,00-RP-04,PANEL(EL),Area Receptacle Panel,DONE
-LS-01,EL,00-SLP-01,PANEL(EL),Street Lighting Panel,DONE
+LS-01,EL,00-SLP-01,PANEL(EL),Street Lighting Panel,0%
 LS-04,EL,01-EJB-1,Lighting Main JB,Emergency Lighting Junction Box,0%
 LS-04,EL,01-EJB1-1-L1-01,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving Lamp 30w- EX,50%
 LS-05,EL,01-EJB1-1-L1-02,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving Lamp 30w- EX,0%
@@ -5436,7 +5436,7 @@ LS-14,EL,AH-EJB1,Lighting Main JB,Emergency Lighting Junction Box,DONE
 LS-14,EL,AH-EJB1-FJB01,Lighting Cable,Cable of Emergency Lighting Junction Box,DONE
 LS-14,EL,AH-EJB2,Lighting Main JB,Emergency Lighting Junction Box,DONE
 LS-14,EL,AH-EJB2-FJB01,Lighting Cable,Cable of Emergency Lighting Junction Box,DONE
-HVAC-04,EL,AH-HDP-01,PANEL(EL),HVAC Distribution Panel,DONE
+HVAC-04,EL,AH-HDP-01,PANEL(EL),HVAC Distribution Panel,0%
 TEL-12,EL,AH-IS-01,Telecom Device,Intercom Station Without Hood - EX,DONE
 TEL-12,EL,AH-SP-01,Paging Device,Loud Speaker - 25W|EX,DONE
 TEL-12,EL,AH-TEL-01,Telecom Device,Telephone Station Without Hood- EX,DONE
@@ -5902,11 +5902,11 @@ DCS-01,IN,CR-CCTV-01,JUNCTION BOX,JUNCTION BOX(PANEL),0%
 TEL-09,EL,CR-CEC(CH)-01,UPS & Battery,Paging Central Exchange Cabinet Battery Charger,0%
 TEL-09,IN,CR-CEC-01,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
 DCS-01,IN,CR-CEC-EH-01,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
-TEL-11,EL,CR-CMR-01,CCTV,"Control Room CCTV Monitor 32""",DONE
-TEL-11,EL,CR-CMR-02,CCTV,"Control Room CCTV Monitor 65""",DONE
-TEL-11,EL,CR-CSP-01,CCTV,CCTV Control/Switch Panel,DONE
-120-07,EL,CR-EDP-01,PANEL(EL),Emergency Distribution Panel,DONE
-LS-02,EL,CR-ELP-01,PANEL(EL),Emergency Lighting Panel,DONE
+TEL-11,EL,CR-CMR-01,CCTV,"Control Room CCTV Monitor 32""",0%
+TEL-11,EL,CR-CMR-02,CCTV,"Control Room CCTV Monitor 65""",0%
+TEL-11,EL,CR-CSP-01,CCTV,CCTV Control/Switch Panel,0%
+120-07,EL,CR-EDP-01,PANEL(EL),Emergency Distribution Panel,0%
+LS-02,EL,CR-ELP-01,PANEL(EL),Emergency Lighting Panel,0%
 LS-04,EL,CR-ELP-01-01-L1-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-ELP-01-01-L1-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-ELP-01-01-L1-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
@@ -5979,10 +5979,10 @@ LS-04,EL,CR-ELP-01-07-L1-08,Lighting Fixture,Fluorescent Fixture 4*18w- Louver T
 120-12,EL,CR-ESP-01,PDCS System ,PDC System Ethernet Switch Panel,0%
 FGS-09,EL,CR-FACP-01,PANEL(EL),Fire Alarm Control Panel,0%
 FGS-09,EL,CR-FECP-01,PANEL(EL),Fire Extinguishing Control Panel,0%
-HVAC-02,EL,CR-HDP-01,PANEL(EL),HVAC Distribution Panel,DONE
-HVAC-02,EL,CR-HDP-02,PANEL(EL),HVAC Distribution Panel,DONE
-HVAC-02,EL,CR-LCP-0010,PANEL(EL),HVAC Local Control Panel,DONE
-LS-01,EL,CR-LP-01,PANEL(EL),Normal Lighting Panel,DONE
+HVAC-02,EL,CR-HDP-01,PANEL(EL),HVAC Distribution Panel,0%
+HVAC-02,EL,CR-HDP-02,PANEL(EL),HVAC Distribution Panel,0%
+HVAC-02,EL,CR-LCP-0010,PANEL(EL),HVAC Local Control Panel,0%
+LS-01,EL,CR-LP-01,PANEL(EL),Normal Lighting Panel,0%
 LS-04,EL,CR-LP-01-01-L1-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-LP-01-01-L1-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-LP-01-01-L1-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
@@ -6129,13 +6129,13 @@ LS-04,EL,CR-LP-01-21-L3-04,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0
 LS-04,EL,CR-LP-01-21-L3-05,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
 LS-04,EL,CR-LP-01-21-L3-06,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
 LS-04,EL,CR-LP-01-22-L1|L2|L3-01,Socket Outlet,Outlet 5-Pole- 400v|25A|Indust Type,0%
-ES-02,EL,CR-L-PRO(ES-02),Lightning Protection,Ligtining Protection,DONE
+ES-02,EL,CR-L-PRO(ES-02),Lightning Protection,Ligtining Protection,0%
 TEL-09,EL,CR-MCS-01-1,Telecom Device,Master Call Station Media Converter,0%
 TEL-09,EL,CR-MCS-01-2,Paging Device,Paging Master Call Station,0%
 TEL-09,EL,CR-MTJB1,Telecom Device,Main Telephone Junction Box,0%
 TEL-09,EL,CR-PJB1,Paging Device,Paging Junction Box,0%
 DCS-01,IN,CR-RBS-01,JUNCTION BOX,JUNCTION BOX(PANEL),0%
-120-07,EL,CR-SIP-01,PANEL(EL),Fire & Gas Detection System Siren Panel,DONE
+120-07,EL,CR-SIP-01,PANEL(EL),Fire & Gas Detection System Siren Panel,0%
 TEL-09,EL,CR-SP-01,Paging Device,Loud Speaker Celling Mounted- 6W,50%
 TEL-09,EL,CR-SP-02,Paging Device,Loud Speaker Celling Mounted- 6W,50%
 TEL-09,EL,CR-SP-03,Paging Device,Loud Speaker Celling Mounted- 6W,0%
@@ -9869,7 +9869,7 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-01,EL,EAP-MP-7001C_2,Power Cable A,HP BFW Pump- MP-7001C,33%
 120-01,EL,EAP-MP-8001C,Power Cable A,Cooling Water Pump- MP-8001C,67%
 120-01,EL,EAP-MP-8001D,Power Cable A,Cooling Water Pump- MP-8001D,67%
-120-01,EL,EAP-NI-TR2-07,Power Cable A,6/0.42kV Transformer for Owner Non-Industrial Buildings- NI-TR7-01,DONE
+120-01,EL,EAP-NI-TR2-07,Power Cable A,6/0.42kV Transformer for Owner Non-Industrial Buildings- NI-TR7-01,0%
 120-16,EL,EAP-SS-NGR1A-01,Power Cable A,Neutral Grounding Resistor- SS-NGR1A-01,DONE
 120-16,EL,EAP-SS-NGR1B-01,Power Cable A,Neutral Grounding Resistor- SS-NGR1B-01,DONE
 120-16,EL,EAP-SS-TR1A-01_1,Power Cable A,20/6.3 KV Transformer- SS-TR1A-01,DONE
@@ -9890,8 +9890,8 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-01,EL,EAP-SS-TR2B-04,Power Cable A,6/0.42 KV Transformer- SS-TR2B-04,33%
 120-01,EL,EAP-SS-TR2B-05,Power Cable A,6/0.42 KV Transformer- SS-TR2B-05,33%
 120-01,EL,EAP-SS-TR2B-06,Power Cable A,6/0.42 KV Transformer- SS-TR2B-06,33%
-120-02,EL,EBC-C2001-MF-1,Power Cable B,Local Control Station- C2001-MF-1,DONE
-120-02,EL,EBC-C2001-MF-2,Power Cable B,Local Control Station- C2001-MF-2,DONE
+120-02,EL,EBC-C2001-MF-1,Power Cable B,Local Control Station- C2001-MF-1,33%
+120-02,EL,EBC-C2001-MF-2,Power Cable B,Local Control Station- C2001-MF-2,33%
 120-02,EL,EBC-C2002-HE-1,Power Cable B,Heater Safety Thermostat for C2002-HE-1,67%
 120-02,EL,EBC-C2002-HE-2,Power Cable B,Heater Safety Thermostat for C2002-HE-2,67%
 120-02,EL,EBC-FT2001-HE-1,Power Cable B,Heater Safety Thermostat for FT2001-HE-1,33%
@@ -9900,24 +9900,24 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-02,EL,EBC-FT7001A-HE-2,Power Cable B,Heater Safety Thermostat for FT7001A-HE-2,67%
 120-02,EL,EBC-FT7001A-MF-1,Power Cable B,Local Control Station- FT7001A-MF-1,67%
 120-02,EL,EBC-FT7001A-MP-1A,Power Cable B,Local Control Station- FT7001A-MP-1A,67%
-120-07,EL,EBC-FT7001A-MP-1B,Power Cable B,Local Control Station- FT7001A-MP-1B,DONE
+120-07,EL,EBC-FT7001A-MP-1B,Power Cable B,Local Control Station- FT7001A-MP-1B,33%
 120-02,EL,EBC-FT7001B-HE-1,Power Cable B,Heater Safety Thermostat for FT7001B-HE-1,67%
 120-02,EL,EBC-FT7001B-HE-2,Power Cable B,Heater Safety Thermostat for FT7001B-HE-2,67%
 120-02,EL,EBC-FT7001B-MF-1,Power Cable B,Local Control Station- FT7001B-MF-1,67%
 120-02,EL,EBC-FT7001B-MP-1A,Power Cable B,Local Control Station- FT7001B-MP-1A,67%
-120-07,EL,EBC-FT7001B-MP-1B,Power Cable B,Local Control Station- FT7001B-MP-1B,DONE
+120-07,EL,EBC-FT7001B-MP-1B,Power Cable B,Local Control Station- FT7001B-MP-1B,33%
 120-03,EL,EBC-FT8001A-HE-1,Power Cable B,Heater Safety Thermostat for FT8001A-HE-1,67%
 120-03,EL,EBC-FT8001A-HE-2,Power Cable B,Heater Safety Thermostat for FT8001A-HE-2,67%
 120-03,EL,EBC-FT8001A-HE-3,Power Cable B,Heater Safety Thermostat for FT8001A-HE-3,67%
 120-03,EL,EBC-FT8001A-MF-1,Power Cable B,Local Control Station- FT8001A-MF-1,67%
 120-02,EL,EBC-FT8001A-MP-1A,Power Cable B,Local Control Station- FT8001A-MP-1A,67%
-120-07,EL,EBC-FT8001A-MP-1B,Power Cable B,Local Control Station- FT8001A-MP-1B,DONE
+120-07,EL,EBC-FT8001A-MP-1B,Power Cable B,Local Control Station- FT8001A-MP-1B,33%
 120-03,EL,EBC-FT8001B-HE-1,Power Cable B,Heater Safety Thermostat for FT8001B-HE-1,67%
 120-03,EL,EBC-FT8001B-HE-2,Power Cable B,Heater Safety Thermostat for FT8001B-HE-2,67%
 120-03,EL,EBC-FT8001B-HE-3,Power Cable B,Heater Safety Thermostat for FT8001B-HE-3,67%
 120-03,EL,EBC-FT8001B-MF-1,Power Cable B,Local Control Station- FT8001B-MF-1,67%
 120-02,EL,EBC-FT8001B-MP-1A,Power Cable B,Local Control Station- FT8001B-MP-1A,67%
-120-07,EL,EBC-FT8001B-MP-1B,Power Cable B,Local Control Station- FT8001B-MP-1B,DONE
+120-07,EL,EBC-FT8001B-MP-1B,Power Cable B,Local Control Station- FT8001B-MP-1B,33%
 120-05,EL,EBC-MAE-2026-01,Power Cable B,Local Control Station- MAE-2026-01,67%
 120-05,EL,EBC-MAE-2026-01_VS,Power Cable B,Vibration Switch- MAE-2026-01/VS,0%
 120-05,EL,EBC-MAE-2026-02,Power Cable B,Local Control Station- MAE-2026-02,67%
@@ -9991,187 +9991,187 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-06,EL,EBC-MAE-3002_3-08,Power Cable B,Local Control Station- MAE-3002/3-08,67%
 120-06,EL,EBC-MAE-3002_3-08_VS,Power Cable B,Vibration Switch- MAE-3002/3-08/VS,0%
 120-06,EL,EBC-MAE-5004-01,Power Cable B,Local Control Station- MAE-5004-01,67%
-120-06,EL,EBC-MAE-5004-01_VS,Power Cable B,Vibration Switch- MAE-5004-01/VS,DONE
+120-06,EL,EBC-MAE-5004-01_VS,Power Cable B,Vibration Switch- MAE-5004-01/VS,0%
 120-06,EL,EBC-MAE-5004-02,Power Cable B,Local Control Station- MAE-5004-02,67%
-120-06,EL,EBC-MAE-5004-02_VS,Power Cable B,Vibration Switch- MAE-5004-02/VS,DONE
+120-06,EL,EBC-MAE-5004-02_VS,Power Cable B,Vibration Switch- MAE-5004-02/VS,0%
 120-06,EL,EBC-MAE-5004-03,Power Cable B,Local Control Station- MAE-5004-03,67%
-120-06,EL,EBC-MAE-5004-03_VS,Power Cable B,Vibration Switch- MAE-5004-03/VS,DONE
+120-06,EL,EBC-MAE-5004-03_VS,Power Cable B,Vibration Switch- MAE-5004-03/VS,0%
 120-06,EL,EBC-MAE-5004-04,Power Cable B,Local Control Station- MAE-5004-04,67%
-120-06,EL,EBC-MAE-5004-04_VS,Power Cable B,Vibration Switch- MAE-5004-04/VS,DONE
+120-06,EL,EBC-MAE-5004-04_VS,Power Cable B,Vibration Switch- MAE-5004-04/VS,0%
 120-06,EL,EBC-MAE-5004-05,Power Cable B,Local Control Station- MAE-5004-05,67%
-120-06,EL,EBC-MAE-5004-05_VS,Power Cable B,Vibration Switch- MAE-5004-05/VS,DONE
+120-06,EL,EBC-MAE-5004-05_VS,Power Cable B,Vibration Switch- MAE-5004-05/VS,0%
 120-06,EL,EBC-MAE-5004-06,Power Cable B,Local Control Station- MAE-5004-06,67%
-120-06,EL,EBC-MAE-5004-06_VS,Power Cable B,Vibration Switch- MAE-5004-06/VS,DONE
+120-06,EL,EBC-MAE-5004-06_VS,Power Cable B,Vibration Switch- MAE-5004-06/VS,0%
 120-06,EL,EBC-MAE-5004-07,Power Cable B,Local Control Station- MAE-5004-07,67%
-120-06,EL,EBC-MAE-5004-07_VS,Power Cable B,Vibration Switch- MAE-5004-07/VS,DONE
+120-06,EL,EBC-MAE-5004-07_VS,Power Cable B,Vibration Switch- MAE-5004-07/VS,0%
 120-06,EL,EBC-MAE-5004-08,Power Cable B,Local Control Station- MAE-5004-08,67%
-120-06,EL,EBC-MAE-5004-08_VS,Power Cable B,Vibration Switch- MAE-5004-08/VS,DONE
+120-06,EL,EBC-MAE-5004-08_VS,Power Cable B,Vibration Switch- MAE-5004-08/VS,0%
 120-06,EL,EBC-MAE-5004-09,Power Cable B,Local Control Station- MAE-5004-09,67%
-120-06,EL,EBC-MAE-5004-09_VS,Power Cable B,Vibration Switch- MAE-5004-09/VS,DONE
+120-06,EL,EBC-MAE-5004-09_VS,Power Cable B,Vibration Switch- MAE-5004-09/VS,0%
 120-06,EL,EBC-MAE-5004-10,Power Cable B,Local Control Station- MAE-5004-10,67%
-120-06,EL,EBC-MAE-5004-10_VS,Power Cable B,Vibration Switch- MAE-5004-10/VS,DONE
+120-06,EL,EBC-MAE-5004-10_VS,Power Cable B,Vibration Switch- MAE-5004-10/VS,0%
 120-06,EL,EBC-MAE-5004-11,Power Cable B,Local Control Station- MAE-5004-11,67%
 120-01,EL,EBC-MAE-5004-11_VS,Power Cable B,Vibration Switch- MAE-5004-11/VS,33%
 120-06,EL,EBC-MAE-5004-12,Power Cable B,Local Control Station- MAE-5004-12,67%
-120-06,EL,EBC-MAE-5004-12_VS,Power Cable B,Vibration Switch- MAE-5004-12/VS,DONE
+120-06,EL,EBC-MAE-5004-12_VS,Power Cable B,Vibration Switch- MAE-5004-12/VS,0%
 120-04,EL,EBC-MAE-5005A-01,Power Cable B,Local Control Station- MAE-5005A-01,67%
-120-04,EL,EBC-MAE-5005A-01_VS,Power Cable B,Vibration Switch- MAE-5005A-01/VS,DONE
+120-04,EL,EBC-MAE-5005A-01_VS,Power Cable B,Vibration Switch- MAE-5005A-01/VS,0%
 120-04,EL,EBC-MAE-5005A-02,Power Cable B,Local Control Station- MAE-5005A-02,67%
-120-04,EL,EBC-MAE-5005A-02_VS,Power Cable B,Vibration Switch- MAE-5005A-02/VS,DONE
+120-04,EL,EBC-MAE-5005A-02_VS,Power Cable B,Vibration Switch- MAE-5005A-02/VS,0%
 120-04,EL,EBC-MAE-5005A-03,Power Cable B,Local Control Station- MAE-5005A-03,67%
-120-04,EL,EBC-MAE-5005A-03_VS,Power Cable B,Vibration Switch- MAE-5005A-03/VS,DONE
+120-04,EL,EBC-MAE-5005A-03_VS,Power Cable B,Vibration Switch- MAE-5005A-03/VS,0%
 120-04,EL,EBC-MAE-5005A-04,Power Cable B,Local Control Station- MAE-5005A-04,67%
-120-04,EL,EBC-MAE-5005A-04_VS,Power Cable B,Vibration Switch- MAE-5005A-04/VS,DONE
+120-04,EL,EBC-MAE-5005A-04_VS,Power Cable B,Vibration Switch- MAE-5005A-04/VS,0%
 120-04,EL,EBC-MAE-5005A-05,Power Cable B,Local Control Station- MAE-5005A-05,67%
-120-04,EL,EBC-MAE-5005A-05_VS,Power Cable B,Vibration Switch- MAE-5005A-05/VS,DONE
+120-04,EL,EBC-MAE-5005A-05_VS,Power Cable B,Vibration Switch- MAE-5005A-05/VS,0%
 120-04,EL,EBC-MAE-5005A-06,Power Cable B,Local Control Station- MAE-5005A-06,67%
-120-04,EL,EBC-MAE-5005A-06_VS,Power Cable B,Vibration Switch- MAE-5005A-06/VS,DONE
+120-04,EL,EBC-MAE-5005A-06_VS,Power Cable B,Vibration Switch- MAE-5005A-06/VS,0%
 120-04,EL,EBC-MAE-5005A-07,Power Cable B,Local Control Station- MAE-5005A-07,67%
-120-04,EL,EBC-MAE-5005A-07_VS,Power Cable B,Vibration Switch- MAE-5005A-07/VS,DONE
+120-04,EL,EBC-MAE-5005A-07_VS,Power Cable B,Vibration Switch- MAE-5005A-07/VS,0%
 120-04,EL,EBC-MAE-5005A-08,Power Cable B,Local Control Station- MAE-5005A-08,67%
-120-04,EL,EBC-MAE-5005A-08_VS,Power Cable B,Vibration Switch- MAE-5005A-08/VS,DONE
+120-04,EL,EBC-MAE-5005A-08_VS,Power Cable B,Vibration Switch- MAE-5005A-08/VS,0%
 120-04,EL,EBC-MAE-5005A-09,Power Cable B,Local Control Station- MAE-5005A-09,67%
-120-04,EL,EBC-MAE-5005A-09_VS,Power Cable B,Vibration Switch- MAE-5005A-09/VS,DONE
+120-04,EL,EBC-MAE-5005A-09_VS,Power Cable B,Vibration Switch- MAE-5005A-09/VS,0%
 120-04,EL,EBC-MAE-5005A-10,Power Cable B,Local Control Station- MAE-5005A-10,67%
-120-04,EL,EBC-MAE-5005A-10_VS,Power Cable B,Vibration Switch- MAE-5005A-10/VS,DONE
+120-04,EL,EBC-MAE-5005A-10_VS,Power Cable B,Vibration Switch- MAE-5005A-10/VS,0%
 120-04,EL,EBC-MAE-5005A-11,Power Cable B,Local Control Station- MAE-5005A-11,67%
-120-04,EL,EBC-MAE-5005A-11_VS,Power Cable B,Vibration Switch- MAE-5005A-11/VS,DONE
+120-04,EL,EBC-MAE-5005A-11_VS,Power Cable B,Vibration Switch- MAE-5005A-11/VS,0%
 120-04,EL,EBC-MAE-5005A-12,Power Cable B,Local Control Station- MAE-5005A-12,67%
-120-04,EL,EBC-MAE-5005A-12_VS,Power Cable B,Vibration Switch- MAE-5005A-12/VS,DONE
+120-04,EL,EBC-MAE-5005A-12_VS,Power Cable B,Vibration Switch- MAE-5005A-12/VS,0%
 120-04,EL,EBC-MAE-5005A-13,Power Cable B,Local Control Station- MAE-5005A-13,67%
-120-04,EL,EBC-MAE-5005A-13_VS,Power Cable B,Vibration Switch- MAE-5005A-13/VS,DONE
+120-04,EL,EBC-MAE-5005A-13_VS,Power Cable B,Vibration Switch- MAE-5005A-13/VS,0%
 120-04,EL,EBC-MAE-5005A-14,Power Cable B,Local Control Station- MAE-5005A-14,67%
-120-04,EL,EBC-MAE-5005A-14_VS,Power Cable B,Vibration Switch- MAE-5005A-14/VS,DONE
+120-04,EL,EBC-MAE-5005A-14_VS,Power Cable B,Vibration Switch- MAE-5005A-14/VS,0%
 120-04,EL,EBC-MAE-5005A-15,Power Cable B,Local Control Station- MAE-5005A-15,67%
-120-04,EL,EBC-MAE-5005A-15_VS,Power Cable B,Vibration Switch- MAE-5005A-15/VS,DONE
+120-04,EL,EBC-MAE-5005A-15_VS,Power Cable B,Vibration Switch- MAE-5005A-15/VS,0%
 120-04,EL,EBC-MAE-5005A-16,Power Cable B,Local Control Station- MAE-5005A-16,67%
-120-04,EL,EBC-MAE-5005A-16_VS,Power Cable B,Vibration Switch- MAE-5005A-16/VS,DONE
+120-04,EL,EBC-MAE-5005A-16_VS,Power Cable B,Vibration Switch- MAE-5005A-16/VS,0%
 120-04,EL,EBC-MAE-5005A-17,Power Cable B,Local Control Station- MAE-5005A-17,67%
-120-04,EL,EBC-MAE-5005A-17_VS,Power Cable B,Vibration Switch- MAE-5005A-17/VS,DONE
+120-04,EL,EBC-MAE-5005A-17_VS,Power Cable B,Vibration Switch- MAE-5005A-17/VS,0%
 120-04,EL,EBC-MAE-5005A-18,Power Cable B,Local Control Station- MAE-5005A-18,67%
-120-04,EL,EBC-MAE-5005A-18_VS,Power Cable B,Vibration Switch- MAE-5005A-18/VS,DONE
+120-04,EL,EBC-MAE-5005A-18_VS,Power Cable B,Vibration Switch- MAE-5005A-18/VS,0%
 120-04,EL,EBC-MAE-5005B-01,Power Cable B,Local Control Station- MAE-5005B-01,67%
-120-04,EL,EBC-MAE-5005B-01_VS,Power Cable B,Vibration Switch- MAE-5005B-01/VS,DONE
+120-04,EL,EBC-MAE-5005B-01_VS,Power Cable B,Vibration Switch- MAE-5005B-01/VS,0%
 120-04,EL,EBC-MAE-5005B-02,Power Cable B,Local Control Station- MAE-5005B-02,67%
-120-04,EL,EBC-MAE-5005B-02_VS,Power Cable B,Vibration Switch- MAE-5005B-02/VS,DONE
+120-04,EL,EBC-MAE-5005B-02_VS,Power Cable B,Vibration Switch- MAE-5005B-02/VS,0%
 120-04,EL,EBC-MAE-5005B-03,Power Cable B,Local Control Station- MAE-5005B-03,67%
-120-04,EL,EBC-MAE-5005B-03_VS,Power Cable B,Vibration Switch- MAE-5005B-03/VS,DONE
+120-04,EL,EBC-MAE-5005B-03_VS,Power Cable B,Vibration Switch- MAE-5005B-03/VS,0%
 120-04,EL,EBC-MAE-5005B-04,Power Cable B,Local Control Station- MAE-5005B-04,67%
-120-04,EL,EBC-MAE-5005B-04_VS,Power Cable B,Vibration Switch- MAE-5005B-04/VS,DONE
+120-04,EL,EBC-MAE-5005B-04_VS,Power Cable B,Vibration Switch- MAE-5005B-04/VS,0%
 120-04,EL,EBC-MAE-5005B-05,Power Cable B,Local Control Station- MAE-5005B-05,67%
-120-04,EL,EBC-MAE-5005B-05_VS,Power Cable B,Vibration Switch- MAE-5005B-05/VS,DONE
+120-04,EL,EBC-MAE-5005B-05_VS,Power Cable B,Vibration Switch- MAE-5005B-05/VS,0%
 120-04,EL,EBC-MAE-5005B-06,Power Cable B,Local Control Station- MAE-5005B-06,67%
-120-04,EL,EBC-MAE-5005B-06_VS,Power Cable B,Vibration Switch- MAE-5005B-06/VS,DONE
+120-04,EL,EBC-MAE-5005B-06_VS,Power Cable B,Vibration Switch- MAE-5005B-06/VS,0%
 120-04,EL,EBC-MAE-5005B-07,Power Cable B,Local Control Station- MAE-5005B-07,67%
-120-04,EL,EBC-MAE-5005B-07_VS,Power Cable B,Vibration Switch- MAE-5005B-07/VS,DONE
+120-04,EL,EBC-MAE-5005B-07_VS,Power Cable B,Vibration Switch- MAE-5005B-07/VS,0%
 120-04,EL,EBC-MAE-5005B-08,Power Cable B,Local Control Station- MAE-5005B-08,67%
-120-04,EL,EBC-MAE-5005B-08_VS,Power Cable B,Vibration Switch- MAE-5005B-08/VS,DONE
+120-04,EL,EBC-MAE-5005B-08_VS,Power Cable B,Vibration Switch- MAE-5005B-08/VS,0%
 120-04,EL,EBC-MAE-5005B-09,Power Cable B,Local Control Station- MAE-5005B-09,67%
-120-04,EL,EBC-MAE-5005B-09_VS,Power Cable B,Vibration Switch- MAE-5005B-09/VS,DONE
+120-04,EL,EBC-MAE-5005B-09_VS,Power Cable B,Vibration Switch- MAE-5005B-09/VS,0%
 120-04,EL,EBC-MAE-5005B-10,Power Cable B,Local Control Station- MAE-5005B-10,67%
-120-04,EL,EBC-MAE-5005B-10_VS,Power Cable B,Vibration Switch- MAE-5005B-10/VS,DONE
+120-04,EL,EBC-MAE-5005B-10_VS,Power Cable B,Vibration Switch- MAE-5005B-10/VS,0%
 120-04,EL,EBC-MAE-5005B-11,Power Cable B,Local Control Station- MAE-5005B-11,67%
-120-04,EL,EBC-MAE-5005B-11_VS,Power Cable B,Vibration Switch- MAE-5005B-11/VS,DONE
+120-04,EL,EBC-MAE-5005B-11_VS,Power Cable B,Vibration Switch- MAE-5005B-11/VS,0%
 120-04,EL,EBC-MAE-5005B-12,Power Cable B,Local Control Station- MAE-5005B-12,67%
-120-04,EL,EBC-MAE-5005B-12_VS,Power Cable B,Vibration Switch- MAE-5005B-12/VS,DONE
+120-04,EL,EBC-MAE-5005B-12_VS,Power Cable B,Vibration Switch- MAE-5005B-12/VS,0%
 120-04,EL,EBC-MAE-5005B-13,Power Cable B,Local Control Station- MAE-5005B-13,67%
-120-04,EL,EBC-MAE-5005B-13_VS,Power Cable B,Vibration Switch- MAE-5005B-13/VS,DONE
+120-04,EL,EBC-MAE-5005B-13_VS,Power Cable B,Vibration Switch- MAE-5005B-13/VS,0%
 120-04,EL,EBC-MAE-5005B-14,Power Cable B,Local Control Station- MAE-5005B-14,67%
-120-04,EL,EBC-MAE-5005B-14_VS,Power Cable B,Vibration Switch- MAE-5005B-14/VS,DONE
+120-04,EL,EBC-MAE-5005B-14_VS,Power Cable B,Vibration Switch- MAE-5005B-14/VS,0%
 120-04,EL,EBC-MAE-5005B-15,Power Cable B,Local Control Station- MAE-5005B-15,67%
-120-04,EL,EBC-MAE-5005B-15_VS,Power Cable B,Vibration Switch- MAE-5005B-15/VS,DONE
+120-04,EL,EBC-MAE-5005B-15_VS,Power Cable B,Vibration Switch- MAE-5005B-15/VS,0%
 120-04,EL,EBC-MAE-5005B-16,Power Cable B,Local Control Station- MAE-5005B-16,67%
-120-04,EL,EBC-MAE-5005B-16_VS,Power Cable B,Vibration Switch- MAE-5005B-16/VS,DONE
+120-04,EL,EBC-MAE-5005B-16_VS,Power Cable B,Vibration Switch- MAE-5005B-16/VS,0%
 120-04,EL,EBC-MAE-5005B-17,Power Cable B,Local Control Station- MAE-5005B-17,67%
-120-04,EL,EBC-MAE-5005B-17_VS,Power Cable B,Vibration Switch- MAE-5005B-17/VS,DONE
+120-04,EL,EBC-MAE-5005B-17_VS,Power Cable B,Vibration Switch- MAE-5005B-17/VS,0%
 120-04,EL,EBC-MAE-5005B-18,Power Cable B,Local Control Station- MAE-5005B-18,67%
-120-04,EL,EBC-MAE-5005B-18_VS,Power Cable B,Vibration Switch- MAE-5005B-18/VS,DONE
+120-04,EL,EBC-MAE-5005B-18_VS,Power Cable B,Vibration Switch- MAE-5005B-18/VS,0%
 120-05,EL,EBC-MAE-5005C-01,Power Cable B,Local Control Station- MAE-5005C-01,67%
-120-05,EL,EBC-MAE-5005C-01_VS,Power Cable B,Vibration Switch- MAE-5005C-01/VS,DONE
+120-05,EL,EBC-MAE-5005C-01_VS,Power Cable B,Vibration Switch- MAE-5005C-01/VS,0%
 120-05,EL,EBC-MAE-5005C-02,Power Cable B,Local Control Station- MAE-5005C-02,67%
-120-05,EL,EBC-MAE-5005C-02_VS,Power Cable B,Vibration Switch- MAE-5005C-02/VS,DONE
+120-05,EL,EBC-MAE-5005C-02_VS,Power Cable B,Vibration Switch- MAE-5005C-02/VS,0%
 120-05,EL,EBC-MAE-5005C-03,Power Cable B,Local Control Station- MAE-5005C-03,67%
-120-05,EL,EBC-MAE-5005C-03_VS,Power Cable B,Vibration Switch- MAE-5005C-03/VS,DONE
+120-05,EL,EBC-MAE-5005C-03_VS,Power Cable B,Vibration Switch- MAE-5005C-03/VS,0%
 120-05,EL,EBC-MAE-5005C-04,Power Cable B,Local Control Station- MAE-5005C-04,67%
-120-05,EL,EBC-MAE-5005C-04_VS,Power Cable B,Vibration Switch- MAE-5005C-04/VS,DONE
+120-05,EL,EBC-MAE-5005C-04_VS,Power Cable B,Vibration Switch- MAE-5005C-04/VS,0%
 120-05,EL,EBC-MAE-5005C-05,Power Cable B,Local Control Station- MAE-5005C-05,67%
-120-05,EL,EBC-MAE-5005C-05_VS,Power Cable B,Vibration Switch- MAE-5005C-05/VS,DONE
+120-05,EL,EBC-MAE-5005C-05_VS,Power Cable B,Vibration Switch- MAE-5005C-05/VS,0%
 120-05,EL,EBC-MAE-5005C-06,Power Cable B,Local Control Station- MAE-5005C-06,67%
-120-05,EL,EBC-MAE-5005C-06_VS,Power Cable B,Vibration Switch- MAE-5005C-06/VS,DONE
+120-05,EL,EBC-MAE-5005C-06_VS,Power Cable B,Vibration Switch- MAE-5005C-06/VS,0%
 120-05,EL,EBC-MAE-5005C-07,Power Cable B,Local Control Station- MAE-5005C-07,67%
-120-05,EL,EBC-MAE-5005C-07_VS,Power Cable B,Vibration Switch- MAE-5005C-07/VS,DONE
+120-05,EL,EBC-MAE-5005C-07_VS,Power Cable B,Vibration Switch- MAE-5005C-07/VS,0%
 120-05,EL,EBC-MAE-5005C-08,Power Cable B,Local Control Station- MAE-5005C-08,67%
-120-05,EL,EBC-MAE-5005C-08_VS,Power Cable B,Vibration Switch- MAE-5005C-08/VS,DONE
+120-05,EL,EBC-MAE-5005C-08_VS,Power Cable B,Vibration Switch- MAE-5005C-08/VS,0%
 120-05,EL,EBC-MAE-5005C-09,Power Cable B,Local Control Station- MAE-5005C-09,67%
-120-05,EL,EBC-MAE-5005C-09_VS,Power Cable B,Vibration Switch- MAE-5005C-09/VS,DONE
+120-05,EL,EBC-MAE-5005C-09_VS,Power Cable B,Vibration Switch- MAE-5005C-09/VS,0%
 120-05,EL,EBC-MAE-5005C-10,Power Cable B,Local Control Station- MAE-5005C-10,67%
-120-05,EL,EBC-MAE-5005C-10_VS,Power Cable B,Vibration Switch- MAE-5005C-10/VS,DONE
+120-05,EL,EBC-MAE-5005C-10_VS,Power Cable B,Vibration Switch- MAE-5005C-10/VS,0%
 120-05,EL,EBC-MAE-5005C-11,Power Cable B,Local Control Station- MAE-5005C-11,67%
-120-05,EL,EBC-MAE-5005C-11_VS,Power Cable B,Vibration Switch- MAE-5005C-11/VS,DONE
+120-05,EL,EBC-MAE-5005C-11_VS,Power Cable B,Vibration Switch- MAE-5005C-11/VS,0%
 120-05,EL,EBC-MAE-5005C-12,Power Cable B,Local Control Station- MAE-5005C-12,67%
-120-05,EL,EBC-MAE-5005C-12_VS,Power Cable B,Vibration Switch- MAE-5005C-12/VS,DONE
+120-05,EL,EBC-MAE-5005C-12_VS,Power Cable B,Vibration Switch- MAE-5005C-12/VS,0%
 120-05,EL,EBC-MAE-5005C-13,Power Cable B,Local Control Station- MAE-5005C-13,67%
-120-05,EL,EBC-MAE-5005C-13_VS,Power Cable B,Vibration Switch- MAE-5005C-13/VS,DONE
+120-05,EL,EBC-MAE-5005C-13_VS,Power Cable B,Vibration Switch- MAE-5005C-13/VS,0%
 120-05,EL,EBC-MAE-5005C-14,Power Cable B,Local Control Station- MAE-5005C-14,67%
-120-05,EL,EBC-MAE-5005C-14_VS,Power Cable B,Vibration Switch- MAE-5005C-14/VS,DONE
+120-05,EL,EBC-MAE-5005C-14_VS,Power Cable B,Vibration Switch- MAE-5005C-14/VS,0%
 120-04,EL,EBC-MAE-5005C-15,Power Cable B,Local Control Station- MAE-5005C-15,67%
-120-04,EL,EBC-MAE-5005C-15_VS,Power Cable B,Vibration Switch- MAE-5005C-15/VS,DONE
+120-04,EL,EBC-MAE-5005C-15_VS,Power Cable B,Vibration Switch- MAE-5005C-15/VS,0%
 120-04,EL,EBC-MAE-5005C-16,Power Cable B,Local Control Station- MAE-5005C-16,67%
-120-04,EL,EBC-MAE-5005C-16_VS,Power Cable B,Vibration Switch- MAE-5005C-16/VS,DONE
+120-04,EL,EBC-MAE-5005C-16_VS,Power Cable B,Vibration Switch- MAE-5005C-16/VS,0%
 120-04,EL,EBC-MAE-5005C-17,Power Cable B,Local Control Station- MAE-5005C-17,67%
-120-04,EL,EBC-MAE-5005C-17_VS,Power Cable B,Vibration Switch- MAE-5005C-17/VS,DONE
+120-04,EL,EBC-MAE-5005C-17_VS,Power Cable B,Vibration Switch- MAE-5005C-17/VS,0%
 120-04,EL,EBC-MAE-5005C-18,Power Cable B,Local Control Station- MAE-5005C-18,67%
-120-04,EL,EBC-MAE-5005C-18_VS,Power Cable B,Vibration Switch- MAE-5005C-18/VS,DONE
+120-04,EL,EBC-MAE-5005C-18_VS,Power Cable B,Vibration Switch- MAE-5005C-18/VS,0%
 120-05,EL,EBC-MAE-5005D-01,Power Cable B,Local Control Station- MAE-5005D-01,67%
-120-05,EL,EBC-MAE-5005D-01_VS,Power Cable B,Vibration Switch- MAE-5005D-01/VS,DONE
+120-05,EL,EBC-MAE-5005D-01_VS,Power Cable B,Vibration Switch- MAE-5005D-01/VS,0%
 120-05,EL,EBC-MAE-5005D-02,Power Cable B,Local Control Station- MAE-5005D-02,67%
-120-05,EL,EBC-MAE-5005D-02_VS,Power Cable B,Vibration Switch- MAE-5005D-02/VS,DONE
+120-05,EL,EBC-MAE-5005D-02_VS,Power Cable B,Vibration Switch- MAE-5005D-02/VS,0%
 120-05,EL,EBC-MAE-5005D-03,Power Cable B,Local Control Station- MAE-5005D-03,67%
-120-05,EL,EBC-MAE-5005D-03_VS,Power Cable B,Vibration Switch- MAE-5005D-03/VS,DONE
+120-05,EL,EBC-MAE-5005D-03_VS,Power Cable B,Vibration Switch- MAE-5005D-03/VS,0%
 120-05,EL,EBC-MAE-5005D-04,Power Cable B,Local Control Station- MAE-5005D-04,67%
-120-05,EL,EBC-MAE-5005D-04_VS,Power Cable B,Vibration Switch- MAE-5005D-04/VS,DONE
+120-05,EL,EBC-MAE-5005D-04_VS,Power Cable B,Vibration Switch- MAE-5005D-04/VS,0%
 120-05,EL,EBC-MAE-5005D-05,Power Cable B,Local Control Station- MAE-5005D-05,67%
-120-05,EL,EBC-MAE-5005D-05_VS,Power Cable B,Vibration Switch- MAE-5005D-05/VS,DONE
+120-05,EL,EBC-MAE-5005D-05_VS,Power Cable B,Vibration Switch- MAE-5005D-05/VS,0%
 120-05,EL,EBC-MAE-5005D-06,Power Cable B,Local Control Station- MAE-5005D-06,67%
-120-05,EL,EBC-MAE-5005D-06_VS,Power Cable B,Vibration Switch- MAE-5005D-06/VS,DONE
+120-05,EL,EBC-MAE-5005D-06_VS,Power Cable B,Vibration Switch- MAE-5005D-06/VS,0%
 120-05,EL,EBC-MAE-5005D-07,Power Cable B,Local Control Station- MAE-5005D-07,67%
-120-05,EL,EBC-MAE-5005D-07_VS,Power Cable B,Vibration Switch- MAE-5005D-07/VS,DONE
+120-05,EL,EBC-MAE-5005D-07_VS,Power Cable B,Vibration Switch- MAE-5005D-07/VS,0%
 120-05,EL,EBC-MAE-5005D-08,Power Cable B,Local Control Station- MAE-5005D-08,67%
-120-05,EL,EBC-MAE-5005D-08_VS,Power Cable B,Vibration Switch- MAE-5005D-08/VS,DONE
+120-05,EL,EBC-MAE-5005D-08_VS,Power Cable B,Vibration Switch- MAE-5005D-08/VS,0%
 120-05,EL,EBC-MAE-5005D-09,Power Cable B,Local Control Station- MAE-5005D-09,67%
-120-05,EL,EBC-MAE-5005D-09_VS,Power Cable B,Vibration Switch- MAE-5005D-09/VS,DONE
+120-05,EL,EBC-MAE-5005D-09_VS,Power Cable B,Vibration Switch- MAE-5005D-09/VS,0%
 120-05,EL,EBC-MAE-5005D-10,Power Cable B,Local Control Station- MAE-5005D-10,67%
-120-05,EL,EBC-MAE-5005D-10_VS,Power Cable B,Vibration Switch- MAE-5005D-10/VS,DONE
+120-05,EL,EBC-MAE-5005D-10_VS,Power Cable B,Vibration Switch- MAE-5005D-10/VS,0%
 120-05,EL,EBC-MAE-5005D-11,Power Cable B,Local Control Station- MAE-5005D-11,67%
-120-05,EL,EBC-MAE-5005D-11_VS,Power Cable B,Vibration Switch- MAE-5005D-11/VS,DONE
+120-05,EL,EBC-MAE-5005D-11_VS,Power Cable B,Vibration Switch- MAE-5005D-11/VS,0%
 120-05,EL,EBC-MAE-5005D-12,Power Cable B,Local Control Station- MAE-5005D-12,67%
-120-05,EL,EBC-MAE-5005D-12_VS,Power Cable B,Vibration Switch- MAE-5005D-12/VS,DONE
+120-05,EL,EBC-MAE-5005D-12_VS,Power Cable B,Vibration Switch- MAE-5005D-12/VS,0%
 120-05,EL,EBC-MAE-5005D-13,Power Cable B,Local Control Station- MAE-5005D-13,67%
-120-05,EL,EBC-MAE-5005D-13_VS,Power Cable B,Vibration Switch- MAE-5005D-13/VS,DONE
+120-05,EL,EBC-MAE-5005D-13_VS,Power Cable B,Vibration Switch- MAE-5005D-13/VS,0%
 120-05,EL,EBC-MAE-5005D-14,Power Cable B,Local Control Station- MAE-5005D-14,67%
-120-05,EL,EBC-MAE-5005D-14_VS,Power Cable B,Vibration Switch- MAE-5005D-14/VS,DONE
+120-05,EL,EBC-MAE-5005D-14_VS,Power Cable B,Vibration Switch- MAE-5005D-14/VS,0%
 120-05,EL,EBC-MAE-5005D-15,Power Cable B,Local Control Station- MAE-5005D-15,67%
-120-05,EL,EBC-MAE-5005D-15_VS,Power Cable B,Vibration Switch- MAE-5005D-15/VS,DONE
+120-05,EL,EBC-MAE-5005D-15_VS,Power Cable B,Vibration Switch- MAE-5005D-15/VS,0%
 120-05,EL,EBC-MAE-5005D-16,Power Cable B,Local Control Station- MAE-5005D-16,67%
-120-05,EL,EBC-MAE-5005D-16_VS,Power Cable B,Vibration Switch- MAE-5005D-16/VS,DONE
+120-05,EL,EBC-MAE-5005D-16_VS,Power Cable B,Vibration Switch- MAE-5005D-16/VS,0%
 120-05,EL,EBC-MAE-5005D-17,Power Cable B,Local Control Station- MAE-5005D-17,67%
-120-05,EL,EBC-MAE-5005D-17_VS,Power Cable B,Vibration Switch- MAE-5005D-17/VS,DONE
+120-05,EL,EBC-MAE-5005D-17_VS,Power Cable B,Vibration Switch- MAE-5005D-17/VS,0%
 120-05,EL,EBC-MAE-5005D-18,Power Cable B,Local Control Station- MAE-5005D-18,67%
-120-05,EL,EBC-MAE-5005D-18_VS,Power Cable B,Vibration Switch- MAE-5005D-18/VS,DONE
+120-05,EL,EBC-MAE-5005D-18_VS,Power Cable B,Vibration Switch- MAE-5005D-18/VS,0%
 120-04,EL,EBC-MAE-5006-01,Power Cable B,Local Control Station- MAE-5006-01,67%
-120-04,EL,EBC-MAE-5006-01_VS,Power Cable B,Vibration Switch- MAE-5006-01/VS,DONE
+120-04,EL,EBC-MAE-5006-01_VS,Power Cable B,Vibration Switch- MAE-5006-01/VS,0%
 120-04,EL,EBC-MAE-5006-02,Power Cable B,Local Control Station- MAE-5006-02,67%
-120-04,EL,EBC-MAE-5006-02_VS,Power Cable B,Vibration Switch- MAE-5006-02/VS,DONE
+120-04,EL,EBC-MAE-5006-02_VS,Power Cable B,Vibration Switch- MAE-5006-02/VS,0%
 120-03,EL,EBC-MB-8001A,Power Cable B,Local Control Station- MB-8001A,67%
-120-03,EL,EBC-MB-8001B,Power Cable B,Local Control Station- MB-8001B,DONE
+120-03,EL,EBC-MB-8001B,Power Cable B,Local Control Station- MB-8001B,33%
 120-03,EL,EBC-MF-8001A,Power Cable B,Local Control Station- MF-8001A,67%
-120-03,EL,EBC-MF-8001A_VS,Power Cable B,Vibration Switch- MF-8001A/VS,DONE
+120-03,EL,EBC-MF-8001A_VS,Power Cable B,Vibration Switch- MF-8001A/VS,0%
 120-03,EL,EBC-MF-8001B,Power Cable B,Local Control Station- MF-8001B,67%
 120-03,EL,EBC-MF-8001B_VS,Power Cable B,Vibration Switch- MF-8001B/VS,0%
 120-03,EL,EBC-MF-8001C,Power Cable B,Local Control Station- MF-8001C,67%
 120-03,EL,EBC-MF-8001C_VS,Power Cable B,Vibration Switch- MF-8001C/VS,0%
 120-03,EL,EBC-MF-8001D,Power Cable B,Local Control Station- MF-8001D,67%
-120-03,EL,EBC-MF-8001D_VS,Power Cable B,Vibration Switch- MF-8001D/VS,DONE
+120-03,EL,EBC-MF-8001D_VS,Power Cable B,Vibration Switch- MF-8001D/VS,0%
 120-02,EL,EBC-MP-0001A,Power Cable B,Local Control Station- MP-0001A,67%
 120-02,EL,EBC-MP-0001B,Power Cable B,Local Control Station- MP-0001B,67%
 120-02,EL,EBC-MP-2001A,Power Cable B,Local Control Station- MP-2001A,67%
@@ -10180,12 +10180,12 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-02,EL,EBC-MP-2002B,Power Cable B,Local Control Station- MP-2002B,67%
 120-02,EL,EBC-MP-2003A,Power Cable B,Local Control Station- MP-2003A,67%
 120-02,EL,EBC-MP-2003B,Power Cable B,Local Control Station- MP-2003B,67%
-120-07,EL,EBC-MP-3001,Power Cable B,Local Control Station- MP-3001,DONE
+120-07,EL,EBC-MP-3001,Power Cable B,Local Control Station- MP-3001,33%
 120-02,EL,EBC-MP-3011A,Power Cable B,Compressor Local Control Panel (Ammeter for MP-3011A),33%
 120-02,EL,EBC-MP-3011B,Power Cable B,Compressor Local Control Panel (Ammeter for MP-3011B),33%
 120-02,EL,EBC-MP-3012A,Power Cable B,Compressor Local Control Panel (Ammeter for MP-3012A),67%
 120-02,EL,EBC-MP-3012B,Power Cable B,Compressor Local Control Panel (Ammeter for MP-3012B),67%
-120-07,EL,EBC-MP-3013,Power Cable B,Compressor Local Control Panel (Ammeter for MP-3013),DONE
+120-07,EL,EBC-MP-3013,Power Cable B,Compressor Local Control Panel (Ammeter for MP-3013),33%
 120-02,EL,EBC-MP-5001A,Power Cable B,Local Control Station- MP-5001A,67%
 120-02,EL,EBC-MP-5001B,Power Cable B,Local Control Station- MP-5001B,67%
 120-02,EL,EBC-MP-5002A,Power Cable B,Local Control Station- MP-5002A,67%
@@ -10202,10 +10202,10 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-02,EL,EBC-MP-5010B,Power Cable B,Local Control Station- MP-5010B,67%
 120-02,EL,EBC-MP-5011A,Power Cable B,Local Control Station- MP-5011A,67%
 120-02,EL,EBC-MP-5011B,Power Cable B,Local Control Station- MP-5011B,67%
-120-07,EL,EBC-MP-5012A,Power Cable B,Local Control Station- MP-5012A,DONE
-120-07,EL,EBC-MP-5012B,Power Cable B,Local Control Station- MP-5012B,DONE
-120-02,EL,EBC-MP-5070A,Power Cable B,Local Control Station- MP-5070A,DONE
-120-02,EL,EBC-MP-5070B,Power Cable B,Local Control Station- MP-5070B,DONE
+120-07,EL,EBC-MP-5012A,Power Cable B,Local Control Station- MP-5012A,33%
+120-07,EL,EBC-MP-5012B,Power Cable B,Local Control Station- MP-5012B,33%
+120-02,EL,EBC-MP-5070A,Power Cable B,Local Control Station- MP-5070A,33%
+120-02,EL,EBC-MP-5070B,Power Cable B,Local Control Station- MP-5070B,33%
 120-02,EL,EBC-MP-6001A,Power Cable B,Local Control Station- MP-6001A,67%
 120-02,EL,EBC-MP-6001B,Power Cable B,Local Control Station- MP-6001B,67%
 120-02,EL,EBC-MP-7002A,Power Cable B,Local Control Station- MP-7002A,67%
@@ -10214,16 +10214,16 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-02,EL,EBC-MP-7003B,Power Cable B,Local Control Station- MP-7003B,67%
 120-02,EL,EBC-MP-7004A,Power Cable B,Local Control Station- MP-7004A,67%
 120-02,EL,EBC-MP-7004B,Power Cable B,Local Control Station- MP-7004B,67%
-120-02,EL,EBC-MP-7051A,Power Cable B,Local Control Station- MP-7051A,DONE
-120-02,EL,EBC-MP-7051B,Power Cable B,Local Control Station- MP-7051B,DONE
-120-02,EL,EBC-MP-7052A,Power Cable B,Local Control Station- MP-7052A,DONE
-120-02,EL,EBC-MP-7052B,Power Cable B,Local Control Station- MP-7052B,DONE
-120-02,EL,EBC-MP-7060A,Power Cable B,Local Control Station- MP-7060A,DONE
-120-02,EL,EBC-MP-7060B,Power Cable B,Local Control Station- MP-7060B,DONE
-120-02,EL,EBC-MP-7070A,Power Cable B,Local Control Station- MP-7070A,DONE
-120-02,EL,EBC-MP-7070B,Power Cable B,Local Control Station- MP-7070B,DONE
-120-07,EL,EBC-MP-7101A,Power Cable B,Local Control Station- MP-7101A,DONE
-120-07,EL,EBC-MP-7101B,Power Cable B,Local Control Station- MP-7101B,DONE
+120-02,EL,EBC-MP-7051A,Power Cable B,Local Control Station- MP-7051A,33%
+120-02,EL,EBC-MP-7051B,Power Cable B,Local Control Station- MP-7051B,33%
+120-02,EL,EBC-MP-7052A,Power Cable B,Local Control Station- MP-7052A,33%
+120-02,EL,EBC-MP-7052B,Power Cable B,Local Control Station- MP-7052B,33%
+120-02,EL,EBC-MP-7060A,Power Cable B,Local Control Station- MP-7060A,33%
+120-02,EL,EBC-MP-7060B,Power Cable B,Local Control Station- MP-7060B,33%
+120-02,EL,EBC-MP-7070A,Power Cable B,Local Control Station- MP-7070A,33%
+120-02,EL,EBC-MP-7070B,Power Cable B,Local Control Station- MP-7070B,33%
+120-07,EL,EBC-MP-7101A,Power Cable B,Local Control Station- MP-7101A,33%
+120-07,EL,EBC-MP-7101B,Power Cable B,Local Control Station- MP-7101B,33%
 120-03,EL,EBC-MP-7502A,Power Cable B,Local Control Station- MP-7502A,67%
 120-03,EL,EBC-MP-7502B,Power Cable B,Local Control Station- MP-7502B,67%
 120-03,EL,EBC-MP-7503A,Power Cable B,Local Control Station- MP-7503A,67%
@@ -10238,16 +10238,16 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-03,EL,EBC-MP-8403B,Power Cable B,Local Control Station- MP-8403B,67%
 120-03,EL,EBC-MP-8404A,Power Cable B,Local Control Station- MP-8404A,67%
 120-03,EL,EBC-MP-8404B,Power Cable B,Local Control Station- MP-8404B,67%
-120-03,EL,EBC-MP-8405A,Power Cable B,Local Control Station- MP-8405A,DONE
-120-03,EL,EBC-MP-8405B,Power Cable B,Local Control Station- MP-8405B,DONE
-120-02,EL,EBC-MX-7050,Power Cable B,Local Control Station- MX-7050,DONE
-120-02,EL,EBC-MX-7060,Power Cable B,Local Control Station- MX-7060,DONE
-120-02,EL,EBC-MX-7070,Power Cable B,Local Control Station- MX-7070,DONE
+120-03,EL,EBC-MP-8405A,Power Cable B,Local Control Station- MP-8405A,33%
+120-03,EL,EBC-MP-8405B,Power Cable B,Local Control Station- MP-8405B,33%
+120-02,EL,EBC-MX-7050,Power Cable B,Local Control Station- MX-7050,33%
+120-02,EL,EBC-MX-7060,Power Cable B,Local Control Station- MX-7060,33%
+120-02,EL,EBC-MX-7070,Power Cable B,Local Control Station- MX-7070,33%
 120-02,EL,EBC-P7001C-HE-1,Power Cable B,Heater Safety Thermostat for P7001C-HE-1,67%
 120-02,EL,EBC-P7001C-HE-2,Power Cable B,Heater Safety Thermostat for P7001C-HE-2,67%
 120-02,EL,EBC-P7001C-MF-1,Power Cable B,Local Control Station- P7001C-MF-1,67%
 120-02,EL,EBC-P7001C-MP-1A,Power Cable B,Local Control Station- P7001C-MP-1A,67%
-120-07,EL,EBC-P7001C-MP-1B,Power Cable B,Local Control Station- P7001C-MP-1B,DONE
+120-07,EL,EBC-P7001C-MP-1B,Power Cable B,Local Control Station- P7001C-MP-1B,33%
 120-03,EL,EBC-PK7502-MB-1A,Power Cable B,Local Control Station- PK7502-MB-1A,67%
 120-03,EL,EBC-PK7502-MB-1B,Power Cable B,Local Control Station- PK7502-MB-1B,67%
 120-03,EL,EBC-PK7502-MP-1A,Power Cable B,Local Control Station- PK7502-MP-1A,67%
@@ -10273,16 +10273,16 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-03,EL,EBC-PK8401-MP-1B-PTC,Power Cable B,Oily Sludge Transfer Pump PK8401-MP-1B- Intermediate JB,33%
 120-03,EL,EBC-PK8401-MP-2A,Power Cable B,Local Control Station- PK8401-MP-2A,67%
 120-03,EL,EBC-PK8401-MP-2B,Power Cable B,Local Control Station- PK8401-MP-2B,67%
-LS-02,EL,EBC-SS-EMLP-01,Power Cable B,Main Emergency Lighting Panel- SS-EMLP-01,DONE
-LS-01,EL,EBC-SS-MLP-01,Power Cable B,Main Normal Lighting Panel- SS-MLP-01,DONE
-LS-01,EL,EBC-SS-PC-01,Power Cable B,Photocell Relay Box- SS-PRB-01,DONE
-120-07,EL,EBC-SS-TR3-02-PTC,Power Cable B,Temperature Protection Device for SS-TR3-02,DONE
-120-03,EL,EBC-SS-TR3A-01-PTC,Power Cable B,Temperature Protection Device for SS-TR3A-01,DONE
-120-03,EL,EBC-SS-TR3B-01-PTC,Power Cable B,Temperature Protection Device for SS-TR3B-01,DONE
+LS-02,EL,EBC-SS-EMLP-01,Power Cable B,Main Emergency Lighting Panel- SS-EMLP-01,0%
+LS-01,EL,EBC-SS-MLP-01,Power Cable B,Main Normal Lighting Panel- SS-MLP-01,0%
+LS-01,EL,EBC-SS-PC-01,Power Cable B,Photocell Relay Box- SS-PRB-01,0%
+120-07,EL,EBC-SS-TR3-02-PTC,Power Cable B,Temperature Protection Device for SS-TR3-02,0%
+120-03,EL,EBC-SS-TR3A-01-PTC,Power Cable B,Temperature Protection Device for SS-TR3A-01,0%
+120-03,EL,EBC-SS-TR3B-01-PTC,Power Cable B,Temperature Protection Device for SS-TR3B-01,0%
 120-11,EL,EBC-SS-UPS-01,Power Cable B, 230V AC Safety Lighting UPS- SS-UPS-01,0%
-LS-06,EL,EBL-00-SLP-01-1,Power Cable B,Street Lighting poles (SL1 to SL12) ,DONE
-LS-06,EL,EBL-00-SLP-01-2,Power Cable B,Street Lighting poles (SL24 to SL34) ,DONE
-LS-06,EL,EBL-00-SLP-01-3,Power Cable B,Street Lighting poles (SL13 to SL23) ,DONE
+LS-06,EL,EBL-00-SLP-01-1,Power Cable B,Street Lighting poles (SL1 to SL12) ,0%
+LS-06,EL,EBL-00-SLP-01-2,Power Cable B,Street Lighting poles (SL24 to SL34) ,0%
+LS-06,EL,EBL-00-SLP-01-3,Power Cable B,Street Lighting poles (SL13 to SL23) ,33%
 FGS-09,EL,EBL-0101,F&G Device,Evacuation Bell,0%
 FGS-09,EL,EBL-0102,F&G Device,Evacuation Bell,DONE
 FGS-09,EL,EBL-0103,F&G Device,Area 01 Normal Lighting JB No. 1- 01-JB1-1,DONE
@@ -10292,10 +10292,10 @@ FGS-09,EL,EBL-0106,F&G Device,Area 02  Normal Lighting JB No. 1/2- 02-JB1/2-1,DO
 FGS-09,EL,EBL-0107,F&G Device,Area 02  Normal Lighting JB No. 1- 02-JB1-1,0%
 FGS-09,EL,EBL-0108,F&G Device,Evacuation Bell- EX,DONE
 FGS-09,EL,EBL-0109,F&G Device,Safety Lighting JB No. 1 For Area 07- 07-SJB1-7,DONE
-LS-02,EL,EBL-01-EJB1-1,Power Cable B,Area 01 Emergency Lighting JB No.1-01-EJB1-1,DONE
-LS-02,EL,EBL-01-EJB2-2,Power Cable B,Area 01 Emergency Lighting JB No.2-01-EJB2-2,DONE
-LS-01,EL,EBL-01-JB1-1,Power Cable B,Area 01 Normal Lighting JB No. 1- 01-JB1-1,DONE
-LS-01,EL,EBL-01-JB2-2,Power Cable B,Area 01 Normal Lighting JB No. 2- 01-JB2-2,DONE
+LS-02,EL,EBL-01-EJB1-1,Power Cable B,Area 01 Emergency Lighting JB No.1-01-EJB1-1,33%
+LS-02,EL,EBL-01-EJB2-2,Power Cable B,Area 01 Emergency Lighting JB No.2-01-EJB2-2,0%
+LS-01,EL,EBL-01-JB1-1,Power Cable B,Area 01 Normal Lighting JB No. 1- 01-JB1-1,33%
+LS-01,EL,EBL-01-JB2-2,Power Cable B,Area 01 Normal Lighting JB No. 2- 01-JB2-2,0%
 120-11,EL,EBL-01-SJB1-1,Power Cable B,Safety Lighting JB No. 1 For Area 01- 01-SJB1-1,0%
 FGS-10,EL,EBL-0201,FGS Device,Evacuation Bell,0%
 FGS-10,EL,EBL-0202,FGS Device,Evacuation Bell- EX,0%
@@ -10303,30 +10303,30 @@ FGS-10,EL,EBL-0203,FGS Device,Evacuation Bell,0%
 FGS-10,EL,EBL-0204,FGS Device,Evacuation Bell,0%
 FGS-10,EL,EBL-0205,FGS Device,Evacuation Bell,0%
 FGS-10,EL,EBL-0206,FGS Device,Evacuation Bell,0%
-LS-02,EL,EBL-02-EJB1_1-1,Power Cable B,Area 02 Emergency Lighting JB No.1/1- 02-EJB1/1-1,DONE
-LS-02,EL,EBL-02-EJB1_2-1,Power Cable B,Area 02 Emergency Lighting JB No.1/2- 02-EJB1/2-1,DONE
-LS-02,EL,EBL-02-EJB1-1,Power Cable B,Area 02 Emergency Lighting JB No.1-02-EJB1-1,DONE
-LS-02,EL,EBL-02-EJB2_1-2,Power Cable B,Area 02 Emergency Lighting JB No.2/1- 02-EJB2/1-2,DONE
-LS-02,EL,EBL-02-EJB2_2-2,Power Cable B,Area 02 Emergency Lighting JB No.2/2- 02-EJB2/2-2,DONE
-LS-02,EL,EBL-02-EJB2-2,Power Cable B,Area 02 Emergency Lighting JB No.2-02-EJB2-2,DONE
-LS-02,EL,EBL-02-EJB3_1-3,Power Cable B,Area 02 Emergency Lighting JB No.3/1-02-EJB3/1-3,DONE
-LS-02,EL,EBL-02-EJB3_2-3,Power Cable B,Area 02 Emergency Lighting JB No.3/2-02-EJB3/2-3,DONE
-LS-02,EL,EBL-02-EJB3-3,Power Cable B,Area 02 Emergency Lighting JB No.3-02-EJB3-3,DONE
-LS-01,EL,EBL-02-JB1_1-1,Power Cable B,Area 02  Normal Lighting JB No. 1/1- 02-JB1/1-1,DONE
-LS-01,EL,EBL-02-JB1_2-1,Power Cable B,Area 02  Normal Lighting JB No. 1/2- 02-JB1/2-1,DONE
-LS-01,EL,EBL-02-JB1-1,Power Cable B,Area 02  Normal Lighting JB No. 1- 02-JB1-1,DONE
-LS-01,EL,EBL-02-JB2_1-2,Power Cable B,Area 02  Normal Lighting JB No. 2/1- 02-JB2/1-2,DONE
-LS-01,EL,EBL-02-JB2_2-2,Power Cable B,Area 02  Normal Lighting JB No. 2/2- 02-JB2/2-2,DONE
-LS-01,EL,EBL-02-JB2-2,Power Cable B,Area 02  Normal Lighting JB No. 2- 02-JB2-2,DONE
-LS-01,EL,EBL-02-JB3_1-3,Power Cable B,Area 02  Normal Lighting JB No. 3/1- 02-JB3/1-3,DONE
-LS-01,EL,EBL-02-JB3_2-3,Power Cable B,Area 02  Normal Lighting JB No. 3/2- 02-JB3/2-3,DONE
-LS-01,EL,EBL-02-JB3-3,Power Cable B,Area 02  Normal Lighting JB No. 3- 02-JB3-3,DONE
-LS-01,EL,EBL-02-RJB1_1-1,Power Cable B,Area 02 Socket JB No. 1/1  - 02-RJB1/1-1,DONE
-LS-01,EL,EBL-02-RJB1-1,Power Cable B,Area 02 Socket JB No. 1  - 02-RJB1-1,DONE
-LS-01,EL,EBL-02-RJB2_1-2,Power Cable B,Area 02 Socket JB No. 2/1  - 02-RJB2/1-2,DONE
-LS-01,EL,EBL-02-RJB2_2-2,Power Cable B,Area 02 Socket JB No. 2/2  - 02-RJB2/2-2,DONE
-LS-01,EL,EBL-02-RJB2_3-2,Power Cable B,Area 02 Socket JB No. 2/3  - 02-RJB2/3-2,DONE
-LS-01,EL,EBL-02-RJB2-2,Power Cable B,Area 02 Socket JB No. 2  - 02-RJB2-2,DONE
+LS-02,EL,EBL-02-EJB1_1-1,Power Cable B,Area 02 Emergency Lighting JB No.1/1- 02-EJB1/1-1,0%
+LS-02,EL,EBL-02-EJB1_2-1,Power Cable B,Area 02 Emergency Lighting JB No.1/2- 02-EJB1/2-1,0%
+LS-02,EL,EBL-02-EJB1-1,Power Cable B,Area 02 Emergency Lighting JB No.1-02-EJB1-1,0%
+LS-02,EL,EBL-02-EJB2_1-2,Power Cable B,Area 02 Emergency Lighting JB No.2/1- 02-EJB2/1-2,0%
+LS-02,EL,EBL-02-EJB2_2-2,Power Cable B,Area 02 Emergency Lighting JB No.2/2- 02-EJB2/2-2,0%
+LS-02,EL,EBL-02-EJB2-2,Power Cable B,Area 02 Emergency Lighting JB No.2-02-EJB2-2,0%
+LS-02,EL,EBL-02-EJB3_1-3,Power Cable B,Area 02 Emergency Lighting JB No.3/1-02-EJB3/1-3,0%
+LS-02,EL,EBL-02-EJB3_2-3,Power Cable B,Area 02 Emergency Lighting JB No.3/2-02-EJB3/2-3,0%
+LS-02,EL,EBL-02-EJB3-3,Power Cable B,Area 02 Emergency Lighting JB No.3-02-EJB3-3,0%
+LS-01,EL,EBL-02-JB1_1-1,Power Cable B,Area 02  Normal Lighting JB No. 1/1- 02-JB1/1-1,0%
+LS-01,EL,EBL-02-JB1_2-1,Power Cable B,Area 02  Normal Lighting JB No. 1/2- 02-JB1/2-1,0%
+LS-01,EL,EBL-02-JB1-1,Power Cable B,Area 02  Normal Lighting JB No. 1- 02-JB1-1,0%
+LS-01,EL,EBL-02-JB2_1-2,Power Cable B,Area 02  Normal Lighting JB No. 2/1- 02-JB2/1-2,0%
+LS-01,EL,EBL-02-JB2_2-2,Power Cable B,Area 02  Normal Lighting JB No. 2/2- 02-JB2/2-2,0%
+LS-01,EL,EBL-02-JB2-2,Power Cable B,Area 02  Normal Lighting JB No. 2- 02-JB2-2,0%
+LS-01,EL,EBL-02-JB3_1-3,Power Cable B,Area 02  Normal Lighting JB No. 3/1- 02-JB3/1-3,0%
+LS-01,EL,EBL-02-JB3_2-3,Power Cable B,Area 02  Normal Lighting JB No. 3/2- 02-JB3/2-3,0%
+LS-01,EL,EBL-02-JB3-3,Power Cable B,Area 02  Normal Lighting JB No. 3- 02-JB3-3,0%
+LS-01,EL,EBL-02-RJB1_1-1,Power Cable B,Area 02 Socket JB No. 1/1  - 02-RJB1/1-1,0%
+LS-01,EL,EBL-02-RJB1-1,Power Cable B,Area 02 Socket JB No. 1  - 02-RJB1-1,0%
+LS-01,EL,EBL-02-RJB2_1-2,Power Cable B,Area 02 Socket JB No. 2/1  - 02-RJB2/1-2,0%
+LS-01,EL,EBL-02-RJB2_2-2,Power Cable B,Area 02 Socket JB No. 2/2  - 02-RJB2/2-2,0%
+LS-01,EL,EBL-02-RJB2_3-2,Power Cable B,Area 02 Socket JB No. 2/3  - 02-RJB2/3-2,0%
+LS-01,EL,EBL-02-RJB2-2,Power Cable B,Area 02 Socket JB No. 2  - 02-RJB2-2,0%
 120-11,EL,EBL-02-SJB1-2,Power Cable B,Safety Lighting JB No. 1 For Area 02- 02-SJB1-2,67%
 NO SUBS.,EL,EBL-0301,FGS Device,Evacuation Bell,0%
 FGS-08,EL,EBL-0302,FGS Device,Evacuation Bell,0%
@@ -10334,102 +10334,102 @@ FGS-08,EL,EBL-0303,FGS Device,Evacuation Bell- EX,0%
 FGS-08,EL,EBL-0304,FGS Device,Evacuation Bell,0%
 FGS-08,EL,EBL-0305,FGS Device,Evacuation Bell,0%
 FGS-08,EL,EBL-0306,FGS Device,Evacuation Bell,0%
-LS-02,EL,EBL-03-EJB1_1-1,Power Cable B,Area 03 Emergency Lighting JB No. 1/1 -03-EJB1/1-1,DONE
-LS-02,EL,EBL-03-EJB1_2-1,Power Cable B,Area 03 Emergency Lighting JB No. 1/2 -03-EJB1/2-1,DONE
-LS-02,EL,EBL-03-EJB1-1,Power Cable B,Area 03 Emergency Lighting JB No. 1 -03-EJB1-1,DONE
-LS-02,EL,EBL-03-EJB2_1-2,Power Cable B,Area 03 Emergency Lighting JB No. 2/1-03-EJB2/1-2,DONE
-LS-02,EL,EBL-03-EJB2-2,Power Cable B,Area 03 Emergency Lighting JB No. 2 -03-EJB2-2,DONE
-LS-01,EL,EBL-03-JB1_1-1,Power Cable B,Area 03  Normal Lighting JB No. 1/1 - 03-JB1/1-1,DONE
-LS-01,EL,EBL-03-JB1_2-1,Power Cable B,Area 03  Normal Lighting JB No. 1/2  - 03-JB1/2-1,DONE
-LS-01,EL,EBL-03-JB1-1,Power Cable B,Area 03  Normal Lighting JB No. 1 - 03-JB1-1,DONE
-LS-01,EL,EBL-03-JB2_1-2,Power Cable B,Area 03  Normal Lighting JB No. 2/1  - 03-JB2/1-2,DONE
-LS-01,EL,EBL-03-JB2-2,Power Cable B,Area 03  Normal Lighting JB No. 2 - 03-JB2-2,DONE
-LS-01,EL,EBL-03-RJB1_1-1,Power Cable B,Area 03 Socket JB No. 1/1 - 03-RJB1/1-1,DONE
-LS-01,EL,EBL-03-RJB1_2-1,Power Cable B,Area 03 Socket JB No. 1/2  - 03-RJB1/2-1,DONE
-LS-01,EL,EBL-03-RJB1-1,Power Cable B,Area 03 Socket JB No. 1  - 03-RJB1-1,DONE
+LS-02,EL,EBL-03-EJB1_1-1,Power Cable B,Area 03 Emergency Lighting JB No. 1/1 -03-EJB1/1-1,0%
+LS-02,EL,EBL-03-EJB1_2-1,Power Cable B,Area 03 Emergency Lighting JB No. 1/2 -03-EJB1/2-1,0%
+LS-02,EL,EBL-03-EJB1-1,Power Cable B,Area 03 Emergency Lighting JB No. 1 -03-EJB1-1,0%
+LS-02,EL,EBL-03-EJB2_1-2,Power Cable B,Area 03 Emergency Lighting JB No. 2/1-03-EJB2/1-2,0%
+LS-02,EL,EBL-03-EJB2-2,Power Cable B,Area 03 Emergency Lighting JB No. 2 -03-EJB2-2,0%
+LS-01,EL,EBL-03-JB1_1-1,Power Cable B,Area 03  Normal Lighting JB No. 1/1 - 03-JB1/1-1,0%
+LS-01,EL,EBL-03-JB1_2-1,Power Cable B,Area 03  Normal Lighting JB No. 1/2  - 03-JB1/2-1,0%
+LS-01,EL,EBL-03-JB1-1,Power Cable B,Area 03  Normal Lighting JB No. 1 - 03-JB1-1,0%
+LS-01,EL,EBL-03-JB2_1-2,Power Cable B,Area 03  Normal Lighting JB No. 2/1  - 03-JB2/1-2,0%
+LS-01,EL,EBL-03-JB2-2,Power Cable B,Area 03  Normal Lighting JB No. 2 - 03-JB2-2,0%
+LS-01,EL,EBL-03-RJB1_1-1,Power Cable B,Area 03 Socket JB No. 1/1 - 03-RJB1/1-1,0%
+LS-01,EL,EBL-03-RJB1_2-1,Power Cable B,Area 03 Socket JB No. 1/2  - 03-RJB1/2-1,0%
+LS-01,EL,EBL-03-RJB1-1,Power Cable B,Area 03 Socket JB No. 1  - 03-RJB1-1,0%
 120-11,EL,EBL-03-SJB1-3,Power Cable B,Safety Lighting JB No. 1 For Area 03- 03-SJB1-3,67%
-LS-02,EL,EBL-04-EJB1_1-3,Power Cable B,Area 04 Emergency Lighting JB No. 1/1-04-EJB1/1-3,DONE
-LS-02,EL,EBL-04-EJB1_2-3,Power Cable B,Area 04 Emergency Lighting JB No. 1/2-04-EJB1/2-3,DONE
-LS-02,EL,EBL-04-EJB1-3,Power Cable B,Area 04 Emergency Lighting JB No. 1-04-EJB1-3,DONE
-LS-02,EL,EBL-04-EJB2-4,Power Cable B,Area 04 Emergency Lighting JB No. 2-04-EJB2-4,DONE
-LS-01,EL,EBL-04-JB1_1-3,Power Cable B,Area 04  Normal Lighting JB No. 1/1 - 04-JB1/1-3,DONE
-LS-01,EL,EBL-04-JB1_2-3,Power Cable B,Area 04  Normal Lighting JB No. 1/2 - 04-JB1/2-3,DONE
-LS-01,EL,EBL-04-JB1-3,Power Cable B,Area 04  Normal Lighting JB No. 1 - 04-JB1-3,DONE
-LS-01,EL,EBL-04-JB2-4,Power Cable B,Area 04  Normal Lighting JB No. 2- 04-JB2-4,DONE
-LS-01,EL,EBL-04-RJB1_1-1,Power Cable B,Area 04 Socket JB No. 1/1 - 04-RJB1/1-1,DONE
-LS-01,EL,EBL-04-RJB1-1,Power Cable B,Area 04 Socket JB No. 1 - 04-RJB1-1,DONE
-LS-01,EL,EBL-04-RJB2-2,Power Cable B,Area 04 Socket JB No. 2 - 04-RJB2-2,DONE
+LS-02,EL,EBL-04-EJB1_1-3,Power Cable B,Area 04 Emergency Lighting JB No. 1/1-04-EJB1/1-3,0%
+LS-02,EL,EBL-04-EJB1_2-3,Power Cable B,Area 04 Emergency Lighting JB No. 1/2-04-EJB1/2-3,0%
+LS-02,EL,EBL-04-EJB1-3,Power Cable B,Area 04 Emergency Lighting JB No. 1-04-EJB1-3,0%
+LS-02,EL,EBL-04-EJB2-4,Power Cable B,Area 04 Emergency Lighting JB No. 2-04-EJB2-4,33%
+LS-01,EL,EBL-04-JB1_1-3,Power Cable B,Area 04  Normal Lighting JB No. 1/1 - 04-JB1/1-3,0%
+LS-01,EL,EBL-04-JB1_2-3,Power Cable B,Area 04  Normal Lighting JB No. 1/2 - 04-JB1/2-3,0%
+LS-01,EL,EBL-04-JB1-3,Power Cable B,Area 04  Normal Lighting JB No. 1 - 04-JB1-3,0%
+LS-01,EL,EBL-04-JB2-4,Power Cable B,Area 04  Normal Lighting JB No. 2- 04-JB2-4,33%
+LS-01,EL,EBL-04-RJB1_1-1,Power Cable B,Area 04 Socket JB No. 1/1 - 04-RJB1/1-1,0%
+LS-01,EL,EBL-04-RJB1-1,Power Cable B,Area 04 Socket JB No. 1 - 04-RJB1-1,0%
+LS-01,EL,EBL-04-RJB2-2,Power Cable B,Area 04 Socket JB No. 2 - 04-RJB2-2,33%
 120-11,EL,EBL-04-SJB1-4,Power Cable B,Safety Lighting JB No. 1 For Area 04- 04-SJB1-4,67%
-LS-02,EL,EBL-05-EJB1_1-5,Power Cable B,Area 05 Emergency Lighting JB No. 1/1-05-EJB1/1-5,DONE
-LS-02,EL,EBL-05-EJB1-5,Power Cable B,Area 05 Emergency Lighting JB No. 1-05-EJB1-5,DONE
-LS-02,EL,EBL-05-EJB2_1-6,Power Cable B,Area 05 Emergency Lighting JB No. 2/1 -05-EJB2/1-6,DONE
-LS-02,EL,EBL-05-EJB2_2-6,Power Cable B,Area 05 Emergency Lighting JB No. 2/2 -05-EJB2/2-6,DONE
-LS-02,EL,EBL-05-EJB2_3-6,Power Cable B,Area 05 Emergency Lighting JB No. 2/3 -05-EJB2/3-6,DONE
-LS-02,EL,EBL-05-EJB2-6,Power Cable B,Area 05 Emergency Lighting JB No. 2 -05-EJB2-6,DONE
-LS-02,EL,EBL-05-EJB3-7,Power Cable B,Area 05 Emergency Lighting JB No. 3- 05-EJB3-7,DONE
-LS-01,EL,EBL-05-JB1_1-5,Power Cable B,Area 05  Normal Lighting JB No. 1 /1- 05-JB1/1-5,DONE
-LS-01,EL,EBL-05-JB1-5,Power Cable B,Area 05  Normal Lighting JB No. 1 - 05-JB1-5,DONE
-LS-01,EL,EBL-05-JB2_1-6,Power Cable B, Area 05  Normal Lighting JB No. 2/1 - 05-JB2/1-6,DONE
-LS-01,EL,EBL-05-JB2_2-6,Power Cable B,Area 05  Normal Lighting JB No. 2/2- 05-JB2/2-6,DONE
-LS-01,EL,EBL-05-JB2_3-6,Power Cable B,Area 05  Normal Lighting JB No. 2/3 - 05-JB2/3-6,DONE
-LS-01,EL,EBL-05-JB2-6,Power Cable B,Area 05  Normal Lighting JB No. 2 - 05-JB2-6,DONE
-LS-01,EL,EBL-05-JB3-7,Power Cable B,Area 05  Normal Lighting JB No. 3  - 05-JB3-7,DONE
-LS-01,EL,EBL-05-RJB1_1-3,Power Cable B,Area 05 Socket JB No. 1/1- 05-RJB1/1-3,DONE
-LS-01,EL,EBL-05-RJB1_2-3,Power Cable B,Area 05 Socket JB No. 1/2 - 05-RJB1/2-3,DONE
-LS-01,EL,EBL-05-RJB1-3,Power Cable B,Area 05 Socket JB No. 1 - 05-RJB1-3,DONE
-LS-01,EL,EBL-05-RJB2_1-4,Power Cable B,Area 05 Socket JB No. 2/1  - 05-RJB2/1-4,DONE
-LS-01,EL,EBL-05-RJB2_2-4,Power Cable B,Area 05 Socket JB No. 2/2  - 05-RJB2/2-4,DONE
-LS-01,EL,EBL-05-RJB2_3-4,Power Cable B,Area 05 Socket JB No. 2/3  - 05-RJB2/3-4,DONE
-LS-01,EL,EBL-05-RJB2-4,Power Cable B,Area 05 Socket JB No. 2  - 05-RJB2-4,DONE
+LS-02,EL,EBL-05-EJB1_1-5,Power Cable B,Area 05 Emergency Lighting JB No. 1/1-05-EJB1/1-5,0%
+LS-02,EL,EBL-05-EJB1-5,Power Cable B,Area 05 Emergency Lighting JB No. 1-05-EJB1-5,0%
+LS-02,EL,EBL-05-EJB2_1-6,Power Cable B,Area 05 Emergency Lighting JB No. 2/1 -05-EJB2/1-6,0%
+LS-02,EL,EBL-05-EJB2_2-6,Power Cable B,Area 05 Emergency Lighting JB No. 2/2 -05-EJB2/2-6,0%
+LS-02,EL,EBL-05-EJB2_3-6,Power Cable B,Area 05 Emergency Lighting JB No. 2/3 -05-EJB2/3-6,0%
+LS-02,EL,EBL-05-EJB2-6,Power Cable B,Area 05 Emergency Lighting JB No. 2 -05-EJB2-6,0%
+LS-02,EL,EBL-05-EJB3-7,Power Cable B,Area 05 Emergency Lighting JB No. 3- 05-EJB3-7,0%
+LS-01,EL,EBL-05-JB1_1-5,Power Cable B,Area 05  Normal Lighting JB No. 1 /1- 05-JB1/1-5,0%
+LS-01,EL,EBL-05-JB1-5,Power Cable B,Area 05  Normal Lighting JB No. 1 - 05-JB1-5,0%
+LS-01,EL,EBL-05-JB2_1-6,Power Cable B, Area 05  Normal Lighting JB No. 2/1 - 05-JB2/1-6,0%
+LS-01,EL,EBL-05-JB2_2-6,Power Cable B,Area 05  Normal Lighting JB No. 2/2- 05-JB2/2-6,0%
+LS-01,EL,EBL-05-JB2_3-6,Power Cable B,Area 05  Normal Lighting JB No. 2/3 - 05-JB2/3-6,0%
+LS-01,EL,EBL-05-JB2-6,Power Cable B,Area 05  Normal Lighting JB No. 2 - 05-JB2-6,0%
+LS-01,EL,EBL-05-JB3-7,Power Cable B,Area 05  Normal Lighting JB No. 3  - 05-JB3-7,0%
+LS-01,EL,EBL-05-RJB1_1-3,Power Cable B,Area 05 Socket JB No. 1/1- 05-RJB1/1-3,0%
+LS-01,EL,EBL-05-RJB1_2-3,Power Cable B,Area 05 Socket JB No. 1/2 - 05-RJB1/2-3,0%
+LS-01,EL,EBL-05-RJB1-3,Power Cable B,Area 05 Socket JB No. 1 - 05-RJB1-3,0%
+LS-01,EL,EBL-05-RJB2_1-4,Power Cable B,Area 05 Socket JB No. 2/1  - 05-RJB2/1-4,0%
+LS-01,EL,EBL-05-RJB2_2-4,Power Cable B,Area 05 Socket JB No. 2/2  - 05-RJB2/2-4,0%
+LS-01,EL,EBL-05-RJB2_3-4,Power Cable B,Area 05 Socket JB No. 2/3  - 05-RJB2/3-4,0%
+LS-01,EL,EBL-05-RJB2-4,Power Cable B,Area 05 Socket JB No. 2  - 05-RJB2-4,0%
 120-11,EL,EBL-05-SJB1-5,Power Cable B,Safety Lighting JB No. 1 For Area 05- 05-SJB1-5,33%
-LS-02,EL,EBL-06-EJB1_1-3,Power Cable B,Area 06 Emergency Lighting JB No. 1/1-06-EJB1/1-3,DONE
-LS-02,EL,EBL-06-EJB1_2-3,Power Cable B,Area 06 Emergency Lighting JB No. 1/2-06-EJB1/2-3,DONE
-LS-02,EL,EBL-06-EJB1-3,Power Cable B,Area 06 Emergency Lighting JB No. 1- 06-EJB1-3,DONE
-LS-02,EL,EBL-06-EJB2_1-4,Power Cable B,Area 06 Emergency Lighting JB No. 2/1-06-EJB2/1-4,DONE
-LS-02,EL,EBL-06-EJB2_2-4,Power Cable B,Area 06 Emergency Lighting JB No. 2/2-06-EJB2/2-4,DONE
-LS-02,EL,EBL-06-EJB2_3-4,Power Cable B,Area 06 Emergency Lighting JB No. 2/3-06-EJB2/3-4,DONE
-LS-02,EL,EBL-06-EJB2-4,Power Cable B,Area 06 Emergency Lighting JB No. 2- 06-EJB2-4,DONE
-LS-01,EL,EBL-06-JB1_1-3,Power Cable B,Area 06  Normal Lighting JB No. 1/1 - 06-JB1/1-3,DONE
-LS-01,EL,EBL-06-JB1_2-3,Power Cable B,Area 06  Normal Lighting JB No. 1/2 - 06-JB1/2-3,DONE
-LS-01,EL,EBL-06-JB1-3,Power Cable B,Area 06  Normal Lighting JB No. 1- 06-JB1-3,DONE
-LS-01,EL,EBL-06-JB2_1-4,Power Cable B,Area 06  Normal Lighting JB No. 2/1 - 06-JB2/1-4,DONE
-LS-01,EL,EBL-06-JB2_2-4,Power Cable B,Area 06  Normal Lighting JB No. 2/2 - 06-JB2/2-4,DONE
-LS-01,EL,EBL-06-JB2_3-4,Power Cable B,Area 06  Normal Lighting JB No. 2/3- 06-JB2/3-4,DONE
-LS-01,EL,EBL-06-JB2-4,Power Cable B,Area 06  Normal Lighting JB No. 2- 06-JB2-4,DONE
-LS-01,EL,EBL-06-RJB1_1-2,Power Cable B,Area 06 Socket JB No. 1/1 - 06-RJB1/1-2,DONE
-LS-01,EL,EBL-06-RJB1_2-2,Power Cable B,Area 06 Socket JB No. 1 /2- 06-RJB1/2-2,DONE
-LS-01,EL,EBL-06-RJB1-2,Power Cable B,Area 06 Socket JB No. 1 - 06-RJB1-2,DONE
+LS-02,EL,EBL-06-EJB1_1-3,Power Cable B,Area 06 Emergency Lighting JB No. 1/1-06-EJB1/1-3,0%
+LS-02,EL,EBL-06-EJB1_2-3,Power Cable B,Area 06 Emergency Lighting JB No. 1/2-06-EJB1/2-3,0%
+LS-02,EL,EBL-06-EJB1-3,Power Cable B,Area 06 Emergency Lighting JB No. 1- 06-EJB1-3,0%
+LS-02,EL,EBL-06-EJB2_1-4,Power Cable B,Area 06 Emergency Lighting JB No. 2/1-06-EJB2/1-4,0%
+LS-02,EL,EBL-06-EJB2_2-4,Power Cable B,Area 06 Emergency Lighting JB No. 2/2-06-EJB2/2-4,0%
+LS-02,EL,EBL-06-EJB2_3-4,Power Cable B,Area 06 Emergency Lighting JB No. 2/3-06-EJB2/3-4,0%
+LS-02,EL,EBL-06-EJB2-4,Power Cable B,Area 06 Emergency Lighting JB No. 2- 06-EJB2-4,0%
+LS-01,EL,EBL-06-JB1_1-3,Power Cable B,Area 06  Normal Lighting JB No. 1/1 - 06-JB1/1-3,0%
+LS-01,EL,EBL-06-JB1_2-3,Power Cable B,Area 06  Normal Lighting JB No. 1/2 - 06-JB1/2-3,0%
+LS-01,EL,EBL-06-JB1-3,Power Cable B,Area 06  Normal Lighting JB No. 1- 06-JB1-3,0%
+LS-01,EL,EBL-06-JB2_1-4,Power Cable B,Area 06  Normal Lighting JB No. 2/1 - 06-JB2/1-4,0%
+LS-01,EL,EBL-06-JB2_2-4,Power Cable B,Area 06  Normal Lighting JB No. 2/2 - 06-JB2/2-4,0%
+LS-01,EL,EBL-06-JB2_3-4,Power Cable B,Area 06  Normal Lighting JB No. 2/3- 06-JB2/3-4,0%
+LS-01,EL,EBL-06-JB2-4,Power Cable B,Area 06  Normal Lighting JB No. 2- 06-JB2-4,0%
+LS-01,EL,EBL-06-RJB1_1-2,Power Cable B,Area 06 Socket JB No. 1/1 - 06-RJB1/1-2,0%
+LS-01,EL,EBL-06-RJB1_2-2,Power Cable B,Area 06 Socket JB No. 1 /2- 06-RJB1/2-2,0%
+LS-01,EL,EBL-06-RJB1-2,Power Cable B,Area 06 Socket JB No. 1 - 06-RJB1-2,0%
 120-11,EL,EBL-06-SJB1-6,Power Cable B,Safety Lighting JB No. 1 For Area 06- 06-SJB1-6,67%
-LS-02,EL,EBL-07-EJB1_1-1,Power Cable B,Area 07 Emergency Lighting JB No. 1/1-07-EJB1/1-1,DONE
-LS-02,EL,EBL-07-EJB1-1,Power Cable B,Area 07 Emergency Lighting JB No. 1-07-EJB1-1,DONE
-LS-02,EL,EBL-07-EJB2_1-2,Power Cable B,Area 07 Emergency Lighting JBNo. 2/1 -07-EJB2/1-2,DONE
-LS-02,EL,EBL-07-EJB2-2,Power Cable B,Area 07 Emergency Lighting JB No. 2 -07-EJB2-2,DONE
-LS-01,EL,EBL-07-JB1_1-1,Power Cable B,Area 07  Normal Lighting JB No. 1/1  - 07-JB1/1-1,DONE
-LS-01,EL,EBL-07-JB1-1,Power Cable B,Area 07  Normal Lighting JB No. 1  - 07-JB1-1,DONE
-LS-01,EL,EBL-07-JB2_1-2,Power Cable B,Area 07  Normal Lighting JB No. 2/1- 07-JB2/1-2,DONE
-LS-01,EL,EBL-07-JB2-2,Power Cable B,Area 07  Normal Lighting JB No. 2  - 07-JB2-2,DONE
-LS-01,EL,EBL-07-RJB1_1-1,Power Cable B,Area 07 Socket JB No. 1  /1- 07-RJB1/1-1,DONE
-LS-01,EL,EBL-07-RJB1-1,Power Cable B,Area 07 Socket JB No. 1  - 07-RJB1-1,DONE
-LS-01,EL,EBL-07-RJB2_1-2,Power Cable B,Area 07 Socket JB No. 2/1  - 07-RJB2/1-2,DONE
-LS-01,EL,EBL-07-RJB2-2,Power Cable B,Area 07 Socket JB No. 2- 07-RJB2-2,DONE
+LS-02,EL,EBL-07-EJB1_1-1,Power Cable B,Area 07 Emergency Lighting JB No. 1/1-07-EJB1/1-1,0%
+LS-02,EL,EBL-07-EJB1-1,Power Cable B,Area 07 Emergency Lighting JB No. 1-07-EJB1-1,0%
+LS-02,EL,EBL-07-EJB2_1-2,Power Cable B,Area 07 Emergency Lighting JBNo. 2/1 -07-EJB2/1-2,0%
+LS-02,EL,EBL-07-EJB2-2,Power Cable B,Area 07 Emergency Lighting JB No. 2 -07-EJB2-2,0%
+LS-01,EL,EBL-07-JB1_1-1,Power Cable B,Area 07  Normal Lighting JB No. 1/1  - 07-JB1/1-1,0%
+LS-01,EL,EBL-07-JB1-1,Power Cable B,Area 07  Normal Lighting JB No. 1  - 07-JB1-1,0%
+LS-01,EL,EBL-07-JB2_1-2,Power Cable B,Area 07  Normal Lighting JB No. 2/1- 07-JB2/1-2,0%
+LS-01,EL,EBL-07-JB2-2,Power Cable B,Area 07  Normal Lighting JB No. 2  - 07-JB2-2,0%
+LS-01,EL,EBL-07-RJB1_1-1,Power Cable B,Area 07 Socket JB No. 1  /1- 07-RJB1/1-1,0%
+LS-01,EL,EBL-07-RJB1-1,Power Cable B,Area 07 Socket JB No. 1  - 07-RJB1-1,0%
+LS-01,EL,EBL-07-RJB2_1-2,Power Cable B,Area 07 Socket JB No. 2/1  - 07-RJB2/1-2,0%
+LS-01,EL,EBL-07-RJB2-2,Power Cable B,Area 07 Socket JB No. 2- 07-RJB2-2,0%
 120-11,EL,EBL-07-SJB1-7,Power Cable B,Safety Lighting JB No. 1 For Area 07- 07-SJB1-7,67%
-LS-02,EL,EBP-00-ELP-01,Power Cable B,Area Emergency Lighting Panel No. 1- 00-ELP-01,DONE
-LS-02,EL,EBP-00-ELP-02,Power Cable B,Area Emergency Lighting Panel No. 2- 00-ELP-02,DONE
-LS-02,EL,EBP-00-ELP-03,Power Cable B,Area Emergency Lighting Panel No. 3- 00-ELP-03,DONE
-LS-02,EL,EBP-00-ELP-04,Power Cable B,Area Emergency Lighting Panel No. 4- 00-ELP-04,DONE
-120-03,EL,EBP-00-HTP-01,Power Cable B,Electrical Heat Tracing Control Panel- 00-HP-01,DONE
-120-03,EL,EBP-00-HTP-02_1,Power Cable B,Electrical Heat Tracing Control Panel No.2- 00-HTP-02,DONE
-120-03,EL,EBP-00-HTP-02_2,Power Cable B,Electrical Heat Tracing Control Panel No.2- 00-HTP-02,DONE
-120-03,EL,EBP-00-HTP-03,Power Cable B,Electrical Heat Tracing Control Panel No.3- 00-HTP-03,DONE
-LS-01,EL,EBP-00-LP-01,Power Cable B,Area Normal Lighting Panel No. 1- 00-LP-01,DONE
-LS-01,EL,EBP-00-LP-02,Power Cable B,Area Normal Lighting Panel No. 2- 00-LP-02,DONE
-LS-01,EL,EBP-00-LP-03,Power Cable B,Area Normal Lighting Panel No. 3- 00-LP-03,DONE
-LS-01,EL,EBP-00-LP-04,Power Cable B,Area Normal Lighting Panel No. 4- 00-LP-04,DONE
-LS-01,EL,EBP-00-RP-01,Power Cable B,Area Socket Outlet Panel No.1- 00-RP-01,DONE
-LS-01,EL,EBP-00-RP-02,Power Cable B,Area Socket Outlet Panel No.2- 00-RP-02,DONE
-LS-01,EL,EBP-00-RP-03,Power Cable B,Area Socket Outlet Panel No.3- 00-RP-03,DONE
-LS-01,EL,EBP-00-RP-04,Power Cable B,Area Socket Outlet Panel No.4- 00-RP-04,DONE
-LS-01,EL,EBP-00-SLP-01,Power Cable B,Plant Street Lighting Panel- 00-SLP-01,DONE
+LS-02,EL,EBP-00-ELP-01,Power Cable B,Area Emergency Lighting Panel No. 1- 00-ELP-01,0%
+LS-02,EL,EBP-00-ELP-02,Power Cable B,Area Emergency Lighting Panel No. 2- 00-ELP-02,33%
+LS-02,EL,EBP-00-ELP-03,Power Cable B,Area Emergency Lighting Panel No. 3- 00-ELP-03,33%
+LS-02,EL,EBP-00-ELP-04,Power Cable B,Area Emergency Lighting Panel No. 4- 00-ELP-04,33%
+120-03,EL,EBP-00-HTP-01,Power Cable B,Electrical Heat Tracing Control Panel- 00-HP-01,33%
+120-03,EL,EBP-00-HTP-02_1,Power Cable B,Electrical Heat Tracing Control Panel No.2- 00-HTP-02,33%
+120-03,EL,EBP-00-HTP-02_2,Power Cable B,Electrical Heat Tracing Control Panel No.2- 00-HTP-02,33%
+120-03,EL,EBP-00-HTP-03,Power Cable B,Electrical Heat Tracing Control Panel No.3- 00-HTP-03,33%
+LS-01,EL,EBP-00-LP-01,Power Cable B,Area Normal Lighting Panel No. 1- 00-LP-01,0%
+LS-01,EL,EBP-00-LP-02,Power Cable B,Area Normal Lighting Panel No. 2- 00-LP-02,33%
+LS-01,EL,EBP-00-LP-03,Power Cable B,Area Normal Lighting Panel No. 3- 00-LP-03,33%
+LS-01,EL,EBP-00-LP-04,Power Cable B,Area Normal Lighting Panel No. 4- 00-LP-04,33%
+LS-01,EL,EBP-00-RP-01,Power Cable B,Area Socket Outlet Panel No.1- 00-RP-01,0%
+LS-01,EL,EBP-00-RP-02,Power Cable B,Area Socket Outlet Panel No.2- 00-RP-02,33%
+LS-01,EL,EBP-00-RP-03,Power Cable B,Area Socket Outlet Panel No.3- 00-RP-03,33%
+LS-01,EL,EBP-00-RP-04,Power Cable B,Area Socket Outlet Panel No.4- 00-RP-04,33%
+LS-01,EL,EBP-00-SLP-01,Power Cable B,Plant Street Lighting Panel- 00-SLP-01,0%
 120-03,EL,EBP-00-TRRC-01,Power Cable B,Cathodic Protection Trans-Rectifier No. 1- 00-TRRC-01,33%
 120-03,EL,EBP-00-TRRC-02,Power Cable B,Cathodic Protection Trans-Rectifier No. 2- 00-TRRC-02,67%
 120-03,EL,EBP-00-WJB-04,Power Cable B,Welding Junction Box- 00-WJB-04,67%
@@ -10456,31 +10456,31 @@ LS-01,EL,EBP-00-SLP-01,Power Cable B,Plant Street Lighting Panel- 00-SLP-01,DONE
 120-03,EL,EBP-00-WO5-02,Power Cable B,Welding Socket Outlet- 00-WO5-02,67%
 120-03,EL,EBP-00-WO5-03,Power Cable B,Welding Socket Outlet- 00-WO5-03,67%
 TEL-01,EL,EBP-AD-PABX(CH)-01,Comminucation Cable,Telephone System Battery Charger (In Owner's Administration Building)- AD-PABX(CH)-01,0%
-LS-02,EL,EBP-AH-EDP-01,Power Cable B,Analyzer House Distribution Panel- AH-EDP-01,DONE
-120-03,EL,EBP-AH-HDP-01,Power Cable B,Analyzer House HVAC Panel- AH-HDP-01,DONE
+LS-02,EL,EBP-AH-EDP-01,Power Cable B,Analyzer House Distribution Panel- AH-EDP-01,33%
+120-03,EL,EBP-AH-HDP-01,Power Cable B,Analyzer House HVAC Panel- AH-HDP-01,33%
 120-02,EL,EBP-C2001-HE-1,Power Cable B,Lube Oil Heater No.1 for C2001- C2001-HE-1,33%
-120-02,EL,EBP-C2001-MF-1,Power Cable B,Noise Hood Cooling Fan No.1 for C2001 - C2001-MF-1,DONE
-120-02,EL,EBP-C2001-MF-2,Power Cable B,Noise Hood Cooling Fan No.2 for C2001 - C2001-MF-2,DONE
+120-02,EL,EBP-C2001-MF-1,Power Cable B,Noise Hood Cooling Fan No.1 for C2001 - C2001-MF-1,33%
+120-02,EL,EBP-C2001-MF-2,Power Cable B,Noise Hood Cooling Fan No.2 for C2001 - C2001-MF-2,33%
 120-02,EL,EBP-C2001-MP-1B,Power Cable B,Auxiliary Lube Oil Pump for C2001- C2001-MP-1B,67%
 120-02,EL,EBP-C2002-HE-1,Power Cable B,Lube Oil Heater No.1 for C2002- C2002-HE-1,67%
 120-02,EL,EBP-C2002-HE-2,Power Cable B,Lube Oil Heater No.2 for C2002- C2002-HE-2,67%
 120-02,EL,EBP-C2002-MP-1B,Power Cable B,Auxiliary Lube Oil Pump for C2002- C2002-MP-1B,67%
-120-03,EL,EBP-CN2002-PSB,Power Cable B,Overhead Monorail Crane for E2022/2023- CN2002-PSB,DONE
-120-03,EL,EBP-CN2003_1-PSB,Power Cable B,Overhead Monorail Crane No.1 for E2027- CN2003/1-PSB,DONE
-120-03,EL,EBP-CN2003_2-PSB,Power Cable B,Overhead Monorail Crane No.2 for E2027- CN2003/2-PSB,DONE
-120-03,EL,EBP-CN3001-PSB,Power Cable B,Overhead Crane for C3001/3002- CN3001-PSB,DONE
+120-03,EL,EBP-CN2002-PSB,Power Cable B,Overhead Monorail Crane for E2022/2023- CN2002-PSB,0%
+120-03,EL,EBP-CN2003_1-PSB,Power Cable B,Overhead Monorail Crane No.1 for E2027- CN2003/1-PSB,33%
+120-03,EL,EBP-CN2003_2-PSB,Power Cable B,Overhead Monorail Crane No.2 for E2027- CN2003/2-PSB,33%
+120-03,EL,EBP-CN3001-PSB,Power Cable B,Overhead Crane for C3001/3002- CN3001-PSB,0%
 120-07,EL,EBP-CR-CEC(CH)-01,Power Cable B,Paging & Intercom System- CR-CEC(CH)-01,33%
 120-07,EL,EBP-CR-CEC(CH)-01_AS,Power Cable B,RBS- CCTV & CEC Panels (Auxiliary Supply),0%
-120-07,EL,EBP-CR-EDP-01,Power Cable B,Control Building Emergency Distribution Panel- CR-EDP-01,DONE
-LS-02,EL,EBP-CR-ELP-01,Power Cable B,Control Room Emergency Lighting Panel- CR-ELP-01,DONE
-120-07,EL,EBP-CR-FACP-01,Power Cable B,Control Building Fire Alarm Control Panel- CR-FACP-01,DONE
-120-07,EL,EBP-CR-FECP-01,Power Cable B,Control Building Fire Fighting Control Panel- CR-FECP-01,DONE
-120-07,EL,EBP-CR-HDP-01_1,Power Cable B,Control Building Emergency HVAC Panel- CR-HDP-01,DONE
-120-07,EL,EBP-CR-HDP-01_2,Power Cable B,Control Building Emergency HVAC Panel- CR-HDP-01,DONE
-120-07,EL,EBP-CR-HDP-01_3,Power Cable B,Control Building Emergency HVAC Panel- CR-HDP-01,DONE
-120-03,EL,EBP-CR-HDP-02,Power Cable B,Control Building Normal HVAC Panel- CR-HDP-02,DONE
-LS-01,EL,EBP-CR-LP-01,Power Cable B,Control Room Normal Lighting & Socket Outlet Panel- CR-LP-01,DONE
-120-07,EL,EBP-CR-SIP-01,Power Cable B,Fire & Gas Detection System Siren Panel- CR-SIP-01,DONE
+120-07,EL,EBP-CR-EDP-01,Power Cable B,Control Building Emergency Distribution Panel- CR-EDP-01,33%
+LS-02,EL,EBP-CR-ELP-01,Power Cable B,Control Room Emergency Lighting Panel- CR-ELP-01,33%
+120-07,EL,EBP-CR-FACP-01,Power Cable B,Control Building Fire Alarm Control Panel- CR-FACP-01,0%
+120-07,EL,EBP-CR-FECP-01,Power Cable B,Control Building Fire Fighting Control Panel- CR-FECP-01,0%
+120-07,EL,EBP-CR-HDP-01_1,Power Cable B,Control Building Emergency HVAC Panel- CR-HDP-01,33%
+120-07,EL,EBP-CR-HDP-01_2,Power Cable B,Control Building Emergency HVAC Panel- CR-HDP-01,33%
+120-07,EL,EBP-CR-HDP-01_3,Power Cable B,Control Building Emergency HVAC Panel- CR-HDP-01,33%
+120-03,EL,EBP-CR-HDP-02,Power Cable B,Control Building Normal HVAC Panel- CR-HDP-02,33%
+LS-01,EL,EBP-CR-LP-01,Power Cable B,Control Room Normal Lighting & Socket Outlet Panel- CR-LP-01,33%
+120-07,EL,EBP-CR-SIP-01,Power Cable B,Fire & Gas Detection System Siren Panel- CR-SIP-01,33%
 120-09,EL,EBP-CR-UBT-01-_1,Power Cable B,110V AC UPS Battery Set- CR-UBT-01 (-),Done
 120-09,EL,EBP-CR-UBT-01-_2,Power Cable B,110V AC UPS Battery Set- CR-UBT-01 (-),Done
 120-09,EL,EBP-CR-UBT-01+_1,Power Cable B,110V AC UPS Battery Set- CR-UBT-01 (+),Done
@@ -10490,68 +10490,68 @@ LS-01,EL,EBP-CR-LP-01,Power Cable B,Control Room Normal Lighting & Socket Outlet
 120-09,EL,EBP-CR-UIS-01+_1,Power Cable B,110V AC UPS Battery Isolator Box- CR-UIS-01 (+),Done
 120-09,EL,EBP-CR-UIS-01+_2,Power Cable B,110V AC UPS Battery Isolator Box- CR-UIS-01 (+),Done
 120-09,EL,EBP-CR-UPS-01_AS,Power Cable B,110V AC UPS Panel- CR-UPS-01 (Auxiliary Supply),0%
-120-07,EL,EBP-CR-UPS-01_BY_1,Power Cable B,110V AC UPS Bypass Panel- CR-UPS-01/BY,DONE
-120-07,EL,EBP-CR-UPS-01_BY_2,Power Cable B,110V AC UPS Bypass Panel- CR-UPS-01/BY,DONE
+120-07,EL,EBP-CR-UPS-01_BY_1,Power Cable B,110V AC UPS Bypass Panel- CR-UPS-01/BY,33%
+120-07,EL,EBP-CR-UPS-01_BY_2,Power Cable B,110V AC UPS Bypass Panel- CR-UPS-01/BY,33%
 120-03,EL,EBP-CR-UPS-01A_1,Power Cable B,110V AC UPS-A- CR-UPS-01A,67%
 120-03,EL,EBP-CR-UPS-01A_2,Power Cable B,110V AC UPS-A- CR-UPS-01A,67%
-120-07,EL,EBP-CR-UPS-01B_1,Power Cable B,110V AC UPS-B- CR-UPS-01B,DONE
-120-07,EL,EBP-CR-UPS-01B_2,Power Cable B,110V AC UPS-B- CR-UPS-01B,DONE
-120-07,EL,EBP-DG-5701_1_1,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel,DONE
-120-07,EL,EBP-DG-5701_1_2,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel,DONE
-120-07,EL,EBP-DG-5701_1_3,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel,DONE
-120-07,EL,EBP-DG-5701_1_4,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel,DONE
-120-07,EL,EBP-DG-5701_1_5,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel,DONE
-120-07,EL,EBP-DG-5701_1_6,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel,DONE
-120-08,EL,EBP-DG-5701_2_1,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,DONE
-120-08,EL,EBP-DG-5701_2_2,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,DONE
-120-08,EL,EBP-DG-5701_2_3,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,DONE
-120-08,EL,EBP-DG-5701_2_4,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,DONE
-120-08,EL,EBP-DG-5701_2_5,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,DONE
-120-08,EL,EBP-DG-5701_2_6,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,DONE
-120-07,EL,EBP-DG5701-CP-01,Power Cable B,Emergency Diesel Generator Start Panel- DG5701-CP-01 (Power Supply),DONE
-120-07,EL,EBP-DG5701-CP-02,Power Cable B,Emergency Diesel Generator Fuel Pump Panel- DG5701-CP-02 (Power Supply),DONE
+120-07,EL,EBP-CR-UPS-01B_1,Power Cable B,110V AC UPS-B- CR-UPS-01B,33%
+120-07,EL,EBP-CR-UPS-01B_2,Power Cable B,110V AC UPS-B- CR-UPS-01B,33%
+120-07,EL,EBP-DG-5701_1_1,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel,0%
+120-07,EL,EBP-DG-5701_1_2,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel,0%
+120-07,EL,EBP-DG-5701_1_3,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel,0%
+120-07,EL,EBP-DG-5701_1_4,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel,0%
+120-07,EL,EBP-DG-5701_1_5,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel,0%
+120-07,EL,EBP-DG-5701_1_6,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel,0%
+120-08,EL,EBP-DG-5701_2_1,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,0%
+120-08,EL,EBP-DG-5701_2_2,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,0%
+120-08,EL,EBP-DG-5701_2_3,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,0%
+120-08,EL,EBP-DG-5701_2_4,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,0%
+120-08,EL,EBP-DG-5701_2_5,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,0%
+120-08,EL,EBP-DG-5701_2_6,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,0%
+120-07,EL,EBP-DG5701-CP-01,Power Cable B,Emergency Diesel Generator Start Panel- DG5701-CP-01 (Power Supply),0%
+120-07,EL,EBP-DG5701-CP-02,Power Cable B,Emergency Diesel Generator Fuel Pump Panel- DG5701-CP-02 (Power Supply),0%
 120-09,EL,EBP-F&G-UCP-01_1,Power Cable B,F&G System Panel- F&G-UCP-01,0%
 120-09,EL,EBP-F&G-UCP-01_2,Power Cable B,F&G System Panel- F&G-UCP-01,0%
-120-07,EL,EBP-F&G-UPS-01,Power Cable B,Fire & Gas Detection System UPS- F&G-UPS-01,DONE
+120-07,EL,EBP-F&G-UPS-01,Power Cable B,Fire & Gas Detection System UPS- F&G-UPS-01,33%
 120-09,EL,EBP-F&G-UPS-01_AS,Power Cable B,230V AC F&G UPS Panel- F&G-UPS-01 (Auxiliary Supply),0%
 120-02,EL,EBP-FT2001-HE-1,Power Cable B,Lube Oil Heater for FT-2001- FT2001-HE-1,33%
 120-02,EL,EBP-FT2001-MP-1,Power Cable B,Main Lube Oil Pump for FT-2001- FT2001-MP-1,67%
-120-07,EL,EBP-FT2001-MP-2,Power Cable B,Auxiliary Lube Oil Pump for FT-2001- FT2001-MP-2,DONE
+120-07,EL,EBP-FT2001-MP-2,Power Cable B,Auxiliary Lube Oil Pump for FT-2001- FT2001-MP-2,33%
 120-02,EL,EBP-FT2002-HE-1,Power Cable B,Lube Oil Heater for FT-2002- FT2002-HE-1,67%
 120-02,EL,EBP-FT2002-MP-1,Power Cable B,Main Lube Oil Pump for FT-2002- FT2002-MP-1,67%
-120-07,EL,EBP-FT2002-MP-2,Power Cable B,Auxiliary Lube Oil Pump for FT-2002- FT2002-MP-2,DONE
+120-07,EL,EBP-FT2002-MP-2,Power Cable B,Auxiliary Lube Oil Pump for FT-2002- FT2002-MP-2,33%
 120-02,EL,EBP-FT7001A-HE-1,Power Cable B,Lube Oil Heater No.1 for FT-7001A- FT7001A-HE-1,67%
 120-02,EL,EBP-FT7001A-HE-2,Power Cable B,Lube Oil Heater No.2 for FT-7001A- FT7001A-HE-2,67%
 120-02,EL,EBP-FT7001A-MF-1,Power Cable B,Oil Mist Fan for FT-7001A- FT7001A-MF-1,67%
 120-02,EL,EBP-FT7001A-MP-1A,Power Cable B,Main Lube Oil Pump for FT7001A- FT7001A-MP-1A,67%
-120-07,EL,EBP-FT7001A-MP-1B,Power Cable B,Emergency Lube Oil Pump for FT-7001A- FT7001A-MP-1B,DONE
+120-07,EL,EBP-FT7001A-MP-1B,Power Cable B,Emergency Lube Oil Pump for FT-7001A- FT7001A-MP-1B,33%
 120-02,EL,EBP-FT7001B-HE-1,Power Cable B,Lube Oil Heater No.1 for FT-7001B- FT7001B-HE-1,67%
 120-02,EL,EBP-FT7001B-HE-2,Power Cable B,Lube Oil Heater No.2 for FT-7001B- FT7001B-HE-2,67%
 120-02,EL,EBP-FT7001B-MF-1,Power Cable B,Oil Mist Fan for FT-7001B- FT7001B-MF-1,67%
 120-02,EL,EBP-FT7001B-MP-1A,Power Cable B,Main Lube Oil Pump for FT7001B- FT7001B-MP-1A,67%
-120-07,EL,EBP-FT7001B-MP-1B,Power Cable B,Emergency Lube Oil Pump for FT-7001B- FT7001B-MP-1B,DONE
+120-07,EL,EBP-FT7001B-MP-1B,Power Cable B,Emergency Lube Oil Pump for FT-7001B- FT7001B-MP-1B,33%
 120-03,EL,EBP-FT8001A-HE-1,Power Cable B,Lube Oil Heater No.1 for FT-8001A- FT8001A-HE-1,67%
 120-03,EL,EBP-FT8001A-HE-2,Power Cable B,Lube Oil Heater No.2 for FT-8001A- FT8001A-HE-2,67%
 120-03,EL,EBP-FT8001A-HE-3,Power Cable B,Lube Oil Heater No.3 for FT-8001A- FT8001A-HE-3,67%
 120-03,EL,EBP-FT8001A-MF-1,Power Cable B,Oil Mist Fan for FT-8001A- FT8001A-MF-1,67%
 120-02,EL,EBP-FT8001A-MP-1A,Power Cable B,Main Lube Oil Pump for FT8001A- FT8001A-MP-1A,67%
-120-07,EL,EBP-FT8001A-MP-1B,Power Cable B,Emergency Lube Oil Pump for FT-8001A- FT8001A-MP-1B,DONE
+120-07,EL,EBP-FT8001A-MP-1B,Power Cable B,Emergency Lube Oil Pump for FT-8001A- FT8001A-MP-1B,33%
 120-03,EL,EBP-FT8001B-HE-1,Power Cable B,Lube Oil Heater No.1 for FT-8001B- FT8001B-HE-1,67%
 120-03,EL,EBP-FT8001B-HE-2,Power Cable B,Lube Oil Heater No.2 for FT-8001B- FT8001B-HE-2,67%
 120-03,EL,EBP-FT8001B-HE-3,Power Cable B,Lube Oil Heater No.3 for FT-8001B- FT8001B-HE-3,67%
 120-03,EL,EBP-FT8001B-MF-1,Power Cable B,Oil Mist Fan for FT-8001B- FT8001B-MF-1,67%
 120-02,EL,EBP-FT8001B-MP-1A,Power Cable B,Main Lube Oil Pump for FT8001B- FT8001B-MP-1A,67%
-120-07,EL,EBP-FT8001B-MP-1B,Power Cable B,Emergency Lube Oil Pump for FT-8001B- FT8001B-MP-1B,DONE
-120-02,EL,EBP-H-3012,Power Cable B,Lube Oil Heater- H-3012,DONE
+120-07,EL,EBP-FT8001B-MP-1B,Power Cable B,Emergency Lube Oil Pump for FT-8001B- FT8001B-MP-1B,33%
+120-02,EL,EBP-H-3012,Power Cable B,Lube Oil Heater- H-3012,33%
 120-02,EL,EBP-H-3013,Power Cable B,Seal Gas Heater- H-3013,33%
 120-02,EL,EBP-H-3013-TCP,Power Cable B,Seal Gas Heater Thristor Control Panel- H-3013-TCP,0%
-120-03,EL,EBP-LAB-DP-01,Power Cable B,Laboratory  Distribution Panel- LAB-DP-01,DONE
-LS-02,EL,EBP-LAB-ELP-01,Power Cable B,Laboratory Emergency Lighting Panel- LAB-ELP-01,DONE
-120-07,EL,EBP-LAB-FACP-01,Power Cable B,Laboratory & Yard Office Fire Alarm Control Panel- LAB-FACP-01 (Auxiliary Supply),DONE
-120-03,EL,EBP-LAB-HDP-01_1,Power Cable B,Laboratory HVAC Panel- LAB-HDP-01,DONE
-120-03,EL,EBP-LAB-HDP-01_2,Power Cable B,Laboratory HVAC Panel- LAB-HDP-01,DONE
-LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet Panel- LAB-LP-01,DONE
-120-07,EL,EBP-LP-FL7101-01,Power Cable B,Dena Flare Control Panel- LP-FL7101-01,DONE
+120-03,EL,EBP-LAB-DP-01,Power Cable B,Laboratory  Distribution Panel- LAB-DP-01,33%
+LS-02,EL,EBP-LAB-ELP-01,Power Cable B,Laboratory Emergency Lighting Panel- LAB-ELP-01,0%
+120-07,EL,EBP-LAB-FACP-01,Power Cable B,Laboratory & Yard Office Fire Alarm Control Panel- LAB-FACP-01 (Auxiliary Supply),33%
+120-03,EL,EBP-LAB-HDP-01_1,Power Cable B,Laboratory HVAC Panel- LAB-HDP-01,33%
+120-03,EL,EBP-LAB-HDP-01_2,Power Cable B,Laboratory HVAC Panel- LAB-HDP-01,33%
+LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet Panel- LAB-LP-01,33%
+120-07,EL,EBP-LP-FL7101-01,Power Cable B,Dena Flare Control Panel- LP-FL7101-01,0%
 120-05,EL,EBP-MAE-2026-01,Power Cable B,Air Cooler Fan- MAE-2026-01,67%
 120-05,EL,EBP-MAE-2026-02,Power Cable B,Air Cooler Fan- MAE-2026-02,67%
 120-05,EL,EBP-MAE-2026-03,Power Cable B,Air Cooler Fan- MAE-2026-03,67%
@@ -10675,7 +10675,7 @@ LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet 
 120-04,EL,EBP-MAE-5006-01,Power Cable B,Wash Water Air Cooler Fan- MAE-5006-01,67%
 120-04,EL,EBP-MAE-5006-02,Power Cable B,Wash Water Air Cooler Fan- MAE-5006-02,67%
 120-03,EL,EBP-MB-8001A,Power Cable B,Air Blower for Side Stream Filter Package - MB-8001A,33%
-120-03,EL,EBP-MB-8001B,Power Cable B,Air Blower for Side Stream Filter Package - MB-8001B,DONE
+120-03,EL,EBP-MB-8001B,Power Cable B,Air Blower for Side Stream Filter Package - MB-8001B,33%
 120-01,EL,EBP-MC-2001-SH,Power Cable B,Motor Space Heater- MC-2001-SH,Done
 NO SUBS.,EL,EBP-MC-2001-SH_1,POWER CABLE A,CABLE(NA),0%
 120-01,EL,EBP-MC-2002-SH,Power Cable B,Motor Space Heater- MC-2002-SH,Done
@@ -10700,12 +10700,12 @@ NO SUBS.,EL,EBP-MC-2001-SH_1,POWER CABLE A,CABLE(NA),0%
 120-03,EL,EBP-MF-8001D_2,Power Cable B,Cooling Tower Fan- MF-8001D,67%
 120-03,EL,EBP-MF-8001D-SH,Power Cable B,Motor Space Heater- MF-8001D-SH,67%
 4000-08,EL,EBP-MF-8001D-SH_1,POWER CABLE A,CABLE(NA),33%
-120-07,EL,EBP-MOV-30101,Power Cable B,Motor Operated Valve- MOV-30101,DONE
-120-07,EL,EBP-MOV-30103,Power Cable B,Motor Operated Valve- MOV-30103,DONE
-120-07,EL,EBP-MOV-30105,Power Cable B,Motor Operated Valve- MOV-30105,DONE
-120-07,EL,EBP-MOV-30107,Power Cable B,Motor Operated Valve- MOV-30107,DONE
-120-07,EL,EBP-MOV-HV1003,Power Cable B,Motor Operated Valve- MOV-HV1003,DONE
-120-07,EL,EBP-MOV-HV2098,Power Cable B,Motor Operated Valve- MOV-HV2098,DONE
+120-07,EL,EBP-MOV-30101,Power Cable B,Motor Operated Valve- MOV-30101,33%
+120-07,EL,EBP-MOV-30103,Power Cable B,Motor Operated Valve- MOV-30103,33%
+120-07,EL,EBP-MOV-30105,Power Cable B,Motor Operated Valve- MOV-30105,33%
+120-07,EL,EBP-MOV-30107,Power Cable B,Motor Operated Valve- MOV-30107,33%
+120-07,EL,EBP-MOV-HV1003,Power Cable B,Motor Operated Valve- MOV-HV1003,33%
+120-07,EL,EBP-MOV-HV2098,Power Cable B,Motor Operated Valve- MOV-HV2098,33%
 120-02,EL,EBP-MP-0001A,Power Cable B,Cooling Water Blow-Down Pump- MP-0001A,67%
 120-02,EL,EBP-MP-0001B,Power Cable B,Cooling Water Blow-Down Pump- MP-0001B,67%
 120-02,EL,EBP-MP-2001A,Power Cable B,Process Condensate Pump No 1- MP-2001A,67%
@@ -10718,7 +10718,7 @@ NO SUBS.,EL,EBP-MC-2001-SH_1,POWER CABLE A,CABLE(NA),0%
 120-02,EL,EBP-MP-2003A_2,Power Cable B,Process Condensate Pump No 3- MP-2003A,67%
 120-02,EL,EBP-MP-2003B_1,Power Cable B,Process Condensate Pump No 3- MP-2003B,67%
 120-02,EL,EBP-MP-2003B_2,Power Cable B,Process Condensate Pump No 3- MP-2003B,67%
-120-07,EL,EBP-MP-3001,Power Cable B,Slops Methanol Pump- MP-3001,DONE
+120-07,EL,EBP-MP-3001,Power Cable B,Slops Methanol Pump- MP-3001,33%
 120-02,EL,EBP-MP-3011A,Power Cable B,Main Turbine Condensate Pump for C3001- MP-3011A,67%
 120-02,EL,EBP-MP-3011B,Power Cable B,Main Turbine Condensate Pump for C3001- MP-3011B,67%
 120-02,EL,EBP-MP-3012A,Power Cable B,Main Lube Oil Pump  for C3001- MP-3012A,67%
@@ -10727,9 +10727,9 @@ NO SUBS.,EL,EBP-MC-2001-SH_1,POWER CABLE A,CABLE(NA),0%
 120-02,EL,EBP-MP-3012B,Power Cable B,Main Lube Oil Pump  for C3001- MP-3012B,67%
 120-02,EL,EBP-MP-3012B-JB_1,Power Cable B,Main Lube Oil Pump  for C3001- MP-3012B Intermediate JB,67%
 120-02,EL,EBP-MP-3012B-JB_2,Power Cable B,Main Lube Oil Pump  for C3001- MP-3012B Intermediate JB,67%
-120-07,EL,EBP-MP-3013,Power Cable B,Emergency Lube Oil Pump for C3001- MP-3013,DONE
+120-07,EL,EBP-MP-3013,Power Cable B,Emergency Lube Oil Pump for C3001- MP-3013,33%
 120-02,EL,EBP-MP-3014,Power Cable B,Oil Purifier for C3001 (Fixed)- MP-3014,67%
-120-07,EL,EBP-MP-3015,Power Cable B,Pump for Hydrolic Barring Gear- MP-3015,DONE
+120-07,EL,EBP-MP-3015,Power Cable B,Pump for Hydrolic Barring Gear- MP-3015,33%
 120-02,EL,EBP-MP-5001A_1,Power Cable B,Raw Methanol Pump- MP-5001A,67%
 120-02,EL,EBP-MP-5001A_2,Power Cable B,Raw Methanol Pump- MP-5001A,67%
 120-02,EL,EBP-MP-5001B_1,Power Cable B,Raw Methanol Pump- MP-5001B,67%
@@ -10764,10 +10764,10 @@ NO SUBS.,EL,EBP-MC-2001-SH_1,POWER CABLE A,CABLE(NA),0%
 120-02,EL,EBP-MP-5010B_2,Power Cable B,Excess Water Pump- MP-5010B,67%
 120-02,EL,EBP-MP-5011A,Power Cable B,Steam Condensate Pump- MP-5011A,67%
 120-02,EL,EBP-MP-5011B,Power Cable B,Steam Condensate Pump- MP-5011B,67%
-120-07,EL,EBP-MP-5012A,Power Cable B,Methanol Start Up Pump- MP-5012A,DONE
-120-07,EL,EBP-MP-5012B,Power Cable B,Methanol Start Up Pump- MP-5012B,DONE
-120-02,EL,EBP-MP-5070A,Power Cable B,NaOH Solution Dosing Pump- MP-5070A,DONE
-120-02,EL,EBP-MP-5070B,Power Cable B,NaOH Solution Dosing Pump- MP-5070B,DONE
+120-07,EL,EBP-MP-5012A,Power Cable B,Methanol Start Up Pump- MP-5012A,33%
+120-07,EL,EBP-MP-5012B,Power Cable B,Methanol Start Up Pump- MP-5012B,33%
+120-02,EL,EBP-MP-5070A,Power Cable B,NaOH Solution Dosing Pump- MP-5070A,33%
+120-02,EL,EBP-MP-5070B,Power Cable B,NaOH Solution Dosing Pump- MP-5070B,33%
 120-02,EL,EBP-MP-6001A,Power Cable B,Saturator Circulation Pump- MP-6001A,67%
 120-02,EL,EBP-MP-6001B,Power Cable B,Saturator Circulation Pump- MP-6001B,67%
 120-01,EL,EBP-MP-6002A-SH,Power Cable B,Motor Space Heater- MP-6002A-SH,67%
@@ -10776,7 +10776,7 @@ NO SUBS.,EL,EBP-MC-2001-SH_1,POWER CABLE A,CABLE(NA),0%
 1000-03,EL,EBP-MP-6002B-SH_1,POWER CABLE A,CABLE(NA),Done
 120-01,EL,EBP-MP-6002C-SH,Power Cable B,Motor Space Heater- MP-6002C-SH,67%
 1000-03,EL,EBP-MP-6002C-SH_1,POWER CABLE A,CABLE(NA),0%
-120-07,EL,EBP-MP-7001C-RD,Power Cable B,Motor Regreasing Device- MP-7001C-RD,DONE
+120-07,EL,EBP-MP-7001C-RD,Power Cable B,Motor Regreasing Device- MP-7001C-RD,33%
 120-01,EL,EBP-MP-7001C-SH,Power Cable B,Motor Space Heater- MP-7001C-SH,67%
 4000-04,EL,EBP-MP-7001C-SH_1,POWER CABLE A,CABLE(NA),Done
 120-02,EL,EBP-MP-7002A_1,Power Cable B,DMW Pump- MP-7002A,67%
@@ -10787,16 +10787,16 @@ NO SUBS.,EL,EBP-MC-2001-SH_1,POWER CABLE A,CABLE(NA),0%
 120-02,EL,EBP-MP-7003B,Power Cable B,Excess Process Condensate Pump- MP-7003B,67%
 120-02,EL,EBP-MP-7004A,Power Cable B,Excess Condensate Return Pump- MP-7004A,67%
 120-02,EL,EBP-MP-7004B,Power Cable B,Excess Condensate Return Pump- MP-7004B,67%
-120-02,EL,EBP-MP-7051A,Power Cable B,Phosphate Dosing Pump- MP-7051A,DONE
-120-02,EL,EBP-MP-7051B,Power Cable B,Phosphate Dosing Pump- MP-7051B,DONE
-120-02,EL,EBP-MP-7052A,Power Cable B,Phosphate Dosing Pump- MP-7052A,DONE
-120-02,EL,EBP-MP-7052B,Power Cable B,Phosphate Dosing Pump- MP-7052B,DONE
-120-02,EL,EBP-MP-7060A,Power Cable B,Amine Dosing Pump- MP-7060A,DONE
-120-02,EL,EBP-MP-7060B,Power Cable B,Amine Dosing Pump- MP-7060B,DONE
-120-02,EL,EBP-MP-7070A,Power Cable B,Oxygen Scavenger Dosing Pump- MP-7070A,DONE
-120-02,EL,EBP-MP-7070B,Power Cable B,Oxygen Scavenger Dosing Pump- MP-7070B,DONE
-120-07,EL,EBP-MP-7101A,Power Cable B,Flare Knock-out Drum Pump- MP-7101A,DONE
-120-07,EL,EBP-MP-7101B,Power Cable B,Flare Knock-out Drum Pump- MP-7101B,DONE
+120-02,EL,EBP-MP-7051A,Power Cable B,Phosphate Dosing Pump- MP-7051A,33%
+120-02,EL,EBP-MP-7051B,Power Cable B,Phosphate Dosing Pump- MP-7051B,33%
+120-02,EL,EBP-MP-7052A,Power Cable B,Phosphate Dosing Pump- MP-7052A,33%
+120-02,EL,EBP-MP-7052B,Power Cable B,Phosphate Dosing Pump- MP-7052B,33%
+120-02,EL,EBP-MP-7060A,Power Cable B,Amine Dosing Pump- MP-7060A,33%
+120-02,EL,EBP-MP-7060B,Power Cable B,Amine Dosing Pump- MP-7060B,33%
+120-02,EL,EBP-MP-7070A,Power Cable B,Oxygen Scavenger Dosing Pump- MP-7070A,33%
+120-02,EL,EBP-MP-7070B,Power Cable B,Oxygen Scavenger Dosing Pump- MP-7070B,33%
+120-07,EL,EBP-MP-7101A,Power Cable B,Flare Knock-out Drum Pump- MP-7101A,33%
+120-07,EL,EBP-MP-7101B,Power Cable B,Flare Knock-out Drum Pump- MP-7101B,33%
 120-03,EL,EBP-MP-7502A,Power Cable B,Caustic Transfer Pump- MP-7502A,67%
 120-03,EL,EBP-MP-7502B,Power Cable B,Caustic Transfer Pump- MP-7502B,67%
 120-03,EL,EBP-MP-7503A,Power Cable B,Sulfuric Acid Transfer Pump- MP-7503A,67%
@@ -10815,17 +10815,17 @@ NO SUBS.,EL,EBP-MC-2001-SH_1,POWER CABLE A,CABLE(NA),0%
 120-03,EL,EBP-MP-8403B,Power Cable B,Neutralization Basin Pump B- MP-8403B,67%
 120-03,EL,EBP-MP-8404A,Power Cable B,COC Water Transfer Pump A- MP-8404A,67%
 120-03,EL,EBP-MP-8404B,Power Cable B,COC Water Transfer Pump B- MP-8404B,67%
-120-03,EL,EBP-MP-8405A,Power Cable B,Laboratory Effluent Transfer Pump A - MP-8405A,DONE
-120-03,EL,EBP-MP-8405B,Power Cable B,Laboratory Effluent Transfer Pump B - MP-8405B,DONE
-120-07,EL,EBP-MSR-0001,Power Cable B,Fire & Gas Detection System Siren- MSR-0001,DONE
-120-02,EL,EBP-MX-7050,Power Cable B,Phosphate Dosing Tank Stirrer- MX-7050,DONE
-120-02,EL,EBP-MX-7060,Power Cable B,Amine Dosing Tank Stirrer- MX-7060,DONE
-120-02,EL,EBP-MX-7070,Power Cable B,Oxygen Scavenger Dosing Tank Stirrer- MX-7070,DONE
+120-03,EL,EBP-MP-8405A,Power Cable B,Laboratory Effluent Transfer Pump A - MP-8405A,33%
+120-03,EL,EBP-MP-8405B,Power Cable B,Laboratory Effluent Transfer Pump B - MP-8405B,33%
+120-07,EL,EBP-MSR-0001,Power Cable B,Fire & Gas Detection System Siren- MSR-0001,33%
+120-02,EL,EBP-MX-7050,Power Cable B,Phosphate Dosing Tank Stirrer- MX-7050,33%
+120-02,EL,EBP-MX-7060,Power Cable B,Amine Dosing Tank Stirrer- MX-7060,33%
+120-02,EL,EBP-MX-7070,Power Cable B,Oxygen Scavenger Dosing Tank Stirrer- MX-7070,33%
 120-02,EL,EBP-P7001C-HE-1,Power Cable B,Lube Oil Heater No.1 for P-7001C- P7001C-HE-1,67%
 120-02,EL,EBP-P7001C-HE-2,Power Cable B,Lube Oil Heater No.2 for P-7001C- P7001C-HE-2,67%
 120-02,EL,EBP-P7001C-MF-1,Power Cable B,Oil Mist Fan for P7001C- P7001C-MF-1,67%
 120-02,EL,EBP-P7001C-MP-1A,Power Cable B,Main Lube Oil Pump for P7001C- P7001C-MP-1A,67%
-120-07,EL,EBP-P7001C-MP-1B,Power Cable B,Emergency Lube Oil Pump for P-7001C- P7001C-MP-1B,DONE
+120-07,EL,EBP-P7001C-MP-1B,Power Cable B,Emergency Lube Oil Pump for P-7001C- P7001C-MP-1B,33%
 120-03,EL,EBP-PK7502-MB-1A,Power Cable B,Resin Mixing Air Blower A- PK7502-MB-1A,67%
 120-03,EL,EBP-PK7502-MB-1B,Power Cable B,Resin Mixing Air Blower B- PK7502-MB-1B,67%
 120-03,EL,EBP-PK7502-MP-1A,Power Cable B,Backwash Pumps A- PK7502-MP-1A,67%
@@ -10834,99 +10834,99 @@ NO SUBS.,EL,EBP-MC-2001-SH_1,POWER CABLE A,CABLE(NA),0%
 120-03,EL,EBP-PK7502-MP-2B,Power Cable B,Acid Dosing Pump B- PK7502-MP-2B,67%
 120-03,EL,EBP-PK7502-MP-3A,Power Cable B,Caustic Soda Dosing Pump A- PK7502-MP-3A,67%
 120-03,EL,EBP-PK7502-MP-3B,Power Cable B,Caustic Soda Dosing Pump B- PK7502-MP-3B,67%
-120-03,EL,EBP-PK8002-MP-1A,Power Cable B,Corrosion Inhibitor Dosing Package- PK8002-MP-1A,DONE
-120-03,EL,EBP-PK8002-MP-1B,Power Cable B,Corrosion Inhibitor Dosing Package- PK8002-MP-1B,DONE
-120-03,EL,EBP-PK8002-MX-1,Power Cable B,Corrosion Inhibitor Dosing Tank Mixer- PK8002-MX-1,DONE
-120-03,EL,EBP-PK8003-MP-1A,Power Cable B,Anti Fouling Dosing Package Pump- PK8003-MP-1A,DONE
-120-03,EL,EBP-PK8003-MP-1B,Power Cable B,Anti Fouling Dosing Package Pump- PK8003-MP-1B,DONE
-120-03,EL,EBP-PK8003-MX-1,Power Cable B,Anti Fouling Dosing Tank Mixer- PK8003-MX-1,DONE
-120-03,EL,EBP-PK8004-MP-1A,Power Cable B,Scale Inhibitor Dosing Package Pump- PK8004-MP-1A,DONE
-120-03,EL,EBP-PK8004-MP-1B,Power Cable B,Scale Inhibitor Dosing Package Pump- PK8004-MP-1B,DONE
-120-03,EL,EBP-PK8004-MX-1,Power Cable B,Scale Inhibitor Dosing Tank Mixer- PK8004-MX-1,DONE
-120-03,EL,EBP-PK8005-MP-1A,Power Cable B,pH Adjustment Dosing Package Pump- PK8005-MP-1A,DONE
-120-03,EL,EBP-PK8005-MP-1B,Power Cable B,pH Adjustment Dosing Package Pump- PK8005-MP-1B,DONE
+120-03,EL,EBP-PK8002-MP-1A,Power Cable B,Corrosion Inhibitor Dosing Package- PK8002-MP-1A,33%
+120-03,EL,EBP-PK8002-MP-1B,Power Cable B,Corrosion Inhibitor Dosing Package- PK8002-MP-1B,33%
+120-03,EL,EBP-PK8002-MX-1,Power Cable B,Corrosion Inhibitor Dosing Tank Mixer- PK8002-MX-1,33%
+120-03,EL,EBP-PK8003-MP-1A,Power Cable B,Anti Fouling Dosing Package Pump- PK8003-MP-1A,33%
+120-03,EL,EBP-PK8003-MP-1B,Power Cable B,Anti Fouling Dosing Package Pump- PK8003-MP-1B,33%
+120-03,EL,EBP-PK8003-MX-1,Power Cable B,Anti Fouling Dosing Tank Mixer- PK8003-MX-1,33%
+120-03,EL,EBP-PK8004-MP-1A,Power Cable B,Scale Inhibitor Dosing Package Pump- PK8004-MP-1A,33%
+120-03,EL,EBP-PK8004-MP-1B,Power Cable B,Scale Inhibitor Dosing Package Pump- PK8004-MP-1B,33%
+120-03,EL,EBP-PK8004-MX-1,Power Cable B,Scale Inhibitor Dosing Tank Mixer- PK8004-MX-1,33%
+120-03,EL,EBP-PK8005-MP-1A,Power Cable B,pH Adjustment Dosing Package Pump- PK8005-MP-1A,33%
+120-03,EL,EBP-PK8005-MP-1B,Power Cable B,pH Adjustment Dosing Package Pump- PK8005-MP-1B,33%
 120-03,EL,EBP-PK8401-MP-1A,Power Cable B,Oily Sludge Transfer Pump PK8401-MP-1A- Intermediate JB,33%
 120-03,EL,EBP-PK8401-MP-1B,Power Cable B,Oily Sludge Transfer Pump PK8401-MP-1B- Intermediate JB,33%
 120-03,EL,EBP-PK8401-MP-2A,Power Cable B,Skimmed oil transfer pump- PK8401-MP-2A,67%
 120-03,EL,EBP-PK8401-MP-2B,Power Cable B,Skimmed oil transfer pump- PK8401-MP-2B,67%
-120-07,EL,EBP-SS-CH-01_AS,Power Cable B,110V DC Battery Charger- SS-CH-01 (Auxiliary Supply),DONE
+120-07,EL,EBP-SS-CH-01_AS,Power Cable B,110V DC Battery Charger- SS-CH-01 (Auxiliary Supply),0%
 120-03,EL,EBP-SS-CH-01A,Power Cable B,110V DC Battery Charger-A- SS-CH-01A,0%
-120-07,EL,EBP-SS-CH-01B,Power Cable B,110V DC Battery Charger-B- SS-CH-01B,DONE
-120-07,EL,EBP-SS-E_I-01,Power Cable B,Substation E/I Cabinet- SS-E/I-01 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-EDP-01,Power Cable B,Substation Emergency Distribution Panel- SS-EDP-01,DONE
-LS-02,EL,EBP-SS-ELP-01,Power Cable B,Substation Emergency Lighting Panel- SS-ELP-01,DONE
-LS-02,EL,EBP-SS-EMLP-01,Power Cable B,Main Emergency Lighting Panel- SS-EMLP-01,DONE
-120-07,EL,EBP-SS-EMLP-01_AS,Power Cable B,Emergency Main Lighting Panel- SS-EMLP-01  (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-ESWB3A-01_AS,Power Cable B,Emergency LV Switchboard No. 01- SS-ESWB3A-01 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-ESWB3B-01_AS,Power Cable B,Emergency LV Switchboard No. 01- SS-ESWB3B-01 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-FACP-01,Power Cable B,Substation Fire Alarm Control Panel- SS-FACP-01 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-FECP-01,Power Cable B,Substation Fire Fighting Control Panel- SS-FECP-01 (Auxiliary Supply),DONE
-120-03,EL,EBP-SS-HDP-01_1,Power Cable B,Substation HVAC Distribution Panel- SS-HDP-01,DONE
-120-03,EL,EBP-SS-HDP-01_2,Power Cable B,Substation HVAC Distribution Panel- SS-HDP-01,DONE
-LS-01,EL,EBP-SS-LP-01,Power Cable B,Substation Normal Lighting & Socket Outlet Panel- SS-LP-01,DONE
-120-07,EL,EBP-SS-LSP-01,Power Cable B,Load Shedding Cabinet- SS-LSP-01 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-MLP-01_AS,Power Cable B,Normal Main Lighting Panel- SS-MLP-01  (Auxiliary Supply),DONE
-LS-01,EL,EBP-SS-MLP-01A_1,Power Cable B,Main Normal Lighting Panel (Incomer A)- SS-MLP-01A,DONE
-LS-01,EL,EBP-SS-MLP-01A_2,Power Cable B,Main Normal Lighting Panel (Incomer A)- SS-MLP-01A,DONE
-LS-01,EL,EBP-SS-MLP-01A_3,Power Cable B,Main Normal Lighting Panel (Incomer A)- SS-MLP-01A,DONE
-LS-01,EL,EBP-SS-MLP-01B_1,Power Cable B,Main Normal Lighting Panel (Incomer B)- SS-MLP-01B,DONE
-LS-01,EL,EBP-SS-MLP-01B_2,Power Cable B,Main Normal Lighting Panel (Incomer B)- SS-MLP-01B,DONE
-LS-01,EL,EBP-SS-MLP-01B_3,Power Cable B,Main Normal Lighting Panel (Incomer B)- SS-MLP-01B,DONE
-120-07,EL,EBP-SS-NGR1A-01_AS,Power Cable B,Neutral Grounding Resistor- SS-NGR1A-01 (Space Heater Terminal Box),DONE
-120-07,EL,EBP-SS-NGR1B-01_AS,Power Cable B,Neutral Grounding Resistor- SS-NGR1B-01 (Space Heater Terminal Box),DONE
-120-07,EL,EBP-SS-PDCS-01_AS,Power Cable B,PDC System Panel  SS-PDCS-01 (Auxiliary Supply),DONE
+120-07,EL,EBP-SS-CH-01B,Power Cable B,110V DC Battery Charger-B- SS-CH-01B,0%
+120-07,EL,EBP-SS-E_I-01,Power Cable B,Substation E/I Cabinet- SS-E/I-01 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-EDP-01,Power Cable B,Substation Emergency Distribution Panel- SS-EDP-01,0%
+LS-02,EL,EBP-SS-ELP-01,Power Cable B,Substation Emergency Lighting Panel- SS-ELP-01,0%
+LS-02,EL,EBP-SS-EMLP-01,Power Cable B,Main Emergency Lighting Panel- SS-EMLP-01,0%
+120-07,EL,EBP-SS-EMLP-01_AS,Power Cable B,Emergency Main Lighting Panel- SS-EMLP-01  (Auxiliary Supply),0%
+120-07,EL,EBP-SS-ESWB3A-01_AS,Power Cable B,Emergency LV Switchboard No. 01- SS-ESWB3A-01 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-ESWB3B-01_AS,Power Cable B,Emergency LV Switchboard No. 01- SS-ESWB3B-01 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-FACP-01,Power Cable B,Substation Fire Alarm Control Panel- SS-FACP-01 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-FECP-01,Power Cable B,Substation Fire Fighting Control Panel- SS-FECP-01 (Auxiliary Supply),0%
+120-03,EL,EBP-SS-HDP-01_1,Power Cable B,Substation HVAC Distribution Panel- SS-HDP-01,0%
+120-03,EL,EBP-SS-HDP-01_2,Power Cable B,Substation HVAC Distribution Panel- SS-HDP-01,0%
+LS-01,EL,EBP-SS-LP-01,Power Cable B,Substation Normal Lighting & Socket Outlet Panel- SS-LP-01,0%
+120-07,EL,EBP-SS-LSP-01,Power Cable B,Load Shedding Cabinet- SS-LSP-01 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-MLP-01_AS,Power Cable B,Normal Main Lighting Panel- SS-MLP-01  (Auxiliary Supply),0%
+LS-01,EL,EBP-SS-MLP-01A_1,Power Cable B,Main Normal Lighting Panel (Incomer A)- SS-MLP-01A,0%
+LS-01,EL,EBP-SS-MLP-01A_2,Power Cable B,Main Normal Lighting Panel (Incomer A)- SS-MLP-01A,0%
+LS-01,EL,EBP-SS-MLP-01A_3,Power Cable B,Main Normal Lighting Panel (Incomer A)- SS-MLP-01A,0%
+LS-01,EL,EBP-SS-MLP-01B_1,Power Cable B,Main Normal Lighting Panel (Incomer B)- SS-MLP-01B,0%
+LS-01,EL,EBP-SS-MLP-01B_2,Power Cable B,Main Normal Lighting Panel (Incomer B)- SS-MLP-01B,0%
+LS-01,EL,EBP-SS-MLP-01B_3,Power Cable B,Main Normal Lighting Panel (Incomer B)- SS-MLP-01B,0%
+120-07,EL,EBP-SS-NGR1A-01_AS,Power Cable B,Neutral Grounding Resistor- SS-NGR1A-01 (Space Heater Terminal Box),0%
+120-07,EL,EBP-SS-NGR1B-01_AS,Power Cable B,Neutral Grounding Resistor- SS-NGR1B-01 (Space Heater Terminal Box),0%
+120-07,EL,EBP-SS-PDCS-01_AS,Power Cable B,PDC System Panel  SS-PDCS-01 (Auxiliary Supply),0%
 120-11,EL,EBP-SS-PDCS-01A,Power Cable B,PDC System Panel- SS-PDCS-01 (Feeder A),67%
 120-11,EL,EBP-SS-PDCS-01B,Power Cable B,PDC System Panel- SS-PDCS-01 (Feeder B),67%
-120-07,EL,EBP-SS-PRB-01,Power Cable B,Photocell Relay Box- SS-PRB-01 (Auxiliary Supply),DONE
+120-07,EL,EBP-SS-PRB-01,Power Cable B,Photocell Relay Box- SS-PRB-01 (Auxiliary Supply),0%
 120-07,EL,EBP-SS-SWB2A-01_AS,Power Cable B,6kV Switchboard- SS-SWB2A-01 Bus VT Panel (Auxiliary Supply),33%
 120-07,EL,EBP-SS-SWB2B-01_AS,Power Cable B,6kV Switchboard- SS-SWB2B-01 Bus VT Panel (Auxiliary Supply),33%
-120-07,EL,EBP-SS-SWB3A-01_AS,Power Cable B,LV Switchboard No. 01- SS-SWB3A-01 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-SWB3A-02_AS,Power Cable B,LV Switchboard No. 02- SS-SWB3A-02 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-SWB3A-03_AS,Power Cable B,LV Switchboard No. 03- SS-SWB3A-03 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-SWB3A-04_AS,Power Cable B,LV Switchboard No. 04- SS-SWB3A-04 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-SWB3A-05_AS,Power Cable B,LV Switchboard No. 05- SS-SWB3A-05 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-SWB3B-01_AS,Power Cable B,LV Switchboard No. 01- SS-SWB3B-01 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-SWB3B-02_AS,Power Cable B,LV Switchboard No. 02- SS-SWB3B-02 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-SWB3B-03_AS,Power Cable B,LV Switchboard No. 03- SS-SWB3B-03 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-SWB3B-04_AS,Power Cable B,LV Switchboard No. 04- SS-SWB3B-04 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-SWB3B-05_AS,Power Cable B,LV Switchboard No. 05- SS-SWB3B-05 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-TR1A-01_AS,Power Cable B,20/6.3KV Transformer SS-TR1A-01 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-TR1B-01_AS,Power Cable B,20/6.3KV Transformer SS-TR1B-01 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-TR2A-01_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-01 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-TR2A-02_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-02 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-TR2A-03_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-03 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-TR2A-04_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-04 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-TR2A-05_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-05 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-TR2A-06_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-06 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-TR2B-01_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-01 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-TR2B-02_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-02 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-TR2B-03_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-03 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-TR2B-04_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-04 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-TR2B-05_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-05 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-TR2B-06_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-06 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-TR3-02,Power Cable B,Main Emergency Lighting Transformer- SS-TR3-02,DONE
-120-03,EL,EBP-SS-TR3A-01_1,Power Cable B,Main Normal Lighting Transformer A- SS-TR3A-01,DONE
-120-03,EL,EBP-SS-TR3A-01_2,Power Cable B,Main Normal Lighting Transformer A- SS-TR3A-01,DONE
-120-03,EL,EBP-SS-TR3A-01_3,Power Cable B,Main Normal Lighting Transformer A- SS-TR3A-01,DONE
+120-07,EL,EBP-SS-SWB3A-01_AS,Power Cable B,LV Switchboard No. 01- SS-SWB3A-01 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-SWB3A-02_AS,Power Cable B,LV Switchboard No. 02- SS-SWB3A-02 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-SWB3A-03_AS,Power Cable B,LV Switchboard No. 03- SS-SWB3A-03 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-SWB3A-04_AS,Power Cable B,LV Switchboard No. 04- SS-SWB3A-04 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-SWB3A-05_AS,Power Cable B,LV Switchboard No. 05- SS-SWB3A-05 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-SWB3B-01_AS,Power Cable B,LV Switchboard No. 01- SS-SWB3B-01 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-SWB3B-02_AS,Power Cable B,LV Switchboard No. 02- SS-SWB3B-02 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-SWB3B-03_AS,Power Cable B,LV Switchboard No. 03- SS-SWB3B-03 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-SWB3B-04_AS,Power Cable B,LV Switchboard No. 04- SS-SWB3B-04 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-SWB3B-05_AS,Power Cable B,LV Switchboard No. 05- SS-SWB3B-05 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-TR1A-01_AS,Power Cable B,20/6.3KV Transformer SS-TR1A-01 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-TR1B-01_AS,Power Cable B,20/6.3KV Transformer SS-TR1B-01 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-TR2A-01_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-01 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-TR2A-02_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-02 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-TR2A-03_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-03 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-TR2A-04_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-04 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-TR2A-05_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-05 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-TR2A-06_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-06 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-TR2B-01_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-01 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-TR2B-02_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-02 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-TR2B-03_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-03 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-TR2B-04_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-04 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-TR2B-05_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-05 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-TR2B-06_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-06 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-TR3-02,Power Cable B,Main Emergency Lighting Transformer- SS-TR3-02,0%
+120-03,EL,EBP-SS-TR3A-01_1,Power Cable B,Main Normal Lighting Transformer A- SS-TR3A-01,0%
+120-03,EL,EBP-SS-TR3A-01_2,Power Cable B,Main Normal Lighting Transformer A- SS-TR3A-01,0%
+120-03,EL,EBP-SS-TR3A-01_3,Power Cable B,Main Normal Lighting Transformer A- SS-TR3A-01,0%
 120-03,EL,EBP-SS-TR3B-01_1,Power Cable B,Main Normal Lighting Transformer B- SS-TR3B-01,0%
 120-03,EL,EBP-SS-TR3B-01_2,Power Cable B,Main Normal Lighting Transformer B- SS-TR3B-01,0%
 120-03,EL,EBP-SS-TR3B-01_3,Power Cable B,Main Normal Lighting Transformer B- SS-TR3B-01,0%
-120-07,EL,EBP-SS-UPS-01,Power Cable B,230V AC Safety Lighting UPS- SS-UPS-01,DONE
-120-07,EL,EBP-SS-UPS-01_AS,Power Cable B,230V AC Safety Lighting UPS- SS-UPS-01 (Auxiliary Supply),DONE
-120-07,EL,EBP-SS-UPS-01_BY,Power Cable B,230V AC Safety Lighting UPS Bypass - SS-UPS-01/BY,DONE
-120-03,EL,EBP-WH-DP-01,Power Cable B,Warehouse Distribution Panel- WH-DP-01,DONE
-120-07,EL,EBP-WH-EDP-01,Power Cable B,Warehouse Emergency Distribution Panel- WH-EDP-01,DONE
-120-03,EL,EBP-WS-DP-01,Power Cable B,Workshop Distribution Panel- WS-DP-01,DONE
-LS-02,EL,EBP-YO-ELP-01,Power Cable B,Yard Office Emergency Lighting Panel- YO-ELP-01,DONE
-LS-01,EL,EBP-YO-LP-01,Power Cable B,Yard Office Normal Lighting & Socket Outlet Panel- YO-LP-01,DONE
+120-07,EL,EBP-SS-UPS-01,Power Cable B,230V AC Safety Lighting UPS- SS-UPS-01,0%
+120-07,EL,EBP-SS-UPS-01_AS,Power Cable B,230V AC Safety Lighting UPS- SS-UPS-01 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-UPS-01_BY,Power Cable B,230V AC Safety Lighting UPS Bypass - SS-UPS-01/BY,0%
+120-03,EL,EBP-WH-DP-01,Power Cable B,Warehouse Distribution Panel- WH-DP-01,0%
+120-07,EL,EBP-WH-EDP-01,Power Cable B,Warehouse Emergency Distribution Panel- WH-EDP-01,0%
+120-03,EL,EBP-WS-DP-01,Power Cable B,Workshop Distribution Panel- WS-DP-01,0%
+LS-02,EL,EBP-YO-ELP-01,Power Cable B,Yard Office Emergency Lighting Panel- YO-ELP-01,33%
+LS-01,EL,EBP-YO-LP-01,Power Cable B,Yard Office Normal Lighting & Socket Outlet Panel- YO-LP-01,33%
 120-02,EL,ECC-C2001-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-02,EL,ECC-C2001-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-02,EL,ECC-C2002-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-02,EL,ECC-C2002-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-02,EL,ECC-C2002-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 TEL-09,EL,ECC-CR-CEC-01,Comminucation Cable,Paging Central Exchange Cabinet (in Auxiliary Room)CR-CEC-01,0%
-120-12,EL,ECC-CR-ESP-01_1,Power Cable B,PDC System Ethernet Switch Panel- CR-ESP-01,DONE
-120-12,EL,ECC-CR-ESP-01_2,Power Cable B,PDC System Ethernet Switch Panel- CR-ESP-01,DONE
+120-12,EL,ECC-CR-ESP-01_1,Power Cable B,PDC System Ethernet Switch Panel- CR-ESP-01,0%
+120-12,EL,ECC-CR-ESP-01_2,Power Cable B,PDC System Ethernet Switch Panel- CR-ESP-01,0%
 FGS-09,EL,ECC-CR-FACP-01,Power Cable B,Control Building HVAC Control Panel,0%
 FGS-09,EL,ECC-CR-FECP-01,Power Cable B,Control Building HVAC Control Panel,0%
 FGS-09,EL,ECC-CR-FECP-01_1,Power Cable B,Control Building Fire Fighting Control Panel JB,0%
@@ -10936,36 +10936,36 @@ FGS-09,EL,ECC-CR-FECP-01_4,Power Cable B,Control Building Fire Fighting Control 
 FGS-09,EL,ECC-CR-FECP-01_5,Power Cable B,Control Building Fire Fighting Control Panel JB,0%
 FGS-09,EL,ECC-CR-SIP-01,Power Cable B,Fire and Gas Detection System Siren Panel-CR-SIP-01,67%
 120-09,EL,ECC-CR-UIS-01,Power Cable B,110V AC UPS Battery Isolator Box- CR-UIS-01,Done
-120-08,EL,ECC-DG-5701_1,Power Cable B,Substation PDC System- SS-PDCS-01,DONE
-120-07,EL,ECC-DG-5701_2,Power Cable B,Emergency Diesel Generator DG-5701- Start Control Panel (Control/Status Signals),DONE
-120-07,EL,ECC-DG-5701_3,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel (Control/Status Signals),DONE
+120-08,EL,ECC-DG-5701_1,Power Cable B,Substation PDC System- SS-PDCS-01,0%
+120-07,EL,ECC-DG-5701_2,Power Cable B,Emergency Diesel Generator DG-5701- Start Control Panel (Control/Status Signals),0%
+120-07,EL,ECC-DG-5701_3,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel (Control/Status Signals),0%
 120-09,EL,ECC-F&G-UPS-01,Power Cable B,F&G System MIMIC Panel (Monitoring Signals),Done
 120-02,EL,ECC-FT2001-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-FT2001-MP-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-07,EL,ECC-FT2001-MP-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
+120-07,EL,ECC-FT2001-MP-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-09,EL,ECC-FT2001-MP-3_1,Power Cable B,Reformer Unit Control Panel for FT2001 (Command/Indication Signals),Done
 120-02,EL,ECC-FT2002-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-02,EL,ECC-FT2002-MP-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-07,EL,ECC-FT2002-MP-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
+120-07,EL,ECC-FT2002-MP-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-09,EL,ECC-FT2002-MP-3_1,Power Cable B,Reformer Unit Control Panel for FT2002 (Command/Indication Signals),Done
 120-02,EL,ECC-FT7001A-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-02,EL,ECC-FT7001A-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-02,EL,ECC-FT7001A-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-07,EL,ECC-FT7001A-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
+120-07,EL,ECC-FT7001A-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-FT7001B-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-02,EL,ECC-FT7001B-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-02,EL,ECC-FT7001B-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-07,EL,ECC-FT7001B-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
+120-07,EL,ECC-FT7001B-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-03,EL,ECC-FT8001A-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-FT8001A-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-FT8001A-HE-3_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-02,EL,ECC-FT8001A-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-07,EL,ECC-FT8001A-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
+120-07,EL,ECC-FT8001A-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-03,EL,ECC-FT8001B-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-03,EL,ECC-FT8001B-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-03,EL,ECC-FT8001B-HE-3_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-02,EL,ECC-FT8001B-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-07,EL,ECC-FT8001B-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
+120-07,EL,ECC-FT8001B-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-H-3012_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-05,EL,ECC-MAE-2026-01_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
@@ -11118,14 +11118,14 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-02,EL,ECC-MP-2002B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-MP-2003A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-02,EL,ECC-MP-2003B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-07,EL,ECC-MP-3001_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
+120-07,EL,ECC-MP-3001_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-MP-3011A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-02,EL,ECC-MP-3011B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-MP-3012A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-MP-3012B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-07,EL,ECC-MP-3013_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
+120-07,EL,ECC-MP-3013_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-MP-3014_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-07,EL,ECC-MP-3015_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
+120-07,EL,ECC-MP-3015_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-MP-5001A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-02,EL,ECC-MP-5001B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-02,EL,ECC-MP-5002A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
@@ -11154,8 +11154,8 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-02,EL,ECC-MP-5010B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-MP-5011A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-02,EL,ECC-MP-5011B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-07,EL,ECC-MP-5012A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
-120-07,EL,ECC-MP-5012B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
+120-07,EL,ECC-MP-5012A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-07,EL,ECC-MP-5012B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-MP-5070A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-02,EL,ECC-MP-5070B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-MP-6001A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
@@ -11184,8 +11184,8 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-02,EL,ECC-MP-7060B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-MP-7070A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-02,EL,ECC-MP-7070B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-07,EL,ECC-MP-7101A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
-120-07,EL,ECC-MP-7101B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
+120-07,EL,ECC-MP-7101A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-07,EL,ECC-MP-7101B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-03,EL,ECC-MP-7502A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-03,EL,ECC-MP-7502B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-MP-7503A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
@@ -11214,7 +11214,7 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-02,EL,ECC-P7001C-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-02,EL,ECC-P7001C-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-P7001C-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-07,EL,ECC-P7001C-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
+120-07,EL,ECC-P7001C-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-03,EL,ECC-PK7502-MB-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-PK7502-MB-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-PK7502-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
@@ -11239,18 +11239,18 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-03,EL,ECC-PK8401-MP-2A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-03,EL,ECC-PK8401-MP-2B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-10,EL,ECC-SS-CIS-01,Power Cable B,110V DC Battery Isolator Box- SS-CIS-01,0%
-120-07,EL,ECC-SS-ESWB3A-01_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Feeder SS-TR2A-06,DONE
+120-07,EL,ECC-SS-ESWB3A-01_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Feeder SS-TR2A-06,0%
 120-02,EL,ECC-SS-ESWB3A-01_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),0%
-120-07,EL,ECC-SS-ESWB3A-01_4,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command|Trip & Status Signals),DONE
-120-07,EL,ECC-SS-ESWB3AB-01_1,Power Cable B,Emergency LV Switchboard SS-ESWB3B-01- Incomer,DONE
-120-07,EL,ECC-SS-ESWB3AB-01_2_1,Power Cable B,Emergency LV Switchboard SS-ESWB3B-01- Incomer,DONE
-120-07,EL,ECC-SS-ESWB3AB-01_2_2,Power Cable B,Emergency LV Switchboard SS-ESWB3B-01- Incomer,DONE
-120-07,EL,ECC-SS-ESWB3B-01_1,Power Cable B,6kV Switchboard SS-SWB2B-01- Feeder SS-TR2B-06,DONE
+120-07,EL,ECC-SS-ESWB3A-01_4,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command|Trip & Status Signals),0%
+120-07,EL,ECC-SS-ESWB3AB-01_1,Power Cable B,Emergency LV Switchboard SS-ESWB3B-01- Incomer,0%
+120-07,EL,ECC-SS-ESWB3AB-01_2_1,Power Cable B,Emergency LV Switchboard SS-ESWB3B-01- Incomer,0%
+120-07,EL,ECC-SS-ESWB3AB-01_2_2,Power Cable B,Emergency LV Switchboard SS-ESWB3B-01- Incomer,0%
+120-07,EL,ECC-SS-ESWB3B-01_1,Power Cable B,6kV Switchboard SS-SWB2B-01- Feeder SS-TR2B-06,0%
 120-02,EL,ECC-SS-ESWB3B-01_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01 (Command Signals),0%
-120-07,EL,ECC-SS-ESWB3B-01E_1,Power Cable B,Susbtation E/I Cabinet SS-E/I-01- FCS-MC-RIO-06R (Emergency Power Supply Available),DONE
-120-07,EL,ECC-SS-ESWB3B-01E_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01 (Status Signals),DONE
-120-07,EL,ECC-SS-ESWB3B-01E_3,Power Cable B,Emergency LV Switchboard SS-ESWB3A-01- Incomer,DONE
-120-07,EL,ECC-SS-ESWB3B-01E_4,Power Cable B,Emergency LV Switchboard SS-ESWB3A-01- Bus Coupler,DONE
+120-07,EL,ECC-SS-ESWB3B-01E_1,Power Cable B,Susbtation E/I Cabinet SS-E/I-01- FCS-MC-RIO-06R (Emergency Power Supply Available),0%
+120-07,EL,ECC-SS-ESWB3B-01E_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01 (Status Signals),0%
+120-07,EL,ECC-SS-ESWB3B-01E_3,Power Cable B,Emergency LV Switchboard SS-ESWB3A-01- Incomer,0%
+120-07,EL,ECC-SS-ESWB3B-01E_4,Power Cable B,Emergency LV Switchboard SS-ESWB3A-01- Bus Coupler,0%
 FGS-08,EL,ECC-SS-FACP-01,Power Cable B,Substation HVAC Control Panel,0%
 FGS-08,EL,ECC-SS-FECP-01,Power Cable B,Substation HVAC Control Panel,0%
 FGS-08,EL,ECC-SS-FECP-01_1,Power Cable B,Substation Fire Fighting Control Panel JB,0%
@@ -11272,7 +11272,7 @@ FGS-08,EL,ECC-SS-FECP-01_4,Power Cable B,Substation Fire Fighting Control Panel 
 120-05,EL,ECC-SS-PDCS01-3_3,Power Cable B,LV Switchboard SS-SWB3A-03- Incomer,33%
 120-04,EL,ECC-SS-PDCS01-3_4,Power Cable B,LV Switchboard SS-SWB3B-03- Incomer,33%
 120-04,EL,ECC-SS-PDCS01-3_5,Power Cable B,Emergency LV Switchboard SS-ESWB3A-01- Incomer,0%
-120-07,EL,ECC-SS-PDCS01-3_6,Power Cable B,Emergency LV Switchboard SS-ESWB3B-01- Incomer,DONE
+120-07,EL,ECC-SS-PDCS01-3_6,Power Cable B,Emergency LV Switchboard SS-ESWB3B-01- Incomer,0%
 120-12,EL,ECC-SS-PDCS01-4_1,Power Cable B,110V DC Battery Charger Panel A- SS-CH-01A,0%
 120-10,EL,ECC-SS-PDCS01-4_2,Power Cable B,230V AC Safety Lighting UPS - SS-UPS-01,0%
 120-11,EL,ECC-SS-PDCS01-4_3,Power Cable B,Emergency Diesel Generator DG-5701- Start Control Panel,0%
@@ -11311,7 +11311,7 @@ FGS-08,EL,ECC-SS-FECP-01_4,Power Cable B,Substation Fire Fighting Control Panel 
 120-01,EL,ECC-SS-SWB2B-01_19,Power Cable B,6/0.42 KV Transformer- SS-TR2B-05,Done
 120-01,EL,ECC-SS-SWB2B-01_2,Power Cable B,20/6.3 KV Transformer- SS-TR1B-01,33%
 120-01,EL,ECC-SS-SWB2B-01_20,Power Cable B,6/0.42 KV Transformer- SS-TR2B-06,Done
-120-01,EL,ECC-SS-SWB2B-01_21,Power Cable B,Non Industrial Buildings - LV Panel- Incomer,DONE
+120-01,EL,ECC-SS-SWB2B-01_21,Power Cable B,Non Industrial Buildings - LV Panel- Incomer,0%
 120-01,EL,ECC-SS-SWB2B-01_3,Power Cable B,20/6.3 KV Transformer- SS-TR1B-01 (Current Transformer),33%
 120-01,EL,ECC-SS-SWB2B-01_4,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command and Status Signals),33%
 120-01,EL,ECC-SS-SWB2B-01_7,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
@@ -11358,24 +11358,24 @@ FGS-08,EL,ECC-SS-FECP-01_4,Power Cable B,Substation Fire Fighting Control Panel 
 120-06,EL,ECC-SS-SWB3B-05_1,Power Cable B,6kV Switchboard SS-SWB2B-01- Feeder SS-TR2B-05,Done
 120-06,EL,ECC-SS-SWB3B-05_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),67%
 120-11,EL,ECC-SS-UIS-01,Power Cable B,230V AC Safety Lighting UPS Battery Isolator Box- SS-UIS-01,0%
-TEL-11,EL,ECP-00-CamJB-01,Comminucation Cable,CCTV Camera Station Number 01,DONE
-TEL-11,EL,ECP-00-CamJB-02,Comminucation Cable,CCTV Camera Station Number 02,DONE
-TEL-11,EL,ECP-00-CamJB-03,Comminucation Cable,CCTV Camera Station Number 03,DONE
-TEL-11,EL,ECP-00-CamJB-04,Comminucation Cable,CCTV Camera Station Number 04,DONE
-TEL-11,EL,ECP-00-CamJB-05,Comminucation Cable,CCTV Camera Station Number 05,DONE
-TEL-11,EL,ECP-00-CamJB-06,Comminucation Cable,CCTV Camera Station Number 06,DONE
-TEL-11,EL,ECP-00-CamJB-07,Comminucation Cable,CCTV Camera Station Number 07,DONE
-TEL-11,EL,ECP-00-CamJB-08,Comminucation Cable,CCTV Camera Station Number 08,DONE
-TEL-11,EL,ECP-00-CamJB-09,Comminucation Cable,CCTV Camera Station Number 09,DONE
-TEL-11,EL,ECP-00-CamJB-10,Comminucation Cable,CCTV Camera Station Number 10,DONE
-TEL-11,EL,ECP-00-CamJB-11,Comminucation Cable,CCTV Camera Station Number 11,DONE
-TEL-11,EL,ECP-00-CamJB-12,Comminucation Cable,CCTV Camera Station Number 12,DONE
-TEL-11,EL,ECP-00-CamJB-13,Comminucation Cable,CCTV Camera Station Number 13,DONE
-TEL-11,EL,ECP-00-CamJB-14,Comminucation Cable,CCTV Camera Station Number 14,DONE
-TEL-11,EL,ECP-00-CamJB-15,Comminucation Cable,CCTV Camera Station Number 15,DONE
-TEL-11,EL,ECP-00-CamJB-16,Comminucation Cable,CCTV Camera Station Number 16,DONE
-TEL-11,EL,ECP-00-CamJB-17,Comminucation Cable,CCTV Camera Station Number 17,DONE
-TEL-11,EL,ECP-00-CamJB-18,Comminucation Cable,CCTV Camera Station Number 18,DONE
+TEL-11,EL,ECP-00-CamJB-01,Comminucation Cable,CCTV Camera Station Number 01,0%
+TEL-11,EL,ECP-00-CamJB-02,Comminucation Cable,CCTV Camera Station Number 02,0%
+TEL-11,EL,ECP-00-CamJB-03,Comminucation Cable,CCTV Camera Station Number 03,0%
+TEL-11,EL,ECP-00-CamJB-04,Comminucation Cable,CCTV Camera Station Number 04,0%
+TEL-11,EL,ECP-00-CamJB-05,Comminucation Cable,CCTV Camera Station Number 05,0%
+TEL-11,EL,ECP-00-CamJB-06,Comminucation Cable,CCTV Camera Station Number 06,0%
+TEL-11,EL,ECP-00-CamJB-07,Comminucation Cable,CCTV Camera Station Number 07,0%
+TEL-11,EL,ECP-00-CamJB-08,Comminucation Cable,CCTV Camera Station Number 08,0%
+TEL-11,EL,ECP-00-CamJB-09,Comminucation Cable,CCTV Camera Station Number 09,0%
+TEL-11,EL,ECP-00-CamJB-10,Comminucation Cable,CCTV Camera Station Number 10,0%
+TEL-11,EL,ECP-00-CamJB-11,Comminucation Cable,CCTV Camera Station Number 11,0%
+TEL-11,EL,ECP-00-CamJB-12,Comminucation Cable,CCTV Camera Station Number 12,0%
+TEL-11,EL,ECP-00-CamJB-13,Comminucation Cable,CCTV Camera Station Number 13,0%
+TEL-11,EL,ECP-00-CamJB-14,Comminucation Cable,CCTV Camera Station Number 14,0%
+TEL-11,EL,ECP-00-CamJB-15,Comminucation Cable,CCTV Camera Station Number 15,0%
+TEL-11,EL,ECP-00-CamJB-16,Comminucation Cable,CCTV Camera Station Number 16,0%
+TEL-11,EL,ECP-00-CamJB-17,Comminucation Cable,CCTV Camera Station Number 17,0%
+TEL-11,EL,ECP-00-CamJB-18,Comminucation Cable,CCTV Camera Station Number 18,0%
 120-09,EL,ECP-COM-PDP-CR-01A,Power Cable B,Instrument AC UPS Distribution Panel 01- COM-PDP-CR-01,67%
 120-09,EL,ECP-COM-PDP-CR-01B,Power Cable B,Instrument AC UPS Distribution Panel 01- COM-PDP-CR-01,67%
 120-09,EL,ECP-COM-PDP-CR-02A,Power Cable B,Instrument AC UPS Distribution Panel 02- COM-PDP-CR-02,67%
@@ -11415,24 +11415,24 @@ TEL-09,EL,ECP-CR-CEC-05,Comminucation Cable,Paging Central Exchange Cabinet (in 
 120-11,EL,ECP-SS-UBT-01+,Power Cable B,230V AC Safety Lighting UPS Battery Set- SS-UBT-01 (+),67%
 120-11,EL,ECP-SS-UIS-01-,Power Cable B,230V AC Safety Lighting UPS Battery Isolator Box- SS-UIS-01 (-),0%
 120-11,EL,ECP-SS-UIS-01+,Power Cable B,230V AC Safety Lighting UPS Battery Isolator Box- SS-UIS-01 (+),0%
-TEL-11,EL,ECR-00-CamJB-01,Comminucation Cable,CCTV Camera Station Number 01,DONE
-TEL-11,EL,ECR-00-CamJB-02,Comminucation Cable,CCTV Camera Station Number 02,DONE
-TEL-11,EL,ECR-00-CamJB-03,Comminucation Cable,CCTV Camera Station Number 03,DONE
-TEL-11,EL,ECR-00-CamJB-04,Comminucation Cable,CCTV Camera Station Number 04,DONE
-TEL-11,EL,ECR-00-CamJB-05,Comminucation Cable,CCTV Camera Station Number 05,DONE
-TEL-11,EL,ECR-00-CamJB-06,Comminucation Cable,CCTV Camera Station Number 06,DONE
-TEL-11,EL,ECR-00-CamJB-07,Comminucation Cable,CCTV Camera Station Number 07,DONE
-TEL-11,EL,ECR-00-CamJB-08,Comminucation Cable,CCTV Camera Station Number 08,DONE
-TEL-11,EL,ECR-00-CamJB-09,Comminucation Cable,CCTV Camera Station Number 09,DONE
-TEL-11,EL,ECR-00-CamJB-10,Comminucation Cable,CCTV Camera Station Number 10,DONE
-TEL-11,EL,ECR-00-CamJB-11,Comminucation Cable,CCTV Camera Station Number 11,DONE
-TEL-11,EL,ECR-00-CamJB-12,Comminucation Cable,CCTV Camera Station Number 12,DONE
-TEL-11,EL,ECR-00-CamJB-13,Comminucation Cable,CCTV Camera Station Number 13,DONE
-TEL-11,EL,ECR-00-CamJB-14,Comminucation Cable,CCTV Camera Station Number 14,DONE
-TEL-11,EL,ECR-00-CamJB-15,Comminucation Cable,CCTV Camera Station Number 15,DONE
-TEL-11,EL,ECR-00-CamJB-16,Comminucation Cable,CCTV Camera Station Number 16,DONE
-TEL-11,EL,ECR-00-CamJB-17,Comminucation Cable,CCTV Camera Station Number 17,DONE
-TEL-11,EL,ECR-00-CamJB-18,Comminucation Cable,CCTV Camera Station Number 18,DONE
+TEL-11,EL,ECR-00-CamJB-01,Comminucation Cable,CCTV Camera Station Number 01,0%
+TEL-11,EL,ECR-00-CamJB-02,Comminucation Cable,CCTV Camera Station Number 02,0%
+TEL-11,EL,ECR-00-CamJB-03,Comminucation Cable,CCTV Camera Station Number 03,0%
+TEL-11,EL,ECR-00-CamJB-04,Comminucation Cable,CCTV Camera Station Number 04,0%
+TEL-11,EL,ECR-00-CamJB-05,Comminucation Cable,CCTV Camera Station Number 05,0%
+TEL-11,EL,ECR-00-CamJB-06,Comminucation Cable,CCTV Camera Station Number 06,0%
+TEL-11,EL,ECR-00-CamJB-07,Comminucation Cable,CCTV Camera Station Number 07,0%
+TEL-11,EL,ECR-00-CamJB-08,Comminucation Cable,CCTV Camera Station Number 08,0%
+TEL-11,EL,ECR-00-CamJB-09,Comminucation Cable,CCTV Camera Station Number 09,0%
+TEL-11,EL,ECR-00-CamJB-10,Comminucation Cable,CCTV Camera Station Number 10,0%
+TEL-11,EL,ECR-00-CamJB-11,Comminucation Cable,CCTV Camera Station Number 11,0%
+TEL-11,EL,ECR-00-CamJB-12,Comminucation Cable,CCTV Camera Station Number 12,0%
+TEL-11,EL,ECR-00-CamJB-13,Comminucation Cable,CCTV Camera Station Number 13,0%
+TEL-11,EL,ECR-00-CamJB-14,Comminucation Cable,CCTV Camera Station Number 14,0%
+TEL-11,EL,ECR-00-CamJB-15,Comminucation Cable,CCTV Camera Station Number 15,0%
+TEL-11,EL,ECR-00-CamJB-16,Comminucation Cable,CCTV Camera Station Number 16,0%
+TEL-11,EL,ECR-00-CamJB-17,Comminucation Cable,CCTV Camera Station Number 17,0%
+TEL-11,EL,ECR-00-CamJB-18,Comminucation Cable,CCTV Camera Station Number 18,0%
 TEL-01,EL,ECR-01-PJB1,Comminucation Cable,Area-01 Paging Junction Box. 01-PJB1,0%
 TEL-01,EL,ECR-01-SP-01,Comminucation Cable,Area-01 Loudspeaker- 01-SP-01,0%
 TEL-01,EL,ECR-01-SP-02,Comminucation Cable,Area-01 Loudspeaker 01-SP-02,0%
@@ -11610,11 +11610,11 @@ TEL-12,EL,ECR-AH-TEL1,Comminucation Cable,Analyzer House Telephone- AH-TEL-01,DO
 TEL-12,EL,ECR-AH-TJB1,Comminucation Cable,Analyzer House Telephone Junction Box- AH-TJB1,DONE
 TEL-09,EL,ECR-CR-CEC-06,Comminucation Cable,Radio System Base Station Cabinet,0%
 TEL-09,EL,ECR-CR-CEC-07,Comminucation Cable,Telephone System PABX (in Owner Administration Building)- AD-PABX-01,0%
-TEL-09,EL,ECR-CR-CMR-01,Comminucation Cable,"Control Room CCTV Monitor 32"" CR-CMR-01 (Signal Cable)",DONE
-TEL-09,EL,ECR-CR-CMR-02,Comminucation Cable,"Control Room CCTV Monitor 65"" CR-CMR-02 (Signal Cable)",DONE
-TEL-09,EL,ECR-CR-CWS-01,Comminucation Cable,CCTV Work Station 1 (In Control Room) (Signal Cable),DONE
-TEL-09,EL,ECR-CR-CWS-02,Comminucation Cable,CCTV Work Station 2 (In Control Room) (Signal Cable),DONE
-TEL-09,EL,ECR-CR-KBD-01,Comminucation Cable,CCTV System Operator Console Keyboard (Signal Cable),DONE
+TEL-09,EL,ECR-CR-CMR-01,Comminucation Cable,"Control Room CCTV Monitor 32"" CR-CMR-01 (Signal Cable)",0%
+TEL-09,EL,ECR-CR-CMR-02,Comminucation Cable,"Control Room CCTV Monitor 65"" CR-CMR-02 (Signal Cable)",0%
+TEL-09,EL,ECR-CR-CWS-01,Comminucation Cable,CCTV Work Station 1 (In Control Room) (Signal Cable),0%
+TEL-09,EL,ECR-CR-CWS-02,Comminucation Cable,CCTV Work Station 2 (In Control Room) (Signal Cable),0%
+TEL-09,EL,ECR-CR-KBD-01,Comminucation Cable,CCTV System Operator Console Keyboard (Signal Cable),0%
 TEL-09,EL,ECR-CR-MCS-01-1,Comminucation Cable,Master Call Station Media Converter (in Control Room),0%
 TEL-09,EL,ECR-CR-MCS-01-2,Comminucation Cable,Paging Master Call Station (in Control Room)- CR-MCS-01,0%
 TEL-09,EL,ECR-CR-MTJB1,Comminucation Cable,Main Telephone Terminal Box (in Control Bldg. Auxilary Room)- CR-MTJB1,0%
@@ -11669,8 +11669,8 @@ DCS-01,IN,ESDMD-02-01,CABLE,CABLE(NA),0%
 DCS-01,IN,ESDMD-02-02,CABLE,CABLE(NA),0%
 DCS-01,IN,ESD-SC-CR-01,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
 DCS-01,IN,ESD-SC-CR-02,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
-120-07,EL,ESWB3A-01,LV Switchgear,LV Emergency Switchgear,DONE
-120-07,EL,ESWB3B-01,LV Switchgear,LV Emergency Switchgear,DONE
+120-07,EL,ESWB3A-01,LV Switchgear,LV Emergency Switchgear,0%
+120-07,EL,ESWB3B-01,LV Switchgear,LV Emergency Switchgear,0%
 120-13,EL,EX_AJB-P-001,Cathodic Protection,Anod Junction Box,DONE
 120-13,EL,EX_NBB-P-002,Cathodic Protection,Negative Bond Box,DONE
 120-13,EL,EX_NBB-P-003,Cathodic Protection,Negative Bond Box,DONE
@@ -14308,7 +14308,7 @@ DCS-01,IN,JNXX-PK7502-08,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 4000-08,IN,KT-80219D,Instrument(KT),Instrument(KT),DONE
 4000-08,IN,KT-80236A,Instrument(KT),Instrument(KT),DONE
 4000-08,IN,KT-80236B,Instrument(KT),Instrument(KT),DONE
-LS-02,EL,LAB-ELP-01,PANEL(EL),Emergency Lighting Panel,DONE
+LS-02,EL,LAB-ELP-01,PANEL(EL),Emergency Lighting Panel,0%
 LS-05,EL,LAB-ELP-01-01-L1-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-05,EL,LAB-ELP-01-01-L1-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-05,EL,LAB-ELP-01-01-L1-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
@@ -14351,8 +14351,8 @@ LS-05,EL,LAB-ELP-01-04-L3-10,Lighting Fixture,Fluorescent Fixture Exit- 1*8w Wit
 LS-05,EL,LAB-ELP-01-04-L3-11,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type|Safety Lights with Battery Backup,0%
 LS-05,EL,LAB-ELP-01-04-L3-12,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type|Safety Lights with Battery Backup,0%
 FGS-10,EL,LAB-FACP-01,PANEL(EL),Fire Alarm Control Panel,0%
-HVAC-03,EL,LAB-HDP-01,PANEL(EL),HVAC Distribution Panel,DONE
-LS-01,EL,LAB-LP-01,PANEL(EL),Normal Lighting Panel,DONE
+HVAC-03,EL,LAB-HDP-01,PANEL(EL),HVAC Distribution Panel,0%
+LS-01,EL,LAB-LP-01,PANEL(EL),Normal Lighting Panel,0%
 LS-05,EL,LAB-LP-01-01-L1-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-05,EL,LAB-LP-01-01-L1-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-05,EL,LAB-LP-01-01-L1-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
@@ -19364,8 +19364,8 @@ FGS-07,IN,SOV-105,Fire Fighting,Fire Fighting(SOV),0%
 120-10,EL,SS-CH-01,UPS & Battery,110V DC Battery Charger Panel ,0%
 120-10,EL,SS-CIS-01,UPS & Battery,110V DC Charger Battery Isolator Box,25%
 120-08,EL,SS-DG-5701,Diesel Generator,Diesel Generator,0%
-120-07,EL,SS-EDP-01,PANEL(EL),Emergency Distribution System,DONE
-LS-02,EL,SS-ELP-01(LS-02),PANEL(EL),Main Emergency Lighting Panel,DONE
+120-07,EL,SS-EDP-01,PANEL(EL),Emergency Distribution System,0%
+LS-02,EL,SS-ELP-01(LS-02),PANEL(EL),Main Emergency Lighting Panel,0%
 LS-03,EL,SS-ELP-01(LS-03),PANEL(EL),Main Emergency Lighting Panel,DONE
 LS-03,EL,SS-ELP-01-1-L1-01,Lighting Fixture,LED Luminaires Fixture 64w,DONE
 LS-03,EL,SS-ELP-01-1-L1-01-FJB,Lighting Cable,LED Luminaires Fixture 64w| WP,DONE
@@ -19473,11 +19473,11 @@ FGS-08,EL,SS-FACP-01,PANEL(EL),Fire Alarm Control Panel,DONE
 FGS-08,EL,SS-FAJB-01,FGS JB,Fire Alarm Junction Box,0%
 FGS-08,EL,SS-FAJB-02,FGS JB,Fire Alarm Junction Box,0%
 FGS-08,EL,SS-FECP-01,PANEL(EL),Fire Extinguishing Control Panel,DONE
-HVAC-01,EL,SS-HDP-01,PANEL(EL),HVAC Distribution Panel,DONE
+HVAC-01,EL,SS-HDP-01,PANEL(EL),HVAC Distribution Panel,0%
 TEL-08,EL,SS-IS-01,Telecom Device,Intercom Station Without Hood,DONE
 TEL-08,EL,SS-IS-02,Telecom Device,Intercom Station Without Hood,DONE
-HVAC-01,EL,SS-LCP-0030,PANEL(EL),HVAC Local Control Panel,DONE
-LS-01,EL,SS-LP-01,PANEL(EL),Normal Lighting Panel,DONE
+HVAC-01,EL,SS-LCP-0030,PANEL(EL),HVAC Local Control Panel,0%
+LS-01,EL,SS-LP-01,PANEL(EL),Normal Lighting Panel,0%
 LS-03,EL,SS-LP-01(LS-03),PANEL(EL),Normal Lighting Panel,DONE
 LS-03,EL,SS-LP-01-11-L1-01,Socket Outlet,Outlet 3-Pole- 230v|16A|WP,DONE
 LS-03,EL,SS-LP-01-11-L1-01-FJB,Lighting Cable,Outlet 3-Pole| 230v| 16A| WP,DONE
@@ -19782,13 +19782,13 @@ LS-03,EL,SS-LP-01-8-L3-13-FJB,Lighting Cable,Bulkhead Lighting Fixture| 30w| WP,
 LS-03,EL,SS-LP-01-8-L3-14,Lighting Fixture,Bulkhead Lighting Fixture| 30w| WP,DONE
 LS-03,EL,SS-LP-01-8-L3-14-FJB,Lighting Cable,Bulkhead Lighting Fixture| 30w| WP,DONE
 ES-01,EL,SS-L-PRO(ES-01),Lightning Protection,Ligtining Protection,DONE
-LS-01,EL,SS-MLP-01,PANEL(EL),Main Normal Lighting Panel,DONE
+LS-01,EL,SS-MLP-01,PANEL(EL),Main Normal Lighting Panel,0%
 120-16,EL,SS-NGR1A-01,Natural Ground Resistance,Neutral Grounding Resistor- SS-NGR1A-01,DONE
 120-16,EL,SS-NGR1B-01,Natural Ground Resistance,Neutral Grounding Resistor- SS-NGR1B-01,DONE
 120-12,EL,SS-PDCS-01,PANEL(EL),Power Distribution Control System,DONE
 TEL-08,EL,SS-PJB1,Paging Device,Paging Junction Box,DONE
 TEL-08,EL,SS-PJB2,Paging Device,Paging Junction Box,DONE
-LS-01,EL,SS-PRB-01,PANEL(EL),Photocell Relay Box,DONE
+LS-01,EL,SS-PRB-01,PANEL(EL),Photocell Relay Box,0%
 TEL-08,EL,SS-SP-01,Paging Device,Loud Speaker Wall Mounted- 15W,DONE
 TEL-08,EL,SS-SP-02,Paging Device,Loud Speaker Wall Mounted- 15W,DONE
 TEL-08,EL,SS-SP-03,Paging Device,Loud Speaker Wall Mounted- 15W,DONE
@@ -24489,7 +24489,7 @@ DCS-01,IN,XS-Synch-7502,SIGNAL,SIGNAL,DONE
 4000-08,IN,XZSL-8020(XZSL),Instrument(X),Instrument(XZSL),0%
 4000-08,IN,XZSL-8021(NA),CABLE,CABLE(NA),DONE
 4000-08,IN,XZSL-8021(XZSL),Instrument(X),Instrument(XZSL),0%
-LS-02,EL,YO-ELP-01,PANEL(EL),Emergency Lighting Panel,DONE
+LS-02,EL,YO-ELP-01,PANEL(EL),Emergency Lighting Panel,0%
 LS-05,EL,YO-ELP-01-01-L1-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-05,EL,YO-ELP-01-01-L1-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-05,EL,YO-ELP-01-01-L1-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
@@ -24522,7 +24522,7 @@ LS-05,EL,YO-ELP-01-04-L3-08,Lighting Fixture,Fluorescent Fixture 4*18w- Louver T
 LS-05,EL,YO-ELP-01-04-L3-09,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type|Safety Lights with Battery Backup,0%
 LS-05,EL,YO-ELP-01-04-L3-10,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
 LS-05,EL,YO-ELP-01-04-L3-11,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,0%
-LS-01,EL,YO-LP-01,PANEL(EL),Normal Lighting Panel,DONE
+LS-01,EL,YO-LP-01,PANEL(EL),Normal Lighting Panel,0%
 LS-05,EL,YO-LP-01-01-L1-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-05,EL,YO-LP-01-01-L1-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-05,EL,YO-LP-01-01-L1-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
