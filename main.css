@@ -172,10 +172,10 @@ body {
 }
 
 /* Original Gradient and Animation Styles */
-.gradient-form-a { background-color: #2c3e50; color: white; }
-.gradient-form-b { background-color: #34495e; color: white; }
-.gradient-form-c { background-color: #5D6D7E; color: white; }
-.gradient-form-d { background-color: #85929E; color: white; }
+.gradient-form-a, .gradient-form-b, .gradient-form-c, .gradient-form-d {
+    background: linear-gradient(145deg, #4A6985, #2C3E50);
+    color: white;
+}
 
 .gradient-form-a, .gradient-form-b, .gradient-form-c, .gradient-form-d {
     padding: 0.75rem 1rem !important;
@@ -292,4 +292,12 @@ body {
 #itemDetailsModal .table th,
 #itemDetailsModal .table td {
     white-space: nowrap;
+}
+
+.sticky-top-cards {
+  position: sticky;
+  top: 60px; /* Adjust this value based on the actual navbar height */
+  z-index: 1019; /* Just below the navbar's z-index (usually 1020) */
+  background-color: #f8f9fa; /* Match body background */
+  padding: 1rem 0; /* Add some padding to make it look good */
 }

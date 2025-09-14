@@ -16,10 +16,6 @@
             pending: 'rgba(255, 166, 0, 0.8)', // warning
             remaining: 'rgba(0, 146, 202, 0.8)' // info
         };
-const COLORS_ISSUES_CHARTJS = {
-    punch: 'rgba(255, 46, 99, 0.8)',   // danger
-    hold: 'rgba(155, 89, 182, 0.8)'    // purple
-};
 const ACTIVITIES_CSV_URL = "dbcsv/ACTIVITES.CSV";
         // Icon SVGs (simplified for direct use, could be more complex if needed)
         const ICONS = {
@@ -54,7 +50,6 @@ const ACTIVITIES_CSV_URL = "dbcsv/ACTIVITES.CSV";
 
         const chartInstances = {
             overview: null,
-            issues: null,
             disciplines: {}, // { disciplineName: chartInstance }
             systems: {}      // { systemOrSubId: chartInstance }
         };
@@ -1130,7 +1125,6 @@ function filterModalTable() {
 
         function renderCharts() {
             destroyChart(chartInstances.overview);
-            destroyChart(chartInstances.issues);
             Object.values(chartInstances.disciplines).forEach(destroyChart);
             chartInstances.disciplines = {};
             Object.values(chartInstances.systems).forEach(destroyChart);
@@ -1166,26 +1160,6 @@ function filterModalTable() {
                  overviewParent.insertAdjacentHTML('beforeend', '<div class="text-center text-muted small p-5">No data to display for General Status.</div>');
             } else {
                 chartInstances.overview = new Chart(overviewCtx, { type: 'doughnut', data: overviewChartData, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom' }, tooltip: { callbacks: { label: (context) => `${context.label}: ${context.formattedValue} (${Math.round(context.parsed / aggregatedStats.totalItems * 100)}%)`}}}} });
-            }
-
-            const issuesCanvas = document.getElementById('issuesChart');
-            const issuesParent = issuesCanvas.parentElement;
-            issuesParent.innerHTML = '<canvas id="issuesChart" role="img" aria-label="Issue distribution pie chart"></canvas>';
-            const issuesCtx = document.getElementById('issuesChart').getContext('2d');
-            const issuesChartData = {
-                labels: ['Punch', 'Hold Point'],
-                datasets: [{
-                    label: 'Issues Distribution',
-                    data: [aggregatedStats.punch, aggregatedStats.hold].filter(v=>v>=0),
-                    backgroundColor: [COLORS_ISSUES_CHARTJS.punch, COLORS_ISSUES_CHARTJS.hold],
-                    hoverOffset: 4
-                }]
-            };
-             if (aggregatedStats.punch === 0 && aggregatedStats.hold === 0) {
-                  issuesParent.insertAdjacentHTML('beforeend', '<div class="text-center text-muted small p-5">No issues data to display.</div>');
-            } else {
-                const totalIssues = aggregatedStats.punch + aggregatedStats.hold;
-                chartInstances.issues = new Chart(issuesCtx, { type: 'pie', data: issuesChartData, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom' }, tooltip: { callbacks: { label: (context) => `${context.label}: ${context.formattedValue} (${Math.round(context.parsed / totalIssues * 100)}%)`}}}} });
             }
         }
 

@@ -77,7 +77,7 @@
             <div id="errorMessage" class="alert alert-danger" role="alert" style="display: none;">Error loading data.</div>
             
             <!-- Row 1: FORM A-D Cards -->
-            <div class="row mb-4 g-4" id="summaryCardsRow2">
+            <div class="row mb-4 g-4 sticky-top-cards" id="summaryCardsRow2">
                 <!-- FORM cards will be injected here -->
             </div>
 
@@ -123,13 +123,9 @@
                     <div class="tab-content pt-3">
                         <div id="overviewChartsContainer" class="tab-pane fade show active chart-tab-content" role="tabpanel" aria-labelledby="overview-tab-btn">
                              <div class="row">
-                                <div class="col-lg-6 mb-3 mb-lg-0">
+                                <div class="col-lg-12 mb-3 mb-lg-0">
                                     <h6 class="text-muted mb-2 text-center fw-medium">General Status</h6>
                                     <div class="chart-container"><canvas id="overviewChart" role="img" aria-label="General status doughnut chart"></canvas></div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <h6 class="text-muted mb-2 text-center fw-medium">Issue Distribution</h6>
-                                    <div class="chart-container"><canvas id="issuesChart" role="img" aria-label="Issue distribution pie chart"></canvas></div>
                                 </div>
                             </div>
                         </div>
