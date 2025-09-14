@@ -289,14 +289,6 @@ body {
     font-size: 0.8rem;
 }
 
-.sticky-top-cards {
-  position: sticky;
-  top: 60px; /* Adjust this value based on the actual navbar height */
-  z-index: 1019; /* Just below the navbar's z-index (usually 1020) */
-  background-color: #f8f9fa; /* Match body background */
-  padding: 1rem 0; /* Add some padding to make it look good */
-}
-
 #itemDetailsModal .table th,
 #itemDetailsModal .table td {
     white-space: nowrap;
