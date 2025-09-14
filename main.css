@@ -111,7 +111,7 @@ body {
     color: #fff;
 }
 .tree-node.selected {
-    background-color: #0077B6;
+    background-color: #00adb5;
     color: #fff;
     font-weight: 600;
 }
@@ -172,10 +172,10 @@ body {
 }
 
 /* Original Gradient and Animation Styles */
-.gradient-form-a { background-color: #0077B6; color: white; }
-.gradient-form-b { background-color: #00B4D8; color: white; }
-.gradient-form-c { background-color: #483D8B; color: white; }
-.gradient-form-d { background-color: #6C757D; color: white; }
+.gradient-form-a { background-color: #0078D7; color: white; }
+.gradient-form-b { background-color: #00B294; color: white; }
+.gradient-form-c { background-color: #FF8000; color: white; }
+.gradient-form-d { background-color: #A200FF; color: white; }
 
 .gradient-form-a, .gradient-form-b, .gradient-form-c, .gradient-form-d {
     padding: 0.75rem 1rem !important;
@@ -223,8 +223,8 @@ body {
 
 .nav-tabs .nav-link.active {
     border-color: #dee2e6 #dee2e6 #fff;
-    border-bottom: 3px solid #0077B6 !important;
-    color: #0077B6 !important;
+    border-bottom: 3px solid #00adb5 !important;
+    color: #00adb5 !important;
 }
 .table th, .table td {
     white-space: nowrap;
@@ -289,15 +289,15 @@ body {
     font-size: 0.8rem;
 }
 
-#itemDetailsModal .table th,
-#itemDetailsModal .table td {
-    white-space: nowrap;
-}
-
 .sticky-top-cards {
   position: sticky;
   top: 60px; /* Adjust this value based on the actual navbar height */
   z-index: 1019; /* Just below the navbar's z-index (usually 1020) */
   background-color: #f8f9fa; /* Match body background */
   padding: 1rem 0; /* Add some padding to make it look good */
+}
+
+#itemDetailsModal .table th,
+#itemDetailsModal .table td {
+    white-space: nowrap;
 }
