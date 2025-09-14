@@ -203,7 +203,36 @@ function initModals() {
                 }
             }
         });
+
+        // Add event listener for modal filter inputs
+        document.getElementById('itemDetailsModal').addEventListener('keyup', function(e) {
+            if (e.target.tagName === 'INPUT' && e.target.closest('#modal-filter-row')) {
+                filterModalTable();
+            }
+        });
         }
+
+function filterModalTable() {
+    const tableBody = document.getElementById('itemDetailsTableBody');
+    const rows = tableBody.getElementsByTagName('tr');
+    const filters = Array.from(document.querySelectorAll('#modal-filter-row input')).map(input => input.value.toLowerCase());
+
+    for (const row of rows) {
+        let display = true;
+        const cells = row.getElementsByTagName('td');
+
+        for (let i = 0; i < filters.length; i++) {
+            if (filters[i] && cells[i]) {
+                const cellText = cells[i].textContent.toLowerCase();
+                if (!cellText.includes(filters[i])) {
+                    display = false;
+                    break;
+                }
+            }
+        }
+        row.style.display = display ? '' : 'none';
+    }
+}
 
         function handleDetailsClick(e) {
             let target = e.target;
@@ -477,41 +506,23 @@ function initModals() {
              displayedItemsInModal = items; // Store items being displayed
              currentModalDataType = dataType; // Store the type of data being displayed
 
-            // Update table headers based on data type
-            const theadRow = document.getElementById('itemDetailsModal').querySelector('thead tr');
-             if (dataType === 'items') {
-                 theadRow.innerHTML = `
-                    <th scope="col" style="width: 5%;">#</th>
-                    <th scope="col" style="width: 10%;">Subsystem</th>
-                    <th scope="col" style="width: 10%;">Discipline</th>
-                    <th scope="col" style="width: 10%;">Tag No</th>
-                    <th scope="col" style="width: 10%;">Type</th>
-                    <th scope="col" style="width: 35%;">Description</th>
-                    <th scope="col" style="width: 10%;">Status</th>
-                 `;
-             } else if (dataType === 'punch') {
-                 theadRow.innerHTML = `
-                     <th scope="col" style="width: 5%;">#</th>
-                     <th scope="col" style="width: 10%;">Subsystem</th>
-                     <th scope="col" style="width: 10%;">Discipline</th>
-                     <th scope="col" style="width: 10%;">Tag No</th>
-                     <th scope="col" style="width: 10%;">Type</th>
-                     <th scope="col" style="width: 10%;">Category</th>
-                     <th scope="col" style="width: 30%;">Description</th>
-                     <th scope="col" style="width: 15%;">PL No</th>
-                 `;
-             } else if (dataType === 'hold') { // Add headers for hold points
-                 theadRow.innerHTML = `
-                     <th scope="col" style="width: 5%;">#</th>
-                     <th scope="col" style="width: 10%;">Subsystem</th>
-                     <th scope="col" style="width: 10%;">Discipline</th>
-                     <th scope="col" style="width: 10%;">Tag No</th>
-                     <th scope="col" style="width: 10%;">Type</th>
-                     <th scope="col" style="width: 10%;">HP Priority</th>
-                     <th scope="col" style="width: 30%;">HP Description</th>
-                     <th scope="col" style="width: 15%;">HP Location</th>
-                 `;
-             }
+            // Define headers based on data type
+            let headers = [];
+            if (dataType === 'items') {
+                headers = ['#', 'Subsystem', 'Discipline', 'Tag No', 'Type', 'Description', 'Status'];
+            } else if (dataType === 'punch') {
+                headers = ['#', 'Subsystem', 'Discipline', 'Tag No', 'Type', 'Category', 'Description', 'PL No'];
+            } else if (dataType === 'hold') {
+                headers = ['#', 'Subsystem', 'Discipline', 'Tag No', 'Type', 'HP Priority', 'HP Description', 'HP Location'];
+            }
+
+            // Update table headers
+            const theadRow = document.getElementById('itemDetailsModalHeader');
+            theadRow.innerHTML = headers.map(h => `<th scope="col">${h}</th>`).join('');
+
+            // Update filter row
+            const filterRow = document.getElementById('modal-filter-row');
+            filterRow.innerHTML = headers.map((h, i) => `<th><input type="text" class="form-control form-control-sm" placeholder="Filter..." data-col-index="${i}"></th>`).join('');
 
 
             if (items.length === 0) {
