@@ -288,3 +288,8 @@ body {
     padding: 0.25rem 0.5rem;
     font-size: 0.8rem;
 }
+
+#itemDetailsModal .table th,
+#itemDetailsModal .table td {
+    white-space: nowrap;
+}
