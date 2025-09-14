@@ -1,10 +1,10 @@
 ﻿SD_System,SD_Sub_System,SD_System_Name,SD_Subsystem_Name,discipline,TOTAL ITEM,TOTAL DONE,TOTAL PENDING,TOTAL PUNCH,TOTAL CLEAR PUNCH,TOTAL NOT CLEAR PUNCH,TOTAL HOLD POINT
-1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,46,0,100,32,68,34
+1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,50,0,100,32,68,34
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,23,13,0,53,17,36,27
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,1,0,29,0,29,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,0,0,6,0,6,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,PI,12,10,0,24,18,6,3
-1000,1000-02,Gas Preparation,Fuel Gas & Distribution,IN,176,18,0,74,23,51,11
+1000,1000-02,Gas Preparation,Fuel Gas & Distribution,IN,176,24,0,74,23,51,11
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MES,13,2,0,41,2,39,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,0,0,0,0,0,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,2,0,12,0,12,0
@@ -38,7 +38,7 @@
 2000,2000-01,Reforming,Pre Reforming,IN,92,12,0,18,2,16,11
 2000,2000-02,Reforming,Primary Reforming,PI,9,6,0,24,7,17,1
 2000,2000-02,Reforming,Primary Reforming,MES,8,0,0,0,0,0,0
-2000,2000-02,Reforming,Primary Reforming,IN,873,107,0,156,45,111,77
+2000,2000-02,Reforming,Primary Reforming,IN,873,120,0,156,45,111,77
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,24,10,0,45,13,32,79
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,363,77,0,185,53,132,50
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,MES,6,2,0,0,0,0,2
@@ -65,7 +65,7 @@
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,110,0,109,49,60,99
 3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,2,0,20,0,20,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,11,1,10,2
-3000,3000-04,Compression and Synthesis,Hydrogen System,IN,176,7,0,15,4,11,5
+3000,3000-04,Compression and Synthesis,Hydrogen System,IN,176,10,0,15,4,11,5
 3000,3000-04,Compression and Synthesis,Hydrogen System,MER,1,0,0,0,0,0,0
 4000,4000-01,Utility,Nitrogen,PI,20,20,0,47,28,19,64
 4000,4000-01,Utility,Nitrogen,IN,14,14,0,0,0,0,6
@@ -149,7 +149,7 @@ BLD,BLD-05,Building,Diesel Room,CV,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,PI,3,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,CV,14,14,0,31,2,29,0
 BLD,BLD-07,Building,Analyzer House,CV,8,8,0,19,0,19,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,1144,0,1886,639,1247,805
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,1148,0,1886,639,1247,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2191,2190,1,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,188,0,414,0,414,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,18,13,5,0
