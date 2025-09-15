@@ -78,7 +78,7 @@
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,4,0,6,0,6,3
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,0,0,0,0,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,0,6,0
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,47,34,0,155,92,63,19
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,47,34,0,159,98,61,19
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,385,0,46,17,29,384
 4000,4000-05,Utility,Blow Down,PI,24,14,0,37,15,22,13
 4000,4000-05,Utility,Blow Down,MES,4,2,0,14,0,14,0
@@ -91,7 +91,7 @@
 4000,4000-07,Utility,Plant Air,PI,10,10,0,17,4,13,30
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,0,8,0,8,0
-4000,4000-08,Utility,Cooling Water,PI,282,73,0,586,280,306,37
+4000,4000-08,Utility,Cooling Water,PI,282,76,0,586,283,303,37
 4000,4000-08,Utility,Cooling Water,IN,745,534,0,67,18,49,533
 4000,4000-08,Utility,Cooling Water,EL,6,2,0,12,0,12,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,26,0,0,0,0,26
@@ -140,7 +140,7 @@
 7000,7000-01,Flare,Flare System (In Site),MES,2,1,0,8,0,8,0
 7000,7000-01,Flare,Flare System (In Site),PI,49,18,0,97,25,72,77
 BLD,BLD-01,Building,Substation,PI,4,4,0,6,3,3,9
-BLD,BLD-01,Building,Substation,CV,14,14,0,63,5,58,0
+BLD,BLD-01,Building,Substation,CV,14,14,0,63,6,57,0
 BLD,BLD-02,Building,Control Building,CV,8,8,0,0,0,0,0
 BLD,BLD-02,Building,Control Building,PI,1,1,0,6,5,1,1
 BLD,BLD-03,Building,Laboratory,CV,14,0,0,0,0,0,0
