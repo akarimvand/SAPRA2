@@ -62,6 +62,14 @@
                 </button>
                 <h5 class="mb-0 ms-2 ms-lg-0" id="dashboardTitle">Dashboard</h5>
                 <div class="ms-auto d-flex align-items-center">
+                    <div class="theme-switch-wrapper me-3">
+                        <i class="bi bi-sun-fill"></i>
+                        <label class="theme-switch" for="theme-switch-checkbox">
+                            <input type="checkbox" id="theme-switch-checkbox" />
+                            <span class="slider round"></span>
+                        </label>
+                        <i class="bi bi-moon-fill"></i>
+                    </div>
                     <button class="btn btn-success btn-sm me-2 d-flex align-items-center" id="exportExcelBtn">
                         <i class="bi bi-file-earmark-excel me-1"></i> Export to Excel
                     </button>
@@ -198,6 +206,9 @@
                     <button type="button" class="btn btn-success btn-sm me-auto" id="exportDetailsExcelBtn">
                          <i class="bi bi-file-earmark-excel me-1"></i> Export Visible to Excel
                      </button>
+                    <div id="itemDetailsPagination" class="pagination-container">
+                        <!-- Pagination controls will be injected here by JS -->
+                    </div>
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
