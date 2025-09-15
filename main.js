@@ -52,31 +52,32 @@ let bootstrapTabObjects = {};
 let itemDetailsModal;
 let activitiesModal;
 
-// --- DOM Elements ---
-const DOMElements = {
-    sidebar: document.getElementById('sidebar'),
-    sidebarToggle: document.getElementById('sidebarToggle'),
-    sidebarOverlay: document.getElementById('sidebarOverlay'),
-    mainContent: document.getElementById('mainContent'),
-    treeView: document.getElementById('treeView'),
-    searchInput: document.getElementById('searchInput'),
-    dashboardTitle: document.getElementById('dashboardTitle'),
-    totalItemsCounter: document.getElementById('totalItemsCounter'),
-    summaryCardsRow1: document.getElementById('summaryCardsRow1'),
-    summaryCardsRow2: document.getElementById('summaryCardsRow2'),
-    chartTabs: document.getElementById('chartTabs'),
-    overviewChartsContainer: document.getElementById('overviewChartsContainer'),
-    disciplineChartsContainer: document.getElementById('disciplineChartsContainer'),
-    systemChartsContainer: document.getElementById('systemChartsContainer'),
-    dataTableHead: document.getElementById('dataTableHead'),
-    dataTableBody: document.getElementById('dataTableBody'),
-    exportExcelBtn: document.getElementById('exportExcelBtn'),
-    errorMessage: document.getElementById('errorMessage'),
-    itemDetailsPagination: document.getElementById('itemDetailsPagination'),
-};
+let DOMElements = {};
 
 // --- Initialization ---
 document.addEventListener('DOMContentLoaded', () => {
+    DOMElements = {
+        sidebar: document.getElementById('sidebar'),
+        sidebarToggle: document.getElementById('sidebarToggle'),
+        sidebarOverlay: document.getElementById('sidebarOverlay'),
+        mainContent: document.getElementById('mainContent'),
+        treeView: document.getElementById('treeView'),
+        searchInput: document.getElementById('searchInput'),
+        dashboardTitle: document.getElementById('dashboardTitle'),
+        totalItemsCounter: document.getElementById('totalItemsCounter'),
+        summaryCardsRow1: document.getElementById('summaryCardsRow1'),
+        summaryCardsRow2: document.getElementById('summaryCardsRow2'),
+        chartTabs: document.getElementById('chartTabs'),
+        overviewChartsContainer: document.getElementById('overviewChartsContainer'),
+        disciplineChartsContainer: document.getElementById('disciplineChartsContainer'),
+        systemChartsContainer: document.getElementById('systemChartsContainer'),
+        dataTableHead: document.getElementById('dataTableHead'),
+        dataTableBody: document.getElementById('dataTableBody'),
+        exportExcelBtn: document.getElementById('exportExcelBtn'),
+        errorMessage: document.getElementById('errorMessage'),
+        itemDetailsPagination: document.getElementById('itemDetailsPagination'),
+    };
+
     const savedTheme = localStorage.getItem('sapraTheme') || 'light';
     setTheme(savedTheme);
     initEventListeners();
