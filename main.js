@@ -583,7 +583,7 @@ function filterModalTable() {
 
         function filterHOSItems(statusType, dataType) {
             // Load HOS.CSV data
-            fetch('https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/HOS.CSV')
+            fetch('https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/dbcsv/HOS.CSV')
                 .then(response => response.text())
                 .then(csvText => {
                     Papa.parse(csvText, {
