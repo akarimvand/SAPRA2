@@ -62,9 +62,18 @@
                 </button>
                 <h5 class="mb-0 ms-2 ms-lg-0" id="dashboardTitle">Dashboard</h5>
                 <div class="ms-auto d-flex align-items-center">
-                    <button class="btn btn-success btn-sm me-2 d-flex align-items-center" id="exportExcelBtn">
-                        <i class="bi bi-file-earmark-excel me-1"></i> Export to Excel
-                    </button>
+                    <div class="dropdown me-2">
+                        <button class="btn btn-info btn-sm dropdown-toggle d-flex align-items-center" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-gear-fill me-1"></i> Actions
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#" id="exportExcelBtn">
+                                    <i class="bi bi-file-earmark-excel me-2"></i>Export to Excel
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                     <span class="badge bg-primary d-flex align-items-center">
                         <i class="bi bi-box-seam me-1"></i>
                         <span id="totalItemsCounter">0</span>&nbsp;items
