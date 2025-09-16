@@ -1,30 +1,63 @@
 Sub_System,Subsystem_Name,STEP,UNIT,PERSON,RECEIVED_DATE,DESCRIPTION
-4000-11,Instrument Air,FORM A,PRECOM,دکتر قلی نژاد,8/10/2024,بررسی
-4000-11,Instrument Air,FORM A,TPA,مهندس شاه پرست,8/11/2025,پانچ گذاری
-4000-11,Instrument Air,FORM A,OWNER,مهندس دیندارلو,8/13/2025,بررسی
-4000-11,Instrument Air,FORM B,CONTRACTOR,مهندس هنرجو,8/15/2025,دریافت جهت بررسی و رفع پانچ
-4000-11,Instrument Air,FORM C,PRECOM,دکتر قلی نژاد,8/19/2025,بررسی جهت تائید
-4000-11,Instrument Air,FORM C,TPA,مهندس شاه پرست,8/20/2025,بررسی جهت تائید رفع پانچ
-4000-11,Instrument Air,FORM C,OWNER,مهندس دیندارلو,8/23/2025,بررسی جهت تائید
-4000-11,Instrument Air,FORM D,PRECOM,دکتر قلی نژاد,8/27/2025,تائید و صدور فرم D
-4000-01,Nitrogen,FORM A,PRECOM,دکتر قلی نژاد,8/10/2025,بررسی
-4000-01,Nitrogen,FORM A,TPA,مهندس شاه پرست,8/11/2025,پانچ گذاری
-4000-01,Nitrogen,FORM A,OWNER,مهندس دیندارلو,8/13/2025,بررسی
-4000-01,Nitrogen,FORM B,CONTRACTOR,مهندس هنرجو,8/15/2025,دریافت جهت بررسی و رفع پانچ
-4000-01,Nitrogen,FORM C,PRECOM,دکتر قلی نژاد,8/23/2025,بررسی جهت تائید
-120-16,MV Transformer,FORM A,PRECOM,دکتر قلی نژاد,8/10/2025,بررسی
-120-16,MV Transformer,FORM A,TPA,مهندس شاه پرست,8/11/2025,پانچ گذاری
-120-16,MV Transformer,FORM A,OWNER,مهندس دیندارلو,8/13/2025,بررسی
-120-16,MV Transformer,FORM B,CONTRACTOR,مهندس هنرجو,8/15/2025,دریافت جهت بررسی و رفع پانچ
-120-16,MV Transformer,FORM C,PRECOM,دکتر قلی نژاد,8/19/2025,بررسی جهت تائید
-120-16,MV Transformer,FORM C,TPA,مهندس شاه پرست,8/20/2025,بررسی جهت تائید رفع پانچ
-120-16,MV Transformer,FORM C,OWNER,مهندس دیندارلو,8/23/2025,بررسی جهت تائید
-120-16,MV Transformer,FORM D,PRECOM,دکتر قلی نژاد,8/27/2025,تائید و صدور فرم D
-ES-03,Earthing  System for Laboratory,FORM A,PRECOM,دکتر قلی نژاد,8/10/2025,بررسی
-ES-03,Earthing  System for Laboratory,FORM A,TPA,مهندس شاه پرست,8/11/2025,پانچ گذاری
-ES-03,Earthing  System for Laboratory,FORM A,OWNER,مهندس دیندارلو,8/13/2025,بررسی
-ES-03,Earthing  System for Laboratory,FORM B,CONTRACTOR,مهندس هنرجو,8/15/2025,دریافت جهت بررسی و رفع پانچ
-ES-03,Earthing  System for Laboratory,FORM C,PRECOM,دکتر قلی نژاد,8/19/2025,بررسی جهت تائید
-ES-03,Earthing  System for Laboratory,FORM C,TPA,مهندس شاه پرست,8/20/2025,بررسی جهت تائید رفع پانچ
-ES-03,Earthing  System for Laboratory,FORM C,OWNER,مهندس دیندارلو,8/23/2025,بررسی جهت تائید
-ES-03,Earthing  System for Laboratory,FORM D,PRECOM,دکتر قلی نژاد,8/27/2025,تائید و صدور فرم D
+120-13,Cathodic Protection System,FORM A,PRECOM,دکتر قلی نژاد,01-Sep-25,بررسی جهت تائید 
+120-13,Cathodic Protection System,FORM A,TPA,مهندس شاه پرست,02-Sep-25,پانچ گذاری
+120-13,Cathodic Protection System,FORM B,CONTRACTOR,مهندس هنرجو,09-Sep-25,دریافت جهت بررسی و رفع پانچ
+120-15,Capacitor Bank,FORM A,PRECOM,دکتر قلی نژاد,02-Sep-25,بررسی جهت تائید 
+120-15,Capacitor Bank,FORM A,TPA,مهندس شاه پرست,03-Sep-25,پانچ گذاری
+120-15,Capacitor Bank,FORM B,CONTRACTOR,مهندس هنرجو,09-Sep-25,دریافت جهت بررسی و رفع پانچ
+120-16,MV Transformer,FORM A,PRECOM,دکتر قلی نژاد,10-Jun-25,بررسی جهت تائید 
+120-16,MV Transformer,FORM A,TPA,مهندس شاه پرست,11-Jun-25,پانچ گذاری
+120-16,MV Transformer,FORM B,CONTRACTOR,مهندس هنرجو,26-Jun-25,دریافت جهت بررسی و رفع پانچ
+120-17,LV Transformer,FORM A,PRECOM,دکتر قلی نژاد,10-Jun-25,بررسی جهت تائید 
+120-17,LV Transformer,FORM A,TPA,مهندس شاه پرست,11-Jun-25,پانچ گذاری
+120-17,LV Transformer,FORM B,CONTRACTOR,مهندس هنرجو,26-Jun-25,دریافت جهت بررسی و رفع پانچ
+120-18,E/I Cabinet,FORM A,PRECOM,دکتر قلی نژاد,27-Aug-25,بررسی جهت تائید 
+120-18,E/I Cabinet,FORM A,TPA,مهندس شاه پرست,28-Aug-25,پانچ گذاری
+120-18,E/I Cabinet,FORM B,CONTRACTOR,مهندس هنرجو,09-Sep-25,دریافت جهت بررسی و رفع پانچ
+4000-01,Nitrogen,FORM A,PRECOM,دکتر قلی نژاد,05-Sep-25,بررسی جهت تائید 
+4000-01,Nitrogen,FORM A,TPA,مهندس نیشکر فر,06-Sep-25,پانچ گذاری
+4000-07,Plant Air,FORM A,PRECOM,دکتر قلی نژاد,28-Jul-25,بررسی جهت تائید 
+4000-07,Plant Air,FORM A,TPA,مهندس نیشکر فر,29-Jul-25,پانچ گذاری
+4000-11,Instrument Air,FORM A,PRECOM,دکتر قلی نژاد,09-Jun-25,بررسی جهت تائید 
+4000-11,Instrument Air,FORM A,TPA,مهندس نیشکر فر,10-Jun-25,پانچ گذاری
+4000-11,Instrument Air,FORM B,CONTRACTOR,مهندس هنرجو,04-Sep-25,دریافت جهت بررسی و رفع پانچ
+BLD-01,Substation,FORM A,PRECOM,دکتر قلی نژاد,28-Jul-25,بررسی جهت تائید 
+BLD-01,Substation,FORM A,OWNER,مهندس رضوی,29-Jul-25,پانچ گذاری
+BLD-01,Substation,FORM B,CONTRACTOR,مهندس هنرجو,04-Sep-25,دریافت جهت بررسی و رفع پانچ
+BLD-02,Control Building,FORM A,PRECOM,دکتر قلی نژاد,17-Jul-25,بررسی جهت تائید 
+BLD-02,Control Building,FORM A,OWNER,مهندس رضوی,18-Jul-25,پانچ گذاری
+BLD-02,Control Building,FORM B,CONTRACTOR,مهندس هنرجو,04-Sep-25,دریافت جهت بررسی و رفع پانچ
+BLD-04,Security Building,FORM A,PRECOM,دکتر قلی نژاد,30-Jul-25,بررسی جهت تائید 
+BLD-04,Security Building,FORM A,OWNER,مهندس رضوی,31-Jul-25,پانچ گذاری
+BLD-06,Warehouse Building,FORM A,PRECOM,دکتر قلی نژاد,02-Aug-25,بررسی جهت تائید 
+BLD-06,Warehouse Building,FORM A,OWNER,مهندس رضوی,03-Aug-25,پانچ گذاری
+BLD-07,Analyzer House,FORM A,PRECOM,دکتر قلی نژاد,30-Jul-25,بررسی جهت تائید 
+BLD-07,Analyzer House,FORM A,OWNER,مهندس رضوی,31-Jul-25,پانچ گذاری
+BLD-07,Analyzer House,FORM B,CONTRACTOR,مهندس هنرجو,04-Sep-25,دریافت جهت بررسی و رفع پانچ
+ES-01,Earthing & Roof Lightning System for Substation,FORM A,PRECOM,دکتر قلی نژاد,02-Aug-25,بررسی جهت تائید 
+ES-01,Earthing & Roof Lightning System for Substation,FORM A,TPA,مهندس شاه پرست,03-Aug-25,پانچ گذاری
+ES-01,Earthing & Roof Lightning System for Substation,FORM B,CONTRACTOR,مهندس هنرجو,19-Aug-25,دریافت جهت بررسی و رفع پانچ
+ES-03,Earthing & Roof Lightning System for Laboratory & Yard Office,FORM A,PRECOM,دکتر قلی نژاد,26-Aug-25,بررسی جهت تائید 
+ES-03,Earthing & Roof Lightning System for Laboratory & Yard Office,FORM A,TPA,مهندس شاه پرست,27-Aug-25,پانچ گذاری
+ES-03,Earthing & Roof Lightning System for Laboratory & Yard Office,FORM B,CONTRACTOR,مهندس هنرجو,09-Sep-25,دریافت جهت بررسی و رفع پانچ
+ES-04,Earthing & Roof Lightning System for Analyzer House,FORM A,PRECOM,دکتر قلی نژاد,05-Aug-25,بررسی جهت تائید 
+ES-04,Earthing & Roof Lightning System for Analyzer House,FORM A,TPA,مهندس شاه پرست,06-Aug-25,پانچ گذاری
+ES-04,Earthing & Roof Lightning System for Analyzer House,FORM B,CONTRACTOR,مهندس هنرجو,19-Aug-25,دریافت جهت بررسی و رفع پانچ
+ES-04,Earthing & Roof Lightning System for Analyzer House,FORM C,PRECOM,دکتر قلی نژاد,07-Sep-25,بررسی جهت تائید نهایی
+ES-05,Earthing & Roof Lightning System for Warehouse,FORM A,PRECOM,دکتر قلی نژاد,05-Aug-25,بررسی جهت تائید 
+ES-05,Earthing & Roof Lightning System for Warehouse,FORM A,TPA,مهندس شاه پرست,06-Aug-25,پانچ گذاری
+ES-05,Earthing & Roof Lightning System for Warehouse,FORM B,CONTRACTOR,مهندس هنرجو,19-Aug-25,دریافت جهت بررسی و رفع پانچ
+ES-11,Earthing System for Area-07,FORM A,PRECOM,دکتر قلی نژاد,14-Sep-25,بررسی جهت تائید 
+ES-11,Earthing System for Area-07,FORM A,TPA,مهندس شاه پرست,15-Sep-25,پانچ گذاری
+LS-03,Lighting System for Substation,FORM A,PRECOM,دکتر قلی نژاد,02-Aug-25,بررسی جهت تائید 
+LS-03,Lighting System for Substation,FORM A,TPA,مهندس شاه پرست,03-Aug-25,پانچ گذاری
+LS-03,Lighting System for Substation,FORM B,CONTRACTOR,مهندس هنرجو,09-Sep-25,دریافت جهت بررسی و رفع پانچ
+LS-14,Lighting System for Analyzer House,FORM A,PRECOM,دکتر قلی نژاد,05-Aug-25,بررسی جهت تائید 
+LS-14,Lighting System for Analyzer House,FORM A,TPA,مهندس شاه پرست,06-Aug-25,پانچ گذاری
+LS-14,Lighting System for Analyzer House,FORM B,CONTRACTOR,مهندس هنرجو,09-Sep-25,دریافت جهت بررسی و رفع پانچ
+TEL-08,Telecom System for Substation,FORM A,PRECOM,دکتر قلی نژاد,08-Aug-25,بررسی جهت تائید 
+TEL-08,Telecom System for Substation,FORM A,TPA,مهندس شاه پرست,09-Aug-25,پانچ گذاری
+TEL-08,Telecom System for Substation,FORM B,CONTRACTOR,مهندس هنرجو,09-Sep-25,دریافت جهت بررسی و رفع پانچ
+TEL-12,Telecom System for Analyzer House,FORM A,PRECOM,دکتر قلی نژاد,08-Aug-25,بررسی جهت تائید 
+TEL-12,Telecom System for Analyzer House,FORM A,TPA,مهندس شاه پرست,09-Aug-25,پانچ گذاری
+TEL-12,Telecom System for Analyzer House,FORM B,CONTRACTOR,مهندس هنرجو,09-Sep-25,دریافت جهت بررسی و رفع پانچ
