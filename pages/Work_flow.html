@@ -720,7 +720,7 @@
         const fetchData = async () => {
           try {
             loading.value = true;
-            const response = await axios.get('https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/TRANS.CSV');
+            const response = await axios.get('https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/dbcsv/TRANS.CSV');
             const parsedData = Papa.parse(response.data, {
               header: true,
               skipEmptyLines: true
