@@ -1462,7 +1462,7 @@ function filterModalTable() {
                 ];
 
                 for (const file of csvFiles) {
-                    const response = await fetch(`dbcsv/${file}`);
+                    const response = await fetch(`https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/dbcsv/${file}`);
                     if (!response.ok) {
                         console.error(`Failed to fetch ${file}`);
                         continue; // Skip this file and continue with the next
