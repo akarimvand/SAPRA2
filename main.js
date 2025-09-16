@@ -1447,23 +1447,65 @@ function filterModalTable() {
             }
         }
 
-        function handleDownloadAll() {
-            const csvFiles = [
-                'ACTIVITES.CSV', 'DATA.CSV', 'HOLD_POINT.CSV',
-                'HOS.CSV', 'ITEMS.CSV', 'PUNCH.CSV', 'TRANS.CSV'
-            ];
-            const baseUrl = 'https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/dbcsv/';
+        async function handleDownloadAll() {
+            // 1. Check if JSZip is available
+            if (typeof JSZip === 'undefined') {
+                alert('A required library (JSZip) could not be loaded. Please check your internet connection or contact support.');
+                console.error('JSZip library is not defined.');
+                return;
+            }
 
-            csvFiles.forEach((file, index) => {
-                setTimeout(() => {
-                    const link = document.createElement('a');
-                    link.href = baseUrl + file;
-                    link.download = file; // This attribute suggests the browser to download the file
-                    document.body.appendChild(link);
-                    link.click();
-                    document.body.removeChild(link);
-                }, index * 500); // 500ms delay between each download
-            });
+            const loadingModal = new bootstrap.Modal(document.getElementById('loadingModal'), {});
+            const loadingModalLabel = document.getElementById('loadingModalLabel');
+            const originalLabel = loadingModalLabel.textContent;
+
+            try {
+                loadingModalLabel.textContent = 'Downloading files (0/7)...';
+                loadingModal.show();
+
+                const zip = new JSZip();
+                const csvFiles = [
+                    'ACTIVITES.CSV', 'DATA.CSV', 'HOLD_POINT.CSV',
+                    'HOS.CSV', 'ITEMS.CSV', 'PUNCH.CSV', 'TRANS.CSV'
+                ];
+                const baseUrl = 'https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/dbcsv/';
+
+                // 2. Fetch files
+                for (let i = 0; i < csvFiles.length; i++) {
+                    const file = csvFiles[i];
+                    loadingModalLabel.textContent = `Downloading files (${i + 1}/7)...`;
+                    const response = await fetch(baseUrl + file);
+                    if (!response.ok) {
+                        throw new Error(`Failed to fetch ${file}. Status: ${response.statusText}`);
+                    }
+                    const content = await response.blob();
+                    zip.file(file, content);
+                }
+
+                // 3. Generate zip file
+                loadingModalLabel.textContent = 'Creating zip file...';
+                const zipContent = await zip.generateAsync({ type: 'blob' });
+
+                // 4. Trigger download
+                const currentDate = new Date().toISOString().split('T')[0];
+                const fileName = `SAPRA_All_Data_${currentDate}.zip`;
+
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(zipContent);
+                link.download = fileName;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                URL.revokeObjectURL(link.href);
+
+            } catch (error) {
+                console.error("An error occurred during the download process:", error);
+                alert(`An error occurred: ${error.message}`);
+            } finally {
+                // 5. Hide modal
+                loadingModalLabel.textContent = originalLabel;
+                loadingModal.hide();
+            }
         }
 
         // --- Optimized Punch Items Export ---
