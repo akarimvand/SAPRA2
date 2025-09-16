@@ -76,6 +76,9 @@ const ACTIVITIES_CSV_URL = "dbcsv/ACTIVITES.CSV";
             dataTableBody: document.getElementById('dataTableBody'),
             exportExcelBtn: document.getElementById('exportExcelBtn'),
             errorMessage: document.getElementById('errorMessage'),
+            reportsBtn: document.getElementById('reportsBtn'),
+            downloadAllBtn: document.getElementById('downloadAllBtn'),
+            exitBtn: document.getElementById('exitBtn'),
         };
 
 
@@ -138,6 +141,9 @@ function initModals() {
 
 
             DOMElements.exportExcelBtn.addEventListener('click', handleExport);
+            DOMElements.reportsBtn.addEventListener('click', () => alert('Coming soon'));
+            DOMElements.exitBtn.addEventListener('click', () => { window.location.href = 'index.html'; });
+            DOMElements.downloadAllBtn.addEventListener('click', handleDownloadAll);
 
             DOMElements.chartTabs.addEventListener('click', (e) => {
                 const button = e.target.closest('button[data-bs-toggle="tab"]');
@@ -1438,6 +1444,52 @@ function filterModalTable() {
                 }
             } else {
                  alert("No data has been loaded yet to export.");
+            }
+        }
+
+        async function handleDownloadAll() {
+            const loadingModal = new bootstrap.Modal(document.getElementById('loadingModal'), {});
+            const loadingModalLabel = document.getElementById('loadingModalLabel');
+            const originalLabel = loadingModalLabel.textContent;
+            loadingModalLabel.textContent = 'Zipping files...';
+            loadingModal.show();
+
+            try {
+                const zip = new JSZip();
+                const csvFiles = [
+                    'ACTIVITES.CSV', 'DATA.CSV', 'HOLD_POINT.CSV',
+                    'HOS.CSV', 'ITEMS.CSV', 'PUNCH.CSV', 'TRANS.CSV'
+                ];
+
+                for (const file of csvFiles) {
+                    const response = await fetch(`dbcsv/${file}`);
+                    if (!response.ok) {
+                        console.error(`Failed to fetch ${file}`);
+                        continue; // Skip this file and continue with the next
+                    }
+                    const content = await response.blob();
+                    zip.file(file, content);
+                }
+
+                const zipContent = await zip.generateAsync({ type: 'blob' });
+                const currentDate = new Date().toISOString().split('T')[0];
+                const fileName = `SAPRA_All_Data_${currentDate}.zip`;
+
+                // Trigger download
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(zipContent);
+                link.download = fileName;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                URL.revokeObjectURL(link.href);
+
+            } catch (error) {
+                console.error("Error creating zip file:", error);
+                alert("An error occurred while creating the zip file.");
+            } finally {
+                loadingModalLabel.textContent = originalLabel; // Restore original text
+                loadingModal.hide();
             }
         }
 
