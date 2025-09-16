@@ -141,7 +141,6 @@ function initModals() {
 
 
             DOMElements.exportExcelBtn.addEventListener('click', handleExport);
-            DOMElements.reportsBtn.addEventListener('click', () => alert('Coming soon'));
             DOMElements.exitBtn.addEventListener('click', () => { window.location.href = 'index.html'; });
             DOMElements.downloadAllBtn.addEventListener('click', handleDownloadAll);
 
