@@ -33639,26 +33639,26 @@ MER,P-0001B,Vertical Centrifugal Pump,0
 MER,P-0001B,Mechanical Metering Pump,0
 MER,P-0001B,Steam Turbine Drive,0
 MER,P-0001B,Piping to Eq. Report(MER),0
-MER,P-2001A,Final Alignment Report,0
+MER,P-2001A,Final Alignment Report,1
 MER,P-2001A,Oil Flushing Detail,0
 MER,P-2001A,Oil Flushing Activity,0
 MER,P-2001A,Lube Oil Package,0
 MER,P-2001A,Rotary Pump,0
 MER,P-2001A,Reciprocating Pump,0
-MER,P-2001A,Vertical Centrifugal Pump,0
+MER,P-2001A,Vertical Centrifugal Pump,1
 MER,P-2001A,Mechanical Metering Pump,0
 MER,P-2001A,Steam Turbine Drive,0
-MER,P-2001A,Piping to Eq. Report(MER),0
-MER,P-2001B,Final Alignment Report,0
+MER,P-2001A,Piping to Eq. Report(MER),1
+MER,P-2001B,Final Alignment Report,1
 MER,P-2001B,Oil Flushing Detail,0
 MER,P-2001B,Oil Flushing Activity,0
 MER,P-2001B,Lube Oil Package,0
 MER,P-2001B,Rotary Pump,0
 MER,P-2001B,Reciprocating Pump,0
-MER,P-2001B,Vertical Centrifugal Pump,0
+MER,P-2001B,Vertical Centrifugal Pump,1
 MER,P-2001B,Mechanical Metering Pump,0
 MER,P-2001B,Steam Turbine Drive,0
-MER,P-2001B,Piping to Eq. Report(MER),0
+MER,P-2001B,Piping to Eq. Report(MER),1
 MER,P-2002A,Final Alignment Report,0
 MER,P-2002A,Oil Flushing Detail,0
 MER,P-2002A,Oil Flushing Activity,0
@@ -33898,7 +33898,7 @@ MER,P-5009A,Reciprocating Pump,0
 MER,P-5009A,Vertical Centrifugal Pump,1
 MER,P-5009A,Mechanical Metering Pump,0
 MER,P-5009A,Steam Turbine Drive,0
-MER,P-5009A,Piping to Eq. Report(MER),0
+MER,P-5009A,Piping to Eq. Report(MER),1
 MER,P-5009B,Final Alignment Report,1
 MER,P-5009B,Oil Flushing Detail,0
 MER,P-5009B,Oil Flushing Activity,0
@@ -33908,7 +33908,7 @@ MER,P-5009B,Reciprocating Pump,0
 MER,P-5009B,Vertical Centrifugal Pump,1
 MER,P-5009B,Mechanical Metering Pump,0
 MER,P-5009B,Steam Turbine Drive,0
-MER,P-5009B,Piping to Eq. Report(MER),0
+MER,P-5009B,Piping to Eq. Report(MER),1
 MER,P-5010A,Final Alignment Report,0
 MER,P-5010A,Oil Flushing Detail,0
 MER,P-5010A,Oil Flushing Activity,0
@@ -33938,7 +33938,7 @@ MER,P-5011A,Reciprocating Pump,0
 MER,P-5011A,Vertical Centrifugal Pump,1
 MER,P-5011A,Mechanical Metering Pump,0
 MER,P-5011A,Steam Turbine Drive,0
-MER,P-5011A,Piping to Eq. Report(MER),0
+MER,P-5011A,Piping to Eq. Report(MER),1
 MER,P-5011B,Final Alignment Report,1
 MER,P-5011B,Oil Flushing Detail,0
 MER,P-5011B,Oil Flushing Activity,0
@@ -33948,7 +33948,7 @@ MER,P-5011B,Reciprocating Pump,0
 MER,P-5011B,Vertical Centrifugal Pump,1
 MER,P-5011B,Mechanical Metering Pump,0
 MER,P-5011B,Steam Turbine Drive,0
-MER,P-5011B,Piping to Eq. Report(MER),0
+MER,P-5011B,Piping to Eq. Report(MER),1
 MER,P-5012A,Final Alignment Report,0
 MER,P-5012A,Oil Flushing Detail,0
 MER,P-5012A,Oil Flushing Activity,0
@@ -36369,16 +36369,12 @@ EL,PK8401-MP-2A,Miscellaeous-LCS,1
 EL,PK8401-MP-2A,Miscellaeous-LCS test,0
 EL,PK8401-MP-2B,Miscellaeous-LCS,1
 EL,PK8401-MP-2B,Miscellaeous-LCS test,0
-MER,PK-8401-P2A,Final Alignment Report,0
-MER,PK-8401-P2A,Oil Flushing Detail,0
-MER,PK-8401-P2A,Oil Flushing Activity,0
-MER,PK-8401-P2A,Lube Oil Package,0
-MER,PK-8401-P2A,Rotary Pump,0
-MER,PK-8401-P2A,Reciprocating Pump,0
-MER,PK-8401-P2A,Vertical Centrifugal Pump,0
-MER,PK-8401-P2A,Mechanical Metering Pump,0
-MER,PK-8401-P2A,Steam Turbine Drive,0
-MER,PK-8401-P2A,Piping to Eq. Report(MER),0
+MER,PK-8401-P2A,Final Box Up,0
+MER,PK-8401-P2A,Package Mechanical,0
+MER,PK-8401-P2A,Piping to Eq. Report(MES),0
+MER,PK-8401-P2B,Final Box Up,0
+MER,PK-8401-P2B,Package Mechanical,0
+MER,PK-8401-P2B,Piping to Eq. Report(MES),0
 MES,PK-9001,Final Box Up,0
 MES,PK-9001,Package Mechanical,0
 MES,PK-9001,Piping to Eq. Report(MES),0
