@@ -4,7 +4,7 @@
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,1,0,29,0,29,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,0,0,6,0,6,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,PI,12,10,0,24,18,6,3
-1000,1000-02,Gas Preparation,Fuel Gas & Distribution,IN,176,30,0,116,23,93,11
+1000,1000-02,Gas Preparation,Fuel Gas & Distribution,IN,176,31,0,119,23,96,11
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MES,13,2,0,41,2,39,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,0,0,0,0,0,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,2,0,12,2,10,0
@@ -46,7 +46,7 @@
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MER,2,0,0,0,0,0,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,24,21,0,58,23,35,17
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,231,64,0,205,24,181,45
-2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,1,0,58,20,38,0
+2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,5,0,72,20,52,0
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,95,0,125,78,47,86
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,29,0,128,54,74,15
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,0,0,0,0,0
