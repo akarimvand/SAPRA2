@@ -633,10 +633,7 @@
       <div v-if="loading" class="loading alert alert-info">در حال بارگذاری داده‌ها...</div>
       <div v-else-if="error" class="error alert alert-danger">خطا در بارگذاری: {{ error }}</div>
       
-      <div class="system-header card" :class="{ 'active': selectedSubsystem }">
-        <div class="system-code">◂ {{ systemInfo?.Sub_System }} ▸</div>
-        <div class="system-name">{{ systemInfo?.Subsystem_Name }}</div>
-      </div>
+
 
       <div v-if="!selectedSubsystem && !loading" class="no-data alert alert-info">
         لطفاً ساب‌سیستم مورد نظر را از لیست سمت راست انتخاب کنید
