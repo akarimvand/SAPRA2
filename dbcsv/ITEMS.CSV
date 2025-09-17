@@ -16871,13 +16871,13 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),0%
 3000-02,IN,PCV-30001,Instrument(PCV),Instrument(PCV),0%
 3000-01,IN,PCV-3008,Instrument(PCV),Instrument(PCV),0%
 3000-01,IN,PCV-30103,Instrument(PCV),Instrument(PCV),0%
-3000-01,IN,PCV-30108,Instrument(PCV),Instrument(PCV),0%
-3000-01,IN,PCV-30109,Instrument(PCV),Instrument(PCV),0%
-3000-01,IN,PCV-30111,Instrument(PCV),Instrument(PCV),0%
-3000-01,IN,PCV-30112,Instrument(PCV),Instrument(PCV),0%
+3000-01,IN,PCV-30108,Instrument(PCV),Instrument(PCV),25%
+3000-01,IN,PCV-30109,Instrument(PCV),Instrument(PCV),25%
+3000-01,IN,PCV-30111,Instrument(PCV),Instrument(PCV),25%
+3000-01,IN,PCV-30112,Instrument(PCV),Instrument(PCV),25%
 3000-01,IN,PCV-30115,Instrument(PCV),Instrument(PCV),0%
 3000-01,IN,PCV-30116,Instrument(PCV),Instrument(PCV),0%
-3000-01,IN,PCV-30122,Instrument(PCV),Instrument(PCV),0%
+3000-01,IN,PCV-30122,Instrument(PCV),Instrument(PCV),25%
 5000-01,IN,PCV-5009,Instrument(PCV),Instrument(PCV),0%
 5000-04,IN,PCV-5395,Instrument(PCV),Instrument(PCV),0%
 5000-04,IN,PCV-5412,Instrument(PCV),Instrument(PCV),0%
@@ -16907,11 +16907,11 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),0%
 4000-08,IN,PDI-8011,Instrument(PDI),Instrument(PDI),DONE
 4000-08,IN,PDI-8012,Instrument(PDI),Instrument(PDI),DONE
 3000-01,IN,PDIT-30108,Instrument(PDIT),Instrument(PDIT),0%
-3000-01,IN,PDIT-30109,Instrument(PDIT),Instrument(PDIT),0%
-3000-01,IN,PDIT-30116,Instrument(PDIT),Instrument(PDIT),0%
-3000-01,IN,PDIT-30119,Instrument(PDIT),Instrument(PDIT),0%
-3000-01,IN,PDIT-30120,Instrument(PDIT),Instrument(PDIT),0%
-3000-01,IN,PDIT-30125,Instrument(PDIT),Instrument(PDIT),0%
+3000-01,IN,PDIT-30109,Instrument(PDIT),Instrument(PDIT),25%
+3000-01,IN,PDIT-30116,Instrument(PDIT),Instrument(PDIT),25%
+3000-01,IN,PDIT-30119,Instrument(PDIT),Instrument(PDIT),25%
+3000-01,IN,PDIT-30120,Instrument(PDIT),Instrument(PDIT),25%
+3000-01,IN,PDIT-30125,Instrument(PDIT),Instrument(PDIT),25%
 3000-01,IN,PDIT-30178(NA),CABLE,CABLE(NA),0%
 3000-01,IN,PDIT-30178(PDIT),Instrument(PDIT),Instrument(PDIT),25%
 3000-01,IN,PDIT-30183(NA),CABLE,CABLE(NA),0%
@@ -17004,9 +17004,9 @@ NO SUBS.,IN,PDT-84207,Instrument(PDT),Instrument(PDT),0%
 2000-06,IN,PDV-2575(NA),CABLE,CABLE(NA),0%
 2000-06,IN,PDV-2575(PDV),Instrument(PDV),Instrument(PDV),0%
 NO SUBS.,IN,PDV-30120 (),PKG,PKG,0%
-3000-01,IN,PDV-30120(PDV),Instrument(PDV),Instrument(PDV),0%
+3000-01,IN,PDV-30120(PDV),Instrument(PDV),Instrument(PDV),25%
 NO SUBS.,IN,PDV-30125 (),PKG,PKG,0%
-3000-01,IN,PDV-30125(PDV),Instrument(PDV),Instrument(PDV),0%
+3000-01,IN,PDV-30125(PDV),Instrument(PDV),Instrument(PDV),25%
 2000-03,IN,PDZSH-2051,Instrument(X),Instrument(PDZSH),0%
 2000-03,IN,PDZSL-2051,Instrument(X),Instrument(PDZSL),0%
 4000-01,IN,PG-0001,Instrument(PG),Instrument(PG),DONE
@@ -17157,14 +17157,14 @@ NO SUBS.,IN,PDV-30125 (),PKG,PKG,0%
 3000-01,IN,PG-3006,Instrument(PG),Instrument(PG),DONE
 3000-01,IN,PG-3009,Instrument(PG),Instrument(PG),DONE
 3000-01,IN,PG-30103,Instrument(PG),Instrument(PG),0%
-3000-01,IN,PG-30104,Instrument(PG),Instrument(PG),0%
-3000-01,IN,PG-30105,Instrument(PG),Instrument(PG),0%
-3000-01,IN,PG-30106,Instrument(PG),Instrument(PG),0%
-3000-01,IN,PG-30107,Instrument(PG),Instrument(PG),0%
-3000-01,IN,PG-30111,Instrument(PG),Instrument(PG),0%
+3000-01,IN,PG-30104,Instrument(PG),Instrument(PG),50%
+3000-01,IN,PG-30105,Instrument(PG),Instrument(PG),50%
+3000-01,IN,PG-30106,Instrument(PG),Instrument(PG),50%
+3000-01,IN,PG-30107,Instrument(PG),Instrument(PG),50%
+3000-01,IN,PG-30111,Instrument(PG),Instrument(PG),50%
 3000-01,IN,PG-30112,Instrument(PG),Instrument(PG),50%
-3000-01,IN,PG-30113,Instrument(PG),Instrument(PG),0%
-3000-01,IN,PG-30115,Instrument(PG),Instrument(PG),0%
+3000-01,IN,PG-30113,Instrument(PG),Instrument(PG),50%
+3000-01,IN,PG-30115,Instrument(PG),Instrument(PG),50%
 3000-01,IN,PG-30129,Instrument(PG),Instrument(PG),0%
 3000-01,IN,PG-30130,Instrument(PG),Instrument(PG),0%
 3000-01,IN,PG-30137,Instrument(PG),Instrument(PG),0%
@@ -17609,26 +17609,26 @@ NO SUBS.,IN,PIT-30101  (),PKG,PKG,0%
 3000-01,IN,PIT-30102B,Instrument(PIT),Instrument(PIT),0%
 3000-01,IN,PIT-30102C,Instrument(PIT),Instrument(PIT),0%
 NO SUBS.,IN,PIT-30110  (),PKG,PKG,0%
-3000-01,IN,PIT-30110(PIT),Instrument(PIT),Instrument(PIT),0%
-3000-01,IN,PIT-30114,Instrument(PIT),Instrument(PIT),0%
-3000-01,IN,PIT-30117,Instrument(PIT),Instrument(PIT),0%
-3000-01,IN,PIT-30118,Instrument(PIT),Instrument(PIT),0%
-3000-01,IN,PIT-30121A,Instrument(PIT),Instrument(PIT),0%
-3000-01,IN,PIT-30121B,Instrument(PIT),Instrument(PIT),0%
-3000-01,IN,PIT-30121C,Instrument(PIT),Instrument(PIT),0%
-3000-01,IN,PIT-30122A,Instrument(PIT),Instrument(PIT),0%
-3000-01,IN,PIT-30122B,Instrument(PIT),Instrument(PIT),0%
-3000-01,IN,PIT-30122C,Instrument(PIT),Instrument(PIT),0%
-3000-01,IN,PIT-30123,Instrument(PIT),Instrument(PIT),0%
-3000-01,IN,PIT-30124,Instrument(PIT),Instrument(PIT),0%
+3000-01,IN,PIT-30110(PIT),Instrument(PIT),Instrument(PIT),25%
+3000-01,IN,PIT-30114,Instrument(PIT),Instrument(PIT),25%
+3000-01,IN,PIT-30117,Instrument(PIT),Instrument(PIT),25%
+3000-01,IN,PIT-30118,Instrument(PIT),Instrument(PIT),25%
+3000-01,IN,PIT-30121A,Instrument(PIT),Instrument(PIT),25%
+3000-01,IN,PIT-30121B,Instrument(PIT),Instrument(PIT),25%
+3000-01,IN,PIT-30121C,Instrument(PIT),Instrument(PIT),25%
+3000-01,IN,PIT-30122A,Instrument(PIT),Instrument(PIT),25%
+3000-01,IN,PIT-30122B,Instrument(PIT),Instrument(PIT),25%
+3000-01,IN,PIT-30122C,Instrument(PIT),Instrument(PIT),25%
+3000-01,IN,PIT-30123,Instrument(PIT),Instrument(PIT),25%
+3000-01,IN,PIT-30124,Instrument(PIT),Instrument(PIT),25%
 NO SUBS.,IN,PIT-30126 (),Pkg,Pkg,0%
-3000-01,IN,PIT-30126(PIT),Instrument(PIT),Instrument(PIT),0%
-3000-01,IN,PIT-30127A,Instrument(PIT),Instrument(PIT),0%
-3000-01,IN,PIT-30127B,Instrument(PIT),Instrument(PIT),0%
-3000-01,IN,PIT-30127C,Instrument(PIT),Instrument(PIT),0%
-3000-01,IN,PIT-30128A,Instrument(PIT),Instrument(PIT),0%
-3000-01,IN,PIT-30128B,Instrument(PIT),Instrument(PIT),0%
-3000-01,IN,PIT-30128C,Instrument(PIT),Instrument(PIT),0%
+3000-01,IN,PIT-30126(PIT),Instrument(PIT),Instrument(PIT),25%
+3000-01,IN,PIT-30127A,Instrument(PIT),Instrument(PIT),25%
+3000-01,IN,PIT-30127B,Instrument(PIT),Instrument(PIT),25%
+3000-01,IN,PIT-30127C,Instrument(PIT),Instrument(PIT),25%
+3000-01,IN,PIT-30128A,Instrument(PIT),Instrument(PIT),25%
+3000-01,IN,PIT-30128B,Instrument(PIT),Instrument(PIT),25%
+3000-01,IN,PIT-30128C,Instrument(PIT),Instrument(PIT),25%
 NO SUBS.,IN,PIT-30136 (),Pkg,Pkg,0%
 3000-01,IN,PIT-30136(NA),CABLE,CABLE(NA),0%
 3000-01,IN,PIT-30136(PIT),Instrument(PIT),Instrument(PIT),0%
@@ -18066,10 +18066,10 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,DONE
 3000-01,IN,PSV-30101,Instrument(PSV),Instrument(PSV),0%
 3000-01,IN,PSV-30102,Instrument(PSV),Instrument(PSV),0%
 3000-01,IN,PSV-30105,Instrument(PSV),Instrument(PSV),0%
-3000-01,IN,PSV-30106,Instrument(PSV),Instrument(PSV),0%
-3000-01,IN,PSV-30107,Instrument(PSV),Instrument(PSV),0%
-3000-01,IN,PSV-30110,Instrument(PSV),Instrument(PSV),0%
-3000-01,IN,PSV-30113,Instrument(PSV),Instrument(PSV),0%
+3000-01,IN,PSV-30106,Instrument(PSV),Instrument(PSV),50%
+3000-01,IN,PSV-30107,Instrument(PSV),Instrument(PSV),50%
+3000-01,IN,PSV-30110,Instrument(PSV),Instrument(PSV),50%
+3000-01,IN,PSV-30113,Instrument(PSV),Instrument(PSV),50%
 3000-01,IN,PSV-30117,Instrument(PSV),Instrument(PSV),0%
 3000-01,IN,PSV-30118A,Instrument(PSV),Instrument(PSV),0%
 3000-01,IN,PSV-30121,Instrument(PSV),Instrument(PSV),0%
@@ -18522,7 +18522,7 @@ NO SUBS.,IN,PT-1007,Instrument(PT),Instrument(PT),25%
 3000-04,IN,PV-2608(NA),CABLE,CABLE(NA),0%
 3000-04,IN,PV-2608(PV),Instrument(PV),Instrument(PV),0%
 NO SUBS.,IN,PV-30123 (),PKG,PKG,0%
-3000-01,IN,PV-30123(PV),Instrument(PV),Instrument(PV),0%
+3000-01,IN,PV-30123(PV),Instrument(PV),Instrument(PV),25%
 3000-01,IN,PV-30138(NA),CABLE,CABLE(NA),0%
 3000-01,IN,PV-30138(PV),Instrument(PV),Instrument(PV),0%
 3000-02,IN,PV-3042(NA),CABLE,CABLE(NA),0%
@@ -19953,7 +19953,7 @@ NO SUBS.,IN,SV-004,CABLE,CABLE(NA),0%
 2000-02,IN,TCV-20101,Instrument(TCV),Instrument(TCV),25%
 2000-02,IN,TCV-20151,Instrument(TCV),Instrument(TCV),0%
 3000-04,IN,TCV-20201,Instrument(TCV),Instrument(TCV),25%
-3000-01,IN,TCV-30133,Instrument(TCV),Instrument(TCV),0%
+3000-01,IN,TCV-30133,Instrument(TCV),Instrument(TCV),25%
 1000-01,IN,TE-1001(NA),CABLE,CABLE(NA),0%
 1000-01,IN,TE-1001(TE),Instrument(TE),Instrument(TE),67%
 NO SUBS.,IN,TE-1007,Instrument(TE),Instrument(TE),33%
