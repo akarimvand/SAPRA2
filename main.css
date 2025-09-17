@@ -160,7 +160,7 @@ body {
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 .summary-card .card-title-custom {
-     font-size: 3rem;
+     font-size: 0.87rem;
 }
 .summary-card .count-display {
     font-size: 2.5rem;
