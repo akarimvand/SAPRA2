@@ -1,5 +1,5 @@
 ﻿SD_Sub_System,Discipline_Name,ITEM_Tag_NO,ITEM_Type_Code,ITEM_Description,ITEM_Status
-NO SUBS.,PI,-,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
+NO SUBS.,PI,,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 TEL-11,EL,00-CAM-01,CCTV,CCTV,0%
 TEL-11,EL,00-CAM-02,CCTV,CCTV,0%
 TEL-11,EL,00-CAM-03,CCTV,CCTV,0%
@@ -6209,10 +6209,10 @@ TEL-09,EL,CR-TJB3,Telecom Device,Telephone Junction Box,0%
 120-09,EL,CR-UPS-01,UPS & Battery,110V AC UPS Panel,25%
 1000-01,MES,D-1001,Drum(D),Natural gas K.O. drum,Done
 2000-04,MES,D-2001,Drum(D),HHP Steam Drum,20%
-2000-05,MES,D-2002,Drum(D),1 st Separator,Done
-2000-05,MES,D-2003,Drum(D),2nd Separator,Done
-2000-05,MES,D-2004,Drum(D),3rd Separator,Done
-2000-05,MES,D-2005,Drum(D),Final Separator,Done
+2000-05,MES,D-2002,Drum(D),1 st Separator,DONE
+2000-05,MES,D-2003,Drum(D),2nd Separator,DONE
+2000-05,MES,D-2004,Drum(D),3rd Separator,DONE
+2000-05,MES,D-2005,Drum(D),Final Separator,DONE
 4000-04,MES,D-2011,Drum(D),Steam Cond. K.O. Drum for E 2008,Done
 3000-04,MES,D-2022-1,Drum(D),DRUM,Done
 3000-04,MES,D-2022-2,Drum(D),DRUM,Done
@@ -6906,7 +6906,7 @@ ES-09,EL,E20-03,Earthing System,CRIMPED EARTH CONNECTION 16 TO 70mm2,0%
 2000-02,MES,E-2006,Exchanger(E),1st Natural Gas Feed Preheat Coil,25%
 2000-02,MES,E-2007,Exchanger(E),Combustion Air Preheater,25%
 2000-03,MES,E-2008,Exchanger(E),Oxygen Preheater,25%
-1000-01,MES,E-2009,Exchanger(E),Fuel Gas Preheater,25%
+1000-01,MES,E-2009,Exchanger(E),Fuel Gas Preheater,DONE
 ES-01,EL,E2-01,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
 2000-02,MES,E-2015,Exchanger(E),Steam Air Preheater,25%
 ES-01,EL,E2-02,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
@@ -12573,7 +12573,7 @@ FGS-10,IN,FGD-0057,Fire Alarm,Fire Alarm(FGD),0%
 4000-06,IN,FI-75203B,Instrument(FI),Instrument(FI),0%
 4000-06,IN,FI-75204A,Instrument(FI),Instrument(FI),0%
 4000-06,MES,FI-8001A,Filter(X),Side Strem Sand Filters B,DONE
-4000-06,MES,FI-8001B,Filter(X),Side Strem Sand Filters C,0%
+4000-06,MES,FI-8001B,Filter(X),Side Strem Sand Filters C,83%
 4000-06,MES,FI-8001C,Filter(X),Side Strem Sand Filters A,DONE
 4000-06,IN,FI-8401,Instrument(FI),Instrument(FI),0%
 4000-06,IN,FI-8402,Instrument(FI),Instrument(FI),0%
@@ -23177,7 +23177,7 @@ BLD-06,PI,Where House-PW Line-03,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 2000-03,MES,X-2001-B,Filter(X),Oxygen Filter,DONE
 2000-03,MES,X-2002-A,Filter(X),Steam Filter,0%
 2000-03,MES,X-2002-B,Filter(X),Steam Filter,0%
-1000-02,MES,X-2003,Filter(X),Static Fuel Gas Mixer,83%
+1000-02,MES,X-2003,Filter(X),Static Fuel Gas Mixer,Done
 5000-04,MES,X-5001-A,Filter(X),PRODUCT POLISHER UNIT,0%
 5000-04,MES,X-5001-B,Filter(X),PRODUCT POLISHER UNIT,0%
 5000-01,MES,X-5003,Filter(X),FILTER,DONE
