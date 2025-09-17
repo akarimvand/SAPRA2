@@ -1,6 +1,6 @@
 ﻿SD_System,SD_Sub_System,SD_System_Name,SD_Subsystem_Name,discipline,TOTAL ITEM,TOTAL DONE,TOTAL PENDING,TOTAL PUNCH,TOTAL CLEAR PUNCH,TOTAL NOT CLEAR PUNCH,TOTAL HOLD POINT
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,51,0,131,32,99,34
-1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,23,13,0,53,17,36,27
+1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,23,13,0,54,17,37,27
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,1,0,29,0,29,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,0,0,6,0,6,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,PI,12,10,0,24,18,6,3
@@ -9,7 +9,7 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,0,0,0,0,0,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,2,0,12,2,10,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,119,0,116,43,73,107
-1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,45,0,168,67,101,57
+1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,46,0,168,67,101,57
 1000,1000-04,Gas Preparation,Gas Station,IN,66,21,0,0,0,0,21
 1000,1000-04,Gas Preparation,Gas Station,PI,1,0,0,0,0,0,1
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,63,0,1526,1064,462,2
@@ -61,7 +61,7 @@
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,16,0,58,9,49,45
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,3,0,19,0,19,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,7,4,0,30,0,30,0
-3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,18,0,103,27,76,8
+3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,19,0,103,27,76,8
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,110,0,109,50,59,99
 3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,2,0,20,0,20,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,11,1,10,2
@@ -80,7 +80,7 @@
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,0,6,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,47,34,0,159,98,61,19
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,385,0,46,17,29,384
-4000,4000-05,Utility,Blow Down,PI,24,14,0,38,15,23,13
+4000,4000-05,Utility,Blow Down,PI,24,15,0,38,15,23,13
 4000,4000-05,Utility,Blow Down,MES,4,2,0,14,0,14,0
 4000,4000-05,Utility,Blow Down,IN,17,4,0,6,3,3,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,2,0,4,0,4,5
@@ -110,7 +110,7 @@
 4000,4000-13,Utility,Slope Close Drain,PI,29,17,0,37,16,21,3
 4000,4000-14,Utility,Fire Water,IN,33,0,0,0,0,0,0
 4000,4000-14,Utility,Fire Water,MES,1,0,0,0,0,0,0
-4000,4000-14,Utility,Fire Water,PI,125,31,0,291,74,217,2536
+4000,4000-14,Utility,Fire Water,PI,125,47,0,292,74,218,2536
 4000,4000-15,Utility,Potable & Service Water,PI,61,26,0,84,13,71,29
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,0,5,0,5,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,6,0,69,11,58,5
@@ -138,7 +138,7 @@
 7000,7000-01,Flare,Flare System (In Site),IN,145,22,0,43,18,25,17
 7000,7000-01,Flare,Flare System (In Site),MER,2,0,0,0,0,0,0
 7000,7000-01,Flare,Flare System (In Site),MES,2,1,0,8,0,8,0
-7000,7000-01,Flare,Flare System (In Site),PI,49,19,0,97,32,65,77
+7000,7000-01,Flare,Flare System (In Site),PI,49,21,0,105,41,64,77
 BLD,BLD-01,Building,Substation,PI,4,4,0,6,3,3,9
 BLD,BLD-01,Building,Substation,CV,14,14,0,63,6,57,0
 BLD,BLD-02,Building,Control Building,CV,8,8,0,0,0,0,0
