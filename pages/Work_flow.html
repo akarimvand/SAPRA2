@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>داشبورد گردش کار سند</title>
+    <title>داشبورد گردش کارتحویل دهی ساب سیستم ها</title>
     <!-- CDN های مورد نیاز -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -93,7 +93,7 @@
             <!-- دکمه منوی دروپ‌داون -->
             <div class="relative">
                 <button id="dropdown-toggle" class="flex items-center gap-2 px-3 py-1.5 text-sm font-medium text-slate-700 bg-white border border-slate-300 rounded-md shadow-sm hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors">
-                    <span id="current-selection">انتخاب سند</span>
+                    <span id="current-selection">انتخاب ساب سیستم</span>
                     <i class="fa-solid fa-chevron-down text-xs ml-1"></i>
                 </button>
 
@@ -163,7 +163,7 @@
 
             <div class="grid grid-cols-1 lg:grid-cols-1 gap-6">
                 <section class="lg:col-span-1 bg-white rounded-xl shadow-md p-4">
-                    <h2 class="text-lg font-bold mb-1 text-slate-900">مسیر گردش سند</h2>
+                    <h2 class="text-lg font-bold mb-1 text-slate-900">مسیر گردش سیستم</h2>
                     <p class="text-xs text-slate-600 mb-4">مراحل دارای تاخیر با کادر قرمز مشخص شده‌اند.</p>
                     <div id="timeline-container" class="relative pr-4 border-r-2 border-slate-200 space-y-6">
                     </div>
@@ -310,7 +310,7 @@
 
         function processAndRenderDashboard(subsystemData) {
             const sourceData = {
-                title: subsystemData[0].Subsystem_Name || "گردش کار سند",
+                title: subsystemData[0].Subsystem_Name || "گردش کار سیستم",
                 documentId: subsystemData[0].Sub_System || "نامشخص",
                 creationDate: formatDate(subsystemData[0].RECEIVED_DATE),
                 sourceUnit: subsystemData[0].UNIT || "نامشخص",
