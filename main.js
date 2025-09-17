@@ -1102,7 +1102,7 @@ function filterModalTable() {
                 { title: 'FORM A', count: window.formCounts.formA, gradientClass: 'gradient-form-a animated-gradient', icon: ICONS.FileEarmarkText, desc: 'Submitted to Client for Mechanical Completion Approval' },
                 { title: 'FORM B', count: window.formCounts.formB, gradientClass: 'gradient-form-b animated-gradient', icon: ICONS.FileEarmarkCheck, desc: 'Returned by Client with Pre-Commissioning Punches' },
                 { title: 'FORM C', count: window.formCounts.formC, gradientClass: 'gradient-form-c animated-gradient', icon: ICONS.FileEarmarkMedical, desc: 'Precom Punches Cleared and Resubmitted for Approval' },
-                { title: 'FORM D', count: window.formCounts.formD, gradientClass: 'gradient-form-d animated-gradient', icon: ICONS.FileEarmarkSpreadsheet, desc: 'Final Client Approval and Subsystem Handover' },
+                { title: 'FORM D', count: window.formCounts.formD, gradientClass: 'gradient-form-d animated-gradient', icon: ICONS.FileEarmarkSpreadsheet, desc: 'Final Client Approval and Subsystem Handover Process' },
             ];
             formCardsData.forEach(card => {
                 row2HTML += `
