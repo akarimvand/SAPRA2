@@ -172,10 +172,10 @@ body {
 }
 
 /* Original Gradient and Animation Styles */
-.gradient-form-a { background-color: #00B294; color: white; }  /* Magenta - Microsoft Brand Accent */
-.gradient-form-b { background-color: #F25022; color: white; }  /* Orange Red - Fluent Design Accent */
-.gradient-form-c { background-color: #00BCF2; color: black; }  /* Cyan - Light & Modern */
-.gradient-form-d { background-color: #8E44AD; color: white; }  /* Purple - Elegant & Professional */
+.gradient-form-a { background-color: #F25022; color: white; }
+.gradient-form-b { background-color: #00B294; color: white; }
+.gradient-form-c { background-color: #00BCF2; color: black; }
+.gradient-form-d { background-color: #8E44AD; color: white; }
 
 .gradient-form-a, .gradient-form-b, .gradient-form-c, .gradient-form-d {
     padding: 0.75rem 1rem !important;
