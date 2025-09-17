@@ -1,5 +1,5 @@
 ﻿Discipline,Tag_No,Form_Title,Done
-PI,-,Leak Test No,0
+PI,,Leak Test No,0
 EL,00-CAM-01,CCTV Eq.install,0
 EL,00-CAM-01,CCTV Camera&Hosing install,0
 EL,00-CAM-01,CCTV station.control unit,0
@@ -14605,10 +14605,10 @@ MES,E-2008,Exchanger,0
 MES,E-2008,Plate Heat Exchanger,0
 MES,E-2008,Package Mechanical,1
 MES,E-2008,Piping to Eq. Report(MES),0
-MES,E-2009,Exchanger,0
-MES,E-2009,Plate Heat Exchanger,0
+MES,E-2009,Exchanger,1
+MES,E-2009,Plate Heat Exchanger,1
 MES,E-2009,Package Mechanical,1
-MES,E-2009,Piping to Eq. Report(MES),0
+MES,E-2009,Piping to Eq. Report(MES),1
 EL,E2-01,Earthig & Lightning Work T,1
 MES,E-2015,Exchanger,0
 MES,E-2015,Plate Heat Exchanger,0
@@ -49414,7 +49414,7 @@ MES,X-2003,Catalyst Loading,1
 MES,X-2003,Final Box Up,1
 MES,X-2003,Strainer Filter,1
 MES,X-2003,Package Mechanical,1
-MES,X-2003,Piping to Eq. Report(MES),0
+MES,X-2003,Piping to Eq. Report(MES),1
 MES,X-5001-A,Internal Cleaning Report,0
 MES,X-5001-A,Catalyst Loading,0
 MES,X-5001-A,Final Box Up,0
