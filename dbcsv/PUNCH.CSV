@@ -3055,6 +3055,15 @@ TEL-09,EL,CR-SP-03,Paging Device,A,Loud Speaker is not install.,PL-22421
 120-18,EL,E_I-MC-SS-02,PANEL(EL),A,تکميل ارت IE و PE.PUNCH IS GENERAL FOR 120-18,PL-25422
 120-18,EL,E_I-MC-SS-02,PANEL(EL),A,نصب RACK مربوط به فيبر نوري و نصب تجهيزات باقي مونده تابلو PUNCH IS GENERAL FOR 120-18,PL-25423
 ES-05,EL,E07-01(ES-05),Earthing System,B,Earth Resistance Shall Be Below 5 ?(ALL TAG IN ES-05),PL-25019
+1000-01,MES,E-2009,Exchanger(E),C,PRESERVATION NOT DONE,PL-28375
+1000-01,MES,E-2009,Exchanger(E),C,GENRAL CLEANING,PL-28376
+1000-01,MES,E-2009,Exchanger(E),C,Some points need touch up,PL-28377
+1000-01,MES,E-2009,Exchanger(E),C,Remove Scaffold,PL-28378
+1000-01,MES,E-2009,Exchanger(E),C,PUNCH LIST CLEAR,PL-28379
+1000-01,MES,E-2009,Exchanger(E),C,Some points need touch up,PL-28380
+1000-01,MES,E-2009,Exchanger(E),C,PRESERVATION NOT DONE,PL-28381
+1000-01,MES,E-2009,Exchanger(E),C,Bolting lubricant is not done,PL-28382
+1000-01,MES,E-2009,Exchanger(E),C,Check the genral cleaning after all activity done,PL-28383
 2000-04,MES,E-2022-1,Exchanger(E),B,REMOVE SCAFFOLD,PL-24069
 2000-04,MES,E-2022-1,Exchanger(E),C,Some points need touch up,PL-24070
 2000-04,MES,E-2022-1,Exchanger(E),C,GENRAL CLEANING,PL-24071
@@ -8230,9 +8239,27 @@ FGS-09,EL,NEL-0107,F&G Device,C,PRESERVATION SHOULD BE DONE.,PL-23281
 5000-03,MER,P-5007A,Pump,C,Remove Jackbolt,PL-25789
 5000-03,MER,P-5007B,Pump,C,Some points need touch up,PL-25790
 5000-03,MER,P-5007B,Pump,C,Genral Cleaning,PL-25791
-5000-03,MER,P-5007B,Pump,C,Surface Grout,PL-25792
+5000-03,MER,P-5007B,Pump,C,Repair Surface Grout,PL-25792
 5000-03,MER,P-5007B,Pump,B,Oil Path and device shall be instal,PL-25793
 5000-03,MER,P-5007B,Pump,C,Remove Jackbolt,PL-25794
+5000-01,MER,P-5011A,Pump,C,Some points need touch up,PL-28390
+5000-01,MER,P-5011A,Pump,C,Genral Cleaning,PL-28391
+5000-01,MER,P-5011A,Pump,C,Repair Surface Grout,PL-28392
+5000-01,MER,P-5011A,Pump,B,Oil Path and device shall be instal,PL-28393
+5000-01,MER,P-5011A,Pump,C,Remove Jackbolt,PL-28394
+5000-01,MER,P-5011A,Pump,C,Preservation,PL-28395
+5000-01,MER,P-5011A,Pump,C,Some points need touch up,PL-28396
+5000-01,MER,P-5011A,Pump,C,Genral Cleaning,PL-28397
+5000-01,MER,P-5011A,Pump,C,Repair Surface Grout,PL-28398
+5000-01,MER,P-5011A,Pump,B,Oil Path and device shall be instal,PL-28399
+5000-01,MER,P-5011A,Pump,C,Remove Jackbolt,PL-28400
+5000-01,MER,P-5011A,Pump,C,Preservation,PL-28401
+5000-01,MER,P-5011B,Pump,C,Some points need touch up,PL-28384
+5000-01,MER,P-5011B,Pump,C,Genral Cleaning,PL-28385
+5000-01,MER,P-5011B,Pump,C,Repair Surface Grout,PL-28386
+5000-01,MER,P-5011B,Pump,B,Oil Path and device shall be instal,PL-28387
+5000-01,MER,P-5011B,Pump,C,Remove Jackbolt,PL-28388
+5000-01,MER,P-5011B,Pump,C,Preservation,PL-28389
 120-02,EL,P7001C-MF-1,Local_Control_Station,C,Preservation shall be done.,PL-17051
 120-02,EL,P7001C-MF-1,Local_Control_Station,C,Preservation  تجهيز انجام شود,PL-10579
 120-02,EL,P7001C-MP-1A,Local_Control_Station,C,Preservation  تجهيز انجام شود,PL-10567
