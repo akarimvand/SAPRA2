@@ -3922,7 +3922,7 @@ TEL-07,EL,07-SP-15,Paging Device,Loud Speaker - 25W|EX,50%
 2000-03,PI,2000-03-PO-03-780,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 2000-03,PI,2000-03-PO-04-888,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 2000-03,PI,2000-03-PO-05-889,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
-2000-03,PI,2000-03-PO-06-890,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
+2000-03,PI,2000-03-PO-06-890,PI_TP,PIPING TEST PACKAGE,FL/DRY
 2000-03,PI,2000-03-PO-07-891,PI_TP,PIPING TEST PACKAGE,DONE
 2000-03,PI,2000-03-PO-08-892,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 2000-03,PI,2000-03-PO-09-1017,PI_TP,PIPING TEST PACKAGE,Reinstatement
@@ -3955,7 +3955,7 @@ TEL-07,EL,07-SP-15,Paging Device,Loud Speaker - 25W|EX,50%
 2000-04,PI,2000-04-VA-02-562,PI_TP,PIPING TEST PACKAGE,DONE
 2000-04,PI,2000-04-VA-03-676,PI_TP,PIPING TEST PACKAGE,DONE
 2000-04,PI,2000-04-VA-04-683,PI_TP,PIPING TEST PACKAGE,DONE
-2000-04,PI,2000-04-VA-05-653,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
+2000-04,PI,2000-04-VA-05-653,PI_TP,PIPING TEST PACKAGE,Line Check
 2000-04,PI,2000-04-VA-06-686,PI_TP,PIPING TEST PACKAGE,DONE
 2000-04,PI,2000-04-VA-07-1104,PI_TP,PIPING TEST PACKAGE,DONE
 2000-05,PI,2000-05-PRC-01-212,PI_TP,PIPING TEST PACKAGE,Reinstatement
@@ -4046,7 +4046,7 @@ TEL-07,EL,07-SP-15,Paging Device,Loud Speaker - 25W|EX,50%
 3000-02,PI,3000-02-MPC-04-952,PI_TP,PIPING TEST PACKAGE,DONE
 3000-02,PI,3000-02-MPC-05-966,PI_TP,PIPING TEST PACKAGE,DONE
 3000-02,PI,3000-02-MPS-01-731,PI_TP,PIPING TEST PACKAGE,DONE
-3000-02,PI,3000-02-MPS-02-732,PI_TP,PIPING TEST PACKAGE,Reinstatement
+3000-02,PI,3000-02-MPS-02-732,PI_TP,PIPING TEST PACKAGE,DONE
 3000-02,PI,3000-02-MPS-03-733,PI_TP,PIPING TEST PACKAGE,DONE
 3000-02,PI,3000-02-MPS-04-734,PI_TP,PIPING TEST PACKAGE,DONE
 3000-02,PI,3000-02-MPS-05-735,PI_TP,PIPING TEST PACKAGE,Reinstatement
@@ -4057,7 +4057,7 @@ TEL-07,EL,07-SP-15,Paging Device,Loud Speaker - 25W|EX,50%
 3000-02,PI,3000-02-SG-03-555,PI_TP,PIPING TEST PACKAGE,FL/DRY
 3000-02,PI,3000-02-SG-04-643,PI_TP,PIPING TEST PACKAGE,DONE
 3000-02,PI,3000-02-SG-05-711,PI_TP,PIPING TEST PACKAGE,DONE
-3000-02,PI,3000-02-SG-06-818,PI_TP,PIPING TEST PACKAGE,Line Check
+3000-02,PI,3000-02-SG-06-818,PI_TP,PIPING TEST PACKAGE,Cleaning
 3000-02,PI,3000-02-SG-07-819,PI_TP,PIPING TEST PACKAGE,Line Check
 3000-02,PI,3000-02-SG-08-820,PI_TP,PIPING TEST PACKAGE,FL/DRY
 3000-02,PI,3000-02-SG-09-897,PI_TP,PIPING TEST PACKAGE,Reinstatement
@@ -4070,7 +4070,7 @@ TEL-07,EL,07-SP-15,Paging Device,Loud Speaker - 25W|EX,50%
 3000-02,PI,3000-02-SG-16-1081,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 3000-02,PI,3000-02-SG-17-1107,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 3000-02,PI,3000-02-VA-01-557,PI_TP,PIPING TEST PACKAGE,DONE
-3000-02,PI,3000-02-VA-02-745,PI_TP,PIPING TEST PACKAGE,Reinstatement
+3000-02,PI,3000-02-VA-02-745,PI_TP,PIPING TEST PACKAGE,DONE
 3000-02,PI,3000-02-VA-03-746,PI_TP,PIPING TEST PACKAGE,DONE
 3000-02,PI,3000-02-VA-04-754,PI_TP,PIPING TEST PACKAGE,FL/DRY
 3000-02,PI,3000-02-VA-05-755,PI_TP,PIPING TEST PACKAGE,HYDROTEST
@@ -4275,7 +4275,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-06,PI,4000-06-AC-05-1075,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-06,PI,4000-06-AC-06-1076,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-06,PI,4000-06-AC-07-1077,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
-4000-06,PI,4000-06-AC-08-1078,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
+4000-06,PI,4000-06-AC-08-1078,PI_TP,PIPING TEST PACKAGE,DONE
 4000-06,PI,4000-06-AC-08-1079,PI_TP,PIPING TEST PACKAGE,DONE
 4000-06,PI,4000-06-AC-09-1070,PI_TP,PIPING TEST PACKAGE,DONE
 4000-06,PI,4000-06-AC-10-1083,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
@@ -4284,7 +4284,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-06,PI,4000-06-CS-02-990,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-06,PI,4000-06-CS-03-1052,PI_TP,PIPING TEST PACKAGE,DONE
 4000-06,PI,4000-06-CS-04-1054,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
-4000-06,PI,4000-06-CS-05-1055,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
+4000-06,PI,4000-06-CS-05-1055,PI_TP,PIPING TEST PACKAGE,Line Check
 4000-06,PI,4000-06-CS-06-1056,PI_TP,PIPING TEST PACKAGE,DONE
 4000-06,PI,4000-06-CS-07-1048,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
 4000-06,PI,4000-06-CS-08-1057,PI_TP,PIPING TEST PACKAGE,DONE
@@ -5383,8 +5383,8 @@ NO SUBS.,PI,61-SUMP-091,PI_TP,PIPING TEST PACKAGE,Reinstatement
 4000-10,PI,70-WWS-UG-KC-230,PI_TP,PIPING TEST PACKAGE,FL/DRY
 4000-10,PI,70-WWS-UG-KC-243,PI_TP,PIPING TEST PACKAGE,Reinstatement
 4000-10,PI,70-WWS-UG-KC-244,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
-4000-10,PI,70-WWS-UG-KC-245,PI_TP,PIPING TEST PACKAGE,Reinstatement
-4000-10,PI,70-WWS-UG-KC-246,PI_TP,PIPING TEST PACKAGE,Reinstatement
+4000-10,PI,70-WWS-UG-KC-245,PI_TP,PIPING TEST PACKAGE,DONE
+4000-10,PI,70-WWS-UG-KC-246,PI_TP,PIPING TEST PACKAGE,DONE
 4000-10,PI,70-WWS-UG-KC-247,PI_TP,PIPING TEST PACKAGE,DONE
 4000-10,PI,70-WWS-UG-KC-248,PI_TP,PIPING TEST PACKAGE,DONE
 4000-10,PI,70-WWS-UG-KC-283,PI_TP,PIPING TEST PACKAGE,DONE
@@ -12347,17 +12347,17 @@ DCS-01,IN,FFSALL-2064,SIGNAL,SIGNAL,DONE
 2000-02,IN,FG-20105,Instrument(FG),Instrument(FG),0%
 2000-02,IN,FG-20106,Instrument(FG),Instrument(FG),0%
 2000-02,IN,FG-20107,Instrument(FG),Instrument(FG),0%
-2000-02,IN,FG-20151,Instrument(FG),Instrument(FG),0%
+2000-02,IN,FG-20151,Instrument(FG),Instrument(FG),50%
 2000-02,IN,FG-20152,Instrument(FG),Instrument(FG),0%
 2000-02,IN,FG-20153,Instrument(FG),Instrument(FG),0%
-2000-02,IN,FG-20154,Instrument(FG),Instrument(FG),0%
-2000-02,IN,FG-20155,Instrument(FG),Instrument(FG),0%
-2000-02,IN,FG-20156,Instrument(FG),Instrument(FG),0%
-2000-02,IN,FG-20157,Instrument(FG),Instrument(FG),0%
-2000-02,IN,FG-20159,Instrument(FG),Instrument(FG),0%
-2000-02,IN,FG-20160,Instrument(FG),Instrument(FG),0%
-2000-02,IN,FG-20161,Instrument(FG),Instrument(FG),0%
-2000-02,IN,FG-20162,Instrument(FG),Instrument(FG),0%
+2000-02,IN,FG-20154,Instrument(FG),Instrument(FG),50%
+2000-02,IN,FG-20155,Instrument(FG),Instrument(FG),50%
+2000-02,IN,FG-20156,Instrument(FG),Instrument(FG),50%
+2000-02,IN,FG-20157,Instrument(FG),Instrument(FG),50%
+2000-02,IN,FG-20159,Instrument(FG),Instrument(FG),50%
+2000-02,IN,FG-20160,Instrument(FG),Instrument(FG),50%
+2000-02,IN,FG-20161,Instrument(FG),Instrument(FG),50%
+2000-02,IN,FG-20162,Instrument(FG),Instrument(FG),50%
 3000-04,IN,FG-20201,Instrument(FG),Instrument(FG),0%
 3000-04,IN,FG-20202,Instrument(FG),Instrument(FG),0%
 3000-04,IN,FG-20203,Instrument(FG),Instrument(FG),0%
@@ -14546,7 +14546,7 @@ DCS-01,IN,LCP-MF2002,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 NO SUBS.,IN,LFAP-01,Fire Alarm,Fire Alarm(LFAP),0%
 1000-01,IN,LG-1005,Instrument(LG),Instrument(LG),50%
 2000-02,IN,LG-20101,Instrument(LG),Instrument(LG),50%
-2000-02,IN,LG-20151,Instrument(LG),Instrument(LG),0%
+2000-02,IN,LG-20151,Instrument(LG),Instrument(LG),50%
 2000-03,IN,LG-2017,Instrument(LG),Instrument(LG),50%
 3000-04,IN,LG-20201,Instrument(LG),Instrument(LG),0%
 3000-04,IN,LG-20203,Instrument(LG),Instrument(LG),0%
@@ -14611,8 +14611,8 @@ NO SUBS.,IN,LFAP-01,Fire Alarm,Fire Alarm(LFAP),0%
 1000-03,IN,LG-6034-2,Instrument(LG),Instrument(LG),0%
 1000-03,IN,LG-6052,Instrument(LG),Instrument(LG),DONE
 1000-03,IN,LG-6084,Instrument(LG),Instrument(LG),50%
-4000-04,IN,LG-70135A,Instrument(LG),Instrument(LG),0%
-4000-04,IN,LG-70135B,Instrument(LG),Instrument(LG),0%
+4000-04,IN,LG-70135A,Instrument(LG),Instrument(LG),50%
+4000-04,IN,LG-70135B,Instrument(LG),Instrument(LG),50%
 4000-04,IN,LG-7092,Instrument(LG),Instrument(LG),50%
 7000-01,IN,LG-71203A,Instrument(LG),Instrument(LG),0%
 7000-01,IN,LG-71203B,Instrument(LG),Instrument(LG),0%
@@ -15010,7 +15010,7 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 NO SUBS.,IN,LT-20101 (),Pkg,Pkg,0%
 NO SUBS.,IN,LT-20101(LT),Instrument(LT),Instrument(LT),25%
 NO SUBS.,IN,LT-20151 (),Pkg,Pkg,0%
-NO SUBS.,IN,LT-20151(LT),Instrument(LT),Instrument(LT),0%
+NO SUBS.,IN,LT-20151(LT),Instrument(LT),Instrument(LT),25%
 2000-03,IN,LT-2016(LT),Instrument(LT),Instrument(LT),25%
 2000-03,IN,LT-2016(NA),CABLE,CABLE(NA),0%
 3000-04,IN,LT-20202,Instrument(LT),Instrument(LT),0%
@@ -15092,8 +15092,8 @@ NO SUBS.,IN,LT-20151(LT),Instrument(LT),Instrument(LT),0%
 4000-04,IN,LT-70120A(NA),CABLE,CABLE(NA),0%
 4000-04,IN,LT-70120B(LT),Instrument(LT),Instrument(LT),0%
 4000-04,IN,LT-70120B(NA),CABLE,CABLE(NA),0%
-4000-04,IN,LT-70134A,Instrument(LT),Instrument(LT),0%
-4000-04,IN,LT-70134B,Instrument(LT),Instrument(LT),0%
+4000-04,IN,LT-70134A,Instrument(LT),Instrument(LT),25%
+4000-04,IN,LT-70134B,Instrument(LT),Instrument(LT),25%
 4000-04,IN,LT-70251,Instrument(LT),Instrument(LT),0%
 4000-04,IN,LT-70252(LT),Instrument(LT),Instrument(LT),0%
 4000-04,IN,LT-70252(NA),CABLE,CABLE(NA),0%
@@ -16862,7 +16862,7 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),0%
 1000-01,IN,PCV-10351,Instrument(PCV),Instrument(PCV),0%
 1000-01,IN,PCV-10451,Instrument(PCV),Instrument(PCV),0%
 2000-02,IN,PCV-20101,Instrument(PCV),Instrument(PCV),25%
-2000-02,IN,PCV-20151,Instrument(PCV),Instrument(PCV),0%
+2000-02,IN,PCV-20151,Instrument(PCV),Instrument(PCV),25%
 3000-04,IN,PCV-20201,Instrument(PCV),Instrument(PCV),25%
 3000-04,IN,PCV-20202,Instrument(PCV),Instrument(PCV),25%
 3000-04,IN,PCV-20203,Instrument(PCV),Instrument(PCV),25%
@@ -16882,10 +16882,10 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),0%
 5000-04,IN,PCV-5395,Instrument(PCV),Instrument(PCV),0%
 5000-04,IN,PCV-5412,Instrument(PCV),Instrument(PCV),0%
 5000-05,IN,PCV-5445,Instrument(PCV),Instrument(PCV),0%
-4000-04,IN,PCV-70166A,Instrument(PCV),Instrument(PCV),0%
+4000-04,IN,PCV-70166A,Instrument(PCV),Instrument(PCV),25%
 4000-04,IN,PCV-70166B,Instrument(PCV),Instrument(PCV),0%
-4000-04,IN,PCV-70169A,Instrument(PCV),Instrument(PCV),0%
-4000-04,IN,PCV-70169B,Instrument(PCV),Instrument(PCV),0%
+4000-04,IN,PCV-70169A,Instrument(PCV),Instrument(PCV),25%
+4000-04,IN,PCV-70169B,Instrument(PCV),Instrument(PCV),25%
 4000-04,IN,PCV-70257,Instrument(PCV),Instrument(PCV),0%
 4000-04,IN,PCV-70268,Instrument(PCV),Instrument(PCV),0%
 7000-01,IN,PCV-71182,Instrument(PCV),Instrument(PCV),0%
@@ -16940,7 +16940,7 @@ NO SUBS.,IN,PDIT-30187 (),PKG,PKG,0%
 2000-03,IN,PDT-2004(NA),CABLE,CABLE(NA),0%
 2000-03,IN,PDT-2004(PDT),Instrument(PDT),Instrument(PDT),25%
 2000-02,IN,PDT-20101,Instrument(PDT),Instrument(PDT),25%
-2000-02,IN,PDT-20151,Instrument(PDT),Instrument(PDT),0%
+2000-02,IN,PDT-20151,Instrument(PDT),Instrument(PDT),25%
 3000-04,IN,PDT-20202,Instrument(PDT),Instrument(PDT),25%
 3000-04,IN,PDT-20226,Instrument(PDT),Instrument(PDT),25%
 4000-02,IN,PDT-2032(NA),CABLE,CABLE(NA),0%
@@ -16978,10 +16978,10 @@ NO SUBS.,IN,PDIT-30187 (),PKG,PKG,0%
 1000-03,IN,PDT-6057(PDT),Instrument(PDT),Instrument(PDT),DONE
 1000-03,IN,PDT-6059(NA),CABLE,CABLE(NA),0%
 1000-03,IN,PDT-6059(PDT),Instrument(PDT),Instrument(PDT),25%
-4000-04,IN,PDT-70130A,Instrument(PDT),Instrument(PDT),0%
-4000-04,IN,PDT-70130B,Instrument(PDT),Instrument(PDT),0%
-4000-04,IN,PDT-70131A,Instrument(PDT),Instrument(PDT),0%
-4000-04,IN,PDT-70131B,Instrument(PDT),Instrument(PDT),0%
+4000-04,IN,PDT-70130A,Instrument(PDT),Instrument(PDT),25%
+4000-04,IN,PDT-70130B,Instrument(PDT),Instrument(PDT),25%
+4000-04,IN,PDT-70131A,Instrument(PDT),Instrument(PDT),25%
+4000-04,IN,PDT-70131B,Instrument(PDT),Instrument(PDT),25%
 4000-04,IN,PDT-70266,Instrument(PDT),Instrument(PDT),0%
 4000-08,IN,PDT-8006(NA),CABLE,CABLE(NA),0%
 4000-08,IN,PDT-8006(PDT),Instrument(PDT),Instrument(PDT),25%
@@ -17049,14 +17049,14 @@ NO SUBS.,IN,PDV-30125 (),PKG,PKG,0%
 2000-02,IN,PG-20107,Instrument(PG),Instrument(PG),0%
 2000-02,IN,PG-20108,Instrument(PG),Instrument(PG),50%
 2000-03,IN,PG-2011,Instrument(PG),Instrument(PG),DONE
-2000-02,IN,PG-20151,Instrument(PG),Instrument(PG),0%
-2000-02,IN,PG-20152,Instrument(PG),Instrument(PG),0%
-2000-02,IN,PG-20153,Instrument(PG),Instrument(PG),0%
-2000-02,IN,PG-20154,Instrument(PG),Instrument(PG),0%
-2000-02,IN,PG-20155,Instrument(PG),Instrument(PG),0%
+2000-02,IN,PG-20151,Instrument(PG),Instrument(PG),50%
+2000-02,IN,PG-20152,Instrument(PG),Instrument(PG),50%
+2000-02,IN,PG-20153,Instrument(PG),Instrument(PG),50%
+2000-02,IN,PG-20154,Instrument(PG),Instrument(PG),50%
+2000-02,IN,PG-20155,Instrument(PG),Instrument(PG),50%
 2000-02,IN,PG-20156,Instrument(PG),Instrument(PG),0%
 2000-02,IN,PG-20157,Instrument(PG),Instrument(PG),0%
-2000-02,IN,PG-20158,Instrument(PG),Instrument(PG),0%
+2000-02,IN,PG-20158,Instrument(PG),Instrument(PG),50%
 2000-03,IN,PG-2018,Instrument(PG),Instrument(PG),DONE
 3000-04,IN,PG-20205,Instrument(PG),Instrument(PG),50%
 3000-04,IN,PG-20206,Instrument(PG),Instrument(PG),0%
@@ -17989,12 +17989,12 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,DONE
 5000-02,IN,PST-5207B(PST),Instrument(PST),Instrument(PST),Done
 5000-02,IN,PST-5207C(NA),CABLE,CABLE(NA),0%
 5000-02,IN,PST-5207C(PST),Instrument(PST),Instrument(PST),Done
-4000-04,IN,PST-70105A-1,Instrument(PST),Instrument(PST),0%
-4000-04,IN,PST-70105A-2,Instrument(PST),Instrument(PST),0%
-4000-04,IN,PST-70105A-3,Instrument(PST),Instrument(PST),0%
-4000-04,IN,PST-70105B-1,Instrument(PST),Instrument(PST),0%
-4000-04,IN,PST-70105B-2,Instrument(PST),Instrument(PST),0%
-4000-04,IN,PST-70105B-3,Instrument(PST),Instrument(PST),0%
+4000-04,IN,PST-70105A-1,Instrument(PST),Instrument(PST),25%
+4000-04,IN,PST-70105A-2,Instrument(PST),Instrument(PST),25%
+4000-04,IN,PST-70105A-3,Instrument(PST),Instrument(PST),25%
+4000-04,IN,PST-70105B-1,Instrument(PST),Instrument(PST),25%
+4000-04,IN,PST-70105B-2,Instrument(PST),Instrument(PST),25%
+4000-04,IN,PST-70105B-3,Instrument(PST),Instrument(PST),25%
 4000-04,IN,PST-70271-1,Instrument(PST),Instrument(PST),0%
 4000-04,IN,PST-70271-2,Instrument(PST),Instrument(PST),0%
 4000-04,IN,PST-70271-3,Instrument(PST),Instrument(PST),0%
@@ -18026,9 +18026,9 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,DONE
 2000-02,IN,PSV-20101,Instrument(PSV),Instrument(PSV),50%
 2000-02,IN,PSV-20102,Instrument(PSV),Instrument(PSV),50%
 2000-02,IN,PSV-20103,Instrument(PSV),Instrument(PSV),50%
-2000-02,IN,PSV-20151,Instrument(PSV),Instrument(PSV),0%
-2000-02,IN,PSV-20152,Instrument(PSV),Instrument(PSV),0%
-2000-02,IN,PSV-20153,Instrument(PSV),Instrument(PSV),0%
+2000-02,IN,PSV-20151,Instrument(PSV),Instrument(PSV),50%
+2000-02,IN,PSV-20152,Instrument(PSV),Instrument(PSV),50%
+2000-02,IN,PSV-20153,Instrument(PSV),Instrument(PSV),50%
 2000-03,IN,PSV-2019,Instrument(PSV),Instrument(PSV),50%
 3000-04,IN,PSV-20201,Instrument(PSV),Instrument(PSV),0%
 3000-04,IN,PSV-20202,Instrument(PSV),Instrument(PSV),50%
@@ -18139,14 +18139,14 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,DONE
 4000-02,IN,PSV-7010,Instrument(PSV),Instrument(PSV),0%
 4000-02,IN,PSV-7011,Instrument(PSV),Instrument(PSV),0%
 4000-02,IN,PSV-7012,Instrument(PSV),Instrument(PSV),0%
-4000-04,IN,PSV-70127A,Instrument(PSV),Instrument(PSV),0%
-4000-04,IN,PSV-70127B,Instrument(PSV),Instrument(PSV),0%
-4000-04,IN,PSV-70128A,Instrument(PSV),Instrument(PSV),0%
-4000-04,IN,PSV-70128B,Instrument(PSV),Instrument(PSV),0%
-4000-04,IN,PSV-70129A,Instrument(PSV),Instrument(PSV),0%
-4000-04,IN,PSV-70129B,Instrument(PSV),Instrument(PSV),0%
-4000-04,IN,PSV-70137A,Instrument(PSV),Instrument(PSV),0%
-4000-04,IN,PSV-70137B,Instrument(PSV),Instrument(PSV),0%
+4000-04,IN,PSV-70127A,Instrument(PSV),Instrument(PSV),50%
+4000-04,IN,PSV-70127B,Instrument(PSV),Instrument(PSV),50%
+4000-04,IN,PSV-70128A,Instrument(PSV),Instrument(PSV),50%
+4000-04,IN,PSV-70128B,Instrument(PSV),Instrument(PSV),50%
+4000-04,IN,PSV-70129A,Instrument(PSV),Instrument(PSV),50%
+4000-04,IN,PSV-70129B,Instrument(PSV),Instrument(PSV),50%
+4000-04,IN,PSV-70137A,Instrument(PSV),Instrument(PSV),50%
+4000-04,IN,PSV-70137B,Instrument(PSV),Instrument(PSV),50%
 4000-02,IN,PSV-7023,Instrument(PSV),Instrument(PSV),50%
 4000-02,IN,PSV-7024,Instrument(PSV),Instrument(PSV),50%
 4000-02,IN,PSV-7025,Instrument(PSV),Instrument(PSV),0%
@@ -18175,10 +18175,10 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,DONE
 7000-01,IN,PSV-71180,Instrument(PSV),Instrument(PSV),0%
 4000-04,IN,PSV-7130,Instrument(PSV),Instrument(PSV),50%
 4000-04,IN,PSV-7131,Instrument(PSV),Instrument(PSV),50%
-4000-02,IN,PSV-7132,Instrument(PSV),Instrument(PSV),50%
-4000-02,IN,PSV-7134,Instrument(PSV),Instrument(PSV),50%
+4000-02,IN,PSV-7132,Instrument(PSV),Instrument(PSV),Done
+4000-02,IN,PSV-7134,Instrument(PSV),Instrument(PSV),Done
 4000-04,IN,PSV-7135,Instrument(PSV),Instrument(PSV),50%
-4000-02,IN,PSV-7136,Instrument(PSV),Instrument(PSV),50%
+4000-02,IN,PSV-7136,Instrument(PSV),Instrument(PSV),Done
 4000-02,IN,PSV-7137,Instrument(PSV),Instrument(PSV),50%
 4000-04,IN,PSV-7142,Instrument(PSV),Instrument(PSV),50%
 4000-04,IN,PSV-7143,Instrument(PSV),Instrument(PSV),50%
@@ -18258,10 +18258,10 @@ NO SUBS.,IN,PT-1007,Instrument(PT),Instrument(PT),25%
 2000-02,IN,PT-20102C,Instrument(PT),Instrument(PT),25%
 2000-03,IN,PT-2015(NA),CABLE,CABLE(NA),0%
 2000-03,IN,PT-2015(PT),Instrument(PT),Instrument(PT),25%
-2000-02,IN,PT-20151,Instrument(PT),Instrument(PT),0%
-2000-02,IN,PT-20152A,Instrument(PT),Instrument(PT),0%
-2000-02,IN,PT-20152B,Instrument(PT),Instrument(PT),0%
-2000-02,IN,PT-20152C,Instrument(PT),Instrument(PT),0%
+2000-02,IN,PT-20151,Instrument(PT),Instrument(PT),25%
+2000-02,IN,PT-20152A,Instrument(PT),Instrument(PT),25%
+2000-02,IN,PT-20152B,Instrument(PT),Instrument(PT),25%
+2000-02,IN,PT-20152C,Instrument(PT),Instrument(PT),25%
 3000-04,IN,PT-20203,Instrument(PT),Instrument(PT),25%
 3000-04,IN,PT-20204,Instrument(PT),Instrument(PT),25%
 3000-04,IN,PT-20208,Instrument(PT),Instrument(PT),25%
@@ -18444,12 +18444,12 @@ NO SUBS.,IN,PT-1007,Instrument(PT),Instrument(PT),25%
 4000-02,IN,PT-7003(PT),Instrument(PT),Instrument(PT),Done
 4000-02,IN,PT-7004(NA),CABLE,CABLE(NA),0%
 4000-02,IN,PT-7004(PT),Instrument(PT),Instrument(PT),Done
-4000-04,IN,PT-70106A,Instrument(PT),Instrument(PT),0%
-4000-04,IN,PT-70106B,Instrument(PT),Instrument(PT),0%
-4000-04,IN,PT-70121A,Instrument(PT),Instrument(PT),0%
-4000-04,IN,PT-70121B,Instrument(PT),Instrument(PT),0%
-4000-04,IN,PT-70122A,Instrument(PT),Instrument(PT),0%
-4000-04,IN,PT-70122B,Instrument(PT),Instrument(PT),0%
+4000-04,IN,PT-70106A,Instrument(PT),Instrument(PT),25%
+4000-04,IN,PT-70106B,Instrument(PT),Instrument(PT),25%
+4000-04,IN,PT-70121A,Instrument(PT),Instrument(PT),25%
+4000-04,IN,PT-70121B,Instrument(PT),Instrument(PT),25%
+4000-04,IN,PT-70122A,Instrument(PT),Instrument(PT),25%
+4000-04,IN,PT-70122B,Instrument(PT),Instrument(PT),25%
 4000-02,IN,PT-7021(NA),CABLE,CABLE(NA),0%
 4000-02,IN,PT-7021(PT),Instrument(PT),Instrument(PT),25%
 4000-02,IN,PT-7025(NA),CABLE,CABLE(NA),50%
@@ -18504,7 +18504,7 @@ NO SUBS.,IN,PT-1007,Instrument(PT),Instrument(PT),25%
 1000-01,IN,PV-1045(PV),Instrument(PV),Instrument(PV),0%
 2000-03,IN,PV-2015(NA),CABLE,CABLE(NA),0%
 2000-03,IN,PV-2015(PV),Instrument(PV),Instrument(PV),0%
-2000-02,IN,PV-20153,Instrument(PV),Instrument(PV),0%
+2000-02,IN,PV-20153,Instrument(PV),Instrument(PV),25%
 3000-04,IN,PV-20237,Instrument(PV),Instrument(PV),0%
 7000-01,IN,PV-2073(NA),CABLE,CABLE(NA),0%
 7000-01,IN,PV-2073(PV),Instrument(PV),Instrument(PV),0%
@@ -19180,12 +19180,12 @@ NO SUBS.,IN,SDR-04,Fire Alarm,Fire Alarm(SDR),0%
 2000-02,IN,SE-20102B,Instrument(SE),Instrument(SE),Done
 2000-02,IN,SE-20102C,Instrument(SE),Instrument(SE),Done
 2000-02,IN,SE-20103,Instrument(SE),Instrument(SE),Done
-2000-02,IN,SE-20151A,Instrument(SE),Instrument(SE),0%
-2000-02,IN,SE-20151B,Instrument(SE),Instrument(SE),0%
-2000-02,IN,SE-20152A,Instrument(SE),Instrument(SE),0%
-2000-02,IN,SE-20152B,Instrument(SE),Instrument(SE),0%
-2000-02,IN,SE-20152C,Instrument(SE),Instrument(SE),0%
-2000-02,IN,SE-20153,Instrument(SE),Instrument(SE),0%
+2000-02,IN,SE-20151A,Instrument(SE),Instrument(SE),Done
+2000-02,IN,SE-20151B,Instrument(SE),Instrument(SE),Done
+2000-02,IN,SE-20152A,Instrument(SE),Instrument(SE),Done
+2000-02,IN,SE-20152B,Instrument(SE),Instrument(SE),Done
+2000-02,IN,SE-20152C,Instrument(SE),Instrument(SE),Done
+2000-02,IN,SE-20153,Instrument(SE),Instrument(SE),Done
 3000-01,IN,SE-30103A,Instrument(SE),Instrument(SE),0%
 3000-01,IN,SE-30103A_REC,PKG,PKG,0%
 3000-01,IN,SE-30103B,Instrument(SE),Instrument(SE),0%
@@ -20016,22 +20016,22 @@ NO SUBS.,IN,TE-1007,Instrument(TE),Instrument(TE),33%
 2000-02,IN,TE-20132,Instrument(TE),Instrument(TE),33%
 2000-02,IN,TE-20133,Instrument(TE),Instrument(TE),0%
 2000-02,IN,TE-20140,Instrument(TE),Instrument(TE),33%
-2000-02,IN,TE-20151,Instrument(TE),Instrument(TE),0%
-2000-02,IN,TE-20152,Instrument(TE),Instrument(TE),0%
+2000-02,IN,TE-20151,Instrument(TE),Instrument(TE),33%
+2000-02,IN,TE-20152,Instrument(TE),Instrument(TE),33%
 2000-02,IN,TE-20153(NA),CABLE,CABLE(NA),0%
 2000-02,IN,TE-20153(TE),Instrument(TE),Instrument(TE),0%
-2000-02,IN,TE-20154,Instrument(TE),Instrument(TE),0%
-2000-02,IN,TE-20155,Instrument(TE),Instrument(TE),0%
-2000-02,IN,TE-20156,Instrument(TE),Instrument(TE),0%
-2000-02,IN,TE-20157,Instrument(TE),Instrument(TE),0%
-2000-02,IN,TE-20158,Instrument(TE),Instrument(TE),0%
-2000-02,IN,TE-20159,Instrument(TE),Instrument(TE),0%
-2000-02,IN,TE-20160,Instrument(TE),Instrument(TE),0%
-2000-02,IN,TE-20161,Instrument(TE),Instrument(TE),0%
-2000-02,IN,TE-20162,Instrument(TE),Instrument(TE),0%
-2000-02,IN,TE-20163,Instrument(TE),Instrument(TE),0%
-2000-02,IN,TE-20164,Instrument(TE),Instrument(TE),0%
-2000-02,IN,TE-20165,Instrument(TE),Instrument(TE),0%
+2000-02,IN,TE-20154,Instrument(TE),Instrument(TE),33%
+2000-02,IN,TE-20155,Instrument(TE),Instrument(TE),33%
+2000-02,IN,TE-20156,Instrument(TE),Instrument(TE),33%
+2000-02,IN,TE-20157,Instrument(TE),Instrument(TE),33%
+2000-02,IN,TE-20158,Instrument(TE),Instrument(TE),33%
+2000-02,IN,TE-20159,Instrument(TE),Instrument(TE),33%
+2000-02,IN,TE-20160,Instrument(TE),Instrument(TE),33%
+2000-02,IN,TE-20161,Instrument(TE),Instrument(TE),33%
+2000-02,IN,TE-20162,Instrument(TE),Instrument(TE),33%
+2000-02,IN,TE-20163,Instrument(TE),Instrument(TE),33%
+2000-02,IN,TE-20164,Instrument(TE),Instrument(TE),33%
+2000-02,IN,TE-20165,Instrument(TE),Instrument(TE),33%
 2000-02,IN,TE-20166,Instrument(TE),Instrument(TE),0%
 2000-02,IN,TE-20167,Instrument(TE),Instrument(TE),0%
 2000-02,IN,TE-20168,Instrument(TE),Instrument(TE),0%
@@ -20048,9 +20048,9 @@ NO SUBS.,IN,TE-1007,Instrument(TE),Instrument(TE),33%
 2000-02,IN,TE-20179,Instrument(TE),Instrument(TE),0%
 2000-02,IN,TE-20180,Instrument(TE),Instrument(TE),0%
 2000-02,IN,TE-20181,Instrument(TE),Instrument(TE),0%
-2000-02,IN,TE-20182(TE),Instrument(TE),Instrument(TE),0%
+2000-02,IN,TE-20182(TE),Instrument(TE),Instrument(TE),33%
 2000-02,IN,TE-20183,Instrument(TE),Instrument(TE),0%
-2000-02,IN,TE-20190,Instrument(TE),Instrument(TE),0%
+2000-02,IN,TE-20190,Instrument(TE),Instrument(TE),33%
 2000-03,IN,TE-2039(NA),CABLE,CABLE(NA),0%
 2000-03,IN,TE-2039(TE),Instrument(TE),Instrument(TE),67%
 2000-03,IN,TE-2044(NA),CABLE,CABLE(NA),0%
@@ -20695,9 +20695,9 @@ NO SUBS.,IN,TE-1007,Instrument(TE),Instrument(TE),33%
 2000-03,IN,TG-2013,Instrument(TG),Instrument(TG),DONE
 2000-02,IN,TG-20151,Instrument(TG),Instrument(TG),0%
 2000-02,IN,TG-20152,Instrument(TG),Instrument(TG),0%
-2000-02,IN,TG-20153,Instrument(TG),Instrument(TG),0%
-2000-02,IN,TG-20154,Instrument(TG),Instrument(TG),0%
-2000-02,IN,TG-20155,Instrument(TG),Instrument(TG),0%
+2000-02,IN,TG-20153,Instrument(TG),Instrument(TG),50%
+2000-02,IN,TG-20154,Instrument(TG),Instrument(TG),50%
+2000-02,IN,TG-20155,Instrument(TG),Instrument(TG),50%
 2000-02,IN,TG-20156,Instrument(TG),Instrument(TG),0%
 2000-02,IN,TG-20157,Instrument(TG),Instrument(TG),0%
 2000-02,IN,TG-20158,Instrument(TG),Instrument(TG),0%
@@ -21005,8 +21005,8 @@ FGS-01,IN,TGD-0022(TGD),Fire Alarm,Fire Alarm(TGD),0%
 120-13,EL,TR02-NBB01,Cathodic Protection,Cable 1x35,DONE
 2000-02,IN,TRV-20101,Instrument(TRV),Instrument(TRV),50%
 2000-02,IN,TRV-20102,Instrument(TRV),Instrument(TRV),50%
-2000-02,IN,TRV-20151,Instrument(TRV),Instrument(TRV),0%
-2000-02,IN,TRV-20152,Instrument(TRV),Instrument(TRV),0%
+2000-02,IN,TRV-20151,Instrument(TRV),Instrument(TRV),50%
+2000-02,IN,TRV-20152,Instrument(TRV),Instrument(TRV),50%
 3000-01,IN,TS-30139,Instrument(TS),Instrument(TS),0%
 2000-03,IN,TSE-2047A(NA),CABLE,CABLE(NA),0%
 2000-03,IN,TSE-2047A(TSE),Instrument(TSE),Instrument(TSE),0%
@@ -21277,7 +21277,7 @@ NO SUBS.,IN,TT-1007,Instrument(TT),Instrument(TT),50%
 2000-02,IN,TT-20162,Instrument(TT),Instrument(TT),0%
 2000-02,IN,TT-20163,Instrument(TT),Instrument(TT),0%
 2000-02,IN,TT-20164,Instrument(TT),Instrument(TT),0%
-2000-02,IN,TT-20165,Instrument(TT),Instrument(TT),0%
+2000-02,IN,TT-20165,Instrument(TT),Instrument(TT),50%
 2000-02,IN,TT-20166,Instrument(TT),Instrument(TT),0%
 2000-02,IN,TT-20167,Instrument(TT),Instrument(TT),0%
 2000-02,IN,TT-20168,Instrument(TT),Instrument(TT),0%
@@ -21294,7 +21294,7 @@ NO SUBS.,IN,TT-1007,Instrument(TT),Instrument(TT),50%
 2000-02,IN,TT-20179,Instrument(TT),Instrument(TT),0%
 2000-02,IN,TT-20180,Instrument(TT),Instrument(TT),0%
 2000-02,IN,TT-20181,Instrument(TT),Instrument(TT),0%
-2000-02,IN,TT-20182(TT),Instrument(TT),Instrument(TT),0%
+2000-02,IN,TT-20182(TT),Instrument(TT),Instrument(TT),50%
 2000-02,IN,TT-20183,Instrument(TT),Instrument(TT),0%
 2000-02,IN,TT-20190,Instrument(TT),Instrument(TT),0%
 3000-04,IN,TT-20202,Instrument(TT),Instrument(TT),50%
@@ -21690,10 +21690,10 @@ NO SUBS.,IN,TT-30147 (),PKG,PKG,0%
 4000-02,IN,TT-7004(TT),Instrument(TT),Instrument(TT),DONE
 4000-02,IN,TT-7007(NA),CABLE,CABLE(NA),50%
 4000-02,IN,TT-7007(TT),Instrument(TT),Instrument(TT),DONE
-4000-04,IN,TT-70133A,Instrument(TT),Instrument(TT),0%
-4000-04,IN,TT-70133B,Instrument(TT),Instrument(TT),0%
-4000-04,IN,TT-70141A,Instrument(TT),Instrument(TT),0%
-4000-04,IN,TT-70141B,Instrument(TT),Instrument(TT),0%
+4000-04,IN,TT-70133A,Instrument(TT),Instrument(TT),50%
+4000-04,IN,TT-70133B,Instrument(TT),Instrument(TT),50%
+4000-04,IN,TT-70141A,Instrument(TT),Instrument(TT),50%
+4000-04,IN,TT-70141B,Instrument(TT),Instrument(TT),50%
 4000-02,IN,TT-7021(NA),CABLE,CABLE(NA),0%
 4000-02,IN,TT-7021(TT),Instrument(TT),Instrument(TT),0%
 4000-02,IN,TT-7025(NA),CABLE,CABLE(NA),50%
@@ -21739,7 +21739,7 @@ NO SUBS.,IN,TT-30147 (),PKG,PKG,0%
 1000-04,IN,TT-84205,Instrument(TT),Instrument(TT),0%
 1000-04,IN,TT-84208,Instrument(TT),Instrument(TT),0%
 2000-02,IN,TV-20103,Instrument(TV),Instrument(TV),25%
-2000-02,IN,TV-20153,Instrument(TV),Instrument(TV),0%
+2000-02,IN,TV-20153,Instrument(TV),Instrument(TV),25%
 1000-01,IN,TV-2220(NA),CABLE,CABLE(NA),0%
 1000-01,IN,TV-2220(TV),Instrument(TV),Instrument(TV),0%
 2000-04,IN,TV-2360-11(NA),CABLE,CABLE(NA),0%
@@ -24357,7 +24357,7 @@ DCS-01,IN,XS-Synch-2002,SIGNAL,SIGNAL,DONE
 DCS-01,IN,XS-Synch-3001,SIGNAL,SIGNAL,DONE
 DCS-01,IN,XS-Synch-7502,SIGNAL,SIGNAL,DONE
 2000-02,IN,XV-20105,Instrument(XV),Instrument(XV),25%
-2000-02,IN,XV-20155,Instrument(XV),Instrument(XV),0%
+2000-02,IN,XV-20155,Instrument(XV),Instrument(XV),25%
 3000-02,IN,XV-30001(NA),CABLE,CABLE(NA),0%
 3000-02,IN,XV-30001(XV),Instrument(XV),Instrument(XV),0%
 4000-08,IN,XV-8001,Instrument(XV),Instrument(XV),DONE
@@ -24381,7 +24381,7 @@ DCS-01,IN,XS-Synch-7502,SIGNAL,SIGNAL,DONE
 4000-08,IN,XV-8020,Instrument(XV),Instrument(XV),DONE
 4000-08,IN,XV-8021,Instrument(XV),Instrument(XV),DONE
 2000-02,IN,XY-20105,Instrument(X),Instrument(XY),Done
-2000-02,IN,XY-20155,Instrument(X),Instrument(XY),0%
+2000-02,IN,XY-20155,Instrument(X),Instrument(XY),Done
 4000-08,IN,XY-8001(NA),CABLE,CABLE(NA),0%
 4000-08,IN,XY-8001(XY),Instrument(X),Instrument(XY),0%
 4000-08,IN,XY-8002(NA),CABLE,CABLE(NA),0%
