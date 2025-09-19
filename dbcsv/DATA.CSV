@@ -28,7 +28,7 @@
 120,120-13,Electrical Distribution Substation,Cathodic Protection System,EL,373,373,0,482,472,10,0
 120,120-14,Electrical Distribution Substation,Electric Heat Tracing System,EL,3,0,0,0,0,0,3
 120,120-15,Electrical Distribution Substation,Capacitor Bank,EL,5,5,0,42,14,28,0
-120,120-16,Electrical Distribution Substation,MV Transformer,EL,12,12,0,50,46,4,0
+120,120-16,Electrical Distribution Substation,MV Transformer,EL,12,12,0,50,50,0,0
 120,120-17,Electrical Distribution Substation,LV Transformer,EL,15,15,0,104,104,0,0
 120,120-18,Electrical Distribution Substation,E/I Cabinet,EL,16,16,0,54,44,10,0
 120,120-18,Electrical Distribution Substation,E/I Cabinet,IN,16,16,0,12,12,0,0
@@ -53,7 +53,7 @@
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,19,7,12,0
 2000,2000-06,Reforming,Nitrogen Circuit,IN,114,16,0,96,4,92,13
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,0,0,0,0,0
-3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,0,0,0,0,0,0
+3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,2,0,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,35,0,430,7,423,21
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,32,0,66,22,44,12
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,0,8,0,8,0
@@ -95,7 +95,7 @@
 4000,4000-08,Utility,Cooling Water,IN,745,471,0,256,20,236,533
 4000,4000-08,Utility,Cooling Water,EL,6,2,0,12,0,12,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,26,0,0,0,0,26
-4000,4000-09,Utility,Oily Water Treatment,PI,225,87,0,33,17,16,4
+4000,4000-09,Utility,Oily Water Treatment,PI,225,93,0,33,17,16,4
 4000,4000-09,Utility,Oily Water Treatment,MER,3,0,0,3,0,3,0
 4000,4000-10,Utility,Sanitary Water Collection,IN,12,4,0,0,0,0,4
 4000,4000-10,Utility,Sanitary Water Collection,PI,14,5,0,3,1,2,2
