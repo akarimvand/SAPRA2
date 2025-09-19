@@ -16139,7 +16139,7 @@ EL,E30-09(ES-08),Earthig & Lightning Work T,0
 EL,E30-09(ES-09),Earthig & Lightning Work T,0
 EL,E30-09(ES-11),Earthig & Lightning Work T,1
 EL,E3-01,Earthig & Lightning Work T,1
-MES,E-3010,Exchanger,1
+MES,E-3010,Exchanger,0
 MES,E-3010,Plate Heat Exchanger,1
 MES,E-3010,Package Mechanical,1
 MES,E-3010,Piping to Eq. Report(MES),1
@@ -16173,10 +16173,10 @@ EL,E30-111,Earthig & Lightning Work T,1
 EL,E30-112,Earthig & Lightning Work T,1
 EL,E30-113,Earthig & Lightning Work T,1
 EL,E30-114,Earthig & Lightning Work T,1
-MES,E-3012,Exchanger,0
-MES,E-3012,Plate Heat Exchanger,0
+MES,E-3012,Exchanger,1
+MES,E-3012,Plate Heat Exchanger,1
 MES,E-3012,Package Mechanical,1
-MES,E-3012,Piping to Eq. Report(MES),0
+MES,E-3012,Piping to Eq. Report(MES),1
 EL,E30-12(ES-06),Earthig & Lightning Work T,0
 EL,E30-12(ES-07),Earthig & Lightning Work T,0
 EL,E30-12(ES-08),Earthig & Lightning Work T,0
