@@ -95,7 +95,7 @@
 4000,4000-08,Utility,Cooling Water,IN,745,471,0,256,20,236,533
 4000,4000-08,Utility,Cooling Water,EL,6,2,0,12,0,12,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,26,0,0,0,0,26
-4000,4000-09,Utility,Oily Water Treatment,PI,225,84,0,33,17,16,4
+4000,4000-09,Utility,Oily Water Treatment,PI,225,87,0,33,17,16,4
 4000,4000-09,Utility,Oily Water Treatment,MER,3,0,0,3,0,3,0
 4000,4000-10,Utility,Sanitary Water Collection,IN,12,4,0,0,0,0,4
 4000,4000-10,Utility,Sanitary Water Collection,PI,14,5,0,3,1,2,2
@@ -149,7 +149,7 @@ BLD,BLD-05,Building,Diesel Room,CV,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,PI,3,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,CV,14,14,0,31,2,29,0
 BLD,BLD-07,Building,Analyzer House,CV,8,8,0,19,1,18,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,1148,0,1902,855,1047,805
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,1148,0,1902,906,996,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2191,2190,1,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,187,0,417,417,0,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,18,13,5,0
@@ -189,7 +189,7 @@ LS,LS-08,Lighting System,Lighting System for Area-03,EL,440,0,0,192,108,84,0
 LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,0,0,309,171,138,0
 LS,LS-10,Lighting System,Lighting System for Area-05,EL,706,0,0,268,0,268,0
 LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,0,0,362,217,145,0
-LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,0,0,362,186,176,0
+LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,0,0,362,196,166,0
 LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,64,0,182,142,40,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,EL,13,0,0,0,0,0,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,78,0,0,24,0,24,0
@@ -201,7 +201,7 @@ TEL,TEL-04,Telecom Systems,Telecom System for Area-04,EL,37,0,0,0,0,0,0
 TEL,TEL-05,Telecom Systems,Telecom System for Area-05,EL,71,0,0,0,0,0,0
 TEL,TEL-06,Telecom Systems,Telecom System for Area-06,EL,46,0,0,10,4,6,0
 TEL,TEL-07,Telecom Systems,Telecom System for Area-07,EL,43,14,0,129,75,54,0
-TEL,TEL-08,Telecom Systems,Telecom System for Substation,EL,30,30,0,39,3,36,0
+TEL,TEL-08,Telecom Systems,Telecom System for Substation,EL,30,30,0,39,6,33,0
 TEL,TEL-09,Telecom Systems,Telecom System for Control Building,EL,103,0,0,10,0,10,5
 TEL,TEL-09,Telecom Systems,Telecom System for Control Building,IN,1,1,0,7,5,2,0
 TEL,TEL-10,Telecom Systems,Telecom System for Laboratory,EL,89,0,0,0,0,0,0
