@@ -5264,36 +5264,36 @@ FGS-01,IN,PSL-0051,SIGNAL,,After Energization The control Room (Hold Sequence),E
 4000-06,IN,RO-8411,Instrument(RO),,Not Permission (owner),Permission
 1000-04,IN,RO-84117,Instrument(RO),,Hold (Matrial Shortage)/Not Permission (owner),Material Shortage
 4000-06,IN,RO-8412,Instrument(RO),,Not Permission (owner),Permission
-FGS-02,IN,RO-9001A,Fire Fighting,,Not Permission (owner),Permission
-FGS-04,IN,RO-9002A,Fire Fighting,,Not Permission (owner),Permission
-FGS-04,IN,RO-9003A,Fire Fighting,,Not Permission (owner),Permission
-FGS-05,IN,RO-9004A,Fire Fighting,,Not Permission (owner),Permission
-FGS-05,IN,RO-9005A,Fire Fighting,,Not Permission (owner),Permission
-FGS-04,IN,RO-9006A,Fire Fighting,,Not Permission (owner),Permission
-FGS-02,IN,RO-9007A,Fire Fighting,,Not Permission (owner),Permission
-FGS-04,IN,RO-9008A,Fire Fighting,,Not Permission (owner),Permission
-FGS-04,IN,RO-9009A,Fire Fighting,,Not Permission (owner),Permission
-FGS-03,IN,RO-9010A,Fire Fighting,,Not Permission (owner),Permission
-FGS-03,IN,RO-9011A,Fire Fighting,,Not Permission (owner),Permission
-FGS-03,IN,RO-9012A,Fire Fighting,,Not Permission (owner),Permission
-FGS-03,IN,RO-9013A,Fire Fighting,,Not Permission (owner),Permission
-FGS-03,IN,RO-9014A,Fire Fighting,,Not Permission (owner),Permission
-FGS-03,IN,RO-9015A,Fire Fighting,,Not Permission (owner),Permission
-FGS-03,IN,RO-9016A,Fire Fighting,,Not Permission (owner),Permission
-FGS-03,IN,RO-9017A,Fire Fighting,,Not Permission (owner),Permission
-FGS-04,IN,RO-9018A,Fire Fighting,,Not Permission (owner),Permission
-FGS-02,IN,RO-9019A,Fire Fighting,,Not Permission (owner),Permission
-FGS-04,IN,RO-9020A,Fire Fighting,,Not Permission (owner),Permission
-FGS-02,IN,RO-9021A,Fire Fighting,,Not Permission (owner),Permission
-FGS-05,IN,RO-9022A,Fire Fighting,,Not Permission (owner),Permission
-FGS-05,IN,RO-9023A,Fire Fighting,,Not Permission (owner),Permission
-FGS-02,IN,RO-9024A,Fire Fighting,,Not Permission (owner),Permission
-FGS-02,IN,RO-9025A,Fire Fighting,,Not Permission (owner),Permission
-FGS-02,IN,RO-9026A,Fire Fighting,,Not Permission (owner),Permission
-FGS-02,IN,RO-9027A,Fire Fighting,,Not Permission (owner),Permission
-FGS-02,IN,RO-9028A,Fire Fighting,,Not Permission (owner),Permission
-FGS-02,IN,RO-9029A,Fire Fighting,,Not Permission (owner),Permission
-FGS-04,IN,RO-9030A,Fire Fighting,,Not Permission (owner),Permission
+FGS-02,IN,RO-9001A,Instrument(RO),,Not Permission (owner),Permission
+FGS-04,IN,RO-9002A,Instrument(RO),,Not Permission (owner),Permission
+FGS-04,IN,RO-9003A,Instrument(RO),,Not Permission (owner),Permission
+FGS-05,IN,RO-9004A,Instrument(RO),,Not Permission (owner),Permission
+FGS-05,IN,RO-9005A,Instrument(RO),,Not Permission (owner),Permission
+FGS-04,IN,RO-9006A,Instrument(RO),,Not Permission (owner),Permission
+FGS-02,IN,RO-9007A,Instrument(RO),,Not Permission (owner),Permission
+FGS-04,IN,RO-9008A,Instrument(RO),,Not Permission (owner),Permission
+FGS-04,IN,RO-9009A,Instrument(RO),,Not Permission (owner),Permission
+FGS-03,IN,RO-9010A,Instrument(RO),,Not Permission (owner),Permission
+FGS-03,IN,RO-9011A,Instrument(RO),,Not Permission (owner),Permission
+FGS-03,IN,RO-9012A,Instrument(RO),,Not Permission (owner),Permission
+FGS-03,IN,RO-9013A,Instrument(RO),,Not Permission (owner),Permission
+FGS-03,IN,RO-9014A,Instrument(RO),,Not Permission (owner),Permission
+FGS-03,IN,RO-9015A,Instrument(RO),,Not Permission (owner),Permission
+FGS-03,IN,RO-9016A,Instrument(RO),,Not Permission (owner),Permission
+FGS-03,IN,RO-9017A,Instrument(RO),,Not Permission (owner),Permission
+FGS-04,IN,RO-9018A,Instrument(RO),,Not Permission (owner),Permission
+FGS-02,IN,RO-9019A,Instrument(RO),,Not Permission (owner),Permission
+FGS-04,IN,RO-9020A,Instrument(RO),,Not Permission (owner),Permission
+FGS-02,IN,RO-9021A,Instrument(RO),,Not Permission (owner),Permission
+FGS-05,IN,RO-9022A,Instrument(RO),,Not Permission (owner),Permission
+FGS-05,IN,RO-9023A,Instrument(RO),,Not Permission (owner),Permission
+FGS-02,IN,RO-9024A,Instrument(RO),,Not Permission (owner),Permission
+FGS-02,IN,RO-9025A,Instrument(RO),,Not Permission (owner),Permission
+FGS-02,IN,RO-9026A,Instrument(RO),,Not Permission (owner),Permission
+FGS-02,IN,RO-9027A,Instrument(RO),,Not Permission (owner),Permission
+FGS-02,IN,RO-9028A,Instrument(RO),,Not Permission (owner),Permission
+FGS-02,IN,RO-9029A,Instrument(RO),,Not Permission (owner),Permission
+FGS-04,IN,RO-9030A,Instrument(RO),,Not Permission (owner),Permission
 2000-02,IN,SC-2119,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
 2000-02,IN,SC-2167,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
 4000-04,IN,SE-70157A,Instrument(SE),,Not Permission (owner),Permission
