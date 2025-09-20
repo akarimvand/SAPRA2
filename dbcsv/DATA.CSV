@@ -9,7 +9,7 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,0,0,0,0,0,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,2,0,12,2,10,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,119,0,116,49,67,107
-1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,46,0,168,67,101,57
+1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,46,0,168,68,100,57
 1000,1000-04,Gas Preparation,Gas Station,IN,66,21,0,0,0,0,21
 1000,1000-04,Gas Preparation,Gas Station,PI,1,0,0,0,0,0,1
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,63,0,1526,1075,451,2
@@ -95,7 +95,7 @@
 4000,4000-08,Utility,Cooling Water,IN,745,471,0,256,20,236,533
 4000,4000-08,Utility,Cooling Water,EL,6,2,0,12,0,12,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,26,0,0,0,0,26
-4000,4000-09,Utility,Oily Water Treatment,PI,225,93,0,33,17,16,4
+4000,4000-09,Utility,Oily Water Treatment,PI,225,104,0,34,17,17,4
 4000,4000-09,Utility,Oily Water Treatment,MER,3,0,0,3,0,3,0
 4000,4000-10,Utility,Sanitary Water Collection,IN,12,4,0,0,0,0,4
 4000,4000-10,Utility,Sanitary Water Collection,PI,14,5,0,3,1,2,2
@@ -147,7 +147,7 @@ BLD,BLD-03,Building,Laboratory,CV,14,0,0,0,0,0,0
 BLD,BLD-04,Building,Security Building,CV,14,14,0,0,0,0,0
 BLD,BLD-05,Building,Diesel Room,CV,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,PI,3,0,0,0,0,0,0
-BLD,BLD-06,Building,Warehouse Building,CV,14,14,0,31,2,29,0
+BLD,BLD-06,Building,Warehouse Building,CV,14,14,0,31,3,28,0
 BLD,BLD-07,Building,Analyzer House,CV,8,8,0,19,1,18,0
 DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,1148,0,1902,906,996,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2191,2190,1,0
