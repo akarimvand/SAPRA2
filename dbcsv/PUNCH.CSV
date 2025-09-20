@@ -1221,7 +1221,6 @@ TEL-07,EL,07-SP-15,Paging Device,C,Preservation shall be done.,PL-17137
 2000-05,PI,2000-05-PRC-25-885,PI_TP,C,ALL INSTRUMENT DEVICE SHOULD BE INSTYALLED (LT: 2403-1|2 & LST : 2404-1|2 AND LG:2405),PL-02317
 2000-05,PI,2000-05-PRC-25-885,PI_TP,C,DEM WATER ANALYZE SHALL BE ATTACH,PL-02318
 2000-05,PI,2000-05-PRC-25-885,PI_TP,C,ALL VALVES SHALL BE LUBRICATE,PL-02319
-1000-03,PI,2000-05-PRC-28-928,PI_TP,B,ALL ORIGINAL B|N|G SHAHOULD BE INSTALLED AFTER TEST,PL-01679
 2000-05,PI,2000-05-RFG-01-071,PI_TP,C,(TV-5277) SHALL BE INSTALLED AFTER TEST,PL-00187
 2000-05,PI,2000-05-RFG-01-071,PI_TP,C,PMI SHALL BE DONE BEFORE PRECOMM,PL-00192
 2000-05,PI,2000-05-RFG-02-123,PI_TP,C,(TI 5040) AND (TI 5064) SHOULD BE INSTALLED BEFORE COMM,PL-01162
@@ -2645,6 +2644,7 @@ TEL-07,EL,07-SP-15,Paging Device,C,Preservation shall be done.,PL-17137
 4000-14,PI,64-FW-UG-KC-104,PI_TP,C,INSULATION KIT SHALL BE INSTALL,PL-23735
 4000-14,PI,64-FW-UG-KC-104,PI_TP,C,"B.FLY 6"" PT NO:11 & B.FLY 4"" PT NO:12 SHALL BE INSTALL",PL-23736
 4000-13,PI,64-PMP-UG-KC-088,PI_TP,B,All Original Bolt | Nut | Gasket Shall Be Installed After Test,PL-23715
+4000-09,PI,64-WWO-UG-KC-085,PI_TP,C,UDD Shall Be Revise,PL-29972
 4000-08,PI,65-CWR-043,PI_TP,B,All Original Gasket Sall Be Install After Test,PL-24110
 4000-08,PI,65-CWR-043,PI_TP,B,All Flang Shall Be Blind,PL-24111
 4000-08,PI,65-CWR-043,PI_TP,B,Line Is Wet Due To Raining After Drying,PL-24112
@@ -6841,7 +6841,6 @@ BLD-01,CV,Foundation(BLD-01),01-Foundation,A,پر کردن درز انبساط p
 BLD-01,CV,Foundation(BLD-01),01-Foundation,A,تکميل paving داخل ترانس ,PL-23505
 BLD-01,CV,Foundation(BLD-01),01-Foundation,A,تکميل ديوار بلوکي ديچ ترانس هاي mv و ساخت اسلب آنها,PL-23507
 BLD-06,CV,Foundation(BLD-06),01-Foundation,C,تهيه و نصب و اجراي دوش و آبگرمکن در سرويس بهداشتي طبقه همکف به همراه کليه ي اتصالات,PL-24126
-BLD-06,CV,Foundation(BLD-06),01-Foundation,C,نصب و ساخت درپوش هاي بتني اطراف ساختمان  IC ،EP,PL-24140
 BLD-06,CV,Foundation(BLD-06),01-Foundation,C,اصلاح رمپ ورودي ,PL-24133
 BLD-06,CV,Foundation(BLD-06),01-Foundation,B,بند کشي سنگ اطراف درب ورودي طبقه اول,PL-24129
 BLD-06,CV,Foundation(BLD-06),01-Foundation,B,پرکردن درزهاي PAVING بوسيله ماستيک,PL-24519
