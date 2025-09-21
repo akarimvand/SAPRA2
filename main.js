@@ -1,38 +1,44 @@
 // Initialize form counts
-        window.formCounts = {
-            formA: 0,
-            formB: 0,
-            formC: 0,
-            formD: 0
-        };
+window.formCounts = {
+    formA: 0,
+    formB: 0,
+    formC: 0,
+    formD: 0
+};
 
-        // --- Constants ---
-        const CSV_URL = "dbcsv/DATA.CSV";
-        const ITEMS_CSV_URL = "dbcsv/ITEMS.CSV"; // Added detailed items URL
-        const PUNCH_CSV_URL = "dbcsv/PUNCH.CSV"; // Added punch items URL
-        const HOLD_POINT_CSV_URL = "dbcsv/HOLD_POINT.CSV"; // Added hold point items URL
-        const COLORS_STATUS_CHARTJS = {
-            done: 'rgba(76, 175, 80, 0.8)',    // success
-            pending: 'rgba(255, 166, 0, 0.8)', // warning
-            remaining: 'rgba(0, 146, 202, 0.8)' // info
-        };
-const ACTIVITIES_CSV_URL = "dbcsv/ACTIVITES.CSV";
-        // Icon SVGs (simplified for direct use, could be more complex if needed)
-        const ICONS = {
-             Collection: '<i class="bi bi-collection" aria-hidden="true"></i>',
-             Folder: '<i class="bi bi-folder" aria-hidden="true"></i>',
-             Puzzle: '<i class="bi bi-puzzle" aria-hidden="true"></i>',
-             ChevronRight: '<i class="bi bi-chevron-right chevron-toggle" aria-hidden="true"></i>',
-             CheckCircle: '<i class="bi bi-check-circle" aria-hidden="true"></i>',
-             Clock: '<i class="bi bi-clock" aria-hidden="true"></i>',
-             ArrowRepeat: '<i class="bi bi-arrow-repeat" aria-hidden="true"></i>',
-             ExclamationTriangle: '<i class="bi bi-exclamation-triangle" aria-hidden="true"></i>',
-             FileEarmarkText: '<i class="bi bi-file-earmark-text" aria-hidden="true"></i>',
-             FileEarmarkCheck: '<i class="bi bi-file-earmark-check" aria-hidden="true"></i>',
-             FileEarmarkMedical: '<i class="bi bi-file-earmark-medical" aria-hidden="true"></i>',
-             FileEarmarkSpreadsheet: '<i class="bi bi-file-earmark-spreadsheet" aria-hidden="true"></i>',
-             PieChartIcon: '<i class="bi bi-pie-chart-fill fs-1" aria-hidden="true"></i>'
-        };
+// --- Constants ---
+// ✅ Changed to use GitHub raw URLs to bypass CSP restrictions when running via file://
+const GITHUB_BASE_URL = "https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/dbcsv/";
+
+const CSV_URL = GITHUB_BASE_URL + "DATA.CSV";
+const ITEMS_CSV_URL = GITHUB_BASE_URL + "ITEMS.CSV";
+const PUNCH_CSV_URL = GITHUB_BASE_URL + "PUNCH.CSV";
+const HOLD_POINT_CSV_URL = GITHUB_BASE_URL + "HOLD_POINT.CSV";
+const ACTIVITIES_CSV_URL = GITHUB_BASE_URL + "ACTIVITES.CSV"; // Preserving original filename
+
+const COLORS_STATUS_CHARTJS = {
+    done: 'rgba(76, 175, 80, 0.8)',    // success
+    pending: 'rgba(255, 166, 0, 0.8)', // warning
+    remaining: 'rgba(0, 146, 202, 0.8)' // info
+};
+
+// Icon SVGs (simplified for direct use, could be more complex if needed)
+const ICONS = {
+    Collection: '<i class="bi bi-collection" aria-hidden="true"></i>',
+    Folder: '<i class="bi bi-folder" aria-hidden="true"></i>',
+    Puzzle: '<i class="bi bi-puzzle" aria-hidden="true"></i>',
+    ChevronRight: '<i class="bi bi-chevron-right chevron-toggle" aria-hidden="true"></i>',
+    CheckCircle: '<i class="bi bi-check-circle" aria-hidden="true"></i>',
+    Clock: '<i class="bi bi-clock" aria-hidden="true"></i>',
+    ArrowRepeat: '<i class="bi bi-arrow-repeat" aria-hidden="true"></i>',
+    ExclamationTriangle: '<i class="bi bi-exclamation-triangle" aria-hidden="true"></i>',
+    FileEarmarkText: '<i class="bi bi-file-earmark-text" aria-hidden="true"></i>',
+    FileEarmarkCheck: '<i class="bi bi-file-earmark-check" aria-hidden="true"></i>',
+    FileEarmarkMedical: '<i class="bi bi-file-earmark-medical" aria-hidden="true"></i>',
+    FileEarmarkSpreadsheet: '<i class="bi bi-file-earmark-spreadsheet" aria-hidden="true"></i>',
+    PieChartIcon: '<i class="bi bi-pie-chart-fill fs-1" aria-hidden="true"></i>'
+};
+
 
         // --- Global State ---
         let processedData = { systemMap: {}, subSystemMap: {}, allRawData: [] };
