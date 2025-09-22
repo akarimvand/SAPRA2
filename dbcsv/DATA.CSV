@@ -24,7 +24,7 @@
 120,120-10,Electrical Distribution Substation,SS-CH-01 for Electrical Supply 110V DC,EL,24,5,0,167,46,121,0
 120,120-11,Electrical Distribution Substation,SS-UPS-01 for Safety Lighting Supply 230 AC UPS,EL,18,0,0,70,12,58,0
 120,120-12,Electrical Distribution Substation,SS PDCS System,EL,10,2,0,15,3,12,2
-120,120-13,Electrical Distribution Substation,Cathodic Protection System,EL,373,373,0,482,472,10,0
+120,120-13,Electrical Distribution Substation,Cathodic Protection System,EL,373,373,0,482,474,8,0
 120,120-14,Electrical Distribution Substation,Electric Heat Tracing System,EL,3,0,0,0,0,0,3
 120,120-15,Electrical Distribution Substation,Capacitor Bank,EL,5,5,0,42,14,28,0
 120,120-16,Electrical Distribution Substation,MV Transformer,EL,12,12,0,50,50,0,0
@@ -47,7 +47,7 @@
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,231,64,0,205,25,180,45
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,5,0,72,20,52,0
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,95,0,125,78,47,86
-2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,29,0,128,62,66,15
+2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,30,0,128,62,66,15
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,0,6,0,6,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,19,7,12,0
 2000,2000-06,Reforming,Nitrogen Circuit,IN,114,16,0,96,4,92,13
@@ -57,7 +57,7 @@
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,32,0,66,22,44,12
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,0,8,0,8,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,48,0,53,25,28,44
-3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,18,0,58,9,49,45
+3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,19,0,58,9,49,45
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,3,0,19,0,19,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,7,4,0,30,0,30,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,19,0,103,29,74,8
@@ -83,7 +83,7 @@
 4000,4000-05,Utility,Blow Down,MES,4,3,0,14,0,14,0
 4000,4000-05,Utility,Blow Down,IN,17,4,0,6,3,3,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,2,0,4,0,4,5
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,62,36,0,161,78,83,167
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,66,37,0,161,78,83,167
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,0,18,0,18,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,111,0,35,14,21,107
 4000,4000-07,Utility,Plant Air,IN,2,2,0,0,0,0,2
@@ -94,10 +94,10 @@
 4000,4000-08,Utility,Cooling Water,IN,745,471,0,256,20,236,533
 4000,4000-08,Utility,Cooling Water,EL,6,2,0,12,0,12,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,26,0,0,0,0,26
-4000,4000-09,Utility,Oily Water Treatment,PI,225,104,0,53,17,36,4
+4000,4000-09,Utility,Oily Water Treatment,PI,225,108,0,80,17,63,4
 4000,4000-09,Utility,Oily Water Treatment,MER,3,0,0,3,0,3,0
 4000,4000-10,Utility,Sanitary Water Collection,IN,12,4,0,0,0,0,4
-4000,4000-10,Utility,Sanitary Water Collection,PI,14,5,0,3,1,2,2
+4000,4000-10,Utility,Sanitary Water Collection,PI,14,5,0,5,1,4,2
 4000,4000-10,Utility,Sanitary Water Collection,MER,1,0,0,6,0,6,0
 4000,4000-11,Utility,Instrument Air,PI,13,11,0,17,8,9,0
 4000,4000-11,Utility,Instrument Air,IN,78,78,0,70,23,47,18
@@ -109,8 +109,8 @@
 4000,4000-13,Utility,Slope Close Drain,PI,29,17,0,37,18,19,3
 4000,4000-14,Utility,Fire Water,IN,33,0,0,0,0,0,0
 4000,4000-14,Utility,Fire Water,MES,1,0,0,0,0,0,0
-4000,4000-14,Utility,Fire Water,PI,127,47,0,313,87,226,2536
-4000,4000-15,Utility,Potable & Service Water,PI,61,28,0,85,26,59,29
+4000,4000-14,Utility,Fire Water,PI,127,50,0,313,88,225,2536
+4000,4000-15,Utility,Potable & Service Water,PI,61,28,0,89,26,63,29
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,0,17,0,17,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,7,0,69,11,58,5
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,185,0,455,299,156,147
@@ -148,7 +148,7 @@ BLD,BLD-05,Building,Diesel Room,CV,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,PI,3,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,CV,14,14,0,31,3,28,0
 BLD,BLD-07,Building,Analyzer House,CV,8,8,0,19,1,18,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,1148,0,1902,906,996,805
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,1148,0,1902,967,935,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2191,2190,1,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,187,0,417,417,0,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,18,13,5,0
@@ -189,7 +189,7 @@ LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,0,0,309,171,138,0
 LS,LS-10,Lighting System,Lighting System for Area-05,EL,706,0,0,268,0,268,0
 LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,0,0,362,217,145,0
 LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,0,0,362,196,166,0
-LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,64,0,182,142,40,0
+LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,64,0,182,145,37,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,EL,13,0,0,0,0,0,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,78,0,0,24,0,24,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,PI,5,0,0,0,0,0,0
