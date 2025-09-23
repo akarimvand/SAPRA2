@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>داشبورد مدیریت پانچ‌ها</title>
+
+    <!-- Google Fonts (Vazirmatn برای فارسی) -->
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Material Design Lite (MDL) -->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <style>
+        :root {
+            --primary-color: #3f51b5;
+            --secondary-color: #ff9800;
+            --success-color: #4caf50;
+            --danger-color: #f44336;
+            --warning-color: #ff9800;
+            --info-color: #2196f3;
+            --light-color: #f5f5f5;
+            --dark-color: #333;
+            --card-border-radius: 12px;
+            --transition-speed: 0.3s;
+        }
+        
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .mdl-layout__content {
+            padding: 16px;
+            flex: none;
+        }
+        
+        .mdl-card {
+            width: 100%;
+            margin-bottom: 16px;
+            border-radius: var(--card-border-radius);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: all var(--transition-speed) ease;
+        }
+        
+        .mdl-card:hover {
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            transform: translateY(-2px);
+        }
+        
+        .mdl-card__title {
+            padding: 16px 20px;
+            background-color: white;
+            border-bottom: 1px solid #eee;
+            border-radius: var(--card-border-radius) var(--card-border-radius) 0 0;
+        }
+        
+        .mdl-card__supporting-text {
+            padding: 16px 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        h5 {
+            margin: 0;
+            color: var(--dark-color);
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        
+        .filter-container {
+            margin-bottom: 16px;
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        
+        .mdl-textfield {
+            width: auto;
+            min-width: 200px;
+        }
+        
+        @media (max-width: 768px) {
+            .mdl-textfield {
+                min-width: 100%;
+            }
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+        
+        th, td {
+            padding: 10px 8px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+        
+        th {
+            background-color: var(--primary-color);
+            color: white;
+            font-weight: 600;
+            font-size: 0.85rem;
+        }
+        
+        tr:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .priority-tag {
+            padding: 4px 8px;
+            border-radius: 16px;
+            font-size: 0.75rem;
+            color: white;
+            font-weight: 500;
+            display: inline-block;
+        }
+        
+        .priority-اولويت-شهريور {
+            background-color: var(--warning-color);
+        }
+        
+        .priority-اولويت-مرداد {
+            background-color: var(--danger-color);
+        }
+        
+        .priority-اولويت-تير {
+            background-color: #9c27b0;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 30px;
+            font-size: 1rem;
+            color: #666;
+            font-weight: 500;
+        }
+        
+        .error {
+            background-color: #ffebee;
+            color: #c62828;
+            padding: 16px;
+            border-radius: 8px;
+            margin: 16px 0;
+            text-align: center;
+            font-weight: 500;
+        }
+        
+        .stats-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        
+        .stat-card {
+            background: white;
+            border-radius: var(--card-border-radius);
+            padding: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            text-align: center;
+            transition: all var(--transition-speed) ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+        }
+        
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 8px 0 4px;
+            color: var(--primary-color);
+            font-family: 'Vazirmatn', sans-serif;
+        }
+        
+        .stat-label {
+            color: #666;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        
+        /* استایل جدید برای کارت‌های روند هفتگی و ماهانه */
+        .trend-card {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        
+        .trend-metric {
+            text-align: center;
+            padding: 12px;
+            border-radius: 10px;
+            margin: 8px 0;
+            background: #f9f9f9;
+            transition: all var(--transition-speed) ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .trend-value {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            font-family: 'Vazirmatn', sans-serif;
+            margin: 4px 0;
+        }
+        
+        .trend-label {
+            font-size: 0.8rem;
+            color: #666;
+            margin: 4px 0;
+            font-weight: 500;
+        }
+        
+        .progress-container {
+            width: 100%;
+            height: 12px;
+            background: #e0e0e0;
+            border-radius: 6px;
+            margin: 8px 0;
+            overflow: hidden;
+        }
+        
+        .progress-bar {
+            height: 100%;
+            border-radius: 6px;
+            transition: width 1s ease-out, background-color 0.3s ease;
+        }
+        
+        .trend-comparison {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid #eee;
+        }
+        
+        .comparison-item {
+            text-align: center;
+            flex: 1;
+            padding: 0 8px;
+        }
+        
+        .comparison-value {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+        
+        .comparison-label {
+            font-size: 0.75rem;
+            color: #888;
+            margin-top: 4px;
+        }
+        
+        .low-rate {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(244, 67, 54, 0.4);
+            }
+            50% {
+                box-shadow: 0 0 0 8px rgba(244, 67, 54, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(244, 67, 54, 0);
+            }
+        }
+        
+        .chart-container {
+            position: relative;
+            height: 250px;
+            margin: 0 auto;
+        }
+        
+        @media (max-width: 768px) {
+            .mdl-layout__content {
+                padding: 12px;
+            }
+            
+            .mdl-card__title {
+                padding: 12px 16px;
+            }
+            
+            .mdl-card__supporting-text {
+                padding: 12px 16px;
+            }
+            
+            .stat-card {
+                padding: 12px;
+            }
+            
+            .stat-value {
+                font-size: 1.3rem;
+            }
+            
+            .trend-value {
+                font-size: 1.2rem;
+            }
+            
+            .comparison-value {
+                font-size: 1rem;
+            }
+            
+            .chart-container {
+                height: 200px;
+            }
+            
+            h5 {
+                font-size: 1rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .stats-cards {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .trend-comparison {
+                flex-direction: column;
+                gap: 8px;
+            }
+            
+            .stat-value {
+                font-size: 1.2rem;
+            }
+            
+            .trend-value {
+                font-size: 1.1rem;
+            }
+            
+            .chart-container {
+                height: 180px;
+            }
+        }
+        
+        /* انیمیشن بارگذاری */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .animate-in {
+            animation: fadeInUp 0.6s ease forwards;
+        }
+        
+        /* انیمیشن برای کارت‌ها */
+        .card-animate {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.6s ease forwards;
+        }
+        
+        .card-animate:nth-child(1) { animation-delay: 0.1s; }
+        .card-animate:nth-child(2) { animation-delay: 0.2s; }
+        .card-animate:nth-child(3) { animation-delay: 0.3s; }
+        .card-animate:nth-child(4) { animation-delay: 0.4s; }
+        .card-animate:nth-child(5) { animation-delay: 0.5s; }
+        .card-animate:nth-child(6) { animation-delay: 0.6s; }
+    </style>
+</head>
+<body>
+
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header" style="background-color: var(--primary-color); height: 64px;">
+        <div class="mdl-layout__header-row">
+            <span class="mdl-layout-title" style="font-weight: 600; font-size: 1.1rem;">داشبورد مدیریت پانچ‌ها</span>
+            <div class="mdl-layout-spacer"></div>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="#" id="refreshBtn" style="font-weight: 500;">
+                    <i class="material-icons">refresh</i> بروزرسانی
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="mdl-layout__content">
+        <div id="loading" class="loading">در حال بارگذاری داده‌ها...</div>
+        <div id="error" class="error" style="display: none;"></div>
+
+        <div class="stats-cards">
+            <div class="stat-card card-animate">
+                <div class="stat-label">کل پانچ‌های صادر شده</div>
+                <div class="stat-value" id="totalIssued">0</div>
+            </div>
+            <div class="stat-card card-animate">
+                <div class="stat-label">کل پانچ‌های رفع شده</div>
+                <div class="stat-value" id="totalReleased">0</div>
+            </div>
+            <div class="stat-card card-animate">
+                <div class="stat-label">پانچ‌های باقیمانده</div>
+                <div class="stat-value" id="totalRemaining">0</div>
+            </div>
+            <div class="stat-card card-animate">
+                <div class="stat-label">نرخ رفع پانچ</div>
+                <div class="stat-value" id="clearanceRate">0%</div>
+            </div>
+        </div>
+
+        <div class="filter-container">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <select class="mdl-textfield__input" id="subsystemFilter">
+                    <option value="">همه ساب‌سیستم‌ها</option>
+                </select>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <select class="mdl-textfield__input" id="priorityFilter">
+                    <option value="">همه اولویت‌ها</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- نمودارهای اصلی -->
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+                <div class="mdl-card mdl-shadow--2dp card-animate">
+                    <div class="mdl-card__title">
+                        <h5>پانچ‌های صادر شده و رفع شده</h5>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <div class="chart-container">
+                            <canvas id="issuedReleasedChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+                <div class="mdl-card mdl-shadow--2dp card-animate">
+                    <div class="mdl-card__title">
+                        <h5>توزیع پانچ‌ها بر اساس کد ساب‌سیستم</h5>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <div class="chart-container">
+                            <canvas id="subsystemPieChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- کارت‌های جدید برای روندهای هفتگی و ماهانه -->
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+                <div class="mdl-card mdl-shadow--2dp card-animate">
+                    <div class="mdl-card__title">
+                        <h5>عملکرد هفتگی</h5>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <div class="trend-card">
+                            <div class="trend-metric">
+                                <div class="trend-value" id="weeklyIssued">0</div>
+                                <div class="trend-label">پانچ صادر شده در 7 روز گذشته</div>
+                            </div>
+                            <div class="trend-metric">
+                                <div class="trend-value" id="weeklyReleased">0</div>
+                                <div class="trend-label">پانچ رفع شده در 7 روز گذشته</div>
+                            </div>
+                            <div class="trend-metric" id="weeklyRateContainer">
+                                <div class="trend-label">نرخ رفع هفتگی</div>
+                                <div class="trend-value" id="weeklyClearanceRate">0%</div>
+                                <div class="progress-container">
+                                    <div class="progress-bar" id="weeklyProgressBar" style="width: 0%; background-color: #4caf50;"></div>
+                                </div>
+                            </div>
+                            <div class="trend-comparison">
+                                <div class="comparison-item">
+                                    <div class="comparison-value" id="weeklyAvgDailyIssued">0</div>
+                                    <div class="comparison-label">میانگین روزانه صادر شده</div>
+                                </div>
+                                <div class="comparison-item">
+                                    <div class="comparison-value" id="weeklyAvgDailyReleased">0</div>
+                                    <div class="comparison-label">میانگین روزانه رفع شده</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+                <div class="mdl-card mdl-shadow--2dp card-animate">
+                    <div class="mdl-card__title">
+                        <h5>عملکرد ماهانه</h5>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <div class="trend-card">
+                            <div class="trend-metric">
+                                <div class="trend-value" id="monthlyIssued">0</div>
+                                <div class="trend-label">پانچ صادر شده در 30 روز گذشته</div>
+                            </div>
+                            <div class="trend-metric">
+                                <div class="trend-value" id="monthlyReleased">0</div>
+                                <div class="trend-label">پانچ رفع شده در 30 روز گذشته</div>
+                            </div>
+                            <div class="trend-metric" id="monthlyRateContainer">
+                                <div class="trend-label">نرخ رفع ماهانه</div>
+                                <div class="trend-value" id="monthlyClearanceRate">0%</div>
+                                <div class="progress-container">
+                                    <div class="progress-bar" id="monthlyProgressBar" style="width: 0%; background-color: #2196f3;"></div>
+                                </div>
+                            </div>
+                            <div class="trend-comparison">
+                                <div class="comparison-item">
+                                    <div class="comparison-value" id="monthlyAvgDailyIssued">0</div>
+                                    <div class="comparison-label">میانگین روزانه صادر شده</div>
+                                </div>
+                                <div class="comparison-item">
+                                    <div class="comparison-value" id="monthlyAvgDailyReleased">0</div>
+                                    <div class="comparison-label">میانگین روزانه رفع شده</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- جدول داده‌های خام -->
+        <div class="mdl-card mdl-shadow--2dp card-animate">
+            <div class="mdl-card__title">
+                <h5>جدول آمار پانچ‌ها</h5>
+            </div>
+            <div class="mdl-card__supporting-text">
+                <div style="overflow-x:auto;">
+                    <table id="dataTable">
+                        <thead>
+                            <tr>
+                                <th>کد ساب‌سیستم</th>
+                                <th>اولویت</th>
+                                <th>کل صادر شده</th>
+                                <th>کل رفع شده</th>
+                                <th>باقیمانده</th>
+                                <th>صادر شده ۷ روز</th>
+                                <th>صادر شده ۳۰ روز</th>
+                                <th>رفع شده ۷ روز</th>
+                                <th>رفع شده ۳۰ روز</th>
+                                <th>نرخ رفع (%)</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody">
+                            <!-- پر می‌شود با JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<script>
+// متغیرهای جهانی برای نمودارها
+let issuedReleasedChart = null;
+let subsystemPieChart = null;
+
+// تابع بارگذاری داده‌ها از URL
+async function loadPunchData() {
+    const loadingElement = document.getElementById('loading');
+    const errorElement = document.getElementById('error');
+    
+    try {
+        loadingElement.style.display = 'block';
+        errorElement.style.display = 'none';
+        
+        // URL اصلاح شده بدون فاصله‌های اضافی
+        const response = await fetch('https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/dbcsv/Punch_Summary.csv');
+        
+        if (!response.ok) {
+            throw new Error('خطا در دریافت داده‌ها: ' + response.status);
+        }
+        
+        const csvData = await response.text();
+        const punchData = parseCSV(csvData);
+        
+        // نمایش داده‌ها
+        displayData(punchData);
+        
+        loadingElement.style.display = 'none';
+        
+        // اضافه کردن کلاس انیمیشن به عناصر
+        setTimeout(() => {
+            document.querySelectorAll('.card-animate').forEach(el => {
+                el.style.opacity = '1';
+                el.style.transform = 'translateY(0)';
+            });
+        }, 100);
+        
+    } catch (error) {
+        loadingElement.style.display = 'none';
+        errorElement.style.display = 'block';
+        errorElement.textContent = 'خطا در بارگذاری داده‌ها: ' + error.message;
+        console.error('Error loading data:', error);
+        
+        // نمایش جزئیات خطا در کنسول برای عیب‌یابی
+        console.log('آدرس درخواست:', 'https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/dbcsv/Punch_Summary.csv');
+        console.log('وضعیت شبکه:', navigator.onLine ? 'آنلاین' : 'آفلاین');
+    }
+}
+
+// تبدیل CSV به آرایه از اشیاء
+function parseCSV(data) {
+    const lines = data.split('\n');
+    const headers = lines[0].split(',').map(header => header.trim());
+    const rows = [];
+    
+    for (let i = 1; i < lines.length; i++) {
+        if (!lines[i].trim()) continue; // ردیف‌های خالی را نادیده بگیر
+        
+        const obj = {};
+        let currentLine = [];
+        let quote = false;
+        let cell = '';
+        
+        // پردازش خط با در نظر گرفتن کاماها در داخل گیومه
+        for (let char of lines[i]) {
+            if (char === '"' && !quote) {
+                quote = true;
+            } else if (char === '"' && quote) {
+                quote = false;
+            } else if (char === ',' && !quote) {
+                currentLine.push(cell.trim());
+                cell = '';
+            } else {
+                cell += char;
+            }
+        }
+        currentLine.push(cell.trim());
+        
+        // اطمینان از تطابق تعداد ستون‌ها
+        if (currentLine.length === headers.length) {
+            for (let j = 0; j < headers.length; j++) {
+                obj[headers[j]] = currentLine[j];
+            }
+            rows.push(obj);
+        }
+    }
+    
+    return rows;
+}
+
+// نمایش داده‌ها در داشبورد
+function displayData(punchData) {
+    // فیلتر کردن داده‌های نامعتبر
+    const validData = punchData.filter(row => 
+        row.SD_Sub_System && row.SD_Sub_System !== 'Unknown' && 
+        !isNaN(parseInt(row.Total_Issued)) && !isNaN(parseInt(row.Total_Released))
+    );
+    
+    // محاسبه آمار کلی
+    let totalIssued = 0;
+    let totalReleased = 0;
+    let totalRemaining = 0;
+    let totalIssuedYesterday = 0;
+    let totalIssuedLast7Days = 0;
+    let totalIssuedLast30Days = 0;
+    let totalReleasedYesterday = 0;
+    let totalReleasedLast7Days = 0;
+    let totalReleasedLast30Days = 0;
+    
+    validData.forEach(row => {
+        const issued = parseInt(row.Total_Issued) || 0;
+        const released = parseInt(row.Total_Released) || 0;
+        const remaining = parseInt(row.Remaining) || 0;
+        const issuedYesterday = parseInt(row.Issued_Yesterday) || 0;
+        const issuedLast7Days = parseInt(row.Issued_Last_7_Days) || 0;
+        const issuedLast30Days = parseInt(row.Issued_Last_30_Days) || 0;
+        const releasedYesterday = parseInt(row.Released_Yesterday) || 0;
+        const releasedLast7Days = parseInt(row.Released_Last_7_Days) || 0;
+        const releasedLast30Days = parseInt(row.Released_Last_30_Days) || 0;
+        
+        totalIssued += issued;
+        totalReleased += released;
+        totalRemaining += remaining;
+        totalIssuedYesterday += issuedYesterday;
+        totalIssuedLast7Days += issuedLast7Days;
+        totalIssuedLast30Days += issuedLast30Days;
+        totalReleasedYesterday += releasedYesterday;
+        totalReleasedLast7Days += releasedLast7Days;
+        totalReleasedLast30Days += releasedLast30Days;
+    });
+    
+    const clearanceRate = totalIssued > 0 ? ((totalReleased / totalIssued) * 100).toFixed(1) : 0;
+    
+    // نمایش آمار کلی
+    document.getElementById('totalIssued').textContent = totalIssued.toLocaleString();
+    document.getElementById('totalReleased').textContent = totalReleased.toLocaleString();
+    document.getElementById('totalRemaining').textContent = totalRemaining.toLocaleString();
+    document.getElementById('clearanceRate').textContent = `${clearanceRate}%`;
+    
+    // نمایش آمار هفتگی
+    document.getElementById('weeklyIssued').textContent = totalIssuedLast7Days.toLocaleString();
+    document.getElementById('weeklyReleased').textContent = totalReleasedLast7Days.toLocaleString();
+    const weeklyClearanceRate = totalIssuedLast7Days > 0 ? ((totalReleasedLast7Days / totalIssuedLast7Days) * 100).toFixed(1) : 0;
+    document.getElementById('weeklyClearanceRate').textContent = `${weeklyClearanceRate}%`;
+    const weeklyProgressBar = document.getElementById('weeklyProgressBar');
+    weeklyProgressBar.style.width = `${weeklyClearanceRate}%`;
+    
+    // اضافه کردن افکت متحرک برای نرخ کمتر از 50%
+    const weeklyRateContainer = document.getElementById('weeklyRateContainer');
+    if (parseFloat(weeklyClearanceRate) < 50) {
+        weeklyRateContainer.classList.add('low-rate');
+        weeklyProgressBar.style.backgroundColor = '#f44336';
+    } else {
+        weeklyRateContainer.classList.remove('low-rate');
+        weeklyProgressBar.style.backgroundColor = '#4caf50';
+    }
+    
+    // میانگین روزانه هفتگی
+    document.getElementById('weeklyAvgDailyIssued').textContent = Math.round(totalIssuedLast7Days / 7).toLocaleString();
+    document.getElementById('weeklyAvgDailyReleased').textContent = Math.round(totalReleasedLast7Days / 7).toLocaleString();
+    
+    // نمایش آمار ماهانه
+    document.getElementById('monthlyIssued').textContent = totalIssuedLast30Days.toLocaleString();
+    document.getElementById('monthlyReleased').textContent = totalReleasedLast30Days.toLocaleString();
+    const monthlyClearanceRate = totalIssuedLast30Days > 0 ? ((totalReleasedLast30Days / totalIssuedLast30Days) * 100).toFixed(1) : 0;
+    document.getElementById('monthlyClearanceRate').textContent = `${monthlyClearanceRate}%`;
+    const monthlyProgressBar = document.getElementById('monthlyProgressBar');
+    monthlyProgressBar.style.width = `${monthlyClearanceRate}%`;
+    
+    // اضافه کردن افکت متحرک برای نرخ کمتر از 50%
+    const monthlyRateContainer = document.getElementById('monthlyRateContainer');
+    if (parseFloat(monthlyClearanceRate) < 50) {
+        monthlyRateContainer.classList.add('low-rate');
+        monthlyProgressBar.style.backgroundColor = '#f44336';
+    } else {
+        monthlyRateContainer.classList.remove('low-rate');
+        monthlyProgressBar.style.backgroundColor = '#2196f3';
+    }
+    
+    // میانگین روزانه ماهانه
+    document.getElementById('monthlyAvgDailyIssued').textContent = Math.round(totalIssuedLast30Days / 30).toLocaleString();
+    document.getElementById('monthlyAvgDailyReleased').textContent = Math.round(totalReleasedLast30Days / 30).toLocaleString();
+    
+    // پر کردن فیلترها
+    populateFilters(validData);
+    
+    // ایجاد نمودارها
+    createCharts(validData);
+    
+    // پر کردن جدول
+    populateTable(validData);
+}
+
+// پر کردن فیلترها
+function populateFilters(data) {
+    const subsystemFilter = document.getElementById('subsystemFilter');
+    const priorityFilter = document.getElementById('priorityFilter');
+    
+    // پاک کردن فیلترهای قبلی (به جز گزینه "همه")
+    subsystemFilter.innerHTML = '<option value="">همه ساب‌سیستم‌ها</option>';
+    priorityFilter.innerHTML = '<option value="">همه اولویت‌ها</option>';
+    
+    // اضافه کردن گزینه‌های منحصر به فرد
+    const subsystems = [...new Set(data.map(row => row.SD_Sub_System).filter(Boolean))];
+    const priorities = [...new Set(data.map(row => row.SD_Priority_Code).filter(Boolean))];
+    
+    subsystems.forEach(subsystem => {
+        const option = document.createElement('option');
+        option.value = subsystem;
+        option.textContent = subsystem;
+        subsystemFilter.appendChild(option);
+    });
+    
+    priorities.forEach(priority => {
+        const option = document.createElement('option');
+        option.value = priority;
+        option.textContent = priority;
+        priorityFilter.appendChild(option);
+    });
+    
+    // افزودن event listener برای فیلترها
+    subsystemFilter.addEventListener('change', () => filterData(data));
+    priorityFilter.addEventListener('change', () => filterData(data));
+}
+
+// فیلتر کردن داده‌ها
+function filterData(originalData) {
+    const subsystemFilter = document.getElementById('subsystemFilter').value;
+    const priorityFilter = document.getElementById('priorityFilter').value;
+    
+    let filteredData = [...originalData];
+    
+    if (subsystemFilter) {
+        filteredData = filteredData.filter(row => row.SD_Sub_System === subsystemFilter);
+    }
+    
+    if (priorityFilter) {
+        filteredData = filteredData.filter(row => row.SD_Priority_Code === priorityFilter);
+    }
+    
+    // به‌روزرسانی نمودارها و جدول با داده‌های فیلتر شده
+    createCharts(filteredData);
+    populateTable(filteredData);
+    
+    // به‌روزرسانی آمارهای کلی بر اساس داده‌های فیلتر شده
+    updateStats(filteredData);
+}
+
+// به‌روزرسانی آمارها بر اساس داده‌های فیلتر شده
+function updateStats(data) {
+    let totalIssued = 0;
+    let totalReleased = 0;
+    let totalRemaining = 0;
+    let totalIssuedLast7Days = 0;
+    let totalReleasedLast7Days = 0;
+    let totalIssuedLast30Days = 0;
+    let totalReleasedLast30Days = 0;
+    
+    data.forEach(row => {
+        totalIssued += parseInt(row.Total_Issued) || 0;
+        totalReleased += parseInt(row.Total_Released) || 0;
+        totalRemaining += parseInt(row.Remaining) || 0;
+        totalIssuedLast7Days += parseInt(row.Issued_Last_7_Days) || 0;
+        totalReleasedLast7Days += parseInt(row.Released_Last_7_Days) || 0;
+        totalIssuedLast30Days += parseInt(row.Issued_Last_30_Days) || 0;
+        totalReleasedLast30Days += parseInt(row.Released_Last_30_Days) || 0;
+    });
+    
+    const clearanceRate = totalIssued > 0 ? ((totalReleased / totalIssued) * 100).toFixed(1) : 0;
+    document.getElementById('totalIssued').textContent = totalIssued.toLocaleString();
+    document.getElementById('totalReleased').textContent = totalReleased.toLocaleString();
+    document.getElementById('totalRemaining').textContent = totalRemaining.toLocaleString();
+    document.getElementById('clearanceRate').textContent = `${clearanceRate}%`;
+    
+    // به‌روزرسانی آمار هفتگی
+    document.getElementById('weeklyIssued').textContent = totalIssuedLast7Days.toLocaleString();
+    document.getElementById('weeklyReleased').textContent = totalReleasedLast7Days.toLocaleString();
+    const weeklyClearanceRate = totalIssuedLast7Days > 0 ? ((totalReleasedLast7Days / totalIssuedLast7Days) * 100).toFixed(1) : 0;
+    document.getElementById('weeklyClearanceRate').textContent = `${weeklyClearanceRate}%`;
+    const weeklyProgressBar = document.getElementById('weeklyProgressBar');
+    weeklyProgressBar.style.width = `${weeklyClearanceRate}%`;
+    
+    // اضافه کردن/حذف افکت متحرک برای نرخ کمتر از 50%
+    const weeklyRateContainer = document.getElementById('weeklyRateContainer');
+    if (parseFloat(weeklyClearanceRate) < 50) {
+        weeklyRateContainer.classList.add('low-rate');
+        weeklyProgressBar.style.backgroundColor = '#f44336';
+    } else {
+        weeklyRateContainer.classList.remove('low-rate');
+        weeklyProgressBar.style.backgroundColor = '#4caf50';
+    }
+    
+    document.getElementById('weeklyAvgDailyIssued').textContent = Math.round(totalIssuedLast7Days / 7).toLocaleString();
+    document.getElementById('weeklyAvgDailyReleased').textContent = Math.round(totalReleasedLast7Days / 7).toLocaleString();
+    
+    // به‌روزرسانی آمار ماهانه
+    document.getElementById('monthlyIssued').textContent = totalIssuedLast30Days.toLocaleString();
+    document.getElementById('monthlyReleased').textContent = totalReleasedLast30Days.toLocaleString();
+    const monthlyClearanceRate = totalIssuedLast30Days > 0 ? ((totalReleasedLast30Days / totalIssuedLast30Days) * 100).toFixed(1) : 0;
+    document.getElementById('monthlyClearanceRate').textContent = `${monthlyClearanceRate}%`;
+    const monthlyProgressBar = document.getElementById('monthlyProgressBar');
+    monthlyProgressBar.style.width = `${monthlyClearanceRate}%`;
+    
+    // اضافه کردن/حذف افکت متحرک برای نرخ کمتر از 50%
+    const monthlyRateContainer = document.getElementById('monthlyRateContainer');
+    if (parseFloat(monthlyClearanceRate) < 50) {
+        monthlyRateContainer.classList.add('low-rate');
+        monthlyProgressBar.style.backgroundColor = '#f44336';
+    } else {
+        monthlyRateContainer.classList.remove('low-rate');
+        monthlyProgressBar.style.backgroundColor = '#2196f3';
+    }
+    
+    document.getElementById('monthlyAvgDailyIssued').textContent = Math.round(totalIssuedLast30Days / 30).toLocaleString();
+    document.getElementById('monthlyAvgDailyReleased').textContent = Math.round(totalReleasedLast30Days / 30).toLocaleString();
+}
+
+// ایجاد نمودارها
+function createCharts(data) {
+    // نمودار صادر شده و رفع شده
+    const barCtx = document.getElementById('issuedReleasedChart').getContext('2d');
+    if (issuedReleasedChart) issuedReleasedChart.destroy();
+    
+    issuedReleasedChart = new Chart(barCtx, {
+        type: 'bar',
+        data: {
+            labels: data.map(r => r.SD_Sub_System), // استفاده از SD_Sub_System به جای نام
+            datasets: [
+                {
+                    label: 'صادر شده',
+                    data: data.map(r => parseInt(r.Total_Issued) || 0),
+                    backgroundColor: '#2196f3',
+                    borderColor: '#1976d2',
+                    borderWidth: 1,
+                    borderRadius: 5,
+                    borderSkipped: false
+                },
+                {
+                    label: 'رفع شده',
+                    data: data.map(r => parseInt(r.Total_Released) || 0),
+                    backgroundColor: '#4caf50',
+                    borderColor: '#388e3c',
+                    borderWidth: 1,
+                    borderRadius: 5,
+                    borderSkipped: false
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { 
+                    position: 'top',
+                    labels: {
+                        font: {
+                            family: 'Vazirmatn',
+                            size: 12
+                        }
+                    }
+                },
+                title: { display: false }
+            },
+            scales: {
+                x: { 
+                    stacked: false,
+                    ticks: {
+                        font: {
+                            family: 'Vazirmatn',
+                            size: 10
+                        }
+                    }
+                },
+                y: { 
+                    stacked: false,
+                    beginAtZero: true,
+                    ticks: {
+                        font: {
+                            family: 'Vazirmatn',
+                            size: 10
+                        }
+                    }
+                }
+            },
+            animation: {
+                duration: 1000,
+                easing: 'easeOutQuart'
+            }
+        }
+    });
+    
+    // نمودار دایره‌ای توزیع پانچ‌ها
+    const pieCtx = document.getElementById('subsystemPieChart').getContext('2d');
+    if (subsystemPieChart) subsystemPieChart.destroy();
+    
+    const totalIssuedData = data.map(r => parseInt(r.Total_Issued) || 0);
+    const totalSum = totalIssuedData.reduce((a, b) => a + b, 0);
+    
+    // فقط نمایش ساب‌سیستم‌هایی که حداقل 1% از کل را دارند
+    const filteredLabels = [];
+    const filteredDataValues = [];
+    const filteredColors = [];
+    const colors = ['#ff6384', '#36a2eb', '#ffce56', '#4bc0c0', '#9966ff', '#ff9f40', '#c9cbcf', '#7d4a9b', '#ff6b6b', '#4ecdc4'];
+    
+    data.forEach((row, index) => {
+        const issued = parseInt(row.Total_Issued) || 0;
+        if (totalSum > 0 && (issued / totalSum) * 100 >= 1) {
+            filteredLabels.push(row.SD_Sub_System); // استفاده از SD_Sub_System به جای نام
+            filteredDataValues.push(issued);
+            filteredColors.push(colors[index % colors.length]);
+        }
+    });
+    
+    subsystemPieChart = new Chart(pieCtx, {
+        type: 'pie',
+        data: {
+            labels: filteredLabels,
+            datasets: [{
+                data: filteredDataValues,
+                backgroundColor: filteredColors,
+                borderWidth: 1,
+                borderColor: '#fff',
+                hoverOffset: 8
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { 
+                    position: 'bottom',
+                    labels: {
+                        font: {
+                            family: 'Vazirmatn',
+                            size: 10
+                        }
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function(context) {
+                            const label = context.label || '';
+                            const value = context.raw || 0;
+                            const percentage = ((value / totalSum) * 100).toFixed(1);
+                            return `${label}: ${value.toLocaleString()} (${percentage}%)`;
+                        }
+                    }
+                }
+            },
+            animation: {
+                animateRotate: true,
+                animateScale: true,
+                duration: 1000,
+                easing: 'easeOutQuart'
+            }
+        }
+    });
+}
+
+// پر کردن جدول
+function populateTable(data) {
+    const tableBody = document.getElementById('tableBody');
+    tableBody.innerHTML = '';
+    
+    data.forEach(row => {
+        const issued = parseInt(row.Total_Issued) || 0;
+        const released = parseInt(row.Total_Released) || 0;
+        const clearanceRateRow = issued > 0 ? ((released / issued) * 100).toFixed(1) : "0.0";
+        
+        const tr = document.createElement('tr');
+        
+        // اضافه کردن کلاس برای نرخ کمتر از 50%
+        let rateClass = '';
+        if (parseFloat(clearanceRateRow) < 50) {
+            rateClass = 'low-rate';
+        }
+        
+        tr.innerHTML = `
+            <td>${row.SD_Sub_System || '-'}</td>
+            <td><span class="priority-tag priority-${(row.SD_Priority_Code || '').replace(/\s+/g, '-')}">${row.SD_Priority_Code || '-'}</span></td>
+            <td>${issued.toLocaleString()}</td>
+            <td>${released.toLocaleString()}</td>
+            <td>${(parseInt(row.Remaining) || 0).toLocaleString()}</td>
+            <td>${(parseInt(row.Issued_Last_7_Days) || 0).toLocaleString()}</td>
+            <td>${(parseInt(row.Issued_Last_30_Days) || 0).toLocaleString()}</td>
+            <td>${(parseInt(row.Released_Last_7_Days) || 0).toLocaleString()}</td>
+            <td>${(parseInt(row.Released_Last_30_Days) || 0).toLocaleString()}</td>
+            <td class="${rateClass}">${clearanceRateRow}%</td>
+        `;
+        tableBody.appendChild(tr);
+    });
+}
+
+// بارگذاری داده‌ها هنگام بارگذاری صفحه
+document.addEventListener('DOMContentLoaded', loadPunchData);
+
+// افزودن قابلیت بروزرسانی دستی
+document.getElementById('refreshBtn').addEventListener('click', function(e) {
+    e.preventDefault();
+    loadPunchData();
+});
+
+// اضافه کردن انیمیشن برای عناصر هنگام اسکرول
+document.addEventListener('scroll', function() {
+    const cards = document.querySelectorAll('.mdl-card');
+    cards.forEach(card => {
+        const cardTop = card.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+        if (cardTop < windowHeight * 0.9) {
+            card.style.opacity = '1';
+            card.style.transform = 'translateY(0)';
+        }
+    });
+});
+
+// اضافه کردن event listener برای خطاهای شبکه
+window.addEventListener('offline', function() {
+    const errorElement = document.getElementById('error');
+    errorElement.style.display = 'block';
+    errorElement.textContent = '⚠️ اتصال به اینترنت قطع شده است';
+});
+
+window.addEventListener('online', function() {
+    const errorElement = document.getElementById('error');
+    errorElement.style.display = 'none';
+    loadPunchData();
+});
+</script>
+
+</body>
+</html>
