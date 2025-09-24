@@ -1,6 +1,6 @@
 ﻿SD_System,SD_Sub_System,SD_System_Name,SD_Subsystem_Name,discipline,TOTAL ITEM,TOTAL DONE,TOTAL PENDING,TOTAL PUNCH,TOTAL CLEAR PUNCH,TOTAL NOT CLEAR PUNCH,TOTAL HOLD POINT
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,55,0,131,38,93,34
-1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,24,13,0,61,20,41,28
+1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,24,13,0,61,21,40,28
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,2,0,38,0,38,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,1,0,6,0,6,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,PI,12,10,0,24,18,6,3
@@ -60,10 +60,10 @@
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,19,0,58,9,49,45
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,3,0,19,0,19,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,7,4,0,30,0,30,0
-3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,19,0,103,34,69,8
+3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,19,0,104,35,69,8
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,112,0,109,55,54,99
 3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,2,0,20,0,20,0
-3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,11,5,6,2
+3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,11,6,5,2
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,176,10,0,305,5,300,5
 3000,3000-04,Compression and Synthesis,Hydrogen System,MER,1,0,0,0,0,0,0
 4000,4000-01,Utility,Nitrogen,PI,20,20,0,47,28,19,64
@@ -94,7 +94,7 @@
 4000,4000-08,Utility,Cooling Water,IN,745,471,0,256,20,236,533
 4000,4000-08,Utility,Cooling Water,EL,6,2,0,12,0,12,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,26,0,0,0,0,26
-4000,4000-09,Utility,Oily Water Treatment,PI,225,110,0,96,17,79,4
+4000,4000-09,Utility,Oily Water Treatment,PI,225,110,0,123,17,106,4
 4000,4000-09,Utility,Oily Water Treatment,MER,3,0,0,3,0,3,0
 4000,4000-10,Utility,Sanitary Water Collection,IN,12,4,0,0,0,0,4
 4000,4000-10,Utility,Sanitary Water Collection,PI,14,6,0,5,1,4,2
@@ -109,18 +109,18 @@
 4000,4000-13,Utility,Slope Close Drain,PI,29,17,0,37,18,19,3
 4000,4000-14,Utility,Fire Water,IN,33,0,0,0,0,0,0
 4000,4000-14,Utility,Fire Water,MES,1,0,0,0,0,0,0
-4000,4000-14,Utility,Fire Water,PI,127,50,0,313,92,221,2536
-4000,4000-15,Utility,Potable & Service Water,PI,61,30,0,102,40,62,29
+4000,4000-14,Utility,Fire Water,PI,127,50,0,313,98,215,2536
+4000,4000-15,Utility,Potable & Service Water,PI,61,30,0,102,41,61,29
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,0,17,0,17,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,7,0,69,11,58,5
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,185,0,455,299,156,147
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,57,0,224,125,99,10
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,57,0,224,126,98,10
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,8,5,0,84,42,42,1
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,0,0,0,0,0,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,EL,2,2,0,12,0,12,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,PI,46,36,0,134,61,73,9
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,465,308,0,425,262,163,287
-5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,39,0,137,83,54,13
+5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,39,0,138,89,49,13
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,5,0,44,11,33,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,115,0,422,315,107,78
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,0,0,10,0,10,0
