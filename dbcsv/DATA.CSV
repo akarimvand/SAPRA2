@@ -73,13 +73,13 @@
 4000,4000-02,Utility,HHP & HP & LP Steam,PI,63,37,0,207,91,116,74
 4000,4000-03,Utility,MP Steam,MES,1,1,0,5,0,5,0
 4000,4000-03,Utility,MP Steam,IN,56,20,0,32,16,16,3
-4000,4000-03,Utility,MP Steam,PI,5,5,0,38,22,16,0
+4000,4000-03,Utility,MP Steam,PI,5,5,0,38,23,15,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,4,0,6,0,6,3
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,0,0,0,0,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,0,6,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,47,35,0,159,101,58,19
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,389,0,244,17,227,384
-4000,4000-05,Utility,Blow Down,PI,24,15,0,38,15,23,13
+4000,4000-05,Utility,Blow Down,PI,24,15,0,38,18,20,13
 4000,4000-05,Utility,Blow Down,MES,4,3,0,14,0,14,0
 4000,4000-05,Utility,Blow Down,IN,17,4,0,6,3,3,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,2,0,4,0,4,5
@@ -90,7 +90,7 @@
 4000,4000-07,Utility,Plant Air,PI,10,10,0,17,4,13,30
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,0,8,0,8,0
-4000,4000-08,Utility,Cooling Water,PI,290,77,0,586,289,297,37
+4000,4000-08,Utility,Cooling Water,PI,290,77,0,586,316,270,37
 4000,4000-08,Utility,Cooling Water,IN,745,473,0,256,20,236,533
 4000,4000-08,Utility,Cooling Water,EL,6,2,0,12,0,12,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,26,0,0,0,0,26
