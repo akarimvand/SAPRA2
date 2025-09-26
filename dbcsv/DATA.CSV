@@ -1,14 +1,14 @@
 ﻿SD_System,SD_Sub_System,SD_System_Name,SD_Subsystem_Name,discipline,TOTAL ITEM,TOTAL DONE,TOTAL PENDING,TOTAL PUNCH,TOTAL CLEAR PUNCH,TOTAL NOT CLEAR PUNCH,TOTAL HOLD POINT
-1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,61,0,131,38,93,34
+1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,61,0,175,38,137,34
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,24,13,0,61,21,40,28
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,2,0,38,0,38,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,1,0,6,0,6,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,PI,12,10,0,24,18,6,3
-1000,1000-02,Gas Preparation,Fuel Gas & Distribution,IN,176,39,0,119,26,93,11
+1000,1000-02,Gas Preparation,Fuel Gas & Distribution,IN,176,39,0,159,26,133,11
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MES,13,2,0,41,2,39,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,0,0,0,0,0,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,2,0,12,2,10,0
-1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,128,0,116,51,65,107
+1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,128,0,141,51,90,107
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,46,0,168,90,78,57
 1000,1000-04,Gas Preparation,Gas Station,IN,66,21,0,0,0,0,21
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,78,0,1601,1075,526,2
@@ -34,34 +34,34 @@
 2000,2000-01,Reforming,Pre Reforming,EL,2,2,0,12,0,12,0
 2000,2000-01,Reforming,Pre Reforming,MES,2,2,0,10,0,10,0
 2000,2000-01,Reforming,Pre Reforming,PI,8,8,0,19,9,10,1
-2000,2000-01,Reforming,Pre Reforming,IN,92,17,0,18,2,16,11
+2000,2000-01,Reforming,Pre Reforming,IN,92,17,0,32,2,30,11
 2000,2000-02,Reforming,Primary Reforming,PI,9,6,0,25,11,14,1
-2000,2000-02,Reforming,Primary Reforming,IN,873,150,0,570,48,522,77
+2000,2000-02,Reforming,Primary Reforming,IN,873,150,0,583,48,535,77
 2000,2000-02,Reforming,Primary Reforming,MES,8,0,0,0,0,0,0
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,25,10,0,45,23,22,79
-2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,363,87,0,187,53,134,50
+2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,363,87,0,217,53,164,50
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,MES,6,2,0,0,0,0,2
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MES,11,2,0,40,0,40,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MER,2,0,0,12,0,12,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,24,21,0,58,23,35,17
-2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,231,75,0,205,26,179,45
+2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,231,75,0,244,26,218,45
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,5,0,72,20,52,0
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,95,0,125,86,39,86
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,30,0,129,63,66,15
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,0,6,0,6,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,19,7,12,0
-2000,2000-06,Reforming,Nitrogen Circuit,IN,114,17,0,96,4,92,13
+2000,2000-06,Reforming,Nitrogen Circuit,IN,114,17,0,99,4,95,13
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,0,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,2,0,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,35,0,430,7,423,21
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,32,0,66,25,41,12
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,0,8,0,8,0
-3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,49,0,53,25,28,44
+3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,49,0,56,25,31,44
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,19,0,58,9,49,45
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,3,0,19,0,19,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,7,4,0,30,0,30,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,19,0,104,35,69,8
-3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,112,0,109,55,54,99
+3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,112,0,117,55,62,99
 3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,2,0,20,0,20,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,12,6,6,2
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,176,10,0,305,5,300,5
@@ -69,16 +69,16 @@
 4000,4000-01,Utility,Nitrogen,PI,20,20,0,47,28,19,64
 4000,4000-01,Utility,Nitrogen,IN,14,14,0,0,0,0,6
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,2,0,10,0,10,0
-4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,75,0,128,47,81,35
+4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,75,0,236,47,189,35
 4000,4000-02,Utility,HHP & HP & LP Steam,PI,63,37,0,207,91,116,74
 4000,4000-03,Utility,MP Steam,MES,1,1,0,5,0,5,0
-4000,4000-03,Utility,MP Steam,IN,56,20,0,32,17,15,3
+4000,4000-03,Utility,MP Steam,IN,56,20,0,75,17,58,3
 4000,4000-03,Utility,MP Steam,PI,5,5,0,38,23,15,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,4,0,6,0,6,3
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,0,0,0,0,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,0,6,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,47,35,0,159,101,58,19
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,389,0,244,17,227,384
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,389,0,261,17,244,384
 4000,4000-05,Utility,Blow Down,PI,24,15,0,38,18,20,13
 4000,4000-05,Utility,Blow Down,MES,4,3,0,14,0,14,0
 4000,4000-05,Utility,Blow Down,IN,17,4,0,6,3,3,4
@@ -129,12 +129,12 @@
 5000,5000-04,Distillation & Methanol Product,Methanol Product,PI,30,16,0,123,58,65,32
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MER,4,0,0,0,0,0,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,EL,2,2,0,12,0,12,0
-5000,5000-04,Distillation & Methanol Product,Methanol Product,IN,213,58,0,108,90,18,45
+5000,5000-04,Distillation & Methanol Product,Methanol Product,IN,213,58,0,114,90,24,45
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MES,2,0,0,0,0,0,1
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MER,2,0,0,12,0,12,0
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,63,21,0,19,16,3,20
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,10,6,0,29,16,13,2
-7000,7000-01,Flare,Flare System (In Site),IN,145,23,0,43,18,25,17
+7000,7000-01,Flare,Flare System (In Site),IN,145,23,0,45,18,27,17
 7000,7000-01,Flare,Flare System (In Site),MER,2,0,0,0,0,0,0
 7000,7000-01,Flare,Flare System (In Site),MES,2,2,0,8,0,8,0
 7000,7000-01,Flare,Flare System (In Site),PI,49,22,0,111,46,65,77
@@ -148,7 +148,7 @@ BLD,BLD-05,Building,Diesel Room,CV,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,PI,3,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,CV,14,14,0,31,3,28,0
 BLD,BLD-07,Building,Analyzer House,CV,8,8,0,19,1,18,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,1161,0,1902,989,913,805
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,1161,0,2063,989,1074,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2191,2190,1,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,187,0,417,417,0,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,18,13,5,0
