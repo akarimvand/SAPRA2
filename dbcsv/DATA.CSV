@@ -11,22 +11,22 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,128,0,116,51,65,107
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,46,0,168,90,78,57
 1000,1000-04,Gas Preparation,Gas Station,IN,66,21,0,0,0,0,21
-120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,63,0,1526,1075,451,2
-120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,47,0,1995,1199,796,31
-120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,2,0,1600,1098,502,44
-120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,306,13,0,1141,773,368,42
-120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,284,14,0,1174,791,383,32
+120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,78,0,1601,1075,526,2
+120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,51,0,2014,1199,815,31
+120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,5,0,1627,1098,529,44
+120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,306,13,0,1144,773,371,42
+120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,284,15,0,1184,791,393,32
 120,120-06,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-05,EL,262,18,0,1167,804,363,11
-120,120-07,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-ESWB3A/B-01,EL,158,0,0,491,298,193,134
+120,120-07,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-ESWB3A/B-01,EL,158,0,0,503,298,205,134
 120,120-08,Electrical Distribution Substation,Emergency Diesel Generator SS-DG-5701,EL,8,0,0,0,0,0,7
-120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,EL,29,14,0,85,11,74,0
+120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,EL,29,14,0,89,11,78,0
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,IN,2,2,0,6,2,4,0
 120,120-10,Electrical Distribution Substation,SS-CH-01 for Electrical Supply 110V DC,EL,24,5,0,167,46,121,0
 120,120-11,Electrical Distribution Substation,SS-UPS-01 for Safety Lighting Supply 230 AC UPS,EL,18,0,0,70,12,58,0
-120,120-12,Electrical Distribution Substation,SS PDCS System,EL,10,2,0,15,3,12,2
+120,120-12,Electrical Distribution Substation,SS PDCS System,EL,10,3,0,19,3,16,2
 120,120-13,Electrical Distribution Substation,Cathodic Protection System,EL,373,373,0,482,474,8,0
 120,120-14,Electrical Distribution Substation,Electric Heat Tracing System,EL,3,0,0,0,0,0,3
-120,120-15,Electrical Distribution Substation,Capacitor Bank,EL,5,5,0,42,18,24,0
+120,120-15,Electrical Distribution Substation,Capacitor Bank,EL,5,5,0,42,28,14,0
 120,120-16,Electrical Distribution Substation,MV Transformer,EL,12,12,0,50,50,0,0
 120,120-17,Electrical Distribution Substation,LV Transformer,EL,15,15,0,104,104,0,0
 120,120-18,Electrical Distribution Substation,E/I Cabinet,EL,16,16,0,54,44,10,0
@@ -189,7 +189,7 @@ LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,0,0,309,171,138,0
 LS,LS-10,Lighting System,Lighting System for Area-05,EL,706,0,0,268,0,268,0
 LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,0,0,362,217,145,0
 LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,0,0,362,196,166,0
-LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,64,0,182,145,37,0
+LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,64,0,182,146,36,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,EL,13,0,0,0,0,0,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,78,0,0,24,0,24,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,PI,5,0,0,0,0,0,0
