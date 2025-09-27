@@ -4131,7 +4131,7 @@ EL,04-IS-01,Tel eq. install,0
 EL,04-IS-02,Tel Socket instal,0
 EL,04-IS-02,Tel eq. install,0
 EL,04-IS-03,Tel Socket instal,0
-EL,04-IS-03,Tel eq. install,0
+EL,04-IS-03,Tel eq. install,1
 EL,04-JB1_1-3,panel & box install,0
 EL,04-JB1_1-3-L1-01,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,04-JB1_1-3-L1-01,Lighting install,1
@@ -4864,9 +4864,9 @@ EL,04-SP-08,PA.GA Speaker&Beacon Loop,0
 EL,04-SP-08,PA.GA CHECK LIST,0
 EL,04-SP-09,PA.GA Speaker&Beacon Loop,0
 EL,04-SP-09,PA.GA CHECK LIST,0
-EL,04-SP-10,PA.GA Speaker&Beacon Loop,0
+EL,04-SP-10,PA.GA Speaker&Beacon Loop,1
 EL,04-SP-10,PA.GA CHECK LIST,0
-EL,04-SP-11,PA.GA Speaker&Beacon Loop,0
+EL,04-SP-11,PA.GA Speaker&Beacon Loop,1
 EL,04-SP-11,PA.GA CHECK LIST,0
 EL,05-EJB1_1-5,panel & box install,0
 EL,05-EJB1_1-5-L1-01,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
@@ -28480,8 +28480,8 @@ EL,EBP-MP-7504,Cable pulling C,1
 EL,EBP-MP-7504,ITP for cable install C,0
 EL,EBP-MP-7504,LV.Cont. cable megger test T,1
 EL,EBP-MP-7505,Cable pulling C,1
-EL,EBP-MP-7505,ITP for cable install C,0
-EL,EBP-MP-7505,LV.Cont. cable megger test T,0
+EL,EBP-MP-7505,ITP for cable install C,1
+EL,EBP-MP-7505,LV.Cont. cable megger test T,1
 EL,EBP-MP-7506A,Cable pulling C,1
 EL,EBP-MP-7506A,ITP for cable install C,0
 EL,EBP-MP-7506A,LV.Cont. cable megger test T,1
@@ -28624,8 +28624,8 @@ EL,EBP-SS-CH-01_AS,Cable pulling C,0
 EL,EBP-SS-CH-01_AS,ITP for cable install C,0
 EL,EBP-SS-CH-01_AS,LV.Cont. cable megger test T,0
 EL,EBP-SS-CH-01A,Cable pulling C,1
-EL,EBP-SS-CH-01A,ITP for cable install C,0
-EL,EBP-SS-CH-01A,LV.Cont. cable megger test T,0
+EL,EBP-SS-CH-01A,ITP for cable install C,1
+EL,EBP-SS-CH-01A,LV.Cont. cable megger test T,1
 EL,EBP-SS-CH-01B,Cable pulling C,0
 EL,EBP-SS-CH-01B,ITP for cable install C,0
 EL,EBP-SS-CH-01B,LV.Cont. cable megger test T,0
@@ -30032,8 +30032,8 @@ EL,ECC-SS-SWB3A-01_4,Cable pulling C,1
 EL,ECC-SS-SWB3A-01_4,ITP for cable install C,0
 EL,ECC-SS-SWB3A-01_4,LV.Cont. cable megger test T,1
 EL,ECC-SS-SWB3A-02_1,Cable pulling C,1
-EL,ECC-SS-SWB3A-02_1,ITP for cable install C,0
-EL,ECC-SS-SWB3A-02_1,LV.Cont. cable megger test T,0
+EL,ECC-SS-SWB3A-02_1,ITP for cable install C,1
+EL,ECC-SS-SWB3A-02_1,LV.Cont. cable megger test T,1
 EL,ECC-SS-SWB3A-02_2,Cable pulling C,1
 EL,ECC-SS-SWB3A-02_2,ITP for cable install C,0
 EL,ECC-SS-SWB3A-02_2,LV.Cont. cable megger test T,1
@@ -30050,8 +30050,8 @@ EL,ECC-SS-SWB3A-03_4,Cable pulling C,1
 EL,ECC-SS-SWB3A-03_4,ITP for cable install C,0
 EL,ECC-SS-SWB3A-03_4,LV.Cont. cable megger test T,1
 EL,ECC-SS-SWB3A-04_1,Cable pulling C,1
-EL,ECC-SS-SWB3A-04_1,ITP for cable install C,0
-EL,ECC-SS-SWB3A-04_1,LV.Cont. cable megger test T,0
+EL,ECC-SS-SWB3A-04_1,ITP for cable install C,1
+EL,ECC-SS-SWB3A-04_1,LV.Cont. cable megger test T,1
 EL,ECC-SS-SWB3A-04_2,Cable pulling C,1
 EL,ECC-SS-SWB3A-04_2,ITP for cable install C,0
 EL,ECC-SS-SWB3A-04_2,LV.Cont. cable megger test T,1
@@ -30074,17 +30074,17 @@ EL,ECC-SS-SWB3AB-01_2_1,Cable pulling C,1
 EL,ECC-SS-SWB3AB-01_2_1,ITP for cable install C,0
 EL,ECC-SS-SWB3AB-01_2_1,LV.Cont. cable megger test T,1
 EL,ECC-SS-SWB3AB-01_2_2,Cable pulling C,1
-EL,ECC-SS-SWB3AB-01_2_2,ITP for cable install C,0
-EL,ECC-SS-SWB3AB-01_2_2,LV.Cont. cable megger test T,0
+EL,ECC-SS-SWB3AB-01_2_2,ITP for cable install C,1
+EL,ECC-SS-SWB3AB-01_2_2,LV.Cont. cable megger test T,1
 EL,ECC-SS-SWB3AB-02_1,Cable pulling C,1
-EL,ECC-SS-SWB3AB-02_1,ITP for cable install C,0
-EL,ECC-SS-SWB3AB-02_1,LV.Cont. cable megger test T,0
+EL,ECC-SS-SWB3AB-02_1,ITP for cable install C,1
+EL,ECC-SS-SWB3AB-02_1,LV.Cont. cable megger test T,1
 EL,ECC-SS-SWB3AB-02_2_1,Cable pulling C,1
-EL,ECC-SS-SWB3AB-02_2_1,ITP for cable install C,0
-EL,ECC-SS-SWB3AB-02_2_1,LV.Cont. cable megger test T,0
+EL,ECC-SS-SWB3AB-02_2_1,ITP for cable install C,1
+EL,ECC-SS-SWB3AB-02_2_1,LV.Cont. cable megger test T,1
 EL,ECC-SS-SWB3AB-02_2_2,Cable pulling C,1
-EL,ECC-SS-SWB3AB-02_2_2,ITP for cable install C,0
-EL,ECC-SS-SWB3AB-02_2_2,LV.Cont. cable megger test T,0
+EL,ECC-SS-SWB3AB-02_2_2,ITP for cable install C,1
+EL,ECC-SS-SWB3AB-02_2_2,LV.Cont. cable megger test T,1
 EL,ECC-SS-SWB3AB-03_1,Cable pulling C,0
 EL,ECC-SS-SWB3AB-03_1,ITP for cable install C,0
 EL,ECC-SS-SWB3AB-03_1,LV.Cont. cable megger test T,1
@@ -30125,14 +30125,14 @@ EL,ECC-SS-SWB3B-02_2,Cable pulling C,1
 EL,ECC-SS-SWB3B-02_2,ITP for cable install C,0
 EL,ECC-SS-SWB3B-02_2,LV.Cont. cable megger test T,1
 EL,ECC-SS-SWB3B-03_1,Cable pulling C,1
-EL,ECC-SS-SWB3B-03_1,ITP for cable install C,0
-EL,ECC-SS-SWB3B-03_1,LV.Cont. cable megger test T,0
+EL,ECC-SS-SWB3B-03_1,ITP for cable install C,1
+EL,ECC-SS-SWB3B-03_1,LV.Cont. cable megger test T,1
 EL,ECC-SS-SWB3B-03_2,Cable pulling C,0
 EL,ECC-SS-SWB3B-03_2,ITP for cable install C,0
 EL,ECC-SS-SWB3B-03_2,LV.Cont. cable megger test T,1
 EL,ECC-SS-SWB3B-04_1,Cable pulling C,1
-EL,ECC-SS-SWB3B-04_1,ITP for cable install C,0
-EL,ECC-SS-SWB3B-04_1,LV.Cont. cable megger test T,0
+EL,ECC-SS-SWB3B-04_1,ITP for cable install C,1
+EL,ECC-SS-SWB3B-04_1,LV.Cont. cable megger test T,1
 EL,ECC-SS-SWB3B-04_2,Cable pulling C,1
 EL,ECC-SS-SWB3B-04_2,ITP for cable install C,0
 EL,ECC-SS-SWB3B-04_2,LV.Cont. cable megger test T,1
