@@ -3432,7 +3432,7 @@ LS-01,EL,00-SLP-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
 5000-01,MES,AE-5005-B,PAKAGE(PK),,کسری کلمپ فن گارد  و گریس خور بیرینگ,Material Shortage
 5000-01,MES,AE-5005-C,PAKAGE(PK),,کسری کلمپ فن گارد  و گریس خور بیرینگ,Material Shortage
 5000-02,MES,AE-5005-D,PAKAGE(PK),,کسری کلمپ فن گارد  و گریس خور بیرینگ,Material Shortage
-HVAC-04,EL,AH-HDP-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
+NO SUBS.,EL,AH-HDP-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
 DCS-01,IN,ALM-T1,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
 DCS-01,IN,ALM-T2,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
 DCS-01,IN,ALM-T3,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
@@ -3546,9 +3546,9 @@ TEL-11,EL,CR-CMR-02,CCTV,,Hold (Matrial Shortage),Material Shortage
 TEL-11,EL,CR-CSP-01,CCTV,,Hold (Matrial Shortage),Material Shortage
 120-07,EL,CR-EDP-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
 LS-02,EL,CR-ELP-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
-HVAC-02,EL,CR-HDP-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
-HVAC-02,EL,CR-HDP-02,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
-HVAC-02,EL,CR-LCP-0010,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
+NO SUBS.,EL,CR-HDP-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
+NO SUBS.,EL,CR-HDP-02,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
+NO SUBS.,EL,CR-LCP-0010,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
 LS-01,EL,CR-LP-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
 120-07,EL,CR-SIP-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
 DCS-01,IN,E1-ALM-01,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
@@ -4334,7 +4334,7 @@ DCS-01,IN,JIXF-8401,JUNCTION BOX,,Hold (Matrial Shortage),Material Shortage
 4000-08,IN,KT-80236A,Instrument(KT),,Not Permission (owner),Permission
 4000-08,IN,KT-80236B,Instrument(KT),,Not Permission (owner),Permission
 LS-02,EL,LAB-ELP-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
-HVAC-03,EL,LAB-HDP-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
+NO SUBS.,EL,LAB-HDP-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
 LS-01,EL,LAB-LP-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
 2000-04,IN,LG-2373,Instrument(LG),,Hold (Matrial Shortage),Material Shortage
 2000-04,IN,LG-2374-1,Instrument(LG),,Hold (Matrial Shortage),Material Shortage
@@ -5328,8 +5328,8 @@ FGS-04,IN,RO-9030A,Instrument(RO),,Not Permission (owner),Permission
 4000-08,IN,SI-80116B,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
 120-07,EL,SS-EDP-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
 LS-02,EL,SS-ELP-01(LS-02),PANEL(EL),,Hold (Matrial Shortage),Material Shortage
-HVAC-01,EL,SS-HDP-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
-HVAC-01,EL,SS-LCP-0030,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
+NO SUBS.,EL,SS-HDP-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
+NO SUBS.,EL,SS-LCP-0030,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
 LS-01,EL,SS-LP-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
 LS-01,EL,SS-MLP-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
 LS-01,EL,SS-PRB-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
