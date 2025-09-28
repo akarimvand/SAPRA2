@@ -65,22 +65,22 @@ EL,00-CAM-17,CCTV station.control unit,0
 EL,00-CAM-18,CCTV Eq.install,0
 EL,00-CAM-18,CCTV Camera&Hosing install,0
 EL,00-CAM-18,CCTV station.control unit,0
-EL,00-ELP-01,panel & box install,0
+EL,00-ELP-01,panel & box install,1
 EL,00-ELP-02,panel & box install,1
 EL,00-ELP-03,panel & box install,1
 EL,00-ELP-04,panel & box install,1
 EL,00-HTP-01,panel & box install,0
 EL,00-HTP-02,panel & box install,0
 EL,00-HTP-03,panel & box install,0
-EL,00-LP-01,panel & box install,0
+EL,00-LP-01,panel & box install,1
 EL,00-LP-02,panel & box install,1
 EL,00-LP-03,panel & box install,1
 EL,00-LP-04,panel & box install,1
-EL,00-RP-01,panel & box install,0
+EL,00-RP-01,panel & box install,1
 EL,00-RP-02,panel & box install,1
 EL,00-RP-03,panel & box install,1
 EL,00-RP-04,panel & box install,1
-EL,00-SLP-01,panel & box install,0
+EL,00-SLP-01,panel & box install,1
 EL,01-EJB-1,panel & box install,0
 EL,01-EJB1-1-L1-01,Miscellaeous-LVDB LIGHTING SMALL CIR.& EQ.TEST,0
 EL,01-EJB1-1-L1-01,Lighting install,1
@@ -18727,14 +18727,12 @@ EL,AH-TJB1,Tel eq. install,1
 EL,AJB01-DW01,Cathodic Install C,0
 EL,AJB01-DW01,Cathodic test T,0
 EL,AJB01-DW01,Cathodic Test for impress current,0
-EL,AJB01-DW01,Cathodic sys.grid,0
 EL,AJB01-DW01,Cathodic Test for magnesium anode,0
 EL,AJB01-DW01,Cathodic commissioning Data,0
 EL,AJB01-DW01,CABLING Cathodic Protection,1
 EL,AJB01-DW02,Cathodic Install C,0
 EL,AJB01-DW02,Cathodic test T,0
 EL,AJB01-DW02,Cathodic Test for impress current,0
-EL,AJB01-DW02,Cathodic sys.grid,0
 EL,AJB01-DW02,Cathodic Test for magnesium anode,0
 EL,AJB01-DW02,Cathodic commissioning Data,0
 EL,AJB01-DW02,CABLING Cathodic Protection,1
@@ -19319,1687 +19317,1446 @@ IN,AY-1001-3,LOOP CHECK UCP,0
 EL,BD_10-FW-90-007,Cathodic Install C,0
 EL,BD_10-FW-90-007,Cathodic test T,0
 EL,BD_10-FW-90-007,Cathodic Test for impress current,0
-EL,BD_10-FW-90-007,Cathodic sys.grid,0
 EL,BD_10-FW-90-007,Cathodic Test for magnesium anode,0
 EL,BD_10-FW-90-007,Cathodic commissioning Data,0
 EL,BD_10-FW-90-007,CABLING Cathodic Protection,1
 EL,BD_12-CWR-00-112,Cathodic Install C,0
 EL,BD_12-CWR-00-112,Cathodic test T,0
 EL,BD_12-CWR-00-112,Cathodic Test for impress current,0
-EL,BD_12-CWR-00-112,Cathodic sys.grid,0
 EL,BD_12-CWR-00-112,Cathodic Test for magnesium anode,0
 EL,BD_12-CWR-00-112,Cathodic commissioning Data,0
 EL,BD_12-CWR-00-112,CABLING Cathodic Protection,1
 EL,BD_12-CWS-00-125,Cathodic Install C,0
 EL,BD_12-CWS-00-125,Cathodic test T,0
 EL,BD_12-CWS-00-125,Cathodic Test for impress current,0
-EL,BD_12-CWS-00-125,Cathodic sys.grid,0
 EL,BD_12-CWS-00-125,Cathodic Test for magnesium anode,0
 EL,BD_12-CWS-00-125,Cathodic commissioning Data,0
 EL,BD_12-CWS-00-125,CABLING Cathodic Protection,1
 EL,BD_12-CWS-80-111,Cathodic Install C,0
 EL,BD_12-CWS-80-111,Cathodic test T,0
 EL,BD_12-CWS-80-111,Cathodic Test for impress current,0
-EL,BD_12-CWS-80-111,Cathodic sys.grid,0
 EL,BD_12-CWS-80-111,Cathodic Test for magnesium anode,0
 EL,BD_12-CWS-80-111,Cathodic commissioning Data,0
 EL,BD_12-CWS-80-111,CABLING Cathodic Protection,1
 EL,BD_12-WWO-00-160,Cathodic Install C,0
 EL,BD_12-WWO-00-160,Cathodic test T,0
 EL,BD_12-WWO-00-160,Cathodic Test for impress current,0
-EL,BD_12-WWO-00-160,Cathodic sys.grid,0
 EL,BD_12-WWO-00-160,Cathodic Test for magnesium anode,0
 EL,BD_12-WWO-00-160,Cathodic commissioning Data,0
 EL,BD_12-WWO-00-160,CABLING Cathodic Protection,1
 EL,BD_16-WWO-00-190,Cathodic Install C,0
 EL,BD_16-WWO-00-190,Cathodic test T,0
 EL,BD_16-WWO-00-190,Cathodic Test for impress current,0
-EL,BD_16-WWO-00-190,Cathodic sys.grid,0
 EL,BD_16-WWO-00-190,Cathodic Test for magnesium anode,0
 EL,BD_16-WWO-00-190,Cathodic commissioning Data,0
 EL,BD_16-WWO-00-190,CABLING Cathodic Protection,1
 EL,BD_2-CWR-00-177,Cathodic Install C,0
 EL,BD_2-CWR-00-177,Cathodic test T,0
 EL,BD_2-CWR-00-177,Cathodic Test for impress current,0
-EL,BD_2-CWR-00-177,Cathodic sys.grid,0
 EL,BD_2-CWR-00-177,Cathodic Test for magnesium anode,0
 EL,BD_2-CWR-00-177,Cathodic commissioning Data,0
 EL,BD_2-CWR-00-177,CABLING Cathodic Protection,1
 EL,BD_2-CWS-00-178,Cathodic Install C,0
 EL,BD_2-CWS-00-178,Cathodic test T,0
 EL,BD_2-CWS-00-178,Cathodic Test for impress current,0
-EL,BD_2-CWS-00-178,Cathodic sys.grid,0
 EL,BD_2-CWS-00-178,Cathodic Test for magnesium anode,0
 EL,BD_2-CWS-00-178,Cathodic commissioning Data,0
 EL,BD_2-CWS-00-178,CABLING Cathodic Protection,1
 EL,BD_2-PW-00-105,Cathodic Install C,0
 EL,BD_2-PW-00-105,Cathodic test T,0
 EL,BD_2-PW-00-105,Cathodic Test for impress current,0
-EL,BD_2-PW-00-105,Cathodic sys.grid,0
 EL,BD_2-PW-00-105,Cathodic Test for magnesium anode,0
 EL,BD_2-PW-00-105,Cathodic commissioning Data,0
 EL,BD_2-PW-00-105,CABLING Cathodic Protection,1
 EL,BD_2-PW-00-106,Cathodic Install C,0
 EL,BD_2-PW-00-106,Cathodic test T,0
 EL,BD_2-PW-00-106,Cathodic Test for impress current,0
-EL,BD_2-PW-00-106,Cathodic sys.grid,0
 EL,BD_2-PW-00-106,Cathodic Test for magnesium anode,0
 EL,BD_2-PW-00-106,Cathodic commissioning Data,0
 EL,BD_2-PW-00-106,CABLING Cathodic Protection,1
 EL,BD_2-SRW-00-126,Cathodic Install C,0
 EL,BD_2-SRW-00-126,Cathodic test T,0
 EL,BD_2-SRW-00-126,Cathodic Test for impress current,0
-EL,BD_2-SRW-00-126,Cathodic sys.grid,0
 EL,BD_2-SRW-00-126,Cathodic Test for magnesium anode,0
 EL,BD_2-SRW-00-126,Cathodic commissioning Data,0
 EL,BD_2-SRW-00-126,CABLING Cathodic Protection,1
 EL,BD_3-WWO-84-003,Cathodic Install C,0
 EL,BD_3-WWO-84-003,Cathodic test T,0
 EL,BD_3-WWO-84-003,Cathodic Test for impress current,0
-EL,BD_3-WWO-84-003,Cathodic sys.grid,0
 EL,BD_3-WWO-84-003,Cathodic Test for magnesium anode,0
 EL,BD_3-WWO-84-003,Cathodic commissioning Data,0
 EL,BD_3-WWO-84-003,CABLING Cathodic Protection,1
 EL,BD_44-CWR-00-110,Cathodic Install C,0
 EL,BD_44-CWR-00-110,Cathodic test T,0
 EL,BD_44-CWR-00-110,Cathodic Test for impress current,0
-EL,BD_44-CWR-00-110,Cathodic sys.grid,0
 EL,BD_44-CWR-00-110,Cathodic Test for magnesium anode,0
 EL,BD_44-CWR-00-110,Cathodic commissioning Data,0
 EL,BD_44-CWR-00-110,CABLING Cathodic Protection,1
 EL,BD_44-CWS-00-130-1,Cathodic Install C,0
 EL,BD_44-CWS-00-130-1,Cathodic test T,0
 EL,BD_44-CWS-00-130-1,Cathodic Test for impress current,0
-EL,BD_44-CWS-00-130-1,Cathodic sys.grid,0
 EL,BD_44-CWS-00-130-1,Cathodic Test for magnesium anode,0
 EL,BD_44-CWS-00-130-1,Cathodic commissioning Data,0
 EL,BD_44-CWS-00-130-1,CABLING Cathodic Protection,1
 EL,BD_44-CWS-00-130-2,Cathodic Install C,0
 EL,BD_44-CWS-00-130-2,Cathodic test T,0
 EL,BD_44-CWS-00-130-2,Cathodic Test for impress current,0
-EL,BD_44-CWS-00-130-2,Cathodic sys.grid,0
 EL,BD_44-CWS-00-130-2,Cathodic Test for magnesium anode,0
 EL,BD_44-CWS-00-130-2,Cathodic commissioning Data,0
 EL,BD_44-CWS-00-130-2,CABLING Cathodic Protection,1
 EL,BD_6-CWS-00-127,Cathodic Install C,0
 EL,BD_6-CWS-00-127,Cathodic test T,0
 EL,BD_6-CWS-00-127,Cathodic Test for impress current,0
-EL,BD_6-CWS-00-127,Cathodic sys.grid,0
 EL,BD_6-CWS-00-127,Cathodic Test for magnesium anode,0
 EL,BD_6-CWS-00-127,Cathodic commissioning Data,0
 EL,BD_6-CWS-00-127,CABLING Cathodic Protection,1
 EL,BD_6-CWS-70-101,Cathodic Install C,0
 EL,BD_6-CWS-70-101,Cathodic test T,0
 EL,BD_6-CWS-70-101,Cathodic Test for impress current,0
-EL,BD_6-CWS-70-101,Cathodic sys.grid,0
 EL,BD_6-CWS-70-101,Cathodic Test for magnesium anode,0
 EL,BD_6-CWS-70-101,Cathodic commissioning Data,0
 EL,BD_6-CWS-70-101,CABLING Cathodic Protection,1
 EL,BD_6-PMP-00-144,Cathodic Install C,0
 EL,BD_6-PMP-00-144,Cathodic test T,0
 EL,BD_6-PMP-00-144,Cathodic Test for impress current,0
-EL,BD_6-PMP-00-144,Cathodic sys.grid,0
 EL,BD_6-PMP-00-144,Cathodic Test for magnesium anode,0
 EL,BD_6-PMP-00-144,Cathodic commissioning Data,0
 EL,BD_6-PMP-00-144,CABLING Cathodic Protection,1
 EL,BD_6-WWO-00-762,Cathodic Install C,0
 EL,BD_6-WWO-00-762,Cathodic test T,0
 EL,BD_6-WWO-00-762,Cathodic Test for impress current,0
-EL,BD_6-WWO-00-762,Cathodic sys.grid,0
 EL,BD_6-WWO-00-762,Cathodic Test for magnesium anode,0
 EL,BD_6-WWO-00-762,Cathodic commissioning Data,0
 EL,BD_6-WWO-00-762,CABLING Cathodic Protection,1
 EL,BD-CB-04_1,Cathodic Install C,0
 EL,BD-CB-04_1,Cathodic test T,0
 EL,BD-CB-04_1,Cathodic Test for impress current,0
-EL,BD-CB-04_1,Cathodic sys.grid,0
 EL,BD-CB-04_1,Cathodic Test for magnesium anode,0
 EL,BD-CB-04_1,Cathodic commissioning Data,0
 EL,BD-CB-04_1,CABLING Cathodic Protection,1
 EL,BD-CB-04_2,Cathodic Install C,0
 EL,BD-CB-04_2,Cathodic test T,0
 EL,BD-CB-04_2,Cathodic Test for impress current,0
-EL,BD-CB-04_2,Cathodic sys.grid,0
 EL,BD-CB-04_2,Cathodic Test for magnesium anode,0
 EL,BD-CB-04_2,Cathodic commissioning Data,0
 EL,BD-CB-04_2,CABLING Cathodic Protection,1
 EL,BD-CB-05,Cathodic Install C,0
 EL,BD-CB-05,Cathodic test T,0
 EL,BD-CB-05,Cathodic Test for impress current,0
-EL,BD-CB-05,Cathodic sys.grid,0
 EL,BD-CB-05,Cathodic Test for magnesium anode,0
 EL,BD-CB-05,Cathodic commissioning Data,0
 EL,BD-CB-05,CABLING Cathodic Protection,1
 EL,BD-CB-06_1,Cathodic Install C,0
 EL,BD-CB-06_1,Cathodic test T,0
 EL,BD-CB-06_1,Cathodic Test for impress current,0
-EL,BD-CB-06_1,Cathodic sys.grid,0
 EL,BD-CB-06_1,Cathodic Test for magnesium anode,0
 EL,BD-CB-06_1,Cathodic commissioning Data,0
 EL,BD-CB-06_1,CABLING Cathodic Protection,1
 EL,BD-CB-06_2,Cathodic Install C,0
 EL,BD-CB-06_2,Cathodic test T,0
 EL,BD-CB-06_2,Cathodic Test for impress current,0
-EL,BD-CB-06_2,Cathodic sys.grid,0
 EL,BD-CB-06_2,Cathodic Test for magnesium anode,0
 EL,BD-CB-06_2,Cathodic commissioning Data,0
 EL,BD-CB-06_2,CABLING Cathodic Protection,1
 EL,BD-CB-07,Cathodic Install C,0
 EL,BD-CB-07,Cathodic test T,0
 EL,BD-CB-07,Cathodic Test for impress current,0
-EL,BD-CB-07,Cathodic sys.grid,0
 EL,BD-CB-07,Cathodic Test for magnesium anode,0
 EL,BD-CB-07,Cathodic commissioning Data,0
 EL,BD-CB-07,CABLING Cathodic Protection,1
 EL,BD-CB-09,Cathodic Install C,0
 EL,BD-CB-09,Cathodic test T,0
 EL,BD-CB-09,Cathodic Test for impress current,0
-EL,BD-CB-09,Cathodic sys.grid,0
 EL,BD-CB-09,Cathodic Test for magnesium anode,0
 EL,BD-CB-09,Cathodic commissioning Data,0
 EL,BD-CB-09,CABLING Cathodic Protection,1
 EL,BD-CB-10_1,Cathodic Install C,0
 EL,BD-CB-10_1,Cathodic test T,0
 EL,BD-CB-10_1,Cathodic Test for impress current,0
-EL,BD-CB-10_1,Cathodic sys.grid,0
 EL,BD-CB-10_1,Cathodic Test for magnesium anode,0
 EL,BD-CB-10_1,Cathodic commissioning Data,0
 EL,BD-CB-10_1,CABLING Cathodic Protection,1
 EL,BD-CB-10_2,Cathodic Install C,0
 EL,BD-CB-10_2,Cathodic test T,0
 EL,BD-CB-10_2,Cathodic Test for impress current,0
-EL,BD-CB-10_2,Cathodic sys.grid,0
 EL,BD-CB-10_2,Cathodic Test for magnesium anode,0
 EL,BD-CB-10_2,Cathodic commissioning Data,0
 EL,BD-CB-10_2,CABLING Cathodic Protection,1
 EL,BD-CB-101_1,Cathodic Install C,0
 EL,BD-CB-101_1,Cathodic test T,0
 EL,BD-CB-101_1,Cathodic Test for impress current,0
-EL,BD-CB-101_1,Cathodic sys.grid,0
 EL,BD-CB-101_1,Cathodic Test for magnesium anode,0
 EL,BD-CB-101_1,Cathodic commissioning Data,0
 EL,BD-CB-101_1,CABLING Cathodic Protection,1
 EL,BD-CB-101_2,Cathodic Install C,0
 EL,BD-CB-101_2,Cathodic test T,0
 EL,BD-CB-101_2,Cathodic Test for impress current,0
-EL,BD-CB-101_2,Cathodic sys.grid,0
 EL,BD-CB-101_2,Cathodic Test for magnesium anode,0
 EL,BD-CB-101_2,Cathodic commissioning Data,0
 EL,BD-CB-101_2,CABLING Cathodic Protection,1
 EL,BD-CB-102,Cathodic Install C,0
 EL,BD-CB-102,Cathodic test T,0
 EL,BD-CB-102,Cathodic Test for impress current,0
-EL,BD-CB-102,Cathodic sys.grid,0
 EL,BD-CB-102,Cathodic Test for magnesium anode,0
 EL,BD-CB-102,Cathodic commissioning Data,0
 EL,BD-CB-102,CABLING Cathodic Protection,1
 EL,BD-CB-108_1,Cathodic Install C,0
 EL,BD-CB-108_1,Cathodic test T,0
 EL,BD-CB-108_1,Cathodic Test for impress current,0
-EL,BD-CB-108_1,Cathodic sys.grid,0
 EL,BD-CB-108_1,Cathodic Test for magnesium anode,0
 EL,BD-CB-108_1,Cathodic commissioning Data,0
 EL,BD-CB-108_1,CABLING Cathodic Protection,1
 EL,BD-CB-108_2,Cathodic Install C,0
 EL,BD-CB-108_2,Cathodic test T,0
 EL,BD-CB-108_2,Cathodic Test for impress current,0
-EL,BD-CB-108_2,Cathodic sys.grid,0
 EL,BD-CB-108_2,Cathodic Test for magnesium anode,0
 EL,BD-CB-108_2,Cathodic commissioning Data,0
 EL,BD-CB-108_2,CABLING Cathodic Protection,1
 EL,BD-CB-11,Cathodic Install C,0
 EL,BD-CB-11,Cathodic test T,0
 EL,BD-CB-11,Cathodic Test for impress current,0
-EL,BD-CB-11,Cathodic sys.grid,0
 EL,BD-CB-11,Cathodic Test for magnesium anode,0
 EL,BD-CB-11,Cathodic commissioning Data,0
 EL,BD-CB-11,CABLING Cathodic Protection,1
 EL,BD-CB-110,Cathodic Install C,0
 EL,BD-CB-110,Cathodic test T,0
 EL,BD-CB-110,Cathodic Test for impress current,0
-EL,BD-CB-110,Cathodic sys.grid,0
 EL,BD-CB-110,Cathodic Test for magnesium anode,0
 EL,BD-CB-110,Cathodic commissioning Data,0
 EL,BD-CB-110,CABLING Cathodic Protection,1
 EL,BD-CB-111,Cathodic Install C,0
 EL,BD-CB-111,Cathodic test T,0
 EL,BD-CB-111,Cathodic Test for impress current,0
-EL,BD-CB-111,Cathodic sys.grid,0
 EL,BD-CB-111,Cathodic Test for magnesium anode,0
 EL,BD-CB-111,Cathodic commissioning Data,0
 EL,BD-CB-111,CABLING Cathodic Protection,1
 EL,BD-CB-12_1,Cathodic Install C,0
 EL,BD-CB-12_1,Cathodic test T,0
 EL,BD-CB-12_1,Cathodic Test for impress current,0
-EL,BD-CB-12_1,Cathodic sys.grid,0
 EL,BD-CB-12_1,Cathodic Test for magnesium anode,0
 EL,BD-CB-12_1,Cathodic commissioning Data,0
 EL,BD-CB-12_1,CABLING Cathodic Protection,1
 EL,BD-CB-12_2,Cathodic Install C,0
 EL,BD-CB-12_2,Cathodic test T,0
 EL,BD-CB-12_2,Cathodic Test for impress current,0
-EL,BD-CB-12_2,Cathodic sys.grid,0
 EL,BD-CB-12_2,Cathodic Test for magnesium anode,0
 EL,BD-CB-12_2,Cathodic commissioning Data,0
 EL,BD-CB-12_2,CABLING Cathodic Protection,1
 EL,BD-CB-13,Cathodic Install C,0
 EL,BD-CB-13,Cathodic test T,0
 EL,BD-CB-13,Cathodic Test for impress current,0
-EL,BD-CB-13,Cathodic sys.grid,0
 EL,BD-CB-13,Cathodic Test for magnesium anode,0
 EL,BD-CB-13,Cathodic commissioning Data,0
 EL,BD-CB-13,CABLING Cathodic Protection,1
 EL,BD-CB-14,Cathodic Install C,0
 EL,BD-CB-14,Cathodic test T,0
 EL,BD-CB-14,Cathodic Test for impress current,0
-EL,BD-CB-14,Cathodic sys.grid,0
 EL,BD-CB-14,Cathodic Test for magnesium anode,0
 EL,BD-CB-14,Cathodic commissioning Data,0
 EL,BD-CB-14,CABLING Cathodic Protection,1
 EL,BD-CB-16,Cathodic Install C,0
 EL,BD-CB-16,Cathodic test T,0
 EL,BD-CB-16,Cathodic Test for impress current,0
-EL,BD-CB-16,Cathodic sys.grid,0
 EL,BD-CB-16,Cathodic Test for magnesium anode,0
 EL,BD-CB-16,Cathodic commissioning Data,0
 EL,BD-CB-16,CABLING Cathodic Protection,1
 EL,BD-CB-17_1,Cathodic Install C,0
 EL,BD-CB-17_1,Cathodic test T,0
 EL,BD-CB-17_1,Cathodic Test for impress current,0
-EL,BD-CB-17_1,Cathodic sys.grid,0
 EL,BD-CB-17_1,Cathodic Test for magnesium anode,0
 EL,BD-CB-17_1,Cathodic commissioning Data,0
 EL,BD-CB-17_1,CABLING Cathodic Protection,1
 EL,BD-CB-17_2,Cathodic Install C,0
 EL,BD-CB-17_2,Cathodic test T,0
 EL,BD-CB-17_2,Cathodic Test for impress current,0
-EL,BD-CB-17_2,Cathodic sys.grid,0
 EL,BD-CB-17_2,Cathodic Test for magnesium anode,0
 EL,BD-CB-17_2,Cathodic commissioning Data,0
 EL,BD-CB-17_2,CABLING Cathodic Protection,1
 EL,BD-CB-18_1,Cathodic Install C,0
 EL,BD-CB-18_1,Cathodic test T,0
 EL,BD-CB-18_1,Cathodic Test for impress current,0
-EL,BD-CB-18_1,Cathodic sys.grid,0
 EL,BD-CB-18_1,Cathodic Test for magnesium anode,0
 EL,BD-CB-18_1,Cathodic commissioning Data,0
 EL,BD-CB-18_1,CABLING Cathodic Protection,1
 EL,BD-CB-18_2,Cathodic Install C,0
 EL,BD-CB-18_2,Cathodic test T,0
 EL,BD-CB-18_2,Cathodic Test for impress current,0
-EL,BD-CB-18_2,Cathodic sys.grid,0
 EL,BD-CB-18_2,Cathodic Test for magnesium anode,0
 EL,BD-CB-18_2,Cathodic commissioning Data,0
 EL,BD-CB-18_2,CABLING Cathodic Protection,1
 EL,BD-CB-19,Cathodic Install C,0
 EL,BD-CB-19,Cathodic test T,0
 EL,BD-CB-19,Cathodic Test for impress current,0
-EL,BD-CB-19,Cathodic sys.grid,0
 EL,BD-CB-19,Cathodic Test for magnesium anode,0
 EL,BD-CB-19,Cathodic commissioning Data,0
 EL,BD-CB-19,CABLING Cathodic Protection,1
 EL,BD-CB-20_1,Cathodic Install C,0
 EL,BD-CB-20_1,Cathodic test T,0
 EL,BD-CB-20_1,Cathodic Test for impress current,0
-EL,BD-CB-20_1,Cathodic sys.grid,0
 EL,BD-CB-20_1,Cathodic Test for magnesium anode,0
 EL,BD-CB-20_1,Cathodic commissioning Data,0
 EL,BD-CB-20_1,CABLING Cathodic Protection,1
 EL,BD-CB-20_2,Cathodic Install C,0
 EL,BD-CB-20_2,Cathodic test T,0
 EL,BD-CB-20_2,Cathodic Test for impress current,0
-EL,BD-CB-20_2,Cathodic sys.grid,0
 EL,BD-CB-20_2,Cathodic Test for magnesium anode,0
 EL,BD-CB-20_2,Cathodic commissioning Data,0
 EL,BD-CB-20_2,CABLING Cathodic Protection,1
 EL,BD-CB-21,Cathodic Install C,0
 EL,BD-CB-21,Cathodic test T,0
 EL,BD-CB-21,Cathodic Test for impress current,0
-EL,BD-CB-21,Cathodic sys.grid,0
 EL,BD-CB-21,Cathodic Test for magnesium anode,0
 EL,BD-CB-21,Cathodic commissioning Data,0
 EL,BD-CB-21,CABLING Cathodic Protection,1
 EL,BD-CB-22,Cathodic Install C,0
 EL,BD-CB-22,Cathodic test T,0
 EL,BD-CB-22,Cathodic Test for impress current,0
-EL,BD-CB-22,Cathodic sys.grid,0
 EL,BD-CB-22,Cathodic Test for magnesium anode,0
 EL,BD-CB-22,Cathodic commissioning Data,0
 EL,BD-CB-22,CABLING Cathodic Protection,1
 EL,BD-CB-23,Cathodic Install C,0
 EL,BD-CB-23,Cathodic test T,0
 EL,BD-CB-23,Cathodic Test for impress current,0
-EL,BD-CB-23,Cathodic sys.grid,0
 EL,BD-CB-23,Cathodic Test for magnesium anode,0
 EL,BD-CB-23,Cathodic commissioning Data,0
 EL,BD-CB-23,CABLING Cathodic Protection,1
 EL,BD-CB-24_1,Cathodic Install C,0
 EL,BD-CB-24_1,Cathodic test T,0
 EL,BD-CB-24_1,Cathodic Test for impress current,0
-EL,BD-CB-24_1,Cathodic sys.grid,0
 EL,BD-CB-24_1,Cathodic Test for magnesium anode,0
 EL,BD-CB-24_1,Cathodic commissioning Data,0
 EL,BD-CB-24_1,CABLING Cathodic Protection,1
 EL,BD-CB-24_2,Cathodic Install C,0
 EL,BD-CB-24_2,Cathodic test T,0
 EL,BD-CB-24_2,Cathodic Test for impress current,0
-EL,BD-CB-24_2,Cathodic sys.grid,0
 EL,BD-CB-24_2,Cathodic Test for magnesium anode,0
 EL,BD-CB-24_2,Cathodic commissioning Data,0
 EL,BD-CB-24_2,CABLING Cathodic Protection,1
 EL,BD-CB-24_3,Cathodic Install C,0
 EL,BD-CB-24_3,Cathodic test T,0
 EL,BD-CB-24_3,Cathodic Test for impress current,0
-EL,BD-CB-24_3,Cathodic sys.grid,0
 EL,BD-CB-24_3,Cathodic Test for magnesium anode,0
 EL,BD-CB-24_3,Cathodic commissioning Data,0
 EL,BD-CB-24_3,CABLING Cathodic Protection,1
 EL,BD-CB-26,Cathodic Install C,0
 EL,BD-CB-26,Cathodic test T,0
 EL,BD-CB-26,Cathodic Test for impress current,0
-EL,BD-CB-26,Cathodic sys.grid,0
 EL,BD-CB-26,Cathodic Test for magnesium anode,0
 EL,BD-CB-26,Cathodic commissioning Data,0
 EL,BD-CB-26,CABLING Cathodic Protection,1
 EL,BD-CB-27,Cathodic Install C,0
 EL,BD-CB-27,Cathodic test T,0
 EL,BD-CB-27,Cathodic Test for impress current,0
-EL,BD-CB-27,Cathodic sys.grid,0
 EL,BD-CB-27,Cathodic Test for magnesium anode,0
 EL,BD-CB-27,Cathodic commissioning Data,0
 EL,BD-CB-27,CABLING Cathodic Protection,1
 EL,BD-CB-28,Cathodic Install C,0
 EL,BD-CB-28,Cathodic test T,0
 EL,BD-CB-28,Cathodic Test for impress current,0
-EL,BD-CB-28,Cathodic sys.grid,0
 EL,BD-CB-28,Cathodic Test for magnesium anode,0
 EL,BD-CB-28,Cathodic commissioning Data,0
 EL,BD-CB-28,CABLING Cathodic Protection,1
 EL,BD-CB-29,Cathodic Install C,0
 EL,BD-CB-29,Cathodic test T,0
 EL,BD-CB-29,Cathodic Test for impress current,0
-EL,BD-CB-29,Cathodic sys.grid,0
 EL,BD-CB-29,Cathodic Test for magnesium anode,0
 EL,BD-CB-29,Cathodic commissioning Data,0
 EL,BD-CB-29,CABLING Cathodic Protection,1
 EL,BD-CB-30,Cathodic Install C,0
 EL,BD-CB-30,Cathodic test T,0
 EL,BD-CB-30,Cathodic Test for impress current,0
-EL,BD-CB-30,Cathodic sys.grid,0
 EL,BD-CB-30,Cathodic Test for magnesium anode,0
 EL,BD-CB-30,Cathodic commissioning Data,0
 EL,BD-CB-30,CABLING Cathodic Protection,1
 EL,BD-CB-31,Cathodic Install C,0
 EL,BD-CB-31,Cathodic test T,0
 EL,BD-CB-31,Cathodic Test for impress current,0
-EL,BD-CB-31,Cathodic sys.grid,0
 EL,BD-CB-31,Cathodic Test for magnesium anode,0
 EL,BD-CB-31,Cathodic commissioning Data,0
 EL,BD-CB-31,CABLING Cathodic Protection,1
 EL,BD-CB-32,Cathodic Install C,0
 EL,BD-CB-32,Cathodic test T,0
 EL,BD-CB-32,Cathodic Test for impress current,0
-EL,BD-CB-32,Cathodic sys.grid,0
 EL,BD-CB-32,Cathodic Test for magnesium anode,0
 EL,BD-CB-32,Cathodic commissioning Data,0
 EL,BD-CB-32,CABLING Cathodic Protection,1
 EL,BD-CB-33,Cathodic Install C,0
 EL,BD-CB-33,Cathodic test T,0
 EL,BD-CB-33,Cathodic Test for impress current,0
-EL,BD-CB-33,Cathodic sys.grid,0
 EL,BD-CB-33,Cathodic Test for magnesium anode,0
 EL,BD-CB-33,Cathodic commissioning Data,0
 EL,BD-CB-33,CABLING Cathodic Protection,1
 EL,BD-CB-34,Cathodic Install C,0
 EL,BD-CB-34,Cathodic test T,0
 EL,BD-CB-34,Cathodic Test for impress current,0
-EL,BD-CB-34,Cathodic sys.grid,0
 EL,BD-CB-34,Cathodic Test for magnesium anode,0
 EL,BD-CB-34,Cathodic commissioning Data,0
 EL,BD-CB-34,CABLING Cathodic Protection,1
 EL,BD-CB-40,Cathodic Install C,0
 EL,BD-CB-40,Cathodic test T,0
 EL,BD-CB-40,Cathodic Test for impress current,0
-EL,BD-CB-40,Cathodic sys.grid,0
 EL,BD-CB-40,Cathodic Test for magnesium anode,0
 EL,BD-CB-40,Cathodic commissioning Data,0
 EL,BD-CB-40,CABLING Cathodic Protection,1
 EL,BD-CB-41,Cathodic Install C,0
 EL,BD-CB-41,Cathodic test T,0
 EL,BD-CB-41,Cathodic Test for impress current,0
-EL,BD-CB-41,Cathodic sys.grid,0
 EL,BD-CB-41,Cathodic Test for magnesium anode,0
 EL,BD-CB-41,Cathodic commissioning Data,0
 EL,BD-CB-41,CABLING Cathodic Protection,1
 EL,BD-CB-42_1,Cathodic Install C,0
 EL,BD-CB-42_1,Cathodic test T,0
 EL,BD-CB-42_1,Cathodic Test for impress current,0
-EL,BD-CB-42_1,Cathodic sys.grid,0
 EL,BD-CB-42_1,Cathodic Test for magnesium anode,0
 EL,BD-CB-42_1,Cathodic commissioning Data,0
 EL,BD-CB-42_1,CABLING Cathodic Protection,1
 EL,BD-CB-42_2,Cathodic Install C,0
 EL,BD-CB-42_2,Cathodic test T,0
 EL,BD-CB-42_2,Cathodic Test for impress current,0
-EL,BD-CB-42_2,Cathodic sys.grid,0
 EL,BD-CB-42_2,Cathodic Test for magnesium anode,0
 EL,BD-CB-42_2,Cathodic commissioning Data,0
 EL,BD-CB-42_2,CABLING Cathodic Protection,1
 EL,BD-CB-43_1,Cathodic Install C,0
 EL,BD-CB-43_1,Cathodic test T,0
 EL,BD-CB-43_1,Cathodic Test for impress current,0
-EL,BD-CB-43_1,Cathodic sys.grid,0
 EL,BD-CB-43_1,Cathodic Test for magnesium anode,0
 EL,BD-CB-43_1,Cathodic commissioning Data,0
 EL,BD-CB-43_1,CABLING Cathodic Protection,1
 EL,BD-CB-43_2,Cathodic Install C,0
 EL,BD-CB-43_2,Cathodic test T,0
 EL,BD-CB-43_2,Cathodic Test for impress current,0
-EL,BD-CB-43_2,Cathodic sys.grid,0
 EL,BD-CB-43_2,Cathodic Test for magnesium anode,0
 EL,BD-CB-43_2,Cathodic commissioning Data,0
 EL,BD-CB-43_2,CABLING Cathodic Protection,1
 EL,BD-CB-44_1,Cathodic Install C,0
 EL,BD-CB-44_1,Cathodic test T,0
 EL,BD-CB-44_1,Cathodic Test for impress current,0
-EL,BD-CB-44_1,Cathodic sys.grid,0
 EL,BD-CB-44_1,Cathodic Test for magnesium anode,0
 EL,BD-CB-44_1,Cathodic commissioning Data,0
 EL,BD-CB-44_1,CABLING Cathodic Protection,1
 EL,BD-CB-44_2,Cathodic Install C,0
 EL,BD-CB-44_2,Cathodic test T,0
 EL,BD-CB-44_2,Cathodic Test for impress current,0
-EL,BD-CB-44_2,Cathodic sys.grid,0
 EL,BD-CB-44_2,Cathodic Test for magnesium anode,0
 EL,BD-CB-44_2,Cathodic commissioning Data,0
 EL,BD-CB-44_2,CABLING Cathodic Protection,1
 EL,BD-CB-45,Cathodic Install C,0
 EL,BD-CB-45,Cathodic test T,0
 EL,BD-CB-45,Cathodic Test for impress current,0
-EL,BD-CB-45,Cathodic sys.grid,0
 EL,BD-CB-45,Cathodic Test for magnesium anode,0
 EL,BD-CB-45,Cathodic commissioning Data,0
 EL,BD-CB-45,CABLING Cathodic Protection,1
 EL,BD-CB-47,Cathodic Install C,0
 EL,BD-CB-47,Cathodic test T,0
 EL,BD-CB-47,Cathodic Test for impress current,0
-EL,BD-CB-47,Cathodic sys.grid,0
 EL,BD-CB-47,Cathodic Test for magnesium anode,0
 EL,BD-CB-47,Cathodic commissioning Data,0
 EL,BD-CB-47,CABLING Cathodic Protection,1
 EL,BD-CB-48_1,Cathodic Install C,0
 EL,BD-CB-48_1,Cathodic test T,0
 EL,BD-CB-48_1,Cathodic Test for impress current,0
-EL,BD-CB-48_1,Cathodic sys.grid,0
 EL,BD-CB-48_1,Cathodic Test for magnesium anode,0
 EL,BD-CB-48_1,Cathodic commissioning Data,0
 EL,BD-CB-48_1,CABLING Cathodic Protection,1
 EL,BD-CB-48_2,Cathodic Install C,0
 EL,BD-CB-48_2,Cathodic test T,0
 EL,BD-CB-48_2,Cathodic Test for impress current,0
-EL,BD-CB-48_2,Cathodic sys.grid,0
 EL,BD-CB-48_2,Cathodic Test for magnesium anode,0
 EL,BD-CB-48_2,Cathodic commissioning Data,0
 EL,BD-CB-48_2,CABLING Cathodic Protection,1
 EL,BD-CB-51,Cathodic Install C,0
 EL,BD-CB-51,Cathodic test T,0
 EL,BD-CB-51,Cathodic Test for impress current,0
-EL,BD-CB-51,Cathodic sys.grid,0
 EL,BD-CB-51,Cathodic Test for magnesium anode,0
 EL,BD-CB-51,Cathodic commissioning Data,0
 EL,BD-CB-51,CABLING Cathodic Protection,1
 EL,BD-CB-52,Cathodic Install C,0
 EL,BD-CB-52,Cathodic test T,0
 EL,BD-CB-52,Cathodic Test for impress current,0
-EL,BD-CB-52,Cathodic sys.grid,0
 EL,BD-CB-52,Cathodic Test for magnesium anode,0
 EL,BD-CB-52,Cathodic commissioning Data,0
 EL,BD-CB-52,CABLING Cathodic Protection,1
 EL,BD-CB-54,Cathodic Install C,0
 EL,BD-CB-54,Cathodic test T,0
 EL,BD-CB-54,Cathodic Test for impress current,0
-EL,BD-CB-54,Cathodic sys.grid,0
 EL,BD-CB-54,Cathodic Test for magnesium anode,0
 EL,BD-CB-54,Cathodic commissioning Data,0
 EL,BD-CB-54,CABLING Cathodic Protection,1
 EL,BD-CB-55,Cathodic Install C,0
 EL,BD-CB-55,Cathodic test T,0
 EL,BD-CB-55,Cathodic Test for impress current,0
-EL,BD-CB-55,Cathodic sys.grid,0
 EL,BD-CB-55,Cathodic Test for magnesium anode,0
 EL,BD-CB-55,Cathodic commissioning Data,0
 EL,BD-CB-55,CABLING Cathodic Protection,1
 EL,BD-CB-57,Cathodic Install C,0
 EL,BD-CB-57,Cathodic test T,0
 EL,BD-CB-57,Cathodic Test for impress current,0
-EL,BD-CB-57,Cathodic sys.grid,0
 EL,BD-CB-57,Cathodic Test for magnesium anode,0
 EL,BD-CB-57,Cathodic commissioning Data,0
 EL,BD-CB-57,CABLING Cathodic Protection,1
 EL,BD-CB-58,Cathodic Install C,0
 EL,BD-CB-58,Cathodic test T,0
 EL,BD-CB-58,Cathodic Test for impress current,0
-EL,BD-CB-58,Cathodic sys.grid,0
 EL,BD-CB-58,Cathodic Test for magnesium anode,0
 EL,BD-CB-58,Cathodic commissioning Data,0
 EL,BD-CB-58,CABLING Cathodic Protection,1
 EL,BD-CB-61,Cathodic Install C,0
 EL,BD-CB-61,Cathodic test T,0
 EL,BD-CB-61,Cathodic Test for impress current,0
-EL,BD-CB-61,Cathodic sys.grid,0
 EL,BD-CB-61,Cathodic Test for magnesium anode,0
 EL,BD-CB-61,Cathodic commissioning Data,0
 EL,BD-CB-61,CABLING Cathodic Protection,1
 EL,BD-CB-62,Cathodic Install C,0
 EL,BD-CB-62,Cathodic test T,0
 EL,BD-CB-62,Cathodic Test for impress current,0
-EL,BD-CB-62,Cathodic sys.grid,0
 EL,BD-CB-62,Cathodic Test for magnesium anode,0
 EL,BD-CB-62,Cathodic commissioning Data,0
 EL,BD-CB-62,CABLING Cathodic Protection,1
 EL,BD-CB-66,Cathodic Install C,0
 EL,BD-CB-66,Cathodic test T,0
 EL,BD-CB-66,Cathodic Test for impress current,0
-EL,BD-CB-66,Cathodic sys.grid,0
 EL,BD-CB-66,Cathodic Test for magnesium anode,0
 EL,BD-CB-66,Cathodic commissioning Data,0
 EL,BD-CB-66,CABLING Cathodic Protection,1
 EL,BD-CB-67,Cathodic Install C,0
 EL,BD-CB-67,Cathodic test T,0
 EL,BD-CB-67,Cathodic Test for impress current,0
-EL,BD-CB-67,Cathodic sys.grid,0
 EL,BD-CB-67,Cathodic Test for magnesium anode,0
 EL,BD-CB-67,Cathodic commissioning Data,0
 EL,BD-CB-67,CABLING Cathodic Protection,1
 EL,BD-CB-68,Cathodic Install C,0
 EL,BD-CB-68,Cathodic test T,0
 EL,BD-CB-68,Cathodic Test for impress current,0
-EL,BD-CB-68,Cathodic sys.grid,0
 EL,BD-CB-68,Cathodic Test for magnesium anode,0
 EL,BD-CB-68,Cathodic commissioning Data,0
 EL,BD-CB-68,CABLING Cathodic Protection,1
 EL,BD-CB-69,Cathodic Install C,0
 EL,BD-CB-69,Cathodic test T,0
 EL,BD-CB-69,Cathodic Test for impress current,0
-EL,BD-CB-69,Cathodic sys.grid,0
 EL,BD-CB-69,Cathodic Test for magnesium anode,0
 EL,BD-CB-69,Cathodic commissioning Data,0
 EL,BD-CB-69,CABLING Cathodic Protection,1
 EL,BD-CB-70,Cathodic Install C,0
 EL,BD-CB-70,Cathodic test T,0
 EL,BD-CB-70,Cathodic Test for impress current,0
-EL,BD-CB-70,Cathodic sys.grid,0
 EL,BD-CB-70,Cathodic Test for magnesium anode,0
 EL,BD-CB-70,Cathodic commissioning Data,0
 EL,BD-CB-70,CABLING Cathodic Protection,1
 EL,BD-CB-72,Cathodic Install C,0
 EL,BD-CB-72,Cathodic test T,0
 EL,BD-CB-72,Cathodic Test for impress current,0
-EL,BD-CB-72,Cathodic sys.grid,0
 EL,BD-CB-72,Cathodic Test for magnesium anode,0
 EL,BD-CB-72,Cathodic commissioning Data,0
 EL,BD-CB-72,CABLING Cathodic Protection,1
 EL,BD-CB-73,Cathodic Install C,0
 EL,BD-CB-73,Cathodic test T,0
 EL,BD-CB-73,Cathodic Test for impress current,0
-EL,BD-CB-73,Cathodic sys.grid,0
 EL,BD-CB-73,Cathodic Test for magnesium anode,0
 EL,BD-CB-73,Cathodic commissioning Data,0
 EL,BD-CB-73,CABLING Cathodic Protection,1
 EL,BD-CB-74,Cathodic Install C,0
 EL,BD-CB-74,Cathodic test T,0
 EL,BD-CB-74,Cathodic Test for impress current,0
-EL,BD-CB-74,Cathodic sys.grid,0
 EL,BD-CB-74,Cathodic Test for magnesium anode,0
 EL,BD-CB-74,Cathodic commissioning Data,0
 EL,BD-CB-74,CABLING Cathodic Protection,1
 EL,BD-CB-75_1,Cathodic Install C,0
 EL,BD-CB-75_1,Cathodic test T,0
 EL,BD-CB-75_1,Cathodic Test for impress current,0
-EL,BD-CB-75_1,Cathodic sys.grid,0
 EL,BD-CB-75_1,Cathodic Test for magnesium anode,0
 EL,BD-CB-75_1,Cathodic commissioning Data,0
 EL,BD-CB-75_1,CABLING Cathodic Protection,1
 EL,BD-CB-75_2,Cathodic Install C,0
 EL,BD-CB-75_2,Cathodic test T,0
 EL,BD-CB-75_2,Cathodic Test for impress current,0
-EL,BD-CB-75_2,Cathodic sys.grid,0
 EL,BD-CB-75_2,Cathodic Test for magnesium anode,0
 EL,BD-CB-75_2,Cathodic commissioning Data,0
 EL,BD-CB-75_2,CABLING Cathodic Protection,1
 EL,BD-CB-76,Cathodic Install C,0
 EL,BD-CB-76,Cathodic test T,0
 EL,BD-CB-76,Cathodic Test for impress current,0
-EL,BD-CB-76,Cathodic sys.grid,0
 EL,BD-CB-76,Cathodic Test for magnesium anode,0
 EL,BD-CB-76,Cathodic commissioning Data,0
 EL,BD-CB-76,CABLING Cathodic Protection,1
 EL,BD-CB-77,Cathodic Install C,0
 EL,BD-CB-77,Cathodic test T,0
 EL,BD-CB-77,Cathodic Test for impress current,0
-EL,BD-CB-77,Cathodic sys.grid,0
 EL,BD-CB-77,Cathodic Test for magnesium anode,0
 EL,BD-CB-77,Cathodic commissioning Data,0
 EL,BD-CB-77,CABLING Cathodic Protection,1
 EL,BD-CB-78,Cathodic Install C,0
 EL,BD-CB-78,Cathodic test T,0
 EL,BD-CB-78,Cathodic Test for impress current,0
-EL,BD-CB-78,Cathodic sys.grid,0
 EL,BD-CB-78,Cathodic Test for magnesium anode,0
 EL,BD-CB-78,Cathodic commissioning Data,0
 EL,BD-CB-78,CABLING Cathodic Protection,1
 EL,BD-CB-79,Cathodic Install C,0
 EL,BD-CB-79,Cathodic test T,0
 EL,BD-CB-79,Cathodic Test for impress current,0
-EL,BD-CB-79,Cathodic sys.grid,0
 EL,BD-CB-79,Cathodic Test for magnesium anode,0
 EL,BD-CB-79,Cathodic commissioning Data,0
 EL,BD-CB-79,CABLING Cathodic Protection,1
 EL,BD-CB-80_1,Cathodic Install C,0
 EL,BD-CB-80_1,Cathodic test T,0
 EL,BD-CB-80_1,Cathodic Test for impress current,0
-EL,BD-CB-80_1,Cathodic sys.grid,0
 EL,BD-CB-80_1,Cathodic Test for magnesium anode,0
 EL,BD-CB-80_1,Cathodic commissioning Data,0
 EL,BD-CB-80_1,CABLING Cathodic Protection,1
 EL,BD-CB-80_2,Cathodic Install C,0
 EL,BD-CB-80_2,Cathodic test T,0
 EL,BD-CB-80_2,Cathodic Test for impress current,0
-EL,BD-CB-80_2,Cathodic sys.grid,0
 EL,BD-CB-80_2,Cathodic Test for magnesium anode,0
 EL,BD-CB-80_2,Cathodic commissioning Data,0
 EL,BD-CB-80_2,CABLING Cathodic Protection,1
 EL,BD-CB-81_1,Cathodic Install C,0
 EL,BD-CB-81_1,Cathodic test T,0
 EL,BD-CB-81_1,Cathodic Test for impress current,0
-EL,BD-CB-81_1,Cathodic sys.grid,0
 EL,BD-CB-81_1,Cathodic Test for magnesium anode,0
 EL,BD-CB-81_1,Cathodic commissioning Data,0
 EL,BD-CB-81_1,CABLING Cathodic Protection,1
 EL,BD-CB-81_2,Cathodic Install C,0
 EL,BD-CB-81_2,Cathodic test T,0
 EL,BD-CB-81_2,Cathodic Test for impress current,0
-EL,BD-CB-81_2,Cathodic sys.grid,0
 EL,BD-CB-81_2,Cathodic Test for magnesium anode,0
 EL,BD-CB-81_2,Cathodic commissioning Data,0
 EL,BD-CB-81_2,CABLING Cathodic Protection,1
 EL,BD-CB-81_3,Cathodic Install C,0
 EL,BD-CB-81_3,Cathodic test T,0
 EL,BD-CB-81_3,Cathodic Test for impress current,0
-EL,BD-CB-81_3,Cathodic sys.grid,0
 EL,BD-CB-81_3,Cathodic Test for magnesium anode,0
 EL,BD-CB-81_3,Cathodic commissioning Data,0
 EL,BD-CB-81_3,CABLING Cathodic Protection,1
 EL,BD-CB-82_1,Cathodic Install C,0
 EL,BD-CB-82_1,Cathodic test T,0
 EL,BD-CB-82_1,Cathodic Test for impress current,0
-EL,BD-CB-82_1,Cathodic sys.grid,0
 EL,BD-CB-82_1,Cathodic Test for magnesium anode,0
 EL,BD-CB-82_1,Cathodic commissioning Data,0
 EL,BD-CB-82_1,CABLING Cathodic Protection,1
 EL,BD-CB-82_2,Cathodic Install C,0
 EL,BD-CB-82_2,Cathodic test T,0
 EL,BD-CB-82_2,Cathodic Test for impress current,0
-EL,BD-CB-82_2,Cathodic sys.grid,0
 EL,BD-CB-82_2,Cathodic Test for magnesium anode,0
 EL,BD-CB-82_2,Cathodic commissioning Data,0
 EL,BD-CB-82_2,CABLING Cathodic Protection,1
 EL,BD-CB-83_1,Cathodic Install C,0
 EL,BD-CB-83_1,Cathodic test T,0
 EL,BD-CB-83_1,Cathodic Test for impress current,0
-EL,BD-CB-83_1,Cathodic sys.grid,0
 EL,BD-CB-83_1,Cathodic Test for magnesium anode,0
 EL,BD-CB-83_1,Cathodic commissioning Data,0
 EL,BD-CB-83_1,CABLING Cathodic Protection,1
 EL,BD-CB-83_2,Cathodic Install C,0
 EL,BD-CB-83_2,Cathodic test T,0
 EL,BD-CB-83_2,Cathodic Test for impress current,0
-EL,BD-CB-83_2,Cathodic sys.grid,0
 EL,BD-CB-83_2,Cathodic Test for magnesium anode,0
 EL,BD-CB-83_2,Cathodic commissioning Data,0
 EL,BD-CB-83_2,CABLING Cathodic Protection,1
 EL,BD-CB-84,Cathodic Install C,0
 EL,BD-CB-84,Cathodic test T,0
 EL,BD-CB-84,Cathodic Test for impress current,0
-EL,BD-CB-84,Cathodic sys.grid,0
 EL,BD-CB-84,Cathodic Test for magnesium anode,0
 EL,BD-CB-84,Cathodic commissioning Data,0
 EL,BD-CB-84,CABLING Cathodic Protection,1
 EL,BD-CB-85_1,Cathodic Install C,0
 EL,BD-CB-85_1,Cathodic test T,0
 EL,BD-CB-85_1,Cathodic Test for impress current,0
-EL,BD-CB-85_1,Cathodic sys.grid,0
 EL,BD-CB-85_1,Cathodic Test for magnesium anode,0
 EL,BD-CB-85_1,Cathodic commissioning Data,0
 EL,BD-CB-85_1,CABLING Cathodic Protection,1
 EL,BD-CB-85_2,Cathodic Install C,0
 EL,BD-CB-85_2,Cathodic test T,0
 EL,BD-CB-85_2,Cathodic Test for impress current,0
-EL,BD-CB-85_2,Cathodic sys.grid,0
 EL,BD-CB-85_2,Cathodic Test for magnesium anode,0
 EL,BD-CB-85_2,Cathodic commissioning Data,0
 EL,BD-CB-85_2,CABLING Cathodic Protection,1
 EL,BD-CB-86_1,Cathodic Install C,0
 EL,BD-CB-86_1,Cathodic test T,0
 EL,BD-CB-86_1,Cathodic Test for impress current,0
-EL,BD-CB-86_1,Cathodic sys.grid,0
 EL,BD-CB-86_1,Cathodic Test for magnesium anode,0
 EL,BD-CB-86_1,Cathodic commissioning Data,0
 EL,BD-CB-86_1,CABLING Cathodic Protection,1
 EL,BD-CB-86_2,Cathodic Install C,0
 EL,BD-CB-86_2,Cathodic test T,0
 EL,BD-CB-86_2,Cathodic Test for impress current,0
-EL,BD-CB-86_2,Cathodic sys.grid,0
 EL,BD-CB-86_2,Cathodic Test for magnesium anode,0
 EL,BD-CB-86_2,Cathodic commissioning Data,0
 EL,BD-CB-86_2,CABLING Cathodic Protection,1
 EL,BD-CB-87_1,Cathodic Install C,0
 EL,BD-CB-87_1,Cathodic test T,0
 EL,BD-CB-87_1,Cathodic Test for impress current,0
-EL,BD-CB-87_1,Cathodic sys.grid,0
 EL,BD-CB-87_1,Cathodic Test for magnesium anode,0
 EL,BD-CB-87_1,Cathodic commissioning Data,0
 EL,BD-CB-87_1,CABLING Cathodic Protection,1
 EL,BD-CB-87_2,Cathodic Install C,0
 EL,BD-CB-87_2,Cathodic test T,0
 EL,BD-CB-87_2,Cathodic Test for impress current,0
-EL,BD-CB-87_2,Cathodic sys.grid,0
 EL,BD-CB-87_2,Cathodic Test for magnesium anode,0
 EL,BD-CB-87_2,Cathodic commissioning Data,0
 EL,BD-CB-87_2,CABLING Cathodic Protection,1
 EL,BD-CB-89,Cathodic Install C,0
 EL,BD-CB-89,Cathodic test T,0
 EL,BD-CB-89,Cathodic Test for impress current,0
-EL,BD-CB-89,Cathodic sys.grid,0
 EL,BD-CB-89,Cathodic Test for magnesium anode,0
 EL,BD-CB-89,Cathodic commissioning Data,0
 EL,BD-CB-89,CABLING Cathodic Protection,1
 EL,BD-CB-90_1,Cathodic Install C,0
 EL,BD-CB-90_1,Cathodic test T,0
 EL,BD-CB-90_1,Cathodic Test for impress current,0
-EL,BD-CB-90_1,Cathodic sys.grid,0
 EL,BD-CB-90_1,Cathodic Test for magnesium anode,0
 EL,BD-CB-90_1,Cathodic commissioning Data,0
 EL,BD-CB-90_1,CABLING Cathodic Protection,1
 EL,BD-CB-90_2,Cathodic Install C,0
 EL,BD-CB-90_2,Cathodic test T,0
 EL,BD-CB-90_2,Cathodic Test for impress current,0
-EL,BD-CB-90_2,Cathodic sys.grid,0
 EL,BD-CB-90_2,Cathodic Test for magnesium anode,0
 EL,BD-CB-90_2,Cathodic commissioning Data,0
 EL,BD-CB-90_2,CABLING Cathodic Protection,1
 EL,BD-CB-93,Cathodic Install C,0
 EL,BD-CB-93,Cathodic test T,0
 EL,BD-CB-93,Cathodic Test for impress current,0
-EL,BD-CB-93,Cathodic sys.grid,0
 EL,BD-CB-93,Cathodic Test for magnesium anode,0
 EL,BD-CB-93,Cathodic commissioning Data,0
 EL,BD-CB-93,CABLING Cathodic Protection,1
 EL,BD-CB-94,Cathodic Install C,0
 EL,BD-CB-94,Cathodic test T,0
 EL,BD-CB-94,Cathodic Test for impress current,0
-EL,BD-CB-94,Cathodic sys.grid,0
 EL,BD-CB-94,Cathodic Test for magnesium anode,0
 EL,BD-CB-94,Cathodic commissioning Data,0
 EL,BD-CB-94,CABLING Cathodic Protection,1
 EL,BD-CB-97,Cathodic Install C,0
 EL,BD-CB-97,Cathodic test T,0
 EL,BD-CB-97,Cathodic Test for impress current,0
-EL,BD-CB-97,Cathodic sys.grid,0
 EL,BD-CB-97,Cathodic Test for magnesium anode,0
 EL,BD-CB-97,Cathodic commissioning Data,0
 EL,BD-CB-97,CABLING Cathodic Protection,1
 EL,BD-DV-5702,Cathodic Install C,0
 EL,BD-DV-5702,Cathodic test T,0
 EL,BD-DV-5702,Cathodic Test for impress current,0
-EL,BD-DV-5702,Cathodic sys.grid,0
 EL,BD-DV-5702,Cathodic Test for magnesium anode,0
 EL,BD-DV-5702,Cathodic commissioning Data,0
 EL,BD-DV-5702,CABLING Cathodic Protection,1
 EL,BD-DV-5703,Cathodic Install C,0
 EL,BD-DV-5703,Cathodic test T,0
 EL,BD-DV-5703,Cathodic Test for impress current,0
-EL,BD-DV-5703,Cathodic sys.grid,0
 EL,BD-DV-5703,Cathodic Test for magnesium anode,0
 EL,BD-DV-5703,Cathodic commissioning Data,0
 EL,BD-DV-5703,CABLING Cathodic Protection,1
 EL,BD-DV-5704,Cathodic Install C,0
 EL,BD-DV-5704,Cathodic test T,0
 EL,BD-DV-5704,Cathodic Test for impress current,0
-EL,BD-DV-5704,Cathodic sys.grid,0
 EL,BD-DV-5704,Cathodic Test for magnesium anode,0
 EL,BD-DV-5704,Cathodic commissioning Data,0
 EL,BD-DV-5704,CABLING Cathodic Protection,1
 EL,BD-DV-5802,Cathodic Install C,0
 EL,BD-DV-5802,Cathodic test T,0
 EL,BD-DV-5802,Cathodic Test for impress current,0
-EL,BD-DV-5802,Cathodic sys.grid,0
 EL,BD-DV-5802,Cathodic Test for magnesium anode,0
 EL,BD-DV-5802,Cathodic commissioning Data,0
 EL,BD-DV-5802,CABLING Cathodic Protection,1
 EL,BD-DV-5803,Cathodic Install C,0
 EL,BD-DV-5803,Cathodic test T,0
 EL,BD-DV-5803,Cathodic Test for impress current,0
-EL,BD-DV-5803,Cathodic sys.grid,0
 EL,BD-DV-5803,Cathodic Test for magnesium anode,0
 EL,BD-DV-5803,Cathodic commissioning Data,0
 EL,BD-DV-5803,CABLING Cathodic Protection,1
 EL,BD-DV-5804_1,Cathodic Install C,0
 EL,BD-DV-5804_1,Cathodic test T,0
 EL,BD-DV-5804_1,Cathodic Test for impress current,0
-EL,BD-DV-5804_1,Cathodic sys.grid,0
 EL,BD-DV-5804_1,Cathodic Test for magnesium anode,0
 EL,BD-DV-5804_1,Cathodic commissioning Data,0
 EL,BD-DV-5804_1,CABLING Cathodic Protection,1
 EL,BD-DV-5804_2,Cathodic Install C,0
 EL,BD-DV-5804_2,Cathodic test T,0
 EL,BD-DV-5804_2,Cathodic Test for impress current,0
-EL,BD-DV-5804_2,Cathodic sys.grid,0
 EL,BD-DV-5804_2,Cathodic Test for magnesium anode,0
 EL,BD-DV-5804_2,Cathodic commissioning Data,0
 EL,BD-DV-5804_2,CABLING Cathodic Protection,1
 EL,BD-DV-5804_3,Cathodic Install C,0
 EL,BD-DV-5804_3,Cathodic test T,0
 EL,BD-DV-5804_3,Cathodic Test for impress current,0
-EL,BD-DV-5804_3,Cathodic sys.grid,0
 EL,BD-DV-5804_3,Cathodic Test for magnesium anode,0
 EL,BD-DV-5804_3,Cathodic commissioning Data,0
 EL,BD-DV-5804_3,CABLING Cathodic Protection,1
 EL,BD-DV-6105,Cathodic Install C,0
 EL,BD-DV-6105,Cathodic test T,0
 EL,BD-DV-6105,Cathodic Test for impress current,0
-EL,BD-DV-6105,Cathodic sys.grid,0
 EL,BD-DV-6105,Cathodic Test for magnesium anode,0
 EL,BD-DV-6105,Cathodic commissioning Data,0
 EL,BD-DV-6105,CABLING Cathodic Protection,1
 EL,BD-DV-6203,Cathodic Install C,0
 EL,BD-DV-6203,Cathodic test T,0
 EL,BD-DV-6203,Cathodic Test for impress current,0
-EL,BD-DV-6203,Cathodic sys.grid,0
 EL,BD-DV-6203,Cathodic Test for magnesium anode,0
 EL,BD-DV-6203,Cathodic commissioning Data,0
 EL,BD-DV-6203,CABLING Cathodic Protection,1
 EL,BD-DV-6204,Cathodic Install C,0
 EL,BD-DV-6204,Cathodic test T,0
 EL,BD-DV-6204,Cathodic Test for impress current,0
-EL,BD-DV-6204,Cathodic sys.grid,0
 EL,BD-DV-6204,Cathodic Test for magnesium anode,0
 EL,BD-DV-6204,Cathodic commissioning Data,0
 EL,BD-DV-6204,CABLING Cathodic Protection,1
 EL,BD-DV-6206,Cathodic Install C,0
 EL,BD-DV-6206,Cathodic test T,0
 EL,BD-DV-6206,Cathodic Test for impress current,0
-EL,BD-DV-6206,Cathodic sys.grid,0
 EL,BD-DV-6206,Cathodic Test for magnesium anode,0
 EL,BD-DV-6206,Cathodic commissioning Data,0
 EL,BD-DV-6206,CABLING Cathodic Protection,1
 EL,BD-DV-6302,Cathodic Install C,0
 EL,BD-DV-6302,Cathodic test T,0
 EL,BD-DV-6302,Cathodic Test for impress current,0
-EL,BD-DV-6302,Cathodic sys.grid,0
 EL,BD-DV-6302,Cathodic Test for magnesium anode,0
 EL,BD-DV-6302,Cathodic commissioning Data,0
 EL,BD-DV-6302,CABLING Cathodic Protection,1
 EL,BD-DV-6303,Cathodic Install C,0
 EL,BD-DV-6303,Cathodic test T,0
 EL,BD-DV-6303,Cathodic Test for impress current,0
-EL,BD-DV-6303,Cathodic sys.grid,0
 EL,BD-DV-6303,Cathodic Test for magnesium anode,0
 EL,BD-DV-6303,Cathodic commissioning Data,0
 EL,BD-DV-6303,CABLING Cathodic Protection,1
 EL,BD-DV-6304,Cathodic Install C,0
 EL,BD-DV-6304,Cathodic test T,0
 EL,BD-DV-6304,Cathodic Test for impress current,0
-EL,BD-DV-6304,Cathodic sys.grid,0
 EL,BD-DV-6304,Cathodic Test for magnesium anode,0
 EL,BD-DV-6304,Cathodic commissioning Data,0
 EL,BD-DV-6304,CABLING Cathodic Protection,1
 EL,BD-DV-6401,Cathodic Install C,0
 EL,BD-DV-6401,Cathodic test T,0
 EL,BD-DV-6401,Cathodic Test for impress current,0
-EL,BD-DV-6401,Cathodic sys.grid,0
 EL,BD-DV-6401,Cathodic Test for magnesium anode,0
 EL,BD-DV-6401,Cathodic commissioning Data,0
 EL,BD-DV-6401,CABLING Cathodic Protection,1
 EL,BD-DV-6404,Cathodic Install C,0
 EL,BD-DV-6404,Cathodic test T,0
 EL,BD-DV-6404,Cathodic Test for impress current,0
-EL,BD-DV-6404,Cathodic sys.grid,0
 EL,BD-DV-6404,Cathodic Test for magnesium anode,0
 EL,BD-DV-6404,Cathodic commissioning Data,0
 EL,BD-DV-6404,CABLING Cathodic Protection,1
 EL,BD-DV-6801_1,Cathodic Install C,0
 EL,BD-DV-6801_1,Cathodic test T,0
 EL,BD-DV-6801_1,Cathodic Test for impress current,0
-EL,BD-DV-6801_1,Cathodic sys.grid,0
 EL,BD-DV-6801_1,Cathodic Test for magnesium anode,0
 EL,BD-DV-6801_1,Cathodic commissioning Data,0
 EL,BD-DV-6801_1,CABLING Cathodic Protection,1
 EL,BD-DV-6801_2,Cathodic Install C,0
 EL,BD-DV-6801_2,Cathodic test T,0
 EL,BD-DV-6801_2,Cathodic Test for impress current,0
-EL,BD-DV-6801_2,Cathodic sys.grid,0
 EL,BD-DV-6801_2,Cathodic Test for magnesium anode,0
 EL,BD-DV-6801_2,Cathodic commissioning Data,0
 EL,BD-DV-6801_2,CABLING Cathodic Protection,1
 EL,BD-DV-6801_3,Cathodic Install C,0
 EL,BD-DV-6801_3,Cathodic test T,0
 EL,BD-DV-6801_3,Cathodic Test for impress current,0
-EL,BD-DV-6801_3,Cathodic sys.grid,0
 EL,BD-DV-6801_3,Cathodic Test for magnesium anode,0
 EL,BD-DV-6801_3,Cathodic commissioning Data,0
 EL,BD-DV-6801_3,CABLING Cathodic Protection,1
 EL,BD-MO-01,Cathodic Install C,0
 EL,BD-MO-01,Cathodic test T,0
 EL,BD-MO-01,Cathodic Test for impress current,0
-EL,BD-MO-01,Cathodic sys.grid,0
 EL,BD-MO-01,Cathodic Test for magnesium anode,0
 EL,BD-MO-01,Cathodic commissioning Data,0
 EL,BD-MO-01,CABLING Cathodic Protection,1
 EL,BD-MO-02_1,Cathodic Install C,0
 EL,BD-MO-02_1,Cathodic test T,0
 EL,BD-MO-02_1,Cathodic Test for impress current,0
-EL,BD-MO-02_1,Cathodic sys.grid,0
 EL,BD-MO-02_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-02_1,Cathodic commissioning Data,0
 EL,BD-MO-02_1,CABLING Cathodic Protection,1
 EL,BD-MO-02_2,Cathodic Install C,0
 EL,BD-MO-02_2,Cathodic test T,0
 EL,BD-MO-02_2,Cathodic Test for impress current,0
-EL,BD-MO-02_2,Cathodic sys.grid,0
 EL,BD-MO-02_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-02_2,Cathodic commissioning Data,0
 EL,BD-MO-02_2,CABLING Cathodic Protection,1
 EL,BD-MO-03_1,Cathodic Install C,0
 EL,BD-MO-03_1,Cathodic test T,0
 EL,BD-MO-03_1,Cathodic Test for impress current,0
-EL,BD-MO-03_1,Cathodic sys.grid,0
 EL,BD-MO-03_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-03_1,Cathodic commissioning Data,0
 EL,BD-MO-03_1,CABLING Cathodic Protection,1
 EL,BD-MO-03_2,Cathodic Install C,0
 EL,BD-MO-03_2,Cathodic test T,0
 EL,BD-MO-03_2,Cathodic Test for impress current,0
-EL,BD-MO-03_2,Cathodic sys.grid,0
 EL,BD-MO-03_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-03_2,Cathodic commissioning Data,0
 EL,BD-MO-03_2,CABLING Cathodic Protection,1
 EL,BD-MO-04_1,Cathodic Install C,0
 EL,BD-MO-04_1,Cathodic test T,0
 EL,BD-MO-04_1,Cathodic Test for impress current,0
-EL,BD-MO-04_1,Cathodic sys.grid,0
 EL,BD-MO-04_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-04_1,Cathodic commissioning Data,0
 EL,BD-MO-04_1,CABLING Cathodic Protection,1
 EL,BD-MO-04_2,Cathodic Install C,0
 EL,BD-MO-04_2,Cathodic test T,0
 EL,BD-MO-04_2,Cathodic Test for impress current,0
-EL,BD-MO-04_2,Cathodic sys.grid,0
 EL,BD-MO-04_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-04_2,Cathodic commissioning Data,0
 EL,BD-MO-04_2,CABLING Cathodic Protection,1
 EL,BD-MO-05_1,Cathodic Install C,0
 EL,BD-MO-05_1,Cathodic test T,0
 EL,BD-MO-05_1,Cathodic Test for impress current,0
-EL,BD-MO-05_1,Cathodic sys.grid,0
 EL,BD-MO-05_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-05_1,Cathodic commissioning Data,0
 EL,BD-MO-05_1,CABLING Cathodic Protection,1
 EL,BD-MO-05_2,Cathodic Install C,0
 EL,BD-MO-05_2,Cathodic test T,0
 EL,BD-MO-05_2,Cathodic Test for impress current,0
-EL,BD-MO-05_2,Cathodic sys.grid,0
 EL,BD-MO-05_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-05_2,Cathodic commissioning Data,0
 EL,BD-MO-05_2,CABLING Cathodic Protection,1
 EL,BD-MO-06_1,Cathodic Install C,0
 EL,BD-MO-06_1,Cathodic test T,0
 EL,BD-MO-06_1,Cathodic Test for impress current,0
-EL,BD-MO-06_1,Cathodic sys.grid,0
 EL,BD-MO-06_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-06_1,Cathodic commissioning Data,0
 EL,BD-MO-06_1,CABLING Cathodic Protection,1
 EL,BD-MO-06_2,Cathodic Install C,0
 EL,BD-MO-06_2,Cathodic test T,0
 EL,BD-MO-06_2,Cathodic Test for impress current,0
-EL,BD-MO-06_2,Cathodic sys.grid,0
 EL,BD-MO-06_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-06_2,Cathodic commissioning Data,0
 EL,BD-MO-06_2,CABLING Cathodic Protection,1
 EL,BD-MO-07_1,Cathodic Install C,0
 EL,BD-MO-07_1,Cathodic test T,0
 EL,BD-MO-07_1,Cathodic Test for impress current,0
-EL,BD-MO-07_1,Cathodic sys.grid,0
 EL,BD-MO-07_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-07_1,Cathodic commissioning Data,0
 EL,BD-MO-07_1,CABLING Cathodic Protection,1
 EL,BD-MO-07_2,Cathodic Install C,0
 EL,BD-MO-07_2,Cathodic test T,0
 EL,BD-MO-07_2,Cathodic Test for impress current,0
-EL,BD-MO-07_2,Cathodic sys.grid,0
 EL,BD-MO-07_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-07_2,Cathodic commissioning Data,0
 EL,BD-MO-07_2,CABLING Cathodic Protection,1
 EL,BD-MO-08_1,Cathodic Install C,0
 EL,BD-MO-08_1,Cathodic test T,0
 EL,BD-MO-08_1,Cathodic Test for impress current,0
-EL,BD-MO-08_1,Cathodic sys.grid,0
 EL,BD-MO-08_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-08_1,Cathodic commissioning Data,0
 EL,BD-MO-08_1,CABLING Cathodic Protection,1
 EL,BD-MO-08_2,Cathodic Install C,0
 EL,BD-MO-08_2,Cathodic test T,0
 EL,BD-MO-08_2,Cathodic Test for impress current,0
-EL,BD-MO-08_2,Cathodic sys.grid,0
 EL,BD-MO-08_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-08_2,Cathodic commissioning Data,0
 EL,BD-MO-08_2,CABLING Cathodic Protection,1
 EL,BD-MO-08_3,Cathodic Install C,0
 EL,BD-MO-08_3,Cathodic test T,0
 EL,BD-MO-08_3,Cathodic Test for impress current,0
-EL,BD-MO-08_3,Cathodic sys.grid,0
 EL,BD-MO-08_3,Cathodic Test for magnesium anode,0
 EL,BD-MO-08_3,Cathodic commissioning Data,0
 EL,BD-MO-08_3,CABLING Cathodic Protection,1
 EL,BD-MO-09_1,Cathodic Install C,0
 EL,BD-MO-09_1,Cathodic test T,0
 EL,BD-MO-09_1,Cathodic Test for impress current,0
-EL,BD-MO-09_1,Cathodic sys.grid,0
 EL,BD-MO-09_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-09_1,Cathodic commissioning Data,0
 EL,BD-MO-09_1,CABLING Cathodic Protection,1
 EL,BD-MO-09_2,Cathodic Install C,0
 EL,BD-MO-09_2,Cathodic test T,0
 EL,BD-MO-09_2,Cathodic Test for impress current,0
-EL,BD-MO-09_2,Cathodic sys.grid,0
 EL,BD-MO-09_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-09_2,Cathodic commissioning Data,0
 EL,BD-MO-09_2,CABLING Cathodic Protection,1
 EL,BD-MO-10_1,Cathodic Install C,0
 EL,BD-MO-10_1,Cathodic test T,0
 EL,BD-MO-10_1,Cathodic Test for impress current,0
-EL,BD-MO-10_1,Cathodic sys.grid,0
 EL,BD-MO-10_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-10_1,Cathodic commissioning Data,0
 EL,BD-MO-10_1,CABLING Cathodic Protection,1
 EL,BD-MO-10_2,Cathodic Install C,0
 EL,BD-MO-10_2,Cathodic test T,0
 EL,BD-MO-10_2,Cathodic Test for impress current,0
-EL,BD-MO-10_2,Cathodic sys.grid,0
 EL,BD-MO-10_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-10_2,Cathodic commissioning Data,0
 EL,BD-MO-10_2,CABLING Cathodic Protection,1
 EL,BD-MO-10_3,Cathodic Install C,0
 EL,BD-MO-10_3,Cathodic test T,0
 EL,BD-MO-10_3,Cathodic Test for impress current,0
-EL,BD-MO-10_3,Cathodic sys.grid,0
 EL,BD-MO-10_3,Cathodic Test for magnesium anode,0
 EL,BD-MO-10_3,Cathodic commissioning Data,0
 EL,BD-MO-10_3,CABLING Cathodic Protection,1
 EL,BD-MO-11_1,Cathodic Install C,0
 EL,BD-MO-11_1,Cathodic test T,0
 EL,BD-MO-11_1,Cathodic Test for impress current,0
-EL,BD-MO-11_1,Cathodic sys.grid,0
 EL,BD-MO-11_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-11_1,Cathodic commissioning Data,0
 EL,BD-MO-11_1,CABLING Cathodic Protection,1
 EL,BD-MO-11_2,Cathodic Install C,0
 EL,BD-MO-11_2,Cathodic test T,0
 EL,BD-MO-11_2,Cathodic Test for impress current,0
-EL,BD-MO-11_2,Cathodic sys.grid,0
 EL,BD-MO-11_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-11_2,Cathodic commissioning Data,0
 EL,BD-MO-11_2,CABLING Cathodic Protection,1
 EL,BD-MO-12_1,Cathodic Install C,0
 EL,BD-MO-12_1,Cathodic test T,0
 EL,BD-MO-12_1,Cathodic Test for impress current,0
-EL,BD-MO-12_1,Cathodic sys.grid,0
 EL,BD-MO-12_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-12_1,Cathodic commissioning Data,0
 EL,BD-MO-12_1,CABLING Cathodic Protection,1
 EL,BD-MO-12_2,Cathodic Install C,0
 EL,BD-MO-12_2,Cathodic test T,0
 EL,BD-MO-12_2,Cathodic Test for impress current,0
-EL,BD-MO-12_2,Cathodic sys.grid,0
 EL,BD-MO-12_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-12_2,Cathodic commissioning Data,0
 EL,BD-MO-12_2,CABLING Cathodic Protection,1
 EL,BD-MO-13_1,Cathodic Install C,0
 EL,BD-MO-13_1,Cathodic test T,0
 EL,BD-MO-13_1,Cathodic Test for impress current,0
-EL,BD-MO-13_1,Cathodic sys.grid,0
 EL,BD-MO-13_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-13_1,Cathodic commissioning Data,0
 EL,BD-MO-13_1,CABLING Cathodic Protection,1
 EL,BD-MO-13_2,Cathodic Install C,0
 EL,BD-MO-13_2,Cathodic test T,0
 EL,BD-MO-13_2,Cathodic Test for impress current,0
-EL,BD-MO-13_2,Cathodic sys.grid,0
 EL,BD-MO-13_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-13_2,Cathodic commissioning Data,0
 EL,BD-MO-13_2,CABLING Cathodic Protection,1
 EL,BD-MO-14_1,Cathodic Install C,0
 EL,BD-MO-14_1,Cathodic test T,0
 EL,BD-MO-14_1,Cathodic Test for impress current,0
-EL,BD-MO-14_1,Cathodic sys.grid,0
 EL,BD-MO-14_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-14_1,Cathodic commissioning Data,0
 EL,BD-MO-14_1,CABLING Cathodic Protection,1
 EL,BD-MO-14_2,Cathodic Install C,0
 EL,BD-MO-14_2,Cathodic test T,0
 EL,BD-MO-14_2,Cathodic Test for impress current,0
-EL,BD-MO-14_2,Cathodic sys.grid,0
 EL,BD-MO-14_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-14_2,Cathodic commissioning Data,0
 EL,BD-MO-14_2,CABLING Cathodic Protection,1
 EL,BD-MO-14_3,Cathodic Install C,0
 EL,BD-MO-14_3,Cathodic test T,0
 EL,BD-MO-14_3,Cathodic Test for impress current,0
-EL,BD-MO-14_3,Cathodic sys.grid,0
 EL,BD-MO-14_3,Cathodic Test for magnesium anode,0
 EL,BD-MO-14_3,Cathodic commissioning Data,0
 EL,BD-MO-14_3,CABLING Cathodic Protection,1
 EL,BD-MO-15_1,Cathodic Install C,0
 EL,BD-MO-15_1,Cathodic test T,0
 EL,BD-MO-15_1,Cathodic Test for impress current,0
-EL,BD-MO-15_1,Cathodic sys.grid,0
 EL,BD-MO-15_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-15_1,Cathodic commissioning Data,0
 EL,BD-MO-15_1,CABLING Cathodic Protection,1
 EL,BD-MO-15_2,Cathodic Install C,0
 EL,BD-MO-15_2,Cathodic test T,0
 EL,BD-MO-15_2,Cathodic Test for impress current,0
-EL,BD-MO-15_2,Cathodic sys.grid,0
 EL,BD-MO-15_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-15_2,Cathodic commissioning Data,0
 EL,BD-MO-15_2,CABLING Cathodic Protection,1
 EL,BD-MO-15_3,Cathodic Install C,0
 EL,BD-MO-15_3,Cathodic test T,0
 EL,BD-MO-15_3,Cathodic Test for impress current,0
-EL,BD-MO-15_3,Cathodic sys.grid,0
 EL,BD-MO-15_3,Cathodic Test for magnesium anode,0
 EL,BD-MO-15_3,Cathodic commissioning Data,0
 EL,BD-MO-15_3,CABLING Cathodic Protection,1
 EL,BD-MO-16_1,Cathodic Install C,0
 EL,BD-MO-16_1,Cathodic test T,0
 EL,BD-MO-16_1,Cathodic Test for impress current,0
-EL,BD-MO-16_1,Cathodic sys.grid,0
 EL,BD-MO-16_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-16_1,Cathodic commissioning Data,0
 EL,BD-MO-16_1,CABLING Cathodic Protection,1
 EL,BD-MO-16_2,Cathodic Install C,0
 EL,BD-MO-16_2,Cathodic test T,0
 EL,BD-MO-16_2,Cathodic Test for impress current,0
-EL,BD-MO-16_2,Cathodic sys.grid,0
 EL,BD-MO-16_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-16_2,Cathodic commissioning Data,0
 EL,BD-MO-16_2,CABLING Cathodic Protection,1
 EL,BD-MO-17,Cathodic Install C,0
 EL,BD-MO-17,Cathodic test T,0
 EL,BD-MO-17,Cathodic Test for impress current,0
-EL,BD-MO-17,Cathodic sys.grid,0
 EL,BD-MO-17,Cathodic Test for magnesium anode,0
 EL,BD-MO-17,Cathodic commissioning Data,0
 EL,BD-MO-17,CABLING Cathodic Protection,1
 EL,BD-MO-18_1,Cathodic Install C,0
 EL,BD-MO-18_1,Cathodic test T,0
 EL,BD-MO-18_1,Cathodic Test for impress current,0
-EL,BD-MO-18_1,Cathodic sys.grid,0
 EL,BD-MO-18_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-18_1,Cathodic commissioning Data,0
 EL,BD-MO-18_1,CABLING Cathodic Protection,1
 EL,BD-MO-18_2,Cathodic Install C,0
 EL,BD-MO-18_2,Cathodic test T,0
 EL,BD-MO-18_2,Cathodic Test for impress current,0
-EL,BD-MO-18_2,Cathodic sys.grid,0
 EL,BD-MO-18_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-18_2,Cathodic commissioning Data,0
 EL,BD-MO-18_2,CABLING Cathodic Protection,1
 EL,BD-MO-18_3,Cathodic Install C,0
 EL,BD-MO-18_3,Cathodic test T,0
 EL,BD-MO-18_3,Cathodic Test for impress current,0
-EL,BD-MO-18_3,Cathodic sys.grid,0
 EL,BD-MO-18_3,Cathodic Test for magnesium anode,0
 EL,BD-MO-18_3,Cathodic commissioning Data,0
 EL,BD-MO-18_3,CABLING Cathodic Protection,1
 EL,BD-MO-19_1,Cathodic Install C,0
 EL,BD-MO-19_1,Cathodic test T,0
 EL,BD-MO-19_1,Cathodic Test for impress current,0
-EL,BD-MO-19_1,Cathodic sys.grid,0
 EL,BD-MO-19_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-19_1,Cathodic commissioning Data,0
 EL,BD-MO-19_1,CABLING Cathodic Protection,1
 EL,BD-MO-19_2,Cathodic Install C,0
 EL,BD-MO-19_2,Cathodic test T,0
 EL,BD-MO-19_2,Cathodic Test for impress current,0
-EL,BD-MO-19_2,Cathodic sys.grid,0
 EL,BD-MO-19_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-19_2,Cathodic commissioning Data,0
 EL,BD-MO-19_2,CABLING Cathodic Protection,1
 EL,BD-MO-20,Cathodic Install C,0
 EL,BD-MO-20,Cathodic test T,0
 EL,BD-MO-20,Cathodic Test for impress current,0
-EL,BD-MO-20,Cathodic sys.grid,0
 EL,BD-MO-20,Cathodic Test for magnesium anode,0
 EL,BD-MO-20,Cathodic commissioning Data,0
 EL,BD-MO-20,CABLING Cathodic Protection,1
 EL,BD-MO-21,Cathodic Install C,0
 EL,BD-MO-21,Cathodic test T,0
 EL,BD-MO-21,Cathodic Test for impress current,0
-EL,BD-MO-21,Cathodic sys.grid,0
 EL,BD-MO-21,Cathodic Test for magnesium anode,0
 EL,BD-MO-21,Cathodic commissioning Data,0
 EL,BD-MO-21,CABLING Cathodic Protection,1
 EL,BD-MO-22,Cathodic Install C,0
 EL,BD-MO-22,Cathodic test T,0
 EL,BD-MO-22,Cathodic Test for impress current,0
-EL,BD-MO-22,Cathodic sys.grid,0
 EL,BD-MO-22,Cathodic Test for magnesium anode,0
 EL,BD-MO-22,Cathodic commissioning Data,0
 EL,BD-MO-22,CABLING Cathodic Protection,1
 EL,BD-MO-23_1,Cathodic Install C,0
 EL,BD-MO-23_1,Cathodic test T,0
 EL,BD-MO-23_1,Cathodic Test for impress current,0
-EL,BD-MO-23_1,Cathodic sys.grid,0
 EL,BD-MO-23_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-23_1,Cathodic commissioning Data,0
 EL,BD-MO-23_1,CABLING Cathodic Protection,1
 EL,BD-MO-23_2,Cathodic Install C,0
 EL,BD-MO-23_2,Cathodic test T,0
 EL,BD-MO-23_2,Cathodic Test for impress current,0
-EL,BD-MO-23_2,Cathodic sys.grid,0
 EL,BD-MO-23_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-23_2,Cathodic commissioning Data,0
 EL,BD-MO-23_2,CABLING Cathodic Protection,1
 EL,BD-MO-24,Cathodic Install C,0
 EL,BD-MO-24,Cathodic test T,0
 EL,BD-MO-24,Cathodic Test for impress current,0
-EL,BD-MO-24,Cathodic sys.grid,0
 EL,BD-MO-24,Cathodic Test for magnesium anode,0
 EL,BD-MO-24,Cathodic commissioning Data,0
 EL,BD-MO-24,CABLING Cathodic Protection,1
 EL,BD-MO-25_1,Cathodic Install C,0
 EL,BD-MO-25_1,Cathodic test T,0
 EL,BD-MO-25_1,Cathodic Test for impress current,0
-EL,BD-MO-25_1,Cathodic sys.grid,0
 EL,BD-MO-25_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-25_1,Cathodic commissioning Data,0
 EL,BD-MO-25_1,CABLING Cathodic Protection,1
 EL,BD-MO-25_2,Cathodic Install C,0
 EL,BD-MO-25_2,Cathodic test T,0
 EL,BD-MO-25_2,Cathodic Test for impress current,0
-EL,BD-MO-25_2,Cathodic sys.grid,0
 EL,BD-MO-25_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-25_2,Cathodic commissioning Data,0
 EL,BD-MO-25_2,CABLING Cathodic Protection,1
 EL,BD-MO-25_3,Cathodic Install C,0
 EL,BD-MO-25_3,Cathodic test T,0
 EL,BD-MO-25_3,Cathodic Test for impress current,0
-EL,BD-MO-25_3,Cathodic sys.grid,0
 EL,BD-MO-25_3,Cathodic Test for magnesium anode,0
 EL,BD-MO-25_3,Cathodic commissioning Data,0
 EL,BD-MO-25_3,CABLING Cathodic Protection,1
 EL,BD-MO-26,Cathodic Install C,0
 EL,BD-MO-26,Cathodic test T,0
 EL,BD-MO-26,Cathodic Test for impress current,0
-EL,BD-MO-26,Cathodic sys.grid,0
 EL,BD-MO-26,Cathodic Test for magnesium anode,0
 EL,BD-MO-26,Cathodic commissioning Data,0
 EL,BD-MO-26,CABLING Cathodic Protection,1
 EL,BD-MO-27_1,Cathodic Install C,0
 EL,BD-MO-27_1,Cathodic test T,0
 EL,BD-MO-27_1,Cathodic Test for impress current,0
-EL,BD-MO-27_1,Cathodic sys.grid,0
 EL,BD-MO-27_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-27_1,Cathodic commissioning Data,0
 EL,BD-MO-27_1,CABLING Cathodic Protection,1
 EL,BD-MO-27_2,Cathodic Install C,0
 EL,BD-MO-27_2,Cathodic test T,0
 EL,BD-MO-27_2,Cathodic Test for impress current,0
-EL,BD-MO-27_2,Cathodic sys.grid,0
 EL,BD-MO-27_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-27_2,Cathodic commissioning Data,0
 EL,BD-MO-27_2,CABLING Cathodic Protection,1
 EL,BD-MO-27_3,Cathodic Install C,0
 EL,BD-MO-27_3,Cathodic test T,0
 EL,BD-MO-27_3,Cathodic Test for impress current,0
-EL,BD-MO-27_3,Cathodic sys.grid,0
 EL,BD-MO-27_3,Cathodic Test for magnesium anode,0
 EL,BD-MO-27_3,Cathodic commissioning Data,0
 EL,BD-MO-27_3,CABLING Cathodic Protection,1
 EL,BD-MO-28_1,Cathodic Install C,0
 EL,BD-MO-28_1,Cathodic test T,0
 EL,BD-MO-28_1,Cathodic Test for impress current,0
-EL,BD-MO-28_1,Cathodic sys.grid,0
 EL,BD-MO-28_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-28_1,Cathodic commissioning Data,0
 EL,BD-MO-28_1,CABLING Cathodic Protection,1
 EL,BD-MO-28_2,Cathodic Install C,0
 EL,BD-MO-28_2,Cathodic test T,0
 EL,BD-MO-28_2,Cathodic Test for impress current,0
-EL,BD-MO-28_2,Cathodic sys.grid,0
 EL,BD-MO-28_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-28_2,Cathodic commissioning Data,0
 EL,BD-MO-28_2,CABLING Cathodic Protection,1
 EL,BD-MO-29_1,Cathodic Install C,0
 EL,BD-MO-29_1,Cathodic test T,0
 EL,BD-MO-29_1,Cathodic Test for impress current,0
-EL,BD-MO-29_1,Cathodic sys.grid,0
 EL,BD-MO-29_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-29_1,Cathodic commissioning Data,0
 EL,BD-MO-29_1,CABLING Cathodic Protection,1
 EL,BD-MO-29_2,Cathodic Install C,0
 EL,BD-MO-29_2,Cathodic test T,0
 EL,BD-MO-29_2,Cathodic Test for impress current,0
-EL,BD-MO-29_2,Cathodic sys.grid,0
 EL,BD-MO-29_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-29_2,Cathodic commissioning Data,0
 EL,BD-MO-29_2,CABLING Cathodic Protection,1
 EL,BD-MO-30_1,Cathodic Install C,0
 EL,BD-MO-30_1,Cathodic test T,0
 EL,BD-MO-30_1,Cathodic Test for impress current,0
-EL,BD-MO-30_1,Cathodic sys.grid,0
 EL,BD-MO-30_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-30_1,Cathodic commissioning Data,0
 EL,BD-MO-30_1,CABLING Cathodic Protection,1
 EL,BD-MO-30_2,Cathodic Install C,0
 EL,BD-MO-30_2,Cathodic test T,0
 EL,BD-MO-30_2,Cathodic Test for impress current,0
-EL,BD-MO-30_2,Cathodic sys.grid,0
 EL,BD-MO-30_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-30_2,Cathodic commissioning Data,0
 EL,BD-MO-30_2,CABLING Cathodic Protection,1
 EL,BD-MO-30_3,Cathodic Install C,0
 EL,BD-MO-30_3,Cathodic test T,0
 EL,BD-MO-30_3,Cathodic Test for impress current,0
-EL,BD-MO-30_3,Cathodic sys.grid,0
 EL,BD-MO-30_3,Cathodic Test for magnesium anode,0
 EL,BD-MO-30_3,Cathodic commissioning Data,0
 EL,BD-MO-30_3,CABLING Cathodic Protection,1
 EL,BD-MO-31_1,Cathodic Install C,0
 EL,BD-MO-31_1,Cathodic test T,0
 EL,BD-MO-31_1,Cathodic Test for impress current,0
-EL,BD-MO-31_1,Cathodic sys.grid,0
 EL,BD-MO-31_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-31_1,Cathodic commissioning Data,0
 EL,BD-MO-31_1,CABLING Cathodic Protection,1
 EL,BD-MO-31_2,Cathodic Install C,0
 EL,BD-MO-31_2,Cathodic test T,0
 EL,BD-MO-31_2,Cathodic Test for impress current,0
-EL,BD-MO-31_2,Cathodic sys.grid,0
 EL,BD-MO-31_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-31_2,Cathodic commissioning Data,0
 EL,BD-MO-31_2,CABLING Cathodic Protection,1
 EL,BD-MO-32_1,Cathodic Install C,0
 EL,BD-MO-32_1,Cathodic test T,0
 EL,BD-MO-32_1,Cathodic Test for impress current,0
-EL,BD-MO-32_1,Cathodic sys.grid,0
 EL,BD-MO-32_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-32_1,Cathodic commissioning Data,0
 EL,BD-MO-32_1,CABLING Cathodic Protection,1
 EL,BD-MO-32_2,Cathodic Install C,0
 EL,BD-MO-32_2,Cathodic test T,0
 EL,BD-MO-32_2,Cathodic Test for impress current,0
-EL,BD-MO-32_2,Cathodic sys.grid,0
 EL,BD-MO-32_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-32_2,Cathodic commissioning Data,0
 EL,BD-MO-32_2,CABLING Cathodic Protection,1
 EL,BD-MO-33_1,Cathodic Install C,0
 EL,BD-MO-33_1,Cathodic test T,0
 EL,BD-MO-33_1,Cathodic Test for impress current,0
-EL,BD-MO-33_1,Cathodic sys.grid,0
 EL,BD-MO-33_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-33_1,Cathodic commissioning Data,0
 EL,BD-MO-33_1,CABLING Cathodic Protection,1
 EL,BD-MO-33_2,Cathodic Install C,0
 EL,BD-MO-33_2,Cathodic test T,0
 EL,BD-MO-33_2,Cathodic Test for impress current,0
-EL,BD-MO-33_2,Cathodic sys.grid,0
 EL,BD-MO-33_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-33_2,Cathodic commissioning Data,0
 EL,BD-MO-33_2,CABLING Cathodic Protection,1
 EL,BD-MO-34,Cathodic Install C,0
 EL,BD-MO-34,Cathodic test T,0
 EL,BD-MO-34,Cathodic Test for impress current,0
-EL,BD-MO-34,Cathodic sys.grid,0
 EL,BD-MO-34,Cathodic Test for magnesium anode,0
 EL,BD-MO-34,Cathodic commissioning Data,0
 EL,BD-MO-34,CABLING Cathodic Protection,1
 EL,BD-MO-35_1,Cathodic Install C,0
 EL,BD-MO-35_1,Cathodic test T,0
 EL,BD-MO-35_1,Cathodic Test for impress current,0
-EL,BD-MO-35_1,Cathodic sys.grid,0
 EL,BD-MO-35_1,Cathodic Test for magnesium anode,0
 EL,BD-MO-35_1,Cathodic commissioning Data,0
 EL,BD-MO-35_1,CABLING Cathodic Protection,1
 EL,BD-MO-35_2,Cathodic Install C,0
 EL,BD-MO-35_2,Cathodic test T,0
 EL,BD-MO-35_2,Cathodic Test for impress current,0
-EL,BD-MO-35_2,Cathodic sys.grid,0
 EL,BD-MO-35_2,Cathodic Test for magnesium anode,0
 EL,BD-MO-35_2,Cathodic commissioning Data,0
 EL,BD-MO-35_2,CABLING Cathodic Protection,1
 EL,BD-VB-5601,Cathodic Install C,0
 EL,BD-VB-5601,Cathodic test T,0
 EL,BD-VB-5601,Cathodic Test for impress current,0
-EL,BD-VB-5601,Cathodic sys.grid,0
 EL,BD-VB-5601,Cathodic Test for magnesium anode,0
 EL,BD-VB-5601,Cathodic commissioning Data,0
 EL,BD-VB-5601,CABLING Cathodic Protection,1
 EL,BD-VB-5701,Cathodic Install C,0
 EL,BD-VB-5701,Cathodic test T,0
 EL,BD-VB-5701,Cathodic Test for impress current,0
-EL,BD-VB-5701,Cathodic sys.grid,0
 EL,BD-VB-5701,Cathodic Test for magnesium anode,0
 EL,BD-VB-5701,Cathodic commissioning Data,0
 EL,BD-VB-5701,CABLING Cathodic Protection,1
 EL,BD-VB-5702,Cathodic Install C,0
 EL,BD-VB-5702,Cathodic test T,0
 EL,BD-VB-5702,Cathodic Test for impress current,0
-EL,BD-VB-5702,Cathodic sys.grid,0
 EL,BD-VB-5702,Cathodic Test for magnesium anode,0
 EL,BD-VB-5702,Cathodic commissioning Data,0
 EL,BD-VB-5702,CABLING Cathodic Protection,1
 EL,BD-VB-5705,Cathodic Install C,0
 EL,BD-VB-5705,Cathodic test T,0
 EL,BD-VB-5705,Cathodic Test for impress current,0
-EL,BD-VB-5705,Cathodic sys.grid,0
 EL,BD-VB-5705,Cathodic Test for magnesium anode,0
 EL,BD-VB-5705,Cathodic commissioning Data,0
 EL,BD-VB-5705,CABLING Cathodic Protection,1
 EL,BD-VB-5901,Cathodic Install C,0
 EL,BD-VB-5901,Cathodic test T,0
 EL,BD-VB-5901,Cathodic Test for impress current,0
-EL,BD-VB-5901,Cathodic sys.grid,0
 EL,BD-VB-5901,Cathodic Test for magnesium anode,0
 EL,BD-VB-5901,Cathodic commissioning Data,0
 EL,BD-VB-5901,CABLING Cathodic Protection,1
 EL,BD-VB-5902,Cathodic Install C,0
 EL,BD-VB-5902,Cathodic test T,0
 EL,BD-VB-5902,Cathodic Test for impress current,0
-EL,BD-VB-5902,Cathodic sys.grid,0
 EL,BD-VB-5902,Cathodic Test for magnesium anode,0
 EL,BD-VB-5902,Cathodic commissioning Data,0
 EL,BD-VB-5902,CABLING Cathodic Protection,1
 EL,BD-VB-6103,Cathodic Install C,0
 EL,BD-VB-6103,Cathodic test T,0
 EL,BD-VB-6103,Cathodic Test for impress current,0
-EL,BD-VB-6103,Cathodic sys.grid,0
 EL,BD-VB-6103,Cathodic Test for magnesium anode,0
 EL,BD-VB-6103,Cathodic commissioning Data,0
 EL,BD-VB-6103,CABLING Cathodic Protection,1
 EL,BD-VB-6104_1,Cathodic Install C,0
 EL,BD-VB-6104_1,Cathodic test T,0
 EL,BD-VB-6104_1,Cathodic Test for impress current,0
-EL,BD-VB-6104_1,Cathodic sys.grid,0
 EL,BD-VB-6104_1,Cathodic Test for magnesium anode,0
 EL,BD-VB-6104_1,Cathodic commissioning Data,0
 EL,BD-VB-6104_1,CABLING Cathodic Protection,1
 EL,BD-VB-6104_2,Cathodic Install C,0
 EL,BD-VB-6104_2,Cathodic test T,0
 EL,BD-VB-6104_2,Cathodic Test for impress current,0
-EL,BD-VB-6104_2,Cathodic sys.grid,0
 EL,BD-VB-6104_2,Cathodic Test for magnesium anode,0
 EL,BD-VB-6104_2,Cathodic commissioning Data,0
 EL,BD-VB-6104_2,CABLING Cathodic Protection,1
 EL,BD-VB-6301,Cathodic Install C,0
 EL,BD-VB-6301,Cathodic test T,0
 EL,BD-VB-6301,Cathodic Test for impress current,0
-EL,BD-VB-6301,Cathodic sys.grid,0
 EL,BD-VB-6301,Cathodic Test for magnesium anode,0
 EL,BD-VB-6301,Cathodic commissioning Data,0
 EL,BD-VB-6301,CABLING Cathodic Protection,1
 EL,BD-VB-6501,Cathodic Install C,0
 EL,BD-VB-6501,Cathodic test T,0
 EL,BD-VB-6501,Cathodic Test for impress current,0
-EL,BD-VB-6501,Cathodic sys.grid,0
 EL,BD-VB-6501,Cathodic Test for magnesium anode,0
 EL,BD-VB-6501,Cathodic commissioning Data,0
 EL,BD-VB-6501,CABLING Cathodic Protection,1
 EL,BD-VB-6502_1,Cathodic Install C,0
 EL,BD-VB-6502_1,Cathodic test T,0
 EL,BD-VB-6502_1,Cathodic Test for impress current,0
-EL,BD-VB-6502_1,Cathodic sys.grid,0
 EL,BD-VB-6502_1,Cathodic Test for magnesium anode,0
 EL,BD-VB-6502_1,Cathodic commissioning Data,0
 EL,BD-VB-6502_1,CABLING Cathodic Protection,1
 EL,BD-VB-6502_2,Cathodic Install C,0
 EL,BD-VB-6502_2,Cathodic test T,0
 EL,BD-VB-6502_2,Cathodic Test for impress current,0
-EL,BD-VB-6502_2,Cathodic sys.grid,0
 EL,BD-VB-6502_2,Cathodic Test for magnesium anode,0
 EL,BD-VB-6502_2,Cathodic commissioning Data,0
 EL,BD-VB-6502_2,CABLING Cathodic Protection,1
 EL,BD-VB-6502_3,Cathodic Install C,0
 EL,BD-VB-6502_3,Cathodic test T,0
 EL,BD-VB-6502_3,Cathodic Test for impress current,0
-EL,BD-VB-6502_3,Cathodic sys.grid,0
 EL,BD-VB-6502_3,Cathodic Test for magnesium anode,0
 EL,BD-VB-6502_3,Cathodic commissioning Data,0
 EL,BD-VB-6502_3,CABLING Cathodic Protection,1
 EL,BD-VB-6503,Cathodic Install C,0
 EL,BD-VB-6503,Cathodic test T,0
 EL,BD-VB-6503,Cathodic Test for impress current,0
-EL,BD-VB-6503,Cathodic sys.grid,0
 EL,BD-VB-6503,Cathodic Test for magnesium anode,0
 EL,BD-VB-6503,Cathodic commissioning Data,0
 EL,BD-VB-6503,CABLING Cathodic Protection,1
 EL,BD-VB-6504,Cathodic Install C,0
 EL,BD-VB-6504,Cathodic test T,0
 EL,BD-VB-6504,Cathodic Test for impress current,0
-EL,BD-VB-6504,Cathodic sys.grid,0
 EL,BD-VB-6504,Cathodic Test for magnesium anode,0
 EL,BD-VB-6504,Cathodic commissioning Data,0
 EL,BD-VB-6504,CABLING Cathodic Protection,1
 EL,BD-VB-6601,Cathodic Install C,0
 EL,BD-VB-6601,Cathodic test T,0
 EL,BD-VB-6601,Cathodic Test for impress current,0
-EL,BD-VB-6601,Cathodic sys.grid,0
 EL,BD-VB-6601,Cathodic Test for magnesium anode,0
 EL,BD-VB-6601,Cathodic commissioning Data,0
 EL,BD-VB-6601,CABLING Cathodic Protection,1
 EL,BD-VB-6602,Cathodic Install C,0
 EL,BD-VB-6602,Cathodic test T,0
 EL,BD-VB-6602,Cathodic Test for impress current,0
-EL,BD-VB-6602,Cathodic sys.grid,0
 EL,BD-VB-6602,Cathodic Test for magnesium anode,0
 EL,BD-VB-6602,Cathodic commissioning Data,0
 EL,BD-VB-6602,CABLING Cathodic Protection,1
 EL,BD-VB-6603,Cathodic Install C,0
 EL,BD-VB-6603,Cathodic test T,0
 EL,BD-VB-6603,Cathodic Test for impress current,0
-EL,BD-VB-6603,Cathodic sys.grid,0
 EL,BD-VB-6603,Cathodic Test for magnesium anode,0
 EL,BD-VB-6603,Cathodic commissioning Data,0
 EL,BD-VB-6603,CABLING Cathodic Protection,1
 EL,BD-VB-6604,Cathodic Install C,0
 EL,BD-VB-6604,Cathodic test T,0
 EL,BD-VB-6604,Cathodic Test for impress current,0
-EL,BD-VB-6604,Cathodic sys.grid,0
 EL,BD-VB-6604,Cathodic Test for magnesium anode,0
 EL,BD-VB-6604,Cathodic commissioning Data,0
 EL,BD-VB-6604,CABLING Cathodic Protection,1
 EL,BD-VB-6701,Cathodic Install C,0
 EL,BD-VB-6701,Cathodic test T,0
 EL,BD-VB-6701,Cathodic Test for impress current,0
-EL,BD-VB-6701,Cathodic sys.grid,0
 EL,BD-VB-6701,Cathodic Test for magnesium anode,0
 EL,BD-VB-6701,Cathodic commissioning Data,0
 EL,BD-VB-6701,CABLING Cathodic Protection,1
 EL,BD-VB-6702,Cathodic Install C,0
 EL,BD-VB-6702,Cathodic test T,0
 EL,BD-VB-6702,Cathodic Test for impress current,0
-EL,BD-VB-6702,Cathodic sys.grid,0
 EL,BD-VB-6702,Cathodic Test for magnesium anode,0
 EL,BD-VB-6702,Cathodic commissioning Data,0
 EL,BD-VB-6702,CABLING Cathodic Protection,1
 EL,BD-VB-6703,Cathodic Install C,0
 EL,BD-VB-6703,Cathodic test T,0
 EL,BD-VB-6703,Cathodic Test for impress current,0
-EL,BD-VB-6703,Cathodic sys.grid,0
 EL,BD-VB-6703,Cathodic Test for magnesium anode,0
 EL,BD-VB-6703,Cathodic commissioning Data,0
 EL,BD-VB-6703,CABLING Cathodic Protection,1
 EL,BD-VB-6801,Cathodic Install C,0
 EL,BD-VB-6801,Cathodic test T,0
 EL,BD-VB-6801,Cathodic Test for impress current,0
-EL,BD-VB-6801,Cathodic sys.grid,0
 EL,BD-VB-6801,Cathodic Test for magnesium anode,0
 EL,BD-VB-6801,Cathodic commissioning Data,0
 EL,BD-VB-6801,CABLING Cathodic Protection,1
 EL,BD-VB-6901,Cathodic Install C,0
 EL,BD-VB-6901,Cathodic test T,0
 EL,BD-VB-6901,Cathodic Test for impress current,0
-EL,BD-VB-6901,Cathodic sys.grid,0
 EL,BD-VB-6901,Cathodic Test for magnesium anode,0
 EL,BD-VB-6901,Cathodic commissioning Data,0
 EL,BD-VB-6901,CABLING Cathodic Protection,1
 EL,BD-VB-6902,Cathodic Install C,0
 EL,BD-VB-6902,Cathodic test T,0
 EL,BD-VB-6902,Cathodic Test for impress current,0
-EL,BD-VB-6902,Cathodic sys.grid,0
 EL,BD-VB-6902,Cathodic Test for magnesium anode,0
 EL,BD-VB-6902,Cathodic commissioning Data,0
 EL,BD-VB-6902,CABLING Cathodic Protection,1
 EL,BD-VB-6903,Cathodic Install C,0
 EL,BD-VB-6903,Cathodic test T,0
 EL,BD-VB-6903,Cathodic Test for impress current,0
-EL,BD-VB-6903,Cathodic sys.grid,0
 EL,BD-VB-6903,Cathodic Test for magnesium anode,0
 EL,BD-VB-6903,Cathodic commissioning Data,0
 EL,BD-VB-6903,CABLING Cathodic Protection,1
 EL,BD-VB-6904,Cathodic Install C,0
 EL,BD-VB-6904,Cathodic test T,0
 EL,BD-VB-6904,Cathodic Test for impress current,0
-EL,BD-VB-6904,Cathodic sys.grid,0
 EL,BD-VB-6904,Cathodic Test for magnesium anode,0
 EL,BD-VB-6904,Cathodic commissioning Data,0
 EL,BD-VB-6904,CABLING Cathodic Protection,1
 EL,BD-VB-7002,Cathodic Install C,0
 EL,BD-VB-7002,Cathodic test T,0
 EL,BD-VB-7002,Cathodic Test for impress current,0
-EL,BD-VB-7002,Cathodic sys.grid,0
 EL,BD-VB-7002,Cathodic Test for magnesium anode,0
 EL,BD-VB-7002,Cathodic commissioning Data,0
 EL,BD-VB-7002,CABLING Cathodic Protection,1
 EL,BD-VB-7004,Cathodic Install C,0
 EL,BD-VB-7004,Cathodic test T,0
 EL,BD-VB-7004,Cathodic Test for impress current,0
-EL,BD-VB-7004,Cathodic sys.grid,0
 EL,BD-VB-7004,Cathodic Test for magnesium anode,0
 EL,BD-VB-7004,Cathodic commissioning Data,0
 EL,BD-VB-7004,CABLING Cathodic Protection,1
 EL,BD-VB-7006_1,Cathodic Install C,0
 EL,BD-VB-7006_1,Cathodic test T,0
 EL,BD-VB-7006_1,Cathodic Test for impress current,0
-EL,BD-VB-7006_1,Cathodic sys.grid,0
 EL,BD-VB-7006_1,Cathodic Test for magnesium anode,0
 EL,BD-VB-7006_1,Cathodic commissioning Data,0
 EL,BD-VB-7006_1,CABLING Cathodic Protection,1
 EL,BD-VB-7006_2,Cathodic Install C,0
 EL,BD-VB-7006_2,Cathodic test T,0
 EL,BD-VB-7006_2,Cathodic Test for impress current,0
-EL,BD-VB-7006_2,Cathodic sys.grid,0
 EL,BD-VB-7006_2,Cathodic Test for magnesium anode,0
 EL,BD-VB-7006_2,Cathodic commissioning Data,0
 EL,BD-VB-7006_2,CABLING Cathodic Protection,1
@@ -30545,189 +30302,162 @@ EL,ESWB3B-01,panel & box install,0
 EL,EX_AJB-P-001,Cathodic Install C,1
 EL,EX_AJB-P-001,Cathodic test T,0
 EL,EX_AJB-P-001,Cathodic Test for impress current,0
-EL,EX_AJB-P-001,Cathodic sys.grid,0
 EL,EX_AJB-P-001,Cathodic Test for magnesium anode,0
 EL,EX_AJB-P-001,Cathodic commissioning Data,0
 EL,EX_AJB-P-001,CABLING Cathodic Protection,0
 EL,EX_NBB-P-002,Cathodic Install C,1
 EL,EX_NBB-P-002,Cathodic test T,0
 EL,EX_NBB-P-002,Cathodic Test for impress current,0
-EL,EX_NBB-P-002,Cathodic sys.grid,0
 EL,EX_NBB-P-002,Cathodic Test for magnesium anode,0
 EL,EX_NBB-P-002,Cathodic commissioning Data,0
 EL,EX_NBB-P-002,CABLING Cathodic Protection,0
 EL,EX_NBB-P-003,Cathodic Install C,1
 EL,EX_NBB-P-003,Cathodic test T,0
 EL,EX_NBB-P-003,Cathodic Test for impress current,0
-EL,EX_NBB-P-003,Cathodic sys.grid,0
 EL,EX_NBB-P-003,Cathodic Test for magnesium anode,0
 EL,EX_NBB-P-003,Cathodic commissioning Data,0
 EL,EX_NBB-P-003,CABLING Cathodic Protection,0
 EL,EX_NBB-P-004,Cathodic Install C,1
 EL,EX_NBB-P-004,Cathodic test T,0
 EL,EX_NBB-P-004,Cathodic Test for impress current,0
-EL,EX_NBB-P-004,Cathodic sys.grid,0
 EL,EX_NBB-P-004,Cathodic Test for magnesium anode,0
 EL,EX_NBB-P-004,Cathodic commissioning Data,0
 EL,EX_NBB-P-004,CABLING Cathodic Protection,0
 EL,EX_NBB-P-005,Cathodic Install C,1
 EL,EX_NBB-P-005,Cathodic test T,0
 EL,EX_NBB-P-005,Cathodic Test for impress current,0
-EL,EX_NBB-P-005,Cathodic sys.grid,0
 EL,EX_NBB-P-005,Cathodic Test for magnesium anode,0
 EL,EX_NBB-P-005,Cathodic commissioning Data,0
 EL,EX_NBB-P-005,CABLING Cathodic Protection,0
 EL,EX_NCB-P-001,Cathodic Install C,1
 EL,EX_NCB-P-001,Cathodic test T,0
 EL,EX_NCB-P-001,Cathodic Test for impress current,0
-EL,EX_NCB-P-001,Cathodic sys.grid,0
 EL,EX_NCB-P-001,Cathodic Test for magnesium anode,0
 EL,EX_NCB-P-001,Cathodic commissioning Data,0
 EL,EX_NCB-P-001,CABLING Cathodic Protection,0
 EL,EX_NCB-P-002,Cathodic Install C,1
 EL,EX_NCB-P-002,Cathodic test T,0
 EL,EX_NCB-P-002,Cathodic Test for impress current,0
-EL,EX_NCB-P-002,Cathodic sys.grid,0
 EL,EX_NCB-P-002,Cathodic Test for magnesium anode,0
 EL,EX_NCB-P-002,Cathodic commissioning Data,0
 EL,EX_NCB-P-002,CABLING Cathodic Protection,0
 EL,EX_NCB-P-003,Cathodic Install C,1
 EL,EX_NCB-P-003,Cathodic test T,0
 EL,EX_NCB-P-003,Cathodic Test for impress current,0
-EL,EX_NCB-P-003,Cathodic sys.grid,0
 EL,EX_NCB-P-003,Cathodic Test for magnesium anode,0
 EL,EX_NCB-P-003,Cathodic commissioning Data,0
 EL,EX_NCB-P-003,CABLING Cathodic Protection,0
 EL,EX_NCB-P-004,Cathodic Install C,1
 EL,EX_NCB-P-004,Cathodic test T,0
 EL,EX_NCB-P-004,Cathodic Test for impress current,0
-EL,EX_NCB-P-004,Cathodic sys.grid,0
 EL,EX_NCB-P-004,Cathodic Test for magnesium anode,0
 EL,EX_NCB-P-004,Cathodic commissioning Data,0
 EL,EX_NCB-P-004,CABLING Cathodic Protection,0
 EL,EX_NCB-P-005,Cathodic Install C,1
 EL,EX_NCB-P-005,Cathodic test T,0
 EL,EX_NCB-P-005,Cathodic Test for impress current,0
-EL,EX_NCB-P-005,Cathodic sys.grid,0
 EL,EX_NCB-P-005,Cathodic Test for magnesium anode,0
 EL,EX_NCB-P-005,Cathodic commissioning Data,0
 EL,EX_NCB-P-005,CABLING Cathodic Protection,0
 EL,EX_NCB-P-006,Cathodic Install C,1
 EL,EX_NCB-P-006,Cathodic test T,0
 EL,EX_NCB-P-006,Cathodic Test for impress current,0
-EL,EX_NCB-P-006,Cathodic sys.grid,0
 EL,EX_NCB-P-006,Cathodic Test for magnesium anode,0
 EL,EX_NCB-P-006,Cathodic commissioning Data,0
 EL,EX_NCB-P-006,CABLING Cathodic Protection,0
 EL,EX_NCB-P-007,Cathodic Install C,1
 EL,EX_NCB-P-007,Cathodic test T,0
 EL,EX_NCB-P-007,Cathodic Test for impress current,0
-EL,EX_NCB-P-007,Cathodic sys.grid,0
 EL,EX_NCB-P-007,Cathodic Test for magnesium anode,0
 EL,EX_NCB-P-007,Cathodic commissioning Data,0
 EL,EX_NCB-P-007,CABLING Cathodic Protection,0
 EL,EX_NCB-P-008,Cathodic Install C,1
 EL,EX_NCB-P-008,Cathodic test T,0
 EL,EX_NCB-P-008,Cathodic Test for impress current,0
-EL,EX_NCB-P-008,Cathodic sys.grid,0
 EL,EX_NCB-P-008,Cathodic Test for magnesium anode,0
 EL,EX_NCB-P-008,Cathodic commissioning Data,0
 EL,EX_NCB-P-008,CABLING Cathodic Protection,0
 EL,EX_NCB-P-009,Cathodic Install C,1
 EL,EX_NCB-P-009,Cathodic test T,0
 EL,EX_NCB-P-009,Cathodic Test for impress current,0
-EL,EX_NCB-P-009,Cathodic sys.grid,0
 EL,EX_NCB-P-009,Cathodic Test for magnesium anode,0
 EL,EX_NCB-P-009,Cathodic commissioning Data,0
 EL,EX_NCB-P-009,CABLING Cathodic Protection,0
 EL,EX_NCB-P-010,Cathodic Install C,1
 EL,EX_NCB-P-010,Cathodic test T,0
 EL,EX_NCB-P-010,Cathodic Test for impress current,0
-EL,EX_NCB-P-010,Cathodic sys.grid,0
 EL,EX_NCB-P-010,Cathodic Test for magnesium anode,0
 EL,EX_NCB-P-010,Cathodic commissioning Data,0
 EL,EX_NCB-P-010,CABLING Cathodic Protection,0
 EL,EX_NCB-P-011,Cathodic Install C,1
 EL,EX_NCB-P-011,Cathodic test T,0
 EL,EX_NCB-P-011,Cathodic Test for impress current,0
-EL,EX_NCB-P-011,Cathodic sys.grid,0
 EL,EX_NCB-P-011,Cathodic Test for magnesium anode,0
 EL,EX_NCB-P-011,Cathodic commissioning Data,0
 EL,EX_NCB-P-011,CABLING Cathodic Protection,0
 EL,EX_NCB-P-012,Cathodic Install C,1
 EL,EX_NCB-P-012,Cathodic test T,0
 EL,EX_NCB-P-012,Cathodic Test for impress current,0
-EL,EX_NCB-P-012,Cathodic sys.grid,0
 EL,EX_NCB-P-012,Cathodic Test for magnesium anode,0
 EL,EX_NCB-P-012,Cathodic commissioning Data,0
 EL,EX_NCB-P-012,CABLING Cathodic Protection,0
 EL,EX_TB-P-001,Cathodic Install C,1
 EL,EX_TB-P-001,Cathodic test T,0
 EL,EX_TB-P-001,Cathodic Test for impress current,0
-EL,EX_TB-P-001,Cathodic sys.grid,0
 EL,EX_TB-P-001,Cathodic Test for magnesium anode,0
 EL,EX_TB-P-001,Cathodic commissioning Data,0
 EL,EX_TB-P-001,CABLING Cathodic Protection,0
 EL,EX_TB-P-002,Cathodic Install C,1
 EL,EX_TB-P-002,Cathodic test T,0
 EL,EX_TB-P-002,Cathodic Test for impress current,0
-EL,EX_TB-P-002,Cathodic sys.grid,0
 EL,EX_TB-P-002,Cathodic Test for magnesium anode,0
 EL,EX_TB-P-002,Cathodic commissioning Data,0
 EL,EX_TB-P-002,CABLING Cathodic Protection,0
 EL,EX_TB-P-003,Cathodic Install C,1
 EL,EX_TB-P-003,Cathodic test T,0
 EL,EX_TB-P-003,Cathodic Test for impress current,0
-EL,EX_TB-P-003,Cathodic sys.grid,0
 EL,EX_TB-P-003,Cathodic Test for magnesium anode,0
 EL,EX_TB-P-003,Cathodic commissioning Data,0
 EL,EX_TB-P-003,CABLING Cathodic Protection,0
 EL,EX_TB-P-004,Cathodic Install C,1
 EL,EX_TB-P-004,Cathodic test T,0
 EL,EX_TB-P-004,Cathodic Test for impress current,0
-EL,EX_TB-P-004,Cathodic sys.grid,0
 EL,EX_TB-P-004,Cathodic Test for magnesium anode,0
 EL,EX_TB-P-004,Cathodic commissioning Data,0
 EL,EX_TB-P-004,CABLING Cathodic Protection,0
 EL,EX_TB-P-005,Cathodic Install C,1
 EL,EX_TB-P-005,Cathodic test T,0
 EL,EX_TB-P-005,Cathodic Test for impress current,0
-EL,EX_TB-P-005,Cathodic sys.grid,0
 EL,EX_TB-P-005,Cathodic Test for magnesium anode,0
 EL,EX_TB-P-005,Cathodic commissioning Data,0
 EL,EX_TB-P-005,CABLING Cathodic Protection,0
 EL,EX_TB-P-006,Cathodic Install C,1
 EL,EX_TB-P-006,Cathodic test T,0
 EL,EX_TB-P-006,Cathodic Test for impress current,0
-EL,EX_TB-P-006,Cathodic sys.grid,0
 EL,EX_TB-P-006,Cathodic Test for magnesium anode,0
 EL,EX_TB-P-006,Cathodic commissioning Data,0
 EL,EX_TB-P-006,CABLING Cathodic Protection,0
 EL,EX_TB-P-007,Cathodic Install C,1
 EL,EX_TB-P-007,Cathodic test T,0
 EL,EX_TB-P-007,Cathodic Test for impress current,0
-EL,EX_TB-P-007,Cathodic sys.grid,0
 EL,EX_TB-P-007,Cathodic Test for magnesium anode,0
 EL,EX_TB-P-007,Cathodic commissioning Data,0
 EL,EX_TB-P-007,CABLING Cathodic Protection,0
 EL,EX_TB-P-009,Cathodic Install C,1
 EL,EX_TB-P-009,Cathodic test T,0
 EL,EX_TB-P-009,Cathodic Test for impress current,0
-EL,EX_TB-P-009,Cathodic sys.grid,0
 EL,EX_TB-P-009,Cathodic Test for magnesium anode,0
 EL,EX_TB-P-009,Cathodic commissioning Data,0
 EL,EX_TB-P-009,CABLING Cathodic Protection,0
 EL,EX_TB-P-010,Cathodic Install C,1
 EL,EX_TB-P-010,Cathodic test T,0
 EL,EX_TB-P-010,Cathodic Test for impress current,0
-EL,EX_TB-P-010,Cathodic sys.grid,0
 EL,EX_TB-P-010,Cathodic Test for magnesium anode,0
 EL,EX_TB-P-010,Cathodic commissioning Data,0
 EL,EX_TB-P-010,CABLING Cathodic Protection,0
 EL,EX_TB-P-011,Cathodic Install C,1
 EL,EX_TB-P-011,Cathodic test T,0
 EL,EX_TB-P-011,Cathodic Test for impress current,0
-EL,EX_TB-P-011,Cathodic sys.grid,0
 EL,EX_TB-P-011,Cathodic Test for magnesium anode,0
 EL,EX_TB-P-011,Cathodic commissioning Data,0
 EL,EX_TB-P-011,CABLING Cathodic Protection,0
@@ -30894,11 +30624,11 @@ IN,FCIAF-8402,INSTRUMENT CABLE INSTALLATION,1
 IN,FCIAF-8402,CABLE INSULATION & CONTINUITY TEST,0
 IN,FCIAF-PK8401,INSTRUMENT CABLE INSTALLATION,0
 IN,FCIAF-PK8401,CABLE INSULATION & CONTINUITY TEST,0
-IN,FCIAX-25102,INSTRUMENT CABLE INSTALLATION,0
+IN,FCIAX-25102,INSTRUMENT CABLE INSTALLATION,1
 IN,FCIAX-25102,CABLE INSULATION & CONTINUITY TEST,0
-IN,FCIAX-25103,INSTRUMENT CABLE INSTALLATION,0
+IN,FCIAX-25103,INSTRUMENT CABLE INSTALLATION,1
 IN,FCIAX-25103,CABLE INSULATION & CONTINUITY TEST,0
-IN,FCIAX-25104,INSTRUMENT CABLE INSTALLATION,0
+IN,FCIAX-25104,INSTRUMENT CABLE INSTALLATION,1
 IN,FCIAX-25104,CABLE INSULATION & CONTINUITY TEST,0
 IN,FCIAX-C2002-01,INSTRUMENT CABLE INSTALLATION,0
 IN,FCIAX-C2002-01,CABLE INSULATION & CONTINUITY TEST,0
@@ -31226,7 +30956,7 @@ IN,FCNAS-0016,INSTRUMENT CABLE INSTALLATION,0
 IN,FCNAS-0016,CABLE INSULATION & CONTINUITY TEST,0
 IN,FCNAX.PX-FT3001-01,INSTRUMENT CABLE INSTALLATION,0
 IN,FCNAX.PX-FT3001-01,CABLE INSULATION & CONTINUITY TEST,0
-IN,FCNAX-25101,INSTRUMENT CABLE INSTALLATION,0
+IN,FCNAX-25101,INSTRUMENT CABLE INSTALLATION,1
 IN,FCNAX-25101,CABLE INSULATION & CONTINUITY TEST,0
 IN,FCNAX-FT2001-02.2,INSTRUMENT CABLE INSTALLATION,0
 IN,FCNAX-FT2001-02.2,CABLE INSULATION & CONTINUITY TEST,0
@@ -31346,9 +31076,9 @@ IN,FCNDS-SV001,INSTRUMENT CABLE INSTALLATION,0
 IN,FCNDS-SV001,CABLE INSULATION & CONTINUITY TEST,0
 IN,FCNDS-SV002,INSTRUMENT CABLE INSTALLATION,0
 IN,FCNDS-SV002,CABLE INSULATION & CONTINUITY TEST,0
-IN,FCNDX-25104,INSTRUMENT CABLE INSTALLATION,0
+IN,FCNDX-25104,INSTRUMENT CABLE INSTALLATION,1
 IN,FCNDX-25104,CABLE INSULATION & CONTINUITY TEST,0
-IN,FCNDX-25105,INSTRUMENT CABLE INSTALLATION,0
+IN,FCNDX-25105,INSTRUMENT CABLE INSTALLATION,1
 IN,FCNDX-25105,CABLE INSULATION & CONTINUITY TEST,0
 IN,FCNDX-30101,INSTRUMENT CABLE INSTALLATION,0
 IN,FCNDX-30101,CABLE INSULATION & CONTINUITY TEST,0
@@ -33595,8 +33325,8 @@ IN,FT-2531-2(NA),INSTRUMENT CABLE INSTALLATION,0
 IN,FT-2531-2(NA),CABLE INSULATION & CONTINUITY TEST,0
 IN,FT-2536(FT),CALIBRATION RECORD TRANSMITTER,1
 IN,FT-2536(FT),INSTRUMENT INSTALLATION,1
-IN,FT-2536(FT),INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,FT-2536(FT),INSTRUMENT PRESSURE TUBE & PIPE TEST,0
+IN,FT-2536(FT),INSTRUMENT HOOK-UP TUBING INSTALLATION,1
+IN,FT-2536(FT),INSTRUMENT PRESSURE TUBE & PIPE TEST,1
 IN,FT-2536(NA),INSTRUMENT CABLE INSTALLATION,0
 IN,FT-2536(NA),CABLE INSULATION & CONTINUITY TEST,0
 IN,FT-2607(FT),CALIBRATION RECORD TRANSMITTER,1
@@ -33977,8 +33707,8 @@ IN,FT-8014(NA),INSTRUMENT CABLE INSTALLATION,0
 IN,FT-8014(NA),CABLE INSULATION & CONTINUITY TEST,0
 IN,FT-8415(FT),CALIBRATION RECORD TRANSMITTER,1
 IN,FT-8415(FT),INSTRUMENT INSTALLATION,1
-IN,FT-8415(FT),INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,FT-8415(FT),INSTRUMENT PRESSURE TUBE & PIPE TEST,0
+IN,FT-8415(FT),INSTRUMENT HOOK-UP TUBING INSTALLATION,1
+IN,FT-8415(FT),INSTRUMENT PRESSURE TUBE & PIPE TEST,1
 IN,FT-8415(NA),INSTRUMENT CABLE INSTALLATION,0
 IN,FT-8415(NA),CABLE INSULATION & CONTINUITY TEST,0
 IN,FT-84205,CALIBRATION RECORD TRANSMITTER,0
@@ -37659,8 +37389,8 @@ IN,LST-6022-1(NA),INSTRUMENT CABLE INSTALLATION,0
 IN,LST-6022-1(NA),CABLE INSULATION & CONTINUITY TEST,0
 IN,LST-6022-2(LST),CALIBRATION RECORD TRANSMITTER,1
 IN,LST-6022-2(LST),INSTRUMENT INSTALLATION,1
-IN,LST-6022-2(LST),INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,LST-6022-2(LST),INSTRUMENT PRESSURE TUBE & PIPE TEST,0
+IN,LST-6022-2(LST),INSTRUMENT HOOK-UP TUBING INSTALLATION,1
+IN,LST-6022-2(LST),INSTRUMENT PRESSURE TUBE & PIPE TEST,1
 IN,LST-6022-2(NA),INSTRUMENT CABLE INSTALLATION,0
 IN,LST-6022-2(NA),CABLE INSULATION & CONTINUITY TEST,0
 IN,LST-6051A(LST),CALIBRATION RECORD TRANSMITTER,1
@@ -37966,8 +37696,8 @@ IN,LT-6082(LT),CALIBRATION RECORD TRANSMITTER,1
 IN,LT-6082(LT),INSTRUMENT INSTALLATION,1
 IN,LT-6082(LT),INSTRUMENT HOOK-UP TUBING INSTALLATION,0
 IN,LT-6082(LT),INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,LT-6082(NA),INSTRUMENT CABLE INSTALLATION,0
-IN,LT-6082(NA),CABLE INSULATION & CONTINUITY TEST,0
+IN,LT-6082(NA),INSTRUMENT CABLE INSTALLATION,1
+IN,LT-6082(NA),CABLE INSULATION & CONTINUITY TEST,1
 IN,LT-7001(LT),CALIBRATION RECORD TRANSMITTER,0
 IN,LT-7001(LT),INSTRUMENT INSTALLATION,0
 IN,LT-7001(LT),INSTRUMENT HOOK-UP TUBING INSTALLATION,0
@@ -40528,434 +40258,372 @@ IN,MZSL-30107,INSTRUMENT INSTALLATION,0
 EL,NBB01-NBB02,Cathodic Install C,0
 EL,NBB01-NBB02,Cathodic test T,0
 EL,NBB01-NBB02,Cathodic Test for impress current,0
-EL,NBB01-NBB02,Cathodic sys.grid,0
 EL,NBB01-NBB02,Cathodic Test for magnesium anode,0
 EL,NBB01-NBB02,Cathodic commissioning Data,0
 EL,NBB01-NBB02,CABLING Cathodic Protection,1
 EL,NBB01-NBB03,Cathodic Install C,0
 EL,NBB01-NBB03,Cathodic test T,0
 EL,NBB01-NBB03,Cathodic Test for impress current,0
-EL,NBB01-NBB03,Cathodic sys.grid,0
 EL,NBB01-NBB03,Cathodic Test for magnesium anode,0
 EL,NBB01-NBB03,Cathodic commissioning Data,0
 EL,NBB01-NBB03,CABLING Cathodic Protection,1
 EL,NBB01-NCB04,Cathodic Install C,0
 EL,NBB01-NCB04,Cathodic test T,0
 EL,NBB01-NCB04,Cathodic Test for impress current,0
-EL,NBB01-NCB04,Cathodic sys.grid,0
 EL,NBB01-NCB04,Cathodic Test for magnesium anode,0
 EL,NBB01-NCB04,Cathodic commissioning Data,0
 EL,NBB01-NCB04,CABLING Cathodic Protection,1
 EL,NBB01-NCB05,Cathodic Install C,0
 EL,NBB01-NCB05,Cathodic test T,0
 EL,NBB01-NCB05,Cathodic Test for impress current,0
-EL,NBB01-NCB05,Cathodic sys.grid,0
 EL,NBB01-NCB05,Cathodic Test for magnesium anode,0
 EL,NBB01-NCB05,Cathodic commissioning Data,0
 EL,NBB01-NCB05,CABLING Cathodic Protection,1
 EL,NBB02-NCB01,Cathodic Install C,0
 EL,NBB02-NCB01,Cathodic test T,0
 EL,NBB02-NCB01,Cathodic Test for impress current,0
-EL,NBB02-NCB01,Cathodic sys.grid,0
 EL,NBB02-NCB01,Cathodic Test for magnesium anode,0
 EL,NBB02-NCB01,Cathodic commissioning Data,0
 EL,NBB02-NCB01,CABLING Cathodic Protection,1
 EL,NBB02-NCB02,Cathodic Install C,0
 EL,NBB02-NCB02,Cathodic test T,0
 EL,NBB02-NCB02,Cathodic Test for impress current,0
-EL,NBB02-NCB02,Cathodic sys.grid,0
 EL,NBB02-NCB02,Cathodic Test for magnesium anode,0
 EL,NBB02-NCB02,Cathodic commissioning Data,0
 EL,NBB02-NCB02,CABLING Cathodic Protection,1
 EL,NBB03-NCB06,Cathodic Install C,0
 EL,NBB03-NCB06,Cathodic test T,0
 EL,NBB03-NCB06,Cathodic Test for impress current,0
-EL,NBB03-NCB06,Cathodic sys.grid,0
 EL,NBB03-NCB06,Cathodic Test for magnesium anode,0
 EL,NBB03-NCB06,Cathodic commissioning Data,0
 EL,NBB03-NCB06,CABLING Cathodic Protection,1
 EL,NBB03-NCB07,Cathodic Install C,0
 EL,NBB03-NCB07,Cathodic test T,0
 EL,NBB03-NCB07,Cathodic Test for impress current,0
-EL,NBB03-NCB07,Cathodic sys.grid,0
 EL,NBB03-NCB07,Cathodic Test for magnesium anode,0
 EL,NBB03-NCB07,Cathodic commissioning Data,0
 EL,NBB03-NCB07,CABLING Cathodic Protection,1
 EL,NBB03-NCB08,Cathodic Install C,0
 EL,NBB03-NCB08,Cathodic test T,0
 EL,NBB03-NCB08,Cathodic Test for impress current,0
-EL,NBB03-NCB08,Cathodic sys.grid,0
 EL,NBB03-NCB08,Cathodic Test for magnesium anode,0
 EL,NBB03-NCB08,Cathodic commissioning Data,0
 EL,NBB03-NCB08,CABLING Cathodic Protection,1
 EL,NBB04-NCB10,Cathodic Install C,0
 EL,NBB04-NCB10,Cathodic test T,0
 EL,NBB04-NCB10,Cathodic Test for impress current,0
-EL,NBB04-NCB10,Cathodic sys.grid,0
 EL,NBB04-NCB10,Cathodic Test for magnesium anode,0
 EL,NBB04-NCB10,Cathodic commissioning Data,0
 EL,NBB04-NCB10,CABLING Cathodic Protection,1
 EL,NBB04-NCB11,Cathodic Install C,0
 EL,NBB04-NCB11,Cathodic test T,0
 EL,NBB04-NCB11,Cathodic Test for impress current,0
-EL,NBB04-NCB11,Cathodic sys.grid,0
 EL,NBB04-NCB11,Cathodic Test for magnesium anode,0
 EL,NBB04-NCB11,Cathodic commissioning Data,0
 EL,NBB04-NCB11,CABLING Cathodic Protection,1
 EL,NBB04-NCB12,Cathodic Install C,0
 EL,NBB04-NCB12,Cathodic test T,0
 EL,NBB04-NCB12,Cathodic Test for impress current,0
-EL,NBB04-NCB12,Cathodic sys.grid,0
 EL,NBB04-NCB12,Cathodic Test for magnesium anode,0
 EL,NBB04-NCB12,Cathodic commissioning Data,0
 EL,NBB04-NCB12,CABLING Cathodic Protection,1
 EL,NBB05-NC01,Cathodic Install C,0
 EL,NBB05-NC01,Cathodic test T,0
 EL,NBB05-NC01,Cathodic Test for impress current,0
-EL,NBB05-NC01,Cathodic sys.grid,0
 EL,NBB05-NC01,Cathodic Test for magnesium anode,0
 EL,NBB05-NC01,Cathodic commissioning Data,0
 EL,NBB05-NC01,CABLING Cathodic Protection,1
 EL,NBB05-NC02,Cathodic Install C,0
 EL,NBB05-NC02,Cathodic test T,0
 EL,NBB05-NC02,Cathodic Test for impress current,0
-EL,NBB05-NC02,Cathodic sys.grid,0
 EL,NBB05-NC02,Cathodic Test for magnesium anode,0
 EL,NBB05-NC02,Cathodic commissioning Data,0
 EL,NBB05-NC02,CABLING Cathodic Protection,1
 EL,NBB05-NC03,Cathodic Install C,0
 EL,NBB05-NC03,Cathodic test T,0
 EL,NBB05-NC03,Cathodic Test for impress current,0
-EL,NBB05-NC03,Cathodic sys.grid,0
 EL,NBB05-NC03,Cathodic Test for magnesium anode,0
 EL,NBB05-NC03,Cathodic commissioning Data,0
 EL,NBB05-NC03,CABLING Cathodic Protection,1
 EL,NBB05-NCB03,Cathodic Install C,0
 EL,NBB05-NCB03,Cathodic test T,0
 EL,NBB05-NCB03,Cathodic Test for impress current,0
-EL,NBB05-NCB03,Cathodic sys.grid,0
 EL,NBB05-NCB03,Cathodic Test for magnesium anode,0
 EL,NBB05-NCB03,Cathodic commissioning Data,0
 EL,NBB05-NCB03,CABLING Cathodic Protection,1
 EL,NCB01-NC01,Cathodic Install C,0
 EL,NCB01-NC01,Cathodic test T,0
 EL,NCB01-NC01,Cathodic Test for impress current,0
-EL,NCB01-NC01,Cathodic sys.grid,0
 EL,NCB01-NC01,Cathodic Test for magnesium anode,0
 EL,NCB01-NC01,Cathodic commissioning Data,0
 EL,NCB01-NC01,CABLING Cathodic Protection,1
 EL,NCB01-NC02,Cathodic Install C,0
 EL,NCB01-NC02,Cathodic test T,0
 EL,NCB01-NC02,Cathodic Test for impress current,0
-EL,NCB01-NC02,Cathodic sys.grid,0
 EL,NCB01-NC02,Cathodic Test for magnesium anode,0
 EL,NCB01-NC02,Cathodic commissioning Data,0
 EL,NCB01-NC02,CABLING Cathodic Protection,1
 EL,NCB01-NC03,Cathodic Install C,0
 EL,NCB01-NC03,Cathodic test T,0
 EL,NCB01-NC03,Cathodic Test for impress current,0
-EL,NCB01-NC03,Cathodic sys.grid,0
 EL,NCB01-NC03,Cathodic Test for magnesium anode,0
 EL,NCB01-NC03,Cathodic commissioning Data,0
 EL,NCB01-NC03,CABLING Cathodic Protection,1
 EL,NCB02-NC01,Cathodic Install C,0
 EL,NCB02-NC01,Cathodic test T,0
 EL,NCB02-NC01,Cathodic Test for impress current,0
-EL,NCB02-NC01,Cathodic sys.grid,0
 EL,NCB02-NC01,Cathodic Test for magnesium anode,0
 EL,NCB02-NC01,Cathodic commissioning Data,0
 EL,NCB02-NC01,CABLING Cathodic Protection,1
 EL,NCB02-NC02,Cathodic Install C,0
 EL,NCB02-NC02,Cathodic test T,0
 EL,NCB02-NC02,Cathodic Test for impress current,0
-EL,NCB02-NC02,Cathodic sys.grid,0
 EL,NCB02-NC02,Cathodic Test for magnesium anode,0
 EL,NCB02-NC02,Cathodic commissioning Data,0
 EL,NCB02-NC02,CABLING Cathodic Protection,1
 EL,NCB02-NC03,Cathodic Install C,0
 EL,NCB02-NC03,Cathodic test T,0
 EL,NCB02-NC03,Cathodic Test for impress current,0
-EL,NCB02-NC03,Cathodic sys.grid,0
 EL,NCB02-NC03,Cathodic Test for magnesium anode,0
 EL,NCB02-NC03,Cathodic commissioning Data,0
 EL,NCB02-NC03,CABLING Cathodic Protection,1
 EL,NCB02-NC04,Cathodic Install C,0
 EL,NCB02-NC04,Cathodic test T,0
 EL,NCB02-NC04,Cathodic Test for impress current,0
-EL,NCB02-NC04,Cathodic sys.grid,0
 EL,NCB02-NC04,Cathodic Test for magnesium anode,0
 EL,NCB02-NC04,Cathodic commissioning Data,0
 EL,NCB02-NC04,CABLING Cathodic Protection,1
 EL,NCB03-NBB04,Cathodic Install C,0
 EL,NCB03-NBB04,Cathodic test T,0
 EL,NCB03-NBB04,Cathodic Test for impress current,0
-EL,NCB03-NBB04,Cathodic sys.grid,0
 EL,NCB03-NBB04,Cathodic Test for magnesium anode,0
 EL,NCB03-NBB04,Cathodic commissioning Data,0
 EL,NCB03-NBB04,CABLING Cathodic Protection,1
 EL,NCB03-NC01,Cathodic Install C,0
 EL,NCB03-NC01,Cathodic test T,0
 EL,NCB03-NC01,Cathodic Test for impress current,0
-EL,NCB03-NC01,Cathodic sys.grid,0
 EL,NCB03-NC01,Cathodic Test for magnesium anode,0
 EL,NCB03-NC01,Cathodic commissioning Data,0
 EL,NCB03-NC01,CABLING Cathodic Protection,1
 EL,NCB03-NC02,Cathodic Install C,0
 EL,NCB03-NC02,Cathodic test T,0
 EL,NCB03-NC02,Cathodic Test for impress current,0
-EL,NCB03-NC02,Cathodic sys.grid,0
 EL,NCB03-NC02,Cathodic Test for magnesium anode,0
 EL,NCB03-NC02,Cathodic commissioning Data,0
 EL,NCB03-NC02,CABLING Cathodic Protection,1
 EL,NCB03-NC03,Cathodic Install C,0
 EL,NCB03-NC03,Cathodic test T,0
 EL,NCB03-NC03,Cathodic Test for impress current,0
-EL,NCB03-NC03,Cathodic sys.grid,0
 EL,NCB03-NC03,Cathodic Test for magnesium anode,0
 EL,NCB03-NC03,Cathodic commissioning Data,0
 EL,NCB03-NC03,CABLING Cathodic Protection,1
 EL,NCB03-NC04,Cathodic Install C,0
 EL,NCB03-NC04,Cathodic test T,0
 EL,NCB03-NC04,Cathodic Test for impress current,0
-EL,NCB03-NC04,Cathodic sys.grid,0
 EL,NCB03-NC04,Cathodic Test for magnesium anode,0
 EL,NCB03-NC04,Cathodic commissioning Data,0
 EL,NCB03-NC04,CABLING Cathodic Protection,1
 EL,NCB03-NCB09,Cathodic Install C,0
 EL,NCB03-NCB09,Cathodic test T,0
 EL,NCB03-NCB09,Cathodic Test for impress current,0
-EL,NCB03-NCB09,Cathodic sys.grid,0
 EL,NCB03-NCB09,Cathodic Test for magnesium anode,0
 EL,NCB03-NCB09,Cathodic commissioning Data,0
 EL,NCB03-NCB09,CABLING Cathodic Protection,1
 EL,NCB04-NC01,Cathodic Install C,0
 EL,NCB04-NC01,Cathodic test T,0
 EL,NCB04-NC01,Cathodic Test for impress current,0
-EL,NCB04-NC01,Cathodic sys.grid,0
 EL,NCB04-NC01,Cathodic Test for magnesium anode,0
 EL,NCB04-NC01,Cathodic commissioning Data,0
 EL,NCB04-NC01,CABLING Cathodic Protection,1
 EL,NCB04-NC02,Cathodic Install C,0
 EL,NCB04-NC02,Cathodic test T,0
 EL,NCB04-NC02,Cathodic Test for impress current,0
-EL,NCB04-NC02,Cathodic sys.grid,0
 EL,NCB04-NC02,Cathodic Test for magnesium anode,0
 EL,NCB04-NC02,Cathodic commissioning Data,0
 EL,NCB04-NC02,CABLING Cathodic Protection,1
 EL,NCB04-NC03,Cathodic Install C,0
 EL,NCB04-NC03,Cathodic test T,0
 EL,NCB04-NC03,Cathodic Test for impress current,0
-EL,NCB04-NC03,Cathodic sys.grid,0
 EL,NCB04-NC03,Cathodic Test for magnesium anode,0
 EL,NCB04-NC03,Cathodic commissioning Data,0
 EL,NCB04-NC03,CABLING Cathodic Protection,1
 EL,NCB04-NC04,Cathodic Install C,0
 EL,NCB04-NC04,Cathodic test T,0
 EL,NCB04-NC04,Cathodic Test for impress current,0
-EL,NCB04-NC04,Cathodic sys.grid,0
 EL,NCB04-NC04,Cathodic Test for magnesium anode,0
 EL,NCB04-NC04,Cathodic commissioning Data,0
 EL,NCB04-NC04,CABLING Cathodic Protection,1
 EL,NCB04-NC05,Cathodic Install C,0
 EL,NCB04-NC05,Cathodic test T,0
 EL,NCB04-NC05,Cathodic Test for impress current,0
-EL,NCB04-NC05,Cathodic sys.grid,0
 EL,NCB04-NC05,Cathodic Test for magnesium anode,0
 EL,NCB04-NC05,Cathodic commissioning Data,0
 EL,NCB04-NC05,CABLING Cathodic Protection,1
 EL,NCB05-NC01,Cathodic Install C,0
 EL,NCB05-NC01,Cathodic test T,0
 EL,NCB05-NC01,Cathodic Test for impress current,0
-EL,NCB05-NC01,Cathodic sys.grid,0
 EL,NCB05-NC01,Cathodic Test for magnesium anode,0
 EL,NCB05-NC01,Cathodic commissioning Data,0
 EL,NCB05-NC01,CABLING Cathodic Protection,1
 EL,NCB05-NC02,Cathodic Install C,0
 EL,NCB05-NC02,Cathodic test T,0
 EL,NCB05-NC02,Cathodic Test for impress current,0
-EL,NCB05-NC02,Cathodic sys.grid,0
 EL,NCB05-NC02,Cathodic Test for magnesium anode,0
 EL,NCB05-NC02,Cathodic commissioning Data,0
 EL,NCB05-NC02,CABLING Cathodic Protection,1
 EL,NCB05-NC03,Cathodic Install C,0
 EL,NCB05-NC03,Cathodic test T,0
 EL,NCB05-NC03,Cathodic Test for impress current,0
-EL,NCB05-NC03,Cathodic sys.grid,0
 EL,NCB05-NC03,Cathodic Test for magnesium anode,0
 EL,NCB05-NC03,Cathodic commissioning Data,0
 EL,NCB05-NC03,CABLING Cathodic Protection,1
 EL,NCB06-NC01,Cathodic Install C,0
 EL,NCB06-NC01,Cathodic test T,0
 EL,NCB06-NC01,Cathodic Test for impress current,0
-EL,NCB06-NC01,Cathodic sys.grid,0
 EL,NCB06-NC01,Cathodic Test for magnesium anode,0
 EL,NCB06-NC01,Cathodic commissioning Data,0
 EL,NCB06-NC01,CABLING Cathodic Protection,1
 EL,NCB06-NC02,Cathodic Install C,0
 EL,NCB06-NC02,Cathodic test T,0
 EL,NCB06-NC02,Cathodic Test for impress current,0
-EL,NCB06-NC02,Cathodic sys.grid,0
 EL,NCB06-NC02,Cathodic Test for magnesium anode,0
 EL,NCB06-NC02,Cathodic commissioning Data,0
 EL,NCB06-NC02,CABLING Cathodic Protection,1
 EL,NCB06-NC03,Cathodic Install C,0
 EL,NCB06-NC03,Cathodic test T,0
 EL,NCB06-NC03,Cathodic Test for impress current,0
-EL,NCB06-NC03,Cathodic sys.grid,0
 EL,NCB06-NC03,Cathodic Test for magnesium anode,0
 EL,NCB06-NC03,Cathodic commissioning Data,0
 EL,NCB06-NC03,CABLING Cathodic Protection,1
 EL,NCB07-NC01,Cathodic Install C,0
 EL,NCB07-NC01,Cathodic test T,0
 EL,NCB07-NC01,Cathodic Test for impress current,0
-EL,NCB07-NC01,Cathodic sys.grid,0
 EL,NCB07-NC01,Cathodic Test for magnesium anode,0
 EL,NCB07-NC01,Cathodic commissioning Data,0
 EL,NCB07-NC01,CABLING Cathodic Protection,1
 EL,NCB07-NC02,Cathodic Install C,0
 EL,NCB07-NC02,Cathodic test T,0
 EL,NCB07-NC02,Cathodic Test for impress current,0
-EL,NCB07-NC02,Cathodic sys.grid,0
 EL,NCB07-NC02,Cathodic Test for magnesium anode,0
 EL,NCB07-NC02,Cathodic commissioning Data,0
 EL,NCB07-NC02,CABLING Cathodic Protection,1
 EL,NCB07-NC03,Cathodic Install C,0
 EL,NCB07-NC03,Cathodic test T,0
 EL,NCB07-NC03,Cathodic Test for impress current,0
-EL,NCB07-NC03,Cathodic sys.grid,0
 EL,NCB07-NC03,Cathodic Test for magnesium anode,0
 EL,NCB07-NC03,Cathodic commissioning Data,0
 EL,NCB07-NC03,CABLING Cathodic Protection,1
 EL,NCB07-NC04,Cathodic Install C,0
 EL,NCB07-NC04,Cathodic test T,0
 EL,NCB07-NC04,Cathodic Test for impress current,0
-EL,NCB07-NC04,Cathodic sys.grid,0
 EL,NCB07-NC04,Cathodic Test for magnesium anode,0
 EL,NCB07-NC04,Cathodic commissioning Data,0
 EL,NCB07-NC04,CABLING Cathodic Protection,1
 EL,NCB07-NC05,Cathodic Install C,0
 EL,NCB07-NC05,Cathodic test T,0
 EL,NCB07-NC05,Cathodic Test for impress current,0
-EL,NCB07-NC05,Cathodic sys.grid,0
 EL,NCB07-NC05,Cathodic Test for magnesium anode,0
 EL,NCB07-NC05,Cathodic commissioning Data,0
 EL,NCB07-NC05,CABLING Cathodic Protection,1
 EL,NCB08-NC01,Cathodic Install C,0
 EL,NCB08-NC01,Cathodic test T,0
 EL,NCB08-NC01,Cathodic Test for impress current,0
-EL,NCB08-NC01,Cathodic sys.grid,0
 EL,NCB08-NC01,Cathodic Test for magnesium anode,0
 EL,NCB08-NC01,Cathodic commissioning Data,0
 EL,NCB08-NC01,CABLING Cathodic Protection,1
 EL,NCB08-NC02,Cathodic Install C,0
 EL,NCB08-NC02,Cathodic test T,0
 EL,NCB08-NC02,Cathodic Test for impress current,0
-EL,NCB08-NC02,Cathodic sys.grid,0
 EL,NCB08-NC02,Cathodic Test for magnesium anode,0
 EL,NCB08-NC02,Cathodic commissioning Data,0
 EL,NCB08-NC02,CABLING Cathodic Protection,1
 EL,NCB08-NC03,Cathodic Install C,0
 EL,NCB08-NC03,Cathodic test T,0
 EL,NCB08-NC03,Cathodic Test for impress current,0
-EL,NCB08-NC03,Cathodic sys.grid,0
 EL,NCB08-NC03,Cathodic Test for magnesium anode,0
 EL,NCB08-NC03,Cathodic commissioning Data,0
 EL,NCB08-NC03,CABLING Cathodic Protection,1
 EL,NCB09-NC01,Cathodic Install C,0
 EL,NCB09-NC01,Cathodic test T,0
 EL,NCB09-NC01,Cathodic Test for impress current,0
-EL,NCB09-NC01,Cathodic sys.grid,0
 EL,NCB09-NC01,Cathodic Test for magnesium anode,0
 EL,NCB09-NC01,Cathodic commissioning Data,0
 EL,NCB09-NC01,CABLING Cathodic Protection,1
 EL,NCB09-NC02,Cathodic Install C,0
 EL,NCB09-NC02,Cathodic test T,0
 EL,NCB09-NC02,Cathodic Test for impress current,0
-EL,NCB09-NC02,Cathodic sys.grid,0
 EL,NCB09-NC02,Cathodic Test for magnesium anode,0
 EL,NCB09-NC02,Cathodic commissioning Data,0
 EL,NCB09-NC02,CABLING Cathodic Protection,1
 EL,NCB09-NC03,Cathodic Install C,0
 EL,NCB09-NC03,Cathodic test T,0
 EL,NCB09-NC03,Cathodic Test for impress current,0
-EL,NCB09-NC03,Cathodic sys.grid,0
 EL,NCB09-NC03,Cathodic Test for magnesium anode,0
 EL,NCB09-NC03,Cathodic commissioning Data,0
 EL,NCB09-NC03,CABLING Cathodic Protection,1
 EL,NCB10-NC01,Cathodic Install C,0
 EL,NCB10-NC01,Cathodic test T,0
 EL,NCB10-NC01,Cathodic Test for impress current,0
-EL,NCB10-NC01,Cathodic sys.grid,0
 EL,NCB10-NC01,Cathodic Test for magnesium anode,0
 EL,NCB10-NC01,Cathodic commissioning Data,0
 EL,NCB10-NC01,CABLING Cathodic Protection,1
 EL,NCB10-NC02,Cathodic Install C,0
 EL,NCB10-NC02,Cathodic test T,0
 EL,NCB10-NC02,Cathodic Test for impress current,0
-EL,NCB10-NC02,Cathodic sys.grid,0
 EL,NCB10-NC02,Cathodic Test for magnesium anode,0
 EL,NCB10-NC02,Cathodic commissioning Data,0
 EL,NCB10-NC02,CABLING Cathodic Protection,1
 EL,NCB10-NC03,Cathodic Install C,0
 EL,NCB10-NC03,Cathodic test T,0
 EL,NCB10-NC03,Cathodic Test for impress current,0
-EL,NCB10-NC03,Cathodic sys.grid,0
 EL,NCB10-NC03,Cathodic Test for magnesium anode,0
 EL,NCB10-NC03,Cathodic commissioning Data,0
 EL,NCB10-NC03,CABLING Cathodic Protection,1
 EL,NCB10-NC04,Cathodic Install C,0
 EL,NCB10-NC04,Cathodic test T,0
 EL,NCB10-NC04,Cathodic Test for impress current,0
-EL,NCB10-NC04,Cathodic sys.grid,0
 EL,NCB10-NC04,Cathodic Test for magnesium anode,0
 EL,NCB10-NC04,Cathodic commissioning Data,0
 EL,NCB10-NC04,CABLING Cathodic Protection,1
 EL,NCB10-NC05,Cathodic Install C,0
 EL,NCB10-NC05,Cathodic test T,0
 EL,NCB10-NC05,Cathodic Test for impress current,0
-EL,NCB10-NC05,Cathodic sys.grid,0
 EL,NCB10-NC05,Cathodic Test for magnesium anode,0
 EL,NCB10-NC05,Cathodic commissioning Data,0
 EL,NCB10-NC05,CABLING Cathodic Protection,1
 EL,NCB11-NC01,Cathodic Install C,0
 EL,NCB11-NC01,Cathodic test T,0
 EL,NCB11-NC01,Cathodic Test for impress current,0
-EL,NCB11-NC01,Cathodic sys.grid,0
 EL,NCB11-NC01,Cathodic Test for magnesium anode,0
 EL,NCB11-NC01,Cathodic commissioning Data,0
 EL,NCB11-NC01,CABLING Cathodic Protection,1
 EL,NCB11-NC02,Cathodic Install C,0
 EL,NCB11-NC02,Cathodic test T,0
 EL,NCB11-NC02,Cathodic Test for impress current,0
-EL,NCB11-NC02,Cathodic sys.grid,0
 EL,NCB11-NC02,Cathodic Test for magnesium anode,0
 EL,NCB11-NC02,Cathodic commissioning Data,0
 EL,NCB11-NC02,CABLING Cathodic Protection,1
 EL,NCB12-NC01,Cathodic Install C,0
 EL,NCB12-NC01,Cathodic test T,0
 EL,NCB12-NC01,Cathodic Test for impress current,0
-EL,NCB12-NC01,Cathodic sys.grid,0
 EL,NCB12-NC01,Cathodic Test for magnesium anode,0
 EL,NCB12-NC01,Cathodic commissioning Data,0
 EL,NCB12-NC01,CABLING Cathodic Protection,1
 EL,NCB12-NC02,Cathodic Install C,0
 EL,NCB12-NC02,Cathodic test T,0
 EL,NCB12-NC02,Cathodic Test for impress current,0
-EL,NCB12-NC02,Cathodic sys.grid,0
 EL,NCB12-NC02,Cathodic Test for magnesium anode,0
 EL,NCB12-NC02,Cathodic commissioning Data,0
 EL,NCB12-NC02,CABLING Cathodic Protection,1
 EL,NCB12-NC03,Cathodic Install C,0
 EL,NCB12-NC03,Cathodic test T,0
 EL,NCB12-NC03,Cathodic Test for impress current,0
-EL,NCB12-NC03,Cathodic sys.grid,0
 EL,NCB12-NC03,Cathodic Test for magnesium anode,0
 EL,NCB12-NC03,Cathodic commissioning Data,0
 EL,NCB12-NC03,CABLING Cathodic Protection,1
 EL,NCB12-NC04,Cathodic Install C,0
 EL,NCB12-NC04,Cathodic test T,0
 EL,NCB12-NC04,Cathodic Test for impress current,0
-EL,NCB12-NC04,Cathodic sys.grid,0
 EL,NCB12-NC04,Cathodic Test for magnesium anode,0
 EL,NCB12-NC04,Cathodic commissioning Data,0
 EL,NCB12-NC04,CABLING Cathodic Protection,1
@@ -42375,174 +42043,48 @@ MER,P-8405B,Final Inspection Vertical Centrifugal Pump,0
 MER,P-8405B,Mechanical Metering Pump,0
 MER,P-8405B,Steam Turbine Drive,0
 MER,P-8405B,Piping to Eq. Report(MER),0
-IN,PCV-0007,CALIBRATION RECORD CONTROL VALVE,1
 IN,PCV-0007,IN LINE INSTRUMENT INSTALLATION,1
-IN,PCV-0007,INSTRUMENT HOOK-UP TUBING INSTALLATION,1
-IN,PCV-0007,INSTRUMENT PRESSURE TUBE & PIPE TEST,1
-IN,PCV-0008,CALIBRATION RECORD CONTROL VALVE,1
 IN,PCV-0008,IN LINE INSTRUMENT INSTALLATION,1
-IN,PCV-0008,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-0008,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-1001A1,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-1001A1,IN LINE INSTRUMENT INSTALLATION,0
-IN,PCV-1001A1,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-1001A1,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-1001B1,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-1001B1,IN LINE INSTRUMENT INSTALLATION,0
-IN,PCV-1001B1,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-1001B1,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-1001C1,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-1001C1,IN LINE INSTRUMENT INSTALLATION,0
-IN,PCV-1001C1,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-1001C1,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-1010,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-1010,IN LINE INSTRUMENT INSTALLATION,0
-IN,PCV-1010,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-1010,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-10351,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-10351,IN LINE INSTRUMENT INSTALLATION,0
-IN,PCV-10351,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-10351,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-10451,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-10451,IN LINE INSTRUMENT INSTALLATION,0
-IN,PCV-10451,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-10451,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-20101,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-20101,IN LINE INSTRUMENT INSTALLATION,1
-IN,PCV-20101,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-20101,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-20151,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-20151,IN LINE INSTRUMENT INSTALLATION,1
-IN,PCV-20151,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-20151,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-20201,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-20201,IN LINE INSTRUMENT INSTALLATION,1
-IN,PCV-20201,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-20201,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-20202,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-20202,IN LINE INSTRUMENT INSTALLATION,1
-IN,PCV-20202,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-20202,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-20203,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-20203,IN LINE INSTRUMENT INSTALLATION,1
-IN,PCV-20203,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-20203,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-24791,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-24791,IN LINE INSTRUMENT INSTALLATION,0
-IN,PCV-24791,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-24791,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-2551,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-2551,IN LINE INSTRUMENT INSTALLATION,0
-IN,PCV-2551,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-2551,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-30001,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-30001,IN LINE INSTRUMENT INSTALLATION,0
-IN,PCV-30001,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-30001,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-3008,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-3008,IN LINE INSTRUMENT INSTALLATION,0
-IN,PCV-3008,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-3008,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-30103,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-30103,IN LINE INSTRUMENT INSTALLATION,0
-IN,PCV-30103,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-30103,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-30108,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-30108,IN LINE INSTRUMENT INSTALLATION,1
-IN,PCV-30108,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-30108,INSTRUMENT PRESSURE TUBE & PIPE TEST,1
-IN,PCV-30109,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-30109,IN LINE INSTRUMENT INSTALLATION,1
-IN,PCV-30109,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-30109,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-30111,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-30111,IN LINE INSTRUMENT INSTALLATION,1
-IN,PCV-30111,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-30111,INSTRUMENT PRESSURE TUBE & PIPE TEST,1
-IN,PCV-30112,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-30112,IN LINE INSTRUMENT INSTALLATION,1
-IN,PCV-30112,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-30112,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-30115,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-30115,IN LINE INSTRUMENT INSTALLATION,0
-IN,PCV-30115,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-30115,INSTRUMENT PRESSURE TUBE & PIPE TEST,1
-IN,PCV-30116,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-30116,IN LINE INSTRUMENT INSTALLATION,0
-IN,PCV-30116,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-30116,INSTRUMENT PRESSURE TUBE & PIPE TEST,1
-IN,PCV-30122,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-30122,IN LINE INSTRUMENT INSTALLATION,1
-IN,PCV-30122,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-30122,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-5009,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-5009,IN LINE INSTRUMENT INSTALLATION,0
-IN,PCV-5009,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-5009,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-5395,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-5395,IN LINE INSTRUMENT INSTALLATION,0
-IN,PCV-5395,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-5395,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-5412,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-5412,IN LINE INSTRUMENT INSTALLATION,0
-IN,PCV-5412,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-5412,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-5445,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-5445,IN LINE INSTRUMENT INSTALLATION,0
-IN,PCV-5445,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-5445,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-70166A,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-70166A,IN LINE INSTRUMENT INSTALLATION,1
-IN,PCV-70166A,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-70166A,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-70166B,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-70166B,IN LINE INSTRUMENT INSTALLATION,0
-IN,PCV-70166B,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-70166B,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-70169A,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-70169A,IN LINE INSTRUMENT INSTALLATION,1
-IN,PCV-70169A,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-70169A,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-70169B,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-70169B,IN LINE INSTRUMENT INSTALLATION,1
-IN,PCV-70169B,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-70169B,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-70257,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-70257,IN LINE INSTRUMENT INSTALLATION,0
-IN,PCV-70257,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-70257,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-70268,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-70268,IN LINE INSTRUMENT INSTALLATION,0
-IN,PCV-70268,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-70268,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-71182,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-71182,IN LINE INSTRUMENT INSTALLATION,0
-IN,PCV-71182,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-71182,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-71183,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-71183,IN LINE INSTRUMENT INSTALLATION,1
-IN,PCV-71183,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-71183,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-71184,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-71184,IN LINE INSTRUMENT INSTALLATION,1
-IN,PCV-71184,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-71184,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-80139A,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-80139A,IN LINE INSTRUMENT INSTALLATION,1
-IN,PCV-80139A,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-80139A,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-80139B,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-80139B,IN LINE INSTRUMENT INSTALLATION,1
-IN,PCV-80139B,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-80139B,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-80184A,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-80184A,IN LINE INSTRUMENT INSTALLATION,1
-IN,PCV-80184A,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-80184A,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PCV-80184B,CALIBRATION RECORD CONTROL VALVE,0
 IN,PCV-80184B,IN LINE INSTRUMENT INSTALLATION,0
-IN,PCV-80184B,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PCV-80184B,INSTRUMENT PRESSURE TUBE & PIPE TEST,0
 IN,PDAH-2051,LOOP ACCEPTANCE CERTIFICATE,0
 IN,PDAH-2051,LOOP CHECKING DCS,0
 IN,PDAH-2051,LOOP CHECKING F&GESDHIPPS,0
@@ -45630,8 +45172,8 @@ IN,PT-0013(PT),CALIBRATION RECORD TRANSMITTER,1
 IN,PT-0013(PT),INSTRUMENT INSTALLATION,0
 IN,PT-0013(PT),INSTRUMENT HOOK-UP TUBING INSTALLATION,0
 IN,PT-0013(PT),INSTRUMENT PRESSURE TUBE & PIPE TEST,0
-IN,PT-1001(NA),INSTRUMENT CABLE INSTALLATION,0
-IN,PT-1001(NA),CABLE INSULATION & CONTINUITY TEST,0
+IN,PT-1001(NA),INSTRUMENT CABLE INSTALLATION,1
+IN,PT-1001(NA),CABLE INSULATION & CONTINUITY TEST,1
 IN,PT-1001(PT),CALIBRATION RECORD TRANSMITTER,1
 IN,PT-1001(PT),INSTRUMENT INSTALLATION,1
 IN,PT-1001(PT),INSTRUMENT HOOK-UP TUBING INSTALLATION,0
@@ -45640,14 +45182,14 @@ IN,PT-1005(NA),INSTRUMENT CABLE INSTALLATION,0
 IN,PT-1005(NA),CABLE INSULATION & CONTINUITY TEST,0
 IN,PT-1005(PT),CALIBRATION RECORD TRANSMITTER,1
 IN,PT-1005(PT),INSTRUMENT INSTALLATION,1
-IN,PT-1005(PT),INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PT-1005(PT),INSTRUMENT PRESSURE TUBE & PIPE TEST,0
+IN,PT-1005(PT),INSTRUMENT HOOK-UP TUBING INSTALLATION,1
+IN,PT-1005(PT),INSTRUMENT PRESSURE TUBE & PIPE TEST,1
 IN,PT-1006(NA),INSTRUMENT CABLE INSTALLATION,0
 IN,PT-1006(NA),CABLE INSULATION & CONTINUITY TEST,1
 IN,PT-1006(PT),CALIBRATION RECORD TRANSMITTER,1
 IN,PT-1006(PT),INSTRUMENT INSTALLATION,1
-IN,PT-1006(PT),INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PT-1006(PT),INSTRUMENT PRESSURE TUBE & PIPE TEST,0
+IN,PT-1006(PT),INSTRUMENT HOOK-UP TUBING INSTALLATION,1
+IN,PT-1006(PT),INSTRUMENT PRESSURE TUBE & PIPE TEST,1
 IN,PT-1007,CALIBRATION RECORD TRANSMITTER,1
 IN,PT-1007,INSTRUMENT INSTALLATION,0
 IN,PT-1007,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
@@ -45930,8 +45472,8 @@ IN,PT-2455(NA),INSTRUMENT CABLE INSTALLATION,1
 IN,PT-2455(NA),CABLE INSULATION & CONTINUITY TEST,1
 IN,PT-2455(PT),CALIBRATION RECORD TRANSMITTER,1
 IN,PT-2455(PT),INSTRUMENT INSTALLATION,1
-IN,PT-2455(PT),INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PT-2455(PT),INSTRUMENT PRESSURE TUBE & PIPE TEST,0
+IN,PT-2455(PT),INSTRUMENT HOOK-UP TUBING INSTALLATION,1
+IN,PT-2455(PT),INSTRUMENT PRESSURE TUBE & PIPE TEST,1
 IN,PT-2481(NA),INSTRUMENT CABLE INSTALLATION,0
 IN,PT-2481(NA),CABLE INSULATION & CONTINUITY TEST,0
 IN,PT-2481(PT),CALIBRATION RECORD TRANSMITTER,1
@@ -46264,8 +45806,8 @@ IN,PT-6088(NA),INSTRUMENT CABLE INSTALLATION,1
 IN,PT-6088(NA),CABLE INSULATION & CONTINUITY TEST,1
 IN,PT-6088(PT),CALIBRATION RECORD TRANSMITTER,1
 IN,PT-6088(PT),INSTRUMENT INSTALLATION,1
-IN,PT-6088(PT),INSTRUMENT HOOK-UP TUBING INSTALLATION,0
-IN,PT-6088(PT),INSTRUMENT PRESSURE TUBE & PIPE TEST,0
+IN,PT-6088(PT),INSTRUMENT HOOK-UP TUBING INSTALLATION,1
+IN,PT-6088(PT),INSTRUMENT PRESSURE TUBE & PIPE TEST,1
 IN,PT-7001(NA),INSTRUMENT CABLE INSTALLATION,0
 IN,PT-7001(NA),CABLE INSULATION & CONTINUITY TEST,0
 IN,PT-7001(PT),CALIBRATION RECORD TRANSMITTER,1
@@ -47193,15 +46735,15 @@ IN,RO-9002B,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9002B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9003A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9003A,IN LINE INSTRUMENT INSTALLATION,0
-IN,RO-9003B,CALIBRATION RECORD FLOW ELEMENT,0
-IN,RO-9003B,IN LINE INSTRUMENT INSTALLATION,1
+IN,RO-9003B,CALIBRATION RECORD FLOW ELEMENT,1
+IN,RO-9003B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9004A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9004A,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9004B,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9004B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9005A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9005A,IN LINE INSTRUMENT INSTALLATION,0
-IN,RO-9005B,CALIBRATION RECORD FLOW ELEMENT,0
+IN,RO-9005B,CALIBRATION RECORD FLOW ELEMENT,1
 IN,RO-9005B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9006A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9006A,IN LINE INSTRUMENT INSTALLATION,0
@@ -47213,64 +46755,64 @@ IN,RO-9007B,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9007B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9008A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9008A,IN LINE INSTRUMENT INSTALLATION,0
-IN,RO-9008B,CALIBRATION RECORD FLOW ELEMENT,0
-IN,RO-9008B,IN LINE INSTRUMENT INSTALLATION,1
+IN,RO-9008B,CALIBRATION RECORD FLOW ELEMENT,1
+IN,RO-9008B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9009A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9009A,IN LINE INSTRUMENT INSTALLATION,0
-IN,RO-9009B,CALIBRATION RECORD FLOW ELEMENT,0
-IN,RO-9009B,IN LINE INSTRUMENT INSTALLATION,1
+IN,RO-9009B,CALIBRATION RECORD FLOW ELEMENT,1
+IN,RO-9009B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9010A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9010A,IN LINE INSTRUMENT INSTALLATION,0
-IN,RO-9010B,CALIBRATION RECORD FLOW ELEMENT,0
+IN,RO-9010B,CALIBRATION RECORD FLOW ELEMENT,1
 IN,RO-9010B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9011A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9011A,IN LINE INSTRUMENT INSTALLATION,0
-IN,RO-9011B,CALIBRATION RECORD FLOW ELEMENT,0
+IN,RO-9011B,CALIBRATION RECORD FLOW ELEMENT,1
 IN,RO-9011B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9012A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9012A,IN LINE INSTRUMENT INSTALLATION,0
-IN,RO-9012B,CALIBRATION RECORD FLOW ELEMENT,0
-IN,RO-9012B,IN LINE INSTRUMENT INSTALLATION,1
+IN,RO-9012B,CALIBRATION RECORD FLOW ELEMENT,1
+IN,RO-9012B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9013A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9013A,IN LINE INSTRUMENT INSTALLATION,0
-IN,RO-9013B,CALIBRATION RECORD FLOW ELEMENT,0
-IN,RO-9013B,IN LINE INSTRUMENT INSTALLATION,1
+IN,RO-9013B,CALIBRATION RECORD FLOW ELEMENT,1
+IN,RO-9013B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9014A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9014A,IN LINE INSTRUMENT INSTALLATION,0
-IN,RO-9014B,CALIBRATION RECORD FLOW ELEMENT,0
-IN,RO-9014B,IN LINE INSTRUMENT INSTALLATION,1
+IN,RO-9014B,CALIBRATION RECORD FLOW ELEMENT,1
+IN,RO-9014B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9015A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9015A,IN LINE INSTRUMENT INSTALLATION,0
-IN,RO-9015B,CALIBRATION RECORD FLOW ELEMENT,0
-IN,RO-9015B,IN LINE INSTRUMENT INSTALLATION,1
+IN,RO-9015B,CALIBRATION RECORD FLOW ELEMENT,1
+IN,RO-9015B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9016A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9016A,IN LINE INSTRUMENT INSTALLATION,0
-IN,RO-9016B,CALIBRATION RECORD FLOW ELEMENT,0
-IN,RO-9016B,IN LINE INSTRUMENT INSTALLATION,1
+IN,RO-9016B,CALIBRATION RECORD FLOW ELEMENT,1
+IN,RO-9016B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9017A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9017A,IN LINE INSTRUMENT INSTALLATION,0
-IN,RO-9017B,CALIBRATION RECORD FLOW ELEMENT,0
-IN,RO-9017B,IN LINE INSTRUMENT INSTALLATION,1
+IN,RO-9017B,CALIBRATION RECORD FLOW ELEMENT,1
+IN,RO-9017B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9018A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9018A,IN LINE INSTRUMENT INSTALLATION,0
-IN,RO-9018B,CALIBRATION RECORD FLOW ELEMENT,0
-IN,RO-9018B,IN LINE INSTRUMENT INSTALLATION,1
+IN,RO-9018B,CALIBRATION RECORD FLOW ELEMENT,1
+IN,RO-9018B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9019A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9019A,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9019B,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9019B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9020A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9020A,IN LINE INSTRUMENT INSTALLATION,0
-IN,RO-9020B,CALIBRATION RECORD FLOW ELEMENT,0
-IN,RO-9020B,IN LINE INSTRUMENT INSTALLATION,1
+IN,RO-9020B,CALIBRATION RECORD FLOW ELEMENT,1
+IN,RO-9020B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9021A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9021A,IN LINE INSTRUMENT INSTALLATION,0
-IN,RO-9021B,CALIBRATION RECORD FLOW ELEMENT,0
-IN,RO-9021B,IN LINE INSTRUMENT INSTALLATION,1
+IN,RO-9021B,CALIBRATION RECORD FLOW ELEMENT,1
+IN,RO-9021B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9022A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9022A,IN LINE INSTRUMENT INSTALLATION,0
-IN,RO-9022B,CALIBRATION RECORD FLOW ELEMENT,0
-IN,RO-9022B,IN LINE INSTRUMENT INSTALLATION,1
+IN,RO-9022B,CALIBRATION RECORD FLOW ELEMENT,1
+IN,RO-9022B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9023A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9023A,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9023B,CALIBRATION RECORD FLOW ELEMENT,0
@@ -47281,28 +46823,28 @@ IN,RO-9024B,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9024B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9025A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9025A,IN LINE INSTRUMENT INSTALLATION,0
-IN,RO-9025B,CALIBRATION RECORD FLOW ELEMENT,0
-IN,RO-9025B,IN LINE INSTRUMENT INSTALLATION,1
+IN,RO-9025B,CALIBRATION RECORD FLOW ELEMENT,1
+IN,RO-9025B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9026A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9026A,IN LINE INSTRUMENT INSTALLATION,0
-IN,RO-9026B,CALIBRATION RECORD FLOW ELEMENT,0
-IN,RO-9026B,IN LINE INSTRUMENT INSTALLATION,1
+IN,RO-9026B,CALIBRATION RECORD FLOW ELEMENT,1
+IN,RO-9026B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9027A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9027A,IN LINE INSTRUMENT INSTALLATION,0
-IN,RO-9027B,CALIBRATION RECORD FLOW ELEMENT,0
-IN,RO-9027B,IN LINE INSTRUMENT INSTALLATION,1
+IN,RO-9027B,CALIBRATION RECORD FLOW ELEMENT,1
+IN,RO-9027B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9028A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9028A,IN LINE INSTRUMENT INSTALLATION,0
-IN,RO-9028B,CALIBRATION RECORD FLOW ELEMENT,0
-IN,RO-9028B,IN LINE INSTRUMENT INSTALLATION,1
+IN,RO-9028B,CALIBRATION RECORD FLOW ELEMENT,1
+IN,RO-9028B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9029A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9029A,IN LINE INSTRUMENT INSTALLATION,0
-IN,RO-9029B,CALIBRATION RECORD FLOW ELEMENT,0
-IN,RO-9029B,IN LINE INSTRUMENT INSTALLATION,1
+IN,RO-9029B,CALIBRATION RECORD FLOW ELEMENT,1
+IN,RO-9029B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9030A,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9030A,IN LINE INSTRUMENT INSTALLATION,0
-IN,RO-9030B,CALIBRATION RECORD FLOW ELEMENT,0
-IN,RO-9030B,IN LINE INSTRUMENT INSTALLATION,1
+IN,RO-9030B,CALIBRATION RECORD FLOW ELEMENT,1
+IN,RO-9030B,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9058,CALIBRATION RECORD FLOW ELEMENT,0
 IN,RO-9058,IN LINE INSTRUMENT INSTALLATION,0
 IN,RO-9059,CALIBRATION RECORD FLOW ELEMENT,0
@@ -47653,35 +47195,30 @@ MES,S-7101,Piping to Eq. Report(MES),1
 EL,SA_AJB-P-002,Cathodic Install C,1
 EL,SA_AJB-P-002,Cathodic test T,0
 EL,SA_AJB-P-002,Cathodic Test for impress current,0
-EL,SA_AJB-P-002,Cathodic sys.grid,0
 EL,SA_AJB-P-002,Cathodic Test for magnesium anode,0
 EL,SA_AJB-P-002,Cathodic commissioning Data,0
 EL,SA_AJB-P-002,CABLING Cathodic Protection,0
 EL,SA_NBB-P-001,Cathodic Install C,1
 EL,SA_NBB-P-001,Cathodic test T,0
 EL,SA_NBB-P-001,Cathodic Test for impress current,0
-EL,SA_NBB-P-001,Cathodic sys.grid,0
 EL,SA_NBB-P-001,Cathodic Test for magnesium anode,0
 EL,SA_NBB-P-001,Cathodic commissioning Data,0
 EL,SA_NBB-P-001,CABLING Cathodic Protection,0
 EL,SA_TB-P-008,Cathodic Install C,1
 EL,SA_TB-P-008,Cathodic test T,0
 EL,SA_TB-P-008,Cathodic Test for impress current,0
-EL,SA_TB-P-008,Cathodic sys.grid,0
 EL,SA_TB-P-008,Cathodic Test for magnesium anode,0
 EL,SA_TB-P-008,Cathodic commissioning Data,0
 EL,SA_TB-P-008,CABLING Cathodic Protection,0
 EL,SA_TR-P-001,Cathodic Install C,1
 EL,SA_TR-P-001,Cathodic test T,0
 EL,SA_TR-P-001,Cathodic Test for impress current,0
-EL,SA_TR-P-001,Cathodic sys.grid,0
 EL,SA_TR-P-001,Cathodic Test for magnesium anode,0
 EL,SA_TR-P-001,Cathodic commissioning Data,0
 EL,SA_TR-P-001,CABLING Cathodic Protection,0
 EL,SA_TR-P-002,Cathodic Install C,1
 EL,SA_TR-P-002,Cathodic test T,0
 EL,SA_TR-P-002,Cathodic Test for impress current,0
-EL,SA_TR-P-002,Cathodic sys.grid,0
 EL,SA_TR-P-002,Cathodic Test for magnesium anode,0
 EL,SA_TR-P-002,Cathodic commissioning Data,0
 EL,SA_TR-P-002,CABLING Cathodic Protection,0
@@ -49783,210 +49320,180 @@ IN,TAH-30139,INSTRUMENT HOOK-UP TUBING INSTALLATION,0
 EL,TB01-TC01,Cathodic Install C,0
 EL,TB01-TC01,Cathodic test T,0
 EL,TB01-TC01,Cathodic Test for impress current,0
-EL,TB01-TC01,Cathodic sys.grid,0
 EL,TB01-TC01,Cathodic Test for magnesium anode,0
 EL,TB01-TC01,Cathodic commissioning Data,0
 EL,TB01-TC01,CABLING Cathodic Protection,1
 EL,TB01-TC02,Cathodic Install C,0
 EL,TB01-TC02,Cathodic test T,0
 EL,TB01-TC02,Cathodic Test for impress current,0
-EL,TB01-TC02,Cathodic sys.grid,0
 EL,TB01-TC02,Cathodic Test for magnesium anode,0
 EL,TB01-TC02,Cathodic commissioning Data,0
 EL,TB01-TC02,CABLING Cathodic Protection,1
 EL,TB02-TC01,Cathodic Install C,0
 EL,TB02-TC01,Cathodic test T,0
 EL,TB02-TC01,Cathodic Test for impress current,0
-EL,TB02-TC01,Cathodic sys.grid,0
 EL,TB02-TC01,Cathodic Test for magnesium anode,0
 EL,TB02-TC01,Cathodic commissioning Data,0
 EL,TB02-TC01,CABLING Cathodic Protection,1
 EL,TB02-TC02,Cathodic Install C,0
 EL,TB02-TC02,Cathodic test T,0
 EL,TB02-TC02,Cathodic Test for impress current,0
-EL,TB02-TC02,Cathodic sys.grid,0
 EL,TB02-TC02,Cathodic Test for magnesium anode,0
 EL,TB02-TC02,Cathodic commissioning Data,0
 EL,TB02-TC02,CABLING Cathodic Protection,1
 EL,TB02-TC03,Cathodic Install C,0
 EL,TB02-TC03,Cathodic test T,0
 EL,TB02-TC03,Cathodic Test for impress current,0
-EL,TB02-TC03,Cathodic sys.grid,0
 EL,TB02-TC03,Cathodic Test for magnesium anode,0
 EL,TB02-TC03,Cathodic commissioning Data,0
 EL,TB02-TC03,CABLING Cathodic Protection,1
 EL,TB02-TC04,Cathodic Install C,0
 EL,TB02-TC04,Cathodic test T,0
 EL,TB02-TC04,Cathodic Test for impress current,0
-EL,TB02-TC04,Cathodic sys.grid,0
 EL,TB02-TC04,Cathodic Test for magnesium anode,0
 EL,TB02-TC04,Cathodic commissioning Data,0
 EL,TB02-TC04,CABLING Cathodic Protection,1
 EL,TB03-TC01,Cathodic Install C,0
 EL,TB03-TC01,Cathodic test T,0
 EL,TB03-TC01,Cathodic Test for impress current,0
-EL,TB03-TC01,Cathodic sys.grid,0
 EL,TB03-TC01,Cathodic Test for magnesium anode,0
 EL,TB03-TC01,Cathodic commissioning Data,0
 EL,TB03-TC01,CABLING Cathodic Protection,1
 EL,TB03-TC02,Cathodic Install C,0
 EL,TB03-TC02,Cathodic test T,0
 EL,TB03-TC02,Cathodic Test for impress current,0
-EL,TB03-TC02,Cathodic sys.grid,0
 EL,TB03-TC02,Cathodic Test for magnesium anode,0
 EL,TB03-TC02,Cathodic commissioning Data,0
 EL,TB03-TC02,CABLING Cathodic Protection,1
 EL,TB03-TC03,Cathodic Install C,0
 EL,TB03-TC03,Cathodic test T,0
 EL,TB03-TC03,Cathodic Test for impress current,0
-EL,TB03-TC03,Cathodic sys.grid,0
 EL,TB03-TC03,Cathodic Test for magnesium anode,0
 EL,TB03-TC03,Cathodic commissioning Data,0
 EL,TB03-TC03,CABLING Cathodic Protection,1
 EL,TB04-TC01,Cathodic Install C,0
 EL,TB04-TC01,Cathodic test T,0
 EL,TB04-TC01,Cathodic Test for impress current,0
-EL,TB04-TC01,Cathodic sys.grid,0
 EL,TB04-TC01,Cathodic Test for magnesium anode,0
 EL,TB04-TC01,Cathodic commissioning Data,0
 EL,TB04-TC01,CABLING Cathodic Protection,1
 EL,TB04-TC02,Cathodic Install C,0
 EL,TB04-TC02,Cathodic test T,0
 EL,TB04-TC02,Cathodic Test for impress current,0
-EL,TB04-TC02,Cathodic sys.grid,0
 EL,TB04-TC02,Cathodic Test for magnesium anode,0
 EL,TB04-TC02,Cathodic commissioning Data,0
 EL,TB04-TC02,CABLING Cathodic Protection,1
 EL,TB04-TC03,Cathodic Install C,0
 EL,TB04-TC03,Cathodic test T,0
 EL,TB04-TC03,Cathodic Test for impress current,0
-EL,TB04-TC03,Cathodic sys.grid,0
 EL,TB04-TC03,Cathodic Test for magnesium anode,0
 EL,TB04-TC03,Cathodic commissioning Data,0
 EL,TB04-TC03,CABLING Cathodic Protection,1
 EL,TB05-TC01,Cathodic Install C,0
 EL,TB05-TC01,Cathodic test T,0
 EL,TB05-TC01,Cathodic Test for impress current,0
-EL,TB05-TC01,Cathodic sys.grid,0
 EL,TB05-TC01,Cathodic Test for magnesium anode,0
 EL,TB05-TC01,Cathodic commissioning Data,0
 EL,TB05-TC01,CABLING Cathodic Protection,1
 EL,TB05-TC02,Cathodic Install C,0
 EL,TB05-TC02,Cathodic test T,0
 EL,TB05-TC02,Cathodic Test for impress current,0
-EL,TB05-TC02,Cathodic sys.grid,0
 EL,TB05-TC02,Cathodic Test for magnesium anode,0
 EL,TB05-TC02,Cathodic commissioning Data,0
 EL,TB05-TC02,CABLING Cathodic Protection,1
 EL,TB05-TC03,Cathodic Install C,0
 EL,TB05-TC03,Cathodic test T,0
 EL,TB05-TC03,Cathodic Test for impress current,0
-EL,TB05-TC03,Cathodic sys.grid,0
 EL,TB05-TC03,Cathodic Test for magnesium anode,0
 EL,TB05-TC03,Cathodic commissioning Data,0
 EL,TB05-TC03,CABLING Cathodic Protection,1
 EL,TB06-TC01,Cathodic Install C,0
 EL,TB06-TC01,Cathodic test T,0
 EL,TB06-TC01,Cathodic Test for impress current,0
-EL,TB06-TC01,Cathodic sys.grid,0
 EL,TB06-TC01,Cathodic Test for magnesium anode,0
 EL,TB06-TC01,Cathodic commissioning Data,0
 EL,TB06-TC01,CABLING Cathodic Protection,1
 EL,TB06-TC02,Cathodic Install C,0
 EL,TB06-TC02,Cathodic test T,0
 EL,TB06-TC02,Cathodic Test for impress current,0
-EL,TB06-TC02,Cathodic sys.grid,0
 EL,TB06-TC02,Cathodic Test for magnesium anode,0
 EL,TB06-TC02,Cathodic commissioning Data,0
 EL,TB06-TC02,CABLING Cathodic Protection,1
 EL,TB06-TC03,Cathodic Install C,0
 EL,TB06-TC03,Cathodic test T,0
 EL,TB06-TC03,Cathodic Test for impress current,0
-EL,TB06-TC03,Cathodic sys.grid,0
 EL,TB06-TC03,Cathodic Test for magnesium anode,0
 EL,TB06-TC03,Cathodic commissioning Data,0
 EL,TB06-TC03,CABLING Cathodic Protection,1
 EL,TB07-TC01,Cathodic Install C,0
 EL,TB07-TC01,Cathodic test T,0
 EL,TB07-TC01,Cathodic Test for impress current,0
-EL,TB07-TC01,Cathodic sys.grid,0
 EL,TB07-TC01,Cathodic Test for magnesium anode,0
 EL,TB07-TC01,Cathodic commissioning Data,0
 EL,TB07-TC01,CABLING Cathodic Protection,1
 EL,TB07-TC02,Cathodic Install C,0
 EL,TB07-TC02,Cathodic test T,0
 EL,TB07-TC02,Cathodic Test for impress current,0
-EL,TB07-TC02,Cathodic sys.grid,0
 EL,TB07-TC02,Cathodic Test for magnesium anode,0
 EL,TB07-TC02,Cathodic commissioning Data,0
 EL,TB07-TC02,CABLING Cathodic Protection,1
 EL,TB07-TC03,Cathodic Install C,0
 EL,TB07-TC03,Cathodic test T,0
 EL,TB07-TC03,Cathodic Test for impress current,0
-EL,TB07-TC03,Cathodic sys.grid,0
 EL,TB07-TC03,Cathodic Test for magnesium anode,0
 EL,TB07-TC03,Cathodic commissioning Data,0
 EL,TB07-TC03,CABLING Cathodic Protection,1
 EL,TB07-TC04,Cathodic Install C,0
 EL,TB07-TC04,Cathodic test T,0
 EL,TB07-TC04,Cathodic Test for impress current,0
-EL,TB07-TC04,Cathodic sys.grid,0
 EL,TB07-TC04,Cathodic Test for magnesium anode,0
 EL,TB07-TC04,Cathodic commissioning Data,0
 EL,TB07-TC04,CABLING Cathodic Protection,1
 EL,TB08-TC01,Cathodic Install C,0
 EL,TB08-TC01,Cathodic test T,0
 EL,TB08-TC01,Cathodic Test for impress current,0
-EL,TB08-TC01,Cathodic sys.grid,0
 EL,TB08-TC01,Cathodic Test for magnesium anode,0
 EL,TB08-TC01,Cathodic commissioning Data,0
 EL,TB08-TC01,CABLING Cathodic Protection,1
 EL,TB09-TC01,Cathodic Install C,0
 EL,TB09-TC01,Cathodic test T,0
 EL,TB09-TC01,Cathodic Test for impress current,0
-EL,TB09-TC01,Cathodic sys.grid,0
 EL,TB09-TC01,Cathodic Test for magnesium anode,0
 EL,TB09-TC01,Cathodic commissioning Data,0
 EL,TB09-TC01,CABLING Cathodic Protection,1
 EL,TB09-TC02,Cathodic Install C,0
 EL,TB09-TC02,Cathodic test T,0
 EL,TB09-TC02,Cathodic Test for impress current,0
-EL,TB09-TC02,Cathodic sys.grid,0
 EL,TB09-TC02,Cathodic Test for magnesium anode,0
 EL,TB09-TC02,Cathodic commissioning Data,0
 EL,TB09-TC02,CABLING Cathodic Protection,1
 EL,TB10-TC01,Cathodic Install C,0
 EL,TB10-TC01,Cathodic test T,0
 EL,TB10-TC01,Cathodic Test for impress current,0
-EL,TB10-TC01,Cathodic sys.grid,0
 EL,TB10-TC01,Cathodic Test for magnesium anode,0
 EL,TB10-TC01,Cathodic commissioning Data,0
 EL,TB10-TC01,CABLING Cathodic Protection,1
 EL,TB10-TC02,Cathodic Install C,0
 EL,TB10-TC02,Cathodic test T,0
 EL,TB10-TC02,Cathodic Test for impress current,0
-EL,TB10-TC02,Cathodic sys.grid,0
 EL,TB10-TC02,Cathodic Test for magnesium anode,0
 EL,TB10-TC02,Cathodic commissioning Data,0
 EL,TB10-TC02,CABLING Cathodic Protection,1
 EL,TB10-TC03,Cathodic Install C,0
 EL,TB10-TC03,Cathodic test T,0
 EL,TB10-TC03,Cathodic Test for impress current,0
-EL,TB10-TC03,Cathodic sys.grid,0
 EL,TB10-TC03,Cathodic Test for magnesium anode,0
 EL,TB10-TC03,Cathodic commissioning Data,0
 EL,TB10-TC03,CABLING Cathodic Protection,1
 EL,TB10-TC04,Cathodic Install C,0
 EL,TB10-TC04,Cathodic test T,0
 EL,TB10-TC04,Cathodic Test for impress current,0
-EL,TB10-TC04,Cathodic sys.grid,0
 EL,TB10-TC04,Cathodic Test for magnesium anode,0
 EL,TB10-TC04,Cathodic commissioning Data,0
 EL,TB10-TC04,CABLING Cathodic Protection,1
 EL,TB11-TC01,Cathodic Install C,0
 EL,TB11-TC01,Cathodic test T,0
 EL,TB11-TC01,Cathodic Test for impress current,0
-EL,TB11-TC01,Cathodic sys.grid,0
 EL,TB11-TC01,Cathodic Test for magnesium anode,0
 EL,TB11-TC01,Cathodic commissioning Data,0
 EL,TB11-TC01,CABLING Cathodic Protection,1
@@ -52660,42 +52167,36 @@ MES,TK-8402,Piping to Eq. Report(MES),0
 EL,TR01-AJB01_1,Cathodic Install C,0
 EL,TR01-AJB01_1,Cathodic test T,0
 EL,TR01-AJB01_1,Cathodic Test for impress current,0
-EL,TR01-AJB01_1,Cathodic sys.grid,0
 EL,TR01-AJB01_1,Cathodic Test for magnesium anode,0
 EL,TR01-AJB01_1,Cathodic commissioning Data,0
 EL,TR01-AJB01_1,CABLING Cathodic Protection,1
 EL,TR01-AJB01_2,Cathodic Install C,0
 EL,TR01-AJB01_2,Cathodic test T,0
 EL,TR01-AJB01_2,Cathodic Test for impress current,0
-EL,TR01-AJB01_2,Cathodic sys.grid,0
 EL,TR01-AJB01_2,Cathodic Test for magnesium anode,0
 EL,TR01-AJB01_2,Cathodic commissioning Data,0
 EL,TR01-AJB01_2,CABLING Cathodic Protection,1
 EL,TR01-NBB05,Cathodic Install C,0
 EL,TR01-NBB05,Cathodic test T,0
 EL,TR01-NBB05,Cathodic Test for impress current,0
-EL,TR01-NBB05,Cathodic sys.grid,0
 EL,TR01-NBB05,Cathodic Test for magnesium anode,0
 EL,TR01-NBB05,Cathodic commissioning Data,0
 EL,TR01-NBB05,CABLING Cathodic Protection,1
 EL,TR02-AJB02_1,Cathodic Install C,0
 EL,TR02-AJB02_1,Cathodic test T,0
 EL,TR02-AJB02_1,Cathodic Test for impress current,0
-EL,TR02-AJB02_1,Cathodic sys.grid,0
 EL,TR02-AJB02_1,Cathodic Test for magnesium anode,0
 EL,TR02-AJB02_1,Cathodic commissioning Data,0
 EL,TR02-AJB02_1,CABLING Cathodic Protection,1
 EL,TR02-AJB02_2,Cathodic Install C,0
 EL,TR02-AJB02_2,Cathodic test T,0
 EL,TR02-AJB02_2,Cathodic Test for impress current,0
-EL,TR02-AJB02_2,Cathodic sys.grid,0
 EL,TR02-AJB02_2,Cathodic Test for magnesium anode,0
 EL,TR02-AJB02_2,Cathodic commissioning Data,0
 EL,TR02-AJB02_2,CABLING Cathodic Protection,1
 EL,TR02-NBB01,Cathodic Install C,0
 EL,TR02-NBB01,Cathodic test T,0
 EL,TR02-NBB01,Cathodic Test for impress current,0
-EL,TR02-NBB01,Cathodic sys.grid,0
 EL,TR02-NBB01,Cathodic Test for magnesium anode,0
 EL,TR02-NBB01,Cathodic commissioning Data,0
 EL,TR02-NBB01,CABLING Cathodic Protection,1
@@ -53652,16 +53153,16 @@ IN,TT-2421(NA),INSTRUMENT CABLE INSTALLATION,0
 IN,TT-2421(NA),CABLE INSULATION & CONTINUITY TEST,0
 IN,TT-2421(TT),CALIBRATION RECORD TRANSMITTER,1
 IN,TT-2421(TT),INSTRUMENT INSTALLATION,1
-IN,TT-2444(NA),INSTRUMENT CABLE INSTALLATION,0
-IN,TT-2444(NA),CABLE INSULATION & CONTINUITY TEST,0
+IN,TT-2444(NA),INSTRUMENT CABLE INSTALLATION,1
+IN,TT-2444(NA),CABLE INSULATION & CONTINUITY TEST,1
 IN,TT-2444(TT),CALIBRATION RECORD TRANSMITTER,1
 IN,TT-2444(TT),INSTRUMENT INSTALLATION,1
 IN,TT-2455(NA),INSTRUMENT CABLE INSTALLATION,0
 IN,TT-2455(NA),CABLE INSULATION & CONTINUITY TEST,0
 IN,TT-2455(TT),CALIBRATION RECORD TRANSMITTER,1
 IN,TT-2455(TT),INSTRUMENT INSTALLATION,1
-IN,TT-2457(NA),INSTRUMENT CABLE INSTALLATION,0
-IN,TT-2457(NA),CABLE INSULATION & CONTINUITY TEST,0
+IN,TT-2457(NA),INSTRUMENT CABLE INSTALLATION,1
+IN,TT-2457(NA),CABLE INSULATION & CONTINUITY TEST,1
 IN,TT-2457(TT),CALIBRATION RECORD TRANSMITTER,1
 IN,TT-2457(TT),INSTRUMENT INSTALLATION,1
 IN,TT-2472(NA),INSTRUMENT CABLE INSTALLATION,0
