@@ -1,4 +1,10 @@
 ﻿Discipline,Tag_No,Form_Title,Done
+PI,-,Line Check,0
+PI,-,Cleaning,0
+PI,-,Hydrotest,0
+PI,-,Flush/Dry,0
+PI,-,Face_Cleaning,0
+PI,-,Reinstatment,0
 EL,00-CAM-01,CCTV Eq.install,0
 EL,00-CAM-01,CCTV Camera&Hosing install,0
 EL,00-CAM-01,CCTV station.control unit,0
@@ -22808,7 +22814,7 @@ EL,E23-63(ES-02),Earthig & Lightning Work T,1
 EL,E23-63(ES-11),Earthig & Lightning Work T,1
 EL,E23-64(ES-02),Earthig & Lightning Work T,1
 EL,E23-64(ES-11),Earthig & Lightning Work T,1
-EL,E23-65(ES-02),Earthig & Lightning Work T,0
+EL,E23-65(ES-02),Earthig & Lightning Work T,1
 EL,E23-65(ES-11),Earthig & Lightning Work T,1
 EL,E23-66(ES-02),Earthig & Lightning Work T,1
 EL,E23-66(ES-11),Earthig & Lightning Work T,1
