@@ -61,7 +61,7 @@
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,3,0,19,0,19,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,7,4,0,30,0,30,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,32,0,104,35,69,8
-3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,112,0,117,80,37,99
+3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,114,0,117,80,37,99
 3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,2,0,20,0,20,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,12,6,6,2
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,176,13,0,307,8,299,5
@@ -69,7 +69,7 @@
 4000,4000-01,Utility,Nitrogen,PI,20,20,0,47,28,19,64
 4000,4000-01,Utility,Nitrogen,IN,14,14,0,0,0,0,6
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,2,0,10,0,10,0
-4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,76,0,252,50,202,35
+4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,78,0,252,50,202,35
 4000,4000-02,Utility,HHP & HP & LP Steam,PI,63,59,0,207,91,116,74
 4000,4000-03,Utility,MP Steam,MES,1,1,0,5,0,5,0
 4000,4000-03,Utility,MP Steam,IN,56,21,0,96,17,79,3
@@ -83,7 +83,7 @@
 4000,4000-05,Utility,Blow Down,MES,4,3,0,14,0,14,0
 4000,4000-05,Utility,Blow Down,IN,17,4,0,10,3,7,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,2,0,4,0,4,5
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,66,44,0,161,80,81,167
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,66,45,0,166,80,86,167
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,0,18,0,18,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,115,0,52,14,38,107
 4000,4000-07,Utility,Plant Air,IN,2,2,0,0,0,0,2
@@ -103,7 +103,7 @@
 4000,4000-11,Utility,Instrument Air,IN,78,78,0,70,23,47,18
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,MER,4,0,0,8,0,8,0
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,IN,25,21,0,7,2,5,20
-4000,4000-12,Utility,COC Water and Lab Chemical Sump,PI,23,10,0,7,3,4,14
+4000,4000-12,Utility,COC Water and Lab Chemical Sump,PI,23,12,0,22,3,19,14
 4000,4000-13,Utility,Slope Close Drain,MER,1,0,0,0,0,0,0
 4000,4000-13,Utility,Slope Close Drain,EL,1,1,0,6,4,2,0
 4000,4000-13,Utility,Slope Close Drain,PI,29,29,0,37,19,18,3
@@ -126,7 +126,7 @@
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,0,0,10,0,10,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,EL,2,2,0,12,0,12,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MES,6,2,0,27,2,25,0
-5000,5000-04,Distillation & Methanol Product,Methanol Product,PI,30,23,0,123,63,60,32
+5000,5000-04,Distillation & Methanol Product,Methanol Product,PI,30,24,0,125,63,62,32
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MER,4,0,0,0,0,0,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,EL,2,2,0,12,0,12,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,IN,213,67,0,180,93,87,45
@@ -188,7 +188,7 @@ LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,0,0,362,196,166,0
 LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,64,0,182,148,34,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,EL,20,0,0,0,0,0,7
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,78,0,0,24,0,24,0
-NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,PI,6,1,0,0,0,0,0
+NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,PI,4,1,0,0,0,0,0
 TEL,TEL-01,Telecom Systems,Telecom System for Area-01,EL,24,0,0,4,0,4,0
 TEL,TEL-02,Telecom Systems,Telecom System for Area-02,EL,61,0,0,4,0,4,0
 TEL,TEL-03,Telecom Systems,Telecom System for Area-03,EL,39,0,0,0,0,0,0
