@@ -38,7 +38,7 @@
 2000,2000-02,Reforming,Primary Reforming,PI,9,7,0,25,11,14,1
 2000,2000-02,Reforming,Primary Reforming,IN,873,168,0,649,61,588,77
 2000,2000-02,Reforming,Primary Reforming,MES,8,0,0,0,0,0,0
-2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,25,12,0,45,23,22,79
+2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,24,12,0,45,23,22,79
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,363,104,0,255,53,202,50
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,MES,6,2,0,0,0,0,2
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MES,11,2,0,40,0,40,0
@@ -70,7 +70,7 @@
 4000,4000-01,Utility,Nitrogen,IN,14,14,0,0,0,0,6
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,2,0,10,0,10,0
 4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,90,0,268,55,213,35
-4000,4000-02,Utility,HHP & HP & LP Steam,PI,63,59,0,207,91,116,74
+4000,4000-02,Utility,HHP & HP & LP Steam,PI,62,59,0,207,91,116,74
 4000,4000-03,Utility,MP Steam,MES,1,1,0,5,0,5,0
 4000,4000-03,Utility,MP Steam,IN,56,27,0,99,17,82,3
 4000,4000-03,Utility,MP Steam,PI,5,5,0,38,23,15,0
@@ -90,7 +90,7 @@
 4000,4000-07,Utility,Plant Air,PI,10,10,0,17,4,13,30
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,0,8,0,8,0
-4000,4000-08,Utility,Cooling Water,PI,290,268,0,586,363,223,37
+4000,4000-08,Utility,Cooling Water,PI,290,268,0,587,363,224,37
 4000,4000-08,Utility,Cooling Water,IN,745,562,0,268,32,236,533
 4000,4000-08,Utility,Cooling Water,EL,6,2,0,12,0,12,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,26,0,2,0,2,26
@@ -188,7 +188,7 @@ LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,0,0,362,196,166,0
 LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,64,0,182,148,34,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,EL,20,0,0,0,0,0,7
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,78,0,0,24,0,24,0
-NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,PI,5,1,0,0,0,0,0
+NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,PI,4,1,0,0,0,0,0
 TEL,TEL-01,Telecom Systems,Telecom System for Area-01,EL,24,0,0,4,0,4,0
 TEL,TEL-02,Telecom Systems,Telecom System for Area-02,EL,61,0,0,4,0,4,0
 TEL,TEL-03,Telecom Systems,Telecom System for Area-03,EL,39,0,0,0,0,0,0
