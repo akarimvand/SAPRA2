@@ -5898,8 +5898,8 @@ BLD-01,PI,BLD-01-IG55-04-1089,PI_TP,PIPING TEST PACKAGE,DONE
 BLD-02,PI,BLD-02-IG55-01-986,PI_TP,PIPING TEST PACKAGE,DONE
 3000-01,IN,BRAUN--FLT,PKG,PKG,0%
 2000-06,MER,C-2001,Compressor,START UP NITROGEN COMPRESSOR,0%
-120-02,EL,C2001-MF-1,Local_Control_Station,Local Control Station- C2001-MF-1,0%
-120-02,EL,C2001-MF-2,Local_Control_Station,Local Control Station- C2001-MF-2,0%
+120-02,EL,C2001-MF-1,Local_Control_Station,Local Control Station- C2001-MF-1,EXCEPTION_tmp
+120-02,EL,C2001-MF-2,Local_Control_Station,Local Control Station- C2001-MF-2,EXCEPTION_tmp
 3000-04,MER,C-2002,Compressor,Hydrogen recycle compressor,0%
 3000-01,MER,C-3001,Compressor,,0%
 BLD-02,CV,Column & Walls(BLD-02),02-Column & Walls,Structural columns and wall building,DONE
@@ -9910,8 +9910,8 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-01,EL,EAP-SS-TR2B-04,Power Cable A,6/0.42 KV Transformer- SS-TR2B-04,67%
 120-01,EL,EAP-SS-TR2B-05,Power Cable A,6/0.42 KV Transformer- SS-TR2B-05,67%
 120-01,EL,EAP-SS-TR2B-06,Power Cable A,6/0.42 KV Transformer- SS-TR2B-06,Done
-120-02,EL,EBC-C2001-MF-1,Power Cable B,Local Control Station- C2001-MF-1,33%
-120-02,EL,EBC-C2001-MF-2,Power Cable B,Local Control Station- C2001-MF-2,33%
+120-02,EL,EBC-C2001-MF-1,Power Cable B,Local Control Station- C2001-MF-1,EXCEPTION_tmp
+120-02,EL,EBC-C2001-MF-2,Power Cable B,Local Control Station- C2001-MF-2,EXCEPTION_tmp
 120-02,EL,EBC-C2002-HE-1,Power Cable B,Heater Safety Thermostat for C2002-HE-1,67%
 120-02,EL,EBC-C2002-HE-2,Power Cable B,Heater Safety Thermostat for C2002-HE-2,67%
 120-02,EL,EBC-FT2001-HE-1,Power Cable B,Heater Safety Thermostat for FT2001-HE-1,67%
@@ -9939,259 +9939,259 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-02,EL,EBC-FT8001B-MP-1A,Power Cable B,Local Control Station- FT8001B-MP-1A,67%
 120-07,EL,EBC-FT8001B-MP-1B,Power Cable B,Local Control Station- FT8001B-MP-1B,33%
 120-05,EL,EBC-MAE-2026-01,Power Cable B,Local Control Station- MAE-2026-01,67%
-120-05,EL,EBC-MAE-2026-01_VS,Power Cable B,Vibration Switch- MAE-2026-01/VS,0%
+120-05,EL,EBC-MAE-2026-01_VS,Power Cable B,Vibration Switch- MAE-2026-01/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-2026-02,Power Cable B,Local Control Station- MAE-2026-02,67%
-120-05,EL,EBC-MAE-2026-02_VS,Power Cable B,Vibration Switch- MAE-2026-02/VS,0%
+120-05,EL,EBC-MAE-2026-02_VS,Power Cable B,Vibration Switch- MAE-2026-02/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-2026-03,Power Cable B,Local Control Station- MAE-2026-03,67%
-120-05,EL,EBC-MAE-2026-03_VS,Power Cable B,Vibration Switch- MAE-2026-03/VS,0%
+120-05,EL,EBC-MAE-2026-03_VS,Power Cable B,Vibration Switch- MAE-2026-03/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-2026-04,Power Cable B,Local Control Station- MAE-2026-04,67%
-120-05,EL,EBC-MAE-2026-04_VS,Power Cable B,Vibration Switch- MAE-2026-04/VS,0%
+120-05,EL,EBC-MAE-2026-04_VS,Power Cable B,Vibration Switch- MAE-2026-04/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-2026-05,Power Cable B,Local Control Station- MAE-2026-05,67%
-120-05,EL,EBC-MAE-2026-05_VS,Power Cable B,Vibration Switch- MAE-2026-05/VS,0%
+120-05,EL,EBC-MAE-2026-05_VS,Power Cable B,Vibration Switch- MAE-2026-05/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-2026-06,Power Cable B,Local Control Station- MAE-2026-06,67%
-120-05,EL,EBC-MAE-2026-06_VS,Power Cable B,Vibration Switch- MAE-2026-06/VS,0%
+120-05,EL,EBC-MAE-2026-06_VS,Power Cable B,Vibration Switch- MAE-2026-06/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-2026-07,Power Cable B,Local Control Station- MAE-2026-07,67%
-120-05,EL,EBC-MAE-2026-07_VS,Power Cable B,Vibration Switch- MAE-2026-07/VS,0%
+120-05,EL,EBC-MAE-2026-07_VS,Power Cable B,Vibration Switch- MAE-2026-07/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-2026-08,Power Cable B,Local Control Station- MAE-2026-08,67%
-120-05,EL,EBC-MAE-2026-08_VS,Power Cable B,Vibration Switch- MAE-2026-08/VS,0%
-120-06,EL,EBC-MAE-2026-09,Power Cable B,Local Control Station- MAE-2026-09,67%
-120-06,EL,EBC-MAE-2026-09_VS,Power Cable B,Vibration Switch- MAE-2026-09/VS,0%
-120-06,EL,EBC-MAE-2026-10,Power Cable B,Local Control Station- MAE-2026-10,67%
-120-06,EL,EBC-MAE-2026-10_VS,Power Cable B,Vibration Switch- MAE-2026-10/VS,0%
-120-06,EL,EBC-MAE-2026-11,Power Cable B,Local Control Station- MAE-2026-11,67%
-120-06,EL,EBC-MAE-2026-11_VS,Power Cable B,Vibration Switch- MAE-2026-11/VS,0%
-120-06,EL,EBC-MAE-2026-12,Power Cable B,Local Control Station- MAE-2026-12,67%
-120-06,EL,EBC-MAE-2026-12_VS,Power Cable B,Vibration Switch- MAE-2026-12/VS,0%
-120-06,EL,EBC-MAE-3002_1-01,Power Cable B,Local Control Station- MAE-3002/1-01,67%
-120-06,EL,EBC-MAE-3002_1-01_VS,Power Cable B,Vibration Switch- MAE-3002/1-01/VS,0%
-120-06,EL,EBC-MAE-3002_1-02,Power Cable B,Local Control Station- MAE-3002/1-02,67%
-120-06,EL,EBC-MAE-3002_1-02_VS,Power Cable B,Vibration Switch- MAE-3002/1-02/VS,0%
-120-06,EL,EBC-MAE-3002_1-03,Power Cable B,Local Control Station- MAE-3002/1-03,67%
-120-06,EL,EBC-MAE-3002_1-03_VS,Power Cable B,Vibration Switch- MAE-3002/1-03/VS,0%
-120-06,EL,EBC-MAE-3002_1-04,Power Cable B,Local Control Station- MAE-3002/1-04,67%
-120-06,EL,EBC-MAE-3002_1-04_VS,Power Cable B,Vibration Switch- MAE-3002/1-04/VS,0%
-120-06,EL,EBC-MAE-3002_1-05,Power Cable B,Local Control Station- MAE-3002/1-05,67%
-120-06,EL,EBC-MAE-3002_1-05_VS,Power Cable B,Vibration Switch- MAE-3002/1-05/VS,0%
-120-06,EL,EBC-MAE-3002_1-06,Power Cable B,Local Control Station- MAE-3002/1-06,67%
-120-06,EL,EBC-MAE-3002_1-06_VS,Power Cable B,Vibration Switch- MAE-3002/1-06/VS,0%
-120-06,EL,EBC-MAE-3002_1-07,Power Cable B,Local Control Station- MAE-3002/1-07,67%
-120-06,EL,EBC-MAE-3002_1-07_VS,Power Cable B,Vibration Switch- MAE-3002/1-07/VS,0%
-120-06,EL,EBC-MAE-3002_1-08,Power Cable B,Local Control Station- MAE-3002/1-08,67%
-120-06,EL,EBC-MAE-3002_1-08_VS,Power Cable B,Vibration Switch- MAE-3002/1-08/VS,0%
-120-06,EL,EBC-MAE-3002_2-01,Power Cable B,Local Control Station- MAE-3002/2-01,67%
-120-06,EL,EBC-MAE-3002_2-01_VS,Power Cable B,Vibration Switch- MAE-3002/2-01/VS,0%
-120-06,EL,EBC-MAE-3002_2-02,Power Cable B,Local Control Station- MAE-3002/2-02,67%
-120-06,EL,EBC-MAE-3002_2-02_VS,Power Cable B,Vibration Switch- MAE-3002/2-02/VS,0%
-120-06,EL,EBC-MAE-3002_2-03,Power Cable B,Local Control Station- MAE-3002/2-03,67%
-120-06,EL,EBC-MAE-3002_2-03_VS,Power Cable B,Vibration Switch- MAE-3002/2-03/VS,0%
-120-06,EL,EBC-MAE-3002_2-04,Power Cable B,Local Control Station- MAE-3002/2-04,67%
-120-06,EL,EBC-MAE-3002_2-04_VS,Power Cable B,Vibration Switch- MAE-3002/2-04/VS,0%
-120-06,EL,EBC-MAE-3002_2-05,Power Cable B,Local Control Station- MAE-3002/2-05,67%
-120-06,EL,EBC-MAE-3002_2-05_VS,Power Cable B,Vibration Switch- MAE-3002/2-05/VS,0%
-120-06,EL,EBC-MAE-3002_2-06,Power Cable B,Local Control Station- MAE-3002/2-06,67%
-120-06,EL,EBC-MAE-3002_2-06_VS,Power Cable B,Vibration Switch- MAE-3002/2-06/VS,0%
-120-06,EL,EBC-MAE-3002_2-07,Power Cable B,Local Control Station- MAE-3002/2-07,67%
-120-06,EL,EBC-MAE-3002_2-07_VS,Power Cable B,Vibration Switch- MAE-3002/2-07/VS,0%
-120-06,EL,EBC-MAE-3002_2-08,Power Cable B,Local Control Station- MAE-3002/2-08,67%
-120-06,EL,EBC-MAE-3002_2-08_VS,Power Cable B,Vibration Switch- MAE-3002/2-08/VS,0%
-120-06,EL,EBC-MAE-3002_3-01,Power Cable B,Local Control Station- MAE-3002/3-01,67%
-120-06,EL,EBC-MAE-3002_3-01_VS,Power Cable B,Vibration Switch- MAE-3002/3-01/VS,0%
-120-06,EL,EBC-MAE-3002_3-02,Power Cable B,Local Control Station- MAE-3002/3-02,67%
-120-06,EL,EBC-MAE-3002_3-02_VS,Power Cable B,Vibration Switch- MAE-3002/3-02/VS,0%
-120-06,EL,EBC-MAE-3002_3-03,Power Cable B,Local Control Station- MAE-3002/3-03,67%
-120-06,EL,EBC-MAE-3002_3-03_VS,Power Cable B,Vibration Switch- MAE-3002/3-03/VS,0%
-120-06,EL,EBC-MAE-3002_3-04,Power Cable B,Local Control Station- MAE-3002/3-04,67%
-120-06,EL,EBC-MAE-3002_3-04_VS,Power Cable B,Vibration Switch- MAE-3002/3-04/VS,0%
-120-06,EL,EBC-MAE-3002_3-05,Power Cable B,Local Control Station- MAE-3002/3-05,67%
-120-06,EL,EBC-MAE-3002_3-05_VS,Power Cable B,Vibration Switch- MAE-3002/3-05/VS,0%
-120-06,EL,EBC-MAE-3002_3-06,Power Cable B,Local Control Station- MAE-3002/3-06,67%
-120-06,EL,EBC-MAE-3002_3-06_VS,Power Cable B,Vibration Switch- MAE-3002/3-06/VS,0%
-120-06,EL,EBC-MAE-3002_3-07,Power Cable B,Local Control Station- MAE-3002/3-07,67%
-120-06,EL,EBC-MAE-3002_3-07_VS,Power Cable B,Vibration Switch- MAE-3002/3-07/VS,0%
-120-06,EL,EBC-MAE-3002_3-08,Power Cable B,Local Control Station- MAE-3002/3-08,67%
-120-06,EL,EBC-MAE-3002_3-08_VS,Power Cable B,Vibration Switch- MAE-3002/3-08/VS,0%
-120-06,EL,EBC-MAE-5004-01,Power Cable B,Local Control Station- MAE-5004-01,67%
-120-06,EL,EBC-MAE-5004-01_VS,Power Cable B,Vibration Switch- MAE-5004-01/VS,0%
-120-06,EL,EBC-MAE-5004-02,Power Cable B,Local Control Station- MAE-5004-02,67%
-120-06,EL,EBC-MAE-5004-02_VS,Power Cable B,Vibration Switch- MAE-5004-02/VS,0%
-120-06,EL,EBC-MAE-5004-03,Power Cable B,Local Control Station- MAE-5004-03,67%
-120-06,EL,EBC-MAE-5004-03_VS,Power Cable B,Vibration Switch- MAE-5004-03/VS,0%
-120-06,EL,EBC-MAE-5004-04,Power Cable B,Local Control Station- MAE-5004-04,67%
-120-06,EL,EBC-MAE-5004-04_VS,Power Cable B,Vibration Switch- MAE-5004-04/VS,0%
-120-06,EL,EBC-MAE-5004-05,Power Cable B,Local Control Station- MAE-5004-05,67%
-120-06,EL,EBC-MAE-5004-05_VS,Power Cable B,Vibration Switch- MAE-5004-05/VS,0%
-120-06,EL,EBC-MAE-5004-06,Power Cable B,Local Control Station- MAE-5004-06,67%
-120-06,EL,EBC-MAE-5004-06_VS,Power Cable B,Vibration Switch- MAE-5004-06/VS,0%
-120-06,EL,EBC-MAE-5004-07,Power Cable B,Local Control Station- MAE-5004-07,67%
-120-06,EL,EBC-MAE-5004-07_VS,Power Cable B,Vibration Switch- MAE-5004-07/VS,0%
-120-06,EL,EBC-MAE-5004-08,Power Cable B,Local Control Station- MAE-5004-08,67%
-120-06,EL,EBC-MAE-5004-08_VS,Power Cable B,Vibration Switch- MAE-5004-08/VS,0%
-120-06,EL,EBC-MAE-5004-09,Power Cable B,Local Control Station- MAE-5004-09,67%
-120-06,EL,EBC-MAE-5004-09_VS,Power Cable B,Vibration Switch- MAE-5004-09/VS,0%
-120-06,EL,EBC-MAE-5004-10,Power Cable B,Local Control Station- MAE-5004-10,67%
-120-06,EL,EBC-MAE-5004-10_VS,Power Cable B,Vibration Switch- MAE-5004-10/VS,0%
-120-06,EL,EBC-MAE-5004-11,Power Cable B,Local Control Station- MAE-5004-11,67%
+120-05,EL,EBC-MAE-2026-08_VS,Power Cable B,Vibration Switch- MAE-2026-08/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-2026-09,Power Cable B,Local Control Station- MAE-2026-09,EXCEPTION_tmp
+120-06,EL,EBC-MAE-2026-09_VS,Power Cable B,Vibration Switch- MAE-2026-09/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-2026-10,Power Cable B,Local Control Station- MAE-2026-10,EXCEPTION_tmp
+120-06,EL,EBC-MAE-2026-10_VS,Power Cable B,Vibration Switch- MAE-2026-10/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-2026-11,Power Cable B,Local Control Station- MAE-2026-11,EXCEPTION_tmp
+120-06,EL,EBC-MAE-2026-11_VS,Power Cable B,Vibration Switch- MAE-2026-11/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-2026-12,Power Cable B,Local Control Station- MAE-2026-12,EXCEPTION_tmp
+120-06,EL,EBC-MAE-2026-12_VS,Power Cable B,Vibration Switch- MAE-2026-12/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_1-01,Power Cable B,Local Control Station- MAE-3002/1-01,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_1-01_VS,Power Cable B,Vibration Switch- MAE-3002/1-01/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_1-02,Power Cable B,Local Control Station- MAE-3002/1-02,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_1-02_VS,Power Cable B,Vibration Switch- MAE-3002/1-02/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_1-03,Power Cable B,Local Control Station- MAE-3002/1-03,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_1-03_VS,Power Cable B,Vibration Switch- MAE-3002/1-03/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_1-04,Power Cable B,Local Control Station- MAE-3002/1-04,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_1-04_VS,Power Cable B,Vibration Switch- MAE-3002/1-04/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_1-05,Power Cable B,Local Control Station- MAE-3002/1-05,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_1-05_VS,Power Cable B,Vibration Switch- MAE-3002/1-05/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_1-06,Power Cable B,Local Control Station- MAE-3002/1-06,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_1-06_VS,Power Cable B,Vibration Switch- MAE-3002/1-06/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_1-07,Power Cable B,Local Control Station- MAE-3002/1-07,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_1-07_VS,Power Cable B,Vibration Switch- MAE-3002/1-07/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_1-08,Power Cable B,Local Control Station- MAE-3002/1-08,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_1-08_VS,Power Cable B,Vibration Switch- MAE-3002/1-08/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_2-01,Power Cable B,Local Control Station- MAE-3002/2-01,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_2-01_VS,Power Cable B,Vibration Switch- MAE-3002/2-01/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_2-02,Power Cable B,Local Control Station- MAE-3002/2-02,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_2-02_VS,Power Cable B,Vibration Switch- MAE-3002/2-02/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_2-03,Power Cable B,Local Control Station- MAE-3002/2-03,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_2-03_VS,Power Cable B,Vibration Switch- MAE-3002/2-03/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_2-04,Power Cable B,Local Control Station- MAE-3002/2-04,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_2-04_VS,Power Cable B,Vibration Switch- MAE-3002/2-04/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_2-05,Power Cable B,Local Control Station- MAE-3002/2-05,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_2-05_VS,Power Cable B,Vibration Switch- MAE-3002/2-05/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_2-06,Power Cable B,Local Control Station- MAE-3002/2-06,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_2-06_VS,Power Cable B,Vibration Switch- MAE-3002/2-06/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_2-07,Power Cable B,Local Control Station- MAE-3002/2-07,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_2-07_VS,Power Cable B,Vibration Switch- MAE-3002/2-07/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_2-08,Power Cable B,Local Control Station- MAE-3002/2-08,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_2-08_VS,Power Cable B,Vibration Switch- MAE-3002/2-08/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_3-01,Power Cable B,Local Control Station- MAE-3002/3-01,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_3-01_VS,Power Cable B,Vibration Switch- MAE-3002/3-01/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_3-02,Power Cable B,Local Control Station- MAE-3002/3-02,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_3-02_VS,Power Cable B,Vibration Switch- MAE-3002/3-02/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_3-03,Power Cable B,Local Control Station- MAE-3002/3-03,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_3-03_VS,Power Cable B,Vibration Switch- MAE-3002/3-03/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_3-04,Power Cable B,Local Control Station- MAE-3002/3-04,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_3-04_VS,Power Cable B,Vibration Switch- MAE-3002/3-04/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_3-05,Power Cable B,Local Control Station- MAE-3002/3-05,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_3-05_VS,Power Cable B,Vibration Switch- MAE-3002/3-05/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_3-06,Power Cable B,Local Control Station- MAE-3002/3-06,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_3-06_VS,Power Cable B,Vibration Switch- MAE-3002/3-06/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_3-07,Power Cable B,Local Control Station- MAE-3002/3-07,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_3-07_VS,Power Cable B,Vibration Switch- MAE-3002/3-07/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_3-08,Power Cable B,Local Control Station- MAE-3002/3-08,EXCEPTION_tmp
+120-06,EL,EBC-MAE-3002_3-08_VS,Power Cable B,Vibration Switch- MAE-3002/3-08/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-5004-01,Power Cable B,Local Control Station- MAE-5004-01,EXCEPTION_tmp
+120-06,EL,EBC-MAE-5004-01_VS,Power Cable B,Vibration Switch- MAE-5004-01/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-5004-02,Power Cable B,Local Control Station- MAE-5004-02,EXCEPTION_tmp
+120-06,EL,EBC-MAE-5004-02_VS,Power Cable B,Vibration Switch- MAE-5004-02/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-5004-03,Power Cable B,Local Control Station- MAE-5004-03,EXCEPTION_tmp
+120-06,EL,EBC-MAE-5004-03_VS,Power Cable B,Vibration Switch- MAE-5004-03/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-5004-04,Power Cable B,Local Control Station- MAE-5004-04,EXCEPTION_tmp
+120-06,EL,EBC-MAE-5004-04_VS,Power Cable B,Vibration Switch- MAE-5004-04/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-5004-05,Power Cable B,Local Control Station- MAE-5004-05,EXCEPTION_tmp
+120-06,EL,EBC-MAE-5004-05_VS,Power Cable B,Vibration Switch- MAE-5004-05/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-5004-06,Power Cable B,Local Control Station- MAE-5004-06,EXCEPTION_tmp
+120-06,EL,EBC-MAE-5004-06_VS,Power Cable B,Vibration Switch- MAE-5004-06/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-5004-07,Power Cable B,Local Control Station- MAE-5004-07,EXCEPTION_tmp
+120-06,EL,EBC-MAE-5004-07_VS,Power Cable B,Vibration Switch- MAE-5004-07/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-5004-08,Power Cable B,Local Control Station- MAE-5004-08,EXCEPTION_tmp
+120-06,EL,EBC-MAE-5004-08_VS,Power Cable B,Vibration Switch- MAE-5004-08/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-5004-09,Power Cable B,Local Control Station- MAE-5004-09,EXCEPTION_tmp
+120-06,EL,EBC-MAE-5004-09_VS,Power Cable B,Vibration Switch- MAE-5004-09/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-5004-10,Power Cable B,Local Control Station- MAE-5004-10,EXCEPTION_tmp
+120-06,EL,EBC-MAE-5004-10_VS,Power Cable B,Vibration Switch- MAE-5004-10/VS,EXCEPTION_tmp
+120-06,EL,EBC-MAE-5004-11,Power Cable B,Local Control Station- MAE-5004-11,EXCEPTION_tmp
 120-01,EL,EBC-MAE-5004-11_VS,Power Cable B,Vibration Switch- MAE-5004-11/VS,33%
-120-06,EL,EBC-MAE-5004-12,Power Cable B,Local Control Station- MAE-5004-12,67%
-120-06,EL,EBC-MAE-5004-12_VS,Power Cable B,Vibration Switch- MAE-5004-12/VS,0%
+120-06,EL,EBC-MAE-5004-12,Power Cable B,Local Control Station- MAE-5004-12,EXCEPTION_tmp
+120-06,EL,EBC-MAE-5004-12_VS,Power Cable B,Vibration Switch- MAE-5004-12/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005A-01,Power Cable B,Local Control Station- MAE-5005A-01,67%
-120-04,EL,EBC-MAE-5005A-01_VS,Power Cable B,Vibration Switch- MAE-5005A-01/VS,0%
+120-04,EL,EBC-MAE-5005A-01_VS,Power Cable B,Vibration Switch- MAE-5005A-01/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005A-02,Power Cable B,Local Control Station- MAE-5005A-02,67%
-120-04,EL,EBC-MAE-5005A-02_VS,Power Cable B,Vibration Switch- MAE-5005A-02/VS,0%
+120-04,EL,EBC-MAE-5005A-02_VS,Power Cable B,Vibration Switch- MAE-5005A-02/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005A-03,Power Cable B,Local Control Station- MAE-5005A-03,67%
-120-04,EL,EBC-MAE-5005A-03_VS,Power Cable B,Vibration Switch- MAE-5005A-03/VS,0%
+120-04,EL,EBC-MAE-5005A-03_VS,Power Cable B,Vibration Switch- MAE-5005A-03/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005A-04,Power Cable B,Local Control Station- MAE-5005A-04,67%
-120-04,EL,EBC-MAE-5005A-04_VS,Power Cable B,Vibration Switch- MAE-5005A-04/VS,0%
+120-04,EL,EBC-MAE-5005A-04_VS,Power Cable B,Vibration Switch- MAE-5005A-04/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005A-05,Power Cable B,Local Control Station- MAE-5005A-05,67%
-120-04,EL,EBC-MAE-5005A-05_VS,Power Cable B,Vibration Switch- MAE-5005A-05/VS,0%
+120-04,EL,EBC-MAE-5005A-05_VS,Power Cable B,Vibration Switch- MAE-5005A-05/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005A-06,Power Cable B,Local Control Station- MAE-5005A-06,67%
-120-04,EL,EBC-MAE-5005A-06_VS,Power Cable B,Vibration Switch- MAE-5005A-06/VS,0%
+120-04,EL,EBC-MAE-5005A-06_VS,Power Cable B,Vibration Switch- MAE-5005A-06/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005A-07,Power Cable B,Local Control Station- MAE-5005A-07,67%
-120-04,EL,EBC-MAE-5005A-07_VS,Power Cable B,Vibration Switch- MAE-5005A-07/VS,0%
+120-04,EL,EBC-MAE-5005A-07_VS,Power Cable B,Vibration Switch- MAE-5005A-07/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005A-08,Power Cable B,Local Control Station- MAE-5005A-08,67%
-120-04,EL,EBC-MAE-5005A-08_VS,Power Cable B,Vibration Switch- MAE-5005A-08/VS,0%
+120-04,EL,EBC-MAE-5005A-08_VS,Power Cable B,Vibration Switch- MAE-5005A-08/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005A-09,Power Cable B,Local Control Station- MAE-5005A-09,67%
-120-04,EL,EBC-MAE-5005A-09_VS,Power Cable B,Vibration Switch- MAE-5005A-09/VS,0%
+120-04,EL,EBC-MAE-5005A-09_VS,Power Cable B,Vibration Switch- MAE-5005A-09/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005A-10,Power Cable B,Local Control Station- MAE-5005A-10,67%
-120-04,EL,EBC-MAE-5005A-10_VS,Power Cable B,Vibration Switch- MAE-5005A-10/VS,0%
+120-04,EL,EBC-MAE-5005A-10_VS,Power Cable B,Vibration Switch- MAE-5005A-10/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005A-11,Power Cable B,Local Control Station- MAE-5005A-11,67%
-120-04,EL,EBC-MAE-5005A-11_VS,Power Cable B,Vibration Switch- MAE-5005A-11/VS,0%
+120-04,EL,EBC-MAE-5005A-11_VS,Power Cable B,Vibration Switch- MAE-5005A-11/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005A-12,Power Cable B,Local Control Station- MAE-5005A-12,67%
-120-04,EL,EBC-MAE-5005A-12_VS,Power Cable B,Vibration Switch- MAE-5005A-12/VS,0%
+120-04,EL,EBC-MAE-5005A-12_VS,Power Cable B,Vibration Switch- MAE-5005A-12/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005A-13,Power Cable B,Local Control Station- MAE-5005A-13,67%
-120-04,EL,EBC-MAE-5005A-13_VS,Power Cable B,Vibration Switch- MAE-5005A-13/VS,0%
+120-04,EL,EBC-MAE-5005A-13_VS,Power Cable B,Vibration Switch- MAE-5005A-13/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005A-14,Power Cable B,Local Control Station- MAE-5005A-14,67%
-120-04,EL,EBC-MAE-5005A-14_VS,Power Cable B,Vibration Switch- MAE-5005A-14/VS,0%
+120-04,EL,EBC-MAE-5005A-14_VS,Power Cable B,Vibration Switch- MAE-5005A-14/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005A-15,Power Cable B,Local Control Station- MAE-5005A-15,67%
-120-04,EL,EBC-MAE-5005A-15_VS,Power Cable B,Vibration Switch- MAE-5005A-15/VS,0%
+120-04,EL,EBC-MAE-5005A-15_VS,Power Cable B,Vibration Switch- MAE-5005A-15/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005A-16,Power Cable B,Local Control Station- MAE-5005A-16,67%
-120-04,EL,EBC-MAE-5005A-16_VS,Power Cable B,Vibration Switch- MAE-5005A-16/VS,0%
+120-04,EL,EBC-MAE-5005A-16_VS,Power Cable B,Vibration Switch- MAE-5005A-16/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005A-17,Power Cable B,Local Control Station- MAE-5005A-17,67%
-120-04,EL,EBC-MAE-5005A-17_VS,Power Cable B,Vibration Switch- MAE-5005A-17/VS,0%
+120-04,EL,EBC-MAE-5005A-17_VS,Power Cable B,Vibration Switch- MAE-5005A-17/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005A-18,Power Cable B,Local Control Station- MAE-5005A-18,67%
-120-04,EL,EBC-MAE-5005A-18_VS,Power Cable B,Vibration Switch- MAE-5005A-18/VS,0%
+120-04,EL,EBC-MAE-5005A-18_VS,Power Cable B,Vibration Switch- MAE-5005A-18/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005B-01,Power Cable B,Local Control Station- MAE-5005B-01,67%
-120-04,EL,EBC-MAE-5005B-01_VS,Power Cable B,Vibration Switch- MAE-5005B-01/VS,0%
+120-04,EL,EBC-MAE-5005B-01_VS,Power Cable B,Vibration Switch- MAE-5005B-01/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005B-02,Power Cable B,Local Control Station- MAE-5005B-02,67%
-120-04,EL,EBC-MAE-5005B-02_VS,Power Cable B,Vibration Switch- MAE-5005B-02/VS,0%
+120-04,EL,EBC-MAE-5005B-02_VS,Power Cable B,Vibration Switch- MAE-5005B-02/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005B-03,Power Cable B,Local Control Station- MAE-5005B-03,67%
-120-04,EL,EBC-MAE-5005B-03_VS,Power Cable B,Vibration Switch- MAE-5005B-03/VS,0%
+120-04,EL,EBC-MAE-5005B-03_VS,Power Cable B,Vibration Switch- MAE-5005B-03/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005B-04,Power Cable B,Local Control Station- MAE-5005B-04,67%
-120-04,EL,EBC-MAE-5005B-04_VS,Power Cable B,Vibration Switch- MAE-5005B-04/VS,0%
+120-04,EL,EBC-MAE-5005B-04_VS,Power Cable B,Vibration Switch- MAE-5005B-04/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005B-05,Power Cable B,Local Control Station- MAE-5005B-05,67%
-120-04,EL,EBC-MAE-5005B-05_VS,Power Cable B,Vibration Switch- MAE-5005B-05/VS,0%
+120-04,EL,EBC-MAE-5005B-05_VS,Power Cable B,Vibration Switch- MAE-5005B-05/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005B-06,Power Cable B,Local Control Station- MAE-5005B-06,67%
-120-04,EL,EBC-MAE-5005B-06_VS,Power Cable B,Vibration Switch- MAE-5005B-06/VS,0%
+120-04,EL,EBC-MAE-5005B-06_VS,Power Cable B,Vibration Switch- MAE-5005B-06/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005B-07,Power Cable B,Local Control Station- MAE-5005B-07,67%
-120-04,EL,EBC-MAE-5005B-07_VS,Power Cable B,Vibration Switch- MAE-5005B-07/VS,0%
+120-04,EL,EBC-MAE-5005B-07_VS,Power Cable B,Vibration Switch- MAE-5005B-07/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005B-08,Power Cable B,Local Control Station- MAE-5005B-08,67%
-120-04,EL,EBC-MAE-5005B-08_VS,Power Cable B,Vibration Switch- MAE-5005B-08/VS,0%
+120-04,EL,EBC-MAE-5005B-08_VS,Power Cable B,Vibration Switch- MAE-5005B-08/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005B-09,Power Cable B,Local Control Station- MAE-5005B-09,67%
-120-04,EL,EBC-MAE-5005B-09_VS,Power Cable B,Vibration Switch- MAE-5005B-09/VS,0%
+120-04,EL,EBC-MAE-5005B-09_VS,Power Cable B,Vibration Switch- MAE-5005B-09/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005B-10,Power Cable B,Local Control Station- MAE-5005B-10,67%
-120-04,EL,EBC-MAE-5005B-10_VS,Power Cable B,Vibration Switch- MAE-5005B-10/VS,0%
+120-04,EL,EBC-MAE-5005B-10_VS,Power Cable B,Vibration Switch- MAE-5005B-10/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005B-11,Power Cable B,Local Control Station- MAE-5005B-11,67%
-120-04,EL,EBC-MAE-5005B-11_VS,Power Cable B,Vibration Switch- MAE-5005B-11/VS,0%
+120-04,EL,EBC-MAE-5005B-11_VS,Power Cable B,Vibration Switch- MAE-5005B-11/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005B-12,Power Cable B,Local Control Station- MAE-5005B-12,67%
-120-04,EL,EBC-MAE-5005B-12_VS,Power Cable B,Vibration Switch- MAE-5005B-12/VS,0%
+120-04,EL,EBC-MAE-5005B-12_VS,Power Cable B,Vibration Switch- MAE-5005B-12/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005B-13,Power Cable B,Local Control Station- MAE-5005B-13,67%
-120-04,EL,EBC-MAE-5005B-13_VS,Power Cable B,Vibration Switch- MAE-5005B-13/VS,0%
+120-04,EL,EBC-MAE-5005B-13_VS,Power Cable B,Vibration Switch- MAE-5005B-13/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005B-14,Power Cable B,Local Control Station- MAE-5005B-14,67%
-120-04,EL,EBC-MAE-5005B-14_VS,Power Cable B,Vibration Switch- MAE-5005B-14/VS,0%
+120-04,EL,EBC-MAE-5005B-14_VS,Power Cable B,Vibration Switch- MAE-5005B-14/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005B-15,Power Cable B,Local Control Station- MAE-5005B-15,67%
-120-04,EL,EBC-MAE-5005B-15_VS,Power Cable B,Vibration Switch- MAE-5005B-15/VS,0%
+120-04,EL,EBC-MAE-5005B-15_VS,Power Cable B,Vibration Switch- MAE-5005B-15/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005B-16,Power Cable B,Local Control Station- MAE-5005B-16,67%
-120-04,EL,EBC-MAE-5005B-16_VS,Power Cable B,Vibration Switch- MAE-5005B-16/VS,0%
+120-04,EL,EBC-MAE-5005B-16_VS,Power Cable B,Vibration Switch- MAE-5005B-16/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005B-17,Power Cable B,Local Control Station- MAE-5005B-17,67%
-120-04,EL,EBC-MAE-5005B-17_VS,Power Cable B,Vibration Switch- MAE-5005B-17/VS,0%
+120-04,EL,EBC-MAE-5005B-17_VS,Power Cable B,Vibration Switch- MAE-5005B-17/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005B-18,Power Cable B,Local Control Station- MAE-5005B-18,67%
-120-04,EL,EBC-MAE-5005B-18_VS,Power Cable B,Vibration Switch- MAE-5005B-18/VS,0%
+120-04,EL,EBC-MAE-5005B-18_VS,Power Cable B,Vibration Switch- MAE-5005B-18/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005C-01,Power Cable B,Local Control Station- MAE-5005C-01,67%
-120-05,EL,EBC-MAE-5005C-01_VS,Power Cable B,Vibration Switch- MAE-5005C-01/VS,0%
+120-05,EL,EBC-MAE-5005C-01_VS,Power Cable B,Vibration Switch- MAE-5005C-01/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005C-02,Power Cable B,Local Control Station- MAE-5005C-02,67%
-120-05,EL,EBC-MAE-5005C-02_VS,Power Cable B,Vibration Switch- MAE-5005C-02/VS,0%
+120-05,EL,EBC-MAE-5005C-02_VS,Power Cable B,Vibration Switch- MAE-5005C-02/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005C-03,Power Cable B,Local Control Station- MAE-5005C-03,67%
-120-05,EL,EBC-MAE-5005C-03_VS,Power Cable B,Vibration Switch- MAE-5005C-03/VS,0%
+120-05,EL,EBC-MAE-5005C-03_VS,Power Cable B,Vibration Switch- MAE-5005C-03/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005C-04,Power Cable B,Local Control Station- MAE-5005C-04,67%
-120-05,EL,EBC-MAE-5005C-04_VS,Power Cable B,Vibration Switch- MAE-5005C-04/VS,0%
+120-05,EL,EBC-MAE-5005C-04_VS,Power Cable B,Vibration Switch- MAE-5005C-04/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005C-05,Power Cable B,Local Control Station- MAE-5005C-05,67%
-120-05,EL,EBC-MAE-5005C-05_VS,Power Cable B,Vibration Switch- MAE-5005C-05/VS,0%
+120-05,EL,EBC-MAE-5005C-05_VS,Power Cable B,Vibration Switch- MAE-5005C-05/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005C-06,Power Cable B,Local Control Station- MAE-5005C-06,67%
-120-05,EL,EBC-MAE-5005C-06_VS,Power Cable B,Vibration Switch- MAE-5005C-06/VS,0%
+120-05,EL,EBC-MAE-5005C-06_VS,Power Cable B,Vibration Switch- MAE-5005C-06/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005C-07,Power Cable B,Local Control Station- MAE-5005C-07,67%
-120-05,EL,EBC-MAE-5005C-07_VS,Power Cable B,Vibration Switch- MAE-5005C-07/VS,0%
+120-05,EL,EBC-MAE-5005C-07_VS,Power Cable B,Vibration Switch- MAE-5005C-07/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005C-08,Power Cable B,Local Control Station- MAE-5005C-08,67%
-120-05,EL,EBC-MAE-5005C-08_VS,Power Cable B,Vibration Switch- MAE-5005C-08/VS,0%
+120-05,EL,EBC-MAE-5005C-08_VS,Power Cable B,Vibration Switch- MAE-5005C-08/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005C-09,Power Cable B,Local Control Station- MAE-5005C-09,67%
-120-05,EL,EBC-MAE-5005C-09_VS,Power Cable B,Vibration Switch- MAE-5005C-09/VS,0%
+120-05,EL,EBC-MAE-5005C-09_VS,Power Cable B,Vibration Switch- MAE-5005C-09/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005C-10,Power Cable B,Local Control Station- MAE-5005C-10,67%
-120-05,EL,EBC-MAE-5005C-10_VS,Power Cable B,Vibration Switch- MAE-5005C-10/VS,0%
+120-05,EL,EBC-MAE-5005C-10_VS,Power Cable B,Vibration Switch- MAE-5005C-10/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005C-11,Power Cable B,Local Control Station- MAE-5005C-11,67%
-120-05,EL,EBC-MAE-5005C-11_VS,Power Cable B,Vibration Switch- MAE-5005C-11/VS,0%
+120-05,EL,EBC-MAE-5005C-11_VS,Power Cable B,Vibration Switch- MAE-5005C-11/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005C-12,Power Cable B,Local Control Station- MAE-5005C-12,67%
-120-05,EL,EBC-MAE-5005C-12_VS,Power Cable B,Vibration Switch- MAE-5005C-12/VS,0%
+120-05,EL,EBC-MAE-5005C-12_VS,Power Cable B,Vibration Switch- MAE-5005C-12/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005C-13,Power Cable B,Local Control Station- MAE-5005C-13,67%
-120-05,EL,EBC-MAE-5005C-13_VS,Power Cable B,Vibration Switch- MAE-5005C-13/VS,0%
+120-05,EL,EBC-MAE-5005C-13_VS,Power Cable B,Vibration Switch- MAE-5005C-13/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005C-14,Power Cable B,Local Control Station- MAE-5005C-14,67%
-120-05,EL,EBC-MAE-5005C-14_VS,Power Cable B,Vibration Switch- MAE-5005C-14/VS,0%
+120-05,EL,EBC-MAE-5005C-14_VS,Power Cable B,Vibration Switch- MAE-5005C-14/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005C-15,Power Cable B,Local Control Station- MAE-5005C-15,67%
-120-04,EL,EBC-MAE-5005C-15_VS,Power Cable B,Vibration Switch- MAE-5005C-15/VS,0%
+120-04,EL,EBC-MAE-5005C-15_VS,Power Cable B,Vibration Switch- MAE-5005C-15/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005C-16,Power Cable B,Local Control Station- MAE-5005C-16,67%
-120-04,EL,EBC-MAE-5005C-16_VS,Power Cable B,Vibration Switch- MAE-5005C-16/VS,0%
+120-04,EL,EBC-MAE-5005C-16_VS,Power Cable B,Vibration Switch- MAE-5005C-16/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005C-17,Power Cable B,Local Control Station- MAE-5005C-17,67%
-120-04,EL,EBC-MAE-5005C-17_VS,Power Cable B,Vibration Switch- MAE-5005C-17/VS,0%
+120-04,EL,EBC-MAE-5005C-17_VS,Power Cable B,Vibration Switch- MAE-5005C-17/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5005C-18,Power Cable B,Local Control Station- MAE-5005C-18,67%
-120-04,EL,EBC-MAE-5005C-18_VS,Power Cable B,Vibration Switch- MAE-5005C-18/VS,0%
+120-04,EL,EBC-MAE-5005C-18_VS,Power Cable B,Vibration Switch- MAE-5005C-18/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005D-01,Power Cable B,Local Control Station- MAE-5005D-01,67%
-120-05,EL,EBC-MAE-5005D-01_VS,Power Cable B,Vibration Switch- MAE-5005D-01/VS,0%
+120-05,EL,EBC-MAE-5005D-01_VS,Power Cable B,Vibration Switch- MAE-5005D-01/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005D-02,Power Cable B,Local Control Station- MAE-5005D-02,67%
-120-05,EL,EBC-MAE-5005D-02_VS,Power Cable B,Vibration Switch- MAE-5005D-02/VS,0%
+120-05,EL,EBC-MAE-5005D-02_VS,Power Cable B,Vibration Switch- MAE-5005D-02/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005D-03,Power Cable B,Local Control Station- MAE-5005D-03,67%
-120-05,EL,EBC-MAE-5005D-03_VS,Power Cable B,Vibration Switch- MAE-5005D-03/VS,0%
+120-05,EL,EBC-MAE-5005D-03_VS,Power Cable B,Vibration Switch- MAE-5005D-03/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005D-04,Power Cable B,Local Control Station- MAE-5005D-04,67%
-120-05,EL,EBC-MAE-5005D-04_VS,Power Cable B,Vibration Switch- MAE-5005D-04/VS,0%
+120-05,EL,EBC-MAE-5005D-04_VS,Power Cable B,Vibration Switch- MAE-5005D-04/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005D-05,Power Cable B,Local Control Station- MAE-5005D-05,67%
-120-05,EL,EBC-MAE-5005D-05_VS,Power Cable B,Vibration Switch- MAE-5005D-05/VS,0%
+120-05,EL,EBC-MAE-5005D-05_VS,Power Cable B,Vibration Switch- MAE-5005D-05/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005D-06,Power Cable B,Local Control Station- MAE-5005D-06,67%
-120-05,EL,EBC-MAE-5005D-06_VS,Power Cable B,Vibration Switch- MAE-5005D-06/VS,0%
+120-05,EL,EBC-MAE-5005D-06_VS,Power Cable B,Vibration Switch- MAE-5005D-06/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005D-07,Power Cable B,Local Control Station- MAE-5005D-07,67%
-120-05,EL,EBC-MAE-5005D-07_VS,Power Cable B,Vibration Switch- MAE-5005D-07/VS,0%
+120-05,EL,EBC-MAE-5005D-07_VS,Power Cable B,Vibration Switch- MAE-5005D-07/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005D-08,Power Cable B,Local Control Station- MAE-5005D-08,67%
-120-05,EL,EBC-MAE-5005D-08_VS,Power Cable B,Vibration Switch- MAE-5005D-08/VS,0%
+120-05,EL,EBC-MAE-5005D-08_VS,Power Cable B,Vibration Switch- MAE-5005D-08/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005D-09,Power Cable B,Local Control Station- MAE-5005D-09,67%
-120-05,EL,EBC-MAE-5005D-09_VS,Power Cable B,Vibration Switch- MAE-5005D-09/VS,0%
+120-05,EL,EBC-MAE-5005D-09_VS,Power Cable B,Vibration Switch- MAE-5005D-09/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005D-10,Power Cable B,Local Control Station- MAE-5005D-10,67%
-120-05,EL,EBC-MAE-5005D-10_VS,Power Cable B,Vibration Switch- MAE-5005D-10/VS,0%
+120-05,EL,EBC-MAE-5005D-10_VS,Power Cable B,Vibration Switch- MAE-5005D-10/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005D-11,Power Cable B,Local Control Station- MAE-5005D-11,67%
-120-05,EL,EBC-MAE-5005D-11_VS,Power Cable B,Vibration Switch- MAE-5005D-11/VS,0%
+120-05,EL,EBC-MAE-5005D-11_VS,Power Cable B,Vibration Switch- MAE-5005D-11/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005D-12,Power Cable B,Local Control Station- MAE-5005D-12,67%
-120-05,EL,EBC-MAE-5005D-12_VS,Power Cable B,Vibration Switch- MAE-5005D-12/VS,0%
+120-05,EL,EBC-MAE-5005D-12_VS,Power Cable B,Vibration Switch- MAE-5005D-12/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005D-13,Power Cable B,Local Control Station- MAE-5005D-13,67%
-120-05,EL,EBC-MAE-5005D-13_VS,Power Cable B,Vibration Switch- MAE-5005D-13/VS,0%
+120-05,EL,EBC-MAE-5005D-13_VS,Power Cable B,Vibration Switch- MAE-5005D-13/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005D-14,Power Cable B,Local Control Station- MAE-5005D-14,67%
-120-05,EL,EBC-MAE-5005D-14_VS,Power Cable B,Vibration Switch- MAE-5005D-14/VS,0%
+120-05,EL,EBC-MAE-5005D-14_VS,Power Cable B,Vibration Switch- MAE-5005D-14/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005D-15,Power Cable B,Local Control Station- MAE-5005D-15,67%
-120-05,EL,EBC-MAE-5005D-15_VS,Power Cable B,Vibration Switch- MAE-5005D-15/VS,0%
+120-05,EL,EBC-MAE-5005D-15_VS,Power Cable B,Vibration Switch- MAE-5005D-15/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005D-16,Power Cable B,Local Control Station- MAE-5005D-16,67%
-120-05,EL,EBC-MAE-5005D-16_VS,Power Cable B,Vibration Switch- MAE-5005D-16/VS,0%
+120-05,EL,EBC-MAE-5005D-16_VS,Power Cable B,Vibration Switch- MAE-5005D-16/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005D-17,Power Cable B,Local Control Station- MAE-5005D-17,67%
-120-05,EL,EBC-MAE-5005D-17_VS,Power Cable B,Vibration Switch- MAE-5005D-17/VS,0%
+120-05,EL,EBC-MAE-5005D-17_VS,Power Cable B,Vibration Switch- MAE-5005D-17/VS,EXCEPTION_tmp
 120-05,EL,EBC-MAE-5005D-18,Power Cable B,Local Control Station- MAE-5005D-18,67%
-120-05,EL,EBC-MAE-5005D-18_VS,Power Cable B,Vibration Switch- MAE-5005D-18/VS,0%
+120-05,EL,EBC-MAE-5005D-18_VS,Power Cable B,Vibration Switch- MAE-5005D-18/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5006-01,Power Cable B,Local Control Station- MAE-5006-01,67%
-120-04,EL,EBC-MAE-5006-01_VS,Power Cable B,Vibration Switch- MAE-5006-01/VS,0%
+120-04,EL,EBC-MAE-5006-01_VS,Power Cable B,Vibration Switch- MAE-5006-01/VS,EXCEPTION_tmp
 120-04,EL,EBC-MAE-5006-02,Power Cable B,Local Control Station- MAE-5006-02,67%
-120-04,EL,EBC-MAE-5006-02_VS,Power Cable B,Vibration Switch- MAE-5006-02/VS,0%
-120-03,EL,EBC-MB-8001A,Power Cable B,Local Control Station- MB-8001A,67%
-120-03,EL,EBC-MB-8001B,Power Cable B,Local Control Station- MB-8001B,33%
+120-04,EL,EBC-MAE-5006-02_VS,Power Cable B,Vibration Switch- MAE-5006-02/VS,EXCEPTION_tmp
+120-03,EL,EBC-MB-8001A,Power Cable B,Local Control Station- MB-8001A,EXCEPTION_tmp
+120-03,EL,EBC-MB-8001B,Power Cable B,Local Control Station- MB-8001B,EXCEPTION_tmp
 120-03,EL,EBC-MF-8001A,Power Cable B,Local Control Station- MF-8001A,67%
-120-03,EL,EBC-MF-8001A_VS,Power Cable B,Vibration Switch- MF-8001A/VS,0%
+120-03,EL,EBC-MF-8001A_VS,Power Cable B,Vibration Switch- MF-8001A/VS,EXCEPTION_tmp
 120-03,EL,EBC-MF-8001B,Power Cable B,Local Control Station- MF-8001B,67%
-120-03,EL,EBC-MF-8001B_VS,Power Cable B,Vibration Switch- MF-8001B/VS,0%
+120-03,EL,EBC-MF-8001B_VS,Power Cable B,Vibration Switch- MF-8001B/VS,EXCEPTION_tmp
 120-03,EL,EBC-MF-8001C,Power Cable B,Local Control Station- MF-8001C,67%
-120-03,EL,EBC-MF-8001C_VS,Power Cable B,Vibration Switch- MF-8001C/VS,0%
+120-03,EL,EBC-MF-8001C_VS,Power Cable B,Vibration Switch- MF-8001C/VS,EXCEPTION_tmp
 120-03,EL,EBC-MF-8001D,Power Cable B,Local Control Station- MF-8001D,67%
-120-03,EL,EBC-MF-8001D_VS,Power Cable B,Vibration Switch- MF-8001D/VS,0%
+120-03,EL,EBC-MF-8001D_VS,Power Cable B,Vibration Switch- MF-8001D/VS,EXCEPTION_tmp
 120-02,EL,EBC-MP-0001A,Power Cable B,Local Control Station- MP-0001A,67%
 120-02,EL,EBC-MP-0001B,Power Cable B,Local Control Station- MP-0001B,67%
 120-02,EL,EBC-MP-2001A,Power Cable B,Local Control Station- MP-2001A,67%
@@ -10201,8 +10201,8 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-02,EL,EBC-MP-2003A,Power Cable B,Local Control Station- MP-2003A,67%
 120-02,EL,EBC-MP-2003B,Power Cable B,Local Control Station- MP-2003B,67%
 120-07,EL,EBC-MP-3001,Power Cable B,Local Control Station- MP-3001,33%
-120-02,EL,EBC-MP-3011A,Power Cable B,Compressor Local Control Panel (Ammeter for MP-3011A),33%
-120-02,EL,EBC-MP-3011B,Power Cable B,Compressor Local Control Panel (Ammeter for MP-3011B),33%
+120-02,EL,EBC-MP-3011A,Power Cable B,Compressor Local Control Panel (Ammeter for MP-3011A),EXCEPTION_tmp
+120-02,EL,EBC-MP-3011B,Power Cable B,Compressor Local Control Panel (Ammeter for MP-3011B),EXCEPTION_tmp
 120-02,EL,EBC-MP-3012A,Power Cable B,Compressor Local Control Panel (Ammeter for MP-3012A),67%
 120-02,EL,EBC-MP-3012B,Power Cable B,Compressor Local Control Panel (Ammeter for MP-3012B),67%
 120-07,EL,EBC-MP-3013,Power Cable B,Compressor Local Control Panel (Ammeter for MP-3013),33%
@@ -10224,8 +10224,8 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-02,EL,EBC-MP-5011B,Power Cable B,Local Control Station- MP-5011B,67%
 120-07,EL,EBC-MP-5012A,Power Cable B,Local Control Station- MP-5012A,33%
 120-07,EL,EBC-MP-5012B,Power Cable B,Local Control Station- MP-5012B,33%
-120-02,EL,EBC-MP-5070A,Power Cable B,Local Control Station- MP-5070A,33%
-120-02,EL,EBC-MP-5070B,Power Cable B,Local Control Station- MP-5070B,33%
+120-02,EL,EBC-MP-5070A,Power Cable B,Local Control Station- MP-5070A,EXCEPTION_tmp
+120-02,EL,EBC-MP-5070B,Power Cable B,Local Control Station- MP-5070B,EXCEPTION_tmp
 120-02,EL,EBC-MP-6001A,Power Cable B,Local Control Station- MP-6001A,67%
 120-02,EL,EBC-MP-6001B,Power Cable B,Local Control Station- MP-6001B,67%
 120-02,EL,EBC-MP-7002A,Power Cable B,Local Control Station- MP-7002A,67%
@@ -10234,14 +10234,14 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-02,EL,EBC-MP-7003B,Power Cable B,Local Control Station- MP-7003B,67%
 120-02,EL,EBC-MP-7004A,Power Cable B,Local Control Station- MP-7004A,67%
 120-02,EL,EBC-MP-7004B,Power Cable B,Local Control Station- MP-7004B,67%
-120-02,EL,EBC-MP-7051A,Power Cable B,Local Control Station- MP-7051A,33%
-120-02,EL,EBC-MP-7051B,Power Cable B,Local Control Station- MP-7051B,33%
-120-02,EL,EBC-MP-7052A,Power Cable B,Local Control Station- MP-7052A,33%
-120-02,EL,EBC-MP-7052B,Power Cable B,Local Control Station- MP-7052B,33%
-120-02,EL,EBC-MP-7060A,Power Cable B,Local Control Station- MP-7060A,33%
-120-02,EL,EBC-MP-7060B,Power Cable B,Local Control Station- MP-7060B,33%
-120-02,EL,EBC-MP-7070A,Power Cable B,Local Control Station- MP-7070A,33%
-120-02,EL,EBC-MP-7070B,Power Cable B,Local Control Station- MP-7070B,33%
+120-02,EL,EBC-MP-7051A,Power Cable B,Local Control Station- MP-7051A,EXCEPTION_tmp
+120-02,EL,EBC-MP-7051B,Power Cable B,Local Control Station- MP-7051B,EXCEPTION_tmp
+120-02,EL,EBC-MP-7052A,Power Cable B,Local Control Station- MP-7052A,EXCEPTION_tmp
+120-02,EL,EBC-MP-7052B,Power Cable B,Local Control Station- MP-7052B,EXCEPTION_tmp
+120-02,EL,EBC-MP-7060A,Power Cable B,Local Control Station- MP-7060A,EXCEPTION_tmp
+120-02,EL,EBC-MP-7060B,Power Cable B,Local Control Station- MP-7060B,EXCEPTION_tmp
+120-02,EL,EBC-MP-7070A,Power Cable B,Local Control Station- MP-7070A,EXCEPTION_tmp
+120-02,EL,EBC-MP-7070B,Power Cable B,Local Control Station- MP-7070B,EXCEPTION_tmp
 120-07,EL,EBC-MP-7101A,Power Cable B,Local Control Station- MP-7101A,33%
 120-07,EL,EBC-MP-7101B,Power Cable B,Local Control Station- MP-7101B,33%
 120-03,EL,EBC-MP-7502A,Power Cable B,Local Control Station- MP-7502A,67%
@@ -10258,11 +10258,11 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-03,EL,EBC-MP-8403B,Power Cable B,Local Control Station- MP-8403B,67%
 120-03,EL,EBC-MP-8404A,Power Cable B,Local Control Station- MP-8404A,67%
 120-03,EL,EBC-MP-8404B,Power Cable B,Local Control Station- MP-8404B,67%
-120-03,EL,EBC-MP-8405A,Power Cable B,Local Control Station- MP-8405A,33%
-120-03,EL,EBC-MP-8405B,Power Cable B,Local Control Station- MP-8405B,33%
-120-02,EL,EBC-MX-7050,Power Cable B,Local Control Station- MX-7050,33%
-120-02,EL,EBC-MX-7060,Power Cable B,Local Control Station- MX-7060,33%
-120-02,EL,EBC-MX-7070,Power Cable B,Local Control Station- MX-7070,33%
+120-03,EL,EBC-MP-8405A,Power Cable B,Local Control Station- MP-8405A,EXCEPTION_tmp
+120-03,EL,EBC-MP-8405B,Power Cable B,Local Control Station- MP-8405B,EXCEPTION_tmp
+120-02,EL,EBC-MX-7050,Power Cable B,Local Control Station- MX-7050,EXCEPTION_tmp
+120-02,EL,EBC-MX-7060,Power Cable B,Local Control Station- MX-7060,EXCEPTION_tmp
+120-02,EL,EBC-MX-7070,Power Cable B,Local Control Station- MX-7070,EXCEPTION_tmp
 120-02,EL,EBC-P7001C-HE-1,Power Cable B,Heater Safety Thermostat for P7001C-HE-1,67%
 120-02,EL,EBC-P7001C-HE-2,Power Cable B,Heater Safety Thermostat for P7001C-HE-2,67%
 120-02,EL,EBC-P7001C-MF-1,Power Cable B,Local Control Station- P7001C-MF-1,67%
@@ -10276,29 +10276,29 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-03,EL,EBC-PK7502-MP-2B,Power Cable B,Local Control Station- PK7502-MP-2B,67%
 120-03,EL,EBC-PK7502-MP-3A,Power Cable B,Local Control Station- PK7502-MP-3A,67%
 120-03,EL,EBC-PK7502-MP-3B,Power Cable B,Local Control Station- PK7502-MP-3B,67%
-120-03,EL,EBC-PK8002-MP-1A,Power Cable B,Local Control Station- PK8002-MP-1A,67%
-120-03,EL,EBC-PK8002-MP-1B,Power Cable B,Local Control Station- PK8002-MP-1B,67%
-120-03,EL,EBC-PK8002-MX-1,Power Cable B,Local Control Station- PK8002-MX-1,67%
-120-03,EL,EBC-PK8003-MP-1A,Power Cable B,Local Control Station- PK8003-MP-1A,67%
-120-03,EL,EBC-PK8003-MP-1B,Power Cable B,Local Control Station- PK8003-MP-1B,67%
-120-03,EL,EBC-PK8003-MX-1,Power Cable B,Local Control Station- PK8003-MX-1,67%
+120-03,EL,EBC-PK8002-MP-1A,Power Cable B,Local Control Station- PK8002-MP-1A,EXCEPTION_tmp
+120-03,EL,EBC-PK8002-MP-1B,Power Cable B,Local Control Station- PK8002-MP-1B,EXCEPTION_tmp
+120-03,EL,EBC-PK8002-MX-1,Power Cable B,Local Control Station- PK8002-MX-1,EXCEPTION_tmp
+120-03,EL,EBC-PK8003-MP-1A,Power Cable B,Local Control Station- PK8003-MP-1A,EXCEPTION_tmp
+120-03,EL,EBC-PK8003-MP-1B,Power Cable B,Local Control Station- PK8003-MP-1B,EXCEPTION_tmp
+120-03,EL,EBC-PK8003-MX-1,Power Cable B,Local Control Station- PK8003-MX-1,EXCEPTION_tmp
 120-03,EL,EBC-PK8004-MP-1A,Power Cable B,Local Control Station- PK8004-MP-1A,Done
-120-03,EL,EBC-PK8004-MP-1B,Power Cable B,Local Control Station- PK8004-MP-1B,67%
-120-03,EL,EBC-PK8004-MX-1,Power Cable B,Local Control Station- PK8004-MX-1,67%
-120-03,EL,EBC-PK8005-MP-1A,Power Cable B,Local Control Station- PK8005-MP-1A,67%
-120-03,EL,EBC-PK8005-MP-1B,Power Cable B,Local Control Station- PK8005-MP-1B,67%
-120-03,EL,EBC-PK8401-MP-1A,Power Cable B,Local Control Station- PK8401-MP-1A,67%
-120-03,EL,EBC-PK8401-MP-1A-PTC,Power Cable B,Oily Sludge transfer pump PK8401-MP-1A- Intermediate JB,33%
-120-03,EL,EBC-PK8401-MP-1B,Power Cable B,Local Control Station- PK8401-MP-1B,67%
-120-03,EL,EBC-PK8401-MP-1B-PTC,Power Cable B,Oily Sludge Transfer Pump PK8401-MP-1B- Intermediate JB,33%
+120-03,EL,EBC-PK8004-MP-1B,Power Cable B,Local Control Station- PK8004-MP-1B,EXCEPTION_tmp
+120-03,EL,EBC-PK8004-MX-1,Power Cable B,Local Control Station- PK8004-MX-1,EXCEPTION_tmp
+120-03,EL,EBC-PK8005-MP-1A,Power Cable B,Local Control Station- PK8005-MP-1A,EXCEPTION_tmp
+120-03,EL,EBC-PK8005-MP-1B,Power Cable B,Local Control Station- PK8005-MP-1B,EXCEPTION_tmp
+120-03,EL,EBC-PK8401-MP-1A,Power Cable B,Local Control Station- PK8401-MP-1A,EXCEPTION_tmp
+120-03,EL,EBC-PK8401-MP-1A-PTC,Power Cable B,Oily Sludge transfer pump PK8401-MP-1A- Intermediate JB,EXCEPTION_tmp
+120-03,EL,EBC-PK8401-MP-1B,Power Cable B,Local Control Station- PK8401-MP-1B,EXCEPTION_tmp
+120-03,EL,EBC-PK8401-MP-1B-PTC,Power Cable B,Oily Sludge Transfer Pump PK8401-MP-1B- Intermediate JB,EXCEPTION_tmp
 120-03,EL,EBC-PK8401-MP-2A,Power Cable B,Local Control Station- PK8401-MP-2A,67%
 120-03,EL,EBC-PK8401-MP-2B,Power Cable B,Local Control Station- PK8401-MP-2B,67%
 LS-02,EL,EBC-SS-EMLP-01,Power Cable B,Main Emergency Lighting Panel- SS-EMLP-01,0%
 LS-01,EL,EBC-SS-MLP-01,Power Cable B,Main Normal Lighting Panel- SS-MLP-01,0%
 LS-01,EL,EBC-SS-PC-01,Power Cable B,Photocell Relay Box- SS-PRB-01,0%
 120-07,EL,EBC-SS-TR3-02-PTC,Power Cable B,Temperature Protection Device for SS-TR3-02,0%
-120-03,EL,EBC-SS-TR3A-01-PTC,Power Cable B,Temperature Protection Device for SS-TR3A-01,0%
-120-03,EL,EBC-SS-TR3B-01-PTC,Power Cable B,Temperature Protection Device for SS-TR3B-01,0%
+120-03,EL,EBC-SS-TR3A-01-PTC,Power Cable B,Temperature Protection Device for SS-TR3A-01,EXCEPTION_tmp
+120-03,EL,EBC-SS-TR3B-01-PTC,Power Cable B,Temperature Protection Device for SS-TR3B-01,EXCEPTION_tmp
 120-11,EL,EBC-SS-UPS-01,Power Cable B, 230V AC Safety Lighting UPS- SS-UPS-01,0%
 LS-06,EL,EBL-00-SLP-01-1,Power Cable B,Street Lighting poles (SL1 to SL12) ,0%
 LS-06,EL,EBL-00-SLP-01-2,Power Cable B,Street Lighting poles (SL24 to SL34) ,0%
@@ -10437,10 +10437,10 @@ LS-02,EL,EBP-00-ELP-01,Power Cable B,Area Emergency Lighting Panel No. 1- 00-ELP
 LS-02,EL,EBP-00-ELP-02,Power Cable B,Area Emergency Lighting Panel No. 2- 00-ELP-02,33%
 LS-02,EL,EBP-00-ELP-03,Power Cable B,Area Emergency Lighting Panel No. 3- 00-ELP-03,33%
 LS-02,EL,EBP-00-ELP-04,Power Cable B,Area Emergency Lighting Panel No. 4- 00-ELP-04,33%
-120-03,EL,EBP-00-HTP-01,Power Cable B,Electrical Heat Tracing Control Panel- 00-HP-01,33%
-120-03,EL,EBP-00-HTP-02_1,Power Cable B,Electrical Heat Tracing Control Panel No.2- 00-HTP-02,33%
-120-03,EL,EBP-00-HTP-02_2,Power Cable B,Electrical Heat Tracing Control Panel No.2- 00-HTP-02,33%
-120-03,EL,EBP-00-HTP-03,Power Cable B,Electrical Heat Tracing Control Panel No.3- 00-HTP-03,33%
+120-03,EL,EBP-00-HTP-01,Power Cable B,Electrical Heat Tracing Control Panel- 00-HP-01,EXCEPTION_tmp
+120-03,EL,EBP-00-HTP-02_1,Power Cable B,Electrical Heat Tracing Control Panel No.2- 00-HTP-02,EXCEPTION_tmp
+120-03,EL,EBP-00-HTP-02_2,Power Cable B,Electrical Heat Tracing Control Panel No.2- 00-HTP-02,EXCEPTION_tmp
+120-03,EL,EBP-00-HTP-03,Power Cable B,Electrical Heat Tracing Control Panel No.3- 00-HTP-03,EXCEPTION_tmp
 LS-01,EL,EBP-00-LP-01,Power Cable B,Area Normal Lighting Panel No. 1- 00-LP-01,0%
 LS-01,EL,EBP-00-LP-02,Power Cable B,Area Normal Lighting Panel No. 2- 00-LP-02,33%
 LS-01,EL,EBP-00-LP-03,Power Cable B,Area Normal Lighting Panel No. 3- 00-LP-03,33%
@@ -10477,18 +10477,18 @@ LS-01,EL,EBP-00-SLP-01,Power Cable B,Plant Street Lighting Panel- 00-SLP-01,0%
 120-03,EL,EBP-00-WO5-03,Power Cable B,Welding Socket Outlet- 00-WO5-03,67%
 TEL-01,EL,EBP-AD-PABX(CH)-01,Comminucation Cable,Telephone System Battery Charger (In Owner's Administration Building)- AD-PABX(CH)-01,0%
 LS-02,EL,EBP-AH-EDP-01,Power Cable B,Analyzer House Distribution Panel- AH-EDP-01,33%
-120-03,EL,EBP-AH-HDP-01,Power Cable B,Analyzer House HVAC Panel- AH-HDP-01,33%
+120-03,EL,EBP-AH-HDP-01,Power Cable B,Analyzer House HVAC Panel- AH-HDP-01,EXCEPTION_tmp
 120-02,EL,EBP-C2001-HE-1,Power Cable B,Lube Oil Heater No.1 for C2001- C2001-HE-1,Done
-120-02,EL,EBP-C2001-MF-1,Power Cable B,Noise Hood Cooling Fan No.1 for C2001 - C2001-MF-1,33%
-120-02,EL,EBP-C2001-MF-2,Power Cable B,Noise Hood Cooling Fan No.2 for C2001 - C2001-MF-2,33%
+120-02,EL,EBP-C2001-MF-1,Power Cable B,Noise Hood Cooling Fan No.1 for C2001 - C2001-MF-1,EXCEPTION_tmp
+120-02,EL,EBP-C2001-MF-2,Power Cable B,Noise Hood Cooling Fan No.2 for C2001 - C2001-MF-2,EXCEPTION_tmp
 120-02,EL,EBP-C2001-MP-1B,Power Cable B,Auxiliary Lube Oil Pump for C2001- C2001-MP-1B,67%
 120-02,EL,EBP-C2002-HE-1,Power Cable B,Lube Oil Heater No.1 for C2002- C2002-HE-1,67%
 120-02,EL,EBP-C2002-HE-2,Power Cable B,Lube Oil Heater No.2 for C2002- C2002-HE-2,67%
 120-02,EL,EBP-C2002-MP-1B,Power Cable B,Auxiliary Lube Oil Pump for C2002- C2002-MP-1B,67%
-120-03,EL,EBP-CN2002-PSB,Power Cable B,Overhead Monorail Crane for E2022/2023- CN2002-PSB,0%
-120-03,EL,EBP-CN2003_1-PSB,Power Cable B,Overhead Monorail Crane No.1 for E2027- CN2003/1-PSB,33%
-120-03,EL,EBP-CN2003_2-PSB,Power Cable B,Overhead Monorail Crane No.2 for E2027- CN2003/2-PSB,33%
-120-03,EL,EBP-CN3001-PSB,Power Cable B,Overhead Crane for C3001/3002- CN3001-PSB,0%
+120-03,EL,EBP-CN2002-PSB,Power Cable B,Overhead Monorail Crane for E2022/2023- CN2002-PSB,EXCEPTION_tmp
+120-03,EL,EBP-CN2003_1-PSB,Power Cable B,Overhead Monorail Crane No.1 for E2027- CN2003/1-PSB,EXCEPTION_tmp
+120-03,EL,EBP-CN2003_2-PSB,Power Cable B,Overhead Monorail Crane No.2 for E2027- CN2003/2-PSB,EXCEPTION_tmp
+120-03,EL,EBP-CN3001-PSB,Power Cable B,Overhead Crane for C3001/3002- CN3001-PSB,EXCEPTION_tmp
 120-07,EL,EBP-CR-CEC(CH)-01,Power Cable B,Paging & Intercom System- CR-CEC(CH)-01,33%
 120-07,EL,EBP-CR-CEC(CH)-01_AS,Power Cable B,RBS- CCTV & CEC Panels (Auxiliary Supply),0%
 120-07,EL,EBP-CR-EDP-01,Power Cable B,Control Building Emergency Distribution Panel- CR-EDP-01,67%
@@ -10498,7 +10498,7 @@ LS-02,EL,EBP-CR-ELP-01,Power Cable B,Control Room Emergency Lighting Panel- CR-E
 120-07,EL,EBP-CR-HDP-01_1,Power Cable B,Control Building Emergency HVAC Panel- CR-HDP-01,33%
 120-07,EL,EBP-CR-HDP-01_2,Power Cable B,Control Building Emergency HVAC Panel- CR-HDP-01,33%
 120-07,EL,EBP-CR-HDP-01_3,Power Cable B,Control Building Emergency HVAC Panel- CR-HDP-01,33%
-120-03,EL,EBP-CR-HDP-02,Power Cable B,Control Building Normal HVAC Panel- CR-HDP-02,33%
+120-03,EL,EBP-CR-HDP-02,Power Cable B,Control Building Normal HVAC Panel- CR-HDP-02,EXCEPTION_tmp
 LS-01,EL,EBP-CR-LP-01,Power Cable B,Control Room Normal Lighting & Socket Outlet Panel- CR-LP-01,33%
 120-07,EL,EBP-CR-SIP-01,Power Cable B,Fire & Gas Detection System Siren Panel- CR-SIP-01,33%
 120-09,EL,EBP-CR-UBT-01-_1,Power Cable B,110V AC UPS Battery Set- CR-UBT-01 (-),Done
@@ -10565,11 +10565,11 @@ LS-01,EL,EBP-CR-LP-01,Power Cable B,Control Room Normal Lighting & Socket Outlet
 120-02,EL,EBP-H-3012,Power Cable B,Lube Oil Heater- H-3012,Done
 120-02,EL,EBP-H-3013,Power Cable B,Seal Gas Heater- H-3013,33%
 120-02,EL,EBP-H-3013-TCP,Power Cable B,Seal Gas Heater Thristor Control Panel- H-3013-TCP,0%
-120-03,EL,EBP-LAB-DP-01,Power Cable B,Laboratory  Distribution Panel- LAB-DP-01,33%
+120-03,EL,EBP-LAB-DP-01,Power Cable B,Laboratory  Distribution Panel- LAB-DP-01,EXCEPTION_tmp
 LS-02,EL,EBP-LAB-ELP-01,Power Cable B,Laboratory Emergency Lighting Panel- LAB-ELP-01,0%
 120-07,EL,EBP-LAB-FACP-01,Power Cable B,Laboratory & Yard Office Fire Alarm Control Panel- LAB-FACP-01 (Auxiliary Supply),33%
-120-03,EL,EBP-LAB-HDP-01_1,Power Cable B,Laboratory HVAC Panel- LAB-HDP-01,33%
-120-03,EL,EBP-LAB-HDP-01_2,Power Cable B,Laboratory HVAC Panel- LAB-HDP-01,33%
+120-03,EL,EBP-LAB-HDP-01_1,Power Cable B,Laboratory HVAC Panel- LAB-HDP-01,EXCEPTION_tmp
+120-03,EL,EBP-LAB-HDP-01_2,Power Cable B,Laboratory HVAC Panel- LAB-HDP-01,EXCEPTION_tmp
 LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet Panel- LAB-LP-01,33%
 120-07,EL,EBP-LP-FL7101-01,Power Cable B,Dena Flare Control Panel- LP-FL7101-01,0%
 120-05,EL,EBP-MAE-2026-01,Power Cable B,Air Cooler Fan- MAE-2026-01,67%
@@ -10580,46 +10580,46 @@ LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet 
 120-05,EL,EBP-MAE-2026-06,Power Cable B,Air Cooler Fan- MAE-2026-06,67%
 120-05,EL,EBP-MAE-2026-07,Power Cable B,Air Cooler Fan- MAE-2026-07,67%
 120-05,EL,EBP-MAE-2026-08,Power Cable B,Air Cooler Fan- MAE-2026-08,67%
-120-06,EL,EBP-MAE-2026-09,Power Cable B,Air Cooler Fan- MAE-2026-09,67%
-120-06,EL,EBP-MAE-2026-10,Power Cable B,Air Cooler Fan- MAE-2026-10,67%
-120-06,EL,EBP-MAE-2026-11,Power Cable B,Air Cooler Fan- MAE-2026-11,67%
-120-06,EL,EBP-MAE-2026-12,Power Cable B,Air Cooler Fan- MAE-2026-12,67%
-120-06,EL,EBP-MAE-3002_1-01,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-01,67%
-120-06,EL,EBP-MAE-3002_1-02,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-02,67%
-120-06,EL,EBP-MAE-3002_1-03,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-03,67%
-120-06,EL,EBP-MAE-3002_1-04,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-04,67%
-120-06,EL,EBP-MAE-3002_1-05,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-05,67%
-120-06,EL,EBP-MAE-3002_1-06,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-06,67%
-120-06,EL,EBP-MAE-3002_1-07,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-07,67%
-120-06,EL,EBP-MAE-3002_1-08,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-08,67%
-120-06,EL,EBP-MAE-3002_2-01,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-01,67%
-120-06,EL,EBP-MAE-3002_2-02,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-02,67%
-120-06,EL,EBP-MAE-3002_2-03,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-03,67%
-120-06,EL,EBP-MAE-3002_2-04,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-04,67%
-120-06,EL,EBP-MAE-3002_2-05,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-05,67%
-120-06,EL,EBP-MAE-3002_2-06,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-06,67%
-120-06,EL,EBP-MAE-3002_2-07,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-07,67%
-120-06,EL,EBP-MAE-3002_2-08,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-08,67%
-120-06,EL,EBP-MAE-3002_3-01,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-01,67%
-120-06,EL,EBP-MAE-3002_3-02,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-02,67%
-120-06,EL,EBP-MAE-3002_3-03,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-03,67%
-120-06,EL,EBP-MAE-3002_3-04,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-04,67%
-120-06,EL,EBP-MAE-3002_3-05,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-05,67%
-120-06,EL,EBP-MAE-3002_3-06,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-06,67%
-120-06,EL,EBP-MAE-3002_3-07,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-07,67%
-120-06,EL,EBP-MAE-3002_3-08,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-08,67%
-120-06,EL,EBP-MAE-5004-01,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-01,67%
-120-06,EL,EBP-MAE-5004-02,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-02,67%
-120-06,EL,EBP-MAE-5004-03,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-03,67%
-120-06,EL,EBP-MAE-5004-04,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-04,67%
-120-06,EL,EBP-MAE-5004-05,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-05,67%
-120-06,EL,EBP-MAE-5004-06,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-06,67%
-120-06,EL,EBP-MAE-5004-07,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-07,67%
-120-06,EL,EBP-MAE-5004-08,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-08,67%
-120-06,EL,EBP-MAE-5004-09,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-09,67%
-120-06,EL,EBP-MAE-5004-10,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-10,67%
-120-06,EL,EBP-MAE-5004-11,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-11,67%
-120-06,EL,EBP-MAE-5004-12,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-12,67%
+120-06,EL,EBP-MAE-2026-09,Power Cable B,Air Cooler Fan- MAE-2026-09,EXCEPTION_tmp
+120-06,EL,EBP-MAE-2026-10,Power Cable B,Air Cooler Fan- MAE-2026-10,EXCEPTION_tmp
+120-06,EL,EBP-MAE-2026-11,Power Cable B,Air Cooler Fan- MAE-2026-11,EXCEPTION_tmp
+120-06,EL,EBP-MAE-2026-12,Power Cable B,Air Cooler Fan- MAE-2026-12,EXCEPTION_tmp
+120-06,EL,EBP-MAE-3002_1-01,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-01,EXCEPTION_tmp
+120-06,EL,EBP-MAE-3002_1-02,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-02,EXCEPTION_tmp
+120-06,EL,EBP-MAE-3002_1-03,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-03,EXCEPTION_tmp
+120-06,EL,EBP-MAE-3002_1-04,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-04,EXCEPTION_tmp
+120-06,EL,EBP-MAE-3002_1-05,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-05,EXCEPTION_tmp
+120-06,EL,EBP-MAE-3002_1-06,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-06,EXCEPTION_tmp
+120-06,EL,EBP-MAE-3002_1-07,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-07,EXCEPTION_tmp
+120-06,EL,EBP-MAE-3002_1-08,Power Cable B,Loop Air Cooler Fan- MAE-3002/1-08,EXCEPTION_tmp
+120-06,EL,EBP-MAE-3002_2-01,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-01,EXCEPTION_tmp
+120-06,EL,EBP-MAE-3002_2-02,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-02,EXCEPTION_tmp
+120-06,EL,EBP-MAE-3002_2-03,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-03,EXCEPTION_tmp
+120-06,EL,EBP-MAE-3002_2-04,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-04,EXCEPTION_tmp
+120-06,EL,EBP-MAE-3002_2-05,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-05,EXCEPTION_tmp
+120-06,EL,EBP-MAE-3002_2-06,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-06,EXCEPTION_tmp
+120-06,EL,EBP-MAE-3002_2-07,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-07,EXCEPTION_tmp
+120-06,EL,EBP-MAE-3002_2-08,Power Cable B,Loop Air Cooler Fan- MAE-3002/2-08,EXCEPTION_tmp
+120-06,EL,EBP-MAE-3002_3-01,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-01,EXCEPTION_tmp
+120-06,EL,EBP-MAE-3002_3-02,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-02,EXCEPTION_tmp
+120-06,EL,EBP-MAE-3002_3-03,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-03,EXCEPTION_tmp
+120-06,EL,EBP-MAE-3002_3-04,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-04,EXCEPTION_tmp
+120-06,EL,EBP-MAE-3002_3-05,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-05,EXCEPTION_tmp
+120-06,EL,EBP-MAE-3002_3-06,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-06,EXCEPTION_tmp
+120-06,EL,EBP-MAE-3002_3-07,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-07,EXCEPTION_tmp
+120-06,EL,EBP-MAE-3002_3-08,Power Cable B,Loop Air Cooler Fan- MAE-3002/3-08,EXCEPTION_tmp
+120-06,EL,EBP-MAE-5004-01,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-01,EXCEPTION_tmp
+120-06,EL,EBP-MAE-5004-02,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-02,EXCEPTION_tmp
+120-06,EL,EBP-MAE-5004-03,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-03,EXCEPTION_tmp
+120-06,EL,EBP-MAE-5004-04,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-04,EXCEPTION_tmp
+120-06,EL,EBP-MAE-5004-05,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-05,EXCEPTION_tmp
+120-06,EL,EBP-MAE-5004-06,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-06,EXCEPTION_tmp
+120-06,EL,EBP-MAE-5004-07,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-07,EXCEPTION_tmp
+120-06,EL,EBP-MAE-5004-08,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-08,EXCEPTION_tmp
+120-06,EL,EBP-MAE-5004-09,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-09,EXCEPTION_tmp
+120-06,EL,EBP-MAE-5004-10,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-10,EXCEPTION_tmp
+120-06,EL,EBP-MAE-5004-11,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-11,EXCEPTION_tmp
+120-06,EL,EBP-MAE-5004-12,Power Cable B,Stabilizer Column OH Condenser Fan- MAE-5004-12,EXCEPTION_tmp
 120-04,EL,EBP-MAE-5005A-01,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-01,67%
 120-04,EL,EBP-MAE-5005A-02,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-02,67%
 120-04,EL,EBP-MAE-5005A-03,Power Cable B,LP Column OH Condenser Fan- MAE-5005A-03,67%
@@ -10694,8 +10694,8 @@ LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet 
 120-05,EL,EBP-MAE-5005D-18,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-18,67%
 120-04,EL,EBP-MAE-5006-01,Power Cable B,Wash Water Air Cooler Fan- MAE-5006-01,67%
 120-04,EL,EBP-MAE-5006-02,Power Cable B,Wash Water Air Cooler Fan- MAE-5006-02,67%
-120-03,EL,EBP-MB-8001A,Power Cable B,Air Blower for Side Stream Filter Package - MB-8001A,33%
-120-03,EL,EBP-MB-8001B,Power Cable B,Air Blower for Side Stream Filter Package - MB-8001B,33%
+120-03,EL,EBP-MB-8001A,Power Cable B,Air Blower for Side Stream Filter Package - MB-8001A,EXCEPTION_tmp
+120-03,EL,EBP-MB-8001B,Power Cable B,Air Blower for Side Stream Filter Package - MB-8001B,EXCEPTION_tmp
 120-01,EL,EBP-MC-2001-SH,Power Cable B,Motor Space Heater- MC-2001-SH,Done
 NO SUBS.,EL,EBP-MC-2001-SH_1,POWER CABLE A,CABLE(NA),0%
 120-01,EL,EBP-MC-2002-SH,Power Cable B,Motor Space Heater- MC-2002-SH,Done
@@ -10786,8 +10786,8 @@ NO SUBS.,EL,EBP-MC-2001-SH_1,POWER CABLE A,CABLE(NA),0%
 120-02,EL,EBP-MP-5011B,Power Cable B,Steam Condensate Pump- MP-5011B,67%
 120-07,EL,EBP-MP-5012A,Power Cable B,Methanol Start Up Pump- MP-5012A,33%
 120-07,EL,EBP-MP-5012B,Power Cable B,Methanol Start Up Pump- MP-5012B,33%
-120-02,EL,EBP-MP-5070A,Power Cable B,NaOH Solution Dosing Pump- MP-5070A,33%
-120-02,EL,EBP-MP-5070B,Power Cable B,NaOH Solution Dosing Pump- MP-5070B,33%
+120-02,EL,EBP-MP-5070A,Power Cable B,NaOH Solution Dosing Pump- MP-5070A,EXCEPTION_tmp
+120-02,EL,EBP-MP-5070B,Power Cable B,NaOH Solution Dosing Pump- MP-5070B,EXCEPTION_tmp
 120-02,EL,EBP-MP-6001A,Power Cable B,Saturator Circulation Pump- MP-6001A,67%
 120-02,EL,EBP-MP-6001B,Power Cable B,Saturator Circulation Pump- MP-6001B,67%
 120-01,EL,EBP-MP-6002A-SH,Power Cable B,Motor Space Heater- MP-6002A-SH,67%
@@ -10807,14 +10807,14 @@ NO SUBS.,EL,EBP-MC-2001-SH_1,POWER CABLE A,CABLE(NA),0%
 120-02,EL,EBP-MP-7003B,Power Cable B,Excess Process Condensate Pump- MP-7003B,67%
 120-02,EL,EBP-MP-7004A,Power Cable B,Excess Condensate Return Pump- MP-7004A,67%
 120-02,EL,EBP-MP-7004B,Power Cable B,Excess Condensate Return Pump- MP-7004B,67%
-120-02,EL,EBP-MP-7051A,Power Cable B,Phosphate Dosing Pump- MP-7051A,33%
-120-02,EL,EBP-MP-7051B,Power Cable B,Phosphate Dosing Pump- MP-7051B,33%
-120-02,EL,EBP-MP-7052A,Power Cable B,Phosphate Dosing Pump- MP-7052A,33%
-120-02,EL,EBP-MP-7052B,Power Cable B,Phosphate Dosing Pump- MP-7052B,33%
-120-02,EL,EBP-MP-7060A,Power Cable B,Amine Dosing Pump- MP-7060A,33%
-120-02,EL,EBP-MP-7060B,Power Cable B,Amine Dosing Pump- MP-7060B,33%
-120-02,EL,EBP-MP-7070A,Power Cable B,Oxygen Scavenger Dosing Pump- MP-7070A,33%
-120-02,EL,EBP-MP-7070B,Power Cable B,Oxygen Scavenger Dosing Pump- MP-7070B,33%
+120-02,EL,EBP-MP-7051A,Power Cable B,Phosphate Dosing Pump- MP-7051A,EXCEPTION_tmp
+120-02,EL,EBP-MP-7051B,Power Cable B,Phosphate Dosing Pump- MP-7051B,EXCEPTION_tmp
+120-02,EL,EBP-MP-7052A,Power Cable B,Phosphate Dosing Pump- MP-7052A,EXCEPTION_tmp
+120-02,EL,EBP-MP-7052B,Power Cable B,Phosphate Dosing Pump- MP-7052B,EXCEPTION_tmp
+120-02,EL,EBP-MP-7060A,Power Cable B,Amine Dosing Pump- MP-7060A,EXCEPTION_tmp
+120-02,EL,EBP-MP-7060B,Power Cable B,Amine Dosing Pump- MP-7060B,EXCEPTION_tmp
+120-02,EL,EBP-MP-7070A,Power Cable B,Oxygen Scavenger Dosing Pump- MP-7070A,EXCEPTION_tmp
+120-02,EL,EBP-MP-7070B,Power Cable B,Oxygen Scavenger Dosing Pump- MP-7070B,EXCEPTION_tmp
 120-07,EL,EBP-MP-7101A,Power Cable B,Flare Knock-out Drum Pump- MP-7101A,33%
 120-07,EL,EBP-MP-7101B,Power Cable B,Flare Knock-out Drum Pump- MP-7101B,33%
 120-03,EL,EBP-MP-7502A,Power Cable B,Caustic Transfer Pump- MP-7502A,67%
@@ -10835,11 +10835,11 @@ NO SUBS.,EL,EBP-MC-2001-SH_1,POWER CABLE A,CABLE(NA),0%
 120-03,EL,EBP-MP-8403B,Power Cable B,Neutralization Basin Pump B- MP-8403B,67%
 120-03,EL,EBP-MP-8404A,Power Cable B,COC Water Transfer Pump A- MP-8404A,67%
 120-03,EL,EBP-MP-8404B,Power Cable B,COC Water Transfer Pump B- MP-8404B,67%
-120-03,EL,EBP-MP-8405A,Power Cable B,Laboratory Effluent Transfer Pump A - MP-8405A,33%
-120-03,EL,EBP-MP-8405B,Power Cable B,Laboratory Effluent Transfer Pump B - MP-8405B,33%
+120-03,EL,EBP-MP-8405A,Power Cable B,Laboratory Effluent Transfer Pump A - MP-8405A,EXCEPTION_tmp
+120-03,EL,EBP-MP-8405B,Power Cable B,Laboratory Effluent Transfer Pump B - MP-8405B,EXCEPTION_tmp
 120-07,EL,EBP-MSR-0001,Power Cable B,Fire & Gas Detection System Siren- MSR-0001,33%
-120-02,EL,EBP-MX-7050,Power Cable B,Phosphate Dosing Tank Stirrer- MX-7050,33%
-120-02,EL,EBP-MX-7060,Power Cable B,Amine Dosing Tank Stirrer- MX-7060,33%
+120-02,EL,EBP-MX-7050,Power Cable B,Phosphate Dosing Tank Stirrer- MX-7050,EXCEPTION_tmp
+120-02,EL,EBP-MX-7060,Power Cable B,Amine Dosing Tank Stirrer- MX-7060,EXCEPTION_tmp
 120-02,EL,EBP-MX-7070,Power Cable B,Oxygen Scavenger Dosing Tank Stirrer- MX-7070,33%
 120-02,EL,EBP-P7001C-HE-1,Power Cable B,Lube Oil Heater No.1 for P-7001C- P7001C-HE-1,67%
 120-02,EL,EBP-P7001C-HE-2,Power Cable B,Lube Oil Heater No.2 for P-7001C- P7001C-HE-2,67%
@@ -10854,18 +10854,18 @@ NO SUBS.,EL,EBP-MC-2001-SH_1,POWER CABLE A,CABLE(NA),0%
 120-03,EL,EBP-PK7502-MP-2B,Power Cable B,Acid Dosing Pump B- PK7502-MP-2B,67%
 120-03,EL,EBP-PK7502-MP-3A,Power Cable B,Caustic Soda Dosing Pump A- PK7502-MP-3A,67%
 120-03,EL,EBP-PK7502-MP-3B,Power Cable B,Caustic Soda Dosing Pump B- PK7502-MP-3B,67%
-120-03,EL,EBP-PK8002-MP-1A,Power Cable B,Corrosion Inhibitor Dosing Package- PK8002-MP-1A,33%
-120-03,EL,EBP-PK8002-MP-1B,Power Cable B,Corrosion Inhibitor Dosing Package- PK8002-MP-1B,33%
-120-03,EL,EBP-PK8002-MX-1,Power Cable B,Corrosion Inhibitor Dosing Tank Mixer- PK8002-MX-1,33%
-120-03,EL,EBP-PK8003-MP-1A,Power Cable B,Anti Fouling Dosing Package Pump- PK8003-MP-1A,33%
-120-03,EL,EBP-PK8003-MP-1B,Power Cable B,Anti Fouling Dosing Package Pump- PK8003-MP-1B,33%
-120-03,EL,EBP-PK8003-MX-1,Power Cable B,Anti Fouling Dosing Tank Mixer- PK8003-MX-1,33%
-120-03,EL,EBP-PK8004-MP-1A,Power Cable B,Scale Inhibitor Dosing Package Pump- PK8004-MP-1A,33%
-120-03,EL,EBP-PK8004-MP-1B,Power Cable B,Scale Inhibitor Dosing Package Pump- PK8004-MP-1B,33%
-120-03,EL,EBP-PK8004-MX-1,Power Cable B,Scale Inhibitor Dosing Tank Mixer- PK8004-MX-1,33%
-120-03,EL,EBP-PK8005-MP-1A,Power Cable B,pH Adjustment Dosing Package Pump- PK8005-MP-1A,33%
-120-03,EL,EBP-PK8005-MP-1B,Power Cable B,pH Adjustment Dosing Package Pump- PK8005-MP-1B,33%
-120-03,EL,EBP-PK8401-MP-1A,Power Cable B,Oily Sludge Transfer Pump PK8401-MP-1A- Intermediate JB,33%
+120-03,EL,EBP-PK8002-MP-1A,Power Cable B,Corrosion Inhibitor Dosing Package- PK8002-MP-1A,EXCEPTION_tmp
+120-03,EL,EBP-PK8002-MP-1B,Power Cable B,Corrosion Inhibitor Dosing Package- PK8002-MP-1B,EXCEPTION_tmp
+120-03,EL,EBP-PK8002-MX-1,Power Cable B,Corrosion Inhibitor Dosing Tank Mixer- PK8002-MX-1,EXCEPTION_tmp
+120-03,EL,EBP-PK8003-MP-1A,Power Cable B,Anti Fouling Dosing Package Pump- PK8003-MP-1A,EXCEPTION_tmp
+120-03,EL,EBP-PK8003-MP-1B,Power Cable B,Anti Fouling Dosing Package Pump- PK8003-MP-1B,EXCEPTION_tmp
+120-03,EL,EBP-PK8003-MX-1,Power Cable B,Anti Fouling Dosing Tank Mixer- PK8003-MX-1,EXCEPTION_tmp
+120-03,EL,EBP-PK8004-MP-1A,Power Cable B,Scale Inhibitor Dosing Package Pump- PK8004-MP-1A,EXCEPTION_tmp
+120-03,EL,EBP-PK8004-MP-1B,Power Cable B,Scale Inhibitor Dosing Package Pump- PK8004-MP-1B,EXCEPTION_tmp
+120-03,EL,EBP-PK8004-MX-1,Power Cable B,Scale Inhibitor Dosing Tank Mixer- PK8004-MX-1,EXCEPTION_tmp
+120-03,EL,EBP-PK8005-MP-1A,Power Cable B,pH Adjustment Dosing Package Pump- PK8005-MP-1A,EXCEPTION_tmp
+120-03,EL,EBP-PK8005-MP-1B,Power Cable B,pH Adjustment Dosing Package Pump- PK8005-MP-1B,EXCEPTION_tmp
+120-03,EL,EBP-PK8401-MP-1A,Power Cable B,Oily Sludge Transfer Pump PK8401-MP-1A- Intermediate JB,EXCEPTION_tmp
 120-03,EL,EBP-PK8401-MP-1B,Power Cable B,Oily Sludge Transfer Pump PK8401-MP-1B- Intermediate JB,33%
 120-03,EL,EBP-PK8401-MP-2A,Power Cable B,Skimmed oil transfer pump- PK8401-MP-2A,67%
 120-03,EL,EBP-PK8401-MP-2B,Power Cable B,Skimmed oil transfer pump- PK8401-MP-2B,67%
@@ -10881,8 +10881,8 @@ LS-02,EL,EBP-SS-EMLP-01,Power Cable B,Main Emergency Lighting Panel- SS-EMLP-01,
 120-07,EL,EBP-SS-ESWB3B-01_AS,Power Cable B,Emergency LV Switchboard No. 01- SS-ESWB3B-01 (Auxiliary Supply),0%
 120-07,EL,EBP-SS-FACP-01,Power Cable B,Substation Fire Alarm Control Panel- SS-FACP-01 (Auxiliary Supply),0%
 120-07,EL,EBP-SS-FECP-01,Power Cable B,Substation Fire Fighting Control Panel- SS-FECP-01 (Auxiliary Supply),0%
-120-03,EL,EBP-SS-HDP-01_1,Power Cable B,Substation HVAC Distribution Panel- SS-HDP-01,0%
-120-03,EL,EBP-SS-HDP-01_2,Power Cable B,Substation HVAC Distribution Panel- SS-HDP-01,0%
+120-03,EL,EBP-SS-HDP-01_1,Power Cable B,Substation HVAC Distribution Panel- SS-HDP-01,EXCEPTION_tmp
+120-03,EL,EBP-SS-HDP-01_2,Power Cable B,Substation HVAC Distribution Panel- SS-HDP-01,EXCEPTION_tmp
 LS-01,EL,EBP-SS-LP-01,Power Cable B,Substation Normal Lighting & Socket Outlet Panel- SS-LP-01,0%
 120-07,EL,EBP-SS-LSP-01,Power Cable B,Load Shedding Cabinet- SS-LSP-01 (Auxiliary Supply),0%
 120-07,EL,EBP-SS-MLP-01_AS,Power Cable B,Normal Main Lighting Panel- SS-MLP-01  (Auxiliary Supply),0%
@@ -10925,18 +10925,18 @@ LS-01,EL,EBP-SS-MLP-01B_3,Power Cable B,Main Normal Lighting Panel (Incomer B)- 
 120-07,EL,EBP-SS-TR2B-05_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-05 (Auxiliary Supply),0%
 120-07,EL,EBP-SS-TR2B-06_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-06 (Auxiliary Supply),0%
 120-07,EL,EBP-SS-TR3-02,Power Cable B,Main Emergency Lighting Transformer- SS-TR3-02,0%
-120-03,EL,EBP-SS-TR3A-01_1,Power Cable B,Main Normal Lighting Transformer A- SS-TR3A-01,0%
-120-03,EL,EBP-SS-TR3A-01_2,Power Cable B,Main Normal Lighting Transformer A- SS-TR3A-01,0%
-120-03,EL,EBP-SS-TR3A-01_3,Power Cable B,Main Normal Lighting Transformer A- SS-TR3A-01,0%
-120-03,EL,EBP-SS-TR3B-01_1,Power Cable B,Main Normal Lighting Transformer B- SS-TR3B-01,0%
-120-03,EL,EBP-SS-TR3B-01_2,Power Cable B,Main Normal Lighting Transformer B- SS-TR3B-01,0%
-120-03,EL,EBP-SS-TR3B-01_3,Power Cable B,Main Normal Lighting Transformer B- SS-TR3B-01,0%
+120-03,EL,EBP-SS-TR3A-01_1,Power Cable B,Main Normal Lighting Transformer A- SS-TR3A-01,EXCEPTION_tmp
+120-03,EL,EBP-SS-TR3A-01_2,Power Cable B,Main Normal Lighting Transformer A- SS-TR3A-01,EXCEPTION_tmp
+120-03,EL,EBP-SS-TR3A-01_3,Power Cable B,Main Normal Lighting Transformer A- SS-TR3A-01,EXCEPTION_tmp
+120-03,EL,EBP-SS-TR3B-01_1,Power Cable B,Main Normal Lighting Transformer B- SS-TR3B-01,EXCEPTION_tmp
+120-03,EL,EBP-SS-TR3B-01_2,Power Cable B,Main Normal Lighting Transformer B- SS-TR3B-01,EXCEPTION_tmp
+120-03,EL,EBP-SS-TR3B-01_3,Power Cable B,Main Normal Lighting Transformer B- SS-TR3B-01,EXCEPTION_tmp
 120-07,EL,EBP-SS-UPS-01,Power Cable B,230V AC Safety Lighting UPS- SS-UPS-01,0%
 120-07,EL,EBP-SS-UPS-01_AS,Power Cable B,230V AC Safety Lighting UPS- SS-UPS-01 (Auxiliary Supply),0%
 120-07,EL,EBP-SS-UPS-01_BY,Power Cable B,230V AC Safety Lighting UPS Bypass - SS-UPS-01/BY,0%
-120-03,EL,EBP-WH-DP-01,Power Cable B,Warehouse Distribution Panel- WH-DP-01,0%
+120-03,EL,EBP-WH-DP-01,Power Cable B,Warehouse Distribution Panel- WH-DP-01,EXCEPTION_tmp
 120-07,EL,EBP-WH-EDP-01,Power Cable B,Warehouse Emergency Distribution Panel- WH-EDP-01,0%
-120-03,EL,EBP-WS-DP-01,Power Cable B,Workshop Distribution Panel- WS-DP-01,0%
+120-03,EL,EBP-WS-DP-01,Power Cable B,Workshop Distribution Panel- WS-DP-01,EXCEPTION_tmp
 LS-02,EL,EBP-YO-ELP-01,Power Cable B,Yard Office Emergency Lighting Panel- YO-ELP-01,33%
 LS-01,EL,EBP-YO-LP-01,Power Cable B,Yard Office Normal Lighting & Socket Outlet Panel- YO-LP-01,33%
 120-02,EL,ECC-C2001-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
@@ -10996,46 +10996,46 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-05,EL,ECC-MAE-2026-06_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
 120-05,EL,ECC-MAE-2026-07_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
 120-05,EL,ECC-MAE-2026-08_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
-120-06,EL,ECC-MAE-2026-09_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
-120-06,EL,ECC-MAE-2026-10_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
-120-06,EL,ECC-MAE-2026-11_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
-120-06,EL,ECC-MAE-2026-12_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
-120-06,EL,ECC-MAE-3002_1-01_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-06,EL,ECC-MAE-3002_1-02_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-06,EL,ECC-MAE-3002_1-03_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-06,EL,ECC-MAE-3002_1-04_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-06,EL,ECC-MAE-3002_1-05_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-06,EL,ECC-MAE-3002_1-06_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-06,EL,ECC-MAE-3002_1-07_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-06,EL,ECC-MAE-3002_1-08_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-06,EL,ECC-MAE-3002_2-01_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-06,EL,ECC-MAE-3002_2-02_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-06,EL,ECC-MAE-3002_2-03_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-06,EL,ECC-MAE-3002_2-04_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-06,EL,ECC-MAE-3002_2-05_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-06,EL,ECC-MAE-3002_2-06_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-06,EL,ECC-MAE-3002_2-07_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-06,EL,ECC-MAE-3002_2-08_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-06,EL,ECC-MAE-3002_3-01_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-06,EL,ECC-MAE-3002_3-02_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-06,EL,ECC-MAE-3002_3-03_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-06,EL,ECC-MAE-3002_3-04_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-06,EL,ECC-MAE-3002_3-05_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-06,EL,ECC-MAE-3002_3-06_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-06,EL,ECC-MAE-3002_3-07_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-06,EL,ECC-MAE-3002_3-08_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-06,EL,ECC-MAE-5004-01_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
-120-06,EL,ECC-MAE-5004-02_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
-120-06,EL,ECC-MAE-5004-03_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
-120-06,EL,ECC-MAE-5004-04_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
-120-06,EL,ECC-MAE-5004-05_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
-120-06,EL,ECC-MAE-5004-06_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
-120-06,EL,ECC-MAE-5004-07_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
-120-06,EL,ECC-MAE-5004-08_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
-120-06,EL,ECC-MAE-5004-09_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
-120-06,EL,ECC-MAE-5004-10_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
-120-06,EL,ECC-MAE-5004-11_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
-120-06,EL,ECC-MAE-5004-12_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
+120-06,EL,ECC-MAE-2026-09_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-2026-10_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-2026-11_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-2026-12_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-3002_1-01_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-3002_1-02_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-3002_1-03_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-3002_1-04_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-3002_1-05_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-3002_1-06_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-3002_1-07_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-3002_1-08_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-3002_2-01_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-3002_2-02_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-3002_2-03_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-3002_2-04_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-3002_2-05_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-3002_2-06_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-3002_2-07_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-3002_2-08_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-3002_3-01_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-3002_3-02_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-3002_3-03_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-3002_3-04_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-3002_3-05_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-3002_3-06_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-3002_3-07_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-3002_3-08_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-5004-01_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-5004-02_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-5004-03_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-5004-04_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-5004-05_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-5004-06_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-5004-07_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-5004-08_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-5004-09_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-5004-10_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-5004-11_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
+120-06,EL,ECC-MAE-5004-12_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),EXCEPTION_tmp
 120-04,EL,ECC-MAE-5005A-01_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
 120-04,EL,ECC-MAE-5005A-02_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-04,EL,ECC-MAE-5005A-03_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
@@ -11260,13 +11260,13 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-03,EL,ECC-PK8401-MP-2B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-10,EL,ECC-SS-CIS-01,Power Cable B,110V DC Battery Isolator Box- SS-CIS-01,0%
 120-07,EL,ECC-SS-ESWB3A-01_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Feeder SS-TR2A-06,0%
-120-02,EL,ECC-SS-ESWB3A-01_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),0%
+120-02,EL,ECC-SS-ESWB3A-01_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),EXCEPTION_tmp
 120-07,EL,ECC-SS-ESWB3A-01_4,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command|Trip & Status Signals),0%
 120-07,EL,ECC-SS-ESWB3AB-01_1,Power Cable B,Emergency LV Switchboard SS-ESWB3B-01- Incomer,0%
 120-07,EL,ECC-SS-ESWB3AB-01_2_1,Power Cable B,Emergency LV Switchboard SS-ESWB3B-01- Incomer,0%
 120-07,EL,ECC-SS-ESWB3AB-01_2_2,Power Cable B,Emergency LV Switchboard SS-ESWB3B-01- Incomer,0%
 120-07,EL,ECC-SS-ESWB3B-01_1,Power Cable B,6kV Switchboard SS-SWB2B-01- Feeder SS-TR2B-06,0%
-120-02,EL,ECC-SS-ESWB3B-01_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01 (Command Signals),0%
+120-02,EL,ECC-SS-ESWB3B-01_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01 (Command Signals),EXCEPTION_tmp
 120-07,EL,ECC-SS-ESWB3B-01E_1,Power Cable B,Susbtation E/I Cabinet SS-E/I-01- FCS-MC-RIO-06R (Emergency Power Supply Available),0%
 120-07,EL,ECC-SS-ESWB3B-01E_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01 (Status Signals),0%
 120-07,EL,ECC-SS-ESWB3B-01E_3,Power Cable B,Emergency LV Switchboard SS-ESWB3A-01- Incomer,0%
@@ -11282,8 +11282,8 @@ FGS-08,EL,ECC-SS-FECP-01_4,Power Cable B,Substation Fire Fighting Control Panel 
 120-12,EL,ECC-SS-PDCS01-1_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Bus VT,33%
 120-01,EL,ECC-SS-PDCS01-1_2,Power Cable B,6kV Switchboard SS-SWB2B-01-  Bus VT,33%
 120-12,EL,ECC-SS-PDCS01-2_1,Power Cable B,LV Switchboard SS-SWB3B-05- Incomer,0%
-120-06,EL,ECC-SS-PDCS01-2_2,Power Cable B,LV Switchboard SS-SWB3A-05- Bus Coupler,0%
-120-06,EL,ECC-SS-PDCS01-2_3,Power Cable B,LV Switchboard SS-SWB3B-01- Incomer,0%
+120-06,EL,ECC-SS-PDCS01-2_2,Power Cable B,LV Switchboard SS-SWB3A-05- Bus Coupler,EXCEPTION_tmp
+120-06,EL,ECC-SS-PDCS01-2_3,Power Cable B,LV Switchboard SS-SWB3B-01- Incomer,EXCEPTION_tmp
 120-02,EL,ECC-SS-PDCS01-2_4,Power Cable B,LV Switchboard SS-SWB3A-01- Bus Coupler,Done
 120-02,EL,ECC-SS-PDCS01-2_5,Power Cable B,LV Switchboard SS-SWB3B-02- Incomer,Done
 120-03,EL,ECC-SS-PDCS01-2_6,Power Cable B,LV Switchboard SS-SWB3A-02- Bus Coupler,Done
@@ -11342,16 +11342,16 @@ FGS-08,EL,ECC-SS-FECP-01_4,Power Cable B,Substation Fire Fighting Control Panel 
 120-02,EL,ECC-SS-SWB3A-01_4,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command|Trip & Status Signals),67%
 120-03,EL,ECC-SS-SWB3A-02_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Feeder SS-TR2A-02,Done
 120-03,EL,ECC-SS-SWB3A-02_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),67%
-120-03,EL,ECC-SS-SWB3A-02_4,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command|Trip & Status Signals),0%
+120-03,EL,ECC-SS-SWB3A-02_4,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command|Trip & Status Signals),EXCEPTION_tmp
 120-04,EL,ECC-SS-SWB3A-03_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Feeder SS-TR2A-03,33%
 120-04,EL,ECC-SS-SWB3A-03_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),33%
 120-04,EL,ECC-SS-SWB3A-03_4,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command|Trip & Status Signals),67%
 120-05,EL,ECC-SS-SWB3A-04_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Feeder SS-TR2A-04,Done
 120-05,EL,ECC-SS-SWB3A-04_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),67%
 120-05,EL,ECC-SS-SWB3A-04_4,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command|Trip & Status Signals),Done
-120-06,EL,ECC-SS-SWB3A-05_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Feeder SS-TR2A-05,Done
-120-06,EL,ECC-SS-SWB3A-05_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),67%
-120-06,EL,ECC-SS-SWB3A-05_4,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command|Trip & Status Signals),0%
+120-06,EL,ECC-SS-SWB3A-05_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Feeder SS-TR2A-05,EXCEPTION_tmp
+120-06,EL,ECC-SS-SWB3A-05_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),EXCEPTION_tmp
+120-06,EL,ECC-SS-SWB3A-05_4,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command|Trip & Status Signals),EXCEPTION_tmp
 120-02,EL,ECC-SS-SWB3AB-01_1,Power Cable B,LV Switchboard SS-SWB3B-01- Incomer,67%
 120-02,EL,ECC-SS-SWB3AB-01_2_1,Power Cable B,LV Switchboard SS-SWB3B-01- Incomer,67%
 120-02,EL,ECC-SS-SWB3AB-01_2_2,Power Cable B,LV Switchboard SS-SWB3B-01- Incomer,Done
@@ -11364,9 +11364,9 @@ FGS-08,EL,ECC-SS-FECP-01_4,Power Cable B,Substation Fire Fighting Control Panel 
 120-05,EL,ECC-SS-SWB3AB-04_1,Power Cable B,LV Switchboard SS-SWB3B-04- Incomer,67%
 120-05,EL,ECC-SS-SWB3AB-04_2_1,Power Cable B,LV Switchboard SS-SWB3B-04- Incomer,67%
 120-05,EL,ECC-SS-SWB3AB-04_2_2,Power Cable B,LV Switchboard SS-SWB3B-04- Incomer,67%
-120-06,EL,ECC-SS-SWB3AB-05_1,Power Cable B,LV Switchboard SS-SWB3B-05- Incomer,33%
-120-06,EL,ECC-SS-SWB3AB-05_2_1,Power Cable B,LV Switchboard SS-SWB3B-05- Incomer,33%
-120-06,EL,ECC-SS-SWB3AB-05_2_2,Power Cable B,LV Switchboard SS-SWB3B-05- Incomer,33%
+120-06,EL,ECC-SS-SWB3AB-05_1,Power Cable B,LV Switchboard SS-SWB3B-05- Incomer,EXCEPTION_tmp
+120-06,EL,ECC-SS-SWB3AB-05_2_1,Power Cable B,LV Switchboard SS-SWB3B-05- Incomer,EXCEPTION_tmp
+120-06,EL,ECC-SS-SWB3AB-05_2_2,Power Cable B,LV Switchboard SS-SWB3B-05- Incomer,EXCEPTION_tmp
 120-02,EL,ECC-SS-SWB3B-01_1,Power Cable B,6kV Switchboard SS-SWB2B-01- Feeder SS-TR2B-01,Done
 120-02,EL,ECC-SS-SWB3B-01_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),67%
 120-03,EL,ECC-SS-SWB3B-02_1,Power Cable B,6kV Switchboard SS-SWB2B-01- Feeder SS-TR2B-02,67%
@@ -11375,8 +11375,8 @@ FGS-08,EL,ECC-SS-FECP-01_4,Power Cable B,Substation Fire Fighting Control Panel 
 120-04,EL,ECC-SS-SWB3B-03_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),33%
 120-05,EL,ECC-SS-SWB3B-04_1,Power Cable B,6kV Switchboard SS-SWB2B-01- Feeder SS-TR2B-04,Done
 120-05,EL,ECC-SS-SWB3B-04_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),67%
-120-06,EL,ECC-SS-SWB3B-05_1,Power Cable B,6kV Switchboard SS-SWB2B-01- Feeder SS-TR2B-05,Done
-120-06,EL,ECC-SS-SWB3B-05_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),67%
+120-06,EL,ECC-SS-SWB3B-05_1,Power Cable B,6kV Switchboard SS-SWB2B-01- Feeder SS-TR2B-05,EXCEPTION_tmp
+120-06,EL,ECC-SS-SWB3B-05_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),EXCEPTION_tmp
 120-11,EL,ECC-SS-UIS-01,Power Cable B,230V AC Safety Lighting UPS Battery Isolator Box- SS-UIS-01,0%
 TEL-11,EL,ECP-00-CamJB-01,Comminucation Cable,CCTV Camera Station Number 01,0%
 TEL-11,EL,ECP-00-CamJB-02,Comminucation Cable,CCTV Camera Station Number 02,0%
@@ -11740,7 +11740,7 @@ DCS-01,IN,FCIAE-2013,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAE-2014,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAE-3001,CABLE,CABLE(NA),0%
 DCS-01,IN,FCIAE-3002,CABLE,CABLE(NA),Done
-DCS-01,IN,FCIAE-5001,CABLE,CABLE(NA),0%
+DCS-01,IN,FCIAE-5001,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAE-5002,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAE-5003,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAE-6001,CABLE,CABLE(NA),Done
@@ -11768,11 +11768,11 @@ DCS-01,IN,FCIAF-2021,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAF-2501,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAF-2511,CABLE,CABLE(NA),0%
 DCS-01,IN,FCIAF-3001,CABLE,CABLE(NA),Done
-DCS-01,IN,FCIAF-3002,CABLE,CABLE(NA),0%
+DCS-01,IN,FCIAF-3002,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAF-3003,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAF-5001,CABLE,CABLE(NA),Done
-DCS-01,IN,FCIAF-5010,CABLE,CABLE(NA),0%
-DCS-01,IN,FCIAF-5093,CABLE,CABLE(NA),0%
+DCS-01,IN,FCIAF-5010,CABLE,CABLE(NA),Done
+DCS-01,IN,FCIAF-5093,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAF-5202,CABLE,CABLE(NA),0%
 DCS-01,IN,FCIAF-5211,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAF-5212,CABLE,CABLE(NA),Done
@@ -11798,9 +11798,9 @@ DCS-01,IN,FCIAF-8001,CABLE,CABLE(NA),0%
 DCS-01,IN,FCIAF-8002,CABLE,CABLE(NA),0%
 DCS-01,IN,FCIAF-8402,CABLE,CABLE(NA),50%
 DCS-01,IN,FCIAF-PK8401,CABLE,CABLE(NA),0%
-DCS-01,IN,FCIAX-25102,CABLE,CABLE(NA),50%
-DCS-01,IN,FCIAX-25103,CABLE,CABLE(NA),50%
-DCS-01,IN,FCIAX-25104,CABLE,CABLE(NA),50%
+DCS-01,IN,FCIAX-25102,CABLE,CABLE(NA),Done
+DCS-01,IN,FCIAX-25103,CABLE,CABLE(NA),Done
+DCS-01,IN,FCIAX-25104,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAX-C2002-01,CABLE,CABLE(NA),0%
 DCS-01,IN,FCIAX-C2002-02,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAX-C2002-03,CABLE,CABLE(NA),0%
@@ -11944,7 +11944,7 @@ FGS-07,IN,FCMCP-0008,CABLE,CABLE(NA),0%
 FGS-07,IN,FCMCP-0009,CABLE,CABLE(NA),0%
 FGS-07,IN,FCMCP-0024,CABLE,CABLE(NA),0%
 DCS-01,IN,FCMSR-0001,CABLE,CABLE(NA),0%
-DCS-01,IN,FCNAF-5001,CABLE,CABLE(NA),0%
+DCS-01,IN,FCNAF-5001,CABLE,CABLE(NA),Done
 DCS-01,IN,FCNAF-5002,CABLE,CABLE(NA),Done
 DCS-01,IN,FCNAF-7101,CABLE,CABLE(NA),0%
 DCS-01,IN,FCNAS-0001,CABLE,CABLE(NA),0%
@@ -11964,7 +11964,7 @@ DCS-01,IN,FCNAS-0014,CABLE,CABLE(NA),Done
 DCS-01,IN,FCNAS-0015,CABLE,CABLE(NA),0%
 DCS-01,IN,FCNAS-0016,CABLE,CABLE(NA),0%
 DCS-01,IN,FCNAX.PX-FT3001-01,CABLE,CABLE(NA),0%
-DCS-01,IN,FCNAX-25101,CABLE,CABLE(NA),50%
+DCS-01,IN,FCNAX-25101,CABLE,CABLE(NA),Done
 DCS-01,IN,FCNAX-FT2001-02.2,CABLE,CABLE(NA),0%
 DCS-01,IN,FCNAX-FT2001-02.3,CABLE,CABLE(NA),0%
 DCS-01,IN,FCNAX-FT2002-02.2,CABLE,CABLE(NA),0%
@@ -11980,7 +11980,7 @@ DCS-01,IN,FCNDF-1003,CABLE,CABLE(NA),0%
 DCS-01,IN,FCNDF-2022,CABLE,CABLE(NA),0%
 DCS-01,IN,FCNDF-2098,CABLE,CABLE(NA),0%
 DCS-01,IN,FCNDF-5001,CABLE,CABLE(NA),0%
-DCS-01,IN,FCNDF-5002,CABLE,CABLE(NA),0%
+DCS-01,IN,FCNDF-5002,CABLE,CABLE(NA),Done
 DCS-01,IN,FCNDF-70002A,CABLE,CABLE(NA),0%
 DCS-01,IN,FCNDF-70002B,CABLE,CABLE(NA),0%
 DCS-01,IN,FCNDF-7101,CABLE,CABLE(NA),Done
@@ -12024,8 +12024,8 @@ DCS-01,IN,FCNDS-PSL001,CABLE,CABLE(NA),0%
 DCS-01,IN,FCNDS-PSL002,CABLE,CABLE(NA),0%
 DCS-01,IN,FCNDS-SV001,CABLE,CABLE(NA),0%
 DCS-01,IN,FCNDS-SV002,CABLE,CABLE(NA),0%
-DCS-01,IN,FCNDX-25104,CABLE,CABLE(NA),50%
-DCS-01,IN,FCNDX-25105,CABLE,CABLE(NA),50%
+DCS-01,IN,FCNDX-25104,CABLE,CABLE(NA),Done
+DCS-01,IN,FCNDX-25105,CABLE,CABLE(NA),Done
 DCS-01,IN,FCNDX-30101,CABLE,CABLE(NA),0%
 DCS-01,IN,FCNDX-30103,CABLE,CABLE(NA),0%
 DCS-01,IN,FCNDX-30105,CABLE,CABLE(NA),0%
@@ -12972,7 +12972,7 @@ NO SUBS.,IN,FT-1007,Instrument(FT),Instrument(FT),0%
 4000-02,IN,FT-5301(NA),CABLE,CABLE(NA),0%
 5000-03,IN,FT-5321(FT),Instrument(FT),Instrument(FT),50%
 5000-03,IN,FT-5321(NA),CABLE,CABLE(NA),0%
-5000-04,IN,FT-5336(FT),Instrument(FT),Instrument(FT),0%
+5000-04,IN,FT-5336(FT),Instrument(FT),Instrument(FT),25%
 5000-04,IN,FT-5336(NA),CABLE,CABLE(NA),50%
 5000-04,IN,FT-5337(FT),Instrument(FT),Instrument(FT),25%
 5000-04,IN,FT-5337(NA),CABLE,CABLE(NA),Done
@@ -13162,7 +13162,7 @@ DCS-01,IN,FTADO16-M04R-E,CABLE,CABLE(NA),0%
 4000-06,IN,FUY-7504(NA),CABLE,CABLE(NA),0%
 4000-08,IN,FV-0002(FV),Instrument(FV),Instrument(FV),50%
 4000-08,IN,FV-0002(NA),CABLE,CABLE(NA),Done
-2000-03,IN,FV-2007(FV),Instrument(FV),Instrument(FV),0%
+2000-03,IN,FV-2007(FV),Instrument(FV),Instrument(FV),25%
 2000-03,IN,FV-2007(NA),CABLE,CABLE(NA),0%
 2000-03,IN,FV-2009(FV),Instrument(FV),Instrument(FV),0%
 2000-03,IN,FV-2009(NA),CABLE,CABLE(NA),0%
@@ -13178,11 +13178,11 @@ DCS-01,IN,FTADO16-M04R-E,CABLE,CABLE(NA),0%
 1000-01,IN,FV-2091(FV),Instrument(FV),Instrument(FV),0%
 1000-01,IN,FV-2091(NA),CABLE,CABLE(NA),0%
 2000-02,IN,FV-2111,Instrument(FV),Instrument(FV),0%
-1000-01,IN,FV-2150(FV),Instrument(FV),Instrument(FV),0%
+1000-01,IN,FV-2150(FV),Instrument(FV),Instrument(FV),25%
 1000-01,IN,FV-2150(NA),CABLE,CABLE(NA),0%
 2000-01,IN,FV-2233-1(FV),Instrument(FV),Instrument(FV),50%
 2000-01,IN,FV-2233-1(NA),CABLE,CABLE(NA),0%
-2000-01,IN,FV-2233-2(FV),Instrument(FV),Instrument(FV),25%
+2000-01,IN,FV-2233-2(FV),Instrument(FV),Instrument(FV),50%
 2000-01,IN,FV-2233-2(NA),CABLE,CABLE(NA),0%
 2000-04,IN,FV-2417(FV),Instrument(FV),Instrument(FV),50%
 2000-04,IN,FV-2417(NA),CABLE,CABLE(NA),Done
@@ -13192,7 +13192,7 @@ DCS-01,IN,FTADO16-M04R-E,CABLE,CABLE(NA),0%
 1000-02,IN,FV-2531-2(NA),CABLE,CABLE(NA),0%
 1000-02,IN,FV-2536(FV),Instrument(FV),Instrument(FV),25%
 1000-02,IN,FV-2536(NA),CABLE,CABLE(NA),0%
-NO SUBS.,IN,FV-30111,PKG,PKG,0%
+NO SUBS.,IN,FV-30111,PKG,PKG,33%
 3000-01,IN,FV-30111(FV),Instrument(FV),Instrument(FV),25%
 3000-01,IN,FV-30111(NA),CABLE,CABLE(NA),0%
 3000-01,IN,FV-30114(FV),Instrument(FV),Instrument(FV),25%
@@ -13205,11 +13205,11 @@ NO SUBS.,IN,FV-30111,PKG,PKG,0%
 3000-02,IN,FV-3041(NA),CABLE,CABLE(NA),0%
 3000-03,IN,FV-3169(FV),Instrument(FV),Instrument(FV),25%
 3000-03,IN,FV-3169(NA),CABLE,CABLE(NA),0%
-3000-03,IN,FV-3171(FV),Instrument(FV),Instrument(FV),0%
+3000-03,IN,FV-3171(FV),Instrument(FV),Instrument(FV),25%
 3000-03,IN,FV-3171(NA),CABLE,CABLE(NA),0%
 5000-01,IN,FV-5020(FV),Instrument(FV),Instrument(FV),25%
 5000-01,IN,FV-5020(NA),CABLE,CABLE(NA),50%
-5000-01,IN,FV-5041(FV),Instrument(FV),Instrument(FV),0%
+5000-01,IN,FV-5041(FV),Instrument(FV),Instrument(FV),25%
 5000-01,IN,FV-5041(NA),CABLE,CABLE(NA),50%
 5000-01,IN,FV-5093(FV),Instrument(FV),Instrument(FV),25%
 5000-01,IN,FV-5093(NA),CABLE,CABLE(NA),0%
@@ -13248,13 +13248,13 @@ NO SUBS.,IN,FV-30111,PKG,PKG,0%
 1000-03,IN,FV-6070(NA),CABLE,CABLE(NA),0%
 1000-03,IN,FV-6081(FV),Instrument(FV),Instrument(FV),25%
 1000-03,IN,FV-6081(NA),CABLE,CABLE(NA),0%
-1000-03,IN,FV-6082(FV),Instrument(FV),Instrument(FV),0%
+1000-03,IN,FV-6082(FV),Instrument(FV),Instrument(FV),25%
 1000-03,IN,FV-6082(NA),CABLE,CABLE(NA),0%
 1000-03,IN,FV-6086(FV),Instrument(FV),Instrument(FV),25%
 1000-03,IN,FV-6086(NA),CABLE,CABLE(NA),0%
 4000-06,IN,FV-7091(FV),Instrument(FV),Instrument(FV),50%
 4000-06,IN,FV-7091(NA),CABLE,CABLE(NA),Done
-4000-04,IN,FV-7141(FV),Instrument(FV),Instrument(FV),25%
+4000-04,IN,FV-7141(FV),Instrument(FV),Instrument(FV),50%
 4000-04,IN,FV-7141(NA),CABLE,CABLE(NA),Done
 4000-06,IN,FV-7503(FV),Instrument(FV),Instrument(FV),0%
 4000-06,IN,FV-7503(NA),CABLE,CABLE(NA),0%
@@ -13264,7 +13264,7 @@ NO SUBS.,IN,FV-30111,PKG,PKG,0%
 4000-06,IN,FV-75150B,Instrument(FV),Instrument(FV),0%
 4000-06,IN,FV-75151,Instrument(FV),Instrument(FV),0%
 4000-06,IN,FV-75152,Instrument(FV),Instrument(FV),0%
-4000-08,IN,FV-8003(FV),Instrument(FV),Instrument(FV),0%
+4000-08,IN,FV-8003(FV),Instrument(FV),Instrument(FV),25%
 4000-08,IN,FV-8003(NA),CABLE,CABLE(NA),DONE
 3000-03,IN,FX-3167,SIGNAL,SIGNAL,DONE
 2000-03,IN,FY-2007A,SIGNAL,SIGNAL,DONE
@@ -13626,7 +13626,7 @@ DCS-01,IN,HS-80156B,SIGNAL,SIGNAL,DONE
 2000-01,IN,HV-2097(HV),Instrument(HV),Instrument(HV),25%
 2000-01,IN,HV-2097(NA),CABLE,CABLE(NA),0%
 2000-01,IN,HV-2098,Instrument(HV),Instrument(HV),25%
-2000-02,IN,HV-2101(HV),Instrument(HV),Instrument(HV),0%
+2000-02,IN,HV-2101(HV),Instrument(HV),Instrument(HV),25%
 2000-02,IN,HV-2101(NA),CABLE,CABLE(NA),0%
 2000-02,IN,HV-2225-1(HV),Instrument(HV),Instrument(HV),0%
 2000-02,IN,HV-2225-1(NA),CABLE,CABLE(NA),0%
@@ -15140,7 +15140,7 @@ NO SUBS.,IN,LT-20151(LT),Instrument(LT),Instrument(LT),25%
 4000-08,IN,LT-8009(LT),Instrument(LT),Instrument(LT),DONE
 4000-08,IN,LT-8009(NA),CABLE,CABLE(NA),0%
 4000-08,IN,LT-80120A(LT),Instrument(LT),Instrument(LT),0%
-4000-08,IN,LT-80120A(NA),CABLE,CABLE(NA),50%
+4000-08,IN,LT-80120A(NA),CABLE,CABLE(NA),Done
 4000-08,IN,LT-80120B(LT),Instrument(LT),Instrument(LT),0%
 4000-08,IN,LT-80120B(NA),CABLE,CABLE(NA),50%
 4000-08,IN,LT-80134A,Instrument(LT),Instrument(LT),25%
@@ -15194,7 +15194,7 @@ NO SUBS.,IN,LV-30106,PKG,PKG,33%
 NO SUBS.,IN,LV-30107,PKG,PKG,33%
 3000-01,IN,LV-30107(LV),Instrument(LV),Instrument(LV),0%
 3000-01,IN,LV-30107(NA),CABLE,CABLE(NA),0%
-3000-01,IN,LV-30108(LV),Instrument(LV),Instrument(LV),0%
+3000-01,IN,LV-30108(LV),Instrument(LV),Instrument(LV),25%
 3000-01,IN,LV-30108(NA),CABLE,CABLE(NA),0%
 3000-03,IN,LV-3161A(LV),Instrument(LV),Instrument(LV),25%
 3000-03,IN,LV-3161A(NA),CABLE,CABLE(NA),0%
@@ -15206,7 +15206,7 @@ NO SUBS.,IN,LV-30107,PKG,PKG,33%
 5000-01,IN,LV-5070(NA),CABLE,CABLE(NA),0%
 1000-03,IN,LV-6021A(LV),Instrument(LV),Instrument(LV),25%
 1000-03,IN,LV-6021A(NA),CABLE,CABLE(NA),0%
-1000-03,IN,LV-6021B(LV),Instrument(LV),Instrument(LV),50%
+1000-03,IN,LV-6021B(LV),Instrument(LV),Instrument(LV),75%
 1000-03,IN,LV-6021B(NA),CABLE,CABLE(NA),Done
 1000-03,IN,LV-6051(LV),Instrument(LV),Instrument(LV),25%
 1000-03,IN,LV-6051(NA),CABLE,CABLE(NA),0%
@@ -15270,234 +15270,234 @@ NO SUBS.,IN,LV-30107,PKG,PKG,33%
 2000-05,IN,MAE-2026-07_VS,Instrument(X),Instrument(MAE),0%
 120-05,EL,MAE-2026-08,Local_Control_Station,Local Control Station- MAE-2026-08,50%
 2000-05,IN,MAE-2026-08_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-2026-09,Local_Control_Station,Local Control Station- MAE-2026-09,50%
+120-06,EL,MAE-2026-09,Local_Control_Station,Local Control Station- MAE-2026-09,EXCEPTION_tmp
 2000-05,IN,MAE-2026-09_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-2026-10,Local_Control_Station,Local Control Station- MAE-2026-10,50%
+120-06,EL,MAE-2026-10,Local_Control_Station,Local Control Station- MAE-2026-10,EXCEPTION_tmp
 2000-05,IN,MAE-2026-10_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-2026-11,Local_Control_Station,Local Control Station- MAE-2026-11,50%
+120-06,EL,MAE-2026-11,Local_Control_Station,Local Control Station- MAE-2026-11,EXCEPTION_tmp
 2000-05,IN,MAE-2026-11_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-2026-12,Local_Control_Station,Local Control Station- MAE-2026-12,50%
+120-06,EL,MAE-2026-12,Local_Control_Station,Local Control Station- MAE-2026-12,EXCEPTION_tmp
 2000-05,IN,MAE-2026-12_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-3002_1-01,Local_Control_Station,Local Control Station- MAE-3002/1-01,Done
+120-06,EL,MAE-3002_1-01,Local_Control_Station,Local Control Station- MAE-3002/1-01,EXCEPTION_tmp
 3000-03,IN,MAE-3002_1-01_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-3002_1-02,Local_Control_Station,Local Control Station- MAE-3002/1-02,Done
+120-06,EL,MAE-3002_1-02,Local_Control_Station,Local Control Station- MAE-3002/1-02,EXCEPTION_tmp
 3000-03,IN,MAE-3002_1-02_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-3002_1-03,Local_Control_Station,Local Control Station- MAE-3002/1-03,50%
+120-06,EL,MAE-3002_1-03,Local_Control_Station,Local Control Station- MAE-3002/1-03,EXCEPTION_tmp
 3000-03,IN,MAE-3002_1-03_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-3002_1-04,Local_Control_Station,Local Control Station- MAE-3002/1-04,Done
+120-06,EL,MAE-3002_1-04,Local_Control_Station,Local Control Station- MAE-3002/1-04,EXCEPTION_tmp
 3000-03,IN,MAE-3002_1-04_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-3002_1-05,Local_Control_Station,Local Control Station- MAE-3002/1-05,50%
+120-06,EL,MAE-3002_1-05,Local_Control_Station,Local Control Station- MAE-3002/1-05,EXCEPTION_tmp
 3000-03,IN,MAE-3002_1-05_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-3002_1-06,Local_Control_Station,Local Control Station- MAE-3002/1-06,Done
+120-06,EL,MAE-3002_1-06,Local_Control_Station,Local Control Station- MAE-3002/1-06,EXCEPTION_tmp
 3000-03,IN,MAE-3002_1-06_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-3002_1-07,Local_Control_Station,Local Control Station- MAE-3002/1-07,50%
+120-06,EL,MAE-3002_1-07,Local_Control_Station,Local Control Station- MAE-3002/1-07,EXCEPTION_tmp
 3000-03,IN,MAE-3002_1-07_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-3002_1-08,Local_Control_Station,Local Control Station- MAE-3002/1-08,Done
+120-06,EL,MAE-3002_1-08,Local_Control_Station,Local Control Station- MAE-3002/1-08,EXCEPTION_tmp
 3000-03,IN,MAE-3002_1-08_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-3002_2-01,Local_Control_Station,Local Control Station- MAE-3002/2-01,50%
+120-06,EL,MAE-3002_2-01,Local_Control_Station,Local Control Station- MAE-3002/2-01,EXCEPTION_tmp
 3000-03,IN,MAE-3002_2-01_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-3002_2-02,Local_Control_Station,Local Control Station- MAE-3002/2-02,50%
+120-06,EL,MAE-3002_2-02,Local_Control_Station,Local Control Station- MAE-3002/2-02,EXCEPTION_tmp
 3000-03,IN,MAE-3002_2-02_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-3002_2-03,Local_Control_Station,Local Control Station- MAE-3002/2-03,50%
+120-06,EL,MAE-3002_2-03,Local_Control_Station,Local Control Station- MAE-3002/2-03,EXCEPTION_tmp
 3000-03,IN,MAE-3002_2-03_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-3002_2-04,Local_Control_Station,Local Control Station- MAE-3002/2-04,Done
+120-06,EL,MAE-3002_2-04,Local_Control_Station,Local Control Station- MAE-3002/2-04,EXCEPTION_tmp
 3000-03,IN,MAE-3002_2-04_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-3002_2-05,Local_Control_Station,Local Control Station- MAE-3002/2-05,Done
+120-06,EL,MAE-3002_2-05,Local_Control_Station,Local Control Station- MAE-3002/2-05,EXCEPTION_tmp
 3000-03,IN,MAE-3002_2-05_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-3002_2-06,Local_Control_Station,Local Control Station- MAE-3002/2-06,50%
+120-06,EL,MAE-3002_2-06,Local_Control_Station,Local Control Station- MAE-3002/2-06,EXCEPTION_tmp
 3000-03,IN,MAE-3002_2-06_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-3002_2-07,Local_Control_Station,Local Control Station- MAE-3002/2-07,Done
+120-06,EL,MAE-3002_2-07,Local_Control_Station,Local Control Station- MAE-3002/2-07,EXCEPTION_tmp
 3000-03,IN,MAE-3002_2-07_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-3002_2-08,Local_Control_Station,Local Control Station- MAE-3002/2-08,Done
+120-06,EL,MAE-3002_2-08,Local_Control_Station,Local Control Station- MAE-3002/2-08,EXCEPTION_tmp
 3000-03,IN,MAE-3002_2-08_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-3002_3-01,Local_Control_Station,Local Control Station- MAE-3002/3-01,Done
+120-06,EL,MAE-3002_3-01,Local_Control_Station,Local Control Station- MAE-3002/3-01,EXCEPTION_tmp
 3000-03,IN,MAE-3002_3-01_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-3002_3-02,Local_Control_Station,Local Control Station- MAE-3002/3-02,50%
+120-06,EL,MAE-3002_3-02,Local_Control_Station,Local Control Station- MAE-3002/3-02,EXCEPTION_tmp
 3000-03,IN,MAE-3002_3-02_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-3002_3-03,Local_Control_Station,Local Control Station- MAE-3002/3-03,50%
+120-06,EL,MAE-3002_3-03,Local_Control_Station,Local Control Station- MAE-3002/3-03,EXCEPTION_tmp
 3000-03,IN,MAE-3002_3-03_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-3002_3-04,Local_Control_Station,Local Control Station- MAE-3002/3-04,Done
+120-06,EL,MAE-3002_3-04,Local_Control_Station,Local Control Station- MAE-3002/3-04,EXCEPTION_tmp
 3000-03,IN,MAE-3002_3-04_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-3002_3-05,Local_Control_Station,Local Control Station- MAE-3002/3-05,Done
+120-06,EL,MAE-3002_3-05,Local_Control_Station,Local Control Station- MAE-3002/3-05,EXCEPTION_tmp
 3000-03,IN,MAE-3002_3-05_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-3002_3-06,Local_Control_Station,Local Control Station- MAE-3002/3-06,Done
+120-06,EL,MAE-3002_3-06,Local_Control_Station,Local Control Station- MAE-3002/3-06,EXCEPTION_tmp
 3000-03,IN,MAE-3002_3-06_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-3002_3-07,Local_Control_Station,Local Control Station- MAE-3002/3-07,Done
+120-06,EL,MAE-3002_3-07,Local_Control_Station,Local Control Station- MAE-3002/3-07,EXCEPTION_tmp
 3000-03,IN,MAE-3002_3-07_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-3002_3-08,Local_Control_Station,Local Control Station- MAE-3002/3-08,50%
+120-06,EL,MAE-3002_3-08,Local_Control_Station,Local Control Station- MAE-3002/3-08,EXCEPTION_tmp
 3000-03,IN,MAE-3002_3-08_VS,Instrument(X),Instrument(MAE),0%
-120-06,EL,MAE-5004-01,Local_Control_Station,Local Control Station- MAE-5004-01,50%
-120-06,EL,MAE-5004-01_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5004-01/VS,0%
-120-06,EL,MAE-5004-02,Local_Control_Station,Local Control Station- MAE-5004-02,50%
-120-06,EL,MAE-5004-02_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5004-02/VS,0%
-120-06,EL,MAE-5004-03,Local_Control_Station,Local Control Station- MAE-5004-03,50%
-120-06,EL,MAE-5004-03_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5004-03/VS,0%
-120-06,EL,MAE-5004-04,Local_Control_Station,Local Control Station- MAE-5004-04,50%
-120-06,EL,MAE-5004-04_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5004-04/VS,0%
-120-06,EL,MAE-5004-05,Local_Control_Station,Local Control Station- MAE-5004-05,50%
-120-06,EL,MAE-5004-05_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5004-05/VS,0%
-120-06,EL,MAE-5004-06,Local_Control_Station,Local Control Station- MAE-5004-06,50%
-120-06,EL,MAE-5004-06_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5004-06/VS,0%
-120-06,EL,MAE-5004-07,Local_Control_Station,Local Control Station- MAE-5004-07,50%
-120-06,EL,MAE-5004-07_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5004-07/VS,0%
-120-06,EL,MAE-5004-08,Local_Control_Station,Local Control Station- MAE-5004-08,50%
-120-06,EL,MAE-5004-08_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5004-08/VS,0%
-120-06,EL,MAE-5004-09,Local_Control_Station,Local Control Station- MAE-5004-09,50%
-120-06,EL,MAE-5004-09_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5004-09/VS,0%
-120-06,EL,MAE-5004-10,Local_Control_Station,Local Control Station- MAE-5004-10,50%
-120-06,EL,MAE-5004-10_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5004-10/VS,0%
-120-06,EL,MAE-5004-11,Local_Control_Station,Local Control Station- MAE-5004-11,50%
+120-06,EL,MAE-5004-01,Local_Control_Station,Local Control Station- MAE-5004-01,EXCEPTION_tmp
+120-06,EL,MAE-5004-01_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5004-01/VS,EXCEPTION_tmp
+120-06,EL,MAE-5004-02,Local_Control_Station,Local Control Station- MAE-5004-02,EXCEPTION_tmp
+120-06,EL,MAE-5004-02_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5004-02/VS,EXCEPTION_tmp
+120-06,EL,MAE-5004-03,Local_Control_Station,Local Control Station- MAE-5004-03,EXCEPTION_tmp
+120-06,EL,MAE-5004-03_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5004-03/VS,EXCEPTION_tmp
+120-06,EL,MAE-5004-04,Local_Control_Station,Local Control Station- MAE-5004-04,EXCEPTION_tmp
+120-06,EL,MAE-5004-04_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5004-04/VS,EXCEPTION_tmp
+120-06,EL,MAE-5004-05,Local_Control_Station,Local Control Station- MAE-5004-05,EXCEPTION_tmp
+120-06,EL,MAE-5004-05_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5004-05/VS,EXCEPTION_tmp
+120-06,EL,MAE-5004-06,Local_Control_Station,Local Control Station- MAE-5004-06,EXCEPTION_tmp
+120-06,EL,MAE-5004-06_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5004-06/VS,EXCEPTION_tmp
+120-06,EL,MAE-5004-07,Local_Control_Station,Local Control Station- MAE-5004-07,EXCEPTION_tmp
+120-06,EL,MAE-5004-07_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5004-07/VS,EXCEPTION_tmp
+120-06,EL,MAE-5004-08,Local_Control_Station,Local Control Station- MAE-5004-08,EXCEPTION_tmp
+120-06,EL,MAE-5004-08_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5004-08/VS,EXCEPTION_tmp
+120-06,EL,MAE-5004-09,Local_Control_Station,Local Control Station- MAE-5004-09,EXCEPTION_tmp
+120-06,EL,MAE-5004-09_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5004-09/VS,EXCEPTION_tmp
+120-06,EL,MAE-5004-10,Local_Control_Station,Local Control Station- MAE-5004-10,EXCEPTION_tmp
+120-06,EL,MAE-5004-10_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5004-10/VS,EXCEPTION_tmp
+120-06,EL,MAE-5004-11,Local_Control_Station,Local Control Station- MAE-5004-11,EXCEPTION_tmp
 120-01,EL,MAE-5004-11_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5004-11/VS,0%
-120-06,EL,MAE-5004-12,Local_Control_Station,Local Control Station- MAE-5004-12,50%
-120-06,EL,MAE-5004-12_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5004-12/VS,0%
+120-06,EL,MAE-5004-12,Local_Control_Station,Local Control Station- MAE-5004-12,EXCEPTION_tmp
+120-06,EL,MAE-5004-12_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5004-12/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005A-01,Local_Control_Station,Local Control Station- MAE-5005A-01,50%
-120-04,EL,MAE-5005A-01_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-01/VS,0%
+120-04,EL,MAE-5005A-01_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-01/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005A-02,Local_Control_Station,Local Control Station- MAE-5005A-02,50%
-120-04,EL,MAE-5005A-02_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-02/VS,0%
+120-04,EL,MAE-5005A-02_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-02/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005A-03,Local_Control_Station,Local Control Station- MAE-5005A-03,50%
-120-04,EL,MAE-5005A-03_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-03/VS,0%
+120-04,EL,MAE-5005A-03_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-03/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005A-04,Local_Control_Station,Local Control Station- MAE-5005A-04,50%
-120-04,EL,MAE-5005A-04_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-04/VS,0%
+120-04,EL,MAE-5005A-04_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-04/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005A-05,Local_Control_Station,Local Control Station- MAE-5005A-05,50%
-120-04,EL,MAE-5005A-05_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-05/VS,0%
+120-04,EL,MAE-5005A-05_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-05/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005A-06,Local_Control_Station,Local Control Station- MAE-5005A-06,50%
-120-04,EL,MAE-5005A-06_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-06/VS,0%
+120-04,EL,MAE-5005A-06_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-06/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005A-07,Local_Control_Station,Local Control Station- MAE-5005A-07,50%
-120-04,EL,MAE-5005A-07_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-07/VS,0%
+120-04,EL,MAE-5005A-07_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-07/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005A-08,Local_Control_Station,Local Control Station- MAE-5005A-08,50%
-120-04,EL,MAE-5005A-08_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-08/VS,0%
+120-04,EL,MAE-5005A-08_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-08/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005A-09,Local_Control_Station,Local Control Station- MAE-5005A-09,50%
-120-04,EL,MAE-5005A-09_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-09/VS,0%
+120-04,EL,MAE-5005A-09_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-09/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005A-10,Local_Control_Station,Local Control Station- MAE-5005A-10,50%
-120-04,EL,MAE-5005A-10_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-10/VS,0%
+120-04,EL,MAE-5005A-10_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-10/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005A-11,Local_Control_Station,Local Control Station- MAE-5005A-11,50%
-120-04,EL,MAE-5005A-11_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-11/VS,0%
+120-04,EL,MAE-5005A-11_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-11/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005A-12,Local_Control_Station,Local Control Station- MAE-5005A-12,50%
-120-04,EL,MAE-5005A-12_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-12/VS,0%
+120-04,EL,MAE-5005A-12_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-12/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005A-13,Local_Control_Station,Local Control Station- MAE-5005A-13,50%
-120-04,EL,MAE-5005A-13_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-13/VS,0%
+120-04,EL,MAE-5005A-13_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-13/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005A-14,Local_Control_Station,Local Control Station- MAE-5005A-14,50%
-120-04,EL,MAE-5005A-14_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-14/VS,0%
+120-04,EL,MAE-5005A-14_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-14/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005A-15,Local_Control_Station,Local Control Station- MAE-5005A-15,50%
-120-04,EL,MAE-5005A-15_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-15/VS,0%
+120-04,EL,MAE-5005A-15_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-15/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005A-16,Local_Control_Station,Local Control Station- MAE-5005A-16,50%
-120-04,EL,MAE-5005A-16_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-16/VS,0%
+120-04,EL,MAE-5005A-16_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-16/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005A-17,Local_Control_Station,Local Control Station- MAE-5005A-17,50%
-120-04,EL,MAE-5005A-17_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-17/VS,0%
+120-04,EL,MAE-5005A-17_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-17/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005A-18,Local_Control_Station,Local Control Station- MAE-5005A-18,50%
-120-04,EL,MAE-5005A-18_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-18/VS,0%
+120-04,EL,MAE-5005A-18_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005A-18/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005B-01,Local_Control_Station,Local Control Station- MAE-5005B-01,50%
-120-04,EL,MAE-5005B-01_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-01/VS,0%
+120-04,EL,MAE-5005B-01_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-01/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005B-02,Local_Control_Station,Local Control Station- MAE-5005B-02,50%
-120-04,EL,MAE-5005B-02_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-02/VS,0%
+120-04,EL,MAE-5005B-02_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-02/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005B-03,Local_Control_Station,Local Control Station- MAE-5005B-03,50%
-120-04,EL,MAE-5005B-03_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-03/VS,0%
+120-04,EL,MAE-5005B-03_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-03/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005B-04,Local_Control_Station,Local Control Station- MAE-5005B-04,50%
-120-04,EL,MAE-5005B-04_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-04/VS,0%
+120-04,EL,MAE-5005B-04_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-04/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005B-05,Local_Control_Station,Local Control Station- MAE-5005B-05,0%
-120-04,EL,MAE-5005B-05_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-05/VS,0%
+120-04,EL,MAE-5005B-05_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-05/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005B-06,Local_Control_Station,Local Control Station- MAE-5005B-06,50%
-120-04,EL,MAE-5005B-06_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-06/VS,0%
+120-04,EL,MAE-5005B-06_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-06/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005B-07,Local_Control_Station,Local Control Station- MAE-5005B-07,50%
-120-04,EL,MAE-5005B-07_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-07/VS,0%
+120-04,EL,MAE-5005B-07_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-07/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005B-08,Local_Control_Station,Local Control Station- MAE-5005B-08,50%
-120-04,EL,MAE-5005B-08_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-08/VS,0%
+120-04,EL,MAE-5005B-08_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-08/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005B-09,Local_Control_Station,Local Control Station- MAE-5005B-09,50%
-120-04,EL,MAE-5005B-09_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-09/VS,0%
+120-04,EL,MAE-5005B-09_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-09/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005B-10,Local_Control_Station,Local Control Station- MAE-5005B-10,50%
-120-04,EL,MAE-5005B-10_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-10/VS,0%
+120-04,EL,MAE-5005B-10_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-10/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005B-11,Local_Control_Station,Local Control Station- MAE-5005B-11,50%
-120-04,EL,MAE-5005B-11_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-11/VS,0%
+120-04,EL,MAE-5005B-11_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-11/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005B-12,Local_Control_Station,Local Control Station- MAE-5005B-12,50%
-120-04,EL,MAE-5005B-12_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-12/VS,0%
+120-04,EL,MAE-5005B-12_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-12/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005B-13,Local_Control_Station,Local Control Station- MAE-5005B-13,50%
-120-04,EL,MAE-5005B-13_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-13/VS,0%
+120-04,EL,MAE-5005B-13_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-13/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005B-14,Local_Control_Station,Local Control Station- MAE-5005B-14,50%
-120-04,EL,MAE-5005B-14_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-14/VS,0%
+120-04,EL,MAE-5005B-14_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-14/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005B-15,Local_Control_Station,Local Control Station- MAE-5005B-15,50%
-120-04,EL,MAE-5005B-15_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-15/VS,0%
+120-04,EL,MAE-5005B-15_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-15/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005B-16,Local_Control_Station,Local Control Station- MAE-5005B-16,50%
-120-04,EL,MAE-5005B-16_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-16/VS,0%
+120-04,EL,MAE-5005B-16_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-16/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005B-17,Local_Control_Station,Local Control Station- MAE-5005B-17,50%
-120-04,EL,MAE-5005B-17_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-17/VS,0%
+120-04,EL,MAE-5005B-17_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-17/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005B-18,Local_Control_Station,Local Control Station- MAE-5005B-18,50%
-120-04,EL,MAE-5005B-18_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-18/VS,0%
+120-04,EL,MAE-5005B-18_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005B-18/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005C-01,Local_Control_Station,Local Control Station- MAE-5005C-01,50%
-120-05,EL,MAE-5005C-01_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-01/VS,0%
+120-05,EL,MAE-5005C-01_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-01/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005C-02,Local_Control_Station,Local Control Station- MAE-5005C-02,50%
-120-05,EL,MAE-5005C-02_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-02/VS,0%
+120-05,EL,MAE-5005C-02_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-02/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005C-03,Local_Control_Station,Local Control Station- MAE-5005C-03,50%
-120-05,EL,MAE-5005C-03_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-03/VS,0%
+120-05,EL,MAE-5005C-03_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-03/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005C-04,Local_Control_Station,Local Control Station- MAE-5005C-04,50%
-120-05,EL,MAE-5005C-04_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-04/VS,0%
+120-05,EL,MAE-5005C-04_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-04/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005C-05,Local_Control_Station,Local Control Station- MAE-5005C-05,50%
-120-05,EL,MAE-5005C-05_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-05/VS,0%
+120-05,EL,MAE-5005C-05_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-05/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005C-06,Local_Control_Station,Local Control Station- MAE-5005C-06,50%
-120-05,EL,MAE-5005C-06_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-06/VS,0%
+120-05,EL,MAE-5005C-06_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-06/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005C-07,Local_Control_Station,Local Control Station- MAE-5005C-07,50%
-120-05,EL,MAE-5005C-07_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-07/VS,0%
+120-05,EL,MAE-5005C-07_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-07/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005C-08,Local_Control_Station,Local Control Station- MAE-5005C-08,50%
-120-05,EL,MAE-5005C-08_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-08/VS,0%
+120-05,EL,MAE-5005C-08_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-08/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005C-09,Local_Control_Station,Local Control Station- MAE-5005C-09,50%
-120-05,EL,MAE-5005C-09_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-09/VS,0%
+120-05,EL,MAE-5005C-09_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-09/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005C-10,Local_Control_Station,Local Control Station- MAE-5005C-10,50%
-120-05,EL,MAE-5005C-10_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-10/VS,0%
+120-05,EL,MAE-5005C-10_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-10/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005C-11,Local_Control_Station,Local Control Station- MAE-5005C-11,50%
-120-05,EL,MAE-5005C-11_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-11/VS,0%
+120-05,EL,MAE-5005C-11_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-11/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005C-12,Local_Control_Station,Local Control Station- MAE-5005C-12,50%
-120-05,EL,MAE-5005C-12_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-12/VS,0%
+120-05,EL,MAE-5005C-12_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-12/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005C-13,Local_Control_Station,Local Control Station- MAE-5005C-13,50%
-120-05,EL,MAE-5005C-13_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-13/VS,0%
+120-05,EL,MAE-5005C-13_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-13/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005C-14,Local_Control_Station,Local Control Station- MAE-5005C-14,50%
-120-05,EL,MAE-5005C-14_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-14/VS,0%
+120-05,EL,MAE-5005C-14_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-14/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005C-15,Local_Control_Station,Local Control Station- MAE-5005C-15,50%
-120-04,EL,MAE-5005C-15_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-15/VS,0%
+120-04,EL,MAE-5005C-15_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-15/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005C-16,Local_Control_Station,Local Control Station- MAE-5005C-16,50%
-120-04,EL,MAE-5005C-16_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-16/VS,0%
+120-04,EL,MAE-5005C-16_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-16/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005C-17,Local_Control_Station,Local Control Station- MAE-5005C-17,50%
-120-04,EL,MAE-5005C-17_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-17/VS,0%
+120-04,EL,MAE-5005C-17_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-17/VS,EXCEPTION_tmp
 120-04,EL,MAE-5005C-18,Local_Control_Station,Local Control Station- MAE-5005C-18,50%
-120-04,EL,MAE-5005C-18_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-18/VS,0%
+120-04,EL,MAE-5005C-18_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005C-18/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005D-01,Local_Control_Station,Local Control Station- MAE-5005D-01,50%
-120-05,EL,MAE-5005D-01_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-01/VS,0%
+120-05,EL,MAE-5005D-01_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-01/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005D-02,Local_Control_Station,Local Control Station- MAE-5005D-02,50%
-120-05,EL,MAE-5005D-02_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-02/VS,0%
+120-05,EL,MAE-5005D-02_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-02/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005D-03,Local_Control_Station,Local Control Station- MAE-5005D-03,50%
-120-05,EL,MAE-5005D-03_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-03/VS,0%
+120-05,EL,MAE-5005D-03_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-03/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005D-04,Local_Control_Station,Local Control Station- MAE-5005D-04,50%
-120-05,EL,MAE-5005D-04_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-04/VS,0%
+120-05,EL,MAE-5005D-04_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-04/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005D-05,Local_Control_Station,Local Control Station- MAE-5005D-05,50%
-120-05,EL,MAE-5005D-05_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-05/VS,0%
+120-05,EL,MAE-5005D-05_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-05/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005D-06,Local_Control_Station,Local Control Station- MAE-5005D-06,50%
-120-05,EL,MAE-5005D-06_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-06/VS,0%
+120-05,EL,MAE-5005D-06_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-06/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005D-07,Local_Control_Station,Local Control Station- MAE-5005D-07,50%
-120-05,EL,MAE-5005D-07_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-07/VS,0%
+120-05,EL,MAE-5005D-07_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-07/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005D-08,Local_Control_Station,Local Control Station- MAE-5005D-08,50%
-120-05,EL,MAE-5005D-08_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-08/VS,0%
+120-05,EL,MAE-5005D-08_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-08/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005D-09,Local_Control_Station,Local Control Station- MAE-5005D-09,50%
-120-05,EL,MAE-5005D-09_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-09/VS,0%
+120-05,EL,MAE-5005D-09_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-09/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005D-10,Local_Control_Station,Local Control Station- MAE-5005D-10,50%
-120-05,EL,MAE-5005D-10_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-10/VS,0%
+120-05,EL,MAE-5005D-10_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-10/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005D-11,Local_Control_Station,Local Control Station- MAE-5005D-11,50%
-120-05,EL,MAE-5005D-11_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-11/VS,0%
+120-05,EL,MAE-5005D-11_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-11/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005D-12,Local_Control_Station,Local Control Station- MAE-5005D-12,50%
-120-05,EL,MAE-5005D-12_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-12/VS,0%
+120-05,EL,MAE-5005D-12_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-12/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005D-13,Local_Control_Station,Local Control Station- MAE-5005D-13,50%
-120-05,EL,MAE-5005D-13_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-13/VS,0%
+120-05,EL,MAE-5005D-13_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-13/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005D-14,Local_Control_Station,Local Control Station- MAE-5005D-14,50%
-120-05,EL,MAE-5005D-14_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-14/VS,0%
+120-05,EL,MAE-5005D-14_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-14/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005D-15,Local_Control_Station,Local Control Station- MAE-5005D-15,50%
-120-05,EL,MAE-5005D-15_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-15/VS,0%
+120-05,EL,MAE-5005D-15_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-15/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005D-16,Local_Control_Station,Local Control Station- MAE-5005D-16,50%
-120-05,EL,MAE-5005D-16_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-16/VS,0%
+120-05,EL,MAE-5005D-16_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-16/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005D-17,Local_Control_Station,Local Control Station- MAE-5005D-17,50%
-120-05,EL,MAE-5005D-17_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-17/VS,0%
+120-05,EL,MAE-5005D-17_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-17/VS,EXCEPTION_tmp
 120-05,EL,MAE-5005D-18,Local_Control_Station,Local Control Station- MAE-5005D-18,50%
-120-05,EL,MAE-5005D-18_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-18/VS,0%
+120-05,EL,MAE-5005D-18_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5005D-18/VS,EXCEPTION_tmp
 120-04,EL,MAE-5006-01,Local_Control_Station,Local Control Station- MAE-5006-01,50%
-120-04,EL,MAE-5006-01_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5006-01/VS,0%
+120-04,EL,MAE-5006-01_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5006-01/VS,EXCEPTION_tmp
 120-04,EL,MAE-5006-02,Local_Control_Station,Local Control Station- MAE-5006-02,50%
-120-04,EL,MAE-5006-02_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5006-02/VS,0%
+120-04,EL,MAE-5006-02_VS,VIBRATION_SWITCH,Vibration Switch- MAE-5006-02/VS,EXCEPTION_tmp
 DCS-01,IN,MB007-RS01R-F RMBDO17:1-RM02F-F,CABLE,CABLE(NA),0%
 DCS-01,IN,MB007-RS01R-F RMBDO17:2-RM02F-F,CABLE,CABLE(NA),0%
 DCS-01,IN,MB01-RS01F-F RMBDI03:1-RM01R-F,CABLE,CABLE(NA),0%
@@ -15603,8 +15603,8 @@ DCS-01,IN,MB17-S04R-F SMBDIR24:1-M04R-F,CABLE,CABLE(NA),0%
 DCS-01,IN,MB17-S04R-F SMBDIR24:2-M04R-F,CABLE,CABLE(NA),0%
 DCS-01,IN,MB18-S06R-F RMBDI20:1-M07R-F,CABLE,CABLE(NA),0%
 DCS-01,IN,MB18-S06R-F RMBDI20:2-M07R-F,CABLE,CABLE(NA),0%
-120-03,EL,MB-8001A,Local_Control_Station,Local Control Station- MB-8001A,0%
-120-03,EL,MB-8001B,Local_Control_Station,Local Control Station- MB-8001B,0%
+120-03,EL,MB-8001A,Local_Control_Station,Local Control Station- MB-8001A,EXCEPTION_tmp
+120-03,EL,MB-8001B,Local_Control_Station,Local Control Station- MB-8001B,EXCEPTION_tmp
 120-01,EL,MC-2001,Local_Control_Panel,Local Control Panel (Ammeter)- MC-2001,50%
 120-01,EL,MC-2001-SH,SPACE_HEATER,Motor Space Heater- MC-2001-SH,0%
 120-01,EL,MC-2002,Local_Control_Panel,Local Control Panel (Ammeter)- MC-2002,50%
@@ -15710,16 +15710,16 @@ BLD-06,CV,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Wor
 120-01,EL,MF-2002,Local_Control_Panel,Local Control Panel (Ammeter)- MF-2002-LCP,0%
 120-01,EL,MF-2002-SH,SPACE_HEATER,Motor Space Heater- MF-2002-SH,50%
 120-03,EL,MF-8001A,Local_Control_Station,Local Control Station- MF-8001A,0%
-120-03,EL,MF-8001A_VS,VIBRATION_SWITCH,Vibration Switch- MF-8001A/VS,0%
+120-03,EL,MF-8001A_VS,VIBRATION_SWITCH,Vibration Switch- MF-8001A/VS,EXCEPTION_tmp
 120-03,EL,MF-8001A-SH,SPACE_HEATER,Motor Space Heater- MF-8001A-SH,0%
 120-03,EL,MF-8001B,Local_Control_Station,Local Control Station- MF-8001B,0%
-120-03,EL,MF-8001B_VS,VIBRATION_SWITCH,Vibration Switch- MF-8001B/VS,0%
+120-03,EL,MF-8001B_VS,VIBRATION_SWITCH,Vibration Switch- MF-8001B/VS,EXCEPTION_tmp
 120-03,EL,MF-8001B-SH,SPACE_HEATER,Motor Space Heater- MF-8001B-SH,0%
 120-03,EL,MF-8001C,Local_Control_Station,Local Control Station- MF-8001C,0%
-120-03,EL,MF-8001C_VS,VIBRATION_SWITCH,Vibration Switch- MF-8001C/VS,0%
+120-03,EL,MF-8001C_VS,VIBRATION_SWITCH,Vibration Switch- MF-8001C/VS,EXCEPTION_tmp
 120-03,EL,MF-8001C-SH,SPACE_HEATER,Motor Space Heater- MF-8001C-SH,0%
 120-03,EL,MF-8001D,Local_Control_Station,Local Control Station- MF-8001D,0%
-120-03,EL,MF-8001D_VS,VIBRATION_SWITCH,Vibration Switch- MF-8001D/VS,0%
+120-03,EL,MF-8001D_VS,VIBRATION_SWITCH,Vibration Switch- MF-8001D/VS,EXCEPTION_tmp
 120-03,EL,MF-8001D-SH,SPACE_HEATER,Motor Space Heater- MF-8001D-SH,0%
 3000-04,IN,ML-20201-A,Instrument(X),Instrument(ML),0%
 3000-04,IN,ML-20202-A,Instrument(X),Instrument(ML),0%
@@ -15747,47 +15747,47 @@ BLD-06,CV,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Wor
 120-02,EL,MP-2001A,Local_Control_Station,Local Control Station- MP-2001A,50%
 120-02,EL,MP-2001B,Local_Control_Station,Local Control Station- MP-2001B,50%
 120-02,EL,MP-2002A,Local_Control_Station,Local Control Station- MP-2002A,50%
-120-02,EL,MP-2002B,Local_Control_Station,Local Control Station- MP-2002B,50%
+120-02,EL,MP-2002B,Local_Control_Station,Local Control Station- MP-2002B,Done
 120-02,EL,MP-2003A,Local_Control_Station,Local Control Station- MP-2003A,0%
 120-02,EL,MP-2003B,Local_Control_Station,Local Control Station- MP-2003B,0%
 120-07,EL,MP-3001,Local_Control_Station,Local Control Station- MP-3001,0%
-120-02,EL,MP-3011A,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3011A),0%
-120-02,EL,MP-3011B,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3011B),0%
-120-02,EL,MP-3012A,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3012A),0%
-120-02,EL,MP-3012B,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3012B),0%
-120-07,EL,MP-3013,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3013),0%
-120-02,EL,MP-5001A,Local_Control_Station,Local Control Station- MP-5001A,0%
+120-02,EL,MP-3011A,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3011A),EXCEPTION_tmp
+120-02,EL,MP-3011B,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3011B),EXCEPTION_tmp
+120-02,EL,MP-3012A,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3012A),50%
+120-02,EL,MP-3012B,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3012B),50%
+120-07,EL,MP-3013,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3013),50%
+120-02,EL,MP-5001A,Local_Control_Station,Local Control Station- MP-5001A,50%
 120-02,EL,MP-5001B,Local_Control_Station,Local Control Station- MP-5001B,0%
-120-02,EL,MP-5002A,Local_Control_Station,Local Control Station- MP-5002A,0%
-120-02,EL,MP-5002B,Local_Control_Station,Local Control Station- MP-5002B,0%
-120-02,EL,MP-5003A,Local_Control_Station,Local Control Station- MP-5003A,0%
-120-02,EL,MP-5003B,Local_Control_Station,Local Control Station- MP-5003B,0%
+120-02,EL,MP-5002A,Local_Control_Station,Local Control Station- MP-5002A,50%
+120-02,EL,MP-5002B,Local_Control_Station,Local Control Station- MP-5002B,50%
+120-02,EL,MP-5003A,Local_Control_Station,Local Control Station- MP-5003A,50%
+120-02,EL,MP-5003B,Local_Control_Station,Local Control Station- MP-5003B,50%
 120-01,EL,MP-5004A,Local_Control_Station,Local Control Station- MP-5004A,50%
 120-01,EL,MP-5004A-SH,SPACE_HEATER,Motor Space Heater- MP-5004A-SH,50%
 120-01,EL,MP-5004B,Local_Control_Station,Local Control Station- MP-5004B,50%
 120-01,EL,MP-5004B-SH,SPACE_HEATER,Motor Space Heater- MP-5004B-SH,50%
 120-02,EL,MP-5005A,Local_Control_Station,Local Control Station- MP-5005A,0%
-120-02,EL,MP-5005B,Local_Control_Station,Local Control Station- MP-5005B,0%
+120-02,EL,MP-5005B,Local_Control_Station,Local Control Station- MP-5005B,50%
 120-01,EL,MP-5006A,Local_Control_Station,Local Control Station- MP-5006A,50%
 120-01,EL,MP-5006A-SH,SPACE_HEATER,Motor Space Heater- MP-5006A-SH,50%
 120-01,EL,MP-5006B,Local_Control_Station,Local Control Station- MP-5006B,50%
 120-01,EL,MP-5006B-SH,SPACE_HEATER,Motor Space Heater- MP-5006B-SH,50%
-120-02,EL,MP-5007A,Local_Control_Station,Local Control Station- MP-5007A,0%
-120-02,EL,MP-5007B,Local_Control_Station,Local Control Station- MP-5007B,0%
+120-02,EL,MP-5007A,Local_Control_Station,Local Control Station- MP-5007A,50%
+120-02,EL,MP-5007B,Local_Control_Station,Local Control Station- MP-5007B,50%
 120-01,EL,MP-5008A,Local_Control_Station,Local Control Station- MP-5008A,50%
 120-01,EL,MP-5008A-SH,SPACE_HEATER,Motor Space Heater- MP-5008A-SH,50%
 120-01,EL,MP-5008B,Local_Control_Station,Local Control Station- MP-5008B,50%
 120-01,EL,MP-5008B-SH,SPACE_HEATER,Motor Space Heater- MP-5008B-SH,50%
-120-02,EL,MP-5009A,Local_Control_Station,Local Control Station- MP-5009A,0%
-120-02,EL,MP-5009B,Local_Control_Station,Local Control Station- MP-5009B,0%
+120-02,EL,MP-5009A,Local_Control_Station,Local Control Station- MP-5009A,50%
+120-02,EL,MP-5009B,Local_Control_Station,Local Control Station- MP-5009B,50%
 120-02,EL,MP-5010A,Local_Control_Station,Local Control Station- MP-5010A,0%
-120-02,EL,MP-5010B,Local_Control_Station,Local Control Station- MP-5010B,0%
-120-02,EL,MP-5011A,Local_Control_Station,Local Control Station- MP-5011A,0%
-120-02,EL,MP-5011B,Local_Control_Station,Local Control Station- MP-5011B,0%
+120-02,EL,MP-5010B,Local_Control_Station,Local Control Station- MP-5010B,50%
+120-02,EL,MP-5011A,Local_Control_Station,Local Control Station- MP-5011A,50%
+120-02,EL,MP-5011B,Local_Control_Station,Local Control Station- MP-5011B,50%
 120-07,EL,MP-5012A,Local_Control_Station,Local Control Station- MP-5012A,0%
 120-07,EL,MP-5012B,Local_Control_Station,Local Control Station- MP-5012B,0%
-120-02,EL,MP-5070A,Local_Control_Station,Local Control Station- MP-5070A,0%
-120-02,EL,MP-5070B,Local_Control_Station,Local Control Station- MP-5070B,0%
+120-02,EL,MP-5070A,Local_Control_Station,Local Control Station- MP-5070A,EXCEPTION_tmp
+120-02,EL,MP-5070B,Local_Control_Station,Local Control Station- MP-5070B,EXCEPTION_tmp
 120-02,EL,MP-6001A,Local_Control_Station,Local Control Station- MP-6001A,0%
 120-02,EL,MP-6001B,Local_Control_Station,Local Control Station- MP-6001B,50%
 120-01,EL,MP-6002A,Local_Control_Station,Local Control Station- MP-6002A,50%
@@ -15798,42 +15798,42 @@ BLD-06,CV,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Wor
 120-01,EL,MP-6002C-SH,SPACE_HEATER,Motor Space Heater- MP-6002C-SH,50%
 120-01,EL,MP-7001C,Local_Control_Station,Local Control Station- MP-7001C,50%
 120-01,EL,MP-7001C-SH,SPACE_HEATER,Motor Space Heater- MP-7001C-SH,50%
-120-02,EL,MP-7002A,Local_Control_Station,Local Control Station- MP-7002A,0%
-120-02,EL,MP-7002B,Local_Control_Station,Local Control Station- MP-7002B,0%
+120-02,EL,MP-7002A,Local_Control_Station,Local Control Station- MP-7002A,50%
+120-02,EL,MP-7002B,Local_Control_Station,Local Control Station- MP-7002B,50%
 120-02,EL,MP-7003A,Local_Control_Station,Local Control Station- MP-7003A,50%
 120-02,EL,MP-7003B,Local_Control_Station,Local Control Station- MP-7003B,0%
-120-02,EL,MP-7004A,Local_Control_Station,Local Control Station- MP-7004A,0%
+120-02,EL,MP-7004A,Local_Control_Station,Local Control Station- MP-7004A,50%
 120-02,EL,MP-7004B,Local_Control_Station,Local Control Station- MP-7004B,0%
-120-02,EL,MP-7051A,Local_Control_Station,Local Control Station- MP-7051A,0%
-120-02,EL,MP-7051B,Local_Control_Station,Local Control Station- MP-7051B,0%
-120-02,EL,MP-7052A,Local_Control_Station,Local Control Station- MP-7052A,0%
-120-02,EL,MP-7052B,Local_Control_Station,Local Control Station- MP-7052B,0%
-120-02,EL,MP-7060A,Local_Control_Station,Local Control Station- MP-7060A,0%
-120-02,EL,MP-7060B,Local_Control_Station,Local Control Station- MP-7060B,0%
-120-02,EL,MP-7070A,Local_Control_Station,Local Control Station- MP-7070A,0%
-120-02,EL,MP-7070B,Local_Control_Station,Local Control Station- MP-7070B,0%
+120-02,EL,MP-7051A,Local_Control_Station,Local Control Station- MP-7051A,EXCEPTION_tmp
+120-02,EL,MP-7051B,Local_Control_Station,Local Control Station- MP-7051B,EXCEPTION_tmp
+120-02,EL,MP-7052A,Local_Control_Station,Local Control Station- MP-7052A,EXCEPTION_tmp
+120-02,EL,MP-7052B,Local_Control_Station,Local Control Station- MP-7052B,EXCEPTION_tmp
+120-02,EL,MP-7060A,Local_Control_Station,Local Control Station- MP-7060A,EXCEPTION_tmp
+120-02,EL,MP-7060B,Local_Control_Station,Local Control Station- MP-7060B,EXCEPTION_tmp
+120-02,EL,MP-7070A,Local_Control_Station,Local Control Station- MP-7070A,EXCEPTION_tmp
+120-02,EL,MP-7070B,Local_Control_Station,Local Control Station- MP-7070B,EXCEPTION_tmp
 120-07,EL,MP-7101A,Local_Control_Station,Local Control Station- MP-7101A,0%
 120-07,EL,MP-7101B,Local_Control_Station,Local Control Station- MP-7101B,0%
 120-03,EL,MP-7502A,Local_Control_Station,Local Control Station- MP-7502A,50%
-120-03,EL,MP-7502B,Local_Control_Station,Local Control Station- MP-7502B,0%
-120-03,EL,MP-7503A,Local_Control_Station,Local Control Station- MP-7503A,0%
+120-03,EL,MP-7502B,Local_Control_Station,Local Control Station- MP-7502B,50%
+120-03,EL,MP-7503A,Local_Control_Station,Local Control Station- MP-7503A,50%
 120-03,EL,MP-7503B,Local_Control_Station,Local Control Station- MP-7503B,50%
 120-03,EL,MP-7504,Local_Control_Station,Local Control Station- MP-7504,Done
-120-03,EL,MP-7505,Local_Control_Station,Local Control Station- MP-7505,0%
-120-03,EL,MP-7506A,Local_Control_Station,Local Control Station- MP-7506A,50%
-120-03,EL,MP-7506B,Local_Control_Station,Local Control Station- MP-7506B,50%
-120-01,EL,MP-8001C,Local_Control_Station,Local Control Station- MP-8001C,50%
+120-03,EL,MP-7505,Local_Control_Station,Local Control Station- MP-7505,50%
+120-03,EL,MP-7506A,Local_Control_Station,Local Control Station- MP-7506A,Done
+120-03,EL,MP-7506B,Local_Control_Station,Local Control Station- MP-7506B,Done
+120-01,EL,MP-8001C,Local_Control_Station,Local Control Station- MP-8001C,Done
 120-01,EL,MP-8001C-SH,SPACE_HEATER,Motor Space Heater- MP-8001C-SH,50%
-120-01,EL,MP-8001D,Local_Control_Station,Local Control Station- MP-8001D,50%
+120-01,EL,MP-8001D,Local_Control_Station,Local Control Station- MP-8001D,Done
 120-01,EL,MP-8001D-SH,SPACE_HEATER,Motor Space Heater- MP-8001D-SH,50%
 120-03,EL,MP-8401,Local_Control_Station,Local Control Station- MP-8401,Done
-120-03,EL,MP-8402,Local_Control_Station,Local Control Station- MP-8402,0%
-120-03,EL,MP-8403A,Local_Control_Station,Local Control Station- MP-8403A,50%
-120-03,EL,MP-8403B,Local_Control_Station,Local Control Station- MP-8403B,50%
+120-03,EL,MP-8402,Local_Control_Station,Local Control Station- MP-8402,50%
+120-03,EL,MP-8403A,Local_Control_Station,Local Control Station- MP-8403A,Done
+120-03,EL,MP-8403B,Local_Control_Station,Local Control Station- MP-8403B,Done
 120-03,EL,MP-8404A,Local_Control_Station,Local Control Station- MP-8404A,50%
 120-03,EL,MP-8404B,Local_Control_Station,Local Control Station- MP-8404B,50%
-120-03,EL,MP-8405A,Local_Control_Station,Local Control Station- MP-8405A,0%
-120-03,EL,MP-8405B,Local_Control_Station,Local Control Station- MP-8405B,0%
+120-03,EL,MP-8405A,Local_Control_Station,Local Control Station- MP-8405A,EXCEPTION_tmp
+120-03,EL,MP-8405B,Local_Control_Station,Local Control Station- MP-8405B,EXCEPTION_tmp
 4000-11,IN,MS-0001,I/O EL,I/O EL,DONE
 4000-11,IN,MS-0002,I/O EL,I/O EL,DONE
 4000-11,IN,MS-0013,I/O EL,I/O EL,DONE
@@ -16123,9 +16123,9 @@ BLD-06,CV,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Wor
 4000-12,IN,MS-8407A,I/O EL,I/O EL,DONE
 4000-12,IN,MS-8407B,I/O EL,I/O EL,DONE
 FGS-05,IN,MSR-0001,Fire Alarm,Fire Alarm(MSR),0%
-120-02,EL,MT-C2001-MF-1,MOTOR,Motor Fan,0%
-120-02,EL,MT-C2001-MF-2,MOTOR,Motor Fan,0%
-120-02,EL,MT-FT7001A-MF-1,MOTOR,Motor Fan,0%
+120-02,EL,MT-C2001-MF-1,MOTOR,Motor Fan,EXCEPTION_tmp
+120-02,EL,MT-C2001-MF-2,MOTOR,Motor Fan,EXCEPTION_tmp
+120-02,EL,MT-FT7001A-MF-1,MOTOR,Motor Fan,EXCEPTION_tmp
 120-02,EL,MT-FT7001A-MP-1A,MOTOR,Motor Pump,0%
 120-07,EL,MT-FT7001A-MP-1B,MOTOR,Motor Pump,0%
 120-02,EL,MT-FT7001B-MF-1,MOTOR,Motor Fan,0%
@@ -16145,46 +16145,46 @@ FGS-05,IN,MSR-0001,Fire Alarm,Fire Alarm(MSR),0%
 120-05,EL,MT-MAE-2026-06,MOTOR,Motor Fan,0%
 120-05,EL,MT-MAE-2026-07,MOTOR,Motor Fan,0%
 120-05,EL,MT-MAE-2026-08,MOTOR,Motor Fan,0%
-120-06,EL,MT-MAE-2026-09,MOTOR,Motor Fan,Done
-120-06,EL,MT-MAE-2026-10,MOTOR,Motor Fan,Done
-120-06,EL,MT-MAE-2026-11,MOTOR,Motor Fan,Done
-120-06,EL,MT-MAE-2026-12,MOTOR,Motor Fan,Done
-120-06,EL,MT-MAE-3002_1-01,MOTOR,Motor Fan,50%
-120-06,EL,MT-MAE-3002_1-02,MOTOR,Motor Fan,50%
-120-06,EL,MT-MAE-3002_1-03,MOTOR,Motor Fan,Done
-120-06,EL,MT-MAE-3002_1-04,MOTOR,Motor Fan,50%
-120-06,EL,MT-MAE-3002_1-05,MOTOR,Motor Fan,Done
-120-06,EL,MT-MAE-3002_1-06,MOTOR,Motor Fan,50%
-120-06,EL,MT-MAE-3002_1-07,MOTOR,Motor Fan,Done
-120-06,EL,MT-MAE-3002_1-08,MOTOR,Motor Fan,50%
-120-06,EL,MT-MAE-3002_2-01,MOTOR,Motor Fan,50%
-120-06,EL,MT-MAE-3002_2-02,MOTOR,Motor Fan,50%
-120-06,EL,MT-MAE-3002_2-03,MOTOR,Motor Fan,50%
-120-06,EL,MT-MAE-3002_2-04,MOTOR,Motor Fan,0%
-120-06,EL,MT-MAE-3002_2-05,MOTOR,Motor Fan,0%
-120-06,EL,MT-MAE-3002_2-06,MOTOR,Motor Fan,50%
-120-06,EL,MT-MAE-3002_2-07,MOTOR,Motor Fan,0%
-120-06,EL,MT-MAE-3002_2-08,MOTOR,Motor Fan,0%
-120-06,EL,MT-MAE-3002_3-01,MOTOR,Motor Fan,0%
-120-06,EL,MT-MAE-3002_3-02,MOTOR,Motor Fan,50%
-120-06,EL,MT-MAE-3002_3-03,MOTOR,Motor Fan,50%
-120-06,EL,MT-MAE-3002_3-04,MOTOR,Motor Fan,0%
-120-06,EL,MT-MAE-3002_3-05,MOTOR,Motor Fan,0%
-120-06,EL,MT-MAE-3002_3-06,MOTOR,Motor Fan,0%
-120-06,EL,MT-MAE-3002_3-07,MOTOR,Motor Fan,0%
-120-06,EL,MT-MAE-3002_3-08,MOTOR,Motor Fan,0%
-120-06,EL,MT-MAE-5004-01,MOTOR,Motor Fan,50%
-120-06,EL,MT-MAE-5004-02,MOTOR,Motor Fan,50%
-120-06,EL,MT-MAE-5004-03,MOTOR,Motor Fan,50%
-120-06,EL,MT-MAE-5004-04,MOTOR,Motor Fan,50%
-120-06,EL,MT-MAE-5004-05,MOTOR,Motor Fan,50%
-120-06,EL,MT-MAE-5004-06,MOTOR,Motor Fan,50%
-120-06,EL,MT-MAE-5004-07,MOTOR,Motor Fan,50%
-120-06,EL,MT-MAE-5004-08,MOTOR,Motor Fan,50%
-120-06,EL,MT-MAE-5004-09,MOTOR,Motor Fan,50%
-120-06,EL,MT-MAE-5004-10,MOTOR,Motor Fan,50%
-120-06,EL,MT-MAE-5004-11,MOTOR,Motor Fan,50%
-120-06,EL,MT-MAE-5004-12,MOTOR,Motor Fan,50%
+120-06,EL,MT-MAE-2026-09,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-2026-10,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-2026-11,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-2026-12,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-3002_1-01,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-3002_1-02,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-3002_1-03,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-3002_1-04,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-3002_1-05,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-3002_1-06,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-3002_1-07,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-3002_1-08,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-3002_2-01,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-3002_2-02,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-3002_2-03,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-3002_2-04,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-3002_2-05,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-3002_2-06,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-3002_2-07,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-3002_2-08,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-3002_3-01,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-3002_3-02,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-3002_3-03,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-3002_3-04,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-3002_3-05,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-3002_3-06,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-3002_3-07,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-3002_3-08,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-5004-01,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-5004-02,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-5004-03,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-5004-04,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-5004-05,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-5004-06,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-5004-07,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-5004-08,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-5004-09,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-5004-10,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-5004-11,MOTOR,Motor Fan,EXCEPTION_tmp
+120-06,EL,MT-MAE-5004-12,MOTOR,Motor Fan,EXCEPTION_tmp
 120-04,EL,MT-MAE-5005A-01,MOTOR,Motor Fan,0%
 120-04,EL,MT-MAE-5005A-02,MOTOR,Motor Fan,0%
 120-04,EL,MT-MAE-5005A-03,MOTOR,Motor Fan,0%
@@ -16259,8 +16259,8 @@ FGS-05,IN,MSR-0001,Fire Alarm,Fire Alarm(MSR),0%
 120-05,EL,MT-MAE-5005D-18,MOTOR,Motor Fan,50%
 120-04,EL,MT-MAE-5006-01,MOTOR,Motor Fan,0%
 120-04,EL,MT-MAE-5006-02,MOTOR,Motor Fan,0%
-120-03,EL,MT-MB-8001A,MOTOR,Motor Pump,0%
-120-03,EL,MT-MB-8001B,MOTOR,Motor Pump,0%
+120-03,EL,MT-MB-8001A,MOTOR,Motor Pump,EXCEPTION_tmp
+120-03,EL,MT-MB-8001B,MOTOR,Motor Pump,EXCEPTION_tmp
 120-01,EL,MT-MC-2001,MOTOR,Motor Compresor,0%
 120-01,EL,MT-MC-2002,MOTOR,Motor Compresor,0%
 120-01,EL,MT-MF-2001,MOTOR,Motor Fan,0%
@@ -16307,8 +16307,8 @@ FGS-05,IN,MSR-0001,Fire Alarm,Fire Alarm(MSR),0%
 120-02,EL,MT-MP-5011B,MOTOR,Motor Pump,Done
 120-07,EL,MT-MP-5012A,MOTOR,Motor Pump,0%
 120-07,EL,MT-MP-5012B,MOTOR,Motor Pump,0%
-120-02,EL,MT-MP-5070A,MOTOR,Motor Pump,0%
-120-02,EL,MT-MP-5070B,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-5070A,MOTOR,Motor Pump,EXCEPTION_tmp
+120-02,EL,MT-MP-5070B,MOTOR,Motor Pump,EXCEPTION_tmp
 120-02,EL,MT-MP-6001A,MOTOR,Motor Pump,Done
 120-02,EL,MT-MP-6001B,MOTOR,Motor Pump,Done
 120-01,EL,MT-MP-6002A,MOTOR,Motor Pump,0%
@@ -16320,15 +16320,15 @@ FGS-05,IN,MSR-0001,Fire Alarm,Fire Alarm(MSR),0%
 120-02,EL,MT-MP-7003A,MOTOR,Motor Pump,Done
 120-02,EL,MT-MP-7003B,MOTOR,Motor Pump,Done
 120-02,EL,MT-MP-7004A,MOTOR,Motor Pump,50%
-120-02,EL,MT-MP-7004B,MOTOR,Motor Pump,0%
-120-02,EL,MT-MP-7051A,MOTOR,Motor Pump,0%
-120-02,EL,MT-MP-7051B,MOTOR,Motor Pump,0%
-120-02,EL,MT-MP-7052A,MOTOR,Motor Pump,0%
-120-02,EL,MT-MP-7052B,MOTOR,Motor Pump,0%
-120-02,EL,MT-MP-7060A,MOTOR,Motor Pump,0%
-120-02,EL,MT-MP-7060B,MOTOR,Motor Pump,0%
-120-02,EL,MT-MP-7070A,MOTOR,Motor Pump,0%
-120-02,EL,MT-MP-7070B,MOTOR,Motor Pump,0%
+120-02,EL,MT-MP-7004B,MOTOR,Motor Pump,EXCEPTION_tmp
+120-02,EL,MT-MP-7051A,MOTOR,Motor Pump,EXCEPTION_tmp
+120-02,EL,MT-MP-7051B,MOTOR,Motor Pump,EXCEPTION_tmp
+120-02,EL,MT-MP-7052A,MOTOR,Motor Pump,EXCEPTION_tmp
+120-02,EL,MT-MP-7052B,MOTOR,Motor Pump,EXCEPTION_tmp
+120-02,EL,MT-MP-7060A,MOTOR,Motor Pump,EXCEPTION_tmp
+120-02,EL,MT-MP-7060B,MOTOR,Motor Pump,EXCEPTION_tmp
+120-02,EL,MT-MP-7070A,MOTOR,Motor Pump,EXCEPTION_tmp
+120-02,EL,MT-MP-7070B,MOTOR,Motor Pump,EXCEPTION_tmp
 120-07,EL,MT-MP-7101A,MOTOR,Motor Pump,0%
 120-07,EL,MT-MP-7101B,MOTOR,Motor Pump,0%
 120-03,EL,MT-MP-7502A,MOTOR,Motor Pump,50%
@@ -16347,11 +16347,11 @@ FGS-05,IN,MSR-0001,Fire Alarm,Fire Alarm(MSR),0%
 120-03,EL,MT-MP-8403B,MOTOR,Motor Pump,50%
 120-03,EL,MT-MP-8404A,MOTOR,Motor Pump,Done
 120-03,EL,MT-MP-8404B,MOTOR,Motor Pump,Done
-120-03,EL,MT-MP-8405A,MOTOR,Motor Pump,0%
-120-03,EL,MT-MP-8405B,MOTOR,Motor Pump,0%
-120-02,EL,MT-MX-7050,MOTOR,Motor Mixer,0%
-120-02,EL,MT-MX-7060,MOTOR,Motor Mixer,0%
-120-02,EL,MT-MX-7070,MOTOR,Motor Mixer,0%
+120-03,EL,MT-MP-8405A,MOTOR,Motor Pump,EXCEPTION_tmp
+120-03,EL,MT-MP-8405B,MOTOR,Motor Pump,EXCEPTION_tmp
+120-02,EL,MT-MX-7050,MOTOR,Motor Mixer,EXCEPTION_tmp
+120-02,EL,MT-MX-7060,MOTOR,Motor Mixer,EXCEPTION_tmp
+120-02,EL,MT-MX-7070,MOTOR,Motor Mixer,EXCEPTION_tmp
 120-02,EL,MT-P7001C-MF-1,MOTOR,Motor Fan,0%
 120-02,EL,MT-P7001C-MP-1A,MOTOR,Motor Pump,0%
 120-07,EL,MT-P7001C-MP-1B,MOTOR,Motor Pump,0%
@@ -16363,24 +16363,24 @@ FGS-05,IN,MSR-0001,Fire Alarm,Fire Alarm(MSR),0%
 120-03,EL,MT-PK7502-MP-2B,MOTOR,Motor Pump,0%
 120-03,EL,MT-PK7502-MP-3A,MOTOR,Motor Pump,0%
 120-03,EL,MT-PK7502-MP-3B,MOTOR,Motor Pump,0%
-120-03,EL,MT-PK8002-MP-1A,MOTOR,Motor Pump,0%
-120-03,EL,MT-PK8002-MP-1B,MOTOR,Motor Pump,0%
-120-03,EL,MT-PK8002-MX-1,MOTOR,Motor Mixer,0%
-120-03,EL,MT-PK8003-MP-1A,MOTOR,Motor Pump,0%
-120-03,EL,MT-PK8003-MP-1B,MOTOR,Motor Pump,0%
-120-03,EL,MT-PK8003-MX-1,MOTOR,Motor Mixer,0%
-120-03,EL,MT-PK8004-MP-1A,MOTOR,Motor Pump,0%
-120-03,EL,MT-PK8004-MP-1B,MOTOR,Motor Pump,0%
-120-03,EL,MT-PK8004-MX-1,MOTOR,Motor Mixer,0%
-120-03,EL,MT-PK8005-MP-1A,MOTOR,Motor Pump,0%
-120-03,EL,MT-PK8005-MP-1B,MOTOR,Motor Pump,0%
-120-03,EL,MT-PK8401-MP-1A,MOTOR,Motor Pump,0%
-120-03,EL,MT-PK8401-MP-1B,MOTOR,Motor Pump,0%
+120-03,EL,MT-PK8002-MP-1A,MOTOR,Motor Pump,EXCEPTION_tmp
+120-03,EL,MT-PK8002-MP-1B,MOTOR,Motor Pump,EXCEPTION_tmp
+120-03,EL,MT-PK8002-MX-1,MOTOR,Motor Mixer,EXCEPTION_tmp
+120-03,EL,MT-PK8003-MP-1A,MOTOR,Motor Pump,EXCEPTION_tmp
+120-03,EL,MT-PK8003-MP-1B,MOTOR,Motor Pump,EXCEPTION_tmp
+120-03,EL,MT-PK8003-MX-1,MOTOR,Motor Mixer,EXCEPTION_tmp
+120-03,EL,MT-PK8004-MP-1A,MOTOR,Motor Pump,EXCEPTION_tmp
+120-03,EL,MT-PK8004-MP-1B,MOTOR,Motor Pump,EXCEPTION_tmp
+120-03,EL,MT-PK8004-MX-1,MOTOR,Motor Mixer,EXCEPTION_tmp
+120-03,EL,MT-PK8005-MP-1A,MOTOR,Motor Pump,EXCEPTION_tmp
+120-03,EL,MT-PK8005-MP-1B,MOTOR,Motor Pump,EXCEPTION_tmp
+120-03,EL,MT-PK8401-MP-1A,MOTOR,Motor Pump,EXCEPTION_tmp
+120-03,EL,MT-PK8401-MP-1B,MOTOR,Motor Pump,EXCEPTION_tmp
 120-03,EL,MT-PK8401-MP-2A,MOTOR,Motor Pump,0%
 120-03,EL,MT-PK8401-MP-2B,MOTOR,Motor Pump,0%
-120-02,EL,MX-7050,Local_Control_Station,Local Control Station- MX-7050,0%
-120-02,EL,MX-7060,Local_Control_Station,Local Control Station- MX-7060,0%
-120-02,EL,MX-7070,Local_Control_Station,Local Control Station- MX-7070,0%
+120-02,EL,MX-7050,Local_Control_Station,Local Control Station- MX-7050,EXCEPTION_tmp
+120-02,EL,MX-7060,Local_Control_Station,Local Control Station- MX-7060,EXCEPTION_tmp
+120-02,EL,MX-7070,Local_Control_Station,Local Control Station- MX-7070,EXCEPTION_tmp
 3000-01,IN,MZSH-30101,Instrument(X),Instrument(MZSH),0%
 3000-01,IN,MZSH-30103,Instrument(X),Instrument(MZSH),0%
 3000-01,IN,MZSH-30105,Instrument(X),Instrument(MZSH),0%
@@ -16825,7 +16825,7 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),0%
 4000-04,MER,P-7001C,Pump,HEAVY DUTY CENTRIFUGAL PUMPS,0%
 4000-04,MER,P-7001C-Lub-Oil-Unit,Pump,LUBE OIL UNIT,0%
 120-02,EL,P7001C-MF-1,Local_Control_Station,Local Control Station- P7001C-MF-1,50%
-120-02,EL,P7001C-MP-1A,Local_Control_Station,Local Control Station- P7001C-MP-1A,50%
+120-02,EL,P7001C-MP-1A,Local_Control_Station,Local Control Station- P7001C-MP-1A,Done
 120-07,EL,P7001C-MP-1B,Local_Control_Station,Local Control Station- P7001C-MP-1B,50%
 4000-06,MER,P-7002A,Pump,DMW Pump,40%
 4000-06,MER,P-7002B,Pump,DMW Pump,40%
@@ -16872,7 +16872,7 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),0%
 3000-04,IN,PCV-20202,Instrument(PCV),Instrument(PCV),Done
 3000-04,IN,PCV-20203,Instrument(PCV),Instrument(PCV),Done
 2000-05,IN,PCV-24791,Instrument(PCV),Instrument(PCV),0%
-1000-02,IN,PCV-2551,Instrument(PCV),Instrument(PCV),0%
+1000-02,IN,PCV-2551,Instrument(PCV),Instrument(PCV),Done
 3000-02,IN,PCV-30001,Instrument(PCV),Instrument(PCV),0%
 3000-01,IN,PCV-3008,Instrument(PCV),Instrument(PCV),Done
 3000-01,IN,PCV-30103,Instrument(PCV),Instrument(PCV),0%
@@ -17007,7 +17007,7 @@ NO SUBS.,IN,PDT-84207,Instrument(PDT),Instrument(PDT),0%
 2000-03,IN,PDV-2051(NA),CABLE,CABLE(NA),0%
 2000-03,IN,PDV-2051(PDV),Instrument(PDV),Instrument(PDV),0%
 2000-06,IN,PDV-2575(NA),CABLE,CABLE(NA),0%
-2000-06,IN,PDV-2575(PDV),Instrument(PDV),Instrument(PDV),0%
+2000-06,IN,PDV-2575(PDV),Instrument(PDV),Instrument(PDV),25%
 NO SUBS.,IN,PDV-30120,PKG,PKG,0%
 3000-01,IN,PDV-30120(PDV),Instrument(PDV),Instrument(PDV),25%
 NO SUBS.,IN,PDV-30125,PKG,PKG,0%
@@ -17680,8 +17680,8 @@ NO SUBS.,IN,PIT-30172,PKG,PKG,0%
 120-03,EL,PK7502-MB-1A,Local_Control_Station,Local Control Station- PK7502-MB-1A,50%
 4000-06,MES,PK-7502-MB-1B,PAKAGE(PK),Package,0%
 120-03,EL,PK7502-MB-1B,Local_Control_Station,Local Control Station- PK7502-MB-1B,50%
-120-03,EL,PK7502-MP-1A,Local_Control_Station,Local Control Station- PK7502-MP-1A,0%
-120-03,EL,PK7502-MP-1B,Local_Control_Station,Local Control Station- PK7502-MP-1B,0%
+120-03,EL,PK7502-MP-1A,Local_Control_Station,Local Control Station- PK7502-MP-1A,50%
+120-03,EL,PK7502-MP-1B,Local_Control_Station,Local Control Station- PK7502-MP-1B,50%
 120-03,EL,PK7502-MP-2A,Local_Control_Station,Local Control Station- PK7502-MP-2A,50%
 120-03,EL,PK7502-MP-2B,Local_Control_Station,Local Control Station- PK7502-MP-2B,50%
 120-03,EL,PK7502-MP-3A,Local_Control_Station,Local Control Station- PK7502-MP-3A,50%
@@ -17690,22 +17690,22 @@ NO SUBS.,IN,PIT-30172,PKG,PKG,0%
 4000-06,MES,PK-7502-TK-2,PAKAGE(PK),Package,0%
 4000-08,MES,PK-8001,PAKAGE(PK),,DONE
 4000-08,MES,PK-8002,PAKAGE(PK),,DONE
-120-03,EL,PK8002-MP-1A,Local_Control_Station,Local Control Station- PK8002-MP-1A,50%
-120-03,EL,PK8002-MP-1B,Local_Control_Station,Local Control Station- PK8002-MP-1B,50%
-120-03,EL,PK8002-MX-1,Local_Control_Station,Local Control Station- PK8002-MX-1,50%
+120-03,EL,PK8002-MP-1A,Local_Control_Station,Local Control Station- PK8002-MP-1A,EXCEPTION_tmp
+120-03,EL,PK8002-MP-1B,Local_Control_Station,Local Control Station- PK8002-MP-1B,EXCEPTION_tmp
+120-03,EL,PK8002-MX-1,Local_Control_Station,Local Control Station- PK8002-MX-1,EXCEPTION_tmp
 4000-08,MES,PK-8003,PAKAGE(PK),,DONE
-120-03,EL,PK8003-MP-1A,Local_Control_Station,Local Control Station- PK8003-MP-1A,50%
-120-03,EL,PK8003-MP-1B,Local_Control_Station,Local Control Station- PK8003-MP-1B,50%
-120-03,EL,PK8003-MX-1,Local_Control_Station,Local Control Station- PK8003-MX-1,50%
+120-03,EL,PK8003-MP-1A,Local_Control_Station,Local Control Station- PK8003-MP-1A,EXCEPTION_tmp
+120-03,EL,PK8003-MP-1B,Local_Control_Station,Local Control Station- PK8003-MP-1B,EXCEPTION_tmp
+120-03,EL,PK8003-MX-1,Local_Control_Station,Local Control Station- PK8003-MX-1,EXCEPTION_tmp
 4000-08,MES,PK-8004,PAKAGE(PK),,DONE
-120-03,EL,PK8004-MP-1A,Local_Control_Station,Local Control Station- PK8004-MP-1A,50%
-120-03,EL,PK8004-MP-1B,Local_Control_Station,Local Control Station- PK8004-MP-1B,50%
-120-03,EL,PK8004-MX-1,Local_Control_Station,Local Control Station- PK8004-MX-1,50%
+120-03,EL,PK8004-MP-1A,Local_Control_Station,Local Control Station- PK8004-MP-1A,EXCEPTION_tmp
+120-03,EL,PK8004-MP-1B,Local_Control_Station,Local Control Station- PK8004-MP-1B,EXCEPTION_tmp
+120-03,EL,PK8004-MX-1,Local_Control_Station,Local Control Station- PK8004-MX-1,EXCEPTION_tmp
 4000-08,MES,PK-8005,PAKAGE(PK),,DONE
-120-03,EL,PK8005-MP-1A,Local_Control_Station,Local Control Station- PK8005-MP-1A,50%
-120-03,EL,PK8005-MP-1B,Local_Control_Station,Local Control Station- PK8005-MP-1B,50%
-120-03,EL,PK8401-MP-1A,Local_Control_Station,Local Control Station- PK8401-MP-1A,50%
-120-03,EL,PK8401-MP-1B,Local_Control_Station,Local Control Station- PK8401-MP-1B,50%
+120-03,EL,PK8005-MP-1A,Local_Control_Station,Local Control Station- PK8005-MP-1A,EXCEPTION_tmp
+120-03,EL,PK8005-MP-1B,Local_Control_Station,Local Control Station- PK8005-MP-1B,EXCEPTION_tmp
+120-03,EL,PK8401-MP-1A,Local_Control_Station,Local Control Station- PK8401-MP-1A,EXCEPTION_tmp
+120-03,EL,PK8401-MP-1B,Local_Control_Station,Local Control Station- PK8401-MP-1B,EXCEPTION_tmp
 120-03,EL,PK8401-MP-2A,Local_Control_Station,Local Control Station- PK8401-MP-2A,50%
 120-03,EL,PK8401-MP-2B,Local_Control_Station,Local Control Station- PK8401-MP-2B,50%
 4000-09,MER,PK-8401-P2A,PAKAGE(PK),OILY WATER TRANSFER PUMP,DONE
@@ -18034,7 +18034,7 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,DONE
 2000-02,IN,PSV-20151,Instrument(PSV),Instrument(PSV),50%
 2000-02,IN,PSV-20152,Instrument(PSV),Instrument(PSV),50%
 2000-02,IN,PSV-20153,Instrument(PSV),Instrument(PSV),50%
-2000-03,IN,PSV-2019,Instrument(PSV),Instrument(PSV),50%
+2000-03,IN,PSV-2019,Instrument(PSV),Instrument(PSV),Done
 3000-04,IN,PSV-20201,Instrument(PSV),Instrument(PSV),0%
 3000-04,IN,PSV-20202,Instrument(PSV),Instrument(PSV),50%
 3000-04,IN,PSV-20203,Instrument(PSV),Instrument(PSV),50%
@@ -18078,8 +18078,8 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,DONE
 3000-01,IN,PSV-30117,Instrument(PSV),Instrument(PSV),0%
 3000-01,IN,PSV-30118A,Instrument(PSV),Instrument(PSV),50%
 3000-01,IN,PSV-30121,Instrument(PSV),Instrument(PSV),0%
-3000-01,IN,PSV-30124,Instrument(PSV),Instrument(PSV),0%
-3000-01,IN,PSV-30125,Instrument(PSV),Instrument(PSV),0%
+3000-01,IN,PSV-30124,Instrument(PSV),Instrument(PSV),50%
+3000-01,IN,PSV-30125,Instrument(PSV),Instrument(PSV),50%
 3000-01,IN,PSV-30126A,Instrument(PSV),Instrument(PSV),50%
 3000-01,IN,PSV-30126B,Instrument(PSV),Instrument(PSV),50%
 3000-01,IN,PSV-30136,Instrument(PSV),Instrument(PSV),Done
@@ -18104,13 +18104,13 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,DONE
 7000-01,IN,PSV-5061,Instrument(PSV),Instrument(PSV),50%
 5000-01,IN,PSV-5073,Instrument(PSV),Instrument(PSV),Done
 5000-01,IN,PSV-5108,Instrument(PSV),Instrument(PSV),50%
-7000-01,IN,PSV-5179,Instrument(PSV),Instrument(PSV),0%
-7000-01,IN,PSV-5180,Instrument(PSV),Instrument(PSV),50%
+7000-01,IN,PSV-5179,Instrument(PSV),Instrument(PSV),50%
+7000-01,IN,PSV-5180,Instrument(PSV),Instrument(PSV),Done
 4000-08,IN,PSV-5220,Instrument(PSV),Instrument(PSV),Done
 5000-01,IN,PSV-5236,Instrument(PSV),Instrument(PSV),0%
 5000-01,IN,PSV-5239,Instrument(PSV),Instrument(PSV),0%
-7000-01,IN,PSV-5250,Instrument(PSV),Instrument(PSV),0%
-7000-01,IN,PSV-5251,Instrument(PSV),Instrument(PSV),0%
+7000-01,IN,PSV-5250,Instrument(PSV),Instrument(PSV),50%
+7000-01,IN,PSV-5251,Instrument(PSV),Instrument(PSV),50%
 7000-01,IN,PSV-5261,Instrument(PSV),Instrument(PSV),50%
 5000-04,IN,PSV-5339,Instrument(PSV),Instrument(PSV),Done
 5000-01,IN,PSV-5370,Instrument(PSV),Instrument(PSV),50%
@@ -18128,8 +18128,8 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,DONE
 5000-05,IN,PSV-5444,Instrument(PSV),Instrument(PSV),50%
 5000-05,IN,PSV-5450,Instrument(PSV),Instrument(PSV),DONE
 5000-05,IN,PSV-5451,Instrument(PSV),Instrument(PSV),DONE
-5000-05,IN,PSV-5461,Instrument(PSV),Instrument(PSV),50%
-5000-05,IN,PSV-5462,Instrument(PSV),Instrument(PSV),50%
+5000-05,IN,PSV-5461,Instrument(PSV),Instrument(PSV),Done
+5000-05,IN,PSV-5462,Instrument(PSV),Instrument(PSV),Done
 5000-01,IN,PSV-5512,Instrument(PSV),Instrument(PSV),DONE
 5000-01,IN,PSV-5514,Instrument(PSV),Instrument(PSV),DONE
 7000-01,IN,PSV-6021,Instrument(PSV),Instrument(PSV),0%
@@ -18153,7 +18153,7 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,DONE
 4000-04,IN,PSV-70137A,Instrument(PSV),Instrument(PSV),50%
 4000-04,IN,PSV-70137B,Instrument(PSV),Instrument(PSV),50%
 4000-02,IN,PSV-7023,Instrument(PSV),Instrument(PSV),Done
-4000-02,IN,PSV-7024,Instrument(PSV),Instrument(PSV),50%
+4000-02,IN,PSV-7024,Instrument(PSV),Instrument(PSV),Done
 4000-02,IN,PSV-7025,Instrument(PSV),Instrument(PSV),50%
 4000-04,IN,PSV-70255,Instrument(PSV),Instrument(PSV),50%
 4000-04,IN,PSV-70256,Instrument(PSV),Instrument(PSV),50%
@@ -18164,14 +18164,14 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,DONE
 4000-03,IN,PSV-7037,Instrument(PSV),Instrument(PSV),Done
 4000-02,IN,PSV-7038,Instrument(PSV),Instrument(PSV),Done
 4000-02,IN,PSV-7039,Instrument(PSV),Instrument(PSV),Done
-4000-02,IN,PSV-7057,Instrument(PSV),Instrument(PSV),50%
+4000-02,IN,PSV-7057,Instrument(PSV),Instrument(PSV),Done
 4000-02,IN,PSV-7058,Instrument(PSV),Instrument(PSV),Done
 4000-02,IN,PSV-7059,Instrument(PSV),Instrument(PSV),50%
 4000-02,IN,PSV-7060,Instrument(PSV),Instrument(PSV),50%
 4000-02,IN,PSV-7061,Instrument(PSV),Instrument(PSV),Done
 3000-01,IN,PSV-7065,Instrument(PSV),Instrument(PSV),Done
 4000-02,IN,PSV-7072,Instrument(PSV),Instrument(PSV),Done
-4000-02,IN,PSV-7073,Instrument(PSV),Instrument(PSV),50%
+4000-02,IN,PSV-7073,Instrument(PSV),Instrument(PSV),Done
 4000-04,IN,PSV-7095,Instrument(PSV),Instrument(PSV),Done
 4000-04,IN,PSV-7096,Instrument(PSV),Instrument(PSV),Done
 4000-04,IN,PSV-7097,Instrument(PSV),Instrument(PSV),Done
@@ -18195,8 +18195,8 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,DONE
 4000-04,IN,PSV-7198,Instrument(PSV),Instrument(PSV),DONE
 4000-04,IN,PSV-7215,Instrument(PSV),Instrument(PSV),DONE
 4000-04,IN,PSV-7218,Instrument(PSV),Instrument(PSV),DONE
-4000-05,IN,PSV-7253,Instrument(PSV),Instrument(PSV),50%
-4000-05,IN,PSV-7254,Instrument(PSV),Instrument(PSV),50%
+4000-05,IN,PSV-7253,Instrument(PSV),Instrument(PSV),Done
+4000-05,IN,PSV-7254,Instrument(PSV),Instrument(PSV),Done
 4000-05,IN,PSV-7256,Instrument(PSV),Instrument(PSV),50%
 4000-06,IN,PSV-75150A,Instrument(PSV),Instrument(PSV),0%
 4000-06,IN,PSV-75150B,Instrument(PSV),Instrument(PSV),0%
@@ -18506,16 +18506,16 @@ NO SUBS.,IN,PT-1007,Instrument(PT),Instrument(PT),25%
 1000-02,IN,PV-1011(NA),CABLE,CABLE(NA),0%
 1000-02,IN,PV-1011(PV),Instrument(PV),Instrument(PV),0%
 1000-01,IN,PV-1045(NA),CABLE,CABLE(NA),0%
-1000-01,IN,PV-1045(PV),Instrument(PV),Instrument(PV),0%
+1000-01,IN,PV-1045(PV),Instrument(PV),Instrument(PV),25%
 2000-03,IN,PV-2015(NA),CABLE,CABLE(NA),0%
-2000-03,IN,PV-2015(PV),Instrument(PV),Instrument(PV),0%
+2000-03,IN,PV-2015(PV),Instrument(PV),Instrument(PV),25%
 2000-02,IN,PV-20153,Instrument(PV),Instrument(PV),25%
 3000-04,IN,PV-20237,Instrument(PV),Instrument(PV),0%
 7000-01,IN,PV-2073(NA),CABLE,CABLE(NA),0%
 7000-01,IN,PV-2073(PV),Instrument(PV),Instrument(PV),25%
 2000-02,IN,PV-2224,Instrument(PV),Instrument(PV),0%
 2000-04,IN,PV-2361(NA),CABLE,CABLE(NA),0%
-2000-04,IN,PV-2361(PV),Instrument(PV),Instrument(PV),25%
+2000-04,IN,PV-2361(PV),Instrument(PV),Instrument(PV),50%
 2000-04,IN,PV-2363(NA),CABLE,CABLE(NA),DONE
 2000-04,IN,PV-2363(PV),Instrument(PV),Instrument(PV),50%
 2000-05,IN,PV-2406(NA),CABLE,CABLE(NA),0%
@@ -18525,7 +18525,7 @@ NO SUBS.,IN,PT-1007,Instrument(PT),Instrument(PT),25%
 1000-02,IN,PV-2536(NA),CABLE,CABLE(NA),0%
 1000-02,IN,PV-2536(PV),Instrument(PV),Instrument(PV),25%
 3000-04,IN,PV-2608(NA),CABLE,CABLE(NA),0%
-3000-04,IN,PV-2608(PV),Instrument(PV),Instrument(PV),0%
+3000-04,IN,PV-2608(PV),Instrument(PV),Instrument(PV),25%
 NO SUBS.,IN,PV-30123,PKG,PKG,0%
 3000-01,IN,PV-30123(PV),Instrument(PV),Instrument(PV),25%
 3000-01,IN,PV-30138(NA),CABLE,CABLE(NA),0%
@@ -18539,7 +18539,7 @@ NO SUBS.,IN,PV-30123,PKG,PKG,0%
 5000-01,IN,PV-5069(NA),CABLE,CABLE(NA),0%
 5000-01,IN,PV-5069(PV),Instrument(PV),Instrument(PV),25%
 5000-01,IN,PV-5091A(NA),CABLE,CABLE(NA),0%
-5000-01,IN,PV-5091A(PV),Instrument(PV),Instrument(PV),0%
+5000-01,IN,PV-5091A(PV),Instrument(PV),Instrument(PV),25%
 5000-01,IN,PV-5091B(NA),CABLE,CABLE(NA),0%
 5000-01,IN,PV-5091B(PV),Instrument(PV),Instrument(PV),25%
 7000-01,IN,PV-5109(NA),CABLE,CABLE(NA),DONE
@@ -18561,9 +18561,9 @@ NO SUBS.,IN,PV-30123,PKG,PKG,0%
 4000-02,IN,PV-70166A,Instrument(PV),Instrument(PV),0%
 4000-02,IN,PV-70166B,Instrument(PV),Instrument(PV),0%
 4000-02,IN,PV-7025A(NA),CABLE,CABLE(NA),Done
-4000-02,IN,PV-7025A(PV),Instrument(PV),Instrument(PV),25%
+4000-02,IN,PV-7025A(PV),Instrument(PV),Instrument(PV),50%
 4000-02,IN,PV-7025B(NA),CABLE,CABLE(NA),Done
-4000-02,IN,PV-7025B(PV),Instrument(PV),Instrument(PV),25%
+4000-02,IN,PV-7025B(PV),Instrument(PV),Instrument(PV),50%
 4000-02,IN,PV-7028(NA),CABLE,CABLE(NA),0%
 4000-02,IN,PV-7028(PV),Instrument(PV),Instrument(PV),50%
 4000-03,IN,PV-7031A(NA),CABLE,CABLE(NA),Done
@@ -18586,7 +18586,7 @@ NO SUBS.,IN,PV-30123,PKG,PKG,0%
 4000-04,IN,PV-7094(PV),Instrument(PV),Instrument(PV),50%
 4000-04,IN,PV-7101(NA),CABLE,CABLE(NA),0%
 4000-04,IN,PV-7101(PV),Instrument(PV),Instrument(PV),25%
-7000-01,IN,PV-7151(NA),CABLE,CABLE(NA),0%
+7000-01,IN,PV-7151(NA),CABLE,CABLE(NA),Done
 7000-01,IN,PV-7151(PV),Instrument(PV),Instrument(PV),50%
 4000-08,IN,PV-80118A,Instrument(PV),Instrument(PV),0%
 4000-08,IN,PV-80118B,Instrument(PV),Instrument(PV),0%
@@ -19873,12 +19873,12 @@ NO SUBS.,IN,SV-004,CABLE,CABLE(NA),0%
 120-03,EL,SWB3A-02,LV Switchgear,LV Switchgear,29%
 120-04,EL,SWB3A-03,LV Switchgear,LV Switchgear,29%
 120-05,EL,SWB3A-04,LV Switchgear,LV Switchgear,29%
-120-06,EL,SWB3A-05,LV Switchgear,LV Switchgear,29%
+120-06,EL,SWB3A-05,LV Switchgear,LV Switchgear,EXCEPTION_tmp
 120-02,EL,SWB3B-01,LV Switchgear,LV Switchgear,29%
 120-03,EL,SWB3B-02,LV Switchgear,LV Switchgear,29%
 120-04,EL,SWB3B-03,LV Switchgear,LV Switchgear,29%
 120-05,EL,SWB3B-04,LV Switchgear,LV Switchgear,29%
-120-06,EL,SWB3B-05,LV Switchgear,LV Switchgear,29%
+120-06,EL,SWB3B-05,LV Switchgear,LV Switchgear,EXCEPTION_tmp
 3000-01,IN,SY-30103A,Instrument(X),Instrument(SY),0%
 3000-01,IN,SY-30103B,Instrument(X),Instrument(SY),0%
 3000-01,IN,SY-30103C,Instrument(X),Instrument(SY),0%
@@ -21213,7 +21213,7 @@ FGS-01,IN,TGD-0022(TGD),Fire Alarm,Fire Alarm(TGD),0%
 3000-04,IN,TSV-20203,Instrument(TSV),Instrument(TSV),50%
 3000-01,IN,TSV-30137,Instrument(TSV),Instrument(TSV),50%
 3000-01,IN,TSV-30138,Instrument(TSV),Instrument(TSV),50%
-3000-01,IN,TSV-30159,Instrument(TSV),Instrument(TSV),0%
+3000-01,IN,TSV-30159,Instrument(TSV),Instrument(TSV),50%
 3000-01,IN,TSV-30160,Instrument(TSV),Instrument(TSV),50%
 1000-01,IN,TT-1001(NA),CABLE,CABLE(NA),Done
 1000-01,IN,TT-1001(TT),Instrument(TT),Instrument(TT),DONE
@@ -21239,7 +21239,7 @@ NO SUBS.,IN,TT-1007,Instrument(TT),Instrument(TT),50%
 1000-01,IN,TT-1042(TT),Instrument(TT),Instrument(TT),Done
 1000-01,IN,TT-1045(NA),CABLE,CABLE(NA),Done
 1000-01,IN,TT-1045(TT),Instrument(TT),Instrument(TT),DONE
-7000-01,IN,TT-1047(NA),CABLE,CABLE(NA),0%
+7000-01,IN,TT-1047(NA),CABLE,CABLE(NA),Done
 7000-01,IN,TT-1047(TT),Instrument(TT),Instrument(TT),Done
 2000-03,IN,TT-2001(NA),CABLE,CABLE(NA),0%
 2000-03,IN,TT-2001(TT),Instrument(TT),Instrument(TT),Done
@@ -21589,7 +21589,7 @@ NO SUBS.,IN,TT-30147,PKG,PKG,0%
 5000-01,IN,TT-5074(TT),Instrument(TT),Instrument(TT),DONE
 5000-01,IN,TT-5097(NA),CABLE,CABLE(NA),Done
 5000-01,IN,TT-5097(TT),Instrument(TT),Instrument(TT),DONE
-7000-01,IN,TT-5110(NA),CABLE,CABLE(NA),0%
+7000-01,IN,TT-5110(NA),CABLE,CABLE(NA),Done
 7000-01,IN,TT-5110(TT),Instrument(TT),Instrument(TT),DONE
 5000-01,IN,TT-5111(NA),CABLE,CABLE(NA),Done
 5000-01,IN,TT-5111(TT),Instrument(TT),Instrument(TT),DONE
@@ -21761,7 +21761,7 @@ NO SUBS.,IN,TT-30147,PKG,PKG,0%
 4000-02,IN,TV-2540(TV),Instrument(TV),Instrument(TV),50%
 3000-01,IN,TV-30152,Instrument(TV),Instrument(TV),0%
 2000-05,IN,TV-5064(NA),CABLE,CABLE(NA),0%
-2000-05,IN,TV-5064(TV),Instrument(TV),Instrument(TV),0%
+2000-05,IN,TV-5064(TV),Instrument(TV),Instrument(TV),25%
 2000-05,IN,TV-5277(NA),CABLE,CABLE(NA),0%
 2000-05,IN,TV-5277(TV),Instrument(TV),Instrument(TV),0%
 4000-02,IN,TV-7002(NA),CABLE,CABLE(NA),Done
@@ -21779,11 +21779,11 @@ NO SUBS.,IN,TT-30147,PKG,PKG,0%
 4000-04,IN,TV-7027(NA),CABLE,CABLE(NA),0%
 4000-04,IN,TV-7027(TV),Instrument(TV),Instrument(TV),0%
 4000-03,IN,TV-7032(NA),CABLE,CABLE(NA),Done
-4000-03,IN,TV-7032(TV),Instrument(TV),Instrument(TV),25%
+4000-03,IN,TV-7032(TV),Instrument(TV),Instrument(TV),50%
 4000-03,IN,TV-7033(NA),CABLE,CABLE(NA),Done
-4000-03,IN,TV-7033(TV),Instrument(TV),Instrument(TV),25%
+4000-03,IN,TV-7033(TV),Instrument(TV),Instrument(TV),50%
 4000-02,IN,TV-7052(NA),CABLE,CABLE(NA),Done
-4000-02,IN,TV-7052(TV),Instrument(TV),Instrument(TV),25%
+4000-02,IN,TV-7052(TV),Instrument(TV),Instrument(TV),50%
 4000-02,IN,TV-7053(NA),CABLE,CABLE(NA),0%
 4000-02,IN,TV-7053(TV),Instrument(TV),Instrument(TV),0%
 4000-02,IN,TV-7071A(NA),CABLE,CABLE(NA),0%
@@ -22279,12 +22279,12 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
 1000-01,IN,USV-1001,Instrument(USV),Instrument(USV),25%
 2000-03,IN,USV-2010,Instrument(USV),Instrument(USV),0%
 4000-02,IN,USV-2021,Instrument(USV),Instrument(USV),25%
-2000-03,IN,USV-2038,Instrument(USV),Instrument(USV),25%
-2000-03,IN,USV-2039,Instrument(USV),Instrument(USV),0%
+2000-03,IN,USV-2038,Instrument(USV),Instrument(USV),50%
+2000-03,IN,USV-2039,Instrument(USV),Instrument(USV),25%
 2000-03,IN,USV-2041,Instrument(USV),Instrument(USV),0%
-2000-03,IN,USV-2045,Instrument(USV),Instrument(USV),0%
-2000-03,IN,USV-2048,Instrument(USV),Instrument(USV),0%
-2000-03,IN,USV-2049,Instrument(USV),Instrument(USV),0%
+2000-03,IN,USV-2045,Instrument(USV),Instrument(USV),25%
+2000-03,IN,USV-2048,Instrument(USV),Instrument(USV),25%
+2000-03,IN,USV-2049,Instrument(USV),Instrument(USV),25%
 2000-03,IN,USV-2052,Instrument(USV),Instrument(USV),0%
 2000-01,IN,USV-2071,Instrument(USV),Instrument(USV),50%
 2000-01,IN,USV-2092,Instrument(USV),Instrument(USV),25%
@@ -22298,9 +22298,9 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
 1000-02,IN,USV-2542,Instrument(USV),Instrument(USV),25%
 1000-02,IN,USV-2543,Instrument(USV),Instrument(USV),0%
 1000-02,IN,USV-2544,Instrument(USV),Instrument(USV),0%
-1000-02,IN,USV-2545,Instrument(USV),Instrument(USV),0%
-1000-02,IN,USV-2547,Instrument(USV),Instrument(USV),0%
-1000-02,IN,USV-2548,Instrument(USV),Instrument(USV),0%
+1000-02,IN,USV-2545,Instrument(USV),Instrument(USV),25%
+1000-02,IN,USV-2547,Instrument(USV),Instrument(USV),25%
+1000-02,IN,USV-2548,Instrument(USV),Instrument(USV),25%
 1000-02,IN,USV-2549,Instrument(USV),Instrument(USV),0%
 3000-01,IN,USV-3018,Instrument(USV),Instrument(USV),25%
 3000-02,IN,USV-3052,Instrument(USV),Instrument(USV),0%
@@ -22495,8 +22495,8 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
 3000-01,IN,UV-30109,Instrument(UV),Instrument(UV),0%
 3000-01,IN,UV-30110,Instrument(UV),Instrument(UV),0%
 3000-01,IN,UV-30113,Instrument(UV),Instrument(UV),25%
-3000-01,IN,UV-30115,Instrument(UV),Instrument(UV),0%
-3000-01,IN,UV-30116,Instrument(UV),Instrument(UV),0%
+3000-01,IN,UV-30115,Instrument(UV),Instrument(UV),25%
+3000-01,IN,UV-30116,Instrument(UV),Instrument(UV),25%
 5000-01,IN,UV-5021,Instrument(UV),Instrument(UV),25%
 1000-03,IN,UV-6035,Instrument(UV),Instrument(UV),25%
 4000-06,IN,UV-75150A,Instrument(UV),Instrument(UV),0%
@@ -22528,11 +22528,11 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
 4000-06,IN,UV-75164,Instrument(UV),Instrument(UV),0%
 4000-06,IN,UV-75165,Instrument(UV),Instrument(UV),0%
 4000-08,IN,UV-8003,Instrument(UV),Instrument(UV),0%
-4000-06,IN,UV-8411,Instrument(UV),Instrument(UV),0%
+4000-06,IN,UV-8411,Instrument(UV),Instrument(UV),25%
 4000-06,IN,UV-8412,Instrument(UV),Instrument(UV),0%
-4000-06,IN,UV-8413,Instrument(UV),Instrument(UV),0%
-4000-06,IN,UV-8414,Instrument(UV),Instrument(UV),0%
-4000-06,IN,UV-8415,Instrument(UV),Instrument(UV),0%
+4000-06,IN,UV-8413,Instrument(UV),Instrument(UV),25%
+4000-06,IN,UV-8414,Instrument(UV),Instrument(UV),25%
+4000-06,IN,UV-8415,Instrument(UV),Instrument(UV),25%
 2000-02,IN,UY-2125(NA),CABLE,CABLE(NA),0%
 2000-02,IN,UY-2125(UY),Instrument(X),Instrument(UY),0%
 2000-01,IN,UY-2233(NA),CABLE,CABLE(NA),0%
