@@ -974,6 +974,10 @@ TEL-07,EL,07-SP-15,Paging Device,C,Preservation shall be done.,PL-17137
 1000-01,PI,1000-01-NG-01-209,PI_TP,C,J: TP1|TP2|TP3(TEMPRORY CAP) SHALL BE BEFOR CONNECTION TO THE OPPSITE PACKAGE (GAS STATION),PL-01041
 1000-01,PI,1000-01-NG-02-407,PI_TP,C,ALL INSTRUMENT INDICATOR SHALL BE INSTALL,PL-21899
 1000-01,PI,1000-01-NG-02-407,PI_TP,C,ORIFICE PLATE SHALL BE INSTALL (FO-2552),PL-21900
+1000-01,PI,1000-01-NG-03-519,PI_TP,C,All Instrument Devices Must Be Installed After Face Cleaning Before Precom ( FT-2151| TV-2220 ),PL-32668
+1000-01,PI,1000-01-NG-03-519,PI_TP,C,All Installed Valves Should Be Lubricated,PL-32669
+1000-01,PI,1000-01-NG-03-519,PI_TP,C,All Threded Branches And Joints Of The Orifice Flanges | Must Be Seal Welded,PL-32670
+1000-01,PI,1000-01-NG-03-519,PI_TP,C,the Vent Holes Of The Support Shall Be Filled With The Mastic . (Final),PL-32671
 1000-01,PI,1000-01-NG-04-774,PI_TP,C,ORIFICE PLATE SHALL BE INSTALL,PL-21901
 1000-01,PI,1000-01-NG-04-774,PI_TP,C,ORIFICE PLATE SHALL BE INSTALL,PL-21902
 1000-01,PI,1000-01-NG-04-774,PI_TP,C,ORIGINAL CAP SHALL BE INSTALL NIS,PL-21903
@@ -1628,6 +1632,11 @@ TEL-07,EL,07-SP-15,Paging Device,C,Preservation shall be done.,PL-17137
 4000-05,PI,4000-05-BD-13-799,PI_TP,C,THE INSTRUMENT DEVICE (LG-7255) SHALL BE INSTALL,PL-12185
 4000-05,PI,4000-05-VA-02-665,PI_TP,C,ALL ORIFICE PLATE DIDN’T INSTALL DUE TO PRECOMM ORDER,PL-02416
 4000-05,PI,4000-05-VA-02-665,PI_TP,C,ALL GASKETS ARE TEMPORARY DUE TO PRECOMM NOTE ON P&ID,PL-02417
+4000-06,PI,4000-06-AC-01-1058,PI_TP,C,Valve Lubrication Shall Be Done,PL-32672
+4000-06,PI,4000-06-AC-01-1058,PI_TP,C,All Instrument Devicees Should Be Installed (LG-8421 And LT-8419 And Ring LT-8419 And FI-8402),PL-32673
+4000-06,PI,4000-06-AC-01-1058,PI_TP,C,DEM Water Certificate Shall Be Attach,PL-32674
+4000-06,PI,4000-06-AC-01-1058,PI_TP,C,All Temporary Gaskets Used For All Nozzeles And Flanges Should Be Replaced With the Original Gasketes,PL-32675
+4000-06,PI,4000-06-AC-01-1058,PI_TP,C,The Vent Holes Of The Support Shall Be Filled With The Mastic ( Final ),PL-32676
 4000-06,PI,4000-06-AC-04-1074,PI_TP,C,Orifice Plate & Instrument Indicator Shall Be Install (PG-7508),PL-30024
 4000-06,PI,4000-06-AC-04-1074,PI_TP,C,All Installed Valve Shall Be Lubricated,PL-30025
 4000-06,PI,4000-06-AC-04-1074,PI_TP,C,All Temporary Gaskets Used Fore The Nozzle Pump And Other Flanges Should Be Replaced With The Original Gasket,PL-30026
@@ -2385,6 +2394,11 @@ TEL-07,EL,07-SP-15,Paging Device,C,Preservation shall be done.,PL-17137
 4000-14,PI,57-FW-053,PI_TP,B,All Gasket | Nuts | Bolts shall Be Install,PL-23884
 4000-14,PI,57-FW-053,PI_TP,B,B.Fly Valve Is Shortage (14|15) And Shall Be Test Befor Install,PL-23885
 4000-14,PI,57-FW-053,PI_TP,B,All Flang Shall Be Blind,PL-23886
+4000-14,PI,57-FW-UG-202,PI_TP,B,The UG Lines That Are Connected To The AG Lines Must Be Wrapped And Repaired . Also After Hollyday Test Shall Be Delivered,PL-32684
+4000-14,PI,57-FW-UG-202,PI_TP,C,The Vent Hole Of The Supports Should Be Filled With The Mastic . (Final),PL-32685
+4000-14,PI,57-FW-UG-202,PI_TP,C,Orifice Plate Item (RO-9020B) Must Be Installed,PL-32686
+4000-14,PI,57-FW-UG-202,PI_TP,C,All Valves Should Be Lubricated,PL-32687
+4000-14,PI,57-FW-UG-202,PI_TP,C,Groting Under The Base Plate Supports Shall Be Done,PL-32688
 4000-14,PI,57-FW-UG-204,PI_TP,C,"THE INSULATION KIT ITEM 4""-CL:150 MUST BE INSTALL",PL-24004
 4000-14,PI,57-FW-UG-204,PI_TP,C,ALL VALVES SHALL BE LUBRICATE,PL-24005
 4000-14,PI,57-FW-UG-204,PI_TP,C,ORIFICE PLATE 3 & 6 MM 4|150|RF (RO-9002B) SHALL BE INSTALLED,PL-24006
@@ -2450,6 +2464,17 @@ TEL-07,EL,07-SP-15,Paging Device,C,Preservation shall be done.,PL-17137
 4000-15,PI,60-PW-UG-KC-281,PI_TP,C,"All Insulation Kits 2""- CL:150 | RF Shall Be Installed",PL-24671
 4000-15,PI,60-PW-UG-KC-281,PI_TP,C,All Manholes Must Be Drying And Cleaning (VB-6001 And VB-6002),PL-24672
 4000-15,PI,60-PW-UG-KC-281,PI_TP,C,The Isometeric New Version Attached To The Opposite Package,PL-24673
+4000-08,PI,61-CWR-068,PI_TP,B,Cathodic Protection Shall Be Done,PL-32657
+4000-08,PI,61-CWR-068,PI_TP,B,Originall Gasket | Nut | Bolt Shall Be Install,PL-32658
+4000-08,PI,61-CWR-068,PI_TP,B,All Flange Shall Be Blind,PL-32659
+4000-08,PI,61-CWR-068,PI_TP,B,Tie in Joint Report (TP-012) Shall Be Revise,PL-32660
+4000-08,PI,61-CWR-068,PI_TP,B,All Doc Shall Be Revise For Iso 61002 Rev 01A,PL-32661
+4000-08,PI,61-CWR-068,PI_TP,B,Sand fill And Wrapping Shall Be Done,PL-32662
+4000-08,PI,61-CWR-068,PI_TP,B,Cleaning Shall Be Redone,PL-32663
+4000-08,PI,61-CWS-069,PI_TP,B,Original Nut | Bolt | Gaskets Shall Be Done After Test,PL-32664
+4000-08,PI,61-CWS-069,PI_TP,B,Catodic Protection Shall Be Done,PL-32665
+4000-08,PI,61-CWS-069,PI_TP,B,Line Not Align After Sand Fill,PL-32666
+4000-08,PI,61-CWS-069,PI_TP,B,Line Shall Be Recleaning,PL-32667
 4000-14,PI,61-FW-074,PI_TP,B,Original Nuts | Bolts And Gasket Shall Be Done,PL-23847
 4000-14,PI,61-FW-074,PI_TP,B,Catodic Protection Shall Be Done,PL-23848
 4000-14,PI,61-FW-UG-213,PI_TP,C,Cathodic Protection Shall Be Done,PL-31251
@@ -2504,6 +2529,8 @@ TEL-07,EL,07-SP-15,Paging Device,C,Preservation shall be done.,PL-17137
 4000-08,PI,63-CWR-UG-KC-052,PI_TP,B,All Original B / N / G Shall Be Install After Hydro Test,PL-24099
 4000-08,PI,63-CWR-UG-KC-052-1,PI_TP,B,All Original B / N / G Shall Be Install Fter Hydro Test,PL-24097
 4000-08,PI,63-CWS-UG-KC-071,PI_TP,B,All Original B|N|G Shall Be Installed After Test,PL-32431
+4000-08,PI,63-CWS-UG-KC-089,PI_TP,B,All Original Bolt | Nut < Gasket Shall Be Installed After Test,PL-32655
+4000-08,PI,63-CWS-UG-KC-089,PI_TP,C,Joint : 29ATN And J:29BTN Shall Be Welded After Precom,PL-32656
 4000-14,PI,63-FW-UG-KC-058,PI_TP,C,ALL ORIGINAL B|N|G SHALL BE INSTALL,PL-23693
 4000-14,PI,63-FW-UG-KC-059,PI_TP,C,ALL ORIGINAL B|N|G SHALL BE INSTALL,PL-23694
 4000-14,PI,63-FW-UG-KC-069,PI_TP,C,ORIGINAL B/N/G SHALL BE INSTALL,PL-23696
@@ -2552,6 +2579,15 @@ TEL-07,EL,07-SP-15,Paging Device,C,Preservation shall be done.,PL-17137
 4000-08,PI,66-CWR-UG-097,PI_TP,B,Cathodic Protrction Shall Be Done,PL-23998
 4000-08,PI,66-CWS-UG-122,PI_TP,B,Line Shall Be Align,PL-23999
 4000-08,PI,66-CWS-UG-122,PI_TP,B,Cathodic Protection Shall Be Done,PL-24000
+4000-14,PI,66-FOS-UG-111,PI_TP,C,"Insulation Kit 4""-CL-150-RF Must Be Installed",PL-32693
+4000-14,PI,66-FOS-UG-111,PI_TP,C,The Temporary Gasket And Stud Bolts Used For Flanges Connection Should Be Replaced With The Original Gasket  And Bolts,PL-32694
+4000-14,PI,66-FOS-UG-115,PI_TP,B,All Original Bolt | Nut | Gasket Shall Be Installed,PL-32689
+4000-14,PI,66-FOS-UG-115,PI_TP,A,Flange Shall Be Align,PL-32690
+4000-14,PI,66-FOS-UG-115,PI_TP,B,Tie in Shall Be Done,PL-32691
+4000-14,PI,66-FOS-UG-115,PI_TP,B,Cathodic Protection Shall Be Done,PL-32692
+4000-14,PI,66-FOS-UG-KC-213,PI_TP,C,Insulation Kit Shall Be Install,PL-32681
+4000-14,PI,66-FOS-UG-KC-213,PI_TP,C,Flexible Joints Shall BeInstalled (HOSE-6605|6606),PL-32682
+4000-14,PI,66-FOS-UG-KC-213,PI_TP,C,All Temporary Gaskets And Stud Bolts Used Fore The All Flanges Connection Must Be Replaced With The Original,PL-32683
 4000-14,PI,66-FW-UG-018,PI_TP,B,PT No : 11|12 Is Shortage (B.F.Valve) And Shall Be Test Befor,PL-23878
 4000-14,PI,66-FW-UG-018,PI_TP,B,PT No : 11|12 Is Shortage (B.F.Valve) And Shall Be Test Befor Installation For Precom,PL-23879
 4000-14,PI,66-FW-UG-018,PI_TP,B,UDD Shall Be Revise ( New Rev. Shall Be Attach),PL-23883
@@ -2582,6 +2618,10 @@ TEL-07,EL,07-SP-15,Paging Device,C,Preservation shall be done.,PL-17137
 4000-08,PI,67-CWR-UG-126,PI_TP,B,Sleeve Erection Shall Be Check By,PL-23995
 4000-08,PI,67-CWR-UG-126,PI_TP,B,Cathodic Protection Shall Be Done,PL-23996
 4000-08,PI,67-CWR-UG-126,PI_TP,B,All Original B | N | G Shall Be Installed,PL-23997
+4000-14,PI,67-FOS-UG-119,PI_TP,C,Line Shall Be Complated Flexible Hose Shall Be Install,PL-32677
+4000-14,PI,67-FOS-UG-119,PI_TP,C,All Original B | N | G Shall Be Install,PL-32678
+4000-14,PI,67-FOS-UG-119,PI_TP,B,N/B/G Not Install,PL-32679
+4000-14,PI,67-FOS-UG-119,PI_TP,B,Tie in Joint Shall Be Work,PL-32680
 4000-14,PI,67-FW-023,PI_TP,B,Instrument Shall Be Install,PL-23863
 4000-14,PI,67-FW-023,PI_TP,B,BF Valve Is Shortage And Shall Be Test Befor Installtion,PL-23864
 4000-14,PI,67-FW-023,PI_TP,B,Piping Plane Shall Be Rev.,PL-23865
@@ -3040,6 +3080,15 @@ TEL-09,EL,CR-SP-03,Paging Device,A,Loud Speaker is not install.,PL-22421
 3000-03,MES,E-3003-3,Exchanger(E),C,Bolting lubricant is not done,PL-12314
 3000-03,MES,E-3003-3,Exchanger(E),C,Some points need touch up,PL-12296
 3000-03,MES,E-3003-3,Exchanger(E),C, Punch List clear,PL-12342
+3000-01,MES,E-3012,Exchanger(E),C,Some points need touch up,PL-32646
+3000-01,MES,E-3012,Exchanger(E),C,GENERAL CLEANING,PL-32647
+3000-01,MES,E-3012,Exchanger(E),C,PRESERVATION NOT DONE,PL-32648
+3000-01,MES,E-3012,Exchanger(E),C,Some points need touch up,PL-32649
+3000-01,MES,E-3012,Exchanger(E),C,MONTHLY PRESERVATION ,PL-32650
+3000-01,MES,E-3012,Exchanger(E),C,Check the general Cleaning after all activity done,PL-32651
+3000-01,MES,E-3012,Exchanger(E),C,Some points need touch up,PL-32652
+3000-01,MES,E-3012,Exchanger(E),C,Bolting lubricant is not done,PL-32653
+3000-01,MES,E-3012,Exchanger(E),C, Punch List clear,PL-32654
 5000-01,MES,E-5001,Exchanger(E),C,Bolting lubricant is not done,PL-12332
 5000-01,MES,E-5001,Exchanger(E),C,PUNCH LIST CLEAR,PL-12351
 5000-01,MES,E-5001,Exchanger(E),C,Some points need touch up,PL-12297
@@ -3094,6 +3143,13 @@ TEL-09,EL,CR-SP-03,Paging Device,A,Loud Speaker is not install.,PL-22421
 5000-04,MES,E-5008,Exchanger(E),A,FULL BOLT SUPPORT LEG(FOOT),PL-12239
 5000-04,MES,E-5008,Exchanger(E),A,FULL BOLTING NOT DONE,PL-12217
 5000-04,MES,E-5008,Exchanger(E),C,MONTHLY PRESERVATION ,PL-12260
+5000-04,MES,E-5008,Exchanger(E),C,Some points need touch up,PL-32630
+5000-04,MES,E-5008,Exchanger(E),C,PRESERVATION NOT DONE,PL-32631
+5000-04,MES,E-5008,Exchanger(E),C,REPAIR SOURFACE GROUT,PL-32632
+5000-04,MES,E-5008,Exchanger(E),C,Check the general Cleaning after all activity done,PL-32633
+5000-04,MES,E-5008,Exchanger(E),C,Some points need touch up,PL-32634
+5000-04,MES,E-5008,Exchanger(E),C,Bolting lubricant is not done,PL-32635
+5000-04,MES,E-5008,Exchanger(E),C, Punch List clear,PL-32636
 5000-01,MES,E-5010,Exchanger(E),C,GENERAL CLEANING,PL-15683
 5000-01,MES,E-5010,Exchanger(E),C,Some points need touch up,PL-15684
 5000-01,MES,E-5010,Exchanger(E),C,Bolting lubricant is not done,PL-15685
@@ -3128,6 +3184,15 @@ ES-03,EL,E58-LAB-01,Earthing System,A,عدم اجراي کابل ارت براي
 1000-03,MES,E-6004,Exchanger(E),C,PRESERVATION NOT DONE,PL-17231
 1000-03,MES,E-6004,Exchanger(E),C,REMOVE SCAFFOLD,PL-17232
 1000-03,MES,E-6004,Exchanger(E),C,Some points need touch up,PL-17233
+4000-05,MES,E-7001,Exchanger(E),C,Some points need touch up,PL-32637
+4000-05,MES,E-7001,Exchanger(E),C,GENERAL CLEANING,PL-32638
+4000-05,MES,E-7001,Exchanger(E),C,PRESERVATION NOT DONE,PL-32639
+4000-05,MES,E-7001,Exchanger(E),C,Some points need touch up,PL-32640
+4000-05,MES,E-7001,Exchanger(E),C,MONTHLY PRESERVATION ,PL-32641
+4000-05,MES,E-7001,Exchanger(E),C,Check the general Cleaning after all activity done,PL-32642
+4000-05,MES,E-7001,Exchanger(E),C,Some points need touch up,PL-32643
+4000-05,MES,E-7001,Exchanger(E),C,Bolting lubricant is not done,PL-32644
+4000-05,MES,E-7001,Exchanger(E),C, Punch List clear,PL-32645
 ES-01,EL,E8-26(ES-01),Earthing System,A,Earth(HVAC|LIGHTING PANEL|DRY TRANS|…)are incomplete  (Shortage)ALL TAG IN ES-01,PL-25365
 120-01,EL,EAP-MC-2001,Power Cable A,B,Tag no(s.s) shall be install.,PL-06199
 120-01,EL,EAP-MC-2001,Power Cable A,B,CABLE TAG(S.S) SHALL BE INSTALLED.,PL-30163
