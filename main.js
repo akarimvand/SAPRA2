@@ -356,6 +356,13 @@ function filterModalTable() {
              }
         }
 
+
+function isPendingStatus(status) {
+    if (!status) return false;
+    return /\d/.test(status) || status.includes('%');
+}
+
+
         function filterDetailedItems(context) {
             let filtered = detailedItemsData;
             let modalTitle = 'Item Details';
@@ -375,18 +382,22 @@ function filterModalTable() {
 
                  // Filter by status (unless status is TOTAL)
                  if (context.status !== 'TOTAL') {
-                      if (context.status === 'OTHER') {
-                           // Filter items whose status is NOT DONE or PENDING (case-insensitive)
-                           filtered = filtered.filter(item =>
-                               // Check if status is defined and not empty, THEN compare case-insensitively
-                               // If status is empty or null/undefined, this condition will be false, including them.
-                               !item.status || (item.status.toLowerCase() !== 'done' && item.status.toLowerCase() !== 'pending')
-                            );
-                      } else if (context.status === 'HOLD') { // Added filtering for HOLD status
+if (context.status === 'OTHER') {
+    filtered = filtered.filter(item =>
+        !item.status || (
+            item.status.toLowerCase() !== 'done' && !isPendingStatus(item.status)
+        )
+    );
+} else if (context.status === 'HOLD') { // Added filtering for HOLD status
                            filtered = filtered.filter(item => item.status && item.status.toLowerCase() === 'hold'); // Convert to lower case
-                      } else { // Filter by specific status (DONE or PENDING) (case-insensitive)
-                           filtered = filtered.filter(item => item.status && item.status.toLowerCase() === context.status.toLowerCase()); // Convert both to lower case
-                      }
+} else if (context.status === 'PENDING') {
+    filtered = filtered.filter(item => isPendingStatus(item.status));
+} else {
+    // For 'DONE' or other exact matches
+    filtered = filtered.filter(item => 
+        item.status && item.status.toLowerCase() === context.status.toLowerCase()
+    );
+}
                  } // If status is TOTAL, no further status filtering needed
 
             } else if (context.type === 'table') {
