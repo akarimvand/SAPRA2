@@ -70,7 +70,6 @@ const ICONS = {
             sidebarOverlay: document.getElementById('sidebarOverlay'),
             mainContent: document.getElementById('mainContent'),
             treeView: document.getElementById('treeView'),
-            selectedViewTitleContainer: document.getElementById('selectedViewTitleContainer'),
             searchInput: document.getElementById('searchInput'),
             dashboardTitle: document.getElementById('dashboardTitle'),
             totalItemsCounter: document.getElementById('totalItemsCounter'),
@@ -1003,24 +1002,19 @@ function filterDetailedItems(context) {
         function updateView() {
             aggregatedStats = _aggregateStatsForView(selectedView, processedData.systemMap, processedData.subSystemMap);
 
-            // Update the selected view title in the sidebar
-            let selectedTitleHTML = '<h5>All Systems</h5>'; // Default title
+            // Update the dashboard title based on the selected view type
+            let titleText = 'Dashboard';
             if (selectedView.type === 'system' && selectedView.id) {
                 const systemName = processedData.systemMap[selectedView.id]?.name || selectedView.name;
-                selectedTitleHTML = `
-                    <h6 class="text-muted mb-0">System</h6>
-                    <h5 class="mb-0">${selectedView.id} - ${systemName}</h5>`;
+                titleText = `System: ${selectedView.id} - ${systemName}`;
             } else if (selectedView.type === 'subsystem' && selectedView.id) {
                 const systemName = processedData.systemMap[selectedView.parentId]?.name || selectedView.parentId;
                 const subsystemName = processedData.subSystemMap[selectedView.id]?.name || selectedView.name;
-                selectedTitleHTML = `
-                    <h6 class="text-muted mb-1">System: ${selectedView.parentId} - ${systemName}</h6>
-                    <h5 class="mb-0">Subsystem: ${selectedView.id} - ${subsystemName}</h5>`;
+                titleText = `System: ${selectedView.parentId} - ${systemName}<br><small class="text-white-50">Subsystem: ${selectedView.id} - ${subsystemName}</small>`;
+            } else if (selectedView.type === 'all') {
+                titleText = 'Dashboard';
             }
-            DOMElements.selectedViewTitleContainer.innerHTML = selectedTitleHTML;
-
-            // Keep main dashboard title static
-            DOMElements.dashboardTitle.innerHTML = "Dashboard";
+            DOMElements.dashboardTitle.innerHTML = titleText;
 
             DOMElements.totalItemsCounter.textContent = aggregatedStats.totalItems.toLocaleString();
 
