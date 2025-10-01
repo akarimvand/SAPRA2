@@ -240,6 +240,17 @@ function filterModalTable() {
         }
         row.style.display = display ? '' : 'none';
     }
+
+    // Re-number the visible rows
+    let visibleRowIndex = 1;
+    for (const row of rows) {
+        if (row.style.display !== 'none') {
+            const firstCell = row.getElementsByTagName('td')[0];
+            if (firstCell) {
+                firstCell.textContent = visibleRowIndex++;
+            }
+        }
+    }
 }
 
         function handleDetailsClick(e) {
@@ -1504,8 +1515,11 @@ chartInstances.overview = new Chart(overviewCtx, {
 
         // --- Optimized Punch Items Export ---
         function handleDetailsExport() {
-            if (displayedItemsInModal.length === 0) {
-                alert("No data in the modal to export.");
+            const tableBody = document.getElementById('itemDetailsTableBody');
+            const visibleRows = Array.from(tableBody.querySelectorAll('tr')).filter(row => row.style.display !== 'none');
+
+            if (visibleRows.length === 0) {
+                alert("No visible data to export.");
                 return;
             }
 
@@ -1515,85 +1529,21 @@ chartInstances.overview = new Chart(overviewCtx, {
                 .replace(/[^a-zA-Z0-9 ]/g, '')
                 .replace(/ /g, '_');
 
-            // Prepare export data based on type
-            let exportConfig;
+            // Get headers from the table header
+            const headerRow = document.getElementById('itemDetailsModalHeader');
+            const headers = Array.from(headerRow.querySelectorAll('th')).map(th => th.textContent);
 
-            if (currentModalDataType === 'punch') {
-                exportConfig = {
-                    fileName: `SAPRA_Punch_Details_${modalTitle || 'All'}_${currentDate}.xlsx`,
-                    sheetName: 'Punch Items',
-                    headers: [
-                        '#', 'Subsystem', 'Discipline', 'Tag No',
-                        'Type', 'Category', 'Description', 'PL No'
-                    ],
-                    data: displayedItemsInModal.map((item, index) => [
-                        index + 1,
-                        item.SD_Sub_System || 'N/A',
-                        item.Discipline_Name || 'N/A',
-                        item.ITEM_Tag_NO || 'N/A',
-                        item.ITEM_Type_Code || 'N/A',
-                        item.PL_Punch_Category || 'N/A',
-                        item.PL_Punch_Description || 'N/A',
-                        item.PL_No || 'N/A'
-                    ])
-                };
-            } else if (currentModalDataType === 'items') {
-                exportConfig = {
-                    fileName: `SAPRA_Item_Details_${modalTitle || 'All'}_${currentDate}.xlsx`,
-                    sheetName: 'Item Details',
-                    headers: [
-                        '#', 'Subsystem', 'Discipline', 'Tag No',
-                        'Type', 'Description', 'Status'
-                    ],
-                    data: displayedItemsInModal.map((item, index) => [
-                        index + 1,
-                        item.subsystem,
-                        item.discipline,
-                        item.tagNo,
-                        item.typeCode,
-                        item.description,
-                        item.status
-                    ])
-                };
-            } else if (currentModalDataType === 'hold') {
-                exportConfig = {
-                    fileName: `SAPRA_Hold_Details_${modalTitle || 'All'}_${currentDate}.xlsx`,
-                    sheetName: 'Hold Points',
-                    headers: [
-                        '#', 'Subsystem', 'Discipline', 'Tag No',
-                        'Type', 'Priority', 'Description', 'Location'
-                    ],
-                    data: displayedItemsInModal.map((item, index) => [
-                        index + 1,
-                        item.subsystem,
-                        item.discipline,
-                        item.tagNo,
-                        item.typeCode || 'N/A',
-                        item.hpPriority || 'N/A',
-                        item.hpDescription || 'N/A',
-                        item.hpLocation || 'N/A'
-                    ])
-                };
-            } else if (currentModalDataType.startsWith('form')) {
-                // Handle HOS form data export
-                exportConfig = {
-                    fileName: `SAPRA_${modalTitle || 'Form'}_Details_${currentDate}.xlsx`,
-                    sheetName: 'Form Details',
-                    headers: [
-                        '#', 'Subsystem', 'Subsystem Name', 'Form A',
-                        'Form B', 'Form C', 'Form D'
-                    ],
-                    data: displayedItemsInModal.map((item, index) => [
-                        index + 1,
-                        item.subsystem,
-                        item.subsystemName,
-                        item.formA,
-                        item.formB,
-                        item.formC,
-                        item.formD
-                    ])
-                };
-            }
+            // Get data from visible rows only
+            const data = visibleRows.map(row =>
+                Array.from(row.querySelectorAll('td')).map(td => td.textContent)
+            );
+
+            const exportConfig = {
+                fileName: `SAPRA_Export_${modalTitle || 'Details'}_${currentDate}.xlsx`,
+                sheetName: 'Exported Data',
+                headers: headers,
+                data: data
+            };
 
             try {
                 // Create worksheet with headers
@@ -1608,7 +1558,7 @@ chartInstances.overview = new Chart(overviewCtx, {
                 XLSX.writeFile(wb, exportConfig.fileName);
             } catch (error) {
                 console.error("Export error:", error);
-                alert(`Error exporting ${currentModalDataType} data: ${error.message}`);
+                alert(`Error exporting data: ${error.message}`);
             }
         }
 
