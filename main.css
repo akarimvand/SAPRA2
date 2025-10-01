@@ -628,3 +628,14 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: #6c757d;
 }
+/* Ensure search input text is visible on dark sidebar */
+.sidebar-search .form-control {
+    color: #ffffff !important;
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.sidebar-search .form-control::placeholder {
+    color: #adb5bd !important;
+    opacity: 0.8 !important;
+}
