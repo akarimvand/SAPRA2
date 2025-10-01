@@ -111,7 +111,7 @@ body {
 .sidebar-search input {
     background-color: rgba(255,255,255,0.08);
     border: 1px solid rgba(255,255,255,0.1);
-    color: #fff;
+    color: #e0e0e0;
     padding: 0.6rem 1rem;
     font-size: 0.9rem;
     transition: var(--transition-base);
