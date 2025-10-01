@@ -19,7 +19,7 @@ const ACTIVITIES_CSV_URL = GITHUB_BASE_URL + "ACTIVITES.CSV"; // Preserving orig
 const COLORS_STATUS_CHARTJS = {
     done: 'rgba(76, 175, 80, 0.8)',    // success
     pending: 'rgba(255, 166, 0, 0.8)', // warning
-    remaining: 'rgba(0, 146, 202, 0.8)' // info
+    remaining: 'rgba(252, 95, 63, 0.8)' // info
 };
 
 // Icon SVGs (simplified for direct use, could be more complex if needed)
