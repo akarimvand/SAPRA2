@@ -640,15 +640,22 @@ body {
     opacity: 0.8 !important;
 }
 
-/* Status Indicator Styles */
-.status-indicator {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
+/* Status Indicator Icon Styles */
+.status-indicator-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px; /* Matches icon size */
+    height: 24px;
     border-radius: 50%;
-    margin-left: 8px;
-    flex-shrink: 0; /* Prevents the indicator from shrinking */
-    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    margin-right: 0.75rem; /* Matches icon margin */
+    flex-shrink: 0;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
 
 .status-a { background-color: #ffc107; } /* Amber */

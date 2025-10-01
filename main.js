@@ -743,212 +743,118 @@ function filterDetailedItems(context) {
         async function loadAndProcessData() {
             const loadingModal = new bootstrap.Modal(document.getElementById('loadingModal'), {});
             loadingModal.show();
-            // Hide the modal after 1.5 seconds
-            setTimeout(() => { loadingModal.hide(); }, 1500);
-
             DOMElements.errorMessage.style.display = 'none';
+
+            const parseCsv = (url) => {
+                return fetch(url)
+                    .then(response => {
+                        if (!response.ok) throw new Error(`Network response for ${url} was not ok`);
+                        return response.text();
+                    })
+                    .then(csvText => new Promise((resolve, reject) => {
+                        Papa.parse(csvText, {
+                            header: true,
+                            skipEmptyLines: true,
+                            complete: resolve,
+                            error: reject
+                        });
+                    }));
+            };
+
             try {
-                // Load HOS.CSV to get form counts
-                const hosResponse = await fetch('dbcsv/HOS.CSV');
-                if (!hosResponse.ok) {
-                    throw new Error(`Network response for HOS CSV was not ok: ${hosResponse.statusText}`);
-                }
-                const hosCsvText = await hosResponse.text();
-                Papa.parse(hosCsvText, {
-                    header: true,
-                    skipEmptyLines: true,
-                    complete: (results) => {
-                        // Count non-empty dates in each form column
-                        window.formCounts.formA = results.data.filter(row => row.FormA && row.FormA.trim() !== '').length;
-                        window.formCounts.formB = results.data.filter(row => row.FormB && row.FormB.trim() !== '').length;
-                        window.formCounts.formC = results.data.filter(row => row.FormC && row.FormC.trim() !== '').length;
-                        window.formCounts.formD = results.data.filter(row => row.FormD && row.FormD.trim() !== '').length;
+                const [hosResults, dataResults, itemsResults, punchResults, holdResults, activitiesResults] = await Promise.all([
+                    parseCsv('dbcsv/HOS.CSV'),
+                    parseCsv(CSV_URL),
+                    parseCsv(ITEMS_CSV_URL),
+                    parseCsv(PUNCH_CSV_URL),
+                    parseCsv(HOLD_POINT_CSV_URL),
+                    parseCsv(ACTIVITIES_CSV_URL)
+                ]);
 
-                        // Populate subsystem status map
-                        results.data.forEach(row => {
-                            const subSystemId = row.Sub_System?.trim();
-                            if (subSystemId) {
-                                if (row.FormD && row.FormD.trim() !== '') {
-                                    subsystemStatusMap[subSystemId] = 'D';
-                                } else if (row.FormC && row.FormC.trim() !== '') {
-                                    subsystemStatusMap[subSystemId] = 'C';
-                                } else if (row.FormB && row.FormB.trim() !== '') {
-                                    subsystemStatusMap[subSystemId] = 'B';
-                                } else if (row.FormA && row.FormA.trim() !== '') {
-                                    subsystemStatusMap[subSystemId] = 'A';
-                                }
-                            }
-                        });
-                        console.log("Subsystem statuses loaded:", subsystemStatusMap);
-                    },
-                    error: (err) => {
-                        console.error("PapaParse error for HOS CSV:", err);
+                // --- Process HOS Data First ---
+                window.formCounts.formA = hosResults.data.filter(row => row.FormA && row.FormA.trim() !== '').length;
+                window.formCounts.formB = hosResults.data.filter(row => row.FormB && row.FormB.trim() !== '').length;
+                window.formCounts.formC = hosResults.data.filter(row => row.FormC && row.FormC.trim() !== '').length;
+                window.formCounts.formD = hosResults.data.filter(row => row.FormD && row.FormD.trim() !== '').length;
+
+                hosResults.data.forEach(row => {
+                    const subSystemId = row.Sub_System?.trim();
+                    if (subSystemId) {
+                        if (row.FormD && row.FormD.trim() !== '') subsystemStatusMap[subSystemId] = 'D';
+                        else if (row.FormC && row.FormC.trim() !== '') subsystemStatusMap[subSystemId] = 'C';
+                        else if (row.FormB && row.FormB.trim() !== '') subsystemStatusMap[subSystemId] = 'B';
+                        else if (row.FormA && row.FormA.trim() !== '') subsystemStatusMap[subSystemId] = 'A';
                     }
                 });
+                console.log("Subsystem statuses loaded:", subsystemStatusMap);
 
-                const response = await fetch(CSV_URL);
-                if (!response.ok) {
-                    throw new Error(`Network response was not ok: ${response.statusText}`);
-                }
-                const csvText = await response.text();
+                // --- Process Main Data ---
+                const systemMap = {};
+                const subSystemMap = {};
+                dataResults.data.forEach(row => {
+                    if (!row.SD_System || !row.SD_Sub_System || !row.discipline) return;
+                    const systemId = row.SD_System.trim();
+                    const systemName = (row.SD_System_Name || 'Unknown System').trim();
+                    const subId = row.SD_Sub_System.trim();
+                    const subName = (row.SD_Subsystem_Name || 'Unknown Subsystem').trim();
+                    const discipline = row.discipline.trim();
 
-                Papa.parse(csvText, {
-                header: true,
-                    skipEmptyLines: true,
-                complete: (results) => {
-                        const data = results.data;
-                        const systemMap = {};
-                        const subSystemMap = {};
+                    if (!systemMap[systemId]) systemMap[systemId] = { id: systemId, name: systemName, subs: [] };
+                    if (!systemMap[systemId].subs.find(s => s.id === subId)) systemMap[systemId].subs.push({ id: subId, name: subName });
+                    if (!subSystemMap[subId]) subSystemMap[subId] = { id: subId, name: subName, systemId: systemId, title: `${subId} - ${subName}`, disciplines: {} };
 
-                        data.forEach(row => {
-                            if (!row.SD_System || !row.SD_Sub_System || !row.discipline) return;
+                    const total = parseInt(row["TOTAL ITEM"]) || 0;
+                    const done = parseInt(row["TOTAL DONE"]) || 0;
+                    const pending = parseInt(row["TOTAL PENDING"]) || 0;
 
-                            const systemId = row.SD_System.trim();
-                            const systemName = (row.SD_System_Name || 'Unknown System').trim();
-                            const subId = row.SD_Sub_System.trim();
-                            const subName = (row.SD_Subsystem_Name || 'Unknown Subsystem').trim();
-                            const discipline = row.discipline.trim();
-
-                            if (!systemMap[systemId]) {
-                                systemMap[systemId] = { id: systemId, name: systemName, subs: [] };
-                            }
-                            if (!systemMap[systemId].subs.find(s => s.id === subId)) {
-                                systemMap[systemId].subs.push({ id: subId, name: subName });
-                            }
-
-                            if (!subSystemMap[subId]) {
-                                subSystemMap[subId] = { id: subId, name: subName, systemId: systemId, title: `${subId} - ${subName}`, disciplines: {} };
-                            }
-
-                            const total = parseInt(row["TOTAL ITEM"]) || 0;
-                            const done = parseInt(row["TOTAL DONE"]) || 0;
-                            const pending = parseInt(row["TOTAL PENDING"]) || 0;
-
-                            subSystemMap[subId].disciplines[discipline] = {
-                                total: total,
-                                done: done,
-                                pending: pending,
-                                punch: parseInt(row["TOTAL NOT CLEAR PUNCH"]) || 0,
-                                hold: parseInt(row["TOTAL HOLD POINT"]) || 0,
-                                remaining: Math.max(0, total - done - pending)
-                            };
-                        });
-                        processedData = { systemMap, subSystemMap, allRawData: data };
-                        // Modal is hidden by the initial setTimeout, no need to hide here
-                        updateView(); // Initial render after data load
-                    },
-                    error: (err) => {
-                        // Modal is hidden by the initial setTimeout, no need to hide here
-                        DOMElements.errorMessage.textContent = `Failed to load or parse CSV: ${err.message}`;
-                        DOMElements.errorMessage.style.display = 'block';
-                        console.error("PapaParse error:", err);
-                    }
+                    subSystemMap[subId].disciplines[discipline] = {
+                        total, done, pending,
+                        punch: parseInt(row["TOTAL NOT CLEAR PUNCH"]) || 0,
+                        hold: parseInt(row["TOTAL HOLD POINT"]) || 0,
+                        remaining: Math.max(0, total - done - pending)
+                    };
                 });
+                processedData = { systemMap, subSystemMap, allRawData: dataResults.data };
 
-                // Fetch and parse detailed items data
-                const itemsResponse = await fetch(ITEMS_CSV_URL);
-                if (!itemsResponse.ok) {
-                     throw new Error(`Network response for items CSV was not ok: ${itemsResponse.statusText}`);
-                }
-                const itemsCsvText = await itemsResponse.text();
-                Papa.parse(itemsCsvText, {
-                    header: true,
-                    skipEmptyLines: true,
-                    complete: (results) => {
-                        detailedItemsData = results.data.map(item => ({
-                            subsystem: item.SD_Sub_System?.trim() || '',
-                            discipline: item.Discipline_Name?.trim() || '',
-                            tagNo: item.ITEM_Tag_NO?.trim() || '',
-                            typeCode: item.ITEM_Type_Code?.trim() || '',
-                            description: item.ITEM_Description?.trim() || '',
-                            status: item.ITEM_Status?.trim() || ''
-                        }));
-                         console.log("Detailed items data loaded:", detailedItemsData.length, "items");
-                    },
-                     error: (err) => {
-                         console.error("PapaParse error for items CSV:", err);
-                     }
-                });
+                // --- Process Other Detailed Data ---
+                detailedItemsData = itemsResults.data.map(item => ({
+                    subsystem: item.SD_Sub_System?.trim() || '', discipline: item.Discipline_Name?.trim() || '',
+                    tagNo: item.ITEM_Tag_NO?.trim() || '', typeCode: item.ITEM_Type_Code?.trim() || '',
+                    description: item.ITEM_Description?.trim() || '', status: item.ITEM_Status?.trim() || ''
+                }));
+                console.log("Detailed items data loaded:", detailedItemsData.length, "items");
 
-                // Fetch and parse punch items data
-                 const punchResponse = await fetch(PUNCH_CSV_URL);
-                 if (!punchResponse.ok) {
-                      throw new Error(`Network response for punch CSV was not ok: ${punchResponse.statusText}`);
-                 }
-                 const punchCsvText = await punchResponse.text();
-                 Papa.parse(punchCsvText, {
-                     header: true,
-                     skipEmptyLines: true,
-                     complete: (results) => {
-                         punchItemsData = results.data.map(item => ({
-                             SD_Sub_System: item.SD_Sub_System?.trim() || '',
-                             Discipline_Name: item.Discipline_Name?.trim() || '',
-                             ITEM_Tag_NO: item.ITEM_Tag_NO?.trim() || '',
-                             ITEM_Type_Code: item.ITEM_Type_Code?.trim() || '',
-                             PL_Punch_Category: item.PL_Punch_Category?.trim() || '',
-                             PL_Punch_Description: item.PL_Punch_Description?.trim() || '',
-                             PL_No: item.PL_No?.trim() || ''
-                         }));
-                          console.log("Punch items data loaded:", punchItemsData.length, "items");
-                     },
-                      error: (err) => {
-                         console.error("PapaParse error for punch CSV:", err);
-                     }
-                 });
+                punchItemsData = punchResults.data.map(item => ({
+                    SD_Sub_System: item.SD_Sub_System?.trim() || '', Discipline_Name: item.Discipline_Name?.trim() || '',
+                    ITEM_Tag_NO: item.ITEM_Tag_NO?.trim() || '', ITEM_Type_Code: item.ITEM_Type_Code?.trim() || '',
+                    PL_Punch_Category: item.PL_Punch_Category?.trim() || '', PL_Punch_Description: item.PL_Punch_Description?.trim() || '',
+                    PL_No: item.PL_No?.trim() || ''
+                }));
+                console.log("Punch items data loaded:", punchItemsData.length, "items");
 
-                 // Fetch and parse hold point items data
-                  const holdResponse = await fetch(HOLD_POINT_CSV_URL);
-                  if (!holdResponse.ok) {
-                       throw new Error(`Network response for hold point CSV was not ok: ${holdResponse.statusText}`);
-                  }
-                  const holdCsvText = await holdResponse.text();
-                  Papa.parse(holdCsvText, {
-                      header: true,
-                      skipEmptyLines: true,
-                      complete: (results) => {
-                          holdPointItemsData = results.data.map(item => ({
-                              subsystem: item.SD_SUB_SYSTEM?.trim() || '',
-                              discipline: item.Discipline_Name?.trim() || '',
-                              tagNo: item.ITEM_Tag_NO?.trim() || '',
-                              typeCode: item.ITEM_Type_Code?.trim() || '',
-                              hpPriority: item.HP_Priority?.trim() || '',
-                              hpDescription: item.HP_Description?.trim() || '',
-                              hpLocation: item.HP_Location?.trim() || ''
-                          }));
-                          console.log("Hold point items data loaded:", holdPointItemsData.length, "items");
-                      },
-                       error: (err) => {
-                          console.error("PapaParse error for hold point CSV:", err);
-                       }
-                  });
+                holdPointItemsData = holdResults.data.map(item => ({
+                    subsystem: item.SD_SUB_SYSTEM?.trim() || '', discipline: item.Discipline_Name?.trim() || '',
+                    tagNo: item.ITEM_Tag_NO?.trim() || '', typeCode: item.ITEM_Type_Code?.trim() || '',
+                    hpPriority: item.HP_Priority?.trim() || '', hpDescription: item.HP_Description?.trim() || '',
+                    hpLocation: item.HP_Location?.trim() || ''
+                }));
+                console.log("Hold point items data loaded:", holdPointItemsData.length, "items");
 
-                  // Fetch and parse activities data
-                  const activitiesResponse = await fetch(ACTIVITIES_CSV_URL);
-                  if (!activitiesResponse.ok) {
-                       throw new Error(`Network response for activities CSV was not ok: ${activitiesResponse.statusText}`);
-                  }
-                  const activitiesCsvText = await activitiesResponse.text();
-                  Papa.parse(activitiesCsvText, {
-                      header: true,
-                      skipEmptyLines: true,
-                      complete: (results) => {
-                          activitiesData = results.data.map(item => ({
-                              Tag_No: item.Tag_No?.trim() || '',
-                              Form_Title: item.Form_Title?.trim() || '',
-                              Done: item.Done?.trim() || ''
-                          }));
-                           console.log("Activities data loaded:", activitiesData.length, "items");
-                      },
-                       error: (err) => {
-                          console.error("PapaParse error for activities CSV:", err);
-                       }
-                  });
+                activitiesData = activitiesResults.data.map(item => ({
+                    Tag_No: item.Tag_No?.trim() || '', Form_Title: item.Form_Title?.trim() || '',
+                    Done: item.Done?.trim() || ''
+                }));
+                console.log("Activities data loaded:", activitiesData.length, "items");
+
+                // --- Initial Render ---
+                updateView();
 
             } catch (e) {
-                 // Modal is hidden by the initial setTimeout, no need to hide here
-                DOMElements.errorMessage.textContent = `Error fetching data: ${e.message}`;
+                DOMElements.errorMessage.textContent = `Error loading data: ${e.message}`;
                 DOMElements.errorMessage.style.display = 'block';
-                console.error("Fetch error:", e);
+                console.error("Data loading failed:", e);
+            } finally {
+                loadingModal.hide();
             }
         }
 
@@ -982,10 +888,10 @@ function filterDetailedItems(context) {
                     subtitle = `<div class='small' style='font-size:0.78em; color: #ced4da !important;'>${processedData.subSystemMap[node.id].name}</div>`;
                 }
 
-                let statusIndicatorHTML = '';
+                let iconHTML = node.icon || '';
                 if (node.type === 'subsystem' && subsystemStatusMap[node.id]) {
                     const status = subsystemStatusMap[node.id];
-                    statusIndicatorHTML = `<span class="status-indicator status-${status.toLowerCase()}" title="Status: ${status}"></span>`;
+                    iconHTML = `<span class="status-indicator-icon status-${status.toLowerCase()}" title="Status: ${status}">${status}</span>`;
                 }
 
                 return `
@@ -993,9 +899,8 @@ function filterDetailedItems(context) {
                          role="treeitem" aria-selected="${isSelected}" ${hasChildren ? `aria-expanded="${isExpanded}"` : ''}
                          data-type="${node.type}" data-id="${node.id}" data-name="${node.name}"
                          data-parent-id="${parentId || ''}" style="padding-left: ${paddingLeft}px;" tabindex="${isSelected || (level === 0 && !document.querySelector('.tree-node.selected')) ? '0' : '-1'}">
-                        ${node.icon || ''}
+                        ${iconHTML}
                         <span class="flex-grow-1 text-truncate me-2">${node.name}${subtitle}</span>
-                        ${statusIndicatorHTML}
                         ${hasChildren ? ICONS.ChevronRight : ''}
                 </div>
                     ${childrenHTML}
