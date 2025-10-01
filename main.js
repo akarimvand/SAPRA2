@@ -1320,7 +1320,14 @@ chartInstances.overview = new Chart(overviewCtx, {
                         } else if (col.accessor === 'system') {
                             cellValue = row.system;
                         } else if (col.accessor === 'subsystem') {
-                            cellValue = `${row.subsystem} - ${row.subsystemName}`;
+                            let statusIndicatorHTML = '';
+                            const subSystemId = row.subsystem;
+                            if (subsystemStatusMap[subSystemId]) {
+                                const status = subsystemStatusMap[subSystemId];
+                                // Use a slightly smaller, inline version of the status icon for the data grid
+                                statusIndicatorHTML = `<span class="status-indicator-icon status-${status.toLowerCase()}" title="Status: ${status}" style="width: 18px; height: 18px; font-size: 0.7rem; margin-right: 6px; vertical-align: middle;">${status}</span>`;
+                            }
+                            cellValue = `${statusIndicatorHTML}${row.subsystem} - ${row.subsystemName}`;
                         } else {
                             cellValue = (typeof cellValue === 'number') ? cellValue.toLocaleString() : cellValue;
                         }
