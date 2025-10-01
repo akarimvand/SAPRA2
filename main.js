@@ -1204,8 +1204,27 @@ function filterDetailedItems(context) {
             if (aggregatedStats.totalItems === 0 || (aggregatedStats.done === 0 && aggregatedStats.pending === 0 && aggregatedStats.remaining === 0)) {
                  overviewParent.insertAdjacentHTML('beforeend', '<div class="text-center text-muted small p-5">No data to display for General Status.</div>');
             } else {
-                chartInstances.overview = new Chart(overviewCtx, { type: 'doughnut', data: overviewChartData, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom' }, tooltip: { callbacks: { label: (context) => `${context.label}: ${context.formattedValue} (${Math.round(context.parsed / aggregatedStats.totalItems * 100)}%)`}}}} });
+chartInstances.overview = new Chart(overviewCtx, {
+    type: 'doughnut',
+    data: overviewChartData,
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: { position: 'bottom' },
+            tooltip: {
+                callbacks: {
+                    label: (context) => {
+                        const value = context.parsed;
+                        const total = aggregatedStats.totalItems;
+                        const percent = total > 0 ? Math.round((value / total) * 100) : 0;
+                        return `${context.label}: ${value.toLocaleString()} (${percent}%)`;
+                    }
+                }
             }
+        }
+    }
+});            }
         }
 
         function renderDisciplineCharts() {
