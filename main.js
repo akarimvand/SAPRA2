@@ -359,7 +359,17 @@ function filterModalTable() {
 
 function isPendingStatus(status) {
     if (!status) return false;
-    return /\d/.test(status) || status.includes('%');
+    const s = status.trim();
+
+    // 1. Exclude '0%' and '0'
+    if (/^0[%]?$/.test(s)) return false;
+
+    // 2. Check for specific text values (case-insensitive)
+    const pendingTexts = ['face_cleaning', 'fl/dry', 'hydrotest', 'cleaning', 'line check'];
+    if (pendingTexts.includes(s.toLowerCase())) return true;
+
+    // 3. Check for digits or '%'
+    return /\d/.test(s) || s.includes('%');
 }
 
 
