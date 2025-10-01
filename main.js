@@ -372,77 +372,90 @@ function isPendingStatus(status) {
     return /\d/.test(s) || s.includes('%');
 }
 
+function filterDetailedItems(context) {
+    let filtered = detailedItemsData;
+    let modalTitle = 'Item Details';
 
-        function filterDetailedItems(context) {
-            let filtered = detailedItemsData;
-            let modalTitle = 'Item Details';
+    // --- Helper function for PENDING logic ---
+    function isPendingStatus(status) {
+        if (!status) return false;
+        const s = status.trim();
+        // Exclude '0' and '0%'
+        if (/^0[%]?$/.test(s)) return false;
+        // Specific text values (case-insensitive)
+        const pendingTexts = ['face_cleaning', 'fl/dry', 'hydrotest', 'cleaning', 'line check'];
+        if (pendingTexts.includes(s.toLowerCase())) return true;
+        // Contains digit or '%'
+        return /\d/.test(s) || s.includes('%');
+    }
 
-            if (context.type === 'summary') {
-                 // Filter based on current selected view
-                 if (selectedView.type === 'system' && selectedView.id) {
-                     const subSystemIds = processedData.systemMap[selectedView.id]?.subs.map(sub => sub.id.toLowerCase()) || []; // Convert subSystemIds to lower case
-                     filtered = filtered.filter(item => item.subsystem.toLowerCase() && subSystemIds.includes(item.subsystem.toLowerCase())); // Convert item.subsystem to lower case
-                      modalTitle = `${context.status === 'DONE' ? 'Completed' : context.status === 'PENDING' ? 'Pending' : context.status === 'TOTAL' ? 'Total' : 'Remaining'} Items in System: ${selectedView.name}`;
-                 } else if (selectedView.type === 'subsystem' && selectedView.id) {
-                     filtered = filtered.filter(item => item.subsystem.toLowerCase() === selectedView.id.toLowerCase()); // Convert both to lower case
-                      modalTitle = `${context.status === 'DONE' ? 'Completed' : context.status === 'PENDING' ? 'Pending' : context.status === 'TOTAL' ? 'Total' : 'Remaining'} Items in Subsystem: ${selectedView.name}`;
-                 } else { // 'all' view - no subsystem filter needed here
-                      modalTitle = `${context.status === 'DONE' ? 'Completed' : context.status === 'PENDING' ? 'Pending' : context.status === 'TOTAL' ? 'Total' : 'Remaining'} Items (All Systems)`;
-                 }
-
-                 // Filter by status (unless status is TOTAL)
-                 if (context.status !== 'TOTAL') {
-if (context.status === 'OTHER') {
-    filtered = filtered.filter(item =>
-        !item.status || (
-            item.status.toLowerCase() !== 'done' && !isPendingStatus(item.status)
-        )
-    );
-} else if (context.status === 'HOLD') { // Added filtering for HOLD status
-                           filtered = filtered.filter(item => item.status && item.status.toLowerCase() === 'hold'); // Convert to lower case
-} else if (context.status === 'PENDING') {
-    filtered = filtered.filter(item => isPendingStatus(item.status));
-} else {
-    // For 'DONE' or other exact matches
-    filtered = filtered.filter(item => 
-        item.status && item.status.toLowerCase() === context.status.toLowerCase()
-    );
-}
-                 } // If status is TOTAL, no further status filtering needed
-
-            } else if (context.type === 'table') {
-                const rowData = context.rowData;
-                // Filter by Subsystem and Discipline from the clicked row (case-insensitive)
-                 const clickedSubsystem = rowData.subsystem.split(' - ')[0].toLowerCase();
-                 const clickedDiscipline = rowData.discipline.toLowerCase();
-
-                 filtered = filtered.filter(item =>
-                      item.subsystem && item.subsystem.toLowerCase() === clickedSubsystem &&
-                      item.discipline && item.discipline.toLowerCase() === clickedDiscipline
-                 );
-
-                 // Filter by status based on the clicked column (unless status is TOTAL) (case-insensitive)
-                 if (context.status !== 'TOTAL') {
-                      if (context.status === 'OTHER') { // Status percentage column
-                           // Filter items whose status is NOT DONE or PENDING (case-insensitive)
-                           filtered = filtered.filter(item =>
-                               // Check if status is defined and not empty, THEN compare case-insensitively
-                               // If status is empty or null/undefined, this condition will be false, including them.
-                               !item.status || (item.status.toLowerCase() !== 'done' && item.status.toLowerCase() !== 'pending')
-                            );
-                      } else if (context.status === 'HOLD') { // Added filtering for HOLD status
-                           filtered = filtered.filter(item => item.status && item.status.toLowerCase() === 'hold'); // Convert to lower case
-                      } else { // Filter by specific status (Completed, Pending, Punch) (case-insensitive)
-                           filtered = filtered.filter(item => item.status && item.status.toLowerCase() === context.status.toLowerCase()); // Convert both to lower case
-                      }
-                 } // If status is TOTAL, no further status filtering needed
-
-                 modalTitle = `${context.status === 'DONE' ? 'Completed' : context.status === 'TOTAL' ? 'Total' : context.status} Items in ${rowData.subsystem.split(' - ')[0]} / ${rowData.discipline}`;
-            }
-
-            document.getElementById('itemDetailsModalLabel').textContent = modalTitle;
-            return filtered;
+    if (context.type === 'summary') {
+        // Filter based on current selected view
+        if (selectedView.type === 'system' && selectedView.id) {
+            const subSystemIds = processedData.systemMap[selectedView.id]?.subs.map(sub => sub.id.toLowerCase()) || [];
+            filtered = filtered.filter(item => 
+                item.subsystem && subSystemIds.includes(item.subsystem.toLowerCase())
+            );
+            modalTitle = `${context.status === 'DONE' ? 'Completed' : context.status === 'PENDING' ? 'Pending' : context.status === 'TOTAL' ? 'Total' : 'Remaining'} Items in System: ${selectedView.name}`;
+        } else if (selectedView.type === 'subsystem' && selectedView.id) {
+            filtered = filtered.filter(item => 
+                item.subsystem && item.subsystem.toLowerCase() === selectedView.id.toLowerCase()
+            );
+            modalTitle = `${context.status === 'DONE' ? 'Completed' : context.status === 'PENDING' ? 'Pending' : context.status === 'TOTAL' ? 'Total' : 'Remaining'} Items in Subsystem: ${selectedView.name}`;
+        } else {
+            modalTitle = `${context.status === 'DONE' ? 'Completed' : context.status === 'PENDING' ? 'Pending' : context.status === 'TOTAL' ? 'Total' : 'Remaining'} Items (All Systems)`;
         }
+
+        // Filter by status (unless TOTAL)
+        if (context.status !== 'TOTAL') {
+            if (context.status === 'OTHER') {
+                filtered = filtered.filter(item =>
+                    !item.status || (item.status.toLowerCase() !== 'done' && !isPendingStatus(item.status))
+                );
+            } else if (context.status === 'HOLD') {
+                filtered = filtered.filter(item => item.status && item.status.toLowerCase() === 'hold');
+            } else if (context.status === 'PENDING') {
+                filtered = filtered.filter(item => isPendingStatus(item.status));
+            } else {
+                filtered = filtered.filter(item => 
+                    item.status && item.status.toLowerCase() === context.status.toLowerCase()
+                );
+            }
+        }
+    } 
+    else if (context.type === 'table') {
+        const rowData = context.rowData;
+        const clickedSubsystem = rowData.subsystem.split(' - ')[0].toLowerCase();
+        const clickedDiscipline = rowData.discipline.toLowerCase();
+        filtered = filtered.filter(item =>
+            item.subsystem && item.subsystem.toLowerCase() === clickedSubsystem &&
+            item.discipline && item.discipline.toLowerCase() === clickedDiscipline
+        );
+
+        // Filter by status (unless TOTAL)
+        if (context.status !== 'TOTAL') {
+            if (context.status === 'OTHER') {
+                filtered = filtered.filter(item =>
+                    !item.status || (item.status.toLowerCase() !== 'done' && !isPendingStatus(item.status))
+                );
+            } else if (context.status === 'HOLD') {
+                filtered = filtered.filter(item => item.status && item.status.toLowerCase() === 'hold');
+            } else if (context.status === 'PENDING') {
+                // ✅ این خط مهم است: در جدول هم از منطق جدید استفاده می‌شود
+                filtered = filtered.filter(item => isPendingStatus(item.status));
+            } else {
+                // For 'DONE' or other exact matches
+                filtered = filtered.filter(item => 
+                    item.status && item.status.toLowerCase() === context.status.toLowerCase()
+                );
+            }
+        }
+        modalTitle = `${context.status === 'DONE' ? 'Completed' : context.status === 'TOTAL' ? 'Total' : context.status} Items in ${rowData.subsystem.split(' - ')[0]} / ${rowData.discipline}`;
+    }
+
+    document.getElementById('itemDetailsModalLabel').textContent = modalTitle;
+    return filtered;
+}
 
         function filterPunchItems(context) {
             let filtered = punchItemsData;
