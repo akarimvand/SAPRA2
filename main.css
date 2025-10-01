@@ -639,3 +639,79 @@ body {
     color: #adb5bd !important;
     opacity: 0.8 !important;
 }
+
+/* Status Indicator Styles */
+.status-indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 8px;
+    flex-shrink: 0; /* Prevents the indicator from shrinking */
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.status-a { background-color: #ffc107; } /* Amber */
+.status-b { background-color: #17a2b8; } /* Info */
+.status-c { background-color: #28a745; } /* Success */
+.status-d { background-color: #007bff; } /* Primary */
+
+/* Relocated Title Styles */
+.sidebar-selected-view {
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    background: rgba(0,0,0,0.15);
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sidebar-selected-view h5 {
+    color: #f8f9fa;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.3;
+}
+
+.sidebar-selected-view h6 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #adb5bd;
+}
+
+/* New Header Nav Link Styles */
+#header-nav-items .header-nav-link {
+    color: #adb5bd;
+    text-decoration: none;
+    margin-left: 0.75rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    transition: all 0.2s ease-in-out;
+}
+
+#header-nav-items .header-nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+#header-nav-items .header-nav-link .bi {
+    font-size: 1.2rem;
+}
+
+#totalItemsBadge {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#totalItemsBadge:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(24, 119, 242, 0.5);
+}

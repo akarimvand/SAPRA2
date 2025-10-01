@@ -50,6 +50,7 @@ const ICONS = {
         let punchItemsData = []; // Added global variable for punch items data
         let holdPointItemsData = []; // Added global variable for hold point items data
         let activitiesData = []; // Added global variable for activities data
+        let subsystemStatusMap = {}; // To store the status from HOS.CSV
         let displayedItemsInModal = []; // Added to store items currently shown in the modal
         let currentModalDataType = null; // 'items' or 'punch' or 'hold' or 'activities'
 
@@ -69,6 +70,7 @@ const ICONS = {
             sidebarOverlay: document.getElementById('sidebarOverlay'),
             mainContent: document.getElementById('mainContent'),
             treeView: document.getElementById('treeView'),
+            selectedViewTitleContainer: document.getElementById('selectedViewTitleContainer'),
             searchInput: document.getElementById('searchInput'),
             dashboardTitle: document.getElementById('dashboardTitle'),
             totalItemsCounter: document.getElementById('totalItemsCounter'),
@@ -761,7 +763,23 @@ function filterDetailedItems(context) {
                         window.formCounts.formB = results.data.filter(row => row.FormB && row.FormB.trim() !== '').length;
                         window.formCounts.formC = results.data.filter(row => row.FormC && row.FormC.trim() !== '').length;
                         window.formCounts.formD = results.data.filter(row => row.FormD && row.FormD.trim() !== '').length;
-                        console.log("Form counts loaded:", window.formCounts);
+
+                        // Populate subsystem status map
+                        results.data.forEach(row => {
+                            const subSystemId = row.Sub_System?.trim();
+                            if (subSystemId) {
+                                if (row.FormD && row.FormD.trim() !== '') {
+                                    subsystemStatusMap[subSystemId] = 'D';
+                                } else if (row.FormC && row.FormC.trim() !== '') {
+                                    subsystemStatusMap[subSystemId] = 'C';
+                                } else if (row.FormB && row.FormB.trim() !== '') {
+                                    subsystemStatusMap[subSystemId] = 'B';
+                                } else if (row.FormA && row.FormA.trim() !== '') {
+                                    subsystemStatusMap[subSystemId] = 'A';
+                                }
+                            }
+                        });
+                        console.log("Subsystem statuses loaded:", subsystemStatusMap);
                     },
                     error: (err) => {
                         console.error("PapaParse error for HOS CSV:", err);
@@ -963,6 +981,13 @@ function filterDetailedItems(context) {
                 if (node.type === 'subsystem' && processedData.subSystemMap[node.id]) {
                     subtitle = `<div class='small' style='font-size:0.78em; color: #ced4da !important;'>${processedData.subSystemMap[node.id].name}</div>`;
                 }
+
+                let statusIndicatorHTML = '';
+                if (node.type === 'subsystem' && subsystemStatusMap[node.id]) {
+                    const status = subsystemStatusMap[node.id];
+                    statusIndicatorHTML = `<span class="status-indicator status-${status.toLowerCase()}" title="Status: ${status}"></span>`;
+                }
+
                 return `
                     <div id="${nodeId}" class="tree-node ${isSelected ? 'selected' : ''} ${isOpen ? 'open' : ''}"
                          role="treeitem" aria-selected="${isSelected}" ${hasChildren ? `aria-expanded="${isExpanded}"` : ''}
@@ -970,6 +995,7 @@ function filterDetailedItems(context) {
                          data-parent-id="${parentId || ''}" style="padding-left: ${paddingLeft}px;" tabindex="${isSelected || (level === 0 && !document.querySelector('.tree-node.selected')) ? '0' : '-1'}">
                         ${node.icon || ''}
                         <span class="flex-grow-1 text-truncate me-2">${node.name}${subtitle}</span>
+                        ${statusIndicatorHTML}
                         ${hasChildren ? ICONS.ChevronRight : ''}
                 </div>
                     ${childrenHTML}
@@ -1061,19 +1087,24 @@ function filterDetailedItems(context) {
         function updateView() {
             aggregatedStats = _aggregateStatsForView(selectedView, processedData.systemMap, processedData.subSystemMap);
 
-            // Update the dashboard title based on the selected view type
-            let titleText = 'Dashboard';
+            // Update the selected view title in the sidebar
+            let selectedTitleHTML = '<h5>All Systems</h5>'; // Default title
             if (selectedView.type === 'system' && selectedView.id) {
                 const systemName = processedData.systemMap[selectedView.id]?.name || selectedView.name;
-                titleText = `System: ${selectedView.id} - ${systemName}`;
+                selectedTitleHTML = `
+                    <h6 class="text-muted mb-0">System</h6>
+                    <h5 class="mb-0">${selectedView.id} - ${systemName}</h5>`;
             } else if (selectedView.type === 'subsystem' && selectedView.id) {
                 const systemName = processedData.systemMap[selectedView.parentId]?.name || selectedView.parentId;
                 const subsystemName = processedData.subSystemMap[selectedView.id]?.name || selectedView.name;
-                titleText = `System: ${selectedView.parentId} - ${systemName}<br>Subsystem: ${selectedView.id} - ${subsystemName}`;
-            } else if (selectedView.type === 'all') {
-                titleText = 'Dashboard';
+                selectedTitleHTML = `
+                    <h6 class="text-muted mb-1">System: ${selectedView.parentId} - ${systemName}</h6>
+                    <h5 class="mb-0">Subsystem: ${selectedView.id} - ${subsystemName}</h5>`;
             }
-            DOMElements.dashboardTitle.innerHTML = titleText;
+            DOMElements.selectedViewTitleContainer.innerHTML = selectedTitleHTML;
+
+            // Keep main dashboard title static
+            DOMElements.dashboardTitle.innerHTML = "Dashboard";
 
             DOMElements.totalItemsCounter.textContent = aggregatedStats.totalItems.toLocaleString();
 
