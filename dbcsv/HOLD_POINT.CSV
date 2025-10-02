@@ -4158,8 +4158,8 @@ DCS-01,IN,FFSALL-2064,SIGNAL,,After Energization The control Room (Hold Sequence
 2000-01,IN,FSY-2233A,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
 2000-01,IN,FSY-2233B,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
 2000-01,IN,FSY-2233C,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
-1000-04,IN,FT-10215,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
-1000-04,IN,FT-10219,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
+NO SUBS.,IN,FT-10215,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
+NO SUBS.,IN,FT-10219,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
 3000-04,IN,FT-2079(FT),Instrument(FT),,Hold (Matrial Shortage),Material Shortage
 2000-05,IN,FT-2476(FT),Instrument(FT),,Hold (Matrial Shortage),Material Shortage
 3000-01,IN,FT-3020(FT),Instrument(FT),,Hold (Matrial Shortage),Material Shortage
@@ -4360,7 +4360,7 @@ LS-01,EL,LAB-LP-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
 4000-06,IN,LI-7002-1(LI),Instrument(LI),,Hold (Matrial Shortage),Material Shortage
 1000-03,IN,LI-7101-1(LI),Instrument(LI),,Hold (Matrial Shortage),Material Shortage
 4000-06,IN,LI-7502-1,CABLE,,Hold (Matrial Shortage),Material Shortage
-1000-04,IN,LT-10201,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
+NO SUBS.,IN,LT-10201,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
 2000-04,IN,LT-2373(LT),Instrument(LT),,Hold (Matrial Shortage),Material Shortage
 3000-02,IN,LT-3043(LT),Instrument(LT),,Hold (Matrial Shortage),Material Shortage
 5000-01,IN,LT-5511(LT),Instrument(LT),,Hold (Matrial Shortage),Material Shortage
@@ -4667,8 +4667,8 @@ LS-01,EL,LAB-LP-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
 4000-08,IN,PDI-8010,Instrument(PDI),,Hold (Matrial Shortage),Material Shortage
 4000-08,IN,PDI-8011,Instrument(PDI),,Hold (Matrial Shortage),Material Shortage
 4000-08,IN,PDI-8012,Instrument(PDI),,Hold (Matrial Shortage),Material Shortage
-1000-04,IN,PDT-10220,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
-1000-04,IN,PDT-10221,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
+NO SUBS.,IN,PDT-10220,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
+NO SUBS.,IN,PDT-10221,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
 4000-01,IN,PG-0001,Instrument(PG),,Not Permission (owner),Permission
 4000-11,IN,PG-0002,Instrument(PG),,Not Permission (owner),Permission
 4000-07,IN,PG-0003,Instrument(PG),,Not Permission (owner),Permission
@@ -5219,8 +5219,8 @@ FGS-01,IN,PSL-0051,SIGNAL,,After Energization The control Room (Hold Sequence),E
 4000-09,IN,PSV-84114A,Instrument(PSV),,Hold (Matrial Shortage),Material Shortage
 4000-09,IN,PSV-84114B,Instrument(PSV),,Hold (Matrial Shortage),Material Shortage
 2000-03,IN,PSY-2047,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
-1000-04,IN,PT-10217,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
-1000-04,IN,PT-10224,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
+NO SUBS.,IN,PT-10217,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
+NO SUBS.,IN,PT-10224,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
 2000-01,IN,PT-2077(NA),CABLE,,Hold (Matrial Shortage),Material Shortage
 2000-05,IN,PT-2416(NA),CABLE,,Hold (Matrial Shortage),Material Shortage
 2000-05,IN,PT-2481(NA),CABLE,,Hold (Matrial Shortage),Material Shortage
@@ -5262,7 +5262,7 @@ FGS-01,IN,PSL-0051,SIGNAL,,After Energization The control Room (Hold Sequence),E
 4000-08,IN,RO-8002,Instrument(RO),,Hold (Matrial Shortage),Material Shortage
 4000-08,IN,RO-8003,Instrument(RO),,Hold (Matrial Shortage),Material Shortage
 4000-06,IN,RO-8411,Instrument(RO),,Not Permission (owner),Permission
-1000-04,IN,RO-84117,Instrument(RO),,Hold (Matrial Shortage)/Not Permission (owner),Material Shortage
+NO SUBS.,IN,RO-84117,Instrument(RO),,Hold (Matrial Shortage)/Not Permission (owner),Material Shortage
 4000-06,IN,RO-8412,Instrument(RO),,Not Permission (owner),Permission
 FGS-02,IN,RO-9001A,Instrument(RO),,Not Permission (owner),Permission
 FGS-04,IN,RO-9002A,Instrument(RO),,Not Permission (owner),Permission
@@ -5345,18 +5345,18 @@ LS-01,EL,SS-PRB-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
 4000-08,IN,SY-80111B,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
 4000-08,IN,SY-80112A,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
 4000-08,IN,SY-80112B,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
-1000-04,IN,SZSH-10209,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
-1000-04,IN,SZSH-10212,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
-1000-04,IN,SZSH-10214,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
-1000-04,IN,SZSH-10216,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
-1000-04,IN,SZSH-10217,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
-1000-04,IN,SZSH-10219,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
-1000-04,IN,SZSL-10209,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
-1000-04,IN,SZSL-10212,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
-1000-04,IN,SZSL-10214,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
-1000-04,IN,SZSL-10216,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
-1000-04,IN,SZSL-10217,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
-1000-04,IN,SZSL-10219,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
+NO SUBS.,IN,SZSH-10209,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
+NO SUBS.,IN,SZSH-10212,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
+NO SUBS.,IN,SZSH-10214,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
+NO SUBS.,IN,SZSH-10216,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
+NO SUBS.,IN,SZSH-10217,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
+NO SUBS.,IN,SZSH-10219,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
+NO SUBS.,IN,SZSL-10209,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
+NO SUBS.,IN,SZSL-10212,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
+NO SUBS.,IN,SZSL-10214,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
+NO SUBS.,IN,SZSL-10216,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
+NO SUBS.,IN,SZSL-10217,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
+NO SUBS.,IN,SZSL-10219,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
 4000-04,IN,TE-70109A,Instrument(TE),,Not Permission (owner),Permission
 4000-04,IN,TE-70109B,Instrument(TE),,Not Permission (owner),Permission
 4000-04,IN,TE-70110A,Instrument(TE),,Not Permission (owner),Permission
@@ -5466,7 +5466,7 @@ LS-01,EL,SS-PRB-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
 4000-06,IN,TG-0004,Instrument(TG),,Not Permission (owner),Permission
 4000-06,IN,TG-0005,Instrument(TG),,Not Permission (owner),Permission
 1000-01,IN,TG-1002,Instrument(TG),,Not Permission (owner),Permission
-1000-04,IN,TG-1003,Instrument(TG),,Not Permission (owner),Permission
+NO SUBS.,IN,TG-1003,Instrument(TG),,Not Permission (owner),Permission
 1000-01,IN,TG-1004,Instrument(TG),,Not Permission (owner),Permission
 1000-01,IN,TG-1036,Instrument(TG),,Not Permission (owner),Permission
 1000-01,IN,TG-1039,Instrument(TG),,Not Permission (owner),Permission
