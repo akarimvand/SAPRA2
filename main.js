@@ -62,6 +62,7 @@ const ICONS = {
         };
         let bootstrapTabObjects = {}; // To store Bootstrap Tab instances
         let itemDetailsModal; // Added variable for item details modal instance
+        let loadingModalInstance;
 
         // --- DOM Elements ---
         const DOMElements = {
@@ -118,6 +119,10 @@ const ICONS = {
 function initModals() {
      itemDetailsModal = new bootstrap.Modal(document.getElementById('itemDetailsModal'), {});
      activitiesModal = new bootstrap.Modal(document.getElementById('activitiesModal'), {});
+     loadingModalInstance = new bootstrap.Modal(document.getElementById('loadingModal'), {
+        keyboard: false,
+        backdrop: 'static'
+     });
      // Get reference to the export button inside the modal
     const exportDetailsExcelBtn = document.getElementById('exportDetailsExcelBtn');
      if (exportDetailsExcelBtn) {
@@ -324,7 +329,7 @@ function filterModalTable() {
                                  const rowData = {};
                                  Array.from(tableRow.children).forEach((cell, idx) => {
                                      // Use the correct accessor names from renderDataTable
-                                      const accessorMap = ['system', 'subsystem', 'discipline', 'totalItems', 'completed', 'pending', 'punch', 'holdPoint', 'statusPercent'];
+                                      const accessorMap = ['system', 'subsystem', 'formStatus', 'discipline', 'totalItems', 'completed', 'pending', 'punch', 'holdPoint', 'statusPercent'];
                                       if (accessorMap[idx]) {
                                           rowData[accessorMap[idx]] = cell.textContent.trim();
                                       }
@@ -437,11 +442,10 @@ function filterDetailedItems(context) {
     } 
     else if (context.type === 'table') {
         const rowData = context.rowData;
-        const rawSubsystemPart = rowData.subsystem.split(' - ')[0];
-        const cleanedSubsystem = rawSubsystemPart.replace(/^[ABCD]\s+/, '').trim().toLowerCase();
+        const clickedSubsystem = rowData.subsystem.split(' - ')[0].toLowerCase();
         const clickedDiscipline = rowData.discipline.toLowerCase();
         filtered = filtered.filter(item =>
-            item.subsystem && item.subsystem.toLowerCase() === cleanedSubsystem &&
+            item.subsystem && item.subsystem.toLowerCase() === clickedSubsystem &&
             item.discipline && item.discipline.toLowerCase() === clickedDiscipline
         );
 
@@ -496,12 +500,11 @@ function filterDetailedItems(context) {
             } else if (context.type === 'table') {
                 const rowData = context.rowData;
                 // Extract subsystem and discipline from row data
-                const rawSubsystemPart = rowData.subsystem.split(' - ')[0];
-                const cleanedSubsystem = rawSubsystemPart.replace(/^[ABCD]\s+/, '').trim().toLowerCase();
+                const clickedSubsystem = rowData.subsystem.split(' - ')[0].trim().toLowerCase();
                 const clickedDiscipline = rowData.discipline.trim().toLowerCase();
 
                 filtered = filtered.filter(item =>
-                    item.SD_Sub_System && item.SD_Sub_System.trim().toLowerCase() === cleanedSubsystem &&
+                    item.SD_Sub_System && item.SD_Sub_System.trim().toLowerCase() === clickedSubsystem &&
                     item.Discipline_Name && item.Discipline_Name.trim().toLowerCase() === clickedDiscipline
                 );
                 modalTitle = `Punch Items in ${rowData.subsystem.split(' - ')[0]} / ${rowData.discipline}`;
@@ -537,12 +540,11 @@ function filterDetailedItems(context) {
              } else if (context.type === 'table') {
                  const rowData = context.rowData;
                 // Filter by Subsystem and Discipline from the clicked row (case-insensitive)
-                const rawSubsystemPart = rowData.subsystem.split(' - ')[0];
-                const cleanedSubsystem = rawSubsystemPart.replace(/^[ABCD]\s+/, '').trim().toLowerCase();
+                 const clickedSubsystem = rowData.subsystem.split(' - ')[0].toLowerCase();
                  const clickedDiscipline = rowData.discipline.toLowerCase();
 
                  filtered = filtered.filter(item =>
-                     item.subsystem && item.subsystem.toLowerCase() === cleanedSubsystem &&
+                     item.subsystem && item.subsystem.toLowerCase() === clickedSubsystem &&
                      item.discipline && item.discipline.toLowerCase() === clickedDiscipline
                  );
                 // For hold point table column, status is always 'HOLD', no further filtering by status needed here.
@@ -754,8 +756,7 @@ function filterDetailedItems(context) {
 
         // --- Data Loading and Processing ---
         async function loadAndProcessData() {
-            const loadingModal = new bootstrap.Modal(document.getElementById('loadingModal'), {});
-            loadingModal.show();
+            loadingModalInstance.show();
             DOMElements.errorMessage.style.display = 'none';
 
             const parseCsv = (url) => {
@@ -867,7 +868,7 @@ function filterDetailedItems(context) {
                 DOMElements.errorMessage.style.display = 'block';
                 console.error("Data loading failed:", e);
             } finally {
-                loadingModal.hide();
+                loadingModalInstance.hide();
             }
         }
 
@@ -1300,7 +1301,7 @@ chartInstances.overview = new Chart(overviewCtx, {
 
         function renderDataTable() {
             const columns = [
-                { header: 'System', accessor: 'system' }, { header: 'Subsystem', accessor: 'subsystem' },
+                { header: 'System', accessor: 'system' }, { header: 'Subsystem', accessor: 'subsystem' }, { header: 'Form', accessor: 'formStatus' },
                 { header: 'Discipline', accessor: 'discipline' }, { header: 'Total Items', accessor: 'totalItems' },
                 { header: 'Completed', accessor: 'completed' }, { header: 'Pending', accessor: 'pending' },
                 { header: 'Punch', accessor: 'punch' }, { header: 'Hold Point', accessor: 'holdPoint' },
@@ -1320,17 +1321,17 @@ chartInstances.overview = new Chart(overviewCtx, {
                          if (col.accessor === 'statusPercent') {
                             const badgeClass = row.statusPercent > 80 ? 'bg-success-subtle text-success' : row.statusPercent > 50 ? 'bg-info-subtle text-info' : 'bg-warning-subtle text-warning';
                             cellValue = `<span class="badge ${badgeClass} rounded-pill">${row.statusPercent}%</span>`;
+                        } else if (col.accessor === 'formStatus') {
+                            const status = row.formStatus;
+                            if (status) {
+                                cellValue = `<span class="status-indicator-icon status-${status.toLowerCase()}" title="Status: ${status}">${status}</span>`;
+                            } else {
+                                cellValue = '';
+                            }
                         } else if (col.accessor === 'system') {
                             cellValue = row.system;
                         } else if (col.accessor === 'subsystem') {
-                            let statusIndicatorHTML = '';
-                            const subSystemId = row.subsystem;
-                            if (subsystemStatusMap[subSystemId]) {
-                                const status = subsystemStatusMap[subSystemId];
-                                // Use a slightly smaller, inline version of the status icon for the data grid
-                                statusIndicatorHTML = `<span class="status-indicator-icon status-${status.toLowerCase()}" title="Status: ${status}" style="width: 18px; height: 18px; font-size: 0.7rem; margin-right: 6px; vertical-align: middle;">${status}</span>`;
-                            }
-                            cellValue = `${statusIndicatorHTML}${row.subsystem} - ${row.subsystemName}`;
+                            cellValue = `${row.subsystem} - ${row.subsystemName}`;
                         } else {
                             cellValue = (typeof cellValue === 'number') ? cellValue.toLocaleString() : cellValue;
                         }
@@ -1405,12 +1406,18 @@ chartInstances.overview = new Chart(overviewCtx, {
             if (!forExport && relevantRawData.length === 0 && view.type !== 'all') return [];
 
             return relevantRawData.map(row => {
+                const subSystemId = row.SD_Sub_System.trim();
                 const totalItems = parseInt(row["TOTAL ITEM"]) || 0;
                 const completed = parseInt(row["TOTAL DONE"]) || 0;
                 return {
-                    system: row.SD_System.trim(), systemName: (row.SD_System_Name || 'N/A').trim(),
-                    subsystem: row.SD_Sub_System.trim(), subsystemName: (row.SD_Subsystem_Name || 'N/A').trim(),
-                    discipline: row.discipline.trim(), totalItems, completed,
+                    system: row.SD_System.trim(),
+                    systemName: (row.SD_System_Name || 'N/A').trim(),
+                    subsystem: subSystemId,
+                    subsystemName: (row.SD_Subsystem_Name || 'N/A').trim(),
+                    formStatus: subsystemStatusMap[subSystemId] || '',
+                    discipline: row.discipline.trim(),
+                    totalItems,
+                    completed,
                     pending: parseInt(row["TOTAL PENDING"]) || 0,
                     punch: parseInt(row["TOTAL NOT CLEAR PUNCH"]) || 0,
                     holdPoint: parseInt(row["TOTAL HOLD POINT"]) || 0,
