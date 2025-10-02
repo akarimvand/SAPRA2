@@ -19,7 +19,7 @@ const ACTIVITIES_CSV_URL = GITHUB_BASE_URL + "ACTIVITES.CSV"; // Preserving orig
 const COLORS_STATUS_CHARTJS = {
     done: 'rgba(76, 175, 80, 0.8)',    // success
     pending: 'rgba(255, 166, 0, 0.8)', // warning
-    remaining: 'rgba(0, 146, 202, 0.8)' // info
+    remaining: 'rgba(252, 95, 63, 0.8)' // info
 };
 
 // Icon SVGs (simplified for direct use, could be more complex if needed)
@@ -50,6 +50,7 @@ const ICONS = {
         let punchItemsData = []; // Added global variable for punch items data
         let holdPointItemsData = []; // Added global variable for hold point items data
         let activitiesData = []; // Added global variable for activities data
+        let subsystemStatusMap = {}; // To store the status from HOS.CSV
         let displayedItemsInModal = []; // Added to store items currently shown in the modal
         let currentModalDataType = null; // 'items' or 'punch' or 'hold' or 'activities'
 
@@ -61,6 +62,7 @@ const ICONS = {
         };
         let bootstrapTabObjects = {}; // To store Bootstrap Tab instances
         let itemDetailsModal; // Added variable for item details modal instance
+        let loadingModalInstance;
 
         // --- DOM Elements ---
         const DOMElements = {
@@ -117,6 +119,10 @@ const ICONS = {
 function initModals() {
      itemDetailsModal = new bootstrap.Modal(document.getElementById('itemDetailsModal'), {});
      activitiesModal = new bootstrap.Modal(document.getElementById('activitiesModal'), {});
+     loadingModalInstance = new bootstrap.Modal(document.getElementById('loadingModal'), {
+        keyboard: false,
+        backdrop: 'static'
+     });
      // Get reference to the export button inside the modal
     const exportDetailsExcelBtn = document.getElementById('exportDetailsExcelBtn');
      if (exportDetailsExcelBtn) {
@@ -238,6 +244,17 @@ function filterModalTable() {
         }
         row.style.display = display ? '' : 'none';
     }
+
+    // Re-number the visible rows
+    let visibleRowIndex = 1;
+    for (const row of rows) {
+        if (row.style.display !== 'none') {
+            const firstCell = row.getElementsByTagName('td')[0];
+            if (firstCell) {
+                firstCell.textContent = visibleRowIndex++;
+            }
+        }
+    }
 }
 
         function handleDetailsClick(e) {
@@ -312,7 +329,7 @@ function filterModalTable() {
                                  const rowData = {};
                                  Array.from(tableRow.children).forEach((cell, idx) => {
                                      // Use the correct accessor names from renderDataTable
-                                      const accessorMap = ['system', 'subsystem', 'discipline', 'totalItems', 'completed', 'pending', 'punch', 'holdPoint', 'statusPercent'];
+                                      const accessorMap = ['system', 'subsystem', 'formStatus', 'discipline', 'totalItems', 'completed', 'pending', 'punch', 'holdPoint', 'statusPercent'];
                                       if (accessorMap[idx]) {
                                           rowData[accessorMap[idx]] = cell.textContent.trim();
                                       }
@@ -356,72 +373,106 @@ function filterModalTable() {
              }
         }
 
-        function filterDetailedItems(context) {
-            let filtered = detailedItemsData;
-            let modalTitle = 'Item Details';
 
-            if (context.type === 'summary') {
-                 // Filter based on current selected view
-                 if (selectedView.type === 'system' && selectedView.id) {
-                     const subSystemIds = processedData.systemMap[selectedView.id]?.subs.map(sub => sub.id.toLowerCase()) || []; // Convert subSystemIds to lower case
-                     filtered = filtered.filter(item => item.subsystem.toLowerCase() && subSystemIds.includes(item.subsystem.toLowerCase())); // Convert item.subsystem to lower case
-                      modalTitle = `${context.status === 'DONE' ? 'Completed' : context.status === 'PENDING' ? 'Pending' : context.status === 'TOTAL' ? 'Total' : 'Remaining'} Items in System: ${selectedView.name}`;
-                 } else if (selectedView.type === 'subsystem' && selectedView.id) {
-                     filtered = filtered.filter(item => item.subsystem.toLowerCase() === selectedView.id.toLowerCase()); // Convert both to lower case
-                      modalTitle = `${context.status === 'DONE' ? 'Completed' : context.status === 'PENDING' ? 'Pending' : context.status === 'TOTAL' ? 'Total' : 'Remaining'} Items in Subsystem: ${selectedView.name}`;
-                 } else { // 'all' view - no subsystem filter needed here
-                      modalTitle = `${context.status === 'DONE' ? 'Completed' : context.status === 'PENDING' ? 'Pending' : context.status === 'TOTAL' ? 'Total' : 'Remaining'} Items (All Systems)`;
-                 }
+function isPendingStatus(status) {
+    if (!status) return false;
+    const s = status.trim();
 
-                 // Filter by status (unless status is TOTAL)
-                 if (context.status !== 'TOTAL') {
-                      if (context.status === 'OTHER') {
-                           // Filter items whose status is NOT DONE or PENDING (case-insensitive)
-                           filtered = filtered.filter(item =>
-                               // Check if status is defined and not empty, THEN compare case-insensitively
-                               // If status is empty or null/undefined, this condition will be false, including them.
-                               !item.status || (item.status.toLowerCase() !== 'done' && item.status.toLowerCase() !== 'pending')
-                            );
-                      } else if (context.status === 'HOLD') { // Added filtering for HOLD status
-                           filtered = filtered.filter(item => item.status && item.status.toLowerCase() === 'hold'); // Convert to lower case
-                      } else { // Filter by specific status (DONE or PENDING) (case-insensitive)
-                           filtered = filtered.filter(item => item.status && item.status.toLowerCase() === context.status.toLowerCase()); // Convert both to lower case
-                      }
-                 } // If status is TOTAL, no further status filtering needed
+    // 1. Exclude '0%' and '0'
+    if (/^0[%]?$/.test(s)) return false;
 
-            } else if (context.type === 'table') {
-                const rowData = context.rowData;
-                // Filter by Subsystem and Discipline from the clicked row (case-insensitive)
-                 const clickedSubsystem = rowData.subsystem.split(' - ')[0].toLowerCase();
-                 const clickedDiscipline = rowData.discipline.toLowerCase();
+    // 2. Check for specific text values (case-insensitive)
+    const pendingTexts = ['face_cleaning', 'fl/dry', 'hydrotest', 'cleaning', 'line check'];
+    if (pendingTexts.includes(s.toLowerCase())) return true;
 
-                 filtered = filtered.filter(item =>
-                      item.subsystem && item.subsystem.toLowerCase() === clickedSubsystem &&
-                      item.discipline && item.discipline.toLowerCase() === clickedDiscipline
-                 );
+    // 3. Check for digits or '%'
+    return /\d/.test(s) || s.includes('%');
+}
 
-                 // Filter by status based on the clicked column (unless status is TOTAL) (case-insensitive)
-                 if (context.status !== 'TOTAL') {
-                      if (context.status === 'OTHER') { // Status percentage column
-                           // Filter items whose status is NOT DONE or PENDING (case-insensitive)
-                           filtered = filtered.filter(item =>
-                               // Check if status is defined and not empty, THEN compare case-insensitively
-                               // If status is empty or null/undefined, this condition will be false, including them.
-                               !item.status || (item.status.toLowerCase() !== 'done' && item.status.toLowerCase() !== 'pending')
-                            );
-                      } else if (context.status === 'HOLD') { // Added filtering for HOLD status
-                           filtered = filtered.filter(item => item.status && item.status.toLowerCase() === 'hold'); // Convert to lower case
-                      } else { // Filter by specific status (Completed, Pending, Punch) (case-insensitive)
-                           filtered = filtered.filter(item => item.status && item.status.toLowerCase() === context.status.toLowerCase()); // Convert both to lower case
-                      }
-                 } // If status is TOTAL, no further status filtering needed
+function filterDetailedItems(context) {
+    let filtered = detailedItemsData;
+    let modalTitle = 'Item Details';
 
-                 modalTitle = `${context.status === 'DONE' ? 'Completed' : context.status === 'TOTAL' ? 'Total' : context.status} Items in ${rowData.subsystem.split(' - ')[0]} / ${rowData.discipline}`;
-            }
+    // --- Helper function for PENDING logic ---
+    function isPendingStatus(status) {
+        if (!status) return false;
+        const s = status.trim();
+        // Exclude '0' and '0%'
+        if (/^0[%]?$/.test(s)) return false;
+        // Specific text values (case-insensitive)
+        const pendingTexts = ['face_cleaning', 'fl/dry', 'hydrotest', 'cleaning', 'line check'];
+        if (pendingTexts.includes(s.toLowerCase())) return true;
+        // Contains digit or '%'
+        return /\d/.test(s) || s.includes('%');
+    }
 
-            document.getElementById('itemDetailsModalLabel').textContent = modalTitle;
-            return filtered;
+    if (context.type === 'summary') {
+        // Filter based on current selected view
+        if (selectedView.type === 'system' && selectedView.id) {
+            const subSystemIds = processedData.systemMap[selectedView.id]?.subs.map(sub => sub.id.toLowerCase()) || [];
+            filtered = filtered.filter(item => 
+                item.subsystem && subSystemIds.includes(item.subsystem.toLowerCase())
+            );
+            modalTitle = `${context.status === 'DONE' ? 'Completed' : context.status === 'PENDING' ? 'Pending' : context.status === 'TOTAL' ? 'Total' : 'Remaining'} Items in System: ${selectedView.name}`;
+        } else if (selectedView.type === 'subsystem' && selectedView.id) {
+            filtered = filtered.filter(item => 
+                item.subsystem && item.subsystem.toLowerCase() === selectedView.id.toLowerCase()
+            );
+            modalTitle = `${context.status === 'DONE' ? 'Completed' : context.status === 'PENDING' ? 'Pending' : context.status === 'TOTAL' ? 'Total' : 'Remaining'} Items in Subsystem: ${selectedView.name}`;
+        } else {
+            modalTitle = `${context.status === 'DONE' ? 'Completed' : context.status === 'PENDING' ? 'Pending' : context.status === 'TOTAL' ? 'Total' : 'Remaining'} Items (All Systems)`;
         }
+
+        // Filter by status (unless TOTAL)
+        if (context.status !== 'TOTAL') {
+            if (context.status === 'OTHER') {
+                filtered = filtered.filter(item =>
+                    !item.status || (item.status.toLowerCase() !== 'done' && !isPendingStatus(item.status))
+                );
+            } else if (context.status === 'HOLD') {
+                filtered = filtered.filter(item => item.status && item.status.toLowerCase() === 'hold');
+            } else if (context.status === 'PENDING') {
+                filtered = filtered.filter(item => isPendingStatus(item.status));
+            } else {
+                filtered = filtered.filter(item => 
+                    item.status && item.status.toLowerCase() === context.status.toLowerCase()
+                );
+            }
+        }
+    } 
+    else if (context.type === 'table') {
+        const rowData = context.rowData;
+        const clickedSubsystem = rowData.subsystem.split(' - ')[0].toLowerCase();
+        const clickedDiscipline = rowData.discipline.toLowerCase();
+        filtered = filtered.filter(item =>
+            item.subsystem && item.subsystem.toLowerCase() === clickedSubsystem &&
+            item.discipline && item.discipline.toLowerCase() === clickedDiscipline
+        );
+
+        // Filter by status (unless TOTAL)
+        if (context.status !== 'TOTAL') {
+            if (context.status === 'OTHER') {
+                filtered = filtered.filter(item =>
+                    !item.status || (item.status.toLowerCase() !== 'done' && !isPendingStatus(item.status))
+                );
+            } else if (context.status === 'HOLD') {
+                filtered = filtered.filter(item => item.status && item.status.toLowerCase() === 'hold');
+            } else if (context.status === 'PENDING') {
+                // ✅ این خط مهم است: در جدول هم از منطق جدید استفاده می‌شود
+                filtered = filtered.filter(item => isPendingStatus(item.status));
+            } else {
+                // For 'DONE' or other exact matches
+                filtered = filtered.filter(item => 
+                    item.status && item.status.toLowerCase() === context.status.toLowerCase()
+                );
+            }
+        }
+        modalTitle = `${context.status === 'DONE' ? 'Completed' : context.status === 'TOTAL' ? 'Total' : context.status} Items in ${rowData.subsystem.split(' - ')[0]} / ${rowData.discipline}`;
+    }
+
+    document.getElementById('itemDetailsModalLabel').textContent = modalTitle;
+    return filtered;
+}
 
         function filterPunchItems(context) {
             let filtered = punchItemsData;
@@ -705,198 +756,119 @@ function filterModalTable() {
 
         // --- Data Loading and Processing ---
         async function loadAndProcessData() {
-            const loadingModal = new bootstrap.Modal(document.getElementById('loadingModal'), {});
-            loadingModal.show();
-            // Hide the modal after 1.5 seconds
-            setTimeout(() => { loadingModal.hide(); }, 1500);
-
+            loadingModalInstance.show();
             DOMElements.errorMessage.style.display = 'none';
-            try {
-                // Load HOS.CSV to get form counts
-                const hosResponse = await fetch('dbcsv/HOS.CSV');
-                if (!hosResponse.ok) {
-                    throw new Error(`Network response for HOS CSV was not ok: ${hosResponse.statusText}`);
-                }
-                const hosCsvText = await hosResponse.text();
-                Papa.parse(hosCsvText, {
-                    header: true,
-                    skipEmptyLines: true,
-                    complete: (results) => {
-                        // Count non-empty dates in each form column
-                        window.formCounts.formA = results.data.filter(row => row.FormA && row.FormA.trim() !== '').length;
-                        window.formCounts.formB = results.data.filter(row => row.FormB && row.FormB.trim() !== '').length;
-                        window.formCounts.formC = results.data.filter(row => row.FormC && row.FormC.trim() !== '').length;
-                        window.formCounts.formD = results.data.filter(row => row.FormD && row.FormD.trim() !== '').length;
-                        console.log("Form counts loaded:", window.formCounts);
-                    },
-                    error: (err) => {
-                        console.error("PapaParse error for HOS CSV:", err);
-                    }
-                });
 
-                const response = await fetch(CSV_URL);
-                if (!response.ok) {
-                    throw new Error(`Network response was not ok: ${response.statusText}`);
-                }
-                const csvText = await response.text();
-
-                Papa.parse(csvText, {
-                header: true,
-                    skipEmptyLines: true,
-                complete: (results) => {
-                        const data = results.data;
-                        const systemMap = {};
-                        const subSystemMap = {};
-
-                        data.forEach(row => {
-                            if (!row.SD_System || !row.SD_Sub_System || !row.discipline) return;
-
-                            const systemId = row.SD_System.trim();
-                            const systemName = (row.SD_System_Name || 'Unknown System').trim();
-                            const subId = row.SD_Sub_System.trim();
-                            const subName = (row.SD_Subsystem_Name || 'Unknown Subsystem').trim();
-                            const discipline = row.discipline.trim();
-
-                            if (!systemMap[systemId]) {
-                                systemMap[systemId] = { id: systemId, name: systemName, subs: [] };
-                            }
-                            if (!systemMap[systemId].subs.find(s => s.id === subId)) {
-                                systemMap[systemId].subs.push({ id: subId, name: subName });
-                            }
-
-                            if (!subSystemMap[subId]) {
-                                subSystemMap[subId] = { id: subId, name: subName, systemId: systemId, title: `${subId} - ${subName}`, disciplines: {} };
-                            }
-
-                            const total = parseInt(row["TOTAL ITEM"]) || 0;
-                            const done = parseInt(row["TOTAL DONE"]) || 0;
-                            const pending = parseInt(row["TOTAL PENDING"]) || 0;
-
-                            subSystemMap[subId].disciplines[discipline] = {
-                                total: total,
-                                done: done,
-                                pending: pending,
-                                punch: parseInt(row["TOTAL NOT CLEAR PUNCH"]) || 0,
-                                hold: parseInt(row["TOTAL HOLD POINT"]) || 0,
-                                remaining: Math.max(0, total - done - pending)
-                            };
+            const parseCsv = (url) => {
+                return fetch(url)
+                    .then(response => {
+                        if (!response.ok) throw new Error(`Network response for ${url} was not ok`);
+                        return response.text();
+                    })
+                    .then(csvText => new Promise((resolve, reject) => {
+                        Papa.parse(csvText, {
+                            header: true,
+                            skipEmptyLines: true,
+                            complete: resolve,
+                            error: reject
                         });
-                        processedData = { systemMap, subSystemMap, allRawData: data };
-                        // Modal is hidden by the initial setTimeout, no need to hide here
-                        updateView(); // Initial render after data load
-                    },
-                    error: (err) => {
-                        // Modal is hidden by the initial setTimeout, no need to hide here
-                        DOMElements.errorMessage.textContent = `Failed to load or parse CSV: ${err.message}`;
-                        DOMElements.errorMessage.style.display = 'block';
-                        console.error("PapaParse error:", err);
+                    }));
+            };
+
+            try {
+                const [hosResults, dataResults, itemsResults, punchResults, holdResults, activitiesResults] = await Promise.all([
+                    parseCsv('dbcsv/HOS.CSV'),
+                    parseCsv(CSV_URL),
+                    parseCsv(ITEMS_CSV_URL),
+                    parseCsv(PUNCH_CSV_URL),
+                    parseCsv(HOLD_POINT_CSV_URL),
+                    parseCsv(ACTIVITIES_CSV_URL)
+                ]);
+
+                // --- Process HOS Data First ---
+                window.formCounts.formA = hosResults.data.filter(row => row.FormA && row.FormA.trim() !== '').length;
+                window.formCounts.formB = hosResults.data.filter(row => row.FormB && row.FormB.trim() !== '').length;
+                window.formCounts.formC = hosResults.data.filter(row => row.FormC && row.FormC.trim() !== '').length;
+                window.formCounts.formD = hosResults.data.filter(row => row.FormD && row.FormD.trim() !== '').length;
+
+                hosResults.data.forEach(row => {
+                    const subSystemId = row.Sub_System?.trim();
+                    if (subSystemId) {
+                        if (row.FormD && row.FormD.trim() !== '') subsystemStatusMap[subSystemId] = 'D';
+                        else if (row.FormC && row.FormC.trim() !== '') subsystemStatusMap[subSystemId] = 'C';
+                        else if (row.FormB && row.FormB.trim() !== '') subsystemStatusMap[subSystemId] = 'B';
+                        else if (row.FormA && row.FormA.trim() !== '') subsystemStatusMap[subSystemId] = 'A';
                     }
                 });
+                console.log("Subsystem statuses loaded:", subsystemStatusMap);
 
-                // Fetch and parse detailed items data
-                const itemsResponse = await fetch(ITEMS_CSV_URL);
-                if (!itemsResponse.ok) {
-                     throw new Error(`Network response for items CSV was not ok: ${itemsResponse.statusText}`);
-                }
-                const itemsCsvText = await itemsResponse.text();
-                Papa.parse(itemsCsvText, {
-                    header: true,
-                    skipEmptyLines: true,
-                    complete: (results) => {
-                        detailedItemsData = results.data.map(item => ({
-                            subsystem: item.SD_Sub_System?.trim() || '',
-                            discipline: item.Discipline_Name?.trim() || '',
-                            tagNo: item.ITEM_Tag_NO?.trim() || '',
-                            typeCode: item.ITEM_Type_Code?.trim() || '',
-                            description: item.ITEM_Description?.trim() || '',
-                            status: item.ITEM_Status?.trim() || ''
-                        }));
-                         console.log("Detailed items data loaded:", detailedItemsData.length, "items");
-                    },
-                     error: (err) => {
-                         console.error("PapaParse error for items CSV:", err);
-                     }
+                // --- Process Main Data ---
+                const systemMap = {};
+                const subSystemMap = {};
+                dataResults.data.forEach(row => {
+                    if (!row.SD_System || !row.SD_Sub_System || !row.discipline) return;
+                    const systemId = row.SD_System.trim();
+                    const systemName = (row.SD_System_Name || 'Unknown System').trim();
+                    const subId = row.SD_Sub_System.trim();
+                    const subName = (row.SD_Subsystem_Name || 'Unknown Subsystem').trim();
+                    const discipline = row.discipline.trim();
+
+                    if (!systemMap[systemId]) systemMap[systemId] = { id: systemId, name: systemName, subs: [] };
+                    if (!systemMap[systemId].subs.find(s => s.id === subId)) systemMap[systemId].subs.push({ id: subId, name: subName });
+                    if (!subSystemMap[subId]) subSystemMap[subId] = { id: subId, name: subName, systemId: systemId, title: `${subId} - ${subName}`, disciplines: {} };
+
+                    const total = parseInt(row["TOTAL ITEM"]) || 0;
+                    const done = parseInt(row["TOTAL DONE"]) || 0;
+                    const pending = parseInt(row["TOTAL PENDING"]) || 0;
+
+                    subSystemMap[subId].disciplines[discipline] = {
+                        total, done, pending,
+                        punch: parseInt(row["TOTAL NOT CLEAR PUNCH"]) || 0,
+                        hold: parseInt(row["TOTAL HOLD POINT"]) || 0,
+                        remaining: Math.max(0, total - done - pending)
+                    };
                 });
+                processedData = { systemMap, subSystemMap, allRawData: dataResults.data };
 
-                // Fetch and parse punch items data
-                 const punchResponse = await fetch(PUNCH_CSV_URL);
-                 if (!punchResponse.ok) {
-                      throw new Error(`Network response for punch CSV was not ok: ${punchResponse.statusText}`);
-                 }
-                 const punchCsvText = await punchResponse.text();
-                 Papa.parse(punchCsvText, {
-                     header: true,
-                     skipEmptyLines: true,
-                     complete: (results) => {
-                         punchItemsData = results.data.map(item => ({
-                             SD_Sub_System: item.SD_Sub_System?.trim() || '',
-                             Discipline_Name: item.Discipline_Name?.trim() || '',
-                             ITEM_Tag_NO: item.ITEM_Tag_NO?.trim() || '',
-                             ITEM_Type_Code: item.ITEM_Type_Code?.trim() || '',
-                             PL_Punch_Category: item.PL_Punch_Category?.trim() || '',
-                             PL_Punch_Description: item.PL_Punch_Description?.trim() || '',
-                             PL_No: item.PL_No?.trim() || ''
-                         }));
-                          console.log("Punch items data loaded:", punchItemsData.length, "items");
-                     },
-                      error: (err) => {
-                         console.error("PapaParse error for punch CSV:", err);
-                     }
-                 });
+                // --- Process Other Detailed Data ---
+                detailedItemsData = itemsResults.data.map(item => ({
+                    subsystem: item.SD_Sub_System?.trim() || '', discipline: item.Discipline_Name?.trim() || '',
+                    tagNo: item.ITEM_Tag_NO?.trim() || '', typeCode: item.ITEM_Type_Code?.trim() || '',
+                    description: item.ITEM_Description?.trim() || '', status: item.ITEM_Status?.trim() || ''
+                }));
+                console.log("Detailed items data loaded:", detailedItemsData.length, "items");
 
-                 // Fetch and parse hold point items data
-                  const holdResponse = await fetch(HOLD_POINT_CSV_URL);
-                  if (!holdResponse.ok) {
-                       throw new Error(`Network response for hold point CSV was not ok: ${holdResponse.statusText}`);
-                  }
-                  const holdCsvText = await holdResponse.text();
-                  Papa.parse(holdCsvText, {
-                      header: true,
-                      skipEmptyLines: true,
-                      complete: (results) => {
-                          holdPointItemsData = results.data.map(item => ({
-                              subsystem: item.SD_SUB_SYSTEM?.trim() || '',
-                              discipline: item.Discipline_Name?.trim() || '',
-                              tagNo: item.ITEM_Tag_NO?.trim() || '',
-                              typeCode: item.ITEM_Type_Code?.trim() || '',
-                              hpPriority: item.HP_Priority?.trim() || '',
-                              hpDescription: item.HP_Description?.trim() || '',
-                              hpLocation: item.HP_Location?.trim() || ''
-                          }));
-                          console.log("Hold point items data loaded:", holdPointItemsData.length, "items");
-                      },
-                       error: (err) => {
-                          console.error("PapaParse error for hold point CSV:", err);
-                       }
-                  });
+                punchItemsData = punchResults.data.map(item => ({
+                    SD_Sub_System: item.SD_Sub_System?.trim() || '', Discipline_Name: item.Discipline_Name?.trim() || '',
+                    ITEM_Tag_NO: item.ITEM_Tag_NO?.trim() || '', ITEM_Type_Code: item.ITEM_Type_Code?.trim() || '',
+                    PL_Punch_Category: item.PL_Punch_Category?.trim() || '', PL_Punch_Description: item.PL_Punch_Description?.trim() || '',
+                    PL_No: item.PL_No?.trim() || ''
+                }));
+                console.log("Punch items data loaded:", punchItemsData.length, "items");
 
-                  // Fetch and parse activities data
-                  const activitiesResponse = await fetch(ACTIVITIES_CSV_URL);
-                  if (!activitiesResponse.ok) {
-                       throw new Error(`Network response for activities CSV was not ok: ${activitiesResponse.statusText}`);
-                  }
-                  const activitiesCsvText = await activitiesResponse.text();
-                  Papa.parse(activitiesCsvText, {
-                      header: true,
-                      skipEmptyLines: true,
-                      complete: (results) => {
-                          activitiesData = results.data.map(item => ({
-                              Tag_No: item.Tag_No?.trim() || '',
-                              Form_Title: item.Form_Title?.trim() || '',
-                              Done: item.Done?.trim() || ''
-                          }));
-                           console.log("Activities data loaded:", activitiesData.length, "items");
-                      },
-                       error: (err) => {
-                          console.error("PapaParse error for activities CSV:", err);
-                       }
-                  });
+                holdPointItemsData = holdResults.data.map(item => ({
+                    subsystem: item.SD_SUB_SYSTEM?.trim() || '', discipline: item.Discipline_Name?.trim() || '',
+                    tagNo: item.ITEM_Tag_NO?.trim() || '', typeCode: item.ITEM_Type_Code?.trim() || '',
+                    hpPriority: item.HP_Priority?.trim() || '', hpDescription: item.HP_Description?.trim() || '',
+                    hpLocation: item.HP_Location?.trim() || ''
+                }));
+                console.log("Hold point items data loaded:", holdPointItemsData.length, "items");
+
+                activitiesData = activitiesResults.data.map(item => ({
+                    Tag_No: item.Tag_No?.trim() || '', Form_Title: item.Form_Title?.trim() || '',
+                    Done: item.Done?.trim() || ''
+                }));
+                console.log("Activities data loaded:", activitiesData.length, "items");
+
+                // --- Initial Render ---
+                updateView();
 
             } catch (e) {
-                 // Modal is hidden by the initial setTimeout, no need to hide here
-                DOMElements.errorMessage.textContent = `Error fetching data: ${e.message}`;
+                DOMElements.errorMessage.textContent = `Error loading data: ${e.message}`;
                 DOMElements.errorMessage.style.display = 'block';
-                console.error("Fetch error:", e);
+                console.error("Data loading failed:", e);
+            } finally {
+                loadingModalInstance.hide();
             }
         }
 
@@ -929,12 +901,19 @@ function filterModalTable() {
                 if (node.type === 'subsystem' && processedData.subSystemMap[node.id]) {
                     subtitle = `<div class='small' style='font-size:0.78em; color: #ced4da !important;'>${processedData.subSystemMap[node.id].name}</div>`;
                 }
+
+                let iconHTML = node.icon || '';
+                if (node.type === 'subsystem' && subsystemStatusMap[node.id]) {
+                    const status = subsystemStatusMap[node.id];
+                    iconHTML = `<span class="status-indicator-icon status-${status.toLowerCase()}" title="Status: ${status}">${status}</span>`;
+                }
+
                 return `
                     <div id="${nodeId}" class="tree-node ${isSelected ? 'selected' : ''} ${isOpen ? 'open' : ''}"
                          role="treeitem" aria-selected="${isSelected}" ${hasChildren ? `aria-expanded="${isExpanded}"` : ''}
                          data-type="${node.type}" data-id="${node.id}" data-name="${node.name}"
                          data-parent-id="${parentId || ''}" style="padding-left: ${paddingLeft}px;" tabindex="${isSelected || (level === 0 && !document.querySelector('.tree-node.selected')) ? '0' : '-1'}">
-                        ${node.icon || ''}
+                        ${iconHTML}
                         <span class="flex-grow-1 text-truncate me-2">${node.name}${subtitle}</span>
                         ${hasChildren ? ICONS.ChevronRight : ''}
                 </div>
@@ -1035,7 +1014,7 @@ function filterModalTable() {
             } else if (selectedView.type === 'subsystem' && selectedView.id) {
                 const systemName = processedData.systemMap[selectedView.parentId]?.name || selectedView.parentId;
                 const subsystemName = processedData.subSystemMap[selectedView.id]?.name || selectedView.name;
-                titleText = `System: ${selectedView.parentId} - ${systemName}<br>Subsystem: ${selectedView.id} - ${subsystemName}`;
+                titleText = `System: ${selectedView.parentId} - ${systemName}<br><small class="text-white-50">Subsystem: ${selectedView.id} - ${subsystemName}</small>`;
             } else if (selectedView.type === 'all') {
                 titleText = 'Dashboard';
             }
@@ -1170,8 +1149,27 @@ function filterModalTable() {
             if (aggregatedStats.totalItems === 0 || (aggregatedStats.done === 0 && aggregatedStats.pending === 0 && aggregatedStats.remaining === 0)) {
                  overviewParent.insertAdjacentHTML('beforeend', '<div class="text-center text-muted small p-5">No data to display for General Status.</div>');
             } else {
-                chartInstances.overview = new Chart(overviewCtx, { type: 'doughnut', data: overviewChartData, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom' }, tooltip: { callbacks: { label: (context) => `${context.label}: ${context.formattedValue} (${Math.round(context.parsed / aggregatedStats.totalItems * 100)}%)`}}}} });
+chartInstances.overview = new Chart(overviewCtx, {
+    type: 'doughnut',
+    data: overviewChartData,
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: { position: 'bottom' },
+            tooltip: {
+                callbacks: {
+                    label: (context) => {
+                        const value = context.parsed;
+                        const total = aggregatedStats.totalItems;
+                        const percent = total > 0 ? Math.round((value / total) * 100) : 0;
+                        return `${context.label}: ${value.toLocaleString()} (${percent}%)`;
+                    }
+                }
             }
+        }
+    }
+});            }
         }
 
         function renderDisciplineCharts() {
@@ -1303,7 +1301,7 @@ function filterModalTable() {
 
         function renderDataTable() {
             const columns = [
-                { header: 'System', accessor: 'system' }, { header: 'Subsystem', accessor: 'subsystem' },
+                { header: 'System', accessor: 'system' }, { header: 'Subsystem', accessor: 'subsystem' }, { header: 'Form', accessor: 'formStatus' },
                 { header: 'Discipline', accessor: 'discipline' }, { header: 'Total Items', accessor: 'totalItems' },
                 { header: 'Completed', accessor: 'completed' }, { header: 'Pending', accessor: 'pending' },
                 { header: 'Punch', accessor: 'punch' }, { header: 'Hold Point', accessor: 'holdPoint' },
@@ -1323,6 +1321,13 @@ function filterModalTable() {
                          if (col.accessor === 'statusPercent') {
                             const badgeClass = row.statusPercent > 80 ? 'bg-success-subtle text-success' : row.statusPercent > 50 ? 'bg-info-subtle text-info' : 'bg-warning-subtle text-warning';
                             cellValue = `<span class="badge ${badgeClass} rounded-pill">${row.statusPercent}%</span>`;
+                        } else if (col.accessor === 'formStatus') {
+                            const status = row.formStatus;
+                            if (status) {
+                                cellValue = `<span class="status-indicator-icon status-${status.toLowerCase()}" title="Status: ${status}">${status}</span>`;
+                            } else {
+                                cellValue = '';
+                            }
                         } else if (col.accessor === 'system') {
                             cellValue = row.system;
                         } else if (col.accessor === 'subsystem') {
@@ -1401,12 +1406,18 @@ function filterModalTable() {
             if (!forExport && relevantRawData.length === 0 && view.type !== 'all') return [];
 
             return relevantRawData.map(row => {
+                const subSystemId = row.SD_Sub_System.trim();
                 const totalItems = parseInt(row["TOTAL ITEM"]) || 0;
                 const completed = parseInt(row["TOTAL DONE"]) || 0;
                 return {
-                    system: row.SD_System.trim(), systemName: (row.SD_System_Name || 'N/A').trim(),
-                    subsystem: row.SD_Sub_System.trim(), subsystemName: (row.SD_Subsystem_Name || 'N/A').trim(),
-                    discipline: row.discipline.trim(), totalItems, completed,
+                    system: row.SD_System.trim(),
+                    systemName: (row.SD_System_Name || 'N/A').trim(),
+                    subsystem: subSystemId,
+                    subsystemName: (row.SD_Subsystem_Name || 'N/A').trim(),
+                    formStatus: subsystemStatusMap[subSystemId] || '',
+                    discipline: row.discipline.trim(),
+                    totalItems,
+                    completed,
                     pending: parseInt(row["TOTAL PENDING"]) || 0,
                     punch: parseInt(row["TOTAL NOT CLEAR PUNCH"]) || 0,
                     holdPoint: parseInt(row["TOTAL HOLD POINT"]) || 0,
@@ -1515,8 +1526,11 @@ function filterModalTable() {
 
         // --- Optimized Punch Items Export ---
         function handleDetailsExport() {
-            if (displayedItemsInModal.length === 0) {
-                alert("No data in the modal to export.");
+            const tableBody = document.getElementById('itemDetailsTableBody');
+            const visibleRows = Array.from(tableBody.querySelectorAll('tr')).filter(row => row.style.display !== 'none');
+
+            if (visibleRows.length === 0) {
+                alert("No visible data to export.");
                 return;
             }
 
@@ -1526,85 +1540,21 @@ function filterModalTable() {
                 .replace(/[^a-zA-Z0-9 ]/g, '')
                 .replace(/ /g, '_');
 
-            // Prepare export data based on type
-            let exportConfig;
+            // Get headers from the table header
+            const headerRow = document.getElementById('itemDetailsModalHeader');
+            const headers = Array.from(headerRow.querySelectorAll('th')).map(th => th.textContent);
 
-            if (currentModalDataType === 'punch') {
-                exportConfig = {
-                    fileName: `SAPRA_Punch_Details_${modalTitle || 'All'}_${currentDate}.xlsx`,
-                    sheetName: 'Punch Items',
-                    headers: [
-                        '#', 'Subsystem', 'Discipline', 'Tag No',
-                        'Type', 'Category', 'Description', 'PL No'
-                    ],
-                    data: displayedItemsInModal.map((item, index) => [
-                        index + 1,
-                        item.SD_Sub_System || 'N/A',
-                        item.Discipline_Name || 'N/A',
-                        item.ITEM_Tag_NO || 'N/A',
-                        item.ITEM_Type_Code || 'N/A',
-                        item.PL_Punch_Category || 'N/A',
-                        item.PL_Punch_Description || 'N/A',
-                        item.PL_No || 'N/A'
-                    ])
-                };
-            } else if (currentModalDataType === 'items') {
-                exportConfig = {
-                    fileName: `SAPRA_Item_Details_${modalTitle || 'All'}_${currentDate}.xlsx`,
-                    sheetName: 'Item Details',
-                    headers: [
-                        '#', 'Subsystem', 'Discipline', 'Tag No',
-                        'Type', 'Description', 'Status'
-                    ],
-                    data: displayedItemsInModal.map((item, index) => [
-                        index + 1,
-                        item.subsystem,
-                        item.discipline,
-                        item.tagNo,
-                        item.typeCode,
-                        item.description,
-                        item.status
-                    ])
-                };
-            } else if (currentModalDataType === 'hold') {
-                exportConfig = {
-                    fileName: `SAPRA_Hold_Details_${modalTitle || 'All'}_${currentDate}.xlsx`,
-                    sheetName: 'Hold Points',
-                    headers: [
-                        '#', 'Subsystem', 'Discipline', 'Tag No',
-                        'Type', 'Priority', 'Description', 'Location'
-                    ],
-                    data: displayedItemsInModal.map((item, index) => [
-                        index + 1,
-                        item.subsystem,
-                        item.discipline,
-                        item.tagNo,
-                        item.typeCode || 'N/A',
-                        item.hpPriority || 'N/A',
-                        item.hpDescription || 'N/A',
-                        item.hpLocation || 'N/A'
-                    ])
-                };
-            } else if (currentModalDataType.startsWith('form')) {
-                // Handle HOS form data export
-                exportConfig = {
-                    fileName: `SAPRA_${modalTitle || 'Form'}_Details_${currentDate}.xlsx`,
-                    sheetName: 'Form Details',
-                    headers: [
-                        '#', 'Subsystem', 'Subsystem Name', 'Form A',
-                        'Form B', 'Form C', 'Form D'
-                    ],
-                    data: displayedItemsInModal.map((item, index) => [
-                        index + 1,
-                        item.subsystem,
-                        item.subsystemName,
-                        item.formA,
-                        item.formB,
-                        item.formC,
-                        item.formD
-                    ])
-                };
-            }
+            // Get data from visible rows only
+            const data = visibleRows.map(row =>
+                Array.from(row.querySelectorAll('td')).map(td => td.textContent)
+            );
+
+            const exportConfig = {
+                fileName: `SAPRA_Export_${modalTitle || 'Details'}_${currentDate}.xlsx`,
+                sheetName: 'Exported Data',
+                headers: headers,
+                data: data
+            };
 
             try {
                 // Create worksheet with headers
@@ -1619,7 +1569,7 @@ function filterModalTable() {
                 XLSX.writeFile(wb, exportConfig.fileName);
             } catch (error) {
                 console.error("Export error:", error);
-                alert(`Error exporting ${currentModalDataType} data: ${error.message}`);
+                alert(`Error exporting data: ${error.message}`);
             }
         }
 
