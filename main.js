@@ -437,10 +437,11 @@ function filterDetailedItems(context) {
     } 
     else if (context.type === 'table') {
         const rowData = context.rowData;
-        const clickedSubsystem = rowData.subsystem.split(' - ')[0].toLowerCase();
+        const rawSubsystemPart = rowData.subsystem.split(' - ')[0];
+        const cleanedSubsystem = rawSubsystemPart.replace(/^[ABCD]\s+/, '').trim().toLowerCase();
         const clickedDiscipline = rowData.discipline.toLowerCase();
         filtered = filtered.filter(item =>
-            item.subsystem && item.subsystem.toLowerCase() === clickedSubsystem &&
+            item.subsystem && item.subsystem.toLowerCase() === cleanedSubsystem &&
             item.discipline && item.discipline.toLowerCase() === clickedDiscipline
         );
 
@@ -495,11 +496,12 @@ function filterDetailedItems(context) {
             } else if (context.type === 'table') {
                 const rowData = context.rowData;
                 // Extract subsystem and discipline from row data
-                const clickedSubsystem = rowData.subsystem.split(' - ')[0].trim().toLowerCase();
+                const rawSubsystemPart = rowData.subsystem.split(' - ')[0];
+                const cleanedSubsystem = rawSubsystemPart.replace(/^[ABCD]\s+/, '').trim().toLowerCase();
                 const clickedDiscipline = rowData.discipline.trim().toLowerCase();
 
                 filtered = filtered.filter(item =>
-                    item.SD_Sub_System && item.SD_Sub_System.trim().toLowerCase() === clickedSubsystem &&
+                    item.SD_Sub_System && item.SD_Sub_System.trim().toLowerCase() === cleanedSubsystem &&
                     item.Discipline_Name && item.Discipline_Name.trim().toLowerCase() === clickedDiscipline
                 );
                 modalTitle = `Punch Items in ${rowData.subsystem.split(' - ')[0]} / ${rowData.discipline}`;
@@ -535,11 +537,12 @@ function filterDetailedItems(context) {
              } else if (context.type === 'table') {
                  const rowData = context.rowData;
                 // Filter by Subsystem and Discipline from the clicked row (case-insensitive)
-                 const clickedSubsystem = rowData.subsystem.split(' - ')[0].toLowerCase();
+                const rawSubsystemPart = rowData.subsystem.split(' - ')[0];
+                const cleanedSubsystem = rawSubsystemPart.replace(/^[ABCD]\s+/, '').trim().toLowerCase();
                  const clickedDiscipline = rowData.discipline.toLowerCase();
 
                  filtered = filtered.filter(item =>
-                     item.subsystem && item.subsystem.toLowerCase() === clickedSubsystem &&
+                     item.subsystem && item.subsystem.toLowerCase() === cleanedSubsystem &&
                      item.discipline && item.discipline.toLowerCase() === clickedDiscipline
                  );
                 // For hold point table column, status is always 'HOLD', no further filtering by status needed here.
