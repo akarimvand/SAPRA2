@@ -4,7 +4,7 @@
     --primary-dark: #0d47a1;
     --secondary-color: #6c757d;
     --success-color: #28a745;
-    --info-color: #17a2b8;
+    --info-color: #fc5f3f;
     --warning-color: #ffc107;
     --danger-color: #dc3545;
     --light-color: #f8f9fa;
@@ -111,7 +111,7 @@ body {
 .sidebar-search input {
     background-color: rgba(255,255,255,0.08);
     border: 1px solid rgba(255,255,255,0.1);
-    color: #fff;
+    color: #e0e0e0;
     padding: 0.6rem 1rem;
     font-size: 0.9rem;
     transition: var(--transition-base);
@@ -627,4 +627,73 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #6c757d;
+}
+/* Ensure search input text is visible on dark sidebar */
+.sidebar-search .form-control {
+    color: #ffffff !important;
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.sidebar-search .form-control::placeholder {
+    color: #adb5bd !important;
+    opacity: 0.8 !important;
+}
+
+/* Status Indicator Icon Styles */
+.status-indicator-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px; /* Matches icon size */
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 0.75rem; /* Matches icon margin */
+    flex-shrink: 0;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.status-a { background-color: #ffc107; } /* Amber */
+.status-b { background-color: #17a2b8; } /* Info */
+.status-c { background-color: #28a745; } /* Success */
+.status-d { background-color: #007bff; } /* Primary */
+
+/* New Header Nav Link Styles */
+#header-nav-items .header-nav-link {
+    color: #adb5bd;
+    text-decoration: none;
+    margin-left: 0.75rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    transition: all 0.2s ease-in-out;
+}
+
+#header-nav-items .header-nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+#header-nav-items .header-nav-link .bi {
+    font-size: 1.2rem;
+}
+
+#totalItemsBadge {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#totalItemsBadge:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(24, 119, 242, 0.5);
 }
