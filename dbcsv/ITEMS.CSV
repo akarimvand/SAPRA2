@@ -3920,10 +3920,10 @@ TEL-07,EL,07-SP-15,Paging Device,Loud Speaker - 25W|EX,50%
 2000-03,PI,2000-03-PO-02-618,PI_TP,PIPING TEST PACKAGE,DONE
 2000-03,PI,2000-03-PO-03-780,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 2000-03,PI,2000-03-PO-04-888,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
-2000-03,PI,2000-03-PO-05-889,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
+2000-03,PI,2000-03-PO-05-889,PI_TP,PIPING TEST PACKAGE,Line Check
 2000-03,PI,2000-03-PO-06-890,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
 2000-03,PI,2000-03-PO-07-891,PI_TP,PIPING TEST PACKAGE,DONE
-2000-03,PI,2000-03-PO-08-892,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
+2000-03,PI,2000-03-PO-08-892,PI_TP,PIPING TEST PACKAGE,Line Check
 2000-03,PI,2000-03-PO-09-1017,PI_TP,PIPING TEST PACKAGE,DONE
 2000-03,PI,2000-03-VA-01-680,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 2000-03,PI,2000-03-VA-02-681,PI_TP,PIPING TEST PACKAGE,HYDROTEST
@@ -4730,7 +4730,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 5000-01,PI,5000-01-PMV-01-034,PI_TP,PIPING TEST PACKAGE,DONE
 5000-01,PI,5000-01-PMV-02-124,PI_TP,PIPING TEST PACKAGE,DONE
 5000-01,PI,5000-01-PMV-03-235,PI_TP,PIPING TEST PACKAGE,DONE
-5000-01,PI,5000-01-PMV-04-252,PI_TP,PIPING TEST PACKAGE,DONE
+5000-01,PI,5000-01-PMV-04-252,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 5000-01,PI,5000-01-PMV-05-398,PI_TP,PIPING TEST PACKAGE,DONE
 5000-01,PI,5000-01-PMV-06-399,PI_TP,PIPING TEST PACKAGE,DONE
 5000-01,PI,5000-01-PMV-07-400,PI_TP,PIPING TEST PACKAGE,DONE
@@ -15741,52 +15741,52 @@ BLD-06,CV,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Wor
 3000-01,IN,MOV-30107,Instrument(MOV),Instrument(MOV),50%
 120-02,EL,MP-0001A,Local_Control_Station,Local Control Station- MP-0001A,Done
 120-02,EL,MP-0001B,Local_Control_Station,Local Control Station- MP-0001B,Done
-120-02,EL,MP-2001A,Local_Control_Station,Local Control Station- MP-2001A,50%
-120-02,EL,MP-2001B,Local_Control_Station,Local Control Station- MP-2001B,50%
+120-02,EL,MP-2001A,Local_Control_Station,Local Control Station- MP-2001A,Done
+120-02,EL,MP-2001B,Local_Control_Station,Local Control Station- MP-2001B,Done
 120-02,EL,MP-2002A,Local_Control_Station,Local Control Station- MP-2002A,50%
 120-02,EL,MP-2002B,Local_Control_Station,Local Control Station- MP-2002B,Done
-120-02,EL,MP-2003A,Local_Control_Station,Local Control Station- MP-2003A,0%
-120-02,EL,MP-2003B,Local_Control_Station,Local Control Station- MP-2003B,0%
+120-02,EL,MP-2003A,Local_Control_Station,Local Control Station- MP-2003A,50%
+120-02,EL,MP-2003B,Local_Control_Station,Local Control Station- MP-2003B,50%
 120-07,EL,MP-3001,Local_Control_Station,Local Control Station- MP-3001,0%
 120-02,EL,MP-3011A,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3011A),Exception(Pending)
 120-02,EL,MP-3011B,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3011B),Exception(Pending)
 120-02,EL,MP-3012A,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3012A),50%
 120-02,EL,MP-3012B,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3012B),50%
 120-07,EL,MP-3013,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3013),50%
-120-02,EL,MP-5001A,Local_Control_Station,Local Control Station- MP-5001A,50%
-120-02,EL,MP-5001B,Local_Control_Station,Local Control Station- MP-5001B,0%
-120-02,EL,MP-5002A,Local_Control_Station,Local Control Station- MP-5002A,50%
-120-02,EL,MP-5002B,Local_Control_Station,Local Control Station- MP-5002B,50%
-120-02,EL,MP-5003A,Local_Control_Station,Local Control Station- MP-5003A,50%
-120-02,EL,MP-5003B,Local_Control_Station,Local Control Station- MP-5003B,50%
+120-02,EL,MP-5001A,Local_Control_Station,Local Control Station- MP-5001A,Done
+120-02,EL,MP-5001B,Local_Control_Station,Local Control Station- MP-5001B,50%
+120-02,EL,MP-5002A,Local_Control_Station,Local Control Station- MP-5002A,Done
+120-02,EL,MP-5002B,Local_Control_Station,Local Control Station- MP-5002B,Done
+120-02,EL,MP-5003A,Local_Control_Station,Local Control Station- MP-5003A,Done
+120-02,EL,MP-5003B,Local_Control_Station,Local Control Station- MP-5003B,Done
 120-01,EL,MP-5004A,Local_Control_Station,Local Control Station- MP-5004A,50%
 120-01,EL,MP-5004A-SH,SPACE_HEATER,Motor Space Heater- MP-5004A-SH,50%
 120-01,EL,MP-5004B,Local_Control_Station,Local Control Station- MP-5004B,50%
 120-01,EL,MP-5004B-SH,SPACE_HEATER,Motor Space Heater- MP-5004B-SH,50%
-120-02,EL,MP-5005A,Local_Control_Station,Local Control Station- MP-5005A,0%
-120-02,EL,MP-5005B,Local_Control_Station,Local Control Station- MP-5005B,50%
+120-02,EL,MP-5005A,Local_Control_Station,Local Control Station- MP-5005A,50%
+120-02,EL,MP-5005B,Local_Control_Station,Local Control Station- MP-5005B,Done
 120-01,EL,MP-5006A,Local_Control_Station,Local Control Station- MP-5006A,50%
 120-01,EL,MP-5006A-SH,SPACE_HEATER,Motor Space Heater- MP-5006A-SH,50%
 120-01,EL,MP-5006B,Local_Control_Station,Local Control Station- MP-5006B,50%
 120-01,EL,MP-5006B-SH,SPACE_HEATER,Motor Space Heater- MP-5006B-SH,50%
-120-02,EL,MP-5007A,Local_Control_Station,Local Control Station- MP-5007A,50%
-120-02,EL,MP-5007B,Local_Control_Station,Local Control Station- MP-5007B,50%
+120-02,EL,MP-5007A,Local_Control_Station,Local Control Station- MP-5007A,Done
+120-02,EL,MP-5007B,Local_Control_Station,Local Control Station- MP-5007B,Done
 120-01,EL,MP-5008A,Local_Control_Station,Local Control Station- MP-5008A,50%
 120-01,EL,MP-5008A-SH,SPACE_HEATER,Motor Space Heater- MP-5008A-SH,50%
 120-01,EL,MP-5008B,Local_Control_Station,Local Control Station- MP-5008B,50%
 120-01,EL,MP-5008B-SH,SPACE_HEATER,Motor Space Heater- MP-5008B-SH,50%
-120-02,EL,MP-5009A,Local_Control_Station,Local Control Station- MP-5009A,50%
-120-02,EL,MP-5009B,Local_Control_Station,Local Control Station- MP-5009B,50%
-120-02,EL,MP-5010A,Local_Control_Station,Local Control Station- MP-5010A,0%
-120-02,EL,MP-5010B,Local_Control_Station,Local Control Station- MP-5010B,50%
-120-02,EL,MP-5011A,Local_Control_Station,Local Control Station- MP-5011A,50%
-120-02,EL,MP-5011B,Local_Control_Station,Local Control Station- MP-5011B,50%
+120-02,EL,MP-5009A,Local_Control_Station,Local Control Station- MP-5009A,Done
+120-02,EL,MP-5009B,Local_Control_Station,Local Control Station- MP-5009B,Done
+120-02,EL,MP-5010A,Local_Control_Station,Local Control Station- MP-5010A,50%
+120-02,EL,MP-5010B,Local_Control_Station,Local Control Station- MP-5010B,Done
+120-02,EL,MP-5011A,Local_Control_Station,Local Control Station- MP-5011A,Done
+120-02,EL,MP-5011B,Local_Control_Station,Local Control Station- MP-5011B,Done
 120-07,EL,MP-5012A,Local_Control_Station,Local Control Station- MP-5012A,0%
 120-07,EL,MP-5012B,Local_Control_Station,Local Control Station- MP-5012B,0%
 120-02,EL,MP-5070A,Local_Control_Station,Local Control Station- MP-5070A,Exception(Pending)
 120-02,EL,MP-5070B,Local_Control_Station,Local Control Station- MP-5070B,Exception(Pending)
-120-02,EL,MP-6001A,Local_Control_Station,Local Control Station- MP-6001A,0%
-120-02,EL,MP-6001B,Local_Control_Station,Local Control Station- MP-6001B,50%
+120-02,EL,MP-6001A,Local_Control_Station,Local Control Station- MP-6001A,50%
+120-02,EL,MP-6001B,Local_Control_Station,Local Control Station- MP-6001B,Done
 120-01,EL,MP-6002A,Local_Control_Station,Local Control Station- MP-6002A,50%
 120-01,EL,MP-6002A-SH,SPACE_HEATER,Motor Space Heater- MP-6002A-SH,50%
 120-01,EL,MP-6002B,Local_Control_Station,Local Control Station- MP-6002B,50%
@@ -15795,12 +15795,12 @@ BLD-06,CV,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Wor
 120-01,EL,MP-6002C-SH,SPACE_HEATER,Motor Space Heater- MP-6002C-SH,50%
 120-01,EL,MP-7001C,Local_Control_Station,Local Control Station- MP-7001C,50%
 120-01,EL,MP-7001C-SH,SPACE_HEATER,Motor Space Heater- MP-7001C-SH,50%
-120-02,EL,MP-7002A,Local_Control_Station,Local Control Station- MP-7002A,50%
-120-02,EL,MP-7002B,Local_Control_Station,Local Control Station- MP-7002B,50%
-120-02,EL,MP-7003A,Local_Control_Station,Local Control Station- MP-7003A,50%
-120-02,EL,MP-7003B,Local_Control_Station,Local Control Station- MP-7003B,0%
-120-02,EL,MP-7004A,Local_Control_Station,Local Control Station- MP-7004A,50%
-120-02,EL,MP-7004B,Local_Control_Station,Local Control Station- MP-7004B,0%
+120-02,EL,MP-7002A,Local_Control_Station,Local Control Station- MP-7002A,Done
+120-02,EL,MP-7002B,Local_Control_Station,Local Control Station- MP-7002B,Done
+120-02,EL,MP-7003A,Local_Control_Station,Local Control Station- MP-7003A,Done
+120-02,EL,MP-7003B,Local_Control_Station,Local Control Station- MP-7003B,50%
+120-02,EL,MP-7004A,Local_Control_Station,Local Control Station- MP-7004A,Done
+120-02,EL,MP-7004B,Local_Control_Station,Local Control Station- MP-7004B,50%
 120-02,EL,MP-7051A,Local_Control_Station,Local Control Station- MP-7051A,Exception(Pending)
 120-02,EL,MP-7051B,Local_Control_Station,Local Control Station- MP-7051B,Exception(Pending)
 120-02,EL,MP-7052A,Local_Control_Station,Local Control Station- MP-7052A,Exception(Pending)
@@ -16790,14 +16790,14 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),0%
 5000-01,MER,P-5001B,Pump,RAW METHANOL PUMP,67%
 5000-01,MER,P-5002A,Pump,STABLIZER METHANOL PUMP,50%
 5000-01,MER,P-5002B,Pump,STABLIZER METHANOL PUMP,50%
-5000-01,MER,P-5003A,Pump,STABLIZER COLUMN REFLUX PUMP,0%
-5000-01,MER,P-5003B,Pump,STABLIZER COLUMN REFLUX PUMP,0%
+5000-01,MER,P-5003A,Pump,STABLIZER COLUMN REFLUX PUMP,50%
+5000-01,MER,P-5003B,Pump,STABLIZER COLUMN REFLUX PUMP,50%
 5000-02,MER,P-5004A,Pump,LP COLUMN REFLUX PUMP,50%
 5000-02,MER,P-5004B,Pump,LP COLUMN REFLUX PUMP,50%
 5000-02,MER,P-5005A,Pump,MP COLUMN REFLUX PUMP,0%
 5000-02,MER,P-5005B,Pump,MP COLUMN FEED PUMP,0%
-5000-03,MER,P-5006A,Pump,MP COLUMN REFLUX PUMP,0%
-5000-03,MER,P-5006B,Pump,MP COLUMN REFLUX PUMP,0%
+5000-03,MER,P-5006A,Pump,MP COLUMN REFLUX PUMP,50%
+5000-03,MER,P-5006B,Pump,MP COLUMN REFLUX PUMP,50%
 5000-03,MER,P-5007A,Pump,MP COLUMN RECYCLE PUMP,50%
 5000-03,MER,P-5007B,Pump,MP COLUMN RECYCLE PUMP,50%
 5000-04,MER,P-5008A,Pump,METHANOL PRODUCT PUMP,50%
@@ -17677,8 +17677,8 @@ NO SUBS.,IN,PIT-30172,PKG,PKG,0%
 120-03,EL,PK7502-MB-1A,Local_Control_Station,Local Control Station- PK7502-MB-1A,50%
 4000-06,MES,PK-7502-MB-1B,PAKAGE(PK),Package,0%
 120-03,EL,PK7502-MB-1B,Local_Control_Station,Local Control Station- PK7502-MB-1B,50%
-120-03,EL,PK7502-MP-1A,Local_Control_Station,Local Control Station- PK7502-MP-1A,50%
-120-03,EL,PK7502-MP-1B,Local_Control_Station,Local Control Station- PK7502-MP-1B,50%
+120-03,EL,PK7502-MP-1A,Local_Control_Station,Local Control Station- PK7502-MP-1A,Done
+120-03,EL,PK7502-MP-1B,Local_Control_Station,Local Control Station- PK7502-MP-1B,Done
 120-03,EL,PK7502-MP-2A,Local_Control_Station,Local Control Station- PK7502-MP-2A,50%
 120-03,EL,PK7502-MP-2B,Local_Control_Station,Local Control Station- PK7502-MP-2B,50%
 120-03,EL,PK7502-MP-3A,Local_Control_Station,Local Control Station- PK7502-MP-3A,50%
