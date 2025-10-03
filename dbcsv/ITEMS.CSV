@@ -10028,7 +10028,7 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-06,EL,EBC-MAE-5004-10,Power Cable B,Local Control Station- MAE-5004-10,Done
 120-06,EL,EBC-MAE-5004-10_VS,Power Cable B,Vibration Switch- MAE-5004-10/VS,Exception(Pending)
 120-06,EL,EBC-MAE-5004-11,Power Cable B,Local Control Station- MAE-5004-11,Done
-120-01,EL,EBC-MAE-5004-11_VS,Power Cable B,Vibration Switch- MAE-5004-11/VS,67%
+120-01,EL,EBC-MAE-5004-11_VS,Power Cable B,Vibration Switch- MAE-5004-11/VS,Done
 120-06,EL,EBC-MAE-5004-12,Power Cable B,Local Control Station- MAE-5004-12,Done
 120-06,EL,EBC-MAE-5004-12_VS,Power Cable B,Vibration Switch- MAE-5004-12/VS,0%
 120-04,EL,EBC-MAE-5005A-01,Power Cable B,Local Control Station- MAE-5005A-01,67%
@@ -10866,7 +10866,7 @@ NO SUBS.,EL,EBP-MC-2001-SH_1,POWER CABLE A,CABLE(NA),0%
 120-03,EL,EBP-PK8401-MP-1B,Power Cable B,Oily Sludge Transfer Pump PK8401-MP-1B- Intermediate JB,33%
 120-03,EL,EBP-PK8401-MP-2A,Power Cable B,Skimmed oil transfer pump- PK8401-MP-2A,Done
 120-03,EL,EBP-PK8401-MP-2B,Power Cable B,Skimmed oil transfer pump- PK8401-MP-2B,Done
-120-07,EL,EBP-SS-CH-01_AS,Power Cable B,110V DC Battery Charger- SS-CH-01 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-CH-01_AS,Power Cable B,110V DC Battery Charger- SS-CH-01 (Auxiliary Supply),33%
 120-03,EL,EBP-SS-CH-01A,Power Cable B,110V DC Battery Charger-A- SS-CH-01A,Done
 120-07,EL,EBP-SS-CH-01B,Power Cable B,110V DC Battery Charger-B- SS-CH-01B,0%
 120-07,EL,EBP-SS-E_I-01,Power Cable B,Substation E/I Cabinet- SS-E/I-01 (Auxiliary Supply),0%
@@ -10874,10 +10874,10 @@ NO SUBS.,EL,EBP-MC-2001-SH_1,POWER CABLE A,CABLE(NA),0%
 LS-02,EL,EBP-SS-ELP-01,Power Cable B,Substation Emergency Lighting Panel- SS-ELP-01,0%
 LS-02,EL,EBP-SS-EMLP-01,Power Cable B,Main Emergency Lighting Panel- SS-EMLP-01,0%
 120-07,EL,EBP-SS-EMLP-01_AS,Power Cable B,Emergency Main Lighting Panel- SS-EMLP-01  (Auxiliary Supply),0%
-120-07,EL,EBP-SS-ESWB3A-01_AS,Power Cable B,Emergency LV Switchboard No. 01- SS-ESWB3A-01 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-ESWB3B-01_AS,Power Cable B,Emergency LV Switchboard No. 01- SS-ESWB3B-01 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-FACP-01,Power Cable B,Substation Fire Alarm Control Panel- SS-FACP-01 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-FECP-01,Power Cable B,Substation Fire Fighting Control Panel- SS-FECP-01 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-ESWB3A-01_AS,Power Cable B,Emergency LV Switchboard No. 01- SS-ESWB3A-01 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-ESWB3B-01_AS,Power Cable B,Emergency LV Switchboard No. 01- SS-ESWB3B-01 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-FACP-01,Power Cable B,Substation Fire Alarm Control Panel- SS-FACP-01 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-FECP-01,Power Cable B,Substation Fire Fighting Control Panel- SS-FECP-01 (Auxiliary Supply),33%
 120-03,EL,EBP-SS-HDP-01_1,Power Cable B,Substation HVAC Distribution Panel- SS-HDP-01,Exception(Pending)
 120-03,EL,EBP-SS-HDP-01_2,Power Cable B,Substation HVAC Distribution Panel- SS-HDP-01,Exception(Pending)
 LS-01,EL,EBP-SS-LP-01,Power Cable B,Substation Normal Lighting & Socket Outlet Panel- SS-LP-01,0%
@@ -10889,38 +10889,38 @@ LS-01,EL,EBP-SS-MLP-01A_3,Power Cable B,Main Normal Lighting Panel (Incomer A)- 
 LS-01,EL,EBP-SS-MLP-01B_1,Power Cable B,Main Normal Lighting Panel (Incomer B)- SS-MLP-01B,0%
 LS-01,EL,EBP-SS-MLP-01B_2,Power Cable B,Main Normal Lighting Panel (Incomer B)- SS-MLP-01B,0%
 LS-01,EL,EBP-SS-MLP-01B_3,Power Cable B,Main Normal Lighting Panel (Incomer B)- SS-MLP-01B,0%
-120-07,EL,EBP-SS-NGR1A-01_AS,Power Cable B,Neutral Grounding Resistor- SS-NGR1A-01 (Space Heater Terminal Box),0%
-120-07,EL,EBP-SS-NGR1B-01_AS,Power Cable B,Neutral Grounding Resistor- SS-NGR1B-01 (Space Heater Terminal Box),0%
+120-07,EL,EBP-SS-NGR1A-01_AS,Power Cable B,Neutral Grounding Resistor- SS-NGR1A-01 (Space Heater Terminal Box),33%
+120-07,EL,EBP-SS-NGR1B-01_AS,Power Cable B,Neutral Grounding Resistor- SS-NGR1B-01 (Space Heater Terminal Box),33%
 120-07,EL,EBP-SS-PDCS-01_AS,Power Cable B,PDC System Panel  SS-PDCS-01 (Auxiliary Supply),0%
 120-11,EL,EBP-SS-PDCS-01A,Power Cable B,PDC System Panel- SS-PDCS-01 (Feeder A),67%
 120-11,EL,EBP-SS-PDCS-01B,Power Cable B,PDC System Panel- SS-PDCS-01 (Feeder B),67%
-120-07,EL,EBP-SS-PRB-01,Power Cable B,Photocell Relay Box- SS-PRB-01 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-SWB2A-01_AS,Power Cable B,6kV Switchboard- SS-SWB2A-01 Bus VT Panel (Auxiliary Supply),33%
-120-07,EL,EBP-SS-SWB2B-01_AS,Power Cable B,6kV Switchboard- SS-SWB2B-01 Bus VT Panel (Auxiliary Supply),33%
-120-07,EL,EBP-SS-SWB3A-01_AS,Power Cable B,LV Switchboard No. 01- SS-SWB3A-01 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-SWB3A-02_AS,Power Cable B,LV Switchboard No. 02- SS-SWB3A-02 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-SWB3A-03_AS,Power Cable B,LV Switchboard No. 03- SS-SWB3A-03 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-SWB3A-04_AS,Power Cable B,LV Switchboard No. 04- SS-SWB3A-04 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-SWB3A-05_AS,Power Cable B,LV Switchboard No. 05- SS-SWB3A-05 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-SWB3B-01_AS,Power Cable B,LV Switchboard No. 01- SS-SWB3B-01 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-SWB3B-02_AS,Power Cable B,LV Switchboard No. 02- SS-SWB3B-02 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-SWB3B-03_AS,Power Cable B,LV Switchboard No. 03- SS-SWB3B-03 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-SWB3B-04_AS,Power Cable B,LV Switchboard No. 04- SS-SWB3B-04 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-SWB3B-05_AS,Power Cable B,LV Switchboard No. 05- SS-SWB3B-05 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-TR1A-01_AS,Power Cable B,20/6.3KV Transformer SS-TR1A-01 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-TR1B-01_AS,Power Cable B,20/6.3KV Transformer SS-TR1B-01 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-TR2A-01_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-01 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-TR2A-02_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-02 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-TR2A-03_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-03 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-TR2A-04_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-04 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-TR2A-05_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-05 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-TR2A-06_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-06 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-TR2B-01_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-01 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-TR2B-02_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-02 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-TR2B-03_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-03 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-TR2B-04_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-04 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-TR2B-05_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-05 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-TR2B-06_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-06 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-PRB-01,Power Cable B,Photocell Relay Box- SS-PRB-01 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-SWB2A-01_AS,Power Cable B,6kV Switchboard- SS-SWB2A-01 Bus VT Panel (Auxiliary Supply),67%
+120-07,EL,EBP-SS-SWB2B-01_AS,Power Cable B,6kV Switchboard- SS-SWB2B-01 Bus VT Panel (Auxiliary Supply),67%
+120-07,EL,EBP-SS-SWB3A-01_AS,Power Cable B,LV Switchboard No. 01- SS-SWB3A-01 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-SWB3A-02_AS,Power Cable B,LV Switchboard No. 02- SS-SWB3A-02 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-SWB3A-03_AS,Power Cable B,LV Switchboard No. 03- SS-SWB3A-03 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-SWB3A-04_AS,Power Cable B,LV Switchboard No. 04- SS-SWB3A-04 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-SWB3A-05_AS,Power Cable B,LV Switchboard No. 05- SS-SWB3A-05 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-SWB3B-01_AS,Power Cable B,LV Switchboard No. 01- SS-SWB3B-01 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-SWB3B-02_AS,Power Cable B,LV Switchboard No. 02- SS-SWB3B-02 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-SWB3B-03_AS,Power Cable B,LV Switchboard No. 03- SS-SWB3B-03 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-SWB3B-04_AS,Power Cable B,LV Switchboard No. 04- SS-SWB3B-04 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-SWB3B-05_AS,Power Cable B,LV Switchboard No. 05- SS-SWB3B-05 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-TR1A-01_AS,Power Cable B,20/6.3KV Transformer SS-TR1A-01 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-TR1B-01_AS,Power Cable B,20/6.3KV Transformer SS-TR1B-01 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-TR2A-01_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-01 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-TR2A-02_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-02 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-TR2A-03_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-03 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-TR2A-04_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-04 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-TR2A-05_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-05 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-TR2A-06_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-06 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-TR2B-01_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-01 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-TR2B-02_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-02 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-TR2B-03_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-03 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-TR2B-04_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-04 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-TR2B-05_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-05 (Auxiliary Supply),33%
+120-07,EL,EBP-SS-TR2B-06_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-06 (Auxiliary Supply),33%
 120-07,EL,EBP-SS-TR3-02,Power Cable B,Main Emergency Lighting Transformer- SS-TR3-02,0%
 120-03,EL,EBP-SS-TR3A-01_1,Power Cable B,Main Normal Lighting Transformer A- SS-TR3A-01,Exception(Pending)
 120-03,EL,EBP-SS-TR3A-01_2,Power Cable B,Main Normal Lighting Transformer A- SS-TR3A-01,Exception(Pending)
@@ -10929,7 +10929,7 @@ LS-01,EL,EBP-SS-MLP-01B_3,Power Cable B,Main Normal Lighting Panel (Incomer B)- 
 120-03,EL,EBP-SS-TR3B-01_2,Power Cable B,Main Normal Lighting Transformer B- SS-TR3B-01,Exception(Pending)
 120-03,EL,EBP-SS-TR3B-01_3,Power Cable B,Main Normal Lighting Transformer B- SS-TR3B-01,Exception(Pending)
 120-07,EL,EBP-SS-UPS-01,Power Cable B,230V AC Safety Lighting UPS- SS-UPS-01,0%
-120-07,EL,EBP-SS-UPS-01_AS,Power Cable B,230V AC Safety Lighting UPS- SS-UPS-01 (Auxiliary Supply),0%
+120-07,EL,EBP-SS-UPS-01_AS,Power Cable B,230V AC Safety Lighting UPS- SS-UPS-01 (Auxiliary Supply),33%
 120-07,EL,EBP-SS-UPS-01_BY,Power Cable B,230V AC Safety Lighting UPS Bypass - SS-UPS-01/BY,0%
 120-03,EL,EBP-WH-DP-01,Power Cable B,Warehouse Distribution Panel- WH-DP-01,Exception(Pending)
 120-07,EL,EBP-WH-EDP-01,Power Cable B,Warehouse Emergency Distribution Panel- WH-EDP-01,0%
@@ -10973,14 +10973,14 @@ FGS-09,EL,ECC-CR-SIP-01,Power Cable B,Fire and Gas Detection System Siren Panel-
 120-02,EL,ECC-FT7001B-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-FT7001B-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-07,EL,ECC-FT7001B-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-FT8001A-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-03,EL,ECC-FT8001A-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-03,EL,ECC-FT8001A-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-03,EL,ECC-FT8001A-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-03,EL,ECC-FT8001A-HE-3_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-FT8001A-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-07,EL,ECC-FT8001A-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-03,EL,ECC-FT8001B-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-03,EL,ECC-FT8001B-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
-120-03,EL,ECC-FT8001B-HE-3_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-03,EL,ECC-FT8001B-HE-3_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-FT8001B-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-07,EL,ECC-FT8001B-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-H-3012_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
@@ -11108,7 +11108,7 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-04,EL,ECC-MAE-5006-01_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-04,EL,ECC-MAE-5006-02_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-03,EL,ECC-MB-8001A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
-120-03,EL,ECC-MB-8001B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-03,EL,ECC-MB-8001B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-01,EL,ECC-MC-2001,Power Cable B,Local Control Panel (Ammeter)- MC-2001,Done
 120-01,EL,ECC-MC-2001_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-01,EL,ECC-MC-2001-RTD1,Power Cable B,Motor Winding RTD- MC-2001-RTD1,Done
@@ -11123,10 +11123,10 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-01,EL,ECC-MF-2002_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-01,EL,ECC-MF-2002-CT,Power Cable B,Motor Current Transformer- MF-2002-CT,Done
 120-01,EL,ECC-MF-2002-RTD1,Power Cable B,Motor Winding RTD- MF-2002-RTD1,Done
-120-03,EL,ECC-MF-8001A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-03,EL,ECC-MF-8001A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-03,EL,ECC-MF-8001B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-03,EL,ECC-MF-8001C_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
-120-03,EL,ECC-MF-8001D_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-03,EL,ECC-MF-8001D_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-MP-0001A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
 120-02,EL,ECC-MP-0001B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-MP-2001A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
@@ -11204,12 +11204,12 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-07,EL,ECC-MP-7101A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-07,EL,ECC-MP-7101B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-03,EL,ECC-MP-7502A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
-120-03,EL,ECC-MP-7502B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-03,EL,ECC-MP-7503A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-03,EL,ECC-MP-7502B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-03,EL,ECC-MP-7503A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-03,EL,ECC-MP-7503B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
-120-03,EL,ECC-MP-7504_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-03,EL,ECC-MP-7505_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-03,EL,ECC-MP-7506A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-03,EL,ECC-MP-7504_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-03,EL,ECC-MP-7505_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-03,EL,ECC-MP-7506A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-03,EL,ECC-MP-7506B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-01,EL,ECC-MP-8001C,Power Cable B,Local Control Station- MP-8001C,Done
 120-01,EL,ECC-MP-8001C_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
@@ -11217,14 +11217,14 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-01,EL,ECC-MP-8001D,Power Cable B,Local Control Station- MP-8001D,Done
 120-01,EL,ECC-MP-8001D_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-01,EL,ECC-MP-8001D-RTD1,Power Cable B,Motor Winding RTD- MP-8001D-RTD1,Done
-120-03,EL,ECC-MP-8401_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-03,EL,ECC-MP-8402_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-03,EL,ECC-MP-8403A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-03,EL,ECC-MP-8403B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-03,EL,ECC-MP-8404A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-03,EL,ECC-MP-8404B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-03,EL,ECC-MP-8405A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-03,EL,ECC-MP-8405B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-03,EL,ECC-MP-8401_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-03,EL,ECC-MP-8402_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-03,EL,ECC-MP-8403A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-03,EL,ECC-MP-8403B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-03,EL,ECC-MP-8404A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-03,EL,ECC-MP-8404B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-03,EL,ECC-MP-8405A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-03,EL,ECC-MP-8405B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-MX-7050_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-MX-7060_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-MX-7070_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
@@ -11232,29 +11232,29 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-02,EL,ECC-P7001C-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-P7001C-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-07,EL,ECC-P7001C-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-03,EL,ECC-PK7502-MB-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-03,EL,ECC-PK7502-MB-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-03,EL,ECC-PK7502-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-03,EL,ECC-PK7502-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-03,EL,ECC-PK7502-MP-2A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-03,EL,ECC-PK7502-MP-2B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-03,EL,ECC-PK7502-MP-3A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-03,EL,ECC-PK7502-MP-3B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-03,EL,ECC-PK8002-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-03,EL,ECC-PK7502-MB-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-03,EL,ECC-PK7502-MB-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-03,EL,ECC-PK7502-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-03,EL,ECC-PK7502-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-03,EL,ECC-PK7502-MP-2A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-03,EL,ECC-PK7502-MP-2B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-03,EL,ECC-PK7502-MP-3A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-03,EL,ECC-PK7502-MP-3B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-03,EL,ECC-PK8002-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-03,EL,ECC-PK8002-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-03,EL,ECC-PK8002-MX-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
-120-03,EL,ECC-PK8003-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-03,EL,ECC-PK8003-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-03,EL,ECC-PK8003-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-03,EL,ECC-PK8003-MX-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
-120-03,EL,ECC-PK8004-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-03,EL,ECC-PK8004-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-03,EL,ECC-PK8004-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-03,EL,ECC-PK8004-MX-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
-120-03,EL,ECC-PK8005-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-03,EL,ECC-PK8005-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-03,EL,ECC-PK8005-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
-120-03,EL,ECC-PK8401-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-03,EL,ECC-PK8401-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
-120-03,EL,ECC-PK8401-MP-2A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-03,EL,ECC-PK8401-MP-2B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-03,EL,ECC-PK8401-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-03,EL,ECC-PK8401-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-03,EL,ECC-PK8401-MP-2A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),67%
+120-03,EL,ECC-PK8401-MP-2B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-10,EL,ECC-SS-CIS-01,Power Cable B,110V DC Battery Isolator Box- SS-CIS-01,0%
 120-07,EL,ECC-SS-ESWB3A-01_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Feeder SS-TR2A-06,0%
 120-02,EL,ECC-SS-ESWB3A-01_2,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Exception(Pending)
@@ -11276,8 +11276,8 @@ FGS-08,EL,ECC-SS-FECP-01_3,Power Cable B,Substation Fire Fighting Control Panel 
 FGS-08,EL,ECC-SS-FECP-01_4,Power Cable B,Substation Fire Fighting Control Panel JB,0%
 120-01,EL,ECC-SS-NGR1A-01,Power Cable B,Neutral Grounding Resistor- SS-NGR1A-01 (Current Transformer),Done
 120-01,EL,ECC-SS-NGR1B-01,Power Cable B,Neutral Grounding Resistor- SS-NGR1B-01 (Current Transformer),Done
-120-12,EL,ECC-SS-PDCS01-1_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Bus VT,33%
-120-01,EL,ECC-SS-PDCS01-1_2,Power Cable B,6kV Switchboard SS-SWB2B-01-  Bus VT,33%
+120-12,EL,ECC-SS-PDCS01-1_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Bus VT,67%
+120-01,EL,ECC-SS-PDCS01-1_2,Power Cable B,6kV Switchboard SS-SWB2B-01-  Bus VT,67%
 120-12,EL,ECC-SS-PDCS01-2_1,Power Cable B,LV Switchboard SS-SWB3B-05- Incomer,0%
 120-06,EL,ECC-SS-PDCS01-2_2,Power Cable B,LV Switchboard SS-SWB3A-05- Bus Coupler,0%
 120-06,EL,ECC-SS-PDCS01-2_3,Power Cable B,LV Switchboard SS-SWB3B-01- Incomer,0%
@@ -11308,14 +11308,14 @@ FGS-08,EL,ECC-SS-FECP-01_4,Power Cable B,Substation Fire Fighting Control Panel 
 120-01,EL,ECC-SS-SWB2A-01_20,Power Cable B,6/0.42 KV Transformer- SS-TR2A-06,Done
 120-01,EL,ECC-SS-SWB2A-01_3,Power Cable B,20/6.3 KV Transformer- SS-TR1A-01 (Current Transformer),Done
 120-01,EL,ECC-SS-SWB2A-01_4,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01 (Command and Status Signals),67%
-120-01,EL,ECC-SS-SWB2A-01_6,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command|Trip & Status Signals),33%
+120-01,EL,ECC-SS-SWB2A-01_6,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command|Trip & Status Signals),67%
 120-01,EL,ECC-SS-SWB2A-01_7,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
 120-01,EL,ECC-SS-SWB2A-01_8,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
 120-01,EL,ECC-SS-SWB2A-01_9,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
 120-01,EL,ECC-SS-SWB2AB-01_1,Power Cable B,6kV Switchboard SS-SWB2B-01- Incomer,Done
 120-01,EL,ECC-SS-SWB2AB-01_2,Power Cable B,6kV Switchboard SS-SWB2B-01- Bus VT B,Done
 120-01,EL,ECC-SS-SWB2AB-01_3,Power Cable B,6kV Switchboard SS-SWB2B-01-Incomer,Done
-120-01,EL,ECC-SS-SWB2AB-01_5,Power Cable B,Substation E/I CABINET- SS-E/I-01 (FCS-MC-RIO-05R),67%
+120-01,EL,ECC-SS-SWB2AB-01_5,Power Cable B,Substation E/I CABINET- SS-E/I-01 (FCS-MC-RIO-05R),Done
 120-01,EL,ECC-SS-SWB2B-01_1,Power Cable B,Damavand Substation 20KV Switchboard- Dena Feeder SS-TR1B-01,Done
 120-01,EL,ECC-SS-SWB2B-01_10,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
 120-01,EL,ECC-SS-SWB2B-01_11,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
@@ -11330,7 +11330,7 @@ FGS-08,EL,ECC-SS-FECP-01_4,Power Cable B,Substation Fire Fighting Control Panel 
 120-01,EL,ECC-SS-SWB2B-01_20,Power Cable B,6/0.42 KV Transformer- SS-TR2B-06,Done
 120-01,EL,ECC-SS-SWB2B-01_21,Power Cable B,Non Industrial Buildings - LV Panel- Incomer,0%
 120-01,EL,ECC-SS-SWB2B-01_3,Power Cable B,20/6.3 KV Transformer- SS-TR1B-01 (Current Transformer),Done
-120-01,EL,ECC-SS-SWB2B-01_4,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command and Status Signals),33%
+120-01,EL,ECC-SS-SWB2B-01_4,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command and Status Signals),67%
 120-01,EL,ECC-SS-SWB2B-01_7,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
 120-01,EL,ECC-SS-SWB2B-01_8,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
 120-01,EL,ECC-SS-SWB2B-01_9,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
@@ -11409,8 +11409,8 @@ TEL-09,EL,ECP-CR-CEC-05,Comminucation Cable,Paging Central Exchange Cabinet (in 
 120-09,EL,ECP-FT2002-MP-3,Power Cable B,Emergency Lube Oil Pump for FT-2002- FT2002-MP-3,33%
 120-10,EL,ECP-SS-CBT-01-,Power Cable B,110V DC Charger Battery Set- SS-CBT-01 (-),67%
 120-10,EL,ECP-SS-CBT-01+,Power Cable B,110V DC Charger Battery Set- SS-CBT-01 (+),67%
-120-10,EL,ECP-SS-CIS-01-,Power Cable B,110V DC Charger Battery Isolator Box- SS-CIS-01 (-),0%
-120-10,EL,ECP-SS-CIS-01+,Power Cable B,110V DC Charger Battery Isolator Box- SS-CIS-01 (+),0%
+120-10,EL,ECP-SS-CIS-01-,Power Cable B,110V DC Charger Battery Isolator Box- SS-CIS-01 (-),33%
+120-10,EL,ECP-SS-CIS-01+,Power Cable B,110V DC Charger Battery Isolator Box- SS-CIS-01 (+),33%
 120-10,EL,ECP-SS-ESWB3A-01,Power Cable B,Emergency LV Switchboard- SS-ESWB3A-01 (110V DC Supply),0%
 120-10,EL,ECP-SS-ESWB3B-01,Power Cable B,Emergency LV Switchboard- SS-ESWB3B-01 (110V DC Supply),0%
 120-10,EL,ECP-SS-SWB2A-01_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Bus VT Panel (110V DC Supply),Done
@@ -11418,20 +11418,20 @@ TEL-09,EL,ECP-CR-CEC-05,Comminucation Cable,Paging Central Exchange Cabinet (in 
 120-01,EL,ECP-SS-SWB2AB-01,Power Cable B,6kV Switchboard SS-SWB2B-01- Bus VT Panel (110V DC Supply),Done
 120-10,EL,ECP-SS-SWB2B-01_1,Power Cable B,6kV Switchboard SS-SWB2B-01- Bus VT Panel (110V DC Supply),Done
 120-10,EL,ECP-SS-SWB2B-01_2,Power Cable B,6kV Switchboard SS-SWB2B-01- Bus VT Panel (110V DC Supply),Done
-120-10,EL,ECP-SS-SWB3A-01,Power Cable B,LV Switchboard No. 01- SS-SWB3A-01 (110V DC Supply),67%
-120-10,EL,ECP-SS-SWB3A-02,Power Cable B,LV Switchboard No. 02- SS-SWB3A-02 (110V DC Supply),67%
-120-10,EL,ECP-SS-SWB3A-03,Power Cable B,LV Switchboard No. 03- SS-SWB3A-03 (110V DC Supply),67%
-120-10,EL,ECP-SS-SWB3A-04,Power Cable B,LV Switchboard No. 04- SS-SWB3A-04 (110V DC Supply),67%
-120-10,EL,ECP-SS-SWB3A-05,Power Cable B,LV Switchboard No. 05- SS-SWB3A-05 (110V DC Supply),67%
-120-10,EL,ECP-SS-SWB3B-01,Power Cable B,LV Switchboard No. 01- SS-SWB3B-01 (110V DC Supply),67%
-120-10,EL,ECP-SS-SWB3B-02,Power Cable B,LV Switchboard No. 02- SS-SWB3A-02 (110V DC Supply),67%
-120-10,EL,ECP-SS-SWB3B-03,Power Cable B,LV Switchboard No. 03- SS-SWB3B-03 (110V DC Supply),67%
-120-10,EL,ECP-SS-SWB3B-04,Power Cable B,LV Switchboard No. 04- SS-SWB3B-04 (110V DC Supply),67%
-120-10,EL,ECP-SS-SWB3B-05,Power Cable B,LV Switchboard No. 05- SS-SWB3B-05 (110V DC Supply),67%
+120-10,EL,ECP-SS-SWB3A-01,Power Cable B,LV Switchboard No. 01- SS-SWB3A-01 (110V DC Supply),Done
+120-10,EL,ECP-SS-SWB3A-02,Power Cable B,LV Switchboard No. 02- SS-SWB3A-02 (110V DC Supply),Done
+120-10,EL,ECP-SS-SWB3A-03,Power Cable B,LV Switchboard No. 03- SS-SWB3A-03 (110V DC Supply),Done
+120-10,EL,ECP-SS-SWB3A-04,Power Cable B,LV Switchboard No. 04- SS-SWB3A-04 (110V DC Supply),Done
+120-10,EL,ECP-SS-SWB3A-05,Power Cable B,LV Switchboard No. 05- SS-SWB3A-05 (110V DC Supply),Done
+120-10,EL,ECP-SS-SWB3B-01,Power Cable B,LV Switchboard No. 01- SS-SWB3B-01 (110V DC Supply),Done
+120-10,EL,ECP-SS-SWB3B-02,Power Cable B,LV Switchboard No. 02- SS-SWB3A-02 (110V DC Supply),Done
+120-10,EL,ECP-SS-SWB3B-03,Power Cable B,LV Switchboard No. 03- SS-SWB3B-03 (110V DC Supply),Done
+120-10,EL,ECP-SS-SWB3B-04,Power Cable B,LV Switchboard No. 04- SS-SWB3B-04 (110V DC Supply),Done
+120-10,EL,ECP-SS-SWB3B-05,Power Cable B,LV Switchboard No. 05- SS-SWB3B-05 (110V DC Supply),Done
 120-11,EL,ECP-SS-UBT-01-,Power Cable B,230V AC Safety Lighting UPS Battery Set- SS-UBT-01 (-),67%
 120-11,EL,ECP-SS-UBT-01+,Power Cable B,230V AC Safety Lighting UPS Battery Set- SS-UBT-01 (+),67%
-120-11,EL,ECP-SS-UIS-01-,Power Cable B,230V AC Safety Lighting UPS Battery Isolator Box- SS-UIS-01 (-),0%
-120-11,EL,ECP-SS-UIS-01+,Power Cable B,230V AC Safety Lighting UPS Battery Isolator Box- SS-UIS-01 (+),0%
+120-11,EL,ECP-SS-UIS-01-,Power Cable B,230V AC Safety Lighting UPS Battery Isolator Box- SS-UIS-01 (-),33%
+120-11,EL,ECP-SS-UIS-01+,Power Cable B,230V AC Safety Lighting UPS Battery Isolator Box- SS-UIS-01 (+),33%
 TEL-11,EL,ECR-00-CamJB-01,Comminucation Cable,CCTV Camera Station Number 01,0%
 TEL-11,EL,ECR-00-CamJB-02,Comminucation Cable,CCTV Camera Station Number 02,0%
 TEL-11,EL,ECR-00-CamJB-03,Comminucation Cable,CCTV Camera Station Number 03,0%
