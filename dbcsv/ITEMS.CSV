@@ -10563,7 +10563,7 @@ LS-01,EL,EBP-CR-LP-01,Power Cable B,Control Room Normal Lighting & Socket Outlet
 120-02,EL,EBP-H-3013,Power Cable B,Seal Gas Heater- H-3013,33%
 120-02,EL,EBP-H-3013-TCP,Power Cable B,Seal Gas Heater Thristor Control Panel- H-3013-TCP,0%
 120-03,EL,EBP-LAB-DP-01,Power Cable B,Laboratory  Distribution Panel- LAB-DP-01,Exception(Pending)
-LS-02,EL,EBP-LAB-ELP-01,Power Cable B,Laboratory Emergency Lighting Panel- LAB-ELP-01,0%
+LS-02,EL,EBP-LAB-ELP-01,Power Cable B,Laboratory Emergency Lighting Panel- LAB-ELP-01,33%
 120-07,EL,EBP-LAB-FACP-01,Power Cable B,Laboratory & Yard Office Fire Alarm Control Panel- LAB-FACP-01 (Auxiliary Supply),33%
 120-03,EL,EBP-LAB-HDP-01_1,Power Cable B,Laboratory HVAC Panel- LAB-HDP-01,Exception(Pending)
 120-03,EL,EBP-LAB-HDP-01_2,Power Cable B,Laboratory HVAC Panel- LAB-HDP-01,Exception(Pending)
@@ -11274,8 +11274,8 @@ FGS-08,EL,ECC-SS-FECP-01_1,Power Cable B,Substation Fire Fighting Control Panel 
 FGS-08,EL,ECC-SS-FECP-01_2,Power Cable B,Substation Fire Fighting Control Panel JB,0%
 FGS-08,EL,ECC-SS-FECP-01_3,Power Cable B,Substation Fire Fighting Control Panel JB,0%
 FGS-08,EL,ECC-SS-FECP-01_4,Power Cable B,Substation Fire Fighting Control Panel JB,0%
-120-01,EL,ECC-SS-NGR1A-01,Power Cable B,Neutral Grounding Resistor- SS-NGR1A-01 (Current Transformer),67%
-120-01,EL,ECC-SS-NGR1B-01,Power Cable B,Neutral Grounding Resistor- SS-NGR1B-01 (Current Transformer),67%
+120-01,EL,ECC-SS-NGR1A-01,Power Cable B,Neutral Grounding Resistor- SS-NGR1A-01 (Current Transformer),Done
+120-01,EL,ECC-SS-NGR1B-01,Power Cable B,Neutral Grounding Resistor- SS-NGR1B-01 (Current Transformer),Done
 120-12,EL,ECC-SS-PDCS01-1_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Bus VT,33%
 120-01,EL,ECC-SS-PDCS01-1_2,Power Cable B,6kV Switchboard SS-SWB2B-01-  Bus VT,33%
 120-12,EL,ECC-SS-PDCS01-2_1,Power Cable B,LV Switchboard SS-SWB3B-05- Incomer,0%
@@ -11304,7 +11304,7 @@ FGS-08,EL,ECC-SS-FECP-01_4,Power Cable B,Substation Fire Fighting Control Panel 
 120-01,EL,ECC-SS-SWB2A-01_17,Power Cable B,6/0.42 KV Transformer- SS-TR2A-03,Done
 120-01,EL,ECC-SS-SWB2A-01_18,Power Cable B,6/0.42 KV Transformer- SS-TR2A-04,Done
 120-01,EL,ECC-SS-SWB2A-01_19,Power Cable B,6/0.42 KV Transformer- SS-TR2A-05,Done
-120-01,EL,ECC-SS-SWB2A-01_2,Power Cable B,20/6.3 KV Transformer- SS-TR1A-01,67%
+120-01,EL,ECC-SS-SWB2A-01_2,Power Cable B,20/6.3 KV Transformer- SS-TR1A-01,Done
 120-01,EL,ECC-SS-SWB2A-01_20,Power Cable B,6/0.42 KV Transformer- SS-TR2A-06,Done
 120-01,EL,ECC-SS-SWB2A-01_3,Power Cable B,20/6.3 KV Transformer- SS-TR1A-01 (Current Transformer),67%
 120-01,EL,ECC-SS-SWB2A-01_4,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01 (Command and Status Signals),67%
@@ -11326,10 +11326,10 @@ FGS-08,EL,ECC-SS-FECP-01_4,Power Cable B,Substation Fire Fighting Control Panel 
 120-01,EL,ECC-SS-SWB2B-01_17,Power Cable B,6/0.42 KV Transformer- SS-TR2B-03,Done
 120-01,EL,ECC-SS-SWB2B-01_18,Power Cable B,6/0.42 KV Transformer- SS-TR2B-04,Done
 120-01,EL,ECC-SS-SWB2B-01_19,Power Cable B,6/0.42 KV Transformer- SS-TR2B-05,Done
-120-01,EL,ECC-SS-SWB2B-01_2,Power Cable B,20/6.3 KV Transformer- SS-TR1B-01,67%
+120-01,EL,ECC-SS-SWB2B-01_2,Power Cable B,20/6.3 KV Transformer- SS-TR1B-01,Done
 120-01,EL,ECC-SS-SWB2B-01_20,Power Cable B,6/0.42 KV Transformer- SS-TR2B-06,Done
 120-01,EL,ECC-SS-SWB2B-01_21,Power Cable B,Non Industrial Buildings - LV Panel- Incomer,0%
-120-01,EL,ECC-SS-SWB2B-01_3,Power Cable B,20/6.3 KV Transformer- SS-TR1B-01 (Current Transformer),67%
+120-01,EL,ECC-SS-SWB2B-01_3,Power Cable B,20/6.3 KV Transformer- SS-TR1B-01 (Current Transformer),Done
 120-01,EL,ECC-SS-SWB2B-01_4,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command and Status Signals),33%
 120-01,EL,ECC-SS-SWB2B-01_7,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
 120-01,EL,ECC-SS-SWB2B-01_8,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
@@ -15747,7 +15747,7 @@ BLD-06,CV,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Wor
 120-02,EL,MP-2002B,Local_Control_Station,Local Control Station- MP-2002B,Done
 120-02,EL,MP-2003A,Local_Control_Station,Local Control Station- MP-2003A,50%
 120-02,EL,MP-2003B,Local_Control_Station,Local Control Station- MP-2003B,50%
-120-07,EL,MP-3001,Local_Control_Station,Local Control Station- MP-3001,0%
+120-07,EL,MP-3001,Local_Control_Station,Local Control Station- MP-3001,50%
 120-02,EL,MP-3011A,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3011A),Exception(Pending)
 120-02,EL,MP-3011B,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3011B),Exception(Pending)
 120-02,EL,MP-3012A,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3012A),50%
@@ -15781,8 +15781,8 @@ BLD-06,CV,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Wor
 120-02,EL,MP-5010B,Local_Control_Station,Local Control Station- MP-5010B,Done
 120-02,EL,MP-5011A,Local_Control_Station,Local Control Station- MP-5011A,Done
 120-02,EL,MP-5011B,Local_Control_Station,Local Control Station- MP-5011B,Done
-120-07,EL,MP-5012A,Local_Control_Station,Local Control Station- MP-5012A,0%
-120-07,EL,MP-5012B,Local_Control_Station,Local Control Station- MP-5012B,0%
+120-07,EL,MP-5012A,Local_Control_Station,Local Control Station- MP-5012A,50%
+120-07,EL,MP-5012B,Local_Control_Station,Local Control Station- MP-5012B,50%
 120-02,EL,MP-5070A,Local_Control_Station,Local Control Station- MP-5070A,Exception(Pending)
 120-02,EL,MP-5070B,Local_Control_Station,Local Control Station- MP-5070B,Exception(Pending)
 120-02,EL,MP-6001A,Local_Control_Station,Local Control Station- MP-6001A,50%
@@ -15809,14 +15809,14 @@ BLD-06,CV,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Wor
 120-02,EL,MP-7060B,Local_Control_Station,Local Control Station- MP-7060B,Exception(Pending)
 120-02,EL,MP-7070A,Local_Control_Station,Local Control Station- MP-7070A,Exception(Pending)
 120-02,EL,MP-7070B,Local_Control_Station,Local Control Station- MP-7070B,Exception(Pending)
-120-07,EL,MP-7101A,Local_Control_Station,Local Control Station- MP-7101A,0%
-120-07,EL,MP-7101B,Local_Control_Station,Local Control Station- MP-7101B,0%
-120-03,EL,MP-7502A,Local_Control_Station,Local Control Station- MP-7502A,50%
-120-03,EL,MP-7502B,Local_Control_Station,Local Control Station- MP-7502B,50%
-120-03,EL,MP-7503A,Local_Control_Station,Local Control Station- MP-7503A,50%
-120-03,EL,MP-7503B,Local_Control_Station,Local Control Station- MP-7503B,50%
+120-07,EL,MP-7101A,Local_Control_Station,Local Control Station- MP-7101A,50%
+120-07,EL,MP-7101B,Local_Control_Station,Local Control Station- MP-7101B,50%
+120-03,EL,MP-7502A,Local_Control_Station,Local Control Station- MP-7502A,Done
+120-03,EL,MP-7502B,Local_Control_Station,Local Control Station- MP-7502B,Done
+120-03,EL,MP-7503A,Local_Control_Station,Local Control Station- MP-7503A,Done
+120-03,EL,MP-7503B,Local_Control_Station,Local Control Station- MP-7503B,Done
 120-03,EL,MP-7504,Local_Control_Station,Local Control Station- MP-7504,Done
-120-03,EL,MP-7505,Local_Control_Station,Local Control Station- MP-7505,50%
+120-03,EL,MP-7505,Local_Control_Station,Local Control Station- MP-7505,Done
 120-03,EL,MP-7506A,Local_Control_Station,Local Control Station- MP-7506A,Done
 120-03,EL,MP-7506B,Local_Control_Station,Local Control Station- MP-7506B,Done
 120-01,EL,MP-8001C,Local_Control_Station,Local Control Station- MP-8001C,Done
