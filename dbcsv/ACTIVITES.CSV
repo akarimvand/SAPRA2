@@ -29642,7 +29642,7 @@ EL,ECC-SS-PDCS01-5_1,LV.Cont. cable megger test T,0
 EL,ECC-SS-PDCS01-7,Cable pulling C,0
 EL,ECC-SS-PDCS01-7,ITP for cable install C,0
 EL,ECC-SS-PDCS01-7,LV.Cont. cable megger test T,0
-EL,ECC-SS-SWB2A-01_1,Cable pulling C,0
+EL,ECC-SS-SWB2A-01_1,Cable pulling C,1
 EL,ECC-SS-SWB2A-01_1,ITP for cable install C,1
 EL,ECC-SS-SWB2A-01_1,LV.Cont. cable megger test T,1
 EL,ECC-SS-SWB2A-01_10,Cable pulling C,1
@@ -29678,7 +29678,7 @@ EL,ECC-SS-SWB2A-01_20,LV.Cont. cable megger test T,1
 EL,ECC-SS-SWB2A-01_3,Cable pulling C,0
 EL,ECC-SS-SWB2A-01_3,ITP for cable install C,1
 EL,ECC-SS-SWB2A-01_3,LV.Cont. cable megger test T,1
-EL,ECC-SS-SWB2A-01_4,Cable pulling C,0
+EL,ECC-SS-SWB2A-01_4,Cable pulling C,1
 EL,ECC-SS-SWB2A-01_4,ITP for cable install C,0
 EL,ECC-SS-SWB2A-01_4,LV.Cont. cable megger test T,1
 EL,ECC-SS-SWB2A-01_6,Cable pulling C,0
@@ -29705,7 +29705,7 @@ EL,ECC-SS-SWB2AB-01_3,LV.Cont. cable megger test T,1
 EL,ECC-SS-SWB2AB-01_5,Cable pulling C,0
 EL,ECC-SS-SWB2AB-01_5,ITP for cable install C,1
 EL,ECC-SS-SWB2AB-01_5,LV.Cont. cable megger test T,1
-EL,ECC-SS-SWB2B-01_1,Cable pulling C,0
+EL,ECC-SS-SWB2B-01_1,Cable pulling C,1
 EL,ECC-SS-SWB2B-01_1,ITP for cable install C,1
 EL,ECC-SS-SWB2B-01_1,LV.Cont. cable megger test T,1
 EL,ECC-SS-SWB2B-01_10,Cable pulling C,1
@@ -39979,9 +39979,9 @@ EL,MT-MAE-5005D-17,MV.LV DC Motor Install,0
 EL,MT-MAE-5005D-17,LV MOTOR,1
 EL,MT-MAE-5005D-18,MV.LV DC Motor Install,0
 EL,MT-MAE-5005D-18,LV MOTOR,1
-EL,MT-MAE-5006-01,MV.LV DC Motor Install,0
+EL,MT-MAE-5006-01,MV.LV DC Motor Install,1
 EL,MT-MAE-5006-01,LV MOTOR,0
-EL,MT-MAE-5006-02,MV.LV DC Motor Install,0
+EL,MT-MAE-5006-02,MV.LV DC Motor Install,1
 EL,MT-MAE-5006-02,LV MOTOR,0
 EL,MT-MB-8001A,MV.LV DC Motor Install,0
 EL,MT-MB-8001A,LV MOTOR,0
@@ -40021,23 +40021,23 @@ EL,MT-MP-2003B,MV.LV DC Motor Install,1
 EL,MT-MP-2003B,LV MOTOR,0
 EL,MT-MP-3001,MV.LV DC Motor Install,0
 EL,MT-MP-3001,LV MOTOR,0
-EL,MT-MP-3011A,MV.LV DC Motor Install,0
+EL,MT-MP-3011A,MV.LV DC Motor Install,1
 EL,MT-MP-3011A,LV MOTOR,1
-EL,MT-MP-3011B,MV.LV DC Motor Install,0
+EL,MT-MP-3011B,MV.LV DC Motor Install,1
 EL,MT-MP-3011B,LV MOTOR,1
-EL,MT-MP-3012A,MV.LV DC Motor Install,0
+EL,MT-MP-3012A,MV.LV DC Motor Install,1
 EL,MT-MP-3012A,LV MOTOR,1
-EL,MT-MP-3012B,MV.LV DC Motor Install,0
+EL,MT-MP-3012B,MV.LV DC Motor Install,1
 EL,MT-MP-3012B,LV MOTOR,1
-EL,MT-MP-3013,MV.LV DC Motor Install,0
+EL,MT-MP-3013,MV.LV DC Motor Install,1
 EL,MT-MP-3013,LV MOTOR,1
 EL,MT-MP-5001A,MV.LV DC Motor Install,0
 EL,MT-MP-5001A,LV MOTOR,1
 EL,MT-MP-5001B,MV.LV DC Motor Install,0
 EL,MT-MP-5001B,LV MOTOR,0
-EL,MT-MP-5002A,MV.LV DC Motor Install,0
+EL,MT-MP-5002A,MV.LV DC Motor Install,1
 EL,MT-MP-5002A,LV MOTOR,1
-EL,MT-MP-5002B,MV.LV DC Motor Install,0
+EL,MT-MP-5002B,MV.LV DC Motor Install,1
 EL,MT-MP-5002B,LV MOTOR,1
 EL,MT-MP-5003A,MV.LV DC Motor Install,1
 EL,MT-MP-5003A,LV MOTOR,1
@@ -40049,11 +40049,11 @@ EL,MT-MP-5004B,MV.LV DC Motor Install,0
 EL,MT-MP-5004B,LV MOTOR,1
 EL,MT-MP-5005A,MV.LV DC Motor Install,0
 EL,MT-MP-5005A,LV MOTOR,0
-EL,MT-MP-5005B,MV.LV DC Motor Install,0
+EL,MT-MP-5005B,MV.LV DC Motor Install,1
 EL,MT-MP-5005B,LV MOTOR,1
-EL,MT-MP-5006A,MV.LV DC Motor Install,0
+EL,MT-MP-5006A,MV.LV DC Motor Install,1
 EL,MT-MP-5006A,LV MOTOR,1
-EL,MT-MP-5006B,MV.LV DC Motor Install,0
+EL,MT-MP-5006B,MV.LV DC Motor Install,1
 EL,MT-MP-5006B,LV MOTOR,1
 EL,MT-MP-5007A,MV.LV DC Motor Install,1
 EL,MT-MP-5007A,LV MOTOR,1
@@ -40067,9 +40067,9 @@ EL,MT-MP-5009A,MV.LV DC Motor Install,1
 EL,MT-MP-5009A,LV MOTOR,1
 EL,MT-MP-5009B,MV.LV DC Motor Install,1
 EL,MT-MP-5009B,LV MOTOR,1
-EL,MT-MP-5010A,MV.LV DC Motor Install,0
+EL,MT-MP-5010A,MV.LV DC Motor Install,1
 EL,MT-MP-5010A,LV MOTOR,0
-EL,MT-MP-5010B,MV.LV DC Motor Install,0
+EL,MT-MP-5010B,MV.LV DC Motor Install,1
 EL,MT-MP-5010B,LV MOTOR,1
 EL,MT-MP-5011A,MV.LV DC Motor Install,1
 EL,MT-MP-5011A,LV MOTOR,1
@@ -40172,7 +40172,7 @@ EL,MT-MX-7070,LV MOTOR,0
 EL,MT-P7001C-MF-1,MV.LV DC Motor Install,0
 EL,MT-P7001C-MF-1,LV MOTOR,0
 EL,MT-P7001C-MP-1A,MV.LV DC Motor Install,0
-EL,MT-P7001C-MP-1A,LV MOTOR,0
+EL,MT-P7001C-MP-1A,LV MOTOR,1
 EL,MT-P7001C-MP-1B,MV.LV DC Motor Install,0
 EL,MT-P7001C-MP-1B,LV MOTOR,0
 EL,MT-PK7502-MB-1A,MV.LV DC Motor Install,0
@@ -41565,18 +41565,18 @@ MER,P-7002B,Final Inspection Reciprocating Pump,0
 MER,P-7002B,Final Inspection Vertical Centrifugal Pump,1
 MER,P-7002B,Mechanical Metering Pump,0
 MER,P-7002B,Piping to Eq. Report(MER),1
-MER,P-7003A,Final Alignment Report,0
+MER,P-7003A,Final Alignment Report,1
 MER,P-7003A,Final Inspection Rotary Pump,0
 MER,P-7003A,Final Inspection Reciprocating Pump,0
-MER,P-7003A,Final Inspection Vertical Centrifugal Pump,0
+MER,P-7003A,Final Inspection Vertical Centrifugal Pump,1
 MER,P-7003A,Mechanical Metering Pump,0
-MER,P-7003A,Piping to Eq. Report(MER),0
-MER,P-7003B,Final Alignment Report,0
+MER,P-7003A,Piping to Eq. Report(MER),1
+MER,P-7003B,Final Alignment Report,1
 MER,P-7003B,Final Inspection Rotary Pump,0
 MER,P-7003B,Final Inspection Reciprocating Pump,0
-MER,P-7003B,Final Inspection Vertical Centrifugal Pump,0
+MER,P-7003B,Final Inspection Vertical Centrifugal Pump,1
 MER,P-7003B,Mechanical Metering Pump,0
-MER,P-7003B,Piping to Eq. Report(MER),0
+MER,P-7003B,Piping to Eq. Report(MER),1
 MER,P-7004A,Final Alignment Report,0
 MER,P-7004A,Final Inspection Rotary Pump,0
 MER,P-7004A,Final Inspection Reciprocating Pump,0
