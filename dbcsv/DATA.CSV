@@ -8,7 +8,7 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MES,13,2,6,41,2,39,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,0,4,0,0,0,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,2,0,12,2,10,0
-1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,45,58,239,51,188,107
+1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,153,58,239,51,188,107
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,52,3,168,90,78,57
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,124,48,2050,1075,975,2
 120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,191,115,3229,1228,2001,31
@@ -66,7 +66,7 @@
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,176,8,78,310,11,299,5
 3000,3000-04,Compression and Synthesis,Hydrogen System,MER,1,0,0,0,0,0,0
 4000,4000-01,Utility,Nitrogen,PI,20,20,0,47,28,19,64
-4000,4000-01,Utility,Nitrogen,IN,14,9,0,0,0,0,6
+4000,4000-01,Utility,Nitrogen,IN,14,14,0,0,0,0,6
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,2,0,10,0,10,0
 4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,67,26,307,61,246,35
 4000,4000-02,Utility,HHP & HP & LP Steam,PI,62,59,2,207,91,116,74
@@ -134,7 +134,7 @@
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,63,8,15,24,16,8,20
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,10,9,1,29,19,10,2
 7000,7000-01,Flare,Flare System (In Site),IN,145,48,28,127,29,98,17
-7000,7000-01,Flare,Flare System (In Site),MER,2,0,0,0,0,0,0
+7000,7000-01,Flare,Flare System (In Site),MER,2,2,0,0,0,0,0
 7000,7000-01,Flare,Flare System (In Site),MES,2,2,0,8,0,8,0
 7000,7000-01,Flare,Flare System (In Site),PI,49,49,0,111,46,65,77
 BLD,BLD-01,Building,Substation,PI,4,4,0,6,3,3,9
