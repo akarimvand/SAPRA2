@@ -15150,7 +15150,7 @@ NO SUBS.,IN,LT-20151(LT),Instrument(LT),Instrument(LT),25%
 4000-08,IN,LT-80134B,Instrument(LT),Instrument(LT),25%
 4000-09,IN,LT-84111,Instrument(LT),Instrument(LT),DONE
 4000-09,IN,LT-84112,Instrument(LT),Instrument(LT),DONE
-4000-09,IN,LT-8413(LT),Instrument(LT),Instrument(LT),50%
+4000-09,IN,LT-8413(LT),Instrument(LT),Instrument(LT),Done
 4000-09,IN,LT-8413(NA),CABLE,CABLE(NA),Exception(Pending)
 4000-06,IN,LT-8418(LT),Instrument(LT),Instrument(LT),Exception(Pending)
 4000-06,IN,LT-8418(NA),CABLE,CABLE(NA),0%
@@ -19870,18 +19870,18 @@ NO SUBS.,IN,SV-004,CABLE,CABLE(NA),0%
 3000-01,IN,SV-30103B,Instrument(SV),Instrument(SV),0%
 3000-01,IN,SV-30103D,Instrument(SV),Instrument(SV),0%
 3000-01,IN,SV-30103E,Instrument(SV),Instrument(SV),0%
-120-01,EL,SWB2A-01,MV Switchgear,MV Switchgear,57%
-120-01,EL,SWB2B-01,MV Switchgear,MV Switchgear,57%
-120-02,EL,SWB3A-01,LV Switchgear,LV Switchgear,29%
-120-03,EL,SWB3A-02,LV Switchgear,LV Switchgear,29%
-120-04,EL,SWB3A-03,LV Switchgear,LV Switchgear,29%
-120-05,EL,SWB3A-04,LV Switchgear,LV Switchgear,29%
-120-06,EL,SWB3A-05,LV Switchgear,LV Switchgear,29%
-120-02,EL,SWB3B-01,LV Switchgear,LV Switchgear,29%
-120-03,EL,SWB3B-02,LV Switchgear,LV Switchgear,29%
-120-04,EL,SWB3B-03,LV Switchgear,LV Switchgear,29%
-120-05,EL,SWB3B-04,LV Switchgear,LV Switchgear,29%
-120-06,EL,SWB3B-05,LV Switchgear,LV Switchgear,29%
+120-01,EL,SWB2A-01,MV Switchgear,MV Switchgear,67%
+120-01,EL,SWB2B-01,MV Switchgear,MV Switchgear,67%
+120-02,EL,SWB3A-01,LV Switchgear,LV Switchgear,40%
+120-03,EL,SWB3A-02,LV Switchgear,LV Switchgear,40%
+120-04,EL,SWB3A-03,LV Switchgear,LV Switchgear,40%
+120-05,EL,SWB3A-04,LV Switchgear,LV Switchgear,40%
+120-06,EL,SWB3A-05,LV Switchgear,LV Switchgear,40%
+120-02,EL,SWB3B-01,LV Switchgear,LV Switchgear,40%
+120-03,EL,SWB3B-02,LV Switchgear,LV Switchgear,40%
+120-04,EL,SWB3B-03,LV Switchgear,LV Switchgear,40%
+120-05,EL,SWB3B-04,LV Switchgear,LV Switchgear,40%
+120-06,EL,SWB3B-05,LV Switchgear,LV Switchgear,40%
 3000-01,IN,SY-30103A,Instrument(X),Instrument(SY),0%
 3000-01,IN,SY-30103B,Instrument(X),Instrument(SY),0%
 3000-01,IN,SY-30103C,Instrument(X),Instrument(SY),0%
