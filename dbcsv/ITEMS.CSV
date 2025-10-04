@@ -8372,7 +8372,7 @@ ES-08,EL,E30-09(ES-08),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-09,EL,E30-09(ES-09),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-11,EL,E30-09(ES-11),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-01,EL,E3-01,Earthing System,THERMOWELD EARTH CONNECTION 70 TO 300mm2,DONE
-3000-01,MES,E-3010,Exchanger(E),Inter Stage Cooler,Done
+3000-01,MES,E-3010,Exchanger(E),Inter Stage Cooler,75%
 ES-01,EL,E30-10(ES-01),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,DONE
 ES-06,EL,E30-10(ES-06),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-07,EL,E30-10(ES-07),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
@@ -10437,7 +10437,7 @@ LS-01,EL,EBL-07-RJB2_1-2,Power Cable B,Area 07 Socket JB No. 2/1  - 07-RJB2/1-2,
 LS-01,EL,EBL-07-RJB2-2,Power Cable B,Area 07 Socket JB No. 2- 07-RJB2-2,0%
 120-11,EL,EBL-07-SJB1-7,Power Cable B,Safety Lighting JB No. 1 For Area 07- 07-SJB1-7,67%
 LS-02,EL,EBP-00-ELP-01,Power Cable B,Area Emergency Lighting Panel No. 1- 00-ELP-01,67%
-LS-02,EL,EBP-00-ELP-02,Power Cable B,Area Emergency Lighting Panel No. 2- 00-ELP-02,67%
+LS-02,EL,EBP-00-ELP-02,Power Cable B,Area Emergency Lighting Panel No. 2- 00-ELP-02,Done
 LS-02,EL,EBP-00-ELP-03,Power Cable B,Area Emergency Lighting Panel No. 3- 00-ELP-03,Done
 LS-02,EL,EBP-00-ELP-04,Power Cable B,Area Emergency Lighting Panel No. 4- 00-ELP-04,33%
 120-03,EL,EBP-00-HTP-01,Power Cable B,Electrical Heat Tracing Control Panel- 00-HP-01,Exception(Pending)
@@ -15756,8 +15756,8 @@ BLD-06,CV,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Wor
 120-07,EL,MP-3001,Local_Control_Station,Local Control Station- MP-3001,50%
 120-02,EL,MP-3011A,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3011A),DONE
 120-02,EL,MP-3011B,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3011B),DONE
-120-02,EL,MP-3012A,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3012A),50%
-120-02,EL,MP-3012B,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3012B),50%
+120-02,EL,MP-3012A,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3012A),Done
+120-02,EL,MP-3012B,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3012B),Done
 120-07,EL,MP-3013,Local_Control_Panel,Compressor Local Control Panel (Ammeter for MP-3013),50%
 120-02,EL,MP-5001A,Local_Control_Station,Local Control Station- MP-5001A,Done
 120-02,EL,MP-5001B,Local_Control_Station,Local Control Station- MP-5001B,50%
@@ -16360,8 +16360,8 @@ FGS-05,IN,MSR-0001,Fire Alarm,Fire Alarm(MSR),0%
 120-07,EL,MT-P7001C-MP-1B,MOTOR,Motor Pump,0%
 120-03,EL,MT-PK7502-MB-1A,MOTOR,Motor Pump,0%
 120-03,EL,MT-PK7502-MB-1B,MOTOR,Motor Pump,0%
-120-03,EL,MT-PK7502-MP-1A,MOTOR,Motor Pump,50%
-120-03,EL,MT-PK7502-MP-1B,MOTOR,Motor Pump,50%
+120-03,EL,MT-PK7502-MP-1A,MOTOR,Motor Pump,Done
+120-03,EL,MT-PK7502-MP-1B,MOTOR,Motor Pump,Done
 120-03,EL,MT-PK7502-MP-2A,MOTOR,Motor Pump,0%
 120-03,EL,MT-PK7502-MP-2B,MOTOR,Motor Pump,0%
 120-03,EL,MT-PK7502-MP-3A,MOTOR,Motor Pump,0%
@@ -16847,9 +16847,9 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),0%
 4000-06,MER,P-7506A,Pump,CONDENSATE TRANSFER PUMPS,50%
 4000-06,MER,P-7506B,Pump,CONDENSATE TRANSFER PUMPS,50%
 4000-08,MER,P-8001A,Pump(B),HEAVY DUTY CENTRIFUGAL PUMPS,Exception(Pending)
-4000-08,MER,P-8001A-Lub-Oil-Unit,Pump(B),HEAVY DUTY CENTRIFUGAL PUMPS LUBE OIL,Exception(Pending)
+4000-08,MER,P-8001A-Lub-Oil-Unit,Pump(B),HEAVY DUTY CENTRIFUGAL PUMPS LUBE OIL,0%
 4000-08,MER,P-8001B,Pump(B),HEAVY DUTY CENTRIFUGAL PUMPS,Exception(Pending)
-4000-08,MER,P-8001B-Lub-Oil-Unit,Pump(B),HEAVY DUTY CENTRIFUGAL PUMPS LUBE OIL,Exception(Pending)
+4000-08,MER,P-8001B-Lub-Oil-Unit,Pump(B),HEAVY DUTY CENTRIFUGAL PUMPS LUBE OIL,0%
 4000-08,MER,P-8001C,Pump,HEAVY DUTY CENTRIFUGAL PUMPS,50%
 4000-08,MER,P-8001D,Pump,HEAVY DUTY CENTRIFUGAL PUMPS,50%
 4000-09,MER,P-8401-P2A,Pump,OILY WATER TRANSFER PUMP,DONE
