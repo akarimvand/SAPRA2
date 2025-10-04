@@ -10,22 +10,22 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,2,0,12,2,10,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,153,58,239,51,188,107
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,52,3,168,90,78,57
-120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,132,40,2060,1075,985,2
-120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,211,72,3274,1228,2046,31
-120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,173,54,2950,1106,1844,44
+120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,132,40,2060,1081,979,2
+120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,211,72,3274,1269,2005,31
+120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,173,54,2950,1124,1826,44
 120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,306,77,119,1570,935,635,42
-120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,284,111,97,1704,907,797,32
+120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,284,111,97,1704,908,796,32
 120,120-06,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-05,EL,262,148,60,2080,817,1263,11
 120,120-07,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-ESWB3A/B-01,EL,158,1,89,508,298,210,134
 120,120-08,Electrical Distribution Substation,Emergency Diesel Generator SS-DG-5701,EL,8,0,0,0,0,0,7
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,EL,29,14,10,89,11,78,0
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,IN,2,2,0,6,2,4,0
-120,120-10,Electrical Distribution Substation,SS-CH-01 for Electrical Supply 110V DC,EL,24,15,5,167,46,121,0
+120,120-10,Electrical Distribution Substation,SS-CH-01 for Electrical Supply 110V DC,EL,24,15,5,167,47,120,0
 120,120-11,Electrical Distribution Substation,SS-UPS-01 for Safety Lighting Supply 230 AC UPS,EL,18,0,14,70,17,53,0
-120,120-12,Electrical Distribution Substation,SS PDCS System,EL,10,3,1,19,3,16,2
+120,120-12,Electrical Distribution Substation,SS PDCS System,EL,10,3,1,19,5,14,2
 120,120-13,Electrical Distribution Substation,Cathodic Protection System,EL,373,373,0,482,479,3,0
 120,120-14,Electrical Distribution Substation,Electric Heat Tracing System,EL,3,0,0,0,0,0,3
-120,120-15,Electrical Distribution Substation,Capacitor Bank,EL,5,5,0,42,28,14,0
+120,120-15,Electrical Distribution Substation,Capacitor Bank,EL,5,5,0,42,29,13,0
 120,120-16,Electrical Distribution Substation,MV Transformer,EL,12,6,0,50,50,0,0
 120,120-17,Electrical Distribution Substation,LV Transformer,EL,15,12,0,104,104,0,0
 120,120-18,Electrical Distribution Substation,E/I Cabinet,EL,16,14,0,54,44,10,0
@@ -93,7 +93,7 @@
 4000,4000-08,Utility,Cooling Water,IN,745,27,64,281,32,249,533
 4000,4000-08,Utility,Cooling Water,EL,6,2,4,48,4,44,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,26,1,2,0,2,26
-4000,4000-09,Utility,Oily Water Treatment,PI,224,224,0,132,69,63,4
+4000,4000-09,Utility,Oily Water Treatment,PI,224,224,0,134,95,39,4
 4000,4000-09,Utility,Oily Water Treatment,MER,4,4,0,3,3,0,0
 4000,4000-10,Utility,Sanitary Water Collection,IN,12,0,0,0,0,0,4
 4000,4000-10,Utility,Sanitary Water Collection,PI,14,9,2,5,1,4,2
@@ -105,7 +105,7 @@
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,PI,23,12,7,22,3,19,14
 4000,4000-13,Utility,Slope Close Drain,MER,1,0,0,0,0,0,0
 4000,4000-13,Utility,Slope Close Drain,EL,1,1,0,6,4,2,0
-4000,4000-13,Utility,Slope Close Drain,PI,29,29,0,39,19,20,3
+4000,4000-13,Utility,Slope Close Drain,PI,29,29,0,48,21,27,3
 4000,4000-14,Utility,Fire Water,IN,33,0,0,0,0,0,0
 4000,4000-14,Utility,Fire Water,MES,1,0,1,0,0,0,0
 4000,4000-14,Utility,Fire Water,PI,127,125,0,333,118,215,2536
