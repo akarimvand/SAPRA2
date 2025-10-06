@@ -11,11 +11,11 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,153,58,239,51,188,107
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,52,3,168,90,78,57
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,132,40,2060,1081,979,2
-120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,282,73,3314,1269,2045,31
-120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,219,54,2966,1138,1828,44
-120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,306,173,125,1679,1044,635,42
-120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,284,183,97,1704,908,796,32
-120,120-06,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-05,EL,262,205,52,2128,817,1311,11
+120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,367,0,3314,1269,2045,31
+120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,292,0,2966,1138,1828,44
+120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,306,306,0,1679,1044,635,42
+120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,284,284,0,1704,908,796,32
+120,120-06,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-05,EL,262,262,0,2128,817,1311,11
 120,120-07,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-ESWB3A/B-01,EL,158,1,89,508,300,208,134
 120,120-08,Electrical Distribution Substation,Emergency Diesel Generator SS-DG-5701,EL,8,0,0,0,0,0,7
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,EL,29,14,10,89,11,78,0
@@ -43,7 +43,7 @@
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MES,11,2,9,40,0,40,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MER,2,0,2,12,0,12,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,24,22,2,58,23,35,17
-2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,231,69,39,296,36,260,45
+2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,231,71,37,296,36,260,45
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,5,1,72,20,52,0
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,38,14,159,93,66,86
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,129,63,66,15
@@ -68,7 +68,7 @@
 4000,4000-01,Utility,Nitrogen,PI,20,20,0,47,28,19,64
 4000,4000-01,Utility,Nitrogen,IN,14,14,0,0,0,0,6
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,2,0,10,0,10,0
-4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,161,26,307,61,246,35
+4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,162,25,307,61,246,35
 4000,4000-02,Utility,HHP & HP & LP Steam,PI,62,61,0,223,99,124,74
 4000,4000-03,Utility,MP Steam,MES,1,1,0,5,0,5,0
 4000,4000-03,Utility,MP Steam,IN,56,29,15,139,17,122,3
@@ -90,7 +90,7 @@
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,4,8,0,8,0
 4000,4000-08,Utility,Cooling Water,PI,292,270,3,604,375,229,37
-4000,4000-08,Utility,Cooling Water,IN,745,639,64,281,32,249,533
+4000,4000-08,Utility,Cooling Water,IN,745,640,63,281,32,249,533
 4000,4000-08,Utility,Cooling Water,EL,6,2,4,48,6,42,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,27,0,0,0,0,26
 4000,4000-09,Utility,Oily Water Treatment,PI,224,224,0,140,104,36,4
@@ -128,12 +128,12 @@
 5000,5000-04,Distillation & Methanol Product,Methanol Product,PI,30,24,3,125,64,61,32
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MER,4,0,2,0,0,0,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,EL,2,2,0,12,2,10,0
-5000,5000-04,Distillation & Methanol Product,Methanol Product,IN,213,98,22,205,93,112,45
+5000,5000-04,Distillation & Methanol Product,Methanol Product,IN,213,100,20,205,93,112,45
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MES,2,0,1,0,0,0,1
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MER,2,0,2,12,0,12,0
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,63,28,15,24,16,8,20
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,10,9,1,29,19,10,2
-7000,7000-01,Flare,Flare System (In Site),IN,145,73,28,127,29,98,17
+7000,7000-01,Flare,Flare System (In Site),IN,145,74,27,127,29,98,17
 7000,7000-01,Flare,Flare System (In Site),MER,2,2,0,0,0,0,0
 7000,7000-01,Flare,Flare System (In Site),MES,2,2,0,8,0,8,0
 7000,7000-01,Flare,Flare System (In Site),PI,49,49,0,111,46,65,77
