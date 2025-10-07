@@ -31,7 +31,7 @@
         <div class="sidebar-header">
             <div class="d-flex align-items-center justify-content-center">
                 <a href="pages/Work_flow.html" target="_blank" rel="noopener noreferrer">
-                    <img src="images/SAPRA_WHITE-100.png" alt="SAPRA Logo" style="height: 100px; margin-right: 0.5rem;">
+                    <img src="images/SAPRA_WHITE-100.png" alt="SAPRA Logo" style="height: 80px; margin-right: 0.5rem;">
                 </a>
             </div>
             <p class="slogan mb-0">Smart Access to Project Activities</p>
@@ -59,15 +59,29 @@
                 <button class="navbar-toggler" type="button" id="sidebarToggle" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <h5 class="mb-0 ms-2 ms-lg-0" id="dashboardTitle">Dashboard</h5>
+                <ul class="nav nav-tabs" id="main-tabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="workflow-tab" data-bs-toggle="tab" data-bs-target="#workflow-tab-pane" type="button" role="tab" aria-controls="workflow-tab-pane" aria-selected="false">Document WorkFlow</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="resources-tab" data-bs-toggle="tab" data-bs-target="#resources-tab-pane" type="button" role="tab" aria-controls="resources-tab-pane" aria-selected="false">Resources & Guides</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="reports-tab" data-bs-toggle="tab" data-bs-target="#reports-tab-pane" type="button" role="tab" aria-controls="reports-tab-pane" aria-selected="false">Reports</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="help-tab" data-bs-toggle="tab" data-bs-target="#help-tab-pane" type="button" role="tab" aria-controls="help-tab-pane" aria-selected="false">Help</button>
+                    </li>
+                </ul>
                 <div class="ms-auto d-flex align-items-center" id="header-nav-items">
                     <span class="badge bg-primary d-flex align-items-center me-3" id="totalItemsBadge">
                         <i class="bi bi-box-seam me-1"></i>
                         <span id="totalItemsCounter">0</span>&nbsp;items
                     </span>
-                    <a class="header-nav-link" href="pages/Work_flow.html" target="_blank" rel="noopener noreferrer" id="docWorkflowBtn" title="Document WorkFlow"><i class="bi bi-diagram-3"></i></a>
                     <a class="header-nav-link" href="https://b2n.ir/export_precom" target="_blank" rel="noopener noreferrer" id="dbStorageBtn" title="Databases Storage"><i class="bi bi-database"></i></a>
-                    <a class="header-nav-link" href="https://mega.nz/folder/MukgjRTQ#eg_hgtH32aeBrzdZQCoBDw" target="_blank" rel="noopener noreferrer" id="reportsBtn" title="Reports"><i class="bi bi-journal-text"></i></a>
                     <a class="header-nav-link" href="#" id="exportExcelBtn" title="Export to Excel"><i class="bi bi-file-earmark-excel"></i></a>
                     <a class="header-nav-link" href="#" id="downloadAllBtn" title="Download All Data"><i class="bi bi-cloud-download"></i></a>
                     <a class="header-nav-link text-danger" href="#" id="exitBtn" title="Exit"><i class="bi bi-box-arrow-right"></i></a>
@@ -75,69 +89,81 @@
             </div>
         </nav>
 
-        <main class="container-fluid py-4" role="main">
-            <div id="errorMessage" class="alert alert-danger" role="alert" style="display: none;">Error loading data.</div>
-            
-            <!-- Row 1: FORM A-D Cards -->
-            <div class="row mb-4 g-4" id="summaryCardsRow2">
-                <!-- FORM cards will be injected here -->
-            </div>
+        <main role="main">
+            <div class="tab-content" id="main-tab-content">
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="container-fluid py-4">
+                        <div id="errorMessage" class="alert alert-danger" role="alert" style="display: none;">Error loading data.</div>
 
-            <!-- Row 2: Original Summary Cards + Issues Card -->
-            <div class="row mb-4 g-4" id="summaryCardsRow1">
-                <!-- Summary cards will be injected here -->
-            </div>
+                        <!-- Row 1: FORM A-D Cards -->
+                        <div class="row mb-4 g-4" id="summaryCardsRow2">
+                            <!-- FORM cards will be injected here -->
+                        </div>
 
-            <!-- Data Table -->
-            <div class="card shadow-sm">
-                <div class="card-body">
-                    <h5 class="card-title text-secondary mb-3">Items Details</h5>
-                    <div class="table-responsive">
-                        <table class="table table-hover table-sm" id="dataTable" aria-live="polite">
-                            <caption class="visually-hidden">Detailed item data based on current selection</caption>
-                            <thead class="table-light">
-                            <tr id="dataTableHead">
-                                <!-- Table headers will be injected here -->
-                            </tr>
-                            </thead>
-                            <tbody id="dataTableBody">
-                                <!-- Table rows will be injected here -->
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
+                        <!-- Row 2: Original Summary Cards + Issues Card -->
+                        <div class="row mb-4 g-4" id="summaryCardsRow1">
+                            <!-- Summary cards will be injected here -->
+                        </div>
 
-            <!-- Charts Section -->
-            <div class="card shadow-sm mb-4">
-                <div class="card-body">
-                    <ul class="nav nav-tabs" id="chartTabs" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="overview-tab-btn" data-bs-toggle="tab" data-bs-target="#overviewChartsContainer" data-tab-name="Overview" type="button" role="tab" aria-controls="overviewChartsContainer" aria-selected="true">Overview</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="bydiscipline-tab-btn" data-bs-toggle="tab" data-bs-target="#disciplineChartsContainer" data-tab-name="By Discipline" type="button" role="tab" aria-controls="disciplineChartsContainer" aria-selected="false">By Discipline</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="bysystem-tab-btn" data-bs-toggle="tab" data-bs-target="#systemChartsContainer" data-tab-name="By System" type="button" role="tab" aria-controls="systemChartsContainer" aria-selected="false">By System</button>
-                        </li>
-                    </ul>
-                    <div class="tab-content pt-3">
-                        <div id="overviewChartsContainer" class="tab-pane fade show active chart-tab-content" role="tabpanel" aria-labelledby="overview-tab-btn">
-                             <div class="row">
-                                <div class="col-lg-12 mb-3 mb-lg-0">
-                                    <h6 class="text-muted mb-2 text-center fw-medium">General Status</h6>
-                                    <div class="chart-container"><canvas id="overviewChart" role="img" aria-label="General status doughnut chart"></canvas></div>
+                        <!-- Data Table -->
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title text-secondary mb-3">Items Details</h5>
+                                <div class="table-responsive">
+                                    <table class="table table-hover table-sm" id="dataTable" aria-live="polite">
+                                        <caption class="visually-hidden">Detailed item data based on current selection</caption>
+                                        <thead class="table-light">
+                                        <tr id="dataTableHead">
+                                            <!-- Table headers will be injected here -->
+                                        </tr>
+                                        </thead>
+                                        <tbody id="dataTableBody">
+                                            <!-- Table rows will be injected here -->
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
                         </div>
-                        <div id="disciplineChartsContainer" class="tab-pane fade chart-tab-content" role="tabpanel" aria-labelledby="bydiscipline-tab-btn">
-                            <!-- Discipline charts will be injected here -->
-                        </div>
-                        <div id="systemChartsContainer" class="tab-pane fade chart-tab-content" role="tabpanel" aria-labelledby="bysystem-tab-btn">
-                            <!-- System/Subsystem charts will be injected here -->
+
+                        <!-- Charts Section -->
+                        <div class="card shadow-sm mb-4">
+                            <div class="card-body">
+                                <ul class="nav nav-tabs" id="chartTabs" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="overview-tab-btn" data-bs-toggle="tab" data-bs-target="#overviewChartsContainer" data-tab-name="Overview" type="button" role="tab" aria-controls="overviewChartsContainer" aria-selected="true">Overview</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="bydiscipline-tab-btn" data-bs-toggle="tab" data-bs-target="#disciplineChartsContainer" data-tab-name="By Discipline" type="button" role="tab" aria-controls="disciplineChartsContainer" aria-selected="false">By Discipline</button>
+                                    </li>
+                                </ul>
+                                <div class="tab-content pt-3">
+                                    <div id="overviewChartsContainer" class="tab-pane fade show active chart-tab-content" role="tabpanel" aria-labelledby="overview-tab-btn">
+                                         <div class="row">
+                                            <div class="col-lg-12 mb-3 mb-lg-0">
+                                                <h6 class="text-muted mb-2 text-center fw-medium">General Status</h6>
+                                                <div class="chart-container"><canvas id="overviewChart" role="img" aria-label="General status doughnut chart"></canvas></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="disciplineChartsContainer" class="tab-pane fade chart-tab-content" role="tabpanel" aria-labelledby="bydiscipline-tab-btn">
+                                        <!-- Discipline charts will be injected here -->
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                </div>
+                <div class="tab-pane fade" id="workflow-tab-pane" role="tabpanel" aria-labelledby="workflow-tab" style="height: calc(100vh - 58px);">
+                    <iframe src="pages/Work_flow.html" style="width: 100%; height: 100%; border: none;" title="Document WorkFlow"></iframe>
+                </div>
+                <div class="tab-pane fade" id="resources-tab-pane" role="tabpanel" aria-labelledby="resources-tab" style="height: calc(100vh - 58px);">
+                    <iframe src="https://akarimvand.github.io/SAPRA2/Resources.html" style="width: 100%; height: 100%; border: none;" title="Resources & Guides"></iframe>
+                </div>
+                <div class="tab-pane fade" id="reports-tab-pane" role="tabpanel" aria-labelledby="reports-tab" style="height: calc(100vh - 58px);">
+                    <iframe src="https://akarimvand.github.io/SAPRA2/Reports.html" style="width: 100%; height: 100%; border: none;" title="Reports"></iframe>
+                </div>
+                <div class="tab-pane fade" id="help-tab-pane" role="tabpanel" aria-labelledby="help-tab" style="height: calc(100vh - 58px);">
+                    <iframe src="https://akarimvand.github.io/SAPRA2/help.html" style="width: 100%; height: 100%; border: none;" title="Help"></iframe>
                 </div>
             </div>
         </main>
