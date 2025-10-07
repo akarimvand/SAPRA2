@@ -452,7 +452,7 @@ body {
 
 /* ===== CHARTS & MODALS ===== */
 .chart-container {
-    height: 320px;
+    height: 280px; /* Reduced chart height */
     position: relative;
     border-radius: 8px;
     overflow: hidden;
