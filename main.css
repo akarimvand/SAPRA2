@@ -73,7 +73,7 @@ body {
 }
 
 .sidebar-header {
-    padding: 1.5rem 1rem;
+    padding: 0.75rem 1rem; /* Reduced padding */
     text-align: center;
     border-bottom: 1px solid rgba(255,255,255,0.1);
     background: linear-gradient(135deg, #212529, #1a1e22);
@@ -169,12 +169,12 @@ body {
 .tree-node {
     display: flex;
     align-items: center;
-    padding: 0.6rem 1.25rem; /* Reduced vertical padding */
+    padding: 0.5rem 1.25rem; /* Further reduced vertical padding */
     border-radius: 8px;
-    margin: 0.1rem 0.75rem; /* Reduced vertical margin */
+    margin: 0.05rem 0.75rem; /* Further reduced vertical margin */
     cursor: pointer;
     color: #f8f9fa;
-    font-size: 0.95rem;
+    font-size: 0.9rem; /* Reduced font size */
     font-weight: 500;
     transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
@@ -237,7 +237,7 @@ body {
 }
 
 .sidebar-footer {
-    padding: 1.25rem;
+    padding: 0.75rem 1rem; /* Reduced padding */
     text-align: center;
     font-size: 0.75rem; /* Reduced base font size */
     color: #6c757d;
@@ -716,9 +716,9 @@ body {
 }
 
 #main-tabs .nav-link.active {
-    background-color: var(--background-color);
-    color: var(--primary-color);
-    border-color: #dee2e6 #dee2e6 transparent;
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly lighter than header bg */
+    color: #ffffff; /* White text for active tab */
+    border-color: transparent;
     font-weight: 700;
     border-bottom: none;
 }

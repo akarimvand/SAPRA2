@@ -986,11 +986,14 @@ function filterDetailedItems(context) {
                         }
                     } else { // Select node
                          handleNodeSelect(type, id, name, parentId);
-                         if (window.innerWidth < 992) { // Close sidebar on mobile after selection
-                            DOMElements.sidebar.classList.remove('open');
-                            DOMElements.mainContent.classList.remove('sidebar-open');
-                            DOMElements.sidebarOverlay.style.display = 'none';
-                            DOMElements.sidebarToggle.setAttribute('aria-expanded', 'false');
+                         if (window.innerWidth < 992) { // On mobile
+                            // Only close sidebar if a leaf node (subsystem or all) is selected
+                            if (type === 'subsystem' || type === 'all') {
+                                DOMElements.sidebar.classList.remove('open');
+                                DOMElements.mainContent.classList.remove('sidebar-open');
+                                DOMElements.sidebarOverlay.style.display = 'none';
+                                DOMElements.sidebarToggle.setAttribute('aria-expanded', 'false');
+                            }
                         }
                     }
                 });
