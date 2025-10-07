@@ -44,7 +44,6 @@ const ICONS = {
         let processedData = { systemMap: {}, subSystemMap: {}, allRawData: [] };
         let selectedView = { type: 'all', id: 'all', name: 'All Systems' };
         let searchTerm = '';
-        let activeChartTab = 'Overview';
         let aggregatedStats = { totalItems: 0, done: 0, pending: 0, punch: 0, hold: 0, remaining: 0 };
         let detailedItemsData = []; // Added global variable for detailed items data
         let punchItemsData = []; // Added global variable for punch items data
@@ -57,8 +56,7 @@ const ICONS = {
 
         const chartInstances = {
             overview: null,
-            disciplines: {}, // { disciplineName: chartInstance }
-            systems: {}      // { systemOrSubId: chartInstance }
+            disciplines: {} // { disciplineName: chartInstance }
         };
         let bootstrapTabObjects = {}; // To store Bootstrap Tab instances
         let itemDetailsModal; // Added variable for item details modal instance
@@ -72,14 +70,12 @@ const ICONS = {
             mainContent: document.getElementById('mainContent'),
             treeView: document.getElementById('treeView'),
             searchInput: document.getElementById('searchInput'),
-            dashboardTitle: document.getElementById('dashboardTitle'),
             totalItemsCounter: document.getElementById('totalItemsCounter'),
             summaryCardsRow1: document.getElementById('summaryCardsRow1'),
             summaryCardsRow2: document.getElementById('summaryCardsRow2'),
             chartTabs: document.getElementById('chartTabs'),
             overviewChartsContainer: document.getElementById('overviewChartsContainer'),
             disciplineChartsContainer: document.getElementById('disciplineChartsContainer'),
-            systemChartsContainer: document.getElementById('systemChartsContainer'),
             dataTableHead: document.getElementById('dataTableHead'),
             dataTableBody: document.getElementById('dataTableBody'),
             exportExcelBtn: document.getElementById('exportExcelBtn'),
@@ -156,15 +152,13 @@ function initModals() {
             DOMElements.exitBtn.addEventListener('click', () => { window.location.href = 'index.html'; });
             DOMElements.downloadAllBtn.addEventListener('click', handleDownloadAll);
 
-            DOMElements.chartTabs.addEventListener('click', (e) => {
-                const button = e.target.closest('button[data-bs-toggle="tab"]');
-                if (button) {
-                    const tabName = button.dataset.tabName;
-                    if (tabName && tabName !== activeChartTab) {
-                        activeChartTab = tabName;
-                        // Bootstrap handles the tab UI update automatically via data-bs-toggle
-                        renderCharts();
-                    }
+            // New listener for when a chart tab is shown, ensuring charts render only when visible.
+            DOMElements.chartTabs.addEventListener('shown.bs.tab', function (event) {
+                const tabId = event.target.id;
+                if (tabId === 'overview-tab-btn') {
+                    renderOverviewCharts();
+                } else if (tabId === 'bydiscipline-tab-btn') {
+                    renderDisciplineCharts();
                 }
             });
 
@@ -736,24 +730,6 @@ function filterDetailedItems(context) {
             document.getElementById('itemDetailsModalLabel').textContent = `${statusType} Details`;
         }
 
-        function updateActiveTabUI() { // No longer strictly needed for BS tabs, but kept if manual control is desired elsewhere
-            const buttons = DOMElements.chartTabs.querySelectorAll('button');
-            buttons.forEach(btn => {
-                const isActive = btn.dataset.tabName === activeChartTab;
-                btn.classList.toggle('active', isActive);
-                btn.setAttribute('aria-selected', isActive);
-
-                const targetPaneId = btn.dataset.bsTarget;
-                if (targetPaneId) {
-                    const targetPane = document.querySelector(targetPaneId);
-                    if (targetPane) {
-                        targetPane.classList.toggle('show', isActive);
-                        targetPane.classList.toggle('active', isActive);
-                    }
-                }
-            });
-        }
-
         // --- Data Loading and Processing ---
         async function loadAndProcessData() {
             loadingModalInstance.show();
@@ -868,7 +844,7 @@ function filterDetailedItems(context) {
                 DOMElements.errorMessage.style.display = 'block';
                 console.error("Data loading failed:", e);
             } finally {
-                loadingModalInstance.hide();
+                // The modal is now hidden in updateView() to ensure it's hidden only after rendering.
             }
         }
 
@@ -987,11 +963,14 @@ function filterDetailedItems(context) {
                         }
                     } else { // Select node
                          handleNodeSelect(type, id, name, parentId);
-                         if (window.innerWidth < 992) { // Close sidebar on mobile after selection
-                            DOMElements.sidebar.classList.remove('open');
-                            DOMElements.mainContent.classList.remove('sidebar-open');
-                            DOMElements.sidebarOverlay.style.display = 'none';
-                            DOMElements.sidebarToggle.setAttribute('aria-expanded', 'false');
+                         if (window.innerWidth < 992) { // On mobile
+                            // Only close sidebar if a leaf node (subsystem or all) is selected
+                            if (type === 'subsystem' || type === 'all') {
+                                DOMElements.sidebar.classList.remove('open');
+                                DOMElements.mainContent.classList.remove('sidebar-open');
+                                DOMElements.sidebarOverlay.style.display = 'none';
+                                DOMElements.sidebarToggle.setAttribute('aria-expanded', 'false');
+                            }
                         }
                     }
                 });
@@ -1006,26 +985,16 @@ function filterDetailedItems(context) {
         function updateView() {
             aggregatedStats = _aggregateStatsForView(selectedView, processedData.systemMap, processedData.subSystemMap);
 
-            // Update the dashboard title based on the selected view type
-            let titleText = 'Dashboard';
-            if (selectedView.type === 'system' && selectedView.id) {
-                const systemName = processedData.systemMap[selectedView.id]?.name || selectedView.name;
-                titleText = `System: ${selectedView.id} - ${systemName}`;
-            } else if (selectedView.type === 'subsystem' && selectedView.id) {
-                const systemName = processedData.systemMap[selectedView.parentId]?.name || selectedView.parentId;
-                const subsystemName = processedData.subSystemMap[selectedView.id]?.name || selectedView.name;
-                titleText = `System: ${selectedView.parentId} - ${systemName}<br><small class="text-white-50">Subsystem: ${selectedView.id} - ${subsystemName}</small>`;
-            } else if (selectedView.type === 'all') {
-                titleText = 'Dashboard';
-            }
-            DOMElements.dashboardTitle.innerHTML = titleText;
-
             DOMElements.totalItemsCounter.textContent = aggregatedStats.totalItems.toLocaleString();
 
             renderSummaryCards();
-            renderCharts();
+            renderOverviewCharts(); // Render the initial overview chart
+            // Other charts are rendered based on the 'shown.bs.tab' event
             renderDataTable();
             renderSidebar();
+            if (loadingModalInstance) {
+                loadingModalInstance.hide();
+            }
         }
 
         function renderSummaryCards() {
@@ -1113,23 +1082,6 @@ function filterDetailedItems(context) {
             }
         }
 
-        function renderCharts() {
-            destroyChart(chartInstances.overview);
-            Object.values(chartInstances.disciplines).forEach(destroyChart);
-            chartInstances.disciplines = {};
-            Object.values(chartInstances.systems).forEach(destroyChart);
-            chartInstances.systems = {};
-
-            const activeTabPane = document.querySelector(`.tab-pane.active[role="tabpanel"]`);
-
-            if (activeTabPane && activeTabPane.id === 'overviewChartsContainer') {
-                renderOverviewCharts();
-            } else if (activeTabPane && activeTabPane.id === 'disciplineChartsContainer') {
-            renderDisciplineCharts();
-            } else if (activeTabPane && activeTabPane.id === 'systemChartsContainer') {
-                renderSystemSubsystemCharts();
-            }
-        }
 
         function renderOverviewCharts() {
             const overviewCanvas = document.getElementById('overviewChart');
@@ -1219,85 +1171,6 @@ chartInstances.overview = new Chart(overviewCtx, {
             });
             container.appendChild(row);
         }
-
-        function renderSystemSubsystemCharts() {
-            const container = DOMElements.systemChartsContainer;
-            container.innerHTML = '';
-            let itemsToDisplay = [];
-
-            if (selectedView.type === 'all') {
-                itemsToDisplay = Object.values(processedData.systemMap).map(system => ({
-                    id: system.id,
-                    name: `${system.id} - ${system.name}`,
-                    data: _aggregateStatsForSystem(system.id, processedData.systemMap, processedData.subSystemMap)
-                }));
-            } else if (selectedView.type === 'system' && selectedView.id) {
-                const system = processedData.systemMap[selectedView.id];
-                if (system) {
-                    itemsToDisplay = system.subs.map(subRef => {
-                        const subSystem = processedData.subSystemMap[subRef.id];
-                        return {
-                            id: subRef.id,
-                            name: `${subRef.id} - ${subSystem?.name || 'N/A'}`,
-                            data: _aggregateStatsForSubSystem(subRef.id, processedData.subSystemMap)
-                        };
-                    });
-                }
-            } else if (selectedView.type === 'subsystem' && selectedView.id) {
-                const subSystem = processedData.subSystemMap[selectedView.id];
-                 if (subSystem) {
-                    itemsToDisplay = [{
-                        id: subSystem.id, name: `${subSystem.id} - ${subSystem.name}`,
-                        data: _aggregateStatsForSubSystem(subSystem.id, processedData.subSystemMap)
-                    }];
-                 }
-            }
-
-            itemsToDisplay = itemsToDisplay.filter(item => item.data.totalItems > 0);
-
-
-            if (itemsToDisplay.length === 0) {
-                container.innerHTML = `<div class="col-12 text-center py-5 text-muted" role="status">${ICONS.PieChartIcon}<p class="mt-2">No systems or subsystems with data to display for this view.</p></div>`;
-                return;
-            }
-
-            const row = document.createElement('div');
-            row.className = 'row g-3';
-
-            itemsToDisplay.forEach(item => {
-                // Calculate remaining items for this system/subsystem
-                item.data.remaining = Math.max(0, item.data.totalItems - item.data.done - item.data.pending);
-
-                const col = document.createElement('div');
-                col.className = 'col-12 col-md-6 col-lg-4 col-xl-3';
-                const chartId = `systemSubChart-${item.id.replace(/\s+/g, '-|')}`;
-                const chartLabel = `Status for ${item.name}`;
-                 col.innerHTML = `
-                    <div class="card h-100 shadow-sm">
-                        <div class="card-body text-center">
-                            <h6 class="text-muted small fw-medium mb-1 text-truncate" title="${item.name}">${item.name}</h6>
-                            <p class="text-muted small mb-2">${item.data.totalItems.toLocaleString()} items</p>
-                            <div class="chart-container" style="height: 200px;"><canvas id="${chartId}" role="img" aria-label="${chartLabel}"></canvas></div>
-                        </div>
-                    </div>`;
-                row.appendChild(col);
-
-                if (item.data.totalItems > 0) {
-                     setTimeout(() => {
-                        const ctx = document.getElementById(chartId).getContext('2d');
-                        const chartData = {
-                            labels: ['Completed', 'Pending', 'Remaining'],
-                            datasets: [{ label: item.name, data: [item.data.done, item.data.pending, item.data.remaining], backgroundColor: [COLORS_STATUS_CHARTJS.done, COLORS_STATUS_CHARTJS.pending, COLORS_STATUS_CHARTJS.remaining] }]
-                        };
-                        chartInstances.systems[item.id] = new Chart(ctx, { type: 'doughnut', data: chartData, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: true, position: 'bottom', labels: { boxWidth:10, font: {size: 10}} }, tooltip: { callbacks: { label: (context) => `${context.label}: ${context.formattedValue} (${Math.round(context.parsed / item.data.totalItems * 100)}%)`}} }} });
-                    }, 0);
-                } else {
-                    setTimeout(() => {document.getElementById(chartId).parentElement.innerHTML = '<div class="text-center text-muted small p-5" style="height:100%; display:flex; align-items:center; justify-content:center;">No data.</div>';},0);
-                }
-            });
-             container.appendChild(row);
-        }
-
 
         function renderDataTable() {
             const columns = [
@@ -1696,11 +1569,5 @@ chartInstances.overview = new Chart(overviewCtx, {
                  contactElement.addEventListener('mouseleave', handleMouseLeave);
              });
 
-             // Apply hover effects to the dashboard title
-             const dashboardTitle = document.getElementById('dashboardTitle');
-             if (dashboardTitle) {
-                  dashboardTitle.addEventListener('mousemove', handleMouseMove);
-                  dashboardTitle.addEventListener('mouseleave', handleMouseLeave);
-             }
         });
     })();
