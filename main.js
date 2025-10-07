@@ -72,7 +72,6 @@ const ICONS = {
             mainContent: document.getElementById('mainContent'),
             treeView: document.getElementById('treeView'),
             searchInput: document.getElementById('searchInput'),
-            dashboardTitle: document.getElementById('dashboardTitle'),
             totalItemsCounter: document.getElementById('totalItemsCounter'),
             summaryCardsRow1: document.getElementById('summaryCardsRow1'),
             summaryCardsRow2: document.getElementById('summaryCardsRow2'),
@@ -868,7 +867,7 @@ function filterDetailedItems(context) {
                 DOMElements.errorMessage.style.display = 'block';
                 console.error("Data loading failed:", e);
             } finally {
-                loadingModalInstance.hide();
+                // The modal is now hidden in updateView() to ensure it's hidden only after rendering.
             }
         }
 
@@ -1006,26 +1005,15 @@ function filterDetailedItems(context) {
         function updateView() {
             aggregatedStats = _aggregateStatsForView(selectedView, processedData.systemMap, processedData.subSystemMap);
 
-            // Update the dashboard title based on the selected view type
-            let titleText = 'Dashboard';
-            if (selectedView.type === 'system' && selectedView.id) {
-                const systemName = processedData.systemMap[selectedView.id]?.name || selectedView.name;
-                titleText = `System: ${selectedView.id} - ${systemName}`;
-            } else if (selectedView.type === 'subsystem' && selectedView.id) {
-                const systemName = processedData.systemMap[selectedView.parentId]?.name || selectedView.parentId;
-                const subsystemName = processedData.subSystemMap[selectedView.id]?.name || selectedView.name;
-                titleText = `System: ${selectedView.parentId} - ${systemName}<br><small class="text-white-50">Subsystem: ${selectedView.id} - ${subsystemName}</small>`;
-            } else if (selectedView.type === 'all') {
-                titleText = 'Dashboard';
-            }
-            DOMElements.dashboardTitle.innerHTML = titleText;
-
             DOMElements.totalItemsCounter.textContent = aggregatedStats.totalItems.toLocaleString();
 
             renderSummaryCards();
             renderCharts();
             renderDataTable();
             renderSidebar();
+            if (loadingModalInstance) {
+                loadingModalInstance.hide();
+            }
         }
 
         function renderSummaryCards() {
@@ -1696,11 +1684,5 @@ chartInstances.overview = new Chart(overviewCtx, {
                  contactElement.addEventListener('mouseleave', handleMouseLeave);
              });
 
-             // Apply hover effects to the dashboard title
-             const dashboardTitle = document.getElementById('dashboardTitle');
-             if (dashboardTitle) {
-                  dashboardTitle.addEventListener('mousemove', handleMouseMove);
-                  dashboardTitle.addEventListener('mouseleave', handleMouseLeave);
-             }
         });
     })();

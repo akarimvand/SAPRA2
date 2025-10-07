@@ -684,6 +684,57 @@ body {
     transform: translateY(-2px);
 }
 
+/* Styles for new main tabs in header */
+#main-tabs {
+    border-bottom: none; /* Remove default bootstrap border */
+    align-items: flex-end;
+}
+
+#main-tabs .nav-item {
+    margin-bottom: -1px; /* Align with the bottom of the navbar */
+}
+
+#main-tabs .nav-link {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: none;
+    color: #adb5bd;
+    padding: 0.65rem 1.25rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border-radius: 8px 8px 0 0;
+    transition: all 0.3s ease;
+    margin-right: 4px;
+}
+
+#main-tabs .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.1);
+    border-bottom: none;
+}
+
+#main-tabs .nav-link.active {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    border-color: #dee2e6 #dee2e6 transparent;
+    font-weight: 700;
+    border-bottom: none;
+}
+
+/* Remove title from header since tabs are used now */
+#dashboardTitle {
+    display: none;
+}
+
+main[role="main"] {
+    padding: 0;
+}
+
+#home-tab-pane .container-fluid {
+    padding-top: 1.5rem;
+}
+
 #header-nav-items .header-nav-link .bi {
     font-size: 1.2rem;
 }
