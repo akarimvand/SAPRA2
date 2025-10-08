@@ -6228,7 +6228,7 @@ TEL-09,EL,CR-TJB2,Telecom Device,Telephone Junction Box,0%
 TEL-09,EL,CR-TJB3,Telecom Device,Telephone Junction Box,0%
 120-15,EL,CR-UBT-01_1,UPS & Battery,110V AC UPS Battery Set,DONE
 120-15,EL,CR-UBT-01_2,UPS & Battery,110V AC UPS Battery Set,DONE
-120-09,EL,CR-UIS-01,UPS & Battery,110V AC UPS Battery Isolator Box,25%
+120-09,EL,CR-UIS-01,UPS & Battery,110V AC UPS Battery Isolator Box,Done
 120-09,EL,CR-UPS-01,UPS & Battery,110V AC UPS Panel,Exception(Pending)
 1000-01,MES,D-1001,Drum(D),Natural gas K.O. drum,Done
 2000-04,MES,D-2001,Drum(D),HHP Steam Drum,20%
@@ -10496,8 +10496,8 @@ LS-02,EL,EBP-AH-EDP-01,Power Cable B,Analyzer House Distribution Panel- AH-EDP-0
 120-07,EL,EBP-CR-CEC(CH)-01_AS,Power Cable B,RBS- CCTV & CEC Panels (Auxiliary Supply),0%
 120-07,EL,EBP-CR-EDP-01,Power Cable B,Control Building Emergency Distribution Panel- CR-EDP-01,Done
 LS-02,EL,EBP-CR-ELP-01,Power Cable B,Control Room Emergency Lighting Panel- CR-ELP-01,33%
-120-07,EL,EBP-CR-FACP-01,Power Cable B,Control Building Fire Alarm Control Panel- CR-FACP-01,67%
-120-07,EL,EBP-CR-FECP-01,Power Cable B,Control Building Fire Fighting Control Panel- CR-FECP-01,67%
+120-07,EL,EBP-CR-FACP-01,Power Cable B,Control Building Fire Alarm Control Panel- CR-FACP-01,Done
+120-07,EL,EBP-CR-FECP-01,Power Cable B,Control Building Fire Fighting Control Panel- CR-FECP-01,Done
 120-07,EL,EBP-CR-HDP-01_1,Power Cable B,Control Building Emergency HVAC Panel- CR-HDP-01,33%
 120-07,EL,EBP-CR-HDP-01_2,Power Cable B,Control Building Emergency HVAC Panel- CR-HDP-01,33%
 120-07,EL,EBP-CR-HDP-01_3,Power Cable B,Control Building Emergency HVAC Panel- CR-HDP-01,33%
@@ -11283,7 +11283,7 @@ FGS-08,EL,ECC-SS-FECP-01_4,Power Cable B,Substation Fire Fighting Control Panel 
 120-01,EL,ECC-SS-NGR1A-01,Power Cable B,Neutral Grounding Resistor- SS-NGR1A-01 (Current Transformer),Done
 120-01,EL,ECC-SS-NGR1B-01,Power Cable B,Neutral Grounding Resistor- SS-NGR1B-01 (Current Transformer),Done
 120-12,EL,ECC-SS-PDCS01-1_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Bus VT,67%
-120-01,EL,ECC-SS-PDCS01-1_2,Power Cable B,6kV Switchboard SS-SWB2B-01-  Bus VT,67%
+120-01,EL,ECC-SS-PDCS01-1_2,Power Cable B,6kV Switchboard SS-SWB2B-01-  Bus VT,Done
 120-12,EL,ECC-SS-PDCS01-2_1,Power Cable B,LV Switchboard SS-SWB3B-05- Incomer,0%
 120-06,EL,ECC-SS-PDCS01-2_2,Power Cable B,LV Switchboard SS-SWB3A-05- Bus Coupler,DONE
 120-06,EL,ECC-SS-PDCS01-2_3,Power Cable B,LV Switchboard SS-SWB3B-01- Incomer,DONE
