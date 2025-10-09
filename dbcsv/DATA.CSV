@@ -10,12 +10,12 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,2,0,12,4,8,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,160,51,239,51,188,107
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,52,4,168,93,75,57
-120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,148,27,2125,1170,955,2
-120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,367,0,3357,1547,1810,31
-120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,292,0,3037,1436,1601,44
+120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,148,27,2152,1170,982,2
+120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,367,0,3484,1547,1937,31
+120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,292,0,3059,1436,1623,44
 120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,306,306,0,2056,1254,802,42
 120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,284,284,0,2126,1147,979,32
-120,120-06,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-05,EL,262,262,0,2286,1011,1275,11
+120,120-06,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-05,EL,262,262,0,2453,1011,1442,11
 120,120-07,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-ESWB3A/B-01,EL,158,6,84,523,300,223,134
 120,120-08,Electrical Distribution Substation,Emergency Diesel Generator SS-DG-5701,EL,8,0,0,0,0,0,7
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,EL,29,15,7,89,11,78,0
@@ -138,15 +138,15 @@
 7000,7000-01,Flare,Flare System (In Site),MES,2,2,0,8,0,8,0
 7000,7000-01,Flare,Flare System (In Site),PI,49,49,0,111,46,65,77
 BLD,BLD-01,Building,Substation,PI,4,4,0,6,3,3,9
-BLD,BLD-01,Building,Substation,CV,14,14,0,64,6,58,0
+BLD,BLD-01,Building,Substation,CV,14,14,0,63,6,57,0
 BLD,BLD-02,Building,Control Building,CV,8,8,0,0,0,0,0
 BLD,BLD-02,Building,Control Building,PI,1,1,0,6,5,1,1
 BLD,BLD-03,Building,Laboratory,CV,14,0,0,0,0,0,0
-BLD,BLD-04,Building,Security Building,CV,14,14,0,13,0,13,0
+BLD,BLD-04,Building,Security Building,CV,14,14,0,18,0,18,0
 BLD,BLD-05,Building,Diesel Room,CV,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,PI,3,0,1,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,CV,14,14,0,31,3,28,0
-BLD,BLD-07,Building,Analyzer House,CV,8,8,0,24,1,23,0
+BLD,BLD-07,Building,Analyzer House,CV,8,8,0,19,1,18,0
 DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,500,5,2882,989,1893,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2191,2190,1,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,417,417,0,0
@@ -172,8 +172,8 @@ FGS,FGS-09,Fire and Gas Detection,Fire & Gas Detection for Control Building,IN,3
 FGS,FGS-09,Fire and Gas Detection,Fire & Gas Detection for Control Building,EL,92,59,1,4,0,4,0
 FGS,FGS-10,Fire and Gas Detection,Fire & Gas Detection for Laboratory,IN,2,0,0,0,0,0,0
 FGS,FGS-10,Fire and Gas Detection,Fire & Gas Detection for Laboratory,EL,50,0,0,0,0,0,0
-LS,LS-01,Lighting System,SS-MLP-01 for Normal Lighting System,EL,100,18,13,163,57,106,94
-LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,8,10,88,41,47,54
+LS,LS-01,Lighting System,SS-MLP-01 for Normal Lighting System,EL,100,18,13,177,57,120,94
+LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,8,10,94,41,53,54
 LS,LS-03,Lighting System,Lighting System for Substation,EL,516,516,0,1707,1699,8,0
 LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,0,19,57,0,57,0
 LS,LS-05,Lighting System,Lighting System for Laboratory & Yard Office,EL,315,0,0,0,0,0,0
