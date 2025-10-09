@@ -35,8 +35,20 @@
       box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
     }
     .chart-container { position: relative; height: 350px; }
-    .filter-btn { transition: all 0.2s; }
-    .filter-btn.active { background-color: #0d6efd; color: white; }
+    .filter-btn {
+      transition: all 0.2s;
+      border-radius: 0.5rem;
+      font-weight: 500;
+    }
+    .filter-btn.active {
+      background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+      color: white;
+      box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    }
+    .filter-btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.1);
+    }
     .stat-card { text-align: center; padding: 1.2rem; }
     .stat-value { font-size: 2rem; font-weight: bold; }
     .stat-label { margin-top: 0.3rem; }
@@ -150,8 +162,8 @@
           <div class="col-md-6">
             <label class="form-label">Date Range:</label>
             <div>
-              <button class="btn btn-outline-primary filter-btn me-2 active" data-range="10d">Last 10 Days</button>
-              <button class="btn btn-outline-primary filter-btn me-2" data-range="30d">Last 30 Days</button>
+              <button class="btn btn-outline-primary filter-btn me-2" data-range="10d">Last 10 Days</button>
+              <button class="btn btn-outline-primary filter-btn me-2 active" data-range="30d">Last 30 Days</button>
               <button class="btn btn-outline-primary filter-btn me-2" data-range="7d">Last Week</button>
               <button class="btn btn-outline-primary filter-btn me-2" data-range="yesterday">Yesterday</button>
               <button class="btn btn-outline-primary filter-btn" data-range="custom">Custom</button>
@@ -181,7 +193,7 @@
 
     <!-- Charts -->
     <div class="row">
-      <div class="col-lg-8 mb-4">
+      <div class="col-12 mb-4">
         <div class="card">
           <div class="card-header bg-light d-flex justify-content-between align-items-center">
             <h5><i class="fas fa-chart-line me-2"></i> Daily Trend</h5>
@@ -208,38 +220,26 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card">
-          <div class="card-header bg-light">
-            <h5><i class="fas fa-chart-pie me-2"></i> Discipline Share</h5>
-          </div>
-          <div class="card-body">
-            <div class="chart-container" style="height: 300px;">
-              <canvas id="pieChart"></canvas>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
 
     <div class="card mb-4">
-      <div class="card-header bg-light d-flex justify-content-between align-items-center">
-        <h5><i class="fas fa-chart-bar me-2"></i> Discipline Comparison</h5>
-        <button class="btn btn-sm btn-outline-secondary" onclick="exportTableToCSV('punch_report.csv')">
-          <i class="fas fa-download me-1"></i> Download CSV
-        </button>
+      <div class="card-header bg-light">
+        <h5><i class="fas fa-chart-pie me-2"></i> Discipline Share</h5>
       </div>
       <div class="card-body">
         <div class="chart-container">
-          <canvas id="barChart"></canvas>
+          <canvas id="pieChart"></canvas>
         </div>
       </div>
     </div>
 
     <!-- Summary Table -->
     <div class="card">
-      <div class="card-header bg-light">
+      <div class="card-header bg-light d-flex justify-content-between align-items-center">
         <h5><i class="fas fa-table me-2"></i> Daily Summary</h5>
+        <button class="btn btn-sm btn-outline-secondary" onclick="exportTableToCSV('punch_report.csv')">
+          <i class="fas fa-download me-1"></i> Download CSV
+        </button>
       </div>
       <div class="card-body">
         <div class="table-responsive">
@@ -264,7 +264,7 @@
     // --- Settings ---
     const CSV_URL = 'https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/dbcsv/Daily_Release_Punch.csv';
     let allData = [];
-    let currentRange = '10d';
+    let currentRange = '30d';
     let selectedDisciplines = new Set();
 
     // --- Load CSV ---
@@ -274,6 +274,7 @@
       skipEmptyLines: true,
       complete: function(results) {
         // Parse date from '09-Oct-25' to 'YYYY-MM-DD'
+        const todayStr = new Date().toISOString().split('T')[0];
         allData = results.data
           .filter(row => row.Release_Date && row.Discipline && row.Qty)
           .map(row => {
@@ -284,7 +285,7 @@
               qty: parseInt(row.Qty) || 0
             };
           })
-          .filter(row => !isNaN(new Date(row.date).getTime()));
+          .filter(row => !isNaN(new Date(row.date).getTime()) && row.date !== todayStr);
 
         allData.sort((a, b) => new Date(b.date) - new Date(a.date));
 
@@ -342,17 +343,17 @@
 
       if (currentRange === '10d') {
         const d = new Date();
-        d.setDate(d.getDate() - 9);
+        d.setDate(d.getDate() - 10);
         startDate = d.toISOString().split('T')[0];
         endDate = yesterdayStr;
       } else if (currentRange === '30d') {
         const d = new Date();
-        d.setDate(d.getDate() - 29);
+        d.setDate(d.getDate() - 30);
         startDate = d.toISOString().split('T')[0];
         endDate = yesterdayStr;
       } else if (currentRange === '7d') {
         const d = new Date();
-        d.setDate(d.getDate() - 6);
+        d.setDate(d.getDate() - 7);
         startDate = d.toISOString().split('T')[0];
         endDate = yesterdayStr;
       } else if (currentRange === 'yesterday') {
@@ -478,7 +479,6 @@
 
       renderTable(filtered);
       renderLineChart(sortedDates, dataByDate);
-      renderBarChart(dataByDiscipline);
       renderPieChart(dataByDiscipline);
       renderLineChartTable(filtered);
     }
