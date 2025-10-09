@@ -49,7 +49,7 @@
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,130,66,64,15
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,1,6,0,6,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,19,7,12,0
-2000,2000-06,Reforming,Nitrogen Circuit,IN,114,8,30,153,4,149,13
+2000,2000-06,Reforming,Nitrogen Circuit,IN,114,8,30,202,4,198,13
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,0,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,1,4,9,0,9,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,43,235,430,10,420,21
@@ -121,7 +121,7 @@
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,465,398,25,478,339,139,287
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,46,0,138,89,49,13
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,5,0,44,11,33,0
-5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,196,21,553,325,228,78
+5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,200,21,553,325,228,78
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,EL,2,2,0,12,2,10,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,0,6,10,0,10,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MES,6,2,0,34,2,32,0
@@ -138,7 +138,7 @@
 7000,7000-01,Flare,Flare System (In Site),MES,2,2,0,8,0,8,0
 7000,7000-01,Flare,Flare System (In Site),PI,49,49,0,111,46,65,77
 BLD,BLD-01,Building,Substation,PI,4,4,0,6,3,3,9
-BLD,BLD-01,Building,Substation,CV,14,14,0,63,6,57,0
+BLD,BLD-01,Building,Substation,CV,14,14,0,64,6,58,0
 BLD,BLD-02,Building,Control Building,CV,8,8,0,0,0,0,0
 BLD,BLD-02,Building,Control Building,PI,1,1,0,6,5,1,1
 BLD,BLD-03,Building,Laboratory,CV,14,0,0,0,0,0,0
