@@ -1,6 +1,6 @@
 ﻿SD_System,SD_Sub_System,SD_System_Name,SD_Subsystem_Name,discipline,TOTAL ITEM,TOTAL DONE,TOTAL PENDING,TOTAL PUNCH,TOTAL CLEAR PUNCH,TOTAL NOT CLEAR PUNCH,TOTAL HOLD POINT
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,77,22,219,42,177,34
-1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,24,21,2,65,21,44,28
+1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,24,22,1,70,21,49,28
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,2,0,38,0,38,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,1,0,6,0,6,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,PI,12,12,0,24,18,6,3
@@ -78,18 +78,18 @@
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,1,5,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,47,45,2,171,103,68,19
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,31,58,394,17,377,384
-4000,4000-05,Utility,Blow Down,PI,24,24,0,40,18,22,13
+4000,4000-05,Utility,Blow Down,PI,24,24,0,44,18,26,13
 4000,4000-05,Utility,Blow Down,MES,4,3,1,23,0,23,0
 4000,4000-05,Utility,Blow Down,IN,17,7,7,12,3,9,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,3,2,4,0,4,5
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,46,2,171,80,91,167
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,47,1,176,80,96,167
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,4,18,0,18,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,19,51,65,14,51,107
 4000,4000-07,Utility,Plant Air,IN,2,2,0,0,0,0,2
 4000,4000-07,Utility,Plant Air,PI,10,10,0,17,4,13,30
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,4,8,0,8,0
-4000,4000-08,Utility,Cooling Water,PI,294,270,3,604,375,229,37
+4000,4000-08,Utility,Cooling Water,PI,294,270,3,604,374,230,37
 4000,4000-08,Utility,Cooling Water,IN,745,640,63,281,32,249,533
 4000,4000-08,Utility,Cooling Water,EL,6,6,0,56,14,42,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,27,0,0,0,0,26
@@ -109,7 +109,7 @@
 4000,4000-14,Utility,Fire Water,IN,33,33,0,0,0,0,0
 4000,4000-14,Utility,Fire Water,MES,1,0,1,0,0,0,0
 4000,4000-14,Utility,Fire Water,PI,127,125,0,340,144,196,2536
-4000,4000-15,Utility,Potable & Service Water,PI,61,60,1,139,40,99,29
+4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,141,40,101,29
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,8,17,0,17,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,7,5,69,11,58,5
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,283,45,665,318,347,147
