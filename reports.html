@@ -153,6 +153,7 @@
               <button class="btn btn-outline-primary filter-btn me-2 active" data-range="10d">Last 10 Days</button>
               <button class="btn btn-outline-primary filter-btn me-2" data-range="30d">Last 30 Days</button>
               <button class="btn btn-outline-primary filter-btn me-2" data-range="7d">Last Week</button>
+              <button class="btn btn-outline-primary filter-btn me-2" data-range="yesterday">Yesterday</button>
               <button class="btn btn-outline-primary filter-btn" data-range="custom">Custom</button>
             </div>
             <div id="customDateRange" class="mt-2" style="display:none;">
@@ -303,12 +304,27 @@
 
     // --- Helper Functions ---
     function parseCustomDate(str) {
+      // Split by space to get date part, ignore time
+      const datePart = str.split(' ')[0];
+      // Check if already YYYY-MM-DD
+      if (/^\d{4}-\d{2}-\d{2}$/.test(datePart)) {
+        return datePart;
+      }
+      // Check for MM/DD/YYYY
+      if (/^\d{1,2}\/\d{1,2}\/\d{4}$/.test(datePart)) {
+        const parts = datePart.split('/');
+        const month = parts[0].padStart(2, '0');
+        const day = parts[1].padStart(2, '0');
+        const year = parts[2];
+        return `${year}-${month}-${day}`;
+      }
+      // Else parse DD-MMM-YY
       const months = {
         'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04',
         'May': '05', 'Jun': '06', 'Jul': '07', 'Aug': '08',
         'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'
       };
-      const parts = str.split('-');
+      const parts = datePart.split('-');
       if (parts.length !== 3) return null;
       const day = parts[0].padStart(2, '0');
       const month = months[parts[1]];
@@ -320,30 +336,40 @@
       let startDate, endDate;
       const today = new Date();
       const todayStr = today.toISOString().split('T')[0];
+      const yesterday = new Date(today);
+      yesterday.setDate(yesterday.getDate() - 1);
+      const yesterdayStr = yesterday.toISOString().split('T')[0];
 
       if (currentRange === '10d') {
         const d = new Date();
         d.setDate(d.getDate() - 9);
         startDate = d.toISOString().split('T')[0];
-        endDate = todayStr;
+        endDate = yesterdayStr;
       } else if (currentRange === '30d') {
         const d = new Date();
         d.setDate(d.getDate() - 29);
         startDate = d.toISOString().split('T')[0];
-        endDate = todayStr;
+        endDate = yesterdayStr;
       } else if (currentRange === '7d') {
         const d = new Date();
         d.setDate(d.getDate() - 6);
         startDate = d.toISOString().split('T')[0];
-        endDate = todayStr;
+        endDate = yesterdayStr;
+      } else if (currentRange === 'yesterday') {
+        startDate = yesterdayStr;
+        endDate = yesterdayStr;
       } else if (currentRange === 'month') {
         const year = today.getFullYear();
         const month = String(today.getMonth() + 1).padStart(2, '0');
         startDate = `${year}-${month}-01`;
-        endDate = todayStr;
+        endDate = yesterdayStr;
       } else if (currentRange === 'custom') {
         startDate = document.getElementById('startDate').value;
         endDate = document.getElementById('endDate').value;
+        // Exclude current day if selected
+        if (endDate === todayStr) {
+          endDate = yesterdayStr;
+        }
       }
 
       return allData.filter(row => {
