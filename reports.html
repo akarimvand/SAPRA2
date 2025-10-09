@@ -120,15 +120,20 @@
       text-align: center;
       color: #666;
     }
-    .vertical-header {
-      writing-mode: vertical-rl;
-      text-orientation: mixed;
+    /* Custom styling for lineChartTable */
+    #lineChartTable {
+      border-collapse: collapse;
     }
     #lineChartTable th, #lineChartTable td {
       text-align: center;
       padding: 0.2rem 0.1rem;
       font-size: 0.6rem;
-      color: #666;
+      border: 1px solid #ddd;
+    }
+    #lineChartTable thead th {
+      background-color: #f0f0f0;
+      color: #333;
+      font-weight: bold;
     }
     #dataTable th, #dataTable td {
       font-size: 0.6rem;
@@ -641,7 +646,7 @@
 
     function renderLineChartTable(data) {
       const container = document.getElementById('lineChartTableContainer');
-      const headerRow = document.getElementById('lineChartTableHeader');
+      const header = document.getElementById('lineChartTable').querySelector('thead');
       const tbody = document.getElementById('lineChartTable').querySelector('tbody');
 
       // Check if the date range is 30 days or less
@@ -671,21 +676,56 @@
         const sortedDates = Object.keys(dataByDate).sort();
 
         // Build header
-        headerRow.innerHTML = '<th>Discipline</th>';
-        const isVertical = sortedDates.length > 10;
-        sortedDates.forEach(date => {
+        header.innerHTML = '';
+        const trYear = document.createElement('tr');
+        trYear.innerHTML = `<th rowspan="3">Discipline</th><th colspan="${sortedDates.length}">1404</th>`;
+        header.appendChild(trYear);
+
+        // Get solar months and days
+        const dateInfos = sortedDates.map(date => {
+          const d = new Date(date);
+          const [jy, jm, jd] = gregorianToJalali(d.getFullYear(), d.getMonth() + 1, d.getDate());
+          return { month: jm.toString().padStart(2, '0'), day: jd.toString().padStart(2, '0') };
+        });
+
+        // Group consecutive same months
+        const monthGroups = [];
+        let currentGroup = { month: dateInfos[0].month, count: 1 };
+        for (let i = 1; i < dateInfos.length; i++) {
+          if (dateInfos[i].month === currentGroup.month) {
+            currentGroup.count++;
+          } else {
+            monthGroups.push(currentGroup);
+            currentGroup = { month: dateInfos[i].month, count: 1 };
+          }
+        }
+        monthGroups.push(currentGroup);
+
+        const trMonth = document.createElement('tr');
+        monthGroups.forEach(group => {
           const th = document.createElement('th');
           th.className = 'small-font';
-          if (isVertical) th.classList.add('vertical-header');
-          th.textContent = formatJalali(date);
-          headerRow.appendChild(th);
+          th.colSpan = group.count;
+          th.textContent = group.month;
+          trMonth.appendChild(th);
         });
+        header.appendChild(trMonth);
+
+        const trDay = document.createElement('tr');
+        dateInfos.forEach(info => {
+          const th = document.createElement('th');
+          th.className = 'small-font';
+          th.textContent = info.day;
+          trDay.appendChild(th);
+        });
+        header.appendChild(trDay);
 
         // Build body
         tbody.innerHTML = '';
         const disciplines = [...new Set(data.map(d => d.discipline))].sort();
         disciplines.forEach(disc => {
           const tr = document.createElement('tr');
+          tr.style.backgroundColor = getColorForDiscipline(disc) + '20';
           let rowHtml = `<td>${disc}</td>`;
           sortedDates.forEach(date => {
             const qty = dataByDate[date][disc] || 0;
