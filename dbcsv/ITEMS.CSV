@@ -10425,18 +10425,18 @@ LS-01,EL,EBL-06-RJB1_1-2,Power Cable B,Area 06 Socket JB No. 1/1 - 06-RJB1/1-2,0
 LS-01,EL,EBL-06-RJB1_2-2,Power Cable B,Area 06 Socket JB No. 1 /2- 06-RJB1/2-2,0%
 LS-01,EL,EBL-06-RJB1-2,Power Cable B,Area 06 Socket JB No. 1 - 06-RJB1-2,0%
 120-11,EL,EBL-06-SJB1-6,Power Cable B,Safety Lighting JB No. 1 For Area 06- 06-SJB1-6,67%
-LS-02,EL,EBL-07-EJB1_1-1,Power Cable B,Area 07 Emergency Lighting JB No. 1/1-07-EJB1/1-1,0%
+LS-02,EL,EBL-07-EJB1_1-1,Power Cable B,Area 07 Emergency Lighting JB No. 1/1-07-EJB1/1-1,67%
 LS-02,EL,EBL-07-EJB1-1,Power Cable B,Area 07 Emergency Lighting JB No. 1-07-EJB1-1,0%
-LS-02,EL,EBL-07-EJB2_1-2,Power Cable B,Area 07 Emergency Lighting JBNo. 2/1 -07-EJB2/1-2,0%
-LS-02,EL,EBL-07-EJB2-2,Power Cable B,Area 07 Emergency Lighting JB No. 2 -07-EJB2-2,0%
-LS-01,EL,EBL-07-JB1_1-1,Power Cable B,Area 07  Normal Lighting JB No. 1/1  - 07-JB1/1-1,0%
-LS-01,EL,EBL-07-JB1-1,Power Cable B,Area 07  Normal Lighting JB No. 1  - 07-JB1-1,0%
+LS-02,EL,EBL-07-EJB2_1-2,Power Cable B,Area 07 Emergency Lighting JBNo. 2/1 -07-EJB2/1-2,67%
+LS-02,EL,EBL-07-EJB2-2,Power Cable B,Area 07 Emergency Lighting JB No. 2 -07-EJB2-2,67%
+LS-01,EL,EBL-07-JB1_1-1,Power Cable B,Area 07  Normal Lighting JB No. 1/1  - 07-JB1/1-1,67%
+LS-01,EL,EBL-07-JB1-1,Power Cable B,Area 07  Normal Lighting JB No. 1  - 07-JB1-1,67%
 LS-01,EL,EBL-07-JB2_1-2,Power Cable B,Area 07  Normal Lighting JB No. 2/1- 07-JB2/1-2,0%
-LS-01,EL,EBL-07-JB2-2,Power Cable B,Area 07  Normal Lighting JB No. 2  - 07-JB2-2,0%
-LS-01,EL,EBL-07-RJB1_1-1,Power Cable B,Area 07 Socket JB No. 1  /1- 07-RJB1/1-1,0%
-LS-01,EL,EBL-07-RJB1-1,Power Cable B,Area 07 Socket JB No. 1  - 07-RJB1-1,0%
-LS-01,EL,EBL-07-RJB2_1-2,Power Cable B,Area 07 Socket JB No. 2/1  - 07-RJB2/1-2,0%
-LS-01,EL,EBL-07-RJB2-2,Power Cable B,Area 07 Socket JB No. 2- 07-RJB2-2,0%
+LS-01,EL,EBL-07-JB2-2,Power Cable B,Area 07  Normal Lighting JB No. 2  - 07-JB2-2,67%
+LS-01,EL,EBL-07-RJB1_1-1,Power Cable B,Area 07 Socket JB No. 1  /1- 07-RJB1/1-1,67%
+LS-01,EL,EBL-07-RJB1-1,Power Cable B,Area 07 Socket JB No. 1  - 07-RJB1-1,67%
+LS-01,EL,EBL-07-RJB2_1-2,Power Cable B,Area 07 Socket JB No. 2/1  - 07-RJB2/1-2,67%
+LS-01,EL,EBL-07-RJB2-2,Power Cable B,Area 07 Socket JB No. 2- 07-RJB2-2,67%
 120-11,EL,EBL-07-SJB1-7,Power Cable B,Safety Lighting JB No. 1 For Area 07- 07-SJB1-7,67%
 LS-02,EL,EBP-00-ELP-01,Power Cable B,Area Emergency Lighting Panel No. 1- 00-ELP-01,Done
 LS-02,EL,EBP-00-ELP-02,Power Cable B,Area Emergency Lighting Panel No. 2- 00-ELP-02,Done
@@ -12982,7 +12982,7 @@ NO SUBS.,IN,FT-10219,SIGNAL,SIGNAL,0%
 5000-04,IN,FT-5337(FT),Instrument(FT),Instrument(FT),25%
 5000-04,IN,FT-5337(NA),CABLE,CABLE(NA),Done
 5000-03,IN,FT-5367(FT),Instrument(FT),Instrument(FT),50%
-5000-03,IN,FT-5367(NA),CABLE,CABLE(NA),0%
+5000-03,IN,FT-5367(NA),CABLE,CABLE(NA),Done
 5000-04,IN,FT-5383(FT),Instrument(FT),Instrument(FT),50%
 5000-04,IN,FT-5383(NA),CABLE,CABLE(NA),Done
 5000-04,IN,FT-5407(FT),Instrument(FT),Instrument(FT),50%
@@ -14553,29 +14553,29 @@ DCS-01,IN,LCP-FT3001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 DCS-01,IN,LCP-MF2001,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 DCS-01,IN,LCP-MF2002,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 NO SUBS.,IN,LFAP-01,Fire Alarm,Fire Alarm(LFAP),0%
-1000-01,IN,LG-1005,Instrument(LG),Instrument(LG),50%
-2000-02,IN,LG-20101,Instrument(LG),Instrument(LG),50%
-2000-02,IN,LG-20151,Instrument(LG),Instrument(LG),50%
-2000-03,IN,LG-2017,Instrument(LG),Instrument(LG),50%
+1000-01,IN,LG-1005,Instrument(LG),Instrument(LG),Done
+2000-02,IN,LG-20101,Instrument(LG),Instrument(LG),Done
+2000-02,IN,LG-20151,Instrument(LG),Instrument(LG),Done
+2000-03,IN,LG-2017,Instrument(LG),Instrument(LG),Done
 3000-04,IN,LG-20201,Instrument(LG),Instrument(LG),0%
 3000-04,IN,LG-20203,Instrument(LG),Instrument(LG),0%
-3000-04,IN,LG-20204,Instrument(LG),Instrument(LG),50%
+3000-04,IN,LG-20204,Instrument(LG),Instrument(LG),Done
 3000-04,IN,LG-20205,Instrument(LG),Instrument(LG),0%
 2000-04,IN,LG-2373,Instrument(LG),Instrument(LG),Exception(Pending)
 2000-04,IN,LG-2374-1,Instrument(LG),Instrument(LG),Exception(Pending)
 2000-04,IN,LG-2374-2,Instrument(LG),Instrument(LG),Exception(Pending)
-2000-05,IN,LG-2405,Instrument(LG),Instrument(LG),50%
-2000-05,IN,LG-2420,Instrument(LG),Instrument(LG),50%
-2000-05,IN,LG-2443,Instrument(LG),Instrument(LG),50%
-2000-05,IN,LG-2475,Instrument(LG),Instrument(LG),50%
-3000-01,IN,LG-30102,Instrument(LG),Instrument(LG),50%
+2000-05,IN,LG-2405,Instrument(LG),Instrument(LG),Done
+2000-05,IN,LG-2420,Instrument(LG),Instrument(LG),Done
+2000-05,IN,LG-2443,Instrument(LG),Instrument(LG),Done
+2000-05,IN,LG-2475,Instrument(LG),Instrument(LG),Done
+3000-01,IN,LG-30102,Instrument(LG),Instrument(LG),Done
 3000-01,IN,LG-30105,Instrument(LG),Instrument(LG),0%
 5000-01,IN,LG-30203A,Instrument(LG),Instrument(LG),Done
 3000-02,IN,LG-3043,Instrument(LG),Instrument(LG),Exception(Pending)
 3000-02,IN,LG-3044-1,Instrument(LG),Instrument(LG),Exception(Pending)
 3000-02,IN,LG-3044-2,Instrument(LG),Instrument(LG),Exception(Pending)
-3000-03,IN,LG-3162,Instrument(LG),Instrument(LG),50%
-3000-03,IN,LG-3193,Instrument(LG),Instrument(LG),50%
+3000-03,IN,LG-3162,Instrument(LG),Instrument(LG),Done
+3000-03,IN,LG-3193,Instrument(LG),Instrument(LG),Done
 5000-01,IN,LG-50203A,Instrument(LG),Instrument(LG),Done
 5000-01,IN,LG-50203B,Instrument(LG),Instrument(LG),Done
 5000-01,IN,LG-50206A,Instrument(LG),Instrument(LG),Done
@@ -14592,46 +14592,46 @@ NO SUBS.,IN,LFAP-01,Fire Alarm,Fire Alarm(LFAP),0%
 5000-03,IN,LG-50221B,Instrument(LG),Instrument(LG),Done
 5000-04,IN,LG-50224A,Instrument(LG),Instrument(LG),Done
 5000-04,IN,LG-50224B,Instrument(LG),Instrument(LG),Done
-5000-01,IN,LG-5038,Instrument(LG),Instrument(LG),50%
-5000-01,IN,LG-5043,Instrument(LG),Instrument(LG),50%
-5000-01,IN,LG-5061,Instrument(LG),Instrument(LG),50%
-5000-01,IN,LG-5066,Instrument(LG),Instrument(LG),50%
-5000-01,IN,LG-5072,Instrument(LG),Instrument(LG),50%
-5000-01,IN,LG-5095,Instrument(LG),Instrument(LG),50%
-5000-02,IN,LG-5163,Instrument(LG),Instrument(LG),50%
-5000-02,IN,LG-5183,Instrument(LG),Instrument(LG),50%
+5000-01,IN,LG-5038,Instrument(LG),Instrument(LG),Done
+5000-01,IN,LG-5043,Instrument(LG),Instrument(LG),Done
+5000-01,IN,LG-5061,Instrument(LG),Instrument(LG),Done
+5000-01,IN,LG-5066,Instrument(LG),Instrument(LG),Done
+5000-01,IN,LG-5072,Instrument(LG),Instrument(LG),Done
+5000-01,IN,LG-5095,Instrument(LG),Instrument(LG),Done
+5000-02,IN,LG-5163,Instrument(LG),Instrument(LG),Done
+5000-02,IN,LG-5183,Instrument(LG),Instrument(LG),Done
 5000-02,IN,LG-5191,Instrument(LG),Instrument(LG),Done
-5000-02,IN,LG-5192,Instrument(LG),Instrument(LG),50%
-5000-02,IN,LG-5193,Instrument(LG),Instrument(LG),50%
-5000-02,IN,LG-5205,Instrument(LG),Instrument(LG),50%
+5000-02,IN,LG-5192,Instrument(LG),Instrument(LG),Done
+5000-02,IN,LG-5193,Instrument(LG),Instrument(LG),Done
+5000-02,IN,LG-5205,Instrument(LG),Instrument(LG),Done
 5000-01,IN,LG-5232,Instrument(LG),Instrument(LG),DONE
-5000-03,IN,LG-5272,Instrument(LG),Instrument(LG),50%
-5000-03,IN,LG-5279,Instrument(LG),Instrument(LG),50%
+5000-03,IN,LG-5272,Instrument(LG),Instrument(LG),Done
+5000-03,IN,LG-5279,Instrument(LG),Instrument(LG),Done
 5000-03,IN,LG-5309,Instrument(LG),Instrument(LG),0%
 5000-03,IN,LG-5311,Instrument(LG),Instrument(LG),0%
-5000-03,IN,LG-5323,Instrument(LG),Instrument(LG),50%
+5000-03,IN,LG-5323,Instrument(LG),Instrument(LG),Done
 5000-01,IN,LG-5511,Instrument(LG),Instrument(LG),DONE
 5000-01,IN,LG-5516,Instrument(LG),Instrument(LG),DONE
-1000-03,IN,LG-6023-1,Instrument(LG),Instrument(LG),50%
-1000-03,IN,LG-6023-2,Instrument(LG),Instrument(LG),50%
-1000-03,IN,LG-6033-1,Instrument(LG),Instrument(LG),50%
-1000-03,IN,LG-6033-2,Instrument(LG),Instrument(LG),50%
-1000-03,IN,LG-6034-1,Instrument(LG),Instrument(LG),50%
-1000-03,IN,LG-6034-2,Instrument(LG),Instrument(LG),50%
+1000-03,IN,LG-6023-1,Instrument(LG),Instrument(LG),Done
+1000-03,IN,LG-6023-2,Instrument(LG),Instrument(LG),Done
+1000-03,IN,LG-6033-1,Instrument(LG),Instrument(LG),Done
+1000-03,IN,LG-6033-2,Instrument(LG),Instrument(LG),Done
+1000-03,IN,LG-6034-1,Instrument(LG),Instrument(LG),Done
+1000-03,IN,LG-6034-2,Instrument(LG),Instrument(LG),Done
 1000-03,IN,LG-6052,Instrument(LG),Instrument(LG),DONE
-1000-03,IN,LG-6084,Instrument(LG),Instrument(LG),50%
-4000-04,IN,LG-70135A,Instrument(LG),Instrument(LG),50%
-4000-04,IN,LG-70135B,Instrument(LG),Instrument(LG),50%
-4000-04,IN,LG-7092,Instrument(LG),Instrument(LG),50%
+1000-03,IN,LG-6084,Instrument(LG),Instrument(LG),Done
+4000-04,IN,LG-70135A,Instrument(LG),Instrument(LG),Done
+4000-04,IN,LG-70135B,Instrument(LG),Instrument(LG),Done
+4000-04,IN,LG-7092,Instrument(LG),Instrument(LG),Done
 7000-01,IN,LG-71203A,Instrument(LG),Instrument(LG),DONE
 7000-01,IN,LG-71203B,Instrument(LG),Instrument(LG),DONE
-7000-01,IN,LG-7150,Instrument(LG),Instrument(LG),50%
+7000-01,IN,LG-7150,Instrument(LG),Instrument(LG),Done
 4000-04,IN,LG-7162,Instrument(LG),Instrument(LG),Exception(Pending)
 4000-04,IN,LG-7192,Instrument(LG),Instrument(LG),Exception(Pending)
 4000-04,IN,LG-7212,Instrument(LG),Instrument(LG),Exception(Pending)
-4000-05,IN,LG-7252,Instrument(LG),Instrument(LG),50%
-4000-05,IN,LG-7255,Instrument(LG),Instrument(LG),50%
-4000-05,IN,LG-7257,Instrument(LG),Instrument(LG),50%
+4000-05,IN,LG-7252,Instrument(LG),Instrument(LG),Done
+4000-05,IN,LG-7255,Instrument(LG),Instrument(LG),Done
+4000-05,IN,LG-7257,Instrument(LG),Instrument(LG),Done
 4000-06,IN,LG-75150,Instrument(LG),Instrument(LG),0%
 4000-06,IN,LG-75151,Instrument(LG),Instrument(LG),0%
 4000-06,IN,LG-75202A,Instrument(LG),Instrument(LG),0%
@@ -14641,8 +14641,8 @@ NO SUBS.,IN,LFAP-01,Fire Alarm,Fire Alarm(LFAP),0%
 4000-08,IN,LG-8006,Instrument(LG),Instrument(LG),Done
 4000-08,IN,LG-8008,Instrument(LG),Instrument(LG),Done
 4000-08,IN,LG-8010,Instrument(LG),Instrument(LG),Done
-4000-06,IN,LG-8420,Instrument(LG),Instrument(LG),50%
-4000-06,IN,LG-8421,Instrument(LG),Instrument(LG),50%
+4000-06,IN,LG-8420,Instrument(LG),Instrument(LG),Done
+4000-06,IN,LG-8421,Instrument(LG),Instrument(LG),Done
 FGS-01,IN,LHD-9001A(LHD),Fire Fighting,Fire Fighting(LHD),0%
 FGS-01,IN,LHD-9001A(NA),CABLE,CABLE(NA),0%
 FGS-01,IN,LHD-9001B(LHD),Fire Fighting,Fire Fighting(LHD),0%
@@ -14831,21 +14831,21 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 5000-01,IN,LSH-50201B(LSH),Instrument(LSH),Instrument(LSH),0%
 5000-01,IN,LSH-50201B(NA),CABLE,CABLE(NA),0%
 5000-01,IN,LSH-50204A(LSH),Instrument(LSH),Instrument(LSH),0%
-5000-01,IN,LSH-50204A(NA),CABLE,CABLE(NA),0%
+5000-01,IN,LSH-50204A(NA),CABLE,CABLE(NA),Done
 5000-01,IN,LSH-50204B(LSH),Instrument(LSH),Instrument(LSH),0%
-5000-01,IN,LSH-50204B(NA),CABLE,CABLE(NA),0%
+5000-01,IN,LSH-50204B(NA),CABLE,CABLE(NA),Done
 5000-01,IN,LSH-50207A(LSH),Instrument(LSH),Instrument(LSH),0%
-5000-01,IN,LSH-50207A(NA),CABLE,CABLE(NA),0%
+5000-01,IN,LSH-50207A(NA),CABLE,CABLE(NA),Done
 5000-01,IN,LSH-50207B(LSH),Instrument(LSH),Instrument(LSH),0%
-5000-01,IN,LSH-50207B(NA),CABLE,CABLE(NA),0%
+5000-01,IN,LSH-50207B(NA),CABLE,CABLE(NA),Done
 5000-02,IN,LSH-50210A(LSH),Instrument(LSH),Instrument(LSH),0%
 5000-02,IN,LSH-50210A(NA),CABLE,CABLE(NA),0%
 5000-02,IN,LSH-50210B(LSH),Instrument(LSH),Instrument(LSH),0%
 5000-02,IN,LSH-50210B(NA),CABLE,CABLE(NA),0%
 5000-02,IN,LSH-50213A(LSH),Instrument(LSH),Instrument(LSH),0%
-5000-02,IN,LSH-50213A(NA),CABLE,CABLE(NA),0%
+5000-02,IN,LSH-50213A(NA),CABLE,CABLE(NA),Done
 5000-02,IN,LSH-50213B(LSH),Instrument(LSH),Instrument(LSH),0%
-5000-02,IN,LSH-50213B(NA),CABLE,CABLE(NA),0%
+5000-02,IN,LSH-50213B(NA),CABLE,CABLE(NA),Done
 5000-03,IN,LSH-50216A(LSH),Instrument(LSH),Instrument(LSH),0%
 5000-03,IN,LSH-50216A(NA),CABLE,CABLE(NA),Done
 5000-03,IN,LSH-50216B(LSH),Instrument(LSH),Instrument(LSH),0%
@@ -14855,9 +14855,9 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 5000-03,IN,LSH-50219B(LSH),Instrument(LSH),Instrument(LSH),0%
 5000-03,IN,LSH-50219B(NA),CABLE,CABLE(NA),0%
 5000-04,IN,LSH-50222A(LSH),Instrument(LSH),Instrument(LSH),0%
-5000-04,IN,LSH-50222A(NA),CABLE,CABLE(NA),0%
+5000-04,IN,LSH-50222A(NA),CABLE,CABLE(NA),Done
 5000-04,IN,LSH-50222B(LSH),Instrument(LSH),Instrument(LSH),0%
-5000-04,IN,LSH-50222B(NA),CABLE,CABLE(NA),0%
+5000-04,IN,LSH-50222B(NA),CABLE,CABLE(NA),Done
 7000-01,IN,LSH-71201A(LSH),Instrument(LSH),Instrument(LSH),0%
 7000-01,IN,LSH-71201A(NA),CABLE,CABLE(NA),0%
 7000-01,IN,LSH-71201B(LSH),Instrument(LSH),Instrument(LSH),0%
@@ -14875,21 +14875,21 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 5000-01,IN,LSL-50202B(LSL),Instrument(LSL),Instrument(LSL),0%
 5000-01,IN,LSL-50202B(NA),CABLE,CABLE(NA),0%
 5000-01,IN,LSL-50205A(LSL),Instrument(LSL),Instrument(LSL),0%
-5000-01,IN,LSL-50205A(NA),CABLE,CABLE(NA),0%
+5000-01,IN,LSL-50205A(NA),CABLE,CABLE(NA),Done
 5000-01,IN,LSL-50205B(LSL),Instrument(LSL),Instrument(LSL),0%
-5000-01,IN,LSL-50205B(NA),CABLE,CABLE(NA),0%
+5000-01,IN,LSL-50205B(NA),CABLE,CABLE(NA),Done
 5000-01,IN,LSL-50208A(LSL),Instrument(LSL),Instrument(LSL),0%
-5000-01,IN,LSL-50208A(NA),CABLE,CABLE(NA),0%
+5000-01,IN,LSL-50208A(NA),CABLE,CABLE(NA),Done
 5000-01,IN,LSL-50208B(LSL),Instrument(LSL),Instrument(LSL),0%
-5000-01,IN,LSL-50208B(NA),CABLE,CABLE(NA),0%
+5000-01,IN,LSL-50208B(NA),CABLE,CABLE(NA),Done
 5000-02,IN,LSL-50211A(LSL),Instrument(LSL),Instrument(LSL),0%
 5000-02,IN,LSL-50211A(NA),CABLE,CABLE(NA),0%
 5000-02,IN,LSL-50211B(LSL),Instrument(LSL),Instrument(LSL),0%
 5000-02,IN,LSL-50211B(NA),CABLE,CABLE(NA),0%
 5000-02,IN,LSL-50214A(LSL),Instrument(LSL),Instrument(LSL),0%
-5000-02,IN,LSL-50214A(NA),CABLE,CABLE(NA),0%
+5000-02,IN,LSL-50214A(NA),CABLE,CABLE(NA),Done
 5000-02,IN,LSL-50214B(LSL),Instrument(LSL),Instrument(LSL),0%
-5000-02,IN,LSL-50214B(NA),CABLE,CABLE(NA),0%
+5000-02,IN,LSL-50214B(NA),CABLE,CABLE(NA),Done
 5000-03,IN,LSL-50217A(LSL),Instrument(LSL),Instrument(LSL),0%
 5000-03,IN,LSL-50217A(NA),CABLE,CABLE(NA),Done
 5000-03,IN,LSL-50217B(LSL),Instrument(LSL),Instrument(LSL),0%
@@ -14899,9 +14899,9 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 5000-03,IN,LSL-50220B(LSL),Instrument(LSL),Instrument(LSL),0%
 5000-03,IN,LSL-50220B(NA),CABLE,CABLE(NA),0%
 5000-04,IN,LSL-50223A(LSL),Instrument(LSL),Instrument(LSL),0%
-5000-04,IN,LSL-50223A(NA),CABLE,CABLE(NA),0%
+5000-04,IN,LSL-50223A(NA),CABLE,CABLE(NA),Done
 5000-04,IN,LSL-50223B(LSL),Instrument(LSL),Instrument(LSL),0%
-5000-04,IN,LSL-50223B(NA),CABLE,CABLE(NA),0%
+5000-04,IN,LSL-50223B(NA),CABLE,CABLE(NA),Done
 7000-01,IN,LSL-71202A(LSL),Instrument(LSL),Instrument(LSL),0%
 7000-01,IN,LSL-71202A(NA),CABLE,CABLE(NA),0%
 7000-01,IN,LSL-71202B(LSL),Instrument(LSL),Instrument(LSL),0%
@@ -16857,8 +16857,8 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),0%
 4000-09,MER,P-8401-P2A,Pump,OILY WATER TRANSFER PUMP,DONE
 4000-09,MER,P-8401-P2B,Pump,OILY WATER TRANSFER PUMP,DONE
 4000-10,MER,P-8402A,Pump,SANITARY EFFLUENT TRANSFER PUMP,50%
-4000-06,MER,P-8403A,Pump,Neutralization basin pumps,0%
-4000-06,MER,P-8403B,Pump,Neutralization basin pumps,0%
+4000-06,MER,P-8403A,Pump,Neutralization basin pumps,50%
+4000-06,MER,P-8403B,Pump,Neutralization basin pumps,50%
 4000-12,MER,P-8404A,Pump,COC WATER TRANSFER PUMPS,67%
 4000-12,MER,P-8404B,Pump,COC WATER TRANSFER PUMPS,67%
 4000-12,MER,P-8405A,Pump, Laboratory Chemical Effluent Transfer Pumps,0%
@@ -19979,11 +19979,11 @@ NO SUBS.,IN,TE-10208-2,PKG,PKG,0%
 1000-01,IN,TE-1035(TE),Instrument(TE),Instrument(TE),50%
 1000-01,IN,TE-1037(NA),CABLE,CABLE(NA),0%
 1000-01,IN,TE-1037(TE),Instrument(TE),Instrument(TE),50%
-1000-01,IN,TE-1041(NA),CABLE,CABLE(NA),0%
+1000-01,IN,TE-1041(NA),CABLE,CABLE(NA),Done
 1000-01,IN,TE-1041(TE),Instrument(TE),Instrument(TE),Done
 1000-01,IN,TE-1042(NA),CABLE,CABLE(NA),0%
 1000-01,IN,TE-1042(TE),Instrument(TE),Instrument(TE),Done
-1000-01,IN,TE-1045(NA),CABLE,CABLE(NA),0%
+1000-01,IN,TE-1045(NA),CABLE,CABLE(NA),Done
 1000-01,IN,TE-1045(TE),Instrument(TE),Instrument(TE),Done
 7000-01,IN,TE-1047(NA),CABLE,CABLE(NA),0%
 7000-01,IN,TE-1047(TE),Instrument(TE),Instrument(TE),50%
@@ -22445,15 +22445,15 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 4000-04,IN,USY-5364,SIGNAL,SIGNAL,Exception(Pending)
 5000-04,IN,USY-5391(NA),CABLE,CABLE(NA),0%
 5000-04,IN,USY-5391(USY),Instrument(X),Instrument(USY),0%
-5000-04,IN,USY-5392(NA),CABLE,CABLE(NA),0%
+5000-04,IN,USY-5392(NA),CABLE,CABLE(NA),Done
 5000-04,IN,USY-5392(USY),Instrument(X),Instrument(USY),0%
-5000-04,IN,USY-5393(NA),CABLE,CABLE(NA),0%
+5000-04,IN,USY-5393(NA),CABLE,CABLE(NA),Done
 5000-04,IN,USY-5393(USY),Instrument(X),Instrument(USY),0%
 4000-04,IN,USY-5403,SIGNAL,SIGNAL,Exception(Pending)
 4000-04,IN,USY-5404,SIGNAL,SIGNAL,Exception(Pending)
 5000-04,IN,USY-5420(NA),CABLE,CABLE(NA),0%
 5000-04,IN,USY-5420(USY),Instrument(X),Instrument(USY),0%
-5000-04,IN,USY-5421(NA),CABLE,CABLE(NA),0%
+5000-04,IN,USY-5421(NA),CABLE,CABLE(NA),Done
 5000-04,IN,USY-5421(USY),Instrument(X),Instrument(USY),0%
 5000-04,IN,USY-5422(NA),CABLE,CABLE(NA),0%
 5000-04,IN,USY-5422(USY),Instrument(X),Instrument(USY),0%
@@ -22664,13 +22664,13 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 4000-02,IN,UZSH-5302(UZSH),Instrument(X),Instrument(UZSH),Done
 5000-04,IN,UZSH-5391(NA),CABLE,CABLE(NA),0%
 5000-04,IN,UZSH-5391(UZSH),Instrument(X),Instrument(UZSH),0%
-5000-04,IN,UZSH-5392(NA),CABLE,CABLE(NA),0%
+5000-04,IN,UZSH-5392(NA),CABLE,CABLE(NA),Done
 5000-04,IN,UZSH-5392(UZSH),Instrument(X),Instrument(UZSH),0%
-5000-04,IN,UZSH-5393(NA),CABLE,CABLE(NA),0%
+5000-04,IN,UZSH-5393(NA),CABLE,CABLE(NA),Done
 5000-04,IN,UZSH-5393(UZSH),Instrument(X),Instrument(UZSH),0%
 5000-04,IN,UZSH-5420(NA),CABLE,CABLE(NA),0%
 5000-04,IN,UZSH-5420(UZSH),Instrument(X),Instrument(UZSH),0%
-5000-04,IN,UZSH-5421(NA),CABLE,CABLE(NA),0%
+5000-04,IN,UZSH-5421(NA),CABLE,CABLE(NA),Done
 5000-04,IN,UZSH-5421(UZSH),Instrument(X),Instrument(UZSH),0%
 5000-04,IN,UZSH-5422(NA),CABLE,CABLE(NA),0%
 5000-04,IN,UZSH-5422(UZSH),Instrument(X),Instrument(UZSH),0%
@@ -22793,13 +22793,13 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 4000-02,IN,UZSL-5302(UZSL),Instrument(X),Instrument(UZSL),Done
 5000-04,IN,UZSL-5391(NA),CABLE,CABLE(NA),0%
 5000-04,IN,UZSL-5391(UZSL),Instrument(X),Instrument(UZSL),0%
-5000-04,IN,UZSL-5392(NA),CABLE,CABLE(NA),0%
+5000-04,IN,UZSL-5392(NA),CABLE,CABLE(NA),Done
 5000-04,IN,UZSL-5392(UZSL),Instrument(X),Instrument(UZSL),0%
-5000-04,IN,UZSL-5393(NA),CABLE,CABLE(NA),0%
+5000-04,IN,UZSL-5393(NA),CABLE,CABLE(NA),Done
 5000-04,IN,UZSL-5393(UZSL),Instrument(X),Instrument(UZSL),0%
 5000-04,IN,UZSL-5420(NA),CABLE,CABLE(NA),0%
 5000-04,IN,UZSL-5420(UZSL),Instrument(X),Instrument(UZSL),0%
-5000-04,IN,UZSL-5421(NA),CABLE,CABLE(NA),0%
+5000-04,IN,UZSL-5421(NA),CABLE,CABLE(NA),Done
 5000-04,IN,UZSL-5421(UZSL),Instrument(X),Instrument(UZSL),0%
 5000-04,IN,UZSL-5422(NA),CABLE,CABLE(NA),0%
 5000-04,IN,UZSL-5422(UZSL),Instrument(X),Instrument(UZSL),0%
