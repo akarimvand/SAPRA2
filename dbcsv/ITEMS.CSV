@@ -11694,8 +11694,8 @@ DCS-01,IN,ESDMD-02-01,CABLE,CABLE(NA),0%
 DCS-01,IN,ESDMD-02-02,CABLE,CABLE(NA),0%
 DCS-01,IN,ESD-SC-CR-01,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
 DCS-01,IN,ESD-SC-CR-02,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
-120-07,EL,ESWB3A-01,LV Switchgear,LV Emergency Switchgear,0%
-120-07,EL,ESWB3B-01,LV Switchgear,LV Emergency Switchgear,0%
+120-07,EL,ESWB3A-01,LV Switchgea_EM,LV Emergency Switchgear,0%
+120-07,EL,ESWB3B-01,LV Switchgea_EM,LV Emergency Switchgear,0%
 120-13,EL,EX_AJB-P-001,Cathodic Protection,Anod Junction Box,DONE
 120-13,EL,EX_NBB-P-002,Cathodic Protection,Negative Bond Box,DONE
 120-13,EL,EX_NBB-P-003,Cathodic Protection,Negative Bond Box,DONE
