@@ -977,20 +977,10 @@ function filterDetailedItems(context) {
             });
         }
 
-function handleNodeSelect(type, id, name, parentId = null) {
-    selectedView = { type, id, name, parentId };
-    updateView();
-
-    // Send selected subsystem code to embedded iframe in workflow tab
-    try {
-        const iframe = document.querySelector('#workflow-tab-pane iframe');
-        if (iframe && iframe.contentWindow) {
-            iframe.contentWindow.postMessage({ type: 'subsystemSelection', subsystemCode: id }, '*');
+        function handleNodeSelect(type, id, name, parentId = null) {
+            selectedView = { type, id, name, parentId };
+            updateView();
         }
-    } catch (error) {
-        console.error('Error sending subsystemSelection message to iframe:', error);
-    }
-}
 
         function updateView() {
             aggregatedStats = _aggregateStatsForView(selectedView, processedData.systemMap, processedData.subSystemMap);
