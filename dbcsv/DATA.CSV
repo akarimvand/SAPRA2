@@ -9,7 +9,7 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,0,6,0,0,0,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,2,0,12,4,8,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,153,58,239,51,188,107
-1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,52,4,168,90,78,57
+1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,52,4,168,93,75,57
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,148,27,2125,1170,955,2
 120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,367,0,3357,1547,1810,31
 120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,292,0,3037,1436,1601,44
@@ -34,7 +34,7 @@
 2000,2000-01,Reforming,Pre Reforming,MES,2,2,0,10,0,10,0
 2000,2000-01,Reforming,Pre Reforming,PI,8,8,0,19,9,10,1
 2000,2000-01,Reforming,Pre Reforming,IN,92,9,16,56,2,54,11
-2000,2000-02,Reforming,Primary Reforming,PI,9,7,2,25,11,14,1
+2000,2000-02,Reforming,Primary Reforming,PI,9,7,2,25,14,11,1
 2000,2000-02,Reforming,Primary Reforming,IN,873,91,122,698,61,637,77
 2000,2000-02,Reforming,Primary Reforming,MES,8,0,6,0,0,0,0
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,24,12,5,45,23,22,79
@@ -53,13 +53,13 @@
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,0,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,1,4,9,0,9,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,43,235,430,10,420,21
-3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,34,2,67,27,40,12
+3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,34,2,68,28,40,12
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,2,8,0,8,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,13,44,78,35,43,44
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,25,10,58,10,48,45
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,3,2,19,0,19,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,7,4,1,30,0,30,0
-3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,32,0,106,44,62,8
+3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,32,0,108,46,62,8
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,48,20,139,80,59,99
 3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,2,0,20,0,20,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,12,7,5,2
@@ -76,9 +76,9 @@
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,4,1,6,0,6,3
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,0,0,0,0,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,1,5,0
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,47,45,2,170,101,69,19
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,47,45,2,171,103,68,19
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,31,58,394,17,377,384
-4000,4000-05,Utility,Blow Down,PI,24,24,0,38,18,20,13
+4000,4000-05,Utility,Blow Down,PI,24,24,0,40,18,22,13
 4000,4000-05,Utility,Blow Down,MES,4,3,1,23,0,23,0
 4000,4000-05,Utility,Blow Down,IN,17,7,7,12,3,9,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,3,2,4,0,4,5
@@ -89,7 +89,7 @@
 4000,4000-07,Utility,Plant Air,PI,10,10,0,17,4,13,30
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,4,8,0,8,0
-4000,4000-08,Utility,Cooling Water,PI,292,270,3,604,375,229,37
+4000,4000-08,Utility,Cooling Water,PI,294,270,3,604,375,229,37
 4000,4000-08,Utility,Cooling Water,IN,745,640,63,281,32,249,533
 4000,4000-08,Utility,Cooling Water,EL,6,6,0,56,14,42,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,27,0,0,0,0,26
@@ -109,17 +109,17 @@
 4000,4000-14,Utility,Fire Water,IN,33,33,0,0,0,0,0
 4000,4000-14,Utility,Fire Water,MES,1,0,1,0,0,0,0
 4000,4000-14,Utility,Fire Water,PI,127,125,0,340,144,196,2536
-4000,4000-15,Utility,Potable & Service Water,PI,61,60,1,102,41,61,29
+4000,4000-15,Utility,Potable & Service Water,PI,61,60,1,139,40,99,29
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,8,17,0,17,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,7,5,69,11,58,5
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,283,45,665,318,347,147
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,70,1,228,131,97,10
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,70,0,228,131,97,10
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,8,5,1,84,42,42,1
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,0,2,0,0,0,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,EL,2,2,0,12,2,10,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,PI,46,46,0,136,65,71,9
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,465,398,25,478,339,139,287
-5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,46,0,138,89,49,13
+5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,46,0,138,92,46,13
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,5,0,44,11,33,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,200,21,553,325,228,78
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,EL,2,2,0,12,2,10,0
