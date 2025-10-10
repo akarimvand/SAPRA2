@@ -130,6 +130,8 @@
     font-size: 0.6rem;
     border: 1px solid #ddd;
   }
+
+
   #lineChartTable thead th {
     background-color: #f0f0f0;
     color: #333;
@@ -204,8 +206,9 @@
       <div class="col-12 mb-4">
         <div class="card">
           <div class="card-header bg-light d-flex justify-content-between align-items-center">
-            <h5><i class="fas fa-chart-line me-2"></i> Daily Trend</h5>
-            <button class="btn btn-sm btn-outline-secondary" onclick="exportLineChartToImage()"><i class="fas fa-image"></i></button>
+            <h5 id="chartTitle"><i class="fas fa-chart-line me-2"></i> SAPRA Punch Release Status</h5>
+            <button class="btn btn-sm btn-outline-secondary me-1" onclick="exportLineChartToImage()" title="Download Image"><i class="fas fa-camera"></i></button>
+            <button class="btn btn-sm btn-outline-secondary" onclick="shareLineChartImage()" title="Share Image"><i class="fas fa-share"></i></button>
           </div>
           <div class="card-body">
             <div class="chart-container">
@@ -417,6 +420,15 @@
       updateDashboard();
     }
 
+    function getCurrentDateTimeString() {
+      const now = new Date();
+      const gregorian = now.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+      const time = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+      const [jy, jm, jd] = gregorianToJalali(now.getFullYear(), now.getMonth() + 1, now.getDate());
+      const jalali = `${jd}/${jm}/${jy}`;
+      return ` (${jalali} - ${gregorian} ${time})`;
+    }
+
     function updateDashboard() {
       const filtered = getFilteredData();
       if (filtered.length === 0) {
@@ -489,6 +501,9 @@
       renderLineChart(sortedDates, dataByDate);
       renderPieChart(dataByDiscipline);
       renderLineChartTable(filtered);
+
+      // Update title with date and time
+      document.getElementById('chartTitle').innerHTML = `<i class="fas fa-chart-line me-2"></i> SAPRA Punch Release Status${getCurrentDateTimeString()}`;
     }
 
     function renderTable(data) {
@@ -738,6 +753,20 @@
           tbody.appendChild(tr);
         });
 
+        // Set font size based on diffDays
+        const table = document.getElementById('lineChartTable');
+        if (diffDays <= 10) {
+          table.style.fontSize = '1.2rem';
+          table.querySelectorAll('th, td').forEach(cell => {
+            cell.style.padding = '0.5rem 0.4rem';
+          });
+        } else {
+          table.style.fontSize = '0.6rem';
+          table.querySelectorAll('th, td').forEach(cell => {
+            cell.style.padding = '0.2rem 0.1rem';
+          });
+        }
+
         container.style.display = 'block';
       } else {
         container.style.display = 'none';
@@ -745,16 +774,18 @@
     }
 
     function getColorForDiscipline(disc) {
-      const colors = [
-        '#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0',
-        '#9966FF', '#FF9F40', '#8AC926', '#FF6B6B',
-        '#4ECDC4', '#45B7D1', '#96CEB4', '#FFEAA7'
-      ];
-      let hash = 0;
-      for (let i = 0; i < disc.length; i++) {
-        hash = disc.charCodeAt(i) + ((hash << 5) - hash);
-      }
-      return colors[Math.abs(hash) % colors.length];
+      const disciplineColors = {
+        'CIVIL': '#FF3B30',
+        'ELECTRICAL': '#007AFF',
+        'HVAC': '#E67100',
+        'INSTRUMENT': '#34C759',
+        'MECHANICAL(ROTARY)': '#FF9500',
+        'MECHANICAL(STATIC)': '#AF52DE',
+        'PAINT&INSULATION': '#F2C800',
+        'PIPING': '#FFCC00',
+        'STRUCTURE': '#515151'
+      };
+      return disciplineColors[disc] || '#000000'; // Default black if not found
     }
 
     function exportTableToCSV(filename) {
@@ -796,7 +827,7 @@
     document.getElementById('endDate').addEventListener('change', updateDashboard);
 
     async function exportLineChartToImage() {
-      const card = document.querySelector('.col-lg-8.mb-4 .card'); // The Daily Trend card
+      const card = document.querySelector('.col-12.mb-4 .card'); // The SAPRA Punch Release Status card
 
       // Capture the card with html2canvas
       const canvas = await html2canvas(card, {
@@ -822,7 +853,7 @@
       ctx.fillStyle = '#000000';
       ctx.font = 'bold 24px Vazir';
       ctx.textAlign = 'center';
-      ctx.fillText('برنامه SAPRA', landscapeCanvas.width / 2, 40);
+      ctx.fillText('SAPRA Punch Release Status', landscapeCanvas.width / 2, 40);
 
       // Add date
       const now = new Date();
@@ -839,6 +870,70 @@
       link.download = filename;
       link.href = landscapeCanvas.toDataURL('image/png');
       link.click();
+    }
+
+    async function shareLineChartImage() {
+      const card = document.querySelector('.col-12.mb-4 .card'); // The SAPRA Punch Release Status card
+
+      // Capture the card with html2canvas
+      const canvas = await html2canvas(card, {
+        scale: 2, // High quality
+        useCORS: true,
+        backgroundColor: '#ffffff'
+      });
+
+      // Create a new landscape canvas
+      const landscapeCanvas = document.createElement('canvas');
+      const ctx = landscapeCanvas.getContext('2d');
+      landscapeCanvas.width = canvas.height; // Swap for landscape
+      landscapeCanvas.height = canvas.width;
+
+      // Rotate and draw the captured image
+      ctx.save();
+      ctx.translate(landscapeCanvas.width / 2, landscapeCanvas.height / 2);
+      ctx.rotate(-Math.PI / 2);
+      ctx.drawImage(canvas, -canvas.width / 2, -canvas.height / 2);
+      ctx.restore();
+
+      // Add title
+      ctx.fillStyle = '#000000';
+      ctx.font = 'bold 24px Vazir';
+      ctx.textAlign = 'center';
+      ctx.fillText('SAPRA Punch Release Status', landscapeCanvas.width / 2, 40);
+
+      // Add date
+      const now = new Date();
+      const dateStr = now.toLocaleDateString('fa-IR');
+      ctx.font = '16px Vazir';
+      ctx.fillText(dateStr, landscapeCanvas.width / 2, 70);
+
+      // Generate filename
+      const dateTimeStr = now.toISOString().replace(/:/g, '-').replace('T', ' ').split('.')[0];
+      const filename = `SAPRA PUNCH STATUS ${dateTimeStr}.png`;
+
+      // Share the image
+      landscapeCanvas.toBlob(blob => {
+        const file = new File([blob], filename, { type: 'image/png' });
+        if (navigator.share) {
+          navigator.share({
+            title: 'SAPRA Punch Release Status',
+            files: [file]
+          }).catch(err => {
+            console.error('Share failed:', err);
+            // Fallback to download
+            const link = document.createElement('a');
+            link.download = filename;
+            link.href = landscapeCanvas.toDataURL('image/png');
+            link.click();
+          });
+        } else {
+          // Fallback to download
+          const link = document.createElement('a');
+          link.download = filename;
+          link.href = landscapeCanvas.toDataURL('image/png');
+          link.click();
+        }
+      });
     }
   </script>
 </body>
