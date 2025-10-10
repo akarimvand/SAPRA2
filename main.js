@@ -980,6 +980,14 @@ function filterDetailedItems(context) {
         function handleNodeSelect(type, id, name, parentId = null) {
             selectedView = { type, id, name, parentId };
             updateView();
+
+            // Send message to workflow iframe if subsystem selected
+            if (type === 'subsystem') {
+                const iframe = document.querySelector('#workflow-tab-pane iframe');
+                if (iframe) {
+                    iframe.contentWindow.postMessage({type: 'subsystemSelection', subsystemCode: id}, '*');
+                }
+            }
         }
 
         function updateView() {
