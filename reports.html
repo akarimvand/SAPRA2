@@ -214,6 +214,7 @@
             </div>
           </div>
         </div>
+
       </div>
       <div class="card-body">
         <!-- Charts -->
@@ -408,6 +409,8 @@
       updateDashboard();
     }
 
+
+
     function getCurrentDateTimeString() {
       const now = new Date();
       const gregorian = now.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
@@ -508,7 +511,7 @@
         return dates.some(date => (dataByDate[date][disc] || 0) > 0);
       });
 
-      const datasets = filteredDisciplines.map(disc => {
+      const datasets = filteredDisciplines.map((disc, index) => {
         const color = getColorForDiscipline(disc);
         return {
           label: disc,
@@ -516,7 +519,10 @@
           borderColor: color,
           backgroundColor: color + '20',
           fill: false,
-          tension: 0.3
+          tension: 0.3,
+          animation: {
+            delay: index * 500
+          }
         };
       });
 
@@ -529,6 +535,10 @@
         options: {
           responsive: true,
           maintainAspectRatio: false,
+          animation: {
+            duration: 500,
+            easing: 'easeOutBounce'
+          },
           plugins: {
             legend: { display: false },
             datalabels: {
@@ -876,18 +886,14 @@
 
       document.body.removeChild(tempDiv);
 
-      // Create a new landscape canvas
+      // Create a new canvas without rotation
       const landscapeCanvas = document.createElement('canvas');
       const ctx = landscapeCanvas.getContext('2d');
-      landscapeCanvas.width = canvas.height; // Swap for landscape
-      landscapeCanvas.height = canvas.width;
+      landscapeCanvas.width = canvas.width;
+      landscapeCanvas.height = canvas.height;
 
-      // Rotate and draw the captured image
-      ctx.save();
-      ctx.translate(landscapeCanvas.width / 2, landscapeCanvas.height / 2);
-      ctx.rotate(-Math.PI / 2);
-      ctx.drawImage(canvas, -canvas.width / 2, -canvas.height / 2);
-      ctx.restore();
+      // Draw the captured image straight
+      ctx.drawImage(canvas, 0, 0);
 
       // Generate filename
       const dateTimeStr = new Date().toISOString().replace(/:/g, '-').replace('T', ' ').split('.')[0];
@@ -936,18 +942,14 @@
         height: tempDiv.scrollHeight
       });
 
-      // Create a new landscape canvas
+      // Create a new canvas without rotation
       const landscapeCanvas = document.createElement('canvas');
       const ctx = landscapeCanvas.getContext('2d');
-      landscapeCanvas.width = canvas.height; // Swap for landscape
-      landscapeCanvas.height = canvas.width;
+      landscapeCanvas.width = canvas.width;
+      landscapeCanvas.height = canvas.height;
 
-      // Rotate and draw the captured image
-      ctx.save();
-      ctx.translate(landscapeCanvas.width / 2, landscapeCanvas.height / 2);
-      ctx.rotate(-Math.PI / 2);
-      ctx.drawImage(canvas, -canvas.width / 2, -canvas.height / 2);
-      ctx.restore();
+      // Draw the captured image straight
+      ctx.drawImage(canvas, 0, 0);
 
       // Generate filename
       const dateTimeStr = new Date().toISOString().replace(/:/g, '-').replace('T', ' ').split('.')[0];
