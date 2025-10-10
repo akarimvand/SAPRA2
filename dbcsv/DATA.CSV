@@ -46,7 +46,7 @@
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,231,71,37,296,45,251,45
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,5,2,72,20,52,0
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,42,10,159,93,66,86
-2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,130,67,63,15
+2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,131,70,61,15
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,1,6,0,6,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,19,7,12,0
 2000,2000-06,Reforming,Nitrogen Circuit,IN,114,8,30,202,7,195,13
@@ -89,7 +89,7 @@
 4000,4000-07,Utility,Plant Air,PI,10,10,0,17,4,13,30
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,4,8,0,8,0
-4000,4000-08,Utility,Cooling Water,PI,294,270,3,604,374,230,37
+4000,4000-08,Utility,Cooling Water,PI,294,270,3,604,376,228,37
 4000,4000-08,Utility,Cooling Water,IN,745,640,63,281,46,235,533
 4000,4000-08,Utility,Cooling Water,EL,6,6,0,56,14,42,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,27,0,0,0,0,26
@@ -110,16 +110,16 @@
 4000,4000-14,Utility,Fire Water,MES,1,0,1,0,0,0,0
 4000,4000-14,Utility,Fire Water,PI,127,125,0,340,145,195,2536
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,141,40,101,29
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,8,17,0,17,0
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,8,22,0,22,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,7,5,78,11,67,5
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,297,39,681,318,363,147
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,70,1,229,133,96,10
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,70,0,229,133,96,10
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,8,5,1,84,42,42,1
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,0,2,0,0,0,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,EL,2,2,0,12,2,10,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,PI,46,46,0,136,65,71,9
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,465,407,20,486,339,147,287
-5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,46,0,139,94,45,13
+5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,46,0,140,95,45,13
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,5,0,44,11,33,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,204,18,559,328,231,78
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,EL,2,2,0,12,2,10,0
@@ -136,7 +136,7 @@
 7000,7000-01,Flare,Flare System (In Site),IN,145,75,26,129,35,94,17
 7000,7000-01,Flare,Flare System (In Site),MER,2,2,0,0,0,0,0
 7000,7000-01,Flare,Flare System (In Site),MES,2,2,0,8,0,8,0
-7000,7000-01,Flare,Flare System (In Site),PI,49,49,0,112,51,61,77
+7000,7000-01,Flare,Flare System (In Site),PI,49,49,0,115,56,59,77
 BLD,BLD-01,Building,Substation,PI,4,4,0,6,3,3,9
 BLD,BLD-01,Building,Substation,CV,14,14,0,63,6,57,0
 BLD,BLD-02,Building,Control Building,CV,8,8,0,0,0,0,0
