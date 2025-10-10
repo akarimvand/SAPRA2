@@ -981,11 +981,13 @@ function filterDetailedItems(context) {
             selectedView = { type, id, name, parentId };
             updateView();
 
-            // Send message to workflow iframe if subsystem selected
-            if (type === 'subsystem') {
-                const iframe = document.querySelector('#workflow-tab-pane iframe');
-                if (iframe) {
+            // Send message to workflow iframe
+            const iframe = document.querySelector('#workflow-tab-pane iframe');
+            if (iframe) {
+                if (type === 'subsystem') {
                     iframe.contentWindow.postMessage({type: 'subsystemSelection', subsystemCode: id}, '*');
+                } else {
+                    iframe.contentWindow.postMessage({type: 'clearDashboard'}, '*');
                 }
             }
         }
