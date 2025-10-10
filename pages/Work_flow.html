@@ -1,984 +1,499 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Punch Release Status</title>
-  
-  <!-- Vazir Font -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css">
-  
-  <!-- Bootstrap 5 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <!-- Chart.js -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <!-- Chart.js Data Labels Plugin -->
-  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
-  <!-- Papa Parse (for CSV) -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
-  <!-- jsPDF -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <!-- html2canvas -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-  <!-- SheetJS for Excel export -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
-  
-  <style>
-    body {
-      background-color: #f9fafc;
-      font-family: 'Vazir', sans-serif;
-    }
-    .card { box-shadow: 0 0.15rem 0.3rem rgba(0,0,0,0.08); margin-bottom: 1.5rem; border: 0; border-radius: 1rem; transition: box-shadow 0.3s ease; }
-    .card:hover {
-      box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
-    }
-    .chart-container { position: relative; height: 250px; }
-    .filter-btn {
-      transition: all 0.2s;
-      border-radius: 0.5rem;
-      font-weight: 500;
-    }
-    .filter-btn.active {
-      background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
-      color: white;
-      box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
-    }
-    .filter-btn:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.1);
-    }
-    .stat-card { text-align: center; padding: 1.2rem; }
-    .stat-value { font-size: 2rem; font-weight: bold; }
-    .stat-label { margin-top: 0.3rem; }
-    .date-range-picker { max-width: 250px; }
-    .filter-badge { cursor: pointer; transition: all 0.2s; }
-    /* Colored cards for Summary Stats */
-    #summaryStats .col-md-3 .card {
-      color: white;
-      text-align: center;
-      padding: 1rem 1rem;
-      border-radius: 0.75rem;
-      box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
-      transition: transform 0.3s ease;
-      font-family: 'Vazir', sans-serif;
-      min-height: 80px;
-    }
-    #summaryStats .col-md-3 .card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 1rem 2rem rgba(0,0,0,0.15);
-    }
-    #summaryStats .col-md-3 .card.bg-primary {
-      background: linear-gradient(135deg, #2c3e50 0%, #4ca1af 100%);
-      color: white;
-    }
-    #summaryStats .col-md-3 .card.bg-success {
-      background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
-      color: white;
-    }
-    #summaryStats .col-md-3 .card.bg-warning {
-      background: linear-gradient(135deg, #f39c12 0%, #f1c40f 100%);
-      color: black;
-    }
-    #summaryStats .col-md-3 .card.bg-info {
-      background: linear-gradient(135deg, #2980b9 0%, #3498db 100%);
-      color: white;
-    }
-    #summaryStats .stat-value {
-      font-size: 2rem;
-      font-weight: 700;
-      line-height: 1.1;
-      font-family: 'Vazir', sans-serif;
-    }
-    #summaryStats .stat-label {
-      font-size: 1rem;
-      font-weight: 600;
-      margin-top: 0.5rem;
-      font-family: 'Vazir', sans-serif;
-    }
-  </style>
-  <style>
-    .bg-form-a {
-      background: linear-gradient(135deg, #f44336 0%, #e53935 100%);
-      color: white;
-    }
-    .bg-form-b {
-      background: linear-gradient(135deg, #009688 0%, #00796b 100%);
-      color: white;
-    }
-    .bg-form-c {
-      background: linear-gradient(135deg, #03a9f4 0%, #0288d1 100%);
-      color: white;
-    }
-    .bg-form-d {
-      background: linear-gradient(135deg, #673ab7 0%, #512da8 100%);
-      color: white;
-    }
-    .small-font {
-      font-size: 0.6rem;
-      text-align: center;
-      color: #666;
-    }
-  /* Custom styling for lineChartTable */
-  #lineChartTable {
-    border-collapse: collapse;
-  }
-  #lineChartTable th, #lineChartTable td {
-    text-align: center;
-    padding: 0.3rem 0.4rem;
-    border: 1px solid #ddd;
-  }
-
-
-  #lineChartTable thead th {
-    background-color: #f0f0f0;
-    color: #333;
-    font-weight: bold;
-  }
-  #lineChartTable tbody tr {
-    background-color: #f9f9f9;
-  }
-  #lineChartTableContainer {
-    max-height: 300px;
-    overflow-y: auto;
-    border: 1px solid #dee2e6;
-    border-radius: 0.375rem;
-  }
-  #dataTable th, #dataTable td {
-    font-size: 0.6rem;
-    padding: 0.2rem 0.1rem;
-    color: #666;
-  }
-  </style>
-</head>
-<body>
-  <div class="container py-4">
-    <div id="loading" class="text-center py-3">
-      <div class="spinner-border text-primary" role="status">
-        <span class="visually-hidden">Loading...</span>
-      </div>
-      <p>Loading data...</p>
-    </div>
-
-    <!-- Title and Summary Card -->
-    <div class="card mb-4">
-      <div class="card-body">
-        <div class="d-flex justify-content-between align-items-start mb-3">
-          <img src="https://raw.githubusercontent.com/akarimvand/SAPRA2/main/images/SAPRA.png" alt="SAPRA Logo" style="height: 100px; width: 100px; object-fit: contain;">
-          <div class="flex-grow-1 text-center">
-            <h4 id="chartTitle" class="mb-2" style="font-size: 1.5rem; font-weight: bold;">SAPRA Punch Release Status</h4>
-            <div id="summaryStats" class="text-center mb-2"></div>
-            <div id="dateTime" class="text-center"></div>
-          </div>
-          <div class="d-flex gap-1">
-            <button class="btn btn-sm btn-outline-secondary" onclick="exportLineChartToImage()" title="Download Image"><i class="fas fa-camera"></i></button>
-            <button class="btn btn-sm btn-outline-secondary" onclick="shareLineChartImage()" title="Share Image"><i class="fas fa-share"></i></button>
-            <button class="btn btn-sm btn-outline-success" onclick="exportLineChartTableToExcel('line_chart_table.xlsx')" title="Export Excel"><i class="fas fa-file-excel"></i></button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Filters, Chart and Table Card -->
-    <div class="card mb-4">
-      <div class="card-header bg-light">
-        <div class="row g-3 mt-2">
-          <!-- Date Range -->
-          <div class="col-md-6">
-            <label class="form-label">Date Range:</label>
-            <div>
-              <span class="badge bg-secondary filter-badge me-2" data-range="10d" onclick="selectRange(this)">Last 10 Days</span>
-              <span class="badge bg-primary filter-badge me-2 active" data-range="30d" onclick="selectRange(this)">Last 30 Days</span>
-              <span class="badge bg-secondary filter-badge me-2" data-range="7d" onclick="selectRange(this)">Last Week</span>
-              <span class="badge bg-secondary filter-badge me-2" data-range="yesterday" onclick="selectRange(this)">Yesterday</span>
-              <span class="badge bg-secondary filter-badge" data-range="custom" onclick="selectRange(this)">Custom</span>
-            </div>
-            <div id="customDateRange" class="mt-2" style="display:none;">
-              <div class="row">
-                <div class="col">
-                  <input type="date" class="form-control date-range-picker" id="startDate">
-                </div>
-                <div class="col">
-                  <input type="date" class="form-control date-range-picker" id="endDate">
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Discipline Filters -->
-          <div class="col-md-6">
-            <label class="form-label">Disciplines:</label>
-            <div id="disciplineFilters" class="d-flex flex-wrap gap-2">
-              <!-- Filled by JS -->
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <div class="card-body">
-        <!-- Charts -->
-        <div class="row">
-          <div class="col-12">
-          <div class="card-body">
-            <div class="chart-container">
-              <canvas id="lineChart"></canvas>
-            </div>
-            <div id="lineChartLegend" class="d-flex flex-wrap justify-content-center gap-2 mt-3"></div>
-          </div>
-        </div>
-    </div>
-
-    <div id="lineChartTableContainer" class="mt-4" style="display:none;">
-      <table class="table table-striped table-bordered" id="lineChartTable">
-        <thead>
-          <tr id="lineChartTableHeader">
-            <th>Discipline</th>
-            <!-- Dates filled by JS -->
-          </tr>
-        </thead>
-        <tbody>
-          <!-- Filled by JS -->
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-  <script>
-    // --- Settings ---
-    const CSV_URL = 'https://raw.githubusercontent.com/akarimvand/SAPRA2/main/dbcsv/Daily_Release_Punch.csv';
-    let allData = [];
-    let currentRange = '30d';
-    let selectedDisciplines = new Set();
-
-    // --- Load CSV ---
-    Papa.parse(CSV_URL, {
-      download: true,
-      header: true,
-      skipEmptyLines: true,
-      complete: function(results) {
-        // Parse date from '09-Oct-25' to 'YYYY-MM-DD'
-        const todayStr = new Date().toISOString().split('T')[0];
-        allData = results.data
-          .filter(row => row.Release_Date && row.Discipline && row.Qty)
-          .map(row => {
-            const date = parseCustomDate(row.Release_Date);
-            return {
-              date: date,
-              discipline: row.Discipline.trim(),
-              qty: parseInt(row.Qty) || 0
-            };
-          })
-          .filter(row => !isNaN(new Date(row.date).getTime()) && row.date !== todayStr);
-
-        allData.sort((a, b) => new Date(b.date) - new Date(a.date));
-
-        const minDate = allData.length ? allData[allData.length - 1].date : '2020-01-01';
-        const maxDate = allData.length ? allData[0].date : new Date().toISOString().split('T')[0];
-        document.getElementById('startDate').value = minDate;
-        document.getElementById('endDate').value = maxDate;
-
-        const disciplines = [...new Set(allData.map(d => d.discipline))].sort();
-        renderDisciplineFilters(disciplines);
-        selectedDisciplines = new Set(disciplines);
-
-        updateDashboard();
-        document.getElementById('loading').style.display = 'none';
-      }
-    });
-
-    // --- Helper Functions ---
-    function parseCustomDate(str) {
-      // Split by space to get date part, ignore time
-      const datePart = str.split(' ')[0];
-      // Check if already YYYY-MM-DD
-      if (/^\d{4}-\d{2}-\d{2}$/.test(datePart)) {
-        return datePart;
-      }
-      // Check for MM/DD/YYYY
-      if (/^\d{1,2}\/\d{1,2}\/\d{4}$/.test(datePart)) {
-        const parts = datePart.split('/');
-        const month = parts[0].padStart(2, '0');
-        const day = parts[1].padStart(2, '0');
-        const year = parts[2];
-        return `${year}-${month}-${day}`;
-      }
-      // Else parse DD-MMM-YY
-      const months = {
-        'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04',
-        'May': '05', 'Jun': '06', 'Jul': '07', 'Aug': '08',
-        'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'
-      };
-      const parts = datePart.split('-');
-      if (parts.length !== 3) return null;
-      const day = parts[0].padStart(2, '0');
-      const month = months[parts[1]];
-      const year = '20' + parts[2];
-      return year && month ? `${year}-${month}-${day}` : null;
-    }
-
-    function getFilteredData() {
-      let startDate, endDate;
-      const today = new Date();
-      const todayStr = today.toISOString().split('T')[0];
-      const yesterday = new Date(today);
-      yesterday.setDate(yesterday.getDate() - 1);
-      const yesterdayStr = yesterday.toISOString().split('T')[0];
-
-      if (currentRange === '10d') {
-        const d = new Date();
-        d.setDate(d.getDate() - 10);
-        startDate = d.toISOString().split('T')[0];
-        endDate = yesterdayStr;
-      } else if (currentRange === '30d') {
-        const d = new Date();
-        d.setDate(d.getDate() - 30);
-        startDate = d.toISOString().split('T')[0];
-        endDate = yesterdayStr;
-      } else if (currentRange === '7d') {
-        const d = new Date();
-        d.setDate(d.getDate() - 7);
-        startDate = d.toISOString().split('T')[0];
-        endDate = yesterdayStr;
-      } else if (currentRange === 'yesterday') {
-        startDate = yesterdayStr;
-        endDate = yesterdayStr;
-      } else if (currentRange === 'month') {
-        const year = today.getFullYear();
-        const month = String(today.getMonth() + 1).padStart(2, '0');
-        startDate = `${year}-${month}-01`;
-        endDate = yesterdayStr;
-      } else if (currentRange === 'custom') {
-        startDate = document.getElementById('startDate').value;
-        endDate = document.getElementById('endDate').value;
-        // Exclude current day if selected
-        if (endDate === todayStr) {
-          endDate = yesterdayStr;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subsystem Delivery Workflow Dashboard</title>
+    <!-- Required CDNs -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://unpkg.com/papaparse@5.3.2/papaparse.min.js"></script>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css');
+        body {
+            font-family: 'Vazir', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
         }
-      }
-
-      return allData.filter(row => {
-        const rowDate = new Date(row.date);
-        const start = new Date(startDate);
-        const end = new Date(endDate);
-        end.setDate(end.getDate() + 1);
-        return rowDate >= start && rowDate < end && selectedDisciplines.has(row.discipline);
-      });
-    }
-
-    function renderDisciplineFilters(disciplines) {
-      const container = document.getElementById('disciplineFilters');
-      container.innerHTML = '';
-      disciplines.forEach(d => {
-        const badge = document.createElement('span');
-        badge.className = 'badge bg-primary filter-badge';
-        badge.textContent = d;
-        badge.dataset.discipline = d;
-        badge.onclick = () => toggleDiscipline(d);
-        container.appendChild(badge);
-      });
-    }
-
-    function toggleDiscipline(d) {
-      const badge = document.querySelector(`[data-discipline="${d}"]`);
-      if (selectedDisciplines.has(d)) {
-        selectedDisciplines.delete(d);
-        badge.classList.remove('bg-primary');
-        badge.classList.add('bg-secondary');
-      } else {
-        selectedDisciplines.add(d);
-        badge.classList.add('bg-primary');
-        badge.classList.remove('bg-secondary');
-      }
-      updateDashboard();
-    }
-
-    function selectRange(el) {
-      document.querySelectorAll('[data-range]').forEach(b => {
-        b.classList.remove('active', 'bg-primary');
-        b.classList.add('bg-secondary');
-      });
-      el.classList.add('active', 'bg-primary');
-      el.classList.remove('bg-secondary');
-      currentRange = el.dataset.range;
-      if (currentRange === 'custom') {
-        document.getElementById('customDateRange').style.display = 'block';
-      } else {
-        document.getElementById('customDateRange').style.display = 'none';
-      }
-      updateDashboard();
-    }
-
-
-
-    function getCurrentDateTimeString() {
-      const now = new Date();
-      const gregorian = now.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-      const time = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
-      const [jy, jm, jd] = gregorianToJalali(now.getFullYear(), now.getMonth() + 1, now.getDate());
-      const jalali = `${jd}/${jm}/${jy}`;
-      return ` (${jalali} - ${gregorian} ${time})`;
-    }
-
-    function updateDashboard() {
-      if (!document.getElementById('summaryStats')) {
-        console.error('summaryStats element not found');
-        return;
-      }
-      const filtered = getFilteredData();
-      if (filtered.length === 0) {
-        alert('No data found for the selected range and filters.');
-        return;
-      }
-
-      const totalQty = filtered.reduce((sum, r) => sum + r.qty, 0);
-      const uniqueDays = new Set(filtered.map(r => r.date)).size;
-      const avgPerDay = (totalQty / uniqueDays).toFixed(1);
-
-      // Calculate active disciplines with qty > 1
-      const disciplineTotals = {};
-      filtered.forEach(row => {
-        if (!disciplineTotals[row.discipline]) disciplineTotals[row.discipline] = 0;
-        disciplineTotals[row.discipline] += row.qty;
-      });
-      const activeDisciplinesCount = Object.values(disciplineTotals).filter(qty => qty > 1).length;
-
-      const statsHtml = `
-        <div class="text-center mb-3">
-          <div class="row g-2 justify-content-center">
-            <div class="col-auto">
-              <span class="fw-bold me-3">Total Closed Punches:</span> <span>${totalQty.toLocaleString()}</span>
-            </div>
-            <div class="col-auto">
-              <span class="fw-bold me-3">Active Days:</span> <span>${uniqueDays}</span>
-            </div>
-            <div class="col-auto">
-              <span class="fw-bold me-3">Avg. per Day:</span> <span>${avgPerDay}</span>
-            </div>
-            <div class="col-auto">
-              <span class="fw-bold">Active Disciplines:</span> <span>${activeDisciplinesCount}</span>
-            </div>
-          </div>
-        </div>
-      `;
-      document.getElementById('summaryStats').innerHTML = statsHtml;
-
-      const dataByDate = {};
-      const dataByDiscipline = {};
-      filtered.forEach(row => {
-        if (!dataByDate[row.date]) dataByDate[row.date] = {};
-        if (!dataByDate[row.date][row.discipline]) dataByDate[row.date][row.discipline] = 0;
-        dataByDate[row.date][row.discipline] += row.qty;
-
-        if (!dataByDiscipline[row.discipline]) dataByDiscipline[row.discipline] = 0;
-        dataByDiscipline[row.discipline] += row.qty;
-      });
-
-      const sortedDates = Object.keys(dataByDate).sort();
-
-      renderLineChart(sortedDates, dataByDate);
-      renderLineChartTable(filtered);
-
-      // Update title, summary, and date/time
-      document.getElementById('chartTitle').innerHTML = `<i class="fas fa-chart-line me-2"></i> SAPRA Punch Release Status`;
-      document.getElementById('dateTime').textContent = getCurrentDateTimeString().replace('(', '').replace(')', '');
-    }
-
-    function renderTable(data) {
-      const tbody = document.getElementById('dataTableBody');
-      tbody.innerHTML = '';
-      data.forEach(row => {
-        const tr = document.createElement('tr');
-        tr.innerHTML = `
-          <td>${formatJalali(row.date)}</td>
-          <td>${row.discipline}</td>
-          <td>${row.qty.toLocaleString()}</td>
-        `;
-        tbody.appendChild(tr);
-      });
-    }
-
-    function renderLineChart(dates, dataByDate) {
-      const ctx = document.getElementById('lineChart').getContext('2d');
-      // Check if chart exists and destroy it
-      if (window.lineChart && window.lineChart.destroy) {
-        window.lineChart.destroy();
-      }
-
-      const disciplines = [...selectedDisciplines].sort();
-      // Filter disciplines to only those with any non-zero data
-      const filteredDisciplines = disciplines.filter(disc => {
-        return dates.some(date => (dataByDate[date][disc] || 0) > 0);
-      });
-
-      const datasets = filteredDisciplines.map((disc, index) => {
-        const color = getColorForDiscipline(disc);
-        return {
-          label: disc,
-          data: dates.map(date => dataByDate[date][disc] || 0),
-          borderColor: color,
-          backgroundColor: color + '20',
-          fill: false,
-          tension: 0.3,
-          animation: {
-            delay: index * 500
-          }
-        };
-      });
-
-      window.lineChart = new Chart(ctx, {
-        type: 'line',
-        data: {
-          labels: dates.map(d => formatJalali(d)),
-          datasets: datasets
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: false,
-          animation: {
-            duration: 500,
-            easing: 'easeOutBounce'
-          },
-          plugins: {
-            legend: { display: false },
-            datalabels: {
-              display: false
+        @keyframes pulse-border-soft {
+            0%, 100% {
+                border-color: #fca5a5; /* red-300 */
             }
-          },
-          scales: {
-            y: { beginAtZero: true, ticks: { precision: 0 } }
-          }
+            50% {
+                border-color: #e40606; /* red-500 */
+            }
         }
-      });
-
-      // Custom legend
-      const legendContainer = document.getElementById('lineChartLegend');
-      legendContainer.innerHTML = '';
-      filteredDisciplines.forEach(disc => {
-        const badge = document.createElement('span');
-        badge.className = 'badge';
-        badge.style.backgroundColor = getColorForDiscipline(disc);
-        badge.style.color = 'white';
-        badge.style.padding = '0.5rem 0.75rem';
-        badge.style.borderRadius = '0.5rem';
-        badge.textContent = disc;
-        legendContainer.appendChild(badge);
-      });
-    }
-
-    function renderBarChart(dataByDiscipline) {
-      const ctx = document.getElementById('barChart').getContext('2d');
-      if (window.barChart && window.barChart.destroy) window.barChart.destroy();
-
-      const labels = Object.keys(dataByDiscipline).sort();
-      const data = labels.map(l => dataByDiscipline[l]);
-      const colors = labels.map(l => getColorForDiscipline(l));
-
-      window.barChart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-          labels: labels,
-          datasets: [{
-            label: 'Closed Punches',
-            data: data,
-            backgroundColor: colors
-          }]
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: false,
-          plugins: { legend: { display: false } },
-          scales: {
-            y: { beginAtZero: true, ticks: { precision: 0 } }
-          }
+        .animate-pulse-border {
+            animation: pulse-border-soft 0.8s ease-in-out infinite;
         }
-      });
-    }
-
-    function renderPieChart(dataByDiscipline) {
-      const ctx = document.getElementById('pieChart').getContext('2d');
-      if (window.pieChart && window.pieChart.destroy) window.pieChart.destroy();
-
-      const labels = Object.keys(dataByDiscipline).sort();
-      const data = labels.map(l => dataByDiscipline[l]);
-      const colors = labels.map(l => getColorForDiscipline(l));
-
-      window.pieChart = new Chart(ctx, {
-        type: 'pie',
-        data: {
-          labels: labels,
-          datasets: [{
-            data: data,
-            backgroundColor: colors,
-            borderWidth: 1
-          }]
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: false,
-          plugins: {
-            legend: { position: 'right' }
-          }
+        /* New blinking animation for delayed icon */
+        @keyframes blink-red {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
         }
-      });
-    }
-
-    // Jalali date conversion
-    function gregorianToJalali(gy, gm, gd) {
-      var g_d_m = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334];
-      var jy = (gy <= 1600) ? 0 : 979;
-      gy -= (gy <= 1600) ? 621 : 1600;
-      var gy2 = (gm > 2) ? (gy + 1) : gy;
-      var days = (365 * gy) + parseInt((gy2 + 3) / 4) - parseInt((gy2 + 99) / 100) + parseInt((gy2 + 399) / 400) - 80 + gd + g_d_m[gm - 1];
-      jy += 33 * parseInt(days / 12053);
-      days %= 12053;
-      jy += 4 * parseInt(days / 1461);
-      days %= 1461;
-      jy += parseInt((days - 1) / 365);
-      if (days > 365) days = (days - 1) % 365;
-      var jm = (days < 186) ? 1 + parseInt(days / 31) : 7 + parseInt((days - 186) / 30);
-      var jd = 1 + ((days < 186) ? (days % 31) : ((days - 186) % 30));
-      return [jy, jm, jd];
-    }
-
-    function formatJalali(dateStr) {
-      const d = new Date(dateStr);
-      const [jy, jm, jd] = gregorianToJalali(d.getFullYear(), d.getMonth() + 1, d.getDate());
-      return `${jd.toString().padStart(2, '0')}/${jm.toString().padStart(2, '0')}/${jy}`;
-    }
-
-    function renderLineChartTable(data) {
-      const container = document.getElementById('lineChartTableContainer');
-      const header = document.getElementById('lineChartTable').querySelector('thead');
-      const tbody = document.getElementById('lineChartTable').querySelector('tbody');
-
-      // Check if the date range is 30 days or less
-      let showTable = false;
-      let diffDays = 0;
-      if (currentRange === '10d' || currentRange === '7d' || currentRange === '30d' || currentRange === 'yesterday') {
-        showTable = true;
-        diffDays = currentRange === '10d' ? 10 : currentRange === '7d' ? 7 : currentRange === '30d' ? 30 : 1;
-      } else if (currentRange === 'custom') {
-        const startDate = new Date(document.getElementById('startDate').value);
-        const endDate = new Date(document.getElementById('endDate').value);
-        const diffTime = Math.abs(endDate - startDate);
-        diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-        if (diffDays <= 30) {
-          showTable = true;
+        .blink-red {
+            animation: blink-red 1s infinite;
+            color: #e40606;
         }
-      }
-
-      if (showTable) {
-        // Compute dataByDate
-        const dataByDate = {};
-        data.forEach(row => {
-          if (!dataByDate[row.date]) dataByDate[row.date] = {};
-          if (!dataByDate[row.date][row.discipline]) dataByDate[row.date][row.discipline] = 0;
-          dataByDate[row.date][row.discipline] += row.qty;
-        });
-        const sortedDates = Object.keys(dataByDate).sort();
-
-        // Build header
-        header.innerHTML = '';
-        const trYear = document.createElement('tr');
-        trYear.innerHTML = `<th rowspan="3">Discipline</th><th colspan="${sortedDates.length}">1404</th><th rowspan="3">Total</th>`;
-        header.appendChild(trYear);
-
-        // Get solar months and days
-        const dateInfos = sortedDates.map(date => {
-          const d = new Date(date);
-          const [jy, jm, jd] = gregorianToJalali(d.getFullYear(), d.getMonth() + 1, d.getDate());
-          return { month: jm.toString().padStart(2, '0'), day: jd.toString().padStart(2, '0') };
-        });
-
-        // Group consecutive same months
-        const monthGroups = [];
-        let currentGroup = { month: dateInfos[0].month, count: 1 };
-        for (let i = 1; i < dateInfos.length; i++) {
-          if (dateInfos[i].month === currentGroup.month) {
-            currentGroup.count++;
-          } else {
-            monthGroups.push(currentGroup);
-            currentGroup = { month: dateInfos[i].month, count: 1 };
-          }
+        @keyframes scale-pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
         }
-        monthGroups.push(currentGroup);
-
-        const trMonth = document.createElement('tr');
-        monthGroups.forEach(group => {
-          const th = document.createElement('th');
-          th.className = 'small-font';
-          th.colSpan = group.count;
-          th.textContent = group.month;
-          trMonth.appendChild(th);
-        });
-        header.appendChild(trMonth);
-
-        const trDay = document.createElement('tr');
-        dateInfos.forEach(info => {
-          const th = document.createElement('th');
-          th.className = 'small-font';
-          th.textContent = info.day;
-          trDay.appendChild(th);
-        });
-        header.appendChild(trDay);
-
-        // Build body
-        tbody.innerHTML = '';
-        const disciplines = [...new Set(data.map(d => d.discipline))].sort();
-        const columnTotals = new Array(sortedDates.length).fill(0);
-        let grandTotal = 0;
-        disciplines.forEach(disc => {
-          const tr = document.createElement('tr');
-          tr.style.backgroundColor = getColorForDiscipline(disc) + '20';
-          let rowHtml = `<td>${disc}</td>`;
-          let rowTotal = 0;
-          sortedDates.forEach((date, index) => {
-            const qty = dataByDate[date][disc] || 0;
-            rowTotal += qty;
-            columnTotals[index] += qty;
-            rowHtml += `<td style="color: ${qty === 0 ? '#ccc' : 'inherit'}">${qty.toLocaleString()}</td>`;
-          });
-          grandTotal += rowTotal;
-          rowHtml += `<td style="color: ${rowTotal === 0 ? '#ccc' : 'inherit'}; font-weight: bold">${rowTotal.toLocaleString()}</td>`;
-          tr.innerHTML = rowHtml;
-          tbody.appendChild(tr);
-        });
-
-        // Add total row
-        const totalTr = document.createElement('tr');
-        totalTr.style.backgroundColor = '#f0f0f0';
-        totalTr.style.fontWeight = 'bold';
-        let totalRowHtml = `<td>Total</td>`;
-        columnTotals.forEach(total => {
-          totalRowHtml += `<td style="color: ${total === 0 ? '#ccc' : 'inherit'}">${total.toLocaleString()}</td>`;
-        });
-        totalRowHtml += `<td style="color: ${grandTotal === 0 ? '#ccc' : 'inherit'}">${grandTotal.toLocaleString()}</td>`;
-        totalTr.innerHTML = totalRowHtml;
-        tbody.appendChild(totalTr);
-
-        // Set font size
-        const table = document.getElementById('lineChartTable');
-        table.style.fontSize = '0.8rem';
-        table.style.lineHeight = '1.2';
-        table.querySelectorAll('th, td').forEach(cell => {
-          cell.style.padding = '0.2rem 0.3rem';
-          cell.style.lineHeight = '1.2';
-          cell.style.fontSize = '0.8rem';
-        });
-
-        container.style.display = 'block';
-      } else {
-        container.style.display = 'none';
-      }
-    }
-
-    function getColorForDiscipline(disc) {
-      const disciplineColors = {
-        'CIVIL': '#FF3B30',
-        'ELECTRICAL': '#007AFF',
-        'HVAC': '#E67100',
-        'INSTRUMENT': '#34C759',
-        'MECHANICAL(ROTARY)': '#FF9500',
-        'MECHANICAL(STATIC)': '#AF52DE',
-        'PAINT&INSULATION': '#F2C800',
-        'PIPING': '#FFCC00',
-        'STRUCTURE': '#515151'
-      };
-      return disciplineColors[disc] || '#000000'; // Default black if not found
-    }
-
-    function exportLineChartTableToExcel(filename) {
-      const table = document.getElementById('lineChartTable');
-      const clonedTable = table.cloneNode(true);
-
-      // Add summary rows at the top
-      const tbody = clonedTable.querySelector('tbody');
-      const newRows = [];
-
-      // Title row
-      const titleRow = document.createElement('tr');
-      const titleCell = document.createElement('td');
-      titleCell.colSpan = clonedTable.querySelectorAll('thead th').length;
-      titleCell.textContent = document.getElementById('chartTitle').textContent.trim();
-      titleCell.style.fontWeight = 'bold';
-      titleCell.style.fontSize = '14px';
-      titleRow.appendChild(titleCell);
-      newRows.push(titleRow);
-
-      // Date row
-      const dateRow = document.createElement('tr');
-      const dateCell = document.createElement('td');
-      dateCell.colSpan = clonedTable.querySelectorAll('thead th').length;
-      const now = new Date();
-      const gregorian = now.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-      const time = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
-      const [jy, jm, jd] = gregorianToJalali(now.getFullYear(), now.getMonth() + 1, now.getDate());
-      const jalali = `${jd}/${jm}/${jy}`;
-      dateCell.textContent = `Date: ${jalali} - ${gregorian} ${time}`;
-      dateRow.appendChild(dateCell);
-      newRows.push(dateRow);
-
-      // Summary row
-      const summaryRow = document.createElement('tr');
-      const summaryCell = document.createElement('td');
-      summaryCell.colSpan = clonedTable.querySelectorAll('thead th').length;
-      const summaryText = document.getElementById('summaryStats').textContent.trim();
-      summaryCell.textContent = `Summary: ${summaryText}`;
-      summaryRow.appendChild(summaryCell);
-      newRows.push(summaryRow);
-
-      // Chart note row
-      const chartRow = document.createElement('tr');
-      const chartCell = document.createElement('td');
-      chartCell.colSpan = clonedTable.querySelectorAll('thead th').length;
-      chartCell.textContent = 'Chart: Exported separately as image';
-      chartRow.appendChild(chartCell);
-      newRows.push(chartRow);
-
-      // Insert new rows at the beginning of tbody
-      newRows.forEach(row => tbody.insertBefore(row, tbody.firstChild));
-
-      const wb = XLSX.utils.table_to_book(clonedTable, {sheet: "Line Chart Data"});
-      XLSX.writeFile(wb, filename);
-    }
-
-    // --- Event Listeners ---
-
-    document.getElementById('startDate').addEventListener('change', updateDashboard);
-    document.getElementById('endDate').addEventListener('change', updateDashboard);
-
-    async function exportLineChartToImage() {
-      // Create a temporary div to capture the entire page content
-      const tempDiv = document.createElement('div');
-      tempDiv.style.backgroundColor = '#ffffff';
-      tempDiv.style.padding = '0px';
-      tempDiv.style.width = '1200px'; // Fixed width for better layout in export
-
-      // Clone the entire container
-      const containerClone = document.querySelector('.container').cloneNode(true);
-      // Remove padding and margin to avoid white space
-      containerClone.style.padding = '0';
-      containerClone.style.margin = '0';
-
-      // Replace chart canvas with image in the clone
-      const chartCanvas = containerClone.querySelector('canvas');
-      if (chartCanvas && window.lineChart) {
-        const chartImageData = window.lineChart.toBase64Image();
-        const img = document.createElement('img');
-        img.src = chartImageData;
-        img.style.width = chartCanvas.style.width;
-        img.style.height = chartCanvas.style.height;
-        chartCanvas.parentNode.replaceChild(img, chartCanvas);
-      }
-
-      tempDiv.appendChild(containerClone);
-      document.body.appendChild(tempDiv);
-
-      // Capture the container with html2canvas
-      const canvas = await html2canvas(tempDiv, {
-        scale: 4, // Highest quality
-        useCORS: true,
-        backgroundColor: '#ffffff',
-        width: tempDiv.scrollWidth,
-        height: tempDiv.scrollHeight
-      });
-
-      document.body.removeChild(tempDiv);
-
-      // Create a new canvas without rotation
-      const landscapeCanvas = document.createElement('canvas');
-      const ctx = landscapeCanvas.getContext('2d');
-      landscapeCanvas.width = canvas.width;
-      landscapeCanvas.height = canvas.height;
-
-      // Draw the captured image straight
-      ctx.drawImage(canvas, 0, 0);
-
-      // Generate filename
-      const dateTimeStr = new Date().toISOString().replace(/:/g, '-').replace('T', ' ').split('.')[0];
-      const filename = `SAPRA PUNCH STATUS ${dateTimeStr}.png`;
-
-      // Download the image
-      const link = document.createElement('a');
-      link.download = filename;
-      link.href = landscapeCanvas.toDataURL('image/png');
-      link.click();
-    }
-
-    async function shareLineChartImage() {
-      // Create a temporary div to capture the entire page content
-      const tempDiv = document.createElement('div');
-      tempDiv.style.backgroundColor = '#ffffff';
-      tempDiv.style.padding = '0px';
-      tempDiv.style.width = '1200px'; // Fixed width for better layout in export
-
-      // Clone the entire container
-      const containerClone = document.querySelector('.container').cloneNode(true);
-      // Remove padding and margin to avoid white space
-      containerClone.style.padding = '0';
-      containerClone.style.margin = '0';
-
-      // Replace chart canvas with image in the clone
-      const chartCanvas = containerClone.querySelector('canvas');
-      if (chartCanvas && window.lineChart) {
-        const chartImageData = window.lineChart.toBase64Image();
-        const img = document.createElement('img');
-        img.src = chartImageData;
-        img.style.width = chartCanvas.style.width;
-        img.style.height = chartCanvas.style.height;
-        chartCanvas.parentNode.replaceChild(img, chartCanvas);
-      }
-
-      tempDiv.appendChild(containerClone);
-      document.body.appendChild(tempDiv);
-
-      // Capture the container with html2canvas
-      const canvas = await html2canvas(tempDiv, {
-        scale: 4, // Highest quality
-        useCORS: true,
-        backgroundColor: '#ffffff',
-        width: tempDiv.scrollWidth,
-        height: tempDiv.scrollHeight
-      });
-
-      // Create a new canvas without rotation
-      const landscapeCanvas = document.createElement('canvas');
-      const ctx = landscapeCanvas.getContext('2d');
-      landscapeCanvas.width = canvas.width;
-      landscapeCanvas.height = canvas.height;
-
-      // Draw the captured image straight
-      ctx.drawImage(canvas, 0, 0);
-
-      // Generate filename
-      const dateTimeStr = new Date().toISOString().replace(/:/g, '-').replace('T', ' ').split('.')[0];
-      const filename = `SAPRA PUNCH STATUS ${dateTimeStr}.png`;
-
-      // Share the image
-      landscapeCanvas.toBlob(blob => {
-        const file = new File([blob], filename, { type: 'image/png' });
-        if (navigator.share) {
-          navigator.share({
-            title: 'SAPRA Punch Release Status',
-            files: [file]
-          }).catch(err => {
-            console.error('Share failed:', err);
-            // Fallback to download
-            const link = document.createElement('a');
-            link.download = filename;
-            link.href = landscapeCanvas.toDataURL('image/png');
-            link.click();
-          });
-        } else {
-          // Fallback to download
-          const link = document.createElement('a');
-          link.download = filename;
-          link.href = landscapeCanvas.toDataURL('image/png');
-          link.click();
+        .animate-scale-pulse {
+            animation: scale-pulse 1s ease-in-out infinite;
         }
-      });
-    }
-  </script>
+        
+        /* Styles for the dropdown menu */
+        .dropdown-menu {
+            transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        }
+        .dropdown-menu.hidden {
+            transform: translateY(-10px);
+            opacity: 0;
+            pointer-events: none;
+        }
+        .subsystem-item.selected {
+            background-color: #dbeafe; /* Tailwind's blue-100 */
+            color: #1e40af; /* Tailwind's blue-800 */
+            border-color: #60a5fa; /* Tailwind's blue-400 */
+            font-weight: 600;
+        }
+        /* Smaller menu items */
+        .subsystem-item {
+            padding: 6px 10px;
+            border-radius: 6px;
+            margin-bottom: 4px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            border: 1px solid transparent;
+            background: #f8f9fa;
+            display: flex;
+            flex-direction: column;
+            color: #495057;
+        }
+        .subsystem-item:hover {
+            background: #e9ecef;
+            transform: translateX(2px);
+            border-color: #dee2e6;
+        }
+        .subsystem-code {
+            font-weight: 700;
+            font-size: 0.8rem;
+        }
+        .subsystem-name {
+            font-size: 0.65rem;
+            opacity: 0.9;
+        }
+        /* Scrollbar Styling */
+        .subsystem-list::-webkit-scrollbar {
+            width: 6px;
+        }
+        .subsystem-list::-webkit-scrollbar-track {
+            background: #f1f5f9; /* Tailwind's slate-100 */
+        }
+        .subsystem-list::-webkit-scrollbar-thumb {
+            background-color: #94a3b8; /* Tailwind's slate-400 */
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body class="bg-slate-100 text-slate-800">
+
+    <!-- Main Header -->
+    <header class="bg-white shadow-md rounded-b-xl mb-6 transition-all duration-300 hover:shadow-lg">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- Dashboard Title -->
+            <h1 class="text-lg md:text-xl font-extrabold text-slate-900">Workflow Dashboard</h1>
+        </div>
+    </header>
+
+    <!-- محتوای اصلی صفحه -->
+    <div class="container mx-auto p-4 flex flex-col gap-6">
+        <main class="flex-grow">
+            <header class="bg-white rounded-xl shadow-md p-4 mb-6 border-t-4 border-blue-600">
+                <div class="flex flex-wrap justify-between items-center gap-2">
+                    <div>
+                        <h1 id="doc-title" class="text-xl md:text-2xl font-bold text-slate-900"></h1>
+                        <p id="doc-id" class="text-xs text-slate-500 mt-1">Document Number: </p>
+                    </div>
+                    <div id="status-badge" class="text-xs font-semibold px-3 py-1 rounded-full"></div>
+                </div>
+                <div class="border-t border-slate-200 my-3"></div>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-3 text-xs">
+                    <div class="flex items-center gap-2 text-slate-600">
+                        <i class="fa-solid fa-calendar-days text-blue-500 w-4 text-center"></i>
+                        <span id="doc-creation-date">Creation Date: </span>
+                    </div>
+                    <div class="flex items-center gap-2 text-slate-600">
+                        <i class="fa-solid fa-building text-blue-500 w-4 text-center"></i>
+                        <span id="doc-source-unit">Source Unit: </span>
+                    </div>
+                    <div class="flex items-center gap-2 text-slate-600">
+                        <i class="fa-solid fa-clock-rotate-left text-blue-500 w-4 text-center"></i>
+                        <span id="doc-last-updated">Last Updated: </span>
+                    </div>
+                    <div class="flex items-center gap-2 text-slate-600">
+                        <i class="fa-solid fa-user-tie text-blue-500 w-4 text-center"></i>
+                        <span id="current-owner">Current Owner: </span>
+                    </div>
+                </div>
+            </header>
+
+            <section class="mb-6">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div class="bg-white rounded-lg shadow p-4 text-center transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                        <p class="text-xs font-medium text-slate-500">Total Process Time (days)</p>
+                        <p id="kpi-total-days" class="text-2xl font-bold text-blue-600 mt-1"></p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow p-4 text-center transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                        <p class="text-xs font-medium text-slate-500">Number of Delayed Steps</p>
+                        <p id="kpi-delayed-steps" class="text-2xl font-bold text-red-500 mt-1"></p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow p-4 text-center transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                        <p class="text-xs font-medium text-slate-500">Current Stage</p>
+                        <p id="kpi-current-stage" class="text-base font-bold text-slate-800 mt-2 truncate"></p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="grid grid-cols-1 lg:grid-cols-1 gap-6">
+                <section class="lg:col-span-1 bg-white rounded-xl shadow-md p-4 transition-all duration-300 hover:shadow-lg">
+                    <h2 class="text-lg font-bold mb-1 text-slate-900">System Workflow Path</h2>
+                    <p class="text-xs text-slate-600 mb-4">Delayed steps are marked with a red border.</p>
+                    <div id="timeline-container" class="relative pr-4 border-r-2 border-slate-200 space-y-6">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // Global variables to store data
+        let allData = [];
+
+        document.addEventListener('DOMContentLoaded', async function () {
+            // Initially clear dashboard
+            clearDashboard();
+
+            try {
+                const response = await fetch('https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/dbcsv/TRANS.CSV');
+                const csvText = await response.text();
+
+                const parsedData = Papa.parse(csvText, {
+                    header: true,
+                    skipEmptyLines: true
+                });
+
+                allData = parsedData.data
+                    .filter(row => row.Sub_System && row.UNIT && row.PERSON && row.RECEIVED_DATE && row.DESCRIPTION)
+                    .map(row => ({
+                        Sub_System: row.Sub_System?.trim() || '',
+                        Subsystem_Name: row.Subsystem_Name?.trim() || '',
+                        STEP: row.STEP?.trim() || '',
+                        UNIT: row.UNIT?.trim() || '',
+                        PERSON: row.PERSON?.trim() || '',
+                        RECEIVED_DATE: new Date(row.RECEIVED_DATE),
+                        DESCRIPTION: row.DESCRIPTION?.trim() || ''
+                    }))
+                    .filter(item => !isNaN(item.RECEIVED_DATE.getTime()))
+                    .sort((a, b) => a.RECEIVED_DATE - b.RECEIVED_DATE);
+
+                if (allData.length === 0) {
+                    throw new Error('No valid data found in CSV.');
+                }
+
+                // Data loaded, wait for subsystem selection via postMessage
+
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.body.innerHTML = `
+                    <div class="container mx-auto p-8 text-center">
+                        <h1 class="text-2xl font-bold text-red-600 mb-4">Error Loading Data</h1>
+                        <p class="text-gray-600">${error.message}</p>
+                        <button onclick="location.reload()" class="mt-6 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-all duration-200">
+                            Try Again
+                        </button>
+                    </div>
+                `;
+            }
+        });
+
+        function clearDashboard() {
+            // Clear metadata
+            document.getElementById('doc-title').textContent = '';
+            document.getElementById('doc-id').textContent = 'Sub System: ';
+            document.getElementById('doc-creation-date').textContent = 'Creation Date: ';
+            document.getElementById('doc-source-unit').textContent = 'Source Unit: ';
+            document.getElementById('doc-last-updated').textContent = 'Last Updated: ';
+            document.getElementById('current-owner').textContent = 'Current Owner: ';
+
+            // Clear status badge
+            const statusBadge = document.getElementById('status-badge');
+            statusBadge.textContent = '';
+            statusBadge.className = 'text-xs font-semibold px-3 py-1 rounded-full';
+
+            // Clear KPIs
+            document.getElementById('kpi-total-days').textContent = '';
+            document.getElementById('kpi-delayed-steps').textContent = '';
+            document.getElementById('kpi-current-stage').textContent = '';
+
+            // Clear timeline
+            document.getElementById('timeline-container').innerHTML = '';
+        }
+
+        function selectSubsystem(subsystemCode) {
+            // Filter data and update dashboard
+            const subsystemData = allData.filter(item => item.Sub_System === subsystemCode);
+            if (subsystemData.length > 0) {
+                processAndRenderDashboard(subsystemData);
+            } else {
+                console.warn('No data found for selected subsystem:', subsystemCode);
+                // Clear the dashboard if no data
+                clearDashboard();
+            }
+        }
+
+        function processAndRenderDashboard(subsystemData) {
+            const sourceData = {
+                title: subsystemData[0].Subsystem_Name || "System Workflow",
+                documentId: subsystemData[0].Sub_System || "Unknown",
+                creationDate: formatDate(subsystemData[0].RECEIVED_DATE),
+                sourceUnit: subsystemData[0].UNIT || "Unknown",
+                lastUpdated: formatDate(new Date()),
+                currentStatus: "Under Review",
+                steps: []
+            };
+
+            const steps = [...new Set(subsystemData.map(d => d.STEP))].sort();
+            
+            steps.forEach((step, index) => {
+                const records = subsystemData.filter(d => d.STEP === step);
+                records.forEach((record, recordIndex) => {
+                    const currentIndex = subsystemData.findIndex(d => 
+                        d.STEP === record.STEP && 
+                        d.RECEIVED_DATE.getTime() === record.RECEIVED_DATE.getTime() &&
+                        d.PERSON === record.PERSON
+                    );
+                    
+                    const nextRecord = subsystemData[currentIndex + 1] || null;
+                    const endDate = nextRecord ? nextRecord.RECEIVED_DATE : new Date();
+                    const diffTime = Math.abs(endDate - record.RECEIVED_DATE);
+                    const days = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+                    
+                    let status = "Completed";
+                    let isCurrent = false;
+                    if (!nextRecord) {
+                        status = "Under Review";
+                        isCurrent = true;
+                        sourceData.currentStatus = "Under Review";
+                        sourceData.lastUpdated = formatDate(new Date());
+                    } else {
+                        sourceData.lastUpdated = formatDate(nextRecord.RECEIVED_DATE);
+                    }
+                    
+                    sourceData.steps.push({
+                        id: index + 1,
+                        status: status,
+                        title: record.STEP,
+                        responsible: record.PERSON,
+                        entryDate: formatDate(record.RECEIVED_DATE),
+                        comments: record.DESCRIPTION,
+                        isCurrent: isCurrent,
+                        duration: days,
+                        isDelayed: days > 3 // Define delay logic here
+                    });
+                });
+            });
+
+            if (!sourceData.steps.some(s => s.isCurrent) && sourceData.steps.length > 0) {
+                sourceData.steps[sourceData.steps.length - 1].status = "Under Review";
+                sourceData.steps[sourceData.steps.length - 1].isCurrent = true;
+                sourceData.currentStatus = "Under Review";
+            }
+            
+            updateDashboard(sourceData);
+        }
+
+        function formatDate(date) {
+            if (!date) return '';
+            return new Intl.DateTimeFormat('fa-IR').format(date);
+        }
+
+        function updateDashboard(sourceData) {
+            let totalDays = 0;
+            let delayedStepsCount = 0;
+
+            const colorPalette = [
+                { border: '#60a5fa', bg: 'bg-blue-50' },   // blue
+                { border: '#34d399', bg: 'bg-emerald-50' }, // emerald
+                { border: '#fb923c', bg: 'bg-orange-50' },  // orange
+                { border: '#a78bfa', bg: 'bg-violet-50' }, // violet
+                { border: '#f472b6', bg: 'bg-pink-50' },    // pink
+                { border: '#818cf8', bg: 'bg-indigo-50' },  // indigo
+                { border: '#22d3ee', bg: 'bg-cyan-50' },    // cyan
+                { border: '#fbbf24', bg: 'bg-amber-50' }    // amber
+            ];
+            const stepColorMap = new Map();
+            let colorIndex = 0;
+
+            sourceData.steps.forEach(step => {
+                if (step.status === 'Under Review' || step.status === 'Completed') {
+                    totalDays += step.duration || 0;
+                    if (step.isDelayed) {
+                        delayedStepsCount++;
+                    }
+                }
+                if (!stepColorMap.has(step.title)) {
+                    stepColorMap.set(step.title, colorPalette[colorIndex % colorPalette.length]);
+                    colorIndex++;
+                }
+            });
+
+            // Update document metadata
+            document.getElementById('doc-title').textContent = `Document Number: ${sourceData.documentId}`;
+            document.getElementById('doc-id').textContent = `Sub System: ${sourceData.title}`;
+            document.getElementById('doc-creation-date').textContent = `Creation Date: ${sourceData.creationDate}`;
+            document.getElementById('doc-source-unit').textContent = `Source Unit: ${sourceData.sourceUnit}`;
+            document.getElementById('doc-last-updated').textContent = `Last Updated: ${sourceData.lastUpdated}`;
+
+            const currentStep = sourceData.steps.find(s => s.isCurrent);
+            document.getElementById('current-owner').textContent = `Current Owner: ${currentStep ? currentStep.responsible : 'Unknown'}`;
+
+            // Update status badge
+            const statusBadge = document.getElementById('status-badge');
+            statusBadge.textContent = sourceData.currentStatus;
+            statusBadge.className = 'text-xs font-semibold px-3 py-1 rounded-full'; // Reset classes
+            let badgeClass = '';
+            if (sourceData.currentStatus === 'Under Review') badgeClass = 'bg-yellow-100 text-yellow-800';
+            else if (sourceData.currentStatus === 'Completed') badgeClass = 'bg-green-100 text-green-800';
+            else badgeClass = 'bg-slate-100 text-slate-800';
+            statusBadge.classList.add(...badgeClass.split(' '));
+
+            // Update KPIs
+            document.getElementById('kpi-total-days').textContent = totalDays;
+            document.getElementById('kpi-delayed-steps').textContent = delayedStepsCount;
+            document.getElementById('kpi-current-stage').textContent = currentStep ? currentStep.title : 'Completed';
+
+            // Update timeline
+            const timelineContainer = document.getElementById('timeline-container');
+            timelineContainer.innerHTML = '';
+
+            // Group steps by title while preserving order
+            const orderedGroups = [];
+            const groupMap = new Map();
+            sourceData.steps.forEach(step => {
+                if (!groupMap.has(step.title)) {
+                    const newGroup = { title: step.title, records: [] };
+                    groupMap.set(step.title, newGroup);
+                    orderedGroups.push(newGroup);
+                }
+                groupMap.get(step.title).records.push(step);
+            });
+
+            orderedGroups.forEach(group => {
+                const title = group.title;
+                const stepsInGroup = group.records;
+
+                // Determine if any step in the group is delayed
+                const isAnyDelayed = stepsInGroup.some(s => s.isDelayed);
+                // Determine if any step in the group is 'in progress'
+                const isCurrentGroup = stepsInGroup.some(s => s.isCurrent);
+                const status = isCurrentGroup ? 'Under Review' : 'Completed';
+
+                // Get color for the step group
+                const stepColors = stepColorMap.get(title);
+
+                // Icon and background class for status
+                let iconClass, iconBgClass;
+                switch (status) {
+                    case 'Completed':
+                        iconClass = 'fa-solid fa-check';
+                        iconBgClass = 'bg-green-500';
+                        break;
+                    case 'Under Review':
+                        iconClass = 'fa-solid fa-hourglass-half';
+                        iconBgClass = 'bg-blue-500';
+                        break;
+                    default: // Should not happen with this logic
+                        iconClass = 'fa-solid fa-ellipsis';
+                        iconBgClass = 'bg-slate-400';
+                }
+
+                const rowElement = document.createElement('div');
+                rowElement.className = 'relative';
+
+                let cardsHTML = '';
+                stepsInGroup.forEach(step => {
+                    // Use step group color for background and border
+                    const bgClass = stepColors.bg;
+                    const borderStyle = `border-color: ${stepColors.border};`;
+                    const delayClass = step.isDelayed ? 'border-red-400 animate-pulse-border' : '';
+
+                    cardsHTML += `
+                        <div class="flex-1 min-w-[250px] p-3 ${bgClass} rounded-lg border-l-4 ${delayClass} shadow-sm" style="${borderStyle}">
+                            <div class="flex items-start justify-between gap-2">
+                                <div class="flex-1">
+                                    <p class="font-semibold text-sm text-slate-700" title="${step.responsible}">${step.responsible}</p>
+                                    <p class="text-xs text-slate-500 mt-1">${step.entryDate}</p>
+                                </div>
+                                ${step.duration !== undefined ? `<div class="flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold cursor-pointer transition-transform duration-300 hover:scale-110 ${step.isDelayed ? 'bg-red-500 text-white animate-scale-pulse' : 'bg-slate-300 text-slate-700'}" title="Duration in days">${step.duration}</div>` : ''}
+                            </div>
+                            ${step.comments ? `<p class="text-xs text-slate-600 mt-2 pt-2 border-t border-slate-200">${step.comments}</p>` : ''}
+                        </div>
+                    `;
+                });
+
+                // If any step is delayed, show a single red blinking clock icon instead of the usual icon
+                let iconHTML = '';
+                if (isAnyDelayed) {
+                    iconHTML = `
+                        <div class="absolute -right-6 top-1 w-4 h-4 rounded-full flex items-center justify-center text-red-600 ring-4 ring-white blink-red">
+                            <i class="fa-solid fa-clock" style="font-size: 8px;"></i>
+                        </div>
+                    `;
+                } else {
+                    iconHTML = `
+                        <div class="absolute -right-6 top-1 w-4 h-4 ${iconBgClass} rounded-full flex items-center justify-center text-white ring-4 ring-white">
+                            <i class="${iconClass}" style="font-size: 8px;"></i>
+                        </div>
+                    `;
+                }
+
+                rowElement.innerHTML = `
+                    ${iconHTML}
+                    <div class="ml-4">
+                        <h3 class="font-semibold text-base text-slate-800 mb-3">${title}</h3>
+                        <div class="flex flex-wrap gap-4">
+                            ${cardsHTML}
+                        </div>
+                    </div>
+                `;
+
+                timelineContainer.appendChild(rowElement);
+            });
+        }
+    </script>
+
+    <script>
+        // Listen for postMessage from parent window
+        window.addEventListener('message', (event) => {
+            // For security, you can check event.origin here if needed
+            const message = event.data;
+            if (message && message.type === 'subsystemSelection' && typeof message.subsystemCode === 'string') {
+                const subsystemCode = message.subsystemCode;
+
+                // Call selectSubsystem to update dashboard
+                if (typeof selectSubsystem === 'function') {
+                    selectSubsystem(subsystemCode);
+                } else {
+                    console.warn('selectSubsystem function not found.');
+                }
+            } else if (message && message.type === 'clearDashboard') {
+                // Clear the dashboard
+                clearDashboard();
+            }
+        });
+    </script>
 </body>
 </html>
