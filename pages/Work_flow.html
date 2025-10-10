@@ -173,6 +173,9 @@
         let allData = [];
 
         document.addEventListener('DOMContentLoaded', async function () {
+            // Initially clear dashboard
+            clearDashboard();
+
             try {
                 const response = await fetch('https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/dbcsv/TRANS.CSV');
                 const csvText = await response.text();
@@ -216,6 +219,29 @@
             }
         });
 
+        function clearDashboard() {
+            // Clear metadata
+            document.getElementById('doc-title').textContent = '';
+            document.getElementById('doc-id').textContent = 'Document Number: ';
+            document.getElementById('doc-creation-date').textContent = 'Creation Date: ';
+            document.getElementById('doc-source-unit').textContent = 'Source Unit: ';
+            document.getElementById('doc-last-updated').textContent = 'Last Updated: ';
+            document.getElementById('current-owner').textContent = 'Current Owner: ';
+
+            // Clear status badge
+            const statusBadge = document.getElementById('status-badge');
+            statusBadge.textContent = '';
+            statusBadge.className = 'text-xs font-semibold px-3 py-1 rounded-full';
+
+            // Clear KPIs
+            document.getElementById('kpi-total-days').textContent = '';
+            document.getElementById('kpi-delayed-steps').textContent = '';
+            document.getElementById('kpi-current-stage').textContent = '';
+
+            // Clear timeline
+            document.getElementById('timeline-container').innerHTML = '';
+        }
+
         function selectSubsystem(subsystemCode) {
             // Filter data and update dashboard
             const subsystemData = allData.filter(item => item.Sub_System === subsystemCode);
@@ -223,8 +249,8 @@
                 processAndRenderDashboard(subsystemData);
             } else {
                 console.warn('No data found for selected subsystem:', subsystemCode);
-                // Optionally, show a message or clear the dashboard
-                document.getElementById('timeline-container').innerHTML = '<p class="text-center text-muted">No data available for this subsystem.</p>';
+                // Clear the dashboard if no data
+                clearDashboard();
             }
         }
 
