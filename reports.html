@@ -34,7 +34,7 @@
     .card:hover {
       box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
     }
-    .chart-container { position: relative; height: 350px; }
+    .chart-container { position: relative; height: 250px; }
     .filter-btn {
       transition: all 0.2s;
       border-radius: 0.5rem;
@@ -126,8 +126,8 @@
   }
   #lineChartTable th, #lineChartTable td {
     text-align: center;
-    padding: 0.2rem 0.1rem;
-    font-size: 0.6rem;
+    padding: 0.3rem 0.4rem;
+    font-size: 1rem;
     border: 1px solid #ddd;
   }
 
@@ -139,6 +139,12 @@
   }
   #lineChartTable tbody tr {
     background-color: #f9f9f9;
+  }
+  #lineChartTableContainer {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
   }
   #dataTable th, #dataTable td {
     font-size: 0.6rem;
@@ -156,18 +162,27 @@
       <p>Loading data...</p>
     </div>
 
-    <!-- Summary Stats -->
-    <div class="row mb-4" id="summaryStats">
-      <!-- Filled by JS -->
+    <!-- Title and Summary Card -->
+    <div class="card mb-4">
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <div class="flex-grow-1 text-center">
+            <h5 id="chartTitle" class="mb-0"><img src="https://raw.githubusercontent.com/akarimvand/SAPRA2/main/images/SAPRA-2.png" alt="SAPRA" style="height: 30px; margin-right: 10px;"> SAPRA Punch Release Status</h5>
+          </div>
+          <div class="d-flex gap-1">
+            <button class="btn btn-sm btn-outline-secondary" onclick="exportLineChartToImage()" title="Download Image"><i class="fas fa-camera"></i></button>
+            <button class="btn btn-sm btn-outline-secondary" onclick="shareLineChartImage()" title="Share Image"><i class="fas fa-share"></i></button>
+            <button class="btn btn-sm btn-outline-success" onclick="exportLineChartTableToExcel('line_chart_table.xlsx')" title="Export Excel"><i class="fas fa-file-excel"></i></button>
+          </div>
+        </div>
+        <div id="summaryStats"></div>
+      </div>
     </div>
 
-    <!-- Control Panel -->
+    <!-- Filters, Chart and Table Card -->
     <div class="card mb-4">
       <div class="card-header bg-light">
-        <h5><i class="fas fa-sliders me-2"></i> Filters</h5>
-      </div>
-      <div class="card-body">
-        <div class="row g-3">
+        <div class="row g-3 mt-2">
           <!-- Date Range -->
           <div class="col-md-6">
             <label class="form-label">Date Range:</label>
@@ -199,81 +214,37 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <!-- Charts -->
-    <div class="row">
-      <div class="col-12 mb-4">
-        <div class="card">
-          <div class="card-header bg-light d-flex justify-content-between align-items-center">
-            <h5 id="chartTitle"><i class="fas fa-chart-line me-2"></i> SAPRA Punch Release Status</h5>
-            <button class="btn btn-sm btn-outline-secondary me-1" onclick="exportLineChartToImage()" title="Download Image"><i class="fas fa-camera"></i></button>
-            <button class="btn btn-sm btn-outline-secondary" onclick="shareLineChartImage()" title="Share Image"><i class="fas fa-share"></i></button>
-          </div>
+      <div class="card-body">
+        <!-- Charts -->
+        <div class="row">
+          <div class="col-12">
           <div class="card-body">
             <div class="chart-container">
               <canvas id="lineChart"></canvas>
             </div>
             <div id="lineChartLegend" class="d-flex flex-wrap justify-content-center gap-2 mt-3"></div>
-            <div id="lineChartTableContainer" class="mt-4" style="display:none;">
-              <table class="table table-striped table-bordered" id="lineChartTable">
-                <thead>
-                  <tr id="lineChartTableHeader">
-                    <th>Discipline</th>
-                    <!-- Dates filled by JS -->
-                  </tr>
-                </thead>
-                <tbody>
-                  <!-- Filled by JS -->
-                </tbody>
-              </table>
-            </div>
           </div>
         </div>
-      </div>
     </div>
 
-    <div class="card mb-4">
-      <div class="card-header bg-light">
-        <h5><i class="fas fa-chart-pie me-2"></i> Discipline Share</h5>
-      </div>
-      <div class="card-body">
-        <div class="chart-container">
-          <canvas id="pieChart"></canvas>
-        </div>
-      </div>
-    </div>
-
-    <!-- Summary Table -->
-    <div class="card">
-      <div class="card-header bg-light d-flex justify-content-between align-items-center">
-        <h5><i class="fas fa-table me-2"></i> Daily Summary</h5>
-        <button class="btn btn-sm btn-outline-secondary" onclick="exportTableToCSV('punch_report.csv')">
-          <i class="fas fa-download me-1"></i> Download CSV
-        </button>
-      </div>
-      <div class="card-body">
-        <div class="table-responsive">
-          <table class="table table-bordered table-hover" id="dataTable">
-            <thead class="table-light">
-              <tr>
-                <th>Date</th>
-                <th>Discipline</th>
-                <th>Quantity</th>
-              </tr>
-            </thead>
-            <tbody id="dataTableBody">
-              <!-- Filled by JS -->
-            </tbody>
-          </table>
-        </div>
-      </div>
+    <div id="lineChartTableContainer" class="mt-4" style="display:none;">
+      <table class="table table-striped table-bordered" id="lineChartTable">
+        <thead>
+          <tr id="lineChartTableHeader">
+            <th>Discipline</th>
+            <!-- Dates filled by JS -->
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Filled by JS -->
+        </tbody>
+      </table>
     </div>
   </div>
 
   <script>
     // --- Settings ---
-    const CSV_URL = 'https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/dbcsv/Daily_Release_Punch.csv';
+    const CSV_URL = 'https://raw.githubusercontent.com/akarimvand/SAPRA2/main/dbcsv/Daily_Release_Punch.csv';
     let allData = [];
     let currentRange = '30d';
     let selectedDisciplines = new Set();
@@ -430,6 +401,10 @@
     }
 
     function updateDashboard() {
+      if (!document.getElementById('summaryStats')) {
+        console.error('summaryStats element not found');
+        return;
+      }
       const filtered = getFilteredData();
       if (filtered.length === 0) {
         alert('No data found for the selected range and filters.');
@@ -449,36 +424,12 @@
       const activeDisciplinesCount = Object.values(disciplineTotals).filter(qty => qty > 1).length;
 
       const statsHtml = `
-        <div class="col-md-3">
-          <div class="card bg-form-a mb-3" style="min-height: 100px;">
-            <div class="card-body d-flex flex-column justify-content-center align-items-start">
-              <div class="stat-value">${totalQty.toLocaleString()}</div>
-              <div class="stat-label">Total Closed Punches</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card bg-form-b mb-3" style="min-height: 100px;">
-            <div class="card-body d-flex flex-column justify-content-center align-items-start">
-              <div class="stat-value">${uniqueDays}</div>
-              <div class="stat-label">Active Days</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card bg-form-c mb-3" style="min-height: 100px;">
-            <div class="card-body d-flex flex-column justify-content-center align-items-start">
-              <div class="stat-value">${avgPerDay}</div>
-              <div class="stat-label">Avg. per Day</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card bg-form-d mb-3" style="min-height: 100px;">
-            <div class="card-body d-flex flex-column justify-content-center align-items-start">
-              <div class="stat-value">${activeDisciplinesCount}</div>
-              <div class="stat-label">Active Disciplines</div>
-            </div>
+        <div class="card">
+          <div class="card-body p-2 text-center">
+            <span class="me-3"><strong>Total Closed Punches:</strong> ${totalQty.toLocaleString()}</span>
+            <span class="me-3"><strong>Active Days:</strong> ${uniqueDays}</span>
+            <span class="me-3"><strong>Avg. per Day:</strong> ${avgPerDay}</span>
+            <span><strong>Active Disciplines:</strong> ${activeDisciplinesCount}</span>
           </div>
         </div>
       `;
@@ -497,9 +448,7 @@
 
       const sortedDates = Object.keys(dataByDate).sort();
 
-      renderTable(filtered);
       renderLineChart(sortedDates, dataByDate);
-      renderPieChart(dataByDiscipline);
       renderLineChartTable(filtered);
 
       // Update title with date and time
@@ -696,7 +645,7 @@
         // Build header
         header.innerHTML = '';
         const trYear = document.createElement('tr');
-        trYear.innerHTML = `<th rowspan="3">Discipline</th><th colspan="${sortedDates.length}">1404</th>`;
+        trYear.innerHTML = `<th rowspan="3">Discipline</th><th colspan="${sortedDates.length}">1404</th><th rowspan="3">Total</th>`;
         header.appendChild(trYear);
 
         // Get solar months and days
@@ -727,6 +676,7 @@
           th.textContent = group.month;
           trMonth.appendChild(th);
         });
+        trMonth.innerHTML += '<th></th>'; // Empty for total column
         header.appendChild(trMonth);
 
         const trDay = document.createElement('tr');
@@ -736,34 +686,54 @@
           th.textContent = info.day;
           trDay.appendChild(th);
         });
+        trDay.innerHTML += '<th></th>'; // Empty for total column
         header.appendChild(trDay);
 
         // Build body
         tbody.innerHTML = '';
         const disciplines = [...new Set(data.map(d => d.discipline))].sort();
+        const columnTotals = new Array(sortedDates.length).fill(0);
+        let grandTotal = 0;
         disciplines.forEach(disc => {
           const tr = document.createElement('tr');
           tr.style.backgroundColor = getColorForDiscipline(disc) + '20';
           let rowHtml = `<td>${disc}</td>`;
-          sortedDates.forEach(date => {
+          let rowTotal = 0;
+          sortedDates.forEach((date, index) => {
             const qty = dataByDate[date][disc] || 0;
-            rowHtml += `<td>${qty.toLocaleString()}</td>`;
+            rowTotal += qty;
+            columnTotals[index] += qty;
+            rowHtml += `<td style="color: ${qty === 0 ? '#ccc' : 'inherit'}">${qty.toLocaleString()}</td>`;
           });
+          grandTotal += rowTotal;
+          rowHtml += `<td style="color: ${rowTotal === 0 ? '#ccc' : 'inherit'}; font-weight: bold">${rowTotal.toLocaleString()}</td>`;
           tr.innerHTML = rowHtml;
           tbody.appendChild(tr);
         });
 
+        // Add total row
+        const totalTr = document.createElement('tr');
+        totalTr.style.backgroundColor = '#f0f0f0';
+        totalTr.style.fontWeight = 'bold';
+        let totalRowHtml = `<td>Total</td>`;
+        columnTotals.forEach(total => {
+          totalRowHtml += `<td style="color: ${total === 0 ? '#ccc' : 'inherit'}">${total.toLocaleString()}</td>`;
+        });
+        totalRowHtml += `<td style="color: ${grandTotal === 0 ? '#ccc' : 'inherit'}">${grandTotal.toLocaleString()}</td>`;
+        totalTr.innerHTML = totalRowHtml;
+        tbody.appendChild(totalTr);
+
         // Set font size based on diffDays
         const table = document.getElementById('lineChartTable');
         if (diffDays <= 10) {
-          table.style.fontSize = '1.2rem';
+          table.style.fontSize = '0.25rem';
           table.querySelectorAll('th, td').forEach(cell => {
-            cell.style.padding = '0.5rem 0.4rem';
+            cell.style.padding = '0.05rem 0.075rem';
           });
         } else {
-          table.style.fontSize = '0.6rem';
+          table.style.fontSize = '0.125rem';
           table.querySelectorAll('th, td').forEach(cell => {
-            cell.style.padding = '0.2rem 0.1rem';
+            cell.style.padding = '0.02rem 0.01rem';
           });
         }
 
@@ -788,24 +758,59 @@
       return disciplineColors[disc] || '#000000'; // Default black if not found
     }
 
-    function exportTableToCSV(filename) {
-      const table = document.getElementById('dataTable');
-      let csv = [];
-      const rows = table.querySelectorAll('tr');
-      
-      for (let i = 0; i < rows.length; i++) {
-        const row = [], cols = rows[i].querySelectorAll('td, th');
-        for (let j = 0; j < cols.length; j++) {
-          row.push(cols[j].innerText);
-        }
-        csv.push(row.join(','));
-      }
+    function exportLineChartTableToExcel(filename) {
+      const table = document.getElementById('lineChartTable');
+      const clonedTable = table.cloneNode(true);
 
-      const csvFile = new Blob([csv.join('\n')], { type: 'text/csv' });
-      const downloadLink = document.createElement('a');
-      downloadLink.download = filename;
-      downloadLink.href = window.URL.createObjectURL(csvFile);
-      downloadLink.click();
+      // Add summary rows at the top
+      const tbody = clonedTable.querySelector('tbody');
+      const newRows = [];
+
+      // Title row
+      const titleRow = document.createElement('tr');
+      const titleCell = document.createElement('td');
+      titleCell.colSpan = clonedTable.querySelectorAll('thead th').length;
+      titleCell.textContent = document.getElementById('chartTitle').textContent.trim();
+      titleCell.style.fontWeight = 'bold';
+      titleCell.style.fontSize = '14px';
+      titleRow.appendChild(titleCell);
+      newRows.push(titleRow);
+
+      // Date row
+      const dateRow = document.createElement('tr');
+      const dateCell = document.createElement('td');
+      dateCell.colSpan = clonedTable.querySelectorAll('thead th').length;
+      const now = new Date();
+      const gregorian = now.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+      const time = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+      const [jy, jm, jd] = gregorianToJalali(now.getFullYear(), now.getMonth() + 1, now.getDate());
+      const jalali = `${jd}/${jm}/${jy}`;
+      dateCell.textContent = `Date: ${jalali} - ${gregorian} ${time}`;
+      dateRow.appendChild(dateCell);
+      newRows.push(dateRow);
+
+      // Summary row
+      const summaryRow = document.createElement('tr');
+      const summaryCell = document.createElement('td');
+      summaryCell.colSpan = clonedTable.querySelectorAll('thead th').length;
+      const summaryText = document.getElementById('summaryStats').textContent.trim();
+      summaryCell.textContent = `Summary: ${summaryText}`;
+      summaryRow.appendChild(summaryCell);
+      newRows.push(summaryRow);
+
+      // Chart note row
+      const chartRow = document.createElement('tr');
+      const chartCell = document.createElement('td');
+      chartCell.colSpan = clonedTable.querySelectorAll('thead th').length;
+      chartCell.textContent = 'Chart: Exported separately as image';
+      chartRow.appendChild(chartCell);
+      newRows.push(chartRow);
+
+      // Insert new rows at the beginning of tbody
+      newRows.forEach(row => tbody.insertBefore(row, tbody.firstChild));
+
+      const wb = XLSX.utils.table_to_book(clonedTable, {sheet: "Line Chart Data"});
+      XLSX.writeFile(wb, filename);
     }
 
     // --- Event Listeners ---
@@ -827,14 +832,39 @@
     document.getElementById('endDate').addEventListener('change', updateDashboard);
 
     async function exportLineChartToImage() {
-      const card = document.querySelector('.col-12.mb-4 .card'); // The SAPRA Punch Release Status card
+      // Create a temporary div to capture the entire page content
+      const tempDiv = document.createElement('div');
+      tempDiv.style.backgroundColor = '#ffffff';
+      tempDiv.style.padding = '20px';
+      tempDiv.style.width = '1200px'; // Fixed width for better layout in export
 
-      // Capture the card with html2canvas
-      const canvas = await html2canvas(card, {
-        scale: 2, // High quality
+      // Clone the entire container
+      const containerClone = document.querySelector('.container').cloneNode(true);
+
+      // Replace chart canvas with image in the clone
+      const chartCanvas = containerClone.querySelector('canvas');
+      if (chartCanvas && window.lineChart) {
+        const chartImageData = window.lineChart.toBase64Image();
+        const img = document.createElement('img');
+        img.src = chartImageData;
+        img.style.width = chartCanvas.style.width;
+        img.style.height = chartCanvas.style.height;
+        chartCanvas.parentNode.replaceChild(img, chartCanvas);
+      }
+
+      tempDiv.appendChild(containerClone);
+      document.body.appendChild(tempDiv);
+
+      // Capture the container with html2canvas
+      const canvas = await html2canvas(tempDiv, {
+        scale: 4, // Highest quality
         useCORS: true,
-        backgroundColor: '#ffffff'
+        backgroundColor: '#ffffff',
+        width: tempDiv.scrollWidth,
+        height: tempDiv.scrollHeight
       });
+
+      document.body.removeChild(tempDiv);
 
       // Create a new landscape canvas
       const landscapeCanvas = document.createElement('canvas');
@@ -873,13 +903,36 @@
     }
 
     async function shareLineChartImage() {
-      const card = document.querySelector('.col-12.mb-4 .card'); // The SAPRA Punch Release Status card
+      // Create a temporary div to capture the entire page content
+      const tempDiv = document.createElement('div');
+      tempDiv.style.backgroundColor = '#ffffff';
+      tempDiv.style.padding = '20px';
+      tempDiv.style.width = '1200px'; // Fixed width for better layout in export
 
-      // Capture the card with html2canvas
-      const canvas = await html2canvas(card, {
-        scale: 2, // High quality
+      // Clone the entire container
+      const containerClone = document.querySelector('.container').cloneNode(true);
+
+      // Replace chart canvas with image in the clone
+      const chartCanvas = containerClone.querySelector('canvas');
+      if (chartCanvas && window.lineChart) {
+        const chartImageData = window.lineChart.toBase64Image();
+        const img = document.createElement('img');
+        img.src = chartImageData;
+        img.style.width = chartCanvas.style.width;
+        img.style.height = chartCanvas.style.height;
+        chartCanvas.parentNode.replaceChild(img, chartCanvas);
+      }
+
+      tempDiv.appendChild(containerClone);
+      document.body.appendChild(tempDiv);
+
+      // Capture the container with html2canvas
+      const canvas = await html2canvas(tempDiv, {
+        scale: 4, // Highest quality
         useCORS: true,
-        backgroundColor: '#ffffff'
+        backgroundColor: '#ffffff',
+        width: tempDiv.scrollWidth,
+        height: tempDiv.scrollHeight
       });
 
       // Create a new landscape canvas
