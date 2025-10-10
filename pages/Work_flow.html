@@ -222,7 +222,7 @@
         function clearDashboard() {
             // Clear metadata
             document.getElementById('doc-title').textContent = '';
-            document.getElementById('doc-id').textContent = 'Document Number: ';
+            document.getElementById('doc-id').textContent = 'Sub System: ';
             document.getElementById('doc-creation-date').textContent = 'Creation Date: ';
             document.getElementById('doc-source-unit').textContent = 'Source Unit: ';
             document.getElementById('doc-last-updated').textContent = 'Last Updated: ';
@@ -351,8 +351,8 @@
             });
 
             // Update document metadata
-            document.getElementById('doc-title').textContent = sourceData.title;
-            document.getElementById('doc-id').textContent = `Document Number: ${sourceData.documentId}`;
+            document.getElementById('doc-title').textContent = `Document Number: ${sourceData.documentId}`;
+            document.getElementById('doc-id').textContent = `Sub System: ${sourceData.title}`;
             document.getElementById('doc-creation-date').textContent = `Creation Date: ${sourceData.creationDate}`;
             document.getElementById('doc-source-unit').textContent = `Source Unit: ${sourceData.sourceUnit}`;
             document.getElementById('doc-last-updated').textContent = `Last Updated: ${sourceData.lastUpdated}`;
@@ -489,6 +489,9 @@
                 } else {
                     console.warn('selectSubsystem function not found.');
                 }
+            } else if (message && message.type === 'clearDashboard') {
+                // Clear the dashboard
+                clearDashboard();
             }
         });
     </script>
