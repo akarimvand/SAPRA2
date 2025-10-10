@@ -127,7 +127,6 @@
   #lineChartTable th, #lineChartTable td {
     text-align: center;
     padding: 0.3rem 0.4rem;
-    font-size: 1rem;
     border: 1px solid #ddd;
   }
 
@@ -166,10 +165,11 @@
     <div class="card mb-4">
       <div class="card-body">
         <div class="d-flex justify-content-between align-items-start mb-3">
-          <img src="https://raw.githubusercontent.com/akarimvand/SAPRA2/main/images/SAPRA.png" alt="SAPRA Logo" style="height: 75px;">
+          <img src="https://raw.githubusercontent.com/akarimvand/SAPRA2/main/images/SAPRA.png" alt="SAPRA Logo" style="height: 100px; width: 100px; object-fit: contain;">
           <div class="flex-grow-1 text-center">
-            <h5 id="chartTitle" class="mb-2">SAPRA Punch Release Status</h5>
-            <div id="summaryStats" class="text-center"></div>
+            <h4 id="chartTitle" class="mb-2" style="font-size: 1.5rem; font-weight: bold;">SAPRA Punch Release Status</h4>
+            <div id="summaryStats" class="text-center mb-2"></div>
+            <div id="dateTime" class="text-center"></div>
           </div>
           <div class="d-flex gap-1">
             <button class="btn btn-sm btn-outline-secondary" onclick="exportLineChartToImage()" title="Download Image"><i class="fas fa-camera"></i></button>
@@ -188,11 +188,11 @@
           <div class="col-md-6">
             <label class="form-label">Date Range:</label>
             <div>
-              <button class="btn btn-outline-primary filter-btn me-2" data-range="10d">Last 10 Days</button>
-              <button class="btn btn-outline-primary filter-btn me-2 active" data-range="30d">Last 30 Days</button>
-              <button class="btn btn-outline-primary filter-btn me-2" data-range="7d">Last Week</button>
-              <button class="btn btn-outline-primary filter-btn me-2" data-range="yesterday">Yesterday</button>
-              <button class="btn btn-outline-primary filter-btn" data-range="custom">Custom</button>
+              <span class="badge bg-secondary filter-badge me-2" data-range="10d" onclick="selectRange(this)">Last 10 Days</span>
+              <span class="badge bg-primary filter-badge me-2 active" data-range="30d" onclick="selectRange(this)">Last 30 Days</span>
+              <span class="badge bg-secondary filter-badge me-2" data-range="7d" onclick="selectRange(this)">Last Week</span>
+              <span class="badge bg-secondary filter-badge me-2" data-range="yesterday" onclick="selectRange(this)">Yesterday</span>
+              <span class="badge bg-secondary filter-badge" data-range="custom" onclick="selectRange(this)">Custom</span>
             </div>
             <div id="customDateRange" class="mt-2" style="display:none;">
               <div class="row">
@@ -392,6 +392,22 @@
       updateDashboard();
     }
 
+    function selectRange(el) {
+      document.querySelectorAll('[data-range]').forEach(b => {
+        b.classList.remove('active', 'bg-primary');
+        b.classList.add('bg-secondary');
+      });
+      el.classList.add('active', 'bg-primary');
+      el.classList.remove('bg-secondary');
+      currentRange = el.dataset.range;
+      if (currentRange === 'custom') {
+        document.getElementById('customDateRange').style.display = 'block';
+      } else {
+        document.getElementById('customDateRange').style.display = 'none';
+      }
+      updateDashboard();
+    }
+
     function getCurrentDateTimeString() {
       const now = new Date();
       const gregorian = now.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
@@ -460,8 +476,9 @@
       renderLineChart(sortedDates, dataByDate);
       renderLineChartTable(filtered);
 
-      // Update title with date and time
-      document.getElementById('chartTitle').innerHTML = `<i class="fas fa-chart-line me-2"></i> SAPRA Punch Release Status${getCurrentDateTimeString()}`;
+      // Update title, summary, and date/time
+      document.getElementById('chartTitle').innerHTML = `<i class="fas fa-chart-line me-2"></i> SAPRA Punch Release Status`;
+      document.getElementById('dateTime').textContent = getCurrentDateTimeString().replace('(', '').replace(')', '');
     }
 
     function renderTable(data) {
@@ -685,7 +702,6 @@
           th.textContent = group.month;
           trMonth.appendChild(th);
         });
-        trMonth.innerHTML += '<th></th>'; // Empty for total column
         header.appendChild(trMonth);
 
         const trDay = document.createElement('tr');
@@ -695,7 +711,6 @@
           th.textContent = info.day;
           trDay.appendChild(th);
         });
-        trDay.innerHTML += '<th></th>'; // Empty for total column
         header.appendChild(trDay);
 
         // Build body
@@ -732,19 +747,15 @@
         totalTr.innerHTML = totalRowHtml;
         tbody.appendChild(totalTr);
 
-        // Set font size based on diffDays
+        // Set font size
         const table = document.getElementById('lineChartTable');
-        if (diffDays <= 10) {
-          table.style.fontSize = '0.25rem';
-          table.querySelectorAll('th, td').forEach(cell => {
-            cell.style.padding = '0.05rem 0.075rem';
-          });
-        } else {
-          table.style.fontSize = '0.125rem';
-          table.querySelectorAll('th, td').forEach(cell => {
-            cell.style.padding = '0.02rem 0.01rem';
-          });
-        }
+        table.style.fontSize = '0.8rem';
+        table.style.lineHeight = '1.2';
+        table.querySelectorAll('th, td').forEach(cell => {
+          cell.style.padding = '0.2rem 0.3rem';
+          cell.style.lineHeight = '1.2';
+          cell.style.fontSize = '0.8rem';
+        });
 
         container.style.display = 'block';
       } else {
@@ -823,19 +834,6 @@
     }
 
     // --- Event Listeners ---
-    document.querySelectorAll('[data-range]').forEach(btn => {
-      btn.addEventListener('click', function() {
-        document.querySelectorAll('[data-range]').forEach(b => b.classList.remove('active'));
-        this.classList.add('active');
-        currentRange = this.dataset.range;
-        if (currentRange === 'custom') {
-          document.getElementById('customDateRange').style.display = 'block';
-        } else {
-          document.getElementById('customDateRange').style.display = 'none';
-        }
-        updateDashboard();
-      });
-    });
 
     document.getElementById('startDate').addEventListener('change', updateDashboard);
     document.getElementById('endDate').addEventListener('change', updateDashboard);
@@ -844,11 +842,14 @@
       // Create a temporary div to capture the entire page content
       const tempDiv = document.createElement('div');
       tempDiv.style.backgroundColor = '#ffffff';
-      tempDiv.style.padding = '20px';
+      tempDiv.style.padding = '0px';
       tempDiv.style.width = '1200px'; // Fixed width for better layout in export
 
       // Clone the entire container
       const containerClone = document.querySelector('.container').cloneNode(true);
+      // Remove padding and margin to avoid white space
+      containerClone.style.padding = '0';
+      containerClone.style.margin = '0';
 
       // Replace chart canvas with image in the clone
       const chartCanvas = containerClone.querySelector('canvas');
@@ -888,20 +889,8 @@
       ctx.drawImage(canvas, -canvas.width / 2, -canvas.height / 2);
       ctx.restore();
 
-      // Add title
-      ctx.fillStyle = '#000000';
-      ctx.font = 'bold 24px Vazir';
-      ctx.textAlign = 'center';
-      ctx.fillText('SAPRA Punch Release Status', landscapeCanvas.width / 2, 40);
-
-      // Add date
-      const now = new Date();
-      const dateStr = now.toLocaleDateString('fa-IR');
-      ctx.font = '16px Vazir';
-      ctx.fillText(dateStr, landscapeCanvas.width / 2, 70);
-
       // Generate filename
-      const dateTimeStr = now.toISOString().replace(/:/g, '-').replace('T', ' ').split('.')[0];
+      const dateTimeStr = new Date().toISOString().replace(/:/g, '-').replace('T', ' ').split('.')[0];
       const filename = `SAPRA PUNCH STATUS ${dateTimeStr}.png`;
 
       // Download the image
@@ -915,11 +904,14 @@
       // Create a temporary div to capture the entire page content
       const tempDiv = document.createElement('div');
       tempDiv.style.backgroundColor = '#ffffff';
-      tempDiv.style.padding = '20px';
+      tempDiv.style.padding = '0px';
       tempDiv.style.width = '1200px'; // Fixed width for better layout in export
 
       // Clone the entire container
       const containerClone = document.querySelector('.container').cloneNode(true);
+      // Remove padding and margin to avoid white space
+      containerClone.style.padding = '0';
+      containerClone.style.margin = '0';
 
       // Replace chart canvas with image in the clone
       const chartCanvas = containerClone.querySelector('canvas');
@@ -957,20 +949,8 @@
       ctx.drawImage(canvas, -canvas.width / 2, -canvas.height / 2);
       ctx.restore();
 
-      // Add title
-      ctx.fillStyle = '#000000';
-      ctx.font = 'bold 24px Vazir';
-      ctx.textAlign = 'center';
-      ctx.fillText('SAPRA Punch Release Status', landscapeCanvas.width / 2, 40);
-
-      // Add date
-      const now = new Date();
-      const dateStr = now.toLocaleDateString('fa-IR');
-      ctx.font = '16px Vazir';
-      ctx.fillText(dateStr, landscapeCanvas.width / 2, 70);
-
       // Generate filename
-      const dateTimeStr = now.toISOString().replace(/:/g, '-').replace('T', ' ').split('.')[0];
+      const dateTimeStr = new Date().toISOString().replace(/:/g, '-').replace('T', ' ').split('.')[0];
       const filename = `SAPRA PUNCH STATUS ${dateTimeStr}.png`;
 
       // Share the image
