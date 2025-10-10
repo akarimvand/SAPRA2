@@ -165,9 +165,11 @@
     <!-- Title and Summary Card -->
     <div class="card mb-4">
       <div class="card-body">
-        <div class="d-flex justify-content-between align-items-center mb-3">
+        <div class="d-flex justify-content-between align-items-start mb-3">
+          <img src="https://raw.githubusercontent.com/akarimvand/SAPRA2/main/images/SAPRA.png" alt="SAPRA Logo" style="height: 75px;">
           <div class="flex-grow-1 text-center">
-            <h5 id="chartTitle" class="mb-0"><img src="https://raw.githubusercontent.com/akarimvand/SAPRA2/main/images/SAPRA-2.png" alt="SAPRA" style="height: 30px; margin-right: 10px;"> SAPRA Punch Release Status</h5>
+            <h5 id="chartTitle" class="mb-2">SAPRA Punch Release Status</h5>
+            <div id="summaryStats" class="text-center"></div>
           </div>
           <div class="d-flex gap-1">
             <button class="btn btn-sm btn-outline-secondary" onclick="exportLineChartToImage()" title="Download Image"><i class="fas fa-camera"></i></button>
@@ -175,7 +177,6 @@
             <button class="btn btn-sm btn-outline-success" onclick="exportLineChartTableToExcel('line_chart_table.xlsx')" title="Export Excel"><i class="fas fa-file-excel"></i></button>
           </div>
         </div>
-        <div id="summaryStats"></div>
       </div>
     </div>
 
@@ -424,12 +425,20 @@
       const activeDisciplinesCount = Object.values(disciplineTotals).filter(qty => qty > 1).length;
 
       const statsHtml = `
-        <div class="card">
-          <div class="card-body p-2 text-center">
-            <span class="me-3"><strong>Total Closed Punches:</strong> ${totalQty.toLocaleString()}</span>
-            <span class="me-3"><strong>Active Days:</strong> ${uniqueDays}</span>
-            <span class="me-3"><strong>Avg. per Day:</strong> ${avgPerDay}</span>
-            <span><strong>Active Disciplines:</strong> ${activeDisciplinesCount}</span>
+        <div class="text-center mb-3">
+          <div class="row g-2 justify-content-center">
+            <div class="col-auto">
+              <span class="fw-bold me-3">Total Closed Punches:</span> <span>${totalQty.toLocaleString()}</span>
+            </div>
+            <div class="col-auto">
+              <span class="fw-bold me-3">Active Days:</span> <span>${uniqueDays}</span>
+            </div>
+            <div class="col-auto">
+              <span class="fw-bold me-3">Avg. per Day:</span> <span>${avgPerDay}</span>
+            </div>
+            <div class="col-auto">
+              <span class="fw-bold">Active Disciplines:</span> <span>${activeDisciplinesCount}</span>
+            </div>
           </div>
         </div>
       `;
