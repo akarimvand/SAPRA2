@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>درباره SAPRA</title>
+  <title>درباره سامانه SAPRA</title>
   
   <!-- فونت وزیر -->
   <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" />
@@ -18,108 +18,116 @@
           fontFamily: {
             sans: ['Vazirmatn', 'sans-serif'],
           },
+          colors: {
+            primary: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              600: '#2563eb',
+            },
+            success: {
+              50: '#f0fdf4',
+              600: '#16a34a',
+            },
+            info: {
+              50: '#f0f9ff',
+              600: '#0284c7',
+            },
+            accent: {
+              50: '#fffbeb',
+              600: '#d97706',
+            }
+          }
         },
       },
     };
   </script>
 
   <style>
-    @keyframes fadeInUp {
-      from { opacity: 0; transform: translateY(12px); }
-      to { opacity: 1; transform: translateY(0); }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
     }
-    .animate-fade-in-up {
-      animation: fadeInUp 0.6s ease-out forwards;
+    .animate-fade-in {
+      animation: fadeIn 0.8s ease-out;
     }
-    .delay-1 { animation-delay: 0.05s; }
-    .delay-2 { animation-delay: 0.1s; }
-    .delay-3 { animation-delay: 0.15s; }
-    .delay-4 { animation-delay: 0.2s; }
   </style>
 </head>
 <body class="bg-white min-h-screen p-4 md:p-6">
 
-  <!-- کارت اصلی -->
-  <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
-    <div class="p-6 md:p-7 space-y-6 text-gray-800">
-      
-      <!-- معرفی سامانه -->
-      <div class="animate-fade-in-up delay-1">
-        <div class="flex items-start gap-4">
-          <div class="mt-1 text-blue-600 flex-shrink-0">
+  <div class="max-w-4xl mx-auto">
+    <!-- کارت اصلی -->
+    <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden animate-fade-in">
+      <div class="p-6 md:p-8 text-gray-800 leading-relaxed space-y-7">
+
+        <!-- عنوان اصلی در باکس آبی ملایم -->
+        <div class="bg-primary-50 border border-primary-100 rounded-lg p-4 flex items-start gap-3">
+          <div class="mt-0.5 text-primary-600">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
             </svg>
           </div>
           <div>
-            <h2 class="text-lg font-semibold text-gray-900">هدف سامانه SAPRA</h2>
-            <p class="mt-2 text-sm md:text-base leading-relaxed">
-              سامانه SAPRA با هدف <strong class="text-blue-700">یکپارچه‌سازی و کنترل رسمی اطلاعات و اسناد پروژه</strong> طراحی شده است. این سیستم بر اساس <strong>دستورالعمل‌های داخلی مدیریت پروژه</strong> و <strong>استانداردهای کنترل کیفیت (QC)</strong> عمل می‌کند تا اطمینان حاصل شود که تمام اسناد و گزارش‌های پروژه، به‌صورت کامل، قابل ردیابی و مطابق با الزامات فنی و مستندسازی باشند.
+            <h1 class="font-bold text-gray-900 text-lg">سامانه SAPRA: کنترل مبتنی بر اسناد پروژه</h1>
+            <p class="mt-1 text-sm text-gray-700">
+              یکپارچه‌سازی و کنترل رسمی <strong>اطلاعات و اسناد پروژه</strong> بر اساس استانداردهای بین‌المللی
             </p>
           </div>
         </div>
-      </div>
 
-      <!-- ملاک محاسبه پیشرفت -->
-      <div class="animate-fade-in-up delay-2">
-        <div class="flex items-start gap-4">
-          <div class="mt-1 text-emerald-600 flex-shrink-0">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-          </div>
-          <div>
-            <h2 class="text-lg font-semibold text-gray-900">ملاک نمایش پیشرفت</h2>
-            <p class="mt-2 text-sm md:text-base leading-relaxed">
-              در سامانه SAPRA، <strong>پیشرفت هر فعالیت تنها زمانی محاسبه و نمایش داده می‌شود که تمام اسناد و مدارک مورد نیاز آن فعالیت</strong> — از جمله فرم‌های QC، گزارش‌های نهایی و مدارک HOS — <strong>به‌طور کامل تهیه، بررسی و توسط ذی‌صلاح تأیید نهایی شده باشند</strong>.
-            </p>
-            <p class="mt-2 text-sm md:text-base text-gray-700">
-              به عبارت دیگر، ملاک پیشرفت، <strong>تعداد و وضعیت تأیید اسناد الزامی هر آیتم کاری</strong> است، نه صرفاً انجام فیزیکی فعالیت در محل.
-            </p>
-          </div>
-        </div>
-      </div>
+        <!-- متن اصلی — یکپارچه و پاراگراف‌بندی‌شده -->
+        <p>
+          سامانه SAPRA با هدف <strong>یکپارچه‌سازی و کنترل رسمی اطلاعات و اسناد پروژه</strong> طراحی شده است. این سیستم بر اساس دستورالعمل‌های داخلی مدیریت پروژه و استانداردهای کنترل کیفیت (QC) عمل می‌کند تا اطمینان حاصل شود که تمام اسناد و گزارش‌های پروژه، به‌صورت کامل، قابل ردیابی و مطابق با الزامات فنی باشند.
+        </p>
 
-      <!-- تفاوت با پیشرفت وزنی -->
-      <div class="bg-red-50 border-r-4 border-red-500 rounded-lg p-4 animate-fade-in-up delay-3">
-        <div class="flex items-start gap-4">
-          <div class="mt-0.5 text-red-700 flex-shrink-0">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <p>
+          در این رویکرد، <strong>پیشرفت هر فعالیت تنها زمانی در سامانه محاسبه و نمایش داده می‌شود که تمام اسناد مرتبط با آن — از جمله فرم‌های QC، گزارش‌های نهایی و مدارک HOS — به‌طور کامل تهیه، بررسی و توسط ذی‌صلاح تأیید نهایی شده باشند</strong>. به عبارت دیگر، ملاک پیشرفت، <strong>تعداد و وضعیت تأیید اسناد الزامی هر آیتم کاری</strong> است، نه صرفاً انجام فیزیکی فعالیت در محل.
+        </p>
+
+        <!-- بلوک تفاوت با پیشرفت وزنی -->
+        <div class="bg-red-50 border-r-4 border-red-500 rounded-lg p-4">
+          <div class="flex items-start gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-red-700 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 0h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
             </svg>
-          </div>
-          <div>
-            <h3 class="font-bold text-red-800 text-sm md:text-base">تفاوت اساسی با سایر روش‌های گزارش‌دهی</h3>
-            <p class="mt-1 text-red-700 text-sm md:text-base leading-relaxed">
-              این روش محاسبه پیشرفت <strong>با پیشرفت وزنی (Weighted Progress)</strong> مورد استفاده در سایر سیستم‌های کنترل پروژه <strong>تفاوت بنیادین دارد</strong> و <strong>قابل مقایسه نیست</strong>. SAPRA پیشرفت را بر اساس <strong>تکمیل و تأیید رسمی اسناد پروژه</strong> گزارش می‌کند، نه بر اساس برآوردهای زمانی یا درصد انجام فیزیکی کار.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- راهنمایی برای پیگیری موقت -->
-      <div class="animate-fade-in-up delay-4">
-        <div class="flex items-start gap-4">
-          <div class="mt-1 text-indigo-600 flex-shrink-0">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-          </div>
-          <div>
-            <h3 class="text-lg font-semibold text-gray-900">پیگیری اطلاعات قبل از تأیید رسمی</h3>
-            <p class="mt-2 text-sm md:text-base text-gray-700">
-              در صورت نیاز به پیگیری پیشرفت لحظه‌ای یا جمع‌آوری اطلاعات از تیم‌های اجرایی قبل از تکمیل اسناد رسمی، این فرآیند <strong>خارج از چارچوب گزارش‌دهی SAPRA</strong> است و باید از طریق <strong>هماهنگی مستقیم با تیم‌های مربوطه</strong> انجام شود.
-            </p>
+            <div>
+              <h3 class="font-bold text-red-800 text-sm md:text-base">نکته کلیدی:</h3>
+              <p class="text-red-700 text-sm md:text-base mt-1">
+                این روش محاسبه پیشرفت <strong>با پیشرفت وزنی (Weighted Progress)</strong> مورد استفاده در سایر سیستم‌ها <strong>تفاوت بنیادین دارد</strong> و <strong>قابل مقایسه نیست</strong>. SAPRA پیشرفت را بر اساس <strong>تکمیل و تأیید رسمی اسناد پروژه</strong> گزارش می‌کند.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- فوتر درون کارت -->
-      <div class="pt-5 mt-5 border-t border-gray-200 text-center text-xs text-gray-500">
-        <p>توسعه‌دهنده: امین ناصری کریم‌وند</p>
-        <p class="mt-1">akarimvand@gmail.com | +98 990 058 7168</p>
-      </div>
+        <p>
+          این رویکرد در راستای اصول <strong>ISO 19650</strong> (استاندارد بین‌المللی مدیریت اطلاعات در پروژه‌های ساخت‌وساز) و <strong>راهنمای PMBoK</strong> است. این استانداردها تأکید می‌کنند که پیشرفت پروژه تنها زمانی قابل اعتماد است که بر پایهٔ اسناد تأییدشده و قابل ردیابی باشد.
+        </p>
 
+        <p>
+          رعایت این اصل، مزایای مشترکی برای <strong>همه ذینفعان پروژه</strong> — از جمله کارفرما، پیمانکار و تیم‌های نظارتی — ایجاد می‌کند:
+        </p>
+
+        <ul class="space-y-2 pr-2 text-gray-700 list-disc">
+          <li>ایجاد <strong>شفافیت کامل</strong> در وضعیت اجرای هر فعالیت بر اساس مستندات معتبر.</li>
+          <li>تضمین <strong>قابلیت ردیابی دقیق</strong> برای هر گزارش، در هر سطح از جزئیات پروژه.</li>
+          <li>افزایش <strong>اعتماد متقابل</strong> مبتنی بر داده‌های مستند و تأییدشده.</li>
+          <li>پایه‌ریزی <strong>گزارش‌های یکپارچه و قابل استناد</strong> برای تصمیم‌گیری‌های استراتژیک.</li>
+        </ul>
+
+        <p>
+          بنابراین، این رویکرد نه یک محدودیت، بلکه <strong>پیاده‌سازی عملی الزامات استانداردهای جهانی مدیریت پروژه</strong> برای دستیابی به <strong>کیفیت، شفافیت و همکاری مؤثر</strong> است.
+        </p>
+
+        <p>
+          در صورت نیاز به پیگیری پیشرفت لحظه‌ای یا جمع‌آوری اطلاعات از تیم‌های اجرایی قبل از تکمیل اسناد رسمی، این فرآیند <strong>خارج از چارچوب گزارش‌دهی SAPRA</strong> است و باید از طریق <strong>هماهنگی مستقیم با تیم‌های مربوطه</strong> انجام شود.
+        </p>
+
+        <!-- فوتر -->
+        <div class="pt-6 mt-6 border-t border-gray-200 text-center text-xs text-gray-500">
+          <p>توسعه‌دهنده: امین ناصری کریم‌وند</p>
+          <p class="mt-1">akarimvand@gmail.com | +98 990 058 7168</p>
+        </div>
+
+      </div>
     </div>
   </div>
 
