@@ -89,7 +89,7 @@
 4000,4000-07,Utility,Plant Air,PI,10,10,0,17,4,13,30
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,4,20,0,20,0
-4000,4000-08,Utility,Cooling Water,PI,294,270,3,604,376,228,37
+4000,4000-08,Utility,Cooling Water,PI,294,270,3,606,393,213,37
 4000,4000-08,Utility,Cooling Water,IN,745,640,63,298,95,203,533
 4000,4000-08,Utility,Cooling Water,EL,6,6,0,56,14,42,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,27,0,0,0,0,26
@@ -102,13 +102,13 @@
 4000,4000-11,Utility,Instrument Air,IN,78,78,0,70,23,47,18
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,MER,4,0,2,8,0,8,0
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,IN,25,21,2,7,2,5,20
-4000,4000-12,Utility,COC Water and Lab Chemical Sump,PI,23,12,7,22,3,19,14
+4000,4000-12,Utility,COC Water and Lab Chemical Sump,PI,23,12,8,22,3,19,14
 4000,4000-13,Utility,Slope Close Drain,MER,1,0,0,0,0,0,0
 4000,4000-13,Utility,Slope Close Drain,EL,1,1,0,6,4,2,0
 4000,4000-13,Utility,Slope Close Drain,PI,29,29,0,48,21,27,3
 4000,4000-14,Utility,Fire Water,IN,33,33,0,0,0,0,0
 4000,4000-14,Utility,Fire Water,MES,1,0,1,0,0,0,0
-4000,4000-14,Utility,Fire Water,PI,127,125,0,340,145,195,2536
+4000,4000-14,Utility,Fire Water,PI,127,125,0,341,155,186,2536
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,141,40,101,29
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,8,41,0,41,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,7,5,78,11,67,5
@@ -136,7 +136,7 @@
 7000,7000-01,Flare,Flare System (In Site),IN,145,76,34,161,47,114,17
 7000,7000-01,Flare,Flare System (In Site),MER,2,2,0,0,0,0,0
 7000,7000-01,Flare,Flare System (In Site),MES,2,2,0,8,0,8,0
-7000,7000-01,Flare,Flare System (In Site),PI,49,49,0,115,56,59,77
+7000,7000-01,Flare,Flare System (In Site),PI,49,49,0,120,59,61,77
 BLD,BLD-01,Building,Substation,PI,4,4,0,6,3,3,9
 BLD,BLD-01,Building,Substation,CV,14,14,0,63,6,57,0
 BLD,BLD-02,Building,Control Building,CV,8,8,0,0,0,0,0
