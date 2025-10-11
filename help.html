@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>درباره سامانه SAPRA</title>
+  <title>درباره SAPRA</title>
   
-  <!-- فونت وزیر (Vazirmatn) -->
+  <!-- فونت وزیر -->
   <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" />
 
   <!-- Tailwind CSS -->
@@ -25,42 +25,36 @@
 
   <style>
     @keyframes fadeInUp {
-      from { opacity: 0; transform: translateY(20px); }
+      from { opacity: 0; transform: translateY(12px); }
       to { opacity: 1; transform: translateY(0); }
     }
     .animate-fade-in-up {
-      animation: fadeInUp 0.7s ease-out forwards;
+      animation: fadeInUp 0.6s ease-out forwards;
     }
-    .delay-1 { animation-delay: 0.1s; }
-    .delay-2 { animation-delay: 0.2s; }
-    .delay-3 { animation-delay: 0.3s; }
-    .delay-4 { animation-delay: 0.4s; }
+    .delay-1 { animation-delay: 0.05s; }
+    .delay-2 { animation-delay: 0.1s; }
+    .delay-3 { animation-delay: 0.15s; }
+    .delay-4 { animation-delay: 0.2s; }
   </style>
 </head>
-<body class="bg-gradient-to-br from-gray-50 to-blue-50 min-h-screen flex flex-col items-center justify-center p-4">
+<body class="bg-white min-h-screen p-4 md:p-6">
 
-  <div class="max-w-4xl w-full bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
-    <!-- هدر -->
-    <div class="bg-gradient-to-r from-blue-600 to-indigo-700 p-8 text-center text-white">
-      <h1 class="text-3xl md:text-4xl font-bold">سامانه SAPRA</h1>
-      <p class="text-blue-100 mt-2 opacity-90">یکپارچه‌سازی و کنترل رسمی فرآیندهای پروژه</p>
-    </div>
-
-    <!-- بدنه -->
-    <div class="p-6 md:p-8 space-y-8 text-gray-800">
+  <!-- کارت اصلی -->
+  <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+    <div class="p-6 md:p-7 space-y-6 text-gray-800">
       
       <!-- معرفی سامانه -->
       <div class="animate-fade-in-up delay-1">
         <div class="flex items-start gap-4">
           <div class="mt-1 text-blue-600 flex-shrink-0">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
             </svg>
           </div>
           <div>
-            <h2 class="text-xl font-semibold text-gray-900">هدف سامانه SAPRA چیست؟</h2>
-            <p class="mt-2 leading-relaxed">
-              سامانه SAPRA با هدف <strong class="text-blue-700">یکپارچه‌سازی و کنترل رسمی فرآیندهای پروژه</strong> طراحی شده است. این سیستم بر اساس <strong>دستورالعمل‌های داخلی مدیریت پروژه</strong> و <strong>استانداردهای کنترل کیفیت (QC)</strong> عمل می‌کند تا اطمینان حاصل شود که تمام فعالیت‌های گزارش‌شده، مستند، قابل ردیابی و مطابق با الزامات پروژه هستند.
+            <h2 class="text-lg font-semibold text-gray-900">هدف سامانه SAPRA</h2>
+            <p class="mt-2 text-sm md:text-base leading-relaxed">
+              سامانه SAPRA با هدف <strong class="text-blue-700">یکپارچه‌سازی و کنترل رسمی اطلاعات و اسناد پروژه</strong> طراحی شده است. این سیستم بر اساس <strong>دستورالعمل‌های داخلی مدیریت پروژه</strong> و <strong>استانداردهای کنترل کیفیت (QC)</strong> عمل می‌کند تا اطمینان حاصل شود که تمام اسناد و گزارش‌های پروژه، به‌صورت کامل، قابل ردیابی و مطابق با الزامات فنی و مستندسازی باشند.
             </p>
           </div>
         </div>
@@ -70,34 +64,34 @@
       <div class="animate-fade-in-up delay-2">
         <div class="flex items-start gap-4">
           <div class="mt-1 text-emerald-600 flex-shrink-0">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
           </div>
           <div>
-            <h2 class="text-xl font-semibold text-gray-900">ملاک نمایش پیشرفت در SAPRA چیست؟</h2>
-            <p class="mt-2 leading-relaxed">
-              در سامانه SAPRA، <strong>پیشرفت هر فعالیت تنها زمانی محاسبه و نمایش داده می‌شود که تمام مدارک مورد نیاز آن فعالیت</strong> — از جمله فرم‌های QC، گزارش‌های نهایی و مدارک HOS — <strong>به‌طور کامل تهیه، بررسی و توسط ذی‌صلاح تأیید نهایی شده باشند</strong>.
+            <h2 class="text-lg font-semibold text-gray-900">ملاک نمایش پیشرفت</h2>
+            <p class="mt-2 text-sm md:text-base leading-relaxed">
+              در سامانه SAPRA، <strong>پیشرفت هر فعالیت تنها زمانی محاسبه و نمایش داده می‌شود که تمام اسناد و مدارک مورد نیاز آن فعالیت</strong> — از جمله فرم‌های QC، گزارش‌های نهایی و مدارک HOS — <strong>به‌طور کامل تهیه، بررسی و توسط ذی‌صلاح تأیید نهایی شده باشند</strong>.
             </p>
-            <p class="mt-3 text-gray-700">
-              به عبارت دیگر، ملاک پیشرفت، <strong>تعداد و وضعیت تأیید مدارک الزامی هر آیتم کاری</strong> است، نه صرفاً انجام فیزیکی فعالیت در محل.
+            <p class="mt-2 text-sm md:text-base text-gray-700">
+              به عبارت دیگر، ملاک پیشرفت، <strong>تعداد و وضعیت تأیید اسناد الزامی هر آیتم کاری</strong> است، نه صرفاً انجام فیزیکی فعالیت در محل.
             </p>
           </div>
         </div>
       </div>
 
       <!-- تفاوت با پیشرفت وزنی -->
-      <div class="bg-red-50 border-r-4 border-red-500 rounded-lg p-5 animate-fade-in-up delay-3">
+      <div class="bg-red-50 border-r-4 border-red-500 rounded-lg p-4 animate-fade-in-up delay-3">
         <div class="flex items-start gap-4">
-          <div class="mt-1 text-red-700 flex-shrink-0">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <div class="mt-0.5 text-red-700 flex-shrink-0">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 0h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
             </svg>
           </div>
           <div>
-            <h3 class="font-bold text-red-800">تفاوت اساسی با سایر روش‌های گزارش‌دهی</h3>
-            <p class="mt-1 text-red-700 leading-relaxed">
-              این روش محاسبه پیشرفت <strong>با پیشرفت وزنی (Weighted Progress)</strong> مورد استفاده در سایر سیستم‌های کنترل پروژه <strong>تفاوت بنیادین دارد</strong> و <strong>قابل مقایسه نیست</strong>. SAPRA پیشرفت را بر اساس <strong>تکمیل مستندات رسمی</strong> و نه بر اساس برآوردهای زمانی یا درصد انجام فیزیکی گزارش می‌کند.
+            <h3 class="font-bold text-red-800 text-sm md:text-base">تفاوت اساسی با سایر روش‌های گزارش‌دهی</h3>
+            <p class="mt-1 text-red-700 text-sm md:text-base leading-relaxed">
+              این روش محاسبه پیشرفت <strong>با پیشرفت وزنی (Weighted Progress)</strong> مورد استفاده در سایر سیستم‌های کنترل پروژه <strong>تفاوت بنیادین دارد</strong> و <strong>قابل مقایسه نیست</strong>. SAPRA پیشرفت را بر اساس <strong>تکمیل و تأیید رسمی اسناد پروژه</strong> گزارش می‌کند، نه بر اساس برآوردهای زمانی یا درصد انجام فیزیکی کار.
             </p>
           </div>
         </div>
@@ -107,27 +101,25 @@
       <div class="animate-fade-in-up delay-4">
         <div class="flex items-start gap-4">
           <div class="mt-1 text-indigo-600 flex-shrink-0">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
           </div>
           <div>
-            <h3 class="font-semibold text-gray-900">پیگیری اطلاعات قبل از تأیید رسمی</h3>
-            <p class="mt-2 text-gray-700">
-              در صورت نیاز به پیگیری پیشرفت لحظه‌ای یا جمع‌آوری اطلاعات از تیم‌های اجرایی قبل از تکمیل مدارک رسمی، این فرآیند <strong>خارج از چارچوب گزارش‌دهی SAPRA</strong> است و باید از طریق <strong>هماهنگی مستقیم با تیم‌های مربوطه</strong> انجام شود.
+            <h3 class="text-lg font-semibold text-gray-900">پیگیری اطلاعات قبل از تأیید رسمی</h3>
+            <p class="mt-2 text-sm md:text-base text-gray-700">
+              در صورت نیاز به پیگیری پیشرفت لحظه‌ای یا جمع‌آوری اطلاعات از تیم‌های اجرایی قبل از تکمیل اسناد رسمی، این فرآیند <strong>خارج از چارچوب گزارش‌دهی SAPRA</strong> است و باید از طریق <strong>هماهنگی مستقیم با تیم‌های مربوطه</strong> انجام شود.
             </p>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- فوتر -->
-    <div class="bg-gray-50 p-6 text-center border-t border-gray-200 text-sm text-gray-600">
-      <p>توسعه‌دهنده: <span class="font-medium">امین ناصری کریم‌وند</span></p>
-      <div class="mt-1 flex flex-col sm:flex-row sm:justify-center sm:gap-4 gap-1 text-xs text-gray-500">
-        <span>📧 akarimvand@gmail.com</span>
-        <span>📱 +98 990 058 7168</span>
+      <!-- فوتر درون کارت -->
+      <div class="pt-5 mt-5 border-t border-gray-200 text-center text-xs text-gray-500">
+        <p>توسعه‌دهنده: امین ناصری کریم‌وند</p>
+        <p class="mt-1">akarimvand@gmail.com | +98 990 058 7168</p>
       </div>
+
     </div>
   </div>
 
