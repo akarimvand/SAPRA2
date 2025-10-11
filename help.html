@@ -1,163 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Help Center | SAPRA</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>درباره سامانه SAPRA</title>
+  
+  <!-- فونت وزیر (Vazirmatn) -->
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Vazirmatn', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+
   <style>
-    :root {
-      --primary-color: #1877F2;
-      --primary-hover: #166FE5;
-      --primary-dark: #0d47a1;
-      --secondary-color: #6c757d;
-      --success-color: #28a745;
-      --info-color: #fc5f3f;
-      --warning-color: #ffc107;
-      --danger-color: #dc3545;
-      --light-color: #f8f9fa;
-      --dark-color: #212529;
-      --background-color: #f5f7fa;
-      --card-background-color: #ffffff;
-      --text-color: #212529;
-      --text-muted-color: #6c757d;
-      --border-color: #e9ecef;
-      --shadow-sm: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
-      --shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
-      --transition-base: all 0.3s ease-in-out;
-      --border-radius-sm: 0.25rem;
-      --border-radius: 0.5rem;
-      --border-radius-lg: 0.75rem;
-      --font-family-sans-serif: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
     }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+    .animate-fade-in-up {
+      animation: fadeInUp 0.7s ease-out forwards;
     }
-
-    body {
-      font-family: var(--font-family-sans-serif);
-      background-color: var(--background-color);
-      color: var(--text-color);
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 1.5rem;
-    }
-
-    .page-card {
-      max-width: 680px;
-      width: 100%;
-      background: var(--card-background-color);
-      border-radius: var(--border-radius-lg);
-      box-shadow: var(--shadow);
-      overflow: hidden;
-      position: relative;
-    }
-
-    .sapra-logo-top {
-      position: absolute;
-      top: 1.2rem;
-      right: 1.5rem;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      color: var(--dark-color);
-      font-weight: 700;
-      font-size: 1.1rem;
-    }
-
-    .sapra-logo-top img {
-      height: 28px;
-      opacity: 0.9;
-    }
-
-    .content {
-      padding: 3.2rem 2.5rem 2.8rem;
-      text-align: center;
-    }
-
-    .icon-wrapper {
-      width: 80px;
-      height: 80px;
-      background: linear-gradient(135deg, #0dcaf0, #0d9edf);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 0 auto 1.6rem;
-      color: white;
-      font-size: 2.2rem;
-    }
-
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-      color: var(--dark-color);
-    }
-
-    .description {
-      font-size: 1.05rem;
-      line-height: 1.6;
-      color: var(--text-color);
-      margin-bottom: 1.8rem;
-      padding: 0 1rem;
-    }
-
-    .construction-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.75rem;
-      background: rgba(13, 202, 240, 0.1);
-      color: #0dcaf0;
-      padding: 0.6rem 1.4rem;
-      border-radius: 50px;
-      font-weight: 600;
-      font-size: 0.95rem;
-      animation: pulse 2s infinite;
-    }
-
-    .construction-icon {
-      display: inline-block;
-      width: 12px;
-      height: 12px;
-      background: #0dcaf0;
-      border-radius: 50%;
-      animation: blink 1.4s infinite;
-    }
-
-    @keyframes blink {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.3; }
-    }
-
-    @keyframes pulse {
-      0%, 100% { box-shadow: 0 0 0 0 rgba(13, 202, 240, 0.2); }
-      50% { box-shadow: 0 0 0 8px rgba(13, 202, 240, 0); }
-    }
+    .delay-1 { animation-delay: 0.1s; }
+    .delay-2 { animation-delay: 0.2s; }
+    .delay-3 { animation-delay: 0.3s; }
+    .delay-4 { animation-delay: 0.4s; }
   </style>
 </head>
-<body>
-  <div class="page-card">
-    <div class="sapra-logo-top">
-      <img src="https://raw.githubusercontent.com/akarimvand/SAPRA2/main/images/SAPRA-2.png" alt="SAPRA">
-      <span>SAPRA</span>
+<body class="bg-gradient-to-br from-gray-50 to-blue-50 min-h-screen flex flex-col items-center justify-center p-4">
+
+  <div class="max-w-4xl w-full bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
+    <!-- هدر -->
+    <div class="bg-gradient-to-r from-blue-600 to-indigo-700 p-8 text-center text-white">
+      <h1 class="text-3xl md:text-4xl font-bold">سامانه SAPRA</h1>
+      <p class="text-blue-100 mt-2 opacity-90">یکپارچه‌سازی و کنترل رسمی فرآیندهای پروژه</p>
     </div>
-    <div class="content">
-      <div class="icon-wrapper">
-        <i class="bi bi-headset"></i>
+
+    <!-- بدنه -->
+    <div class="p-6 md:p-8 space-y-8 text-gray-800">
+      
+      <!-- معرفی سامانه -->
+      <div class="animate-fade-in-up delay-1">
+        <div class="flex items-start gap-4">
+          <div class="mt-1 text-blue-600 flex-shrink-0">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+            </svg>
+          </div>
+          <div>
+            <h2 class="text-xl font-semibold text-gray-900">هدف سامانه SAPRA چیست؟</h2>
+            <p class="mt-2 leading-relaxed">
+              سامانه SAPRA با هدف <strong class="text-blue-700">یکپارچه‌سازی و کنترل رسمی فرآیندهای پروژه</strong> طراحی شده است. این سیستم بر اساس <strong>دستورالعمل‌های داخلی مدیریت پروژه</strong> و <strong>استانداردهای کنترل کیفیت (QC)</strong> عمل می‌کند تا اطمینان حاصل شود که تمام فعالیت‌های گزارش‌شده، مستند، قابل ردیابی و مطابق با الزامات پروژه هستند.
+            </p>
+          </div>
+        </div>
       </div>
-      <h1>Help Center</h1>
-      <p class="description">User guides, feature walkthroughs, troubleshooting tips, and best practices to help you navigate and maximize the SAPRA platform effectively.</p>
-      <div class="construction-badge">
-        <span class="construction-icon"></span>
-        This section is under active development and will be added to the application soon.
+
+      <!-- ملاک محاسبه پیشرفت -->
+      <div class="animate-fade-in-up delay-2">
+        <div class="flex items-start gap-4">
+          <div class="mt-1 text-emerald-600 flex-shrink-0">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <div>
+            <h2 class="text-xl font-semibold text-gray-900">ملاک نمایش پیشرفت در SAPRA چیست؟</h2>
+            <p class="mt-2 leading-relaxed">
+              در سامانه SAPRA، <strong>پیشرفت هر فعالیت تنها زمانی محاسبه و نمایش داده می‌شود که تمام مدارک مورد نیاز آن فعالیت</strong> — از جمله فرم‌های QC، گزارش‌های نهایی و مدارک HOS — <strong>به‌طور کامل تهیه، بررسی و توسط ذی‌صلاح تأیید نهایی شده باشند</strong>.
+            </p>
+            <p class="mt-3 text-gray-700">
+              به عبارت دیگر، ملاک پیشرفت، <strong>تعداد و وضعیت تأیید مدارک الزامی هر آیتم کاری</strong> است، نه صرفاً انجام فیزیکی فعالیت در محل.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- تفاوت با پیشرفت وزنی -->
+      <div class="bg-red-50 border-r-4 border-red-500 rounded-lg p-5 animate-fade-in-up delay-3">
+        <div class="flex items-start gap-4">
+          <div class="mt-1 text-red-700 flex-shrink-0">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 0h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+            </svg>
+          </div>
+          <div>
+            <h3 class="font-bold text-red-800">تفاوت اساسی با سایر روش‌های گزارش‌دهی</h3>
+            <p class="mt-1 text-red-700 leading-relaxed">
+              این روش محاسبه پیشرفت <strong>با پیشرفت وزنی (Weighted Progress)</strong> مورد استفاده در سایر سیستم‌های کنترل پروژه <strong>تفاوت بنیادین دارد</strong> و <strong>قابل مقایسه نیست</strong>. SAPRA پیشرفت را بر اساس <strong>تکمیل مستندات رسمی</strong> و نه بر اساس برآوردهای زمانی یا درصد انجام فیزیکی گزارش می‌کند.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- راهنمایی برای پیگیری موقت -->
+      <div class="animate-fade-in-up delay-4">
+        <div class="flex items-start gap-4">
+          <div class="mt-1 text-indigo-600 flex-shrink-0">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <div>
+            <h3 class="font-semibold text-gray-900">پیگیری اطلاعات قبل از تأیید رسمی</h3>
+            <p class="mt-2 text-gray-700">
+              در صورت نیاز به پیگیری پیشرفت لحظه‌ای یا جمع‌آوری اطلاعات از تیم‌های اجرایی قبل از تکمیل مدارک رسمی، این فرآیند <strong>خارج از چارچوب گزارش‌دهی SAPRA</strong> است و باید از طریق <strong>هماهنگی مستقیم با تیم‌های مربوطه</strong> انجام شود.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- فوتر -->
+    <div class="bg-gray-50 p-6 text-center border-t border-gray-200 text-sm text-gray-600">
+      <p>توسعه‌دهنده: <span class="font-medium">امین ناصری کریم‌وند</span></p>
+      <div class="mt-1 flex flex-col sm:flex-row sm:justify-center sm:gap-4 gap-1 text-xs text-gray-500">
+        <span>📧 akarimvand@gmail.com</span>
+        <span>📱 +98 990 058 7168</span>
       </div>
     </div>
   </div>
+
 </body>
 </html>
