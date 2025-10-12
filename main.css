@@ -266,7 +266,7 @@ body {
 /* ===== SUMMARY CARDS ===== */
 .summary-card {
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s ease;
-    min-height: 140px; /* کاهش ارتفاع مینیمم کارت */
+    min-height: 100px; /* کاهش بیشتر ارتفاع مینیمم کارت */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -282,34 +282,34 @@ body {
 }
 
 .summary-card .card-body {
-    padding: 0.75rem 1.25rem; /* Reduced vertical padding */
+    padding: 0.5rem 1rem; /* کاهش بیشتر padding */
     position: relative;
     z-index: 2;
 }
 
 .summary-card .card-title-custom {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     font-weight: 600;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     opacity: 0.9;
-    margin-bottom: 0.25rem; /* Reduced margin */
+    margin-bottom: 0.15rem; /* کاهش بیشتر margin */
 }
 
 .summary-card .count-display {
-    font-size: 2rem; /* کاهش اندازه فونت */
+    font-size: 1.8rem; /* کاهش بیشتر اندازه فونت */
     font-weight: 700;
-    line-height: 1.2; /* کاهش فاصله خطوط */
-    margin: 0.25rem 0; /* Reduced margin */
+    line-height: 1.1; /* کاهش بیشتر فاصله خطوط */
+    margin: 0.15rem 0; /* کاهش بیشتر margin */
 }
 
 /* تغییر موقعیت آیکون به بالا سمت راست */
 .summary-card .icon-wrapper {
     position: absolute;
-    top: 1rem; /* بالا سمت راست */
-    right: 1rem;
-    width: 40px; /* کوچک‌تر شده */
-    height: 40px;
+    top: 0.5rem; /* کاهش top */
+    right: 0.75rem; /* کاهش right */
+    width: 35px; /* کوچک‌تر شده */
+    height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -345,15 +345,21 @@ body {
     color: white;
 }
 
-.gradient-form-a, .gradient-form-b, .gradient-form-c, .gradient-form-d {
-    padding: 1rem !important;
+.gradient-total-forms {
+    background: linear-gradient(135deg, #2C3E50, #34495E);
+    color: white;
+}
+
+.gradient-form-a, .gradient-form-b, .gradient-form-c, .gradient-form-d, .gradient-total-forms {
+    padding: 0.5rem !important; /* کاهش بیشتر padding برای یکسان کردن ارتفاع */
+    min-height: 100px !important; /* تنظیم min-height برای یکسان کردن با کارت Completed */
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     will-change: transform;
     position: relative;
     overflow: hidden;
 }
 
-.gradient-form-a:before, .gradient-form-b:before, .gradient-form-c:before, .gradient-form-d:before {
+.gradient-form-a:before, .gradient-form-b:before, .gradient-form-c:before, .gradient-form-d:before, .gradient-total-forms:before {
     content: '';
     position: absolute;
     top: -50%;
@@ -366,7 +372,7 @@ body {
     pointer-events: none;
 }
 
-.gradient-form-a:hover:before, .gradient-form-b:hover:before, .gradient-form-c:hover:before, .gradient-form-d:hover:before {
+.gradient-form-a:hover:before, .gradient-form-b:hover:before, .gradient-form-c:hover:before, .gradient-form-d:hover:before, .gradient-total-forms:hover:before {
     opacity: 1;
     animation: pulse 1.5s ease-out;
 }
@@ -377,7 +383,7 @@ body {
     100% { transform: scale(0.8); opacity: 0.7; }
 }
 
-.gradient-form-a:hover, .gradient-form-b:hover, .gradient-form-c:hover, .gradient-form-d:hover {
+.gradient-form-a:hover, .gradient-form-b:hover, .gradient-form-c:hover, .gradient-form-d:hover, .gradient-total-forms:hover {
     transform: perspective(800px) translateY(-8px) scale(1.05) rotateX(5deg);
     box-shadow: 0 20px 40px rgba(0,0,0,0.25) !important;
     border-radius: 16px;
