@@ -48,7 +48,9 @@ const ICONS = {
         let detailedItemsData = []; // Added global variable for detailed items data
         let punchItemsData = []; // Added global variable for punch items data
         let holdPointItemsData = []; // Added global variable for hold point items data
-        let activitiesData = []; // Added global variable for activities data
+        let activitiesData = []; // Added global variable for activities data (loaded on demand)
+        let activitiesLoaded = false; // Flag to track if activities data has been loaded
+        let hosData = []; // Full HOS data for modal
         let subsystemStatusMap = {}; // To store the status from HOS.CSV
         let displayedItemsInModal = []; // Added to store items currently shown in the modal
         let currentModalDataType = null; // 'items' or 'punch' or 'hold' or 'activities'
@@ -165,19 +167,9 @@ function initModals() {
         // Add click listeners to summary cards and data table for showing details
         document.addEventListener('click', handleDetailsClick);
 
-        // Add click listener for the total items counter badge
-        DOMElements.totalItemsCounter.closest('span.badge').style.cursor = 'pointer'; // Indicate clickable
-        DOMElements.totalItemsCounter.closest('span.badge').addEventListener('click', () => {
-            if (detailedItemsData.length > 0) {
-                const filteredItems = filterDetailedItems({ type: 'summary', status: 'TOTAL' });
-                populateDetailsModal(filteredItems, { type: 'summary', status: 'TOTAL' });
-                itemDetailsModal.show();
-            } else {
-                alert("Detailed item data not loaded yet.");
-            }
-        });
 
-        // Add click listeners for form cards
+
+        // Add click listeners for form cards and new cards
         document.addEventListener('click', function(e) {
             // Check if click is on a form card count
             const formCard = e.target.closest('.gradient-form-a, .gradient-form-b, .gradient-form-c, .gradient-form-d');
@@ -206,6 +198,36 @@ function initModals() {
                 if (statusType) {
                     // Filter HOS data based on form type
                     filterHOSItems(statusType, dataType);
+                }
+            }
+
+            // Check if click is on the new Total Items card
+            const totalItemsCard = e.target.closest('[data-card-type="total-items"]');
+            if (totalItemsCard) {
+                if (detailedItemsData.length > 0) {
+                    const filteredItems = filterDetailedItems({ type: 'summary', status: 'TOTAL' });
+                    populateDetailsModal(filteredItems, { type: 'summary', status: 'TOTAL' }, 'items');
+                    itemDetailsModal.show();
+                } else {
+                    alert("Detailed item data not loaded yet.");
+                }
+            }
+
+            // Check if click is on the new Total Forms card
+            const totalFormsCard = e.target.closest('[data-card-type="total-forms"]');
+            if (totalFormsCard) {
+                if (hosData.length > 0) {
+                    populateHOSDetailsModal(hosData.map(row => ({
+                        subsystem: row.Sub_System,
+                        subsystemName: row.Subsystem_Name,
+                        formA: row.FormA || '',
+                        formB: row.FormB || '',
+                        formC: row.FormC || '',
+                        formD: row.FormD || ''
+                    })), 'TOTAL_FORMS', 'hos');
+                    itemDetailsModal.show();
+                } else {
+                    alert("HOS data not loaded yet.");
                 }
             }
         });
@@ -257,12 +279,7 @@ function filterModalTable() {
             let filterContext = null; // { type: 'summary', status: 'DONE' } or { type: 'table', rowData: {...}, status: 'PUNCH' } or { type: 'table', rowData: {...}, status: 'HOLD' }
              let dataType = null; // 'items' or 'punch' or 'hold'
 
-            // Check if click is on the total items counter badge
-             if (target.closest('span.badge') === DOMElements.totalItemsCounter.closest('span.badge')) {
-                 statusType = 'TOTAL';
-                 filterContext = { type: 'summary', status: statusType };
-                 dataType = 'items'; // Total items counter always shows general items
-             }
+            // Check if click is on the total items counter badge (removed, now handled by new card)
 
             // Check if click is on a summary card count (excluding total items counter)
             if (!filterContext) {
@@ -727,7 +744,14 @@ function filterDetailedItems(context) {
             }
 
             // Update modal title
-            document.getElementById('itemDetailsModalLabel').textContent = `${statusType} Details`;
+            const titleMap = {
+                'FORM_A': 'FORM A Details',
+                'FORM_B': 'FORM B Details',
+                'FORM_C': 'FORM C Details',
+                'FORM_D': 'FORM D Details',
+                'TOTAL_FORMS': 'Total Forms Details'
+            };
+            document.getElementById('itemDetailsModalLabel').textContent = titleMap[statusType] || `${statusType} Details`;
         }
 
         // --- Data Loading and Processing ---
@@ -752,16 +776,17 @@ function filterDetailedItems(context) {
             };
 
             try {
-                const [hosResults, dataResults, itemsResults, punchResults, holdResults, activitiesResults] = await Promise.all([
+                const [hosResults, dataResults, itemsResults, punchResults, holdResults] = await Promise.all([
                     parseCsv('dbcsv/HOS.CSV'),
                     parseCsv(CSV_URL),
                     parseCsv(ITEMS_CSV_URL),
                     parseCsv(PUNCH_CSV_URL),
-                    parseCsv(HOLD_POINT_CSV_URL),
-                    parseCsv(ACTIVITIES_CSV_URL)
+                    parseCsv(HOLD_POINT_CSV_URL)
                 ]);
 
                 // --- Process HOS Data First ---
+                hosData = hosResults.data; // Store full data for modal
+                window.totalForms = hosResults.data.length;
                 window.formCounts.formA = hosResults.data.filter(row => row.FormA && row.FormA.trim() !== '').length;
                 window.formCounts.formB = hosResults.data.filter(row => row.FormB && row.FormB.trim() !== '').length;
                 window.formCounts.formC = hosResults.data.filter(row => row.FormC && row.FormC.trim() !== '').length;
@@ -830,11 +855,7 @@ function filterDetailedItems(context) {
                 }));
                 console.log("Hold point items data loaded:", holdPointItemsData.length, "items");
 
-                activitiesData = activitiesResults.data.map(item => ({
-                    Tag_No: item.Tag_No?.trim() || '', Form_Title: item.Form_Title?.trim() || '',
-                    Done: item.Done?.trim() || ''
-                }));
-                console.log("Activities data loaded:", activitiesData.length, "items");
+                // Activities data will be loaded on demand (lazy loaded)
 
                 // --- Initial Render ---
                 updateView();
@@ -844,7 +865,10 @@ function filterDetailedItems(context) {
                 DOMElements.errorMessage.style.display = 'block';
                 console.error("Data loading failed:", e);
             } finally {
-                // The modal is now hidden in updateView() to ensure it's hidden only after rendering.
+                // Ensure loading modal is always hidden after data loading attempt
+                if (loadingModalInstance) {
+                    loadingModalInstance.hide();
+                }
             }
         }
 
@@ -995,7 +1019,7 @@ function filterDetailedItems(context) {
         function updateView() {
             aggregatedStats = _aggregateStatsForView(selectedView, processedData.systemMap, processedData.subSystemMap);
 
-            DOMElements.totalItemsCounter.textContent = aggregatedStats.totalItems.toLocaleString();
+            // DOMElements.totalItemsCounter.textContent = aggregatedStats.totalItems.toLocaleString(); // Removed, now shown in card
 
             renderSummaryCards();
             renderOverviewCharts(); // Render the initial overview chart
@@ -1010,6 +1034,22 @@ function filterDetailedItems(context) {
         function renderSummaryCards() {
             let row1HTML = '';
             let row2HTML = '';
+
+            // New Total Items card (left of Completed)
+            const totalItemsCard = { title: 'Total Items', count: aggregatedStats.totalItems, baseClass: 'bg-white', icon: ICONS.Collection, iconWrapperBgClass: 'bg-primary-subtle', iconColorClass: 'text-primary', countColor: 'text-primary', titleColor: 'text-muted', desc: 'Total items of Selected Subsystem' };
+            row1HTML += `
+                <div class="col">
+                    <section class="card summary-card shadow-sm ${totalItemsCard.baseClass}" aria-labelledby="summary-title-${totalItemsCard.title.toLowerCase().replace(' ','-')}" data-card-type="total-items">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h6 id="summary-title-${totalItemsCard.title.toLowerCase().replace(' ','-')}" class="card-title-custom fw-medium ${totalItemsCard.titleColor}">${totalItemsCard.title}</h6>
+                                <span class="icon-wrapper ${totalItemsCard.iconWrapperBgClass} ${totalItemsCard.iconColorClass}" aria-hidden="true">${totalItemsCard.icon}</span>
+                            </div>
+                            <h3 class="count-display ${totalItemsCard.countColor} mb-1">${totalItemsCard.count.toLocaleString()}</h3>
+                            <small class="d-block mt-2 text-muted" style="color: #6c757d !important;">${totalItemsCard.desc}</small>
+                        </div>
+                    </section>
+                </div>`;
 
             const originalCardsData = [
                 { title: 'Completed', count: aggregatedStats.done, total: aggregatedStats.totalItems, baseClass: 'bg-white', icon: ICONS.CheckCircle, iconWrapperBgClass: 'bg-success-subtle', iconColorClass: 'text-success', progressColor: 'success', countColor: 'text-success', titleColor: 'text-muted' },
@@ -1062,6 +1102,23 @@ function filterDetailedItems(context) {
                 </div>`;
             DOMElements.summaryCardsRow1.innerHTML = row1HTML;
 
+            // New Total Forms card (similar to form cards, placed to the left of FORM A)
+            const totalFormsCount = window.totalForms || 0;
+            const totalFormsCard = { title: 'TOTAL FORMS', count: totalFormsCount, gradientClass: 'gradient-total-forms animated-gradient', icon: ICONS.FileEarmarkText, desc: 'The total number of subsystems that require handover' };
+            row2HTML += `
+                <div class="col">
+                    <section class="card summary-card shadow-sm ${totalFormsCard.gradientClass}" aria-labelledby="summary-title-${totalFormsCard.title.toLowerCase().replace(' ','-')}" data-card-type="total-forms">
+                        <div class="card-body text-white">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h6 id="summary-title-${totalFormsCard.title.toLowerCase().replace(' ','-')}" class="card-title-custom">${totalFormsCard.title}</h6>
+                                <span class="icon-wrapper" style="background-color: rgba(0,0,0,0.2);" aria-hidden="true">${totalFormsCard.icon}</span>
+                            </div>
+                            <h3 class="count-display mb-1">${totalFormsCard.count.toLocaleString()}</h3>
+                            <small class="d-block mt-2 text-white" style="color: #fff !important;">${totalFormsCard.desc}</small>
+                        </div>
+                    </section>
+                </div>`;
+
             const formCardsData = [
                 { title: 'FORM A', count: window.formCounts.formA, gradientClass: 'gradient-form-a animated-gradient', icon: ICONS.FileEarmarkText, desc: 'Submitted to Client for Mechanical Completion Approval' },
                 { title: 'FORM B', count: window.formCounts.formB, gradientClass: 'gradient-form-b animated-gradient', icon: ICONS.FileEarmarkCheck, desc: 'Returned by Client with Pre-Commissioning Punches' },
@@ -1083,6 +1140,7 @@ function filterDetailedItems(context) {
                         </section>
                     </div>`;
             });
+
             DOMElements.summaryCardsRow2.innerHTML = row2HTML;
         }
 
@@ -1456,8 +1514,53 @@ chartInstances.overview = new Chart(overviewCtx, {
             }
         }
 
-        function loadActivitiesForTag(tagNo) {
+        async function loadActivitiesForTag(tagNo) {
             document.getElementById('activitiesTagTitle').textContent = `فعالیت‌ها برای: ${tagNo}`;
+
+            // Lazy load activities data if not already loaded
+            if (!activitiesLoaded) {
+                try {
+                    const response = await fetch(ACTIVITIES_CSV_URL);
+                    if (!response.ok) throw new Error(`Network response was not ok for ${ACTIVITIES_CSV_URL}`);
+                    const csvText = await response.text();
+                    Papa.parse(csvText, {
+                        header: true,
+                        skipEmptyLines: true,
+                        complete: (results) => {
+                            activitiesData = results.data.map(item => ({
+                                Tag_No: item.Tag_No?.trim() || '',
+                                Form_Title: item.Form_Title?.trim() || '',
+                                Done: item.Done?.trim() || ''
+                            }));
+                            activitiesLoaded = true;
+                            console.log("Activities data loaded:", activitiesData.length, "items");
+                            // Now process the tag
+                            processActivitiesForTag(tagNo);
+                        },
+                        error: (err) => {
+                            console.error("PapaParse error for ACTIVITIES CSV:", err);
+                            // Show error in modal
+                            const list = document.getElementById('activitiesList');
+                            list.innerHTML = '<tr><td colspan="3" class="no-activities">خطا در بارگذاری داده‌ها.</td></tr>';
+                            document.getElementById('activitiesProgressText').textContent = '0%';
+                            document.getElementById('activitiesProgressFill').style.width = '0%';
+                        }
+                    });
+                } catch (error) {
+                    console.error("Error loading ACTIVITIES CSV:", error);
+                    // Show error in modal
+                    const list = document.getElementById('activitiesList');
+                    list.innerHTML = '<tr><td colspan="3" class="no-activities">خطا در بارگذاری داده‌ها.</td></tr>';
+                    document.getElementById('activitiesProgressText').textContent = '0%';
+                    document.getElementById('activitiesProgressFill').style.width = '0%';
+                }
+            } else {
+                // Data already loaded, process directly
+                processActivitiesForTag(tagNo);
+            }
+        }
+
+        function processActivitiesForTag(tagNo) {
             const filtered = activitiesData.filter(a => a.Tag_No === tagNo);
             const list = document.getElementById('activitiesList');
             list.innerHTML = '';
