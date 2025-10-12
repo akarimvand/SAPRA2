@@ -5582,11 +5582,11 @@ FGS-08,EL,AMI-0305,FGS Device,Auto / Manual / Inhibit Switch,0%
 4000-12,IN,AP-8415,Instrument(AP),Instrument(AP),Done
 4000-12,IN,AP-8416,Instrument(AP),Instrument(AP),Done
 4000-12,IN,AP-8417,Instrument(AP),Instrument(AP),Done
-1000-01,IN,AST-1001A(AST),Instrument(AST),Instrument(AST),0%
+1000-01,IN,AST-1001A(AST),Instrument(AST),Instrument(AST),25%
 1000-01,IN,AST-1001A(NA),CABLE,CABLE(NA),0%
-1000-01,IN,AST-1001B(AST),Instrument(AST),Instrument(AST),0%
+1000-01,IN,AST-1001B(AST),Instrument(AST),Instrument(AST),25%
 1000-01,IN,AST-1001B(NA),CABLE,CABLE(NA),0%
-1000-01,IN,AST-1001C(AST),Instrument(AST),Instrument(AST),0%
+1000-01,IN,AST-1001C(AST),Instrument(AST),Instrument(AST),25%
 1000-01,IN,AST-1001C(NA),CABLE,CABLE(NA),0%
 1000-01,IN,AT-1035(AT),Instrument(AT),Instrument(AT),0%
 1000-01,IN,AT-1035(NA),CABLE,CABLE(NA),0%
@@ -5598,11 +5598,11 @@ FGS-08,EL,AMI-0305,FGS Device,Auto / Manual / Inhibit Switch,0%
 2000-02,IN,AT-2223-2(NA),CABLE,CABLE(NA),0%
 2000-02,IN,AT-2224(AT),Instrument(AT),Instrument(AT),0%
 2000-02,IN,AT-2224(NA),CABLE,CABLE(NA),0%
-2000-04,IN,AT-2379(AT),Instrument(AT),Instrument(AT),0%
+2000-04,IN,AT-2379(AT),Instrument(AT),Instrument(AT),25%
 2000-04,IN,AT-2379(NA),CABLE,CABLE(NA),0%
-2000-04,IN,AT-2382(AT),Instrument(AT),Instrument(AT),0%
+2000-04,IN,AT-2382(AT),Instrument(AT),Instrument(AT),25%
 2000-04,IN,AT-2382(NA),CABLE,CABLE(NA),0%
-2000-04,IN,AT-2384(AT),Instrument(AT),Instrument(AT),0%
+2000-04,IN,AT-2384(AT),Instrument(AT),Instrument(AT),25%
 2000-04,IN,AT-2384(NA),CABLE,CABLE(NA),0%
 2000-05,IN,AT-2479(AT),Instrument(AT),Instrument(AT),0%
 2000-05,IN,AT-2479(NA),CABLE,CABLE(NA),0%
@@ -6231,7 +6231,7 @@ TEL-09,EL,CR-TJB3,Telecom Device,Telephone Junction Box,0%
 120-15,EL,CR-UBT-01_1,UPS & Battery,110V AC UPS Battery Set,DONE
 120-15,EL,CR-UBT-01_2,UPS & Battery,110V AC UPS Battery Set,DONE
 120-09,EL,CR-UIS-01,UPS & Battery,110V AC UPS Battery Isolator Box,Done
-120-09,EL,CR-UPS-01,UPS & Battery,110V AC UPS Panel,Exception(Pending)
+120-09,EL,CR-UPS-01,UPS & Battery,110V AC UPS Panel,Done
 1000-01,MES,D-1001,Drum(D),Natural gas K.O. drum,Done
 2000-04,MES,D-2001,Drum(D),HHP Steam Drum,20%
 2000-05,MES,D-2002,Drum(D),1 st Separator,DONE
@@ -10188,7 +10188,7 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-04,EL,EBC-MAE-5006-02,Power Cable B,Local Control Station- MAE-5006-02,Done
 120-04,EL,EBC-MAE-5006-02_VS,Power Cable B,Vibration Switch- MAE-5006-02/VS,DONE
 120-03,EL,EBC-MB-8001A,Power Cable B,Local Control Station- MB-8001A,Done
-120-03,EL,EBC-MB-8001B,Power Cable B,Local Control Station- MB-8001B,Exception(Pending)
+120-03,EL,EBC-MB-8001B,Power Cable B,Local Control Station- MB-8001B,Done
 120-03,EL,EBC-MF-8001A,Power Cable B,Local Control Station- MF-8001A,Done
 120-03,EL,EBC-MF-8001A_VS,Power Cable B,Vibration Switch- MF-8001A/VS,DONE
 120-03,EL,EBC-MF-8001B,Power Cable B,Local Control Station- MF-8001B,Done
@@ -10263,8 +10263,8 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-03,EL,EBC-MP-8403B,Power Cable B,Local Control Station- MP-8403B,Done
 120-03,EL,EBC-MP-8404A,Power Cable B,Local Control Station- MP-8404A,Done
 120-03,EL,EBC-MP-8404B,Power Cable B,Local Control Station- MP-8404B,Done
-120-03,EL,EBC-MP-8405A,Power Cable B,Local Control Station- MP-8405A,Exception(Pending)
-120-03,EL,EBC-MP-8405B,Power Cable B,Local Control Station- MP-8405B,Exception(Pending)
+120-03,EL,EBC-MP-8405A,Power Cable B,Local Control Station- MP-8405A,Done
+120-03,EL,EBC-MP-8405B,Power Cable B,Local Control Station- MP-8405B,Done
 120-02,EL,EBC-MX-7050,Power Cable B,Local Control Station- MX-7050,Done
 120-02,EL,EBC-MX-7060,Power Cable B,Local Control Station- MX-7060,Done
 120-02,EL,EBC-MX-7070,Power Cable B,Local Control Station- MX-7070,Done
@@ -10293,9 +10293,9 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-03,EL,EBC-PK8005-MP-1A,Power Cable B,Local Control Station- PK8005-MP-1A,Done
 120-03,EL,EBC-PK8005-MP-1B,Power Cable B,Local Control Station- PK8005-MP-1B,Done
 120-03,EL,EBC-PK8401-MP-1A,Power Cable B,Local Control Station- PK8401-MP-1A,Done
-120-03,EL,EBC-PK8401-MP-1A-PTC,Power Cable B,Oily Sludge transfer pump PK8401-MP-1A- Intermediate JB,Exception(Pending)
+120-03,EL,EBC-PK8401-MP-1A-PTC,Power Cable B,Oily Sludge transfer pump PK8401-MP-1A- Intermediate JB,Done
 120-03,EL,EBC-PK8401-MP-1B,Power Cable B,Local Control Station- PK8401-MP-1B,Done
-120-03,EL,EBC-PK8401-MP-1B-PTC,Power Cable B,Oily Sludge Transfer Pump PK8401-MP-1B- Intermediate JB,Exception(Pending)
+120-03,EL,EBC-PK8401-MP-1B-PTC,Power Cable B,Oily Sludge Transfer Pump PK8401-MP-1B- Intermediate JB,Done
 120-03,EL,EBC-PK8401-MP-2A,Power Cable B,Local Control Station- PK8401-MP-2A,DONE
 120-03,EL,EBC-PK8401-MP-2B,Power Cable B,Local Control Station- PK8401-MP-2B,Done
 LS-02,EL,EBC-SS-EMLP-01,Power Cable B,Main Emergency Lighting Panel- SS-EMLP-01,0%
@@ -10442,10 +10442,10 @@ LS-02,EL,EBP-00-ELP-01,Power Cable B,Area Emergency Lighting Panel No. 1- 00-ELP
 LS-02,EL,EBP-00-ELP-02,Power Cable B,Area Emergency Lighting Panel No. 2- 00-ELP-02,Done
 LS-02,EL,EBP-00-ELP-03,Power Cable B,Area Emergency Lighting Panel No. 3- 00-ELP-03,Done
 LS-02,EL,EBP-00-ELP-04,Power Cable B,Area Emergency Lighting Panel No. 4- 00-ELP-04,33%
-120-03,EL,EBP-00-HTP-01,Power Cable B,Electrical Heat Tracing Control Panel- 00-HP-01,Exception(Pending)
-120-03,EL,EBP-00-HTP-02_1,Power Cable B,Electrical Heat Tracing Control Panel No.2- 00-HTP-02,Exception(Pending)
-120-03,EL,EBP-00-HTP-02_2,Power Cable B,Electrical Heat Tracing Control Panel No.2- 00-HTP-02,Exception(Pending)
-120-03,EL,EBP-00-HTP-03,Power Cable B,Electrical Heat Tracing Control Panel No.3- 00-HTP-03,Exception(Pending)
+120-03,EL,EBP-00-HTP-01,Power Cable B,Electrical Heat Tracing Control Panel- 00-HP-01,Done
+120-03,EL,EBP-00-HTP-02_1,Power Cable B,Electrical Heat Tracing Control Panel No.2- 00-HTP-02,Done
+120-03,EL,EBP-00-HTP-02_2,Power Cable B,Electrical Heat Tracing Control Panel No.2- 00-HTP-02,Done
+120-03,EL,EBP-00-HTP-03,Power Cable B,Electrical Heat Tracing Control Panel No.3- 00-HTP-03,Done
 LS-01,EL,EBP-00-LP-01,Power Cable B,Area Normal Lighting Panel No. 1- 00-LP-01,Done
 LS-01,EL,EBP-00-LP-02,Power Cable B,Area Normal Lighting Panel No. 2- 00-LP-02,Done
 LS-01,EL,EBP-00-LP-03,Power Cable B,Area Normal Lighting Panel No. 3- 00-LP-03,Done
@@ -10482,7 +10482,7 @@ LS-01,EL,EBP-00-SLP-01,Power Cable B,Plant Street Lighting Panel- 00-SLP-01,0%
 120-03,EL,EBP-00-WO5-03,Power Cable B,Welding Socket Outlet- 00-WO5-03,Done
 TEL-01,EL,EBP-AD-PABX(CH)-01,Comminucation Cable,Telephone System Battery Charger (In Owner's Administration Building)- AD-PABX(CH)-01,0%
 LS-02,EL,EBP-AH-EDP-01,Power Cable B,Analyzer House Distribution Panel- AH-EDP-01,33%
-120-03,EL,EBP-AH-HDP-01,Power Cable B,Analyzer House HVAC Panel- AH-HDP-01,Exception(Pending)
+120-03,EL,EBP-AH-HDP-01,Power Cable B,Analyzer House HVAC Panel- AH-HDP-01,Done
 120-02,EL,EBP-C2001-HE-1,Power Cable B,Lube Oil Heater No.1 for C2001- C2001-HE-1,Done
 120-02,EL,EBP-C2001-MF-1,Power Cable B,Noise Hood Cooling Fan No.1 for C2001 - C2001-MF-1,Done
 120-02,EL,EBP-C2001-MF-2,Power Cable B,Noise Hood Cooling Fan No.2 for C2001 - C2001-MF-2,Done
@@ -10491,8 +10491,8 @@ LS-02,EL,EBP-AH-EDP-01,Power Cable B,Analyzer House Distribution Panel- AH-EDP-0
 120-02,EL,EBP-C2002-HE-2,Power Cable B,Lube Oil Heater No.2 for C2002- C2002-HE-2,Done
 120-02,EL,EBP-C2002-MP-1B,Power Cable B,Auxiliary Lube Oil Pump for C2002- C2002-MP-1B,Done
 120-03,EL,EBP-CN2002-PSB,Power Cable B,Overhead Monorail Crane for E2022/2023- CN2002-PSB,DONE
-120-03,EL,EBP-CN2003_1-PSB,Power Cable B,Overhead Monorail Crane No.1 for E2027- CN2003/1-PSB,Exception(Pending)
-120-03,EL,EBP-CN2003_2-PSB,Power Cable B,Overhead Monorail Crane No.2 for E2027- CN2003/2-PSB,Exception(Pending)
+120-03,EL,EBP-CN2003_1-PSB,Power Cable B,Overhead Monorail Crane No.1 for E2027- CN2003/1-PSB,Done
+120-03,EL,EBP-CN2003_2-PSB,Power Cable B,Overhead Monorail Crane No.2 for E2027- CN2003/2-PSB,Done
 120-03,EL,EBP-CN3001-PSB,Power Cable B,Overhead Crane for C3001/3002- CN3001-PSB,DONE
 120-07,EL,EBP-CR-CEC(CH)-01,Power Cable B,Paging & Intercom System- CR-CEC(CH)-01,33%
 120-07,EL,EBP-CR-CEC(CH)-01_AS,Power Cable B,RBS- CCTV & CEC Panels (Auxiliary Supply),0%
@@ -10503,7 +10503,7 @@ LS-02,EL,EBP-CR-ELP-01,Power Cable B,Control Room Emergency Lighting Panel- CR-E
 120-07,EL,EBP-CR-HDP-01_1,Power Cable B,Control Building Emergency HVAC Panel- CR-HDP-01,33%
 120-07,EL,EBP-CR-HDP-01_2,Power Cable B,Control Building Emergency HVAC Panel- CR-HDP-01,33%
 120-07,EL,EBP-CR-HDP-01_3,Power Cable B,Control Building Emergency HVAC Panel- CR-HDP-01,33%
-120-03,EL,EBP-CR-HDP-02,Power Cable B,Control Building Normal HVAC Panel- CR-HDP-02,Exception(Pending)
+120-03,EL,EBP-CR-HDP-02,Power Cable B,Control Building Normal HVAC Panel- CR-HDP-02,Done
 LS-01,EL,EBP-CR-LP-01,Power Cable B,Control Room Normal Lighting & Socket Outlet Panel- CR-LP-01,33%
 120-07,EL,EBP-CR-SIP-01,Power Cable B,Fire & Gas Detection System Siren Panel- CR-SIP-01,33%
 120-09,EL,EBP-CR-UBT-01-_1,Power Cable B,110V AC UPS Battery Set- CR-UBT-01 (-),Done
@@ -10535,8 +10535,8 @@ LS-01,EL,EBP-CR-LP-01,Power Cable B,Control Room Normal Lighting & Socket Outlet
 120-08,EL,EBP-DG-5701_2_6,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,0%
 120-07,EL,EBP-DG5701-CP-01,Power Cable B,Emergency Diesel Generator Start Panel- DG5701-CP-01 (Power Supply),0%
 120-07,EL,EBP-DG5701-CP-02,Power Cable B,Emergency Diesel Generator Fuel Pump Panel- DG5701-CP-02 (Power Supply),0%
-120-09,EL,EBP-F&G-UCP-01_1,Power Cable B,F&G System Panel- F&G-UCP-01,0%
-120-09,EL,EBP-F&G-UCP-01_2,Power Cable B,F&G System Panel- F&G-UCP-01,0%
+120-09,EL,EBP-F&G-UCP-01_1,Power Cable B,F&G System Panel- F&G-UCP-01,67%
+120-09,EL,EBP-F&G-UCP-01_2,Power Cable B,F&G System Panel- F&G-UCP-01,67%
 120-07,EL,EBP-F&G-UPS-01,Power Cable B,Fire & Gas Detection System UPS- F&G-UPS-01,33%
 120-09,EL,EBP-F&G-UPS-01_AS,Power Cable B,230V AC F&G UPS Panel- F&G-UPS-01 (Auxiliary Supply),0%
 120-02,EL,EBP-FT2001-HE-1,Power Cable B,Lube Oil Heater for FT-2001- FT2001-HE-1,DONE
@@ -10570,11 +10570,11 @@ LS-01,EL,EBP-CR-LP-01,Power Cable B,Control Room Normal Lighting & Socket Outlet
 120-02,EL,EBP-H-3012,Power Cable B,Lube Oil Heater- H-3012,Done
 120-02,EL,EBP-H-3013,Power Cable B,Seal Gas Heater- H-3013,DONE
 120-02,EL,EBP-H-3013-TCP,Power Cable B,Seal Gas Heater Thristor Control Panel- H-3013-TCP,DONE
-120-03,EL,EBP-LAB-DP-01,Power Cable B,Laboratory  Distribution Panel- LAB-DP-01,Exception(Pending)
+120-03,EL,EBP-LAB-DP-01,Power Cable B,Laboratory  Distribution Panel- LAB-DP-01,Done
 LS-02,EL,EBP-LAB-ELP-01,Power Cable B,Laboratory Emergency Lighting Panel- LAB-ELP-01,33%
 120-07,EL,EBP-LAB-FACP-01,Power Cable B,Laboratory & Yard Office Fire Alarm Control Panel- LAB-FACP-01 (Auxiliary Supply),33%
-120-03,EL,EBP-LAB-HDP-01_1,Power Cable B,Laboratory HVAC Panel- LAB-HDP-01,Exception(Pending)
-120-03,EL,EBP-LAB-HDP-01_2,Power Cable B,Laboratory HVAC Panel- LAB-HDP-01,Exception(Pending)
+120-03,EL,EBP-LAB-HDP-01_1,Power Cable B,Laboratory HVAC Panel- LAB-HDP-01,Done
+120-03,EL,EBP-LAB-HDP-01_2,Power Cable B,Laboratory HVAC Panel- LAB-HDP-01,Done
 LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet Panel- LAB-LP-01,33%
 120-07,EL,EBP-LP-FL7101-01,Power Cable B,Dena Flare Control Panel- LP-FL7101-01,0%
 120-05,EL,EBP-MAE-2026-01,Power Cable B,Air Cooler Fan- MAE-2026-01,Done
@@ -10699,8 +10699,8 @@ LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet 
 120-05,EL,EBP-MAE-5005D-18,Power Cable B,LP Column OH Condenser Fan- MAE-5005D-18,Done
 120-04,EL,EBP-MAE-5006-01,Power Cable B,Wash Water Air Cooler Fan- MAE-5006-01,Done
 120-04,EL,EBP-MAE-5006-02,Power Cable B,Wash Water Air Cooler Fan- MAE-5006-02,Done
-120-03,EL,EBP-MB-8001A,Power Cable B,Air Blower for Side Stream Filter Package - MB-8001A,Exception(Pending)
-120-03,EL,EBP-MB-8001B,Power Cable B,Air Blower for Side Stream Filter Package - MB-8001B,Exception(Pending)
+120-03,EL,EBP-MB-8001A,Power Cable B,Air Blower for Side Stream Filter Package - MB-8001A,Done
+120-03,EL,EBP-MB-8001B,Power Cable B,Air Blower for Side Stream Filter Package - MB-8001B,Done
 120-01,EL,EBP-MC-2001-SH,Power Cable B,Motor Space Heater- MC-2001-SH,Done
 NO SUBS.,EL,EBP-MC-2001-SH_1,POWER CABLE A,CABLE(NA),0%
 120-01,EL,EBP-MC-2002-SH,Power Cable B,Motor Space Heater- MC-2002-SH,Done
@@ -10840,8 +10840,8 @@ NO SUBS.,EL,EBP-MC-2001-SH_1,POWER CABLE A,CABLE(NA),0%
 120-03,EL,EBP-MP-8403B,Power Cable B,Neutralization Basin Pump B- MP-8403B,Done
 120-03,EL,EBP-MP-8404A,Power Cable B,COC Water Transfer Pump A- MP-8404A,DONE
 120-03,EL,EBP-MP-8404B,Power Cable B,COC Water Transfer Pump B- MP-8404B,DONE
-120-03,EL,EBP-MP-8405A,Power Cable B,Laboratory Effluent Transfer Pump A - MP-8405A,Exception(Pending)
-120-03,EL,EBP-MP-8405B,Power Cable B,Laboratory Effluent Transfer Pump B - MP-8405B,Exception(Pending)
+120-03,EL,EBP-MP-8405A,Power Cable B,Laboratory Effluent Transfer Pump A - MP-8405A,Done
+120-03,EL,EBP-MP-8405B,Power Cable B,Laboratory Effluent Transfer Pump B - MP-8405B,Done
 120-07,EL,EBP-MSR-0001,Power Cable B,Fire & Gas Detection System Siren- MSR-0001,33%
 120-02,EL,EBP-MX-7050,Power Cable B,Phosphate Dosing Tank Stirrer- MX-7050,Done
 120-02,EL,EBP-MX-7060,Power Cable B,Amine Dosing Tank Stirrer- MX-7060,Done
@@ -10859,18 +10859,18 @@ NO SUBS.,EL,EBP-MC-2001-SH_1,POWER CABLE A,CABLE(NA),0%
 120-03,EL,EBP-PK7502-MP-2B,Power Cable B,Acid Dosing Pump B- PK7502-MP-2B,Done
 120-03,EL,EBP-PK7502-MP-3A,Power Cable B,Caustic Soda Dosing Pump A- PK7502-MP-3A,Done
 120-03,EL,EBP-PK7502-MP-3B,Power Cable B,Caustic Soda Dosing Pump B- PK7502-MP-3B,Done
-120-03,EL,EBP-PK8002-MP-1A,Power Cable B,Corrosion Inhibitor Dosing Package- PK8002-MP-1A,Exception(Pending)
-120-03,EL,EBP-PK8002-MP-1B,Power Cable B,Corrosion Inhibitor Dosing Package- PK8002-MP-1B,Exception(Pending)
-120-03,EL,EBP-PK8002-MX-1,Power Cable B,Corrosion Inhibitor Dosing Tank Mixer- PK8002-MX-1,Exception(Pending)
-120-03,EL,EBP-PK8003-MP-1A,Power Cable B,Anti Fouling Dosing Package Pump- PK8003-MP-1A,Exception(Pending)
-120-03,EL,EBP-PK8003-MP-1B,Power Cable B,Anti Fouling Dosing Package Pump- PK8003-MP-1B,Exception(Pending)
-120-03,EL,EBP-PK8003-MX-1,Power Cable B,Anti Fouling Dosing Tank Mixer- PK8003-MX-1,Exception(Pending)
-120-03,EL,EBP-PK8004-MP-1A,Power Cable B,Scale Inhibitor Dosing Package Pump- PK8004-MP-1A,Exception(Pending)
-120-03,EL,EBP-PK8004-MP-1B,Power Cable B,Scale Inhibitor Dosing Package Pump- PK8004-MP-1B,Exception(Pending)
-120-03,EL,EBP-PK8004-MX-1,Power Cable B,Scale Inhibitor Dosing Tank Mixer- PK8004-MX-1,Exception(Pending)
-120-03,EL,EBP-PK8005-MP-1A,Power Cable B,pH Adjustment Dosing Package Pump- PK8005-MP-1A,Exception(Pending)
-120-03,EL,EBP-PK8005-MP-1B,Power Cable B,pH Adjustment Dosing Package Pump- PK8005-MP-1B,Exception(Pending)
-120-03,EL,EBP-PK8401-MP-1A,Power Cable B,Oily Sludge Transfer Pump PK8401-MP-1A- Intermediate JB,Exception(Pending)
+120-03,EL,EBP-PK8002-MP-1A,Power Cable B,Corrosion Inhibitor Dosing Package- PK8002-MP-1A,Done
+120-03,EL,EBP-PK8002-MP-1B,Power Cable B,Corrosion Inhibitor Dosing Package- PK8002-MP-1B,Done
+120-03,EL,EBP-PK8002-MX-1,Power Cable B,Corrosion Inhibitor Dosing Tank Mixer- PK8002-MX-1,Done
+120-03,EL,EBP-PK8003-MP-1A,Power Cable B,Anti Fouling Dosing Package Pump- PK8003-MP-1A,Done
+120-03,EL,EBP-PK8003-MP-1B,Power Cable B,Anti Fouling Dosing Package Pump- PK8003-MP-1B,Done
+120-03,EL,EBP-PK8003-MX-1,Power Cable B,Anti Fouling Dosing Tank Mixer- PK8003-MX-1,Done
+120-03,EL,EBP-PK8004-MP-1A,Power Cable B,Scale Inhibitor Dosing Package Pump- PK8004-MP-1A,Done
+120-03,EL,EBP-PK8004-MP-1B,Power Cable B,Scale Inhibitor Dosing Package Pump- PK8004-MP-1B,Done
+120-03,EL,EBP-PK8004-MX-1,Power Cable B,Scale Inhibitor Dosing Tank Mixer- PK8004-MX-1,Done
+120-03,EL,EBP-PK8005-MP-1A,Power Cable B,pH Adjustment Dosing Package Pump- PK8005-MP-1A,Done
+120-03,EL,EBP-PK8005-MP-1B,Power Cable B,pH Adjustment Dosing Package Pump- PK8005-MP-1B,Done
+120-03,EL,EBP-PK8401-MP-1A,Power Cable B,Oily Sludge Transfer Pump PK8401-MP-1A- Intermediate JB,Done
 120-03,EL,EBP-PK8401-MP-1B,Power Cable B,Oily Sludge Transfer Pump PK8401-MP-1B- Intermediate JB,DONE
 120-03,EL,EBP-PK8401-MP-2A,Power Cable B,Skimmed oil transfer pump- PK8401-MP-2A,Done
 120-03,EL,EBP-PK8401-MP-2B,Power Cable B,Skimmed oil transfer pump- PK8401-MP-2B,Done
@@ -11286,7 +11286,7 @@ FGS-08,EL,ECC-SS-FECP-01_4,Power Cable B,Substation Fire Fighting Control Panel 
 120-01,EL,ECC-SS-NGR1B-01,Power Cable B,Neutral Grounding Resistor- SS-NGR1B-01 (Current Transformer),Done
 120-12,EL,ECC-SS-PDCS01-1_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Bus VT,67%
 120-01,EL,ECC-SS-PDCS01-1_2,Power Cable B,6kV Switchboard SS-SWB2B-01-  Bus VT,Done
-120-12,EL,ECC-SS-PDCS01-2_1,Power Cable B,LV Switchboard SS-SWB3B-05- Incomer,0%
+120-12,EL,ECC-SS-PDCS01-2_1,Power Cable B,LV Switchboard SS-SWB3B-05- Incomer,33%
 120-06,EL,ECC-SS-PDCS01-2_2,Power Cable B,LV Switchboard SS-SWB3A-05- Bus Coupler,DONE
 120-06,EL,ECC-SS-PDCS01-2_3,Power Cable B,LV Switchboard SS-SWB3B-01- Incomer,DONE
 120-02,EL,ECC-SS-PDCS01-2_4,Power Cable B,LV Switchboard SS-SWB3A-01- Bus Coupler,Done
@@ -11300,7 +11300,7 @@ FGS-08,EL,ECC-SS-FECP-01_4,Power Cable B,Substation Fire Fighting Control Panel 
 120-07,EL,ECC-SS-PDCS01-3_6,Power Cable B,Emergency LV Switchboard SS-ESWB3B-01- Incomer,0%
 120-12,EL,ECC-SS-PDCS01-4_1,Power Cable B,110V DC Battery Charger Panel A- SS-CH-01A,Done
 120-10,EL,ECC-SS-PDCS01-4_2,Power Cable B,230V AC Safety Lighting UPS - SS-UPS-01,Done
-120-11,EL,ECC-SS-PDCS01-4_3,Power Cable B,Emergency Diesel Generator DG-5701- Start Control Panel,Exception(Pending)
+120-11,EL,ECC-SS-PDCS01-4_3,Power Cable B,Emergency Diesel Generator DG-5701- Start Control Panel,Done
 120-12,EL,ECC-SS-PDCS01-5_1,Power Cable B,110V AC UPS Bypass Panel - CR-UPS-01/BY,0%
 120-12,EL,ECC-SS-PDCS01-7,Power Cable B,Substation E/I Cabinet- SS-E/I-01 (FCS Clock Signal),0%
 120-01,EL,ECC-SS-SWB2A-01_1,Power Cable B,Damavand Substation 20KV Switchboard- Dena Feeder SS-TR1A-01,Done
@@ -11409,18 +11409,18 @@ TEL-09,EL,ECP-CR-CEC-02,Comminucation Cable,Paging Central Exchange Cabinet (in 
 TEL-09,EL,ECP-CR-CEC-03,Comminucation Cable,Paging Central Exchange Cabinet (in Auxiliary Room)CR-CEC-01,0%
 TEL-09,EL,ECP-CR-CEC-04,Comminucation Cable,Paging Central Exchange Cabinet (in Auxiliary Room)CR-CEC-01,0%
 TEL-09,EL,ECP-CR-CEC-05,Comminucation Cable,Paging Central Exchange Cabinet (in Auxiliary Room)CR-CEC-01,0%
-120-09,EL,ECP-CR-CSP-01,Power Cable B,CCTV Panel Cabinet- CR-CSP-01,Exception(Pending)
-120-09,EL,ECP-CR-RBS-01,Power Cable B,Radio System Base Station Cabinet- CR-RBS-01,Exception(Pending)
+120-09,EL,ECP-CR-CSP-01,Power Cable B,CCTV Panel Cabinet- CR-CSP-01,Done
+120-09,EL,ECP-CR-RBS-01,Power Cable B,Radio System Base Station Cabinet- CR-RBS-01,Done
 120-09,EL,ECP-F&G-UBT-01-,Power Cable B,F&G System UPS Battery set- F&G-UBT-01 (-),Done
 120-09,EL,ECP-F&G-UBT-01+,Power Cable B,F&G System UPS Battery set- F&G-UBT-01 (+),Done
 120-09,EL,ECP-FT2001-MP-3,Power Cable B,Emergency Lube Oil Pump for FT-2001- FT2001-MP-3,33%
 120-09,EL,ECP-FT2002-MP-3,Power Cable B,Emergency Lube Oil Pump for FT-2002- FT2002-MP-3,33%
 120-10,EL,ECP-SS-CBT-01-,Power Cable B,110V DC Charger Battery Set- SS-CBT-01 (-),67%
 120-10,EL,ECP-SS-CBT-01+,Power Cable B,110V DC Charger Battery Set- SS-CBT-01 (+),67%
-120-10,EL,ECP-SS-CIS-01-,Power Cable B,110V DC Charger Battery Isolator Box- SS-CIS-01 (-),33%
-120-10,EL,ECP-SS-CIS-01+,Power Cable B,110V DC Charger Battery Isolator Box- SS-CIS-01 (+),33%
-120-10,EL,ECP-SS-ESWB3A-01,Power Cable B,Emergency LV Switchboard- SS-ESWB3A-01 (110V DC Supply),Exception(Pending)
-120-10,EL,ECP-SS-ESWB3B-01,Power Cable B,Emergency LV Switchboard- SS-ESWB3B-01 (110V DC Supply),Exception(Pending)
+120-10,EL,ECP-SS-CIS-01-,Power Cable B,110V DC Charger Battery Isolator Box- SS-CIS-01 (-),67%
+120-10,EL,ECP-SS-CIS-01+,Power Cable B,110V DC Charger Battery Isolator Box- SS-CIS-01 (+),67%
+120-10,EL,ECP-SS-ESWB3A-01,Power Cable B,Emergency LV Switchboard- SS-ESWB3A-01 (110V DC Supply),Done
+120-10,EL,ECP-SS-ESWB3B-01,Power Cable B,Emergency LV Switchboard- SS-ESWB3B-01 (110V DC Supply),Done
 120-10,EL,ECP-SS-SWB2A-01_1,Power Cable B,6kV Switchboard SS-SWB2A-01- Bus VT Panel (110V DC Supply),Done
 120-10,EL,ECP-SS-SWB2A-01_2,Power Cable B,6kV Switchboard SS-SWB2A-01- Bus VT Panel (110V DC Supply),Done
 120-01,EL,ECP-SS-SWB2AB-01,Power Cable B,6kV Switchboard SS-SWB2B-01- Bus VT Panel (110V DC Supply),Done
@@ -11724,7 +11724,7 @@ DCS-01,IN,ESD-SC-CR-02,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
 120-13,EL,EX_TB-P-010,Cathodic Protection,Test Box,DONE
 120-13,EL,EX_TB-P-011,Cathodic Protection,Test Box,DONE
 120-15,EL,F&G-UBT-01,UPS & Battery,F&G System UPS Battery set,DONE
-120-09,EL,F&G-UPS-01,UPS & Battery,230V AC F&G UPS Panel,Exception(Pending)
+120-09,EL,F&G-UPS-01,UPS & Battery,230V AC F&G UPS Panel,Done
 DCS-01,IN,FA-0001,Fire Fighting,Fire Fighting(FA),0%
 DCS-01,IN,FCFA-0001,CABLE,CABLE(NA),0%
 FGS-08,IN,FCFGD-0041,CABLE,CABLE(NA),0%
@@ -15016,7 +15016,7 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 4000-08,IN,LST-8001C(LST),Instrument(LST),Instrument(LST),50%
 4000-08,IN,LST-8001C(NA),CABLE,CABLE(NA),0%
 NO SUBS.,IN,LT-10201,SIGNAL,SIGNAL,0%
-NO SUBS.,IN,LT-20101,Pkg,Pkg,0%
+NO SUBS.,IN,LT-20101,Pkg,Pkg,33%
 NO SUBS.,IN,LT-20101(LT),Instrument(LT),Instrument(LT),25%
 NO SUBS.,IN,LT-20151,Pkg,Pkg,0%
 NO SUBS.,IN,LT-20151(LT),Instrument(LT),Instrument(LT),25%
@@ -16916,12 +16916,12 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),0%
 4000-08,IN,PDI-8010,Instrument(PDI),Instrument(PDI),Done
 4000-08,IN,PDI-8011,Instrument(PDI),Instrument(PDI),Done
 4000-08,IN,PDI-8012,Instrument(PDI),Instrument(PDI),Done
-3000-01,IN,PDIT-30108,Instrument(PDIT),Instrument(PDIT),25%
-3000-01,IN,PDIT-30109,Instrument(PDIT),Instrument(PDIT),50%
-3000-01,IN,PDIT-30116,Instrument(PDIT),Instrument(PDIT),50%
-3000-01,IN,PDIT-30119,Instrument(PDIT),Instrument(PDIT),50%
-3000-01,IN,PDIT-30120,Instrument(PDIT),Instrument(PDIT),50%
-3000-01,IN,PDIT-30125,Instrument(PDIT),Instrument(PDIT),50%
+3000-01,IN,PDIT-30108,Instrument(PDIT),Instrument(PDIT),50%
+3000-01,IN,PDIT-30109,Instrument(PDIT),Instrument(PDIT),75%
+3000-01,IN,PDIT-30116,Instrument(PDIT),Instrument(PDIT),75%
+3000-01,IN,PDIT-30119,Instrument(PDIT),Instrument(PDIT),75%
+3000-01,IN,PDIT-30120,Instrument(PDIT),Instrument(PDIT),75%
+3000-01,IN,PDIT-30125,Instrument(PDIT),Instrument(PDIT),75%
 3000-01,IN,PDIT-30178(NA),CABLE,CABLE(NA),0%
 3000-01,IN,PDIT-30178(PDIT),Instrument(PDIT),Instrument(PDIT),25%
 3000-01,IN,PDIT-30183(NA),CABLE,CABLE(NA),0%
@@ -16949,7 +16949,7 @@ NO SUBS.,IN,PDT-10221,SIGNAL,SIGNAL,0%
 1000-01,IN,PDT-1032(PDT),Instrument(PDT),Instrument(PDT),50%
 2000-03,IN,PDT-2004(NA),CABLE,CABLE(NA),0%
 2000-03,IN,PDT-2004(PDT),Instrument(PDT),Instrument(PDT),25%
-2000-02,IN,PDT-20101,Instrument(PDT),Instrument(PDT),25%
+2000-02,IN,PDT-20101,Instrument(PDT),Instrument(PDT),75%
 2000-02,IN,PDT-20151,Instrument(PDT),Instrument(PDT),25%
 3000-04,IN,PDT-20202,Instrument(PDT),Instrument(PDT),25%
 3000-04,IN,PDT-20226,Instrument(PDT),Instrument(PDT),25%
@@ -17013,9 +17013,9 @@ NO SUBS.,IN,PDT-84207,Instrument(PDT),Instrument(PDT),0%
 2000-03,IN,PDV-2051(PDV),Instrument(PDV),Instrument(PDV),0%
 2000-06,IN,PDV-2575(NA),CABLE,CABLE(NA),0%
 2000-06,IN,PDV-2575(PDV),Instrument(PDV),Instrument(PDV),25%
-NO SUBS.,IN,PDV-30120,PKG,PKG,0%
+NO SUBS.,IN,PDV-30120,PKG,PKG,33%
 3000-01,IN,PDV-30120(PDV),Instrument(PDV),Instrument(PDV),25%
-NO SUBS.,IN,PDV-30125,PKG,PKG,0%
+NO SUBS.,IN,PDV-30125,PKG,PKG,33%
 3000-01,IN,PDV-30125(PDV),Instrument(PDV),Instrument(PDV),25%
 2000-03,IN,PDZSH-2051,Instrument(X),Instrument(PDZSH),0%
 2000-03,IN,PDZSL-2051,Instrument(X),Instrument(PDZSL),0%
@@ -17613,55 +17613,55 @@ FGS-01,IN,PI-9054B,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-01,IN,PI-9055A,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-01,IN,PI-9055B,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 3000-01,IN,PIC-3007,SIGNAL,SIGNAL,Done
-NO SUBS.,IN,PIT-30101,PKG,PKG,0%
+NO SUBS.,IN,PIT-30101,PKG,PKG,33%
 3000-01,IN,PIT-30101(PIT),Instrument(PIT),Instrument(PIT),0%
-3000-01,IN,PIT-30102A,Instrument(PIT),Instrument(PIT),0%
+3000-01,IN,PIT-30102A,Instrument(PIT),Instrument(PIT),25%
 3000-01,IN,PIT-30102B,Instrument(PIT),Instrument(PIT),0%
 3000-01,IN,PIT-30102C,Instrument(PIT),Instrument(PIT),0%
 NO SUBS.,IN,PIT-30110,PKG,PKG,0%
 3000-01,IN,PIT-30110(PIT),Instrument(PIT),Instrument(PIT),25%
-3000-01,IN,PIT-30114,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30117,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30118,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30121A,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30121B,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30121C,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30122A,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30122B,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30122C,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30123,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30124,Instrument(PIT),Instrument(PIT),50%
+3000-01,IN,PIT-30114,Instrument(PIT),Instrument(PIT),75%
+3000-01,IN,PIT-30117,Instrument(PIT),Instrument(PIT),75%
+3000-01,IN,PIT-30118,Instrument(PIT),Instrument(PIT),75%
+3000-01,IN,PIT-30121A,Instrument(PIT),Instrument(PIT),75%
+3000-01,IN,PIT-30121B,Instrument(PIT),Instrument(PIT),75%
+3000-01,IN,PIT-30121C,Instrument(PIT),Instrument(PIT),75%
+3000-01,IN,PIT-30122A,Instrument(PIT),Instrument(PIT),75%
+3000-01,IN,PIT-30122B,Instrument(PIT),Instrument(PIT),75%
+3000-01,IN,PIT-30122C,Instrument(PIT),Instrument(PIT),75%
+3000-01,IN,PIT-30123,Instrument(PIT),Instrument(PIT),75%
+3000-01,IN,PIT-30124,Instrument(PIT),Instrument(PIT),75%
 NO SUBS.,IN,PIT-30126,Pkg,Pkg,0%
 3000-01,IN,PIT-30126(PIT),Instrument(PIT),Instrument(PIT),25%
-3000-01,IN,PIT-30127A,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30127B,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30127C,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30128A,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30128B,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30128C,Instrument(PIT),Instrument(PIT),50%
+3000-01,IN,PIT-30127A,Instrument(PIT),Instrument(PIT),75%
+3000-01,IN,PIT-30127B,Instrument(PIT),Instrument(PIT),75%
+3000-01,IN,PIT-30127C,Instrument(PIT),Instrument(PIT),75%
+3000-01,IN,PIT-30128A,Instrument(PIT),Instrument(PIT),75%
+3000-01,IN,PIT-30128B,Instrument(PIT),Instrument(PIT),75%
+3000-01,IN,PIT-30128C,Instrument(PIT),Instrument(PIT),75%
 NO SUBS.,IN,PIT-30136,Pkg,Pkg,0%
 3000-01,IN,PIT-30136(NA),CABLE,CABLE(NA),0%
 3000-01,IN,PIT-30136(PIT),Instrument(PIT),Instrument(PIT),0%
-NO SUBS.,IN,PIT-30138,Pkg,Pkg,0%
+NO SUBS.,IN,PIT-30138,Pkg,Pkg,33%
 3000-01,IN,PIT-30138(PIT),Instrument(PIT),Instrument(PIT),0%
-3000-01,IN,PIT-30142A,Instrument(PIT),Instrument(PIT),25%
-3000-01,IN,PIT-30142B,Instrument(PIT),Instrument(PIT),25%
-3000-01,IN,PIT-30142C,Instrument(PIT),Instrument(PIT),25%
-3000-01,IN,PIT-30145A,Instrument(PIT),Instrument(PIT),25%
-3000-01,IN,PIT-30145B,Instrument(PIT),Instrument(PIT),25%
-3000-01,IN,PIT-30145C,Instrument(PIT),Instrument(PIT),25%
-3000-01,IN,PIT-30147A,Instrument(PIT),Instrument(PIT),25%
-3000-01,IN,PIT-30147B,Instrument(PIT),Instrument(PIT),25%
-3000-01,IN,PIT-30147C,Instrument(PIT),Instrument(PIT),25%
-3000-01,IN,PIT-30149A,Instrument(PIT),Instrument(PIT),25%
-3000-01,IN,PIT-30149B,Instrument(PIT),Instrument(PIT),25%
-3000-01,IN,PIT-30149C,Instrument(PIT),Instrument(PIT),25%
-3000-01,IN,PIT-30150A,Instrument(PIT),Instrument(PIT),25%
-3000-01,IN,PIT-30150B,Instrument(PIT),Instrument(PIT),25%
-3000-01,IN,PIT-30150C,Instrument(PIT),Instrument(PIT),25%
-NO SUBS.,IN,PIT-30171,PKG,PKG,0%
+3000-01,IN,PIT-30142A,Instrument(PIT),Instrument(PIT),50%
+3000-01,IN,PIT-30142B,Instrument(PIT),Instrument(PIT),50%
+3000-01,IN,PIT-30142C,Instrument(PIT),Instrument(PIT),50%
+3000-01,IN,PIT-30145A,Instrument(PIT),Instrument(PIT),50%
+3000-01,IN,PIT-30145B,Instrument(PIT),Instrument(PIT),50%
+3000-01,IN,PIT-30145C,Instrument(PIT),Instrument(PIT),50%
+3000-01,IN,PIT-30147A,Instrument(PIT),Instrument(PIT),50%
+3000-01,IN,PIT-30147B,Instrument(PIT),Instrument(PIT),50%
+3000-01,IN,PIT-30147C,Instrument(PIT),Instrument(PIT),50%
+3000-01,IN,PIT-30149A,Instrument(PIT),Instrument(PIT),50%
+3000-01,IN,PIT-30149B,Instrument(PIT),Instrument(PIT),50%
+3000-01,IN,PIT-30149C,Instrument(PIT),Instrument(PIT),50%
+3000-01,IN,PIT-30150A,Instrument(PIT),Instrument(PIT),50%
+3000-01,IN,PIT-30150B,Instrument(PIT),Instrument(PIT),50%
+3000-01,IN,PIT-30150C,Instrument(PIT),Instrument(PIT),50%
+NO SUBS.,IN,PIT-30171,PKG,PKG,33%
 3000-01,IN,PIT-30171(PIT),Instrument(PIT),Instrument(PIT),0%
-NO SUBS.,IN,PIT-30172,PKG,PKG,0%
+NO SUBS.,IN,PIT-30172,PKG,PKG,33%
 3000-01,IN,PIT-30172(PIT),Instrument(PIT),Instrument(PIT),0%
 3000-01,IN,PIT-30179(NA),CABLE,CABLE(NA),0%
 3000-01,IN,PIT-30179(PIT),Instrument(PIT),Instrument(PIT),25%
@@ -17695,22 +17695,22 @@ NO SUBS.,IN,PIT-30172,PKG,PKG,0%
 4000-06,MES,PK-7502-TK-2,PAKAGE(PK),Package,0%
 4000-08,MES,PK-8001,PAKAGE(PK),,DONE
 4000-08,MES,PK-8002,PAKAGE(PK),,DONE
-120-03,EL,PK8002-MP-1A,Local_Control_Station,Local Control Station- PK8002-MP-1A,Exception(Pending)
-120-03,EL,PK8002-MP-1B,Local_Control_Station,Local Control Station- PK8002-MP-1B,Exception(Pending)
-120-03,EL,PK8002-MX-1,Local_Control_Station,Local Control Station- PK8002-MX-1,Exception(Pending)
+120-03,EL,PK8002-MP-1A,Local_Control_Station,Local Control Station- PK8002-MP-1A,Done
+120-03,EL,PK8002-MP-1B,Local_Control_Station,Local Control Station- PK8002-MP-1B,Done
+120-03,EL,PK8002-MX-1,Local_Control_Station,Local Control Station- PK8002-MX-1,Done
 4000-08,MES,PK-8003,PAKAGE(PK),,DONE
-120-03,EL,PK8003-MP-1A,Local_Control_Station,Local Control Station- PK8003-MP-1A,Exception(Pending)
-120-03,EL,PK8003-MP-1B,Local_Control_Station,Local Control Station- PK8003-MP-1B,Exception(Pending)
-120-03,EL,PK8003-MX-1,Local_Control_Station,Local Control Station- PK8003-MX-1,Exception(Pending)
+120-03,EL,PK8003-MP-1A,Local_Control_Station,Local Control Station- PK8003-MP-1A,Done
+120-03,EL,PK8003-MP-1B,Local_Control_Station,Local Control Station- PK8003-MP-1B,Done
+120-03,EL,PK8003-MX-1,Local_Control_Station,Local Control Station- PK8003-MX-1,Done
 4000-08,MES,PK-8004,PAKAGE(PK),,DONE
-120-03,EL,PK8004-MP-1A,Local_Control_Station,Local Control Station- PK8004-MP-1A,Exception(Pending)
-120-03,EL,PK8004-MP-1B,Local_Control_Station,Local Control Station- PK8004-MP-1B,Exception(Pending)
-120-03,EL,PK8004-MX-1,Local_Control_Station,Local Control Station- PK8004-MX-1,Exception(Pending)
+120-03,EL,PK8004-MP-1A,Local_Control_Station,Local Control Station- PK8004-MP-1A,Done
+120-03,EL,PK8004-MP-1B,Local_Control_Station,Local Control Station- PK8004-MP-1B,Done
+120-03,EL,PK8004-MX-1,Local_Control_Station,Local Control Station- PK8004-MX-1,Done
 4000-08,MES,PK-8005,PAKAGE(PK),,DONE
-120-03,EL,PK8005-MP-1A,Local_Control_Station,Local Control Station- PK8005-MP-1A,Exception(Pending)
-120-03,EL,PK8005-MP-1B,Local_Control_Station,Local Control Station- PK8005-MP-1B,Exception(Pending)
-120-03,EL,PK8401-MP-1A,Local_Control_Station,Local Control Station- PK8401-MP-1A,Exception(Pending)
-120-03,EL,PK8401-MP-1B,Local_Control_Station,Local Control Station- PK8401-MP-1B,Exception(Pending)
+120-03,EL,PK8005-MP-1A,Local_Control_Station,Local Control Station- PK8005-MP-1A,Done
+120-03,EL,PK8005-MP-1B,Local_Control_Station,Local Control Station- PK8005-MP-1B,Done
+120-03,EL,PK8401-MP-1A,Local_Control_Station,Local Control Station- PK8401-MP-1A,Done
+120-03,EL,PK8401-MP-1B,Local_Control_Station,Local Control Station- PK8401-MP-1B,Done
 120-03,EL,PK8401-MP-2A,Local_Control_Station,Local Control Station- PK8401-MP-2A,DONE
 120-03,EL,PK8401-MP-2B,Local_Control_Station,Local Control Station- PK8401-MP-2B,DONE
 4000-09,MER,PK-8401-P2A,PAKAGE(PK),OILY WATER TRANSFER PUMP,DONE
@@ -18262,10 +18262,10 @@ NO SUBS.,IN,PT-10224,SIGNAL,SIGNAL,0%
 2000-03,IN,PT-2001(PT),Instrument(PT),Instrument(PT),25%
 2000-03,IN,PT-2006(NA),CABLE,CABLE(NA),0%
 2000-03,IN,PT-2006(PT),Instrument(PT),Instrument(PT),25%
-2000-02,IN,PT-20101,Instrument(PT),Instrument(PT),25%
-2000-02,IN,PT-20102A,Instrument(PT),Instrument(PT),25%
-2000-02,IN,PT-20102B,Instrument(PT),Instrument(PT),25%
-2000-02,IN,PT-20102C,Instrument(PT),Instrument(PT),25%
+2000-02,IN,PT-20101,Instrument(PT),Instrument(PT),75%
+2000-02,IN,PT-20102A,Instrument(PT),Instrument(PT),75%
+2000-02,IN,PT-20102B,Instrument(PT),Instrument(PT),75%
+2000-02,IN,PT-20102C,Instrument(PT),Instrument(PT),75%
 2000-03,IN,PT-2015(NA),CABLE,CABLE(NA),0%
 2000-03,IN,PT-2015(PT),Instrument(PT),Instrument(PT),25%
 2000-02,IN,PT-20151,Instrument(PT),Instrument(PT),25%
@@ -18531,7 +18531,7 @@ NO SUBS.,IN,PT-84208,Instrument(PT),Instrument(PT),0%
 1000-02,IN,PV-2536(PV),Instrument(PV),Instrument(PV),25%
 3000-04,IN,PV-2608(NA),CABLE,CABLE(NA),50%
 3000-04,IN,PV-2608(PV),Instrument(PV),Instrument(PV),25%
-NO SUBS.,IN,PV-30123,PKG,PKG,0%
+NO SUBS.,IN,PV-30123,PKG,PKG,33%
 3000-01,IN,PV-30123(PV),Instrument(PV),Instrument(PV),25%
 3000-01,IN,PV-30138(NA),CABLE,CABLE(NA),0%
 3000-01,IN,PV-30138(PV),Instrument(PV),Instrument(PV),0%
@@ -19846,7 +19846,7 @@ TEL-08,EL,SS-TJB1,Telecom Device,Telephone Junction Box,DONE
 120-17,EL,SS-TR3B-01,Transformer,Main Normal Lighting Transformer B,Done
 120-15,EL,SS-UBT-01,UPS & Battery,230V AC Safety Lighting UPS Battery Set,DONE
 120-11,EL,SS-UIS-01,UPS & Battery,230V AC Safety Lighting UPS Battery Isolator Box,50%
-120-11,EL,SS-UPS-01,UPS & Battery, 230V AC Safety Lighting UPS,Exception(Pending)
+120-11,EL,SS-UPS-01,UPS & Battery, 230V AC Safety Lighting UPS,Done
 3000-01,IN,SSV-30101,Instrument(SSV),Instrument(SSV),0%
 3000-01,IN,SSV-30102,Instrument(SSV),Instrument(SSV),0%
 BLD-01,CV,Stair Ways(Ground Floor BLD-01),09-Stair Ways,Stair Ways(Ground Floor BLD-01),DONE
@@ -20078,7 +20078,7 @@ NO SUBS.,IN,TE-10208-2,PKG,PKG,0%
 2000-01,IN,TE-2091(NA),CABLE,CABLE(NA),0%
 2000-01,IN,TE-2091(TE),Instrument(TE),Instrument(TE),50%
 2000-02,IN,TE-2111(NA),CABLE,CABLE(NA),0%
-2000-02,IN,TE-2111(TE),Instrument(TE),Instrument(TE),0%
+2000-02,IN,TE-2111(TE),Instrument(TE),Instrument(TE),50%
 2000-02,IN,TE-2112(NA),CABLE,CABLE(NA),0%
 2000-02,IN,TE-2112(TE),Instrument(TE),Instrument(TE),0%
 2000-02,IN,TE-2113(NA),CABLE,CABLE(NA),0%
@@ -20086,7 +20086,7 @@ NO SUBS.,IN,TE-10208-2,PKG,PKG,0%
 1000-01,IN,TE-2148(NA),CABLE,CABLE(NA),0%
 1000-01,IN,TE-2148(TE),Instrument(TE),Instrument(TE),0%
 1000-01,IN,TE-2149(NA),CABLE,CABLE(NA),0%
-1000-01,IN,TE-2149(TE),Instrument(TE),Instrument(TE),0%
+1000-01,IN,TE-2149(TE),Instrument(TE),Instrument(TE),50%
 3000-04,IN,TE-2150(NA),CABLE,CABLE(NA),0%
 3000-04,IN,TE-2150(TE),Instrument(TE),Instrument(TE),50%
 1000-01,IN,TE-2151(NA),CABLE,CABLE(NA),0%
@@ -20100,7 +20100,7 @@ NO SUBS.,IN,TE-10208-2,PKG,PKG,0%
 2000-02,IN,TE-2162(NA),CABLE,CABLE(NA),0%
 2000-02,IN,TE-2162(TE),Instrument(TE),Instrument(TE),0%
 1000-01,IN,TE-2220(NA),CABLE,CABLE(NA),0%
-1000-01,IN,TE-2220(TE),Instrument(TE),Instrument(TE),0%
+1000-01,IN,TE-2220(TE),Instrument(TE),Instrument(TE),50%
 2000-02,IN,TE-2226(NA),CABLE,CABLE(NA),0%
 2000-02,IN,TE-2226(TE),Instrument(TE),Instrument(TE),0%
 2000-02,IN,TE-2227(NA),CABLE,CABLE(NA),0%
@@ -21863,13 +21863,13 @@ NO SUBS.,IN,TW-1007,Instrument(TW),Instrument(TW),50%
 1000-03,IN,TW-2061,Instrument(TW),Instrument(TW),50%
 7000-01,IN,TW-2074,Instrument(TW),Instrument(TW),50%
 2000-01,IN,TW-2091,Instrument(TW),Instrument(TW),50%
-2000-02,IN,TW-2111,Instrument(TW),Instrument(TW),0%
+2000-02,IN,TW-2111,Instrument(TW),Instrument(TW),50%
 2000-02,IN,TW-2112(TW),Instrument(TW),Instrument(TW),0%
 2000-02,IN,TW-2113,Instrument(TW),Instrument(TW),0%
 2000-02,IN,TW-2116,Instrument(TW),Instrument(TW),50%
 2000-02,IN,TW-2120,Instrument(TW),Instrument(TW),50%
 1000-01,IN,TW-2148,Instrument(TW),Instrument(TW),0%
-1000-01,IN,TW-2149,Instrument(TW),Instrument(TW),0%
+1000-01,IN,TW-2149,Instrument(TW),Instrument(TW),50%
 3000-04,IN,TW-2150,Instrument(TW),Instrument(TW),50%
 1000-01,IN,TW-2151,Instrument(TW),Instrument(TW),0%
 2000-02,IN,TW-2154,Instrument(TW),Instrument(TW),0%
@@ -21878,7 +21878,7 @@ NO SUBS.,IN,TW-1007,Instrument(TW),Instrument(TW),50%
 2000-02,IN,TW-2162,Instrument(TW),Instrument(TW),0%
 2000-02,IN,TW-2164,Instrument(TW),Instrument(TW),50%
 2000-02,IN,TW-2170,Instrument(TW),Instrument(TW),50%
-1000-01,IN,TW-2220,Instrument(TW),Instrument(TW),0%
+1000-01,IN,TW-2220,Instrument(TW),Instrument(TW),50%
 2000-02,IN,TW-2221A,Instrument(TW),Instrument(TW),0%
 2000-02,IN,TW-2221B,Instrument(TW),Instrument(TW),0%
 2000-02,IN,TW-2221C,Instrument(TW),Instrument(TW),0%
@@ -22306,7 +22306,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 1000-02,IN,USV-2545,Instrument(USV),Instrument(USV),25%
 1000-02,IN,USV-2547,Instrument(USV),Instrument(USV),50%
 1000-02,IN,USV-2548,Instrument(USV),Instrument(USV),50%
-1000-02,IN,USV-2549,Instrument(USV),Instrument(USV),25%
+1000-02,IN,USV-2549,Instrument(USV),Instrument(USV),50%
 3000-01,IN,USV-3018,Instrument(USV),Instrument(USV),25%
 3000-02,IN,USV-3052,Instrument(USV),Instrument(USV),0%
 3000-03,IN,USV-3172,Instrument(USV),Instrument(USV),25%
