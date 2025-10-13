@@ -672,17 +672,40 @@
         }
 
         document.addEventListener('DOMContentLoaded', function() {
-            const animateElements = document.querySelectorAll('.animate-in');
-            animateElements.forEach((el, index) => {
-                el.style.opacity = '0';
-                el.style.transform = 'translateY(20px)';
-                
+            // Show loading overlay
+            document.body.insertAdjacentHTML('afterbegin', `
+                <div id="loading-overlay" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); z-index: 9999; display: flex; align-items: center; justify-content: center; flex-direction: column; transition: opacity 0.5s ease;">
+                    <div style="text-align: center; color: white;">
+                        <div style="width: 60px; height: 60px; border: 4px solid rgba(255,255,255,0.3); border-top: 4px solid white; border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 20px;"></div>
+                        <h4 style="margin: 0; font-weight: 300; animation: pulse 2s infinite;">Loading Training Guide...</h4>
+                    </div>
+                </div>
+                <style>
+                    @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+                    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
+                </style>
+            `);
+            
+            // Hide loading after 1.8 seconds and trigger animations
+            setTimeout(() => {
+                const overlay = document.getElementById('loading-overlay');
+                overlay.style.opacity = '0';
                 setTimeout(() => {
-                    el.style.transition = 'all 0.5s ease-out';
-                    el.style.opacity = '1';
-                    el.style.transform = 'translateY(0)';
-                }, index * 80);
-            });
+                    overlay.remove();
+                    // Trigger staggered animations
+                    const animateElements = document.querySelectorAll('.animate-in');
+                    animateElements.forEach((el, index) => {
+                        el.style.opacity = '0';
+                        el.style.transform = 'translateY(30px)';
+                        
+                        setTimeout(() => {
+                            el.style.transition = 'all 0.6s cubic-bezier(0.4, 0, 0.2, 1)';
+                            el.style.opacity = '1';
+                            el.style.transform = 'translateY(0)';
+                        }, index * 100);
+                    });
+                }, 500);
+            }, 1800);
         });
     </script>
 </body>
