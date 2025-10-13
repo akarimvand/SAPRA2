@@ -36,6 +36,34 @@
             padding: 1.5rem 0;
         }
         
+        .lang-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        
+        .lang-btn {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            margin: 0 0.25rem;
+            transition: var(--transition-base);
+            font-size: 0.85rem;
+        }
+        
+        .lang-btn.active {
+            background: var(--primary-hover);
+            box-shadow: 0 2px 8px rgba(24,119,242,0.3);
+        }
+        
+        .lang-btn:hover {
+            background: var(--primary-hover);
+            transform: translateY(-1px);
+        }
+        
         .feature-card {
             background: var(--card-background-color);
             border-radius: 12px;
@@ -83,28 +111,6 @@
             line-height: 1.5;
             margin-bottom: 1rem;
             font-size: 0.9rem;
-        }
-        
-        .action-btn {
-            background-color: var(--primary-color);
-            border: none;
-            color: white;
-            padding: 0.6rem 1.2rem;
-            border-radius: 6px;
-            text-decoration: none;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            transition: var(--transition-base);
-            font-weight: 500;
-            font-size: 0.85rem;
-        }
-        
-        .action-btn:hover {
-            background-color: var(--primary-hover);
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(24,119,242,0.3);
-            color: white;
         }
         
         .step-number {
@@ -227,6 +233,14 @@
             flex-shrink: 0;
         }
         
+        .lang-content {
+            display: none;
+        }
+        
+        .lang-content.active {
+            display: block;
+        }
+        
         @keyframes fadeInUp {
             from {
                 opacity: 0;
@@ -251,218 +265,412 @@
     </style>
 </head>
 <body>
+    <div class="lang-toggle">
+        <button class="lang-btn active" onclick="switchLang('en')">English</button>
+        <button class="lang-btn" onclick="switchLang('fa')">فارسی</button>
+    </div>
+
     <div class="container">
-        <!-- Features Section -->
-        <section class="mb-4">
-            <h2 class="section-title">Core Features</h2>
-            <div class="row g-3">
-                <div class="col-lg-4 col-md-6">
-                    <div class="feature-card animate-in stagger-1">
-                        <div class="feature-icon icon-primary">
-                            <i class="bi bi-speedometer2"></i>
+        <!-- English Content -->
+        <div id="en-content" class="lang-content active">
+            <!-- Features Section -->
+            <section class="mb-4">
+                <h2 class="section-title">Core Features</h2>
+                <div class="row g-3">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="feature-card animate-in stagger-1">
+                            <div class="feature-icon icon-primary">
+                                <i class="bi bi-speedometer2"></i>
+                            </div>
+                            <h3 class="feature-title">Main Dashboard</h3>
+                            <p class="feature-description">
+                                Comprehensive overview of project status including completed, pending, and remaining items with real-time updates.
+                            </p>
                         </div>
-                        <h3 class="feature-title">Main Dashboard</h3>
-                        <p class="feature-description">
-                            Comprehensive overview of project status including completed, pending, and remaining items with real-time updates.
-                        </p>
-                        <a href="#" class="action-btn" onclick="parent.activateTab('home-tab'); return false;">
-                            <span>View Dashboard</span>
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="feature-card animate-in stagger-2">
+                            <div class="feature-icon icon-success">
+                                <i class="bi bi-diagram-3"></i>
+                            </div>
+                            <h3 class="feature-title">System Management</h3>
+                            <p class="feature-description">
+                                Organize projects by systems and subsystems with advanced search and filtering capabilities.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="feature-card animate-in stagger-3">
+                            <div class="feature-icon icon-info">
+                                <i class="bi bi-bar-chart"></i>
+                            </div>
+                            <h3 class="feature-title">Analytics Charts</h3>
+                            <p class="feature-description">
+                                Interactive visual data representation with doughnut charts for overall status and discipline breakdowns.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="feature-card animate-in stagger-4">
+                            <div class="feature-icon icon-warning">
+                                <i class="bi bi-file-earmark-text"></i>
+                            </div>
+                            <h3 class="feature-title">Form Management</h3>
+                            <p class="feature-description">
+                                Track status of Forms A, B, C, and D for each subsystem with detailed handover information.
+                            </p>
+                            <div class="row mb-2">
+                                <div class="col-6"><div class="form-demo-card gradient-form-a">FORM A</div></div>
+                                <div class="col-6"><div class="form-demo-card gradient-form-b">FORM B</div></div>
+                                <div class="col-6"><div class="form-demo-card gradient-form-c">FORM C</div></div>
+                                <div class="col-6"><div class="form-demo-card gradient-form-d">FORM D</div></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="feature-card animate-in stagger-5">
+                            <div class="feature-icon icon-danger">
+                                <i class="bi bi-exclamation-triangle"></i>
+                            </div>
+                            <h3 class="feature-title">Issue Tracking</h3>
+                            <p class="feature-description">
+                                Monitor Punch Lists and Hold Points with detailed information and priority levels.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="feature-card animate-in stagger-6">
+                            <div class="feature-icon icon-secondary">
+                                <i class="bi bi-download"></i>
+                            </div>
+                            <h3 class="feature-title">Advanced Reporting</h3>
+                            <p class="feature-description">
+                                Export data to Excel format and download complete project information with customizable reports.
+                            </p>
+                        </div>
                     </div>
                 </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="feature-card animate-in stagger-2">
-                        <div class="feature-icon icon-success">
-                            <i class="bi bi-diagram-3"></i>
-                        </div>
-                        <h3 class="feature-title">System Management</h3>
-                        <p class="feature-description">
-                            Organize projects by systems and subsystems with advanced search and filtering capabilities.
-                        </p>
-                        <a href="#" class="action-btn" onclick="parent.activateTab('home-tab'); return false;">
-                            <span>Explore Systems</span>
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="feature-card animate-in stagger-3">
-                        <div class="feature-icon icon-info">
-                            <i class="bi bi-bar-chart"></i>
-                        </div>
-                        <h3 class="feature-title">Analytics Charts</h3>
-                        <p class="feature-description">
-                            Interactive visual data representation with doughnut charts for overall status and discipline breakdowns.
-                        </p>
-                        <a href="#" class="action-btn" onclick="parent.activateTab('home-tab'); return false;">
-                            <span>View Analytics</span>
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="feature-card animate-in stagger-4">
-                        <div class="feature-icon icon-warning">
-                            <i class="bi bi-file-earmark-text"></i>
-                        </div>
-                        <h3 class="feature-title">Form Management</h3>
-                        <p class="feature-description">
-                            Track status of Forms A, B, C, and D for each subsystem with detailed handover information.
-                        </p>
-                        <div class="row mb-2">
-                            <div class="col-6"><div class="form-demo-card gradient-form-a">FORM A</div></div>
-                            <div class="col-6"><div class="form-demo-card gradient-form-b">FORM B</div></div>
-                            <div class="col-6"><div class="form-demo-card gradient-form-c">FORM C</div></div>
-                            <div class="col-6"><div class="form-demo-card gradient-form-d">FORM D</div></div>
-                        </div>
-                        <a href="#" class="action-btn" onclick="parent.activateTab('home-tab'); return false;">
-                            <span>Manage Forms</span>
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="feature-card animate-in stagger-5">
-                        <div class="feature-icon icon-danger">
-                            <i class="bi bi-exclamation-triangle"></i>
-                        </div>
-                        <h3 class="feature-title">Issue Tracking</h3>
-                        <p class="feature-description">
-                            Monitor Punch Lists and Hold Points with detailed information and priority levels.
-                        </p>
-                        <a href="#" class="action-btn" onclick="parent.activateTab('home-tab'); return false;">
-                            <span>Track Issues</span>
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="feature-card animate-in stagger-6">
-                        <div class="feature-icon icon-secondary">
-                            <i class="bi bi-download"></i>
-                        </div>
-                        <h3 class="feature-title">Advanced Reporting</h3>
-                        <p class="feature-description">
-                            Export data to Excel format and download complete project information with customizable reports.
-                        </p>
-                        <a href="#" class="action-btn" onclick="parent.activateTab('reports-tab'); return false;">
-                            <span>Generate Reports</span>
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- Workflow Section -->
-        <section class="mb-4">
-            <h2 class="section-title">How It Works</h2>
-            
-            <div class="workflow-step animate-in stagger-1">
-                <div class="step-number">1</div>
-                <div>
-                    <h6 class="mb-1 fw-semibold">System Initialization</h6>
-                    <p class="mb-0 text-muted small">The system automatically loads project data from online sources upon page load.</p>
-                </div>
-            </div>
-            
-            <div class="workflow-step animate-in stagger-2">
-                <div class="step-number">2</div>
-                <div>
-                    <h6 class="mb-1 fw-semibold">Select System or Subsystem</h6>
-                    <p class="mb-0 text-muted small">Choose your desired system or subsystem from the right sidebar menu.</p>
-                </div>
-            </div>
-            
-            <div class="workflow-step animate-in stagger-3">
-                <div class="step-number">3</div>
-                <div>
-                    <h6 class="mb-1 fw-semibold">Review Summary Information</h6>
-                    <p class="mb-0 text-muted small">Summary cards at the top display overall status. Click on any card to view details.</p>
-                </div>
-            </div>
-            
-            <div class="workflow-step animate-in stagger-4">
-                <div class="step-number">4</div>
-                <div>
-                    <h6 class="mb-1 fw-semibold">Analyze Charts</h6>
-                    <p class="mb-0 text-muted small">Use the "Overview" and "By Discipline" tabs to view analytical charts.</p>
-                </div>
-            </div>
-            
-            <div class="workflow-step animate-in stagger-5">
-                <div class="step-number">5</div>
-                <div>
-                    <h6 class="mb-1 fw-semibold">Explore Detailed Tables</h6>
-                    <p class="mb-0 text-muted small">The bottom table shows detailed information for each discipline.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Tips Section -->
-        <section class="mb-4">
-            <h2 class="section-title">Pro Tips</h2>
-            <div class="row g-3">
-                <div class="col-lg-6">
-                    <div class="tips-card animate-in stagger-1">
-                        <h6 class="mb-2 d-flex align-items-center">
-                            <i class="bi bi-lightbulb text-warning me-2"></i>
-                            Essential Tips
-                        </h6>
-                        <ul class="tips-list">
-                            <li><i class="bi bi-check-circle text-success"></i>Click on Tag Numbers to view related activities</li>
-                            <li><i class="bi bi-check-circle text-success"></i>Use table filters for quick data search</li>
-                            <li><i class="bi bi-check-circle text-success"></i>Charts are interactive with hover details</li>
-                            <li><i class="bi bi-check-circle text-success"></i>Data updates automatically from online sources</li>
-                        </ul>
+            <!-- Workflow Section -->
+            <section class="mb-4">
+                <h2 class="section-title">How It Works</h2>
+                
+                <div class="workflow-step animate-in stagger-1">
+                    <div class="step-number">1</div>
+                    <div>
+                        <h6 class="mb-1 fw-semibold">System Initialization</h6>
+                        <p class="mb-0 text-muted small">The system automatically loads project data from online sources upon page load.</p>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="tips-card animate-in stagger-2">
-                        <h6 class="mb-2 d-flex align-items-center">
-                            <i class="bi bi-palette text-primary me-2"></i>
-                            Color Guide
-                        </h6>
-                        <div class="row">
-                            <div class="col-6 mb-1">
-                                <div class="d-flex align-items-center">
-                                    <div class="color-indicator bg-success"></div>
-                                    <span class="small">Completed</span>
+                
+                <div class="workflow-step animate-in stagger-2">
+                    <div class="step-number">2</div>
+                    <div>
+                        <h6 class="mb-1 fw-semibold">Select System or Subsystem</h6>
+                        <p class="mb-0 text-muted small">Choose your desired system or subsystem from the right sidebar menu.</p>
+                    </div>
+                </div>
+                
+                <div class="workflow-step animate-in stagger-3">
+                    <div class="step-number">3</div>
+                    <div>
+                        <h6 class="mb-1 fw-semibold">Review Summary Information</h6>
+                        <p class="mb-0 text-muted small">Summary cards at the top display overall status. Click on any card to view details.</p>
+                    </div>
+                </div>
+                
+                <div class="workflow-step animate-in stagger-4">
+                    <div class="step-number">4</div>
+                    <div>
+                        <h6 class="mb-1 fw-semibold">Analyze Charts</h6>
+                        <p class="mb-0 text-muted small">Use the "Overview" and "By Discipline" tabs to view analytical charts.</p>
+                    </div>
+                </div>
+                
+                <div class="workflow-step animate-in stagger-5">
+                    <div class="step-number">5</div>
+                    <div>
+                        <h6 class="mb-1 fw-semibold">Explore Detailed Tables</h6>
+                        <p class="mb-0 text-muted small">The bottom table shows detailed information for each discipline.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tips Section -->
+            <section class="mb-4">
+                <h2 class="section-title">Pro Tips</h2>
+                <div class="row g-3">
+                    <div class="col-lg-6">
+                        <div class="tips-card animate-in stagger-1">
+                            <h6 class="mb-2 d-flex align-items-center">
+                                <i class="bi bi-lightbulb text-warning me-2"></i>
+                                Essential Tips
+                            </h6>
+                            <ul class="tips-list">
+                                <li><i class="bi bi-check-circle text-success"></i>Click on Tag Numbers to view related activities</li>
+                                <li><i class="bi bi-check-circle text-success"></i>Use table filters for quick data search</li>
+                                <li><i class="bi bi-check-circle text-success"></i>Charts are interactive with hover details</li>
+                                <li><i class="bi bi-check-circle text-success"></i>Data updates automatically from online sources</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="tips-card animate-in stagger-2">
+                            <h6 class="mb-2 d-flex align-items-center">
+                                <i class="bi bi-palette text-primary me-2"></i>
+                                Color Guide
+                            </h6>
+                            <div class="row">
+                                <div class="col-6 mb-1">
+                                    <div class="d-flex align-items-center">
+                                        <div class="color-indicator bg-success"></div>
+                                        <span class="small">Completed</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-6 mb-1">
-                                <div class="d-flex align-items-center">
-                                    <div class="color-indicator bg-warning"></div>
-                                    <span class="small">Pending</span>
+                                <div class="col-6 mb-1">
+                                    <div class="d-flex align-items-center">
+                                        <div class="color-indicator bg-warning"></div>
+                                        <span class="small">Pending</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-6 mb-1">
-                                <div class="d-flex align-items-center">
-                                    <div class="color-indicator bg-info"></div>
-                                    <span class="small">Remaining</span>
+                                <div class="col-6 mb-1">
+                                    <div class="d-flex align-items-center">
+                                        <div class="color-indicator bg-info"></div>
+                                        <span class="small">Remaining</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-6 mb-1">
-                                <div class="d-flex align-items-center">
-                                    <div class="color-indicator bg-danger"></div>
-                                    <span class="small">Issues</span>
+                                <div class="col-6 mb-1">
+                                    <div class="d-flex align-items-center">
+                                        <div class="color-indicator bg-danger"></div>
+                                        <span class="small">Issues</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
+
+        <!-- Persian Content -->
+        <div id="fa-content" class="lang-content" dir="rtl">
+            <!-- Features Section -->
+            <section class="mb-4">
+                <h2 class="section-title">امکانات اصلی</h2>
+                <div class="row g-3">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="feature-card animate-in stagger-1">
+                            <div class="feature-icon icon-primary">
+                                <i class="bi bi-speedometer2"></i>
+                            </div>
+                            <h3 class="feature-title">داشبورد اصلی</h3>
+                            <p class="feature-description">
+                                نمایش خلاصهای از وضعیت کلی پروژه شامل آیتمهای تکمیل شده، در حال انجام و باقیمانده با بروزرسانی لحظهای.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="feature-card animate-in stagger-2">
+                            <div class="feature-icon icon-success">
+                                <i class="bi bi-diagram-3"></i>
+                            </div>
+                            <h3 class="feature-title">مدیریت سیستمها</h3>
+                            <p class="feature-description">
+                                سازماندهی پروژه بر اساس سیستمها و زیرسیستمها با امکانات پیشرفته جستجو و فیلتر کردن.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="feature-card animate-in stagger-3">
+                            <div class="feature-icon icon-info">
+                                <i class="bi bi-bar-chart"></i>
+                            </div>
+                            <h3 class="feature-title">نمودارهای تحلیلی</h3>
+                            <p class="feature-description">
+                                نمایش بصری تعاملی دادهها با نمودارهای دایرهای برای وضعیت کلی و تفکیک بر اساس رشتهها.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="feature-card animate-in stagger-4">
+                            <div class="feature-icon icon-warning">
+                                <i class="bi bi-file-earmark-text"></i>
+                            </div>
+                            <h3 class="feature-title">مدیریت فرمها</h3>
+                            <p class="feature-description">
+                                ردیابی وضعیت فرمهای A، B، C و D برای هر زیرسیستم با اطلاعات تفصیلی تحویل.
+                            </p>
+                            <div class="row mb-2">
+                                <div class="col-6"><div class="form-demo-card gradient-form-a">فرم A</div></div>
+                                <div class="col-6"><div class="form-demo-card gradient-form-b">فرم B</div></div>
+                                <div class="col-6"><div class="form-demo-card gradient-form-c">فرم C</div></div>
+                                <div class="col-6"><div class="form-demo-card gradient-form-d">فرم D</div></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="feature-card animate-in stagger-5">
+                            <div class="feature-icon icon-danger">
+                                <i class="bi bi-exclamation-triangle"></i>
+                            </div>
+                            <h3 class="feature-title">ردیابی مسائل</h3>
+                            <p class="feature-description">
+                                نظارت بر Punch List ها و Hold Point ها با اطلاعات تفصیلی و سطوح اولویت.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="feature-card animate-in stagger-6">
+                            <div class="feature-icon icon-secondary">
+                                <i class="bi bi-download"></i>
+                            </div>
+                            <h3 class="feature-title">گزارشگیری پیشرفته</h3>
+                            <p class="feature-description">
+                                خروجی دادهها در قالب Excel و دانلود اطلاعات کامل پروژه با گزارشهای قابل تنظیم.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Workflow Section -->
+            <section class="mb-4">
+                <h2 class="section-title">نحوه کار</h2>
+                
+                <div class="workflow-step animate-in stagger-1">
+                    <div class="step-number">۱</div>
+                    <div>
+                        <h6 class="mb-1 fw-semibold">راهاندازی سیستم</h6>
+                        <p class="mb-0 text-muted small">سیستم بهطور خودکار دادههای پروژه را از منابع آنلاین بارگذاری میکند.</p>
+                    </div>
+                </div>
+                
+                <div class="workflow-step animate-in stagger-2">
+                    <div class="step-number">۲</div>
+                    <div>
+                        <h6 class="mb-1 fw-semibold">انتخاب سیستم یا زیرسیستم</h6>
+                        <p class="mb-0 text-muted small">سیستم یا زیرسیستم مورد نظر خود را از منوی سمت راست انتخاب کنید.</p>
+                    </div>
+                </div>
+                
+                <div class="workflow-step animate-in stagger-3">
+                    <div class="step-number">۳</div>
+                    <div>
+                        <h6 class="mb-1 fw-semibold">بررسی اطلاعات خلاصه</h6>
+                        <p class="mb-0 text-muted small">کارتهای خلاصه در بالا وضعیت کلی را نشان میدهند. روی هر کارت کلیک کنید.</p>
+                    </div>
+                </div>
+                
+                <div class="workflow-step animate-in stagger-4">
+                    <div class="step-number">۴</div>
+                    <div>
+                        <h6 class="mb-1 fw-semibold">تحلیل نمودارها</h6>
+                        <p class="mb-0 text-muted small">از تبهای "نمای کلی" و "بر اساس رشته" برای مشاهده نمودارهای تحلیلی استفاده کنید.</p>
+                    </div>
+                </div>
+                
+                <div class="workflow-step animate-in stagger-5">
+                    <div class="step-number">۵</div>
+                    <div>
+                        <h6 class="mb-1 fw-semibold">بررسی جداول تفصیلی</h6>
+                        <p class="mb-0 text-muted small">جدول پایینی اطلاعات تفصیلی هر رشته را نشان میدهد.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tips Section -->
+            <section class="mb-4">
+                <h2 class="section-title">نکات کاربردی</h2>
+                <div class="row g-3">
+                    <div class="col-lg-6">
+                        <div class="tips-card animate-in stagger-1">
+                            <h6 class="mb-2 d-flex align-items-center">
+                                <i class="bi bi-lightbulb text-warning me-2"></i>
+                                نکات ضروری
+                            </h6>
+                            <ul class="tips-list">
+                                <li><i class="bi bi-check-circle text-success"></i>روی شماره Tag کلیک کنید تا فعالیتهای مرتبط را ببینید</li>
+                                <li><i class="bi bi-check-circle text-success"></i>از فیلترهای جدول برای جستجوی سریع استفاده کنید</li>
+                                <li><i class="bi bi-check-circle text-success"></i>نمودارها تعاملی هستند و جزئیات نمایش میدهند</li>
+                                <li><i class="bi bi-check-circle text-success"></i>دادهها بهطور خودکار از منابع آنلاین بروزرسانی میشوند</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="tips-card animate-in stagger-2">
+                            <h6 class="mb-2 d-flex align-items-center">
+                                <i class="bi bi-palette text-primary me-2"></i>
+                                راهنمای رنگها
+                            </h6>
+                            <div class="row">
+                                <div class="col-6 mb-1">
+                                    <div class="d-flex align-items-center">
+                                        <div class="color-indicator bg-success"></div>
+                                        <span class="small">تکمیل شده</span>
+                                    </div>
+                                </div>
+                                <div class="col-6 mb-1">
+                                    <div class="d-flex align-items-center">
+                                        <div class="color-indicator bg-warning"></div>
+                                        <span class="small">در حال انجام</span>
+                                    </div>
+                                </div>
+                                <div class="col-6 mb-1">
+                                    <div class="d-flex align-items-center">
+                                        <div class="color-indicator bg-info"></div>
+                                        <span class="small">باقیمانده</span>
+                                    </div>
+                                </div>
+                                <div class="col-6 mb-1">
+                                    <div class="d-flex align-items-center">
+                                        <div class="color-indicator bg-danger"></div>
+                                        <span class="small">مسائل</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
+        function switchLang(lang) {
+            // Hide all content
+            document.querySelectorAll('.lang-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            
+            // Show selected language content
+            document.getElementById(lang + '-content').classList.add('active');
+            
+            // Update button states
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            // Update document direction
+            if (lang === 'fa') {
+                document.documentElement.setAttribute('dir', 'rtl');
+            } else {
+                document.documentElement.setAttribute('dir', 'ltr');
+            }
+        }
+
         document.addEventListener('DOMContentLoaded', function() {
             const animateElements = document.querySelectorAll('.animate-in');
             animateElements.forEach((el, index) => {
