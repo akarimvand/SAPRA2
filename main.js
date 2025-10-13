@@ -97,6 +97,15 @@ const ICONS = {
             DOMElements.sidebarToggle.setAttribute('aria-expanded', 'false');
         });
 
+        // Function to activate tabs from iframe
+        window.activateTab = function(tabId) {
+            const tabButton = document.getElementById(tabId);
+            if (tabButton) {
+                const tab = new bootstrap.Tab(tabButton);
+                tab.show();
+            }
+        };
+
         function initBootstrapTabs() {
             DOMElements.chartTabs.querySelectorAll('button[data-bs-toggle="tab"]').forEach(tabEl => {
                  bootstrapTabObjects[tabEl.id] = new bootstrap.Tab(tabEl);
