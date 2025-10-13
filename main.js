@@ -1196,24 +1196,67 @@ chartInstances.overview = new Chart(overviewCtx, {
             const container = DOMElements.disciplineChartsContainer;
             container.innerHTML = '';
 
-            if (selectedView.type !== 'subsystem' || !selectedView.id) {
-                container.innerHTML = `<div class="col-12 text-center py-5 text-muted" role="status">${ICONS.PieChartIcon}<p class="mt-2">Select a subsystem to view discipline details.</p></div>`;
-                return;
+            // Collect discipline data based on selected view
+            let disciplineData = {};
+            
+            if (selectedView.type === 'all') {
+                // Aggregate all disciplines across all subsystems
+                Object.values(processedData.subSystemMap).forEach(subSystem => {
+                    Object.entries(subSystem.disciplines).forEach(([disciplineName, data]) => {
+                        if (!disciplineData[disciplineName]) {
+                            disciplineData[disciplineName] = { total: 0, done: 0, pending: 0, punch: 0, hold: 0, remaining: 0 };
+                        }
+                        disciplineData[disciplineName].total += data.total;
+                        disciplineData[disciplineName].done += data.done;
+                        disciplineData[disciplineName].pending += data.pending;
+                        disciplineData[disciplineName].punch += data.punch;
+                        disciplineData[disciplineName].hold += data.hold;
+                        disciplineData[disciplineName].remaining += data.remaining;
+                    });
+                });
+            } else if (selectedView.type === 'system' && selectedView.id) {
+                // Aggregate disciplines for selected system
+                const system = processedData.systemMap[selectedView.id];
+                if (system) {
+                    system.subs.forEach(subRef => {
+                        const subSystem = processedData.subSystemMap[subRef.id];
+                        if (subSystem) {
+                            Object.entries(subSystem.disciplines).forEach(([disciplineName, data]) => {
+                                if (!disciplineData[disciplineName]) {
+                                    disciplineData[disciplineName] = { total: 0, done: 0, pending: 0, punch: 0, hold: 0, remaining: 0 };
+                                }
+                                disciplineData[disciplineName].total += data.total;
+                                disciplineData[disciplineName].done += data.done;
+                                disciplineData[disciplineName].pending += data.pending;
+                                disciplineData[disciplineName].punch += data.punch;
+                                disciplineData[disciplineName].hold += data.hold;
+                                disciplineData[disciplineName].remaining += data.remaining;
+                            });
+                        }
+                    });
+                }
+            } else if (selectedView.type === 'subsystem' && selectedView.id) {
+                // Use disciplines from selected subsystem
+                const subSystem = processedData.subSystemMap[selectedView.id];
+                if (subSystem) {
+                    disciplineData = subSystem.disciplines;
+                }
             }
-            const subSystem = processedData.subSystemMap[selectedView.id];
-            if (!subSystem || Object.keys(subSystem.disciplines).length === 0) {
-                container.innerHTML = `<div class="col-12 text-center py-5 text-muted" role="status">${ICONS.PieChartIcon}<p class="mt-2">No discipline data available for this subsystem.</p></div>`;
+
+            // Check if we have any discipline data
+            if (Object.keys(disciplineData).length === 0) {
+                container.innerHTML = `<div class="col-12 text-center py-5 text-muted" role="status">${ICONS.PieChartIcon}<p class="mt-2">No discipline data available for the current selection.</p></div>`;
                 return;
             }
 
             const row = document.createElement('div');
             row.className = 'row g-3';
 
-            Object.entries(subSystem.disciplines).forEach(([name, data]) => {
+            Object.entries(disciplineData).forEach(([name, data]) => {
                 const col = document.createElement('div');
                 col.className = 'col-12 col-md-6 col-lg-4 col-xl-3';
                 const chartId = `disciplineChart-${name.replace(/\s+/g, '-')}`;
-                const chartLabel = `${name} status for subsystem ${selectedView.id}`;
+                const chartLabel = `${name} status for ${selectedView.name}`;
                 col.innerHTML = `
                     <div class="card h-100 shadow-sm">
                         <div class="card-body text-center">
