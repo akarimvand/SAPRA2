@@ -1023,7 +1023,13 @@ function filterDetailedItems(context) {
 
             renderSummaryCards();
             renderOverviewCharts(); // Render the initial overview chart
-            // Other charts are rendered based on the 'shown.bs.tab' event
+            
+            // Check if By Discipline tab is currently active and render it
+            const byDisciplineTab = document.getElementById('bydiscipline-tab-btn');
+            if (byDisciplineTab && byDisciplineTab.classList.contains('active')) {
+                renderDisciplineCharts();
+            }
+            
             renderDataTable();
             renderSidebar();
             if (loadingModalInstance) {
