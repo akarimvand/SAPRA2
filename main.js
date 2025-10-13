@@ -92,7 +92,10 @@ const ICONS = {
         document.addEventListener('DOMContentLoaded', () => {
             initEventListeners();
             initBootstrapTabs();
-            initModals(); // Initialize modals
+            initModals();
+            initUIFeatures(); // Initialize new UI features
+            initKeyboardShortcuts();
+            initAccessibility();
             
             // Initialize tooltips
             const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
@@ -108,6 +111,8 @@ const ICONS = {
             console.log('Debug commands available:');
             console.log('- checkDataStatus(): Check if data is loaded');
             console.log('- forceReloadData(): Force reload all data');
+            console.log('- toggleDarkMode(): Toggle dark/light theme');
+            console.log('- showToast(message, type): Show notification');
             console.log('- window.processedData: Access main data object');
         });
 
@@ -150,6 +155,11 @@ const ICONS = {
         // Force reload data function
         window.forceReloadData = function() {
             console.log('🔄 Force reloading data...');
+            showToast('🔄 Reloading data...', 'info');
+            
+            // Show progress
+            showProgress(0);
+            
             // Reset all data
             processedData = { systemMap: {}, subSystemMap: {}, allRawData: [] };
             detailedItemsData = [];
@@ -168,6 +178,266 @@ const ICONS = {
             }
             
             loadAndProcessData();
+        };
+
+        // === NEW UI FEATURES ===
+        
+
+        
+        // Toast Notifications
+        window.showToast = function(message, type = 'info', duration = 3000) {
+            const toastContainer = document.getElementById('toastContainer');
+            const toastId = 'toast-' + Date.now();
+            
+            const toastHtml = `
+                <div class="toast toast-${type}" id="${toastId}" role="alert">
+                    <div class="toast-body d-flex align-items-center">
+                        <i class="bi bi-${type === 'success' ? 'check-circle' : type === 'error' ? 'exclamation-triangle' : 'info-circle'} me-2"></i>
+                        <span class="flex-grow-1">${message}</span>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast"></button>
+                    </div>
+                </div>
+            `;
+            
+            toastContainer.insertAdjacentHTML('beforeend', toastHtml);
+            
+            const toastElement = document.getElementById(toastId);
+            const toast = new bootstrap.Toast(toastElement, { delay: duration });
+            toast.show();
+            
+            // Auto remove after hide
+            toastElement.addEventListener('hidden.bs.toast', () => {
+                toastElement.remove();
+            });
+        };
+        
+        // Progress Indicator
+        window.showProgress = function(percent) {
+            const progressContainer = document.getElementById('dataLoadProgress');
+            const progressBar = progressContainer.querySelector('.progress-bar');
+            
+            if (percent === 0) {
+                progressContainer.style.display = 'block';
+                progressBar.style.width = '0%';
+            } else if (percent === 100) {
+                progressBar.style.width = '100%';
+                setTimeout(() => {
+                    progressContainer.style.display = 'none';
+                }, 500);
+            } else {
+                progressBar.style.width = percent + '%';
+            }
+        };
+        
+        // Update Breadcrumb
+        window.updateBreadcrumb = function(path) {
+            const breadcrumb = document.getElementById('breadcrumbNav');
+            breadcrumb.innerHTML = path.map((item, index) => {
+                const isLast = index === path.length - 1;
+                return `<li class="breadcrumb-item ${isLast ? 'active' : ''}">${item}</li>`;
+            }).join('');
+        };
+        
+        // Quick Search in Items
+        window.performQuickSearch = function(query) {
+            const results = [];
+            const searchQuery = query.toLowerCase();
+            
+            // Search in detailed items
+            detailedItemsData.forEach(item => {
+                if (item.tagNo.toLowerCase().includes(searchQuery) ||
+                    item.description.toLowerCase().includes(searchQuery) ||
+                    item.typeCode.toLowerCase().includes(searchQuery) ||
+                    item.subsystem.toLowerCase().includes(searchQuery) ||
+                    item.discipline.toLowerCase().includes(searchQuery)) {
+                    
+                    results.push({
+                        tagNo: item.tagNo,
+                        description: item.description,
+                        subsystem: item.subsystem,
+                        discipline: item.discipline,
+                        typeCode: item.typeCode,
+                        status: item.status
+                    });
+                }
+            });
+            
+            return results.slice(0, 20); // Limit to 20 results
+        };
+        
+        // Initialize UI Features
+        function initUIFeatures() {
+            
+            // Quick search
+            const quickSearchBtn = document.getElementById('quickSearchBtn');
+            const quickSearchModal = new bootstrap.Modal(document.getElementById('quickSearchModal'));
+            const quickSearchInput = document.getElementById('quickSearchInput');
+            const quickSearchResults = document.getElementById('quickSearchResults');
+            
+            if (quickSearchBtn) {
+                quickSearchBtn.addEventListener('click', () => {
+                    quickSearchModal.show();
+                    setTimeout(() => quickSearchInput.focus(), 100);
+                });
+            }
+            
+            if (quickSearchInput) {
+                quickSearchInput.addEventListener('input', (e) => {
+                    const query = e.target.value.trim();
+                    if (query.length < 2) {
+                        quickSearchResults.innerHTML = '';
+                        return;
+                    }
+                    
+                    const results = performQuickSearch(query);
+                    
+                    if (results.length === 0) {
+                        quickSearchResults.innerHTML = '<div class="text-center text-muted py-3">No items found</div>';
+                        return;
+                    }
+                    
+                    quickSearchResults.innerHTML = results.map(result => `
+                        <div class="search-result-item" data-tag-no="${result.tagNo}">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div class="flex-grow-1">
+                                    <div class="search-result-title fw-bold text-primary">${result.tagNo}</div>
+                                    <div class="search-result-subtitle text-muted small">${result.description}</div>
+                                    <div class="small text-secondary">
+                                        <span class="badge bg-light text-dark me-1 subsystem-badge" data-subsystem="${result.subsystem}" style="cursor: pointer;">${result.subsystem}</span>
+                                        <span class="badge bg-light text-dark me-1">${result.discipline}</span>
+                                        <span class="badge bg-light text-dark">${result.typeCode}</span>
+                                    </div>
+                                </div>
+                                <div class="text-end">
+                                    <span class="badge ${result.status?.toLowerCase() === 'done' ? 'bg-success' : 'bg-warning'}">
+                                        ${result.status || 'N/A'}
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    `).join('');
+                    
+                    // Add click handlers for items
+                    quickSearchResults.querySelectorAll('.search-result-item').forEach(item => {
+                        item.addEventListener('click', (e) => {
+                            // Check if clicked on subsystem badge
+                            if (e.target.classList.contains('subsystem-badge')) {
+                                e.stopPropagation();
+                                const subsystemId = e.target.dataset.subsystem;
+                                const subsystemData = processedData.subSystemMap[subsystemId];
+                                
+                                if (subsystemData) {
+                                    quickSearchModal.hide();
+                                    handleNodeSelect('subsystem', subsystemId, subsystemData.title || subsystemId, subsystemData.systemId);
+                                    showToast(`Filtered to subsystem: ${subsystemId}`, 'success');
+                                }
+                                return;
+                            }
+                            
+                            // Default behavior - show activities
+                            const tagNo = item.dataset.tagNo;
+                            quickSearchModal.hide();
+                            
+                            // Load activities for the selected tag
+                            loadActivitiesForTag(tagNo);
+                            activitiesModal.show();
+                            
+                            showToast(`Showing activities for ${tagNo}`, 'success');
+                        });
+                    });
+                    
+                    // Add hover effect for subsystem badges
+                    quickSearchResults.querySelectorAll('.subsystem-badge').forEach(badge => {
+                        badge.addEventListener('mouseenter', () => {
+                            badge.classList.add('bg-primary', 'text-white');
+                            badge.classList.remove('bg-light', 'text-dark');
+                        });
+                        badge.addEventListener('mouseleave', () => {
+                            badge.classList.remove('bg-primary', 'text-white');
+                            badge.classList.add('bg-light', 'text-dark');
+                        });
+                    });
+                });
+            }
+            
+            // Refresh data button
+            const refreshBtn = document.getElementById('refreshDataBtn');
+            if (refreshBtn) {
+                refreshBtn.addEventListener('click', forceReloadData);
+            }
+        }
+        
+        // Initialize Keyboard Shortcuts
+        function initKeyboardShortcuts() {
+            document.addEventListener('keydown', (e) => {
+                // Ctrl+E: Export
+                if (e.ctrlKey && e.key === 'e') {
+                    e.preventDefault();
+                    handleExport();
+                    showToast('Exporting data...', 'info');
+                }
+                
+                // Ctrl+R: Refresh
+                if (e.ctrlKey && e.key === 'r') {
+                    e.preventDefault();
+                    forceReloadData();
+                }
+                
+                // Ctrl+F: Quick Search
+                if (e.ctrlKey && e.key === 'f') {
+                    e.preventDefault();
+                    document.getElementById('quickSearchBtn').click();
+                }
+                
+                // Ctrl+D: Database
+                if (e.ctrlKey && e.key === 'd') {
+                    e.preventDefault();
+                    document.getElementById('dbStorageBtn').click();
+                }
+                
+                // Ctrl+Q: Exit
+                if (e.ctrlKey && e.key === 'q') {
+                    e.preventDefault();
+                    document.getElementById('exitBtn').click();
+                }
+                
+                // ?: Show shortcuts
+                if (e.key === '?' && !e.ctrlKey && !e.altKey) {
+                    e.preventDefault();
+                    const shortcutsModal = new bootstrap.Modal(document.getElementById('shortcutsModal'));
+                    shortcutsModal.show();
+                }
+            });
+        }
+        
+        // Initialize Accessibility
+        function initAccessibility() {
+            // Focus management
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Tab') {
+                    document.body.classList.add('keyboard-navigation');
+                }
+            });
+            
+            document.addEventListener('mousedown', () => {
+                document.body.classList.remove('keyboard-navigation');
+            });
+            
+            // ARIA live regions
+            const liveRegion = document.createElement('div');
+            liveRegion.setAttribute('aria-live', 'polite');
+            liveRegion.setAttribute('aria-atomic', 'true');
+            liveRegion.className = 'visually-hidden';
+            liveRegion.id = 'live-region';
+            document.body.appendChild(liveRegion);
+        }
+        
+        // Announce to screen readers
+        window.announceToScreenReader = function(message) {
+            const liveRegion = document.getElementById('live-region');
+            if (liveRegion) {
+                liveRegion.textContent = message;
+            }
         };
 
         function initBootstrapTabs() {
@@ -964,6 +1234,21 @@ function filterDetailedItems(context) {
                     holdItems: holdPointItemsData.length,
                     hosRecords: hosData.length
                 });
+                
+                // Show success notification
+                showToast('✅ Data loaded successfully!', 'success');
+                showProgress(100);
+                
+                // Add loading progress updates
+                showProgress(20); // After HOS data
+                
+                setTimeout(() => showProgress(40), 100); // After main data
+                setTimeout(() => showProgress(60), 200); // After items data
+                setTimeout(() => showProgress(80), 300); // After punch data
+                setTimeout(() => showProgress(100), 400); // Complete
+                
+                // Announce to screen readers
+                announceToScreenReader('Data has been loaded successfully');
                 console.log("Subsystem statuses loaded:", subsystemStatusMap);
 
                 // --- Process Main Data ---
@@ -1039,22 +1324,15 @@ function filterDetailedItems(context) {
                     errorMessage += e.message + '. لطفاً صفحه را رفرش کنید (Ctrl+F5).';
                 }
                 
-                DOMElements.errorMessage.innerHTML = `
-                    <div class="alert alert-danger" role="alert">
-                        <h6 class="alert-heading">خطا در بارگذاری</h6>
-                        <p class="mb-2">${errorMessage}</p>
-                        <hr>
-                        <div class="d-flex gap-2">
-                            <button class="btn btn-outline-danger btn-sm" onclick="location.reload()">
-                                <i class="bi bi-arrow-clockwise"></i> رفرش صفحه
-                            </button>
-                            <button class="btn btn-outline-secondary btn-sm" onclick="console.log('Error details:', '${e.message.replace(/'/g, "\\'")}'')">
-                                <i class="bi bi-info-circle"></i> جزئیات خطا
-                            </button>
-                        </div>
-                    </div>
-                `;
-                DOMElements.errorMessage.style.display = 'block';
+                // Show error toast
+                showToast('❌ Data loading failed', 'error');
+                showProgress(0);
+                
+                // Announce to screen readers
+                announceToScreenReader('Data loading failed. Please try again.');
+                
+                document.getElementById('errorMessageText').textContent = errorMessage;
+                DOMElements.errorMessage.classList.remove('d-none');
                 
             } finally {
                 clearTimeout(loadingTimeout);
@@ -1226,6 +1504,21 @@ function filterDetailedItems(context) {
 
         function handleNodeSelect(type, id, name, parentId = null) {
             selectedView = { type, id, name, parentId };
+            
+            // Update breadcrumb
+            const breadcrumbPath = ['All Systems'];
+            if (type === 'system') {
+                breadcrumbPath.push(name);
+            } else if (type === 'subsystem') {
+                const system = processedData.systemMap[parentId];
+                if (system) breadcrumbPath.push(system.name);
+                breadcrumbPath.push(name);
+            }
+            updateBreadcrumb(breadcrumbPath);
+            
+            // Announce to screen readers
+            announceToScreenReader(`Selected ${type}: ${name}`);
+            
             updateView();
 
             // Send message to workflow iframe
@@ -1839,7 +2132,7 @@ chartInstances.overview = new Chart(overviewCtx, {
             let doneCount = 0;
 
             if (filtered.length === 0) {
-                list.innerHTML = '<tr><td colspan="3" class="no-activities">هیچ فعالیتی برای این Tag No یافت نشد.</td></tr>';
+                list.innerHTML = '<tr><td colspan="3" class="no-activities">No activities found for this Tag No.</td></tr>';
                 document.getElementById('activitiesProgressText').textContent = '0%';
                 document.getElementById('activitiesProgressFill').style.width = '0%';
                 return;
