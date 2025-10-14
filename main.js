@@ -303,7 +303,7 @@ const ICONS = {
                                     <div class="search-result-title fw-bold text-primary">${result.tagNo}</div>
                                     <div class="search-result-subtitle text-muted small">${result.description}</div>
                                     <div class="small text-secondary">
-                                        <span class="badge bg-light text-dark me-1 subsystem-badge" data-subsystem="${result.subsystem}" style="cursor: pointer;">${result.subsystem}</span>
+                                        <span class="badge bg-primary text-white me-1 subsystem-badge" data-subsystem="${result.subsystem}" style="cursor: pointer;">${result.subsystem}</span>
                                         <span class="badge bg-light text-dark me-1">${result.discipline}</span>
                                         <span class="badge bg-light text-dark">${result.typeCode}</span>
                                     </div>
@@ -349,12 +349,10 @@ const ICONS = {
                     // Add hover effect for subsystem badges
                     quickSearchResults.querySelectorAll('.subsystem-badge').forEach(badge => {
                         badge.addEventListener('mouseenter', () => {
-                            badge.classList.add('bg-primary', 'text-white');
-                            badge.classList.remove('bg-light', 'text-dark');
+                            badge.style.opacity = '0.8';
                         });
                         badge.addEventListener('mouseleave', () => {
-                            badge.classList.remove('bg-primary', 'text-white');
-                            badge.classList.add('bg-light', 'text-dark');
+                            badge.style.opacity = '1';
                         });
                     });
                 });
@@ -496,6 +494,9 @@ function initModals() {
             DOMElements.exportExcelBtn.addEventListener('click', handleExport);
             DOMElements.exitBtn.addEventListener('click', () => { window.location.href = 'index.html'; });
             DOMElements.downloadAllBtn.addEventListener('click', handleDownloadAll);
+            
+            // Add main table export listener
+            document.getElementById('exportMainTableBtn').addEventListener('click', exportMainTable);
 
             // New listener for when a chart tab is shown, ensuring charts render only when visible.
             DOMElements.chartTabs.addEventListener('shown.bs.tab', function (event) {
@@ -1814,8 +1815,25 @@ chartInstances.overview = new Chart(overviewCtx, {
                 { header: 'Status', accessor: 'statusPercent' },
             ];
             DOMElements.dataTableHead.innerHTML = columns.map(col => `<th scope="col">${col.header}</th>`).join('');
+            
+            // Add filter row with dropdown for specific columns
+            const filterRow = document.getElementById('dataTableFilters');
+            filterRow.innerHTML = columns.map((col, i) => {
+                if (col.header === 'Discipline' || col.header === 'Form') {
+                    return `<th><div class="dropdown-filter" data-col="${i}">
+                        <button class="btn btn-sm btn-outline-secondary dropdown-toggle w-100 text-truncate" type="button" data-bs-toggle="dropdown" style="font-size: 0.75rem; height: 32px;">
+                            All ${col.header}
+                        </button>
+                        <ul class="dropdown-menu" style="max-height: 200px; overflow-y: auto; font-size: 0.75rem;"></ul>
+                    </div></th>`;
+                } else {
+                    return `<th><input type="text" placeholder="Filter ${col.header}" data-col="${i}"></th>`;
+                }
+            }).join('');
 
             const tableData = _generateTableDataForView(selectedView, processedData, aggregatedStats.totalItems === 0);
+            window.currentTableData = tableData; // Store for export
+            
             let bodyHTML = '';
             if (tableData.length === 0) {
                 bodyHTML = `<tr><td colspan="${columns.length}" class="text-center py-5 text-muted">Please select a subsystem or system to view details, or no data matches the current filter.</td></tr>`;
@@ -1848,6 +1866,158 @@ chartInstances.overview = new Chart(overviewCtx, {
                 });
             }
             DOMElements.dataTableBody.innerHTML = bodyHTML;
+            
+            // Populate dropdown options
+            const disciplineDropdown = filterRow.querySelector('[data-col="3"] .dropdown-menu');
+            const formDropdown = filterRow.querySelector('[data-col="2"] .dropdown-menu');
+            
+            if (disciplineDropdown && tableData.length > 0) {
+                const disciplines = [...new Set(tableData.map(row => row.discipline))].sort();
+                let disciplineOptions = [`<li><label class="dropdown-item"><input type="checkbox" value="SHOW_ALL" class="me-2 show-all-checkbox">Show All</label></li>`];
+                disciplineOptions.push(...disciplines.map(d => 
+                    `<li><label class="dropdown-item"><input type="checkbox" value="${d}" class="me-2">${d}</label></li>`
+                ));
+                disciplineDropdown.innerHTML = disciplineOptions.join('');
+            }
+            
+            if (formDropdown && tableData.length > 0) {
+                const forms = [...new Set(tableData.map(row => row.formStatus).filter(f => f))].sort();
+                const emptyCount = tableData.filter(row => !row.formStatus).length;
+                let formOptions = [`<li><label class="dropdown-item"><input type="checkbox" value="SHOW_ALL" class="me-2 show-all-checkbox">Show All</label></li>`];
+                formOptions.push(...forms.map(f => 
+                    `<li><label class="dropdown-item"><input type="checkbox" value="${f}" class="me-2">${f}</label></li>`
+                ));
+                if (emptyCount > 0) {
+                    formOptions.push(`<li><label class="dropdown-item"><input type="checkbox" value="EMPTY" class="me-2">Empty (${emptyCount})</label></li>`);
+                }
+                formDropdown.innerHTML = formOptions.join('');
+            }
+            
+            // Add filter event listeners
+            filterRow.querySelectorAll('input[type="text"]').forEach(input => {
+                input.addEventListener('input', filterMainTable);
+            });
+            filterRow.querySelectorAll('.dropdown-menu input[type="checkbox"]').forEach(checkbox => {
+                checkbox.addEventListener('change', () => {
+                    // Handle Show All checkbox
+                    if (checkbox.classList.contains('show-all-checkbox')) {
+                        const dropdown = checkbox.closest('.dropdown-filter');
+                        const otherCheckboxes = dropdown.querySelectorAll('input[type="checkbox"]:not(.show-all-checkbox)');
+                        if (checkbox.checked) {
+                            otherCheckboxes.forEach(cb => cb.checked = false);
+                        }
+                    } else {
+                        // Uncheck Show All if any other checkbox is selected
+                        const dropdown = checkbox.closest('.dropdown-filter');
+                        const showAllCheckbox = dropdown.querySelector('.show-all-checkbox');
+                        if (checkbox.checked && showAllCheckbox) {
+                            showAllCheckbox.checked = false;
+                        }
+                    }
+                    updateDropdownButton(checkbox);
+                    filterMainTable();
+                });
+            });
+            
+            // Clear all filters button
+            document.getElementById('clearAllFiltersBtn').addEventListener('click', () => {
+                filterRow.querySelectorAll('input[type="text"]').forEach(input => input.value = '');
+                filterRow.querySelectorAll('input[type="checkbox"]:checked').forEach(cb => cb.checked = false);
+                filterRow.querySelectorAll('.dropdown-filter').forEach(dropdown => {
+                    const firstCheckbox = dropdown.querySelector('input[type="checkbox"]');
+                    if (firstCheckbox) updateDropdownButton(firstCheckbox);
+                });
+                filterMainTable();
+            });
+        }
+        
+        function updateDropdownButton(checkbox) {
+            const dropdown = checkbox.closest('.dropdown-filter');
+            const button = dropdown.querySelector('.dropdown-toggle');
+            const checkboxes = dropdown.querySelectorAll('input[type="checkbox"]:checked');
+            const colIndex = dropdown.dataset.col;
+            const colNames = ['', '', 'Form', 'Discipline', '', '', '', '', '', 'Status'];
+            
+            if (checkboxes.length === 0) {
+                button.textContent = `All ${colNames[colIndex]}`;
+            } else if (checkboxes.length === 1) {
+                button.textContent = checkboxes[0].value;
+            } else {
+                button.textContent = `${checkboxes.length} selected`;
+            }
+        }
+        
+        function filterMainTable() {
+            const tbody = DOMElements.dataTableBody;
+            const rows = tbody.querySelectorAll('tr');
+            const numericColumns = [4, 5, 6, 7, 8]; // Total Items, Completed, Pending, Punch, Hold Point
+            
+            rows.forEach(row => {
+                const cells = row.querySelectorAll('th, td');
+                let show = true;
+                
+                // Check text inputs
+                document.querySelectorAll('#dataTableFilters input[type="text"]').forEach(input => {
+                    const colIndex = parseInt(input.dataset.col);
+                    if (!cells[colIndex] || !input.value) return;
+                    
+                    const cellText = cells[colIndex].textContent.toLowerCase();
+                    const filter = input.value.toLowerCase();
+                    
+                    if (numericColumns.includes(colIndex)) {
+                        const cellValue = cells[colIndex].textContent.replace(/,/g, '').trim();
+                        const filterValue = filter.replace(/,/g, '').trim();
+                        if (cellValue !== filterValue) show = false;
+                    } else {
+                        if (!cellText.includes(filter)) show = false;
+                    }
+                });
+                
+                // Check dropdown filters
+                document.querySelectorAll('#dataTableFilters .dropdown-filter').forEach(dropdown => {
+                    const colIndex = parseInt(dropdown.dataset.col);
+                    if (!cells[colIndex]) return;
+                    
+                    const checkedBoxes = dropdown.querySelectorAll('input[type="checkbox"]:checked:not(.show-all-checkbox)');
+                    if (checkedBoxes.length > 0) {
+                        const selectedValues = Array.from(checkedBoxes).map(cb => cb.value);
+                        const cellValue = cells[colIndex].textContent.trim();
+                        
+                        // Handle empty values for Form column
+                        if (selectedValues.includes('EMPTY') && !cellValue) {
+                            return; // Show this row
+                        }
+                        
+                        if (!selectedValues.includes(cellValue) && !(selectedValues.includes('EMPTY') && !cellValue)) {
+                            show = false;
+                        }
+                    }
+                });
+                
+                row.style.display = show ? '' : 'none';
+            });
+        }
+        
+        function exportMainTable() {
+            const tbody = DOMElements.dataTableBody;
+            const visibleRows = Array.from(tbody.querySelectorAll('tr')).filter(row => row.style.display !== 'none');
+            
+            if (visibleRows.length === 0) {
+                alert('No data to export');
+                return;
+            }
+            
+            const headers = Array.from(document.querySelectorAll('#dataTableHead th')).map(th => th.textContent);
+            const data = visibleRows.map(row => 
+                Array.from(row.querySelectorAll('th, td')).map(cell => cell.textContent)
+            );
+            
+            const ws = XLSX.utils.aoa_to_sheet([headers, ...data]);
+            const wb = XLSX.utils.book_new();
+            XLSX.utils.book_append_sheet(wb, ws, 'Items Details');
+            
+            const date = new Date().toISOString().split('T')[0];
+            XLSX.writeFile(wb, `SAPRA_Items_Details_${date}.xlsx`);
         }
 
         // --- Data Aggregation (Adapted from dataAggregator.ts) ---

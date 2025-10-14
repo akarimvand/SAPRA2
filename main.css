@@ -446,6 +446,168 @@ body {
     overflow: hidden;
 }
 
+/* فریز کردن هدر جدول اصلی */
+.main-table-container {
+    max-height: 500px;
+    overflow-y: auto;
+    position: relative;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+}
+
+.main-table-container .table {
+    margin-bottom: 0;
+}
+
+.main-table-container .table thead tr.filter-row th {
+    position: sticky;
+    top: 0;
+    z-index: 12;
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #dee2e6;
+    padding: 0.25rem 0.5rem;
+}
+
+.main-table-container .table thead tr:nth-child(2) th {
+    position: sticky;
+    top: 42px;
+    z-index: 11;
+    background-color: #f8f9fa !important;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.filter-row input {
+    width: 100%;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.filter-row input::placeholder {
+    font-size: 0.65rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.filter-row .dropdown-filter {
+    width: 100%;
+}
+
+.filter-row .dropdown-toggle {
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.filter-row .dropdown-item {
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.filter-row .dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+.filter-row .dropdown-item input[type="checkbox"] {
+    width: auto;
+    margin: 0;
+}
+
+.filter-row .dropdown-toggle {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    font-size: 0.65rem;
+}
+
+.filter-row .clear-filter-btn {
+    flex-shrink: 0;
+}
+
+.filter-row th:nth-child(3) .dropdown-filter {
+    width: 100%;
+}
+
+.filter-row th:nth-child(3) .dropdown-toggle {
+    width: 100%;
+    min-width: fit-content;
+}
+
+.table th, .table td {
+    white-space: normal !important;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 150px;
+}
+
+.table th, .table td {
+    text-align: center !important;
+}
+
+.table th:nth-child(1), .table td:nth-child(1) {
+    width: 1%;
+    white-space: nowrap;
+    font-size: 0.8rem;
+}
+
+.table th:nth-child(2), .table td:nth-child(2) {
+    white-space: nowrap !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.75rem;
+    word-wrap: normal;
+    overflow-wrap: normal;
+    width: 31.25%;
+    text-align: left !important;
+}
+
+.table th:nth-child(3), .table td:nth-child(3) {
+    width: 1.5%;
+    white-space: nowrap;
+    font-size: 0.8rem;
+}
+
+.table th:nth-child(4), .table td:nth-child(4) {
+    width: 12.5%;
+    white-space: nowrap;
+    font-size: 0.8rem;
+}
+
+.table th:nth-child(5), .table td:nth-child(5),
+.table th:nth-child(6), .table td:nth-child(6),
+.table th:nth-child(7), .table td:nth-child(7) {
+    width: 10.6%;
+    white-space: nowrap;
+    font-size: 0.8rem;
+}
+
+.table th:nth-child(8), .table td:nth-child(8) {
+    width: 10.1%;
+    white-space: nowrap;
+    font-size: 0.8rem;
+}
+
+.table th:nth-child(9), .table td:nth-child(9) {
+    width: 10.6%;
+    white-space: nowrap;
+    font-size: 0.8rem;
+}
+
+.table th:nth-child(10), .table td:nth-child(10) {
+    width: 7.08%;
+    white-space: nowrap;
+    font-size: 0.8rem;
+}
+
 .table th, .table td {
     white-space: nowrap;
     padding: 0.35rem 0.75rem; /* کاهش padding به حداقل ممکن */
@@ -499,6 +661,11 @@ body {
     background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
     box-shadow: var(--shadow-lg);
     border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+    padding: 0.25rem 0;
+}
+
+.sapra-navbar-header .container-fluid {
+    padding: 0.25rem 1rem;
 }
 
 .sapra-navbar-header .navbar-toggler {
@@ -722,10 +889,10 @@ body {
     border: 1px solid transparent;
     border-bottom: none;
     color: #adb5bd;
-    padding: 0.65rem 1.25rem;
+    padding: 0.4rem 1rem;
     font-weight: 600;
-    font-size: 0.95rem;
-    border-radius: 8px 8px 0 0;
+    font-size: 0.85rem;
+    border-radius: 6px 6px 0 0;
     transition: all 0.3s ease;
     margin-right: 4px;
 }
@@ -902,6 +1069,19 @@ main[role="main"] {
 .progress-bar {
     background: linear-gradient(90deg, var(--primary-color), #3b82f6);
     transition: width 0.3s ease;
+}
+
+/* تطبیق رنگ پروگرس بار با رنگ فونت کارت‌ها */
+.summary-card .progress-bar.bg-success {
+    background: linear-gradient(90deg, #1e7e34, #155724) !important;
+}
+
+.summary-card .progress-bar.bg-warning {
+    background: linear-gradient(90deg, #d39e00, #b8860b) !important;
+}
+
+.summary-card .progress-bar.bg-info {
+    background: linear-gradient(90deg, #0c7cd5, #0056b3) !important;
 }
 
 /* ===== EMPTY STATE ===== */

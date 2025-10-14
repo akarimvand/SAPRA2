@@ -150,14 +150,27 @@
                         <!-- Data Table -->
                         <div class="card shadow-sm">
                             <div class="card-body">
-                                <h5 class="card-title text-secondary mb-3">Items Details</h5>
-                                <div class="table-responsive">
+                                <div class="d-flex justify-content-between align-items-center mb-2" style="padding: 0.5rem 0;">
+                                    <h6 class="card-title text-secondary mb-0">Items Details</h6>
+                                    <div>
+                                        <button class="btn btn-outline-secondary btn-sm me-2" id="clearAllFiltersBtn" title="Clear All Filters">
+                                            <i class="bi bi-x-circle me-1"></i>Clear Filters
+                                        </button>
+                                        <button class="btn btn-success btn-sm" id="exportMainTableBtn" title="Export Filtered Data">
+                                            <i class="bi bi-file-earmark-excel me-1"></i>Excel
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="table-responsive main-table-container">
                                     <table class="table table-hover table-sm" id="dataTable" aria-live="polite">
                                         <caption class="visually-hidden">Detailed item data based on current selection</caption>
                                         <thead class="table-light">
-                                        <tr id="dataTableHead">
-                                            <!-- Table headers will be injected here -->
-                                        </tr>
+                                            <tr id="dataTableFilters" class="filter-row">
+                                                <!-- Filter inputs will be injected here -->
+                                            </tr>
+                                            <tr id="dataTableHead">
+                                                <!-- Table headers will be injected here -->
+                                            </tr>
                                         </thead>
                                         <tbody id="dataTableBody">
                                             <!-- Table rows will be injected here -->
