@@ -46,12 +46,12 @@
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,231,71,48,327,47,280,45
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,5,2,72,20,52,0
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,45,18,178,96,82,86
-2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,131,70,61,15
+2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,131,71,60,15
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,1,6,0,6,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,19,7,12,0
 2000,2000-06,Reforming,Nitrogen Circuit,IN,114,8,30,208,46,162,13
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,0,0,0,0,0
-2000,2000-07,Reforming,Reforming 001,PI,33,26,3,77,27,50,14
+2000,2000-07,Reforming,Reforming 001,PI,33,26,3,77,30,47,14
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,1,4,9,0,9,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,44,235,438,148,290,21
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,34,2,68,28,40,12
@@ -90,7 +90,7 @@
 4000,4000-07,Utility,Plant Air,PI,10,10,0,17,4,13,30
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,4,20,0,20,0
-4000,4000-08,Utility,Cooling Water,PI,290,266,3,598,415,183,31
+4000,4000-08,Utility,Cooling Water,PI,290,266,3,600,442,158,31
 4000,4000-08,Utility,Cooling Water,IN,745,640,63,305,95,210,533
 4000,4000-08,Utility,Cooling Water,EL,6,6,0,56,14,42,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,27,0,0,0,0,26
@@ -126,7 +126,7 @@
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,EL,2,2,0,12,2,10,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,0,6,28,0,28,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MES,6,2,0,34,4,30,0
-5000,5000-04,Distillation & Methanol Product,Methanol Product,PI,30,24,3,125,64,61,32
+5000,5000-04,Distillation & Methanol Product,Methanol Product,PI,30,24,3,127,69,58,32
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MER,4,0,2,12,0,12,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,EL,2,2,0,12,2,10,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,IN,213,114,24,297,96,201,45
