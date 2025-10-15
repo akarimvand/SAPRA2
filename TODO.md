@@ -1,0 +1,4 @@
+- [x] Add totalForms variable in main.js loadAndProcessData
+- [x] Modify renderSummaryCards in main.js to add new card for total forms in row2HTML before FORM A
+- [x] Move totalItemsBadge from header to before summaryCardsRow2 in main.html and style as card
+- [x] Test the changes
