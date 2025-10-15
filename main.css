@@ -785,10 +785,46 @@ body {
 #activitiesModal .table th,
 #activitiesModal .table td {
     white-space: nowrap;
-    font-size: 0.85rem;
-    padding: 0.35rem 0.75rem; /* کاهش padding */
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem !important; /* کاهش بیشتر padding */
     height: auto; /* اتوماتیک */
-    line-height: 1.3;
+    line-height: 1.1 !important; /* کاهش line-height */
+    vertical-align: middle !important;
+}
+
+/* تنظیم عرض ستون Subsystem در مودالها */
+#itemDetailsModal .table th:nth-child(2),
+#itemDetailsModal .table td:nth-child(2) {
+    width: 8% !important;
+    min-width: fit-content !important;
+    white-space: nowrap !important;
+}
+
+/* افزایش عرض ستون Description در مودال items */
+#itemDetailsModal .table th:nth-child(6),
+#itemDetailsModal .table td:nth-child(6) {
+    width: 50% !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    max-width: 300px !important;
+}
+
+/* تنظیم عرض ستون Category در مودال punch */
+#itemDetailsModal .table th:nth-child(6),
+#itemDetailsModal .table td:nth-child(6) {
+    width: 5% !important;
+    white-space: nowrap !important;
+}
+
+/* افزایش عرض ستون Description در مودال punch */
+#itemDetailsModal .table th:nth-child(7),
+#itemDetailsModal .table td:nth-child(7) {
+    width: 45% !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    max-width: 350px !important;
 }
 
 /* ===== ANIMATIONS ===== */

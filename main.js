@@ -443,11 +443,11 @@ const ICONS = {
                  bootstrapTabObjects[tabEl.id] = new bootstrap.Tab(tabEl);
         });
 
-        // Add click listener for Tag No in itemDetailsModal
+        // Add click listener for Tag No buttons in itemDetailsModal
         document.getElementById('itemDetailsModal').addEventListener('click', function(e) {
-            if (e.target.tagName === 'TD' && e.target.cellIndex === 3 && ['items', 'punch', 'hold'].includes(currentModalDataType)) {
-                const tagNo = e.target.textContent.trim();
-                if (tagNo) {
+            if (e.target.classList.contains('tag-no-btn')) {
+                const tagNo = e.target.dataset.tagNo || e.target.textContent.trim();
+                if (tagNo && tagNo !== 'N/A') {
                     loadActivitiesForTag(tagNo);
                     activitiesModal.show();
                 }
@@ -951,10 +951,10 @@ function filterDetailedItems(context) {
                             <td style="word-wrap: break-word; white-space: normal;">${index + 1}</td>
                             <td style="word-wrap: break-word; white-space: normal;">${item.subsystem}</td>
                             <td style="word-wrap: break-word; white-space: normal;">${item.discipline}</td>
-                            <td style="word-wrap: break-word; white-space: normal; cursor: pointer; color: #007bff; text-decoration: underline;">${item.tagNo}</td>
+                            <td style="word-wrap: break-word; white-space: normal;"><button class="btn btn-sm btn-outline-primary tag-no-btn" data-tag-no="${item.tagNo}" style="border: 1px solid #007bff; padding: 2px 8px; font-size: 0.8rem;">${item.tagNo}</button></td>
                             <td style="word-wrap: break-word; white-space: normal;">${item.typeCode}</td>
                             <td style="word-wrap: break-word; white-space: normal;">${item.description}</td>
-                            <td style="word-wrap: break-word; white-space: normal; cursor: pointer; color: #007bff; text-decoration: underline;">${item.status}</td>
+                            <td style="word-wrap: break-word; white-space: normal;">${item.status}</td>
                          `;
                     } else if (dataType === 'punch') {
                         // Apply color based on punch category (case-insensitive)
@@ -969,7 +969,7 @@ function filterDetailedItems(context) {
                             <td style="word-wrap: break-word; white-space: normal;">${index + 1}</td>
                             <td style="word-wrap: break-word; white-space: normal;">${item.SD_Sub_System || 'N/A'}</td>
                             <td style="word-wrap: break-word; white-space: normal;">${item.Discipline_Name || 'N/A'}</td>
-                            <td style="word-wrap: break-word; white-space: normal;">${item.ITEM_Tag_NO || 'N/A'}</td>
+                            <td style="word-wrap: break-word; white-space: normal;"><button class="btn btn-sm btn-outline-primary tag-no-btn" data-tag-no="${item.ITEM_Tag_NO || 'N/A'}" style="border: 1px solid #007bff; padding: 2px 8px; font-size: 0.8rem;">${item.ITEM_Tag_NO || 'N/A'}</button></td>
                             <td style="word-wrap: break-word; white-space: normal;">${item.ITEM_Type_Code || 'N/A'}</td>
                             <td style="${item.PL_Punch_Category === 'A' ? 'color: red; font-weight: bold;' : ''} word-wrap: break-word; white-space: normal;">${item.PL_Punch_Category || 'N/A'}</td>
                             <td style="word-wrap: break-word; white-space: normal;">${item.PL_Punch_Description || 'N/A'}</td>
@@ -980,7 +980,7 @@ function filterDetailedItems(context) {
                              <td style="word-wrap: break-word; white-space: normal;">${index + 1}</td>
                              <td style="word-wrap: break-word; white-space: normal;">${item.subsystem}</td>
                              <td style="word-wrap: break-word; white-space: normal;">${item.discipline}</td>
-                             <td style="word-wrap: break-word; white-space: normal;">${item.tagNo}</td>
+                             <td style="word-wrap: break-word; white-space: normal;"><button class="btn btn-sm btn-outline-primary tag-no-btn" data-tag-no="${item.tagNo}" style="border: 1px solid #007bff; padding: 2px 8px; font-size: 0.8rem;">${item.tagNo}</button></td>
                              <td style="word-wrap: break-word; white-space: normal;">${item.typeCode || 'N/A'}</td>
                              <td style="word-wrap: break-word; white-space: normal;">${item.hpPriority || 'N/A'}</td>
                              <td style="word-wrap: break-word; white-space: normal;">${item.hpDescription || 'N/A'}</td>
