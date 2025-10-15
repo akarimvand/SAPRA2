@@ -8,7 +8,7 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MES,13,2,6,41,2,39,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,0,6,36,0,36,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,3,0,15,4,11,0
-1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,165,69,303,65,238,107
+1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,165,69,306,65,241,107
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,52,4,168,95,73,57
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,151,25,2181,1227,954,2
 120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,367,0,3500,2191,1309,31
@@ -122,7 +122,7 @@
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,465,418,22,557,342,215,287
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,46,0,140,95,45,13
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,5,0,44,11,33,0
-5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,213,20,618,330,288,78
+5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,213,20,622,330,292,78
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,EL,2,2,0,12,2,10,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,0,6,28,0,28,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MES,6,2,0,34,4,30,0
@@ -155,10 +155,10 @@ ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard 
 ES,ES-04,Earthing System,Earthing & Roof Lightning System for Analyzer House,EL,11,11,0,11,11,0,0
 ES,ES-05,Earthing System,Earthing & Roof Lightning System for Warehouse,EL,22,22,0,45,45,0,0
 ES,ES-06,Earthing System,Earthing System for Area-02,EL,696,0,0,0,0,0,0
-ES,ES-07,Earthing System,Earthing System for Area-03,EL,379,0,0,0,0,0,0
+ES,ES-07,Earthing System,Earthing System for Area-03,EL,379,0,0,781,0,781,0
 ES,ES-08,Earthing System,Earthing System for Area-04,EL,461,0,0,0,0,0,0
 ES,ES-09,Earthing System,Earthing System for Area-05,EL,503,0,0,0,0,0,0
-ES,ES-10,Earthing System,Earthing System for Area-06,EL,394,0,0,0,0,0,0
+ES,ES-10,Earthing System,Earthing System for Area-06,EL,394,0,0,788,0,788,0
 ES,ES-11,Earthing System,Earthing System for Area-07,EL,484,484,0,507,507,0,0
 FGS,FGS-01,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1001,IN,95,0,1,0,0,0,6
 FGS,FGS-02,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1002,IN,143,0,2,8,0,8,40
