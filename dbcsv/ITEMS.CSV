@@ -18034,7 +18034,7 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 7000-01,IN,PSV-1014,Instrument(PSV),Instrument(PSV),Done
 7000-01,IN,PSV-1015,Instrument(PSV),Instrument(PSV),Done
 7000-01,IN,PSV-1031,Instrument(PSV),Instrument(PSV),Done
-7000-01,IN,PSV-1038,Instrument(PSV),Instrument(PSV),50%
+7000-01,IN,PSV-1038,Instrument(PSV),Instrument(PSV),Done
 7000-01,IN,PSV-1041,Instrument(PSV),Instrument(PSV),Done
 7000-01,IN,PSV-1042,Instrument(PSV),Instrument(PSV),Done
 7000-01,IN,PSV-1043,Instrument(PSV),Instrument(PSV),50%
@@ -18108,10 +18108,10 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 7000-01,IN,PSV-3206,Instrument(PSV),Instrument(PSV),Done
 5000-01,IN,PSV-5006,Instrument(PSV),Instrument(PSV),DONE
 5000-01,IN,PSV-5007,Instrument(PSV),Instrument(PSV),DONE
-7000-01,IN,PSV-5058,Instrument(PSV),Instrument(PSV),50%
-7000-01,IN,PSV-5059,Instrument(PSV),Instrument(PSV),50%
-7000-01,IN,PSV-5060,Instrument(PSV),Instrument(PSV),50%
-7000-01,IN,PSV-5061,Instrument(PSV),Instrument(PSV),50%
+7000-01,IN,PSV-5058,Instrument(PSV),Instrument(PSV),Done
+7000-01,IN,PSV-5059,Instrument(PSV),Instrument(PSV),Done
+7000-01,IN,PSV-5060,Instrument(PSV),Instrument(PSV),Done
+7000-01,IN,PSV-5061,Instrument(PSV),Instrument(PSV),Done
 5000-01,IN,PSV-5073,Instrument(PSV),Instrument(PSV),Done
 5000-01,IN,PSV-5108,Instrument(PSV),Instrument(PSV),50%
 7000-01,IN,PSV-5179,Instrument(PSV),Instrument(PSV),Done
@@ -18522,7 +18522,7 @@ NO SUBS.,IN,PT-84208,Instrument(PT),Instrument(PT),0%
 2000-02,IN,PV-20153,Instrument(PV),Instrument(PV),25%
 3000-04,IN,PV-20237,Instrument(PV),Instrument(PV),0%
 7000-01,IN,PV-2073(NA),CABLE,CABLE(NA),Done
-7000-01,IN,PV-2073(PV),Instrument(PV),Instrument(PV),50%
+7000-01,IN,PV-2073(PV),Instrument(PV),Instrument(PV),75%
 2000-02,IN,PV-2224,Instrument(PV),Instrument(PV),0%
 2000-04,IN,PV-2361(NA),CABLE,CABLE(NA),0%
 2000-04,IN,PV-2361(PV),Instrument(PV),Instrument(PV),75%
