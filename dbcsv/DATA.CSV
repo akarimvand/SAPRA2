@@ -1,5 +1,5 @@
 ﻿SD_System,SD_Sub_System,SD_System_Name,SD_Subsystem_Name,discipline,TOTAL ITEM,TOTAL DONE,TOTAL PENDING,TOTAL PUNCH,TOTAL CLEAR PUNCH,TOTAL NOT CLEAR PUNCH,TOTAL HOLD POINT
-1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,85,26,266,42,224,34
+1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,85,26,266,43,223,34
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,21,19,1,58,17,41,28
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,2,0,38,0,38,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,1,0,6,0,6,0
@@ -10,18 +10,18 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,3,0,15,4,11,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,172,63,308,65,243,107
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,52,4,168,103,65,57
-120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,151,25,2181,1474,707,2
-120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,367,0,3500,2374,1126,31
-120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,337,0,3090,2017,1073,44
+120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,151,25,2181,1527,654,2
+120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,367,0,3500,2438,1062,31
+120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,337,0,3090,2131,959,44
 120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,306,306,0,2141,1717,424,42
-120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,284,284,0,2193,1672,521,32
-120,120-06,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-05,EL,262,262,0,2465,1991,474,11
-120,120-07,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-ESWB3A/B-01,EL,158,7,83,526,344,182,134
+120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,284,284,0,2193,1857,336,32
+120,120-06,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-05,EL,262,262,0,2465,2041,424,11
+120,120-07,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-ESWB3A/B-01,EL,158,7,83,526,345,181,134
 120,120-08,Electrical Distribution Substation,Emergency Diesel Generator SS-DG-5701,EL,8,0,0,0,0,0,7
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,EL,29,29,0,112,38,74,0
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,IN,2,2,0,6,2,4,0
 120,120-10,Electrical Distribution Substation,SS-CH-01 for Electrical Supply 110V DC,EL,24,24,0,186,108,78,0
-120,120-11,Electrical Distribution Substation,SS-UPS-01 for Safety Lighting Supply 230 AC UPS,EL,18,15,1,115,37,78,0
+120,120-11,Electrical Distribution Substation,SS-UPS-01 for Safety Lighting Supply 230 AC UPS,EL,18,18,0,115,37,78,0
 120,120-12,Electrical Distribution Substation,SS PDCS System,EL,10,5,0,27,5,22,2
 120,120-13,Electrical Distribution Substation,Cathodic Protection System,EL,373,373,0,482,479,3,0
 120,120-14,Electrical Distribution Substation,Electric Heat Tracing System,EL,3,0,0,0,0,0,3
@@ -82,7 +82,7 @@
 4000,4000-05,Utility,Blow Down,PI,24,24,0,44,18,26,13
 4000,4000-05,Utility,Blow Down,MES,4,3,1,23,0,23,0
 4000,4000-05,Utility,Blow Down,IN,17,13,1,15,3,12,4
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,3,2,4,0,4,5
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,3,2,8,0,8,5
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,47,1,176,80,96,167
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,6,30,0,30,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,28,62,109,20,89,107
@@ -91,7 +91,7 @@
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,4,20,0,20,0
 4000,4000-08,Utility,Cooling Water,PI,294,266,3,600,456,144,31
-4000,4000-08,Utility,Cooling Water,IN,745,640,63,305,95,210,533
+4000,4000-08,Utility,Cooling Water,IN,745,640,63,305,96,209,533
 4000,4000-08,Utility,Cooling Water,EL,6,6,0,56,14,42,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,27,0,0,0,0,26
 4000,4000-09,Utility,Oily Water Treatment,PI,223,222,0,141,100,41,4
@@ -113,16 +113,16 @@
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,141,40,101,29
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,8,41,0,41,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,7,5,78,11,67,5
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,304,45,770,324,446,147
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,304,45,770,352,418,147
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,70,69,0,224,130,94,10
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,8,5,1,84,42,42,1
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,EL,2,2,0,12,2,10,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,0,2,12,0,12,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,PI,46,46,0,137,67,70,9
-5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,465,418,22,557,342,215,287
+5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,465,418,22,557,349,208,287
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,46,0,140,95,45,13
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,5,0,44,11,33,0
-5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,213,20,622,330,292,78
+5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,213,20,622,345,277,78
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,EL,2,2,0,12,2,10,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,0,6,28,0,28,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MES,6,2,0,34,4,30,0
