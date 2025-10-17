@@ -45,18 +45,26 @@
       min-height: 100vh;
       display: flex;
       justify-content: center;
-      align-items: center;
-      padding: 1.5rem;
+      align-items: flex-start;
+      padding: 2rem 1.5rem 1.5rem;
     }
 
-    .page-card {
-      max-width: 680px;
+    .container {
       width: 100%;
+      max-width: 680px;
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+    }
+
+    /* کارت عنوان */
+    .header-card {
       background: var(--card-background-color);
       border-radius: var(--border-radius-lg);
       box-shadow: var(--shadow);
-      overflow: hidden;
       position: relative;
+      padding: 2.6rem 2rem 2rem;
+      text-align: center;
     }
 
     .sapra-logo-top {
@@ -76,27 +84,22 @@
       opacity: 0.9;
     }
 
-    .content {
-      padding: 3.2rem 2.5rem 2.8rem;
-      text-align: center;
-    }
-
     .icon-wrapper {
-      width: 80px;
-      height: 80px;
+      width: 70px;
+      height: 70px;
       background: linear-gradient(135deg, var(--primary-color), var(--primary-hover));
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
-      margin: 0 auto 1.6rem;
+      margin: 0 auto 1.4rem;
       color: white;
-      font-size: 2.2rem;
+      font-size: 1.8rem;
     }
 
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
+    .header-card h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.8rem;
       color: var(--dark-color);
     }
 
@@ -104,8 +107,149 @@
       font-size: 1.05rem;
       line-height: 1.6;
       color: var(--text-color);
-      margin-bottom: 1.8rem;
+      margin-bottom: 1.4rem;
       padding: 0 1rem;
+    }
+
+    /* کارت فایل منیجر */
+    .files-card {
+      background: var(--card-background-color);
+      border-radius: var(--border-radius-lg);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .toolbar {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem 1.4rem;
+      border-bottom: 1px solid var(--border-color);
+      background: #fafafa;
+    }
+
+    .back-btn {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: white;
+      border: 1px solid var(--border-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--secondary-color);
+      cursor: pointer;
+      transition: var(--transition-base);
+    }
+
+    .back-btn:hover:not(:disabled) {
+      background: var(--light-color);
+      border-color: var(--primary-color);
+      color: var(--primary-color);
+    }
+
+    .back-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    .breadcrumb {
+      font-size: 0.9rem;
+      color: var(--text-muted-color);
+      direction: ltr;
+      text-align: left;
+      flex: 1;
+    }
+
+    .file-list {
+      max-height: 360px;
+      overflow-y: auto;
+      padding: 0.6rem 0;
+    }
+
+    .file-list::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .file-list::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    .file-list::-webkit-scrollbar-thumb {
+      background: #c1c1c1;
+      border-radius: 3px;
+    }
+
+    .item {
+      display: flex;
+      align-items: center;
+      padding: 0.8rem 1.4rem;
+      transition: var(--transition-base);
+    }
+
+    .item:hover {
+      background: #f8f9fa;
+    }
+
+    .folder:hover {
+      background: rgba(24, 119, 242, 0.06);
+    }
+
+    .icon {
+      font-size: 1.2rem;
+      width: 28px;
+      text-align: center;
+      margin-left: 0.8rem;
+    }
+
+    .folder .icon {
+      color: var(--primary-color);
+    }
+
+    .file .icon {
+      color: var(--text-muted-color);
+    }
+
+    .name {
+      flex: 1;
+      text-align: right;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+
+    .folder .name {
+      color: var(--primary-color);
+      cursor: pointer;
+    }
+
+    .download-btn {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: transparent;
+      border: none;
+      color: var(--text-muted-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: opacity 0.2s, background 0.2s;
+    }
+
+    .file:hover .download-btn {
+      opacity: 1;
+    }
+
+    .download-btn:hover {
+      background: #e9f1ff;
+      color: var(--primary-color);
+    }
+
+    .empty {
+      text-align: center;
+      color: var(--text-muted-color);
+      padding: 2rem 1rem;
+      font-size: 0.95rem;
     }
 
     .construction-badge {
@@ -119,6 +263,7 @@
       font-weight: 600;
       font-size: 0.95rem;
       animation: pulse 2s infinite;
+      margin-top: 0.5rem;
     }
 
     .construction-icon {
@@ -142,22 +287,136 @@
   </style>
 </head>
 <body>
-  <div class="page-card">
-    <div class="sapra-logo-top">
-      <img src="https://raw.githubusercontent.com/akarimvand/SAPRA2/main/images/SAPRA-2.png" alt="SAPRA">
-      <span>SAPRA</span>
-    </div>
-    <div class="content">
+  <div class="container">
+    <!-- کارت عنوان -->
+    <div class="header-card">
+      <div class="sapra-logo-top">
+        <img src="https://raw.githubusercontent.com/akarimvand/SAPRA2/main/images/SAPRA-2.png" alt="SAPRA">
+        <span>SAPRA</span>
+      </div>
       <div class="icon-wrapper">
         <i class="bi bi-journal-text"></i>
       </div>
       <h1>Resources & Guides</h1>
-      <p class="description">Project setup instructions, templates, and reference materials to help you get started.</p>
-      <div class="construction-badge">
-        <span class="construction-icon"></span>
-        This section is under active development and will be added to the application soon.
+      <p class="description">Project setup instructions, templates, and reference materials.</p>
+    </div>
+
+    <!-- کارت فایل‌ها -->
+    <div class="files-card">
+      <div class="toolbar">
+        <button class="back-btn" id="back-btn" disabled>
+          <i class="bi bi-arrow-left"></i>
+        </button>
+        <div class="breadcrumb" id="breadcrumb">Loading...</div>
+      </div>
+      <div class="file-list" id="file-list">
+        <div class="empty">Checking resources...</div>
       </div>
     </div>
   </div>
+
+  <script>
+    const API_BASE = 'https://api.github.com/repos/akarimvand/SAPRA2/contents';
+    const historyStack = ['Resource'];
+    let currentIndex = 0;
+
+    const backBtn = document.getElementById('back-btn');
+    const breadcrumbEl = document.getElementById('breadcrumb');
+    const listEl = document.getElementById('file-list');
+
+    function updateBackButton() {
+      backBtn.disabled = currentIndex === 0;
+    }
+
+    function formatBreadcrumb(path) {
+      const parts = path.split('/');
+      return ['SAPRA2', ...parts].join(' / ');
+    }
+
+    function showConstructionMessage() {
+      listEl.innerHTML = `
+        <div class="empty">
+          <p>No resources available yet.</p>
+          <div class="construction-badge">
+            <span class="construction-icon"></span>
+            This section is under active development.
+          </div>
+        </div>
+      `;
+      document.querySelector('.toolbar').style.display = 'none';
+    }
+
+    async function loadPath(path) {
+      breadcrumbEl.textContent = formatBreadcrumb(path);
+      listEl.innerHTML = '<div class="empty">Loading...</div>';
+      document.querySelector('.toolbar').style.display = 'flex';
+
+      try {
+        const url = `${API_BASE}/${encodeURIComponent(path)}`;
+        const res = await fetch(url);
+        if (!res.ok) throw new Error('Failed to load');
+        const items = await res.json();
+
+        if (!Array.isArray(items) || items.length === 0) {
+          showConstructionMessage();
+          return;
+        }
+
+        listEl.innerHTML = '';
+        items.forEach(item => {
+          const el = document.createElement('div');
+          el.className = `item ${item.type}`;
+
+          let iconClass = 'bi-file-earmark';
+          if (item.type === 'dir') {
+            iconClass = 'bi-folder';
+            el.onclick = () => {
+              historyStack.splice(currentIndex + 1);
+              historyStack.push(item.path);
+              currentIndex = historyStack.length - 1;
+              loadPath(item.path);
+              updateBackButton();
+            };
+          }
+
+          let nameContent = item.name;
+          let downloadBtn = '';
+
+          if (item.type === 'file') {
+            downloadBtn = `
+              <button class="download-btn" title="Download"
+                onclick="window.open('${item.download_url}', '_blank')">
+                <i class="bi bi-download"></i>
+              </button>`;
+          } else {
+            nameContent = `<span class="name">${item.name}</span>`;
+          }
+
+          el.innerHTML = `
+            <div class="icon"><i class="bi ${iconClass}"></i></div>
+            <div class="name">${nameContent}</div>
+            ${downloadBtn}
+          `;
+          listEl.appendChild(el);
+        });
+      } catch (err) {
+        console.error(err);
+        showConstructionMessage();
+      }
+    }
+
+    backBtn.onclick = () => {
+      if (currentIndex > 0) {
+        currentIndex--;
+        loadPath(historyStack[currentIndex]);
+        updateBackButton();
+      }
+    };
+
+    document.addEventListener('DOMContentLoaded', () => {
+      loadPath('Resource');
+      updateBackButton();
+    });
+  </script>
 </body>
 </html>
