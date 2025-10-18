@@ -3428,10 +3428,10 @@ LS-01,EL,00-SLP-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
 4000-15,PI,70-PW-UG-KC-282,PI_TP,,ISO-70010 0012|HOLD REAINSTATMENT,HOLD SEQ.
 4000-10,PI,70-WWS-UG-KC-283,PI_TP,,ISO-70018 0001|POLYPROPYLENE MATERIAL,HOLD MATERIAL
 5000-01,MES,AE-5004,Air_Cooler(AE),,کسری گریس خور بیرینگ,Material Shortage
-5000-01,MES,AE-5005-A,PAKAGE(PK),,کسری کلمپ فن گارد  و گریس خور بیرینگ,Material Shortage
-5000-01,MES,AE-5005-B,PAKAGE(PK),,کسری کلمپ فن گارد  و گریس خور بیرینگ,Material Shortage
-5000-01,MES,AE-5005-C,PAKAGE(PK),,کسری کلمپ فن گارد  و گریس خور بیرینگ,Material Shortage
-5000-02,MES,AE-5005-D,PAKAGE(PK),,کسری کلمپ فن گارد  و گریس خور بیرینگ,Material Shortage
+5000-01,MES,AE-5005-A,Air_Cooler(AE),,کسری کلمپ فن گارد  و گریس خور بیرینگ,Material Shortage
+5000-01,MES,AE-5005-B,Air_Cooler(AE),,کسری کلمپ فن گارد  و گریس خور بیرینگ,Material Shortage
+5000-01,MES,AE-5005-C,Air_Cooler(AE),,کسری کلمپ فن گارد  و گریس خور بیرینگ,Material Shortage
+5000-02,MES,AE-5005-D,Air_Cooler(AE),,کسری کلمپ فن گارد  و گریس خور بیرینگ,Material Shortage
 NO SUBS.,EL,AH-HDP-01,PANEL(EL),,Hold (Matrial Shortage),Material Shortage
 DCS-01,IN,ALM-T1,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
 DCS-01,IN,ALM-T2,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
