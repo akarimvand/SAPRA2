@@ -6951,7 +6951,7 @@ ES-01,EL,E2-02,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
 5000-03,MES,E-2023,Exchanger(E),MP Column Reboiler No.2,Done
 5000-01,MES,E-2024-1,Exchanger(E),Stabilizer Column Reboiler,Done
 5000-01,MES,E-2024-2,Exchanger(E),Stabilizer Column Reboiler,Done
-2000-05,MES,E-2025,Exchanger(E),DMW Preheater,50%
+2000-05,MES,E-2025,Exchanger(E),DMW Preheater,Done
 2000-05,MES,E-2027,Exchanger(E),Water Cooler,DONE
 ES-01,EL,E2-03,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
 ES-01,EL,E2-04,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
@@ -15617,7 +15617,7 @@ DCS-01,IN,MB18-S06R-F RMBDI20:2-M07R-F,CABLE,CABLE(NA),0%
 120-03,EL,MB-8001B,Local_Control_Station,Local Control Station- MB-8001B,DONE
 120-01,EL,MC-2001,Local_Control_Panel,Local Control Panel (Ammeter)- MC-2001,50%
 120-01,EL,MC-2001-SH,SPACE_HEATER,Motor Space Heater- MC-2001-SH,0%
-120-01,EL,MC-2002,Local_Control_Panel,Local Control Panel (Ammeter)- MC-2002,50%
+120-01,EL,MC-2002,Local_Control_Panel,Local Control Panel (Ammeter)- MC-2002,Done
 120-01,EL,MC-2002-SH,SPACE_HEATER,Motor Space Heater- MC-2002-SH,50%
 FGS-02,IN,MCP-0001(MCP),Fire Alarm,Fire Alarm(MCP),0%
 FGS-02,IN,MCP-0001(NA),CABLE,CABLE(NA),0%
@@ -15800,11 +15800,11 @@ BLD-06,CV,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Wor
 120-02,EL,MP-5070B,Local_Control_Station,Local Control Station- MP-5070B,DONE
 120-02,EL,MP-6001A,Local_Control_Station,Local Control Station- MP-6001A,DONE
 120-02,EL,MP-6001B,Local_Control_Station,Local Control Station- MP-6001B,Done
-120-01,EL,MP-6002A,Local_Control_Station,Local Control Station- MP-6002A,50%
+120-01,EL,MP-6002A,Local_Control_Station,Local Control Station- MP-6002A,Done
 120-01,EL,MP-6002A-SH,SPACE_HEATER,Motor Space Heater- MP-6002A-SH,50%
-120-01,EL,MP-6002B,Local_Control_Station,Local Control Station- MP-6002B,50%
+120-01,EL,MP-6002B,Local_Control_Station,Local Control Station- MP-6002B,Done
 120-01,EL,MP-6002B-SH,SPACE_HEATER,Motor Space Heater- MP-6002B-SH,50%
-120-01,EL,MP-6002C,Local_Control_Station,Local Control Station- MP-6002C,50%
+120-01,EL,MP-6002C,Local_Control_Station,Local Control Station- MP-6002C,Done
 120-01,EL,MP-6002C-SH,SPACE_HEATER,Motor Space Heater- MP-6002C-SH,50%
 120-01,EL,MP-7001C,Local_Control_Station,Local Control Station- MP-7001C,50%
 120-01,EL,MP-7001C-SH,SPACE_HEATER,Motor Space Heater- MP-7001C-SH,50%
