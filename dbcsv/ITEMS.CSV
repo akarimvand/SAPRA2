@@ -17409,10 +17409,10 @@ NO SUBS.,IN,PDV-30125,PKG,PKG,33%
 4000-04,IN,PG-7118,Instrument(PG),Instrument(PG),Exception(Pending)
 7000-01,IN,PG-71180,Instrument(PG),Instrument(PG),50%
 7000-01,IN,PG-71181,Instrument(PG),Instrument(PG),50%
-7000-01,IN,PG-71182,Instrument(PG),Instrument(PG),0%
+7000-01,IN,PG-71182,Instrument(PG),Instrument(PG),50%
 7000-01,IN,PG-71183,Instrument(PG),Instrument(PG),50%
 7000-01,IN,PG-71184,Instrument(PG),Instrument(PG),50%
-7000-01,IN,PG-71185,Instrument(PG),Instrument(PG),0%
+7000-01,IN,PG-71185,Instrument(PG),Instrument(PG),50%
 4000-04,IN,PG-7119,Instrument(PG),Instrument(PG),Exception(Pending)
 7000-01,IN,PG-71202A,Instrument(PG),Instrument(PG),DONE
 7000-01,IN,PG-71202B,Instrument(PG),Instrument(PG),DONE
@@ -18505,7 +18505,7 @@ NO SUBS.,IN,PT-84208,Instrument(PT),Instrument(PT),0%
 2000-03,IN,PUSY-2051B(NA),CABLE,CABLE(NA),0%
 2000-03,IN,PUSY-2051B(PUSY),Instrument(X),Instrument(PUSY),0%
 7000-01,IN,PUSY-2073(NA),CABLE,CABLE(NA),Done
-7000-01,IN,PUSY-2073(PUSY),Instrument(X),Instrument(PUSY),0%
+7000-01,IN,PUSY-2073(PUSY),Instrument(X),Instrument(PUSY),Done
 5000-01,IN,PUSY-5069(NA),CABLE,CABLE(NA),0%
 5000-01,IN,PUSY-5069(PUSY),Instrument(X),Instrument(PUSY),0%
 4000-11,IN,PV-0012(NA),CABLE,CABLE(NA),DONE
@@ -18629,7 +18629,7 @@ NO SUBS.,IN,PZSH-84215,Instrument(X),Instrument(PZSH),0%
 4000-11,IN,PZSL-0012(NA),CABLE,CABLE(NA),DONE
 4000-11,IN,PZSL-0012(PZSL),Instrument(X),Instrument(PZSL),DONE
 7000-01,IN,PZSL-2073(NA),CABLE,CABLE(NA),Done
-7000-01,IN,PZSL-2073(PZSL),Instrument(X),Instrument(PZSL),0%
+7000-01,IN,PZSL-2073(PZSL),Instrument(X),Instrument(PZSL),Done
 2000-02,IN,PZSL-2224,Instrument(X),Instrument(PZSL),0%
 NO SUBS.,IN,PZSL-84210,Instrument(X),Instrument(PZSL),0%
 NO SUBS.,IN,PZSL-84215,Instrument(X),Instrument(PZSL),0%
@@ -22276,15 +22276,15 @@ DCS-01,IN,UCP-P8001A-01,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
 DCS-01,IN,UCP-P8001B-01,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
 DCS-01,IN,UCP-PK7502-01,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
-7000-01,IN,US-71180A,Instrument(US),Instrument(US),0%
-7000-01,IN,US-71180B,Instrument(US),Instrument(US),0%
-7000-01,IN,US-71180C,Instrument(US),Instrument(US),0%
-7000-01,IN,US-71180D,Instrument(US),Instrument(US),0%
-7000-01,IN,US-71182A,Instrument(US),Instrument(US),0%
-7000-01,IN,US-71182B,Instrument(US),Instrument(US),0%
-7000-01,IN,US-71182C,Instrument(US),Instrument(US),0%
-7000-01,IN,US-71182D,Instrument(US),Instrument(US),0%
-7000-01,IN,US-71185,Instrument(US),Instrument(US),0%
+7000-01,IN,US-71180A,Instrument(US),Instrument(US),Done
+7000-01,IN,US-71180B,Instrument(US),Instrument(US),Done
+7000-01,IN,US-71180C,Instrument(US),Instrument(US),Done
+7000-01,IN,US-71180D,Instrument(US),Instrument(US),Done
+7000-01,IN,US-71182A,Instrument(US),Instrument(US),Done
+7000-01,IN,US-71182B,Instrument(US),Instrument(US),Done
+7000-01,IN,US-71182C,Instrument(US),Instrument(US),Done
+7000-01,IN,US-71182D,Instrument(US),Instrument(US),Done
+7000-01,IN,US-71185,Instrument(US),Instrument(US),Done
 1000-01,IN,USV-1001,Instrument(USV),Instrument(USV),25%
 2000-03,IN,USV-2010,Instrument(USV),Instrument(USV),0%
 4000-02,IN,USV-2021,Instrument(USV),Instrument(USV),25%
