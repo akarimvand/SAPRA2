@@ -10,7 +10,7 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,3,0,15,4,11,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,178,60,308,65,243,107
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,52,4,168,103,65,57
-120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,151,25,2181,1683,498,2
+120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,155,21,2181,1683,498,2
 120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,367,0,3508,2723,785,31
 120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,337,0,3090,2406,684,44
 120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,306,306,0,2141,1951,190,42
@@ -44,7 +44,7 @@
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MER,2,0,2,12,0,12,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,24,22,2,58,25,33,17
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,231,72,48,327,47,280,45
-2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,5,2,72,20,52,0
+2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,6,1,72,20,52,0
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,46,19,180,96,84,86
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,131,73,58,15
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,1,6,0,6,0
