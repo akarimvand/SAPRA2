@@ -1,5 +1,5 @@
 ﻿SD_System,SD_Sub_System,SD_System_Name,SD_Subsystem_Name,discipline,TOTAL ITEM,TOTAL DONE,TOTAL PENDING,TOTAL PUNCH,TOTAL CLEAR PUNCH,TOTAL NOT CLEAR PUNCH,TOTAL HOLD POINT
-1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,89,25,266,43,223,34
+1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,93,23,266,43,223,34
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,24,22,1,70,26,44,28
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,2,0,38,0,38,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,1,0,6,0,6,0
@@ -33,26 +33,26 @@
 2000,2000-01,Reforming,Pre Reforming,EL,2,2,0,12,2,10,0
 2000,2000-01,Reforming,Pre Reforming,MES,2,2,0,10,0,10,0
 2000,2000-01,Reforming,Pre Reforming,PI,8,8,0,19,10,9,1
-2000,2000-01,Reforming,Pre Reforming,IN,92,12,15,60,11,49,11
+2000,2000-01,Reforming,Pre Reforming,IN,92,13,14,60,11,49,11
 2000,2000-02,Reforming,Primary Reforming,PI,9,7,2,25,16,9,1
-2000,2000-02,Reforming,Primary Reforming,IN,873,96,122,705,176,529,77
+2000,2000-02,Reforming,Primary Reforming,IN,873,98,128,705,176,529,77
 2000,2000-02,Reforming,Primary Reforming,MES,8,0,6,0,0,0,0
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,24,12,5,45,23,22,79
-2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,363,67,40,284,77,207,50
+2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,363,69,38,284,77,207,50
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,MES,6,2,1,0,0,0,2
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MES,11,2,9,40,0,40,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MER,2,0,2,12,0,12,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,24,22,2,58,25,33,17
-2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,231,73,47,327,47,280,45
+2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,231,74,46,327,47,280,45
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,6,1,72,20,52,0
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,46,19,180,96,84,86
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,131,73,58,15
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,1,6,0,6,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,19,7,12,0
-2000,2000-06,Reforming,Nitrogen Circuit,IN,114,8,31,208,46,162,13
+2000,2000-06,Reforming,Nitrogen Circuit,IN,114,9,30,208,46,162,13
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,0,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,1,4,9,0,9,0
-3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,44,235,442,148,294,21
+3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,44,237,442,148,294,21
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,35,1,68,28,40,12
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,2,8,0,8,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,17,50,98,35,63,44
@@ -63,7 +63,7 @@
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,63,18,207,83,124,99
 3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,2,0,20,0,20,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,12,7,5,2
-3000,3000-04,Compression and Synthesis,Hydrogen System,IN,176,11,76,317,105,212,5
+3000,3000-04,Compression and Synthesis,Hydrogen System,IN,176,12,75,317,105,212,5
 3000,3000-04,Compression and Synthesis,Hydrogen System,MER,1,0,0,0,0,0,0
 4000,4000-01,Utility,Nitrogen,PI,20,20,0,47,28,19,64
 4000,4000-01,Utility,Nitrogen,IN,14,14,0,10,0,10,6
@@ -77,14 +77,14 @@
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,0,0,0,0,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,1,5,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,47,45,2,173,107,66,19
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,38,61,424,116,308,384
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,38,63,424,116,308,384
 4000,4000-05,Utility,Blow Down,PI,24,24,0,44,18,26,13
 4000,4000-05,Utility,Blow Down,MES,4,3,1,23,0,23,0
 4000,4000-05,Utility,Blow Down,IN,17,13,1,15,3,12,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,3,2,8,0,8,5
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,48,0,176,80,96,167
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,6,30,0,30,0
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,28,63,113,20,93,107
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,28,64,113,20,93,107
 4000,4000-07,Utility,Plant Air,IN,2,2,0,2,0,2,2
 4000,4000-07,Utility,Plant Air,PI,10,10,0,17,4,13,30
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
@@ -133,7 +133,7 @@
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MER,2,0,2,12,0,12,0
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,63,29,14,26,16,10,20
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,10,9,1,29,19,10,2
-7000,7000-01,Flare,Flare System (In Site),IN,145,99,24,247,47,200,17
+7000,7000-01,Flare,Flare System (In Site),IN,145,105,18,247,47,200,17
 7000,7000-01,Flare,Flare System (In Site),MER,2,2,0,0,0,0,0
 7000,7000-01,Flare,Flare System (In Site),MES,2,2,0,8,0,8,0
 7000,7000-01,Flare,Flare System (In Site),PI,49,49,0,120,60,60,77
