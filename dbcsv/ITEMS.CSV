@@ -17811,10 +17811,10 @@ FGS-07,IN,PSH-105,Fire Fighting,Fire Fighting(PSH),0%
 5000-04,IN,PSH-50215B(NA),CABLE,CABLE(NA),0%
 5000-04,IN,PSH-50215B(PSH),Instrument(PSH),Instrument(PSH),50%
 4000-04,IN,PSH-71180L,Pkg,Pkg,0%
-7000-01,IN,PSH-71201A(NA),CABLE,CABLE(NA),0%
-7000-01,IN,PSH-71201A(PSH),Instrument(PSH),Instrument(PSH),0%
-7000-01,IN,PSH-71201B(NA),CABLE,CABLE(NA),0%
-7000-01,IN,PSH-71201B(PSH),Instrument(PSH),Instrument(PSH),0%
+7000-01,IN,PSH-71201A(NA),CABLE,CABLE(NA),Exception(Pending)
+7000-01,IN,PSH-71201A(PSH),Instrument(PSH),Instrument(PSH),Exception(Pending)
+7000-01,IN,PSH-71201B(NA),CABLE,CABLE(NA),Exception(Pending)
+7000-01,IN,PSH-71201B(PSH),Instrument(PSH),Instrument(PSH),Exception(Pending)
 FGS-02,IN,PSH-9001(NA),CABLE,CABLE(NA),0%
 FGS-02,IN,PSH-9001(PSH),Fire Fighting,Fire Fighting(PSH),0%
 FGS-04,IN,PSH-9002(NA),CABLE,CABLE(NA),0%
@@ -18142,8 +18142,8 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 5000-05,IN,PSV-5462,Instrument(PSV),Instrument(PSV),Done
 5000-01,IN,PSV-5512,Instrument(PSV),Instrument(PSV),DONE
 5000-01,IN,PSV-5514,Instrument(PSV),Instrument(PSV),DONE
-7000-01,IN,PSV-6021,Instrument(PSV),Instrument(PSV),0%
-7000-01,IN,PSV-6022,Instrument(PSV),Instrument(PSV),0%
+7000-01,IN,PSV-6021,Instrument(PSV),Instrument(PSV),Exception(Pending)
+7000-01,IN,PSV-6022,Instrument(PSV),Instrument(PSV),Exception(Pending)
 4000-03,IN,PSV-6027,Instrument(PSV),Instrument(PSV),Done
 1000-03,IN,PSV-6028,Instrument(PSV),Instrument(PSV),DONE
 1000-03,IN,PSV-6029,Instrument(PSV),Instrument(PSV),DONE
@@ -18207,7 +18207,7 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 4000-04,IN,PSV-7218,Instrument(PSV),Instrument(PSV),Exception(Pending)
 4000-05,IN,PSV-7253,Instrument(PSV),Instrument(PSV),Done
 4000-05,IN,PSV-7254,Instrument(PSV),Instrument(PSV),Done
-4000-05,IN,PSV-7256,Instrument(PSV),Instrument(PSV),50%
+4000-05,IN,PSV-7256,Instrument(PSV),Instrument(PSV),Done
 4000-06,IN,PSV-75150A,Instrument(PSV),Instrument(PSV),0%
 4000-06,IN,PSV-75150B,Instrument(PSV),Instrument(PSV),0%
 4000-06,IN,PSV-75151A,Instrument(PSV),Instrument(PSV),0%
@@ -21467,7 +21467,7 @@ NO SUBS.,IN,TT-10218,Pkg,Pkg,0%
 2000-05,IN,TT-2472(TT),Instrument(TT),Instrument(TT),DONE
 2000-05,IN,TT-2476(NA),CABLE,CABLE(NA),0%
 2000-05,IN,TT-2476(TT),Instrument(TT),Instrument(TT),50%
-7000-01,IN,TT-2484(NA),CABLE,CABLE(NA),0%
+7000-01,IN,TT-2484(NA),CABLE,CABLE(NA),Exception(Pending)
 7000-01,IN,TT-2484(TT),Instrument(TT),Instrument(TT),Done
 2000-05,IN,TT-2493(NA),CABLE,CABLE(NA),0%
 2000-05,IN,TT-2493(TT),Instrument(TT),Instrument(TT),DONE
