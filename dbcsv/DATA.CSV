@@ -80,7 +80,7 @@
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,38,63,424,255,169,384
 4000,4000-05,Utility,Blow Down,PI,24,24,0,44,18,26,13
 4000,4000-05,Utility,Blow Down,MES,4,3,1,23,0,23,0
-4000,4000-05,Utility,Blow Down,IN,17,14,0,15,3,12,4
+4000,4000-05,Utility,Blow Down,IN,17,17,0,15,3,12,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,3,2,8,0,8,5
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,48,0,176,80,96,167
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,6,30,0,30,0
@@ -110,12 +110,12 @@
 4000,4000-14,Utility,Fire Water,MES,1,0,1,0,0,0,0
 4000,4000-14,Utility,Fire Water,PI,127,125,0,389,168,221,2536
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,141,40,101,29
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,8,41,0,41,0
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,2,6,41,0,41,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,7,5,78,11,67,5
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,312,51,815,352,463,147
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,70,0,229,135,94,10
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,7,5,1,84,42,42,1
-5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,0,2,12,0,12,0
+5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,1,2,12,0,12,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,EL,2,2,0,12,2,10,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,PI,46,46,0,137,67,70,9
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,465,418,22,557,349,208,287
@@ -123,7 +123,7 @@
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,5,0,44,11,33,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,214,21,631,360,271,78
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,EL,2,2,0,12,2,10,0
-5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,0,6,28,0,28,0
+5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,1,5,28,0,28,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MES,6,2,0,34,4,30,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,PI,30,24,3,127,73,54,32
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MER,4,0,2,12,0,12,0
@@ -133,7 +133,7 @@
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MER,2,0,2,12,0,12,0
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,63,30,13,27,16,11,20
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,10,9,1,29,19,10,2
-7000,7000-01,Flare,Flare System (In Site),IN,145,125,12,247,47,200,17
+7000,7000-01,Flare,Flare System (In Site),IN,145,138,0,247,47,200,17
 7000,7000-01,Flare,Flare System (In Site),MER,2,2,0,0,0,0,0
 7000,7000-01,Flare,Flare System (In Site),MES,2,2,0,8,0,8,0
 7000,7000-01,Flare,Flare System (In Site),PI,49,49,0,120,60,60,77
@@ -147,7 +147,7 @@ BLD,BLD-05,Building,Diesel Room,CV,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,PI,3,0,1,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,CV,14,14,0,31,3,28,0
 BLD,BLD-07,Building,Analyzer House,CV,8,8,0,19,1,18,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,604,6,3174,1013,2161,805
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,605,5,3174,1013,2161,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2191,2190,1,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,417,417,0,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,18,13,5,0
