@@ -15615,10 +15615,10 @@ DCS-01,IN,MB18-S06R-F RMBDI20:1-M07R-F,CABLE,CABLE(NA),0%
 DCS-01,IN,MB18-S06R-F RMBDI20:2-M07R-F,CABLE,CABLE(NA),0%
 120-03,EL,MB-8001A,Local_Control_Station,Local Control Station- MB-8001A,DONE
 120-03,EL,MB-8001B,Local_Control_Station,Local Control Station- MB-8001B,DONE
-120-01,EL,MC-2001,Local_Control_Panel,Local Control Panel (Ammeter)- MC-2001,50%
+120-01,EL,MC-2001,Local_Control_Panel,Local Control Panel (Ammeter)- MC-2001,Done
 120-01,EL,MC-2001-SH,SPACE_HEATER,Motor Space Heater- MC-2001-SH,0%
 120-01,EL,MC-2002,Local_Control_Panel,Local Control Panel (Ammeter)- MC-2002,Done
-120-01,EL,MC-2002-SH,SPACE_HEATER,Motor Space Heater- MC-2002-SH,50%
+120-01,EL,MC-2002-SH,SPACE_HEATER,Motor Space Heater- MC-2002-SH,Done
 FGS-02,IN,MCP-0001(MCP),Fire Alarm,Fire Alarm(MCP),0%
 FGS-02,IN,MCP-0001(NA),CABLE,CABLE(NA),0%
 FGS-02,IN,MCP-0002(MCP),Fire Alarm,Fire Alarm(MCP),0%
@@ -15715,10 +15715,10 @@ BLD-03,CV,Mechanical Work(Ground Floor BLD-03),05-Mechanical Work,Mechanical Wor
 BLD-04,CV,Mechanical Work(Ground Floor BLD-04),05-Mechanical Work,Mechanical Work(Ground Floor BLD-04),DONE
 BLD-05,CV,Mechanical Work(Ground Floor BLD-05),05-Mechanical Work,Mechanical Work(Ground Floor BLD-05),0%
 BLD-06,CV,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Work(Ground Floor BLD-06),DONE
-120-01,EL,MF-2001,Local_Control_Panel,Local Control Panel (Ammeter)- MF-2001-LCP,50%
-120-01,EL,MF-2001-SH,SPACE_HEATER,Motor Space Heater- MF-2001-SH,50%
+120-01,EL,MF-2001,Local_Control_Panel,Local Control Panel (Ammeter)- MF-2001-LCP,Done
+120-01,EL,MF-2001-SH,SPACE_HEATER,Motor Space Heater- MF-2001-SH,Done
 120-01,EL,MF-2002,Local_Control_Panel,Local Control Panel (Ammeter)- MF-2002-LCP,0%
-120-01,EL,MF-2002-SH,SPACE_HEATER,Motor Space Heater- MF-2002-SH,50%
+120-01,EL,MF-2002-SH,SPACE_HEATER,Motor Space Heater- MF-2002-SH,Done
 120-03,EL,MF-8001A,Local_Control_Station,Local Control Station- MF-8001A,DONE
 120-03,EL,MF-8001A_VS,VIBRATION_SWITCH,Vibration Switch- MF-8001A/VS,DONE
 120-03,EL,MF-8001A-SH,SPACE_HEATER,Motor Space Heater- MF-8001A-SH,DONE
@@ -15773,21 +15773,21 @@ BLD-06,CV,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Wor
 120-02,EL,MP-5003A,Local_Control_Station,Local Control Station- MP-5003A,Done
 120-02,EL,MP-5003B,Local_Control_Station,Local Control Station- MP-5003B,Done
 120-01,EL,MP-5004A,Local_Control_Station,Local Control Station- MP-5004A,Done
-120-01,EL,MP-5004A-SH,SPACE_HEATER,Motor Space Heater- MP-5004A-SH,50%
+120-01,EL,MP-5004A-SH,SPACE_HEATER,Motor Space Heater- MP-5004A-SH,Done
 120-01,EL,MP-5004B,Local_Control_Station,Local Control Station- MP-5004B,Done
-120-01,EL,MP-5004B-SH,SPACE_HEATER,Motor Space Heater- MP-5004B-SH,50%
+120-01,EL,MP-5004B-SH,SPACE_HEATER,Motor Space Heater- MP-5004B-SH,Done
 120-02,EL,MP-5005A,Local_Control_Station,Local Control Station- MP-5005A,DONE
 120-02,EL,MP-5005B,Local_Control_Station,Local Control Station- MP-5005B,Done
 120-01,EL,MP-5006A,Local_Control_Station,Local Control Station- MP-5006A,Done
-120-01,EL,MP-5006A-SH,SPACE_HEATER,Motor Space Heater- MP-5006A-SH,50%
+120-01,EL,MP-5006A-SH,SPACE_HEATER,Motor Space Heater- MP-5006A-SH,Done
 120-01,EL,MP-5006B,Local_Control_Station,Local Control Station- MP-5006B,Done
-120-01,EL,MP-5006B-SH,SPACE_HEATER,Motor Space Heater- MP-5006B-SH,50%
+120-01,EL,MP-5006B-SH,SPACE_HEATER,Motor Space Heater- MP-5006B-SH,Done
 120-02,EL,MP-5007A,Local_Control_Station,Local Control Station- MP-5007A,Done
 120-02,EL,MP-5007B,Local_Control_Station,Local Control Station- MP-5007B,Done
 120-01,EL,MP-5008A,Local_Control_Station,Local Control Station- MP-5008A,Done
-120-01,EL,MP-5008A-SH,SPACE_HEATER,Motor Space Heater- MP-5008A-SH,50%
+120-01,EL,MP-5008A-SH,SPACE_HEATER,Motor Space Heater- MP-5008A-SH,Done
 120-01,EL,MP-5008B,Local_Control_Station,Local Control Station- MP-5008B,Done
-120-01,EL,MP-5008B-SH,SPACE_HEATER,Motor Space Heater- MP-5008B-SH,50%
+120-01,EL,MP-5008B-SH,SPACE_HEATER,Motor Space Heater- MP-5008B-SH,Done
 120-02,EL,MP-5009A,Local_Control_Station,Local Control Station- MP-5009A,Done
 120-02,EL,MP-5009B,Local_Control_Station,Local Control Station- MP-5009B,Done
 120-02,EL,MP-5010A,Local_Control_Station,Local Control Station- MP-5010A,DONE
@@ -15801,13 +15801,13 @@ BLD-06,CV,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Wor
 120-02,EL,MP-6001A,Local_Control_Station,Local Control Station- MP-6001A,DONE
 120-02,EL,MP-6001B,Local_Control_Station,Local Control Station- MP-6001B,Done
 120-01,EL,MP-6002A,Local_Control_Station,Local Control Station- MP-6002A,Done
-120-01,EL,MP-6002A-SH,SPACE_HEATER,Motor Space Heater- MP-6002A-SH,50%
+120-01,EL,MP-6002A-SH,SPACE_HEATER,Motor Space Heater- MP-6002A-SH,Done
 120-01,EL,MP-6002B,Local_Control_Station,Local Control Station- MP-6002B,Done
-120-01,EL,MP-6002B-SH,SPACE_HEATER,Motor Space Heater- MP-6002B-SH,50%
+120-01,EL,MP-6002B-SH,SPACE_HEATER,Motor Space Heater- MP-6002B-SH,Done
 120-01,EL,MP-6002C,Local_Control_Station,Local Control Station- MP-6002C,Done
-120-01,EL,MP-6002C-SH,SPACE_HEATER,Motor Space Heater- MP-6002C-SH,50%
-120-01,EL,MP-7001C,Local_Control_Station,Local Control Station- MP-7001C,50%
-120-01,EL,MP-7001C-SH,SPACE_HEATER,Motor Space Heater- MP-7001C-SH,50%
+120-01,EL,MP-6002C-SH,SPACE_HEATER,Motor Space Heater- MP-6002C-SH,Done
+120-01,EL,MP-7001C,Local_Control_Station,Local Control Station- MP-7001C,Done
+120-01,EL,MP-7001C-SH,SPACE_HEATER,Motor Space Heater- MP-7001C-SH,Done
 120-02,EL,MP-7002A,Local_Control_Station,Local Control Station- MP-7002A,Done
 120-02,EL,MP-7002B,Local_Control_Station,Local Control Station- MP-7002B,Done
 120-02,EL,MP-7003A,Local_Control_Station,Local Control Station- MP-7003A,Done
@@ -15833,9 +15833,9 @@ BLD-06,CV,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Wor
 120-03,EL,MP-7506A,Local_Control_Station,Local Control Station- MP-7506A,Done
 120-03,EL,MP-7506B,Local_Control_Station,Local Control Station- MP-7506B,Done
 120-01,EL,MP-8001C,Local_Control_Station,Local Control Station- MP-8001C,Done
-120-01,EL,MP-8001C-SH,SPACE_HEATER,Motor Space Heater- MP-8001C-SH,50%
+120-01,EL,MP-8001C-SH,SPACE_HEATER,Motor Space Heater- MP-8001C-SH,Done
 120-01,EL,MP-8001D,Local_Control_Station,Local Control Station- MP-8001D,Done
-120-01,EL,MP-8001D-SH,SPACE_HEATER,Motor Space Heater- MP-8001D-SH,50%
+120-01,EL,MP-8001D-SH,SPACE_HEATER,Motor Space Heater- MP-8001D-SH,Done
 120-03,EL,MP-8401,Local_Control_Station,Local Control Station- MP-8401,Done
 120-03,EL,MP-8402,Local_Control_Station,Local Control Station- MP-8402,DONE
 120-03,EL,MP-8403A,Local_Control_Station,Local Control Station- MP-8403A,Done
@@ -19877,8 +19877,8 @@ NO SUBS.,IN,SV-004,CABLE,CABLE(NA),0%
 3000-01,IN,SV-30103B,Instrument(SV),Instrument(SV),0%
 3000-01,IN,SV-30103D,Instrument(SV),Instrument(SV),0%
 3000-01,IN,SV-30103E,Instrument(SV),Instrument(SV),0%
-120-01,EL,SWB2A-01,MV Switchgear,MV Switchgear,80%
-120-01,EL,SWB2B-01,MV Switchgear,MV Switchgear,80%
+120-01,EL,SWB2A-01,MV Switchgear,MV Switchgear,Done
+120-01,EL,SWB2B-01,MV Switchgear,MV Switchgear,Done
 120-02,EL,SWB3A-01,LV Switchgear,LV Switchgear,DONE
 120-03,EL,SWB3A-02,LV Switchgear,LV Switchgear,DONE
 120-04,EL,SWB3A-03,LV Switchgear,LV Switchgear,DONE
