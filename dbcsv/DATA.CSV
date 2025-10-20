@@ -49,7 +49,7 @@
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,131,73,58,15
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,1,1,13,0,13,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,19,7,12,0
-2000,2000-06,Reforming,Nitrogen Circuit,IN,114,10,30,208,94,114,13
+2000,2000-06,Reforming,Nitrogen Circuit,IN,114,10,30,212,94,118,13
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,0,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,2,3,9,0,9,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,44,237,444,318,126,21
@@ -68,7 +68,7 @@
 4000,4000-01,Utility,Nitrogen,PI,20,20,0,50,28,22,64
 4000,4000-01,Utility,Nitrogen,IN,14,14,0,10,0,10,6
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,2,0,10,0,10,0
-4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,171,22,345,100,245,35
+4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,171,22,347,100,247,35
 4000,4000-02,Utility,HHP & HP & LP Steam,PI,62,61,0,223,112,111,74
 4000,4000-03,Utility,MP Steam,MES,1,1,0,5,0,5,0
 4000,4000-03,Utility,MP Steam,IN,56,29,15,139,53,86,3
@@ -112,7 +112,7 @@
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,141,40,101,29
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,2,6,48,0,48,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,7,5,78,11,67,5
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,313,50,815,353,462,147
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,313,50,816,353,463,147
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,71,0,229,135,94,10
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,7,5,1,84,42,42,1
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,2,2,19,0,19,0
@@ -128,7 +128,7 @@
 5000,5000-04,Distillation & Methanol Product,Methanol Product,PI,30,24,3,127,73,54,32
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MER,4,0,3,19,0,19,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,EL,2,2,0,12,2,10,0
-5000,5000-04,Distillation & Methanol Product,Methanol Product,IN,213,117,24,297,97,200,45
+5000,5000-04,Distillation & Methanol Product,Methanol Product,IN,213,117,24,320,97,223,45
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MES,2,0,1,0,0,0,1
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MER,2,0,2,12,0,12,0
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,63,30,13,27,16,11,20
@@ -147,7 +147,7 @@ BLD,BLD-05,Building,Diesel Room,CV,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,PI,3,0,1,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,CV,14,14,0,31,3,28,0
 BLD,BLD-07,Building,Analyzer House,CV,8,8,0,19,1,18,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,615,5,3174,1095,2079,805
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,615,5,3214,1095,2119,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2191,2190,1,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,417,417,0,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,18,13,5,0
@@ -186,7 +186,7 @@ LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,0,81,362,217,145,0
 LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,179,184,607,309,298,0
 LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,64,0,182,163,19,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,EL,20,0,0,0,0,0,7
-NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,144,1,19,24,16,8,21
+NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,144,1,19,28,16,12,21
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,PI,4,1,0,0,0,0,0
 TEL,TEL-01,Telecom Systems,Telecom System for Area-01,EL,24,0,2,4,0,4,0
 TEL,TEL-02,Telecom Systems,Telecom System for Area-02,EL,61,0,0,4,0,4,0
