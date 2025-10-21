@@ -37,7 +37,7 @@
 2000,2000-02,Reforming,Primary Reforming,PI,9,7,2,25,16,9,1
 2000,2000-02,Reforming,Primary Reforming,IN,873,102,128,721,281,440,77
 2000,2000-02,Reforming,Primary Reforming,MES,8,0,6,0,0,0,0
-2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,24,12,6,45,23,22,79
+2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,24,13,5,45,23,22,79
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,363,69,38,291,79,212,50
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,MES,6,2,1,0,0,0,2
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MES,11,2,9,40,0,40,0
@@ -56,7 +56,7 @@
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,35,1,69,28,41,12
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,2,8,0,8,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,18,50,125,35,90,44
-3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,25,11,58,16,42,45
+3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,27,9,58,16,42,45
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,3,2,19,0,19,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,7,4,1,30,0,30,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,32,0,109,49,60,8
@@ -89,11 +89,11 @@
 4000,4000-07,Utility,Plant Air,PI,10,10,0,19,4,15,30
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,4,20,0,20,0
-4000,4000-08,Utility,Cooling Water,PI,298,270,5,612,462,150,37
+4000,4000-08,Utility,Cooling Water,PI,298,272,9,612,462,150,37
 4000,4000-08,Utility,Cooling Water,IN,745,642,65,313,197,116,533
 4000,4000-08,Utility,Cooling Water,EL,6,6,0,56,14,42,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,27,0,0,0,0,26
-4000,4000-09,Utility,Oily Water Treatment,PI,225,224,0,145,104,41,4
+4000,4000-09,Utility,Oily Water Treatment,PI,225,224,1,145,104,41,4
 4000,4000-09,Utility,Oily Water Treatment,MER,4,4,0,3,3,0,0
 4000,4000-10,Utility,Sanitary Water Collection,IN,12,4,0,0,0,0,4
 4000,4000-10,Utility,Sanitary Water Collection,PI,14,9,2,5,1,4,2
@@ -113,9 +113,9 @@
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,2,6,48,0,48,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,7,5,78,11,67,5
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,314,50,816,353,463,147
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,71,0,229,135,94,10
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,70,0,229,135,94,10
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,7,5,1,84,42,42,1
-5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,2,2,19,0,19,0
+5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,2,2,25,0,25,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,EL,2,2,0,12,2,10,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,PI,46,46,0,137,67,70,9
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,465,418,22,557,349,208,287
@@ -183,7 +183,7 @@ LS,LS-08,Lighting System,Lighting System for Area-03,EL,440,0,55,192,108,84,0
 LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,0,113,309,171,138,0
 LS,LS-10,Lighting System,Lighting System for Area-05,EL,706,0,67,268,0,268,0
 LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,0,81,362,217,145,0
-LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,179,184,607,309,298,0
+LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,179,188,607,309,298,0
 LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,64,0,182,163,19,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,EL,20,0,0,0,0,0,7
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,144,1,19,28,16,12,21
