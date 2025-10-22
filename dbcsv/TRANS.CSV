@@ -67,6 +67,7 @@
 120-16,MV Transformer,FORM B,CONTRACTOR,شرکت نیرو آرا اندیش,6/27/2025 12:00:00 AM,دریافت جهت رفع پانچ
 120-16,MV Transformer,FORM C,CONTRACTOR,واحد H.O.S کیسون,9/21/2025 12:00:00 AM,آماده سازی و ارسال فرم C
 120-16,MV Transformer,FORM C,PRECOM,واحد پیش راه اندازی سبلان,9/22/2025 12:00:00 AM,بررسی جهت تائید نهایی
+120-16,MV Transformer,FORM C,CONTRACTOR,شرکت نیرو آرا اندیش,10/21/2025 12:00:00 AM,دریافت جهت رفع پانچ
 120-17,LV Transformer,FORM A,CONTRACTOR,واحد اجرایی کیسون ,6/8/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 120-17,LV Transformer,FORM A,CONTRACTOR,واحد H.O.S کیسون,6/9/2025 12:00:00 AM,آماده سازی و ارسال
 120-17,LV Transformer,FORM A,PRECOM,واحد پیش راه اندازی سبلان,6/10/2025 12:00:00 AM,بررسی جهت تائید 
@@ -179,10 +180,11 @@ ES-01,Earthing & Roof Lightning System for Substation,FORM B,CONTRACTOR,واحد
 ES-01,Earthing & Roof Lightning System for Substation,FORM B,CONTRACTOR,شرکت نیرو آرا اندیش,8/20/2025 12:00:00 AM,دریافت جهت رفع پانچ
 ES-01,Earthing & Roof Lightning System for Substation,FORM C,CONTRACTOR,واحد H.O.S کیسون,9/23/2025 12:00:00 AM,آماده سازی و ارسال فرم C
 ES-01,Earthing & Roof Lightning System for Substation,FORM C,PRECOM,واحد پیش راه اندازی سبلان,9/24/2025 12:00:00 AM,بررسی جهت تائید نهایی
-ES-02,Earthing & Roof Lightning System for Control Building,FORM A,CONTRACTOR,واحد اجرایی کیسون ,9/26/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
+ES-01,Earthing & Roof Lightning System for Substation,FORM C,CONTRACTOR,شرکت نیرو آرا اندیش,10/21/2025 12:00:00 AM,دریافت جهت رفع پانچ
 ES-02,Earthing & Roof Lightning System for Control Building,FORM A,CONTRACTOR,واحد H.O.S کیسون,9/29/2025 12:00:00 AM,آماده سازی و ارسال
 ES-02,Earthing & Roof Lightning System for Control Building,FORM A,PRECOM,واحد پیش راه اندازی سبلان,9/30/2025 12:00:00 AM,بررسی جهت تائید 
 ES-02,Earthing & Roof Lightning System for Control Building,FORM A,TPA,TPA (IEI),9/1/2025 12:00:00 AM,پانچ گذاری
+ES-02,Earthing & Roof Lightning System for Control Building,FORM A,CONTRACTOR,واحد اجرایی کیسون ,9/26/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 ES-03,Earthing & Roof Lightning System for Laboratory & Yard Office,FORM A,CONTRACTOR,واحد اجرایی کیسون ,8/24/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 ES-03,Earthing & Roof Lightning System for Laboratory & Yard Office,FORM A,CONTRACTOR,واحد H.O.S کیسون,8/25/2025 12:00:00 AM,آماده سازی و ارسال
 ES-03,Earthing & Roof Lightning System for Laboratory & Yard Office,FORM A,PRECOM,واحد پیش راه اندازی سبلان,8/26/2025 12:00:00 AM,بررسی جهت تائید 
@@ -261,6 +263,10 @@ TEL-07,Telecom System for Area-07,FORM A,CONTRACTOR,واحد اجرایی کیس
 TEL-07,Telecom System for Area-07,FORM A,CONTRACTOR,واحد H.O.S کیسون,10/7/2025 12:00:00 AM,آماده سازی و ارسال
 TEL-07,Telecom System for Area-07,FORM A,PRECOM,واحد پیش راه اندازی سبلان,10/8/2025 12:00:00 AM,بررسی جهت تائید 
 TEL-07,Telecom System for Area-07,FORM A,TPA,TPA (IEI),10/9/2025 12:00:00 AM,پانچ گذاری
+TEL-07,Telecom System for Area-07,FORM A,OWNER,واحد ساختمان نصب,10/13/2025 12:00:00 AM,پانچ گذاری
+TEL-07,Telecom System for Area-07,FORM A,PRECOM,واحد پیش راه اندازی سبلان,10/20/2025 12:00:00 AM,پانچ گذاری
+TEL-07,Telecom System for Area-07,FORM B,CONTRACTOR,واحد H.O.S کیسون,10/21/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
+TEL-07,Telecom System for Area-07,FORM B,CONTRACTOR,شرکت نیرو آرا اندیش,10/22/2025 12:00:00 AM,دریافت جهت رفع پانچ
 TEL-08,Telecom System for Substation,FORM A,CONTRACTOR,واحد اجرایی کیسون ,8/6/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 TEL-08,Telecom System for Substation,FORM A,CONTRACTOR,واحد H.O.S کیسون,8/7/2025 12:00:00 AM,آماده سازی و ارسال
 TEL-08,Telecom System for Substation,FORM A,PRECOM,واحد پیش راه اندازی سبلان,8/8/2025 12:00:00 AM,بررسی جهت تائید 
