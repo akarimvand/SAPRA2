@@ -9,7 +9,7 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,0,9,55,0,55,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,3,0,15,4,11,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,178,61,330,76,254,107
-1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,52,4,168,103,65,57
+1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,52,4,168,104,64,57
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,185,0,2181,1714,467,2
 120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,367,0,3508,2763,745,31
 120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,337,0,3090,2437,653,44
@@ -53,7 +53,7 @@
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,0,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,2,3,9,0,9,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,52,237,474,318,156,21
-3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,35,1,69,28,41,12
+3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,35,1,69,29,40,12
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,2,8,0,8,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,18,50,125,35,90,44
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,29,7,58,16,42,45
@@ -89,7 +89,7 @@
 4000,4000-07,Utility,Plant Air,PI,10,10,0,19,4,15,30
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,4,20,0,20,0
-4000,4000-08,Utility,Cooling Water,PI,298,272,9,612,462,150,37
+4000,4000-08,Utility,Cooling Water,PI,298,272,9,612,473,139,37
 4000,4000-08,Utility,Cooling Water,IN,745,642,65,313,197,116,533
 4000,4000-08,Utility,Cooling Water,EL,6,6,0,56,14,42,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,27,0,0,0,0,26
@@ -102,13 +102,13 @@
 4000,4000-11,Utility,Instrument Air,IN,78,78,0,70,23,47,18
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,MER,4,0,2,8,0,8,0
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,IN,25,21,2,7,2,5,20
-4000,4000-12,Utility,COC Water and Lab Chemical Sump,PI,24,12,8,22,8,14,14
+4000,4000-12,Utility,COC Water and Lab Chemical Sump,PI,24,12,8,22,18,4,14
 4000,4000-13,Utility,Slope Close Drain,MER,1,0,0,7,0,7,0
 4000,4000-13,Utility,Slope Close Drain,EL,1,1,0,6,4,2,0
 4000,4000-13,Utility,Slope Close Drain,PI,29,29,0,50,21,29,3
 4000,4000-14,Utility,Fire Water,IN,33,33,0,0,0,0,0
 4000,4000-14,Utility,Fire Water,MES,1,0,1,0,0,0,0
-4000,4000-14,Utility,Fire Water,PI,127,125,0,389,168,221,2536
+4000,4000-14,Utility,Fire Water,PI,127,125,0,389,170,219,2536
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,141,40,101,29
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,1,7,48,0,48,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,7,5,78,11,67,5
