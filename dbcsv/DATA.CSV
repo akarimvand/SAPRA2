@@ -49,18 +49,18 @@
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,131,75,56,15
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,1,1,19,0,19,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,19,7,12,0
-2000,2000-06,Reforming,Nitrogen Circuit,IN,114,10,30,212,98,114,13
+2000,2000-06,Reforming,Nitrogen Circuit,IN,114,11,29,212,98,114,13
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,0,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,2,3,9,0,9,0
-3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,52,237,474,318,156,21
+3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,54,235,474,318,156,21
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,35,1,69,33,36,12
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,2,8,0,8,0
-3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,18,50,125,35,90,44
+3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,24,44,125,35,90,44
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,31,5,58,16,42,45
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,3,2,19,0,19,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,7,4,1,30,0,30,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,32,0,109,51,58,8
-3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,64,18,214,84,130,99
+3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,68,14,214,84,130,99
 3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,2,0,20,0,20,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,12,7,5,2
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,176,12,75,317,206,111,5
@@ -84,7 +84,7 @@
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,3,2,8,0,8,5
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,48,0,176,88,88,167
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,6,30,0,30,0
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,31,62,121,31,90,107
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,34,60,121,31,90,107
 4000,4000-07,Utility,Plant Air,IN,2,2,0,2,0,2,2
 4000,4000-07,Utility,Plant Air,PI,10,10,0,19,4,15,30
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
@@ -147,7 +147,7 @@ BLD,BLD-05,Building,Diesel Room,CV,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,PI,3,0,1,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,CV,14,14,0,31,3,28,0
 BLD,BLD-07,Building,Analyzer House,CV,8,8,0,19,1,18,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,625,5,3248,1136,2112,805
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,662,5,3248,1136,2112,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2191,2190,1,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,417,417,0,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,18,13,5,0
@@ -183,7 +183,7 @@ LS,LS-08,Lighting System,Lighting System for Area-03,EL,440,0,55,192,135,57,0
 LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,0,113,309,171,138,0
 LS,LS-10,Lighting System,Lighting System for Area-05,EL,706,0,67,268,0,268,0
 LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,0,81,362,217,145,0
-LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,226,155,709,309,400,0
+LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,226,163,709,309,400,0
 LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,64,0,182,179,3,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,EL,20,0,0,0,0,0,7
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,144,1,19,28,16,12,21
@@ -192,7 +192,7 @@ TEL,TEL-01,Telecom Systems,Telecom System for Area-01,EL,24,0,2,4,0,4,0
 TEL,TEL-02,Telecom Systems,Telecom System for Area-02,EL,61,0,0,4,0,4,0
 TEL,TEL-03,Telecom Systems,Telecom System for Area-03,EL,39,0,0,0,0,0,0
 TEL,TEL-04,Telecom Systems,Telecom System for Area-04,EL,37,0,3,18,3,15,0
-TEL,TEL-05,Telecom Systems,Telecom System for Area-05,EL,71,7,0,0,0,0,0
+TEL,TEL-05,Telecom Systems,Telecom System for Area-05,EL,71,7,0,21,0,21,0
 TEL,TEL-06,Telecom Systems,Telecom System for Area-06,EL,46,0,14,52,4,48,0
 TEL,TEL-07,Telecom Systems,Telecom System for Area-07,EL,43,43,0,129,75,54,0
 TEL,TEL-08,Telecom Systems,Telecom System for Substation,EL,30,30,0,42,24,18,0
