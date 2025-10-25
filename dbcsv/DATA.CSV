@@ -52,7 +52,7 @@
 2000,2000-06,Reforming,Nitrogen Circuit,IN,114,11,29,212,99,113,13
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,0,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,3,2,16,0,16,0
-3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,57,235,476,318,158,21
+3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,63,229,476,318,158,21
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,35,1,71,34,37,12
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,2,8,0,8,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,33,35,125,38,87,44
@@ -131,7 +131,7 @@
 5000,5000-04,Distillation & Methanol Product,Methanol Product,IN,213,119,24,320,106,214,45
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MES,2,0,1,0,0,0,1
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MER,2,0,2,12,0,12,0
-5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,63,37,13,43,16,27,20
+5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,63,39,11,43,16,27,20
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,10,9,1,29,19,10,2
 7000,7000-01,Flare,Flare System (In Site),IN,145,138,0,247,47,200,17
 7000,7000-01,Flare,Flare System (In Site),MER,2,2,0,14,0,14,0
@@ -147,7 +147,7 @@ BLD,BLD-05,Building,Diesel Room,CV,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,PI,3,0,1,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,CV,14,14,0,31,3,28,0
 BLD,BLD-07,Building,Analyzer House,CV,8,8,0,19,1,18,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,683,5,3389,1169,2220,805
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,696,5,3389,1169,2220,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2191,2190,1,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,417,417,0,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,18,13,5,0
