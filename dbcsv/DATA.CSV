@@ -52,10 +52,10 @@
 2000,2000-06,Reforming,Nitrogen Circuit,IN,114,11,29,212,99,113,13
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,0,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,3,2,23,0,23,0
-3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,63,229,544,318,226,21
+3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,63,230,550,318,232,21
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,36,0,74,34,40,12
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,2,8,0,8,0
-3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,33,35,137,38,99,44
+3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,36,32,137,38,99,44
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,31,6,75,16,59,45
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,3,2,19,0,19,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,7,4,1,30,0,30,0
@@ -84,13 +84,13 @@
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,3,2,16,0,16,5
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,48,0,176,93,83,167
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,6,30,0,30,0
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,37,57,121,32,89,107
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,37,59,121,32,89,107
 4000,4000-07,Utility,Plant Air,IN,2,2,0,2,0,2,2
 4000,4000-07,Utility,Plant Air,PI,10,10,0,31,4,27,30
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,4,20,0,20,0
 4000,4000-08,Utility,Cooling Water,PI,298,272,9,621,495,126,37
-4000,4000-08,Utility,Cooling Water,IN,745,642,65,313,197,116,533
+4000,4000-08,Utility,Cooling Water,IN,745,649,58,313,197,116,533
 4000,4000-08,Utility,Cooling Water,EL,6,6,0,56,14,42,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,28,0,0,0,0,26
 4000,4000-09,Utility,Oily Water Treatment,PI,225,224,1,145,104,41,4
@@ -136,7 +136,7 @@
 7000,7000-01,Flare,Flare System (In Site),IN,145,138,0,247,47,200,17
 7000,7000-01,Flare,Flare System (In Site),MER,2,2,0,14,0,14,0
 7000,7000-01,Flare,Flare System (In Site),MES,2,2,0,8,0,8,0
-7000,7000-01,Flare,Flare System (In Site),PI,49,49,0,120,60,60,77
+7000,7000-01,Flare,Flare System (In Site),PI,49,49,0,119,62,57,77
 BLD,BLD-01,Building,Substation,PI,4,4,0,6,3,3,9
 BLD,BLD-01,Building,Substation,CV,14,14,0,63,6,57,0
 BLD,BLD-02,Building,Control Building,CV,8,8,0,48,0,48,0
@@ -147,7 +147,7 @@ BLD,BLD-05,Building,Diesel Room,CV,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,PI,3,0,1,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,CV,14,14,0,31,3,28,0
 BLD,BLD-07,Building,Analyzer House,CV,8,8,0,19,1,18,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,696,5,3485,1169,2316,805
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,715,6,3529,1169,2360,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2191,2190,1,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,417,417,0,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,18,13,5,0
@@ -186,7 +186,7 @@ LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,0,81,362,217,145,0
 LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,353,41,891,346,545,0
 LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,64,0,180,179,1,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,EL,20,0,0,0,0,0,7
-NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,144,1,19,28,16,12,21
+NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,144,1,20,30,16,14,21
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,PI,4,1,0,0,0,0,0
 TEL,TEL-01,Telecom Systems,Telecom System for Area-01,EL,24,0,2,4,0,4,0
 TEL,TEL-02,Telecom Systems,Telecom System for Area-02,EL,61,0,0,4,0,4,0
