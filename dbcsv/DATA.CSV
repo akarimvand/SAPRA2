@@ -48,12 +48,12 @@
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,51,20,198,98,100,86
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,131,76,55,15
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,1,1,19,0,19,0
-2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,19,7,12,0
+2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,21,7,14,0
 2000,2000-06,Reforming,Nitrogen Circuit,IN,114,11,29,212,99,113,13
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,0,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,3,2,16,0,16,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,63,229,476,318,158,21
-3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,35,1,71,34,37,12
+3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,36,0,71,34,37,12
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,2,8,0,8,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,33,35,125,38,87,44
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,31,6,75,16,59,45
@@ -82,14 +82,14 @@
 4000,4000-05,Utility,Blow Down,MES,4,3,1,23,0,23,0
 4000,4000-05,Utility,Blow Down,IN,17,17,0,15,3,12,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,3,2,16,0,16,5
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,48,0,176,88,88,167
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,48,0,176,93,83,167
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,6,30,0,30,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,37,57,121,32,89,107
 4000,4000-07,Utility,Plant Air,IN,2,2,0,2,0,2,2
-4000,4000-07,Utility,Plant Air,PI,10,10,0,19,4,15,30
+4000,4000-07,Utility,Plant Air,PI,10,10,0,31,4,27,30
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,4,20,0,20,0
-4000,4000-08,Utility,Cooling Water,PI,298,272,9,621,492,129,37
+4000,4000-08,Utility,Cooling Water,PI,298,272,9,621,495,126,37
 4000,4000-08,Utility,Cooling Water,IN,745,642,65,313,197,116,533
 4000,4000-08,Utility,Cooling Water,EL,6,6,0,56,14,42,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,28,0,0,0,0,26
@@ -98,7 +98,7 @@
 4000,4000-10,Utility,Sanitary Water Collection,IN,12,4,0,0,0,0,4
 4000,4000-10,Utility,Sanitary Water Collection,PI,14,9,2,5,1,4,2
 4000,4000-10,Utility,Sanitary Water Collection,MER,1,0,1,6,0,6,0
-4000,4000-11,Utility,Instrument Air,PI,13,11,1,17,8,9,0
+4000,4000-11,Utility,Instrument Air,PI,13,11,2,17,8,9,0
 4000,4000-11,Utility,Instrument Air,IN,78,78,0,70,23,47,18
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,MER,4,0,2,8,0,8,0
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,IN,25,21,2,7,2,5,20
