@@ -56,7 +56,7 @@
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,36,0,74,34,40,12
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,2,8,0,8,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,36,32,137,38,99,44
-3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,31,6,75,16,59,45
+3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,31,7,75,16,59,45
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,3,2,19,0,19,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,7,4,1,30,0,30,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,32,0,109,51,58,8
@@ -82,7 +82,7 @@
 4000,4000-05,Utility,Blow Down,MES,4,3,1,23,0,23,0
 4000,4000-05,Utility,Blow Down,IN,17,17,0,15,3,12,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,3,2,16,0,16,5
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,48,0,176,93,83,167
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,48,1,176,93,83,167
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,6,30,0,30,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,37,59,121,44,77,107
 4000,4000-07,Utility,Plant Air,IN,2,2,0,2,0,2,2
@@ -112,7 +112,7 @@
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,141,40,101,29
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,1,7,48,0,48,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,7,5,78,11,67,5
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,315,49,828,418,410,147
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,315,49,830,418,412,147
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,70,0,231,143,88,10
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,7,5,1,84,42,42,1
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,1,3,25,0,25,0
@@ -147,7 +147,7 @@ BLD,BLD-05,Building,Diesel Room,CV,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,PI,3,0,1,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,CV,14,14,0,31,3,28,0
 BLD,BLD-07,Building,Analyzer House,CV,8,8,0,19,1,18,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,716,6,3529,1187,2342,805
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,716,6,3534,1187,2347,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2191,2190,1,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,417,417,0,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,18,13,5,0
@@ -183,7 +183,7 @@ LS,LS-08,Lighting System,Lighting System for Area-03,EL,440,0,55,192,135,57,0
 LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,0,113,309,171,138,0
 LS,LS-10,Lighting System,Lighting System for Area-05,EL,706,0,67,268,0,268,0
 LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,0,81,362,217,145,0
-LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,372,41,891,346,545,0
+LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,372,41,910,346,564,0
 LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,64,0,180,179,1,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,EL,20,0,0,0,0,0,7
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,144,1,20,30,16,14,21
