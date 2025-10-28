@@ -1,5 +1,5 @@
 ﻿SD_System,SD_Sub_System,SD_System_Name,SD_Subsystem_Name,discipline,TOTAL ITEM,TOTAL DONE,TOTAL PENDING,TOTAL PUNCH,TOTAL CLEAR PUNCH,TOTAL NOT CLEAR PUNCH,TOTAL HOLD POINT
-1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,93,24,277,76,201,34
+1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,95,22,278,76,202,34
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,24,22,1,70,27,43,28
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,0,5,38,0,38,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,0,1,6,0,6,0
@@ -47,10 +47,10 @@
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,0,7,72,20,52,0
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,51,20,206,111,95,86
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,131,76,55,15
-2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,2,19,0,19,0
+2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,4,19,0,19,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,21,7,14,0
 2000,2000-06,Reforming,Nitrogen Circuit,IN,114,11,29,212,105,107,13
-2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,0,0,0,0,0
+2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,1,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,0,5,23,0,23,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,63,230,550,360,190,21
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,36,0,74,34,40,12
@@ -64,11 +64,11 @@
 3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,0,2,20,0,20,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,12,7,5,2
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,176,12,75,317,207,110,5
-3000,3000-04,Compression and Synthesis,Hydrogen System,MER,1,0,0,0,0,0,0
+3000,3000-04,Compression and Synthesis,Hydrogen System,MER,1,0,1,0,0,0,0
 4000,4000-01,Utility,Nitrogen,PI,20,20,0,50,28,22,64
 4000,4000-01,Utility,Nitrogen,IN,14,14,0,10,0,10,6
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,0,2,10,0,10,0
-4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,171,22,347,145,202,35
+4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,172,21,348,145,203,35
 4000,4000-02,Utility,HHP & HP & LP Steam,PI,62,61,0,223,116,107,74
 4000,4000-03,Utility,MP Steam,MES,1,0,1,5,0,5,0
 4000,4000-03,Utility,MP Steam,IN,56,29,15,139,75,64,3
@@ -83,7 +83,7 @@
 4000,4000-05,Utility,Blow Down,IN,17,17,0,15,6,9,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,2,8,16,0,16,5
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,48,1,176,93,83,167
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,6,30,0,30,0
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,11,30,0,30,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,37,59,121,50,71,107
 4000,4000-07,Utility,Plant Air,IN,2,2,0,2,0,2,2
 4000,4000-07,Utility,Plant Air,PI,10,10,0,31,4,27,30
@@ -147,7 +147,7 @@ BLD,BLD-05,Building,Diesel Room,CV,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,PI,3,0,1,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,CV,14,14,0,31,3,28,0
 BLD,BLD-07,Building,Analyzer House,CV,8,8,0,19,1,18,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,716,6,3534,1187,2347,805
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,716,6,3594,1187,2407,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2191,2190,1,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,417,417,0,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,18,13,5,0
