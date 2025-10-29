@@ -54,7 +54,7 @@
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,0,5,23,0,23,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,63,230,550,360,190,21
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,36,0,74,34,40,12
-3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,2,8,0,8,0
+3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,3,8,0,8,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,36,32,137,38,99,44
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,31,7,75,16,59,45
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,0,11,19,0,19,0
@@ -74,7 +74,7 @@
 4000,4000-03,Utility,MP Steam,IN,56,29,15,139,75,64,3
 4000,4000-03,Utility,MP Steam,PI,5,5,0,38,23,15,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,3,2,6,0,6,3
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,0,0,0,0,0
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,6,0,0,0,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,1,5,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,47,45,2,173,107,66,19
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,46,57,436,302,134,384
@@ -88,7 +88,7 @@
 4000,4000-07,Utility,Plant Air,IN,2,2,0,2,0,2,2
 4000,4000-07,Utility,Plant Air,PI,10,10,0,31,4,27,30
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
-4000,4000-08,Utility,Cooling Water,MER,8,0,4,20,0,20,0
+4000,4000-08,Utility,Cooling Water,MER,8,0,6,20,0,20,0
 4000,4000-08,Utility,Cooling Water,PI,298,272,9,621,495,126,37
 4000,4000-08,Utility,Cooling Water,IN,745,649,58,313,207,106,533
 4000,4000-08,Utility,Cooling Water,EL,6,6,0,56,14,42,0
@@ -126,7 +126,7 @@
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,0,6,35,0,35,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MES,6,0,6,34,4,30,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,PI,30,24,3,127,73,54,32
-5000,5000-04,Distillation & Methanol Product,Methanol Product,MER,4,0,4,19,0,19,0
+5000,5000-04,Distillation & Methanol Product,Methanol Product,MER,4,0,4,26,0,26,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,EL,2,2,0,12,2,10,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,IN,213,119,24,334,111,223,45
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MES,2,0,2,0,0,0,1
