@@ -6240,33 +6240,33 @@ TEL-09,EL,CR-TJB3,Telecom Device,Telephone Junction Box,0%
 120-15,EL,CR-UBT-01_2,UPS & Battery,110V AC UPS Battery Set,DONE
 120-09,EL,CR-UIS-01,UPS & Battery,110V AC UPS Battery Isolator Box,Done
 120-09,EL,CR-UPS-01,UPS & Battery,110V AC UPS Panel,Done
-1000-01,MES,D-1001,Drum(D),Natural gas K.O. drum,83%
-2000-04,MES,D-2001,Drum(D),HHP Steam Drum,44%
-2000-05,MES,D-2002,Drum(D),1 st Separator,78%
-2000-05,MES,D-2003,Drum(D),2nd Separator,78%
-2000-05,MES,D-2004,Drum(D),3rd Separator,83%
-2000-05,MES,D-2005,Drum(D),Final Separator,83%
-4000-04,MES,D-2011,Drum(D),Steam Cond. K.O. Drum for E 2008,83%
-3000-04,MES,D-2022-1,Drum(D),DRUM,83%
-3000-04,MES,D-2022-2,Drum(D),DRUM,83%
-3000-03,MES,D-3001,Drum(D),HP Separator,83%
-3000-03,MES,D-3002,Drum(D),LP Separator,78%
-3000-02,MES,D-3003,Drum(D),MP Steam Drum,61%
-5000-01,MES,D-3004,Drum(D),Slops Methanol Drum,83%
-3000-01,MES,D-3010,Drum(D),Seprator Vessle,56%
-5000-01,MES,D-5001,Drum(D),Stabilizer Column OH Accumulator,83%
-5000-02,MES,D-5002,Drum(D),LP Column OH Accumulator,83%
-5000-03,MES,D-5003,Drum(D),MP Column OH Accumulator,83%
-5000-01,MES,D-5009,Drum(D),Steam Condensate KO Drum for E5001,83%
-1000-03,MES,D-6001,Drum(D),Feed Gas Separator,78%
-1000-03,MES,D-6002,Drum(D),Saturator Blow Down Drum,72%
-4000-04,MES,D-7001,Drum(D),Thermal Deaerator,61%
+1000-01,MES,D-1001,Drum(D),Natural gas K.O. drum,88%
+2000-04,MES,D-2001,Drum(D),HHP Steam Drum,47%
+2000-05,MES,D-2002,Drum(D),1 st Separator,82%
+2000-05,MES,D-2003,Drum(D),2nd Separator,82%
+2000-05,MES,D-2004,Drum(D),3rd Separator,88%
+2000-05,MES,D-2005,Drum(D),Final Separator,88%
+4000-04,MES,D-2011,Drum(D),Steam Cond. K.O. Drum for E 2008,88%
+3000-04,MES,D-2022-1,Drum(D),DRUM,88%
+3000-04,MES,D-2022-2,Drum(D),DRUM,88%
+3000-03,MES,D-3001,Drum(D),HP Separator,88%
+3000-03,MES,D-3002,Drum(D),LP Separator,82%
+3000-02,MES,D-3003,Drum(D),MP Steam Drum,65%
+5000-01,MES,D-3004,Drum(D),Slops Methanol Drum,88%
+3000-01,MES,D-3010,Drum(D),Seprator Vessle,59%
+5000-01,MES,D-5001,Drum(D),Stabilizer Column OH Accumulator,88%
+5000-02,MES,D-5002,Drum(D),LP Column OH Accumulator,88%
+5000-03,MES,D-5003,Drum(D),MP Column OH Accumulator,94%
+5000-01,MES,D-5009,Drum(D),Steam Condensate KO Drum for E5001,88%
+1000-03,MES,D-6001,Drum(D),Feed Gas Separator,82%
+1000-03,MES,D-6002,Drum(D),Saturator Blow Down Drum,76%
+4000-04,MES,D-7001,Drum(D),Thermal Deaerator,65%
 4000-05,MES,D-7002,Drum(D),Continuous Blow-down Drum,Done
 4000-05,MES,D-7003,Drum(D),Intermediate Blow Down Drum No.1,DONE
-4000-05,MES,D-7004,Drum(D),Intermediate Blow Down Drum No.2,20%
+4000-05,MES,D-7004,Drum(D),Intermediate Blow Down Drum No.2,59%
 7000-01,MES,D-7101,Drum(D),Knock Out Drum,Done
-4000-06,MES,D-7501,Drum(D),CAUSTIC STORAGE DRUM,56%
-4000-06,MES,D-7502,Drum(D),SULFURIC ACID DRUM,61%
+4000-06,MES,D-7501,Drum(D),CAUSTIC STORAGE DRUM,59%
+4000-06,MES,D-7502,Drum(D),SULFURIC ACID DRUM,65%
 1000-02,PI,DE-RF-FG-001,PI_TP,PIPING TEST PACKAGE,DONE
 1000-02,PI,DE-RF-FG-002,PI_TP,PIPING TEST PACKAGE,DONE
 1000-02,PI,DE-RF-FG-003,PI_TP,PIPING TEST PACKAGE,DONE
@@ -6938,24 +6938,24 @@ ES-09,EL,E20-03,Earthing System,CRIMPED EARTH CONNECTION 16 TO 70mm2,0%
 2000-02,MES,E-2004,Exchanger(E),2 nd Natural Gas Feed Preheat Coil,0%
 2000-02,MES,E-2006,Exchanger(E),1st Natural Gas Feed Preheat Coil,0%
 2000-02,MES,E-2007,Exchanger(E),Combustion Air Preheater,0%
-2000-03,MES,E-2008,Exchanger(E),Oxygen Preheater,69%
-1000-01,MES,E-2009,Exchanger(E),Fuel Gas Preheater,81%
+2000-03,MES,E-2008,Exchanger(E),Oxygen Preheater,73%
+1000-01,MES,E-2009,Exchanger(E),Fuel Gas Preheater,87%
 ES-01,EL,E2-01,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
 2000-02,MES,E-2015,Exchanger(E),Steam Air Preheater,0%
 ES-01,EL,E2-02,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
-2000-04,MES,E-2020-1,Exchanger(E),Waste Heat Boiler,56%
-2000-04,MES,E-2020-2,Exchanger(E),Waste Heat Boiler,56%
-2000-04,MES,E-2021-1,Exchanger(E),Steam Superheater,56%
-2000-04,MES,E-2021-2,Exchanger(E),Steam Superheater,56%
-2000-04,MES,E-2021-3,Exchanger(E),Steam Superheater,19%
-2000-04,MES,E-2022-1,Exchanger(E),BFW Preheater,81%
-2000-04,MES,E-2022-2,Exchanger(E),BFW Preheater,81%
-2000-04,MES,E-2022-3,Exchanger(E),BFW Preheater,81%
-5000-03,MES,E-2023,Exchanger(E),MP Column Reboiler No.2,81%
-5000-01,MES,E-2024-1,Exchanger(E),Stabilizer Column Reboiler,81%
-5000-01,MES,E-2024-2,Exchanger(E),Stabilizer Column Reboiler,81%
-2000-05,MES,E-2025,Exchanger(E),DMW Preheater,75%
-2000-05,MES,E-2027,Exchanger(E),Water Cooler,81%
+2000-04,MES,E-2020-1,Exchanger(E),Waste Heat Boiler,60%
+2000-04,MES,E-2020-2,Exchanger(E),Waste Heat Boiler,60%
+2000-04,MES,E-2021-1,Exchanger(E),Steam Superheater,60%
+2000-04,MES,E-2021-2,Exchanger(E),Steam Superheater,60%
+2000-04,MES,E-2021-3,Exchanger(E),Steam Superheater,20%
+2000-04,MES,E-2022-1,Exchanger(E),BFW Preheater,87%
+2000-04,MES,E-2022-2,Exchanger(E),BFW Preheater,87%
+2000-04,MES,E-2022-3,Exchanger(E),BFW Preheater,87%
+5000-03,MES,E-2023,Exchanger(E),MP Column Reboiler No.2,87%
+5000-01,MES,E-2024-1,Exchanger(E),Stabilizer Column Reboiler,87%
+5000-01,MES,E-2024-2,Exchanger(E),Stabilizer Column Reboiler,87%
+2000-05,MES,E-2025,Exchanger(E),DMW Preheater,80%
+2000-05,MES,E-2027,Exchanger(E),Water Cooler,87%
 ES-01,EL,E2-03,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
 ES-01,EL,E2-04,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
 ES-01,EL,E2-05,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
@@ -8318,9 +8318,9 @@ ES-08,EL,E30-01(ES-08),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-09,EL,E30-01(ES-09),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-10,EL,E30-01(ES-10),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-11,EL,E30-01(ES-11),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
-3000-02,MES,E-3001-1,Exchanger(E),Feed/Effluent Exchanger,75%
-3000-02,MES,E-3001-2,Exchanger(E),Feed/Effluent Exchanger,75%
-3000-02,MES,E-3001-3,Exchanger(E),Feed/Effluent Exchanger,75%
+3000-02,MES,E-3001-1,Exchanger(E),Feed/Effluent Exchanger,80%
+3000-02,MES,E-3001-2,Exchanger(E),Feed/Effluent Exchanger,80%
+3000-02,MES,E-3001-3,Exchanger(E),Feed/Effluent Exchanger,80%
 ES-01,EL,E30-02(ES-01),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,DONE
 ES-03,EL,E30-02(ES-03),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,DONE
 ES-04,EL,E30-02(ES-04),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,DONE
@@ -8337,9 +8337,9 @@ ES-08,EL,E30-03(ES-08),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-09,EL,E30-03(ES-09),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-10,EL,E30-03(ES-10),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-11,EL,E30-03(ES-11),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
-3000-03,MES,E-3003-1,Exchanger(E),Loop Water Cooler,81%
-3000-03,MES,E-3003-2,Exchanger(E),Loop Water Cooler,81%
-3000-03,MES,E-3003-3,Exchanger(E),Loop Water Cooler,81%
+3000-03,MES,E-3003-1,Exchanger(E),Loop Water Cooler,87%
+3000-03,MES,E-3003-2,Exchanger(E),Loop Water Cooler,87%
+3000-03,MES,E-3003-3,Exchanger(E),Loop Water Cooler,87%
 ES-01,EL,E30-04(ES-01),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,DONE
 ES-04,EL,E30-04(ES-04),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,DONE
 ES-06,EL,E30-04(ES-06),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
@@ -8382,7 +8382,7 @@ ES-08,EL,E30-09(ES-08),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-09,EL,E30-09(ES-09),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-11,EL,E30-09(ES-11),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-01,EL,E3-01,Earthing System,THERMOWELD EARTH CONNECTION 70 TO 300mm2,DONE
-3000-01,MES,E-3010,Exchanger(E),Inter Stage Cooler,69%
+3000-01,MES,E-3010,Exchanger(E),Inter Stage Cooler,73%
 ES-01,EL,E30-10(ES-01),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,DONE
 ES-06,EL,E30-10(ES-06),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-07,EL,E30-10(ES-07),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
@@ -8399,7 +8399,7 @@ ES-11,EL,E30-106,Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-11,EL,E30-107,Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-11,EL,E30-108,Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-11,EL,E30-109,Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
-3000-01,MES,E-3011,Exchanger(E),Turbine Condensate  for FT- 3001,62%
+3000-01,MES,E-3011,Exchanger(E),Turbine Condensate  for FT- 3001,67%
 ES-06,EL,E30-11(ES-06),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-07,EL,E30-11(ES-07),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-08,EL,E30-11(ES-08),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
@@ -8410,13 +8410,13 @@ ES-11,EL,E30-111,Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-11,EL,E30-112,Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-11,EL,E30-113,Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-11,EL,E30-114,Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
-3000-01,MES,E-3012,Exchanger(E),Steam Ejector,75%
+3000-01,MES,E-3012,Exchanger(E),Steam Ejector,80%
 ES-06,EL,E30-12(ES-06),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-07,EL,E30-12(ES-07),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-08,EL,E30-12(ES-08),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-09,EL,E30-12(ES-09),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-11,EL,E30-12(ES-11),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
-3000-01,MES,E-3013,Exchanger(E),Recycler Cooler,56%
+3000-01,MES,E-3013,Exchanger(E),Recycler Cooler,60%
 ES-06,EL,E30-13(ES-06),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-07,EL,E30-13(ES-07),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-08,EL,E30-13(ES-08),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
@@ -9110,18 +9110,18 @@ ES-08,EL,E48-10(ES-08),Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE
 ES-10,EL,E48-10(ES-10),Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO HORIZONTAL L.V. MOTOR,Done
 ES-08,EL,E48-11,Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO HORIZONTAL L.V. MOTOR,0%
 ES-08,EL,E48-12,Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO HORIZONTAL L.V. MOTOR,0%
-5000-01,MES,E-5001,Exchanger(E),Stabilizer Column Steam Reboiler,81%
-5000-02,MES,E-5002-1,Exchanger(E),LP Column Reboiler,81%
-5000-02,MES,E-5002-2,Exchanger(E),LP Column Reboiler,81%
-5000-02,MES,E-5002-3,Exchanger(E),LP Column Reboiler,81%
-5000-02,MES,E-5002-4,Exchanger(E),LP Column Reboiler,81%
-5000-03,MES,E-5003-1,Exchanger(E),MP Column Reboiler No.1,81%
-5000-03,MES,E-5003-2,Exchanger(E),MP Column Reboiler No.2,81%
-5000-01,MES,E-5007,Exchanger(E),Wash Water Cooler,69%
-5000-04,MES,E-5008,Exchanger(E),Methanol Product Cooler,75%
-5000-01,MES,E-5010,Exchanger(E),OH Gas Condenser,69%
-5000-05,MES,E-5011,Exchanger(E),Liquid Off Stream Cooler,56%
-5000-04,MES,E-5012,Exchanger(E),Methanol Product Cooler No.2,62%
+5000-01,MES,E-5001,Exchanger(E),Stabilizer Column Steam Reboiler,87%
+5000-02,MES,E-5002-1,Exchanger(E),LP Column Reboiler,87%
+5000-02,MES,E-5002-2,Exchanger(E),LP Column Reboiler,87%
+5000-02,MES,E-5002-3,Exchanger(E),LP Column Reboiler,87%
+5000-02,MES,E-5002-4,Exchanger(E),LP Column Reboiler,87%
+5000-03,MES,E-5003-1,Exchanger(E),MP Column Reboiler No.1,87%
+5000-03,MES,E-5003-2,Exchanger(E),MP Column Reboiler No.2,87%
+5000-01,MES,E-5007,Exchanger(E),Wash Water Cooler,73%
+5000-04,MES,E-5008,Exchanger(E),Methanol Product Cooler,80%
+5000-01,MES,E-5010,Exchanger(E),OH Gas Condenser,73%
+5000-05,MES,E-5011,Exchanger(E),Liquid Off Stream Cooler,60%
+5000-04,MES,E-5012,Exchanger(E),Methanol Product Cooler No.2,67%
 ES-03,EL,E51-01(ES-03),Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO VERTICAL L.V. MOTOR,DONE
 ES-07,EL,E51-01(ES-07),Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO VERTICAL L.V. MOTOR,Done
 ES-07,EL,E51-02,Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO VERTICAL L.V. MOTOR,Done
@@ -9392,13 +9392,13 @@ ES-05,EL,E58-WH-02,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,DONE
 ES-05,EL,E58-WH-03,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,DONE
 ES-05,EL,E58-WH-04,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,DONE
 ES-05,EL,E58-WH-05,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,DONE
-1000-03,MES,E-6001,Exchanger(E),Saturator Feed /Effluent Exchanger,75%
+1000-03,MES,E-6001,Exchanger(E),Saturator Feed /Effluent Exchanger,80%
 ES-02,EL,E60-01,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE AND 3.6m LENGTH ROD,Done
-1000-03,MES,E-6002,Exchanger(E),Process Condensate Preheater,69%
+1000-03,MES,E-6002,Exchanger(E),Process Condensate Preheater,73%
 ES-02,EL,E60-02,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE AND 3.6m LENGTH ROD,Done
-1000-03,MES,E-6003,Exchanger(E),Saturator Blow-down Cooler,69%
+1000-03,MES,E-6003,Exchanger(E),Saturator Blow-down Cooler,73%
 ES-02,EL,E60-03,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE AND 3.6m LENGTH ROD,Done
-1000-03,MES,E-6004,Exchanger(E),Wash Water Preheater,75%
+1000-03,MES,E-6004,Exchanger(E),Wash Water Preheater,80%
 ES-02,EL,E60-04,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE AND 3.6m LENGTH ROD,Done
 ES-02,EL,E60-05,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE AND 3.6m LENGTH ROD,Done
 ES-02,EL,E60-06,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE AND 3.6m LENGTH ROD,Done
@@ -12606,7 +12606,7 @@ FGS-10,IN,FGD-0057,Fire Alarm,Fire Alarm(FGD),0%
 4000-06,IN,FI-75203B,Instrument(FI),Instrument(FI),50%
 4000-06,IN,FI-75204A,Instrument(FI),Instrument(FI),50%
 4000-06,MES,FI-8001A,Filter(X),Side Strem Sand Filters B,DONE
-4000-06,MES,FI-8001B,Filter(X),Side Strem Sand Filters C,53%
+4000-06,MES,FI-8001B,Filter(X),Side Strem Sand Filters C,56%
 4000-06,MES,FI-8001C,Filter(X),Side Strem Sand Filters A,DONE
 4000-06,IN,FI-8401,Instrument(FI),Instrument(FI),50%
 4000-06,IN,FI-8402,Instrument(FI),Instrument(FI),50%
@@ -13899,10 +13899,10 @@ BLD-04,CV,Initial Architecture(Ground Floor BLD-04),04-Initial Architecture-2,In
 BLD-05,CV,Initial Architecture(Ground Floor BLD-05),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-05),0%
 BLD-06,CV,Initial Architecture(Ground Floor BLD-06),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-06),DONE
 2000-02,MES,INLET MANIFOLD,Inlet_Manifold,MANIFOLD,0%
-3000-03,MES,J-3001,Ejector(J),Ejector,12%
-3000-02,MES,J-3002-1,Ejector(J),Start up Ejector for R 3001 1,12%
-3000-02,MES,J-3002-2,Ejector(J),Start up Ejector for R 3001 2,12%
-3000-02,MES,J-3002-3,Ejector(J),Start up Ejector for R 3001 3,6%
+3000-03,MES,J-3001,Ejector(J),Ejector,13%
+3000-02,MES,J-3002-1,Ejector(J),Start up Ejector for R 3001 1,13%
+3000-02,MES,J-3002-2,Ejector(J),Start up Ejector for R 3001 2,13%
+3000-02,MES,J-3002-3,Ejector(J),Start up Ejector for R 3001 3,7%
 DCS-01,IN,JIAE-1001,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
 DCS-01,IN,JIAE-2001,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
 DCS-01,IN,JIAE-2002,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
@@ -17723,7 +17723,7 @@ NO SUBS.,IN,PIT-30172,PKG,PKG,33%
 120-03,EL,PK8401-MP-2B,Local_Control_Station,Local Control Station- PK8401-MP-2B,DONE
 4000-09,MER,PK-8401-P2A,PAKAGE(PK),OILY WATER TRANSFER PUMP,DONE
 4000-09,MER,PK-8401-P2B,PAKAGE(PK),OILY WATER TRANSFER PUMP,DONE
-4000-14,MES,PK-9001,PAKAGE(PK),Package,31%
+4000-14,MES,PK-9001,PAKAGE(PK),Package,33%
 DCS-01,IN,POS-0001,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,POS-2000-I-61,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,POS-2000-IS-1,SIGNAL,SIGNAL,Exception(Pending)
@@ -18648,14 +18648,14 @@ NO SUBS.,IN,PZSL-84215,Instrument(X),Instrument(PZSL),0%
 4000-02,IN,PZT-7002C(PZT),Instrument(X),Instrument(PZT),Done
 NO SUBS.,IN,PZT-84210,Instrument(X),Instrument(PZT),0%
 NO SUBS.,IN,PZT-84215,Instrument(X),Instrument(PZT),0%
-1000-01,MES,R-1001,Reactor(R),Hydrogenator,58%
-1000-01,MES,R-1002-1,Reactor(R),Sulphur Absorber,58%
-1000-01,MES,R-1002-2,Reactor(R),Sulphur Absorber,58%
-2000-02,MES,R-2003,Reactor(R),Prereformer,53%
-2000-03,MES,R-2004,Reactor(R),Secondary Reformer,42%
-3000-02,MES,R-3001-1,Reactor(R),Methanol Reactor,53%
-3000-02,MES,R-3001-2,Reactor(R),Methanol Reactor,47%
-3000-02,MES,R-3001-3,Reactor(R),Methanol Reactor,53%
+1000-01,MES,R-1001,Reactor(R),Hydrogenator,61%
+1000-01,MES,R-1002-1,Reactor(R),Sulphur Absorber,61%
+1000-01,MES,R-1002-2,Reactor(R),Sulphur Absorber,61%
+2000-02,MES,R-2003,Reactor(R),Prereformer,56%
+2000-03,MES,R-2004,Reactor(R),Secondary Reformer,44%
+3000-02,MES,R-3001-1,Reactor(R),Methanol Reactor,56%
+3000-02,MES,R-3001-2,Reactor(R),Methanol Reactor,50%
+3000-02,MES,R-3001-3,Reactor(R),Methanol Reactor,56%
 DCS-01,IN,RB01-RS01R-F RMBDO19:1-RM02R-F,CABLE,CABLE(NA),0%
 DCS-01,IN,RB01-RS01R-F RMBDO19:2-RM02R-F,CABLE,CABLE(NA),0%
 DCS-01,IN,RB01-RS03R-F RMBDO12:1-RM06R-F,CABLE,CABLE(NA),0%
@@ -19301,10 +19301,10 @@ LS-06,EL,SL19-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL1-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL2,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL20,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
-2000-01,MES,SL-2001,Silencer(SL),HPS Secondary Reforming Silencer,81%
-2000-01,MES,SL-2002,Silencer(SL),HPS Reforming Silencer,81%
-2000-04,MES,SL-2003,Silencer(SL),HHP Steam Silencer,38%
-2000-04,MES,SL-2004,Silencer(SL),HHP Steam Drum Silencer,75%
+2000-01,MES,SL-2001,Silencer(SL),HPS Secondary Reforming Silencer,87%
+2000-01,MES,SL-2002,Silencer(SL),HPS Reforming Silencer,87%
+2000-04,MES,SL-2003,Silencer(SL),HHP Steam Silencer,40%
+2000-04,MES,SL-2004,Silencer(SL),HHP Steam Drum Silencer,80%
 LS-06,EL,SL20-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL21,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
 LS-06,EL,SL21-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
@@ -19327,7 +19327,7 @@ LS-06,EL,SL29-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL2-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,33%
 LS-06,EL,SL3,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL30,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
-3000-02,MES,SL-3001,Silencer(SL),MP Steam Drum Silencer,69%
+3000-02,MES,SL-3001,Silencer(SL),MP Steam Drum Silencer,73%
 3000-02,IN,SL-3001.2.3-ST1,CABLE,CABLE(NA),0%
 3000-02,IN,SL-3001.2.3-ST2,CABLE,CABLE(NA),0%
 3000-02,IN,SL-3001_2_3-ST1,Instrument(SL),Instrument(SL),0%
@@ -19351,9 +19351,9 @@ LS-06,EL,SL5-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL6,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
 LS-06,EL,SL6-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL7,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
-4000-02,MES,SL-7001,Silencer(SL),HP Steam Silencer,81%
-4000-03,MES,SL-7002,Silencer(SL),MP Steam Silencer,81%
-4000-02,MES,SL-7003,Silencer(SL),LP Steam Silencer,81%
+4000-02,MES,SL-7001,Silencer(SL),HP Steam Silencer,87%
+4000-03,MES,SL-7002,Silencer(SL),MP Steam Silencer,87%
+4000-02,MES,SL-7003,Silencer(SL),LP Steam Silencer,87%
 LS-06,EL,SL7-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL8,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL8-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,33%
@@ -19930,12 +19930,12 @@ NO SUBS.,IN,SZSL-10219,SIGNAL,SIGNAL,0%
 NO SUBS.,IN,SZSL-84209,Instrument(X),Instrument(SZSL),0%
 NO SUBS.,IN,SZSL-84212,Instrument(X),Instrument(SZSL),0%
 NO SUBS.,IN,SZSL-84214,Instrument(X),Instrument(SZSL),0%
-5000-01,MES,T-5001,Tower(T),STABILIZER COLUMN,78%
-5000-02,MES,T-5002,Tower(T),LP METHANOL COLUMN,72%
-5000-03,MES,T-5003,Tower(T),MP METHANOL COLUMN,78%
-5000-01,MES,T-5004,Tower(T),Vent Wash Column,78%
-1000-03,MES,T-6001-1,Tower(T),Saturator,83%
-1000-03,MES,T-6001-2,Tower(T),Saturator,83%
+5000-01,MES,T-5001,Tower(T),STABILIZER COLUMN,82%
+5000-02,MES,T-5002,Tower(T),LP METHANOL COLUMN,76%
+5000-03,MES,T-5003,Tower(T),MP METHANOL COLUMN,82%
+5000-01,MES,T-5004,Tower(T),Vent Wash Column,82%
+1000-03,MES,T-6001-1,Tower(T),Saturator,88%
+1000-03,MES,T-6001-2,Tower(T),Saturator,88%
 3000-01,IN,TAH-30139,PKG,PKG,0%
 120-13,EL,TB01-TC01,Cathodic Protection,Cable 1x16,DONE
 120-13,EL,TB01-TC02,Cathodic Protection,Cable 1x16,DONE
@@ -21012,9 +21012,9 @@ FGS-01,IN,TGD-0022(TGD),Fire Alarm,Fire Alarm(TGD),0%
 4000-06,MES,TK-7001-1,005-Tank(TK),Demineralized Water Tank (TK 7001 1) OUT OF SCOPE,6%
 4000-06,MES,TK-7001-2,005-Tank(TK),Demineralized Water Tank (TK 7001 2) OUT OF SCOPE,6%
 1000-03,MES,TK-7002,005-Tank(TK),Process Condensate Buffer Tank (TK 7002) OUT OF SCOPE,0%
-4000-06,MES,TK-7501,005-Tank(TK),CONDENSATE TANK (TK 7501) OUT OF SCOPE,22%
-4000-06,MES,TK-8401,005-Tank(TK),CAUSTIC SODA TANK,61%
-4000-06,MES,TK-8402,005-Tank(TK),SULPHURIC ACID TANK,61%
+4000-06,MES,TK-7501,005-Tank(TK),CONDENSATE TANK (TK 7501) OUT OF SCOPE,24%
+4000-06,MES,TK-8401,005-Tank(TK),CAUSTIC SODA TANK,65%
+4000-06,MES,TK-8402,005-Tank(TK),SULPHURIC ACID TANK,65%
 120-13,EL,TR01-AJB01_1,Cathodic Protection,Cable 1x35,DONE
 120-13,EL,TR01-AJB01_2,Cathodic Protection,Cable 1x35,DONE
 120-13,EL,TR01-NBB05,Cathodic Protection,Cable 1x35,DONE
@@ -23209,16 +23209,16 @@ BLD-06,PI,Where House-FW Line-02,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 BLD-06,PI,Where House-PW Line-03,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 2000-03,MES,X-2001-A,Filter(X),Oxygen Filter,DONE
 2000-03,MES,X-2001-B,Filter(X),Oxygen Filter,DONE
-2000-03,MES,X-2002-A,Filter(X),Steam Filter,26%
-2000-03,MES,X-2002-B,Filter(X),Steam Filter,37%
-1000-02,MES,X-2003,Filter(X),Static Fuel Gas Mixer,84%
-5000-04,MES,X-5001-A,Filter(X),PRODUCT POLISHER UNIT,68%
-5000-04,MES,X-5001-B,Filter(X),PRODUCT POLISHER UNIT,68%
+2000-03,MES,X-2002-A,Filter(X),Steam Filter,28%
+2000-03,MES,X-2002-B,Filter(X),Steam Filter,39%
+1000-02,MES,X-2003,Filter(X),Static Fuel Gas Mixer,89%
+5000-04,MES,X-5001-A,Filter(X),PRODUCT POLISHER UNIT,72%
+5000-04,MES,X-5001-B,Filter(X),PRODUCT POLISHER UNIT,72%
 5000-01,MES,X-5003,Filter(X),FILTER,DONE
-1000-03,MES,X-6001-A,Filter(X),Particle Filter,37%
-1000-03,MES,X-6001-B,Filter(X),Particle Filter,37%
-1000-03,MES,X-6002-A,Filter(X),Partical Filter,37%
-1000-03,MES,X-6002-B,Filter(X),Partical Filter,37%
+1000-03,MES,X-6001-A,Filter(X),Particle Filter,39%
+1000-03,MES,X-6001-B,Filter(X),Particle Filter,39%
+1000-03,MES,X-6002-A,Filter(X),Partical Filter,39%
+1000-03,MES,X-6002-B,Filter(X),Partical Filter,39%
 4000-04,MES,X-7001,Filter(X),FILTER,DONE
 4000-04,MES,X-7002,Filter(X),FILTER,DONE
 4000-04,MES,X-7003,Filter(X),FILTER,DONE
