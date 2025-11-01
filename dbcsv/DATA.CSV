@@ -1,5 +1,5 @@
 ﻿SD_System,SD_Sub_System,SD_System_Name,SD_Subsystem_Name,discipline,TOTAL ITEM,TOTAL DONE,TOTAL PENDING,TOTAL PUNCH,TOTAL CLEAR PUNCH,TOTAL NOT CLEAR PUNCH,TOTAL HOLD POINT
-1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,99,18,278,76,202,34
+1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,99,18,282,76,206,34
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,24,22,1,70,27,43,28
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,0,5,38,0,38,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,0,1,6,0,6,0
@@ -8,7 +8,7 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MES,13,0,13,41,2,39,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,0,9,55,0,55,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,3,0,15,4,11,0
-1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,181,58,330,104,226,107
+1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,181,58,336,104,232,107
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,53,3,176,106,70,57
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,184,0,2181,1873,308,2
 120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,367,0,3508,3125,383,31
@@ -45,7 +45,7 @@
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,24,22,2,58,26,32,17
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,231,75,47,337,93,244,45
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,0,7,72,20,52,0
-2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,51,20,206,111,95,86
+2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,51,20,209,111,98,86
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,131,76,55,15
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,4,19,0,19,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,21,7,14,0
@@ -112,7 +112,7 @@
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,141,40,101,29
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,8,48,0,48,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,1,13,78,11,67,5
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,362,40,841,477,364,147
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,362,40,850,477,373,147
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,71,0,231,143,88,10
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,7,0,6,84,42,42,1
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,0,4,25,0,25,0
@@ -131,7 +131,7 @@
 5000,5000-04,Distillation & Methanol Product,Methanol Product,IN,213,119,24,334,111,223,45
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MES,2,0,2,0,0,0,1
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MER,2,0,2,12,0,12,0
-5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,63,39,11,64,17,47,20
+5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,63,39,11,66,17,49,20
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,10,10,0,29,19,10,2
 7000,7000-01,Flare,Flare System (In Site),IN,145,138,0,247,71,176,17
 7000,7000-01,Flare,Flare System (In Site),MER,2,2,0,14,0,14,0
@@ -147,7 +147,7 @@ BLD,BLD-05,Building,Diesel Room,CV,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,PI,3,0,1,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,CV,14,14,0,31,3,28,0
 BLD,BLD-07,Building,Analyzer House,CV,8,8,0,19,1,18,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,739,6,3642,1187,2455,805
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,739,6,3667,1187,2480,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2191,2190,1,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,417,417,0,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,18,13,5,0
