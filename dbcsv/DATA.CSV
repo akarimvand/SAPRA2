@@ -56,7 +56,7 @@
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,36,0,74,34,40,12
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,3,8,0,8,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,36,32,137,42,95,44
-3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,33,5,76,16,60,45
+3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,34,4,76,16,60,45
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,0,11,19,0,19,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,7,0,6,30,0,30,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,32,0,109,51,58,8
@@ -82,14 +82,14 @@
 4000,4000-05,Utility,Blow Down,MES,4,3,1,23,0,23,0
 4000,4000-05,Utility,Blow Down,IN,17,17,0,15,6,9,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,2,13,16,0,16,5
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,48,1,176,93,83,167
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,49,1,176,93,83,167
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,12,30,0,30,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,37,59,121,52,69,107
 4000,4000-07,Utility,Plant Air,IN,2,2,0,2,0,2,2
 4000,4000-07,Utility,Plant Air,PI,10,10,0,31,4,27,30
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,6,20,0,20,0
-4000,4000-08,Utility,Cooling Water,PI,298,278,4,635,496,139,37
+4000,4000-08,Utility,Cooling Water,PI,298,279,3,635,497,138,37
 4000,4000-08,Utility,Cooling Water,IN,745,649,58,313,207,106,533
 4000,4000-08,Utility,Cooling Water,EL,6,6,0,56,14,42,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,28,0,0,0,0,26
@@ -98,7 +98,7 @@
 4000,4000-10,Utility,Sanitary Water Collection,IN,12,4,0,0,0,0,4
 4000,4000-10,Utility,Sanitary Water Collection,PI,14,9,2,5,1,4,2
 4000,4000-10,Utility,Sanitary Water Collection,MER,1,0,1,6,0,6,0
-4000,4000-11,Utility,Instrument Air,PI,13,11,2,17,8,9,0
+4000,4000-11,Utility,Instrument Air,PI,13,12,1,17,8,9,0
 4000,4000-11,Utility,Instrument Air,IN,78,78,0,70,23,47,18
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,MER,4,0,4,8,0,8,0
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,IN,25,21,2,7,2,5,20
@@ -117,7 +117,7 @@
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,7,0,6,84,42,42,1
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,0,4,25,0,25,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,EL,2,2,0,12,2,10,0
-5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,PI,46,46,0,137,67,70,9
+5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,PI,46,46,0,137,70,67,9
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,465,419,22,562,442,120,287
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,46,0,140,95,45,13
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,0,5,44,12,32,0
