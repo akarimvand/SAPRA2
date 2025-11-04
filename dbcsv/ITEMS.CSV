@@ -3627,7 +3627,7 @@ LS-12,EL,07-JB2_1-2-L2-10,Lighting Fixture(12),LED Luminaires Fixture 20w| EX,Do
 LS-12,EL,07-JB2_1-2-L2-10-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-12,EL,07-JB2_1-2-L2-11,Lighting Fixture(12),LED Luminaires Fixture 40w| EX,Done
 LS-12,EL,07-JB2_1-2-L2-11-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
-LS-12,EL,07-JB2_1-2-L3-01,Lighting Fixture(12),LED Luminaires Fixture 20w| EX,0%
+LS-12,EL,07-JB2_1-2-L3-01,Lighting Fixture(12),LED Luminaires Fixture 20w| EX,Done
 LS-12,EL,07-JB2_1-2-L3-01-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-12,EL,07-JB2_1-2-L3-02,Lighting Fixture(12),LED Luminaires Fixture 40w| EX,Done
 LS-12,EL,07-JB2_1-2-L3-02-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
@@ -6242,19 +6242,19 @@ TEL-09,EL,CR-TJB3,Telecom Device,Telephone Junction Box,0%
 120-15,EL,CR-UBT-01_2,UPS & Battery,110V AC UPS Battery Set,25%
 120-09,EL,CR-UIS-01,UPS & Battery,110V AC UPS Battery Isolator Box,Done
 120-09,EL,CR-UPS-01,UPS & Battery,110V AC UPS Panel,Done
-1000-01,MES,D-1001,Drum(D),Natural gas K.O. drum,95%
-2000-04,MES,D-2001,Drum(D),HHP Steam Drum,45%
-2000-05,MES,D-2002,Drum(D),1 st Separator,95%
-2000-05,MES,D-2003,Drum(D),2nd Separator,95%
-2000-05,MES,D-2004,Drum(D),3rd Separator,95%
-2000-05,MES,D-2005,Drum(D),Final Separator,95%
-4000-04,MES,D-2011,Drum(D),Steam Cond. K.O. Drum for E 2008,95%
-3000-04,MES,D-2022-1,Drum(D),DRUM,95%
-3000-04,MES,D-2022-2,Drum(D),DRUM,95%
-3000-03,MES,D-3001,Drum(D),HP Separator,86%
-3000-03,MES,D-3002,Drum(D),LP Separator,95%
-3000-02,MES,D-3003,Drum(D),MP Steam Drum,59%
-5000-01,MES,D-3004,Drum(D),Slops Methanol Drum,95%
+1000-01,MES,D-1001,Drum(D),Natural gas K.O. drum,Done
+2000-04,MES,D-2001,Drum(D),HHP Steam Drum,59%
+2000-05,MES,D-2002,Drum(D),1 st Separator,Done
+2000-05,MES,D-2003,Drum(D),2nd Separator,Done
+2000-05,MES,D-2004,Drum(D),3rd Separator,Done
+2000-05,MES,D-2005,Drum(D),Final Separator,Done
+4000-04,MES,D-2011,Drum(D),Steam Cond. K.O. Drum for E 2008,Done
+3000-04,MES,D-2022-1,Drum(D),DRUM,Done
+3000-04,MES,D-2022-2,Drum(D),DRUM,Done
+3000-03,MES,D-3001,Drum(D),HP Separator,91%
+3000-03,MES,D-3002,Drum(D),LP Separator,Done
+3000-02,MES,D-3003,Drum(D),MP Steam Drum,64%
+5000-01,MES,D-3004,Drum(D),Slops Methanol Drum,Done
 3000-01,MES,D-3010,Drum(D),Seprator Vessle,64%
 5000-01,MES,D-5001,Drum(D),Stabilizer Column OH Accumulator,86%
 5000-02,MES,D-5002,Drum(D),LP Column OH Accumulator,86%
