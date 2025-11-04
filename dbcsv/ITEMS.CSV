@@ -23207,9 +23207,6 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 3000-01,IN,VZT-30116A,Instrument(X),Instrument(VZT),0%
 3000-01,IN,VZT-30116B,Instrument(X),Instrument(VZT),0%
 3000-01,IN,VZT-30116C,Instrument(X),Instrument(VZT),0%
-BLD-06,PI,Where House-FW Line-01,PI_TP,PIPING TEST PACKAGE,FL/DRY
-BLD-06,PI,Where House-FW Line-02,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
-BLD-06,PI,Where House-PW Line-03,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 2000-03,MES,X-2001-A,Filter(X),Oxygen Filter,DONE
 2000-03,MES,X-2001-B,Filter(X),Oxygen Filter,DONE
 2000-03,MES,X-2002-A,Filter(X),Steam Filter,29%
