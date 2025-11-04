@@ -1,7 +1,7 @@
 ﻿SD_System,SD_Sub_System,SD_System_Name,SD_Subsystem_Name,discipline,TOTAL ITEM,TOTAL DONE,TOTAL PENDING,TOTAL PUNCH,TOTAL CLEAR PUNCH,TOTAL NOT CLEAR PUNCH,TOTAL HOLD POINT
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,99,18,282,82,200,34
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,24,22,2,70,27,43,28
-1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,0,5,38,0,38,0
+1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,1,4,38,0,38,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,0,1,6,0,6,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,PI,12,12,0,24,19,5,3
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,IN,176,64,12,253,85,168,11
@@ -44,7 +44,7 @@
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MER,2,0,2,12,0,12,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,24,22,2,58,26,32,17
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,231,75,47,337,105,232,45
-2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,0,7,72,20,52,0
+2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,4,3,72,20,52,0
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,51,20,209,124,85,86
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,133,83,50,15
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,4,19,0,19,0
@@ -58,10 +58,10 @@
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,36,32,137,42,95,44
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,34,4,80,16,64,45
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,0,11,19,0,19,0
-3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,7,0,6,30,0,30,0
+3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,7,1,5,30,0,30,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,32,0,109,51,58,8
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,69,14,222,89,133,99
-3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,0,2,20,0,20,0
+3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,2,0,20,0,20,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,12,7,5,2
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,176,12,75,317,212,105,5
 3000,3000-04,Compression and Synthesis,Hydrogen System,MER,1,0,1,0,0,0,0
@@ -73,7 +73,7 @@
 4000,4000-03,Utility,MP Steam,MES,1,0,1,5,0,5,0
 4000,4000-03,Utility,MP Steam,IN,56,29,15,139,80,59,3
 4000,4000-03,Utility,MP Steam,PI,5,5,0,38,23,15,0
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,3,2,6,0,6,3
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,4,1,6,0,6,3
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,6,0,0,0,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,1,5,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,47,45,2,173,107,66,19
@@ -111,7 +111,7 @@
 4000,4000-14,Utility,Fire Water,PI,130,125,0,392,249,143,2536
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,142,67,75,29
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,8,48,0,48,0
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,1,13,78,11,67,5
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,2,12,78,11,67,5
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,363,39,866,521,345,147
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,70,0,235,153,82,10
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,7,0,6,84,42,42,1
@@ -182,7 +182,7 @@ LS,LS-08,Lighting System,Lighting System for Area-03,EL,440,0,55,192,135,57,0
 LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,0,113,309,171,138,0
 LS,LS-10,Lighting System,Lighting System for Area-05,EL,706,0,67,268,0,268,0
 LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,0,81,362,217,145,0
-LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,412,1,910,741,169,0
+LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,413,1,910,741,169,0
 LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,7,57,180,180,0,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,EL,20,0,0,0,0,0,7
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,144,1,21,34,17,17,21
