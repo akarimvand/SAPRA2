@@ -6255,20 +6255,20 @@ TEL-09,EL,CR-TJB3,Telecom Device,Telephone Junction Box,0%
 3000-03,MES,D-3002,Drum(D),LP Separator,Done
 3000-02,MES,D-3003,Drum(D),MP Steam Drum,64%
 5000-01,MES,D-3004,Drum(D),Slops Methanol Drum,Done
-3000-01,MES,D-3010,Drum(D),Seprator Vessle,64%
-5000-01,MES,D-5001,Drum(D),Stabilizer Column OH Accumulator,86%
-5000-02,MES,D-5002,Drum(D),LP Column OH Accumulator,86%
+3000-01,MES,D-3010,Drum(D),Seprator Vessle,68%
+5000-01,MES,D-5001,Drum(D),Stabilizer Column OH Accumulator,91%
+5000-02,MES,D-5002,Drum(D),LP Column OH Accumulator,91%
 5000-03,MES,D-5003,Drum(D),MP Column OH Accumulator,94%
-5000-01,MES,D-5009,Drum(D),Steam Condensate KO Drum for E5001,86%
-1000-03,MES,D-6001,Drum(D),Feed Gas Separator,82%
-1000-03,MES,D-6002,Drum(D),Saturator Blow Down Drum,77%
-4000-04,MES,D-7001,Drum(D),Thermal Deaerator,59%
+5000-01,MES,D-5009,Drum(D),Steam Condensate KO Drum for E5001,91%
+1000-03,MES,D-6001,Drum(D),Feed Gas Separator,91%
+1000-03,MES,D-6002,Drum(D),Saturator Blow Down Drum,91%
+4000-04,MES,D-7001,Drum(D),Thermal Deaerator,64%
 4000-05,MES,D-7002,Drum(D),Continuous Blow-down Drum,95%
 4000-05,MES,D-7003,Drum(D),Intermediate Blow Down Drum No.1,95%
 4000-05,MES,D-7004,Drum(D),Intermediate Blow Down Drum No.2,59%
 7000-01,MES,D-7101,Drum(D),Knock Out Drum,95%
-4000-06,MES,D-7501,Drum(D),CAUSTIC STORAGE DRUM,95%
-4000-06,MES,D-7502,Drum(D),SULFURIC ACID DRUM,64%
+4000-06,MES,D-7501,Drum(D),CAUSTIC STORAGE DRUM,Done
+4000-06,MES,D-7502,Drum(D),SULFURIC ACID DRUM,68%
 1000-02,PI,DE-RF-FG-001,PI_TP,PIPING TEST PACKAGE,DONE
 1000-02,PI,DE-RF-FG-002,PI_TP,PIPING TEST PACKAGE,DONE
 1000-02,PI,DE-RF-FG-003,PI_TP,PIPING TEST PACKAGE,DONE
