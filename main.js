@@ -7,14 +7,14 @@ window.formCounts = {
 };
 
 // --- Constants ---
-// Use GitHub Pages URL to avoid CORS issues
-const GITHUB_BASE_URL = "https://akarimvand.github.io/SAPRA2/dbcsv/";
+// Use local dbcsv folder
+const LOCAL_BASE_URL = "dbcsv/";
 
-const CSV_URL = GITHUB_BASE_URL + "DATA.CSV";
-const ITEMS_CSV_URL = GITHUB_BASE_URL + "ITEMS.CSV";
-const PUNCH_CSV_URL = GITHUB_BASE_URL + "PUNCH.CSV";
-const HOLD_POINT_CSV_URL = GITHUB_BASE_URL + "HOLD_POINT.CSV";
-const ACTIVITIES_CSV_URL = GITHUB_BASE_URL + "ACTIVITES.CSV";
+const CSV_URL = LOCAL_BASE_URL + "DATA.CSV";
+const ITEMS_CSV_URL = LOCAL_BASE_URL + "ITEMS.CSV";
+const PUNCH_CSV_URL = LOCAL_BASE_URL + "PUNCH.CSV";
+const HOLD_POINT_CSV_URL = LOCAL_BASE_URL + "HOLD_POINT.CSV";
+const ACTIVITIES_CSV_URL = LOCAL_BASE_URL + "ACTIVITES.CSV";
 
 const COLORS_STATUS_CHARTJS = {
     done: 'rgba(76, 175, 80, 0.8)',    // success
@@ -54,14 +54,22 @@ const ICONS = {
         let subsystemStatusMap = {}; // To store the status from HOS.CSV
         let displayedItemsInModal = []; // Added to store items currently shown in the modal
         let currentModalDataType = null; // 'items' or 'punch' or 'hold' or 'activities'
+        let donutChartsInitialized = false; // Flag to track if donut charts have been initialized
 
 
         const chartInstances = {
             overview: null,
             disciplines: {} // { disciplineName: chartInstance }
         };
+        
+        // amCharts root instances
+        const amChartsRoots = {
+            overview: null,
+            disciplines: {}
+        };
         let bootstrapTabObjects = {}; // To store Bootstrap Tab instances
         let itemDetailsModal; // Added variable for item details modal instance
+        let activitiesModal; // Added variable for activities modal instance
         let loadingModalInstance;
 
         // --- DOM Elements ---
@@ -96,6 +104,7 @@ const ICONS = {
             initUIFeatures(); // Initialize new UI features
             initKeyboardShortcuts();
             initAccessibility();
+
             
             // Initialize tooltips
             const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
@@ -106,12 +115,15 @@ const ICONS = {
             loadAndProcessData();
             DOMElements.sidebarToggle.setAttribute('aria-expanded', 'false');
             
+            // Cleanup charts on page unload
+            window.addEventListener('beforeunload', cleanupAllCharts);
+            
             // Add debug info to console
             console.log('🚀 SAPRA Application Started');
             console.log('Debug commands available:');
             console.log('- checkDataStatus(): Check if data is loaded');
             console.log('- forceReloadData(): Force reload all data');
-            console.log('- toggleDarkMode(): Toggle dark/light theme');
+
             console.log('- showToast(message, type): Show notification');
             console.log('- window.processedData: Access main data object');
         });
@@ -152,13 +164,33 @@ const ICONS = {
             };
         };
 
+        // Cleanup all charts function
+        function cleanupAllCharts() {
+            // Dispose overview chart
+            if (amChartsRoots.overview) {
+                amChartsRoots.overview.dispose();
+                amChartsRoots.overview = null;
+            }
+            
+            // Dispose all discipline charts
+            Object.values(amChartsRoots.disciplines).forEach(root => {
+                if (root) root.dispose();
+            });
+            amChartsRoots.disciplines = {};
+            chartInstances.disciplines = {};
+            chartInstances.overview = null;
+        }
+        
         // Force reload data function
         window.forceReloadData = function() {
             console.log('🔄 Force reloading data...');
-            showToast('🔄 Reloading data...', 'info');
+            showToast('🔄 در حال بارگذاری مجدد...', 'info');
             
             // Show progress
             showProgress(0);
+            
+            // Cleanup all charts
+            cleanupAllCharts();
             
             // Reset all data
             processedData = { systemMap: {}, subSystemMap: {}, allRawData: [] };
@@ -167,6 +199,8 @@ const ICONS = {
             holdPointItemsData = [];
             hosData = [];
             subsystemStatusMap = {};
+            activitiesData = [];
+            activitiesLoaded = false;
             
             // Clear cache and reload
             if ('caches' in window) {
@@ -181,6 +215,22 @@ const ICONS = {
         };
 
         // === NEW UI FEATURES ===
+        
+        // Add global error handler
+        window.addEventListener('error', (e) => {
+            console.error('Global error:', e);
+            if (typeof showToast === 'function') {
+                showToast('خطایی رخ داد. لطفاً صفحه را رفرش کنید.', 'error');
+            }
+        });
+        
+        // Add unhandled promise rejection handler
+        window.addEventListener('unhandledrejection', (e) => {
+            console.error('Unhandled promise rejection:', e);
+            if (typeof showToast === 'function') {
+                showToast('خطا در پردازش درخواست', 'error');
+            }
+        });
         
 
         
@@ -265,6 +315,8 @@ const ICONS = {
             return results.slice(0, 20); // Limit to 20 results
         };
         
+
+        
         // Initialize UI Features
         function initUIFeatures() {
             
@@ -282,14 +334,17 @@ const ICONS = {
             }
             
             if (quickSearchInput) {
+                let quickSearchTimeout;
                 quickSearchInput.addEventListener('input', (e) => {
-                    const query = e.target.value.trim();
-                    if (query.length < 2) {
-                        quickSearchResults.innerHTML = '';
-                        return;
-                    }
-                    
-                    const results = performQuickSearch(query);
+                    clearTimeout(quickSearchTimeout);
+                    quickSearchTimeout = setTimeout(() => {
+                        const query = e.target.value.trim();
+                        if (query.length < 2) {
+                            quickSearchResults.innerHTML = '';
+                            return;
+                        }
+                        
+                        const results = performQuickSearch(query);
                     
                     if (results.length === 0) {
                         quickSearchResults.innerHTML = '<div class="text-center text-muted py-3">No items found</div>';
@@ -355,6 +410,7 @@ const ICONS = {
                             badge.style.opacity = '1';
                         });
                     });
+                    }, 300);
                 });
             }
             
@@ -467,6 +523,18 @@ function initModals() {
      if (exportDetailsExcelBtn) {
          exportDetailsExcelBtn.addEventListener('click', handleDetailsExport);
      }
+     
+     // Add export activities button listener
+     const exportActivitiesBtn = document.getElementById('exportActivitiesExcelBtn');
+     if (exportActivitiesBtn) {
+         exportActivitiesBtn.addEventListener('click', exportActivitiesToExcel);
+     }
+     
+     // Add print modal button listener
+     const printModalBtn = document.getElementById('printModalBtn');
+     if (printModalBtn) {
+         printModalBtn.addEventListener('click', printModal);
+     }
 }
 
         function initEventListeners() {
@@ -484,9 +552,14 @@ function initModals() {
                 DOMElements.sidebarToggle.setAttribute('aria-expanded', 'false');
             });
 
+            // Debounced search
+            let searchTimeout;
             DOMElements.searchInput.addEventListener('input', (e) => {
-                searchTerm = e.target.value.toLowerCase();
-                renderSidebar();
+                clearTimeout(searchTimeout);
+                searchTimeout = setTimeout(() => {
+                    searchTerm = e.target.value.toLowerCase();
+                    renderSidebar();
+                }, 300);
             });
              DOMElements.searchInput.setAttribute('aria-label', 'Search system or subsystem');
 
@@ -497,6 +570,9 @@ function initModals() {
             
             // Add main table export listener
             document.getElementById('exportMainTableBtn').addEventListener('click', exportMainTable);
+            
+            // Add main table print listener
+            document.getElementById('printMainTableBtn').addEventListener('click', printMainTable);
 
             // New listener for when a chart tab is shown, ensuring charts render only when visible.
             DOMElements.chartTabs.addEventListener('shown.bs.tab', function (event) {
@@ -576,10 +652,12 @@ function initModals() {
             }
         });
 
-        // Add event listener for modal filter inputs
+        // Add event listener for modal filter inputs with debounce
+        let modalFilterTimeout;
         document.getElementById('itemDetailsModal').addEventListener('keyup', function(e) {
             if (e.target.tagName === 'INPUT' && e.target.closest('#modal-filter-row')) {
-                filterModalTable();
+                clearTimeout(modalFilterTimeout);
+                modalFilterTimeout = setTimeout(filterModalTable, 300);
             }
         });
         }
@@ -953,7 +1031,7 @@ function filterDetailedItems(context) {
                             <td style="word-wrap: break-word; white-space: normal;">${item.discipline}</td>
                             <td style="word-wrap: break-word; white-space: normal;"><button class="tag-no-btn" data-tag-no="${item.tagNo}">${item.tagNo}</button></td>
                             <td style="word-wrap: break-word; white-space: normal;">${item.typeCode}</td>
-                            <td style="word-wrap: break-word; white-space: normal;">${item.description}</td>
+                            <td style="word-wrap: break-word; white-space: normal; direction: rtl; text-align: right;">${item.description}</td>
                             <td style="word-wrap: break-word; white-space: normal;">${item.status}</td>
                          `;
                     } else if (dataType === 'punch') {
@@ -972,7 +1050,7 @@ function filterDetailedItems(context) {
                             <td style="word-wrap: break-word; white-space: normal;"><button class="tag-no-btn" data-tag-no="${item.ITEM_Tag_NO || 'N/A'}">${item.ITEM_Tag_NO || 'N/A'}</button></td>
                             <td style="word-wrap: break-word; white-space: normal;">${item.ITEM_Type_Code || 'N/A'}</td>
                             <td style="${item.PL_Punch_Category === 'A' ? 'color: red; font-weight: bold;' : ''} word-wrap: break-word; white-space: normal;">${item.PL_Punch_Category || 'N/A'}</td>
-                            <td style="word-wrap: break-word; white-space: normal;">${item.PL_Punch_Description || 'N/A'}</td>
+                            <td style="word-wrap: break-word; white-space: normal; direction: rtl; text-align: right;">${item.PL_Punch_Description || 'N/A'}</td>
                             <td style="word-wrap: break-word; white-space: normal;">${item.PL_No || 'N/A'}</td>
                         `;
                     } else if (dataType === 'hold') { // Populate with hold point data
@@ -983,7 +1061,7 @@ function filterDetailedItems(context) {
                              <td style="word-wrap: break-word; white-space: normal;"><button class="tag-no-btn" data-tag-no="${item.tagNo}">${item.tagNo}</button></td>
                              <td style="word-wrap: break-word; white-space: normal;">${item.typeCode || 'N/A'}</td>
                              <td style="word-wrap: break-word; white-space: normal;">${item.hpPriority || 'N/A'}</td>
-                             <td style="word-wrap: break-word; white-space: normal;">${item.hpDescription || 'N/A'}</td>
+                             <td style="word-wrap: break-word; white-space: normal; direction: rtl; text-align: right;">${item.hpDescription || 'N/A'}</td>
                              <td style="word-wrap: break-word; white-space: normal;">${item.hpLocation || 'N/A'}</td>
                          `;
                          rowClass = ''; // No special coloring for hold points requested
@@ -1000,7 +1078,7 @@ function filterDetailedItems(context) {
 
         function filterHOSItems(statusType, dataType) {
             // Load HOS.CSV data
-            fetch('https://akarimvand.github.io/SAPRA2/dbcsv/HOS.CSV')
+            fetch('dbcsv/HOS.CSV')
                 .then(response => response.text())
                 .then(csvText => {
                     Papa.parse(csvText, {
@@ -1109,16 +1187,9 @@ function filterDetailedItems(context) {
                     try {
                         console.log(`Loading ${url} (attempt ${attempt}/${retries})`);
                         
-                        // Add cache buster and use both local and GitHub URLs
+                        // Add cache buster for local files
                         const cacheBuster = '?t=' + Date.now() + '&v=' + Math.random();
-                        let finalUrl = url;
-                        
-                        // Use GitHub Pages URL
-                        if (!url.startsWith('http')) {
-                            finalUrl = GITHUB_BASE_URL + url.split('/').pop() + cacheBuster;
-                        } else {
-                            finalUrl = url + cacheBuster;
-                        }
+                        let finalUrl = url + cacheBuster;
                         
                         const response = await Promise.race([
                             fetch(finalUrl, {
@@ -1170,12 +1241,6 @@ function filterDetailedItems(context) {
                         console.warn(`Attempt ${attempt} failed for ${url}:`, error.message);
                         
                         if (attempt === retries) {
-                            // Last attempt failed, try local files if we were using GitHub
-                            if (url.startsWith('http')) {
-                                console.log(`Trying local files for ${url}`);
-                                const localUrl = 'dbcsv/' + url.split('/').pop();
-                                return fetchCsvData(localUrl, 1);
-                            }
                             throw error;
                         }
                         
@@ -1308,6 +1373,11 @@ function filterDetailedItems(context) {
 
                 // --- Initial Render ---
                 updateView();
+                
+                // Mark donut charts as initialized after initial data load
+                setTimeout(() => {
+                    donutChartsInitialized = true;
+                }, 2000);
 
             } catch (e) {
                 clearTimeout(loadingTimeout);
@@ -1469,6 +1539,13 @@ function filterDetailedItems(context) {
         }
 
         function attachSidebarEventListeners() {
+            // Remove old listeners to prevent duplicates
+            const oldNodes = DOMElements.treeView.querySelectorAll('.tree-node');
+            oldNodes.forEach(node => {
+                const clone = node.cloneNode(true);
+                node.parentNode.replaceChild(clone, node);
+            });
+            
             DOMElements.treeView.querySelectorAll('.tree-node').forEach(el => {
                 el.addEventListener('click', function(e) {
                     e.stopPropagation();
@@ -1560,19 +1637,24 @@ function filterDetailedItems(context) {
 
             // New Total Items card (left of Completed)
             const totalItemsCard = { title: 'Total Items', count: aggregatedStats.totalItems, baseClass: 'bg-white', icon: ICONS.Collection, iconWrapperBgClass: 'bg-primary-subtle', iconColorClass: 'text-primary', countColor: 'text-primary', titleColor: 'text-muted', desc: 'Total items of Selected Subsystem' };
+            const totalItemsId = 'total-items-count';
             row1HTML += `
                 <div class="col">
-                    <section class="card summary-card shadow-sm ${totalItemsCard.baseClass}" aria-labelledby="summary-title-${totalItemsCard.title.toLowerCase().replace(' ','-')}" data-card-type="total-items">
+                    <section class="card summary-card shadow-sm ${totalItemsCard.baseClass} h-100" aria-labelledby="summary-title-${totalItemsCard.title.toLowerCase().replace(' ','-')}" data-card-type="total-items">
                         <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <h6 id="summary-title-${totalItemsCard.title.toLowerCase().replace(' ','-')}" class="card-title-custom fw-medium ${totalItemsCard.titleColor}">${totalItemsCard.title}</h6>
                                 <span class="icon-wrapper ${totalItemsCard.iconWrapperBgClass} ${totalItemsCard.iconColorClass}" aria-hidden="true">${totalItemsCard.icon}</span>
                             </div>
-                            <h3 class="count-display ${totalItemsCard.countColor} mb-1">${totalItemsCard.count.toLocaleString()}</h3>
-                            <small class="d-block mt-2 text-muted" style="color: #6c757d !important;">${totalItemsCard.desc}</small>
+                            <h3 id="${totalItemsId}" class="count-display ${totalItemsCard.countColor} mb-1">${donutChartsInitialized ? totalItemsCard.count.toLocaleString() : '0'}</h3>
+                            <small class="d-block mt-2 text-muted" style="color: #6c757d !important; font-size: 0.604rem;">${totalItemsCard.desc}</small>
                         </div>
                     </section>
                 </div>`;
+            
+            if (!donutChartsInitialized) {
+                setTimeout(() => animateNumber(totalItemsId, totalItemsCard.count), 200);
+            }
 
             const originalCardsData = [
                 { title: 'Completed', count: aggregatedStats.done, total: aggregatedStats.totalItems, baseClass: 'bg-white', icon: ICONS.CheckCircle, iconWrapperBgClass: 'bg-success-subtle', iconColorClass: 'text-success', progressColor: 'success', countColor: 'text-success', titleColor: 'text-muted' },
@@ -1580,17 +1662,18 @@ function filterDetailedItems(context) {
                 { title: 'Remaining', count: aggregatedStats.remaining, total: aggregatedStats.totalItems, baseClass: 'bg-white', icon: ICONS.ArrowRepeat, iconWrapperBgClass: 'bg-info-subtle', iconColorClass: 'text-info', progressColor: 'info', countColor: 'text-info', titleColor: 'text-muted' },
             ];
 
-            originalCardsData.forEach(card => {
+            originalCardsData.forEach((card, index) => {
                 const percentage = (card.total && card.total > 0 && card.count >= 0) ? Math.round((card.count / card.total) * 100) : 0;
+                const cardCountId = `card-count-${index}`;
                 row1HTML += `
                     <div class="col">
-                        <section class="card summary-card shadow-sm ${card.baseClass}" aria-labelledby="summary-title-${card.title.toLowerCase()}">
+                        <section class="card summary-card shadow-sm ${card.baseClass} h-100" aria-labelledby="summary-title-${card.title.toLowerCase()}">
                         <div class="card-body">
                                 <div class="d-flex justify-content-between align-items-center mb-2">
                                     <h6 id="summary-title-${card.title.toLowerCase()}" class="card-title-custom fw-medium ${card.titleColor}">${card.title}</h6>
                                     <span class="icon-wrapper ${card.iconWrapperBgClass} ${card.iconColorClass}" aria-hidden="true">${card.icon}</span>
                         </div>
-                                <h3 class="count-display ${card.countColor} mb-1">${card.count.toLocaleString()}</h3>
+                                <h3 id="${cardCountId}" class="count-display ${card.countColor} mb-1">${donutChartsInitialized ? card.count.toLocaleString() : '0'}</h3>
                                 ${card.total > 0 ? `
                                 <div class="progress mt-2" style="height: 6px;" aria-label="${card.title} progress ${percentage}%">
                                     <div class="progress-bar bg-${card.progressColor}" role="progressbar" style="width: ${percentage}%" aria-valuenow="${percentage}" aria-valuemin="0" aria-valuemax="100"></div>
@@ -1600,11 +1683,15 @@ function filterDetailedItems(context) {
                 </div>
                         </section>
                     </div>`;
+                
+                if (!donutChartsInitialized) {
+                    setTimeout(() => animateNumber(cardCountId, card.count), 200 + (index * 100));
+                }
             });
 
             row1HTML += `
                 <div class="col">
-                    <section class="card summary-card shadow-sm bg-white" aria-labelledby="summary-title-issues">
+                    <section class="card summary-card shadow-sm bg-white h-100" aria-labelledby="summary-title-issues">
                         <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <h6 id="summary-title-issues" class="card-title-custom fw-medium text-muted">Issues</h6>
@@ -1628,19 +1715,24 @@ function filterDetailedItems(context) {
             // New Total Forms card (similar to form cards, placed to the left of FORM A)
             const totalFormsCount = window.totalForms || 0;
             const totalFormsCard = { title: 'TOTAL FORMS', count: totalFormsCount, gradientClass: 'gradient-total-forms animated-gradient', icon: ICONS.FileEarmarkText, desc: 'The total number of subsystems that require handover' };
+            const totalFormsId = 'total-forms-count';
             row2HTML += `
                 <div class="col">
-                    <section class="card summary-card shadow-sm ${totalFormsCard.gradientClass}" aria-labelledby="summary-title-${totalFormsCard.title.toLowerCase().replace(' ','-')}" data-card-type="total-forms">
+                    <section class="card summary-card shadow-sm ${totalFormsCard.gradientClass} h-100" aria-labelledby="summary-title-${totalFormsCard.title.toLowerCase().replace(' ','-')}" data-card-type="total-forms">
                         <div class="card-body text-white">
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <h6 id="summary-title-${totalFormsCard.title.toLowerCase().replace(' ','-')}" class="card-title-custom">${totalFormsCard.title}</h6>
                                 <span class="icon-wrapper" style="background-color: rgba(0,0,0,0.2);" aria-hidden="true">${totalFormsCard.icon}</span>
                             </div>
-                            <h3 class="count-display mb-1">${totalFormsCard.count.toLocaleString()}</h3>
-                            <small class="d-block mt-2 text-white" style="color: #fff !important;">${totalFormsCard.desc}</small>
+                            <h3 id="${totalFormsId}" class="count-display mb-1">${donutChartsInitialized ? totalFormsCard.count.toLocaleString() : '0'}</h3>
+                            <small class="d-block mt-2 text-white" style="color: #fff !important; font-size: 0.604rem;">${totalFormsCard.desc}</small>
                         </div>
                     </section>
                 </div>`;
+            
+            if (!donutChartsInitialized) {
+                setTimeout(() => animateNumber(totalFormsId, totalFormsCard.count), 800);
+            }
 
             const formCardsData = [
                 { title: 'FORM A', count: window.formCounts.formA, gradientClass: 'gradient-form-a animated-gradient', icon: ICONS.FileEarmarkText, desc: 'Submitted to Client for Mechanical Completion Approval' },
@@ -1648,20 +1740,33 @@ function filterDetailedItems(context) {
                 { title: 'FORM C', count: window.formCounts.formC, gradientClass: 'gradient-form-c animated-gradient', icon: ICONS.FileEarmarkMedical, desc: 'Precom Punches Cleared and Resubmitted for Approval' },
                 { title: 'FORM D', count: window.formCounts.formD, gradientClass: 'gradient-form-d animated-gradient', icon: ICONS.FileEarmarkSpreadsheet, desc: 'Final Client Approval and Subsystem Handover Process' },
             ];
-            formCardsData.forEach(card => {
+            formCardsData.forEach((card, index) => {
+                const percentage = totalFormsCount > 0 ? Math.round((card.count / totalFormsCount) * 100) : 0;
+                const chartId = `chart-${card.title.toLowerCase().replace(' ', '-')}`;
+                const formCountId = `form-count-${index}`;
                 row2HTML += `
                     <div class="col">
-                        <section class="card summary-card shadow-sm ${card.gradientClass}" aria-labelledby="summary-title-${card.title.toLowerCase().replace(' ','-')}">
+                        <section class="card summary-card shadow-sm ${card.gradientClass} h-100" aria-labelledby="summary-title-${card.title.toLowerCase().replace(' ','-')}">
                             <div class="card-body text-white">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <h6 id="summary-title-${card.title.toLowerCase().replace(' ','-')}" class="card-title-custom">${card.title}</h6>
-                                    <span class="icon-wrapper" style="background-color: rgba(0,0,0,0.2);" aria-hidden="true">${card.icon}</span>
-                    </div>
-                                <h3 class="count-display mb-1">${card.count.toLocaleString()}</h3>
-                                <small class="d-block mt-2 text-white" style="color: #fff !important;">${card.desc}</small>
-                </div>
+                                <h6 id="summary-title-${card.title.toLowerCase().replace(' ','-')}" class="card-title-custom mb-2">${card.title}</h6>
+                                <div class="d-flex align-items-center justify-content-between mb-1">
+                                    <h3 id="${formCountId}" class="count-display mb-0">${donutChartsInitialized ? card.count.toLocaleString() : '0'}</h3>
+                                    <div class="donut-chart" id="${chartId}" style="width: 63px; height: 63px; position: relative;"></div>
+                                </div>
+                                <small class="d-block mt-2 text-white" style="color: #fff !important; font-size: 0.604rem;">${card.desc}</small>
+                            </div>
                         </section>
                     </div>`;
+                
+                // Create donut chart after DOM is updated
+                setTimeout(() => {
+                    createDonutChart(chartId, percentage, donutChartsInitialized);
+                }, 100);
+                
+                // Animate form count
+                if (!donutChartsInitialized) {
+                    setTimeout(() => animateNumber(formCountId, card.count), 900 + (index * 100));
+                }
             });
 
             DOMElements.summaryCardsRow2.innerHTML = row2HTML;
@@ -1669,54 +1774,107 @@ function filterDetailedItems(context) {
 
         function destroyChart(chartInstance) {
             if (chartInstance) {
-                chartInstance.destroy();
+                chartInstance.dispose();
+            }
+        }
+        
+        function destroyAmChartsRoot(root) {
+            if (root) {
+                root.dispose();
             }
         }
 
 
         function renderOverviewCharts() {
-            const overviewCanvas = document.getElementById('overviewChart');
-            const overviewParent = overviewCanvas.parentElement;
-            overviewParent.innerHTML = '<canvas id="overviewChart" role="img" aria-label="General status doughnut chart"></canvas>'; // Reset for no data message
-            const overviewCtx = document.getElementById('overviewChart').getContext('2d');
-
-            const overviewChartData = {
-                labels: ['Completed', 'Pending', 'Remaining'],
-                datasets: [{
-                    label: 'General Status',
-                    data: [aggregatedStats.done, aggregatedStats.pending, aggregatedStats.remaining].filter(v => v >=0),
-                    backgroundColor: [COLORS_STATUS_CHARTJS.done, COLORS_STATUS_CHARTJS.pending, COLORS_STATUS_CHARTJS.remaining],
-                    hoverOffset: 4
-                }]
-            };
-            if (aggregatedStats.totalItems === 0 || (aggregatedStats.done === 0 && aggregatedStats.pending === 0 && aggregatedStats.remaining === 0)) {
-                 overviewParent.insertAdjacentHTML('beforeend', '<div class="text-center text-muted small p-5">No data to display for General Status.</div>');
-            } else {
-chartInstances.overview = new Chart(overviewCtx, {
-    type: 'doughnut',
-    data: overviewChartData,
-    options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: {
-            legend: { position: 'bottom' },
-            tooltip: {
-                callbacks: {
-                    label: (context) => {
-                        const value = context.parsed;
-                        const total = aggregatedStats.totalItems;
-                        const percent = total > 0 ? Math.round((value / total) * 100) : 0;
-                        return `${context.label}: ${value.toLocaleString()} (${percent}%)`;
-                    }
-                }
+            const overviewDiv = document.getElementById('overviewChart');
+            const overviewParent = overviewDiv.parentElement;
+            
+            // Dispose previous chart
+            if (amChartsRoots.overview) {
+                amChartsRoots.overview.dispose();
+                amChartsRoots.overview = null;
             }
-        }
-    }
-});            }
+            
+            // Reset container
+            overviewParent.innerHTML = '<div id="overviewChart" style="width: 100%; height: 100%;"></div>';
+
+            if (aggregatedStats.totalItems === 0 || (aggregatedStats.done === 0 && aggregatedStats.pending === 0 && aggregatedStats.remaining === 0)) {
+                overviewParent.insertAdjacentHTML('beforeend', '<div class="text-center text-muted small p-5">No data to display for General Status.</div>');
+                return;
+            }
+
+            // Create amCharts root
+            amChartsRoots.overview = am5.Root.new("overviewChart");
+            
+            // Set themes
+            amChartsRoots.overview.setThemes([
+                am5themes_Animated.new(amChartsRoots.overview)
+            ]);
+            
+            // Create chart
+            const chart = amChartsRoots.overview.container.children.push(
+                am5percent.PieChart.new(amChartsRoots.overview, {
+                    layout: amChartsRoots.overview.verticalLayout,
+                    innerRadius: am5.percent(50)
+                })
+            );
+            
+            // Create series
+            const series = chart.series.push(
+                am5percent.PieSeries.new(amChartsRoots.overview, {
+                    valueField: "value",
+                    categoryField: "category",
+                    alignLabels: false
+                })
+            );
+            
+            // Set colors
+            series.get("colors").set("colors", [
+                am5.color("#4CAF50"), // Completed - Green
+                am5.color("#FFA600"), // Pending - Orange  
+                am5.color("#FC5F3F")  // Remaining - Red
+            ]);
+            
+            // Set data
+            const chartData = [
+                { category: "Completed", value: aggregatedStats.done },
+                { category: "Pending", value: aggregatedStats.pending },
+                { category: "Remaining", value: aggregatedStats.remaining }
+            ].filter(item => item.value > 0);
+            
+            series.data.setAll(chartData);
+            
+            // Add legend
+            const legend = chart.children.push(
+                am5.Legend.new(amChartsRoots.overview, {
+                    centerX: am5.percent(50),
+                    x: am5.percent(50),
+                    marginTop: 15,
+                    marginBottom: 15
+                })
+            );
+            
+            legend.data.setAll(series.dataItems);
+            
+            // Configure tooltips
+            series.slices.template.set("tooltipText", "{category}: {value} ({valuePercentTotal.formatNumber('#.0')}%)");
+            
+            // Play initial series animation
+            series.appear(1000, 100);
+            
+            chartInstances.overview = chart;
         }
 
         function renderDisciplineCharts() {
             const container = DOMElements.disciplineChartsContainer;
+            
+            // Dispose all existing discipline charts
+            Object.values(amChartsRoots.disciplines).forEach(root => {
+                if (root) root.dispose();
+            });
+            amChartsRoots.disciplines = {};
+            chartInstances.disciplines = {};
+            
             container.innerHTML = '';
 
             // Collect discipline data based on selected view
@@ -1785,19 +1943,84 @@ chartInstances.overview = new Chart(overviewCtx, {
                         <div class="card-body text-center">
                             <h6 class="text-muted small fw-medium mb-1">${name}</h6>
                             <p class="text-muted small mb-2">${data.total.toLocaleString()} items</p>
-                            <div class="chart-container" style="height: 200px;"><canvas id="${chartId}" role="img" aria-label="${chartLabel}"></canvas></div>
+                            <div class="chart-container" style="height: 200px;"><div id="${chartId}" style="width: 100%; height: 100%;"></div></div>
                         </div>
                     </div>`;
                 row.appendChild(col);
 
                 if (data.total > 0) {
                     setTimeout(() => {
-                        const ctx = document.getElementById(chartId).getContext('2d');
-                        const chartData = {
-                            labels: ['Completed', 'Pending', 'Remaining'],
-                            datasets: [{ label: name, data: [data.done, data.pending, data.remaining], backgroundColor: [COLORS_STATUS_CHARTJS.done, COLORS_STATUS_CHARTJS.pending, COLORS_STATUS_CHARTJS.remaining] }]
-                        };
-                        chartInstances.disciplines[name] = new Chart(ctx, { type: 'doughnut', data: chartData, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: true, position: 'bottom', labels: { boxWidth:10, font: {size: 10}} }, tooltip: { callbacks: { label: (context) => `${context.label}: ${context.formattedValue} (${Math.round(context.parsed / data.total * 100)}%)`}}} } });
+                        // Dispose previous chart if exists
+                        if (amChartsRoots.disciplines[name]) {
+                            amChartsRoots.disciplines[name].dispose();
+                        }
+                        
+                        // Create amCharts root
+                        amChartsRoots.disciplines[name] = am5.Root.new(chartId);
+                        
+                        // Set themes
+                        amChartsRoots.disciplines[name].setThemes([
+                            am5themes_Animated.new(amChartsRoots.disciplines[name])
+                        ]);
+                        
+                        // Create chart
+                        const chart = amChartsRoots.disciplines[name].container.children.push(
+                            am5percent.PieChart.new(amChartsRoots.disciplines[name], {
+                                layout: amChartsRoots.disciplines[name].verticalLayout,
+                                innerRadius: am5.percent(40)
+                            })
+                        );
+                        
+                        // Create series
+                        const series = chart.series.push(
+                            am5percent.PieSeries.new(amChartsRoots.disciplines[name], {
+                                valueField: "value",
+                                categoryField: "category",
+                                alignLabels: false
+                            })
+                        );
+                        
+                        // Set colors
+                        series.get("colors").set("colors", [
+                            am5.color("#4CAF50"), // Completed - Green
+                            am5.color("#FFA600"), // Pending - Orange  
+                            am5.color("#FC5F3F")  // Remaining - Red
+                        ]);
+                        
+                        // Set data
+                        const chartData = [
+                            { category: "Completed", value: data.done },
+                            { category: "Pending", value: data.pending },
+                            { category: "Remaining", value: data.remaining }
+                        ].filter(item => item.value > 0);
+                        
+                        series.data.setAll(chartData);
+                        
+                        // Add legend
+                        const legend = chart.children.push(
+                            am5.Legend.new(amChartsRoots.disciplines[name], {
+                                centerX: am5.percent(50),
+                                x: am5.percent(50),
+                                marginTop: 10,
+                                marginBottom: 5
+                            })
+                        );
+                        
+                        legend.data.setAll(series.dataItems);
+                        
+                        // Configure labels to be smaller
+                        legend.labels.template.setAll({
+                            fontSize: 10,
+                            fontWeight: "400"
+                        });
+                        
+                        // Configure tooltips
+                        series.slices.template.set("tooltipText", "{category}: {value} ({valuePercentTotal.formatNumber('#.0')}%)");
+                        
+                        // Play initial series animation
+                        series.appear(1000, 100);
+                        
+                        chartInstances.disciplines[name] = chart;
                     }, 0);
                 } else {
                      setTimeout(() => {document.getElementById(chartId).parentElement.innerHTML = '<div class="text-center text-muted small p-5" style="height:100%; display:flex; align-items:center; justify-content:center;">No data.</div>';},0);
@@ -1893,9 +2116,13 @@ chartInstances.overview = new Chart(overviewCtx, {
                 formDropdown.innerHTML = formOptions.join('');
             }
             
-            // Add filter event listeners
+            // Add filter event listeners with debounce
+            let filterTimeout;
             filterRow.querySelectorAll('input[type="text"]').forEach(input => {
-                input.addEventListener('input', filterMainTable);
+                input.addEventListener('input', () => {
+                    clearTimeout(filterTimeout);
+                    filterTimeout = setTimeout(filterMainTable, 300);
+                });
             });
             filterRow.querySelectorAll('.dropdown-menu input[type="checkbox"]').forEach(checkbox => {
                 checkbox.addEventListener('change', () => {
@@ -2019,6 +2246,31 @@ chartInstances.overview = new Chart(overviewCtx, {
             const date = new Date().toISOString().split('T')[0];
             XLSX.writeFile(wb, `SAPRA_Items_Details_${date}.xlsx`);
         }
+        
+        function printMainTable() {
+            const tbody = DOMElements.dataTableBody;
+            const visibleRows = Array.from(tbody.querySelectorAll('tr')).filter(row => row.style.display !== 'none');
+            
+            if (visibleRows.length === 0) {
+                alert('No data to print');
+                return;
+            }
+            
+            const headers = Array.from(document.querySelectorAll('#dataTableHead th')).map(th => th.textContent);
+            const data = visibleRows.map(row => 
+                Array.from(row.querySelectorAll('th, td')).map(cell => cell.textContent)
+            );
+            
+            const currentDate = new Date().toLocaleString();
+            const reportTitle = `Items Details - ${selectedView.name}`;
+            
+            const printWindow = window.open('', '_blank', 'width=1200,height=800');
+            
+            const printContent = `<!DOCTYPE html><html><head><title>${reportTitle}</title><style>@import url('https://fonts.googleapis.com/css2?family=Vazir:wght@400;700&display=swap');@page { size: A4 landscape; margin: 15mm 25mm 15mm 15mm; @bottom-center { content: "Page " counter(page) " of " counter(pages); font-size: 8px; } }body { font-family: Arial, sans-serif; font-size: 14px; margin: 0; text-align: center; }.header { display: flex; align-items: center; margin-bottom: 20px; border-bottom: 2px solid #000; padding-bottom: 10px; }.header-logo { width: 80px; height: 80px; margin-right: 20px; }.header-content { flex: 1; text-align: center; }.header h2 { margin: 0; font-size: 16px; }.header h3 { margin: 5px 0; font-size: 22px; font-weight: bold; }.header p { margin: 5px 0; font-size: 14px; }table { width: 100%; border-collapse: collapse; margin: 0 auto; }th, td { border: 1px solid #000; padding: 3px; text-align: center; word-wrap: break-word; white-space: normal; line-height: 1.2; }th { background-color: #f0f0f0; font-weight: bold; font-size: 13px; }td { font-size: 12px; font-weight: bold; }th:not(:nth-child(n+6)), td:not(:nth-child(n+6)) { white-space: nowrap; }tr:nth-child(even) { background-color: #f9f9f9; }.page-number { position: fixed; bottom: 0; left: 0; right: 0; text-align: center; font-size: 8px; color: #999; }</style></head><body><div class="header"><img src="images/SAPRA.png" alt="SAPRA Logo" class="header-logo"><div class="header-content"><h2>SAPRA - Smart Access to Project Activities</h2><h3>${reportTitle}</h3><p>Generated on: ${currentDate}</p><p>Total Records: ${data.length}</p></div></div><table><thead><tr>${headers.map(h => `<th>${h}</th>`).join('')}</tr></thead><tbody>${data.map(row => `<tr>${row.map(cell => `<td>${cell}</td>`).join('')}</tr>`).join('')}</tbody></table><script>window.onload = function() { window.print(); }</script></body></html>`;
+            
+            printWindow.document.write(printContent);
+            printWindow.document.close();
+        }
 
         // --- Data Aggregation (Adapted from dataAggregator.ts) ---
         const _emptyStats = () => ({ totalItems: 0, done: 0, pending: 0, punch: 0, hold: 0, remaining: 0 });
@@ -2102,6 +2354,54 @@ chartInstances.overview = new Chart(overviewCtx, {
             });
         }
 
+        // Export Activities to Excel
+        function exportActivitiesToExcel() {
+            const tagNo = document.getElementById('activitiesTagTitle').textContent.replace('فعالیتها برای: ', '');
+            const tableBody = document.getElementById('activitiesList');
+            const rows = Array.from(tableBody.querySelectorAll('tr'));
+            
+            if (rows.length === 0 || rows[0].querySelector('.no-activities')) {
+                alert('هیچ فعالیتی برای صادرات وجود ندارد');
+                return;
+            }
+            
+            const data = rows.map((row, index) => {
+                const cells = row.querySelectorAll('td');
+                return {
+                    'ردیف': cells[0]?.textContent || (index + 1),
+                    'عنوان فعالیت': cells[1]?.textContent || '',
+                    'وضعیت': cells[2]?.textContent?.includes('✅') ? 'انجام شده' : 'انجام نشده'
+                };
+            });
+            
+            const ws = XLSX.utils.json_to_sheet(data);
+            const wb = XLSX.utils.book_new();
+            XLSX.utils.book_append_sheet(wb, ws, 'Activities');
+            
+            const date = new Date().toISOString().split('T')[0];
+            const fileName = `SAPRA_Activities_${sanitizeFileName(tagNo)}_${date}.xlsx`;
+            XLSX.writeFile(wb, fileName);
+        }
+        
+        // Sanitize filename
+        function sanitizeFileName(name) {
+            return name.replace(/[^a-zA-Z0-9-_]/g, '_');
+        }
+        
+        // Sanitize HTML input
+        function sanitizeHTML(str) {
+            if (!str) return '';
+            const div = document.createElement('div');
+            div.textContent = str;
+            return div.innerHTML;
+        }
+        
+        // Sanitize CSV input
+        function sanitizeCSV(str) {
+            if (!str) return '';
+            return String(str).replace(/[<>"']/g, '');
+        }
+
         // --- Export to Excel ---
         function handleExport() {
             if (processedData && processedData.allRawData && processedData.allRawData.length > 0) {
@@ -2160,7 +2460,7 @@ chartInstances.overview = new Chart(overviewCtx, {
                     'ACTIVITES.CSV', 'DATA.CSV', 'HOLD_POINT.CSV',
                     'HOS.CSV', 'ITEMS.CSV', 'PUNCH.CSV', 'TRANS.CSV'
                 ];
-                const baseUrl = 'https://akarimvand.github.io/SAPRA2/dbcsv/';
+                const baseUrl = LOCAL_BASE_URL; // Use local folder instead of GitHub URL
 
                 // 2. Fetch files
                 for (let i = 0; i < csvFiles.length; i++) {
@@ -2295,6 +2595,86 @@ chartInstances.overview = new Chart(overviewCtx, {
             }
         }
 
+        function animateNumber(elementId, targetNumber, duration = 1000) {
+            const element = document.getElementById(elementId);
+            if (!element) return;
+            
+            let currentNumber = 0;
+            const increment = targetNumber / (duration / 25); // 25ms intervals
+            
+            const animation = setInterval(() => {
+                currentNumber += increment;
+                if (currentNumber >= targetNumber) {
+                    currentNumber = targetNumber;
+                    clearInterval(animation);
+                }
+                element.textContent = Math.round(currentNumber).toLocaleString();
+            }, 25);
+        }
+        
+        function createDonutChart(chartId, percentage, skipAnimation = false) {
+            const chartElement = document.getElementById(chartId);
+            if (!chartElement) return;
+            
+            const circumference = 27 * 2 * Math.PI;
+            const targetOffset = circumference - (percentage / 100) * circumference;
+            
+            chartElement.innerHTML = `
+                <svg width="63" height="63" style="transform: rotate(-90deg);">
+                    <circle
+                        stroke="rgba(255,255,255,0.2)"
+                        fill="transparent"
+                        stroke-width="5"
+                        r="27"
+                        cx="31.5"
+                        cy="31.5"
+                    />
+                    <circle
+                        id="${chartId}-progress"
+                        stroke="#FFFFFF"
+                        fill="transparent"
+                        stroke-width="5"
+                        stroke-dasharray="${circumference}"
+                        stroke-dashoffset="${skipAnimation ? targetOffset : circumference}"
+                        stroke-linecap="round"
+                        r="27"
+                        cx="31.5"
+                        cy="31.5"
+                        style="transition: ${skipAnimation ? 'none' : 'stroke-dashoffset 1s ease-in-out'};"
+                    />
+                </svg>
+                <div id="${chartId}-text" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 16px; font-weight: 600;">
+                    ${skipAnimation ? percentage + '%' : '0%'}
+                </div>
+            `;
+            
+            chartElement.style.position = 'relative';
+            
+            // Only animate if not skipping animation
+            if (!skipAnimation) {
+                setTimeout(() => {
+                    const progressCircle = document.getElementById(`${chartId}-progress`);
+                    const textElement = document.getElementById(`${chartId}-text`);
+                    
+                    if (progressCircle && textElement) {
+                        progressCircle.style.strokeDashoffset = targetOffset;
+                        
+                        // Animate text from 0 to percentage
+                        let currentPercentage = 0;
+                        const increment = percentage / 40; // 40 frames for 1 second animation
+                        const textAnimation = setInterval(() => {
+                            currentPercentage += increment;
+                            if (currentPercentage >= percentage) {
+                                currentPercentage = percentage;
+                                clearInterval(textAnimation);
+                            }
+                            textElement.textContent = Math.round(currentPercentage) + '%';
+                        }, 25); // 25ms interval for smooth animation
+                    }
+                }, 200);
+            }
+        }
+        
         function processActivitiesForTag(tagNo) {
             const filtered = activitiesData.filter(a => a.Tag_No === tagNo).sort((a, b) => a.Form_Title.localeCompare(b.Form_Title));
             const list = document.getElementById('activitiesList');
@@ -2324,6 +2704,94 @@ chartInstances.overview = new Chart(overviewCtx, {
             const percent = Math.round((doneCount / filtered.length) * 100);
             document.getElementById('activitiesProgressFill').style.width = `${percent}%`;
             document.getElementById('activitiesProgressText').textContent = `${percent}% (${doneCount}/${filtered.length})`;
+        }
+        
+        function printModal() {
+            const modalTitle = document.getElementById('itemDetailsModalLabel').textContent;
+            const currentDate = new Date().toLocaleString();
+            const tableBody = document.getElementById('itemDetailsTableBody');
+            const tableHeader = document.getElementById('itemDetailsModalHeader');
+            const visibleRows = Array.from(tableBody.querySelectorAll('tr')).filter(row => row.style.display !== 'none');
+            
+            if (visibleRows.length === 0) {
+                alert('No data to print');
+                return;
+            }
+            
+            // Get headers
+            const headers = Array.from(tableHeader.querySelectorAll('th')).map(th => th.textContent);
+            
+            // Get visible data
+            const data = visibleRows.map(row => 
+                Array.from(row.querySelectorAll('td')).map(td => td.textContent)
+            );
+            
+            // Create print window
+            const printWindow = window.open('', '_blank', 'width=1200,height=800');
+            
+            const printContent = `
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <title>${modalTitle}</title>
+                    <style>
+                        @import url('https://fonts.googleapis.com/css2?family=Vazir:wght@400;700&display=swap');
+                        @page { size: A4 landscape; margin: 15mm 25mm 15mm 15mm; @bottom-center { content: "Page " counter(page) " of " counter(pages); font-size: 8px; } }
+                        body { font-family: Arial, sans-serif; font-size: 14px; margin: 0; text-align: center; }
+                        .header { display: flex; align-items: center; margin-bottom: 20px; border-bottom: 2px solid #000; padding-bottom: 10px; }
+                        .header-logo { width: 80px; height: 80px; margin-right: 20px; }
+                        .header-content { flex: 1; text-align: center; }
+                        .header h2 { margin: 0; font-size: 16px; }
+                        .header h3 { margin: 5px 0; font-size: 22px; font-weight: bold; }
+                        .header p { margin: 5px 0; font-size: 14px; }
+                        table { width: 100%; border-collapse: collapse; margin: 0 auto; }
+                        th, td { border: 1px solid #000; padding: 3px; text-align: center; word-wrap: break-word; white-space: normal; line-height: 1.2; }
+                        th { background-color: #f0f0f0; font-weight: bold; font-size: 13px; }
+                        td { font-size: 12px; font-weight: bold; }
+                        th:nth-child(1), td:nth-child(1) { width: 4%; white-space: nowrap; }
+                        th:nth-child(2), td:nth-child(2) { width: 10%; white-space: nowrap; }
+                        th:nth-child(3), td:nth-child(3) { width: 10%; white-space: nowrap; }
+                        th:nth-child(4), td:nth-child(4) { width: 12%; white-space: nowrap; }
+                        th:nth-child(5), td:nth-child(5) { width: 8%; white-space: nowrap; }
+                        th:nth-child(6), td:nth-child(6) { width: 8%; white-space: nowrap; }
+                        th:nth-child(7), td:nth-child(7) { width: 40%; }
+                        th:nth-child(8), td:nth-child(8) { width: 8%; white-space: nowrap; }
+                        td:nth-child(7) { direction: rtl; text-align: center; font-family: 'Vazir', Arial, sans-serif; font-size: 14px; font-weight: bold; }
+                        td:nth-child(8) { font-weight: bold; color: red; font-size: 13px; }
+                        tr:nth-child(even) { background-color: #f9f9f9; }
+                        .page-number { position: fixed; bottom: 0; left: 0; right: 0; text-align: center; font-size: 8px; color: #999; }
+                    </style>
+                </head>
+                <body>
+                    <div class="header">
+                        <img src="images/SAPRA.png" alt="SAPRA Logo" class="header-logo">
+                        <div class="header-content">
+                            <h2>SAPRA - Smart Access to Project Activities</h2>
+                            <h3>${modalTitle}</h3>
+                            <p>Generated on: ${currentDate}</p>
+                            <p>Total Records: ${data.length}</p>
+                        </div>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>${headers.map(h => `<th>${h}</th>`).join('')}</tr>
+                        </thead>
+                        <tbody>
+                            ${data.map(row => `<tr>${row.map(cell => `<td>${cell}</td>`).join('')}</tr>`).join('')}
+                        </tbody>
+                    </table>
+
+                    <script>
+                        window.onload = function() {
+                            window.print();
+                        }
+                    </script>
+                </body>
+                </html>
+            `;
+            
+            printWindow.document.write(printContent);
+            printWindow.document.close();
         }
     (function() {
         const cardSelectors = [

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAPRA Documentation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1877F2;
+            --primary-hover: #166FE5;
+            --success-color: #28a745;
+            --info-color: #fc5f3f;
+            --warning-color: #ffc107;
+            --danger-color: #dc3545;
+            --background-color: #f5f7fa;
+            --card-background-color: #ffffff;
+            --text-color: #212529;
+            --text-muted-color: #6c757d;
+            --shadow-sm: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+            --shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+            --transition-base: all 0.3s ease-in-out;
+            --border-radius: 0.5rem;
+            --font-family-sans-serif: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+        
+        * {
+            font-family: var(--font-family-sans-serif);
+        }
+        
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            padding: 1.5rem 0;
+        }
+        
+        .lang-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        
+        .lang-btn {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            margin: 0 0.25rem;
+            transition: var(--transition-base);
+            font-size: 0.85rem;
+        }
+        
+        .lang-btn.active {
+            background: var(--primary-hover);
+            box-shadow: 0 2px 8px rgba(24,119,242,0.3);
+        }
+        
+        .lang-btn:hover {
+            background: var(--primary-hover);
+            transform: translateY(-1px);
+        }
+        
+        .content-card {
+            background: var(--card-background-color);
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: var(--shadow-sm);
+            border: none;
+            transition: var(--transition-base);
+        }
+        
+        .content-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+        }
+        
+        .section-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 2rem;
+            color: var(--text-color);
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: '';
+            width: 60px;
+            height: 3px;
+            background-color: var(--primary-color);
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 2px;
+        }
+        
+        .highlight-box {
+            background: rgba(24, 119, 242, 0.1);
+            border: 1px solid rgba(24, 119, 242, 0.2);
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+        }
+        
+        .warning-box {
+            background: rgba(220, 53, 69, 0.1);
+            border: 1px solid rgba(220, 53, 69, 0.2);
+            border-left: 4px solid var(--danger-color);
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1.5rem 0;
+        }
+        
+        .lang-content {
+            display: none;
+        }
+        
+        .lang-content.active {
+            display: block;
+        }
+        
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            margin: 1rem 0;
+        }
+        
+        .feature-list li {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+            padding: 0.5rem;
+            background: rgba(40, 167, 69, 0.05);
+            border-radius: 6px;
+            transition: var(--transition-base);
+        }
+        
+        .feature-list li:hover {
+            background: rgba(40, 167, 69, 0.1);
+            transform: translateX(4px);
+        }
+        
+        .feature-list i {
+            margin-right: 0.75rem;
+            margin-top: 0.1rem;
+            flex-shrink: 0;
+        }
+        
+        .contact-info {
+            text-align: center;
+            padding: 1.5rem;
+            background: rgba(108, 117, 125, 0.1);
+            border-radius: 8px;
+            margin-top: 2rem;
+            border-top: 3px solid var(--primary-color);
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .animate-in {
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+    </style>
+</head>
+<body>
+    <div class="lang-toggle">
+        <button class="lang-btn active" onclick="switchLang('en')">English</button>
+        <button class="lang-btn" onclick="switchLang('fa')">فارسی</button>
+    </div>
+
+    <div class="container">
+        <!-- English Content -->
+        <div id="en-content" class="lang-content active">
+            <div class="content-card animate-in">
+                <h1 class="section-title">SAPRA Documentation</h1>
+                
+                <div class="highlight-box">
+                    <i class="bi bi-file-earmark-text text-primary fs-4"></i>
+                    <div>
+                        <h5 class="fw-bold text-primary mb-1">Smart Access to Project Activities</h5>
+                        <p class="mb-0 small text-muted">
+                            Comprehensive documentation for <strong>project management and monitoring system</strong> designed for industrial projects.
+                        </p>
+                    </div>
+                </div>
+
+                <h3>System Overview</h3>
+                <p>
+                    SAPRA is an intelligent project management system designed for monitoring and controlling activities in industrial projects. The system provides capabilities for tracking item completion status, managing punches, and monitoring subsystem delivery processes.
+                </p>
+
+                <h3>Key Features</h3>
+                <ul class="feature-list">
+                    <li><i class="bi bi-bar-chart text-success"></i><strong>Analytical Dashboard</strong> - Display overall project statistics with interactive amCharts</li>
+                    <li><i class="bi bi-search text-success"></i><strong>Advanced Search & Filter</strong> - Quick item search with discipline, status, and subsystem filters</li>
+                    <li><i class="bi bi-file-earmark-spreadsheet text-success"></i><strong>Reporting</strong> - Punch status reports with trend charts and Excel export</li>
+                    <li><i class="bi bi-arrow-repeat text-success"></i><strong>Workflow Management</strong> - Track subsystem delivery stages and handover forms</li>
+                    <li><i class="bi bi-eye text-success"></i><strong>Hold Point Monitoring</strong> - Display Hold Point status and management</li>
+                </ul>
+
+                <h3>File Structure</h3>
+                <div class="highlight-box">
+                    <i class="bi bi-folder text-primary fs-4"></i>
+                    <div>
+                        <h6 class="fw-bold mb-2">Main Files:</h6>
+                        <ul class="mb-0 small">
+                            <li><strong>index.html</strong> - Login page</li>
+                            <li><strong>main.html</strong> - Main dashboard</li>
+                            <li><strong>main.js</strong> - Core application logic</li>
+                            <li><strong>main.css</strong> - Main styles</li>
+                            <li><strong>reports.html</strong> - Punch reports</li>
+                            <li><strong>dbcsv/</strong> - CSV data files</li>
+                            <li><strong>amcharts/</strong> - Local chart library</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3>Technologies Used</h3>
+                <ul class="feature-list">
+                    <li><i class="bi bi-code-square text-success"></i><strong>Frontend:</strong> HTML5, CSS3, JavaScript (ES6+)</li>
+                    <li><i class="bi bi-bootstrap text-success"></i><strong>UI Framework:</strong> Bootstrap 5</li>
+                    <li><i class="bi bi-graph-up text-success"></i><strong>Charts:</strong> amCharts 5</li>
+                    <li><i class="bi bi-file-earmark-text text-success"></i><strong>Data Processing:</strong> Papa Parse (CSV)</li>
+                    <li><i class="bi bi-download text-success"></i><strong>Export:</strong> SheetJS (Excel), html2canvas (Images)</li>
+                </ul>
+
+                <h3>Installation & Setup</h3>
+                <ol>
+                    <li>Place project files on web server</li>
+                    <li>Copy amCharts files to <code>amcharts/</code> folder</li>
+                    <li>Place CSV files in <code>dbcsv/</code> folder</li>
+                    <li>Navigate to <code>index.html</code></li>
+                </ol>
+
+                <div class="contact-info">
+                    <h6 class="fw-bold text-primary mb-2">Developer Information</h6>
+                    <p class="mb-1"><strong>Amin Naseri Karimvand</strong></p>
+                    <p class="mb-1"><i class="bi bi-envelope me-2"></i>akarimvand@gmail.com</p>
+                    <p class="mb-0"><i class="bi bi-telephone me-2"></i>+98 936 630 2800</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Persian Content -->
+        <div id="fa-content" class="lang-content" dir="rtl">
+            <div class="content-card animate-in">
+                <h1 class="section-title">مستندات SAPRA</h1>
+                
+                <div class="highlight-box">
+                    <i class="bi bi-file-earmark-text text-primary fs-4"></i>
+                    <div>
+                        <h5 class="fw-bold text-primary mb-1">دسترسی هوشمند به فعالیت‌های پروژه</h5>
+                        <p class="mb-0 small text-muted">
+                            مستندات جامع برای <strong>سیستم مدیریت و نظارت پروژه</strong> طراحی شده برای پروژه‌های صنعتی
+                        </p>
+                    </div>
+                </div>
+
+                <h3>نمای کلی سیستم</h3>
+                <p>
+                    SAPRA یک سیستم مدیریت پروژه هوشمند است که برای نظارت و کنترل فعالیت‌های پروژه‌های صنعتی طراحی شده است. این سیستم امکان ردیابی وضعیت تکمیل آیتم‌ها، مدیریت پانچ‌ها و نظارت بر فرآیند تحویل زیرسیستم‌ها را فراهم می‌کند.
+                </p>
+
+                <h3>ویژگی‌های کلیدی</h3>
+                <ul class="feature-list">
+                    <li><i class="bi bi-bar-chart text-success"></i><strong>داشبورد تحلیلی</strong> - نمایش آمار کلی پروژه با چارت‌های تعاملی amCharts</li>
+                    <li><i class="bi bi-search text-success"></i><strong>جستجو و فیلتر پیشرفته</strong> - جستجوی سریع آیتم‌ها با فیلتر رشته، وضعیت و زیرسیستم</li>
+                    <li><i class="bi bi-file-earmark-spreadsheet text-success"></i><strong>گزارش‌گیری</strong> - گزارش وضعیت پانچ‌ها با نمودار روند و صادرات Excel</li>
+                    <li><i class="bi bi-arrow-repeat text-success"></i><strong>مدیریت گردش کار</strong> - ردیابی مراحل تحویل زیرسیستم‌ها و فرم‌های تحویل</li>
+                    <li><i class="bi bi-eye text-success"></i><strong>نظارت بر Hold Point</strong> - نمایش وضعیت و مدیریت Hold Point ها</li>
+                </ul>
+
+                <h3>ساختار فایل‌ها</h3>
+                <div class="highlight-box">
+                    <i class="bi bi-folder text-primary fs-4"></i>
+                    <div>
+                        <h6 class="fw-bold mb-2">فایل‌های اصلی:</h6>
+                        <ul class="mb-0 small">
+                            <li><strong>index.html</strong> - صفحه ورود</li>
+                            <li><strong>main.html</strong> - داشبورد اصلی</li>
+                            <li><strong>main.js</strong> - منطق اصلی برنامه</li>
+                            <li><strong>main.css</strong> - استایل‌های اصلی</li>
+                            <li><strong>reports.html</strong> - گزارش پانچ‌ها</li>
+                            <li><strong>dbcsv/</strong> - فایل‌های داده CSV</li>
+                            <li><strong>amcharts/</strong> - کتابخانه چارت محلی</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3>فناوری‌های استفاده شده</h3>
+                <ul class="feature-list">
+                    <li><i class="bi bi-code-square text-success"></i><strong>Frontend:</strong> HTML5, CSS3, JavaScript (ES6+)</li>
+                    <li><i class="bi bi-bootstrap text-success"></i><strong>UI Framework:</strong> Bootstrap 5</li>
+                    <li><i class="bi bi-graph-up text-success"></i><strong>Charts:</strong> amCharts 5</li>
+                    <li><i class="bi bi-file-earmark-text text-success"></i><strong>Data Processing:</strong> Papa Parse (CSV)</li>
+                    <li><i class="bi bi-download text-success"></i><strong>Export:</strong> SheetJS (Excel), html2canvas (Images)</li>
+                </ul>
+
+                <h3>نصب و راه‌اندازی</h3>
+                <ol>
+                    <li>فایل‌های پروژه را در وب سرور قرار دهید</li>
+                    <li>فایل‌های amCharts را در پوشه <code>amcharts/</code> کپی کنید</li>
+                    <li>فایل‌های CSV را در پوشه <code>dbcsv/</code> قرار دهید</li>
+                    <li>به <code>index.html</code> مراجعه کنید</li>
+                </ol>
+
+                <div class="contact-info">
+                    <h6 class="fw-bold text-primary mb-2">اطلاعات توسعه‌دهنده</h6>
+                    <p class="mb-1"><strong>امین ناصری کریموند</strong></p>
+                    <p class="mb-1"><i class="bi bi-envelope me-2"></i>akarimvand@gmail.com</p>
+                    <p class="mb-0"><i class="bi bi-telephone me-2"></i>+98 936 630 2800</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function switchLang(lang) {
+            // Hide all content
+            document.querySelectorAll('.lang-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            
+            // Show selected language content
+            document.getElementById(lang + '-content').classList.add('active');
+            
+            // Update button states
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            // Update document direction
+            if (lang === 'fa') {
+                document.documentElement.setAttribute('dir', 'rtl');
+            } else {
+                document.documentElement.setAttribute('dir', 'ltr');
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const animateElements = document.querySelectorAll('.animate-in');
+            animateElements.forEach((el, index) => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                
+                setTimeout(() => {
+                    el.style.transition = 'all 0.6s ease-out';
+                    el.style.opacity = '1';
+                    el.style.transform = 'translateY(0)';
+                }, 200);
+            });
+        });
+    </script>
+</body>
+</html>

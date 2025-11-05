@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SAPRA Tutorial</title>
+    <title>SAPRA Training Guide</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
@@ -64,84 +64,17 @@
             transform: translateY(-1px);
         }
         
-        .feature-card {
+        .content-card {
             background: var(--card-background-color);
             border-radius: 12px;
-            padding: 1.5rem;
-            margin-bottom: 1.5rem;
+            padding: 2rem;
             box-shadow: var(--shadow-sm);
             border: none;
             transition: var(--transition-base);
-            height: 100%;
         }
         
-        .feature-card:hover {
-            transform: translateY(-6px);
-            box-shadow: 0 12px 24px rgba(0,0,0,0.12);
-        }
-        
-        .feature-icon {
-            width: 50px;
-            height: 50px;
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.3rem;
-            margin-bottom: 1rem;
-            color: white;
-        }
-        
-        .icon-primary { background-color: var(--primary-color); }
-        .icon-success { background-color: var(--success-color); }
-        .icon-warning { background-color: var(--warning-color); }
-        .icon-info { background-color: var(--info-color); }
-        .icon-danger { background-color: var(--danger-color); }
-        .icon-secondary { background-color: #6c757d; }
-        
-        .feature-title {
-            font-size: 1.1rem;
-            font-weight: 600;
-            margin-bottom: 0.75rem;
-            color: var(--text-color);
-        }
-        
-        .feature-description {
-            color: var(--text-muted-color);
-            line-height: 1.5;
-            margin-bottom: 1rem;
-            font-size: 0.9rem;
-        }
-        
-        .step-number {
-            width: 35px;
-            height: 35px;
-            border-radius: 50%;
-            background-color: var(--primary-color);
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 600;
-            margin-right: 1rem;
-            flex-shrink: 0;
-            font-size: 0.9rem;
-        }
-        
-        .workflow-step {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 1rem;
-            padding: 1rem;
-            background: var(--card-background-color);
-            border-radius: 8px;
-            border-left: 3px solid var(--primary-color);
-            box-shadow: var(--shadow-sm);
-            transition: var(--transition-base);
-        }
-        
-        .workflow-step:hover {
-            transform: translateX(4px);
+        .content-card:hover {
+            transform: translateY(-2px);
             box-shadow: var(--shadow);
         }
         
@@ -166,71 +99,24 @@
             border-radius: 2px;
         }
         
-        .gradient-form-a { background: linear-gradient(135deg, #F25022, #d13415); }
-        .gradient-form-b { background: linear-gradient(135deg, #00B294, #008a73); }
-        .gradient-form-c { background: linear-gradient(135deg, #00BCF2, #0097c1); }
-        .gradient-form-d { background: linear-gradient(135deg, #8E44AD, #6c3483); }
-        
-        .form-demo-card {
-            color: white;
-            padding: 0.5rem;
-            border-radius: 6px;
-            margin-bottom: 0.5rem;
-            text-align: center;
-            font-weight: 600;
-            font-size: 0.8rem;
-            transition: var(--transition-base);
-        }
-        
-        .form-demo-card:hover {
-            transform: scale(1.05);
-        }
-        
-        .tips-card {
-            background: var(--card-background-color);
+        .highlight-box {
+            background: rgba(24, 119, 242, 0.1);
+            border: 1px solid rgba(24, 119, 242, 0.2);
             border-radius: 8px;
-            padding: 1.2rem;
-            box-shadow: var(--shadow-sm);
-            border: none;
-            transition: var(--transition-base);
-            height: 100%;
-        }
-        
-        .tips-card:hover {
-            transform: translateY(-4px);
-            box-shadow: var(--shadow);
-        }
-        
-        .tips-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-        
-        .tips-list li {
+            padding: 1rem;
+            margin: 1.5rem 0;
             display: flex;
-            align-items: center;
-            margin-bottom: 0.6rem;
-            font-size: 0.85rem;
-            transition: var(--transition-base);
+            align-items: flex-start;
+            gap: 0.75rem;
         }
         
-        .tips-list li:hover {
-            transform: translateX(4px);
-            color: var(--primary-color);
-        }
-        
-        .tips-list i {
-            margin-right: 0.6rem;
-            flex-shrink: 0;
-        }
-        
-        .color-indicator {
-            width: 14px;
-            height: 14px;
-            border-radius: 50%;
-            margin-right: 0.6rem;
-            flex-shrink: 0;
+        .warning-box {
+            background: rgba(220, 53, 69, 0.1);
+            border: 1px solid rgba(220, 53, 69, 0.2);
+            border-left: 4px solid var(--danger-color);
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1.5rem 0;
         }
         
         .lang-content {
@@ -239,6 +125,68 @@
         
         .lang-content.active {
             display: block;
+        }
+        
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            margin: 1rem 0;
+        }
+        
+        .feature-list li {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+            padding: 0.5rem;
+            background: rgba(40, 167, 69, 0.05);
+            border-radius: 6px;
+            transition: var(--transition-base);
+        }
+        
+        .feature-list li:hover {
+            background: rgba(40, 167, 69, 0.1);
+            transform: translateX(4px);
+        }
+        
+        .feature-list i {
+            margin-right: 0.75rem;
+            margin-top: 0.1rem;
+            flex-shrink: 0;
+        }
+        
+        .contact-info {
+            text-align: center;
+            padding: 1.5rem;
+            background: rgba(108, 117, 125, 0.1);
+            border-radius: 8px;
+            margin-top: 2rem;
+            border-top: 3px solid var(--primary-color);
+        }
+        
+        .step-box {
+            background: rgba(24, 119, 242, 0.05);
+            border: 1px solid rgba(24, 119, 242, 0.1);
+            border-left: 4px solid var(--primary-color);
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1rem 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+        }
+        
+        .step-number {
+            background: var(--primary-color);
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 0.9rem;
+            flex-shrink: 0;
         }
         
         @keyframes fadeInUp {
@@ -253,15 +201,8 @@
         }
         
         .animate-in {
-            animation: fadeInUp 0.5s ease-out forwards;
+            animation: fadeInUp 0.6s ease-out forwards;
         }
-        
-        .stagger-1 { animation-delay: 0.1s; }
-        .stagger-2 { animation-delay: 0.2s; }
-        .stagger-3 { animation-delay: 0.3s; }
-        .stagger-4 { animation-delay: 0.4s; }
-        .stagger-5 { animation-delay: 0.5s; }
-        .stagger-6 { animation-delay: 0.6s; }
     </style>
 </head>
 <body>
@@ -273,376 +214,180 @@
     <div class="container">
         <!-- English Content -->
         <div id="en-content" class="lang-content active">
-            <!-- Features Section -->
-            <section class="mb-4">
-                <h2 class="section-title">Core Features</h2>
-                <div class="row g-3">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="feature-card animate-in stagger-1">
-                            <div class="feature-icon icon-primary">
-                                <i class="bi bi-speedometer2"></i>
-                            </div>
-                            <h3 class="feature-title">Main Dashboard</h3>
-                            <p class="feature-description">
-                                Comprehensive overview of project status including completed, pending, and remaining items with real-time updates.
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-6">
-                        <div class="feature-card animate-in stagger-2">
-                            <div class="feature-icon icon-success">
-                                <i class="bi bi-diagram-3"></i>
-                            </div>
-                            <h3 class="feature-title">System Management</h3>
-                            <p class="feature-description">
-                                Organize projects by systems and subsystems with advanced search and filtering capabilities.
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-6">
-                        <div class="feature-card animate-in stagger-3">
-                            <div class="feature-icon icon-info">
-                                <i class="bi bi-bar-chart"></i>
-                            </div>
-                            <h3 class="feature-title">Analytics Charts</h3>
-                            <p class="feature-description">
-                                Interactive visual data representation with doughnut charts for overall status and discipline breakdowns.
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-6">
-                        <div class="feature-card animate-in stagger-4">
-                            <div class="feature-icon icon-warning">
-                                <i class="bi bi-file-earmark-text"></i>
-                            </div>
-                            <h3 class="feature-title">Form Management</h3>
-                            <p class="feature-description">
-                                Track status of Forms A, B, C, and D for each subsystem with detailed handover information.
-                            </p>
-                            <div class="row mb-2">
-                                <div class="col-6"><div class="form-demo-card gradient-form-a">FORM A</div></div>
-                                <div class="col-6"><div class="form-demo-card gradient-form-b">FORM B</div></div>
-                                <div class="col-6"><div class="form-demo-card gradient-form-c">FORM C</div></div>
-                                <div class="col-6"><div class="form-demo-card gradient-form-d">FORM D</div></div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-6">
-                        <div class="feature-card animate-in stagger-5">
-                            <div class="feature-icon icon-danger">
-                                <i class="bi bi-exclamation-triangle"></i>
-                            </div>
-                            <h3 class="feature-title">Issue Tracking</h3>
-                            <p class="feature-description">
-                                Monitor Punch Lists and Hold Points with detailed information and priority levels.
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-6">
-                        <div class="feature-card animate-in stagger-6">
-                            <div class="feature-icon icon-secondary">
-                                <i class="bi bi-download"></i>
-                            </div>
-                            <h3 class="feature-title">Advanced Reporting</h3>
-                            <p class="feature-description">
-                                Export data to Excel format and download complete project information with customizable reports.
-                            </p>
-                        </div>
+            <div class="content-card animate-in">
+                <h1 class="section-title">SAPRA Training Guide</h1>
+                
+                <div class="highlight-box">
+                    <i class="bi bi-mortarboard text-primary fs-4"></i>
+                    <div>
+                        <h5 class="fw-bold text-primary mb-1">Learn SAPRA System</h5>
+                        <p class="mb-0 small text-muted">
+                            Complete training guide for <strong>Smart Access to Project Activities</strong> system usage and features.
+                        </p>
                     </div>
                 </div>
-            </section>
 
-            <!-- Workflow Section -->
-            <section class="mb-4">
-                <h2 class="section-title">How It Works</h2>
+                <h3>Getting Started</h3>
+                <p>
+                    SAPRA is an intelligent project management system designed for monitoring and controlling activities in industrial projects. This guide will help you understand and effectively use all system features.
+                </p>
+
+                <h3>Step-by-Step Tutorial</h3>
                 
-                <div class="workflow-step animate-in stagger-1">
+                <div class="step-box">
                     <div class="step-number">1</div>
                     <div>
-                        <h6 class="mb-1 fw-semibold">System Initialization</h6>
-                        <p class="mb-0 text-muted small">The system automatically loads project data from online sources upon page load.</p>
+                        <h6 class="fw-bold mb-1">System Login</h6>
+                        <p class="mb-0 small text-muted">Access the system through the login page, select your project phase, and enter your credentials.</p>
                     </div>
                 </div>
                 
-                <div class="workflow-step animate-in stagger-2">
+                <div class="step-box">
                     <div class="step-number">2</div>
                     <div>
-                        <h6 class="mb-1 fw-semibold">Select System or Subsystem</h6>
-                        <p class="mb-0 text-muted small">Choose your desired system or subsystem from the right sidebar menu.</p>
+                        <h6 class="fw-bold mb-1">Dashboard Overview</h6>
+                        <p class="mb-0 small text-muted">The main dashboard displays project statistics, form status cards, and interactive charts.</p>
                     </div>
                 </div>
                 
-                <div class="workflow-step animate-in stagger-3">
+                <div class="step-box">
                     <div class="step-number">3</div>
                     <div>
-                        <h6 class="mb-1 fw-semibold">Review Summary Information</h6>
-                        <p class="mb-0 text-muted small">Summary cards at the top display overall status. Click on any card to view details.</p>
+                        <h6 class="fw-bold mb-1">Navigation</h6>
+                        <p class="mb-0 small text-muted">Use the sidebar to select systems and subsystems. The tree view shows hierarchical project structure.</p>
                     </div>
                 </div>
                 
-                <div class="workflow-step animate-in stagger-4">
+                <div class="step-box">
                     <div class="step-number">4</div>
                     <div>
-                        <h6 class="mb-1 fw-semibold">Analyze Charts</h6>
-                        <p class="mb-0 text-muted small">Use the "Overview" and "By Discipline" tabs to view analytical charts.</p>
+                        <h6 class="fw-bold mb-1">Data Analysis</h6>
+                        <p class="mb-0 small text-muted">Click on summary cards to view detailed information. Use charts for visual data analysis.</p>
                     </div>
                 </div>
                 
-                <div class="workflow-step animate-in stagger-5">
+                <div class="step-box">
                     <div class="step-number">5</div>
                     <div>
-                        <h6 class="mb-1 fw-semibold">Explore Detailed Tables</h6>
-                        <p class="mb-0 text-muted small">The bottom table shows detailed information for each discipline.</p>
+                        <h6 class="fw-bold mb-1">Reporting</h6>
+                        <p class="mb-0 small text-muted">Export data to Excel format and generate comprehensive project reports.</p>
                     </div>
                 </div>
-            </section>
 
-            <!-- Tips Section -->
-            <section class="mb-4">
-                <h2 class="section-title">Pro Tips</h2>
-                <div class="row g-3">
-                    <div class="col-lg-6">
-                        <div class="tips-card animate-in stagger-1">
-                            <h6 class="mb-2 d-flex align-items-center">
-                                <i class="bi bi-lightbulb text-warning me-2"></i>
-                                Essential Tips
-                            </h6>
-                            <ul class="tips-list">
-                                <li><i class="bi bi-check-circle text-success"></i>Click on Tag Numbers to view related activities</li>
-                                <li><i class="bi bi-check-circle text-success"></i>Use table filters for quick data search</li>
-                                <li><i class="bi bi-check-circle text-success"></i>Charts are interactive with hover details</li>
-                                <li><i class="bi bi-check-circle text-success"></i>Data updates automatically from online sources</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="tips-card animate-in stagger-2">
-                            <h6 class="mb-2 d-flex align-items-center">
-                                <i class="bi bi-palette text-primary me-2"></i>
-                                Color Guide
-                            </h6>
-                            <div class="row">
-                                <div class="col-6 mb-1">
-                                    <div class="d-flex align-items-center">
-                                        <div class="color-indicator bg-success"></div>
-                                        <span class="small">Completed</span>
-                                    </div>
-                                </div>
-                                <div class="col-6 mb-1">
-                                    <div class="d-flex align-items-center">
-                                        <div class="color-indicator bg-warning"></div>
-                                        <span class="small">Pending</span>
-                                    </div>
-                                </div>
-                                <div class="col-6 mb-1">
-                                    <div class="d-flex align-items-center">
-                                        <div class="color-indicator bg-info"></div>
-                                        <span class="small">Remaining</span>
-                                    </div>
-                                </div>
-                                <div class="col-6 mb-1">
-                                    <div class="d-flex align-items-center">
-                                        <div class="color-indicator bg-danger"></div>
-                                        <span class="small">Issues</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <h3>Key Features</h3>
+                <ul class="feature-list">
+                    <li><i class="bi bi-speedometer2 text-primary"></i><strong>Real-time Dashboard</strong> - Live project status updates</li>
+                    <li><i class="bi bi-diagram-3 text-success"></i><strong>System Management</strong> - Hierarchical project organization</li>
+                    <li><i class="bi bi-bar-chart text-info"></i><strong>Interactive Charts</strong> - Visual data representation</li>
+                    <li><i class="bi bi-file-earmark-text text-warning"></i><strong>Form Tracking</strong> - Monitor Forms A, B, C, D status</li>
+                    <li><i class="bi bi-exclamation-triangle text-danger"></i><strong>Issue Management</strong> - Track punches and hold points</li>
+                    <li><i class="bi bi-download text-secondary"></i><strong>Export Capabilities</strong> - Generate Excel reports</li>
+                </ul>
+
+                <h3>Tips & Best Practices</h3>
+                <ul class="feature-list">
+                    <li><i class="bi bi-lightbulb text-warning"></i>Click on Tag Numbers to view related activities</li>
+                    <li><i class="bi bi-search text-primary"></i>Use search and filter functions for quick data access</li>
+                    <li><i class="bi bi-mouse text-info"></i>Hover over charts for detailed information</li>
+                    <li><i class="bi bi-keyboard text-success"></i>Use keyboard shortcuts for faster navigation</li>
+                </ul>
+
+                <div class="contact-info">
+                    <h6 class="fw-bold text-primary mb-2">Training Support</h6>
+                    <p class="mb-1"><strong>Amin Naseri Karimvand</strong></p>
+                    <p class="mb-1"><i class="bi bi-envelope me-2"></i>akarimvand@gmail.com</p>
+                    <p class="mb-0"><i class="bi bi-telephone me-2"></i>+98 936 630 2800</p>
                 </div>
-            </section>
+            </div>
         </div>
 
         <!-- Persian Content -->
         <div id="fa-content" class="lang-content" dir="rtl">
-            <!-- Features Section -->
-            <section class="mb-4">
-                <h2 class="section-title">امکانات اصلی</h2>
-                <div class="row g-3">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="feature-card animate-in stagger-1">
-                            <div class="feature-icon icon-primary">
-                                <i class="bi bi-speedometer2"></i>
-                            </div>
-                            <h3 class="feature-title">داشبورد اصلی</h3>
-                            <p class="feature-description">
-                                نمایش خلاصهای از وضعیت کلی پروژه شامل آیتمهای تکمیل شده، در حال انجام و باقیمانده با بروزرسانی لحظه ای.
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-6">
-                        <div class="feature-card animate-in stagger-2">
-                            <div class="feature-icon icon-success">
-                                <i class="bi bi-diagram-3"></i>
-                            </div>
-                            <h3 class="feature-title">مدیریت سیستمها</h3>
-                            <p class="feature-description">
-                                سازمان دهی پروژه بر اساس سیستمها و ساب سیستمها با امکانات پیشرفته جستجو و فیلتر کردن.
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-6">
-                        <div class="feature-card animate-in stagger-3">
-                            <div class="feature-icon icon-info">
-                                <i class="bi bi-bar-chart"></i>
-                            </div>
-                            <h3 class="feature-title">نمودارهای تحلیلی</h3>
-                            <p class="feature-description">
-                                نمایش تعاملی داده ها با نمودارهای دونات برای وضعیت کلی و تفکیک بر اساس دیسیپلینها.
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-6">
-                        <div class="feature-card animate-in stagger-4">
-                            <div class="feature-icon icon-warning">
-                                <i class="bi bi-file-earmark-text"></i>
-                            </div>
-                            <h3 class="feature-title">وضعیت تحویل ساب سیستمها</h3>
-                            <p class="feature-description">
-                                ردیابی وضعیت فرمهای A، B، C و D برای هر ساب سیستم با اطلاعات تفصیلی تحویل.
-                            </p>
-                            <div class="row mb-2">
-                                <div class="col-6"><div class="form-demo-card gradient-form-a">فرم A</div></div>
-                                <div class="col-6"><div class="form-demo-card gradient-form-b">فرم B</div></div>
-                                <div class="col-6"><div class="form-demo-card gradient-form-c">فرم C</div></div>
-                                <div class="col-6"><div class="form-demo-card gradient-form-d">فرم D</div></div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-6">
-                        <div class="feature-card animate-in stagger-5">
-                            <div class="feature-icon icon-danger">
-                                <i class="bi bi-exclamation-triangle"></i>
-                            </div>
-                            <h3 class="feature-title">ردیابی پانچها و هولد پوینت ها</h3>
-                            <p class="feature-description">
-                                نظارت بر Punch List ها و Hold Point ها با اطلاعات تفصیلی و سطوح اولویت.
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-6">
-                        <div class="feature-card animate-in stagger-6">
-                            <div class="feature-icon icon-secondary">
-                                <i class="bi bi-download"></i>
-                            </div>
-                            <h3 class="feature-title">گزارشگیری پیشرفته</h3>
-                            <p class="feature-description">
-                                خروجی داده ها در قالب Excel و دانلود اطلاعات کامل پروژه با گزارشهای قابل تنظیم.
-                            </p>
-                        </div>
+            <div class="content-card animate-in">
+                <h1 class="section-title">راهنمای آموزشی SAPRA</h1>
+                
+                <div class="highlight-box">
+                    <i class="bi bi-mortarboard text-primary fs-4"></i>
+                    <div>
+                        <h5 class="fw-bold text-primary mb-1">آموزش سیستم SAPRA</h5>
+                        <p class="mb-0 small text-muted">
+                            راهنمای کامل آموزشی برای استفاده از سیستم <strong>دسترسی هوشمند به فعالیتهای پروژه</strong> و امکانات آن.
+                        </p>
                     </div>
                 </div>
-            </section>
 
-            <!-- Workflow Section -->
-            <section class="mb-4">
-                <h2 class="section-title">نحوه کار</h2>
+                <h3>شروع کار</h3>
+                <p>
+                    SAPRA یک سیستم مدیریت پروژه هوشمند است که برای نظارت و کنترل فعالیتهای پروژههای صنعتی طراحی شده است. این راهنما به شما کمک میکند تا تمام امکانات سیستم را درک کرده و به طور مؤثر استفاده کنید.
+                </p>
+
+                <h3>آموزش گام به گام</h3>
                 
-                <div class="workflow-step animate-in stagger-1">
+                <div class="step-box">
                     <div class="step-number">۱</div>
                     <div>
-                        <h6 class="mb-1 fw-semibold">بروز رسانی داده ها</h6>
-                        <p class="mb-0 text-muted small">سیستم به طور خودکار دادههای پروژه را از سرور برنامه ساپرا بارگذاری میکند.</p>
+                        <h6 class="fw-bold mb-1">ورود به سیستم</h6>
+                        <p class="mb-0 small text-muted">از طریق صفحه ورود، فاز پروژه خود را انتخاب کرده و اطلاعات کاربری خود را وارد کنید.</p>
                     </div>
                 </div>
                 
-                <div class="workflow-step animate-in stagger-2">
+                <div class="step-box">
                     <div class="step-number">۲</div>
                     <div>
-                        <h6 class="mb-1 fw-semibold">انتخاب سیستم یا ساب سیستم</h6>
-                        <p class="mb-0 text-muted small">سیستم یا ساب سیستم مورد نظر خود را از منوی چپ راست انتخاب کنید.</p>
+                        <h6 class="fw-bold mb-1">نمای کلی داشبورد</h6>
+                        <p class="mb-0 small text-muted">داشبورد اصلی آمار پروژه، کارتهای وضعیت فرمها و نمودارهای تعاملی را نمایش میدهد.</p>
                     </div>
                 </div>
                 
-                <div class="workflow-step animate-in stagger-3">
+                <div class="step-box">
                     <div class="step-number">۳</div>
                     <div>
-                        <h6 class="mb-1 fw-semibold">بررسی اطلاعات خلاصه</h6>
-                        <p class="mb-0 text-muted small">کارتهای خلاصه در بالا وضعیت کلی را نشان میدهند. روی هر کارت کلیک کنید.</p>
+                        <h6 class="fw-bold mb-1">ناوبری</h6>
+                        <p class="mb-0 small text-muted">از نوار کناری برای انتخاب سیستمها و زیرسیستمها استفاده کنید. نمای درختی ساختار سلسله مراتبی پروژه را نشان میدهد.</p>
                     </div>
                 </div>
                 
-                <div class="workflow-step animate-in stagger-4">
+                <div class="step-box">
                     <div class="step-number">۴</div>
                     <div>
-                        <h6 class="mb-1 fw-semibold">تحلیل نمودارها</h6>
-                        <p class="mb-0 text-muted small">از تبهای "نمای کلی" و "بر اساس دیسیپلین" برای مشاهده نمودارهای تحلیلی استفاده کنید.</p>
+                        <h6 class="fw-bold mb-1">تحلیل دادهها</h6>
+                        <p class="mb-0 small text-muted">روی کارتهای خلاصه کلیک کنید تا اطلاعات تفصیلی را مشاهده کنید. از نمودارها برای تحلیل بصری دادهها استفاده کنید.</p>
                     </div>
                 </div>
                 
-                <div class="workflow-step animate-in stagger-5">
+                <div class="step-box">
                     <div class="step-number">۵</div>
                     <div>
-                        <h6 class="mb-1 fw-semibold">بررسی جداول تفصیلی</h6>
-                        <p class="mb-0 text-muted small">جدول پایینی اطلاعات تفصیلی هر دیسیپلین را نشان میدهد.</p>
+                        <h6 class="fw-bold mb-1">گزارشگیری</h6>
+                        <p class="mb-0 small text-muted">دادهها را در قالب Excel صادر کرده و گزارشهای جامع پروژه تولید کنید.</p>
                     </div>
                 </div>
-            </section>
 
-            <!-- Tips Section -->
-            <section class="mb-4">
-                <h2 class="section-title">نکات کاربردی</h2>
-                <div class="row g-3">
-                    <div class="col-lg-6">
-                        <div class="tips-card animate-in stagger-1">
-                            <h6 class="mb-2 d-flex align-items-center">
-                                <i class="bi bi-lightbulb text-warning me-2"></i>
-                                نکات ضروری
-                            </h6>
-                            <ul class="tips-list">
-                                <li><i class="bi bi-check-circle text-success"></i>روی شماره Tag کلیک کنید تا فعالیتهای مرتبط را ببینید</li>
-                                <li><i class="bi bi-check-circle text-success"></i>از فیلترهای جدول برای جستجوی سریع استفاده کنید</li>
-                                <li><i class="bi bi-check-circle text-success"></i>نمودارها تعاملی هستند و جزئیات نمایش میدهند</li>
-                                <li><i class="bi bi-check-circle text-success"></i>داده ها به طور خودکار از سرور برنامه ساپرا بروزرسانی میشوند</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="tips-card animate-in stagger-2">
-                            <h6 class="mb-2 d-flex align-items-center">
-                                <i class="bi bi-palette text-primary me-2"></i>
-                                راهنمای رنگها
-                            </h6>
-                            <div class="row">
-                                <div class="col-6 mb-1">
-                                    <div class="d-flex align-items-center">
-                                        <div class="color-indicator bg-success"></div>
-                                        <span class="small">تکمیل شده</span>
-                                    </div>
-                                </div>
-                                <div class="col-6 mb-1">
-                                    <div class="d-flex align-items-center">
-                                        <div class="color-indicator bg-warning"></div>
-                                        <span class="small">در حال انجام</span>
-                                    </div>
-                                </div>
-                                <div class="col-6 mb-1">
-                                    <div class="d-flex align-items-center">
-                                        <div class="color-indicator bg-info"></div>
-                                        <span class="small">باقیمانده</span>
-                                    </div>
-                                </div>
-                                <div class="col-6 mb-1">
-                                    <div class="d-flex align-items-center">
-                                        <div class="color-indicator bg-danger"></div>
-                                        <span class="small">هولد پوینتها</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <h3>امکانات کلیدی</h3>
+                <ul class="feature-list">
+                    <li><i class="bi bi-speedometer2 text-primary"></i><strong>داشبورد لحظهای</strong> - بروزرسانی زنده وضعیت پروژه</li>
+                    <li><i class="bi bi-diagram-3 text-success"></i><strong>مدیریت سیستمها</strong> - سازماندهی سلسله مراتبی پروژه</li>
+                    <li><i class="bi bi-bar-chart text-info"></i><strong>نمودارهای تعاملی</strong> - نمایش بصری دادهها</li>
+                    <li><i class="bi bi-file-earmark-text text-warning"></i><strong>ردیابی فرمها</strong> - نظارت بر وضعیت فرمهای A، B، C، D</li>
+                    <li><i class="bi bi-exclamation-triangle text-danger"></i><strong>مدیریت مسائل</strong> - ردیابی پانچها و هولد پوینتها</li>
+                    <li><i class="bi bi-download text-secondary"></i><strong>قابلیت صادرات</strong> - تولید گزارشهای Excel</li>
+                </ul>
+
+                <h3>نکات و بهترین روشها</h3>
+                <ul class="feature-list">
+                    <li><i class="bi bi-lightbulb text-warning"></i>روی شماره Tag کلیک کنید تا فعالیتهای مرتبط را ببینید</li>
+                    <li><i class="bi bi-search text-primary"></i>از توابع جستجو و فیلتر برای دسترسی سریع به دادهها استفاده کنید</li>
+                    <li><i class="bi bi-mouse text-info"></i>موس را روی نمودارها نگه دارید تا اطلاعات تفصیلی ببینید</li>
+                    <li><i class="bi bi-keyboard text-success"></i>از میانبرهای کیبورد برای ناوبری سریعتر استفاده کنید</li>
+                </ul>
+
+                <div class="contact-info">
+                    <h6 class="fw-bold text-primary mb-2">پشتیبانی آموزشی</h6>
+                    <p class="mb-1"><strong>امین ناصری کریموند</strong></p>
+                    <p class="mb-1"><i class="bi bi-envelope me-2"></i>akarimvand@gmail.com</p>
+                    <p class="mb-0"><i class="bi bi-telephone me-2"></i>+98 936 630 2800</p>
                 </div>
-            </section>
+            </div>
         </div>
     </div>
 
@@ -672,40 +417,17 @@
         }
 
         document.addEventListener('DOMContentLoaded', function() {
-            // Show loading overlay
-            document.body.insertAdjacentHTML('afterbegin', `
-                <div id="loading-overlay" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); z-index: 9999; display: flex; align-items: center; justify-content: center; flex-direction: column; transition: opacity 0.5s ease;">
-                    <div style="text-align: center; color: white;">
-                        <div style="width: 60px; height: 60px; border: 4px solid rgba(255,255,255,0.3); border-top: 4px solid white; border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 20px;"></div>
-                        <h4 style="margin: 0; font-weight: 300; animation: pulse 2s infinite;">Loading Training Guide...</h4>
-                    </div>
-                </div>
-                <style>
-                    @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
-                    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
-                </style>
-            `);
-            
-            // Hide loading after 1.8 seconds and trigger animations
-            setTimeout(() => {
-                const overlay = document.getElementById('loading-overlay');
-                overlay.style.opacity = '0';
+            const animateElements = document.querySelectorAll('.animate-in');
+            animateElements.forEach((el, index) => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                
                 setTimeout(() => {
-                    overlay.remove();
-                    // Trigger staggered animations
-                    const animateElements = document.querySelectorAll('.animate-in');
-                    animateElements.forEach((el, index) => {
-                        el.style.opacity = '0';
-                        el.style.transform = 'translateY(30px)';
-                        
-                        setTimeout(() => {
-                            el.style.transition = 'all 0.6s cubic-bezier(0.4, 0, 0.2, 1)';
-                            el.style.opacity = '1';
-                            el.style.transform = 'translateY(0)';
-                        }, index * 100);
-                    });
-                }, 500);
-            }, 1800);
+                    el.style.transition = 'all 0.6s ease-out';
+                    el.style.opacity = '1';
+                    el.style.transform = 'translateY(0)';
+                }, 200);
+            });
         });
     </script>
 </body>
