@@ -61,12 +61,6 @@ const ICONS = {
             overview: null,
             disciplines: {} // { disciplineName: chartInstance }
         };
-        
-        // amCharts root instances
-        const amChartsRoots = {
-            overview: null,
-            disciplines: {}
-        };
         let bootstrapTabObjects = {}; // To store Bootstrap Tab instances
         let itemDetailsModal; // Added variable for item details modal instance
         let activitiesModal; // Added variable for activities modal instance
@@ -167,18 +161,16 @@ const ICONS = {
         // Cleanup all charts function
         function cleanupAllCharts() {
             // Dispose overview chart
-            if (amChartsRoots.overview) {
-                amChartsRoots.overview.dispose();
-                amChartsRoots.overview = null;
+            if (chartInstances.overview) {
+                chartInstances.overview.destroy();
+                chartInstances.overview = null;
             }
             
             // Dispose all discipline charts
-            Object.values(amChartsRoots.disciplines).forEach(root => {
-                if (root) root.dispose();
+            Object.values(chartInstances.disciplines).forEach(chart => {
+                if (chart) chart.destroy();
             });
-            amChartsRoots.disciplines = {};
             chartInstances.disciplines = {};
-            chartInstances.overview = null;
         }
         
         // Force reload data function
@@ -1774,13 +1766,7 @@ function filterDetailedItems(context) {
 
         function destroyChart(chartInstance) {
             if (chartInstance) {
-                chartInstance.dispose();
-            }
-        }
-        
-        function destroyAmChartsRoot(root) {
-            if (root) {
-                root.dispose();
+                chartInstance.destroy();
             }
         }
 
@@ -1790,79 +1776,62 @@ function filterDetailedItems(context) {
             const overviewParent = overviewDiv.parentElement;
             
             // Dispose previous chart
-            if (amChartsRoots.overview) {
-                amChartsRoots.overview.dispose();
-                amChartsRoots.overview = null;
+            if (chartInstances.overview) {
+                chartInstances.overview.destroy();
+                chartInstances.overview = null;
             }
             
             // Reset container
-            overviewParent.innerHTML = '<div id="overviewChart" style="width: 100%; height: 100%;"></div>';
+            overviewParent.innerHTML = '<canvas id="overviewChart" style="width: 100%; height: 100%;"></canvas>';
 
             if (aggregatedStats.totalItems === 0 || (aggregatedStats.done === 0 && aggregatedStats.pending === 0 && aggregatedStats.remaining === 0)) {
-                overviewParent.insertAdjacentHTML('beforeend', '<div class="text-center text-muted small p-5">No data to display for General Status.</div>');
+                overviewParent.innerHTML = '<div class="text-center text-muted small p-5">No data to display for General Status.</div>';
                 return;
             }
 
-            // Create amCharts root
-            amChartsRoots.overview = am5.Root.new("overviewChart");
+            const ctx = document.getElementById('overviewChart').getContext('2d');
             
-            // Set themes
-            amChartsRoots.overview.setThemes([
-                am5themes_Animated.new(amChartsRoots.overview)
-            ]);
-            
-            // Create chart
-            const chart = amChartsRoots.overview.container.children.push(
-                am5percent.PieChart.new(amChartsRoots.overview, {
-                    layout: amChartsRoots.overview.verticalLayout,
-                    innerRadius: am5.percent(50)
-                })
-            );
-            
-            // Create series
-            const series = chart.series.push(
-                am5percent.PieSeries.new(amChartsRoots.overview, {
-                    valueField: "value",
-                    categoryField: "category",
-                    alignLabels: false
-                })
-            );
-            
-            // Set colors
-            series.get("colors").set("colors", [
-                am5.color("#4CAF50"), // Completed - Green
-                am5.color("#FFA600"), // Pending - Orange  
-                am5.color("#FC5F3F")  // Remaining - Red
-            ]);
-            
-            // Set data
             const chartData = [
-                { category: "Completed", value: aggregatedStats.done },
-                { category: "Pending", value: aggregatedStats.pending },
-                { category: "Remaining", value: aggregatedStats.remaining }
+                { category: "Completed", value: aggregatedStats.done, color: "#4CAF50" },
+                { category: "Pending", value: aggregatedStats.pending, color: "#FFA600" },
+                { category: "Remaining", value: aggregatedStats.remaining, color: "#FC5F3F" }
             ].filter(item => item.value > 0);
             
-            series.data.setAll(chartData);
-            
-            // Add legend
-            const legend = chart.children.push(
-                am5.Legend.new(amChartsRoots.overview, {
-                    centerX: am5.percent(50),
-                    x: am5.percent(50),
-                    marginTop: 15,
-                    marginBottom: 15
-                })
-            );
-            
-            legend.data.setAll(series.dataItems);
-            
-            // Configure tooltips
-            series.slices.template.set("tooltipText", "{category}: {value} ({valuePercentTotal.formatNumber('#.0')}%)");
-            
-            // Play initial series animation
-            series.appear(1000, 100);
-            
-            chartInstances.overview = chart;
+            chartInstances.overview = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: chartData.map(item => item.category),
+                    datasets: [{
+                        data: chartData.map(item => item.value),
+                        backgroundColor: chartData.map(item => item.color),
+                        borderWidth: 2,
+                        borderColor: '#fff'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                padding: 20,
+                                usePointStyle: true
+                            }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const total = context.dataset.data.reduce((a, b) => a + b, 0);
+                                    const percentage = ((context.parsed * 100) / total).toFixed(1);
+                                    return `${context.label}: ${context.parsed} (${percentage}%)`;
+                                }
+                            }
+                        }
+                    },
+                    cutout: '50%'
+                }
+            });
         }
 
         function renderDisciplineCharts() {

@@ -12,10 +12,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <!-- amCharts -->
-  <script src="amcharts/index.js"></script>
-  <script src="amcharts/xy.js"></script>
-  <script src="amcharts/themes/Animated.js"></script>
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <!-- Papa Parse (for CSV) -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
   <!-- jsPDF -->
@@ -222,7 +220,7 @@
           <div class="col-12">
           <div class="card-body">
             <div class="chart-container">
-              <div id="lineChart" style="width: 100%; height: 100%;"></div>
+              <div id="lineChart" style="width: 100%; height: 100%; position: relative;"></div>
             </div>
             <div id="lineChartLegend" class="d-flex flex-wrap justify-content-center gap-2 mt-3"></div>
           </div>
@@ -498,13 +496,13 @@
       });
     }
 
-    let lineChartRoot = null;
+    let lineChart = null;
     
     function renderLineChart(dates, dataByDate) {
       // Dispose previous chart
-      if (lineChartRoot) {
-        lineChartRoot.dispose();
-        lineChartRoot = null;
+      if (lineChart) {
+        lineChart.destroy();
+        lineChart = null;
       }
 
       const disciplines = [...selectedDisciplines].sort();
@@ -513,85 +511,71 @@
         return dates.some(date => (dataByDate[date][disc] || 0) > 0);
       });
 
-      // Create amCharts root
-      lineChartRoot = am5.Root.new("lineChart");
+      // Reset container
+      document.getElementById('lineChart').innerHTML = '';
+      const canvas = document.createElement('canvas');
+      canvas.id = 'lineChartCanvas';
+      document.getElementById('lineChart').appendChild(canvas);
       
-      // Set themes
-      lineChartRoot.setThemes([
-        am5themes_Animated.new(lineChartRoot)
-      ]);
-      
-      // Create chart
-      const chart = lineChartRoot.container.children.push(
-        am5xy.XYChart.new(lineChartRoot, {
-          panX: true,
-          panY: true,
-          wheelX: "panX",
-          wheelY: "zoomX",
-          pinchZoomX: true
-        })
-      );
-      
-      // Create axes
-      const xAxis = chart.xAxes.push(
-        am5xy.CategoryAxis.new(lineChartRoot, {
-          categoryField: "date",
-          renderer: am5xy.AxisRendererX.new(lineChartRoot, {
-            minGridDistance: 30
-          }),
-          tooltip: am5.Tooltip.new(lineChartRoot, {})
-        })
-      );
-      
-      const yAxis = chart.yAxes.push(
-        am5xy.ValueAxis.new(lineChartRoot, {
-          min: 0,
-          renderer: am5xy.AxisRendererY.new(lineChartRoot, {})
-        })
-      );
+      const ctx = canvas.getContext('2d');
       
       // Prepare data
-      const chartData = dates.map(date => {
-        const dataPoint = { date: formatJalali(date) };
-        filteredDisciplines.forEach(disc => {
-          dataPoint[disc] = dataByDate[date][disc] || 0;
-        });
-        return dataPoint;
+      const chartData = dates.map(date => formatJalali(date));
+      const datasets = filteredDisciplines.map(disc => ({
+        label: disc,
+        data: dates.map(date => dataByDate[date][disc] || 0),
+        borderColor: getColorForDiscipline(disc),
+        backgroundColor: getColorForDiscipline(disc) + '20',
+        borderWidth: 2,
+        fill: false,
+        tension: 0.1
+      }));
+      
+      lineChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: chartData,
+          datasets: datasets
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: {
+            intersect: false,
+            mode: 'index'
+          },
+          plugins: {
+            legend: {
+              display: false
+            },
+            tooltip: {
+              callbacks: {
+                title: function(context) {
+                  return context[0].label;
+                },
+                label: function(context) {
+                  return `${context.dataset.label}: ${context.parsed.y}`;
+                }
+              }
+            }
+          },
+          scales: {
+            y: {
+              beginAtZero: true,
+              ticks: {
+                precision: 0
+              }
+            },
+            x: {
+              ticks: {
+                maxRotation: 45
+              }
+            }
+          }
+        }
       });
       
-      // Create series for each discipline
-      filteredDisciplines.forEach(disc => {
-        const series = chart.series.push(
-          am5xy.LineSeries.new(lineChartRoot, {
-            name: disc,
-            xAxis: xAxis,
-            yAxis: yAxis,
-            valueYField: disc,
-            categoryXField: "date",
-            stroke: am5.color(getColorForDiscipline(disc)),
-            tooltip: am5.Tooltip.new(lineChartRoot, {
-              labelText: "{name}: {valueY}"
-            })
-          })
-        );
-        
-        series.strokes.template.setAll({
-          strokeWidth: 2
-        });
-        
-        series.data.setAll(chartData);
-        
-        // Make stuff animate on load
-        series.appear(1000);
-      });
-      
-      // Set data
-      xAxis.data.setAll(chartData);
-      
-      // Make stuff animate on load
-      chart.appear(1000, 100);
-      
-      window.lineChart = chart;
+      window.lineChart = lineChart;
 
       // Custom legend
       const legendContainer = document.getElementById('lineChartLegend');
@@ -907,9 +891,9 @@
       const chartDiv = containerClone.querySelector('#lineChart');
       if (chartDiv && window.lineChart) {
         try {
-          const chartImageData = await window.lineChart.exporting.getImage("png");
+          const chartCanvas = window.lineChart.canvas;
           const img = document.createElement('img');
-          img.src = chartImageData;
+          img.src = chartCanvas.toDataURL('image/png');
           img.style.width = chartDiv.style.width;
           img.style.height = chartDiv.style.height;
           chartDiv.parentNode.replaceChild(img, chartDiv);
@@ -969,9 +953,9 @@
       const chartDiv = containerClone.querySelector('#lineChart');
       if (chartDiv && window.lineChart) {
         try {
-          const chartImageData = await window.lineChart.exporting.getImage("png");
+          const chartCanvas = window.lineChart.canvas;
           const img = document.createElement('img');
-          img.src = chartImageData;
+          img.src = chartCanvas.toDataURL('image/png');
           img.style.width = chartDiv.style.width;
           img.style.height = chartDiv.style.height;
           chartDiv.parentNode.replaceChild(img, chartDiv);
