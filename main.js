@@ -8,8 +8,7 @@ window.formCounts = {
 
 // --- Constants ---
 // Use local dbcsv folder
-const LOCAL_BASE_URL = "dbcsv/";
-
+const LOCAL_BASE_URL = "https://akarimvand.github.io/SAPRA2/dbcsv/";
 const CSV_URL = LOCAL_BASE_URL + "DATA.CSV";
 const ITEMS_CSV_URL = LOCAL_BASE_URL + "ITEMS.CSV";
 const PUNCH_CSV_URL = LOCAL_BASE_URL + "PUNCH.CSV";
