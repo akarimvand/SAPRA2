@@ -6834,10 +6834,10 @@ ES-06,EL,E07-96,Earthing System,THERMOWELD EARTH CONNECTION 70 TO 70mm2,0%
 ES-06,EL,E07-97,Earthing System,THERMOWELD EARTH CONNECTION 70 TO 70mm2,0%
 ES-06,EL,E07-98,Earthing System,THERMOWELD EARTH CONNECTION 70 TO 70mm2,0%
 ES-06,EL,E07-99,Earthing System,THERMOWELD EARTH CONNECTION 70 TO 70mm2,0%
-DCS-01,IN,E1_ALM_03,CABLE,CABLE(NA),0%
+DCS-01,IN,E1_ALM_03,CABLE,CABLE(NA),Done
 DCS-01,IN,E1_ALM_04,CABLE,CABLE(NA),0%
-DCS-01,IN,E1_ALM_05,CABLE,CABLE(NA),0%
-DCS-01,IN,E1_ALM_06,CABLE,CABLE(NA),0%
+DCS-01,IN,E1_ALM_05,CABLE,CABLE(NA),Done
+DCS-01,IN,E1_ALM_06,CABLE,CABLE(NA),Done
 ES-05,EL,E10-01(ES-05),Earthing System,THERMOWELD EARTH CONNECTION 35 TO 35mm2,DONE
 ES-06,EL,E10-01(ES-06),Earthing System,THERMOWELD EARTH CONNECTION 35 TO 35mm2,0%
 ES-07,EL,E10-01(ES-07),Earthing System,THERMOWELD EARTH CONNECTION 35 TO 35mm2,Done
@@ -6930,25 +6930,25 @@ DCS-01,IN,E1-ALM-03,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,E1-ALM-04,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,E1-ALM-05,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,E1-ALM-06,SIGNAL,SIGNAL,Exception(Pending)
-DCS-01,IN,E2_ALM_03,CABLE,CABLE(NA),0%
-DCS-01,IN,E2_ALM_04,CABLE,CABLE(NA),0%
-2000-02,MES,E-2001,Exchanger(E),Reformer Feed Preheat Coil,21%
+DCS-01,IN,E2_ALM_03,CABLE,CABLE(NA),Done
+DCS-01,IN,E2_ALM_04,CABLE,CABLE(NA),Done
+2000-02,MES,E-2001,Exchanger(E),Reformer Feed Preheat Coil,58%
 ES-09,EL,E20-01,Earthing System,CRIMPED EARTH CONNECTION 16 TO 70mm2,0%
-2000-02,MES,E-2002,Exchanger(E),Prereformer Feed Preheat Coil,21%
+2000-02,MES,E-2002,Exchanger(E),Prereformer Feed Preheat Coil,58%
 ES-09,EL,E20-02,Earthing System,CRIMPED EARTH CONNECTION 16 TO 70mm2,0%
 ES-09,EL,E20-03,Earthing System,CRIMPED EARTH CONNECTION 16 TO 70mm2,0%
-2000-02,MES,E-2004,Exchanger(E),2 nd Natural Gas Feed Preheat Coil,21%
-2000-02,MES,E-2006,Exchanger(E),1st Natural Gas Feed Preheat Coil,21%
+2000-02,MES,E-2004,Exchanger(E),2 nd Natural Gas Feed Preheat Coil,58%
+2000-02,MES,E-2006,Exchanger(E),1st Natural Gas Feed Preheat Coil,58%
 2000-02,MES,E-2007,Exchanger(E),Combustion Air Preheater,21%
-2000-03,MES,E-2008,Exchanger(E),Oxygen Preheater,68%
-1000-01,MES,E-2009,Exchanger(E),Fuel Gas Preheater,89%
+2000-03,MES,E-2008,Exchanger(E),Oxygen Preheater,79%
+1000-01,MES,E-2009,Exchanger(E),Fuel Gas Preheater,Done
 ES-01,EL,E2-01,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
 2000-02,MES,E-2015,Exchanger(E),Steam Air Preheater,21%
 ES-01,EL,E2-02,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
-2000-04,MES,E-2020-1,Exchanger(E),Waste Heat Boiler,63%
-2000-04,MES,E-2020-2,Exchanger(E),Waste Heat Boiler,63%
-2000-04,MES,E-2021-1,Exchanger(E),Steam Superheater,58%
-2000-04,MES,E-2021-2,Exchanger(E),Steam Superheater,58%
+2000-04,MES,E-2020-1,Exchanger(E),Waste Heat Boiler,79%
+2000-04,MES,E-2020-2,Exchanger(E),Waste Heat Boiler,79%
+2000-04,MES,E-2021-1,Exchanger(E),Steam Superheater,79%
+2000-04,MES,E-2021-2,Exchanger(E),Steam Superheater,79%
 2000-04,MES,E-2021-3,Exchanger(E),Steam Superheater,37%
 2000-04,MES,E-2022-1,Exchanger(E),BFW Preheater,79%
 2000-04,MES,E-2022-2,Exchanger(E),BFW Preheater,79%
@@ -12355,9 +12355,9 @@ DCS-01,IN,FF FW 4A-5,CABLE,CABLE(NA),0%
 DCS-01,IN,FF FW 4A-6,CABLE,CABLE(NA),0%
 DCS-01,IN,FF FW 4B-5,CABLE,CABLE(NA),0%
 DCS-01,IN,FF FW 4B-6,CABLE,CABLE(NA),0%
-DCS-01,IN,FFMD-07,CABLE,CABLE(NA),0%
-DCS-01,IN,FFMD-14,CABLE,CABLE(NA),0%
-DCS-01,IN,FFMD-20,CABLE,CABLE(NA),0%
+DCS-01,IN,FFMD-07,CABLE,CABLE(NA),Done
+DCS-01,IN,FFMD-14,CABLE,CABLE(NA),Done
+DCS-01,IN,FFMD-20,CABLE,CABLE(NA),Done
 DCS-01,IN,FFSALL-2064,SIGNAL,SIGNAL,Exception(Pending)
 2000-02,IN,FG-20101,Instrument(FG),Instrument(FG),0%
 2000-02,IN,FG-20102,Instrument(FG),Instrument(FG),0%
@@ -13741,40 +13741,40 @@ DCS-01,IN,ICNAF-P7001A-12,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNAF-P7001B-12,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNAF-P8001A-12,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNAF-P8001B-12,CABLE,CABLE(NA),Done
-DCS-01,IN,ICNDE-AC1-01,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-AC1-02,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-AC1-03,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-AC1-04,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-AC1-05,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-AC2-06,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-AC2-07,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-AC2-08,CABLE,CABLE(NA),0%
+DCS-01,IN,ICNDE-AC1-01,CABLE,CABLE(NA),Done
+DCS-01,IN,ICNDE-AC1-02,CABLE,CABLE(NA),Done
+DCS-01,IN,ICNDE-AC1-03,CABLE,CABLE(NA),Done
+DCS-01,IN,ICNDE-AC1-04,CABLE,CABLE(NA),Done
+DCS-01,IN,ICNDE-AC1-05,CABLE,CABLE(NA),Done
+DCS-01,IN,ICNDE-AC2-06,CABLE,CABLE(NA),Done
+DCS-01,IN,ICNDE-AC2-07,CABLE,CABLE(NA),Done
+DCS-01,IN,ICNDE-AC2-08,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNDE-C2001-01,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-C2002-02,CABLE,CABLE(NA),0%
+DCS-01,IN,ICNDE-C2002-02,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNDE-C3001.C3002-03,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNDE-C3001.C3002-04,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-FT2001-03,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-FT2002-06,CABLE,CABLE(NA),0%
+DCS-01,IN,ICNDE-FT2001-03,CABLE,CABLE(NA),Done
+DCS-01,IN,ICNDE-FT2002-06,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNDE-MCC-01,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNDE-MCC-02,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNDE-MCC-03,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNDE-MCC-04,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNDE-MCC-05,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNDE-P7001A-01,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-P7001A-02,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-P7001A-03,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-P7001B-01,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-P7001B-02,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-P7001B-03,CABLE,CABLE(NA),0%
+DCS-01,IN,ICNDE-P7001A-02,CABLE,CABLE(NA),Done
+DCS-01,IN,ICNDE-P7001A-03,CABLE,CABLE(NA),Done
+DCS-01,IN,ICNDE-P7001B-01,CABLE,CABLE(NA),Done
+DCS-01,IN,ICNDE-P7001B-02,CABLE,CABLE(NA),Done
+DCS-01,IN,ICNDE-P7001B-03,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNDE-P7001C-01,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-P8001A-01,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-P8001A-02,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-P8001A-03,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-P8001B-01,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-P8001B-02,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-P8001B-03,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-P8001C-01,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-P8001D-01,CABLE,CABLE(NA),0%
+DCS-01,IN,ICNDE-P8001A-01,CABLE,CABLE(NA),Done
+DCS-01,IN,ICNDE-P8001A-02,CABLE,CABLE(NA),Done
+DCS-01,IN,ICNDE-P8001A-03,CABLE,CABLE(NA),Done
+DCS-01,IN,ICNDE-P8001B-01,CABLE,CABLE(NA),Done
+DCS-01,IN,ICNDE-P8001B-02,CABLE,CABLE(NA),Done
+DCS-01,IN,ICNDE-P8001B-03,CABLE,CABLE(NA),Done
+DCS-01,IN,ICNDE-P8001C-01,CABLE,CABLE(NA),Done
+DCS-01,IN,ICNDE-P8001D-01,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNDE-PK7502-02,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNDF-C2001-01,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNDF-C2002-01,CABLE,CABLE(NA),Done
@@ -16640,17 +16640,17 @@ DCS-01,IN,NP-0061A,CABLE,CABLE(NA),0%
 DCS-01,IN,NP-0061B,CABLE,CABLE(NA),0%
 DCS-01,IN,NP-0061C,CABLE,CABLE(NA),0%
 DCS-01,IN,NP-0062C,CABLE,CABLE(NA),0%
-DCS-01,IN,NP-0063,CABLE,CABLE(NA),0%
+DCS-01,IN,NP-0063,CABLE,CABLE(NA),Done
 DCS-01,IN,NP-0063C,CABLE,CABLE(NA),0%
-DCS-01,IN,NP-0064,CABLE,CABLE(NA),0%
-DCS-01,IN,NP-0065,CABLE,CABLE(NA),0%
+DCS-01,IN,NP-0064,CABLE,CABLE(NA),Done
+DCS-01,IN,NP-0065,CABLE,CABLE(NA),Done
 DCS-01,IN,NP-0066,CABLE,CABLE(NA),Done
 DCS-01,IN,NP-0067,CABLE,CABLE(NA),Done
 DCS-01,IN,NP-0068,CABLE,CABLE(NA),Done
 DCS-01,IN,NP-0069,CABLE,CABLE(NA),0%
 DCS-01,IN,NP-0070,CABLE,CABLE(NA),0%
-DCS-01,IN,NP-0071,CABLE,CABLE(NA),0%
-DCS-01,IN,NP-0072,CABLE,CABLE(NA),0%
+DCS-01,IN,NP-0071,CABLE,CABLE(NA),Done
+DCS-01,IN,NP-0072,CABLE,CABLE(NA),Done
 DCS-01,IN,NP-0073,CABLE,CABLE(NA),0%
 DCS-01,IN,NP-0074,CABLE,CABLE(NA),Done
 DCS-01,IN,NP-0075,CABLE,CABLE(NA),0%
@@ -16665,7 +16665,7 @@ DCS-01,IN,NP-0080,CABLE,CABLE(NA),0%
 DCS-01,IN,NP-0080C,CABLE,CABLE(NA),0%
 DCS-01,IN,NP-0081,CABLE,CABLE(NA),0%
 DCS-01,IN,NP-0081C,CABLE,CABLE(NA),0%
-DCS-01,IN,NP-0082,CABLE,CABLE(NA),0%
+DCS-01,IN,NP-0082,CABLE,CABLE(NA),Done
 DCS-01,IN,NP-0083,CABLE,CABLE(NA),0%
 DCS-01,IN,NP-0084,CABLE,CABLE(NA),0%
 DCS-01,IN,NP-0085,CABLE,CABLE(NA),Done
@@ -16764,16 +16764,16 @@ DCS-01,IN,NP-2413B,CABLE,CABLE(NA),Done
 DCS-01,IN,NP-2414A,CABLE,CABLE(NA),0%
 DCS-01,IN,NP-2414B,CABLE,CABLE(NA),0%
 DCS-01,IN,NP-2415,CABLE,CABLE(NA),0%
-DCS-01,IN,NP-2451A,CABLE,CABLE(NA),0%
-DCS-01,IN,NP-2451B,CABLE,CABLE(NA),0%
-DCS-01,IN,NP-2452A,CABLE,CABLE(NA),0%
-DCS-01,IN,NP-2452B,CABLE,CABLE(NA),0%
-DCS-01,IN,NP-2453A,CABLE,CABLE(NA),0%
-DCS-01,IN,NP-2453B,CABLE,CABLE(NA),0%
-DCS-01,IN,NP-2454A,CABLE,CABLE(NA),0%
+DCS-01,IN,NP-2451A,CABLE,CABLE(NA),Done
+DCS-01,IN,NP-2451B,CABLE,CABLE(NA),Done
+DCS-01,IN,NP-2452A,CABLE,CABLE(NA),Done
+DCS-01,IN,NP-2452B,CABLE,CABLE(NA),Done
+DCS-01,IN,NP-2453A,CABLE,CABLE(NA),Done
+DCS-01,IN,NP-2453B,CABLE,CABLE(NA),Done
+DCS-01,IN,NP-2454A,CABLE,CABLE(NA),Done
 DCS-01,IN,NP-2454B,CABLE,CABLE(NA),0%
-DCS-01,IN,NP-2455A,CABLE,CABLE(NA),0%
-DCS-01,IN,NP-2455B,CABLE,CABLE(NA),0%
+DCS-01,IN,NP-2455A,CABLE,CABLE(NA),Done
+DCS-01,IN,NP-2455B,CABLE,CABLE(NA),Done
 DCS-01,IN,NP-2456A,CABLE,CABLE(NA),0%
 DCS-01,IN,NP-2456B,CABLE,CABLE(NA),0%
 DCS-01,IN,NP-2457A,CABLE,CABLE(NA),0%
@@ -19279,80 +19279,80 @@ NO SUBS.,IN,SI-30103,PKG,PKG,0%
 4000-02,IN,SIC-70171B,Instrument(X),Instrument(SIC),Done
 4000-08,IN,SIC-80128A,Instrument(X),Instrument(SIC),Done
 4000-08,IN,SIC-80128B,Instrument(X),Instrument(SIC),Done
-LS-06,EL,SL1,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
-LS-06,EL,SL10,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
+LS-06,EL,SL1,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
+LS-06,EL,SL10,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL10-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
-LS-06,EL,SL11,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
+LS-06,EL,SL11,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL11-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
-LS-06,EL,SL12,Lighting Fixture,Street lighting Fixture 250W HPS - EX,0%
+LS-06,EL,SL12,Lighting Fixture,Street lighting Fixture 250W HPS - EX,50%
 LS-06,EL,SL12-FJB01,Lighting Cable,LED Street lighting Fixture 150W | EX,0%
-LS-06,EL,SL13,Lighting Fixture,Street lighting Fixture 250W HPS - EX,0%
+LS-06,EL,SL13,Lighting Fixture,Street lighting Fixture 250W HPS - EX,50%
 LS-06,EL,SL13-FJB01,Lighting Cable,LED Street lighting Fixture 150W | EX,0%
-LS-06,EL,SL14,Lighting Fixture,Street lighting Fixture 250W HPS - EX,0%
+LS-06,EL,SL14,Lighting Fixture,Street lighting Fixture 250W HPS - EX,50%
 LS-06,EL,SL14-FJB01,Lighting Cable,LED Street lighting Fixture 150W | EX,0%
-LS-06,EL,SL15,Lighting Fixture,Street lighting Fixture 250W HPS - EX,0%
+LS-06,EL,SL15,Lighting Fixture,Street lighting Fixture 250W HPS - EX,50%
 LS-06,EL,SL15-FJB01,Lighting Cable,LED Street lighting Fixture 150W | EX,0%
-LS-06,EL,SL16,Lighting Fixture,Street lighting Fixture 250W HPS - EX,0%
+LS-06,EL,SL16,Lighting Fixture,Street lighting Fixture 250W HPS - EX,50%
 LS-06,EL,SL16-FJB01,Lighting Cable,LED Street lighting Fixture 150W | EX,0%
-LS-06,EL,SL17,Lighting Fixture,Street lighting Fixture 250W HPS - EX,0%
+LS-06,EL,SL17,Lighting Fixture,Street lighting Fixture 250W HPS - EX,50%
 LS-06,EL,SL17-FJB01,Lighting Cable,LED Street lighting Fixture 150W | EX,0%
-LS-06,EL,SL18,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
+LS-06,EL,SL18,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL18-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
-LS-06,EL,SL19,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
+LS-06,EL,SL19,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL19-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL1-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL2,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
-LS-06,EL,SL20,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
+LS-06,EL,SL20,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 2000-01,MES,SL-2001,Silencer(SL),HPS Secondary Reforming Silencer,95%
 2000-01,MES,SL-2002,Silencer(SL),HPS Reforming Silencer,95%
 2000-04,MES,SL-2003,Silencer(SL),HHP Steam Silencer,68%
 2000-04,MES,SL-2004,Silencer(SL),HHP Steam Drum Silencer,89%
 LS-06,EL,SL20-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
-LS-06,EL,SL21,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
+LS-06,EL,SL21,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL21-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
-LS-06,EL,SL22,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
+LS-06,EL,SL22,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL22-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
-LS-06,EL,SL23,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
+LS-06,EL,SL23,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL23-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
-LS-06,EL,SL24,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
+LS-06,EL,SL24,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL24-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
-LS-06,EL,SL25,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
+LS-06,EL,SL25,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL25-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
-LS-06,EL,SL26,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
+LS-06,EL,SL26,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL26-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
-LS-06,EL,SL27,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
+LS-06,EL,SL27,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL27-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
-LS-06,EL,SL28,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
+LS-06,EL,SL28,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL28-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
-LS-06,EL,SL29,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
+LS-06,EL,SL29,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL29-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL2-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,33%
 LS-06,EL,SL3,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
-LS-06,EL,SL30,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
+LS-06,EL,SL30,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 3000-02,MES,SL-3001,Silencer(SL),MP Steam Drum Silencer,74%
 3000-02,IN,SL-3001.2.3-ST1,CABLE,CABLE(NA),0%
 3000-02,IN,SL-3001.2.3-ST2,CABLE,CABLE(NA),0%
 3000-02,IN,SL-3001_2_3-ST1,Instrument(SL),Instrument(SL),0%
 3000-02,IN,SL-3001_2_3-ST2,Instrument(SL),Instrument(SL),0%
 LS-06,EL,SL30-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
-LS-06,EL,SL31,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
+LS-06,EL,SL31,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL31-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
-LS-06,EL,SL32,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
+LS-06,EL,SL32,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL32-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL33,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
 LS-06,EL,SL33-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
-LS-06,EL,SL34,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
+LS-06,EL,SL34,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL34-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
-LS-06,EL,SL35,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
+LS-06,EL,SL35,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-11,EL,SL35-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL3-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,33%
-LS-06,EL,SL4,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
+LS-06,EL,SL4,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL4-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
-LS-06,EL,SL5,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
+LS-06,EL,SL5,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL5-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
-LS-06,EL,SL6,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
+LS-06,EL,SL6,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL6-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
-LS-06,EL,SL7,Lighting Fixture,LED Street lighting Fixture 175W| WP,0%
+LS-06,EL,SL7,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 4000-02,MES,SL-7001,Silencer(SL),HP Steam Silencer,95%
 4000-03,MES,SL-7002,Silencer(SL),MP Steam Silencer,95%
 4000-02,MES,SL-7003,Silencer(SL),LP Steam Silencer,95%
