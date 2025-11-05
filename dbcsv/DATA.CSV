@@ -53,7 +53,7 @@
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,1,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,0,5,23,0,23,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,87,221,598,360,238,21
-3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,36,0,74,41,33,12
+3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,36,0,75,41,34,12
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,3,8,0,8,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,36,32,137,42,95,44
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,34,4,80,20,60,45
@@ -65,7 +65,7 @@
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,12,7,5,2
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,176,12,75,317,212,105,5
 3000,3000-04,Compression and Synthesis,Hydrogen System,MER,1,0,1,0,0,0,0
-4000,4000-01,Utility,Nitrogen,PI,20,20,0,50,28,22,64
+4000,4000-01,Utility,Nitrogen,PI,20,20,0,51,28,23,64
 4000,4000-01,Utility,Nitrogen,IN,14,14,0,10,0,10,6
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,0,2,10,0,10,0
 4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,172,21,348,149,199,35
