@@ -7,13 +7,14 @@ window.formCounts = {
 };
 
 // --- Constants ---
-// Use local dbcsv folder
-const LOCAL_BASE_URL = "https://akarimvand.github.io/SAPRA2/dbcsv/";
-const CSV_URL = LOCAL_BASE_URL + "DATA.CSV";
-const ITEMS_CSV_URL = LOCAL_BASE_URL + "ITEMS.CSV";
-const PUNCH_CSV_URL = LOCAL_BASE_URL + "PUNCH.CSV";
-const HOLD_POINT_CSV_URL = LOCAL_BASE_URL + "HOLD_POINT.CSV";
-const ACTIVITIES_CSV_URL = LOCAL_BASE_URL + "ACTIVITES.CSV";
+// Use GitHub URL for CSV files
+const GITHUB_BASE_URL = "https://akarimvand.github.io/SAPRA2/dbcsv/";
+
+const CSV_URL = GITHUB_BASE_URL + "DATA.CSV";
+const ITEMS_CSV_URL = GITHUB_BASE_URL + "ITEMS.CSV";
+const PUNCH_CSV_URL = GITHUB_BASE_URL + "PUNCH.CSV";
+const HOLD_POINT_CSV_URL = GITHUB_BASE_URL + "HOLD_POINT.CSV";
+const ACTIVITIES_CSV_URL = GITHUB_BASE_URL + "ACTIVITES.CSV";
 
 const COLORS_STATUS_CHARTJS = {
     done: 'rgba(76, 175, 80, 0.8)',    // success
@@ -1077,7 +1078,7 @@ function filterDetailedItems(context) {
 
         function filterHOSItems(statusType, dataType) {
             // Load HOS.CSV data
-            fetch('dbcsv/HOS.CSV')
+            fetch(GITHUB_BASE_URL + 'HOS.CSV')
                 .then(response => response.text())
                 .then(csvText => {
                     Papa.parse(csvText, {
@@ -1263,7 +1264,7 @@ function filterDetailedItems(context) {
                 console.log('Starting data loading process...');
                 
                 const [hosResults, dataResults, itemsResults, punchResults, holdResults] = await Promise.all([
-                    fetchCsvData('dbcsv/HOS.CSV'),
+                    fetchCsvData(GITHUB_BASE_URL + 'HOS.CSV'),
                     fetchCsvData(CSV_URL),
                     fetchCsvData(ITEMS_CSV_URL),
                     fetchCsvData(PUNCH_CSV_URL),
@@ -2459,7 +2460,7 @@ function filterDetailedItems(context) {
                     'ACTIVITES.CSV', 'DATA.CSV', 'HOLD_POINT.CSV',
                     'HOS.CSV', 'ITEMS.CSV', 'PUNCH.CSV', 'TRANS.CSV'
                 ];
-                const baseUrl = LOCAL_BASE_URL; // Use local folder instead of GitHub URL
+                const baseUrl = GITHUB_BASE_URL; // Use GitHub URL for CSV files
 
                 // 2. Fetch files
                 for (let i = 0; i < csvFiles.length; i++) {
