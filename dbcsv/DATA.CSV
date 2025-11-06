@@ -53,7 +53,7 @@
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,1,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,0,5,23,0,23,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,87,221,598,360,238,21
-3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,36,0,75,41,34,12
+3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,36,0,76,45,31,12
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,3,8,0,8,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,36,32,137,42,95,44
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,34,4,80,20,60,45
@@ -82,7 +82,7 @@
 4000,4000-05,Utility,Blow Down,MES,4,0,4,23,0,23,0
 4000,4000-05,Utility,Blow Down,IN,17,17,0,15,6,9,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,3,12,16,0,16,5
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,49,1,180,96,84,167
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,49,2,180,96,84,167
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,12,30,0,30,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,37,59,121,52,69,107
 4000,4000-07,Utility,Plant Air,IN,2,2,0,2,0,2,2
