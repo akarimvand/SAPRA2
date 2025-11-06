@@ -6949,15 +6949,15 @@ ES-01,EL,E2-02,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
 2000-04,MES,E-2020-2,Exchanger(E),Waste Heat Boiler,79%
 2000-04,MES,E-2021-1,Exchanger(E),Steam Superheater,79%
 2000-04,MES,E-2021-2,Exchanger(E),Steam Superheater,79%
-2000-04,MES,E-2021-3,Exchanger(E),Steam Superheater,37%
-2000-04,MES,E-2022-1,Exchanger(E),BFW Preheater,79%
-2000-04,MES,E-2022-2,Exchanger(E),BFW Preheater,79%
-2000-04,MES,E-2022-3,Exchanger(E),BFW Preheater,79%
+2000-04,MES,E-2021-3,Exchanger(E),Steam Superheater,79%
+2000-04,MES,E-2022-1,Exchanger(E),BFW Preheater,89%
+2000-04,MES,E-2022-2,Exchanger(E),BFW Preheater,89%
+2000-04,MES,E-2022-3,Exchanger(E),BFW Preheater,89%
 5000-03,MES,E-2023,Exchanger(E),MP Column Reboiler No.2,87%
-5000-01,MES,E-2024-1,Exchanger(E),Stabilizer Column Reboiler,95%
-5000-01,MES,E-2024-2,Exchanger(E),Stabilizer Column Reboiler,95%
-2000-05,MES,E-2025,Exchanger(E),DMW Preheater,89%
-2000-05,MES,E-2027,Exchanger(E),Water Cooler,95%
+5000-01,MES,E-2024-1,Exchanger(E),Stabilizer Column Reboiler,Done
+5000-01,MES,E-2024-2,Exchanger(E),Stabilizer Column Reboiler,Done
+2000-05,MES,E-2025,Exchanger(E),DMW Preheater,Done
+2000-05,MES,E-2027,Exchanger(E),Water Cooler,Done
 ES-01,EL,E2-03,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
 ES-01,EL,E2-04,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
 ES-01,EL,E2-05,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
@@ -8320,9 +8320,9 @@ ES-08,EL,E30-01(ES-08),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-09,EL,E30-01(ES-09),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-10,EL,E30-01(ES-10),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-11,EL,E30-01(ES-11),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
-3000-02,MES,E-3001-1,Exchanger(E),Feed/Effluent Exchanger,89%
-3000-02,MES,E-3001-2,Exchanger(E),Feed/Effluent Exchanger,89%
-3000-02,MES,E-3001-3,Exchanger(E),Feed/Effluent Exchanger,89%
+3000-02,MES,E-3001-1,Exchanger(E),Feed/Effluent Exchanger,Done
+3000-02,MES,E-3001-2,Exchanger(E),Feed/Effluent Exchanger,Done
+3000-02,MES,E-3001-3,Exchanger(E),Feed/Effluent Exchanger,Done
 ES-01,EL,E30-02(ES-01),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,DONE
 ES-03,EL,E30-02(ES-03),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,DONE
 ES-04,EL,E30-02(ES-04),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,DONE
@@ -8339,9 +8339,9 @@ ES-08,EL,E30-03(ES-08),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-09,EL,E30-03(ES-09),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-10,EL,E30-03(ES-10),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-11,EL,E30-03(ES-11),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
-3000-03,MES,E-3003-1,Exchanger(E),Loop Water Cooler,95%
-3000-03,MES,E-3003-2,Exchanger(E),Loop Water Cooler,95%
-3000-03,MES,E-3003-3,Exchanger(E),Loop Water Cooler,95%
+3000-03,MES,E-3003-1,Exchanger(E),Loop Water Cooler,Done
+3000-03,MES,E-3003-2,Exchanger(E),Loop Water Cooler,Done
+3000-03,MES,E-3003-3,Exchanger(E),Loop Water Cooler,Done
 ES-01,EL,E30-04(ES-01),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,DONE
 ES-04,EL,E30-04(ES-04),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,DONE
 ES-06,EL,E30-04(ES-06),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
@@ -8384,7 +8384,7 @@ ES-08,EL,E30-09(ES-08),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-09,EL,E30-09(ES-09),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-11,EL,E30-09(ES-11),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-01,EL,E3-01,Earthing System,THERMOWELD EARTH CONNECTION 70 TO 300mm2,DONE
-3000-01,MES,E-3010,Exchanger(E),Inter Stage Cooler,89%
+3000-01,MES,E-3010,Exchanger(E),Inter Stage Cooler,95%
 ES-01,EL,E30-10(ES-01),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,DONE
 ES-06,EL,E30-10(ES-06),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-07,EL,E30-10(ES-07),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
@@ -8401,7 +8401,7 @@ ES-11,EL,E30-106,Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-11,EL,E30-107,Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-11,EL,E30-108,Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-11,EL,E30-109,Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
-3000-01,MES,E-3011,Exchanger(E),Turbine Condensate  for FT- 3001,95%
+3000-01,MES,E-3011,Exchanger(E),Turbine Condensate  for FT- 3001,Done
 ES-06,EL,E30-11(ES-06),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-07,EL,E30-11(ES-07),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-08,EL,E30-11(ES-08),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
@@ -8412,13 +8412,13 @@ ES-11,EL,E30-111,Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-11,EL,E30-112,Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-11,EL,E30-113,Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-11,EL,E30-114,Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
-3000-01,MES,E-3012,Exchanger(E),Steam Ejector,89%
+3000-01,MES,E-3012,Exchanger(E),Steam Ejector,95%
 ES-06,EL,E30-12(ES-06),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-07,EL,E30-12(ES-07),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-08,EL,E30-12(ES-08),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-09,EL,E30-12(ES-09),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-11,EL,E30-12(ES-11),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
-3000-01,MES,E-3013,Exchanger(E),Recycler Cooler,84%
+3000-01,MES,E-3013,Exchanger(E),Recycler Cooler,89%
 ES-06,EL,E30-13(ES-06),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
 ES-07,EL,E30-13(ES-07),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,Done
 ES-08,EL,E30-13(ES-08),Earthing System,EARTH CONNECTION WITH WIRE 16mm2,0%
@@ -9112,18 +9112,18 @@ ES-08,EL,E48-10(ES-08),Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE
 ES-10,EL,E48-10(ES-10),Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO HORIZONTAL L.V. MOTOR,Done
 ES-08,EL,E48-11,Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO HORIZONTAL L.V. MOTOR,0%
 ES-08,EL,E48-12,Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO HORIZONTAL L.V. MOTOR,0%
-5000-01,MES,E-5001,Exchanger(E),Stabilizer Column Steam Reboiler,95%
-5000-02,MES,E-5002-1,Exchanger(E),LP Column Reboiler,95%
-5000-02,MES,E-5002-2,Exchanger(E),LP Column Reboiler,95%
-5000-02,MES,E-5002-3,Exchanger(E),LP Column Reboiler,95%
-5000-02,MES,E-5002-4,Exchanger(E),LP Column Reboiler,95%
+5000-01,MES,E-5001,Exchanger(E),Stabilizer Column Steam Reboiler,Done
+5000-02,MES,E-5002-1,Exchanger(E),LP Column Reboiler,Done
+5000-02,MES,E-5002-2,Exchanger(E),LP Column Reboiler,Done
+5000-02,MES,E-5002-3,Exchanger(E),LP Column Reboiler,Done
+5000-02,MES,E-5002-4,Exchanger(E),LP Column Reboiler,Done
 5000-03,MES,E-5003-1,Exchanger(E),MP Column Reboiler No.1,87%
 5000-03,MES,E-5003-2,Exchanger(E),MP Column Reboiler No.2,87%
-5000-01,MES,E-5007,Exchanger(E),Wash Water Cooler,89%
-5000-04,MES,E-5008,Exchanger(E),Methanol Product Cooler,95%
-5000-01,MES,E-5010,Exchanger(E),OH Gas Condenser,84%
+5000-01,MES,E-5007,Exchanger(E),Wash Water Cooler,Done
+5000-04,MES,E-5008,Exchanger(E),Methanol Product Cooler,Done
+5000-01,MES,E-5010,Exchanger(E),OH Gas Condenser,Done
 5000-05,MES,E-5011,Exchanger(E),Liquid Off Stream Cooler,60%
-5000-04,MES,E-5012,Exchanger(E),Methanol Product Cooler No.2,84%
+5000-04,MES,E-5012,Exchanger(E),Methanol Product Cooler No.2,Done
 ES-03,EL,E51-01(ES-03),Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO VERTICAL L.V. MOTOR,DONE
 ES-07,EL,E51-01(ES-07),Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO VERTICAL L.V. MOTOR,Done
 ES-07,EL,E51-02,Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO VERTICAL L.V. MOTOR,Done
@@ -9394,13 +9394,13 @@ ES-05,EL,E58-WH-02,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,DONE
 ES-05,EL,E58-WH-03,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,DONE
 ES-05,EL,E58-WH-04,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,DONE
 ES-05,EL,E58-WH-05,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,DONE
-1000-03,MES,E-6001,Exchanger(E),Saturator Feed /Effluent Exchanger,74%
+1000-03,MES,E-6001,Exchanger(E),Saturator Feed /Effluent Exchanger,89%
 ES-02,EL,E60-01,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE AND 3.6m LENGTH ROD,Done
-1000-03,MES,E-6002,Exchanger(E),Process Condensate Preheater,74%
+1000-03,MES,E-6002,Exchanger(E),Process Condensate Preheater,89%
 ES-02,EL,E60-02,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE AND 3.6m LENGTH ROD,Done
-1000-03,MES,E-6003,Exchanger(E),Saturator Blow-down Cooler,74%
+1000-03,MES,E-6003,Exchanger(E),Saturator Blow-down Cooler,89%
 ES-02,EL,E60-03,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE AND 3.6m LENGTH ROD,Done
-1000-03,MES,E-6004,Exchanger(E),Wash Water Preheater,74%
+1000-03,MES,E-6004,Exchanger(E),Wash Water Preheater,89%
 ES-02,EL,E60-04,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE AND 3.6m LENGTH ROD,Done
 ES-02,EL,E60-05,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE AND 3.6m LENGTH ROD,Done
 ES-02,EL,E60-06,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE AND 3.6m LENGTH ROD,Done
@@ -10491,7 +10491,7 @@ LS-01,EL,EBP-00-SLP-01,Power Cable B,Plant Street Lighting Panel- 00-SLP-01,0%
 120-03,EL,EBP-00-WO5-02,Power Cable B,Welding Socket Outlet- 00-WO5-02,Done
 120-03,EL,EBP-00-WO5-03,Power Cable B,Welding Socket Outlet- 00-WO5-03,Done
 TEL-01,EL,EBP-AD-PABX(CH)-01,Comminucation Cable,Telephone System Battery Charger (In Owner's Administration Building)- AD-PABX(CH)-01,0%
-LS-02,EL,EBP-AH-EDP-01,Power Cable B,Analyzer House Distribution Panel- AH-EDP-01,33%
+LS-02,EL,EBP-AH-EDP-01,Power Cable B,Analyzer House Distribution Panel- AH-EDP-01,67%
 120-03,EL,EBP-AH-HDP-01,Power Cable B,Analyzer House HVAC Panel- AH-HDP-01,Done
 120-02,EL,EBP-C2001-HE-1,Power Cable B,Lube Oil Heater No.1 for C2001- C2001-HE-1,Done
 120-02,EL,EBP-C2001-MF-1,Power Cable B,Noise Hood Cooling Fan No.1 for C2001 - C2001-MF-1,Done
@@ -11311,8 +11311,8 @@ FGS-08,EL,ECC-SS-FECP-01_4,Power Cable B,Substation Fire Fighting Control Panel 
 120-12,EL,ECC-SS-PDCS01-4_1,Power Cable B,110V DC Battery Charger Panel A- SS-CH-01A,Done
 120-10,EL,ECC-SS-PDCS01-4_2,Power Cable B,230V AC Safety Lighting UPS - SS-UPS-01,Done
 120-11,EL,ECC-SS-PDCS01-4_3,Power Cable B,Emergency Diesel Generator DG-5701- Start Control Panel,Done
-120-12,EL,ECC-SS-PDCS01-5_1,Power Cable B,110V AC UPS Bypass Panel - CR-UPS-01/BY,0%
-120-12,EL,ECC-SS-PDCS01-7,Power Cable B,Substation E/I Cabinet- SS-E/I-01 (FCS Clock Signal),0%
+120-12,EL,ECC-SS-PDCS01-5_1,Power Cable B,110V AC UPS Bypass Panel - CR-UPS-01/BY,33%
+120-12,EL,ECC-SS-PDCS01-7,Power Cable B,Substation E/I Cabinet- SS-E/I-01 (FCS Clock Signal),33%
 120-01,EL,ECC-SS-SWB2A-01_1,Power Cable B,Damavand Substation 20KV Switchboard- Dena Feeder SS-TR1A-01,Done
 120-01,EL,ECC-SS-SWB2A-01_10,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
 120-01,EL,ECC-SS-SWB2A-01_11,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
@@ -12608,7 +12608,7 @@ FGS-10,IN,FGD-0057,Fire Alarm,Fire Alarm(FGD),0%
 4000-06,IN,FI-75203B,Instrument(FI),Instrument(FI),50%
 4000-06,IN,FI-75204A,Instrument(FI),Instrument(FI),50%
 4000-06,MES,FI-8001A,Filter(X),Side Strem Sand Filters B,DONE
-4000-06,MES,FI-8001B,Filter(X),Side Strem Sand Filters C,75%
+4000-06,MES,FI-8001B,Filter(X),Side Strem Sand Filters C,92%
 4000-06,MES,FI-8001C,Filter(X),Side Strem Sand Filters A,DONE
 4000-06,IN,FI-8401,Instrument(FI),Instrument(FI),50%
 4000-06,IN,FI-8402,Instrument(FI),Instrument(FI),50%
@@ -13195,11 +13195,11 @@ DCS-01,IN,FTADO16-M04R-E,CABLE,CABLE(NA),0%
 2000-02,IN,FV-2111,Instrument(FV),Instrument(FV),0%
 1000-01,IN,FV-2150(FV),Instrument(FV),Instrument(FV),25%
 1000-01,IN,FV-2150(NA),CABLE,CABLE(NA),0%
-2000-01,IN,FV-2233-1(FV),Instrument(FV),Instrument(FV),75%
+2000-01,IN,FV-2233-1(FV),Instrument(FV),Instrument(FV),Done
 2000-01,IN,FV-2233-1(NA),CABLE,CABLE(NA),Done
 2000-01,IN,FV-2233-2(FV),Instrument(FV),Instrument(FV),75%
 2000-01,IN,FV-2233-2(NA),CABLE,CABLE(NA),Done
-2000-04,IN,FV-2417(FV),Instrument(FV),Instrument(FV),75%
+2000-04,IN,FV-2417(FV),Instrument(FV),Instrument(FV),Done
 2000-04,IN,FV-2417(NA),CABLE,CABLE(NA),Done
 1000-02,IN,FV-2531-1(FV),Instrument(FV),Instrument(FV),25%
 1000-02,IN,FV-2531-1(NA),CABLE,CABLE(NA),0%
@@ -13234,7 +13234,7 @@ NO SUBS.,IN,FV-30111,PKG,PKG,33%
 5000-02,IN,FV-5161(NA),CABLE,CABLE(NA),Done
 5000-02,IN,FV-5203(FV),Instrument(FV),Instrument(FV),25%
 5000-02,IN,FV-5203(NA),CABLE,CABLE(NA),Done
-5000-02,IN,FV-5239(FV),Instrument(FV),Instrument(FV),25%
+5000-02,IN,FV-5239(FV),Instrument(FV),Instrument(FV),50%
 5000-02,IN,FV-5239(NA),CABLE,CABLE(NA),Done
 5000-03,IN,FV-5301(FV),Instrument(FV),Instrument(FV),Done
 5000-03,IN,FV-5301(NA),CABLE,CABLE(NA),Done
@@ -13248,18 +13248,18 @@ NO SUBS.,IN,FV-30111,PKG,PKG,33%
 5000-03,IN,FV-5367(NA),CABLE,CABLE(NA),Done
 5000-04,IN,FV-5383(FV),Instrument(FV),Instrument(FV),0%
 5000-04,IN,FV-5383(NA),CABLE,CABLE(NA),Done
-5000-04,IN,FV-5407A(FV),Instrument(FV),Instrument(FV),25%
+5000-04,IN,FV-5407A(FV),Instrument(FV),Instrument(FV),50%
 5000-04,IN,FV-5407A(NA),CABLE,CABLE(NA),Done
 5000-04,IN,FV-5407B,Instrument(FV),Instrument(FV),Done
 5000-05,IN,FV-5441(FV),Instrument(FV),Instrument(FV),75%
 5000-05,IN,FV-5441(NA),CABLE,CABLE(NA),0%
-4000-04,IN,FV-6031(FV),Instrument(FV),Instrument(FV),75%
+4000-04,IN,FV-6031(FV),Instrument(FV),Instrument(FV),Done
 4000-04,IN,FV-6031(NA),CABLE,CABLE(NA),Done
 1000-03,IN,FV-6059-1(FV),Instrument(FV),Instrument(FV),25%
 1000-03,IN,FV-6059-1(NA),CABLE,CABLE(NA),Done
 4000-04,IN,FV-6059-2(FV),Instrument(FV),Instrument(FV),0%
 4000-04,IN,FV-6059-2(NA),CABLE,CABLE(NA),0%
-1000-03,IN,FV-6070(FV),Instrument(FV),Instrument(FV),25%
+1000-03,IN,FV-6070(FV),Instrument(FV),Instrument(FV),50%
 1000-03,IN,FV-6070(NA),CABLE,CABLE(NA),0%
 1000-03,IN,FV-6081(FV),Instrument(FV),Instrument(FV),25%
 1000-03,IN,FV-6081(NA),CABLE,CABLE(NA),0%
@@ -13271,7 +13271,7 @@ NO SUBS.,IN,FV-30111,PKG,PKG,33%
 4000-06,IN,FV-7091(NA),CABLE,CABLE(NA),Done
 4000-04,IN,FV-7141(FV),Instrument(FV),Instrument(FV),Done
 4000-04,IN,FV-7141(NA),CABLE,CABLE(NA),Done
-4000-06,IN,FV-7503(FV),Instrument(FV),Instrument(FV),0%
+4000-06,IN,FV-7503(FV),Instrument(FV),Instrument(FV),25%
 4000-06,IN,FV-7503(NA),CABLE,CABLE(NA),Done
 4000-06,IN,FV-7504(FV),Instrument(FV),Instrument(FV),25%
 4000-06,IN,FV-7504(NA),CABLE,CABLE(NA),Done
@@ -13685,9 +13685,9 @@ DCS-01,IN,HS-80156B,SIGNAL,SIGNAL,Exception(Pending)
 5000-02,IN,HY-5202-72,SIGNAL,SIGNAL,DONE
 5000-02,IN,HY-5202-9,Instrument(X),Instrument(HY),Done
 5000-04,IN,HY-5404(HY),Instrument(X),Instrument(HY),Done
-5000-04,IN,HY-5404(NA),CABLE,CABLE(NA),50%
+5000-04,IN,HY-5404(NA),CABLE,CABLE(NA),Done
 5000-04,IN,HY-5405(HY),Instrument(X),Instrument(HY),Done
-5000-04,IN,HY-5405(NA),CABLE,CABLE(NA),50%
+5000-04,IN,HY-5405(NA),CABLE,CABLE(NA),Done
 5000-04,IN,HY-5454(HY),Instrument(X),Instrument(HY),Done
 5000-04,IN,HY-5454(NA),CABLE,CABLE(NA),0%
 5000-04,IN,HY-5458(HY),Instrument(X),Instrument(HY),Done
@@ -13755,11 +13755,11 @@ DCS-01,IN,ICNDE-C3001.C3002-03,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNDE-C3001.C3002-04,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNDE-FT2001-03,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNDE-FT2002-06,CABLE,CABLE(NA),Done
-DCS-01,IN,ICNDE-MCC-01,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-MCC-02,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-MCC-03,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-MCC-04,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDE-MCC-05,CABLE,CABLE(NA),0%
+DCS-01,IN,ICNDE-MCC-01,CABLE,CABLE(NA),50%
+DCS-01,IN,ICNDE-MCC-02,CABLE,CABLE(NA),50%
+DCS-01,IN,ICNDE-MCC-03,CABLE,CABLE(NA),50%
+DCS-01,IN,ICNDE-MCC-04,CABLE,CABLE(NA),50%
+DCS-01,IN,ICNDE-MCC-05,CABLE,CABLE(NA),50%
 DCS-01,IN,ICNDE-P7001A-01,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNDE-P7001A-02,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNDE-P7001A-03,CABLE,CABLE(NA),Done
@@ -13858,7 +13858,7 @@ NO SUBS.,IN,ICNLF-F2001|F2002-01.02-02,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNLF-P7001ABC|8001ABCD-01.02,CABLE,CABLE(NA),Done
 NO SUBS.,IN,ICNLF-P7001ABC|8001ABCD-01.02-02,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNLF-PDCS-01.02,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNLF-PDCS-01.02-02,CABLE,CABLE(NA),0%
+DCS-01,IN,ICNLF-PDCS-01.02-02,CABLE,CABLE(NA),50%
 DCS-01,IN,ICNLF-PK7502-01.02,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNLF-PK7502-01.02-02,CABLE,CABLE(NA),0%
 FGS-09,EL,IEL-0101,F&G Device,Immediate Exit Light,DONE
@@ -13900,11 +13900,11 @@ BLD-03,CV,Initial Architecture(Ground Floor BLD-03),04-Initial Architecture-2,In
 BLD-04,CV,Initial Architecture(Ground Floor BLD-04),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-04),DONE
 BLD-05,CV,Initial Architecture(Ground Floor BLD-05),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-05),0%
 BLD-06,CV,Initial Architecture(Ground Floor BLD-06),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-06),DONE
-2000-02,MES,INLET MANIFOLD,Inlet_Manifold,MANIFOLD,5%
-3000-03,MES,J-3001,Ejector(J),Ejector,28%
-3000-02,MES,J-3002-1,Ejector(J),Start up Ejector for R 3001 1,28%
-3000-02,MES,J-3002-2,Ejector(J),Start up Ejector for R 3001 2,28%
-3000-02,MES,J-3002-3,Ejector(J),Start up Ejector for R 3001 3,22%
+2000-02,MES,INLET MANIFOLD,Inlet_Manifold,MANIFOLD,57%
+3000-03,MES,J-3001,Ejector(J),Ejector,67%
+3000-02,MES,J-3002-1,Ejector(J),Start up Ejector for R 3001 1,67%
+3000-02,MES,J-3002-2,Ejector(J),Start up Ejector for R 3001 2,67%
+3000-02,MES,J-3002-3,Ejector(J),Start up Ejector for R 3001 3,61%
 DCS-01,IN,JIAE-1001,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
 DCS-01,IN,JIAE-2001,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
 DCS-01,IN,JIAE-2002,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
@@ -14834,27 +14834,27 @@ DCS-01,IN,LP-FT7001B-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 DCS-01,IN,LP-FT8001A-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 DCS-01,IN,LP-FT8001B-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
-5000-01,IN,LSH-30201A(LSH),Instrument(LSH),Instrument(LSH),50%
+5000-01,IN,LSH-30201A(LSH),Instrument(LSH),Instrument(LSH),Done
 5000-01,IN,LSH-30201A(NA),CABLE,CABLE(NA),Done
 5000-01,IN,LSH-50201A(LSH),Instrument(LSH),Instrument(LSH),50%
 5000-01,IN,LSH-50201A(NA),CABLE,CABLE(NA),50%
 5000-01,IN,LSH-50201B(LSH),Instrument(LSH),Instrument(LSH),50%
 5000-01,IN,LSH-50201B(NA),CABLE,CABLE(NA),50%
-5000-01,IN,LSH-50204A(LSH),Instrument(LSH),Instrument(LSH),50%
+5000-01,IN,LSH-50204A(LSH),Instrument(LSH),Instrument(LSH),Done
 5000-01,IN,LSH-50204A(NA),CABLE,CABLE(NA),Done
-5000-01,IN,LSH-50204B(LSH),Instrument(LSH),Instrument(LSH),50%
+5000-01,IN,LSH-50204B(LSH),Instrument(LSH),Instrument(LSH),Done
 5000-01,IN,LSH-50204B(NA),CABLE,CABLE(NA),Done
-5000-01,IN,LSH-50207A(LSH),Instrument(LSH),Instrument(LSH),50%
+5000-01,IN,LSH-50207A(LSH),Instrument(LSH),Instrument(LSH),Done
 5000-01,IN,LSH-50207A(NA),CABLE,CABLE(NA),Done
-5000-01,IN,LSH-50207B(LSH),Instrument(LSH),Instrument(LSH),50%
+5000-01,IN,LSH-50207B(LSH),Instrument(LSH),Instrument(LSH),Done
 5000-01,IN,LSH-50207B(NA),CABLE,CABLE(NA),Done
 5000-02,IN,LSH-50210A(LSH),Instrument(LSH),Instrument(LSH),50%
 5000-02,IN,LSH-50210A(NA),CABLE,CABLE(NA),Done
-5000-02,IN,LSH-50210B(LSH),Instrument(LSH),Instrument(LSH),50%
+5000-02,IN,LSH-50210B(LSH),Instrument(LSH),Instrument(LSH),Done
 5000-02,IN,LSH-50210B(NA),CABLE,CABLE(NA),Done
-5000-02,IN,LSH-50213A(LSH),Instrument(LSH),Instrument(LSH),50%
+5000-02,IN,LSH-50213A(LSH),Instrument(LSH),Instrument(LSH),Done
 5000-02,IN,LSH-50213A(NA),CABLE,CABLE(NA),Done
-5000-02,IN,LSH-50213B(LSH),Instrument(LSH),Instrument(LSH),50%
+5000-02,IN,LSH-50213B(LSH),Instrument(LSH),Instrument(LSH),Done
 5000-02,IN,LSH-50213B(NA),CABLE,CABLE(NA),Done
 5000-03,IN,LSH-50216A(LSH),Instrument(LSH),Instrument(LSH),50%
 5000-03,IN,LSH-50216A(NA),CABLE,CABLE(NA),Done
@@ -14864,9 +14864,9 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 5000-03,IN,LSH-50219A(NA),CABLE,CABLE(NA),0%
 5000-03,IN,LSH-50219B(LSH),Instrument(LSH),Instrument(LSH),50%
 5000-03,IN,LSH-50219B(NA),CABLE,CABLE(NA),Done
-5000-04,IN,LSH-50222A(LSH),Instrument(LSH),Instrument(LSH),50%
+5000-04,IN,LSH-50222A(LSH),Instrument(LSH),Instrument(LSH),Done
 5000-04,IN,LSH-50222A(NA),CABLE,CABLE(NA),Done
-5000-04,IN,LSH-50222B(LSH),Instrument(LSH),Instrument(LSH),50%
+5000-04,IN,LSH-50222B(LSH),Instrument(LSH),Instrument(LSH),Done
 5000-04,IN,LSH-50222B(NA),CABLE,CABLE(NA),Done
 7000-01,IN,LSH-71201A(LSH),Instrument(LSH),Instrument(LSH),Done
 7000-01,IN,LSH-71201A(NA),CABLE,CABLE(NA),Done
@@ -14878,7 +14878,7 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 4000-10,IN,LSH-8415(NA),CABLE,CABLE(NA),0%
 4000-10,IN,LSHH-8417(LSHH),Instrument(LSHH),Instrument(LSHH),0%
 4000-10,IN,LSHH-8417(NA),CABLE,CABLE(NA),0%
-5000-01,IN,LSL-30202A(LSL),Instrument(LSL),Instrument(LSL),50%
+5000-01,IN,LSL-30202A(LSL),Instrument(LSL),Instrument(LSL),Done
 5000-01,IN,LSL-30202A(NA),CABLE,CABLE(NA),Done
 5000-01,IN,LSL-50202A(LSL),Instrument(LSL),Instrument(LSL),50%
 5000-01,IN,LSL-50202A(NA),CABLE,CABLE(NA),50%
@@ -14886,15 +14886,15 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 5000-01,IN,LSL-50202B(NA),CABLE,CABLE(NA),50%
 5000-01,IN,LSL-50205A(LSL),Instrument(LSL),Instrument(LSL),50%
 5000-01,IN,LSL-50205A(NA),CABLE,CABLE(NA),Done
-5000-01,IN,LSL-50205B(LSL),Instrument(LSL),Instrument(LSL),50%
+5000-01,IN,LSL-50205B(LSL),Instrument(LSL),Instrument(LSL),Done
 5000-01,IN,LSL-50205B(NA),CABLE,CABLE(NA),Done
 5000-01,IN,LSL-50208A(LSL),Instrument(LSL),Instrument(LSL),50%
 5000-01,IN,LSL-50208A(NA),CABLE,CABLE(NA),Done
 5000-01,IN,LSL-50208B(LSL),Instrument(LSL),Instrument(LSL),50%
 5000-01,IN,LSL-50208B(NA),CABLE,CABLE(NA),Done
-5000-02,IN,LSL-50211A(LSL),Instrument(LSL),Instrument(LSL),50%
+5000-02,IN,LSL-50211A(LSL),Instrument(LSL),Instrument(LSL),Done
 5000-02,IN,LSL-50211A(NA),CABLE,CABLE(NA),Done
-5000-02,IN,LSL-50211B(LSL),Instrument(LSL),Instrument(LSL),50%
+5000-02,IN,LSL-50211B(LSL),Instrument(LSL),Instrument(LSL),Done
 5000-02,IN,LSL-50211B(NA),CABLE,CABLE(NA),Done
 5000-02,IN,LSL-50214A(LSL),Instrument(LSL),Instrument(LSL),50%
 5000-02,IN,LSL-50214A(NA),CABLE,CABLE(NA),Done
@@ -14908,9 +14908,9 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 5000-03,IN,LSL-50220A(NA),CABLE,CABLE(NA),0%
 5000-03,IN,LSL-50220B(LSL),Instrument(LSL),Instrument(LSL),50%
 5000-03,IN,LSL-50220B(NA),CABLE,CABLE(NA),Done
-5000-04,IN,LSL-50223A(LSL),Instrument(LSL),Instrument(LSL),50%
+5000-04,IN,LSL-50223A(LSL),Instrument(LSL),Instrument(LSL),Done
 5000-04,IN,LSL-50223A(NA),CABLE,CABLE(NA),Done
-5000-04,IN,LSL-50223B(LSL),Instrument(LSL),Instrument(LSL),50%
+5000-04,IN,LSL-50223B(LSL),Instrument(LSL),Instrument(LSL),Done
 5000-04,IN,LSL-50223B(NA),CABLE,CABLE(NA),Done
 7000-01,IN,LSL-71202A(LSL),Instrument(LSL),Instrument(LSL),Done
 7000-01,IN,LSL-71202A(NA),CABLE,CABLE(NA),Done
@@ -14918,11 +14918,11 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 7000-01,IN,LSL-71202B(NA),CABLE,CABLE(NA),Done
 4000-06,IN,LSL-75150,Instrument(LSL),Instrument(LSL),0%
 4000-06,IN,LSL-75151,Instrument(LSL),Instrument(LSL),0%
-4000-06,IN,LSL-75201A(LSL),Instrument(LSL),Instrument(LSL),0%
+4000-06,IN,LSL-75201A(LSL),Instrument(LSL),Instrument(LSL),50%
 4000-06,IN,LSL-75201A(NA),CABLE,CABLE(NA),0%
-4000-06,IN,LSL-75201B(LSL),Instrument(LSL),Instrument(LSL),0%
+4000-06,IN,LSL-75201B(LSL),Instrument(LSL),Instrument(LSL),50%
 4000-06,IN,LSL-75201B(NA),CABLE,CABLE(NA),0%
-4000-06,IN,LSL-75203A(LSL),Instrument(LSL),Instrument(LSL),0%
+4000-06,IN,LSL-75203A(LSL),Instrument(LSL),Instrument(LSL),50%
 4000-06,IN,LSL-75203A(NA),CABLE,CABLE(NA),0%
 4000-08,IN,LSL-80201(LSL),Instrument(LSL),Instrument(LSL),0%
 4000-08,IN,LSL-80201(NA),CABLE,CABLE(NA),0%
@@ -15197,11 +15197,11 @@ NO SUBS.,IN,LT-20151(LT),Instrument(LT),Instrument(LT),25%
 2000-04,IN,LV-2372(NA),CABLE,CABLE(NA),Done
 2000-05,IN,LV-2403(LV),Instrument(LV),Instrument(LV),Done
 2000-05,IN,LV-2403(NA),CABLE,CABLE(NA),Done
-2000-05,IN,LV-2419(LV),Instrument(LV),Instrument(LV),25%
+2000-05,IN,LV-2419(LV),Instrument(LV),Instrument(LV),50%
 2000-05,IN,LV-2419(NA),CABLE,CABLE(NA),0%
 2000-05,IN,LV-2441(LV),Instrument(LV),Instrument(LV),25%
 2000-05,IN,LV-2441(NA),CABLE,CABLE(NA),0%
-2000-05,IN,LV-2474(LV),Instrument(LV),Instrument(LV),25%
+2000-05,IN,LV-2474(LV),Instrument(LV),Instrument(LV),50%
 2000-05,IN,LV-2474(NA),CABLE,CABLE(NA),0%
 NO SUBS.,IN,LV-30106,PKG,PKG,33%
 3000-01,IN,LV-30106(LV),Instrument(LV),Instrument(LV),0%
@@ -17691,9 +17691,9 @@ NO SUBS.,IN,PIT-30172,PKG,PKG,33%
 3000-01,IN,PIT-30188B(PIT),Instrument(PIT),Instrument(PIT),Done
 3000-01,IN,PIT-30188C(NA),CABLE,CABLE(NA),Done
 3000-01,IN,PIT-30188C(PIT),Instrument(PIT),Instrument(PIT),Done
-4000-06,MES,PK-7502-MB-1A,PAKAGE(PK),Package,44%
+4000-06,MES,PK-7502-MB-1A,PAKAGE(PK),Package,56%
 120-03,EL,PK7502-MB-1A,Local_Control_Station,Local Control Station- PK7502-MB-1A,50%
-4000-06,MES,PK-7502-MB-1B,PAKAGE(PK),Package,56%
+4000-06,MES,PK-7502-MB-1B,PAKAGE(PK),Package,67%
 120-03,EL,PK7502-MB-1B,Local_Control_Station,Local Control Station- PK7502-MB-1B,50%
 120-03,EL,PK7502-MP-1A,Local_Control_Station,Local Control Station- PK7502-MP-1A,Done
 120-03,EL,PK7502-MP-1B,Local_Control_Station,Local Control Station- PK7502-MP-1B,Done
@@ -17701,8 +17701,8 @@ NO SUBS.,IN,PIT-30172,PKG,PKG,33%
 120-03,EL,PK7502-MP-2B,Local_Control_Station,Local Control Station- PK7502-MP-2B,50%
 120-03,EL,PK7502-MP-3A,Local_Control_Station,Local Control Station- PK7502-MP-3A,50%
 120-03,EL,PK7502-MP-3B,Local_Control_Station,Local Control Station- PK7502-MP-3B,50%
-4000-06,MES,PK-7502-TK-1,PAKAGE(PK),Package,33%
-4000-06,MES,PK-7502-TK-2,PAKAGE(PK),Package,33%
+4000-06,MES,PK-7502-TK-1,PAKAGE(PK),Package,67%
+4000-06,MES,PK-7502-TK-2,PAKAGE(PK),Package,67%
 4000-08,MES,PK-8001,PAKAGE(PK),,DONE
 4000-08,MES,PK-8002,PAKAGE(PK),,DONE
 120-03,EL,PK8002-MP-1A,Local_Control_Station,Local Control Station- PK8002-MP-1A,Done
@@ -17725,7 +17725,7 @@ NO SUBS.,IN,PIT-30172,PKG,PKG,33%
 120-03,EL,PK8401-MP-2B,Local_Control_Station,Local Control Station- PK8401-MP-2B,50%
 4000-09,MER,PK-8401-P2A,PUMP,OILY WATER TRANSFER PUMP,DONE
 4000-09,MER,PK-8401-P2B,PUMP,OILY WATER TRANSFER PUMP,DONE
-4000-14,MES,PK-9001,PAKAGE(PK),Package,50%
+4000-14,MES,PK-9001,PAKAGE(PK),Package,61%
 DCS-01,IN,POS-0001,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,POS-2000-I-61,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,POS-2000-IS-1,SIGNAL,SIGNAL,Exception(Pending)
@@ -17811,9 +17811,9 @@ FGS-07,IN,PSH-105,Fire Fighting,Fire Fighting(PSH),0%
 5000-03,IN,PSH-50213A(PSH),Instrument(PSH),Instrument(PSH),0%
 5000-03,IN,PSH-50213B(NA),CABLE,CABLE(NA),Done
 5000-03,IN,PSH-50213B(PSH),Instrument(PSH),Instrument(PSH),Done
-5000-04,IN,PSH-50215A(NA),CABLE,CABLE(NA),50%
+5000-04,IN,PSH-50215A(NA),CABLE,CABLE(NA),Done
 5000-04,IN,PSH-50215A(PSH),Instrument(PSH),Instrument(PSH),50%
-5000-04,IN,PSH-50215B(NA),CABLE,CABLE(NA),50%
+5000-04,IN,PSH-50215B(NA),CABLE,CABLE(NA),Done
 5000-04,IN,PSH-50215B(PSH),Instrument(PSH),Instrument(PSH),50%
 4000-04,IN,PSH-71180L,Pkg,Pkg,0%
 7000-01,IN,PSH-71201A(NA),CABLE,CABLE(NA),Exception(Pending)
@@ -18056,7 +18056,7 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 3000-04,IN,PSV-20204,Instrument(PSV),Instrument(PSV),50%
 3000-04,IN,PSV-20205,Instrument(PSV),Instrument(PSV),0%
 2000-03,IN,PSV-2025,Instrument(PSV),Instrument(PSV),0%
-2000-03,IN,PSV-2026,Instrument(PSV),Instrument(PSV),0%
+2000-03,IN,PSV-2026,Instrument(PSV),Instrument(PSV),50%
 2000-03,IN,PSV-2029,Instrument(PSV),Instrument(PSV),Exception(Pending)
 2000-03,IN,PSV-2030,Instrument(PSV),Instrument(PSV),Exception(Pending)
 2000-02,IN,PSV-2121,Instrument(PSV),Instrument(PSV),Done
@@ -18072,9 +18072,9 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 7000-01,IN,PSV-2360,Instrument(PSV),Instrument(PSV),Done
 2000-04,IN,PSV-2365,Instrument(PSV),Instrument(PSV),50%
 2000-04,IN,PSV-2376,Instrument(PSV),Instrument(PSV),Done
-2000-04,IN,PSV-2377,Instrument(PSV),Instrument(PSV),50%
-2000-04,IN,PSV-2378,Instrument(PSV),Instrument(PSV),50%
-2000-04,IN,PSV-2379,Instrument(PSV),Instrument(PSV),50%
+2000-04,IN,PSV-2377,Instrument(PSV),Instrument(PSV),Done
+2000-04,IN,PSV-2378,Instrument(PSV),Instrument(PSV),Done
+2000-04,IN,PSV-2379,Instrument(PSV),Instrument(PSV),Done
 2000-04,IN,PSV-2380,Instrument(PSV),Instrument(PSV),Done
 4000-06,IN,PSV-2458,Instrument(PSV),Instrument(PSV),Done
 2000-05,IN,PSV-2494,Instrument(PSV),Instrument(PSV),Done
@@ -18093,15 +18093,15 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 3000-01,IN,PSV-30117,Instrument(PSV),Instrument(PSV),0%
 3000-01,IN,PSV-30118A,Instrument(PSV),Instrument(PSV),50%
 3000-01,IN,PSV-30121,Instrument(PSV),Instrument(PSV),0%
-3000-01,IN,PSV-30124,Instrument(PSV),Instrument(PSV),50%
-3000-01,IN,PSV-30125,Instrument(PSV),Instrument(PSV),50%
+3000-01,IN,PSV-30124,Instrument(PSV),Instrument(PSV),Done
+3000-01,IN,PSV-30125,Instrument(PSV),Instrument(PSV),Done
 3000-01,IN,PSV-30126A,Instrument(PSV),Instrument(PSV),50%
 3000-01,IN,PSV-30126B,Instrument(PSV),Instrument(PSV),50%
 3000-01,IN,PSV-30136,Instrument(PSV),Instrument(PSV),Done
 3000-01,IN,PSV-30137,Instrument(PSV),Instrument(PSV),Done
-3000-02,IN,PSV-3047,Instrument(PSV),Instrument(PSV),50%
-3000-02,IN,PSV-3048,Instrument(PSV),Instrument(PSV),50%
-3000-02,IN,PSV-3057,Instrument(PSV),Instrument(PSV),50%
+3000-02,IN,PSV-3047,Instrument(PSV),Instrument(PSV),Done
+3000-02,IN,PSV-3048,Instrument(PSV),Instrument(PSV),Done
+3000-02,IN,PSV-3057,Instrument(PSV),Instrument(PSV),Done
 3000-03,IN,PSV-3143,Instrument(PSV),Instrument(PSV),Done
 3000-03,IN,PSV-3146,Instrument(PSV),Instrument(PSV),Done
 3000-03,IN,PSV-3149,Instrument(PSV),Instrument(PSV),Done
@@ -18118,7 +18118,7 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 7000-01,IN,PSV-5060,Instrument(PSV),Instrument(PSV),Done
 7000-01,IN,PSV-5061,Instrument(PSV),Instrument(PSV),Done
 5000-01,IN,PSV-5073,Instrument(PSV),Instrument(PSV),Done
-5000-01,IN,PSV-5108,Instrument(PSV),Instrument(PSV),50%
+5000-01,IN,PSV-5108,Instrument(PSV),Instrument(PSV),Done
 7000-01,IN,PSV-5179,Instrument(PSV),Instrument(PSV),Done
 7000-01,IN,PSV-5180,Instrument(PSV),Instrument(PSV),Done
 4000-08,IN,PSV-5220,Instrument(PSV),Instrument(PSV),Done
@@ -18128,7 +18128,7 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 7000-01,IN,PSV-5251,Instrument(PSV),Instrument(PSV),Done
 7000-01,IN,PSV-5261,Instrument(PSV),Instrument(PSV),Done
 5000-04,IN,PSV-5339,Instrument(PSV),Instrument(PSV),Done
-5000-01,IN,PSV-5370,Instrument(PSV),Instrument(PSV),50%
+5000-01,IN,PSV-5370,Instrument(PSV),Instrument(PSV),Done
 7000-01,IN,PSV-5384,Instrument(PSV),Instrument(PSV),Done
 7000-01,IN,PSV-5386,Instrument(PSV),Instrument(PSV),Done
 5000-04,IN,PSV-5400,Instrument(PSV),Instrument(PSV),Done
@@ -18155,7 +18155,7 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 1000-03,IN,PSV-6053,Instrument(PSV),Instrument(PSV),Done
 1000-03,IN,PSV-6054,Instrument(PSV),Instrument(PSV),DONE
 1000-03,IN,PSV-6055,Instrument(PSV),Instrument(PSV),DONE
-1000-03,IN,PSV-6085,Instrument(PSV),Instrument(PSV),0%
+1000-03,IN,PSV-6085,Instrument(PSV),Instrument(PSV),50%
 4000-02,IN,PSV-7010,Instrument(PSV),Instrument(PSV),Done
 4000-02,IN,PSV-7011,Instrument(PSV),Instrument(PSV),Done
 4000-02,IN,PSV-7012,Instrument(PSV),Instrument(PSV),Done
@@ -18519,7 +18519,7 @@ NO SUBS.,IN,PT-84208,Instrument(PT),Instrument(PT),0%
 1000-01,IN,PV-1006(NA),CABLE,CABLE(NA),0%
 1000-01,IN,PV-1006(PV),Instrument(PV),Instrument(PV),0%
 1000-02,IN,PV-1011(NA),CABLE,CABLE(NA),0%
-1000-02,IN,PV-1011(PV),Instrument(PV),Instrument(PV),0%
+1000-02,IN,PV-1011(PV),Instrument(PV),Instrument(PV),25%
 1000-01,IN,PV-1045(NA),CABLE,CABLE(NA),0%
 1000-01,IN,PV-1045(PV),Instrument(PV),Instrument(PV),25%
 2000-03,IN,PV-2015(NA),CABLE,CABLE(NA),0%
@@ -18532,7 +18532,7 @@ NO SUBS.,IN,PT-84208,Instrument(PT),Instrument(PT),0%
 2000-04,IN,PV-2361(NA),CABLE,CABLE(NA),0%
 2000-04,IN,PV-2361(PV),Instrument(PV),Instrument(PV),75%
 2000-04,IN,PV-2363(NA),CABLE,CABLE(NA),0%
-2000-04,IN,PV-2363(PV),Instrument(PV),Instrument(PV),75%
+2000-04,IN,PV-2363(PV),Instrument(PV),Instrument(PV),Done
 2000-05,IN,PV-2406(NA),CABLE,CABLE(NA),0%
 2000-05,IN,PV-2406(PV),Instrument(PV),Instrument(PV),0%
 2000-05,IN,PV-2481(NA),CABLE,CABLE(NA),0%
@@ -18564,7 +18564,7 @@ NO SUBS.,IN,PV-30123,PKG,PKG,33%
 5000-02,IN,PV-5207B(NA),CABLE,CABLE(NA),Done
 5000-02,IN,PV-5207B(PV),Instrument(PV),Instrument(PV),25%
 4000-03,IN,PV-6025(NA),CABLE,CABLE(NA),0%
-4000-03,IN,PV-6025(PV),Instrument(PV),Instrument(PV),75%
+4000-03,IN,PV-6025(PV),Instrument(PV),Instrument(PV),Done
 4000-02,IN,PV-7002A(NA),CABLE,CABLE(NA),0%
 4000-02,IN,PV-7002A(PV),Instrument(PV),Instrument(PV),Done
 4000-02,IN,PV-7002B(NA),CABLE,CABLE(NA),0%
@@ -18650,14 +18650,14 @@ NO SUBS.,IN,PZSL-84215,Instrument(X),Instrument(PZSL),0%
 4000-02,IN,PZT-7002C(PZT),Instrument(X),Instrument(PZT),Done
 NO SUBS.,IN,PZT-84210,Instrument(X),Instrument(PZT),0%
 NO SUBS.,IN,PZT-84215,Instrument(X),Instrument(PZT),0%
-1000-01,MES,R-1001,Reactor(R),Hydrogenator,57%
-1000-01,MES,R-1002-1,Reactor(R),Sulphur Absorber,57%
-1000-01,MES,R-1002-2,Reactor(R),Sulphur Absorber,57%
-2000-02,MES,R-2003,Reactor(R),Prereformer,48%
-2000-03,MES,R-2004,Reactor(R),Secondary Reformer,39%
-3000-02,MES,R-3001-1,Reactor(R),Methanol Reactor,48%
-3000-02,MES,R-3001-2,Reactor(R),Methanol Reactor,43%
-3000-02,MES,R-3001-3,Reactor(R),Methanol Reactor,48%
+1000-01,MES,R-1001,Reactor(R),Hydrogenator,65%
+1000-01,MES,R-1002-1,Reactor(R),Sulphur Absorber,65%
+1000-01,MES,R-1002-2,Reactor(R),Sulphur Absorber,65%
+2000-02,MES,R-2003,Reactor(R),Prereformer,52%
+2000-03,MES,R-2004,Reactor(R),Secondary Reformer,48%
+3000-02,MES,R-3001-1,Reactor(R),Methanol Reactor,52%
+3000-02,MES,R-3001-2,Reactor(R),Methanol Reactor,52%
+3000-02,MES,R-3001-3,Reactor(R),Methanol Reactor,52%
 DCS-01,IN,RB01-RS01R-F RMBDO19:1-RM02R-F,CABLE,CABLE(NA),0%
 DCS-01,IN,RB01-RS01R-F RMBDO19:2-RM02R-F,CABLE,CABLE(NA),0%
 DCS-01,IN,RB01-RS03R-F RMBDO12:1-RM06R-F,CABLE,CABLE(NA),0%
@@ -19303,10 +19303,10 @@ LS-06,EL,SL19-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL1-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL2,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL20,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
-2000-01,MES,SL-2001,Silencer(SL),HPS Secondary Reforming Silencer,95%
-2000-01,MES,SL-2002,Silencer(SL),HPS Reforming Silencer,95%
-2000-04,MES,SL-2003,Silencer(SL),HHP Steam Silencer,68%
-2000-04,MES,SL-2004,Silencer(SL),HHP Steam Drum Silencer,89%
+2000-01,MES,SL-2001,Silencer(SL),HPS Secondary Reforming Silencer,Done
+2000-01,MES,SL-2002,Silencer(SL),HPS Reforming Silencer,Done
+2000-04,MES,SL-2003,Silencer(SL),HHP Steam Silencer,Done
+2000-04,MES,SL-2004,Silencer(SL),HHP Steam Drum Silencer,Done
 LS-06,EL,SL20-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL21,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL21-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
@@ -19329,7 +19329,7 @@ LS-06,EL,SL29-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL2-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,33%
 LS-06,EL,SL3,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL30,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
-3000-02,MES,SL-3001,Silencer(SL),MP Steam Drum Silencer,74%
+3000-02,MES,SL-3001,Silencer(SL),MP Steam Drum Silencer,79%
 3000-02,IN,SL-3001.2.3-ST1,CABLE,CABLE(NA),0%
 3000-02,IN,SL-3001.2.3-ST2,CABLE,CABLE(NA),0%
 3000-02,IN,SL-3001_2_3-ST1,Instrument(SL),Instrument(SL),0%
@@ -19353,9 +19353,9 @@ LS-06,EL,SL5-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL6,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL6-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL7,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
-4000-02,MES,SL-7001,Silencer(SL),HP Steam Silencer,95%
-4000-03,MES,SL-7002,Silencer(SL),MP Steam Silencer,95%
-4000-02,MES,SL-7003,Silencer(SL),LP Steam Silencer,95%
+4000-02,MES,SL-7001,Silencer(SL),HP Steam Silencer,Done
+4000-03,MES,SL-7002,Silencer(SL),MP Steam Silencer,Done
+4000-02,MES,SL-7003,Silencer(SL),LP Steam Silencer,Done
 LS-06,EL,SL7-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,0%
 LS-06,EL,SL8,Lighting Fixture,LED Street lighting Fixture 175W| WP,50%
 LS-06,EL,SL8-FJB01,Lighting Cable,LED Street lighting Fixture 175W | WP,33%
@@ -19932,12 +19932,12 @@ NO SUBS.,IN,SZSL-10219,SIGNAL,SIGNAL,0%
 NO SUBS.,IN,SZSL-84209,Instrument(X),Instrument(SZSL),0%
 NO SUBS.,IN,SZSL-84212,Instrument(X),Instrument(SZSL),0%
 NO SUBS.,IN,SZSL-84214,Instrument(X),Instrument(SZSL),0%
-5000-01,MES,T-5001,Tower(T),STABILIZER COLUMN,78%
-5000-02,MES,T-5002,Tower(T),LP METHANOL COLUMN,91%
+5000-01,MES,T-5001,Tower(T),STABILIZER COLUMN,91%
+5000-02,MES,T-5002,Tower(T),LP METHANOL COLUMN,Done
 5000-03,MES,T-5003,Tower(T),MP METHANOL COLUMN,82%
-5000-01,MES,T-5004,Tower(T),Vent Wash Column,74%
-1000-03,MES,T-6001-1,Tower(T),Saturator,96%
-1000-03,MES,T-6001-2,Tower(T),Saturator,96%
+5000-01,MES,T-5004,Tower(T),Vent Wash Column,87%
+1000-03,MES,T-6001-1,Tower(T),Saturator,Done
+1000-03,MES,T-6001-2,Tower(T),Saturator,Done
 3000-01,IN,TAH-30139,PKG,PKG,0%
 120-13,EL,TB01-TC01,Cathodic Protection,Cable 1x16,DONE
 120-13,EL,TB01-TC02,Cathodic Protection,Cable 1x16,DONE
@@ -21007,7 +21007,7 @@ FGS-01,IN,TGD-0022(NA),CABLE,CABLE(NA),0%
 FGS-01,IN,TGD-0022(TGD),Fire Alarm,Fire Alarm(TGD),0%
 2000-02,IN,TI-2112,Instrument(TI),Instrument(TI),0%
 3000-01,IN,TI-30140,PKG,PKG,0%
-NO SUBS.,MES,TK-3013,005-Tank(TK),Run Down Tank,59%
+NO SUBS.,MES,TK-3013,005-Tank(TK),Run Down Tank,68%
 5000-01,MES,TK-5001,005-Tank(TK),Raw Methanol Buffer Tank (TK 5001) OUT OF SCOPE,18%
 5000-04,MES,TK-5002-1,005-Tank(TK),Methanol Product Buffer Tank (TK 5002 1) OUT OF SCOPE,9%
 5000-04,MES,TK-5002-2,005-Tank(TK),Methanol Product Buffer Tank (TK 5002 2) OUT OF SCOPE,9%
@@ -21774,7 +21774,7 @@ NO SUBS.,IN,TT-84208,Instrument(TT),Instrument(TT),0%
 2000-05,IN,TV-2457(NA),CABLE,CABLE(NA),0%
 2000-05,IN,TV-2457(TV),Instrument(TV),Instrument(TV),25%
 4000-02,IN,TV-2540(NA),CABLE,CABLE(NA),0%
-4000-02,IN,TV-2540(TV),Instrument(TV),Instrument(TV),50%
+4000-02,IN,TV-2540(TV),Instrument(TV),Instrument(TV),75%
 3000-01,IN,TV-30152,Instrument(TV),Instrument(TV),0%
 2000-05,IN,TV-5064(NA),CABLE,CABLE(NA),0%
 2000-05,IN,TV-5064(TV),Instrument(TV),Instrument(TV),25%
@@ -22318,16 +22318,16 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 1000-02,IN,USV-2547,Instrument(USV),Instrument(USV),50%
 1000-02,IN,USV-2548,Instrument(USV),Instrument(USV),50%
 1000-02,IN,USV-2549,Instrument(USV),Instrument(USV),50%
-3000-01,IN,USV-3018,Instrument(USV),Instrument(USV),25%
+3000-01,IN,USV-3018,Instrument(USV),Instrument(USV),50%
 3000-02,IN,USV-3052,Instrument(USV),Instrument(USV),0%
 3000-03,IN,USV-3172,Instrument(USV),Instrument(USV),25%
 4000-02,IN,USV-5302,Instrument(USV),Instrument(USV),25%
-5000-04,IN,USV-5391,Instrument(USV),Instrument(USV),25%
-5000-04,IN,USV-5392,Instrument(USV),Instrument(USV),25%
-5000-04,IN,USV-5393,Instrument(USV),Instrument(USV),25%
-5000-04,IN,USV-5420,Instrument(USV),Instrument(USV),25%
-5000-04,IN,USV-5421,Instrument(USV),Instrument(USV),25%
-5000-04,IN,USV-5422,Instrument(USV),Instrument(USV),0%
+5000-04,IN,USV-5391,Instrument(USV),Instrument(USV),50%
+5000-04,IN,USV-5392,Instrument(USV),Instrument(USV),50%
+5000-04,IN,USV-5393,Instrument(USV),Instrument(USV),50%
+5000-04,IN,USV-5420,Instrument(USV),Instrument(USV),50%
+5000-04,IN,USV-5421,Instrument(USV),Instrument(USV),50%
+5000-04,IN,USV-5422,Instrument(USV),Instrument(USV),25%
 1000-03,IN,USV-6081,Instrument(USV),Instrument(USV),0%
 1000-03,IN,USV-6082,Instrument(USV),Instrument(USV),25%
 4000-02,IN,USV-70165A,Instrument(USV),Instrument(USV),Done
@@ -22454,7 +22454,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 4000-04,IN,USY-5356,SIGNAL,SIGNAL,Exception(Pending)
 4000-04,IN,USY-5360,SIGNAL,SIGNAL,Exception(Pending)
 4000-04,IN,USY-5364,SIGNAL,SIGNAL,Exception(Pending)
-5000-04,IN,USY-5391(NA),CABLE,CABLE(NA),50%
+5000-04,IN,USY-5391(NA),CABLE,CABLE(NA),Done
 5000-04,IN,USY-5391(USY),Instrument(X),Instrument(USY),0%
 5000-04,IN,USY-5392(NA),CABLE,CABLE(NA),Done
 5000-04,IN,USY-5392(USY),Instrument(X),Instrument(USY),0%
@@ -22466,7 +22466,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 5000-04,IN,USY-5420(USY),Instrument(X),Instrument(USY),0%
 5000-04,IN,USY-5421(NA),CABLE,CABLE(NA),Done
 5000-04,IN,USY-5421(USY),Instrument(X),Instrument(USY),0%
-5000-04,IN,USY-5422(NA),CABLE,CABLE(NA),50%
+5000-04,IN,USY-5422(NA),CABLE,CABLE(NA),Done
 5000-04,IN,USY-5422(USY),Instrument(X),Instrument(USY),0%
 4000-04,IN,USY-5424,SIGNAL,SIGNAL,Exception(Pending)
 4000-04,IN,USY-5428,SIGNAL,SIGNAL,Exception(Pending)
@@ -22673,7 +22673,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 5000-01,IN,UZSH-5021(UZSH),Instrument(X),Instrument(UZSH),0%
 4000-02,IN,UZSH-5302(NA),CABLE,CABLE(NA),0%
 4000-02,IN,UZSH-5302(UZSH),Instrument(X),Instrument(UZSH),Done
-5000-04,IN,UZSH-5391(NA),CABLE,CABLE(NA),50%
+5000-04,IN,UZSH-5391(NA),CABLE,CABLE(NA),Done
 5000-04,IN,UZSH-5391(UZSH),Instrument(X),Instrument(UZSH),0%
 5000-04,IN,UZSH-5392(NA),CABLE,CABLE(NA),Done
 5000-04,IN,UZSH-5392(UZSH),Instrument(X),Instrument(UZSH),0%
@@ -22683,7 +22683,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 5000-04,IN,UZSH-5420(UZSH),Instrument(X),Instrument(UZSH),0%
 5000-04,IN,UZSH-5421(NA),CABLE,CABLE(NA),Done
 5000-04,IN,UZSH-5421(UZSH),Instrument(X),Instrument(UZSH),0%
-5000-04,IN,UZSH-5422(NA),CABLE,CABLE(NA),50%
+5000-04,IN,UZSH-5422(NA),CABLE,CABLE(NA),Done
 5000-04,IN,UZSH-5422(UZSH),Instrument(X),Instrument(UZSH),0%
 1000-03,IN,UZSH-6035(NA),CABLE,CABLE(NA),0%
 1000-03,IN,UZSH-6035(UZSH),Instrument(X),Instrument(UZSH),0%
@@ -22802,7 +22802,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 5000-01,IN,UZSL-5021(UZSL),Instrument(X),Instrument(UZSL),0%
 4000-02,IN,UZSL-5302(NA),CABLE,CABLE(NA),0%
 4000-02,IN,UZSL-5302(UZSL),Instrument(X),Instrument(UZSL),Done
-5000-04,IN,UZSL-5391(NA),CABLE,CABLE(NA),50%
+5000-04,IN,UZSL-5391(NA),CABLE,CABLE(NA),Done
 5000-04,IN,UZSL-5391(UZSL),Instrument(X),Instrument(UZSL),0%
 5000-04,IN,UZSL-5392(NA),CABLE,CABLE(NA),Done
 5000-04,IN,UZSL-5392(UZSL),Instrument(X),Instrument(UZSL),0%
@@ -22812,7 +22812,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 5000-04,IN,UZSL-5420(UZSL),Instrument(X),Instrument(UZSL),0%
 5000-04,IN,UZSL-5421(NA),CABLE,CABLE(NA),Done
 5000-04,IN,UZSL-5421(UZSL),Instrument(X),Instrument(UZSL),0%
-5000-04,IN,UZSL-5422(NA),CABLE,CABLE(NA),50%
+5000-04,IN,UZSL-5422(NA),CABLE,CABLE(NA),Done
 5000-04,IN,UZSL-5422(UZSL),Instrument(X),Instrument(UZSL),0%
 1000-03,IN,UZSL-6035(NA),CABLE,CABLE(NA),0%
 1000-03,IN,UZSL-6035(UZSL),Instrument(X),Instrument(UZSL),0%
@@ -23209,20 +23209,20 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 3000-01,IN,VZT-30116C,Instrument(X),Instrument(VZT),0%
 2000-03,MES,X-2001-A,Filter(X),Oxygen Filter,DONE
 2000-03,MES,X-2001-B,Filter(X),Oxygen Filter,DONE
-2000-03,MES,X-2002-A,Filter(X),Steam Filter,29%
-2000-03,MES,X-2002-B,Filter(X),Steam Filter,38%
-1000-02,MES,X-2003,Filter(X),Static Fuel Gas Mixer,96%
-5000-04,MES,X-5001-A,Filter(X),PRODUCT POLISHER UNIT,62%
-5000-04,MES,X-5001-B,Filter(X),PRODUCT POLISHER UNIT,62%
+2000-03,MES,X-2002-A,Filter(X),Steam Filter,83%
+2000-03,MES,X-2002-B,Filter(X),Steam Filter,83%
+1000-02,MES,X-2003,Filter(X),Static Fuel Gas Mixer,Done
+5000-04,MES,X-5001-A,Filter(X),PRODUCT POLISHER UNIT,67%
+5000-04,MES,X-5001-B,Filter(X),PRODUCT POLISHER UNIT,67%
 5000-01,MES,X-5003,Filter(X),FILTER,DONE
-1000-03,MES,X-6001-A,Filter(X),Particle Filter,42%
-1000-03,MES,X-6001-B,Filter(X),Particle Filter,38%
-1000-03,MES,X-6002-A,Filter(X),Partical Filter,42%
-1000-03,MES,X-6002-B,Filter(X),Partical Filter,42%
+1000-03,MES,X-6001-A,Filter(X),Particle Filter,83%
+1000-03,MES,X-6001-B,Filter(X),Particle Filter,83%
+1000-03,MES,X-6002-A,Filter(X),Partical Filter,83%
+1000-03,MES,X-6002-B,Filter(X),Partical Filter,83%
 4000-04,MES,X-7001,Filter(X),FILTER,DONE
 4000-04,MES,X-7002,Filter(X),FILTER,DONE
 4000-04,MES,X-7003,Filter(X),FILTER,DONE
-4000-06,MES,X-7501,Filter(X),STATIC MIXER,4%
+4000-06,MES,X-7501,Filter(X),STATIC MIXER,Done
 2000-02,IN,XA-20101,Instrument(X),Instrument(XA),0%
 2000-02,IN,XA-20102,Instrument(X),Instrument(XA),0%
 2000-02,IN,XA-20103,Instrument(X),Instrument(XA),0%
@@ -25007,13 +25007,13 @@ NO SUBS.,IN,ZSL-30101,PKG,PKG,0%
 2000-06,IN,ZT-25105B,Instrument(ZT),Instrument(ZT),0%
 2000-06,IN,ZT-25107,Pkg,Pkg,33%
 2000-06,IN,ZT-25108,Pkg,Pkg,33%
-5000-04,IN,ZT-5404A(NA),CABLE,CABLE(NA),50%
+5000-04,IN,ZT-5404A(NA),CABLE,CABLE(NA),Done
 5000-04,IN,ZT-5404A(ZT),Instrument(ZT),Instrument(ZT),0%
-5000-04,IN,ZT-5404B(NA),CABLE,CABLE(NA),50%
+5000-04,IN,ZT-5404B(NA),CABLE,CABLE(NA),Done
 5000-04,IN,ZT-5404B(ZT),Instrument(ZT),Instrument(ZT),0%
-5000-04,IN,ZT-5405A(NA),CABLE,CABLE(NA),50%
+5000-04,IN,ZT-5405A(NA),CABLE,CABLE(NA),Done
 5000-04,IN,ZT-5405A(ZT),Instrument(ZT),Instrument(ZT),0%
-5000-04,IN,ZT-5405B(NA),CABLE,CABLE(NA),50%
+5000-04,IN,ZT-5405B(NA),CABLE,CABLE(NA),Done
 5000-04,IN,ZT-5405B(ZT),Instrument(ZT),Instrument(ZT),0%
 5000-04,IN,ZT-5454(NA),CABLE,CABLE(NA),0%
 5000-04,IN,ZT-5454(ZT),Instrument(ZT),Instrument(ZT),0%
