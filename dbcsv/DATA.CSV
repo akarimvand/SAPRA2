@@ -37,7 +37,7 @@
 2000,2000-02,Reforming,Primary Reforming,PI,9,7,2,25,16,9,1
 2000,2000-02,Reforming,Primary Reforming,IN,873,102,128,721,374,347,77
 2000,2000-02,Reforming,Primary Reforming,MES,8,0,8,0,0,0,0
-2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,25,14,4,56,23,33,79
+2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,26,14,4,56,23,33,79
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,363,69,39,295,106,189,50
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,MES,6,2,4,0,0,0,2
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MES,11,2,9,40,0,40,0
@@ -58,7 +58,7 @@
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,39,29,137,42,95,44
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,34,4,80,20,60,45
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,3,8,19,0,19,0
-3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,7,4,2,30,0,30,0
+3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,9,4,2,30,0,30,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,32,0,109,51,58,8
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,69,14,222,89,133,99
 3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,2,0,20,0,20,0
@@ -76,7 +76,7 @@
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,4,1,6,0,6,3
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,6,0,0,0,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,2,4,0
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,47,45,2,175,110,65,19
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,48,45,2,175,110,65,19
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,47,56,436,304,132,384
 4000,4000-05,Utility,Blow Down,PI,24,24,0,44,24,20,13
 4000,4000-05,Utility,Blow Down,MES,4,0,4,23,0,23,0
@@ -89,7 +89,7 @@
 4000,4000-07,Utility,Plant Air,PI,10,10,0,31,4,27,30
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,6,20,0,20,0
-4000,4000-08,Utility,Cooling Water,PI,298,279,3,635,503,132,37
+4000,4000-08,Utility,Cooling Water,PI,298,279,3,649,503,146,37
 4000,4000-08,Utility,Cooling Water,IN,745,649,58,313,207,106,533
 4000,4000-08,Utility,Cooling Water,EL,6,6,0,56,18,38,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,28,0,0,0,0,26
