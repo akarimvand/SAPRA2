@@ -10,8 +10,8 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,3,0,15,7,8,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,181,59,336,111,225,107
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,53,3,176,113,63,57
-120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,184,0,2181,1961,220,2
-120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,341,20,3512,3153,359,31
+120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,185,0,2181,1961,220,2
+120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,341,22,3512,3153,359,31
 120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,301,27,3100,2776,324,44
 120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,306,283,22,2141,2064,77,42
 120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,284,274,10,2193,2152,41,32
@@ -58,7 +58,7 @@
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,39,29,137,42,95,44
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,34,4,80,20,60,45
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,3,8,19,0,19,0
-3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,9,4,2,30,0,30,0
+3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,9,4,3,30,0,30,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,32,0,109,51,58,8
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,69,14,222,90,132,99
 3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,2,0,20,0,20,0
@@ -79,7 +79,7 @@
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,48,45,2,175,110,65,19
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,47,56,436,307,129,384
 4000,4000-05,Utility,Blow Down,PI,24,24,0,44,24,20,13
-4000,4000-05,Utility,Blow Down,MES,4,0,4,23,0,23,0
+4000,4000-05,Utility,Blow Down,MES,4,3,1,23,0,23,0
 4000,4000-05,Utility,Blow Down,IN,17,17,0,15,6,9,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,4,11,16,0,16,5
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,51,0,180,96,84,167
@@ -120,8 +120,8 @@
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,PI,46,46,0,139,74,65,9
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,465,432,16,590,454,136,287
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,46,0,140,95,45,13
-5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,0,5,44,12,32,0
-5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,218,19,656,463,193,78
+5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,4,1,44,12,32,0
+5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,223,17,656,463,193,78
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,EL,2,2,0,12,4,8,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,0,6,35,0,35,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MES,6,2,4,34,4,30,0
@@ -131,11 +131,11 @@
 5000,5000-04,Distillation & Methanol Product,Methanol Product,IN,213,139,21,412,137,275,45
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MES,2,0,2,0,0,0,1
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MER,2,0,2,12,0,12,0
-5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,63,39,11,73,25,48,20
+5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,63,44,8,73,25,48,20
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,10,9,1,29,22,7,2
 7000,7000-01,Flare,Flare System (In Site),IN,145,138,0,247,76,171,17
 7000,7000-01,Flare,Flare System (In Site),MER,2,2,0,14,0,14,0
-7000,7000-01,Flare,Flare System (In Site),MES,2,0,2,8,0,8,0
+7000,7000-01,Flare,Flare System (In Site),MES,2,2,0,8,0,8,0
 7000,7000-01,Flare,Flare System (In Site),PI,49,49,0,119,60,59,77
 BLD,BLD-01,Building,Substation,PI,4,4,0,6,3,3,9
 BLD,BLD-01,Building,Substation,CV,14,14,0,63,6,57,0
