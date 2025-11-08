@@ -5415,9 +5415,9 @@ NO SUBS.,PI,61-SUMP-091,PI_TP,PIPING TEST PACKAGE,DONE
 2000-02,IN,AC-20151,Instrument(AC),Instrument(AC),0%
 2000-02,IN,AC-20152,Instrument(AC),Instrument(AC),0%
 2000-05,MES,AE-2026,Air_Cooler(AE),Air_Cooler,76%
-3000-03,MES,AE-3002-1,Air_Cooler(AE),Air_Cooler-1,
-3000-03,MES,AE-3002-2,Air_Cooler(AE),Air_Cooler-2,
-3000-03,MES,AE-3002-3,Air_Cooler(AE),Air_Cooler-3,
+3000-03,MES,AE-3002-1,Air_Cooler(AE),Air_Cooler-1,47%
+3000-03,MES,AE-3002-2,Air_Cooler(AE),Air_Cooler-2,0%
+3000-03,MES,AE-3002-3,Air_Cooler(AE),Air_Cooler-3,0%
 5000-01,MES,AE-5004,Air_Cooler(AE),Air_Cooler,71%
 5000-01,MES,AE-5005-A,Air_Cooler(AE),,0%
 5000-01,MES,AE-5005-B,Air_Cooler(AE),,0%
@@ -6262,15 +6262,15 @@ TEL-09,EL,CR-TJB3,Telecom Device,Telephone Junction Box,0%
 3000-01,MES,D-3010,Drum(D),Seprator Vessle,68%
 5000-01,MES,D-5001,Drum(D),Stabilizer Column OH Accumulator,91%
 5000-02,MES,D-5002,Drum(D),LP Column OH Accumulator,91%
-5000-03,MES,D-5003,Drum(D),MP Column OH Accumulator,94%
+5000-03,MES,D-5003,Drum(D),MP Column OH Accumulator,95%
 5000-01,MES,D-5009,Drum(D),Steam Condensate KO Drum for E5001,91%
 1000-03,MES,D-6001,Drum(D),Feed Gas Separator,91%
 1000-03,MES,D-6002,Drum(D),Saturator Blow Down Drum,91%
 4000-04,MES,D-7001,Drum(D),Thermal Deaerator,64%
-4000-05,MES,D-7002,Drum(D),Continuous Blow-down Drum,95%
-4000-05,MES,D-7003,Drum(D),Intermediate Blow Down Drum No.1,95%
-4000-05,MES,D-7004,Drum(D),Intermediate Blow Down Drum No.2,59%
-7000-01,MES,D-7101,Drum(D),Knock Out Drum,95%
+4000-05,MES,D-7002,Drum(D),Continuous Blow-down Drum,Done
+4000-05,MES,D-7003,Drum(D),Intermediate Blow Down Drum No.1,Done
+4000-05,MES,D-7004,Drum(D),Intermediate Blow Down Drum No.2,64%
+7000-01,MES,D-7101,Drum(D),Knock Out Drum,Done
 4000-06,MES,D-7501,Drum(D),CAUSTIC STORAGE DRUM,Done
 4000-06,MES,D-7502,Drum(D),SULFURIC ACID DRUM,68%
 1000-02,PI,DE-RF-FG-001,PI_TP,PIPING TEST PACKAGE,DONE
@@ -6957,7 +6957,7 @@ ES-01,EL,E2-02,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
 2000-04,MES,E-2022-1,Exchanger(E),BFW Preheater,89%
 2000-04,MES,E-2022-2,Exchanger(E),BFW Preheater,89%
 2000-04,MES,E-2022-3,Exchanger(E),BFW Preheater,89%
-5000-03,MES,E-2023,Exchanger(E),MP Column Reboiler No.2,87%
+5000-03,MES,E-2023,Exchanger(E),MP Column Reboiler No.2,Done
 5000-01,MES,E-2024-1,Exchanger(E),Stabilizer Column Reboiler,Done
 5000-01,MES,E-2024-2,Exchanger(E),Stabilizer Column Reboiler,Done
 2000-05,MES,E-2025,Exchanger(E),DMW Preheater,Done
@@ -9121,12 +9121,12 @@ ES-08,EL,E48-12,Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO HOR
 5000-02,MES,E-5002-2,Exchanger(E),LP Column Reboiler,Done
 5000-02,MES,E-5002-3,Exchanger(E),LP Column Reboiler,Done
 5000-02,MES,E-5002-4,Exchanger(E),LP Column Reboiler,Done
-5000-03,MES,E-5003-1,Exchanger(E),MP Column Reboiler No.1,87%
-5000-03,MES,E-5003-2,Exchanger(E),MP Column Reboiler No.2,87%
+5000-03,MES,E-5003-1,Exchanger(E),MP Column Reboiler No.1,Done
+5000-03,MES,E-5003-2,Exchanger(E),MP Column Reboiler No.2,Done
 5000-01,MES,E-5007,Exchanger(E),Wash Water Cooler,Done
 5000-04,MES,E-5008,Exchanger(E),Methanol Product Cooler,Done
 5000-01,MES,E-5010,Exchanger(E),OH Gas Condenser,Done
-5000-05,MES,E-5011,Exchanger(E),Liquid Off Stream Cooler,60%
+5000-05,MES,E-5011,Exchanger(E),Liquid Off Stream Cooler,79%
 5000-04,MES,E-5012,Exchanger(E),Methanol Product Cooler No.2,Done
 ES-03,EL,E51-01(ES-03),Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO VERTICAL L.V. MOTOR,DONE
 ES-07,EL,E51-01(ES-07),Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO VERTICAL L.V. MOTOR,Done
@@ -9448,7 +9448,7 @@ ES-08,EL,E63-06(ES-08),Earthing System,EARTHING CONNECTION WITH 70 mm2 EARTH WIR
 ES-10,EL,E63-06(ES-10),Earthing System,EARTHING CONNECTION WITH 70 mm2 EARTH WIRETO HORIZONTAL MV MOTOR,Done
 ES-10,EL,E63-07,Earthing System,EARTHING CONNECTION WITH 70 mm2 EARTH WIRETO HORIZONTAL MV MOTOR,Done
 ES-10,EL,E63-08,Earthing System,EARTHING CONNECTION WITH 70 mm2 EARTH WIRETO HORIZONTAL MV MOTOR,Done
-4000-05,MES,E-7001,Exchanger(E),Blow down Cooler for D7003,89%
+4000-05,MES,E-7001,Exchanger(E),Blow down Cooler for D7003,Done
 ES-02,EL,E8-01(ES-02),Earthing System,THERMOWELD EARTH CONNECTION 35 TO 70mm2,Done
 ES-05,EL,E8-01(ES-05),Earthing System,THERMOWELD EARTH CONNECTION 35 TO 70mm2,DONE
 ES-06,EL,E8-01(ES-06),Earthing System,THERMOWELD EARTH CONNECTION 35 TO 70mm2,0%
@@ -9892,7 +9892,7 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-01,EL,EAP-MC-2001,Power Cable A,Start Up Nitrogen Compressor- MC-2001,Done
 120-01,EL,EAP-MC-2002,Power Cable A,Hydrogen Recycle Compressor- MC-2002,Done
 120-01,EL,EAP-MF-2001_1,Power Cable A,Flue Gas Blower (ID FAN)- MF-2001,Done
-120-01,EL,EAP-MF-2001_2,Power Cable A,Flue Gas Blower (ID FAN)- MF-2001,
+120-01,EL,EAP-MF-2001_2,Power Cable A,Flue Gas Blower (ID FAN)- MF-2001,Done
 120-01,EL,EAP-MF-2002_1,Power Cable A,Combustion Air Blower (FD FAN)- MF-2002,Done
 120-01,EL,EAP-MF-2002_2,Power Cable A,Combustion Air Blower (FD FAN)- MF-2002,Done
 120-01,EL,EAP-MP-5004A,Power Cable A,LP Column Reflux Pump- MP-5004A,Done
@@ -11251,8 +11251,8 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-02,EL,ECC-MX-7060_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-MX-7070_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-P7001C-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
-120-02,EL,ECC-P7001C-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-02,EL,ECC-P7001C-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-02,EL,ECC-P7001C-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-02,EL,ECC-P7001C-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
 120-07,EL,ECC-P7001C-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-03,EL,ECC-PK7502-MB-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-03,EL,ECC-PK7502-MB-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
@@ -12990,7 +12990,7 @@ NO SUBS.,IN,FT-10219,SIGNAL,SIGNAL,0%
 4000-02,IN,FT-5301(FT),Instrument(FT),Instrument(FT),Done
 4000-02,IN,FT-5301(NA),CABLE,CABLE(NA),0%
 5000-03,IN,FT-5321(FT),Instrument(FT),Instrument(FT),50%
-5000-03,IN,FT-5321(NA),CABLE,CABLE(NA),0%
+5000-03,IN,FT-5321(NA),CABLE,CABLE(NA),Done
 5000-04,IN,FT-5336(FT),Instrument(FT),Instrument(FT),25%
 5000-04,IN,FT-5336(NA),CABLE,CABLE(NA),Done
 5000-04,IN,FT-5337(FT),Instrument(FT),Instrument(FT),25%
@@ -13004,7 +13004,7 @@ NO SUBS.,IN,FT-10219,SIGNAL,SIGNAL,0%
 5000-04,IN,FT-5421(FT),Instrument(FT),Instrument(FT),0%
 5000-04,IN,FT-5421(NA),CABLE,CABLE(NA),0%
 5000-05,IN,FT-5441(FT),Instrument(FT),Instrument(FT),Done
-5000-05,IN,FT-5441(NA),CABLE,CABLE(NA),0%
+5000-05,IN,FT-5441(NA),CABLE,CABLE(NA),Done
 5000-04,IN,FT-5494(FT),Instrument(FT),Instrument(FT),0%
 5000-04,IN,FT-5494(NA),CABLE,CABLE(NA),0%
 1000-03,IN,FT-6031(FT),Instrument(FT),Instrument(FT),50%
@@ -13243,12 +13243,12 @@ NO SUBS.,IN,FV-30111,PKG,PKG,33%
 5000-03,IN,FV-5301(FV),Instrument(FV),Instrument(FV),Done
 5000-03,IN,FV-5301(NA),CABLE,CABLE(NA),Done
 5000-03,IN,FV-5321(FV),Instrument(FV),Instrument(FV),25%
-5000-03,IN,FV-5321(NA),CABLE,CABLE(NA),0%
+5000-03,IN,FV-5321(NA),CABLE,CABLE(NA),Done
 5000-04,IN,FV-5336(FV),Instrument(FV),Instrument(FV),Done
 5000-04,IN,FV-5336(NA),CABLE,CABLE(NA),Done
 5000-04,IN,FV-5337(FV),Instrument(FV),Instrument(FV),Done
 5000-04,IN,FV-5337(NA),CABLE,CABLE(NA),Done
-5000-03,IN,FV-5367(FV),Instrument(FV),Instrument(FV),25%
+5000-03,IN,FV-5367(FV),Instrument(FV),Instrument(FV),50%
 5000-03,IN,FV-5367(NA),CABLE,CABLE(NA),Done
 5000-04,IN,FV-5383(FV),Instrument(FV),Instrument(FV),0%
 5000-04,IN,FV-5383(NA),CABLE,CABLE(NA),Done
@@ -13256,7 +13256,7 @@ NO SUBS.,IN,FV-30111,PKG,PKG,33%
 5000-04,IN,FV-5407A(NA),CABLE,CABLE(NA),Done
 5000-04,IN,FV-5407B,Instrument(FV),Instrument(FV),Done
 5000-05,IN,FV-5441(FV),Instrument(FV),Instrument(FV),75%
-5000-05,IN,FV-5441(NA),CABLE,CABLE(NA),0%
+5000-05,IN,FV-5441(NA),CABLE,CABLE(NA),Done
 4000-04,IN,FV-6031(FV),Instrument(FV),Instrument(FV),Done
 4000-04,IN,FV-6031(NA),CABLE,CABLE(NA),Done
 1000-03,IN,FV-6059-1(FV),Instrument(FV),Instrument(FV),25%
@@ -14860,9 +14860,9 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 5000-02,IN,LSH-50213A(NA),CABLE,CABLE(NA),Done
 5000-02,IN,LSH-50213B(LSH),Instrument(LSH),Instrument(LSH),Done
 5000-02,IN,LSH-50213B(NA),CABLE,CABLE(NA),Done
-5000-03,IN,LSH-50216A(LSH),Instrument(LSH),Instrument(LSH),50%
+5000-03,IN,LSH-50216A(LSH),Instrument(LSH),Instrument(LSH),Done
 5000-03,IN,LSH-50216A(NA),CABLE,CABLE(NA),Done
-5000-03,IN,LSH-50216B(LSH),Instrument(LSH),Instrument(LSH),50%
+5000-03,IN,LSH-50216B(LSH),Instrument(LSH),Instrument(LSH),Done
 5000-03,IN,LSH-50216B(NA),CABLE,CABLE(NA),Done
 5000-03,IN,LSH-50219A(LSH),Instrument(LSH),Instrument(LSH),0%
 5000-03,IN,LSH-50219A(NA),CABLE,CABLE(NA),0%
@@ -16818,16 +16818,16 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 5000-02,MER,P-5004B,Pump,LP COLUMN REFLUX PUMP,90%
 5000-02,MER,P-5005A,Pump,MP COLUMN REFLUX PUMP,90%
 5000-02,MER,P-5005B,Pump,MP COLUMN FEED PUMP,Done
-5000-03,MER,P-5006A,Pump,MP COLUMN REFLUX PUMP,86%
-5000-03,MER,P-5006B,Pump,MP COLUMN REFLUX PUMP,86%
-5000-03,MER,P-5007A,Pump,MP COLUMN RECYCLE PUMP,86%
-5000-03,MER,P-5007B,Pump,MP COLUMN RECYCLE PUMP,86%
+5000-03,MER,P-5006A,Pump,MP COLUMN REFLUX PUMP,95%
+5000-03,MER,P-5006B,Pump,MP COLUMN REFLUX PUMP,95%
+5000-03,MER,P-5007A,Pump,MP COLUMN RECYCLE PUMP,95%
+5000-03,MER,P-5007B,Pump,MP COLUMN RECYCLE PUMP,95%
 5000-04,MER,P-5008A,Pump,METHANOL PRODUCT PUMP,95%
 5000-04,MER,P-5008B,Pump,METHANOL PRODUCT PUMP,95%
-5000-05,MER,P-5009A,Pump,LIQUID OFF STREAM PUMP,43%
-5000-05,MER,P-5009B,Pump,LIQUID OFF STREAM PUMP,50%
-5000-03,MER,P-5010A,Pump,EXCESS WATER PUMP,64%
-5000-03,MER,P-5010B,Pump,EXCESS WATER PUMP,86%
+5000-05,MER,P-5009A,Pump,LIQUID OFF STREAM PUMP,95%
+5000-05,MER,P-5009B,Pump,LIQUID OFF STREAM PUMP,95%
+5000-03,MER,P-5010A,Pump,EXCESS WATER PUMP,90%
+5000-03,MER,P-5010B,Pump,EXCESS WATER PUMP,95%
 5000-01,MER,P-5011A,Pump,STEAM CONDENSATE PUMP,95%
 5000-01,MER,P-5011B,Pump,STEAM CONDENSATE PUMP,95%
 5000-04,MER,P-5012A,Pump,METHANOL START UP PUMP,95%
@@ -18144,7 +18144,7 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 5000-04,IN,PSV-5409-2,Instrument(PSV),Instrument(PSV),Done
 5000-04,IN,PSV-5417,Instrument(PSV),Instrument(PSV),Done
 5000-04,IN,PSV-5418,Instrument(PSV),Instrument(PSV),Done
-5000-05,IN,PSV-5444,Instrument(PSV),Instrument(PSV),50%
+5000-05,IN,PSV-5444,Instrument(PSV),Instrument(PSV),Done
 5000-05,IN,PSV-5450,Instrument(PSV),Instrument(PSV),Done
 5000-05,IN,PSV-5451,Instrument(PSV),Instrument(PSV),Done
 5000-05,IN,PSV-5461,Instrument(PSV),Instrument(PSV),Done
@@ -19045,7 +19045,7 @@ LS-04,EL,S41,Switch,One Pole Switch Surface Mounted- WP,0%
 LS-04,EL,S42,Switch,One Pole Switch Surface Mounted- WP,0%
 LS-04,EL,S43,Switch,One Pole Switch Surface Mounted- WP,0%
 LS-04,EL,S44,Switch,One Pole Switch Surface Mounted- WP,0%
-7000-01,MES,S-7101,Stack(S),Flare Stack,27%
+7000-01,MES,S-7101,Stack(S),Flare Stack,Done
 120-13,EL,SA_AJB-P-002,Cathodic Protection,Anod Junction Box,0%
 120-13,EL,SA_NBB-P-001,Cathodic Protection,Negative Bond Box,0%
 120-13,EL,SA_TB-P-008,Cathodic Protection,Test Box,0%
@@ -19938,7 +19938,7 @@ NO SUBS.,IN,SZSL-84212,Instrument(X),Instrument(SZSL),0%
 NO SUBS.,IN,SZSL-84214,Instrument(X),Instrument(SZSL),0%
 5000-01,MES,T-5001,Tower(T),STABILIZER COLUMN,91%
 5000-02,MES,T-5002,Tower(T),LP METHANOL COLUMN,Done
-5000-03,MES,T-5003,Tower(T),MP METHANOL COLUMN,82%
+5000-03,MES,T-5003,Tower(T),MP METHANOL COLUMN,Done
 5000-01,MES,T-5004,Tower(T),Vent Wash Column,87%
 1000-03,MES,T-6001-1,Tower(T),Saturator,Done
 1000-03,MES,T-6001-2,Tower(T),Saturator,Done
@@ -20494,7 +20494,7 @@ NO SUBS.,IN,TE-10208-2,PKG,PKG,0%
 5000-03,IN,TE-5307(TE),Instrument(TE),Instrument(TE),Done
 5000-03,IN,TE-5325(NA),CABLE,CABLE(NA),0%
 5000-03,IN,TE-5325(TE),Instrument(TE),Instrument(TE),Done
-5000-03,IN,TE-5335(NA),CABLE,CABLE(NA),0%
+5000-03,IN,TE-5335(NA),CABLE,CABLE(NA),Done
 5000-03,IN,TE-5335(TE),Instrument(TE),Instrument(TE),Done
 5000-04,IN,TE-5340(NA),CABLE,CABLE(NA),Done
 5000-04,IN,TE-5340(TE),Instrument(TE),Instrument(TE),Done
@@ -20505,9 +20505,9 @@ NO SUBS.,IN,TE-10208-2,PKG,PKG,0%
 5000-05,IN,TE-5441(NA),CABLE,CABLE(NA),0%
 5000-05,IN,TE-5441(TE),Instrument(TE),Instrument(TE),Done
 5000-05,IN,TE-5442(NA),CABLE,CABLE(NA),Done
-5000-05,IN,TE-5442(TE),Instrument(TE),Instrument(TE),50%
+5000-05,IN,TE-5442(TE),Instrument(TE),Instrument(TE),Done
 5000-05,IN,TE-5443(NA),CABLE,CABLE(NA),0%
-5000-05,IN,TE-5443(TE),Instrument(TE),Instrument(TE),50%
+5000-05,IN,TE-5443(TE),Instrument(TE),Instrument(TE),Done
 1000-03,IN,TE-6001(NA),CABLE,CABLE(NA),Done
 1000-03,IN,TE-6001(TE),Instrument(TE),Instrument(TE),Done
 1000-03,IN,TE-6024(NA),CABLE,CABLE(NA),50%
@@ -21015,7 +21015,7 @@ NO SUBS.,MES,TK-3013,005-Tank(TK),Run Down Tank,68%
 5000-01,MES,TK-5001,005-Tank(TK),Raw Methanol Buffer Tank (TK 5001) OUT OF SCOPE,18%
 5000-04,MES,TK-5002-1,005-Tank(TK),Methanol Product Buffer Tank (TK 5002 1) OUT OF SCOPE,9%
 5000-04,MES,TK-5002-2,005-Tank(TK),Methanol Product Buffer Tank (TK 5002 2) OUT OF SCOPE,9%
-5000-05,MES,TK-5003,005-Tank(TK),Liquid off -stream Tank (TK 5003) OUT OF SCOPE,6%
+5000-05,MES,TK-5003,005-Tank(TK),Liquid off -stream Tank (TK 5003) OUT OF SCOPE,9%
 4000-06,MES,TK-7001-1,005-Tank(TK),Demineralized Water Tank (TK 7001 1) OUT OF SCOPE,9%
 4000-06,MES,TK-7001-2,005-Tank(TK),Demineralized Water Tank (TK 7001 2) OUT OF SCOPE,9%
 1000-03,MES,TK-7002,005-Tank(TK),Process Condensate Buffer Tank (TK 7002) OUT OF SCOPE,5%
