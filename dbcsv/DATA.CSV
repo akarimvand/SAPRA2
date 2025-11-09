@@ -1,27 +1,27 @@
 ﻿SD_System,SD_Sub_System,SD_System_Name,SD_Subsystem_Name,discipline,TOTAL ITEM,TOTAL DONE,TOTAL PENDING,TOTAL PUNCH,TOTAL CLEAR PUNCH,TOTAL NOT CLEAR PUNCH,TOTAL HOLD POINT
-1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,99,18,282,105,177,34
+1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,99,18,282,111,171,34
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,24,22,2,70,31,39,28
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,2,3,38,0,38,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,1,0,6,0,6,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,PI,12,12,0,24,19,5,3
-1000,1000-02,Gas Preparation,Fuel Gas & Distribution,IN,176,64,13,253,104,149,11
+1000,1000-02,Gas Preparation,Fuel Gas & Distribution,IN,176,64,13,253,118,135,11
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MES,13,2,11,41,2,39,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,0,9,55,0,55,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,3,0,15,7,8,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,181,59,336,111,225,107
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,53,3,176,113,63,57
-120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,185,0,2181,1961,220,2
-120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,341,22,3512,3153,359,31
+120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,185,0,2181,1971,210,2
+120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,341,22,3512,3154,358,31
 120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,301,27,3100,2811,289,44
 120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,306,283,22,2141,2064,77,42
 120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,284,274,10,2193,2152,41,32
 120,120-06,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-05,EL,262,256,5,2465,2391,74,11
 120,120-07,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-ESWB3A/B-01,EL,158,7,83,526,386,140,134
 120,120-08,Electrical Distribution Substation,Emergency Diesel Generator SS-DG-5701,EL,8,0,0,0,0,0,7
-120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,EL,29,29,0,119,48,71,0
+120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,EL,29,29,0,119,51,68,0
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,IN,2,2,0,6,6,0,0
-120,120-10,Electrical Distribution Substation,SS-CH-01 for Electrical Supply 110V DC,EL,24,24,0,186,108,78,0
-120,120-11,Electrical Distribution Substation,SS-UPS-01 for Safety Lighting Supply 230 AC UPS,EL,18,18,0,119,42,77,0
+120,120-10,Electrical Distribution Substation,SS-CH-01 for Electrical Supply 110V DC,EL,24,24,0,186,128,58,0
+120,120-11,Electrical Distribution Substation,SS-UPS-01 for Safety Lighting Supply 230 AC UPS,EL,18,18,0,119,48,71,0
 120,120-12,Electrical Distribution Substation,SS PDCS System,EL,10,5,2,31,5,26,2
 120,120-13,Electrical Distribution Substation,Cathodic Protection System,EL,373,341,0,482,479,3,0
 120,120-14,Electrical Distribution Substation,Electric Heat Tracing System,EL,3,0,0,0,0,0,3
@@ -35,15 +35,15 @@
 2000,2000-01,Reforming,Pre Reforming,PI,8,8,0,19,11,8,1
 2000,2000-01,Reforming,Pre Reforming,IN,92,14,13,60,21,39,11
 2000,2000-02,Reforming,Primary Reforming,PI,9,7,2,25,16,9,1
-2000,2000-02,Reforming,Primary Reforming,IN,873,102,128,721,399,322,77
+2000,2000-02,Reforming,Primary Reforming,IN,873,102,128,721,424,297,77
 2000,2000-02,Reforming,Primary Reforming,MES,8,0,8,0,0,0,0
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,26,14,4,56,23,33,79
-2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,363,69,39,295,106,189,50
+2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,363,69,39,295,119,176,50
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,MES,6,2,4,0,0,0,2
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MES,11,2,9,40,0,40,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MER,2,0,2,12,0,12,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,24,22,2,58,28,30,17
-2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,231,80,42,337,105,232,45
+2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,231,80,42,337,111,226,45
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,6,1,75,20,55,0
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,51,20,209,125,84,86
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,133,83,50,15
@@ -55,7 +55,7 @@
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,89,219,658,360,298,21
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,36,0,77,48,29,12
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,3,8,0,8,0
-3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,39,29,137,42,95,44
+3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,39,29,137,49,88,44
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,34,4,80,20,60,45
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,3,8,19,0,19,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,9,4,3,30,0,30,0
@@ -63,7 +63,7 @@
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,69,14,222,90,132,99
 3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,2,0,20,0,20,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,12,7,5,2
-3000,3000-04,Compression and Synthesis,Hydrogen System,IN,176,12,75,317,218,99,5
+3000,3000-04,Compression and Synthesis,Hydrogen System,IN,176,12,75,317,221,96,5
 3000,3000-04,Compression and Synthesis,Hydrogen System,MER,1,0,1,0,0,0,0
 4000,4000-01,Utility,Nitrogen,PI,20,20,0,51,28,23,64
 4000,4000-01,Utility,Nitrogen,IN,14,14,0,10,0,10,6
@@ -146,7 +146,7 @@ BLD,BLD-04,Building,Security Building,CV,14,14,0,18,0,18,0
 BLD,BLD-05,Building,Diesel Room,CV,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,CV,14,14,0,31,3,28,0
 BLD,BLD-07,Building,Analyzer House,CV,8,8,0,19,1,18,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,788,12,4008,1287,2721,805
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,788,12,4008,1304,2704,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,281,0,2191,2191,0,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,420,417,3,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,18,13,5,0
@@ -171,18 +171,18 @@ FGS,FGS-09,Fire and Gas Detection,Fire & Gas Detection for Control Building,IN,3
 FGS,FGS-09,Fire and Gas Detection,Fire & Gas Detection for Control Building,EL,92,60,0,397,319,78,0
 FGS,FGS-10,Fire and Gas Detection,Fire & Gas Detection for Laboratory,IN,2,0,0,0,0,0,0
 FGS,FGS-10,Fire and Gas Detection,Fire & Gas Detection for Laboratory,EL,50,0,0,0,0,0,0
-LS,LS-01,Lighting System,SS-MLP-01 for Normal Lighting System,EL,100,36,6,217,59,158,94
-LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,15,7,111,42,69,54
+LS,LS-01,Lighting System,SS-MLP-01 for Normal Lighting System,EL,100,36,6,217,67,150,94
+LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,15,7,111,46,65,54
 LS,LS-03,Lighting System,Lighting System for Substation,EL,516,47,467,1707,1699,8,0
 LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,0,19,57,0,57,0
 LS,LS-05,Lighting System,Lighting System for Laboratory & Yard Office,EL,315,0,0,0,0,0,0
 LS,LS-06,Lighting System,Lighting System for Street,EL,73,1,39,205,11,194,3
 LS,LS-07,Lighting System,Lighting System for Area-02,EL,1075,0,1,1,0,1,0
 LS,LS-08,Lighting System,Lighting System for Area-03,EL,440,0,55,192,135,57,0
-LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,0,113,309,171,138,0
+LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,0,113,309,172,137,0
 LS,LS-10,Lighting System,Lighting System for Area-05,EL,706,0,67,268,0,268,0
 LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,0,81,362,217,145,0
-LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,413,1,910,741,169,0
+LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,413,1,910,763,147,0
 LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,7,57,180,180,0,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,EL,20,0,0,0,0,0,7
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,144,1,21,34,17,17,21
@@ -194,8 +194,8 @@ TEL,TEL-03,Telecom Systems,Telecom System for Area-03,EL,39,0,0,0,0,0,0
 TEL,TEL-04,Telecom Systems,Telecom System for Area-04,EL,37,0,3,18,3,15,0
 TEL,TEL-05,Telecom Systems,Telecom System for Area-05,EL,71,7,0,21,0,21,0
 TEL,TEL-06,Telecom Systems,Telecom System for Area-06,EL,46,0,14,52,4,48,0
-TEL,TEL-07,Telecom Systems,Telecom System for Area-07,EL,43,43,0,129,75,54,0
-TEL,TEL-08,Telecom Systems,Telecom System for Substation,EL,30,18,12,42,24,18,0
+TEL,TEL-07,Telecom Systems,Telecom System for Area-07,EL,43,43,0,129,76,53,0
+TEL,TEL-08,Telecom Systems,Telecom System for Substation,EL,30,18,12,42,25,17,0
 TEL,TEL-09,Telecom Systems,Telecom System for Control Building,EL,103,0,7,10,0,10,5
 TEL,TEL-09,Telecom Systems,Telecom System for Control Building,IN,1,1,0,7,6,1,0
 TEL,TEL-10,Telecom Systems,Telecom System for Laboratory,EL,89,0,0,0,0,0,0
