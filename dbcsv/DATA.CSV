@@ -82,8 +82,8 @@
 4000,4000-05,Utility,Blow Down,MES,4,3,1,23,0,23,0
 4000,4000-05,Utility,Blow Down,IN,17,17,0,15,6,9,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,4,11,16,0,16,5
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,51,0,180,96,84,167
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,12,30,0,30,0
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,51,2,180,96,84,167
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,12,54,0,54,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,37,63,121,53,68,107
 4000,4000-07,Utility,Plant Air,IN,2,2,0,2,0,2,2
 4000,4000-07,Utility,Plant Air,PI,10,10,0,31,4,27,30
@@ -125,7 +125,7 @@
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,EL,2,2,0,12,4,8,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,0,6,35,0,35,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MES,6,2,4,34,4,30,0
-5000,5000-04,Distillation & Methanol Product,Methanol Product,PI,30,24,3,133,83,50,32
+5000,5000-04,Distillation & Methanol Product,Methanol Product,PI,30,24,3,133,85,48,32
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MER,4,0,4,26,0,26,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,EL,2,2,0,12,4,8,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,IN,213,139,21,412,137,275,45
