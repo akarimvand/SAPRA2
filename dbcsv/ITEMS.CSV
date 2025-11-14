@@ -6281,7 +6281,7 @@ CVL-01,CV,CV-UG PIT'S,UG PIT'S,UG PIT'S,0%
 5000-01,MES,D-5009,Drum(D),Steam Condensate KO Drum for E5001,91%
 1000-03,MES,D-6001,Drum(D),Feed Gas Separator,91%
 1000-03,MES,D-6002,Drum(D),Saturator Blow Down Drum,91%
-4000-04,MES,D-7001,Drum(D),Thermal Deaerator,64%
+4000-04,MES,D-7001,Drum(D),Thermal Deaerator,68%
 4000-05,MES,D-7002,Drum(D),Continuous Blow-down Drum,Done
 4000-05,MES,D-7003,Drum(D),Intermediate Blow Down Drum No.1,Done
 4000-05,MES,D-7004,Drum(D),Intermediate Blow Down Drum No.2,64%
@@ -13820,7 +13820,7 @@ DCS-01,IN,ICNDF-P7001B-14,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNDF-P7001B-15,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNDF-P7001C-01,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNDF-P8001A-11,CABLE,CABLE(NA),Done
-DCS-01,IN,ICNDF-P8001A-14,CABLE,CABLE(NA),50%
+DCS-01,IN,ICNDF-P8001A-14,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNDF-P8001A-15,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNDF-P8001B-11,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNDF-P8001B-14,CABLE,CABLE(NA),Done
@@ -19903,15 +19903,15 @@ NO SUBS.,IN,SV-004,CABLE,CABLE(NA),0%
 3000-01,IN,SV-30103E,Instrument(SV),Instrument(SV),0%
 120-01,EL,SWB2A-01,MV Switchgear,MV Switchgear,Done
 120-01,EL,SWB2B-01,MV Switchgear,MV Switchgear,Done
-120-02,EL,SWB3A-01,LV Switchgear,LV Switchgear,71%
-120-03,EL,SWB3A-02,LV Switchgear,LV Switchgear,71%
+120-02,EL,SWB3A-01,LV Switchgear,LV Switchgear,86%
+120-03,EL,SWB3A-02,LV Switchgear,LV Switchgear,86%
 120-04,EL,SWB3A-03,LV Switchgear,LV Switchgear,86%
-120-05,EL,SWB3A-04,LV Switchgear,LV Switchgear,71%
+120-05,EL,SWB3A-04,LV Switchgear,LV Switchgear,86%
 120-06,EL,SWB3A-05,LV Switchgear,LV Switchgear,86%
-120-02,EL,SWB3B-01,LV Switchgear,LV Switchgear,71%
-120-03,EL,SWB3B-02,LV Switchgear,LV Switchgear,71%
+120-02,EL,SWB3B-01,LV Switchgear,LV Switchgear,86%
+120-03,EL,SWB3B-02,LV Switchgear,LV Switchgear,86%
 120-04,EL,SWB3B-03,LV Switchgear,LV Switchgear,86%
-120-05,EL,SWB3B-04,LV Switchgear,LV Switchgear,71%
+120-05,EL,SWB3B-04,LV Switchgear,LV Switchgear,86%
 120-06,EL,SWB3B-05,LV Switchgear,LV Switchgear,86%
 3000-01,IN,SY-30103A,Instrument(X),Instrument(SY),0%
 3000-01,IN,SY-30103B,Instrument(X),Instrument(SY),0%
