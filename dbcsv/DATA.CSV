@@ -89,7 +89,7 @@
 4000,4000-07,Utility,Plant Air,PI,10,10,0,31,4,27,30
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,6,20,0,20,0
-4000,4000-08,Utility,Cooling Water,PI,298,279,3,645,528,117,37
+4000,4000-08,Utility,Cooling Water,PI,298,279,3,645,534,111,37
 4000,4000-08,Utility,Cooling Water,IN,745,650,59,316,222,94,533
 4000,4000-08,Utility,Cooling Water,EL,6,6,0,56,18,38,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,28,0,0,0,0,26
@@ -109,7 +109,7 @@
 4000,4000-14,Utility,Fire Water,IN,33,33,0,0,0,0,0
 4000,4000-14,Utility,Fire Water,MES,1,0,1,0,0,0,0
 4000,4000-14,Utility,Fire Water,PI,130,125,1,388,252,136,2536
-4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,136,68,68,29
+4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,136,70,66,29
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,8,48,0,48,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,7,7,78,11,67,5
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,372,30,880,623,257,147
