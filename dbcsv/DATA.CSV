@@ -35,7 +35,7 @@
 2000,2000-01,Reforming,Pre Reforming,PI,8,8,0,19,11,8,1
 2000,2000-01,Reforming,Pre Reforming,IN,92,15,13,65,22,43,11
 2000,2000-02,Reforming,Primary Reforming,PI,9,7,2,25,16,9,1
-2000,2000-02,Reforming,Primary Reforming,IN,873,102,128,721,428,293,77
+2000,2000-02,Reforming,Primary Reforming,IN,873,102,128,721,503,218,77
 2000,2000-02,Reforming,Primary Reforming,MES,8,0,8,0,0,0,0
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,26,14,5,54,23,31,79
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,363,74,39,318,125,193,50
@@ -186,7 +186,7 @@ LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,0,81,362,217,145,0
 LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,413,1,910,786,124,0
 LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,7,57,180,180,0,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,EL,20,0,0,0,0,0,7
-NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,144,2,21,38,23,15,21
+NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,IN,144,2,21,38,25,13,21
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,MES,1,0,1,0,0,0,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,PI,4,1,0,0,0,0,0
 TEL,TEL-01,Telecom Systems,Telecom System for Area-01,EL,24,2,2,4,0,4,0
