@@ -11,12 +11,12 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,188,58,366,142,224,107
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,53,3,176,117,59,57
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,185,0,2183,2019,164,2
-120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,342,21,3514,3238,276,31
-120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,301,27,3128,2868,260,44
-120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,306,283,22,2141,2064,77,42
-120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,284,274,10,2193,2152,41,32
-120,120-06,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-05,EL,262,256,5,2465,2391,74,11
-120,120-07,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-ESWB3A/B-01,EL,158,7,83,526,396,130,134
+120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,344,19,3514,3238,276,31
+120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,313,15,3128,2868,260,44
+120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,306,285,20,2141,2064,77,42
+120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,284,276,8,2193,2152,41,32
+120,120-06,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-05,EL,262,258,3,2465,2391,74,11
+120,120-07,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-ESWB3A/B-01,EL,158,7,84,526,396,130,134
 120,120-08,Electrical Distribution Substation,Emergency Diesel Generator SS-DG-5701,EL,8,0,0,0,0,0,7
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,EL,29,29,0,119,51,68,0
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,IN,2,2,0,6,6,0,0
@@ -71,7 +71,7 @@
 4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,176,21,366,197,169,35
 4000,4000-02,Utility,HHP & HP & LP Steam,PI,62,61,0,221,116,105,74
 4000,4000-03,Utility,MP Steam,MES,1,1,0,5,0,5,0
-4000,4000-03,Utility,MP Steam,IN,56,33,14,147,91,56,3
+4000,4000-03,Utility,MP Steam,IN,56,36,14,147,91,56,3
 4000,4000-03,Utility,MP Steam,PI,5,5,0,33,23,10,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,4,1,6,0,6,3
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,6,0,0,0,0
@@ -121,7 +121,7 @@
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,465,432,16,614,507,107,287
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,46,0,137,96,41,13
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,4,1,44,12,32,0
-5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,223,17,670,503,167,78
+5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,224,17,670,503,167,78
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,EL,2,2,0,12,4,8,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,0,6,35,0,35,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MES,6,2,4,34,4,30,0
@@ -131,7 +131,7 @@
 5000,5000-04,Distillation & Methanol Product,Methanol Product,IN,213,147,21,445,248,197,45
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MES,2,0,2,0,0,0,1
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MER,2,0,2,12,0,12,0
-5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,63,44,8,80,34,46,20
+5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,63,45,8,80,34,46,20
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,10,9,1,29,22,7,2
 7000,7000-01,Flare,Flare System (In Site),IN,145,138,0,247,114,133,17
 7000,7000-01,Flare,Flare System (In Site),MER,2,2,0,14,0,14,0
@@ -147,7 +147,7 @@ BLD,BLD-05,Building,Diesel Room,BD,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,BD,14,14,0,0,0,0,0
 BLD,BLD-07,Building,Analyzer House,BD,8,8,0,0,0,0,0
 CVL,CVL-01,Civil Work,Civil Work of All Area,CV,14,0,0,761,0,761,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,870,64,4567,1792,2775,805
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,912,22,4567,1792,2775,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,281,0,2191,2191,0,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,420,417,3,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,18,13,5,0
@@ -177,12 +177,12 @@ LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,16,10,12
 LS,LS-03,Lighting System,Lighting System for Substation,EL,516,47,467,1707,1699,8,0
 LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,0,19,57,0,57,0
 LS,LS-05,Lighting System,Lighting System for Laboratory & Yard Office,EL,315,0,0,0,0,0,0
-LS,LS-06,Lighting System,Lighting System for Street,EL,73,3,38,211,100,111,3
+LS,LS-06,Lighting System,Lighting System for Street,EL,73,3,67,211,100,111,3
 LS,LS-07,Lighting System,Lighting System for Area-02,EL,1075,0,1,1,0,1,0
 LS,LS-08,Lighting System,Lighting System for Area-03,EL,440,0,55,192,135,57,0
 LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,0,113,309,172,137,0
 LS,LS-10,Lighting System,Lighting System for Area-05,EL,706,0,67,268,0,268,0
-LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,0,81,362,217,145,0
+LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,0,82,362,217,145,0
 LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,413,1,910,786,124,0
 LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,7,57,180,180,0,0
 NO SUBS.,NO SUBS.,UNKNOW,UNKNOW_SUBSYSTEM,EL,20,0,0,0,0,0,7
