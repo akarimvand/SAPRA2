@@ -1,7 +1,7 @@
 ﻿SD_System,SD_Sub_System,SD_System_Name,SD_Subsystem_Name,discipline,TOTAL ITEM,TOTAL DONE,TOTAL PENDING,TOTAL PUNCH,TOTAL CLEAR PUNCH,TOTAL NOT CLEAR PUNCH,TOTAL HOLD POINT
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,108,17,300,140,160,34
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,24,23,1,70,34,36,28
-1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,2,3,44,5,39,0
+1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,3,2,44,5,39,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,1,0,6,0,6,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,PI,12,12,0,27,24,3,3
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,IN,176,67,13,262,139,123,11
@@ -22,7 +22,7 @@
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,IN,2,2,0,6,6,0,0
 120,120-10,Electrical Distribution Substation,SS-CH-01 for Electrical Supply 110V DC,EL,24,24,0,186,128,58,0
 120,120-11,Electrical Distribution Substation,SS-UPS-01 for Safety Lighting Supply 230 AC UPS,EL,18,18,0,119,48,71,0
-120,120-12,Electrical Distribution Substation,SS PDCS System,EL,10,5,5,37,5,32,2
+120,120-12,Electrical Distribution Substation,SS PDCS System,EL,10,7,3,37,5,32,2
 120,120-13,Electrical Distribution Substation,Cathodic Protection System,EL,373,341,0,482,479,3,0
 120,120-14,Electrical Distribution Substation,Electric Heat Tracing System,EL,3,0,0,0,0,0,3
 120,120-15,Electrical Distribution Substation,Capacitor Bank,EL,5,0,5,42,29,13,0
@@ -73,7 +73,7 @@
 4000,4000-03,Utility,MP Steam,MES,1,1,0,5,0,5,0
 4000,4000-03,Utility,MP Steam,IN,56,36,14,147,91,56,3
 4000,4000-03,Utility,MP Steam,PI,5,5,0,33,23,10,0
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,4,1,6,0,6,3
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,5,0,6,0,6,3
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,6,0,0,0,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,2,4,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,49,46,1,168,105,63,19
@@ -173,7 +173,7 @@ FGS,FGS-09,Fire and Gas Detection,Fire & Gas Detection for Control Building,EL,9
 FGS,FGS-10,Fire and Gas Detection,Fire & Gas Detection for Laboratory,IN,2,0,0,0,0,0,0
 FGS,FGS-10,Fire and Gas Detection,Fire & Gas Detection for Laboratory,EL,50,0,0,0,0,0,0
 LS,LS-01,Lighting System,SS-MLP-01 for Normal Lighting System,EL,100,44,11,289,67,222,94
-LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,20,10,158,46,112,54
+LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,21,9,158,46,112,54
 LS,LS-03,Lighting System,Lighting System for Substation,EL,516,47,467,1707,1699,8,0
 LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,0,19,57,0,57,0
 LS,LS-05,Lighting System,Lighting System for Laboratory & Yard Office,EL,315,0,0,0,0,0,0
