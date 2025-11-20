@@ -163,9 +163,8 @@ BLD-01,Substation,FORM A,CONTRACTOR,واحد اجرایی کیسون ,7/26/2025 
 BLD-01,Substation,FORM A,CONTRACTOR,واحد H.O.S کیسون,7/27/2025 12:00:00 AM,آماده سازی و ارسال
 BLD-01,Substation,FORM A,PRECOM,واحد پیش راه اندازی سبلان,7/28/2025 12:00:00 AM,بررسی جهت تائید 
 BLD-01,Substation,FORM A,OWNER,مهندس رضوی,7/29/2025 12:00:00 AM,پانچ گذاری
-BLD-01,Substation,FORM A,CONTRACTOR,واحد اجرایی کیسون ,9/5/2025 12:00:00 AM,دریافت جهت رفع پانچ
-BLD-01,Substation,FORM A,PRECOM,واحد پیش راه اندازی سبلان,11/19/2025 12:00:00 AM,جهت بررسی و ثبت پانچ
-BLD-02,Control Building,FORM A,PRECOM,واحد پیش راه اندازی سبلان,11/19/2025 12:00:00 AM,جهت بررسی و ثبت پانچ
+BLD-01,Substation,FORM A,TPA,TPA (IEI),11/19/2025 12:00:00 AM,جهت بررسی و ثبت پانچ
+BLD-02,Control Building,FORM A,TPA,TPA (IEI),11/19/2025 12:00:00 AM,جهت بررسی و ثبت پانچ
 BLD-02,Control Building,FORM A,CONTRACTOR,واحد اجرایی کیسون ,7/15/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 BLD-02,Control Building,FORM A,CONTRACTOR,واحد H.O.S کیسون,7/16/2025 12:00:00 AM,آماده سازی و ارسال
 BLD-02,Control Building,FORM A,PRECOM,واحد پیش راه اندازی سبلان,7/17/2025 12:00:00 AM,بررسی جهت تائید 
@@ -176,11 +175,13 @@ BLD-04,Security Building,FORM A,CONTRACTOR,واحد H.O.S کیسون,7/29/2025 1
 BLD-04,Security Building,FORM A,PRECOM,واحد پیش راه اندازی سبلان,7/30/2025 12:00:00 AM,بررسی جهت تائید 
 BLD-04,Security Building,FORM A,OWNER,مهندس رضوی,7/31/2025 12:00:00 AM,پانچ گذاری
 BLD-04,Security Building,FORM A,PRECOM,واحد پیش راه اندازی سبلان,11/19/2025 12:00:00 AM,جهت بررسی و ثبت پانچ
+BLD-04,Security Building,FORM B,CONTRACTOR,واحد اجرایی کیسون,11/20/2025 12:00:00 AM,دریافت جهت رفع پانچ
 BLD-05,Diesel Room,FORM A,CONTRACTOR,واحد اجرایی کیسون ,9/26/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 BLD-06,Warehouse Building,FORM A,CONTRACTOR,واحد اجرایی کیسون ,7/31/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 BLD-06,Warehouse Building,FORM A,CONTRACTOR,واحد H.O.S کیسون,8/1/2025 12:00:00 AM,آماده سازی و ارسال
 BLD-06,Warehouse Building,FORM A,PRECOM,واحد پیش راه اندازی سبلان,8/2/2025 12:00:00 AM,بررسی جهت تائید 
 BLD-06,Warehouse Building,FORM A,OWNER,مهندس رضوی,8/3/2025 12:00:00 AM,پانچ گذاری
+BLD-06,Warehouse Building,FORM B,CONTRACTOR,واحد اجرایی کیسون,11/20/2025 12:00:00 AM,دریافت جهت رفع پانچ
 BLD-06,Warehouse Building,FORM A,PRECOM,واحد پیش راه اندازی سبلان,11/19/2025 12:00:00 AM,جهت بررسی و ثبت پانچ
 BLD-07,Analyzer House,FORM A,PRECOM,واحد پیش راه اندازی سبلان,9/3/2025 12:00:00 AM,جهت بررسی و ثبت پانچ
 BLD-07,Analyzer House,FORM A,CONTRACTOR,واحد اجرایی کیسون ,7/28/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
