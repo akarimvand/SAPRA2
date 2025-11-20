@@ -6281,7 +6281,7 @@ CVL-01,CV,CV-UG PIT'S,UG PIT'S,UG PIT'S,0%
 5000-01,MES,D-5009,Drum(D),Steam Condensate KO Drum for E5001,91%
 1000-03,MES,D-6001,Drum(D),Feed Gas Separator,91%
 1000-03,MES,D-6002,Drum(D),Saturator Blow Down Drum,91%
-4000-04,MES,D-7001,Drum(D),Thermal Deaerator,73%
+4000-04,MES,D-7001,Drum(D),Thermal Deaerator,Done
 4000-05,MES,D-7002,Drum(D),Continuous Blow-down Drum,Done
 4000-05,MES,D-7003,Drum(D),Intermediate Blow Down Drum No.1,Done
 4000-05,MES,D-7004,Drum(D),Intermediate Blow Down Drum No.2,64%
@@ -10510,7 +10510,7 @@ LS-01,EL,EBP-00-SLP-01,Power Cable B,Plant Street Lighting Panel- 00-SLP-01,Done
 120-03,EL,EBP-00-WO5-02,Power Cable B,Welding Socket Outlet- 00-WO5-02,Done
 120-03,EL,EBP-00-WO5-03,Power Cable B,Welding Socket Outlet- 00-WO5-03,Done
 TEL-01,EL,EBP-AD-PABX(CH)-01,Comminucation Cable,Telephone System Battery Charger (In Owner's Administration Building)- AD-PABX(CH)-01,0%
-LS-02,EL,EBP-AH-EDP-01,Power Cable B,Analyzer House Distribution Panel- AH-EDP-01,67%
+LS-02,EL,EBP-AH-EDP-01,Power Cable B,Analyzer House Distribution Panel- AH-EDP-01,Done
 120-03,EL,EBP-AH-HDP-01,Power Cable B,Analyzer House HVAC Panel- AH-HDP-01,Done
 120-02,EL,EBP-C2001-HE-1,Power Cable B,Lube Oil Heater No.1 for C2001- C2001-HE-1,Done
 120-02,EL,EBP-C2001-MF-1,Power Cable B,Noise Hood Cooling Fan No.1 for C2001 - C2001-MF-1,Done
@@ -11330,8 +11330,8 @@ FGS-08,EL,ECC-SS-FECP-01_4,Power Cable B,Substation Fire Fighting Control Panel 
 120-12,EL,ECC-SS-PDCS01-4_1,Power Cable B,110V DC Battery Charger Panel A- SS-CH-01A,Done
 120-10,EL,ECC-SS-PDCS01-4_2,Power Cable B,230V AC Safety Lighting UPS - SS-UPS-01,Done
 120-11,EL,ECC-SS-PDCS01-4_3,Power Cable B,Emergency Diesel Generator DG-5701- Start Control Panel,Done
-120-12,EL,ECC-SS-PDCS01-5_1,Power Cable B,110V AC UPS Bypass Panel - CR-UPS-01/BY,33%
-120-12,EL,ECC-SS-PDCS01-7,Power Cable B,Substation E/I Cabinet- SS-E/I-01 (FCS Clock Signal),33%
+120-12,EL,ECC-SS-PDCS01-5_1,Power Cable B,110V AC UPS Bypass Panel - CR-UPS-01/BY,Done
+120-12,EL,ECC-SS-PDCS01-7,Power Cable B,Substation E/I Cabinet- SS-E/I-01 (FCS Clock Signal),Done
 120-01,EL,ECC-SS-SWB2A-01_1,Power Cable B,Damavand Substation 20KV Switchboard- Dena Feeder SS-TR1A-01,Done
 120-01,EL,ECC-SS-SWB2A-01_10,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
 120-01,EL,ECC-SS-SWB2A-01_11,Power Cable B,Substation PDC System Cabinet- SS-PDCS-01(Command Signals),Done
@@ -18670,7 +18670,7 @@ NO SUBS.,IN,PZSL-84215,Instrument(X),Instrument(PZSL),0%
 NO SUBS.,IN,PZT-84210,Instrument(X),Instrument(PZT),0%
 NO SUBS.,IN,PZT-84215,Instrument(X),Instrument(PZT),0%
 1000-01,MES,R-1001,Reactor(R),Hydrogenator,65%
-1000-01,MES,R-1002-1,Reactor(R),Sulphur Absorber,96%
+1000-01,MES,R-1002-1,Reactor(R),Sulphur Absorber,Done
 1000-01,MES,R-1002-2,Reactor(R),Sulphur Absorber,65%
 2000-02,MES,R-2003,Reactor(R),Prereformer,52%
 2000-03,MES,R-2004,Reactor(R),Secondary Reformer,48%
