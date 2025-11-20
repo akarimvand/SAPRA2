@@ -6281,7 +6281,7 @@ CVL-01,CV,CV-UG PIT'S,UG PIT'S,UG PIT'S,0%
 5000-01,MES,D-5009,Drum(D),Steam Condensate KO Drum for E5001,91%
 1000-03,MES,D-6001,Drum(D),Feed Gas Separator,91%
 1000-03,MES,D-6002,Drum(D),Saturator Blow Down Drum,91%
-4000-04,MES,D-7001,Drum(D),Thermal Deaerator,68%
+4000-04,MES,D-7001,Drum(D),Thermal Deaerator,73%
 4000-05,MES,D-7002,Drum(D),Continuous Blow-down Drum,Done
 4000-05,MES,D-7003,Drum(D),Intermediate Blow Down Drum No.1,Done
 4000-05,MES,D-7004,Drum(D),Intermediate Blow Down Drum No.2,64%
@@ -10414,26 +10414,26 @@ LS-01,EL,EBL-04-RJB1_1-1,Power Cable B,Area 04 Socket JB No. 1/1 - 04-RJB1/1-1,0
 LS-01,EL,EBL-04-RJB1-1,Power Cable B,Area 04 Socket JB No. 1 - 04-RJB1-1,0%
 LS-01,EL,EBL-04-RJB2-2,Power Cable B,Area 04 Socket JB No. 2 - 04-RJB2-2,33%
 120-11,EL,EBL-04-SJB1-4,Power Cable B,Safety Lighting JB No. 1 For Area 04- 04-SJB1-4,Done
-LS-02,EL,EBL-05-EJB1_1-5,Power Cable B,Area 05 Emergency Lighting JB No. 1/1-05-EJB1/1-5,67%
+LS-02,EL,EBL-05-EJB1_1-5,Power Cable B,Area 05 Emergency Lighting JB No. 1/1-05-EJB1/1-5,Done
 LS-02,EL,EBL-05-EJB1-5,Power Cable B,Area 05 Emergency Lighting JB No. 1-05-EJB1-5,Done
-LS-02,EL,EBL-05-EJB2_1-6,Power Cable B,Area 05 Emergency Lighting JB No. 2/1 -05-EJB2/1-6,67%
-LS-02,EL,EBL-05-EJB2_2-6,Power Cable B,Area 05 Emergency Lighting JB No. 2/2 -05-EJB2/2-6,67%
-LS-02,EL,EBL-05-EJB2_3-6,Power Cable B,Area 05 Emergency Lighting JB No. 2/3 -05-EJB2/3-6,67%
+LS-02,EL,EBL-05-EJB2_1-6,Power Cable B,Area 05 Emergency Lighting JB No. 2/1 -05-EJB2/1-6,Done
+LS-02,EL,EBL-05-EJB2_2-6,Power Cable B,Area 05 Emergency Lighting JB No. 2/2 -05-EJB2/2-6,Done
+LS-02,EL,EBL-05-EJB2_3-6,Power Cable B,Area 05 Emergency Lighting JB No. 2/3 -05-EJB2/3-6,Done
 LS-02,EL,EBL-05-EJB2-6,Power Cable B,Area 05 Emergency Lighting JB No. 2 -05-EJB2-6,0%
 LS-02,EL,EBL-05-EJB3-7,Power Cable B,Area 05 Emergency Lighting JB No. 3- 05-EJB3-7,0%
-LS-01,EL,EBL-05-JB1_1-5,Power Cable B,Area 05  Normal Lighting JB No. 1 /1- 05-JB1/1-5,67%
+LS-01,EL,EBL-05-JB1_1-5,Power Cable B,Area 05  Normal Lighting JB No. 1 /1- 05-JB1/1-5,Done
 LS-01,EL,EBL-05-JB1-5,Power Cable B,Area 05  Normal Lighting JB No. 1 - 05-JB1-5,Done
 LS-01,EL,EBL-05-JB2_1-6,Power Cable B, Area 05  Normal Lighting JB No. 2/1 - 05-JB2/1-6,0%
 LS-01,EL,EBL-05-JB2_2-6,Power Cable B,Area 05  Normal Lighting JB No. 2/2- 05-JB2/2-6,0%
 LS-01,EL,EBL-05-JB2_3-6,Power Cable B,Area 05  Normal Lighting JB No. 2/3 - 05-JB2/3-6,0%
 LS-01,EL,EBL-05-JB2-6,Power Cable B,Area 05  Normal Lighting JB No. 2 - 05-JB2-6,0%
 LS-01,EL,EBL-05-JB3-7,Power Cable B,Area 05  Normal Lighting JB No. 3  - 05-JB3-7,0%
-LS-01,EL,EBL-05-RJB1_1-3,Power Cable B,Area 05 Socket JB No. 1/1- 05-RJB1/1-3,67%
-LS-01,EL,EBL-05-RJB1_2-3,Power Cable B,Area 05 Socket JB No. 1/2 - 05-RJB1/2-3,67%
+LS-01,EL,EBL-05-RJB1_1-3,Power Cable B,Area 05 Socket JB No. 1/1- 05-RJB1/1-3,Done
+LS-01,EL,EBL-05-RJB1_2-3,Power Cable B,Area 05 Socket JB No. 1/2 - 05-RJB1/2-3,Done
 LS-01,EL,EBL-05-RJB1-3,Power Cable B,Area 05 Socket JB No. 1 - 05-RJB1-3,0%
-LS-01,EL,EBL-05-RJB2_1-4,Power Cable B,Area 05 Socket JB No. 2/1  - 05-RJB2/1-4,67%
-LS-01,EL,EBL-05-RJB2_2-4,Power Cable B,Area 05 Socket JB No. 2/2  - 05-RJB2/2-4,67%
-LS-01,EL,EBL-05-RJB2_3-4,Power Cable B,Area 05 Socket JB No. 2/3  - 05-RJB2/3-4,67%
+LS-01,EL,EBL-05-RJB2_1-4,Power Cable B,Area 05 Socket JB No. 2/1  - 05-RJB2/1-4,Done
+LS-01,EL,EBL-05-RJB2_2-4,Power Cable B,Area 05 Socket JB No. 2/2  - 05-RJB2/2-4,Done
+LS-01,EL,EBL-05-RJB2_3-4,Power Cable B,Area 05 Socket JB No. 2/3  - 05-RJB2/3-4,Done
 LS-01,EL,EBL-05-RJB2-4,Power Cable B,Area 05 Socket JB No. 2  - 05-RJB2-4,0%
 120-11,EL,EBL-05-SJB1-5,Power Cable B,Safety Lighting JB No. 1 For Area 05- 05-SJB1-5,Done
 LS-02,EL,EBL-06-EJB1_1-3,Power Cable B,Area 06 Emergency Lighting JB No. 1/1-06-EJB1/1-3,0%
@@ -16941,7 +16941,7 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 3000-04,IN,PDG-20227,Instrument(PDG),Instrument(PDG),25%
 4000-06,IN,PDG-75150A,Instrument(PDG),Instrument(PDG),0%
 4000-06,IN,PDG-75150B,Instrument(PDG),Instrument(PDG),0%
-2000-06,IN,PDI-2574,Instrument(PDI),Instrument(PDI),0%
+2000-06,IN,PDI-2574,Instrument(PDI),Instrument(PDI),25%
 4000-08,IN,PDI-8010,Instrument(PDI),Instrument(PDI),Done
 4000-08,IN,PDI-8011,Instrument(PDI),Instrument(PDI),Done
 4000-08,IN,PDI-8012,Instrument(PDI),Instrument(PDI),Done
@@ -17051,7 +17051,7 @@ NO SUBS.,IN,PDV-30125,PKG,PKG,33%
 4000-01,IN,PG-0001,Instrument(PG),Instrument(PG),DONE
 4000-11,IN,PG-0002,Instrument(PG),Instrument(PG),DONE
 4000-07,IN,PG-0003,Instrument(PG),Instrument(PG),Done
-4000-06,IN,PG-0004,Instrument(PG),Instrument(PG),Exception(Pending)
+4000-06,IN,PG-0004,Instrument(PG),Instrument(PG),Done
 4000-06,IN,PG-0005,Instrument(PG),Instrument(PG),Exception(Pending)
 4000-11,IN,PG-0006,Instrument(PG),Instrument(PG),DONE
 4000-08,IN,PG-0007,Instrument(PG),Instrument(PG),Done
@@ -17399,8 +17399,8 @@ NO SUBS.,IN,PDV-30125,PKG,PKG,33%
 4000-04,IN,PG-70143B,Instrument(PG),Instrument(PG),Exception(Pending)
 4000-04,IN,PG-70144A,Instrument(PG),Instrument(PG),Exception(Pending)
 4000-04,IN,PG-70144B,Instrument(PG),Instrument(PG),Exception(Pending)
-4000-04,IN,PG-70145A,Instrument(PG),Instrument(PG),Exception(Pending)
-4000-04,IN,PG-70145B,Instrument(PG),Instrument(PG),Exception(Pending)
+4000-04,IN,PG-70145A,Instrument(PG),Instrument(PG),DONE
+4000-04,IN,PG-70145B,Instrument(PG),Instrument(PG),Done
 4000-04,IN,PG-70149A,Instrument(PG),Instrument(PG),Exception(Pending)
 4000-04,IN,PG-70149B,Instrument(PG),Instrument(PG),Exception(Pending)
 4000-04,IN,PG-70170A,Instrument(PG),Instrument(PG),Exception(Pending)
@@ -17461,10 +17461,10 @@ NO SUBS.,IN,PDV-30125,PKG,PKG,33%
 4000-04,IN,PG-7214,Instrument(PG),Instrument(PG),Exception(Pending)
 4000-04,IN,PG-7217,Instrument(PG),Instrument(PG),Exception(Pending)
 4000-05,IN,PG-7220,Instrument(PG),Instrument(PG),Done
-4000-06,IN,PG-7503A,Instrument(PG),Instrument(PG),Exception(Pending)
-4000-06,IN,PG-7503B,Instrument(PG),Instrument(PG),Exception(Pending)
-4000-06,IN,PG-7504A,Instrument(PG),Instrument(PG),Exception(Pending)
-4000-06,IN,PG-7504B,Instrument(PG),Instrument(PG),Exception(Pending)
+4000-06,IN,PG-7503A,Instrument(PG),Instrument(PG),Done
+4000-06,IN,PG-7503B,Instrument(PG),Instrument(PG),Done
+4000-06,IN,PG-7504A,Instrument(PG),Instrument(PG),Done
+4000-06,IN,PG-7504B,Instrument(PG),Instrument(PG),Done
 4000-06,IN,PG-7505A,Instrument(PG),Instrument(PG),Exception(Pending)
 4000-06,IN,PG-7505B,Instrument(PG),Instrument(PG),Exception(Pending)
 4000-06,IN,PG-7506A,Instrument(PG),Instrument(PG),Exception(Pending)
@@ -19420,7 +19420,7 @@ FGS-07,IN,SOV-105,Fire Fighting,Fire Fighting(SOV),0%
 120-10,EL,SS-CH-01,UPS & Battery,110V DC Battery Charger Panel ,Done
 120-10,EL,SS-CIS-01,UPS & Battery,110V DC Charger Battery Isolator Box,Done
 120-08,EL,SS-DG-5701,Diesel Generator,Diesel Generator,0%
-120-07,EL,SS-EDP-01,PANEL(EL),Emergency Distribution System,0%
+120-07,EL,SS-EDP-01,PANEL(EL),Emergency Distribution System,Done
 LS-02,EL,SS-ELP-01(LS-02),PANEL(EL),Main Emergency Lighting Panel,0%
 LS-03,EL,SS-ELP-01(LS-03),PANEL(EL),Main Emergency Lighting Panel,0%
 LS-03,EL,SS-ELP-01-1-L1-01,Lighting Fixture,LED Luminaires Fixture 64w,50%
