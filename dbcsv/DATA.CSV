@@ -1,6 +1,6 @@
 ﻿SD_System,SD_Sub_System,SD_System_Name,SD_Subsystem_Name,discipline,TOTAL ITEM,TOTAL DONE,TOTAL PENDING,TOTAL PUNCH,TOTAL CLEAR PUNCH,TOTAL NOT CLEAR PUNCH,TOTAL HOLD POINT
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,110,15,304,153,151,34
-1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,24,23,1,70,34,36,28
+1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,24,23,1,70,36,34,28
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,3,2,44,5,39,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,1,0,6,0,6,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,PI,12,12,0,27,24,3,3
@@ -34,7 +34,7 @@
 2000,2000-01,Reforming,Pre Reforming,MES,2,2,0,10,0,10,0
 2000,2000-01,Reforming,Pre Reforming,PI,8,8,0,19,11,8,1
 2000,2000-01,Reforming,Pre Reforming,IN,92,15,13,65,24,41,11
-2000,2000-02,Reforming,Primary Reforming,PI,9,8,1,25,16,9,1
+2000,2000-02,Reforming,Primary Reforming,PI,9,9,0,25,16,9,1
 2000,2000-02,Reforming,Primary Reforming,IN,873,102,128,721,533,188,77
 2000,2000-02,Reforming,Primary Reforming,MES,8,0,8,0,0,0,0
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,26,15,5,54,23,31,79
@@ -82,14 +82,14 @@
 4000,4000-05,Utility,Blow Down,MES,4,3,1,23,0,23,0
 4000,4000-05,Utility,Blow Down,IN,17,17,0,15,6,9,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,4,11,16,0,16,5
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,53,1,191,118,73,167
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,53,1,191,120,71,167
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,12,54,0,54,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,57,63,161,53,108,107
 4000,4000-07,Utility,Plant Air,IN,2,2,0,2,0,2,2
 4000,4000-07,Utility,Plant Air,PI,10,10,0,31,4,27,30
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,6,20,0,20,0
-4000,4000-08,Utility,Cooling Water,PI,300,282,0,675,560,115,37
+4000,4000-08,Utility,Cooling Water,PI,300,282,0,675,561,114,37
 4000,4000-08,Utility,Cooling Water,IN,745,650,52,316,222,94,533
 4000,4000-08,Utility,Cooling Water,EL,6,6,0,56,18,38,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,28,0,0,0,0,26
@@ -108,7 +108,7 @@
 4000,4000-13,Utility,Slope Close Drain,PI,29,29,0,46,17,29,3
 4000,4000-14,Utility,Fire Water,IN,33,33,0,0,0,0,0
 4000,4000-14,Utility,Fire Water,MES,1,0,1,0,0,0,0
-4000,4000-14,Utility,Fire Water,PI,130,125,1,388,260,128,2536
+4000,4000-14,Utility,Fire Water,PI,130,125,1,388,263,125,2536
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,137,85,52,29
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,8,48,0,48,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,7,7,78,11,67,5
@@ -138,14 +138,14 @@
 7000,7000-01,Flare,Flare System (In Site),MES,2,2,0,8,0,8,0
 7000,7000-01,Flare,Flare System (In Site),PI,49,49,0,115,62,53,77
 BLD,BLD-01,Building,Substation,PI,4,4,0,6,3,3,9
-BLD,BLD-01,Building,Substation,BD,14,14,0,0,0,0,0
+BLD,BLD-01,Building,Substation,BD,14,14,0,63,34,29,0
 BLD,BLD-02,Building,Control Building,PI,1,1,0,6,5,1,1
-BLD,BLD-02,Building,Control Building,BD,8,8,0,0,0,0,0
+BLD,BLD-02,Building,Control Building,BD,8,8,0,48,10,38,0
 BLD,BLD-03,Building,Laboratory,BD,14,0,0,0,0,0,0
-BLD,BLD-04,Building,Security Building,BD,14,14,0,0,0,0,0
+BLD,BLD-04,Building,Security Building,BD,14,14,0,18,7,11,0
 BLD,BLD-05,Building,Diesel Room,BD,14,0,0,0,0,0,0
-BLD,BLD-06,Building,Warehouse Building,BD,14,14,0,0,0,0,0
-BLD,BLD-07,Building,Analyzer House,BD,8,8,0,0,0,0,0
+BLD,BLD-06,Building,Warehouse Building,BD,14,14,0,31,7,24,0
+BLD,BLD-07,Building,Analyzer House,BD,8,8,0,19,7,12,0
 CVL,CVL-01,Civil Work,Civil Work of All Area,CV,14,0,0,761,0,761,0
 DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,947,9,4613,1792,2821,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,281,0,2191,2191,0,0
