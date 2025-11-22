@@ -5916,7 +5916,7 @@ BLD-01,PI,BLD-01-IG55-02-758,PI_TP,PIPING TEST PACKAGE,DONE
 BLD-01,PI,BLD-01-IG55-03-993,PI_TP,PIPING TEST PACKAGE,DONE
 BLD-01,PI,BLD-01-IG55-04-1089,PI_TP,PIPING TEST PACKAGE,DONE
 BLD-02,PI,BLD-02-IG55-01-986,PI_TP,PIPING TEST PACKAGE,DONE
-3000-01,IN,BRAUN--FLT,PKG,PKG,0%
+3000-01,IN,BRAUN--FLT,PKG,PKG,Exception(Pending)
 2000-06,MER,C-2001,Compressor,START UP NITROGEN COMPRESSOR,62%
 120-02,EL,C2001-MF-1,Local_Control_Station,Local Control Station- C2001-MF-1,DONE
 120-02,EL,C2001-MF-2,Local_Control_Station,Local Control Station- C2001-MF-2,DONE
@@ -10357,29 +10357,29 @@ FGS-10,EL,EBL-0203,FGS Device,Evacuation Bell,0%
 FGS-10,EL,EBL-0204,FGS Device,Evacuation Bell,0%
 FGS-10,EL,EBL-0205,FGS Device,Evacuation Bell,0%
 FGS-10,EL,EBL-0206,FGS Device,Evacuation Bell,0%
-LS-02,EL,EBL-02-EJB1_1-1,Power Cable B,Area 02 Emergency Lighting JB No.1/1- 02-EJB1/1-1,0%
-LS-02,EL,EBL-02-EJB1_2-1,Power Cable B,Area 02 Emergency Lighting JB No.1/2- 02-EJB1/2-1,0%
+LS-02,EL,EBL-02-EJB1_1-1,Power Cable B,Area 02 Emergency Lighting JB No.1/1- 02-EJB1/1-1,Done
+LS-02,EL,EBL-02-EJB1_2-1,Power Cable B,Area 02 Emergency Lighting JB No.1/2- 02-EJB1/2-1,Done
 LS-02,EL,EBL-02-EJB1-1,Power Cable B,Area 02 Emergency Lighting JB No.1-02-EJB1-1,Done
 LS-02,EL,EBL-02-EJB2_1-2,Power Cable B,Area 02 Emergency Lighting JB No.2/1- 02-EJB2/1-2,0%
-LS-02,EL,EBL-02-EJB2_2-2,Power Cable B,Area 02 Emergency Lighting JB No.2/2- 02-EJB2/2-2,0%
+LS-02,EL,EBL-02-EJB2_2-2,Power Cable B,Area 02 Emergency Lighting JB No.2/2- 02-EJB2/2-2,Done
 LS-02,EL,EBL-02-EJB2-2,Power Cable B,Area 02 Emergency Lighting JB No.2-02-EJB2-2,Done
-LS-02,EL,EBL-02-EJB3_1-3,Power Cable B,Area 02 Emergency Lighting JB No.3/1-02-EJB3/1-3,0%
+LS-02,EL,EBL-02-EJB3_1-3,Power Cable B,Area 02 Emergency Lighting JB No.3/1-02-EJB3/1-3,Done
 LS-02,EL,EBL-02-EJB3_2-3,Power Cable B,Area 02 Emergency Lighting JB No.3/2-02-EJB3/2-3,0%
-LS-02,EL,EBL-02-EJB3-3,Power Cable B,Area 02 Emergency Lighting JB No.3-02-EJB3-3,0%
-LS-01,EL,EBL-02-JB1_1-1,Power Cable B,Area 02  Normal Lighting JB No. 1/1- 02-JB1/1-1,0%
-LS-01,EL,EBL-02-JB1_2-1,Power Cable B,Area 02  Normal Lighting JB No. 1/2- 02-JB1/2-1,0%
-LS-01,EL,EBL-02-JB1-1,Power Cable B,Area 02  Normal Lighting JB No. 1- 02-JB1-1,0%
+LS-02,EL,EBL-02-EJB3-3,Power Cable B,Area 02 Emergency Lighting JB No.3-02-EJB3-3,Done
+LS-01,EL,EBL-02-JB1_1-1,Power Cable B,Area 02  Normal Lighting JB No. 1/1- 02-JB1/1-1,Done
+LS-01,EL,EBL-02-JB1_2-1,Power Cable B,Area 02  Normal Lighting JB No. 1/2- 02-JB1/2-1,Done
+LS-01,EL,EBL-02-JB1-1,Power Cable B,Area 02  Normal Lighting JB No. 1- 02-JB1-1,Done
 LS-01,EL,EBL-02-JB2_1-2,Power Cable B,Area 02  Normal Lighting JB No. 2/1- 02-JB2/1-2,0%
-LS-01,EL,EBL-02-JB2_2-2,Power Cable B,Area 02  Normal Lighting JB No. 2/2- 02-JB2/2-2,0%
-LS-01,EL,EBL-02-JB2-2,Power Cable B,Area 02  Normal Lighting JB No. 2- 02-JB2-2,0%
-LS-01,EL,EBL-02-JB3_1-3,Power Cable B,Area 02  Normal Lighting JB No. 3/1- 02-JB3/1-3,0%
-LS-01,EL,EBL-02-JB3_2-3,Power Cable B,Area 02  Normal Lighting JB No. 3/2- 02-JB3/2-3,0%
-LS-01,EL,EBL-02-JB3-3,Power Cable B,Area 02  Normal Lighting JB No. 3- 02-JB3-3,0%
-LS-01,EL,EBL-02-RJB1_1-1,Power Cable B,Area 02 Socket JB No. 1/1  - 02-RJB1/1-1,0%
-LS-01,EL,EBL-02-RJB1-1,Power Cable B,Area 02 Socket JB No. 1  - 02-RJB1-1,0%
+LS-01,EL,EBL-02-JB2_2-2,Power Cable B,Area 02  Normal Lighting JB No. 2/2- 02-JB2/2-2,Done
+LS-01,EL,EBL-02-JB2-2,Power Cable B,Area 02  Normal Lighting JB No. 2- 02-JB2-2,Done
+LS-01,EL,EBL-02-JB3_1-3,Power Cable B,Area 02  Normal Lighting JB No. 3/1- 02-JB3/1-3,Done
+LS-01,EL,EBL-02-JB3_2-3,Power Cable B,Area 02  Normal Lighting JB No. 3/2- 02-JB3/2-3,Done
+LS-01,EL,EBL-02-JB3-3,Power Cable B,Area 02  Normal Lighting JB No. 3- 02-JB3-3,Done
+LS-01,EL,EBL-02-RJB1_1-1,Power Cable B,Area 02 Socket JB No. 1/1  - 02-RJB1/1-1,Done
+LS-01,EL,EBL-02-RJB1-1,Power Cable B,Area 02 Socket JB No. 1  - 02-RJB1-1,Done
 LS-01,EL,EBL-02-RJB2_1-2,Power Cable B,Area 02 Socket JB No. 2/1  - 02-RJB2/1-2,0%
-LS-01,EL,EBL-02-RJB2_2-2,Power Cable B,Area 02 Socket JB No. 2/2  - 02-RJB2/2-2,0%
-LS-01,EL,EBL-02-RJB2_3-2,Power Cable B,Area 02 Socket JB No. 2/3  - 02-RJB2/3-2,0%
+LS-01,EL,EBL-02-RJB2_2-2,Power Cable B,Area 02 Socket JB No. 2/2  - 02-RJB2/2-2,Done
+LS-01,EL,EBL-02-RJB2_3-2,Power Cable B,Area 02 Socket JB No. 2/3  - 02-RJB2/3-2,Done
 LS-01,EL,EBL-02-RJB2-2,Power Cable B,Area 02 Socket JB No. 2  - 02-RJB2-2,Done
 120-11,EL,EBL-02-SJB1-2,Power Cable B,Safety Lighting JB No. 1 For Area 02- 02-SJB1-2,Done
 NO SUBS.,EL,EBL-0301,FGS Device,Evacuation Bell,0%
@@ -10419,22 +10419,22 @@ LS-02,EL,EBL-05-EJB1-5,Power Cable B,Area 05 Emergency Lighting JB No. 1-05-EJB1
 LS-02,EL,EBL-05-EJB2_1-6,Power Cable B,Area 05 Emergency Lighting JB No. 2/1 -05-EJB2/1-6,Done
 LS-02,EL,EBL-05-EJB2_2-6,Power Cable B,Area 05 Emergency Lighting JB No. 2/2 -05-EJB2/2-6,Done
 LS-02,EL,EBL-05-EJB2_3-6,Power Cable B,Area 05 Emergency Lighting JB No. 2/3 -05-EJB2/3-6,Done
-LS-02,EL,EBL-05-EJB2-6,Power Cable B,Area 05 Emergency Lighting JB No. 2 -05-EJB2-6,0%
-LS-02,EL,EBL-05-EJB3-7,Power Cable B,Area 05 Emergency Lighting JB No. 3- 05-EJB3-7,0%
+LS-02,EL,EBL-05-EJB2-6,Power Cable B,Area 05 Emergency Lighting JB No. 2 -05-EJB2-6,67%
+LS-02,EL,EBL-05-EJB3-7,Power Cable B,Area 05 Emergency Lighting JB No. 3- 05-EJB3-7,67%
 LS-01,EL,EBL-05-JB1_1-5,Power Cable B,Area 05  Normal Lighting JB No. 1 /1- 05-JB1/1-5,Done
 LS-01,EL,EBL-05-JB1-5,Power Cable B,Area 05  Normal Lighting JB No. 1 - 05-JB1-5,Done
-LS-01,EL,EBL-05-JB2_1-6,Power Cable B, Area 05  Normal Lighting JB No. 2/1 - 05-JB2/1-6,0%
-LS-01,EL,EBL-05-JB2_2-6,Power Cable B,Area 05  Normal Lighting JB No. 2/2- 05-JB2/2-6,0%
-LS-01,EL,EBL-05-JB2_3-6,Power Cable B,Area 05  Normal Lighting JB No. 2/3 - 05-JB2/3-6,0%
-LS-01,EL,EBL-05-JB2-6,Power Cable B,Area 05  Normal Lighting JB No. 2 - 05-JB2-6,0%
-LS-01,EL,EBL-05-JB3-7,Power Cable B,Area 05  Normal Lighting JB No. 3  - 05-JB3-7,0%
+LS-01,EL,EBL-05-JB2_1-6,Power Cable B, Area 05  Normal Lighting JB No. 2/1 - 05-JB2/1-6,67%
+LS-01,EL,EBL-05-JB2_2-6,Power Cable B,Area 05  Normal Lighting JB No. 2/2- 05-JB2/2-6,67%
+LS-01,EL,EBL-05-JB2_3-6,Power Cable B,Area 05  Normal Lighting JB No. 2/3 - 05-JB2/3-6,67%
+LS-01,EL,EBL-05-JB2-6,Power Cable B,Area 05  Normal Lighting JB No. 2 - 05-JB2-6,67%
+LS-01,EL,EBL-05-JB3-7,Power Cable B,Area 05  Normal Lighting JB No. 3  - 05-JB3-7,67%
 LS-01,EL,EBL-05-RJB1_1-3,Power Cable B,Area 05 Socket JB No. 1/1- 05-RJB1/1-3,Done
 LS-01,EL,EBL-05-RJB1_2-3,Power Cable B,Area 05 Socket JB No. 1/2 - 05-RJB1/2-3,Done
-LS-01,EL,EBL-05-RJB1-3,Power Cable B,Area 05 Socket JB No. 1 - 05-RJB1-3,0%
+LS-01,EL,EBL-05-RJB1-3,Power Cable B,Area 05 Socket JB No. 1 - 05-RJB1-3,67%
 LS-01,EL,EBL-05-RJB2_1-4,Power Cable B,Area 05 Socket JB No. 2/1  - 05-RJB2/1-4,Done
 LS-01,EL,EBL-05-RJB2_2-4,Power Cable B,Area 05 Socket JB No. 2/2  - 05-RJB2/2-4,Done
 LS-01,EL,EBL-05-RJB2_3-4,Power Cable B,Area 05 Socket JB No. 2/3  - 05-RJB2/3-4,Done
-LS-01,EL,EBL-05-RJB2-4,Power Cable B,Area 05 Socket JB No. 2  - 05-RJB2-4,0%
+LS-01,EL,EBL-05-RJB2-4,Power Cable B,Area 05 Socket JB No. 2  - 05-RJB2-4,67%
 120-11,EL,EBL-05-SJB1-5,Power Cable B,Safety Lighting JB No. 1 For Area 05- 05-SJB1-5,Done
 LS-02,EL,EBL-06-EJB1_1-3,Power Cable B,Area 06 Emergency Lighting JB No. 1/1-06-EJB1/1-3,0%
 LS-02,EL,EBL-06-EJB1_2-3,Power Cable B,Area 06 Emergency Lighting JB No. 1/2-06-EJB1/2-3,0%
@@ -10979,8 +10979,8 @@ LS-01,EL,EBP-YO-LP-01,Power Cable B,Yard Office Normal Lighting & Socket Outlet 
 120-02,EL,ECC-C2002-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-C2002-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 TEL-09,EL,ECC-CR-CEC-01,Comminucation Cable,Paging Central Exchange Cabinet (in Auxiliary Room)CR-CEC-01,0%
-120-12,EL,ECC-CR-ESP-01_1,Power Cable B,PDC System Ethernet Switch Panel- CR-ESP-01,67%
-120-12,EL,ECC-CR-ESP-01_2,Power Cable B,PDC System Ethernet Switch Panel- CR-ESP-01,67%
+120-12,EL,ECC-CR-ESP-01_1,Power Cable B,PDC System Ethernet Switch Panel- CR-ESP-01,Exception(Pending)
+120-12,EL,ECC-CR-ESP-01_2,Power Cable B,PDC System Ethernet Switch Panel- CR-ESP-01,Exception(Pending)
 FGS-09,EL,ECC-CR-FACP-01,Power Cable B,Control Building HVAC Control Panel,0%
 FGS-09,EL,ECC-CR-FECP-01,Power Cable B,Control Building HVAC Control Panel,0%
 FGS-09,EL,ECC-CR-FECP-01_1,Power Cable B,Control Building Fire Fighting Control Panel JB,0%
@@ -11810,7 +11810,7 @@ DCS-01,IN,FCIAF-5093,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAF-5202,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAF-5211,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAF-5212,CABLE,CABLE(NA),Done
-DCS-01,IN,FCIAF-6001,CABLE,CABLE(NA),0%
+DCS-01,IN,FCIAF-6001,CABLE,CABLE(NA),50%
 DCS-01,IN,FCIAF-6002,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAF-70001A,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAF-70001B,CABLE,CABLE(NA),Done
@@ -11818,7 +11818,7 @@ DCS-01,IN,FCIAF-70001C,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAF-70002A,CABLE,CABLE(NA),0%
 DCS-01,IN,FCIAF-70002B,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAF-7001,CABLE,CABLE(NA),Done
-DCS-01,IN,FCIAF-7002,CABLE,CABLE(NA),0%
+DCS-01,IN,FCIAF-7002,CABLE,CABLE(NA),50%
 DCS-01,IN,FCIAF-7003,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAF-7004,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAF-7010,CABLE,CABLE(NA),Done
@@ -12233,9 +12233,9 @@ DCS-01,IN,FCTS-30139,CABLE,CABLE(NA),0%
 2000-06,IN,FE-2582,Instrument(FE),Instrument(FE),Done
 3000-03,IN,FE-2607,Instrument(FE),Instrument(FE),Exception(Pending)
 3000-01,IN,FE-3016,Instrument(FE),Instrument(FE),Done
-3000-01,IN,FE-30165,Instrument(FE),Instrument(FE),0%
-3000-01,IN,FE-30168,Instrument(FE),Instrument(FE),0%
-3000-01,IN,FE-30170,Instrument(FE),Instrument(FE),0%
+3000-01,IN,FE-30165,Instrument(FE),Instrument(FE),Exception(Pending)
+3000-01,IN,FE-30168,Instrument(FE),Instrument(FE),Exception(Pending)
+3000-01,IN,FE-30170,Instrument(FE),Instrument(FE),Exception(Pending)
 3000-01,IN,FE-3020,Instrument(FE),Instrument(FE),Done
 3000-02,IN,FE-3041,Instrument(FE),Instrument(FE),Exception(Pending)
 3000-02,IN,FE-3050,Instrument(FE),Instrument(FE),Exception(Pending)
@@ -12402,15 +12402,15 @@ DCS-01,IN,FFSALL-2064,SIGNAL,SIGNAL,Exception(Pending)
 3000-04,IN,FG-20204,Instrument(FG),Instrument(FG),0%
 3000-04,IN,FG-20205,Instrument(FG),Instrument(FG),0%
 3000-04,IN,FG-20206,Instrument(FG),Instrument(FG),0%
-3000-01,IN,FG-30103,Instrument(FG),Instrument(FG),0%
-3000-01,IN,FG-30106,Instrument(FG),Instrument(FG),0%
-3000-01,IN,FG-30107,Instrument(FG),Instrument(FG),0%
-3000-01,IN,FG-30108,Instrument(FG),Instrument(FG),0%
-3000-01,IN,FG-30112,Instrument(FG),Instrument(FG),0%
-3000-01,IN,FG-30113,Instrument(FG),Instrument(FG),0%
-3000-01,IN,FG-30116,Instrument(FG),Instrument(FG),0%
-3000-01,IN,FG-30117,Instrument(FG),Instrument(FG),0%
-3000-01,IN,FG-30118,Instrument(FG),Instrument(FG),0%
+3000-01,IN,FG-30103,Instrument(FG),Instrument(FG),Exception(Pending)
+3000-01,IN,FG-30106,Instrument(FG),Instrument(FG),Exception(Pending)
+3000-01,IN,FG-30107,Instrument(FG),Instrument(FG),Exception(Pending)
+3000-01,IN,FG-30108,Instrument(FG),Instrument(FG),Exception(Pending)
+3000-01,IN,FG-30112,Instrument(FG),Instrument(FG),Exception(Pending)
+3000-01,IN,FG-30113,Instrument(FG),Instrument(FG),Exception(Pending)
+3000-01,IN,FG-30116,Instrument(FG),Instrument(FG),Exception(Pending)
+3000-01,IN,FG-30117,Instrument(FG),Instrument(FG),Exception(Pending)
+3000-01,IN,FG-30118,Instrument(FG),Instrument(FG),Exception(Pending)
 3000-01,IN,FG-30128,Instrument(FG),Instrument(FG),50%
 3000-01,IN,FG-30129,Instrument(FG),Instrument(FG),50%
 3000-01,IN,FG-30130,Instrument(FG),Instrument(FG),50%
@@ -12543,8 +12543,8 @@ FGS-10,IN,FGD-0057,Fire Alarm,Fire Alarm(FGD),0%
 2000-05,IN,FI-20607B,Instrument(FI),Instrument(FI),50%
 2000-05,IN,FI-20608A,Instrument(FI),Instrument(FI),50%
 2000-05,IN,FI-20608B,Instrument(FI),Instrument(FI),50%
-3000-01,IN,FI-3010,Instrument(FI),Instrument(FI),50%
-3000-01,IN,FI-3016,Instrument(FI),Instrument(FI),0%
+3000-01,IN,FI-3010,Instrument(FI),Instrument(FI),Exception(Pending)
+3000-01,IN,FI-3016,Instrument(FI),Instrument(FI),Exception(Pending)
 5000-01,IN,FI-30201A,Instrument(FI),Instrument(FI),Done
 5000-01,IN,FI-50201A,Instrument(FI),Instrument(FI),Done
 5000-01,IN,FI-50201B,Instrument(FI),Instrument(FI),Done
@@ -12651,16 +12651,16 @@ BLD-06,BD,final Architecture(Grouand Floor BLD-06),06-Final Architecture(Interna
 BLD-07,BD,Final Architecture(IN),06-Final Architecture(Internal),The final Architecture(Internal works of Building BLD-07),DONE
 BLD-02,BD,Final Architecture(Internal),06-Final Architecture(Internal),Final finishes like flooring and painting,DONE
 3000-01,IN,FIT-30165A(FIT),Instrument(FIT),Instrument(FIT),Done
-3000-01,IN,FIT-30165A(NA),CABLE,CABLE(NA),0%
+3000-01,IN,FIT-30165A(NA),CABLE,CABLE(NA),Exception(Pending)
 3000-01,IN,FIT-30165B(FIT),Instrument(FIT),Instrument(FIT),Done
-3000-01,IN,FIT-30165B(NA),CABLE,CABLE(NA),0%
-3000-01,IN,FIT-30168A(FIT),Instrument(FIT),Instrument(FIT),50%
+3000-01,IN,FIT-30165B(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,FIT-30168A(FIT),Instrument(FIT),Instrument(FIT),Exception(Pending)
 3000-01,IN,FIT-30168A(NA),CABLE,CABLE(NA),Done
-3000-01,IN,FIT-30168B(FIT),Instrument(FIT),Instrument(FIT),50%
+3000-01,IN,FIT-30168B(FIT),Instrument(FIT),Instrument(FIT),Exception(Pending)
 3000-01,IN,FIT-30168B(NA),CABLE,CABLE(NA),Done
-3000-01,IN,FIT-30170A(FIT),Instrument(FIT),Instrument(FIT),50%
+3000-01,IN,FIT-30170A(FIT),Instrument(FIT),Instrument(FIT),Exception(Pending)
 3000-01,IN,FIT-30170A(NA),CABLE,CABLE(NA),Done
-3000-01,IN,FIT-30170B(FIT),Instrument(FIT),Instrument(FIT),50%
+3000-01,IN,FIT-30170B(FIT),Instrument(FIT),Instrument(FIT),Exception(Pending)
 3000-01,IN,FIT-30170B(NA),CABLE,CABLE(NA),Done
 FGS-09,EL,FLB-0101,F&G Device,Flushing Beacon,0%
 FGS-08,EL,FLB-0301,FGS Device,Flushing Beacon,0%
@@ -12725,15 +12725,15 @@ NO SUBS.,IN,FLD-0029(FLD),Fire Alarm,Fire Alarm(FLD),0%
 NO SUBS.,IN,FLD-0029(NA),CABLE,CABLE(NA),0%
 2000-05,IN,FO-2483,Instrument(FO),Instrument(FO),Exception(Pending)
 1000-02,IN,FO-2552,Instrument(FO),Instrument(FO),DONE
-3000-01,IN,FO-30101,Instrument(FO),Instrument(FO),0%
-3000-01,IN,FO-30102,Instrument(FO),Instrument(FO),0%
-3000-01,IN,FO-30104,Instrument(FO),Instrument(FO),0%
-3000-01,IN,FO-30105,Instrument(FO),Instrument(FO),0%
-3000-01,IN,FO-30109,Instrument(FO),Instrument(FO),0%
-3000-01,IN,FO-30110,Instrument(FO),Instrument(FO),0%
-3000-01,IN,FO-30111,Instrument(FO),Instrument(FO),0%
-3000-01,IN,FO-30114,Instrument(FO),Instrument(FO),0%
-3000-01,IN,FO-30115,Instrument(FO),Instrument(FO),0%
+3000-01,IN,FO-30101,Instrument(FO),Instrument(FO),Exception(Pending)
+3000-01,IN,FO-30102,Instrument(FO),Instrument(FO),Exception(Pending)
+3000-01,IN,FO-30104,Instrument(FO),Instrument(FO),Exception(Pending)
+3000-01,IN,FO-30105,Instrument(FO),Instrument(FO),Exception(Pending)
+3000-01,IN,FO-30109,Instrument(FO),Instrument(FO),Exception(Pending)
+3000-01,IN,FO-30110,Instrument(FO),Instrument(FO),Exception(Pending)
+3000-01,IN,FO-30111,Instrument(FO),Instrument(FO),Exception(Pending)
+3000-01,IN,FO-30114,Instrument(FO),Instrument(FO),Exception(Pending)
+3000-01,IN,FO-30115,Instrument(FO),Instrument(FO),Exception(Pending)
 3000-01,IN,FO-30119,Instrument(FO),Instrument(FO),50%
 3000-01,IN,FO-30120,Instrument(FO),Instrument(FO),50%
 3000-01,IN,FO-30121,Instrument(FO),Instrument(FO),50%
@@ -12743,7 +12743,7 @@ NO SUBS.,IN,FLD-0029(NA),CABLE,CABLE(NA),0%
 3000-01,IN,FO-30125,Instrument(FO),Instrument(FO),50%
 3000-01,IN,FO-30126,Instrument(FO),Instrument(FO),50%
 3000-01,IN,FO-30127,Instrument(FO),Instrument(FO),50%
-3000-01,IN,FO-30133,Instrument(FO),Instrument(FO),0%
+3000-01,IN,FO-30133,Instrument(FO),Instrument(FO),Exception(Pending)
 3000-01,IN,FO-30134,Instrument(FO),Instrument(FO),50%
 3000-01,IN,FO-30135,Instrument(FO),Instrument(FO),50%
 3000-01,IN,FO-30136,Instrument(FO),Instrument(FO),50%
@@ -12767,17 +12767,17 @@ NO SUBS.,IN,FLD-0029(NA),CABLE,CABLE(NA),0%
 3000-01,IN,FO-30154,Instrument(FO),Instrument(FO),50%
 3000-01,IN,FO-30155,Instrument(FO),Instrument(FO),50%
 3000-01,IN,FO-30156,Instrument(FO),Instrument(FO),50%
-3000-01,IN,FO-30157C,Instrument(FO),Instrument(FO),0%
-3000-01,IN,FO-30158,Instrument(FO),Instrument(FO),0%
-3000-01,IN,FO-30159,Instrument(FO),Instrument(FO),0%
-3000-01,IN,FO-30160,Instrument(FO),Instrument(FO),0%
-3000-01,IN,FO-30161,Instrument(FO),Instrument(FO),0%
-3000-01,IN,FO-30162,Instrument(FO),Instrument(FO),0%
-3000-01,IN,FO-30163,Instrument(FO),Instrument(FO),0%
-3000-01,IN,FO-30164,Instrument(FO),Instrument(FO),0%
-3000-01,IN,FO-30166,Instrument(FO),Instrument(FO),0%
-3000-01,IN,FO-30167,Instrument(FO),Instrument(FO),0%
-3000-01,IN,FO-30169,Instrument(FO),Instrument(FO),0%
+3000-01,IN,FO-30157C,Instrument(FO),Instrument(FO),Exception(Pending)
+3000-01,IN,FO-30158,Instrument(FO),Instrument(FO),Exception(Pending)
+3000-01,IN,FO-30159,Instrument(FO),Instrument(FO),Exception(Pending)
+3000-01,IN,FO-30160,Instrument(FO),Instrument(FO),Exception(Pending)
+3000-01,IN,FO-30161,Instrument(FO),Instrument(FO),Exception(Pending)
+3000-01,IN,FO-30162,Instrument(FO),Instrument(FO),Exception(Pending)
+3000-01,IN,FO-30163,Instrument(FO),Instrument(FO),Exception(Pending)
+3000-01,IN,FO-30164,Instrument(FO),Instrument(FO),Exception(Pending)
+3000-01,IN,FO-30166,Instrument(FO),Instrument(FO),Exception(Pending)
+3000-01,IN,FO-30167,Instrument(FO),Instrument(FO),Exception(Pending)
+3000-01,IN,FO-30169,Instrument(FO),Instrument(FO),Exception(Pending)
 3000-03,IN,FO-3191,Instrument(FO),Instrument(FO),Exception(Pending)
 4000-01,IN,FO-3210,Instrument(FO),Instrument(FO),DONE
 5000-03,IN,FO-5353,Instrument(FO),Instrument(FO),Done
@@ -12968,8 +12968,8 @@ NO SUBS.,IN,FT-10219,SIGNAL,SIGNAL,0%
 1000-02,IN,FT-2536(NA),CABLE,CABLE(NA),0%
 3000-03,IN,FT-2607(FT),Instrument(FT),Instrument(FT),Done
 3000-03,IN,FT-2607(NA),CABLE,CABLE(NA),0%
-3000-01,IN,FT-3020(FT),Instrument(FT),Instrument(FT),25%
-3000-01,IN,FT-3020(NA),CABLE,CABLE(NA),0%
+3000-01,IN,FT-3020(FT),Instrument(FT),Instrument(FT),Exception(Pending)
+3000-01,IN,FT-3020(NA),CABLE,CABLE(NA),Exception(Pending)
 3000-02,IN,FT-3041(FT),Instrument(FT),Instrument(FT),50%
 3000-02,IN,FT-3041(NA),CABLE,CABLE(NA),0%
 3000-02,IN,FT-3050(FT),Instrument(FT),Instrument(FT),50%
@@ -13024,7 +13024,7 @@ NO SUBS.,IN,FT-10219,SIGNAL,SIGNAL,0%
 5000-04,IN,FT-5494(NA),CABLE,CABLE(NA),0%
 1000-03,IN,FT-6031(FT),Instrument(FT),Instrument(FT),50%
 1000-03,IN,FT-6031(NA),CABLE,CABLE(NA),0%
-4000-04,IN,FT-6032(FT),Instrument(FT),Instrument(FT),25%
+4000-04,IN,FT-6032(FT),Instrument(FT),Instrument(FT),50%
 4000-04,IN,FT-6032(NA),CABLE,CABLE(NA),0%
 1000-03,IN,FT-6059(FT),Instrument(FT),Instrument(FT),50%
 1000-03,IN,FT-6059(NA),CABLE,CABLE(NA),0%
@@ -13080,19 +13080,19 @@ NO SUBS.,IN,FT-10219,SIGNAL,SIGNAL,0%
 120-07,EL,FT8001B-MP-1B,Local_Control_Station,Local Control Station- FT8001B-MP-1B,0%
 4000-08,IN,FT-8002(FT),Instrument(FT),Instrument(FT),Done
 4000-08,IN,FT-8002(NA),CABLE,CABLE(NA),0%
-4000-08,IN,FT-8003(FT),Instrument(FT),Instrument(FT),50%
+4000-08,IN,FT-8003(FT),Instrument(FT),Instrument(FT),Exception(Pending)
 4000-08,IN,FT-8003(NA),CABLE,CABLE(NA),0%
-4000-08,IN,FT-8004(FT),Instrument(FT),Instrument(FT),50%
+4000-08,IN,FT-8004(FT),Instrument(FT),Instrument(FT),Exception(Pending)
 4000-08,IN,FT-8004(NA),CABLE,CABLE(NA),Done
-4000-08,IN,FT-8005(FT),Instrument(FT),Instrument(FT),50%
+4000-08,IN,FT-8005(FT),Instrument(FT),Instrument(FT),Exception(Pending)
 4000-08,IN,FT-8005(NA),CABLE,CABLE(NA),0%
-4000-08,IN,FT-8006(FT),Instrument(FT),Instrument(FT),50%
+4000-08,IN,FT-8006(FT),Instrument(FT),Instrument(FT),Exception(Pending)
 4000-08,IN,FT-8006(NA),CABLE,CABLE(NA),0%
 4000-08,IN,FT-8012(FT),Instrument(FT),Instrument(FT),Done
 4000-08,IN,FT-8012(NA),CABLE,CABLE(NA),0%
 4000-08,IN,FT-8013(FT),Instrument(FT),Instrument(FT),Done
 4000-08,IN,FT-8013(NA),CABLE,CABLE(NA),0%
-4000-08,IN,FT-8014(FT),Instrument(FT),Instrument(FT),25%
+4000-08,IN,FT-8014(FT),Instrument(FT),Instrument(FT),Exception(Pending)
 4000-08,IN,FT-8014(NA),CABLE,CABLE(NA),0%
 4000-12,IN,FT-8415(FT),Instrument(FT),Instrument(FT),Done
 4000-12,IN,FT-8415(NA),CABLE,CABLE(NA),0%
@@ -13152,12 +13152,12 @@ DCS-01,IN,FTADO16-M04R-E,CABLE,CABLE(NA),0%
 1000-01,IN,FUSY-2150(NA),CABLE,CABLE(NA),0%
 1000-02,IN,FUSY-2536(FUSY),Instrument(X),Instrument(FUSY),0%
 1000-02,IN,FUSY-2536(NA),CABLE,CABLE(NA),Done
-3000-01,IN,FUSY-30111(FUSY),Instrument(X),Instrument(FUSY),0%
-3000-01,IN,FUSY-30111(NA),CABLE,CABLE(NA),0%
-3000-01,IN,FUSY-30114(FUSY),Instrument(X),Instrument(FUSY),0%
-3000-01,IN,FUSY-30114(NA),CABLE,CABLE(NA),0%
-3000-01,IN,FUSY-30118(FUSY),Instrument(X),Instrument(FUSY),0%
-3000-01,IN,FUSY-30118(NA),CABLE,CABLE(NA),0%
+3000-01,IN,FUSY-30111(FUSY),Instrument(X),Instrument(FUSY),Exception(Pending)
+3000-01,IN,FUSY-30111(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,FUSY-30114(FUSY),Instrument(X),Instrument(FUSY),Exception(Pending)
+3000-01,IN,FUSY-30114(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,FUSY-30118(FUSY),Instrument(X),Instrument(FUSY),Exception(Pending)
+3000-01,IN,FUSY-30118(NA),CABLE,CABLE(NA),Exception(Pending)
 3000-03,IN,FUSY-3171(FUSY),Instrument(X),Instrument(FUSY),0%
 3000-03,IN,FUSY-3171(NA),CABLE,CABLE(NA),0%
 5000-01,IN,FUSY-5020(FUSY),Instrument(X),Instrument(FUSY),0%
@@ -13227,14 +13227,14 @@ DCS-01,IN,FTADO16-M04R-E,CABLE,CABLE(NA),0%
 1000-02,IN,FV-2536(FV),Instrument(FV),Instrument(FV),75%
 1000-02,IN,FV-2536(NA),CABLE,CABLE(NA),Done
 NO SUBS.,IN,FV-30111,PKG,PKG,33%
-3000-01,IN,FV-30111(FV),Instrument(FV),Instrument(FV),25%
-3000-01,IN,FV-30111(NA),CABLE,CABLE(NA),0%
-3000-01,IN,FV-30114(FV),Instrument(FV),Instrument(FV),25%
-3000-01,IN,FV-30114(NA),CABLE,CABLE(NA),0%
-3000-01,IN,FV-30117(FV),Instrument(FV),Instrument(FV),25%
-3000-01,IN,FV-30117(NA),CABLE,CABLE(NA),0%
-3000-01,IN,FV-30118(FV),Instrument(FV),Instrument(FV),25%
-3000-01,IN,FV-30118(NA),CABLE,CABLE(NA),0%
+3000-01,IN,FV-30111(FV),Instrument(FV),Instrument(FV),Exception(Pending)
+3000-01,IN,FV-30111(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,FV-30114(FV),Instrument(FV),Instrument(FV),Exception(Pending)
+3000-01,IN,FV-30114(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,FV-30117(FV),Instrument(FV),Instrument(FV),Exception(Pending)
+3000-01,IN,FV-30117(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,FV-30118(FV),Instrument(FV),Instrument(FV),Exception(Pending)
+3000-01,IN,FV-30118(NA),CABLE,CABLE(NA),Exception(Pending)
 3000-02,IN,FV-3041(FV),Instrument(FV),Instrument(FV),25%
 3000-02,IN,FV-3041(NA),CABLE,CABLE(NA),0%
 3000-03,IN,FV-3169(FV),Instrument(FV),Instrument(FV),25%
@@ -13298,7 +13298,7 @@ NO SUBS.,IN,FV-30111,PKG,PKG,33%
 4000-06,IN,FV-75150B,Instrument(FV),Instrument(FV),25%
 4000-06,IN,FV-75151,Instrument(FV),Instrument(FV),25%
 4000-06,IN,FV-75152,Instrument(FV),Instrument(FV),0%
-4000-08,IN,FV-8003(FV),Instrument(FV),Instrument(FV),50%
+4000-08,IN,FV-8003(FV),Instrument(FV),Instrument(FV),Exception(Pending)
 4000-08,IN,FV-8003(NA),CABLE,CABLE(NA),0%
 3000-03,IN,FX-3167,SIGNAL,SIGNAL,Exception(Pending)
 2000-03,IN,FY-2007A,SIGNAL,SIGNAL,Exception(Pending)
@@ -13316,14 +13316,14 @@ NO SUBS.,IN,FV-30111,PKG,PKG,33%
 1000-01,IN,FY-6070C,SIGNAL,SIGNAL,Done
 2000-01,IN,FZ-2233,Instrument(FZ),Instrument(FZ),25%
 1000-03,IN,FZ-6058,Instrument(FZ),Instrument(FZ),25%
-3000-01,IN,FZSH-30111(FZSH),Instrument(X),Instrument(FZSH),0%
-3000-01,IN,FZSH-30111(NA),CABLE,CABLE(NA),0%
-3000-01,IN,FZSH-30114(FZSH),Instrument(X),Instrument(FZSH),0%
-3000-01,IN,FZSH-30114(NA),CABLE,CABLE(NA),0%
-3000-01,IN,FZSH-30117(FZSH),Instrument(X),Instrument(FZSH),0%
-3000-01,IN,FZSH-30117(NA),CABLE,CABLE(NA),0%
-3000-01,IN,FZSH-30118(FZSH),Instrument(X),Instrument(FZSH),0%
-3000-01,IN,FZSH-30118(NA),CABLE,CABLE(NA),0%
+3000-01,IN,FZSH-30111(FZSH),Instrument(X),Instrument(FZSH),Exception(Pending)
+3000-01,IN,FZSH-30111(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,FZSH-30114(FZSH),Instrument(X),Instrument(FZSH),Exception(Pending)
+3000-01,IN,FZSH-30114(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,FZSH-30117(FZSH),Instrument(X),Instrument(FZSH),Exception(Pending)
+3000-01,IN,FZSH-30117(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,FZSH-30118(FZSH),Instrument(X),Instrument(FZSH),Exception(Pending)
+3000-01,IN,FZSH-30118(NA),CABLE,CABLE(NA),Exception(Pending)
 5000-04,IN,FZSH-5407B(FZSH),Instrument(X),Instrument(FZSH),0%
 5000-04,IN,FZSH-5407B(NA),CABLE,CABLE(NA),Done
 2000-03,IN,FZSL-2007(FZSL),Instrument(X),Instrument(FZSL),0%
@@ -13343,27 +13343,27 @@ NO SUBS.,IN,FV-30111,PKG,PKG,33%
 1000-01,IN,FZSL-2150(NA),CABLE,CABLE(NA),0%
 1000-02,IN,FZSL-2536(FZSL),Instrument(X),Instrument(FZSL),0%
 1000-02,IN,FZSL-2536(NA),CABLE,CABLE(NA),0%
-3000-01,IN,FZSL-30111(FZSL),Instrument(X),Instrument(FZSL),0%
-3000-01,IN,FZSL-30111(NA),CABLE,CABLE(NA),0%
-3000-01,IN,FZSL-30114(FZSL),Instrument(X),Instrument(FZSL),0%
-3000-01,IN,FZSL-30114(NA),CABLE,CABLE(NA),0%
-3000-01,IN,FZSL-30117(FZSL),Instrument(X),Instrument(FZSL),0%
-3000-01,IN,FZSL-30117(NA),CABLE,CABLE(NA),0%
-3000-01,IN,FZSL-30118(FZSL),Instrument(X),Instrument(FZSL),0%
-3000-01,IN,FZSL-30118(NA),CABLE,CABLE(NA),0%
+3000-01,IN,FZSL-30111(FZSL),Instrument(X),Instrument(FZSL),Exception(Pending)
+3000-01,IN,FZSL-30111(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,FZSL-30114(FZSL),Instrument(X),Instrument(FZSL),Exception(Pending)
+3000-01,IN,FZSL-30114(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,FZSL-30117(FZSL),Instrument(X),Instrument(FZSL),Exception(Pending)
+3000-01,IN,FZSL-30117(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,FZSL-30118(FZSL),Instrument(X),Instrument(FZSL),Exception(Pending)
+3000-01,IN,FZSL-30118(NA),CABLE,CABLE(NA),Exception(Pending)
 3000-03,IN,FZSL-3171(FZSL),Instrument(X),Instrument(FZSL),0%
 3000-03,IN,FZSL-3171(NA),CABLE,CABLE(NA),0%
 1000-03,IN,FZSL-6059-1(FZSL),Instrument(X),Instrument(FZSL),0%
 1000-03,IN,FZSL-6059-1(NA),CABLE,CABLE(NA),Done
 2000-02,IN,FZT-20103,Instrument(X),Instrument(FZT),0%
-3000-01,IN,FZT-30111(FZT),Instrument(X),Instrument(FZT),0%
-3000-01,IN,FZT-30111(NA),CABLE,CABLE(NA),0%
-3000-01,IN,FZT-30114(FZT),Instrument(X),Instrument(FZT),0%
-3000-01,IN,FZT-30114(NA),CABLE,CABLE(NA),0%
-3000-01,IN,FZT-30117(FZT),Instrument(X),Instrument(FZT),0%
-3000-01,IN,FZT-30117(NA),CABLE,CABLE(NA),0%
-3000-01,IN,FZT-30118(FZT),Instrument(X),Instrument(FZT),0%
-3000-01,IN,FZT-30118(NA),CABLE,CABLE(NA),0%
+3000-01,IN,FZT-30111(FZT),Instrument(X),Instrument(FZT),Exception(Pending)
+3000-01,IN,FZT-30111(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,FZT-30114(FZT),Instrument(X),Instrument(FZT),Exception(Pending)
+3000-01,IN,FZT-30114(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,FZT-30117(FZT),Instrument(X),Instrument(FZT),Exception(Pending)
+3000-01,IN,FZT-30117(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,FZT-30118(FZT),Instrument(X),Instrument(FZT),Exception(Pending)
+3000-01,IN,FZT-30118(NA),CABLE,CABLE(NA),Exception(Pending)
 DCS-01,IN,G1_ALM_01,CABLE,CABLE(NA),Done
 DCS-01,IN,G1_ALM_02,CABLE,CABLE(NA),Done
 DCS-01,IN,G1_ALM_03,CABLE,CABLE(NA),Done
@@ -13567,42 +13567,42 @@ DCS-01,IN,HS-2093,SIGNAL,SIGNAL,Exception(Pending)
 1000-02,IN,HS-2550,Instrument(X),Instrument(HS),0%
 2000-05,IN,HS-2551,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,HS-3003,SIGNAL,SIGNAL,Exception(Pending)
-3000-01,IN,HS-30101A,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30101B,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30102A1,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30102B1,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30102C1,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30103A1,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30103B1,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30103C1,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30104A1,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30104B1,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30104C1,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30105A1,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30105B1,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30105C1,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30106A1,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30106B1,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30106C1,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30107A1,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30107B1,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30107C1,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30111,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30112,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30113A,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30113B,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30115,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30116,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30117A,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30117B,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30118,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30119,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30121,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30122,PKG,PKG,0%
-3000-01,IN,HS-30124,Instrument(X),Instrument(HS),0%
-3000-01,IN,HS-30126,PKG,PKG,0%
-3000-01,IN,HS-30139A,PKG,PKG,0%
-3000-01,IN,HS-30139B,PKG,PKG,0%
+3000-01,IN,HS-30101A,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30101B,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30102A1,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30102B1,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30102C1,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30103A1,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30103B1,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30103C1,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30104A1,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30104B1,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30104C1,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30105A1,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30105B1,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30105C1,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30106A1,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30106B1,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30106C1,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30107A1,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30107B1,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30107C1,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30111,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30112,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30113A,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30113B,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30115,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30116,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30117A,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30117B,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30118,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30119,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30121,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30122,PKG,PKG,Exception(Pending)
+3000-01,IN,HS-30124,Instrument(X),Instrument(HS),Exception(Pending)
+3000-01,IN,HS-30126,PKG,PKG,Exception(Pending)
+3000-01,IN,HS-30139A,PKG,PKG,Exception(Pending)
+3000-01,IN,HS-30139B,PKG,PKG,Exception(Pending)
 DCS-01,IN,HS-3041,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,HS-3073,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,HS-3074,SIGNAL,SIGNAL,Exception(Pending)
@@ -13651,9 +13651,9 @@ DCS-01,IN,HS-8001D,SIGNAL,SIGNAL,Exception(Pending)
 4000-08,IN,HS-80155BL,Instrument(X),Instrument(HS),Done
 DCS-01,IN,HS-80156A,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,HS-80156B,SIGNAL,SIGNAL,Exception(Pending)
-3000-01,IN,HSZ-30125A,Instrument(X),Instrument(HSZ),0%
-3000-01,IN,HSZ-30125B,Instrument(X),Instrument(HSZ),0%
-3000-01,IN,HSZ-30125C,Instrument(X),Instrument(HSZ),0%
+3000-01,IN,HSZ-30125A,Instrument(X),Instrument(HSZ),Exception(Pending)
+3000-01,IN,HSZ-30125B,Instrument(X),Instrument(HSZ),Exception(Pending)
+3000-01,IN,HSZ-30125C,Instrument(X),Instrument(HSZ),Exception(Pending)
 1000-01,IN,HV-1003,Instrument(HV),Instrument(HV),0%
 2000-03,IN,HV-2031(HV),Instrument(HV),Instrument(HV),25%
 2000-03,IN,HV-2031(NA),CABLE,CABLE(NA),0%
@@ -13669,8 +13669,8 @@ DCS-01,IN,HS-80156B,SIGNAL,SIGNAL,Exception(Pending)
 4000-04,IN,HV-2371(HV),Instrument(HV),Instrument(HV),25%
 4000-04,IN,HV-2371(NA),CABLE,CABLE(NA),0%
 2000-04,IN,HV-3011(HV),Instrument(HV),Instrument(HV),25%
-2000-04,IN,HV-3011(NA),CABLE,CABLE(NA),0%
-3000-01,IN,HV-3016,Instrument(HV),Instrument(HV),25%
+2000-04,IN,HV-3011(NA),CABLE,CABLE(NA),Done
+3000-01,IN,HV-3016,Instrument(HV),Instrument(HV),Exception(Pending)
 5000-03,IN,HV-5338(HV),Instrument(HV),Instrument(HV),75%
 5000-03,IN,HV-5338(NA),CABLE,CABLE(NA),Done
 4000-04,IN,HV-7096(HV),Instrument(HV),Instrument(HV),25%
@@ -13715,13 +13715,13 @@ DCS-01,IN,HS-80156B,SIGNAL,SIGNAL,Exception(Pending)
 1000-03,IN,HY-7102(NA),CABLE,CABLE(NA),Done
 1000-03,IN,HY-7104(HY),Instrument(X),Instrument(HY),0%
 1000-03,IN,HY-7104(NA),CABLE,CABLE(NA),Done
-3000-01,IN,HZSC-30101(HZSC),Instrument(X),Instrument(HZSC),0%
-3000-01,IN,HZSC-30101(NA),CABLE,CABLE(NA),0%
-3000-01,IN,HZSC-30103(HZSC),Instrument(X),Instrument(HZSC),0%
+3000-01,IN,HZSC-30101(HZSC),Instrument(X),Instrument(HZSC),Exception(Pending)
+3000-01,IN,HZSC-30101(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,HZSC-30103(HZSC),Instrument(X),Instrument(HZSC),Exception(Pending)
 3000-01,IN,HZSC-30103(NA),CABLE,CABLE(NA),Done
-3000-01,IN,HZSC-30105(HZSC),Instrument(X),Instrument(HZSC),0%
+3000-01,IN,HZSC-30105(HZSC),Instrument(X),Instrument(HZSC),Exception(Pending)
 3000-01,IN,HZSC-30105(NA),CABLE,CABLE(NA),Done
-3000-01,IN,HZSC-30107(HZSC),Instrument(X),Instrument(HZSC),0%
+3000-01,IN,HZSC-30107(HZSC),Instrument(X),Instrument(HZSC),Exception(Pending)
 3000-01,IN,HZSC-30107(NA),CABLE,CABLE(NA),Done
 1000-01,IN,HZSH-1003,Instrument(X),Instrument(HZSH),0%
 2000-01,IN,HZSH-2098,Instrument(X),Instrument(HZSH),0%
@@ -13735,13 +13735,13 @@ DCS-01,IN,HS-80156B,SIGNAL,SIGNAL,Exception(Pending)
 2000-02,IN,HZSL-2225-1(NA),CABLE,CABLE(NA),0%
 2000-02,IN,HZSL-2225-2(HZSL),Instrument(X),Instrument(HZSL),0%
 2000-02,IN,HZSL-2225-2(NA),CABLE,CABLE(NA),0%
-3000-01,IN,HZSO-30101(HZSO),Instrument(X),Instrument(HZSO),0%
-3000-01,IN,HZSO-30101(NA),CABLE,CABLE(NA),0%
-3000-01,IN,HZSO-30103(HZSO),Instrument(X),Instrument(HZSO),0%
+3000-01,IN,HZSO-30101(HZSO),Instrument(X),Instrument(HZSO),Exception(Pending)
+3000-01,IN,HZSO-30101(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,HZSO-30103(HZSO),Instrument(X),Instrument(HZSO),Exception(Pending)
 3000-01,IN,HZSO-30103(NA),CABLE,CABLE(NA),Done
-3000-01,IN,HZSO-30105(HZSO),Instrument(X),Instrument(HZSO),0%
+3000-01,IN,HZSO-30105(HZSO),Instrument(X),Instrument(HZSO),Exception(Pending)
 3000-01,IN,HZSO-30105(NA),CABLE,CABLE(NA),Done
-3000-01,IN,HZSO-30107(HZSO),Instrument(X),Instrument(HZSO),0%
+3000-01,IN,HZSO-30107(HZSO),Instrument(X),Instrument(HZSO),Exception(Pending)
 3000-01,IN,HZSO-30107(NA),CABLE,CABLE(NA),Done
 DCS-01,IN,ICNAF-C3001.C3002-01,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNAF-DMPC-01,CABLE,CABLE(NA),0%
@@ -13832,8 +13832,8 @@ DCS-01,IN,ICNDX-C2001-P-1B,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNDX-C2002-HE-1,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNDX-C2002-HE-2,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNDX-C2002-P-1B,CABLE,CABLE(NA),Done
-DCS-01,IN,ICNDX-FT-2001.2002-1,CABLE,CABLE(NA),0%
-DCS-01,IN,ICNDX-FT-2001.2002-2,CABLE,CABLE(NA),0%
+DCS-01,IN,ICNDX-FT-2001.2002-1,CABLE,CABLE(NA),50%
+DCS-01,IN,ICNDX-FT-2001.2002-2,CABLE,CABLE(NA),50%
 DCS-01,IN,ICNDX-FT2001-HE-1,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNDX-FT2001-MP-1,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNDX-FT2001-MP-2,CABLE,CABLE(NA),Done
@@ -14255,8 +14255,8 @@ DCS-01,IN,JNFF-5002_6,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
 DCS-01,IN,JNFF-5002_7,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
 DCS-01,IN,JNFF-5003,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
 DCS-01,IN,JNFF-5003.1,CABLE,CABLE(NA),Done
-DCS-01,IN,JNFF-5003.2,CABLE,CABLE(NA),0%
-DCS-01,IN,JNFF-5003.3,CABLE,CABLE(NA),0%
+DCS-01,IN,JNFF-5003.2,CABLE,CABLE(NA),Done
+DCS-01,IN,JNFF-5003.3,CABLE,CABLE(NA),Done
 DCS-01,IN,JNFF-5003_1,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
 DCS-01,IN,JNFF-5003_2,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
 DCS-01,IN,JNFF-5003_3,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
@@ -14598,7 +14598,7 @@ NO SUBS.,IN,LFAP-01,Fire Alarm,Fire Alarm(LFAP),0%
 2000-05,IN,LG-2443,Instrument(LG),Instrument(LG),Done
 2000-05,IN,LG-2475,Instrument(LG),Instrument(LG),Done
 3000-01,IN,LG-30102,Instrument(LG),Instrument(LG),Done
-3000-01,IN,LG-30105,Instrument(LG),Instrument(LG),0%
+3000-01,IN,LG-30105,Instrument(LG),Instrument(LG),Exception(Pending)
 5000-01,IN,LG-30203A,Instrument(LG),Instrument(LG),Done
 3000-02,IN,LG-3043,Instrument(LG),Instrument(LG),Exception(Pending)
 3000-02,IN,LG-3044-1,Instrument(LG),Instrument(LG),Exception(Pending)
@@ -14813,8 +14813,8 @@ FGS-03,IN,LHS-9052,Fire Fighting,Fire Fighting(LHS),0%
 FGS-03,IN,LHS-9053,Fire Fighting,Fire Fighting(LHS),0%
 DCS-01,IN,LHSP-9001,CABLE,CABLE(NA),50%
 DCS-01,IN,LHSP-9002,CABLE,CABLE(NA),0%
-DCS-01,IN,LHSP-9003,CABLE,CABLE(NA),0%
-DCS-01,IN,LHSP-9004,CABLE,CABLE(NA),0%
+DCS-01,IN,LHSP-9003,CABLE,CABLE(NA),50%
+DCS-01,IN,LHSP-9004,CABLE,CABLE(NA),50%
 DCS-01,IN,LHSP-9005,CABLE,CABLE(NA),0%
 DCS-01,IN,LHSP-9006,CABLE,CABLE(NA),0%
 2000-04,IN,LI1-2373,Instrument(LI1),Instrument(LI1),Exception(Pending)
@@ -14836,13 +14836,13 @@ DCS-01,IN,LHSP-9006,CABLE,CABLE(NA),0%
 1000-03,IN,LI-7101-1(NA),CABLE,CABLE(NA),0%
 4000-06,IN,LI-7502-1,CABLE,CABLE(NA),0%
 NO SUBS.,IN,LIT-30101,PKG,PKG,0%
-3000-01,IN,LIT-30101(LIT),Instrument(LIT),Instrument(LIT),0%
-3000-01,IN,LIT-30101(NA),CABLE,CABLE(NA),0%
+3000-01,IN,LIT-30101(LIT),Instrument(LIT),Instrument(LIT),Exception(Pending)
+3000-01,IN,LIT-30101(NA),CABLE,CABLE(NA),Exception(Pending)
 NO SUBS.,IN,LIT-30103,Pkg,Pkg,0%
-3000-01,IN,LIT-30103(LIT),Instrument(LIT),Instrument(LIT),25%
-3000-01,IN,LIT-30104A,Instrument(LIT),Instrument(LIT),0%
-3000-01,IN,LIT-30104B,Instrument(LIT),Instrument(LIT),0%
-3000-01,IN,LIT-30104C,Instrument(LIT),Instrument(LIT),0%
+3000-01,IN,LIT-30103(LIT),Instrument(LIT),Instrument(LIT),Exception(Pending)
+3000-01,IN,LIT-30104A,Instrument(LIT),Instrument(LIT),Exception(Pending)
+3000-01,IN,LIT-30104B,Instrument(LIT),Instrument(LIT),Exception(Pending)
+3000-01,IN,LIT-30104C,Instrument(LIT),Instrument(LIT),Exception(Pending)
 DCS-01,IN,LOP-C3001_2-04,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 DCS-01,IN,LOP-C3001_2-05,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 DCS-01,IN,LP-C2002-1,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
@@ -14943,13 +14943,13 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 4000-06,IN,LSL-75201B(NA),CABLE,CABLE(NA),0%
 4000-06,IN,LSL-75203A(LSL),Instrument(LSL),Instrument(LSL),50%
 4000-06,IN,LSL-75203A(NA),CABLE,CABLE(NA),0%
-4000-08,IN,LSL-80201(LSL),Instrument(LSL),Instrument(LSL),0%
+4000-08,IN,LSL-80201(LSL),Instrument(LSL),Instrument(LSL),Exception(Pending)
 4000-08,IN,LSL-80201(NA),CABLE,CABLE(NA),0%
-4000-08,IN,LSL-80202(LSL),Instrument(LSL),Instrument(LSL),0%
+4000-08,IN,LSL-80202(LSL),Instrument(LSL),Instrument(LSL),Exception(Pending)
 4000-08,IN,LSL-80202(NA),CABLE,CABLE(NA),0%
-4000-08,IN,LSL-80203(LSL),Instrument(LSL),Instrument(LSL),0%
+4000-08,IN,LSL-80203(LSL),Instrument(LSL),Instrument(LSL),Exception(Pending)
 4000-08,IN,LSL-80203(NA),CABLE,CABLE(NA),0%
-4000-08,IN,LSL-80204(LSL),Instrument(LSL),Instrument(LSL),0%
+4000-08,IN,LSL-80204(LSL),Instrument(LSL),Instrument(LSL),Exception(Pending)
 4000-08,IN,LSL-80204(NA),CABLE,CABLE(NA),0%
 4000-10,IN,LSL-8414(LSL),Instrument(LSL),Instrument(LSL),0%
 4000-10,IN,LSL-8414(NA),CABLE,CABLE(NA),0%
@@ -15063,8 +15063,8 @@ NO SUBS.,IN,LT-20151(LT),Instrument(LT),Instrument(LT),25%
 2000-06,IN,LT-25111,Pkg,Pkg,33%
 3000-01,IN,LT-30108A(LT),Instrument(LT),Instrument(LT),75%
 3000-01,IN,LT-30108A(NA),CABLE,CABLE(NA),Done
-3000-01,IN,LT-30108B(LT),Instrument(LT),Instrument(LT),0%
-3000-01,IN,LT-30108B(NA),CABLE,CABLE(NA),0%
+3000-01,IN,LT-30108B(LT),Instrument(LT),Instrument(LT),Exception(Pending)
+3000-01,IN,LT-30108B(NA),CABLE,CABLE(NA),Exception(Pending)
 3000-01,IN,LT-30108C(LT),Instrument(LT),Instrument(LT),75%
 3000-01,IN,LT-30108C(NA),CABLE,CABLE(NA),Done
 3000-02,IN,LT-3043(LT),Instrument(LT),Instrument(LT),Exception(Pending)
@@ -15223,12 +15223,12 @@ NO SUBS.,IN,LT-20151(LT),Instrument(LT),Instrument(LT),25%
 2000-05,IN,LV-2474(LV),Instrument(LV),Instrument(LV),50%
 2000-05,IN,LV-2474(NA),CABLE,CABLE(NA),0%
 NO SUBS.,IN,LV-30106,PKG,PKG,33%
-3000-01,IN,LV-30106(LV),Instrument(LV),Instrument(LV),0%
+3000-01,IN,LV-30106(LV),Instrument(LV),Instrument(LV),Exception(Pending)
 3000-01,IN,LV-30106(NA),CABLE,CABLE(NA),Done
 NO SUBS.,IN,LV-30107,PKG,PKG,33%
-3000-01,IN,LV-30107(LV),Instrument(LV),Instrument(LV),0%
+3000-01,IN,LV-30107(LV),Instrument(LV),Instrument(LV),Exception(Pending)
 3000-01,IN,LV-30107(NA),CABLE,CABLE(NA),Done
-3000-01,IN,LV-30108(LV),Instrument(LV),Instrument(LV),25%
+3000-01,IN,LV-30108(LV),Instrument(LV),Instrument(LV),Exception(Pending)
 3000-01,IN,LV-30108(NA),CABLE,CABLE(NA),Done
 3000-03,IN,LV-3161A(LV),Instrument(LV),Instrument(LV),25%
 3000-03,IN,LV-3161A(NA),CABLE,CABLE(NA),Done
@@ -15762,20 +15762,20 @@ BLD-06,BD,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Wor
 2000-06,IN,ML-25101,Pkg,Pkg,0%
 2000-06,IN,ML-25102B,Pkg,Pkg,0%
 2000-06,IN,ML-25103,Pkg,Pkg,0%
-3000-01,IN,ML-30101,Instrument(X),Instrument(ML),0%
-3000-01,IN,ML-30102,Instrument(X),Instrument(ML),0%
-3000-01,IN,ML-30103,Instrument(X),Instrument(ML),0%
-3000-01,IN,ML-30104,Instrument(X),Instrument(ML),0%
-3000-01,IN,ML-30105,Instrument(X),Instrument(ML),0%
-3000-01,IN,ML-30106,Instrument(X),Instrument(ML),0%
-3000-01,IN,ML-30107,Instrument(X),Instrument(ML),0%
-3000-01,IN,ML-30139A,PKG,PKG,0%
-3000-01,IN,ML-30139B,PKG,PKG,0%
+3000-01,IN,ML-30101,Instrument(X),Instrument(ML),Exception(Pending)
+3000-01,IN,ML-30102,Instrument(X),Instrument(ML),Exception(Pending)
+3000-01,IN,ML-30103,Instrument(X),Instrument(ML),Exception(Pending)
+3000-01,IN,ML-30104,Instrument(X),Instrument(ML),Exception(Pending)
+3000-01,IN,ML-30105,Instrument(X),Instrument(ML),Exception(Pending)
+3000-01,IN,ML-30106,Instrument(X),Instrument(ML),Exception(Pending)
+3000-01,IN,ML-30107,Instrument(X),Instrument(ML),Exception(Pending)
+3000-01,IN,ML-30139A,PKG,PKG,Exception(Pending)
+3000-01,IN,ML-30139B,PKG,PKG,Exception(Pending)
 1000-01,IN,MOS-1001,SIGNAL,SIGNAL,Done
-3000-01,IN,MOV-30101,Instrument(MOV),Instrument(MOV),50%
-3000-01,IN,MOV-30103,Instrument(MOV),Instrument(MOV),50%
-3000-01,IN,MOV-30105,Instrument(MOV),Instrument(MOV),50%
-3000-01,IN,MOV-30107,Instrument(MOV),Instrument(MOV),50%
+3000-01,IN,MOV-30101,Instrument(MOV),Instrument(MOV),Exception(Pending)
+3000-01,IN,MOV-30103,Instrument(MOV),Instrument(MOV),Exception(Pending)
+3000-01,IN,MOV-30105,Instrument(MOV),Instrument(MOV),Exception(Pending)
+3000-01,IN,MOV-30107,Instrument(MOV),Instrument(MOV),Exception(Pending)
 120-02,EL,MP-0001A,Local_Control_Station,Local Control Station- MP-0001A,Done
 120-02,EL,MP-0001B,Local_Control_Station,Local Control Station- MP-0001B,Done
 120-02,EL,MP-2001A,Local_Control_Station,Local Control Station- MP-2001A,Done
@@ -15914,18 +15914,18 @@ BLD-06,BD,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Wor
 2000-06,IN,MS-25106,I/O EL,I/O EL,Done
 2000-05,IN,MS-2577,I/O EL,I/O EL,Exception(Pending)
 5000-01,IN,MS-3001,I/O EL,I/O EL,DONE
-3000-01,IN,MS-30101,PKG,PKG,0%
-3000-01,IN,MS-30101L_R,Instrument(X),Instrument(MS),0%
-3000-01,IN,MS-30102,Pkg,Pkg,0%
-3000-01,IN,MS-30103,PKG,PKG,0%
-3000-01,IN,MS-30103L_R,Instrument(X),Instrument(MS),0%
-3000-01,IN,MS-30104,PKG,PKG,0%
-3000-01,IN,MS-30105,Pkg,Pkg,0%
-3000-01,IN,MS-30105-R,Instrument(X),Instrument(MS),0%
-3000-01,IN,MS-30106,Pkg,Pkg,0%
-3000-01,IN,MS-30107,Pkg,Pkg,0%
-3000-01,IN,MS-30107L_R,Instrument(X),Instrument(MS),0%
-3000-01,IN,MS-30136B,Pkg,Pkg,0%
+3000-01,IN,MS-30101,PKG,PKG,Exception(Pending)
+3000-01,IN,MS-30101L_R,Instrument(X),Instrument(MS),Exception(Pending)
+3000-01,IN,MS-30102,Pkg,Pkg,Exception(Pending)
+3000-01,IN,MS-30103,PKG,PKG,Exception(Pending)
+3000-01,IN,MS-30103L_R,Instrument(X),Instrument(MS),Exception(Pending)
+3000-01,IN,MS-30104,PKG,PKG,Exception(Pending)
+3000-01,IN,MS-30105,Pkg,Pkg,Exception(Pending)
+3000-01,IN,MS-30105-R,Instrument(X),Instrument(MS),Exception(Pending)
+3000-01,IN,MS-30106,Pkg,Pkg,Exception(Pending)
+3000-01,IN,MS-30107,Pkg,Pkg,Exception(Pending)
+3000-01,IN,MS-30107L_R,Instrument(X),Instrument(MS),Exception(Pending)
+3000-01,IN,MS-30136B,Pkg,Pkg,Exception(Pending)
 3000-03,IN,MS-3141-1,I/O EL,I/O EL,Exception(Pending)
 3000-03,IN,MS-3141-2,I/O EL,I/O EL,Exception(Pending)
 3000-03,IN,MS-3141-3,I/O EL,I/O EL,Exception(Pending)
@@ -16415,14 +16415,14 @@ FGS-05,IN,MSR-0001,Fire Alarm,Fire Alarm(MSR),0%
 120-02,EL,MX-7050,Local_Control_Station,Local Control Station- MX-7050,DONE
 120-02,EL,MX-7060,Local_Control_Station,Local Control Station- MX-7060,DONE
 120-02,EL,MX-7070,Local_Control_Station,Local Control Station- MX-7070,DONE
-3000-01,IN,MZSH-30101,Instrument(X),Instrument(MZSH),0%
-3000-01,IN,MZSH-30103,Instrument(X),Instrument(MZSH),0%
-3000-01,IN,MZSH-30105,Instrument(X),Instrument(MZSH),0%
-3000-01,IN,MZSH-30107,Instrument(X),Instrument(MZSH),0%
-3000-01,IN,MZSL-30101,Instrument(X),Instrument(MZSL),0%
-3000-01,IN,MZSL-30103,Instrument(X),Instrument(MZSL),0%
-3000-01,IN,MZSL-30105,Instrument(X),Instrument(MZSL),0%
-3000-01,IN,MZSL-30107,Instrument(X),Instrument(MZSL),0%
+3000-01,IN,MZSH-30101,Instrument(X),Instrument(MZSH),Exception(Pending)
+3000-01,IN,MZSH-30103,Instrument(X),Instrument(MZSH),Exception(Pending)
+3000-01,IN,MZSH-30105,Instrument(X),Instrument(MZSH),Exception(Pending)
+3000-01,IN,MZSH-30107,Instrument(X),Instrument(MZSH),Exception(Pending)
+3000-01,IN,MZSL-30101,Instrument(X),Instrument(MZSL),Exception(Pending)
+3000-01,IN,MZSL-30103,Instrument(X),Instrument(MZSL),Exception(Pending)
+3000-01,IN,MZSL-30105,Instrument(X),Instrument(MZSL),Exception(Pending)
+3000-01,IN,MZSL-30107,Instrument(X),Instrument(MZSL),Exception(Pending)
 120-13,EL,NBB01-NBB02,Cathodic Protection,Cable 1x35,DONE
 120-13,EL,NBB01-NBB03,Cathodic Protection,Cable 1x35,DONE
 120-13,EL,NBB01-NCB04,Cathodic Protection,Cable 1x35,DONE
@@ -16909,13 +16909,13 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 1000-02,IN,PCV-2551,Instrument(PCV),Instrument(PCV),Done
 3000-02,IN,PCV-30001,Instrument(PCV),Instrument(PCV),0%
 3000-01,IN,PCV-3008,Instrument(PCV),Instrument(PCV),Done
-3000-01,IN,PCV-30103,Instrument(PCV),Instrument(PCV),0%
+3000-01,IN,PCV-30103,Instrument(PCV),Instrument(PCV),Exception(Pending)
 3000-01,IN,PCV-30108,Instrument(PCV),Instrument(PCV),Done
 3000-01,IN,PCV-30109,Instrument(PCV),Instrument(PCV),Done
 3000-01,IN,PCV-30111,Instrument(PCV),Instrument(PCV),Done
 3000-01,IN,PCV-30112,Instrument(PCV),Instrument(PCV),Done
-3000-01,IN,PCV-30115,Instrument(PCV),Instrument(PCV),0%
-3000-01,IN,PCV-30116,Instrument(PCV),Instrument(PCV),0%
+3000-01,IN,PCV-30115,Instrument(PCV),Instrument(PCV),Exception(Pending)
+3000-01,IN,PCV-30116,Instrument(PCV),Instrument(PCV),Exception(Pending)
 3000-01,IN,PCV-30122,Instrument(PCV),Instrument(PCV),Done
 5000-01,IN,PCV-5009,Instrument(PCV),Instrument(PCV),Done
 5000-04,IN,PCV-5395,Instrument(PCV),Instrument(PCV),Done
@@ -16945,7 +16945,7 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 4000-08,IN,PDI-8010,Instrument(PDI),Instrument(PDI),Done
 4000-08,IN,PDI-8011,Instrument(PDI),Instrument(PDI),Done
 4000-08,IN,PDI-8012,Instrument(PDI),Instrument(PDI),Done
-3000-01,IN,PDIT-30108,Instrument(PDIT),Instrument(PDIT),50%
+3000-01,IN,PDIT-30108,Instrument(PDIT),Instrument(PDIT),Exception(Pending)
 3000-01,IN,PDIT-30109,Instrument(PDIT),Instrument(PDIT),75%
 3000-01,IN,PDIT-30116,Instrument(PDIT),Instrument(PDIT),75%
 3000-01,IN,PDIT-30119,Instrument(PDIT),Instrument(PDIT),75%
@@ -16954,13 +16954,13 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 3000-01,IN,PDIT-30178(NA),CABLE,CABLE(NA),Done
 3000-01,IN,PDIT-30178(PDIT),Instrument(PDIT),Instrument(PDIT),Done
 3000-01,IN,PDIT-30183(NA),CABLE,CABLE(NA),Done
-3000-01,IN,PDIT-30183(PDIT),Instrument(PDIT),Instrument(PDIT),50%
+3000-01,IN,PDIT-30183(PDIT),Instrument(PDIT),Instrument(PDIT),Exception(Pending)
 NO SUBS.,IN,PDIT-30186,PKG,PKG,67%
 3000-01,IN,PDIT-30186(NA),CABLE,CABLE(NA),Done
-3000-01,IN,PDIT-30186(PDIT),Instrument(PDIT),Instrument(PDIT),25%
+3000-01,IN,PDIT-30186(PDIT),Instrument(PDIT),Instrument(PDIT),Exception(Pending)
 NO SUBS.,IN,PDIT-30187,PKG,PKG,33%
 3000-01,IN,PDIT-30187(NA),CABLE,CABLE(NA),Done
-3000-01,IN,PDIT-30187(PDIT),Instrument(PDIT),Instrument(PDIT),50%
+3000-01,IN,PDIT-30187(PDIT),Instrument(PDIT),Instrument(PDIT),Exception(Pending)
 2000-03,IN,PDST-2036A(NA),CABLE,CABLE(NA),Done
 2000-03,IN,PDST-2036A(PDST),Instrument(PDST),Instrument(PDST),Done
 2000-03,IN,PDST-2036B(NA),CABLE,CABLE(NA),Done
@@ -17043,9 +17043,9 @@ NO SUBS.,IN,PDT-84207,Instrument(PDT),Instrument(PDT),0%
 2000-06,IN,PDV-2575(NA),CABLE,CABLE(NA),0%
 2000-06,IN,PDV-2575(PDV),Instrument(PDV),Instrument(PDV),25%
 NO SUBS.,IN,PDV-30120,PKG,PKG,33%
-3000-01,IN,PDV-30120(PDV),Instrument(PDV),Instrument(PDV),25%
+3000-01,IN,PDV-30120(PDV),Instrument(PDV),Instrument(PDV),Exception(Pending)
 NO SUBS.,IN,PDV-30125,PKG,PKG,33%
-3000-01,IN,PDV-30125(PDV),Instrument(PDV),Instrument(PDV),25%
+3000-01,IN,PDV-30125(PDV),Instrument(PDV),Instrument(PDV),Exception(Pending)
 2000-03,IN,PDZSH-2051,Instrument(X),Instrument(PDZSH),0%
 2000-03,IN,PDZSL-2051,Instrument(X),Instrument(PDZSL),0%
 4000-01,IN,PG-0001,Instrument(PG),Instrument(PG),DONE
@@ -17195,48 +17195,48 @@ NO SUBS.,IN,PDV-30125,PKG,PKG,33%
 2000-04,IN,PG-3005,Instrument(PG),Instrument(PG),Exception(Pending)
 3000-01,IN,PG-3006,Instrument(PG),Instrument(PG),Done
 3000-01,IN,PG-3009,Instrument(PG),Instrument(PG),Done
-3000-01,IN,PG-30103,Instrument(PG),Instrument(PG),0%
+3000-01,IN,PG-30103,Instrument(PG),Instrument(PG),Exception(Pending)
 3000-01,IN,PG-30104,Instrument(PG),Instrument(PG),50%
 3000-01,IN,PG-30105,Instrument(PG),Instrument(PG),50%
 3000-01,IN,PG-30106,Instrument(PG),Instrument(PG),50%
 3000-01,IN,PG-30107,Instrument(PG),Instrument(PG),50%
 3000-01,IN,PG-30111,Instrument(PG),Instrument(PG),50%
-3000-01,IN,PG-30112,Instrument(PG),Instrument(PG),50%
+3000-01,IN,PG-30112,Instrument(PG),Instrument(PG),Exception(Pending)
 3000-01,IN,PG-30113,Instrument(PG),Instrument(PG),50%
 3000-01,IN,PG-30115,Instrument(PG),Instrument(PG),50%
-3000-01,IN,PG-30129,Instrument(PG),Instrument(PG),0%
-3000-01,IN,PG-30130,Instrument(PG),Instrument(PG),0%
-3000-01,IN,PG-30137,Instrument(PG),Instrument(PG),0%
+3000-01,IN,PG-30129,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30130,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30137,Instrument(PG),Instrument(PG),Exception(Pending)
 4000-07,IN,PG-3014,Instrument(PG),Instrument(PG),Done
-3000-01,IN,PG-30141,Instrument(PG),Instrument(PG),0%
-3000-01,IN,PG-30144,Instrument(PG),Instrument(PG),0%
-3000-01,IN,PG-30146,Instrument(PG),Instrument(PG),0%
-3000-01,IN,PG-30148,Instrument(PG),Instrument(PG),0%
+3000-01,IN,PG-30141,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30144,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30146,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30148,Instrument(PG),Instrument(PG),Exception(Pending)
 3000-01,IN,PG-3015,Instrument(PG),Instrument(PG),Done
-3000-01,IN,PG-30151,Instrument(PG),Instrument(PG),0%
-3000-01,IN,PG-30152,Instrument(PG),Instrument(PG),0%
-3000-01,IN,PG-30155,Instrument(PG),Instrument(PG),50%
-3000-01,IN,PG-30156,Instrument(PG),Instrument(PG),50%
-3000-01,IN,PG-30157,Instrument(PG),Instrument(PG),50%
-3000-01,IN,PG-30158,Instrument(PG),Instrument(PG),50%
-3000-01,IN,PG-30159,Instrument(PG),Instrument(PG),50%
-3000-01,IN,PG-30160,Instrument(PG),Instrument(PG),50%
-3000-01,IN,PG-30161,Instrument(PG),Instrument(PG),0%
-3000-01,IN,PG-30162,Instrument(PG),Instrument(PG),0%
-3000-01,IN,PG-30163,Instrument(PG),Instrument(PG),50%
-3000-01,IN,PG-30164,Instrument(PG),Instrument(PG),0%
-3000-01,IN,PG-30165,Instrument(PG),Instrument(PG),50%
-3000-01,IN,PG-30166,Instrument(PG),Instrument(PG),0%
-3000-01,IN,PG-30167,Instrument(PG),Instrument(PG),0%
-3000-01,IN,PG-30168,Instrument(PG),Instrument(PG),0%
-3000-01,IN,PG-30169,Instrument(PG),Instrument(PG),0%
+3000-01,IN,PG-30151,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30152,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30155,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30156,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30157,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30158,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30159,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30160,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30161,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30162,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30163,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30164,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30165,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30166,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30167,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30168,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30169,Instrument(PG),Instrument(PG),Exception(Pending)
 3000-01,IN,PG-3017,Instrument(PG),Instrument(PG),Done
-3000-01,IN,PG-30170,Instrument(PG),Instrument(PG),0%
-3000-01,IN,PG-30173,Instrument(PG),Instrument(PG),0%
-3000-01,IN,PG-30174,Instrument(PG),Instrument(PG),0%
-3000-01,IN,PG-30175,Instrument(PG),Instrument(PG),0%
-3000-01,IN,PG-30176,Instrument(PG),Instrument(PG),0%
-3000-01,IN,PG-30177,Instrument(PG),Instrument(PG),0%
+3000-01,IN,PG-30170,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30173,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30174,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30175,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30176,Instrument(PG),Instrument(PG),Exception(Pending)
+3000-01,IN,PG-30177,Instrument(PG),Instrument(PG),Exception(Pending)
 3000-01,IN,PG-3019,Instrument(PG),Instrument(PG),Done
 5000-01,IN,PG-30202A,Instrument(PG),Instrument(PG),DONE
 3000-01,IN,PG-3022,Instrument(PG),Instrument(PG),Done
@@ -17643,12 +17643,12 @@ FGS-01,IN,PI-9055A,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-01,IN,PI-9055B,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 3000-01,IN,PIC-3007,SIGNAL,SIGNAL,Done
 NO SUBS.,IN,PIT-30101,PKG,PKG,33%
-3000-01,IN,PIT-30101(PIT),Instrument(PIT),Instrument(PIT),0%
-3000-01,IN,PIT-30102A,Instrument(PIT),Instrument(PIT),25%
-3000-01,IN,PIT-30102B,Instrument(PIT),Instrument(PIT),0%
-3000-01,IN,PIT-30102C,Instrument(PIT),Instrument(PIT),0%
+3000-01,IN,PIT-30101(PIT),Instrument(PIT),Instrument(PIT),Exception(Pending)
+3000-01,IN,PIT-30102A,Instrument(PIT),Instrument(PIT),Exception(Pending)
+3000-01,IN,PIT-30102B,Instrument(PIT),Instrument(PIT),Exception(Pending)
+3000-01,IN,PIT-30102C,Instrument(PIT),Instrument(PIT),Exception(Pending)
 NO SUBS.,IN,PIT-30110,PKG,PKG,0%
-3000-01,IN,PIT-30110(PIT),Instrument(PIT),Instrument(PIT),25%
+3000-01,IN,PIT-30110(PIT),Instrument(PIT),Instrument(PIT),Exception(Pending)
 3000-01,IN,PIT-30114,Instrument(PIT),Instrument(PIT),75%
 3000-01,IN,PIT-30117,Instrument(PIT),Instrument(PIT),75%
 3000-01,IN,PIT-30118,Instrument(PIT),Instrument(PIT),75%
@@ -17661,7 +17661,7 @@ NO SUBS.,IN,PIT-30110,PKG,PKG,0%
 3000-01,IN,PIT-30123,Instrument(PIT),Instrument(PIT),75%
 3000-01,IN,PIT-30124,Instrument(PIT),Instrument(PIT),75%
 NO SUBS.,IN,PIT-30126,Pkg,Pkg,0%
-3000-01,IN,PIT-30126(PIT),Instrument(PIT),Instrument(PIT),25%
+3000-01,IN,PIT-30126(PIT),Instrument(PIT),Instrument(PIT),Exception(Pending)
 3000-01,IN,PIT-30127A,Instrument(PIT),Instrument(PIT),75%
 3000-01,IN,PIT-30127B,Instrument(PIT),Instrument(PIT),75%
 3000-01,IN,PIT-30127C,Instrument(PIT),Instrument(PIT),75%
@@ -17669,41 +17669,41 @@ NO SUBS.,IN,PIT-30126,Pkg,Pkg,0%
 3000-01,IN,PIT-30128B,Instrument(PIT),Instrument(PIT),75%
 3000-01,IN,PIT-30128C,Instrument(PIT),Instrument(PIT),75%
 NO SUBS.,IN,PIT-30136,Pkg,Pkg,0%
-3000-01,IN,PIT-30136(NA),CABLE,CABLE(NA),0%
-3000-01,IN,PIT-30136(PIT),Instrument(PIT),Instrument(PIT),0%
+3000-01,IN,PIT-30136(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,PIT-30136(PIT),Instrument(PIT),Instrument(PIT),Exception(Pending)
 NO SUBS.,IN,PIT-30138,Pkg,Pkg,33%
-3000-01,IN,PIT-30138(PIT),Instrument(PIT),Instrument(PIT),0%
-3000-01,IN,PIT-30142A,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30142B,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30142C,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30145A,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30145B,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30145C,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30147A,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30147B,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30147C,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30149A,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30149B,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30149C,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30150A,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30150B,Instrument(PIT),Instrument(PIT),50%
-3000-01,IN,PIT-30150C,Instrument(PIT),Instrument(PIT),50%
+3000-01,IN,PIT-30138(PIT),Instrument(PIT),Instrument(PIT),Exception(Pending)
+3000-01,IN,PIT-30142A,Instrument(PIT),Instrument(PIT),Exception(Pending)
+3000-01,IN,PIT-30142B,Instrument(PIT),Instrument(PIT),Exception(Pending)
+3000-01,IN,PIT-30142C,Instrument(PIT),Instrument(PIT),Exception(Pending)
+3000-01,IN,PIT-30145A,Instrument(PIT),Instrument(PIT),Exception(Pending)
+3000-01,IN,PIT-30145B,Instrument(PIT),Instrument(PIT),Exception(Pending)
+3000-01,IN,PIT-30145C,Instrument(PIT),Instrument(PIT),Exception(Pending)
+3000-01,IN,PIT-30147A,Instrument(PIT),Instrument(PIT),Exception(Pending)
+3000-01,IN,PIT-30147B,Instrument(PIT),Instrument(PIT),Exception(Pending)
+3000-01,IN,PIT-30147C,Instrument(PIT),Instrument(PIT),Exception(Pending)
+3000-01,IN,PIT-30149A,Instrument(PIT),Instrument(PIT),Exception(Pending)
+3000-01,IN,PIT-30149B,Instrument(PIT),Instrument(PIT),Exception(Pending)
+3000-01,IN,PIT-30149C,Instrument(PIT),Instrument(PIT),Exception(Pending)
+3000-01,IN,PIT-30150A,Instrument(PIT),Instrument(PIT),Exception(Pending)
+3000-01,IN,PIT-30150B,Instrument(PIT),Instrument(PIT),Exception(Pending)
+3000-01,IN,PIT-30150C,Instrument(PIT),Instrument(PIT),Exception(Pending)
 NO SUBS.,IN,PIT-30171,PKG,PKG,33%
-3000-01,IN,PIT-30171(PIT),Instrument(PIT),Instrument(PIT),0%
+3000-01,IN,PIT-30171(PIT),Instrument(PIT),Instrument(PIT),Exception(Pending)
 NO SUBS.,IN,PIT-30172,PKG,PKG,33%
-3000-01,IN,PIT-30172(PIT),Instrument(PIT),Instrument(PIT),0%
+3000-01,IN,PIT-30172(PIT),Instrument(PIT),Instrument(PIT),Exception(Pending)
 3000-01,IN,PIT-30179(NA),CABLE,CABLE(NA),Done
 3000-01,IN,PIT-30179(PIT),Instrument(PIT),Instrument(PIT),Done
 3000-01,IN,PIT-30180(NA),CABLE,CABLE(NA),Done
 3000-01,IN,PIT-30180(PIT),Instrument(PIT),Instrument(PIT),Done
 3000-01,IN,PIT-30181(NA),CABLE,CABLE(NA),Done
 3000-01,IN,PIT-30181(PIT),Instrument(PIT),Instrument(PIT),Done
-3000-01,IN,PIT-30182(NA),CABLE,CABLE(NA),0%
+3000-01,IN,PIT-30182(NA),CABLE,CABLE(NA),Exception(Pending)
 3000-01,IN,PIT-30182(PIT),Instrument(PIT),Instrument(PIT),Done
 3000-01,IN,PIT-30184(NA),CABLE,CABLE(NA),Done
 3000-01,IN,PIT-30184(PIT),Instrument(PIT),Instrument(PIT),Done
 3000-01,IN,PIT-30185(NA),CABLE,CABLE(NA),Done
-3000-01,IN,PIT-30185(PIT),Instrument(PIT),Instrument(PIT),50%
+3000-01,IN,PIT-30185(PIT),Instrument(PIT),Instrument(PIT),Exception(Pending)
 3000-01,IN,PIT-30188A(NA),CABLE,CABLE(NA),Done
 3000-01,IN,PIT-30188A(PIT),Instrument(PIT),Instrument(PIT),Done
 3000-01,IN,PIT-30188B(NA),CABLE,CABLE(NA),Done
@@ -17761,8 +17761,8 @@ DCS-01,IN,POS-5000-IS-62,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,POS-5000-IS-63,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,POS-6000-I-32,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,POS-6000-IS-29,SIGNAL,SIGNAL,Exception(Pending)
-3000-01,IN,PP-30153,Instrument(PP),Instrument(PP),0%
-3000-01,IN,PP-30154,Instrument(PP),Instrument(PP),0%
+3000-01,IN,PP-30153,Instrument(PP),Instrument(PP),Exception(Pending)
+3000-01,IN,PP-30154,Instrument(PP),Instrument(PP),Exception(Pending)
 FGS-07,IN,PSH-001(NA),CABLE,CABLE(NA),0%
 FGS-07,IN,PSH-001(PSH),Fire Fighting,Fire Fighting(PSH),0%
 NO SUBS.,IN,PSH-001~005(),CABLE,CHECK,0%
@@ -18102,20 +18102,20 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 2000-06,IN,PSV-2581,Instrument(PSV),Instrument(PSV),Done
 7000-01,IN,PSV-2604,Instrument(PSV),Instrument(PSV),Done
 7000-01,IN,PSV-2605,Instrument(PSV),Instrument(PSV),Done
-3000-01,IN,PSV-30101,Instrument(PSV),Instrument(PSV),0%
-3000-01,IN,PSV-30102,Instrument(PSV),Instrument(PSV),0%
-3000-01,IN,PSV-30105,Instrument(PSV),Instrument(PSV),0%
-3000-01,IN,PSV-30106,Instrument(PSV),Instrument(PSV),50%
-3000-01,IN,PSV-30107,Instrument(PSV),Instrument(PSV),50%
-3000-01,IN,PSV-30110,Instrument(PSV),Instrument(PSV),50%
-3000-01,IN,PSV-30113,Instrument(PSV),Instrument(PSV),50%
-3000-01,IN,PSV-30117,Instrument(PSV),Instrument(PSV),0%
-3000-01,IN,PSV-30118A,Instrument(PSV),Instrument(PSV),50%
-3000-01,IN,PSV-30121,Instrument(PSV),Instrument(PSV),0%
+3000-01,IN,PSV-30101,Instrument(PSV),Instrument(PSV),Exception(Pending)
+3000-01,IN,PSV-30102,Instrument(PSV),Instrument(PSV),Exception(Pending)
+3000-01,IN,PSV-30105,Instrument(PSV),Instrument(PSV),Exception(Pending)
+3000-01,IN,PSV-30106,Instrument(PSV),Instrument(PSV),Exception(Pending)
+3000-01,IN,PSV-30107,Instrument(PSV),Instrument(PSV),Exception(Pending)
+3000-01,IN,PSV-30110,Instrument(PSV),Instrument(PSV),Exception(Pending)
+3000-01,IN,PSV-30113,Instrument(PSV),Instrument(PSV),Exception(Pending)
+3000-01,IN,PSV-30117,Instrument(PSV),Instrument(PSV),Exception(Pending)
+3000-01,IN,PSV-30118A,Instrument(PSV),Instrument(PSV),Exception(Pending)
+3000-01,IN,PSV-30121,Instrument(PSV),Instrument(PSV),Exception(Pending)
 3000-01,IN,PSV-30124,Instrument(PSV),Instrument(PSV),Done
 3000-01,IN,PSV-30125,Instrument(PSV),Instrument(PSV),Done
-3000-01,IN,PSV-30126A,Instrument(PSV),Instrument(PSV),50%
-3000-01,IN,PSV-30126B,Instrument(PSV),Instrument(PSV),50%
+3000-01,IN,PSV-30126A,Instrument(PSV),Instrument(PSV),Exception(Pending)
+3000-01,IN,PSV-30126B,Instrument(PSV),Instrument(PSV),Exception(Pending)
 3000-01,IN,PSV-30136,Instrument(PSV),Instrument(PSV),Done
 3000-01,IN,PSV-30137,Instrument(PSV),Instrument(PSV),Done
 3000-02,IN,PSV-3047,Instrument(PSV),Instrument(PSV),Done
@@ -18385,7 +18385,7 @@ NO SUBS.,IN,PT-10224,SIGNAL,SIGNAL,0%
 3000-03,IN,PT-2607(PT),Instrument(PT),Instrument(PT),75%
 3000-04,IN,PT-2608(NA),CABLE,CABLE(NA),0%
 3000-04,IN,PT-2608(PT),Instrument(PT),Instrument(PT),Done
-3000-01,IN,PT-3007(NA),CABLE,CABLE(NA),0%
+3000-01,IN,PT-3007(NA),CABLE,CABLE(NA),Exception(Pending)
 3000-01,IN,PT-3007(PT),Instrument(PT),Instrument(PT),DONE
 3000-03,IN,PT-3023(NA),CABLE,CABLE(NA),0%
 3000-03,IN,PT-3023(PT),Instrument(PT),Instrument(PT),25%
@@ -18516,7 +18516,7 @@ NO SUBS.,IN,PT-10224,SIGNAL,SIGNAL,0%
 7000-01,IN,PT-7151(NA),CABLE,CABLE(NA),Done
 7000-01,IN,PT-7151(PT),Instrument(PT),Instrument(PT),Done
 4000-08,IN,PT-8007(NA),CABLE,CABLE(NA),0%
-4000-08,IN,PT-8007(PT),Instrument(PT),Instrument(PT),50%
+4000-08,IN,PT-8007(PT),Instrument(PT),Instrument(PT),Exception(Pending)
 4000-08,IN,PT-80106A,Instrument(PT),Instrument(PT),25%
 4000-08,IN,PT-80106B,Instrument(PT),Instrument(PT),25%
 4000-08,IN,PT-80121A,Instrument(PT),Instrument(PT),25%
@@ -18561,9 +18561,9 @@ NO SUBS.,IN,PT-84208,Instrument(PT),Instrument(PT),0%
 3000-04,IN,PV-2608(NA),CABLE,CABLE(NA),Done
 3000-04,IN,PV-2608(PV),Instrument(PV),Instrument(PV),25%
 NO SUBS.,IN,PV-30123,PKG,PKG,33%
-3000-01,IN,PV-30123(PV),Instrument(PV),Instrument(PV),25%
-3000-01,IN,PV-30138(NA),CABLE,CABLE(NA),0%
-3000-01,IN,PV-30138(PV),Instrument(PV),Instrument(PV),0%
+3000-01,IN,PV-30123(PV),Instrument(PV),Instrument(PV),Exception(Pending)
+3000-01,IN,PV-30138(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,PV-30138(PV),Instrument(PV),Instrument(PV),Exception(Pending)
 3000-02,IN,PV-3042(NA),CABLE,CABLE(NA),0%
 3000-02,IN,PV-3042(PV),Instrument(PV),Instrument(PV),25%
 3000-03,IN,PV-3166(NA),CABLE,CABLE(NA),Done
@@ -18647,7 +18647,7 @@ NO SUBS.,IN,PV-30123,PKG,PKG,33%
 4000-04,IN,PY-70164B,Instrument(X),Instrument(PY),0%
 4000-08,IN,PY-80119A,Instrument(X),Instrument(PY),Done
 4000-08,IN,PY-80119B,Instrument(X),Instrument(PY),Done
-3000-01,IN,PYV-30114  ,PKG,PKG,0%
+3000-01,IN,PYV-30114  ,PKG,PKG,Exception(Pending)
 3000-04,IN,PZI-20237,Instrument(X),Instrument(PZI),0%
 NO SUBS.,IN,PZSH-84210,Instrument(X),Instrument(PZSH),0%
 NO SUBS.,IN,PZSH-84215,Instrument(X),Instrument(PZSH),0%
@@ -19070,9 +19070,9 @@ LS-04,EL,S44,Switch,One Pole Switch Surface Mounted- WP,0%
 2000-02,IN,SAHH-20102-2,Pkg,Pkg,0%
 2000-02,IN,SAHH-20152-1,Pkg,Pkg,0%
 2000-02,IN,SAHH-20152-2,Pkg,Pkg,0%
-3000-01,IN,SAHH-30106A,PKG,PKG,0%
-3000-01,IN,SAHH-30106B,PKG,PKG,0%
-3000-01,IN,SAHH-30106C,PKG,PKG,0%
+3000-01,IN,SAHH-30106A,PKG,PKG,Exception(Pending)
+3000-01,IN,SAHH-30106B,PKG,PKG,Exception(Pending)
+3000-01,IN,SAHH-30106C,PKG,PKG,Exception(Pending)
 2000-02,IN,SC-2119,SIGNAL,SIGNAL,Exception(Pending)
 2000-02,IN,SC-2167,SIGNAL,SIGNAL,Exception(Pending)
 4000-04,IN,SC-7213(NA),CABLE,CABLE(NA),0%
@@ -19225,15 +19225,15 @@ NO SUBS.,IN,SDR-04,Fire Alarm,Fire Alarm(SDR),0%
 2000-02,IN,SE-20152B,Instrument(SE),Instrument(SE),Done
 2000-02,IN,SE-20152C,Instrument(SE),Instrument(SE),Done
 2000-02,IN,SE-20153,Instrument(SE),Instrument(SE),Done
-3000-01,IN,SE-30103A,Instrument(SE),Instrument(SE),0%
-3000-01,IN,SE-30103A_REC,PKG,PKG,0%
-3000-01,IN,SE-30103B,Instrument(SE),Instrument(SE),0%
-3000-01,IN,SE-30103B_REC,PKG,PKG,0%
-3000-01,IN,SE-30103C,Instrument(SE),Instrument(SE),0%
-3000-01,IN,SE-30103C_REC,PKG,PKG,0%
-3000-01,IN,SE-30106A,Instrument(SE),Instrument(SE),0%
-3000-01,IN,SE-30106B,Instrument(SE),Instrument(SE),0%
-3000-01,IN,SE-30106C,Instrument(SE),Instrument(SE),0%
+3000-01,IN,SE-30103A,Instrument(SE),Instrument(SE),Exception(Pending)
+3000-01,IN,SE-30103A_REC,PKG,PKG,Exception(Pending)
+3000-01,IN,SE-30103B,Instrument(SE),Instrument(SE),Exception(Pending)
+3000-01,IN,SE-30103B_REC,PKG,PKG,Exception(Pending)
+3000-01,IN,SE-30103C,Instrument(SE),Instrument(SE),Exception(Pending)
+3000-01,IN,SE-30103C_REC,PKG,PKG,Exception(Pending)
+3000-01,IN,SE-30106A,Instrument(SE),Instrument(SE),Exception(Pending)
+3000-01,IN,SE-30106B,Instrument(SE),Instrument(SE),Exception(Pending)
+3000-01,IN,SE-30106C,Instrument(SE),Instrument(SE),Exception(Pending)
 4000-04,IN,SE-70157A,Instrument(SE),Instrument(SE),Exception(Pending)
 4000-04,IN,SE-70157B,Instrument(SE),Instrument(SE),Exception(Pending)
 4000-04,IN,SE-70158A,Instrument(SE),Instrument(SE),Exception(Pending)
@@ -19271,10 +19271,10 @@ NO SUBS.,IN,SF4-0006,Fire Alarm,Fire Alarm(SF4),0%
 FGS-01,IN,SF4-0007,Fire Alarm,Fire Alarm(SF4),0%
 FGS-01,IN,SF4-0008,Fire Alarm,Fire Alarm(SF4),0%
 FGS-09,IN,SF4-0101,Fire Alarm,Fire Alarm(SF4),0%
-3000-01,IN,SG-30101,Instrument(SG),Instrument(SG),0%
-3000-01,IN,SG-30102,Instrument(SG),Instrument(SG),0%
-3000-01,IN,SG-30103,Instrument(SG),Instrument(SG),0%
-3000-01,IN,SG-30104,Instrument(SG),Instrument(SG),0%
+3000-01,IN,SG-30101,Instrument(SG),Instrument(SG),Exception(Pending)
+3000-01,IN,SG-30102,Instrument(SG),Instrument(SG),Exception(Pending)
+3000-01,IN,SG-30103,Instrument(SG),Instrument(SG),Exception(Pending)
+3000-01,IN,SG-30104,Instrument(SG),Instrument(SG),Exception(Pending)
 4000-06,IN,SG-7501,Instrument(SG),Instrument(SG),0%
 4000-06,IN,SG-7502,Instrument(SG),Instrument(SG),0%
 4000-06,IN,SG-7503,Instrument(SG),Instrument(SG),0%
@@ -19285,7 +19285,7 @@ FGS-09,IN,SF4-0101,Fire Alarm,Fire Alarm(SF4),0%
 2000-02,IN,SI-2167,Instrument(SI),Instrument(SI),0%
 2000-02,IN,SI-2168,SIGNAL,SIGNAL,Exception(Pending)
 NO SUBS.,IN,SI-30103,PKG,PKG,0%
-3000-01,IN,SI-30103(SI),Instrument(SI),Instrument(SI),0%
+3000-01,IN,SI-30103(SI),Instrument(SI),Instrument(SI),Exception(Pending)
 4000-04,IN,SI-70160A,Instrument(SI),Instrument(SI),0%
 4000-04,IN,SI-70160B,Instrument(SI),Instrument(SI),0%
 4000-04,IN,SI-70163A,SIGNAL,SIGNAL,Exception(Pending)
@@ -19876,8 +19876,8 @@ TEL-08,EL,SS-TJB1,Telecom Device,Telephone Junction Box,50%
 120-15,EL,SS-UBT-01,UPS & Battery,230V AC Safety Lighting UPS Battery Set,25%
 120-11,EL,SS-UIS-01,UPS & Battery,230V AC Safety Lighting UPS Battery Isolator Box,Done
 120-11,EL,SS-UPS-01,UPS & Battery, 230V AC Safety Lighting UPS,Done
-3000-01,IN,SSV-30101,Instrument(SSV),Instrument(SSV),0%
-3000-01,IN,SSV-30102,Instrument(SSV),Instrument(SSV),0%
+3000-01,IN,SSV-30101,Instrument(SSV),Instrument(SSV),Exception(Pending)
+3000-01,IN,SSV-30102,Instrument(SSV),Instrument(SSV),Exception(Pending)
 BLD-01,BD,Stair Ways(Ground Floor BLD-01),09-Stair Ways,Stair Ways(Ground Floor BLD-01),DONE
 BLD-03,BD,Stair Ways(Ground Floor BLD-03),09-Stair Ways,Stair Ways(Ground Floor BLD-03),0%
 BLD-04,BD,Stair Ways(Ground Floor BLD-04),09-Stair Ways,Stair Ways(Ground Floor BLD-04),DONE
@@ -19897,10 +19897,10 @@ NO SUBS.,IN,SV-004,CABLE,CABLE(NA),0%
 3000-04,IN,SV-20203,Instrument(SV),Instrument(SV),0%
 3000-04,IN,SV-20204,Instrument(SV),Instrument(SV),0%
 3000-04,IN,SV-20237,Instrument(SV),Instrument(SV),0%
-3000-01,IN,SV-30103A,Instrument(SV),Instrument(SV),0%
-3000-01,IN,SV-30103B,Instrument(SV),Instrument(SV),0%
-3000-01,IN,SV-30103D,Instrument(SV),Instrument(SV),0%
-3000-01,IN,SV-30103E,Instrument(SV),Instrument(SV),0%
+3000-01,IN,SV-30103A,Instrument(SV),Instrument(SV),Exception(Pending)
+3000-01,IN,SV-30103B,Instrument(SV),Instrument(SV),Exception(Pending)
+3000-01,IN,SV-30103D,Instrument(SV),Instrument(SV),Exception(Pending)
+3000-01,IN,SV-30103E,Instrument(SV),Instrument(SV),Exception(Pending)
 120-01,EL,SWB2A-01,MV Switchgear,MV Switchgear,Done
 120-01,EL,SWB2B-01,MV Switchgear,MV Switchgear,Done
 120-02,EL,SWB3A-01,LV Switchgear,LV Switchgear,Done
@@ -19913,12 +19913,12 @@ NO SUBS.,IN,SV-004,CABLE,CABLE(NA),0%
 120-04,EL,SWB3B-03,LV Switchgear,LV Switchgear,Done
 120-05,EL,SWB3B-04,LV Switchgear,LV Switchgear,Done
 120-06,EL,SWB3B-05,LV Switchgear,LV Switchgear,Done
-3000-01,IN,SY-30103A,Instrument(X),Instrument(SY),0%
-3000-01,IN,SY-30103B,Instrument(X),Instrument(SY),0%
-3000-01,IN,SY-30103C,Instrument(X),Instrument(SY),0%
-3000-01,IN,SY-30108,PKG,PKG,0%
-3000-01,IN,SY-30109,Instrument(X),Instrument(SY),0%
-3000-01,IN,SY-30110,Instrument(X),Instrument(SY),0%
+3000-01,IN,SY-30103A,Instrument(X),Instrument(SY),Exception(Pending)
+3000-01,IN,SY-30103B,Instrument(X),Instrument(SY),Exception(Pending)
+3000-01,IN,SY-30103C,Instrument(X),Instrument(SY),Exception(Pending)
+3000-01,IN,SY-30108,PKG,PKG,Exception(Pending)
+3000-01,IN,SY-30109,Instrument(X),Instrument(SY),Exception(Pending)
+3000-01,IN,SY-30110,Instrument(X),Instrument(SY),Exception(Pending)
 4000-04,IN,SY-70157A,SIGNAL,SIGNAL,Exception(Pending)
 4000-04,IN,SY-70157B,SIGNAL,SIGNAL,Exception(Pending)
 4000-04,IN,SY-70158A,SIGNAL,SIGNAL,Exception(Pending)
@@ -19937,8 +19937,8 @@ NO SUBS.,IN,SZSH-10214,SIGNAL,SIGNAL,0%
 NO SUBS.,IN,SZSH-10216,SIGNAL,SIGNAL,0%
 NO SUBS.,IN,SZSH-10217,SIGNAL,SIGNAL,0%
 NO SUBS.,IN,SZSH-10219,SIGNAL,SIGNAL,0%
-3000-01,IN,SZSH-30101,Instrument(X),Instrument(SZSH),0%
-3000-01,IN,SZSH-30102,Instrument(X),Instrument(SZSH),0%
+3000-01,IN,SZSH-30101,Instrument(X),Instrument(SZSH),Exception(Pending)
+3000-01,IN,SZSH-30102,Instrument(X),Instrument(SZSH),Exception(Pending)
 NO SUBS.,IN,SZSH-84209,Instrument(X),Instrument(SZSH),0%
 NO SUBS.,IN,SZSH-84212,Instrument(X),Instrument(SZSH),0%
 NO SUBS.,IN,SZSH-84214,Instrument(X),Instrument(SZSH),0%
@@ -19957,7 +19957,7 @@ NO SUBS.,IN,SZSL-84214,Instrument(X),Instrument(SZSL),0%
 5000-01,MES,T-5004,Tower(T),Vent Wash Column,87%
 1000-03,MES,T-6001-1,Tower(T),Saturator,Done
 1000-03,MES,T-6001-2,Tower(T),Saturator,Done
-3000-01,IN,TAH-30139,PKG,PKG,0%
+3000-01,IN,TAH-30139,PKG,PKG,Exception(Pending)
 120-13,EL,TB01-TC01,Cathodic Protection,Cable 1x16,DONE
 120-13,EL,TB01-TC02,Cathodic Protection,Cable 1x16,DONE
 120-13,EL,TB02-TC01,Cathodic Protection,Cable 1x16,DONE
@@ -19988,11 +19988,11 @@ NO SUBS.,IN,SZSL-84214,Instrument(X),Instrument(SZSL),0%
 120-13,EL,TB10-TC03,Cathodic Protection,Cable 1x16,DONE
 120-13,EL,TB10-TC04,Cathodic Protection,Cable 1x16,DONE
 120-13,EL,TB11-TC01,Cathodic Protection,Cable 1x16,DONE
-3000-01,IN,TC-30136,Instrument(TC),Instrument(TC),0%
+3000-01,IN,TC-30136,Instrument(TC),Instrument(TC),Exception(Pending)
 2000-02,IN,TCV-20101,Instrument(TCV),Instrument(TCV),25%
 2000-02,IN,TCV-20151,Instrument(TCV),Instrument(TCV),0%
 3000-04,IN,TCV-20201,Instrument(TCV),Instrument(TCV),25%
-3000-01,IN,TCV-30133,Instrument(TCV),Instrument(TCV),25%
+3000-01,IN,TCV-30133,Instrument(TCV),Instrument(TCV),Exception(Pending)
 1000-01,IN,TE-1001(NA),CABLE,CABLE(NA),0%
 1000-01,IN,TE-1001(TE),Instrument(TE),Instrument(TE),Done
 NO SUBS.,IN,TE-1007,Instrument(TE),Instrument(TE),50%
@@ -20007,7 +20007,7 @@ NO SUBS.,IN,TE-10208-2,PKG,PKG,0%
 1000-01,IN,TE-1035(NA),CABLE,CABLE(NA),Done
 1000-01,IN,TE-1035(TE),Instrument(TE),Instrument(TE),50%
 1000-01,IN,TE-1037(NA),CABLE,CABLE(NA),Done
-1000-01,IN,TE-1037(TE),Instrument(TE),Instrument(TE),50%
+1000-01,IN,TE-1037(TE),Instrument(TE),Instrument(TE),Done
 1000-01,IN,TE-1041(NA),CABLE,CABLE(NA),Done
 1000-01,IN,TE-1041(TE),Instrument(TE),Instrument(TE),Done
 1000-01,IN,TE-1042(NA),CABLE,CABLE(NA),0%
@@ -20101,7 +20101,7 @@ NO SUBS.,IN,TE-10208-2,PKG,PKG,0%
 2000-03,IN,TE-2051(NA),CABLE,CABLE(NA),0%
 2000-03,IN,TE-2051(TE),Instrument(TE),Instrument(TE),Done
 1000-03,IN,TE-2061(NA),CABLE,CABLE(NA),0%
-1000-03,IN,TE-2061(TE),Instrument(TE),Instrument(TE),50%
+1000-03,IN,TE-2061(TE),Instrument(TE),Instrument(TE),Done
 7000-01,IN,TE-2074(NA),CABLE,CABLE(NA),Done
 7000-01,IN,TE-2074(TE),Instrument(TE),Instrument(TE),Done
 2000-01,IN,TE-2091(NA),CABLE,CABLE(NA),Done
@@ -20251,7 +20251,7 @@ NO SUBS.,IN,TE-10208-2,PKG,PKG,0%
 3000-01,IN,TE-30101B,Instrument(TE),Instrument(TE),50%
 3000-01,IN,TE-30102A,Instrument(TE),Instrument(TE),50%
 3000-01,IN,TE-30102B,Instrument(TE),Instrument(TE),50%
-3000-01,IN,TE-30103A,Pkg,Pkg,33%
+3000-01,IN,TE-30103A,Pkg,Pkg,Exception(Pending)
 3000-01,IN,TE-30103B,Instrument(TE),Instrument(TE),50%
 3000-01,IN,TE-30104A,Instrument(TE),Instrument(TE),50%
 3000-01,IN,TE-30104B,Instrument(TE),Instrument(TE),50%
@@ -20279,99 +20279,99 @@ NO SUBS.,IN,TE-10208-2,PKG,PKG,0%
 3000-01,IN,TE-30115B,Instrument(TE),Instrument(TE),50%
 3000-01,IN,TE-30116A,Instrument(TE),Instrument(TE),50%
 3000-01,IN,TE-30116B,Instrument(TE),Instrument(TE),50%
-3000-01,IN,TE-30117A,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30117B,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30118A,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30118B,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30119A,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30119B,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30120A,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30120B,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30121A,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30121B,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30122A,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30122B,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30123A,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30123B,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30124A,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30124B,Instrument(TE),Instrument(TE),0%
+3000-01,IN,TE-30117A,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30117B,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30118A,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30118B,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30119A,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30119B,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30120A,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30120B,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30121A,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30121B,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30122A,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30122B,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30123A,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30123B,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30124A,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30124B,Instrument(TE),Instrument(TE),Exception(Pending)
 3000-01,IN,TE-30135A,Instrument(TE),Instrument(TE),50%
 3000-01,IN,TE-30135B,Instrument(TE),Instrument(TE),50%
-3000-01,IN,TE-30139,Instrument(TE),Instrument(TE),0%
+3000-01,IN,TE-30139,Instrument(TE),Instrument(TE),Exception(Pending)
 3000-01,IN,TE-30140A,Instrument(TE),Instrument(TE),50%
 3000-01,IN,TE-30140B,Instrument(TE),Instrument(TE),50%
-3000-01,IN,TE-30141A(NA),CABLE,CABLE(NA),0%
-3000-01,IN,TE-30141A(TE),Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30141B,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30143A,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30143B,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30144A,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30144B,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30146(NA),CABLE,CABLE(NA),0%
-3000-01,IN,TE-30146(TE),Instrument(TE),Instrument(TE),50%
-3000-01,IN,TE-30147(NA),CABLE,CABLE(NA),0%
-3000-01,IN,TE-30147(TE),Instrument(TE),Instrument(TE),50%
-3000-01,IN,TE-30148AA,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30148AB,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30148BA,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30148BB,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30148CA,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30148CB,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30150AA,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30150AB,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30150BA,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30150BB,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30150CA,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30150CB,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30152AA,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30152AB,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30152BA,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30152BB,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30152CA,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30152CB,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30161A(NA),CABLE,CABLE(NA),0%
-3000-01,IN,TE-30161A(TE),Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30161B(NA),CABLE,CABLE(NA),0%
-3000-01,IN,TE-30161B(TE),Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30162A(NA),CABLE,CABLE(NA),0%
-3000-01,IN,TE-30162A(TE),Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30162B(NA),CABLE,CABLE(NA),0%
-3000-01,IN,TE-30162B(TE),Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30163A(NA),CABLE,CABLE(NA),0%
-3000-01,IN,TE-30163A(TE),Instrument(TE),Instrument(TE),50%
-3000-01,IN,TE-30163B(NA),CABLE,CABLE(NA),0%
-3000-01,IN,TE-30163B(TE),Instrument(TE),Instrument(TE),50%
-3000-01,IN,TE-30165A(NA),CABLE,CABLE(NA),0%
-3000-01,IN,TE-30165A(TE),Instrument(TE),Instrument(TE),50%
-3000-01,IN,TE-30165B(NA),CABLE,CABLE(NA),0%
-3000-01,IN,TE-30165B(TE),Instrument(TE),Instrument(TE),50%
-3000-01,IN,TE-30166AA(NA),CABLE,CABLE(NA),0%
+3000-01,IN,TE-30141A(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,TE-30141A(TE),Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30141B,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30143A,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30143B,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30144A,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30144B,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30146(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,TE-30146(TE),Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30147(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,TE-30147(TE),Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30148AA,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30148AB,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30148BA,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30148BB,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30148CA,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30148CB,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30150AA,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30150AB,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30150BA,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30150BB,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30150CA,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30150CB,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30152AA,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30152AB,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30152BA,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30152BB,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30152CA,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30152CB,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30161A(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,TE-30161A(TE),Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30161B(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,TE-30161B(TE),Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30162A(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,TE-30162A(TE),Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30162B(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,TE-30162B(TE),Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30163A(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,TE-30163A(TE),Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30163B(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,TE-30163B(TE),Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30165A(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,TE-30165A(TE),Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30165B(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,TE-30165B(TE),Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30166AA(NA),CABLE,CABLE(NA),Exception(Pending)
 3000-01,IN,TE-30166AA(TE),Instrument(TE),Instrument(TE),Done
-3000-01,IN,TE-30166AB(NA),CABLE,CABLE(NA),0%
+3000-01,IN,TE-30166AB(NA),CABLE,CABLE(NA),Exception(Pending)
 3000-01,IN,TE-30166AB(TE),Instrument(TE),Instrument(TE),Done
-3000-01,IN,TE-30166BA(NA),CABLE,CABLE(NA),0%
+3000-01,IN,TE-30166BA(NA),CABLE,CABLE(NA),Exception(Pending)
 3000-01,IN,TE-30166BA(TE),Instrument(TE),Instrument(TE),Done
-3000-01,IN,TE-30166BB(NA),CABLE,CABLE(NA),0%
+3000-01,IN,TE-30166BB(NA),CABLE,CABLE(NA),Exception(Pending)
 3000-01,IN,TE-30166BB(TE),Instrument(TE),Instrument(TE),Done
-3000-01,IN,TE-30166CA(NA),CABLE,CABLE(NA),0%
+3000-01,IN,TE-30166CA(NA),CABLE,CABLE(NA),Exception(Pending)
 3000-01,IN,TE-30166CA(TE),Instrument(TE),Instrument(TE),Done
-3000-01,IN,TE-30166CB(NA),CABLE,CABLE(NA),0%
-3000-01,IN,TE-30166CB(TE),Instrument(TE),Instrument(TE),50%
-3000-01,IN,TE-30167A(NA),CABLE,CABLE(NA),0%
-3000-01,IN,TE-30167A(TE),Instrument(TE),Instrument(TE),50%
-3000-01,IN,TE-30167B(NA),CABLE,CABLE(NA),0%
-3000-01,IN,TE-30167B(TE),Instrument(TE),Instrument(TE),50%
-3000-01,IN,TE-30169A(NA),CABLE,CABLE(NA),0%
-3000-01,IN,TE-30169A(TE),Instrument(TE),Instrument(TE),50%
-3000-01,IN,TE-30169B(NA),CABLE,CABLE(NA),0%
-3000-01,IN,TE-30169B(TE),Instrument(TE),Instrument(TE),50%
-3000-01,IN,TE-30172AA,Instrument(TE),Instrument(TE),0%
-3000-01,IN,TE-30172AB,Instrument(TE),Instrument(TE),50%
-3000-01,IN,TE-30172BA,Instrument(TE),Instrument(TE),50%
-3000-01,IN,TE-30172BB,Instrument(TE),Instrument(TE),50%
-3000-01,IN,TE-30172CA,Instrument(TE),Instrument(TE),50%
-3000-01,IN,TE-30172CB,Instrument(TE),Instrument(TE),50%
-3000-01,IN,TE-3044(NA),CABLE,CABLE(NA),0%
+3000-01,IN,TE-30166CB(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,TE-30166CB(TE),Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30167A(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,TE-30167A(TE),Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30167B(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,TE-30167B(TE),Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30169A(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,TE-30169A(TE),Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30169B(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,TE-30169B(TE),Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30172AA,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30172AB,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30172BA,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30172BB,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30172CA,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-30172CB,Instrument(TE),Instrument(TE),Exception(Pending)
+3000-01,IN,TE-3044(NA),CABLE,CABLE(NA),Exception(Pending)
 3000-01,IN,TE-3044(TE),Instrument(TE),Instrument(TE),Done
 3000-02,IN,TE-3045(NA),CABLE,CABLE(NA),0%
 3000-02,IN,TE-3045(TE),Instrument(TE),Instrument(TE),Done
@@ -20784,25 +20784,25 @@ NO SUBS.,IN,TG-1003,Instrument(TG),Instrument(TG),50%
 4000-06,IN,TG-2456,Instrument(TG),Instrument(TG),Exception(Pending)
 2000-05,IN,TG-2494,Instrument(TG),Instrument(TG),Exception(Pending)
 2000-06,IN,TG-2574,Instrument(TG),Instrument(TG),Done
-3000-01,IN,TG-30125,Instrument(TG),Instrument(TG),0%
-3000-01,IN,TG-30126,Instrument(TG),Instrument(TG),0%
-3000-01,IN,TG-30127,Instrument(TG),Instrument(TG),0%
-3000-01,IN,TG-30128,Instrument(TG),Instrument(TG),0%
-3000-01,IN,TG-30129,Instrument(TG),Instrument(TG),0%
-3000-01,IN,TG-30130,Instrument(TG),Instrument(TG),0%
+3000-01,IN,TG-30125,Instrument(TG),Instrument(TG),Exception(Pending)
+3000-01,IN,TG-30126,Instrument(TG),Instrument(TG),Exception(Pending)
+3000-01,IN,TG-30127,Instrument(TG),Instrument(TG),Exception(Pending)
+3000-01,IN,TG-30128,Instrument(TG),Instrument(TG),Exception(Pending)
+3000-01,IN,TG-30129,Instrument(TG),Instrument(TG),Exception(Pending)
+3000-01,IN,TG-30130,Instrument(TG),Instrument(TG),Exception(Pending)
 3000-01,IN,TG-30131,Instrument(TG),Instrument(TG),50%
 3000-01,IN,TG-30132,Instrument(TG),Instrument(TG),50%
 3000-01,IN,TG-30134,Instrument(TG),Instrument(TG),50%
 3000-01,IN,TG-30139,Instrument(TG),Instrument(TG),50%
-3000-01,IN,TG-30142,Instrument(TG),Instrument(TG),0%
-3000-01,IN,TG-30149,Instrument(TG),Instrument(TG),0%
-3000-01,IN,TG-30151,Instrument(TG),Instrument(TG),0%
-3000-01,IN,TG-30153,Instrument(TG),Instrument(TG),0%
-3000-01,IN,TG-30154,Instrument(TG),Instrument(TG),0%
-3000-01,IN,TG-30155,Instrument(TG),Instrument(TG),0%
-3000-01,IN,TG-30156,Instrument(TG),Instrument(TG),0%
-3000-01,IN,TG-30157,Instrument(TG),Instrument(TG),0%
-3000-01,IN,TG-30158,Instrument(TG),Instrument(TG),0%
+3000-01,IN,TG-30142,Instrument(TG),Instrument(TG),Exception(Pending)
+3000-01,IN,TG-30149,Instrument(TG),Instrument(TG),Exception(Pending)
+3000-01,IN,TG-30151,Instrument(TG),Instrument(TG),Exception(Pending)
+3000-01,IN,TG-30153,Instrument(TG),Instrument(TG),Exception(Pending)
+3000-01,IN,TG-30154,Instrument(TG),Instrument(TG),Exception(Pending)
+3000-01,IN,TG-30155,Instrument(TG),Instrument(TG),Exception(Pending)
+3000-01,IN,TG-30156,Instrument(TG),Instrument(TG),Exception(Pending)
+3000-01,IN,TG-30157,Instrument(TG),Instrument(TG),Exception(Pending)
+3000-01,IN,TG-30158,Instrument(TG),Instrument(TG),Exception(Pending)
 3000-01,IN,TG-30170,Instrument(TG),Instrument(TG),Done
 3000-01,IN,TG-30171,Instrument(TG),Instrument(TG),Done
 5000-01,IN,TG-30201A,Instrument(TG),Instrument(TG),DONE
@@ -21025,7 +21025,7 @@ FGS-01,IN,TGD-0021(TGD),Fire Alarm,Fire Alarm(TGD),0%
 FGS-01,IN,TGD-0022(NA),CABLE,CABLE(NA),0%
 FGS-01,IN,TGD-0022(TGD),Fire Alarm,Fire Alarm(TGD),0%
 2000-02,IN,TI-2112,Instrument(TI),Instrument(TI),0%
-3000-01,IN,TI-30140,PKG,PKG,0%
+3000-01,IN,TI-30140,PKG,PKG,Exception(Pending)
 NO SUBS.,MES,TK-3013,005-Tank(TK),Run Down Tank,68%
 5000-01,MES,TK-5001,005-Tank(TK),Raw Methanol Buffer Tank (TK 5001) OUT OF SCOPE,18%
 5000-04,MES,TK-5002-1,005-Tank(TK),Methanol Product Buffer Tank (TK 5002 1) OUT OF SCOPE,9%
@@ -21047,7 +21047,7 @@ NO SUBS.,MES,TK-3013,005-Tank(TK),Run Down Tank,68%
 2000-02,IN,TRV-20102,Instrument(TRV),Instrument(TRV),50%
 2000-02,IN,TRV-20151,Instrument(TRV),Instrument(TRV),50%
 2000-02,IN,TRV-20152,Instrument(TRV),Instrument(TRV),50%
-3000-01,IN,TS-30139,Instrument(TS),Instrument(TS),0%
+3000-01,IN,TS-30139,Instrument(TS),Instrument(TS),Exception(Pending)
 2000-03,IN,TSE-2047A(NA),CABLE,CABLE(NA),0%
 2000-03,IN,TSE-2047A(TSE),Instrument(TSE),Instrument(TSE),0%
 2000-03,IN,TSE-2047B(NA),CABLE,CABLE(NA),0%
@@ -21125,7 +21125,7 @@ NO SUBS.,MES,TK-3013,005-Tank(TK),Run Down Tank,68%
 4000-02,IN,TSE-7071C(NA),CABLE,CABLE(NA),0%
 4000-02,IN,TSE-7071C(TSE),Instrument(TSE),Instrument(TSE),Done
 3000-03,IN,TSH-10106,Instrument(X),Instrument(TSH),0%
-3000-01,IN,TSH-30136,Instrument(X),Instrument(TSH),0%
+3000-01,IN,TSH-30136,Instrument(X),Instrument(TSH),Exception(Pending)
 2000-02,IN,TSHH-20111-F,Pkg,Pkg,0%
 2000-02,IN,TSHH-20111-G,Pkg,Pkg,0%
 2000-02,IN,TSHH-20111-M,Pkg,Pkg,0%
@@ -21246,10 +21246,10 @@ NO SUBS.,MES,TK-3013,005-Tank(TK),Run Down Tank,68%
 3000-04,IN,TSV-20201,Instrument(TSV),Instrument(TSV),0%
 3000-04,IN,TSV-20202,Instrument(TSV),Instrument(TSV),50%
 3000-04,IN,TSV-20203,Instrument(TSV),Instrument(TSV),50%
-3000-01,IN,TSV-30137,Instrument(TSV),Instrument(TSV),50%
-3000-01,IN,TSV-30138,Instrument(TSV),Instrument(TSV),50%
-3000-01,IN,TSV-30159,Instrument(TSV),Instrument(TSV),50%
-3000-01,IN,TSV-30160,Instrument(TSV),Instrument(TSV),50%
+3000-01,IN,TSV-30137,Instrument(TSV),Instrument(TSV),Exception(Pending)
+3000-01,IN,TSV-30138,Instrument(TSV),Instrument(TSV),Exception(Pending)
+3000-01,IN,TSV-30159,Instrument(TSV),Instrument(TSV),Exception(Pending)
+3000-01,IN,TSV-30160,Instrument(TSV),Instrument(TSV),Exception(Pending)
 1000-01,IN,TT-1001(NA),CABLE,CABLE(NA),Done
 1000-01,IN,TT-1001(TT),Instrument(TT),Instrument(TT),DONE
 NO SUBS.,IN,TT-1007,Instrument(TT),Instrument(TT),50%
@@ -21517,32 +21517,32 @@ NO SUBS.,IN,TT-10218,Pkg,Pkg,0%
 2000-06,IN,TT-2572(TT),Instrument(TT),Instrument(TT),DONE
 3000-03,IN,TT-2607(NA),CABLE,CABLE(NA),0%
 3000-03,IN,TT-2607(TT),Instrument(TT),Instrument(TT),Done
-3000-01,IN,TT-30135,Instrument(TT),Instrument(TT),0%
-3000-01,IN,TT-30140,Instrument(TT),Instrument(TT),0%
-3000-01,IN,TT-30141,Instrument(TT),Instrument(TT),0%
-3000-01,IN,TT-30143,Instrument(TT),Instrument(TT),0%
-3000-01,IN,TT-30144,Instrument(TT),Instrument(TT),0%
+3000-01,IN,TT-30135,Instrument(TT),Instrument(TT),Exception(Pending)
+3000-01,IN,TT-30140,Instrument(TT),Instrument(TT),Exception(Pending)
+3000-01,IN,TT-30141,Instrument(TT),Instrument(TT),Exception(Pending)
+3000-01,IN,TT-30143,Instrument(TT),Instrument(TT),Exception(Pending)
+3000-01,IN,TT-30144,Instrument(TT),Instrument(TT),Exception(Pending)
 3000-01,IN,TT-30146,Instrument(TT),Instrument(TT),Done
 NO SUBS.,IN,TT-30147,PKG,PKG,0%
 3000-01,IN,TT-30147(TT),Instrument(TT),Instrument(TT),Done
-3000-01,IN,TT-30148A,Instrument(TT),Instrument(TT),0%
-3000-01,IN,TT-30148B,Instrument(TT),Instrument(TT),0%
-3000-01,IN,TT-30148C,Instrument(TT),Instrument(TT),0%
-3000-01,IN,TT-30150A,Instrument(TT),Instrument(TT),0%
-3000-01,IN,TT-30150B,Instrument(TT),Instrument(TT),0%
-3000-01,IN,TT-30150C,Instrument(TT),Instrument(TT),0%
-3000-01,IN,TT-30152A,Instrument(TT),Instrument(TT),0%
-3000-01,IN,TT-30152B,Instrument(TT),Instrument(TT),0%
-3000-01,IN,TT-30152C,Instrument(TT),Instrument(TT),0%
-3000-01,IN,TT-30161,Instrument(TT),Instrument(TT),0%
-3000-01,IN,TT-30162,Instrument(TT),Instrument(TT),0%
-3000-01,IN,TT-30163,Instrument(TT),Instrument(TT),0%
-3000-01,IN,TT-30165,Instrument(TT),Instrument(TT),0%
+3000-01,IN,TT-30148A,Instrument(TT),Instrument(TT),Exception(Pending)
+3000-01,IN,TT-30148B,Instrument(TT),Instrument(TT),Exception(Pending)
+3000-01,IN,TT-30148C,Instrument(TT),Instrument(TT),Exception(Pending)
+3000-01,IN,TT-30150A,Instrument(TT),Instrument(TT),Exception(Pending)
+3000-01,IN,TT-30150B,Instrument(TT),Instrument(TT),Exception(Pending)
+3000-01,IN,TT-30150C,Instrument(TT),Instrument(TT),Exception(Pending)
+3000-01,IN,TT-30152A,Instrument(TT),Instrument(TT),Exception(Pending)
+3000-01,IN,TT-30152B,Instrument(TT),Instrument(TT),Exception(Pending)
+3000-01,IN,TT-30152C,Instrument(TT),Instrument(TT),Exception(Pending)
+3000-01,IN,TT-30161,Instrument(TT),Instrument(TT),Exception(Pending)
+3000-01,IN,TT-30162,Instrument(TT),Instrument(TT),Exception(Pending)
+3000-01,IN,TT-30163,Instrument(TT),Instrument(TT),Exception(Pending)
+3000-01,IN,TT-30165,Instrument(TT),Instrument(TT),Exception(Pending)
 3000-01,IN,TT-30166A,Instrument(TT),Instrument(TT),Done
 3000-01,IN,TT-30166B,Instrument(TT),Instrument(TT),Done
 3000-01,IN,TT-30166C,Instrument(TT),Instrument(TT),Done
-3000-01,IN,TT-30167,Instrument(TT),Instrument(TT),0%
-3000-01,IN,TT-30169,Instrument(TT),Instrument(TT),0%
+3000-01,IN,TT-30167,Instrument(TT),Instrument(TT),Exception(Pending)
+3000-01,IN,TT-30169,Instrument(TT),Instrument(TT),Exception(Pending)
 3000-01,IN,TT-30172A,Instrument(TT),Instrument(TT),Done
 3000-01,IN,TT-30172B,Instrument(TT),Instrument(TT),Done
 3000-01,IN,TT-30172C,Instrument(TT),Instrument(TT),Done
@@ -21794,7 +21794,7 @@ NO SUBS.,IN,TT-84208,Instrument(TT),Instrument(TT),0%
 2000-05,IN,TV-2457(TV),Instrument(TV),Instrument(TV),25%
 4000-02,IN,TV-2540(NA),CABLE,CABLE(NA),0%
 4000-02,IN,TV-2540(TV),Instrument(TV),Instrument(TV),75%
-3000-01,IN,TV-30152,Instrument(TV),Instrument(TV),0%
+3000-01,IN,TV-30152,Instrument(TV),Instrument(TV),Exception(Pending)
 2000-05,IN,TV-5064(NA),CABLE,CABLE(NA),0%
 2000-05,IN,TV-5064(TV),Instrument(TV),Instrument(TV),25%
 2000-05,IN,TV-5277(NA),CABLE,CABLE(NA),0%
@@ -21843,7 +21843,7 @@ NO SUBS.,IN,TW-1007,Instrument(TW),Instrument(TW),50%
 1000-01,IN,TW-1034,Instrument(TW),Instrument(TW),Done
 1000-01,IN,TW-1035,Instrument(TW),Instrument(TW),Done
 1000-01,IN,TW-1036,Instrument(TW),Instrument(TW),0%
-1000-01,IN,TW-1037,Instrument(TW),Instrument(TW),50%
+1000-01,IN,TW-1037,Instrument(TW),Instrument(TW),Done
 1000-01,IN,TW-1039,Instrument(TW),Instrument(TW),0%
 1000-01,IN,TW-1040,Instrument(TW),Instrument(TW),0%
 1000-01,IN,TW-1041,Instrument(TW),Instrument(TW),Done
@@ -21890,7 +21890,7 @@ NO SUBS.,IN,TW-1007,Instrument(TW),Instrument(TW),50%
 2000-03,IN,TW-2047C,Instrument(TW),Instrument(TW),50%
 2000-03,IN,TW-2050,Instrument(TW),Instrument(TW),50%
 2000-03,IN,TW-2051,Instrument(TW),Instrument(TW),Done
-1000-03,IN,TW-2061,Instrument(TW),Instrument(TW),50%
+1000-03,IN,TW-2061,Instrument(TW),Instrument(TW),Done
 7000-01,IN,TW-2074,Instrument(TW),Instrument(TW),Done
 2000-01,IN,TW-2091,Instrument(TW),Instrument(TW),Done
 2000-02,IN,TW-2111,Instrument(TW),Instrument(TW),Done
@@ -22002,66 +22002,66 @@ NO SUBS.,IN,TW-1007,Instrument(TW),Instrument(TW),50%
 2000-06,IN,TW-2574,Instrument(TW),Instrument(TW),Done
 2000-06,IN,TW-2579,Instrument(TW),Instrument(TW),Done
 3000-03,IN,TW-2607,Instrument(TW),Instrument(TW),Done
-3000-01,IN,TW-30125,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30126,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30127,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30128,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30129,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30130,Instrument(TW),Instrument(TW),0%
+3000-01,IN,TW-30125,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30126,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30127,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30128,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30129,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30130,Instrument(TW),Instrument(TW),Exception(Pending)
 3000-01,IN,TW-30131,Instrument(TW),Instrument(TW),50%
 3000-01,IN,TW-30132,Instrument(TW),Instrument(TW),50%
 3000-01,IN,TW-30134,Instrument(TW),Instrument(TW),50%
 3000-01,IN,TW-30135A,Instrument(TW),Instrument(TW),50%
 3000-01,IN,TW-30135B,Instrument(TW),Instrument(TW),50%
 3000-01,IN,TW-30139,Instrument(TW),Instrument(TW),50%
-3000-01,IN,TW-30141,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30142,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30146,Instrument(TW),Instrument(TW),50%
-3000-01,IN,TW-30147,Instrument(TW),Instrument(TW),50%
-3000-01,IN,TW-30148A,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30148B,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30148C,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30149,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30150A,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30150B,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30150C,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30151,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30152A,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30152B,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30152C,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30153,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30154,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30155,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30156,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30157,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30158,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30161A,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30161B,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30162A,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30162B,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30163A,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30163B,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30165A,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30165B,Instrument(TW),Instrument(TW),0%
+3000-01,IN,TW-30141,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30142,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30146,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30147,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30148A,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30148B,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30148C,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30149,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30150A,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30150B,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30150C,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30151,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30152A,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30152B,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30152C,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30153,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30154,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30155,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30156,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30157,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30158,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30161A,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30161B,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30162A,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30162B,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30163A,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30163B,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30165A,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30165B,Instrument(TW),Instrument(TW),Exception(Pending)
 3000-01,IN,TW-30166AA,Instrument(TW),Instrument(TW),50%
 3000-01,IN,TW-30166AB,Instrument(TW),Instrument(TW),Done
 3000-01,IN,TW-30166BA,Instrument(TW),Instrument(TW),50%
 3000-01,IN,TW-30166BB,Instrument(TW),Instrument(TW),Done
 3000-01,IN,TW-30166CA,Instrument(TW),Instrument(TW),50%
 3000-01,IN,TW-30166CB,Instrument(TW),Instrument(TW),Done
-3000-01,IN,TW-30167A,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30167B,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30169A,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30169B,Instrument(TW),Instrument(TW),0%
+3000-01,IN,TW-30167A,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30167B,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30169A,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30169B,Instrument(TW),Instrument(TW),Exception(Pending)
 3000-01,IN,TW-30170,Instrument(TW),Instrument(TW),Done
 3000-01,IN,TW-30171,Instrument(TW),Instrument(TW),Done
-3000-01,IN,TW-30172AA,Instrument(TW),Instrument(TW),50%
-3000-01,IN,TW-30172AB,Instrument(TW),Instrument(TW),50%
-3000-01,IN,TW-30172BA,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30172BB,Instrument(TW),Instrument(TW),50%
-3000-01,IN,TW-30172CA,Instrument(TW),Instrument(TW),0%
-3000-01,IN,TW-30172CB,Instrument(TW),Instrument(TW),50%
-3000-01,IN,TW-3022,Instrument(TW),Instrument(TW),0%
+3000-01,IN,TW-30172AA,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30172AB,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30172BA,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30172BB,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30172CA,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-30172CB,Instrument(TW),Instrument(TW),Exception(Pending)
+3000-01,IN,TW-3022,Instrument(TW),Instrument(TW),Exception(Pending)
 4000-06,IN,TW-3026,Instrument(TW),Instrument(TW),Done
 3000-01,IN,TW-3044,Instrument(TW),Instrument(TW),Done
 3000-02,IN,TW-3045,Instrument(TW),Instrument(TW),Done
@@ -22274,7 +22274,7 @@ NO SUBS.,IN,TW-84208,Instrument(TW),Instrument(TW),0%
 2000-03,IN,TY-2336A,SIGNAL,SIGNAL,Exception(Pending)
 2000-03,IN,TY-2336B,SIGNAL,SIGNAL,Exception(Pending)
 2000-04,IN,TY-2336C,SIGNAL,SIGNAL,Exception(Pending)
-3000-01,IN,TY-30152,Instrument(X),Instrument(TY),0%
+3000-01,IN,TY-30152,Instrument(X),Instrument(TY),Exception(Pending)
 4000-02,IN,TY-7071A,SIGNAL,SIGNAL,Done
 4000-04,IN,TY-7071B,SIGNAL,SIGNAL,Exception(Pending)
 4000-02,IN,TY-7071C,SIGNAL,SIGNAL,Done
@@ -22337,7 +22337,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 1000-02,IN,USV-2547,Instrument(USV),Instrument(USV),50%
 1000-02,IN,USV-2548,Instrument(USV),Instrument(USV),50%
 1000-02,IN,USV-2549,Instrument(USV),Instrument(USV),50%
-3000-01,IN,USV-3018,Instrument(USV),Instrument(USV),50%
+3000-01,IN,USV-3018,Instrument(USV),Instrument(USV),Exception(Pending)
 3000-02,IN,USV-3052,Instrument(USV),Instrument(USV),0%
 3000-03,IN,USV-3172,Instrument(USV),Instrument(USV),25%
 4000-02,IN,USV-5302,Instrument(USV),Instrument(USV),25%
@@ -22445,8 +22445,8 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 1000-02,IN,USY-2548(USY),Instrument(X),Instrument(USY),0%
 1000-02,IN,USY-2549(NA),CABLE,CABLE(NA),Done
 1000-02,IN,USY-2549(USY),Instrument(X),Instrument(USY),0%
-3000-01,IN,USY-3018(NA),CABLE,CABLE(NA),0%
-3000-01,IN,USY-3018(USY),Instrument(X),Instrument(USY),0%
+3000-01,IN,USY-3018(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,USY-3018(USY),Instrument(X),Instrument(USY),Exception(Pending)
 3000-02,IN,USY-3052(NA),CABLE,CABLE(NA),0%
 3000-02,IN,USY-3052(USY),Instrument(X),Instrument(USY),0%
 3000-03,IN,USY-3172-1(NA),CABLE,CABLE(NA),0%
@@ -22523,15 +22523,15 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 4000-08,IN,USY-80116B-3,Instrument(X),Instrument(USY),Done
 2000-02,IN,UV-2125,Instrument(UV),Instrument(UV),25%
 2000-01,IN,UV-2233,Instrument(UV),Instrument(UV),25%
-3000-01,IN,UV-30103,Instrument(UV),Instrument(UV),25%
-3000-01,IN,UV-30104,Instrument(UV),Instrument(UV),0%
-3000-01,IN,UV-30106,Instrument(UV),Instrument(UV),0%
-3000-01,IN,UV-30108,Instrument(UV),Instrument(UV),0%
-3000-01,IN,UV-30109,Instrument(UV),Instrument(UV),0%
-3000-01,IN,UV-30110,Instrument(UV),Instrument(UV),0%
-3000-01,IN,UV-30113,Instrument(UV),Instrument(UV),25%
-3000-01,IN,UV-30115,Instrument(UV),Instrument(UV),25%
-3000-01,IN,UV-30116,Instrument(UV),Instrument(UV),50%
+3000-01,IN,UV-30103,Instrument(UV),Instrument(UV),Exception(Pending)
+3000-01,IN,UV-30104,Instrument(UV),Instrument(UV),Exception(Pending)
+3000-01,IN,UV-30106,Instrument(UV),Instrument(UV),Exception(Pending)
+3000-01,IN,UV-30108,Instrument(UV),Instrument(UV),Exception(Pending)
+3000-01,IN,UV-30109,Instrument(UV),Instrument(UV),Exception(Pending)
+3000-01,IN,UV-30110,Instrument(UV),Instrument(UV),Exception(Pending)
+3000-01,IN,UV-30113,Instrument(UV),Instrument(UV),Exception(Pending)
+3000-01,IN,UV-30115,Instrument(UV),Instrument(UV),Exception(Pending)
+3000-01,IN,UV-30116,Instrument(UV),Instrument(UV),Exception(Pending)
 5000-01,IN,UV-5021,Instrument(UV),Instrument(UV),25%
 1000-03,IN,UV-6035,Instrument(UV),Instrument(UV),25%
 4000-06,IN,UV-75150A,Instrument(UV),Instrument(UV),25%
@@ -22562,7 +22562,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 4000-06,IN,UV-75163,Instrument(UV),Instrument(UV),0%
 4000-06,IN,UV-75164,Instrument(UV),Instrument(UV),0%
 4000-06,IN,UV-75165,Instrument(UV),Instrument(UV),0%
-4000-08,IN,UV-8003,Instrument(UV),Instrument(UV),0%
+4000-08,IN,UV-8003,Instrument(UV),Instrument(UV),Exception(Pending)
 4000-06,IN,UV-8411,Instrument(UV),Instrument(UV),25%
 4000-06,IN,UV-8412,Instrument(UV),Instrument(UV),0%
 4000-06,IN,UV-8413,Instrument(UV),Instrument(UV),25%
@@ -22573,18 +22573,18 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 2000-01,IN,UY-2233(NA),CABLE,CABLE(NA),0%
 2000-01,IN,UY-2233(UY),Instrument(X),Instrument(UY),0%
 2000-06,IN,UY-2576,Instrument(X),Instrument(UY),0%
-3000-01,IN,UY-30101,Instrument(X),Instrument(UY),0%
+3000-01,IN,UY-30101,Instrument(X),Instrument(UY),Exception(Pending)
 3000-01,IN,UY-30103,Instrument(X),Instrument(UY),50%
-3000-01,IN,UY-30104(NA),CABLE,CABLE(NA),0%
-3000-01,IN,UY-30104(UY),Instrument(X),Instrument(UY),0%
-3000-01,IN,UY-30106(NA),CABLE,CABLE(NA),0%
-3000-01,IN,UY-30106(UY),Instrument(X),Instrument(UY),0%
+3000-01,IN,UY-30104(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,UY-30104(UY),Instrument(X),Instrument(UY),Exception(Pending)
+3000-01,IN,UY-30106(NA),CABLE,CABLE(NA),Exception(Pending)
+3000-01,IN,UY-30106(UY),Instrument(X),Instrument(UY),Exception(Pending)
 3000-01,IN,UY-30113(NA),CABLE,CABLE(NA),Done
-3000-01,IN,UY-30113(UY),Instrument(X),Instrument(UY),0%
+3000-01,IN,UY-30113(UY),Instrument(X),Instrument(UY),Exception(Pending)
 3000-01,IN,UY-30115(NA),CABLE,CABLE(NA),Done
-3000-01,IN,UY-30115(UY),Instrument(X),Instrument(UY),0%
+3000-01,IN,UY-30115(UY),Instrument(X),Instrument(UY),Exception(Pending)
 3000-01,IN,UY-30116(NA),CABLE,CABLE(NA),Done
-3000-01,IN,UY-30116(UY),Instrument(X),Instrument(UY),0%
+3000-01,IN,UY-30116(UY),Instrument(X),Instrument(UY),Exception(Pending)
 5000-01,IN,UY-5021(NA),CABLE,CABLE(NA),Done
 5000-01,IN,UY-5021(UY),Instrument(X),Instrument(UY),0%
 1000-03,IN,UY-6035(NA),CABLE,CABLE(NA),0%
@@ -22618,7 +22618,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 4000-06,IN,UY-75164,Instrument(X),Instrument(UY),0%
 4000-06,IN,UY-75165,Instrument(X),Instrument(UY),0%
 4000-08,IN,UY-8003(NA),CABLE,CABLE(NA),0%
-4000-08,IN,UY-8003(UY),Instrument(X),Instrument(UY),0%
+4000-08,IN,UY-8003(UY),Instrument(X),Instrument(UY),Exception(Pending)
 4000-06,IN,UY-8411(NA),CABLE,CABLE(NA),Done
 4000-06,IN,UY-8411(UY),Instrument(X),Instrument(UY),0%
 4000-06,IN,UY-8412(NA),CABLE,CABLE(NA),Done
@@ -22683,7 +22683,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 1000-02,IN,UZSH-2549(NA),CABLE,CABLE(NA),Done
 1000-02,IN,UZSH-2549(UZSH),Instrument(X),Instrument(UZSH),0%
 3000-01,IN,UZSH-3018(NA),CABLE,CABLE(NA),Done
-3000-01,IN,UZSH-3018(UZSH),Instrument(X),Instrument(UZSH),0%
+3000-01,IN,UZSH-3018(UZSH),Instrument(X),Instrument(UZSH),Exception(Pending)
 3000-02,IN,UZSH-3052(NA),CABLE,CABLE(NA),0%
 3000-02,IN,UZSH-3052(UZSH),Instrument(X),Instrument(UZSH),0%
 3000-03,IN,UZSH-3172(NA),CABLE,CABLE(NA),0%
@@ -22739,7 +22739,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 4000-06,IN,UZSH-75164,Instrument(X),Instrument(UZSH),0%
 4000-06,IN,UZSH-75165,Instrument(X),Instrument(UZSH),0%
 4000-08,IN,UZSH-8003(NA),CABLE,CABLE(NA),0%
-4000-08,IN,UZSH-8003(UZSH),Instrument(X),Instrument(UZSH),0%
+4000-08,IN,UZSH-8003(UZSH),Instrument(X),Instrument(UZSH),Exception(Pending)
 4000-06,IN,UZSH-8411(NA),CABLE,CABLE(NA),Done
 4000-06,IN,UZSH-8411(UZSH),Instrument(X),Instrument(UZSH),0%
 4000-06,IN,UZSH-8412(NA),CABLE,CABLE(NA),Done
@@ -22806,13 +22806,13 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 1000-02,IN,UZSL-2549(NA),CABLE,CABLE(NA),Done
 1000-02,IN,UZSL-2549(UZSL),Instrument(X),Instrument(UZSL),0%
 3000-01,IN,UZSL-30113(NA),CABLE,CABLE(NA),Done
-3000-01,IN,UZSL-30113(UZSL),Instrument(X),Instrument(UZSL),0%
+3000-01,IN,UZSL-30113(UZSL),Instrument(X),Instrument(UZSL),Exception(Pending)
 3000-01,IN,UZSL-30115(NA),CABLE,CABLE(NA),Done
-3000-01,IN,UZSL-30115(UZSL),Instrument(X),Instrument(UZSL),0%
+3000-01,IN,UZSL-30115(UZSL),Instrument(X),Instrument(UZSL),Exception(Pending)
 3000-01,IN,UZSL-30116(NA),CABLE,CABLE(NA),Done
-3000-01,IN,UZSL-30116(UZSL),Instrument(X),Instrument(UZSL),0%
+3000-01,IN,UZSL-30116(UZSL),Instrument(X),Instrument(UZSL),Exception(Pending)
 3000-01,IN,UZSL-3018(NA),CABLE,CABLE(NA),Done
-3000-01,IN,UZSL-3018(UZSL),Instrument(X),Instrument(UZSL),0%
+3000-01,IN,UZSL-3018(UZSL),Instrument(X),Instrument(UZSL),Exception(Pending)
 3000-02,IN,UZSL-3052(NA),CABLE,CABLE(NA),0%
 3000-02,IN,UZSL-3052(UZSL),Instrument(X),Instrument(UZSL),0%
 3000-03,IN,UZSL-3172(NA),CABLE,CABLE(NA),0%
@@ -22868,7 +22868,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 4000-06,IN,UZSL-75164,Instrument(X),Instrument(UZSL),0%
 4000-06,IN,UZSL-75165,Instrument(X),Instrument(UZSL),0%
 4000-08,IN,UZSL-8003(NA),CABLE,CABLE(NA),0%
-4000-08,IN,UZSL-8003(UZSL),Instrument(X),Instrument(UZSL),0%
+4000-08,IN,UZSL-8003(UZSL),Instrument(X),Instrument(UZSL),Exception(Pending)
 4000-06,IN,UZSL-8411(NA),CABLE,CABLE(NA),Done
 4000-06,IN,UZSL-8411(UZSL),Instrument(X),Instrument(UZSL),0%
 4000-06,IN,UZSL-8412(NA),CABLE,CABLE(NA),Done
@@ -22931,13 +22931,13 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 4000-11,IN,V-14_1,AIR PIPE,AIR PIPE(AIR PIPE),DONE
 4000-11,IN,V-14_2,AIR PIPE,AIR PIPE(AIR PIPE),DONE
 4000-11,IN,V-14_4,AIR PIPE,AIR PIPE(AIR PIPE),DONE
-3000-01,IN,VAHH-30103,PKG,PKG,0%
-3000-01,IN,VAHH-30109,PKG,PKG,0%
-3000-01,IN,VAHH-30115,PKG,PKG,0%
+3000-01,IN,VAHH-30103,PKG,PKG,Exception(Pending)
+3000-01,IN,VAHH-30109,PKG,PKG,Exception(Pending)
+3000-01,IN,VAHH-30115,PKG,PKG,Exception(Pending)
 2000-05,IN,VB-2001,Instrument(VB),Instrument(VB),0%
 2000-06,IN,VE-25104A,Instrument(VE),Instrument(VE),0%
 2000-06,IN,VE-25104B,Instrument(VE),Instrument(VE),0%
-3000-01,IN,VE-30118,Instrument(VE),Instrument(VE),0%
+3000-01,IN,VE-30118,Instrument(VE),Instrument(VE),Exception(Pending)
 4000-04,IN,VE-70150A,Instrument(VE),Instrument(VE),Exception(Pending)
 4000-04,IN,VE-70150B,Instrument(VE),Instrument(VE),Exception(Pending)
 4000-04,IN,VE-70151A,Instrument(VE),Instrument(VE),Exception(Pending)
@@ -23036,13 +23036,13 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 4000-08,IN,VSHH-80203D,SIGNAL,SIGNAL,Done
 4000-08,IN,VSHH-80204C,SIGNAL,SIGNAL,Done
 4000-08,IN,VSHH-80204D,SIGNAL,SIGNAL,Done
-3000-01,IN,VST-30106,PKG,PKG,0%
-3000-01,IN,VST-30112,PKG,PKG,0%
-3000-01,IN,VST-30119,PKG,PKG,0%
+3000-01,IN,VST-30106,PKG,PKG,Exception(Pending)
+3000-01,IN,VST-30112,PKG,PKG,Exception(Pending)
+3000-01,IN,VST-30119,PKG,PKG,Exception(Pending)
 3000-04,IN,VT-20201,Instrument(VT),Instrument(VT),0%
 2000-06,IN,VT-25104A,Instrument(VT),Instrument(VT),0%
 2000-06,IN,VT-25104B,Instrument(VT),Instrument(VT),0%
-3000-01,IN,VT-30118,Instrument(VT),Instrument(VT),0%
+3000-01,IN,VT-30118,Instrument(VT),Instrument(VT),Exception(Pending)
 4000-04,IN,VT-70150A,Instrument(VT),Instrument(VT),Exception(Pending)
 4000-04,IN,VT-70150B,Instrument(VT),Instrument(VT),Exception(Pending)
 4000-04,IN,VT-70151A,Instrument(VT),Instrument(VT),Exception(Pending)
@@ -23119,12 +23119,12 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 2000-02,IN,VXE-20158,Instrument(VXE),Instrument(VXE),0%
 2000-02,IN,VXE-20159,Instrument(VXE),Instrument(VXE),0%
 2000-02,IN,VXE-20160,Instrument(VXE),Instrument(VXE),0%
-3000-01,IN,VXE-30101,Instrument(VXE),Instrument(VXE),0%
+3000-01,IN,VXE-30101,Instrument(VXE),Instrument(VXE),Exception(Pending)
 3000-01,IN,VXE-30102,Instrument(VXE),Instrument(VXE),Done
 3000-01,IN,VXE-30107,Instrument(VXE),Instrument(VXE),Done
 3000-01,IN,VXE-30108,Instrument(VXE),Instrument(VXE),Done
-3000-01,IN,VXE-30113,Instrument(VXE),Instrument(VXE),0%
-3000-01,IN,VXE-30114,Instrument(VXE),Instrument(VXE),0%
+3000-01,IN,VXE-30113,Instrument(VXE),Instrument(VXE),Exception(Pending)
+3000-01,IN,VXE-30114,Instrument(VXE),Instrument(VXE),Exception(Pending)
 2000-02,IN,VXT-20101,Instrument(VXT),Instrument(VXT),0%
 2000-02,IN,VXT-20102,Instrument(VXT),Instrument(VXT),0%
 2000-02,IN,VXT-20103,Instrument(VXT),Instrument(VXT),0%
@@ -23146,12 +23146,12 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 2000-02,IN,VXT-20159,Instrument(VXT),Instrument(VXT),0%
 2000-02,IN,VXT-20160,Instrument(VXT),Instrument(VXT),0%
 2000-06,IN,VXT-25105,Pkg,Pkg,0%
-3000-01,IN,VXT-30101,Instrument(VXT),Instrument(VXT),0%
-3000-01,IN,VXT-30102,Instrument(VXT),Instrument(VXT),0%
-3000-01,IN,VXT-30107,Instrument(VXT),Instrument(VXT),0%
-3000-01,IN,VXT-30108,Instrument(VXT),Instrument(VXT),0%
-3000-01,IN,VXT-30113,Instrument(VXT),Instrument(VXT),0%
-3000-01,IN,VXT-30114,Instrument(VXT),Instrument(VXT),0%
+3000-01,IN,VXT-30101,Instrument(VXT),Instrument(VXT),Exception(Pending)
+3000-01,IN,VXT-30102,Instrument(VXT),Instrument(VXT),Exception(Pending)
+3000-01,IN,VXT-30107,Instrument(VXT),Instrument(VXT),Exception(Pending)
+3000-01,IN,VXT-30108,Instrument(VXT),Instrument(VXT),Exception(Pending)
+3000-01,IN,VXT-30113,Instrument(VXT),Instrument(VXT),Exception(Pending)
+3000-01,IN,VXT-30114,Instrument(VXT),Instrument(VXT),Exception(Pending)
 2000-02,IN,VYE-20101,Instrument(VYE),Instrument(VYE),0%
 2000-02,IN,VYE-20102,Instrument(VYE),Instrument(VYE),0%
 2000-02,IN,VYE-20103,Instrument(VYE),Instrument(VYE),0%
@@ -23172,12 +23172,12 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 2000-02,IN,VYE-20158,Instrument(VYE),Instrument(VYE),0%
 2000-02,IN,VYE-20159,Instrument(VYE),Instrument(VYE),0%
 2000-02,IN,VYE-20160,Instrument(VYE),Instrument(VYE),0%
-3000-01,IN,VYE-30101,Instrument(VYE),Instrument(VYE),0%
+3000-01,IN,VYE-30101,Instrument(VYE),Instrument(VYE),Exception(Pending)
 3000-01,IN,VYE-30102,Instrument(VYE),Instrument(VYE),Done
 3000-01,IN,VYE-30107,Instrument(VYE),Instrument(VYE),Done
 3000-01,IN,VYE-30108,Instrument(VYE),Instrument(VYE),Done
-3000-01,IN,VYE-30113,Instrument(VYE),Instrument(VYE),0%
-3000-01,IN,VYE-30114,Instrument(VYE),Instrument(VYE),0%
+3000-01,IN,VYE-30113,Instrument(VYE),Instrument(VYE),Exception(Pending)
+3000-01,IN,VYE-30114,Instrument(VYE),Instrument(VYE),Exception(Pending)
 2000-02,IN,VYT-20101,Instrument(VYT),Instrument(VYT),0%
 2000-02,IN,VYT-20102,Instrument(VYT),Instrument(VYT),0%
 2000-02,IN,VYT-20103,Instrument(VYT),Instrument(VYT),0%
@@ -23199,33 +23199,33 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 2000-02,IN,VYT-20159,Instrument(VYT),Instrument(VYT),0%
 2000-02,IN,VYT-20160,Instrument(VYT),Instrument(VYT),0%
 2000-06,IN,VYT-25104,Pkg,Pkg,33%
-3000-01,IN,VYT-30101,Instrument(VYT),Instrument(VYT),0%
-3000-01,IN,VYT-30102,Instrument(VYT),Instrument(VYT),0%
-3000-01,IN,VYT-30107,Instrument(VYT),Instrument(VYT),0%
-3000-01,IN,VYT-30108,Instrument(VYT),Instrument(VYT),0%
-3000-01,IN,VYT-30113,Instrument(VYT),Instrument(VYT),0%
-3000-01,IN,VYT-30114,Instrument(VYT),Instrument(VYT),0%
-3000-01,IN,VZAHH-30105,PKG,PKG,0%
-3000-01,IN,VZAHH-30111,PKG,PKG,0%
-3000-01,IN,VZAHH-30117,PKG,PKG,0%
+3000-01,IN,VYT-30101,Instrument(VYT),Instrument(VYT),Exception(Pending)
+3000-01,IN,VYT-30102,Instrument(VYT),Instrument(VYT),Exception(Pending)
+3000-01,IN,VYT-30107,Instrument(VYT),Instrument(VYT),Exception(Pending)
+3000-01,IN,VYT-30108,Instrument(VYT),Instrument(VYT),Exception(Pending)
+3000-01,IN,VYT-30113,Instrument(VYT),Instrument(VYT),Exception(Pending)
+3000-01,IN,VYT-30114,Instrument(VYT),Instrument(VYT),Exception(Pending)
+3000-01,IN,VZAHH-30105,PKG,PKG,Exception(Pending)
+3000-01,IN,VZAHH-30111,PKG,PKG,Exception(Pending)
+3000-01,IN,VZAHH-30117,PKG,PKG,Exception(Pending)
 3000-01,IN,VZE-30104A,Instrument(VZE),Instrument(VZE),Done
 3000-01,IN,VZE-30104B,Instrument(VZE),Instrument(VZE),Done
 3000-01,IN,VZE-30104C,Instrument(VZE),Instrument(VZE),Done
 3000-01,IN,VZE-30110A,Instrument(VZE),Instrument(VZE),Done
 3000-01,IN,VZE-30110B,Instrument(VZE),Instrument(VZE),Done
 3000-01,IN,VZE-30110C,Instrument(VZE),Instrument(VZE),Done
-3000-01,IN,VZE-30116A,Instrument(VZE),Instrument(VZE),0%
-3000-01,IN,VZE-30116B,Instrument(VZE),Instrument(VZE),0%
-3000-01,IN,VZE-30116C,Instrument(VZE),Instrument(VZE),0%
-3000-01,IN,VZT-30104A,Instrument(X),Instrument(VZT),0%
-3000-01,IN,VZT-30104B,Instrument(X),Instrument(VZT),0%
-3000-01,IN,VZT-30104C,Instrument(X),Instrument(VZT),0%
-3000-01,IN,VZT-30110A,Instrument(X),Instrument(VZT),0%
-3000-01,IN,VZT-30110B,Instrument(X),Instrument(VZT),0%
-3000-01,IN,VZT-30110C,Instrument(X),Instrument(VZT),0%
-3000-01,IN,VZT-30116A,Instrument(X),Instrument(VZT),0%
-3000-01,IN,VZT-30116B,Instrument(X),Instrument(VZT),0%
-3000-01,IN,VZT-30116C,Instrument(X),Instrument(VZT),0%
+3000-01,IN,VZE-30116A,Instrument(VZE),Instrument(VZE),Exception(Pending)
+3000-01,IN,VZE-30116B,Instrument(VZE),Instrument(VZE),Exception(Pending)
+3000-01,IN,VZE-30116C,Instrument(VZE),Instrument(VZE),Exception(Pending)
+3000-01,IN,VZT-30104A,Instrument(X),Instrument(VZT),Exception(Pending)
+3000-01,IN,VZT-30104B,Instrument(X),Instrument(VZT),Exception(Pending)
+3000-01,IN,VZT-30104C,Instrument(X),Instrument(VZT),Exception(Pending)
+3000-01,IN,VZT-30110A,Instrument(X),Instrument(VZT),Exception(Pending)
+3000-01,IN,VZT-30110B,Instrument(X),Instrument(VZT),Exception(Pending)
+3000-01,IN,VZT-30110C,Instrument(X),Instrument(VZT),Exception(Pending)
+3000-01,IN,VZT-30116A,Instrument(X),Instrument(VZT),Exception(Pending)
+3000-01,IN,VZT-30116B,Instrument(X),Instrument(VZT),Exception(Pending)
+3000-01,IN,VZT-30116C,Instrument(X),Instrument(VZT),Exception(Pending)
 2000-03,MES,X-2001-A,Filter(X),Oxygen Filter,DONE
 2000-03,MES,X-2001-B,Filter(X),Oxygen Filter,DONE
 2000-03,MES,X-2002-A,Filter(X),Steam Filter,83%
@@ -23264,12 +23264,12 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 2000-06,IN,XA-25104,Pkg,Pkg,0%
 2000-06,IN,XA-25105,Pkg,Pkg,0%
 1000-02,IN,XA-2552B,SIGNAL,SIGNAL,DONE
-3000-01,IN,XA-30101,Instrument(X),Instrument(XA),0%
-3000-01,IN,XA-30122,Instrument(X),Instrument(XA),0%
-3000-01,IN,XA-30123,Instrument(X),Instrument(XA),0%
-3000-01,IN,XA-30139,PKG,PKG,0%
-3000-01,IN,XAH-30111,Instrument(X),Instrument(XAH),0%
-3000-01,IN,XAHH-30111,Instrument(X),Instrument(XAHH),0%
+3000-01,IN,XA-30101,Instrument(X),Instrument(XA),Exception(Pending)
+3000-01,IN,XA-30122,Instrument(X),Instrument(XA),Exception(Pending)
+3000-01,IN,XA-30123,Instrument(X),Instrument(XA),Exception(Pending)
+3000-01,IN,XA-30139,PKG,PKG,Exception(Pending)
+3000-01,IN,XAH-30111,Instrument(X),Instrument(XAH),Exception(Pending)
+3000-01,IN,XAHH-30111,Instrument(X),Instrument(XAHH),Exception(Pending)
 2000-02,IN,XAL-2284A(NA),CABLE,CABLE(NA),0%
 2000-02,IN,XAL-2284A(XAL),Instrument(X),Instrument(XAL),0%
 2000-02,IN,XAL-2284B(NA),CABLE,CABLE(NA),0%
@@ -23318,18 +23318,18 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 2000-06,IN,XAS-25106,I/O EL,I/O EL,Done
 2000-06,IN,XAS-2577,I/O EL,I/O EL,Done
 5000-01,IN,XAS-3001,I/O EL,I/O EL,DONE
-3000-01,IN,XAS-30101,PKG,PKG,0%
-3000-01,IN,XAS-30101-F,Instrument(X),Instrument(XAS),0%
-3000-01,IN,XAS-30102,Pkg,Pkg,0%
-3000-01,IN,XAS-30103,PKG,PKG,0%
-3000-01,IN,XAS-30103-F,Instrument(X),Instrument(XAS),0%
-3000-01,IN,XAS-30104,PKG,PKG,0%
-3000-01,IN,XAS-30105,Pkg,Pkg,0%
-3000-01,IN,XAS-30105-F,Instrument(X),Instrument(XAS),0%
-3000-01,IN,XAS-30106,Pkg,Pkg,0%
-3000-01,IN,XAS-30107,Pkg,Pkg,0%
-3000-01,IN,XAS-30107-F,Instrument(X),Instrument(XAS),0%
-3000-01,IN,XAS-30136,Pkg,Pkg,0%
+3000-01,IN,XAS-30101,PKG,PKG,Exception(Pending)
+3000-01,IN,XAS-30101-F,Instrument(X),Instrument(XAS),Exception(Pending)
+3000-01,IN,XAS-30102,Pkg,Pkg,Exception(Pending)
+3000-01,IN,XAS-30103,PKG,PKG,Exception(Pending)
+3000-01,IN,XAS-30103-F,Instrument(X),Instrument(XAS),Exception(Pending)
+3000-01,IN,XAS-30104,PKG,PKG,Exception(Pending)
+3000-01,IN,XAS-30105,Pkg,Pkg,Exception(Pending)
+3000-01,IN,XAS-30105-F,Instrument(X),Instrument(XAS),Exception(Pending)
+3000-01,IN,XAS-30106,Pkg,Pkg,Exception(Pending)
+3000-01,IN,XAS-30107,Pkg,Pkg,Exception(Pending)
+3000-01,IN,XAS-30107-F,Instrument(X),Instrument(XAS),Exception(Pending)
+3000-01,IN,XAS-30136,Pkg,Pkg,Exception(Pending)
 3000-03,IN,XAS-3141-1,I/O EL,I/O EL,Exception(Pending)
 3000-03,IN,XAS-3141-2,I/O EL,I/O EL,Exception(Pending)
 3000-03,IN,XAS-3141-3,I/O EL,I/O EL,Exception(Pending)
@@ -23603,13 +23603,13 @@ DCS-01,IN,XL-2093,SIGNAL,SIGNAL,Exception(Pending)
 1000-02,IN,XL-2556B,Instrument(X),Instrument(XL),0%
 1000-02,IN,XL-2557B,Instrument(X),Instrument(XL),0%
 DCS-01,IN,XL-3003,SIGNAL,SIGNAL,Exception(Pending)
-3000-01,IN,XL-30108,Instrument(X),Instrument(XL),0%
-3000-01,IN,XL-30109,Instrument(X),Instrument(XL),0%
-3000-01,IN,XL-30110,Instrument(X),Instrument(XL),0%
-3000-01,IN,XL-30117,Instrument(X),Instrument(XL),0%
-3000-01,IN,XL-30118,Instrument(X),Instrument(XL),0%
-3000-01,IN,XL-30119,Instrument(X),Instrument(XL),0%
-3000-01,IN,XL-30120,Instrument(X),Instrument(XL),0%
+3000-01,IN,XL-30108,Instrument(X),Instrument(XL),Exception(Pending)
+3000-01,IN,XL-30109,Instrument(X),Instrument(XL),Exception(Pending)
+3000-01,IN,XL-30110,Instrument(X),Instrument(XL),Exception(Pending)
+3000-01,IN,XL-30117,Instrument(X),Instrument(XL),Exception(Pending)
+3000-01,IN,XL-30118,Instrument(X),Instrument(XL),Exception(Pending)
+3000-01,IN,XL-30119,Instrument(X),Instrument(XL),Exception(Pending)
+3000-01,IN,XL-30120,Instrument(X),Instrument(XL),Exception(Pending)
 DCS-01,IN,XL-3041,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,XL-3042,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,XL-3043,SIGNAL,SIGNAL,Exception(Pending)
@@ -23799,32 +23799,32 @@ DCS-01,IN,XS-3002(NA),CABLE,CABLE(NA),Done
 DCS-01,IN,XS-3002(XS),Instrument(X),Instrument(XS),0%
 DCS-01,IN,XS-3003(NA),CABLE,CABLE(NA),Done
 DCS-01,IN,XS-3003(XS),Instrument(X),Instrument(XS),0%
-3000-01,IN,XS-30101-CL,Instrument(X),Instrument(XS),0%
-3000-01,IN,XS-30101-OP,Instrument(X),Instrument(XS),0%
-3000-01,IN,XS-30101-SP,PKG,PKG,0%
-3000-01,IN,XS-30101-ST,PKG,PKG,0%
-3000-01,IN,XS-30101-STP,Instrument(X),Instrument(XS),0%
-3000-01,IN,XS-30102-SP,Pkg,Pkg,0%
-3000-01,IN,XS-30102-ST,Pkg,Pkg,0%
-3000-01,IN,XS-30103-CL,Instrument(X),Instrument(XS),0%
-3000-01,IN,XS-30103-OP,Instrument(X),Instrument(XS),0%
-3000-01,IN,XS-30103-SP,PKG,PKG,0%
-3000-01,IN,XS-30103-ST,PKG,PKG,0%
-3000-01,IN,XS-30103-STP,Instrument(X),Instrument(XS),0%
-3000-01,IN,XS-30104-SP,PKG,PKG,0%
-3000-01,IN,XS-30104-ST,PKG,PKG,0%
-3000-01,IN,XS-30105-CL,Instrument(X),Instrument(XS),0%
-3000-01,IN,XS-30105-OP,Instrument(X),Instrument(XS),0%
-3000-01,IN,XS-30105-SP,Pkg,Pkg,0%
-3000-01,IN,XS-30105-ST,Pkg,Pkg,0%
-3000-01,IN,XS-30105-STP,Instrument(X),Instrument(XS),0%
-3000-01,IN,XS-30106-SP,Pkg,Pkg,0%
-3000-01,IN,XS-30106-ST,Pkg,Pkg,0%
-3000-01,IN,XS-30107-CL,Instrument(X),Instrument(XS),0%
-3000-01,IN,XS-30107-OP,Instrument(X),Instrument(XS),0%
-3000-01,IN,XS-30107-SP,Pkg,Pkg,0%
-3000-01,IN,XS-30107-ST,Pkg,Pkg,0%
-3000-01,IN,XS-30107-STP,Instrument(X),Instrument(XS),0%
+3000-01,IN,XS-30101-CL,Instrument(X),Instrument(XS),Exception(Pending)
+3000-01,IN,XS-30101-OP,Instrument(X),Instrument(XS),Exception(Pending)
+3000-01,IN,XS-30101-SP,PKG,PKG,Exception(Pending)
+3000-01,IN,XS-30101-ST,PKG,PKG,Exception(Pending)
+3000-01,IN,XS-30101-STP,Instrument(X),Instrument(XS),Exception(Pending)
+3000-01,IN,XS-30102-SP,Pkg,Pkg,Exception(Pending)
+3000-01,IN,XS-30102-ST,Pkg,Pkg,Exception(Pending)
+3000-01,IN,XS-30103-CL,Instrument(X),Instrument(XS),Exception(Pending)
+3000-01,IN,XS-30103-OP,Instrument(X),Instrument(XS),Exception(Pending)
+3000-01,IN,XS-30103-SP,PKG,PKG,Exception(Pending)
+3000-01,IN,XS-30103-ST,PKG,PKG,Exception(Pending)
+3000-01,IN,XS-30103-STP,Instrument(X),Instrument(XS),Exception(Pending)
+3000-01,IN,XS-30104-SP,PKG,PKG,Exception(Pending)
+3000-01,IN,XS-30104-ST,PKG,PKG,Exception(Pending)
+3000-01,IN,XS-30105-CL,Instrument(X),Instrument(XS),Exception(Pending)
+3000-01,IN,XS-30105-OP,Instrument(X),Instrument(XS),Exception(Pending)
+3000-01,IN,XS-30105-SP,Pkg,Pkg,Exception(Pending)
+3000-01,IN,XS-30105-ST,Pkg,Pkg,Exception(Pending)
+3000-01,IN,XS-30105-STP,Instrument(X),Instrument(XS),Exception(Pending)
+3000-01,IN,XS-30106-SP,Pkg,Pkg,Exception(Pending)
+3000-01,IN,XS-30106-ST,Pkg,Pkg,Exception(Pending)
+3000-01,IN,XS-30107-CL,Instrument(X),Instrument(XS),Exception(Pending)
+3000-01,IN,XS-30107-OP,Instrument(X),Instrument(XS),Exception(Pending)
+3000-01,IN,XS-30107-SP,Pkg,Pkg,Exception(Pending)
+3000-01,IN,XS-30107-ST,Pkg,Pkg,Exception(Pending)
+3000-01,IN,XS-30107-STP,Instrument(X),Instrument(XS),Exception(Pending)
 DCS-01,IN,XS-30108A,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,XS-30108B,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,XS-30108C,SIGNAL,SIGNAL,Exception(Pending)
@@ -23837,13 +23837,13 @@ DCS-01,IN,XS-30110C,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,XS-30111A,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,XS-30111B,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,XS-30111C,SIGNAL,SIGNAL,Exception(Pending)
-3000-01,IN,XS-30120,PKG,PKG,0%
-3000-01,IN,XS-30136-ST_SP,Pkg,Pkg,0%
-3000-01,IN,XS-30140HH,PKG,PKG,0%
-3000-01,IN,XS-30191A,PKG,PKG,0%
-3000-01,IN,XS-30192A,PKG,PKG,0%
-3000-01,IN,XS-30192B,PKG,PKG,0%
-3000-01,IN,XS-30192C,PKG,PKG,0%
+3000-01,IN,XS-30120,PKG,PKG,Exception(Pending)
+3000-01,IN,XS-30136-ST_SP,Pkg,Pkg,Exception(Pending)
+3000-01,IN,XS-30140HH,PKG,PKG,Exception(Pending)
+3000-01,IN,XS-30191A,PKG,PKG,Exception(Pending)
+3000-01,IN,XS-30192A,PKG,PKG,Exception(Pending)
+3000-01,IN,XS-30192B,PKG,PKG,Exception(Pending)
+3000-01,IN,XS-30192C,PKG,PKG,Exception(Pending)
 DCS-01,IN,XS-3141-1-SP,I/O EL,I/O EL,Exception(Pending)
 DCS-01,IN,XS-3141-1-ST,I/O EL,I/O EL,Exception(Pending)
 DCS-01,IN,XS-3141-2-SP,I/O EL,I/O EL,Exception(Pending)
@@ -24999,9 +24999,9 @@ TEL-10,EL,YO-TJB2,Telecom Device,Telephone Junction Box,0%
 4000-08,IN,ZE-80235A,Instrument(ZE),Instrument(ZE),Done
 4000-08,IN,ZE-80235B,Instrument(ZE),Instrument(ZE),Done
 NO SUBS.,IN,ZSH-30102,PKG,PKG,0%
-3000-01,IN,ZSH-30102(ZSH),Instrument(X),Instrument(ZSH),0%
+3000-01,IN,ZSH-30102(ZSH),Instrument(X),Instrument(ZSH),Exception(Pending)
 NO SUBS.,IN,ZSL-30101,PKG,PKG,0%
-3000-01,IN,ZSL-30101(ZSL),Instrument(X),Instrument(ZSL),0%
+3000-01,IN,ZSL-30101(ZSL),Instrument(X),Instrument(ZSL),Exception(Pending)
 2000-02,IN,ZT-20101,Instrument(ZT),Instrument(ZT),0%
 2000-02,IN,ZT-20102,Instrument(ZT),Instrument(ZT),0%
 2000-02,IN,ZT-20103,Instrument(ZT),Instrument(ZT),0%
