@@ -25,7 +25,7 @@
         <div class="sidebar-header">
             <div class="d-flex align-items-center justify-content-center">
                 <a href="pages/Work_flow.html" target="_blank" rel="noopener noreferrer">
-                    <img src="images/SAPRA_WHITE-100.png" alt="SAPRA Logo" style="height: 80px; margin-right: 0.5rem;">
+                    <img src="images/SAPRA_WHITE-100.png" alt="SAPRA Logo" loading="lazy" style="height: 80px; margin-right: 0.5rem;">
                 </a>
             </div>
             <p class="slogan mb-0">Smart Access to Project Activities</p>
@@ -54,7 +54,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="d-flex align-items-center d-lg-none">
-                    <img src="images/SAPRA_WHITE-100.png" alt="SAPRA Logo" style="height: 32px; margin-left: 8px;">
+                    <img src="images/SAPRA_WHITE-100.png" alt="SAPRA Logo" loading="lazy" style="height: 32px; margin-left: 8px;">
                 </div>
                 
                 <!-- Mobile Search Bar -->
@@ -92,6 +92,7 @@
                         </button>
 
                     </div>
+                    <a class="header-nav-link" href="#" id="presentationModeBtn" onclick="initPresentationMode()" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Presentation Mode (P)"><i class="bi bi-easel"></i></a>
                     <a class="header-nav-link" href="https://mega.nz/folder/YydB0QoR#ri5vAK9S4qhqE-AnxE4A8Q" target="_blank" rel="noopener noreferrer" id="dbStorageBtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Database Storage (Ctrl+D)"><i class="bi bi-database"></i></a>
                     <a class="header-nav-link" href="#" id="exportExcelBtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Export to Excel (Ctrl+E)"><i class="bi bi-file-earmark-excel"></i></a>
                     <a class="header-nav-link" href="#" id="downloadAllBtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Download All Data (Ctrl+Shift+D)"><i class="bi bi-cloud-download"></i></a>
@@ -299,7 +300,18 @@
     <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+    <script>
+        // Keyboard shortcut for presentation mode
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'p' || e.key === 'P') {
+                if (!e.target.matches('input, textarea')) {
+                    initPresentationMode();
+                }
+            }
+        });
+    </script>
     <script src="utils.js"></script>
+    <script src="presentation-mode.js"></script>
     <script src="main.js?v=1.2" defer></script>
     
     <style media="print">
@@ -515,6 +527,24 @@
         <p id="printReportTitle">Project Report</p>
         <p id="printDateTime"></p>
     </div>
+
+    <!-- Presentation Mode Widget -->
+    <div id="presentationWidget" class="presentation-widget">
+        <div class="widget-header">
+            <span>Presentation Tools</span>
+            <button onclick="closePresentationMode()" class="btn-close-widget"><i class="bi bi-x-lg"></i></button>
+        </div>
+        <div class="widget-body">
+            <button id="drawBtn" onclick="toggleDrawing()" class="tool-btn" title="Draw"><i class="bi bi-pencil"></i></button>
+            <input type="color" id="drawColor" value="#ff0000" class="color-picker">
+            <button onclick="clearDrawing()" class="tool-btn" title="Clear Drawing"><i class="bi bi-eraser"></i></button>
+            <button id="laserBtn" onclick="toggleLaser()" class="tool-btn" title="Laser Pointer"><i class="bi bi-record-circle"></i></button>
+            <button id="spotlightBtn" onclick="toggleSpotlight()" class="tool-btn" title="Spotlight"><i class="bi bi-lightbulb"></i></button>
+        </div>
+    </div>
+
+    <div id="laserPointer"></div>
+    <div id="spotlightOverlay"></div>
 
 </body>
 </html>
