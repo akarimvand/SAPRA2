@@ -22,7 +22,7 @@
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,IN,2,2,0,6,6,0,0
 120,120-10,Electrical Distribution Substation,SS-CH-01 for Electrical Supply 110V DC,EL,24,24,0,186,128,58,0
 120,120-11,Electrical Distribution Substation,SS-UPS-01 for Safety Lighting Supply 230 AC UPS,EL,18,18,0,119,48,71,0
-120,120-12,Electrical Distribution Substation,SS PDCS System,EL,10,7,1,37,5,32,2
+120,120-12,Electrical Distribution Substation,SS PDCS System,EL,10,8,0,37,5,32,2
 120,120-13,Electrical Distribution Substation,Cathodic Protection System,EL,373,341,0,482,479,3,0
 120,120-14,Electrical Distribution Substation,Electric Heat Tracing System,EL,3,0,0,0,0,0,3
 120,120-15,Electrical Distribution Substation,Capacitor Bank,EL,5,0,5,42,29,13,0
@@ -52,13 +52,13 @@
 2000,2000-06,Reforming,Nitrogen Circuit,IN,114,24,30,222,158,64,13
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,1,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,1,4,23,0,23,0
-3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,112,117,712,458,254,21
+3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,229,0,712,458,254,21
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,36,0,77,48,29,12
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,3,8,0,8,0
-3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,41,27,144,94,50,44
+3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,41,34,144,94,50,44
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,34,4,80,24,56,45
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,3,8,19,0,19,0
-3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,9,4,3,30,0,30,0
+3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,9,4,5,30,0,30,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,32,0,109,51,58,8
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,71,13,226,110,116,99
 3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,2,0,20,0,20,0
@@ -90,7 +90,7 @@
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
 4000,4000-08,Utility,Cooling Water,MER,8,0,6,20,0,20,0
 4000,4000-08,Utility,Cooling Water,PI,300,282,0,675,561,114,37
-4000,4000-08,Utility,Cooling Water,IN,745,650,52,316,222,94,533
+4000,4000-08,Utility,Cooling Water,IN,745,699,3,316,222,94,533
 4000,4000-08,Utility,Cooling Water,EL,6,6,0,56,18,38,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,28,0,0,0,0,26
 4000,4000-09,Utility,Oily Water Treatment,PI,226,225,0,146,106,40,4
@@ -111,7 +111,7 @@
 4000,4000-14,Utility,Fire Water,PI,130,125,1,388,263,125,2536
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,137,85,52,29
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,8,48,0,48,0
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,7,7,78,11,67,5
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,7,10,78,11,67,5
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,372,30,912,644,268,147
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,70,0,234,159,75,10
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,7,5,1,84,42,42,1
