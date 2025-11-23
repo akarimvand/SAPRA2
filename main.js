@@ -7,8 +7,8 @@ window.formCounts = {
 };
 
 // --- Constants ---
-// Use GitHub URL for CSV files
-const GITHUB_BASE_URL = "https://akarimvand.github.io/SAPRA2/dbcsv/";
+// Use local dbcsv folder for CSV files
+const GITHUB_BASE_URL = "dbcsv/";
 
 const CSV_URL = GITHUB_BASE_URL + "DATA.CSV";
 const ITEMS_CSV_URL = GITHUB_BASE_URL + "ITEMS.CSV";
@@ -105,6 +105,9 @@ const ICONS = {
             tooltipTriggerList.map(function (tooltipTriggerEl) {
                 return new bootstrap.Tooltip(tooltipTriggerEl);
             });
+            
+            // Initialize bottom navigation
+            initBottomNavigation();
             
             loadAndProcessData();
             DOMElements.sidebarToggle.setAttribute('aria-expanded', 'false');
@@ -274,6 +277,7 @@ const ICONS = {
         // Update Breadcrumb
         window.updateBreadcrumb = function(path) {
             const breadcrumb = document.getElementById('breadcrumbNav');
+            if (!breadcrumb) return;
             breadcrumb.innerHTML = path.map((item, index) => {
                 const isLast = index === path.length - 1;
                 return `<li class="breadcrumb-item ${isLast ? 'active' : ''}">${item}</li>`;
@@ -1006,12 +1010,17 @@ function filterDetailedItems(context) {
             const filterRow = document.getElementById('modal-filter-row');
             filterRow.innerHTML = headers.map((h, i) => `<th><input type="text" class="form-control form-control-sm" placeholder="Filter..." data-col-index="${i}"></th>`).join('');
 
-
+            // Render Desktop Table
             if (items.length === 0) {
                 noDetailsMessage.style.display = 'block';
+                // Hide table when no data
+                document.querySelector('#itemDetailsModal .table-responsive').style.display = 'none';
             } else {
                 noDetailsMessage.style.display = 'none';
-                items.forEach((item, index) => { // Added index for row numbering
+                // Show table when data exists
+                document.querySelector('#itemDetailsModal .table-responsive').style.display = 'block';
+                
+                items.forEach((item, index) => {
                     const row = document.createElement('tr');
                     let rowContent = '';
                      let rowClass = '';
@@ -1019,16 +1028,15 @@ function filterDetailedItems(context) {
                     if (dataType === 'items') {
                          rowContent = `
                             <td style="word-wrap: break-word; white-space: normal;">${index + 1}</td>
-                            <td style="word-wrap: break-word; white-space: normal;">${item.subsystem}</td>
-                            <td style="word-wrap: break-word; white-space: normal;">${item.discipline}</td>
-                            <td style="word-wrap: break-word; white-space: normal;"><button class="tag-no-btn" data-tag-no="${item.tagNo}">${item.tagNo}</button></td>
-                            <td style="word-wrap: break-word; white-space: normal;">${item.typeCode}</td>
-                            <td style="word-wrap: break-word; white-space: normal; direction: rtl; text-align: right;">${item.description}</td>
-                            <td style="word-wrap: break-word; white-space: normal;">${item.status}</td>
+                            <td style="word-wrap: break-word; white-space: normal;">${item.subsystem || 'N/A'}</td>
+                            <td style="word-wrap: break-word; white-space: normal;">${item.discipline || 'N/A'}</td>
+                            <td style="word-wrap: break-word; white-space: normal;"><button class="btn btn-link btn-sm tag-no-btn" data-tag-no="${item.tagNo || 'N/A'}">${item.tagNo || 'N/A'}</button></td>
+                            <td style="word-wrap: break-word; white-space: normal;">${item.typeCode || 'N/A'}</td>
+                            <td style="word-wrap: break-word; white-space: normal; direction: rtl; text-align: right;">${item.description || 'N/A'}</td>
+                            <td style="word-wrap: break-word; white-space: normal;">${item.status || 'N/A'}</td>
                          `;
                     } else if (dataType === 'punch') {
-                        // Apply color based on punch category (case-insensitive)
-                        const punchCat = item.punchCategory ? item.punchCategory.toLowerCase() : '';
+                        const punchCat = item.PL_Punch_Category ? item.PL_Punch_Category.toLowerCase() : '';
                         switch (punchCat) {
                             case 'a': rowClass = 'table-danger'; break;
                             case 'b': rowClass = 'table-info'; break;
@@ -1039,24 +1047,24 @@ function filterDetailedItems(context) {
                             <td style="word-wrap: break-word; white-space: normal;">${index + 1}</td>
                             <td style="word-wrap: break-word; white-space: normal;">${item.SD_Sub_System || 'N/A'}</td>
                             <td style="word-wrap: break-word; white-space: normal;">${item.Discipline_Name || 'N/A'}</td>
-                            <td style="word-wrap: break-word; white-space: normal;"><button class="tag-no-btn" data-tag-no="${item.ITEM_Tag_NO || 'N/A'}">${item.ITEM_Tag_NO || 'N/A'}</button></td>
+                            <td style="word-wrap: break-word; white-space: normal;"><button class="btn btn-link btn-sm tag-no-btn" data-tag-no="${item.ITEM_Tag_NO || 'N/A'}">${item.ITEM_Tag_NO || 'N/A'}</button></td>
                             <td style="word-wrap: break-word; white-space: normal;">${item.ITEM_Type_Code || 'N/A'}</td>
                             <td style="${item.PL_Punch_Category === 'A' ? 'color: red; font-weight: bold;' : ''} word-wrap: break-word; white-space: normal;">${item.PL_Punch_Category || 'N/A'}</td>
                             <td style="word-wrap: break-word; white-space: normal; direction: rtl; text-align: right;">${item.PL_Punch_Description || 'N/A'}</td>
                             <td style="word-wrap: break-word; white-space: normal;">${item.PL_No || 'N/A'}</td>
                         `;
-                    } else if (dataType === 'hold') { // Populate with hold point data
+                    } else if (dataType === 'hold') {
                          rowContent = `
                              <td style="word-wrap: break-word; white-space: normal;">${index + 1}</td>
-                             <td style="word-wrap: break-word; white-space: normal;">${item.subsystem}</td>
-                             <td style="word-wrap: break-word; white-space: normal;">${item.discipline}</td>
-                             <td style="word-wrap: break-word; white-space: normal;"><button class="tag-no-btn" data-tag-no="${item.tagNo}">${item.tagNo}</button></td>
+                             <td style="word-wrap: break-word; white-space: normal;">${item.subsystem || 'N/A'}</td>
+                             <td style="word-wrap: break-word; white-space: normal;">${item.discipline || 'N/A'}</td>
+                             <td style="word-wrap: break-word; white-space: normal;"><button class="btn btn-link btn-sm tag-no-btn" data-tag-no="${item.tagNo || 'N/A'}">${item.tagNo || 'N/A'}</button></td>
                              <td style="word-wrap: break-word; white-space: normal;">${item.typeCode || 'N/A'}</td>
                              <td style="word-wrap: break-word; white-space: normal;">${item.hpPriority || 'N/A'}</td>
                              <td style="word-wrap: break-word; white-space: normal; direction: rtl; text-align: right;">${item.hpDescription || 'N/A'}</td>
                              <td style="word-wrap: break-word; white-space: normal;">${item.hpLocation || 'N/A'}</td>
                          `;
-                         rowClass = ''; // No special coloring for hold points requested
+                         rowClass = '';
                     }
 
                     row.innerHTML = rowContent;
@@ -1066,6 +1074,18 @@ function filterDetailedItems(context) {
                     tbody.appendChild(row);
                 });
              }
+             
+             // Render Mobile Cards
+             renderModalMobileCards(items, dataType);
+        }
+        
+        // === MODAL MOBILE CARDS ===
+        function renderModalMobileCards(items, dataType) {
+            // Always show table on desktop, hide mobile cards
+            const mobileContainer = document.querySelector('.modal-mobile-cards');
+            if (mobileContainer) {
+                mobileContainer.style.display = 'none';
+            }
         }
 
         function filterHOSItems(statusType, dataType) {
@@ -1558,15 +1578,6 @@ function filterDetailedItems(context) {
                         }
                     } else { // Select node
                          handleNodeSelect(type, id, name, parentId);
-                         if (window.innerWidth < 992) { // On mobile
-                            // Only close sidebar if a leaf node (subsystem or all) is selected
-                            if (type === 'subsystem' || type === 'all') {
-                                DOMElements.sidebar.classList.remove('open');
-                                DOMElements.mainContent.classList.remove('sidebar-open');
-                                DOMElements.sidebarOverlay.style.display = 'none';
-                                DOMElements.sidebarToggle.setAttribute('aria-expanded', 'false');
-                            }
-                        }
                     }
                 });
             });
@@ -2026,6 +2037,7 @@ function filterDetailedItems(context) {
             const tableData = _generateTableDataForView(selectedView, processedData, aggregatedStats.totalItems === 0);
             window.currentTableData = tableData; // Store for export
             
+            // Render Desktop Table
             let bodyHTML = '';
             if (tableData.length === 0) {
                 bodyHTML = `<tr><td colspan="${columns.length}" class="text-center py-5 text-muted">Please select a subsystem or system to view details, or no data matches the current filter.</td></tr>`;
@@ -2058,6 +2070,9 @@ function filterDetailedItems(context) {
                 });
             }
             DOMElements.dataTableBody.innerHTML = bodyHTML;
+            
+            // Render Mobile Cards
+            renderMobileCards(tableData);
             
             // Populate dropdown options
             const disciplineDropdown = filterRow.querySelector('[data-col="3"] .dropdown-menu');
@@ -2856,3 +2871,251 @@ function filterDetailedItems(context) {
 
         });
     })();
+
+        // === BOTTOM NAVIGATION FUNCTIONALITY ===
+        function initBottomNavigation() {
+            const bottomNavItems = document.querySelectorAll('.bottom-nav-item');
+            const mainTabs = document.querySelectorAll('#main-tabs .nav-link');
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const mobileActionsMenu = document.getElementById('mobileActionsMenu');
+            const mobileActionsOverlay = document.getElementById('mobileActionsOverlay');
+            const closeMobileMenu = document.getElementById('closeMobileMenu');
+            
+            // Handle bottom nav clicks with ripple effect
+            bottomNavItems.forEach(item => {
+                item.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    
+                    // Handle mobile menu button
+                    if (item.id === 'mobileMenuBtn') {
+                        mobileActionsMenu.style.display = 'block';
+                        setTimeout(() => mobileActionsMenu.classList.add('show'), 10);
+                        return;
+                    }
+                    
+                    // Remove active class from all bottom nav items
+                    bottomNavItems.forEach(navItem => navItem.classList.remove('active'));
+                    
+                    // Add active class to clicked item
+                    item.classList.add('active');
+                    
+                    // Get corresponding tab and activate it
+                    const tabId = item.dataset.tab;
+                    const targetTab = document.getElementById(tabId);
+                    
+                    if (targetTab) {
+                        const tab = new bootstrap.Tab(targetTab);
+                        tab.show();
+                    }
+                    
+                    // Close sidebar if open on mobile
+                    if (window.innerWidth <= 768) {
+                        DOMElements.sidebar.classList.remove('open');
+                        DOMElements.mainContent.classList.remove('sidebar-open');
+                        DOMElements.sidebarOverlay.style.display = 'none';
+                        DOMElements.sidebarToggle.setAttribute('aria-expanded', 'false');
+                    }
+                });
+                
+                // Add touch feedback
+                item.addEventListener('touchstart', () => {
+                    item.style.transform = 'scale(0.97)';
+                });
+                
+                item.addEventListener('touchend', () => {
+                    setTimeout(() => {
+                        item.style.transform = '';
+                    }, 150);
+                });
+            });
+            
+            // Mobile actions menu handlers
+            function closeMobileActionsMenu() {
+                mobileActionsMenu.classList.remove('show');
+                setTimeout(() => mobileActionsMenu.style.display = 'none', 300);
+            }
+            
+            if (closeMobileMenu) {
+                closeMobileMenu.addEventListener('click', closeMobileActionsMenu);
+            }
+            
+            if (mobileActionsOverlay) {
+                mobileActionsOverlay.addEventListener('click', closeMobileActionsMenu);
+            }
+            
+            // Mobile action buttons
+            document.getElementById('mobileRefreshBtn')?.addEventListener('click', () => {
+                document.getElementById('refreshDataBtn')?.click();
+                closeMobileActionsMenu();
+            });
+            
+            document.getElementById('mobileSearchBtn')?.addEventListener('click', () => {
+                document.getElementById('quickSearchBtn')?.click();
+                closeMobileActionsMenu();
+            });
+            
+            document.getElementById('mobileExportBtn')?.addEventListener('click', () => {
+                document.getElementById('exportExcelBtn')?.click();
+                closeMobileActionsMenu();
+            });
+            
+            document.getElementById('mobileDownloadBtn')?.addEventListener('click', () => {
+                document.getElementById('downloadAllBtn')?.click();
+                closeMobileActionsMenu();
+            });
+            
+            document.getElementById('mobileExitBtn')?.addEventListener('click', () => {
+                document.getElementById('exitBtn')?.click();
+                closeMobileActionsMenu();
+            });
+            
+            // Sync main tabs with bottom nav
+            mainTabs.forEach(tab => {
+                tab.addEventListener('shown.bs.tab', (e) => {
+                    const tabId = e.target.id;
+                    const correspondingBottomNavItem = document.querySelector(`[data-tab="${tabId}"]`);
+                    
+                    if (correspondingBottomNavItem) {
+                        bottomNavItems.forEach(item => item.classList.remove('active'));
+                        correspondingBottomNavItem.classList.add('active');
+                    }
+                });
+            });
+        }
+        
+        // === MOBILE CARDS RENDERING ===
+        function renderMobileCards(tableData) {
+            const mobileCardsContainer = document.getElementById('mobileDataCards');
+            if (!mobileCardsContainer) return;
+            
+            if (tableData.length === 0) {
+                mobileCardsContainer.innerHTML = '<div class="text-center py-5 text-muted">Please select a subsystem or system to view details.</div>';
+                return;
+            }
+            
+            let cardsHTML = '';
+            tableData.forEach((row, index) => {
+                const statusBadgeClass = row.statusPercent > 80 ? 'bg-success text-white' : row.statusPercent > 50 ? 'bg-info text-white' : 'bg-warning text-dark';
+                const formStatusIcon = row.formStatus ? `<span class="status-indicator-icon status-${row.formStatus.toLowerCase()}" title="Status: ${row.formStatus}">${row.formStatus}</span>` : '<span class="text-muted">-</span>';
+                
+                cardsHTML += `
+                    <div class="data-card" data-row-index="${index}">
+                        <div class="data-card-header">
+                            ${row.subsystem} - ${row.discipline}
+                        </div>
+                        <div class="data-card-content">
+                            <div class="data-card-row">
+                                <span class="data-card-label">System:</span>
+                                <span class="data-card-value">${row.system}</span>
+                            </div>
+                            <div class="data-card-row">
+                                <span class="data-card-label">Form:</span>
+                                <span class="data-card-value">${formStatusIcon}</span>
+                            </div>
+                            <div class="data-card-row">
+                                <span class="data-card-label">Total:</span>
+                                <span class="data-card-value clickable" data-type="total" data-row="${index}">${row.totalItems.toLocaleString()}</span>
+                            </div>
+                            <div class="data-card-row">
+                                <span class="data-card-label">Completed:</span>
+                                <span class="data-card-value clickable" data-type="completed" data-row="${index}">${row.completed.toLocaleString()}</span>
+                            </div>
+                            <div class="data-card-row">
+                                <span class="data-card-label">Pending:</span>
+                                <span class="data-card-value clickable" data-type="pending" data-row="${index}">${row.pending.toLocaleString()}</span>
+                            </div>
+                            <div class="data-card-row">
+                                <span class="data-card-label">Punch:</span>
+                                <span class="data-card-value clickable" data-type="punch" data-row="${index}">${row.punch.toLocaleString()}</span>
+                            </div>
+                            <div class="data-card-row">
+                                <span class="data-card-label">Hold:</span>
+                                <span class="data-card-value clickable" data-type="hold" data-row="${index}">${row.holdPoint.toLocaleString()}</span>
+                            </div>
+                            <div class="data-card-row">
+                                <span class="data-card-label">Status:</span>
+                                <span class="badge ${statusBadgeClass} rounded-pill" style="font-size: 0.65rem;">${row.statusPercent}%</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            mobileCardsContainer.innerHTML = cardsHTML;
+            
+            // Add click handlers for mobile cards
+            mobileCardsContainer.querySelectorAll('.data-card-value.clickable').forEach(element => {
+                element.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const rowIndex = parseInt(e.target.dataset.row);
+                    const type = e.target.dataset.type;
+                    const rowData = tableData[rowIndex];
+                    
+                    // Create filter context for mobile card clicks
+                    const filterContext = {
+                        type: 'table',
+                        rowData: {
+                            system: rowData.system,
+                            subsystem: `${rowData.subsystem} - ${rowData.subsystemName}`,
+                            discipline: rowData.discipline
+                        },
+                        status: type === 'total' ? 'TOTAL' : type === 'completed' ? 'DONE' : type === 'pending' ? 'PENDING' : type === 'punch' ? 'PUNCH' : 'HOLD'
+                    };
+                    
+                    const dataType = type === 'punch' ? 'punch' : type === 'hold' ? 'hold' : 'items';
+                    
+                    let dataToDisplay = [];
+                    let dataLoaded = false;
+                    
+                    if (dataType === 'items') {
+                        if (detailedItemsData.length > 0) {
+                            dataToDisplay = filterDetailedItems(filterContext);
+                            dataLoaded = true;
+                        }
+                    } else if (dataType === 'punch') {
+                        if (punchItemsData.length > 0) {
+                            dataToDisplay = filterPunchItems(filterContext);
+                            dataLoaded = true;
+                        }
+                    } else if (dataType === 'hold') {
+                        if (holdPointItemsData.length > 0) {
+                            dataToDisplay = filterHoldItems(filterContext);
+                            dataLoaded = true;
+                        }
+                    }
+                    
+                    if (dataLoaded) {
+                        populateDetailsModal(dataToDisplay, filterContext, dataType);
+                        itemDetailsModal.show();
+                    }
+                });
+            });
+            
+            // Add mobile search functionality
+            const mobileSearchInput = document.getElementById('mobileSearchInput');
+            const mobileHeaderSearch = document.getElementById('mobileHeaderSearch');
+            
+            function filterCards(searchTerm) {
+                const cards = mobileCardsContainer.querySelectorAll('.data-card');
+                cards.forEach(card => {
+                    const text = card.textContent.toLowerCase();
+                    card.style.display = text.includes(searchTerm.toLowerCase()) ? 'block' : 'none';
+                });
+            }
+            
+            if (mobileSearchInput) {
+                let searchTimeout;
+                mobileSearchInput.addEventListener('input', (e) => {
+                    clearTimeout(searchTimeout);
+                    searchTimeout = setTimeout(() => filterCards(e.target.value), 300);
+                });
+            }
+            
+            if (mobileHeaderSearch) {
+                let searchTimeout;
+                mobileHeaderSearch.addEventListener('input', (e) => {
+                    clearTimeout(searchTimeout);
+                    searchTimeout = setTimeout(() => filterCards(e.target.value), 300);
+                });
+            }
+        }

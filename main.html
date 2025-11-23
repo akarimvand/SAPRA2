@@ -53,7 +53,15 @@
                 <button class="navbar-toggler" type="button" id="sidebarToggle" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <ul class="nav nav-tabs" id="main-tabs" role="tablist">
+                <div class="d-flex align-items-center d-lg-none">
+                    <img src="images/SAPRA_WHITE-100.png" alt="SAPRA Logo" style="height: 32px; margin-left: 8px;">
+                </div>
+                
+                <!-- Mobile Search Bar -->
+                <div class="mobile-header-search d-block d-lg-none">
+                    <input type="text" class="mobile-header-search-input" id="mobileHeaderSearch" placeholder="Search subsystem...">
+                </div>
+                <ul class="nav nav-tabs d-none d-lg-flex" id="main-tabs" role="tablist">
                     <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
                     </li>
@@ -69,12 +77,11 @@
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="help-tab" data-bs-toggle="tab" data-bs-target="#help-tab-pane" type="button" role="tab" aria-controls="help-tab-pane" aria-selected="false">Help</button>
                     </li>
-
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="about-tab" data-bs-toggle="tab" data-bs-target="#about-tab-pane" type="button" role="tab" aria-controls="about-tab-pane" aria-selected="false">About</button>
                     </li>
                 </ul>
-                <div class="ms-auto d-flex align-items-center" id="header-nav-items">
+                <div class="ms-auto d-flex align-items-center d-none d-lg-flex" id="header-nav-items">
                     <!-- Quick Actions -->
                     <div class="btn-group me-2" role="group">
                         <button class="btn btn-outline-light btn-sm" id="refreshDataBtn" data-bs-toggle="tooltip" title="Refresh Data (Ctrl+R)">
@@ -93,19 +100,10 @@
             </div>
         </nav>
 
-        <!-- Breadcrumb -->
-        <div class="container-fluid px-4 py-2 bg-light border-bottom">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb mb-0" id="breadcrumbNav">
-                    <li class="breadcrumb-item active">All Systems</li>
-                </ol>
-            </nav>
-        </div>
-        
         <main role="main">
             <div class="tab-content" id="main-tab-content">
                 <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab">
-                    <div class="container-fluid py-4">
+                    <div class="container-fluid" style="padding-top: 10px !important;">
                         <!-- Progress Indicator -->
                         <div id="dataLoadProgress" class="progress mb-3" style="height: 4px; display: none;">
                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%"></div>
@@ -135,19 +133,23 @@
                         </div>
 
                         <!-- Row 1: FORM A-D Cards -->
-                        <div class="row mb-4 g-4" id="summaryCardsRow2">
-                            <!-- FORM cards will be injected here -->
+                        <div class="summary-cards-container mb-3">
+                            <div class="row g-4" id="summaryCardsRow2">
+                                <!-- FORM cards will be injected here -->
+                            </div>
                         </div>
 
                         <!-- Row 2: Original Summary Cards + Issues Card -->
-                        <div class="row mb-4 g-4" id="summaryCardsRow1">
-                            <!-- Summary cards will be injected here -->
+                        <div class="summary-cards-container mb-4">
+                            <div class="row g-4" id="summaryCardsRow1">
+                                <!-- Summary cards will be injected here -->
+                            </div>
                         </div>
 
-                        <!-- Data Table -->
+                        <!-- Data Table / Mobile Cards -->
                         <div class="card shadow-sm">
                             <div class="card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2" style="padding: 0.5rem 0;">
+                                <div class="d-none d-lg-flex justify-content-between align-items-center mb-2" style="padding: 0.5rem 0;">
                                     <h6 class="card-title text-secondary mb-0">Items Details</h6>
                                     <div>
                                         <button class="btn btn-outline-secondary btn-sm me-2" id="clearAllFiltersBtn" title="Clear All Filters">
@@ -161,7 +163,9 @@
                                         </button>
                                     </div>
                                 </div>
-                                <div class="table-responsive main-table-container">
+                                
+                                <!-- Desktop Table -->
+                                <div class="table-responsive main-table-container d-none d-lg-block">
                                     <table class="table table-hover table-sm" id="dataTable" aria-live="polite">
                                         <caption class="visually-hidden">Detailed item data based on current selection</caption>
                                         <thead class="table-light">
@@ -176,6 +180,11 @@
                                             <!-- Table rows will be injected here -->
                                         </tbody>
                                     </table>
+                                </div>
+                                
+                                <!-- Mobile Cards -->
+                                <div class="mobile-data-cards d-block d-lg-none" id="mobileDataCards">
+                                    <!-- Mobile cards will be injected here -->
                                 </div>
                             </div>
                         </div>
@@ -226,6 +235,63 @@
                 </div>
             </div>
         </main>
+    </div>
+
+    <!-- Bottom Navigation (Mobile Only) -->
+    <nav class="bottom-nav" id="bottomNav" role="navigation" aria-label="Mobile navigation">
+        <a href="#" class="bottom-nav-item active" data-tab="home-tab" aria-label="Home">
+            <i class="bi bi-house-fill"></i>
+            <span>Home</span>
+        </a>
+        <a href="#" class="bottom-nav-item" data-tab="workflow-tab" aria-label="Workflow">
+            <i class="bi bi-diagram-3-fill"></i>
+            <span>Workflow</span>
+        </a>
+        <a href="#" class="bottom-nav-item" data-tab="resources-tab" aria-label="Resources">
+            <i class="bi bi-folder-fill"></i>
+            <span>Resources</span>
+        </a>
+        <a href="#" class="bottom-nav-item" id="mobileMenuBtn" aria-label="Menu">
+            <i class="bi bi-three-dots"></i>
+            <span>Menu</span>
+        </a>
+    </nav>
+    
+    <!-- Mobile Actions Menu -->
+    <div class="mobile-actions-menu" id="mobileActionsMenu">
+        <div class="mobile-actions-overlay" id="mobileActionsOverlay"></div>
+        <div class="mobile-actions-content">
+            <div class="mobile-actions-header">
+                <h6>Actions</h6>
+                <button class="btn-close" id="closeMobileMenu" aria-label="Close"></button>
+            </div>
+            <div class="mobile-actions-body">
+                <button class="mobile-action-btn" id="mobileRefreshBtn">
+                    <i class="bi bi-arrow-clockwise"></i>
+                    <span>بروزرسانی داده‌ها</span>
+                </button>
+                <button class="mobile-action-btn" id="mobileSearchBtn">
+                    <i class="bi bi-search"></i>
+                    <span>Quick Search</span>
+                </button>
+                <a class="mobile-action-btn" href="https://mega.nz/folder/YydB0QoR#ri5vAK9S4qhqE-AnxE4A8Q" target="_blank" id="mobileDbBtn">
+                    <i class="bi bi-database"></i>
+                    <span>Database</span>
+                </a>
+                <button class="mobile-action-btn" id="mobileExportBtn">
+                    <i class="bi bi-file-earmark-excel"></i>
+                    <span>Export Excel</span>
+                </button>
+                <button class="mobile-action-btn" id="mobileDownloadBtn">
+                    <i class="bi bi-cloud-download"></i>
+                    <span>Download All</span>
+                </button>
+                <button class="mobile-action-btn text-danger" id="mobileExitBtn">
+                    <i class="bi bi-box-arrow-right"></i>
+                    <span>Exit</span>
+                </button>
+            </div>
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
