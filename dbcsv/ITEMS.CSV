@@ -5425,7 +5425,7 @@ NO SUBS.,PI,61-SUMP-091,PI_TP,PIPING TEST PACKAGE,DONE
 5000-01,MES,AE-5005-A,Air_Cooler(AE),,47%
 5000-01,MES,AE-5005-B,Air_Cooler(AE),,41%
 5000-01,MES,AE-5005-C,Air_Cooler(AE),,41%
-5000-02,MES,AE-5005-D,Air_Cooler(AE),,0%
+5000-02,MES,AE-5005-D,Air_Cooler(AE),,47%
 5000-01,MES,AE-5006,Air_Cooler(AE),Air_Cooler,29%
 LS-02,EL,AH-EDP-01,PANEL(EL),Emergency Distribution Panel,DONE
 LS-14,EL,AH-EDP-01-1-L1-01,Lighting Fixture,LED Luminaires Fixture 40w| EX,50%
@@ -10507,7 +10507,7 @@ LS-01,EL,EBP-00-SLP-01,Power Cable B,Plant Street Lighting Panel- 00-SLP-01,Done
 120-03,EL,EBP-00-WO4-01,Power Cable B,Welding Socket Outlet- 00-WO4-01,Done
 120-03,EL,EBP-00-WO4-02,Power Cable B,Welding Socket Outlet- 00-WO4-02,Done
 120-03,EL,EBP-00-WO4-03,Power Cable B,Welding Socket Outlet- 00-WO4-03,Done
-120-03,EL,EBP-00-WO4-04,Power Cable B,Welding Socket Outlet- 00-WO4-04,0%
+120-03,EL,EBP-00-WO4-04,Power Cable B,Welding Socket Outlet- 00-WO4-04,33%
 120-03,EL,EBP-00-WO5-01,Power Cable B,Welding Socket Outlet- 00-WO5-01,Done
 120-03,EL,EBP-00-WO5-02,Power Cable B,Welding Socket Outlet- 00-WO5-02,Done
 120-03,EL,EBP-00-WO5-03,Power Cable B,Welding Socket Outlet- 00-WO5-03,Done
@@ -11268,8 +11268,8 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-02,EL,ECC-MX-7060_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-MX-7070_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-P7001C-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
-120-02,EL,ECC-P7001C-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
-120-02,EL,ECC-P7001C-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),33%
+120-02,EL,ECC-P7001C-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
+120-02,EL,ECC-P7001C-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-07,EL,ECC-P7001C-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-03,EL,ECC-PK7502-MB-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-03,EL,ECC-PK7502-MB-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
@@ -15009,7 +15009,7 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 5000-02,IN,LST-5162(LST),Instrument(LST),Instrument(LST),Done
 5000-02,IN,LST-5162(NA),CABLE,CABLE(NA),50%
 5000-02,IN,LST-5204(LST),Instrument(LST),Instrument(LST),Done
-5000-02,IN,LST-5204(NA),CABLE,CABLE(NA),0%
+5000-02,IN,LST-5204(NA),CABLE,CABLE(NA),Done
 5000-03,IN,LST-5271(LST),Instrument(LST),Instrument(LST),Done
 5000-03,IN,LST-5271(NA),CABLE,CABLE(NA),50%
 5000-03,IN,LST-5322(LST),Instrument(LST),Instrument(LST),Done
@@ -15088,9 +15088,9 @@ NO SUBS.,IN,LT-20151(LT),Instrument(LT),Instrument(LT),25%
 5000-02,IN,LT-5161(LT),Instrument(LT),Instrument(LT),Done
 5000-02,IN,LT-5161(NA),CABLE,CABLE(NA),50%
 5000-02,IN,LT-5182(LT),Instrument(LT),Instrument(LT),Done
-5000-02,IN,LT-5182(NA),CABLE,CABLE(NA),0%
+5000-02,IN,LT-5182(NA),CABLE,CABLE(NA),Done
 5000-02,IN,LT-5203(LT),Instrument(LT),Instrument(LT),Done
-5000-02,IN,LT-5203(NA),CABLE,CABLE(NA),0%
+5000-02,IN,LT-5203(NA),CABLE,CABLE(NA),Done
 5000-01,IN,LT-5232,Instrument(LT),Instrument(LT),DONE
 5000-03,IN,LT-5270(LT),Instrument(LT),Instrument(LT),Done
 5000-03,IN,LT-5270(NA),CABLE,CABLE(NA),50%
@@ -20501,7 +20501,7 @@ NO SUBS.,IN,TE-10208-2,PKG,PKG,0%
 5000-03,IN,TE-5268(TE),Instrument(TE),Instrument(TE),Done
 5000-03,IN,TE-5269(NA),CABLE,CABLE(NA),Done
 5000-03,IN,TE-5269(TE),Instrument(TE),Instrument(TE),Done
-5000-03,IN,TE-5273(NA),CABLE,CABLE(NA),0%
+5000-03,IN,TE-5273(NA),CABLE,CABLE(NA),Done
 5000-03,IN,TE-5273(TE),Instrument(TE),Instrument(TE),Done
 2000-05,IN,TE-5277(NA),CABLE,CABLE(NA),0%
 2000-05,IN,TE-5277(TE),Instrument(TE),Instrument(TE),Done
@@ -20509,7 +20509,7 @@ NO SUBS.,IN,TE-10208-2,PKG,PKG,0%
 5000-03,IN,TE-5280(TE),Instrument(TE),Instrument(TE),Done
 5000-03,IN,TE-5307(NA),CABLE,CABLE(NA),0%
 5000-03,IN,TE-5307(TE),Instrument(TE),Instrument(TE),Done
-5000-03,IN,TE-5325(NA),CABLE,CABLE(NA),0%
+5000-03,IN,TE-5325(NA),CABLE,CABLE(NA),Done
 5000-03,IN,TE-5325(TE),Instrument(TE),Instrument(TE),Done
 5000-03,IN,TE-5335(NA),CABLE,CABLE(NA),Done
 5000-03,IN,TE-5335(TE),Instrument(TE),Instrument(TE),Done
@@ -21638,7 +21638,7 @@ NO SUBS.,IN,TT-30147,PKG,PKG,0%
 5000-02,IN,TT-5171(TT),Instrument(TT),Instrument(TT),DONE
 5000-02,IN,TT-5173(NA),CABLE,CABLE(NA),Done
 5000-02,IN,TT-5173(TT),Instrument(TT),Instrument(TT),DONE
-5000-02,IN,TT-5174(NA),CABLE,CABLE(NA),50%
+5000-02,IN,TT-5174(NA),CABLE,CABLE(NA),Done
 5000-02,IN,TT-5174(TT),Instrument(TT),Instrument(TT),DONE
 5000-02,IN,TT-5175(NA),CABLE,CABLE(NA),Done
 5000-02,IN,TT-5175(TT),Instrument(TT),Instrument(TT),DONE
