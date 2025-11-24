@@ -1,6 +1,6 @@
 ﻿SD_System,SD_Sub_System,SD_System_Name,SD_Subsystem_Name,discipline,TOTAL ITEM,TOTAL DONE,TOTAL PENDING,TOTAL PUNCH,TOTAL CLEAR PUNCH,TOTAL NOT CLEAR PUNCH,TOTAL HOLD POINT
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,110,15,304,153,151,34
-1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,24,23,1,70,36,34,28
+1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,24,23,1,73,39,34,28
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,3,2,44,5,39,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,1,0,6,0,6,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,PI,12,12,0,27,24,3,3
@@ -46,12 +46,12 @@
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,231,83,41,342,117,225,45
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,6,1,75,20,55,0
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,59,19,229,146,83,86
-2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,132,85,47,15
+2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,132,92,40,15
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,4,19,0,19,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,21,7,14,0
 2000,2000-06,Reforming,Nitrogen Circuit,IN,114,24,30,222,158,64,13
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,1,0,0,0,0
-3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,1,4,23,0,23,0
+3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,2,3,23,0,23,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,234,0,712,458,254,21
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,36,0,77,48,29,12
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,3,8,0,8,0
@@ -77,14 +77,14 @@
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,6,0,0,0,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,2,4,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,49,46,1,168,105,63,19
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,52,56,456,327,129,384
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,55,56,456,327,129,384
 4000,4000-05,Utility,Blow Down,PI,24,24,0,46,33,13,13
 4000,4000-05,Utility,Blow Down,MES,4,3,1,23,0,23,0
 4000,4000-05,Utility,Blow Down,IN,17,17,0,15,6,9,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,4,11,16,0,16,5
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,53,1,191,120,71,167
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,0,12,54,0,54,0
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,57,63,161,53,108,107
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,59,63,161,53,108,107
 4000,4000-07,Utility,Plant Air,IN,2,2,0,2,0,2,2
 4000,4000-07,Utility,Plant Air,PI,10,10,0,31,4,27,30
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
@@ -108,7 +108,7 @@
 4000,4000-13,Utility,Slope Close Drain,PI,29,29,0,46,17,29,3
 4000,4000-14,Utility,Fire Water,IN,33,33,0,0,0,0,0
 4000,4000-14,Utility,Fire Water,MES,1,0,1,0,0,0,0
-4000,4000-14,Utility,Fire Water,PI,130,125,1,388,295,93,2536
+4000,4000-14,Utility,Fire Water,PI,130,125,1,388,304,84,2536
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,137,85,52,29
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,0,8,48,0,48,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,7,10,78,11,67,5
@@ -146,7 +146,7 @@ BLD,BLD-04,Building,Security Building,BD,14,14,0,18,7,11,0
 BLD,BLD-05,Building,Diesel Room,BD,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,BD,14,14,0,31,7,24,0
 BLD,BLD-07,Building,Analyzer House,BD,8,8,0,19,7,12,0
-CVL,CVL-01,Civil Work,Civil Work of All Area,CV,14,0,0,761,0,761,0
+CVL,CVL-01,Civil Work,Civil Work of All Area,CV,14,0,0,775,0,775,0
 DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,949,9,4619,1803,2816,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,281,0,2191,2191,0,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,420,417,3,0
@@ -177,7 +177,7 @@ LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,26,11,17
 LS,LS-03,Lighting System,Lighting System for Substation,EL,516,47,467,1707,1699,8,0
 LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,0,19,57,0,57,0
 LS,LS-05,Lighting System,Lighting System for Laboratory & Yard Office,EL,315,0,0,0,0,0,0
-LS,LS-06,Lighting System,Lighting System for Street,EL,73,70,0,312,100,212,3
+LS,LS-06,Lighting System,Lighting System for Street,EL,73,71,0,312,100,212,3
 LS,LS-07,Lighting System,Lighting System for Area-02,EL,1075,0,1,1,0,1,0
 LS,LS-08,Lighting System,Lighting System for Area-03,EL,440,0,55,192,135,57,0
 LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,0,113,309,190,119,0
