@@ -4753,7 +4753,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 5000-01,PI,5000-01-PMV-01-034,PI_TP,PIPING TEST PACKAGE,DONE
 5000-01,PI,5000-01-PMV-02-124,PI_TP,PIPING TEST PACKAGE,DONE
 5000-01,PI,5000-01-PMV-03-235,PI_TP,PIPING TEST PACKAGE,DONE
-5000-01,PI,5000-01-PMV-04-252,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
+5000-01,PI,5000-01-PMV-04-252,PI_TP,PIPING TEST PACKAGE,Done
 5000-01,PI,5000-01-PMV-05-398,PI_TP,PIPING TEST PACKAGE,DONE
 5000-01,PI,5000-01-PMV-06-399,PI_TP,PIPING TEST PACKAGE,DONE
 5000-01,PI,5000-01-PMV-07-400,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4907,7 +4907,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 5000-05,PI,5000-05-LOS-08-381,PI_TP,PIPING TEST PACKAGE,DONE
 4000-01,PI,5000-05-N-01-776,PI_TP,PIPING TEST PACKAGE,DONE
 5000-05,PI,5000-05-OW-01-232,PI_TP,PIPING TEST PACKAGE,DONE
-5000-05,PI,5000-05-PMV-01-764,PI_TP,PIPING TEST PACKAGE,HYDROTEST
+5000-05,PI,5000-05-PMV-01-764,PI_TP,PIPING TEST PACKAGE,Done
 4000-08,PI,56-CWS-020,PI_TP,PIPING TEST PACKAGE,DONE
 4000-14,PI,56-FW-010,PI_TP,PIPING TEST PACKAGE,DONE
 4000-14,PI,56-FW-014,PI_TP,PIPING TEST PACKAGE,DONE
@@ -5422,9 +5422,9 @@ NO SUBS.,PI,61-SUMP-091,PI_TP,PIPING TEST PACKAGE,DONE
 3000-03,MES,AE-3002-2,Air_Cooler(AE),Air_Cooler-2,47%
 3000-03,MES,AE-3002-3,Air_Cooler(AE),Air_Cooler-3,47%
 5000-01,MES,AE-5004,Air_Cooler(AE),Air_Cooler,71%
-5000-01,MES,AE-5005-A,Air_Cooler(AE),,47%
-5000-01,MES,AE-5005-B,Air_Cooler(AE),,41%
-5000-01,MES,AE-5005-C,Air_Cooler(AE),,41%
+5000-01,MES,AE-5005-A,Air_Cooler(AE),Air_Cooler,47%
+5000-01,MES,AE-5005-B,Air_Cooler(AE),Air_Cooler,41%
+5000-01,MES,AE-5005-C,Air_Cooler(AE),Air_Cooler,41%
 5000-02,MES,AE-5005-D,Air_Cooler(AE),,47%
 5000-01,MES,AE-5006,Air_Cooler(AE),Air_Cooler,29%
 LS-02,EL,AH-EDP-01,PANEL(EL),Emergency Distribution Panel,DONE
@@ -10981,8 +10981,8 @@ LS-01,EL,EBP-YO-LP-01,Power Cable B,Yard Office Normal Lighting & Socket Outlet 
 120-02,EL,ECC-C2002-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-C2002-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 TEL-09,EL,ECC-CR-CEC-01,Comminucation Cable,Paging Central Exchange Cabinet (in Auxiliary Room)CR-CEC-01,0%
-120-12,EL,ECC-CR-ESP-01_1,Power Cable B,PDC System Ethernet Switch Panel- CR-ESP-01,Exception(Pending)
-120-12,EL,ECC-CR-ESP-01_2,Power Cable B,PDC System Ethernet Switch Panel- CR-ESP-01,Exception(Pending)
+120-12,EL,ECC-CR-ESP-01_1,Power Cable B,PDC System Ethernet Switch Panel- CR-ESP-01,Done
+120-12,EL,ECC-CR-ESP-01_2,Power Cable B,PDC System Ethernet Switch Panel- CR-ESP-01,Done
 FGS-09,EL,ECC-CR-FACP-01,Power Cable B,Control Building HVAC Control Panel,0%
 FGS-09,EL,ECC-CR-FECP-01,Power Cable B,Control Building HVAC Control Panel,0%
 FGS-09,EL,ECC-CR-FECP-01_1,Power Cable B,Control Building Fire Fighting Control Panel JB,0%
@@ -11865,8 +11865,8 @@ DCS-01,IN,FCIAX-FT3001-03,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAX-FT3001-04,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAX-FT3001-05,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAX-FT3001-07,CABLE,CABLE(NA),Done
-DCS-01,IN,FCIAX-P7001A,CABLE,CABLE(NA),0%
-DCS-01,IN,FCIAX-P7001A-01,CABLE,CABLE(NA),0%
+DCS-01,IN,FCIAX-P7001A,CABLE,CABLE(NA),Done
+DCS-01,IN,FCIAX-P7001A-01,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAX-P7001B,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAX-P7001B-01,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIAX-P8001A,CABLE,CABLE(NA),0%
@@ -12545,7 +12545,7 @@ FGS-10,IN,FGD-0057,Fire Alarm,Fire Alarm(FGD),0%
 2000-05,IN,FI-20607B,Instrument(FI),Instrument(FI),50%
 2000-05,IN,FI-20608A,Instrument(FI),Instrument(FI),50%
 2000-05,IN,FI-20608B,Instrument(FI),Instrument(FI),50%
-3000-01,IN,FI-3010,Instrument(FI),Instrument(FI),Exception(Pending)
+3000-01,IN,FI-3010,Instrument(FI),Instrument(FI),Done
 3000-01,IN,FI-3016,Instrument(FI),Instrument(FI),Exception(Pending)
 5000-01,IN,FI-30201A,Instrument(FI),Instrument(FI),Done
 5000-01,IN,FI-50201A,Instrument(FI),Instrument(FI),Done
@@ -13082,19 +13082,19 @@ NO SUBS.,IN,FT-10219,SIGNAL,SIGNAL,0%
 120-07,EL,FT8001B-MP-1B,Local_Control_Station,Local Control Station- FT8001B-MP-1B,0%
 4000-08,IN,FT-8002(FT),Instrument(FT),Instrument(FT),Done
 4000-08,IN,FT-8002(NA),CABLE,CABLE(NA),0%
-4000-08,IN,FT-8003(FT),Instrument(FT),Instrument(FT),Exception(Pending)
+4000-08,IN,FT-8003(FT),Instrument(FT),Instrument(FT),Done
 4000-08,IN,FT-8003(NA),CABLE,CABLE(NA),0%
-4000-08,IN,FT-8004(FT),Instrument(FT),Instrument(FT),Exception(Pending)
+4000-08,IN,FT-8004(FT),Instrument(FT),Instrument(FT),Done
 4000-08,IN,FT-8004(NA),CABLE,CABLE(NA),Done
-4000-08,IN,FT-8005(FT),Instrument(FT),Instrument(FT),Exception(Pending)
+4000-08,IN,FT-8005(FT),Instrument(FT),Instrument(FT),Done
 4000-08,IN,FT-8005(NA),CABLE,CABLE(NA),0%
-4000-08,IN,FT-8006(FT),Instrument(FT),Instrument(FT),Exception(Pending)
+4000-08,IN,FT-8006(FT),Instrument(FT),Instrument(FT),Done
 4000-08,IN,FT-8006(NA),CABLE,CABLE(NA),0%
 4000-08,IN,FT-8012(FT),Instrument(FT),Instrument(FT),Done
 4000-08,IN,FT-8012(NA),CABLE,CABLE(NA),0%
 4000-08,IN,FT-8013(FT),Instrument(FT),Instrument(FT),Done
 4000-08,IN,FT-8013(NA),CABLE,CABLE(NA),0%
-4000-08,IN,FT-8014(FT),Instrument(FT),Instrument(FT),Exception(Pending)
+4000-08,IN,FT-8014(FT),Instrument(FT),Instrument(FT),Done
 4000-08,IN,FT-8014(NA),CABLE,CABLE(NA),0%
 4000-12,IN,FT-8415(FT),Instrument(FT),Instrument(FT),Done
 4000-12,IN,FT-8415(NA),CABLE,CABLE(NA),0%
@@ -13300,7 +13300,7 @@ NO SUBS.,IN,FV-30111,PKG,PKG,33%
 4000-06,IN,FV-75150B,Instrument(FV),Instrument(FV),25%
 4000-06,IN,FV-75151,Instrument(FV),Instrument(FV),25%
 4000-06,IN,FV-75152,Instrument(FV),Instrument(FV),0%
-4000-08,IN,FV-8003(FV),Instrument(FV),Instrument(FV),Exception(Pending)
+4000-08,IN,FV-8003(FV),Instrument(FV),Instrument(FV),Done
 4000-08,IN,FV-8003(NA),CABLE,CABLE(NA),0%
 3000-03,IN,FX-3167,SIGNAL,SIGNAL,Exception(Pending)
 2000-03,IN,FY-2007A,SIGNAL,SIGNAL,Exception(Pending)
@@ -14945,13 +14945,13 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 4000-06,IN,LSL-75201B(NA),CABLE,CABLE(NA),0%
 4000-06,IN,LSL-75203A(LSL),Instrument(LSL),Instrument(LSL),50%
 4000-06,IN,LSL-75203A(NA),CABLE,CABLE(NA),0%
-4000-08,IN,LSL-80201(LSL),Instrument(LSL),Instrument(LSL),Exception(Pending)
+4000-08,IN,LSL-80201(LSL),Instrument(LSL),Instrument(LSL),Done
 4000-08,IN,LSL-80201(NA),CABLE,CABLE(NA),0%
-4000-08,IN,LSL-80202(LSL),Instrument(LSL),Instrument(LSL),Exception(Pending)
+4000-08,IN,LSL-80202(LSL),Instrument(LSL),Instrument(LSL),Done
 4000-08,IN,LSL-80202(NA),CABLE,CABLE(NA),0%
-4000-08,IN,LSL-80203(LSL),Instrument(LSL),Instrument(LSL),Exception(Pending)
+4000-08,IN,LSL-80203(LSL),Instrument(LSL),Instrument(LSL),Done
 4000-08,IN,LSL-80203(NA),CABLE,CABLE(NA),0%
-4000-08,IN,LSL-80204(LSL),Instrument(LSL),Instrument(LSL),Exception(Pending)
+4000-08,IN,LSL-80204(LSL),Instrument(LSL),Instrument(LSL),Done
 4000-08,IN,LSL-80204(NA),CABLE,CABLE(NA),0%
 4000-10,IN,LSL-8414(LSL),Instrument(LSL),Instrument(LSL),0%
 4000-10,IN,LSL-8414(NA),CABLE,CABLE(NA),0%
@@ -15774,10 +15774,10 @@ BLD-06,BD,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Wor
 3000-01,IN,ML-30139A,PKG,PKG,Exception(Pending)
 3000-01,IN,ML-30139B,PKG,PKG,Exception(Pending)
 1000-01,IN,MOS-1001,SIGNAL,SIGNAL,Done
-3000-01,IN,MOV-30101,Instrument(MOV),Instrument(MOV),Exception(Pending)
-3000-01,IN,MOV-30103,Instrument(MOV),Instrument(MOV),Exception(Pending)
-3000-01,IN,MOV-30105,Instrument(MOV),Instrument(MOV),Exception(Pending)
-3000-01,IN,MOV-30107,Instrument(MOV),Instrument(MOV),Exception(Pending)
+3000-01,IN,MOV-30101,Instrument(MOV),Instrument(MOV),Done
+3000-01,IN,MOV-30103,Instrument(MOV),Instrument(MOV),Done
+3000-01,IN,MOV-30105,Instrument(MOV),Instrument(MOV),Done
+3000-01,IN,MOV-30107,Instrument(MOV),Instrument(MOV),Done
 120-02,EL,MP-0001A,Local_Control_Station,Local Control Station- MP-0001A,Done
 120-02,EL,MP-0001B,Local_Control_Station,Local Control Station- MP-0001B,Done
 120-02,EL,MP-2001A,Local_Control_Station,Local Control Station- MP-2001A,Done
@@ -18518,7 +18518,7 @@ NO SUBS.,IN,PT-10224,SIGNAL,SIGNAL,0%
 7000-01,IN,PT-7151(NA),CABLE,CABLE(NA),Done
 7000-01,IN,PT-7151(PT),Instrument(PT),Instrument(PT),Done
 4000-08,IN,PT-8007(NA),CABLE,CABLE(NA),0%
-4000-08,IN,PT-8007(PT),Instrument(PT),Instrument(PT),Exception(Pending)
+4000-08,IN,PT-8007(PT),Instrument(PT),Instrument(PT),Done
 4000-08,IN,PT-80106A,Instrument(PT),Instrument(PT),Done
 4000-08,IN,PT-80106B,Instrument(PT),Instrument(PT),Done
 4000-08,IN,PT-80121A,Instrument(PT),Instrument(PT),Done
@@ -22564,7 +22564,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 4000-06,IN,UV-75163,Instrument(UV),Instrument(UV),0%
 4000-06,IN,UV-75164,Instrument(UV),Instrument(UV),0%
 4000-06,IN,UV-75165,Instrument(UV),Instrument(UV),0%
-4000-08,IN,UV-8003,Instrument(UV),Instrument(UV),Exception(Pending)
+4000-08,IN,UV-8003,Instrument(UV),Instrument(UV),Done
 4000-06,IN,UV-8411,Instrument(UV),Instrument(UV),25%
 4000-06,IN,UV-8412,Instrument(UV),Instrument(UV),0%
 4000-06,IN,UV-8413,Instrument(UV),Instrument(UV),25%
@@ -22620,7 +22620,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 4000-06,IN,UY-75164,Instrument(X),Instrument(UY),0%
 4000-06,IN,UY-75165,Instrument(X),Instrument(UY),0%
 4000-08,IN,UY-8003(NA),CABLE,CABLE(NA),0%
-4000-08,IN,UY-8003(UY),Instrument(X),Instrument(UY),Exception(Pending)
+4000-08,IN,UY-8003(UY),Instrument(X),Instrument(UY),Done
 4000-06,IN,UY-8411(NA),CABLE,CABLE(NA),Done
 4000-06,IN,UY-8411(UY),Instrument(X),Instrument(UY),0%
 4000-06,IN,UY-8412(NA),CABLE,CABLE(NA),Done
@@ -22741,7 +22741,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 4000-06,IN,UZSH-75164,Instrument(X),Instrument(UZSH),0%
 4000-06,IN,UZSH-75165,Instrument(X),Instrument(UZSH),0%
 4000-08,IN,UZSH-8003(NA),CABLE,CABLE(NA),0%
-4000-08,IN,UZSH-8003(UZSH),Instrument(X),Instrument(UZSH),Exception(Pending)
+4000-08,IN,UZSH-8003(UZSH),Instrument(X),Instrument(UZSH),Done
 4000-06,IN,UZSH-8411(NA),CABLE,CABLE(NA),Done
 4000-06,IN,UZSH-8411(UZSH),Instrument(X),Instrument(UZSH),0%
 4000-06,IN,UZSH-8412(NA),CABLE,CABLE(NA),Done
@@ -22870,7 +22870,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 4000-06,IN,UZSL-75164,Instrument(X),Instrument(UZSL),0%
 4000-06,IN,UZSL-75165,Instrument(X),Instrument(UZSL),0%
 4000-08,IN,UZSL-8003(NA),CABLE,CABLE(NA),0%
-4000-08,IN,UZSL-8003(UZSL),Instrument(X),Instrument(UZSL),Exception(Pending)
+4000-08,IN,UZSL-8003(UZSL),Instrument(X),Instrument(UZSL),Done
 4000-06,IN,UZSL-8411(NA),CABLE,CABLE(NA),Done
 4000-06,IN,UZSL-8411(UZSL),Instrument(X),Instrument(UZSL),0%
 4000-06,IN,UZSL-8412(NA),CABLE,CABLE(NA),Done
