@@ -1,7 +1,7 @@
 ﻿SD_System,SD_Sub_System,SD_System_Name,SD_Subsystem_Name,discipline,TOTAL ITEM,TOTAL DONE,TOTAL PENDING,TOTAL PUNCH,TOTAL CLEAR PUNCH,TOTAL NOT CLEAR PUNCH,TOTAL HOLD POINT
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,110,15,304,153,151,34
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,24,23,1,73,39,34,28
-1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,1,4,44,5,39,0
+1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,2,3,44,6,38,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,0,1,6,0,6,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,PI,12,12,0,27,24,3,3
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,IN,176,67,13,262,142,120,11
@@ -60,7 +60,7 @@
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,0,11,19,0,19,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,9,0,9,30,0,30,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,32,0,109,51,58,8
-3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,71,13,226,110,116,99
+3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,71,13,226,131,95,99
 3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,0,2,20,0,20,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,12,7,5,2
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,176,15,75,317,300,17,5
@@ -147,7 +147,7 @@ BLD,BLD-05,Building,Diesel Room,BD,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,BD,14,14,0,31,7,24,0
 BLD,BLD-07,Building,Analyzer House,BD,8,8,0,19,7,12,0
 CVL,CVL-01,Civil Work,Civil Work of All Area,CV,14,0,0,775,0,775,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,949,9,4619,1803,2816,805
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2570,949,9,4619,1807,2812,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,281,0,2191,2191,0,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,420,417,3,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,18,13,5,0
