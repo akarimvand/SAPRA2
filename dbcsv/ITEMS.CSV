@@ -18672,7 +18672,7 @@ NO SUBS.,IN,PZSL-84215,Instrument(X),Instrument(PZSL),0%
 NO SUBS.,IN,PZT-84210,Instrument(X),Instrument(PZT),0%
 NO SUBS.,IN,PZT-84215,Instrument(X),Instrument(PZT),0%
 1000-01,MES,R-1001,Reactor(R),Hydrogenator,60%
-1000-01,MES,R-1002-1,Reactor(R),Sulphur Absorber,92%
+1000-01,MES,R-1002-1,Reactor(R),Sulphur Absorber,DONE
 1000-01,MES,R-1002-2,Reactor(R),Sulphur Absorber,60%
 2000-02,MES,R-2003,Reactor(R),Prereformer,48%
 2000-03,MES,R-2004,Reactor(R),Secondary Reformer,52%
