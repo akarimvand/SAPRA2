@@ -82,7 +82,7 @@
 4000,4000-05,Utility,Blow Down,MES,4,0,4,23,0,23,0
 4000,4000-05,Utility,Blow Down,IN,17,17,0,15,6,9,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,2,13,16,0,16,5
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,53,1,191,120,71,167
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,53,1,206,122,84,167
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,4,8,54,0,54,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,59,63,161,53,108,107
 4000,4000-07,Utility,Plant Air,IN,2,2,0,2,0,2,2
@@ -108,7 +108,7 @@
 4000,4000-13,Utility,Slope Close Drain,PI,29,29,0,46,17,29,3
 4000,4000-14,Utility,Fire Water,IN,33,33,0,0,0,0,0
 4000,4000-14,Utility,Fire Water,MES,1,0,1,0,0,0,0
-4000,4000-14,Utility,Fire Water,PI,133,125,1,389,305,84,2536
+4000,4000-14,Utility,Fire Water,PI,133,125,1,389,304,85,2536
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,137,85,52,29
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,8,0,48,0,48,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,3,14,78,11,67,5
