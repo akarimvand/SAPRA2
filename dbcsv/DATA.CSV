@@ -59,7 +59,7 @@
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,34,4,80,24,56,45
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,0,11,19,0,19,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,9,1,8,30,0,30,0
-3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,32,0,109,51,58,8
+3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,32,0,110,70,40,8
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,71,14,226,131,95,99
 3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,0,2,20,0,20,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,12,7,5,2
@@ -108,7 +108,7 @@
 4000,4000-13,Utility,Slope Close Drain,PI,29,29,0,46,17,29,3
 4000,4000-14,Utility,Fire Water,IN,33,33,0,0,0,0,0
 4000,4000-14,Utility,Fire Water,MES,1,0,1,0,0,0,0
-4000,4000-14,Utility,Fire Water,PI,133,125,1,389,304,85,2536
+4000,4000-14,Utility,Fire Water,PI,133,125,2,389,304,85,2536
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,137,85,52,29
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,8,0,48,0,48,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,3,14,78,11,67,5
