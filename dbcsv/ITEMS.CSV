@@ -4875,8 +4875,8 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-01,PI,5000-04-N-01-172,PI_TP,PIPING TEST PACKAGE,DONE
 4000-01,PI,5000-04-N-02-173,PI_TP,PIPING TEST PACKAGE,DONE
 5000-04,PI,5000-04-PMC-01-615,PI_TP,PIPING TEST PACKAGE,DONE
-5000-04,PI,5000-04-PMP-01-030,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
-5000-04,PI,5000-04-PMP-02-031,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
+5000-04,PI,5000-04-PMP-01-030,PI_TP,PIPING TEST PACKAGE,DONE
+5000-04,PI,5000-04-PMP-02-031,PI_TP,PIPING TEST PACKAGE,Line Check
 5000-04,PI,5000-04-PMP-03-032,PI_TP,PIPING TEST PACKAGE,DONE
 5000-04,PI,5000-04-PMP-04-033,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
 5000-04,PI,5000-04-PMP-05-188,PI_TP,PIPING TEST PACKAGE,DONE
@@ -5958,13 +5958,13 @@ TEL-11,EL,CR-CMR-02,CCTV,"Control Room CCTV Monitor 65""",0%
 TEL-11,EL,CR-CSP-01,CCTV,CCTV Control/Switch Panel,0%
 120-07,EL,CR-EDP-01,PANEL(EL),Emergency Distribution Panel,0%
 LS-02,EL,CR-ELP-01,PANEL(EL),Emergency Lighting Panel,0%
-LS-04,EL,CR-ELP-01-01-L1-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
+LS-04,EL,CR-ELP-01-01-L1-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
 LS-04,EL,CR-ELP-01-01-L1-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-ELP-01-01-L1-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-ELP-01-01-L1-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-ELP-01-01-L1-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-ELP-01-01-L1-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-02-L2-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type|Safety Lights with Battery Backup,0%
+LS-04,EL,CR-ELP-01-02-L2-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type|Safety Lights with Battery Backup,50%
 LS-04,EL,CR-ELP-01-02-L2-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-ELP-01-02-L2-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-ELP-01-02-L2-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
@@ -5976,7 +5976,7 @@ LS-04,EL,CR-ELP-01-02-L2-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver T
 LS-04,EL,CR-ELP-01-02-L2-10,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,0%
 LS-04,EL,CR-ELP-01-02-L2-11,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,0%
 LS-04,EL,CR-ELP-01-02-L2-12,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,0%
-LS-04,EL,CR-ELP-01-03-L3-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
+LS-04,EL,CR-ELP-01-03-L3-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
 LS-04,EL,CR-ELP-01-03-L3-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type|Safety Lights with Battery Backup,0%
 LS-04,EL,CR-ELP-01-03-L3-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-ELP-01-03-L3-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
@@ -5987,7 +5987,7 @@ LS-04,EL,CR-ELP-01-03-L3-08,Lighting Fixture,Fluorescent Fixture 3*36w- Louver T
 LS-04,EL,CR-ELP-01-03-L3-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-ELP-01-03-L3-10,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-ELP-01-03-L3-11,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,0%
-LS-04,EL,CR-ELP-01-04-L1-01,Lighting Fixture,LED Luminaires Fixture| Wall Mounted,0%
+LS-04,EL,CR-ELP-01-04-L1-01,Lighting Fixture,LED Luminaires Fixture| Wall Mounted,50%
 LS-04,EL,CR-ELP-01-04-L1-02,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,0%
 LS-04,EL,CR-ELP-01-04-L1-03,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,0%
 LS-04,EL,CR-ELP-01-04-L1-04,Lighting Fixture,LED Luminaires Fixture| Wall Mounted,0%
@@ -5997,7 +5997,7 @@ LS-04,EL,CR-ELP-01-04-L1-07,Lighting Fixture,LED Luminaires Fixture| Wall Mounte
 LS-04,EL,CR-ELP-01-04-L1-08,Lighting Fixture,LED Luminaires Fixture| Wall Mounted,0%
 LS-04,EL,CR-ELP-01-04-L1-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-ELP-01-04-L1-10,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-05-L2-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
+LS-04,EL,CR-ELP-01-05-L2-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
 LS-04,EL,CR-ELP-01-05-L2-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-ELP-01-05-L2-03,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
 LS-04,EL,CR-ELP-01-05-L2-04,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,0%
@@ -6012,14 +6012,14 @@ LS-04,EL,CR-ELP-01-05-L2-12,Lighting Fixture,Fluorescent Fixture 2*36w- WP|Safet
 LS-04,EL,CR-ELP-01-05-L2-13,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
 LS-04,EL,CR-ELP-01-05-L2-14,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
 LS-04,EL,CR-ELP-01-05-L2-15,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
-LS-04,EL,CR-ELP-01-06-L3-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
+LS-04,EL,CR-ELP-01-06-L3-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
 LS-04,EL,CR-ELP-01-06-L3-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-ELP-01-06-L3-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-ELP-01-06-L3-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-ELP-01-06-L3-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-ELP-01-06-L3-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-ELP-01-06-L3-07,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-07-L1-01,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,0%
+LS-04,EL,CR-ELP-01-07-L1-01,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,50%
 LS-04,EL,CR-ELP-01-07-L1-02,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type|Safety Lights with Battery Backup,0%
 LS-04,EL,CR-ELP-01-07-L1-03,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,0%
 LS-04,EL,CR-ELP-01-07-L1-04,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type|Safety Lights with Battery Backup,0%
@@ -6034,13 +6034,13 @@ NO SUBS.,EL,CR-HDP-01,PANEL(EL),HVAC Distribution Panel,0%
 NO SUBS.,EL,CR-HDP-02,PANEL(EL),HVAC Distribution Panel,0%
 NO SUBS.,EL,CR-LCP-0010,PANEL(EL),HVAC Local Control Panel,0%
 LS-01,EL,CR-LP-01,PANEL(EL),Normal Lighting Panel,0%
-LS-04,EL,CR-LP-01-01-L1-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
+LS-04,EL,CR-LP-01-01-L1-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
 LS-04,EL,CR-LP-01-01-L1-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-LP-01-01-L1-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-LP-01-01-L1-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-LP-01-01-L1-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-LP-01-01-L1-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-02-L2-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
+LS-04,EL,CR-LP-01-02-L2-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
 LS-04,EL,CR-LP-01-02-L2-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-LP-01-02-L2-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-LP-01-02-L2-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
@@ -6049,7 +6049,7 @@ LS-04,EL,CR-LP-01-02-L2-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Ty
 LS-04,EL,CR-LP-01-02-L2-07,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-LP-01-02-L2-08,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-LP-01-02-L2-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-03-L3-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
+LS-04,EL,CR-LP-01-03-L3-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
 LS-04,EL,CR-LP-01-03-L3-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-LP-01-03-L3-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-LP-01-03-L3-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
@@ -6060,7 +6060,7 @@ LS-04,EL,CR-LP-01-03-L3-08,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Ty
 LS-04,EL,CR-LP-01-03-L3-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-LP-01-03-L3-10,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-LP-01-03-L3-11,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-04-L1-01,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,0%
+LS-04,EL,CR-LP-01-04-L1-01,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,50%
 LS-04,EL,CR-LP-01-04-L1-02,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,0%
 LS-04,EL,CR-LP-01-04-L1-03,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,0%
 LS-04,EL,CR-LP-01-04-L1-04,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,0%
@@ -6073,7 +6073,7 @@ LS-04,EL,CR-LP-01-04-L1-10,Lighting Fixture,Lighting Fixture 30w Energy Saving- 
 LS-04,EL,CR-LP-01-04-L1-11,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-LP-01-04-L1-12,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-LP-01-04-L1-13,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-05-L2-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
+LS-04,EL,CR-LP-01-05-L2-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
 LS-04,EL,CR-LP-01-05-L2-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-LP-01-05-L2-03,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
 LS-04,EL,CR-LP-01-05-L2-04,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
@@ -6087,7 +6087,7 @@ LS-04,EL,CR-LP-01-05-L2-11,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
 LS-04,EL,CR-LP-01-05-L2-12,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
 LS-04,EL,CR-LP-01-05-L2-13,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
 LS-04,EL,CR-LP-01-05-L2-14,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
-LS-04,EL,CR-LP-01-06-L3-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
+LS-04,EL,CR-LP-01-06-L3-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
 LS-04,EL,CR-LP-01-06-L3-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-LP-01-06-L3-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-LP-01-06-L3-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
@@ -6096,7 +6096,7 @@ LS-04,EL,CR-LP-01-06-L3-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Ty
 LS-04,EL,CR-LP-01-06-L3-07,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-LP-01-06-L3-08,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-04,EL,CR-LP-01-06-L3-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-07-L1-01,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,0%
+LS-04,EL,CR-LP-01-07-L1-01,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,50%
 LS-04,EL,CR-LP-01-07-L1-02,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,0%
 LS-04,EL,CR-LP-01-07-L1-03,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,0%
 LS-04,EL,CR-LP-01-07-L1-04,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,0%
@@ -15020,7 +15020,7 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 5000-02,IN,LST-5204(LST),Instrument(LST),Instrument(LST),Done
 5000-02,IN,LST-5204(NA),CABLE,CABLE(NA),Done
 5000-03,IN,LST-5271(LST),Instrument(LST),Instrument(LST),Done
-5000-03,IN,LST-5271(NA),CABLE,CABLE(NA),50%
+5000-03,IN,LST-5271(NA),CABLE,CABLE(NA),Done
 5000-03,IN,LST-5322(LST),Instrument(LST),Instrument(LST),Done
 5000-03,IN,LST-5322(NA),CABLE,CABLE(NA),0%
 5000-04,IN,LST-5397(LST),Instrument(LST),Instrument(LST),0%
@@ -18436,7 +18436,7 @@ NO SUBS.,IN,PT-10224,SIGNAL,SIGNAL,0%
 5000-02,IN,PT-5166(PT),Instrument(PT),Instrument(PT),Done
 5000-02,IN,PT-5168(NA),CABLE,CABLE(NA),Done
 5000-02,IN,PT-5168(PT),Instrument(PT),Instrument(PT),Done
-5000-02,IN,PT-5170(NA),CABLE,CABLE(NA),50%
+5000-02,IN,PT-5170(NA),CABLE,CABLE(NA),Done
 5000-02,IN,PT-5170(PT),Instrument(PT),Instrument(PT),Done
 5000-02,IN,PT-5172(NA),CABLE,CABLE(NA),Done
 5000-02,IN,PT-5172(PT),Instrument(PT),Instrument(PT),Done
@@ -20486,7 +20486,7 @@ NO SUBS.,IN,TE-10208-2,PKG,PKG,0%
 5000-02,IN,TE-5184(TE),Instrument(TE),Instrument(TE),Done
 5000-02,IN,TE-5208(NA),CABLE,CABLE(NA),0%
 5000-02,IN,TE-5208(TE),Instrument(TE),Instrument(TE),Done
-5000-02,IN,TE-5209(NA),CABLE,CABLE(NA),0%
+5000-02,IN,TE-5209(NA),CABLE,CABLE(NA),Done
 5000-02,IN,TE-5209(TE),Instrument(TE),Instrument(TE),Done
 5000-02,IN,TE-5219(NA),CABLE,CABLE(NA),Done
 5000-02,IN,TE-5219(TE),Instrument(TE),Instrument(TE),Done
@@ -20498,7 +20498,7 @@ NO SUBS.,IN,TE-10208-2,PKG,PKG,0%
 5000-03,IN,TE-5262(TE),Instrument(TE),Instrument(TE),Done
 5000-03,IN,TE-5263(NA),CABLE,CABLE(NA),Done
 5000-03,IN,TE-5263(TE),Instrument(TE),Instrument(TE),Done
-5000-03,IN,TE-5264(NA),CABLE,CABLE(NA),0%
+5000-03,IN,TE-5264(NA),CABLE,CABLE(NA),Done
 5000-03,IN,TE-5264(TE),Instrument(TE),Instrument(TE),Done
 5000-03,IN,TE-5265(NA),CABLE,CABLE(NA),Done
 5000-03,IN,TE-5265(TE),Instrument(TE),Instrument(TE),Done
@@ -21046,8 +21046,8 @@ NO SUBS.,MES,TK-3013,005-Tank(TK),Run Down Tank,82%
 4000-06,MES,TK-7001-2,005-Tank(TK),Demineralized Water Tank (TK 7001 2) OUT OF SCOPE,12%
 1000-03,MES,TK-7002,005-Tank(TK),Process Condensate Buffer Tank (TK 7002) OUT OF SCOPE,6%
 4000-06,MES,TK-7501,005-Tank(TK),CONDENSATE TANK (TK 7501) OUT OF SCOPE,29%
-4000-06,MES,TK-8401,005-Tank(TK),CAUSTIC SODA TANK,76%
-4000-06,MES,TK-8402,005-Tank(TK),SULPHURIC ACID TANK,76%
+4000-06,MES,TK-8401,005-Tank(TK),CAUSTIC SODA TANK,94%
+4000-06,MES,TK-8402,005-Tank(TK),SULPHURIC ACID TANK,94%
 120-13,EL,TR01-AJB01_1,Cathodic Protection,Cable 1x35,DONE
 120-13,EL,TR01-AJB01_2,Cathodic Protection,Cable 1x35,DONE
 120-13,EL,TR01-NBB05,Cathodic Protection,Cable 1x35,DONE
@@ -21565,7 +21565,7 @@ NO SUBS.,IN,TT-30147,PKG,PKG,0%
 3000-02,IN,TT-3073(TT),Instrument(TT),Instrument(TT),Done
 3000-02,IN,TT-3077(NA),CABLE,CABLE(NA),0%
 3000-02,IN,TT-3077(TT),Instrument(TT),Instrument(TT),Done
-3000-02,IN,TT-3081(NA),CABLE,CABLE(NA),0%
+3000-02,IN,TT-3081(NA),CABLE,CABLE(NA),50%
 3000-02,IN,TT-3081(TT),Instrument(TT),Instrument(TT),Done
 3000-02,IN,TT-3084(NA),CABLE,CABLE(NA),0%
 3000-02,IN,TT-3084(TT),Instrument(TT),Instrument(TT),DONE
@@ -21577,7 +21577,7 @@ NO SUBS.,IN,TT-30147,PKG,PKG,0%
 3000-02,IN,TT-3116(TT),Instrument(TT),Instrument(TT),DONE
 3000-02,IN,TT-3118(NA),CABLE,CABLE(NA),Done
 3000-02,IN,TT-3118(TT),Instrument(TT),Instrument(TT),DONE
-3000-03,IN,TT-3119(NA),CABLE,CABLE(NA),0%
+3000-03,IN,TT-3119(NA),CABLE,CABLE(NA),50%
 3000-03,IN,TT-3119(TT),Instrument(TT),Instrument(TT),DONE
 3000-03,IN,TT-3120(NA),CABLE,CABLE(NA),Done
 3000-03,IN,TT-3120(TT),Instrument(TT),Instrument(TT),DONE
@@ -21639,7 +21639,7 @@ NO SUBS.,IN,TT-30147,PKG,PKG,0%
 7000-01,IN,TT-5110(TT),Instrument(TT),Instrument(TT),DONE
 5000-01,IN,TT-5111(NA),CABLE,CABLE(NA),Done
 5000-01,IN,TT-5111(TT),Instrument(TT),Instrument(TT),DONE
-5000-02,IN,TT-5165(NA),CABLE,CABLE(NA),0%
+5000-02,IN,TT-5165(NA),CABLE,CABLE(NA),Done
 5000-02,IN,TT-5165(TT),Instrument(TT),Instrument(TT),DONE
 5000-02,IN,TT-5167(NA),CABLE,CABLE(NA),Done
 5000-02,IN,TT-5167(TT),Instrument(TT),Instrument(TT),DONE
@@ -21655,7 +21655,7 @@ NO SUBS.,IN,TT-30147,PKG,PKG,0%
 5000-02,IN,TT-5177(TT),Instrument(TT),Instrument(TT),DONE
 5000-02,IN,TT-5180(NA),CABLE,CABLE(NA),Done
 5000-02,IN,TT-5180(TT),Instrument(TT),Instrument(TT),DONE
-5000-02,IN,TT-5181(NA),CABLE,CABLE(NA),50%
+5000-02,IN,TT-5181(NA),CABLE,CABLE(NA),Done
 5000-02,IN,TT-5181(TT),Instrument(TT),Instrument(TT),DONE
 5000-02,IN,TT-5184(NA),CABLE,CABLE(NA),Done
 5000-02,IN,TT-5184(TT),Instrument(TT),Instrument(TT),DONE
@@ -21693,7 +21693,7 @@ NO SUBS.,IN,TT-30147,PKG,PKG,0%
 5000-03,IN,TT-5280(TT),Instrument(TT),Instrument(TT),DONE
 5000-03,IN,TT-5307(NA),CABLE,CABLE(NA),Done
 5000-03,IN,TT-5307(TT),Instrument(TT),Instrument(TT),DONE
-5000-03,IN,TT-5325(NA),CABLE,CABLE(NA),0%
+5000-03,IN,TT-5325(NA),CABLE,CABLE(NA),Done
 5000-03,IN,TT-5325(TT),Instrument(TT),Instrument(TT),Done
 5000-03,IN,TT-5335(NA),CABLE,CABLE(NA),Done
 5000-03,IN,TT-5335(TT),Instrument(TT),Instrument(TT),DONE
@@ -22476,7 +22476,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 4000-04,IN,USY-5215,SIGNAL,SIGNAL,Exception(Pending)
 4000-04,IN,USY-5232,SIGNAL,SIGNAL,Exception(Pending)
 4000-04,IN,USY-5236,SIGNAL,SIGNAL,Exception(Pending)
-4000-02,IN,USY-5302(NA),CABLE,CABLE(NA),0%
+4000-02,IN,USY-5302(NA),CABLE,CABLE(NA),Done
 4000-02,IN,USY-5302(USY),Instrument(X),Instrument(USY),Done
 4000-04,IN,USY-5328,SIGNAL,SIGNAL,Exception(Pending)
 4000-04,IN,USY-5332,SIGNAL,SIGNAL,Exception(Pending)
@@ -22701,7 +22701,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 3000-03,IN,UZSH-3172(UZSH),Instrument(X),Instrument(UZSH),0%
 5000-01,IN,UZSH-5021(NA),CABLE,CABLE(NA),Done
 5000-01,IN,UZSH-5021(UZSH),Instrument(X),Instrument(UZSH),0%
-4000-02,IN,UZSH-5302(NA),CABLE,CABLE(NA),0%
+4000-02,IN,UZSH-5302(NA),CABLE,CABLE(NA),Done
 4000-02,IN,UZSH-5302(UZSH),Instrument(X),Instrument(UZSH),Done
 5000-04,IN,UZSH-5391(NA),CABLE,CABLE(NA),Done
 5000-04,IN,UZSH-5391(UZSH),Instrument(X),Instrument(UZSH),0%
@@ -22830,7 +22830,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 3000-03,IN,UZSL-3172(UZSL),Instrument(X),Instrument(UZSL),0%
 5000-01,IN,UZSL-5021(NA),CABLE,CABLE(NA),Done
 5000-01,IN,UZSL-5021(UZSL),Instrument(X),Instrument(UZSL),0%
-4000-02,IN,UZSL-5302(NA),CABLE,CABLE(NA),0%
+4000-02,IN,UZSL-5302(NA),CABLE,CABLE(NA),Done
 4000-02,IN,UZSL-5302(UZSL),Instrument(X),Instrument(UZSL),Done
 5000-04,IN,UZSL-5391(NA),CABLE,CABLE(NA),Done
 5000-04,IN,UZSL-5391(UZSL),Instrument(X),Instrument(UZSL),0%
