@@ -11,12 +11,12 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,193,54,397,144,253,107
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,53,3,176,117,59,57
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,185,0,2193,2019,174,2
-120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,346,17,3523,3238,285,31
-120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,314,15,3128,2868,260,44
+120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,346,17,3541,3238,303,31
+120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,314,15,3134,2868,266,44
 120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,306,285,20,2141,2064,77,42
 120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,284,276,8,2193,2152,41,32
 120,120-06,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-05,EL,262,258,3,2465,2391,74,11
-120,120-07,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-ESWB3A/B-01,EL,158,8,84,579,396,183,134
+120,120-07,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-ESWB3A/B-01,EL,158,8,84,580,396,184,134
 120,120-08,Electrical Distribution Substation,Emergency Diesel Generator SS-DG-5701,EL,8,0,0,0,0,0,7
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,EL,29,29,0,119,51,68,0
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,IN,2,2,0,6,6,0,0
@@ -140,7 +140,7 @@
 BLD,BLD-01,Building,Substation,PI,4,4,0,6,3,3,9
 BLD,BLD-01,Building,Substation,BD,14,0,0,63,34,29,0
 BLD,BLD-02,Building,Control Building,PI,1,1,0,6,5,1,1
-BLD,BLD-02,Building,Control Building,BD,8,0,0,48,14,34,0
+BLD,BLD-02,Building,Control Building,BD,8,0,0,48,23,25,0
 BLD,BLD-03,Building,Laboratory,BD,14,0,0,0,0,0,0
 BLD,BLD-04,Building,Security Building,BD,14,0,0,18,7,11,0
 BLD,BLD-05,Building,Diesel Room,BD,14,0,0,0,0,0,0
