@@ -114,7 +114,7 @@ LS-04,EL,01-SJB1-1-08,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving L
 LS-04,EL,01-SJB1-1-09,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving Lamp 30w- WP,50%
 LS-05,EL,01-SJB1-1-10,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving Lamp 30w- WP,0%
 LS-05,EL,01-SJB1-1-11,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving Lamp 30w- EX,0%
-LS-04,EL,01-SJB1-1-CR,Lighting Cable,Safety Junction Box,0%
+LS-04,EL,01-SJB1-1-CR,Lighting Cable,Safety Junction Box,33%
 LS-03,EL,01-SJB1-1-FJB,Lighting Cable,Safety Lighting Junction Box,33%
 LS-05,EL,01-SJB1-1-LAB,Lighting Cable,Safety Junction Box,0%
 TEL-01,EL,01-SP-01,Paging Device,Loud Speaker- 25W,0%
@@ -5912,18 +5912,18 @@ LS-11,EL,AWLP3(LS-11),PANEL(EL),Aircraft Warning Light Control Panel,0%
 120-13,EL,BD-VB-7004,Cathodic Protection,Valve Box Cable Size :1x16mm2,DONE
 120-13,EL,BD-VB-7006_1,Cathodic Protection,Valve Box Cable Size :1x16mm2,DONE
 120-13,EL,BD-VB-7006_2,Cathodic Protection,Valve Box Cable Size :1x16mm2,DONE
-BLD-02,BD,Beams & Slab(BLD-02),03-Beams & Slab,Beam and slab installation,DONE
-BLD-07,BD,Beams & Slab(BLD-07),03-Beams & Slab,Beams & Slab,DONE
-BLD-01,BD,Beams & Slab(First Floor BLD-01),03-Beams & Slab,Beams & Slab(First Floor BLD-01),DONE
+BLD-02,BD,Beams & Slab(BLD-02),03-Beams & Slab,Beam and slab installation,0%
+BLD-07,BD,Beams & Slab(BLD-07),03-Beams & Slab,Beams & Slab,0%
+BLD-01,BD,Beams & Slab(First Floor BLD-01),03-Beams & Slab,Beams & Slab(First Floor BLD-01),0%
 BLD-03,BD,Beams & Slab(First Floor BLD-03),03-Beams & Slab,Beams & Slab(First Floor BLD-03),0%
-BLD-04,BD,Beams & Slab(First Floor BLD-04),03-Beams & Slab,Beams & Slab(First Floor BLD-04),DONE
+BLD-04,BD,Beams & Slab(First Floor BLD-04),03-Beams & Slab,Beams & Slab(First Floor BLD-04),0%
 BLD-05,BD,Beams & Slab(First Floor BLD-05),03-Beams & Slab,Beams & Slab(First Floor BLD-05),0%
-BLD-06,BD,Beams & Slab(First Floor BLD-06),03-Beams & Slab,Beams & Slab(First Floor BLD-06),DONE
-BLD-01,BD,Beams & Slab(Ground Floor BLD-01),03-Beams & Slab,Beams & Slab(Ground Floor BLD-01),DONE
+BLD-06,BD,Beams & Slab(First Floor BLD-06),03-Beams & Slab,Beams & Slab(First Floor BLD-06),0%
+BLD-01,BD,Beams & Slab(Ground Floor BLD-01),03-Beams & Slab,Beams & Slab(Ground Floor BLD-01),0%
 BLD-03,BD,Beams & Slab(Ground Floor BLD-03),03-Beams & Slab,Beams & Slab(Ground Floor BLD-03),0%
-BLD-04,BD,Beams & Slab(Ground Floor BLD-04),03-Beams & Slab,Beams & Slab(Ground Floor BLD-04),DONE
+BLD-04,BD,Beams & Slab(Ground Floor BLD-04),03-Beams & Slab,Beams & Slab(Ground Floor BLD-04),0%
 BLD-05,BD,Beams & Slab(Ground Floor BLD-05),03-Beams & Slab,Beams & Slab(Ground Floor BLD-05),0%
-BLD-06,BD,Beams & Slab(Ground Floor BLD-06),03-Beams & Slab,Beams & Slab(Ground Floor BLD-06),DONE
+BLD-06,BD,Beams & Slab(Ground Floor BLD-06),03-Beams & Slab,Beams & Slab(Ground Floor BLD-06),0%
 BLD-01,PI,BLD-01-IG55-01-689,PI_TP,PIPING TEST PACKAGE,DONE
 BLD-01,PI,BLD-01-IG55-02-758,PI_TP,PIPING TEST PACKAGE,DONE
 BLD-01,PI,BLD-01-IG55-03-993,PI_TP,PIPING TEST PACKAGE,DONE
@@ -5940,18 +5940,18 @@ NO SUBS.,MES,CATALYST_TUBE,REFORMER,CATALYST_TUBE,
 NO SUBS.,MES,COLD_AIR_DUCT,REFORMER,COLD_AIR_DUCT,
 NO SUBS.,MES,COLD_COLLECTOR,REFORMER,COLD_COLLECTOR,
 NO SUBS.,MES,COLD_FLUE_GAS_DUCT,REFORMER,COLD_FLUE_GAS_DUCT,
-BLD-02,BD,Column & Walls(BLD-02),02-Column & Walls,Structural columns and wall building,DONE
-BLD-07,BD,Column & Walls(BLD-07),02-Column & Walls,Column & Walls,DONE
-BLD-01,BD,Column & Walls(First Floor BLD-01),02-Column & Walls,Column & Walls(First Floor BLD-01),DONE
+BLD-02,BD,Column & Walls(BLD-02),02-Column & Walls,Structural columns and wall building,0%
+BLD-07,BD,Column & Walls(BLD-07),02-Column & Walls,Column & Walls,0%
+BLD-01,BD,Column & Walls(First Floor BLD-01),02-Column & Walls,Column & Walls(First Floor BLD-01),0%
 BLD-03,BD,Column & Walls(First Floor BLD-03),02-Column & Walls,Column & Walls(First Floor BLD-03),0%
-BLD-04,BD,Column & Walls(First Floor BLD-04),02-Column & Walls,Column & Walls(First Floor BLD-04),DONE
+BLD-04,BD,Column & Walls(First Floor BLD-04),02-Column & Walls,Column & Walls(First Floor BLD-04),0%
 BLD-05,BD,Column & Walls(First Floor BLD-05),02-Column & Walls,Column & Walls(First Floor BLD-05),0%
-BLD-06,BD,Column & Walls(First Floor BLD-06),02-Column & Walls,Column & Walls(First Floor BLD-06),DONE
-BLD-01,BD,Column & Walls(Ground Floor BLD-01),02-Column & Walls,Column & Walls(Ground Floor BLD-01),DONE
+BLD-06,BD,Column & Walls(First Floor BLD-06),02-Column & Walls,Column & Walls(First Floor BLD-06),0%
+BLD-01,BD,Column & Walls(Ground Floor BLD-01),02-Column & Walls,Column & Walls(Ground Floor BLD-01),0%
 BLD-03,BD,Column & Walls(Ground Floor BLD-03),02-Column & Walls,Column & Walls(Ground Floor BLD-03),0%
-BLD-04,BD,Column & Walls(Ground Floor BLD-04),02-Column & Walls,Column & Walls(Ground Floor BLD-04),DONE
+BLD-04,BD,Column & Walls(Ground Floor BLD-04),02-Column & Walls,Column & Walls(Ground Floor BLD-04),0%
 BLD-05,BD,Column & Walls(Ground Floor BLD-05),02-Column & Walls,Column & Walls(Ground Floor BLD-05),0%
-BLD-06,BD,Column & Walls(Ground Floor BLD-06),02-Column & Walls,Column & Walls(Ground Floor BLD-06),DONE
+BLD-06,BD,Column & Walls(Ground Floor BLD-06),02-Column & Walls,Column & Walls(Ground Floor BLD-06),0%
 120-09,IN,COM-PDP-CR-01,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
 120-09,IN,COM-PDP-CR-02,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
 NO SUBS.,PI,CONTROL BULDING-FW Line-02,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
@@ -5966,74 +5966,74 @@ TEL-11,EL,CR-CSP-01,CCTV,CCTV Control/Switch Panel,0%
 120-07,EL,CR-EDP-01,PANEL(EL),Emergency Distribution Panel,0%
 LS-02,EL,CR-ELP-01,PANEL(EL),Emergency Lighting Panel,0%
 LS-04,EL,CR-ELP-01-01-L1-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
-LS-04,EL,CR-ELP-01-01-L1-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-01-L1-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-01-L1-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-01-L1-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-01-L1-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
+LS-04,EL,CR-ELP-01-01-L1-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-01-L1-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-01-L1-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-01-L1-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-01-L1-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
 LS-04,EL,CR-ELP-01-02-L2-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type|Safety Lights with Battery Backup,50%
-LS-04,EL,CR-ELP-01-02-L2-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-02-L2-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-02-L2-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-02-L2-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-02-L2-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-02-L2-07,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-02-L2-08,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-02-L2-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-02-L2-10,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,0%
-LS-04,EL,CR-ELP-01-02-L2-11,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,0%
-LS-04,EL,CR-ELP-01-02-L2-12,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,0%
+LS-04,EL,CR-ELP-01-02-L2-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-02-L2-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-02-L2-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-02-L2-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-02-L2-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-02-L2-07,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-02-L2-08,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-02-L2-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-02-L2-10,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,50%
+LS-04,EL,CR-ELP-01-02-L2-11,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,50%
+LS-04,EL,CR-ELP-01-02-L2-12,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,50%
 LS-04,EL,CR-ELP-01-03-L3-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
-LS-04,EL,CR-ELP-01-03-L3-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type|Safety Lights with Battery Backup,0%
-LS-04,EL,CR-ELP-01-03-L3-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-03-L3-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-03-L3-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-03-L3-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-03-L3-07,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-03-L3-08,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type|Safety Lights with Battery Backup,0%
-LS-04,EL,CR-ELP-01-03-L3-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-03-L3-10,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-03-L3-11,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,0%
+LS-04,EL,CR-ELP-01-03-L3-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type|Safety Lights with Battery Backup,50%
+LS-04,EL,CR-ELP-01-03-L3-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-03-L3-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-03-L3-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-03-L3-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-03-L3-07,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-03-L3-08,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type|Safety Lights with Battery Backup,50%
+LS-04,EL,CR-ELP-01-03-L3-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-03-L3-10,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-03-L3-11,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,50%
 LS-04,EL,CR-ELP-01-04-L1-01,Lighting Fixture,LED Luminaires Fixture| Wall Mounted,50%
-LS-04,EL,CR-ELP-01-04-L1-02,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,0%
-LS-04,EL,CR-ELP-01-04-L1-03,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,0%
-LS-04,EL,CR-ELP-01-04-L1-04,Lighting Fixture,LED Luminaires Fixture| Wall Mounted,0%
-LS-04,EL,CR-ELP-01-04-L1-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-04-L1-06,Lighting Fixture,LED Luminaires Fixture| Wall Mounted,0%
-LS-04,EL,CR-ELP-01-04-L1-07,Lighting Fixture,LED Luminaires Fixture| Wall Mounted,0%
-LS-04,EL,CR-ELP-01-04-L1-08,Lighting Fixture,LED Luminaires Fixture| Wall Mounted,0%
-LS-04,EL,CR-ELP-01-04-L1-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-04-L1-10,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
+LS-04,EL,CR-ELP-01-04-L1-02,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,50%
+LS-04,EL,CR-ELP-01-04-L1-03,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,50%
+LS-04,EL,CR-ELP-01-04-L1-04,Lighting Fixture,LED Luminaires Fixture| Wall Mounted,50%
+LS-04,EL,CR-ELP-01-04-L1-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-04-L1-06,Lighting Fixture,LED Luminaires Fixture| Wall Mounted,50%
+LS-04,EL,CR-ELP-01-04-L1-07,Lighting Fixture,LED Luminaires Fixture| Wall Mounted,50%
+LS-04,EL,CR-ELP-01-04-L1-08,Lighting Fixture,LED Luminaires Fixture| Wall Mounted,50%
+LS-04,EL,CR-ELP-01-04-L1-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-04-L1-10,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
 LS-04,EL,CR-ELP-01-05-L2-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
-LS-04,EL,CR-ELP-01-05-L2-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-05-L2-03,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
-LS-04,EL,CR-ELP-01-05-L2-04,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,0%
-LS-04,EL,CR-ELP-01-05-L2-05,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,0%
-LS-04,EL,CR-ELP-01-05-L2-06,Lighting Fixture,LED Luminaires Fixture 40w| EX,0%
-LS-04,EL,CR-ELP-01-05-L2-07,Lighting Fixture,LED Luminaires Fixture 40w| EX,0%
-LS-04,EL,CR-ELP-01-05-L2-08,Lighting Fixture,LED Luminaires Fixture 40w| EX,0%
-LS-04,EL,CR-ELP-01-05-L2-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-05-L2-10,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
-LS-04,EL,CR-ELP-01-05-L2-11,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,0%
-LS-04,EL,CR-ELP-01-05-L2-12,Lighting Fixture,Fluorescent Fixture 2*36w- WP|Safety Lights with Battery Backup,0%
-LS-04,EL,CR-ELP-01-05-L2-13,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
-LS-04,EL,CR-ELP-01-05-L2-14,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
-LS-04,EL,CR-ELP-01-05-L2-15,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
+LS-04,EL,CR-ELP-01-05-L2-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-05-L2-03,Lighting Fixture,Fluorescent Fixture 2*36w- WP,50%
+LS-04,EL,CR-ELP-01-05-L2-04,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,50%
+LS-04,EL,CR-ELP-01-05-L2-05,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,50%
+LS-04,EL,CR-ELP-01-05-L2-06,Lighting Fixture,LED Luminaires Fixture 40w| EX,50%
+LS-04,EL,CR-ELP-01-05-L2-07,Lighting Fixture,LED Luminaires Fixture 40w| EX,50%
+LS-04,EL,CR-ELP-01-05-L2-08,Lighting Fixture,LED Luminaires Fixture 40w| EX,50%
+LS-04,EL,CR-ELP-01-05-L2-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-05-L2-10,Lighting Fixture,Fluorescent Fixture 2*36w- WP,50%
+LS-04,EL,CR-ELP-01-05-L2-11,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,50%
+LS-04,EL,CR-ELP-01-05-L2-12,Lighting Fixture,Fluorescent Fixture 2*36w- WP|Safety Lights with Battery Backup,50%
+LS-04,EL,CR-ELP-01-05-L2-13,Lighting Fixture,Fluorescent Fixture 2*36w- WP,50%
+LS-04,EL,CR-ELP-01-05-L2-14,Lighting Fixture,Fluorescent Fixture 2*36w- WP,50%
+LS-04,EL,CR-ELP-01-05-L2-15,Lighting Fixture,Fluorescent Fixture 2*36w- WP,50%
 LS-04,EL,CR-ELP-01-06-L3-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
-LS-04,EL,CR-ELP-01-06-L3-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-06-L3-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-06-L3-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-06-L3-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-06-L3-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-ELP-01-06-L3-07,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
+LS-04,EL,CR-ELP-01-06-L3-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-06-L3-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-06-L3-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-06-L3-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-06-L3-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-ELP-01-06-L3-07,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
 LS-04,EL,CR-ELP-01-07-L1-01,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,50%
-LS-04,EL,CR-ELP-01-07-L1-02,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type|Safety Lights with Battery Backup,0%
-LS-04,EL,CR-ELP-01-07-L1-03,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,0%
-LS-04,EL,CR-ELP-01-07-L1-04,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type|Safety Lights with Battery Backup,0%
-LS-04,EL,CR-ELP-01-07-L1-05,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,0%
-LS-04,EL,CR-ELP-01-07-L1-06,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,0%
-LS-04,EL,CR-ELP-01-07-L1-07,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type|Safety Lights with Battery Backup,0%
-LS-04,EL,CR-ELP-01-07-L1-08,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,0%
+LS-04,EL,CR-ELP-01-07-L1-02,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type|Safety Lights with Battery Backup,50%
+LS-04,EL,CR-ELP-01-07-L1-03,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,50%
+LS-04,EL,CR-ELP-01-07-L1-04,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type|Safety Lights with Battery Backup,50%
+LS-04,EL,CR-ELP-01-07-L1-05,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,50%
+LS-04,EL,CR-ELP-01-07-L1-06,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,50%
+LS-04,EL,CR-ELP-01-07-L1-07,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type|Safety Lights with Battery Backup,50%
+LS-04,EL,CR-ELP-01-07-L1-08,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,50%
 120-12,EL,CR-ESP-01,PDCS System ,PDC System Ethernet Switch Panel,Done
 FGS-09,EL,CR-FACP-01,PANEL(EL),Fire Alarm Control Panel,0%
 FGS-09,EL,CR-FECP-01,PANEL(EL),Fire Extinguishing Control Panel,0%
@@ -6042,151 +6042,151 @@ NO SUBS.,EL,CR-HDP-02,PANEL(EL),HVAC Distribution Panel,0%
 NO SUBS.,EL,CR-LCP-0010,PANEL(EL),HVAC Local Control Panel,0%
 LS-01,EL,CR-LP-01,PANEL(EL),Normal Lighting Panel,0%
 LS-04,EL,CR-LP-01-01-L1-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
-LS-04,EL,CR-LP-01-01-L1-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-01-L1-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-01-L1-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-01-L1-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-01-L1-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
+LS-04,EL,CR-LP-01-01-L1-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-01-L1-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-01-L1-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-01-L1-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-01-L1-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
 LS-04,EL,CR-LP-01-02-L2-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
-LS-04,EL,CR-LP-01-02-L2-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-02-L2-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-02-L2-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-02-L2-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-02-L2-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-02-L2-07,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-02-L2-08,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-02-L2-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
+LS-04,EL,CR-LP-01-02-L2-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-02-L2-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-02-L2-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-02-L2-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-02-L2-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-02-L2-07,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-02-L2-08,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-02-L2-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
 LS-04,EL,CR-LP-01-03-L3-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
-LS-04,EL,CR-LP-01-03-L3-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-03-L3-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-03-L3-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-03-L3-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-03-L3-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-03-L3-07,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-03-L3-08,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-03-L3-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-03-L3-10,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-03-L3-11,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
+LS-04,EL,CR-LP-01-03-L3-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-03-L3-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-03-L3-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-03-L3-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-03-L3-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-03-L3-07,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-03-L3-08,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-03-L3-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-03-L3-10,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-03-L3-11,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
 LS-04,EL,CR-LP-01-04-L1-01,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,50%
-LS-04,EL,CR-LP-01-04-L1-02,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,0%
-LS-04,EL,CR-LP-01-04-L1-03,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,0%
-LS-04,EL,CR-LP-01-04-L1-04,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,0%
-LS-04,EL,CR-LP-01-04-L1-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-04-L1-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-04-L1-07,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,0%
-LS-04,EL,CR-LP-01-04-L1-08,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,0%
-LS-04,EL,CR-LP-01-04-L1-09,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,0%
-LS-04,EL,CR-LP-01-04-L1-10,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,0%
-LS-04,EL,CR-LP-01-04-L1-11,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-04-L1-12,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-04-L1-13,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
+LS-04,EL,CR-LP-01-04-L1-02,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,50%
+LS-04,EL,CR-LP-01-04-L1-03,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,50%
+LS-04,EL,CR-LP-01-04-L1-04,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,50%
+LS-04,EL,CR-LP-01-04-L1-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-04-L1-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-04-L1-07,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,50%
+LS-04,EL,CR-LP-01-04-L1-08,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,50%
+LS-04,EL,CR-LP-01-04-L1-09,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,50%
+LS-04,EL,CR-LP-01-04-L1-10,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,50%
+LS-04,EL,CR-LP-01-04-L1-11,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-04-L1-12,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-04-L1-13,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
 LS-04,EL,CR-LP-01-05-L2-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
-LS-04,EL,CR-LP-01-05-L2-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-05-L2-03,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
-LS-04,EL,CR-LP-01-05-L2-04,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
-LS-04,EL,CR-LP-01-05-L2-05,Lighting Fixture,LED Luminaires Fixture 40w| EX,0%
-LS-04,EL,CR-LP-01-05-L2-06,Lighting Fixture,LED Luminaires Fixture 40w| EX,0%
-LS-04,EL,CR-LP-01-05-L2-07,Lighting Fixture,LED Luminaires Fixture 40w| EX,0%
-LS-04,EL,CR-LP-01-05-L2-08,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-05-L2-09,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
-LS-04,EL,CR-LP-01-05-L2-10,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
-LS-04,EL,CR-LP-01-05-L2-11,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
-LS-04,EL,CR-LP-01-05-L2-12,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
-LS-04,EL,CR-LP-01-05-L2-13,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
-LS-04,EL,CR-LP-01-05-L2-14,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
+LS-04,EL,CR-LP-01-05-L2-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-05-L2-03,Lighting Fixture,Fluorescent Fixture 2*36w- WP,50%
+LS-04,EL,CR-LP-01-05-L2-04,Lighting Fixture,Fluorescent Fixture 2*36w- WP,50%
+LS-04,EL,CR-LP-01-05-L2-05,Lighting Fixture,LED Luminaires Fixture 40w| EX,50%
+LS-04,EL,CR-LP-01-05-L2-06,Lighting Fixture,LED Luminaires Fixture 40w| EX,50%
+LS-04,EL,CR-LP-01-05-L2-07,Lighting Fixture,LED Luminaires Fixture 40w| EX,50%
+LS-04,EL,CR-LP-01-05-L2-08,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-05-L2-09,Lighting Fixture,Fluorescent Fixture 2*36w- WP,50%
+LS-04,EL,CR-LP-01-05-L2-10,Lighting Fixture,Fluorescent Fixture 2*36w- WP,50%
+LS-04,EL,CR-LP-01-05-L2-11,Lighting Fixture,Fluorescent Fixture 2*36w- WP,50%
+LS-04,EL,CR-LP-01-05-L2-12,Lighting Fixture,Fluorescent Fixture 2*36w- WP,50%
+LS-04,EL,CR-LP-01-05-L2-13,Lighting Fixture,Fluorescent Fixture 2*36w- WP,50%
+LS-04,EL,CR-LP-01-05-L2-14,Lighting Fixture,Fluorescent Fixture 2*36w- WP,50%
 LS-04,EL,CR-LP-01-06-L3-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
-LS-04,EL,CR-LP-01-06-L3-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-06-L3-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-06-L3-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-06-L3-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-06-L3-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-06-L3-07,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-06-L3-08,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-04,EL,CR-LP-01-06-L3-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
+LS-04,EL,CR-LP-01-06-L3-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-06-L3-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-06-L3-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-06-L3-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-06-L3-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-06-L3-07,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-06-L3-08,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
+LS-04,EL,CR-LP-01-06-L3-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
 LS-04,EL,CR-LP-01-07-L1-01,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,50%
-LS-04,EL,CR-LP-01-07-L1-02,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,0%
-LS-04,EL,CR-LP-01-07-L1-03,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,0%
-LS-04,EL,CR-LP-01-07-L1-04,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,0%
-LS-04,EL,CR-LP-01-07-L1-05,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,0%
-LS-04,EL,CR-LP-01-07-L1-06,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,0%
-LS-04,EL,CR-LP-01-07-L1-07,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,0%
-LS-04,EL,CR-LP-01-07-L1-08,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,0%
-LS-04,EL,CR-LP-01-11-L1-01,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-11-L1-02,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,0%
-LS-04,EL,CR-LP-01-11-L1-03,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-11-L1-04,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-11-L1-05,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-11-L1-06,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-11-L1-07,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-11-L1-08,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-12-L2-01,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,0%
-LS-04,EL,CR-LP-01-12-L2-02,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,0%
-LS-04,EL,CR-LP-01-12-L2-03,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,0%
-LS-04,EL,CR-LP-01-12-L2-04,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,0%
-LS-04,EL,CR-LP-01-12-L2-05,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,0%
-LS-04,EL,CR-LP-01-12-L2-06,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,0%
-LS-04,EL,CR-LP-01-13-L3-01,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-13-L3-02,Socket Outlet,Outlet 3-Pole- 230v|16A|WP,0%
-LS-04,EL,CR-LP-01-13-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,0%
-LS-04,EL,CR-LP-01-13-L3-04,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-13-L3-05,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-13-L3-06,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-14-L1-01,Socket Outlet,Double Type Socket Outlet,0%
-LS-04,EL,CR-LP-01-14-L1-02,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-14-L1-03,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-14-L1-04,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-14-L1-05,Socket Outlet,Outlet 3-Pole- 230v|16A|WP,0%
-LS-04,EL,CR-LP-01-14-L1-06,Socket Outlet,Outlet 3-Pole- 230v|16A|WP,0%
-LS-04,EL,CR-LP-01-14-L1-07,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-14-L1-08,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-15-L2-01,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-15-L2-02,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-15-L2-03,Socket Outlet,Double Type Socket Outlet,0%
-LS-04,EL,CR-LP-01-15-L2-04,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-15-L2-05,Socket Outlet,Double Type Socket Outlet,0%
-LS-04,EL,CR-LP-01-15-L2-06,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-16-L3-01,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-16-L3-02,Socket Outlet,Double Type Socket Outlet,0%
-LS-04,EL,CR-LP-01-16-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-16-L3-04,Socket Outlet,Double Type Socket Outlet,0%
-LS-04,EL,CR-LP-01-16-L3-05,Socket Outlet,Double Type Socket Outlet,0%
-LS-04,EL,CR-LP-01-16-L3-06,Socket Outlet,Double Type Socket Outlet,0%
-LS-04,EL,CR-LP-01-16-L3-07,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-17-L1-01,Socket Outlet,Double Type Socket Outlet,0%
-LS-04,EL,CR-LP-01-17-L1-02,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-17-L1-03,Socket Outlet,Double Type Socket Outlet,0%
-LS-04,EL,CR-LP-01-17-L1-04,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-17-L1-05,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-17-L1-06,Socket Outlet,Double Type Socket Outlet,0%
-LS-04,EL,CR-LP-01-17-L1-07,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-17-L1-08,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-18-L2-01,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-18-L2-02,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,0%
-LS-04,EL,CR-LP-01-18-L2-03,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,0%
-LS-04,EL,CR-LP-01-18-L2-04,Socket Outlet,Outlet 3-Pole- 110 v AC With TRAFO,0%
-LS-04,EL,CR-LP-01-18-L2-05,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,0%
-LS-04,EL,CR-LP-01-18-L2-06,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,0%
-LS-04,EL,CR-LP-01-18-L2-07,Socket Outlet,Double Type Socket Outlet,0%
-LS-04,EL,CR-LP-01-18-L2-08,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-19-L3-01,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-19-L3-02,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-19-L3-03,Socket Outlet,Double Type Socket Outlet,0%
-LS-04,EL,CR-LP-01-19-L3-04,Socket Outlet,Outlet 3-Pole- 230v|16A|WP,0%
-LS-04,EL,CR-LP-01-19-L3-05,Socket Outlet,Outlet 3-Pole- 230v|16A|WP,0%
-LS-04,EL,CR-LP-01-19-L3-06,Socket Outlet,Outlet 3-Pole- 230v|16A|WP,0%
-LS-04,EL,CR-LP-01-20-L2-01,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-20-L2-02,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-20-L2-03,Socket Outlet,Double Type Socket Outlet,0%
-LS-04,EL,CR-LP-01-20-L2-04,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-20-L2-05,Socket Outlet,Double Type Socket Outlet,0%
-LS-04,EL,CR-LP-01-20-L2-06,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,0%
-LS-04,EL,CR-LP-01-21-L3-01,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-21-L3-02,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-21-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-21-L3-04,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-21-L3-05,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-21-L3-06,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-LS-04,EL,CR-LP-01-22-L1|L2|L3-01,Socket Outlet,Outlet 5-Pole- 400v|25A|Indust Type,0%
+LS-04,EL,CR-LP-01-07-L1-02,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,50%
+LS-04,EL,CR-LP-01-07-L1-03,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,50%
+LS-04,EL,CR-LP-01-07-L1-04,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,50%
+LS-04,EL,CR-LP-01-07-L1-05,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,50%
+LS-04,EL,CR-LP-01-07-L1-06,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,50%
+LS-04,EL,CR-LP-01-07-L1-07,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,50%
+LS-04,EL,CR-LP-01-07-L1-08,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,50%
+LS-04,EL,CR-LP-01-11-L1-01,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-11-L1-02,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,Done
+LS-04,EL,CR-LP-01-11-L1-03,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-11-L1-04,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-11-L1-05,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-11-L1-06,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-11-L1-07,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-11-L1-08,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-12-L2-01,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,Done
+LS-04,EL,CR-LP-01-12-L2-02,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,Done
+LS-04,EL,CR-LP-01-12-L2-03,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,Done
+LS-04,EL,CR-LP-01-12-L2-04,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,Done
+LS-04,EL,CR-LP-01-12-L2-05,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,Done
+LS-04,EL,CR-LP-01-12-L2-06,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,Done
+LS-04,EL,CR-LP-01-13-L3-01,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-13-L3-02,Socket Outlet,Outlet 3-Pole- 230v|16A|WP,Done
+LS-04,EL,CR-LP-01-13-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,Done
+LS-04,EL,CR-LP-01-13-L3-04,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-13-L3-05,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-13-L3-06,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-14-L1-01,Socket Outlet,Double Type Socket Outlet,Done
+LS-04,EL,CR-LP-01-14-L1-02,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-14-L1-03,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-14-L1-04,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-14-L1-05,Socket Outlet,Outlet 3-Pole- 230v|16A|WP,Done
+LS-04,EL,CR-LP-01-14-L1-06,Socket Outlet,Outlet 3-Pole- 230v|16A|WP,Done
+LS-04,EL,CR-LP-01-14-L1-07,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-14-L1-08,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-15-L2-01,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-15-L2-02,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-15-L2-03,Socket Outlet,Double Type Socket Outlet,Done
+LS-04,EL,CR-LP-01-15-L2-04,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-15-L2-05,Socket Outlet,Double Type Socket Outlet,Done
+LS-04,EL,CR-LP-01-15-L2-06,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-16-L3-01,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-16-L3-02,Socket Outlet,Double Type Socket Outlet,Done
+LS-04,EL,CR-LP-01-16-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-16-L3-04,Socket Outlet,Double Type Socket Outlet,Done
+LS-04,EL,CR-LP-01-16-L3-05,Socket Outlet,Double Type Socket Outlet,Done
+LS-04,EL,CR-LP-01-16-L3-06,Socket Outlet,Double Type Socket Outlet,Done
+LS-04,EL,CR-LP-01-16-L3-07,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-17-L1-01,Socket Outlet,Double Type Socket Outlet,Done
+LS-04,EL,CR-LP-01-17-L1-02,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-17-L1-03,Socket Outlet,Double Type Socket Outlet,Done
+LS-04,EL,CR-LP-01-17-L1-04,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-17-L1-05,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-17-L1-06,Socket Outlet,Double Type Socket Outlet,Done
+LS-04,EL,CR-LP-01-17-L1-07,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-17-L1-08,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-18-L2-01,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-18-L2-02,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,Done
+LS-04,EL,CR-LP-01-18-L2-03,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,Done
+LS-04,EL,CR-LP-01-18-L2-04,Socket Outlet,Outlet 3-Pole- 110 v AC With TRAFO,Done
+LS-04,EL,CR-LP-01-18-L2-05,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,Done
+LS-04,EL,CR-LP-01-18-L2-06,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,Done
+LS-04,EL,CR-LP-01-18-L2-07,Socket Outlet,Double Type Socket Outlet,Done
+LS-04,EL,CR-LP-01-18-L2-08,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-19-L3-01,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-19-L3-02,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-19-L3-03,Socket Outlet,Double Type Socket Outlet,Done
+LS-04,EL,CR-LP-01-19-L3-04,Socket Outlet,Outlet 3-Pole- 230v|16A|WP,Done
+LS-04,EL,CR-LP-01-19-L3-05,Socket Outlet,Outlet 3-Pole- 230v|16A|WP,Done
+LS-04,EL,CR-LP-01-19-L3-06,Socket Outlet,Outlet 3-Pole- 230v|16A|WP,Done
+LS-04,EL,CR-LP-01-20-L2-01,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-20-L2-02,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-20-L2-03,Socket Outlet,Double Type Socket Outlet,Done
+LS-04,EL,CR-LP-01-20-L2-04,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-20-L2-05,Socket Outlet,Double Type Socket Outlet,Done
+LS-04,EL,CR-LP-01-20-L2-06,Socket Outlet,Outlet 3-Pole- 230v|16A|Indust|Surface Mounted,Done
+LS-04,EL,CR-LP-01-21-L3-01,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-21-L3-02,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-21-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-21-L3-04,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-21-L3-05,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-21-L3-06,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
+LS-04,EL,CR-LP-01-22-L1|L2|L3-01,Socket Outlet,Outlet 5-Pole- 400v|25A|Indust Type,Done
 ES-02,EL,CR-L-PRO(ES-02),Lightning Protection(2),Ligtining Protection,Done
 TEL-09,EL,CR-MCS-01-1,Telecom Device,Master Call Station Media Converter,0%
 TEL-09,EL,CR-MCS-01-2,Paging Device,Paging Master Call Station,0%
@@ -6984,7 +6984,7 @@ ES-09,EL,E20-03,Earthing System,CRIMPED EARTH CONNECTION 16 TO 70mm2,0%
 2000-02,MES,E-2006,Exchanger(E),1st Natural Gas Feed Preheat Coil,53%
 2000-02,MES,E-2007,Exchanger(E),Combustion Air Preheater,18%
 2000-03,MES,E-2008,Exchanger(E),Oxygen Preheater,76%
-1000-01,MES,E-2009,Exchanger(E),Fuel Gas Preheater,88%
+1000-01,MES,E-2009,Exchanger(E),Fuel Gas Preheater,Done
 ES-01,EL,E2-01,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
 2000-02,MES,E-2015,Exchanger(E),Steam Air Preheater,18%
 ES-01,EL,E2-02,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
@@ -10429,14 +10429,14 @@ LS-01,EL,EBL-03-RJB1-1,Power Cable B,Area 03 Socket JB No. 1  - 03-RJB1-1,Done
 LS-02,EL,EBL-04-EJB1_1-3,Power Cable B,Area 04 Emergency Lighting JB No. 1/1-04-EJB1/1-3,0%
 LS-02,EL,EBL-04-EJB1_2-3,Power Cable B,Area 04 Emergency Lighting JB No. 1/2-04-EJB1/2-3,0%
 LS-02,EL,EBL-04-EJB1-3,Power Cable B,Area 04 Emergency Lighting JB No. 1-04-EJB1-3,0%
-LS-02,EL,EBL-04-EJB2-4,Power Cable B,Area 04 Emergency Lighting JB No. 2-04-EJB2-4,67%
+LS-02,EL,EBL-04-EJB2-4,Power Cable B,Area 04 Emergency Lighting JB No. 2-04-EJB2-4,Done
 LS-01,EL,EBL-04-JB1_1-3,Power Cable B,Area 04  Normal Lighting JB No. 1/1 - 04-JB1/1-3,0%
 LS-01,EL,EBL-04-JB1_2-3,Power Cable B,Area 04  Normal Lighting JB No. 1/2 - 04-JB1/2-3,0%
 LS-01,EL,EBL-04-JB1-3,Power Cable B,Area 04  Normal Lighting JB No. 1 - 04-JB1-3,0%
-LS-01,EL,EBL-04-JB2-4,Power Cable B,Area 04  Normal Lighting JB No. 2- 04-JB2-4,67%
+LS-01,EL,EBL-04-JB2-4,Power Cable B,Area 04  Normal Lighting JB No. 2- 04-JB2-4,Done
 LS-01,EL,EBL-04-RJB1_1-1,Power Cable B,Area 04 Socket JB No. 1/1 - 04-RJB1/1-1,0%
 LS-01,EL,EBL-04-RJB1-1,Power Cable B,Area 04 Socket JB No. 1 - 04-RJB1-1,0%
-LS-01,EL,EBL-04-RJB2-2,Power Cable B,Area 04 Socket JB No. 2 - 04-RJB2-2,67%
+LS-01,EL,EBL-04-RJB2-2,Power Cable B,Area 04 Socket JB No. 2 - 04-RJB2-2,Done
 120-11,EL,EBL-04-SJB1-4,Power Cable B,Safety Lighting JB No. 1 For Area 04- 04-SJB1-4,Done
 LS-02,EL,EBL-05-EJB1_1-5,Power Cable B,Area 05 Emergency Lighting JB No. 1/1-05-EJB1/1-5,Done
 LS-02,EL,EBL-05-EJB1-5,Power Cable B,Area 05 Emergency Lighting JB No. 1-05-EJB1-5,Done
@@ -10529,7 +10529,7 @@ LS-01,EL,EBP-00-SLP-01,Power Cable B,Plant Street Lighting Panel- 00-SLP-01,Done
 120-03,EL,EBP-00-WO4-01,Power Cable B,Welding Socket Outlet- 00-WO4-01,Done
 120-03,EL,EBP-00-WO4-02,Power Cable B,Welding Socket Outlet- 00-WO4-02,Done
 120-03,EL,EBP-00-WO4-03,Power Cable B,Welding Socket Outlet- 00-WO4-03,Done
-120-03,EL,EBP-00-WO4-04,Power Cable B,Welding Socket Outlet- 00-WO4-04,67%
+120-03,EL,EBP-00-WO4-04,Power Cable B,Welding Socket Outlet- 00-WO4-04,Done
 120-03,EL,EBP-00-WO5-01,Power Cable B,Welding Socket Outlet- 00-WO5-01,Done
 120-03,EL,EBP-00-WO5-02,Power Cable B,Welding Socket Outlet- 00-WO5-02,Done
 120-03,EL,EBP-00-WO5-03,Power Cable B,Welding Socket Outlet- 00-WO5-03,Done
@@ -10820,7 +10820,7 @@ NO SUBS.,EL,EBP-MC-2001-SH_1,POWER CABLE A,CABLE(NA),0%
 5000-02,EL,EBP-MP-5004A-SH_1,POWER CABLE A,CABLE(NA),Done
 120-01,EL,EBP-MP-5004B-SH,Power Cable B,Motor Space Heater- MP-5004B-SH,Done
 5000-02,EL,EBP-MP-5004B-SH_1,POWER CABLE A,CABLE(NA),Done
-120-02,EL,EBP-MP-5005A_1,Power Cable B,MP Column Feed Pump- MP-5005A,33%
+120-02,EL,EBP-MP-5005A_1,Power Cable B,MP Column Feed Pump- MP-5005A,67%
 120-02,EL,EBP-MP-5005A_2,Power Cable B,MP Column Feed Pump- MP-5005A,Done
 120-02,EL,EBP-MP-5005B_1,Power Cable B,MP Column Feed Pump- MP-5005B,Done
 120-02,EL,EBP-MP-5005B_2,Power Cable B,MP Column Feed Pump- MP-5005B,Done
@@ -11898,7 +11898,7 @@ DCS-01,IN,FCIAX-P8001B-01,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIDF-1001,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIDF-2010,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIDF-2020,CABLE,CABLE(NA),Done
-DCS-01,IN,FCIDF-2030,CABLE,CABLE(NA),0%
+DCS-01,IN,FCIDF-2030,CABLE,CABLE(NA),50%
 DCS-01,IN,FCIDF-2503,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIDF-3001,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIDF-3002,CABLE,CABLE(NA),Done
@@ -11938,7 +11938,7 @@ DCS-01,IN,FCIRX-P8001C-01,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIRX-P8001D-01,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIVE-2001,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIVE-2002,CABLE,CABLE(NA),Done
-DCS-01,IN,FCIVE-2004,CABLE,CABLE(NA),0%
+DCS-01,IN,FCIVE-2004,CABLE,CABLE(NA),50%
 DCS-01,IN,FCIVE-2005,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIVE-2502,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIVE-2503,CABLE,CABLE(NA),Done
@@ -12111,7 +12111,7 @@ DCS-01,IN,FCNFF-5003,CABLE,CABLE(NA),Done
 DCS-01,IN,FCNFF-6001,CABLE,CABLE(NA),Done
 DCS-01,IN,FCNFF-7001,CABLE,CABLE(NA),Done
 DCS-01,IN,FCNFF-8001,CABLE,CABLE(NA),Done
-DCS-01,IN,FCNPF-2284,CABLE,CABLE(NA),0%
+DCS-01,IN,FCNPF-2284,CABLE,CABLE(NA),50%
 DCS-01,IN,FCNVE-70004A,CABLE,CABLE(NA),Done
 DCS-01,IN,FCNVE-70004B,CABLE,CABLE(NA),Done
 DCS-01,IN,FCNVE-80004A,CABLE,CABLE(NA),Done
@@ -12655,25 +12655,25 @@ FGS-10,IN,FGD-0057,Fire Alarm,Fire Alarm(FGD),0%
 4000-06,MES,FI-8001C,Filter(X),Side Strem Sand Filters A,DONE
 4000-06,IN,FI-8401,Instrument(FI),Instrument(FI),50%
 4000-06,IN,FI-8402,Instrument(FI),Instrument(FI),50%
-BLD-07,BD,Final Architecture(EX),07-Final Architecture(External),The final Architecture(External works of Building BLD-07),DONE
-BLD-01,BD,final Architecture(External works BLD-01),07-Final Architecture(External),The final Architecture(External works of Building BLD-01),DONE
+BLD-07,BD,Final Architecture(EX),07-Final Architecture(External),The final Architecture(External works of Building BLD-07),0%
+BLD-01,BD,final Architecture(External works BLD-01),07-Final Architecture(External),The final Architecture(External works of Building BLD-01),0%
 BLD-03,BD,final Architecture(External works BLD-03),07-Final Architecture(External),The final Architecture(External works of Building BLD-03),0%
-BLD-04,BD,final Architecture(External works BLD-04),07-Final Architecture(External),The final Architecture(External works of Building BLD-04),DONE
+BLD-04,BD,final Architecture(External works BLD-04),07-Final Architecture(External),The final Architecture(External works of Building BLD-04),0%
 BLD-05,BD,final Architecture(External works BLD-05),07-Final Architecture(External),The final Architecture(External works of Building BLD-05),0%
-BLD-06,BD,final Architecture(External works BLD-06),07-Final Architecture(External),The final Architecture(External works of Building BLD-06),DONE
-BLD-02,BD,Final Architecture(External),07-Final Architecture(External),Final finishes like Brick Facing  and Walkway,DONE
-BLD-01,BD,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),The final Architecture(First Floor BLD-01),DONE
+BLD-06,BD,final Architecture(External works BLD-06),07-Final Architecture(External),The final Architecture(External works of Building BLD-06),0%
+BLD-02,BD,Final Architecture(External),07-Final Architecture(External),Final finishes like Brick Facing  and Walkway,0%
+BLD-01,BD,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),The final Architecture(First Floor BLD-01),0%
 BLD-03,BD,final Architecture(First Floor BLD-03),06-Final Architecture(Internal),The final Architecture(First Floor BLD-03),0%
-BLD-04,BD,final Architecture(First Floor BLD-04),06-Final Architecture(Internal),The final Architecture(First Floor BLD-04),DONE
+BLD-04,BD,final Architecture(First Floor BLD-04),06-Final Architecture(Internal),The final Architecture(First Floor BLD-04),0%
 BLD-05,BD,final Architecture(First Floor BLD-05),06-Final Architecture(Internal),The final Architecture(First Floor BLD-05),0%
-BLD-06,BD,final Architecture(First Floor BLD-06),06-Final Architecture(Internal),The final Architecture(First Floor BLD-06),DONE
-BLD-01,BD,final Architecture(Grouand Floor BLD-01),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-01),DONE
+BLD-06,BD,final Architecture(First Floor BLD-06),06-Final Architecture(Internal),The final Architecture(First Floor BLD-06),0%
+BLD-01,BD,final Architecture(Grouand Floor BLD-01),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-01),0%
 BLD-03,BD,final Architecture(Grouand Floor BLD-03),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-03),0%
-BLD-04,BD,final Architecture(Grouand Floor BLD-04),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-04),DONE
+BLD-04,BD,final Architecture(Grouand Floor BLD-04),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-04),0%
 BLD-05,BD,final Architecture(Grouand Floor BLD-05),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-05),0%
-BLD-06,BD,final Architecture(Grouand Floor BLD-06),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-06),DONE
-BLD-07,BD,Final Architecture(IN),06-Final Architecture(Internal),The final Architecture(Internal works of Building BLD-07),DONE
-BLD-02,BD,Final Architecture(Internal),06-Final Architecture(Internal),Final finishes like flooring and painting,DONE
+BLD-06,BD,final Architecture(Grouand Floor BLD-06),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-06),0%
+BLD-07,BD,Final Architecture(IN),06-Final Architecture(Internal),The final Architecture(Internal works of Building BLD-07),0%
+BLD-02,BD,Final Architecture(Internal),06-Final Architecture(Internal),Final finishes like flooring and painting,0%
 3000-01,IN,FIT-30165A(FIT),Instrument(FIT),Instrument(FIT),Done
 3000-01,IN,FIT-30165A(NA),CABLE,CABLE(NA),Exception(Pending)
 3000-01,IN,FIT-30165B(FIT),Instrument(FIT),Instrument(FIT),Done
@@ -12829,13 +12829,13 @@ NO SUBS.,IN,FLD-0029(NA),CABLE,CABLE(NA),0%
 4000-06,IN,FO-7502B,Instrument(FO),Instrument(FO),Exception(Pending)
 4000-06,IN,FO-7504,Instrument(FO),Instrument(FO),Exception(Pending)
 4000-08,IN,FO-8001,Instrument(FO),Instrument(FO),Done
-BLD-01,BD,Foundation(BLD-01),01-Foundation,Foundation(BLD-01),DONE
-BLD-02,BD,Foundation(BLD-02),01-Foundation,Base and footing construction,DONE
+BLD-01,BD,Foundation(BLD-01),01-Foundation,Foundation(BLD-01),0%
+BLD-02,BD,Foundation(BLD-02),01-Foundation,Base and footing construction,0%
 BLD-03,BD,Foundation(BLD-03),01-Foundation,Foundation(BLD-03),0%
-BLD-04,BD,Foundation(BLD-04),01-Foundation,Foundation(BLD-04),DONE
+BLD-04,BD,Foundation(BLD-04),01-Foundation,Foundation(BLD-04),0%
 BLD-05,BD,Foundation(BLD-05),01-Foundation,Foundation(BLD-05),0%
-BLD-06,BD,Foundation(BLD-06),01-Foundation,Foundation(BLD-06),DONE
-BLD-07,BD,Foundation(BLD-07),01-Foundation,Foundation(BLD-07),DONE
+BLD-06,BD,Foundation(BLD-06),01-Foundation,Foundation(BLD-06),0%
+BLD-07,BD,Foundation(BLD-07),01-Foundation,Foundation(BLD-07),0%
 LS-03,EL,From S01(LS-03),Switch,One Pole Two Way Switch Surface Mounted,50%
 LS-04,EL,From S01(LS-04),Switch,One Pole Two Way Switch Surface Mounted,0%
 LS-03,EL,From S01-FJB,Lighting Cable,One Pole Two Way Switch Surface Mounted,33%
@@ -12977,7 +12977,7 @@ NO SUBS.,IN,FT-10219,SIGNAL,SIGNAL,0%
 1000-01,IN,FT-2151(FT),Instrument(FT),Instrument(FT),50%
 1000-01,IN,FT-2151(NA),CABLE,CABLE(NA),Done
 2000-02,IN,FT-2165(FT),Instrument(FT),Instrument(FT),Done
-2000-02,IN,FT-2165(NA),CABLE,CABLE(NA),0%
+2000-02,IN,FT-2165(NA),CABLE,CABLE(NA),50%
 2000-04,IN,FT-2372(FT),Instrument(FT),Instrument(FT),Done
 2000-04,IN,FT-2372(NA),CABLE,CABLE(NA),0%
 2000-04,IN,FT-2417(FT),Instrument(FT),Instrument(FT),50%
@@ -12985,9 +12985,9 @@ NO SUBS.,IN,FT-10219,SIGNAL,SIGNAL,0%
 2000-05,IN,FT-2476(FT),Instrument(FT),Instrument(FT),DONE
 2000-05,IN,FT-2476(NA),CABLE,CABLE(NA),0%
 1000-02,IN,FT-2531-1(FT),Instrument(FT),Instrument(FT),25%
-1000-02,IN,FT-2531-1(NA),CABLE,CABLE(NA),0%
+1000-02,IN,FT-2531-1(NA),CABLE,CABLE(NA),50%
 1000-02,IN,FT-2531-2(FT),Instrument(FT),Instrument(FT),25%
-1000-02,IN,FT-2531-2(NA),CABLE,CABLE(NA),0%
+1000-02,IN,FT-2531-2(NA),CABLE,CABLE(NA),50%
 1000-02,IN,FT-2536(FT),Instrument(FT),Instrument(FT),Done
 1000-02,IN,FT-2536(NA),CABLE,CABLE(NA),0%
 3000-03,IN,FT-2607(FT),Instrument(FT),Instrument(FT),Done
@@ -13003,9 +13003,9 @@ NO SUBS.,IN,FT-10219,SIGNAL,SIGNAL,0%
 3000-03,IN,FT-3169(FT),Instrument(FT),Instrument(FT),Done
 3000-03,IN,FT-3169(NA),CABLE,CABLE(NA),0%
 3000-03,IN,FT-3171(FT),Instrument(FT),Instrument(FT),Done
-3000-03,IN,FT-3171(NA),CABLE,CABLE(NA),0%
+3000-03,IN,FT-3171(NA),CABLE,CABLE(NA),50%
 3000-03,IN,FT-3194(FT),Instrument(FT),Instrument(FT),Done
-3000-03,IN,FT-3194(NA),CABLE,CABLE(NA),0%
+3000-03,IN,FT-3194(NA),CABLE,CABLE(NA),50%
 3000-03,IN,FT-3198(FT),Instrument(FT),Instrument(FT),0%
 3000-03,IN,FT-3198(NA),CABLE,CABLE(NA),Done
 5000-01,IN,FT-5020(FT),Instrument(FT),Instrument(FT),50%
@@ -13228,13 +13228,13 @@ DCS-01,IN,FTADO16-M04R-E,CABLE,CABLE(NA),0%
 2000-03,IN,FV-2040(FV),Instrument(FV),Instrument(FV),75%
 2000-03,IN,FV-2040(NA),CABLE,CABLE(NA),0%
 1000-01,IN,FV-2061(FV),Instrument(FV),Instrument(FV),25%
-1000-01,IN,FV-2061(NA),CABLE,CABLE(NA),0%
+1000-01,IN,FV-2061(NA),CABLE,CABLE(NA),50%
 2000-01,IN,FV-2072(FV),Instrument(FV),Instrument(FV),50%
 2000-01,IN,FV-2072(NA),CABLE,CABLE(NA),0%
 3000-04,IN,FV-2079(FV),Instrument(FV),Instrument(FV),50%
 3000-04,IN,FV-2079(NA),CABLE,CABLE(NA),0%
 1000-01,IN,FV-2091(FV),Instrument(FV),Instrument(FV),0%
-1000-01,IN,FV-2091(NA),CABLE,CABLE(NA),0%
+1000-01,IN,FV-2091(NA),CABLE,CABLE(NA),50%
 2000-02,IN,FV-2111,Instrument(FV),Instrument(FV),0%
 1000-01,IN,FV-2150(FV),Instrument(FV),Instrument(FV),25%
 1000-01,IN,FV-2150(NA),CABLE,CABLE(NA),0%
@@ -13264,7 +13264,7 @@ NO SUBS.,IN,FV-30111,PKG,PKG,33%
 3000-03,IN,FV-3169(FV),Instrument(FV),Instrument(FV),25%
 3000-03,IN,FV-3169(NA),CABLE,CABLE(NA),0%
 3000-03,IN,FV-3171(FV),Instrument(FV),Instrument(FV),25%
-3000-03,IN,FV-3171(NA),CABLE,CABLE(NA),0%
+3000-03,IN,FV-3171(NA),CABLE,CABLE(NA),50%
 5000-01,IN,FV-5020(FV),Instrument(FV),Instrument(FV),25%
 5000-01,IN,FV-5020(NA),CABLE,CABLE(NA),Done
 5000-01,IN,FV-5041(FV),Instrument(FV),Instrument(FV),50%
@@ -13303,7 +13303,7 @@ NO SUBS.,IN,FV-30111,PKG,PKG,33%
 4000-04,IN,FV-6059-2(FV),Instrument(FV),Instrument(FV),0%
 4000-04,IN,FV-6059-2(NA),CABLE,CABLE(NA),0%
 1000-03,IN,FV-6070(FV),Instrument(FV),Instrument(FV),50%
-1000-03,IN,FV-6070(NA),CABLE,CABLE(NA),0%
+1000-03,IN,FV-6070(NA),CABLE,CABLE(NA),50%
 1000-03,IN,FV-6081(FV),Instrument(FV),Instrument(FV),25%
 1000-03,IN,FV-6081(NA),CABLE,CABLE(NA),0%
 1000-03,IN,FV-6082(FV),Instrument(FV),Instrument(FV),25%
@@ -13359,7 +13359,7 @@ NO SUBS.,IN,FV-30111,PKG,PKG,33%
 2000-01,IN,FZSL-2072(FZSL),Instrument(X),Instrument(FZSL),0%
 2000-01,IN,FZSL-2072(NA),CABLE,CABLE(NA),0%
 3000-04,IN,FZSL-2079(FZSL),Instrument(X),Instrument(FZSL),0%
-3000-04,IN,FZSL-2079(NA),CABLE,CABLE(NA),0%
+3000-04,IN,FZSL-2079(NA),CABLE,CABLE(NA),50%
 1000-01,IN,FZSL-2091(FZSL),Instrument(X),Instrument(FZSL),0%
 1000-01,IN,FZSL-2091(NA),CABLE,CABLE(NA),0%
 2000-02,IN,FZSL-2111,Instrument(X),Instrument(FZSL),0%
@@ -13702,7 +13702,7 @@ DCS-01,IN,HS-80156B,SIGNAL,SIGNAL,Exception(Pending)
 5000-03,IN,HV-5338(HV),Instrument(HV),Instrument(HV),75%
 5000-03,IN,HV-5338(NA),CABLE,CABLE(NA),Done
 4000-04,IN,HV-7096(HV),Instrument(HV),Instrument(HV),25%
-4000-04,IN,HV-7096(NA),CABLE,CABLE(NA),0%
+4000-04,IN,HV-7096(NA),CABLE,CABLE(NA),50%
 5000-01,IN,HY-5093-12,Instrument(X),Instrument(HY),Done
 5000-01,IN,HY-5093-3,Instrument(X),Instrument(HY),Done
 5000-01,IN,HY-5093-6,Instrument(X),Instrument(HY),Done
@@ -13936,18 +13936,18 @@ ES-07,EL,IN-E07-60|61,Earthing System,Instrument JB- 70*35,Done
 ES-09,EL,IN-E07-66,Earthing System,Instrument JB- 70*35,0%
 ES-09,EL,IN-E07-68,Earthing System,Instrument JB- 70*70,0%
 ES-09,EL,IN-E07-69,Earthing System,Instrument JB- 70*35,0%
-BLD-02,BD,Initial Architecture(BLD-02),04-Initial Architecture,Basic partitions and rough interior layout,DONE
-BLD-07,BD,Initial Architecture(BLD-07),04-Initial Architecture,Initial Architecture(BLD-07),DONE
-BLD-01,BD,Initial Architecture(First Floor BLD-01),04-Initial Architecture-2,Initial Architecture(First Floor BLD-01),DONE
+BLD-02,BD,Initial Architecture(BLD-02),04-Initial Architecture,Basic partitions and rough interior layout,0%
+BLD-07,BD,Initial Architecture(BLD-07),04-Initial Architecture,Initial Architecture(BLD-07),0%
+BLD-01,BD,Initial Architecture(First Floor BLD-01),04-Initial Architecture-2,Initial Architecture(First Floor BLD-01),0%
 BLD-03,BD,Initial Architecture(First Floor BLD-03),04-Initial Architecture-2,Initial Architecture(First Floor BLD-03),0%
-BLD-04,BD,Initial Architecture(First Floor BLD-04),04-Initial Architecture-2,Initial Architecture(First Floor BLD-04),DONE
+BLD-04,BD,Initial Architecture(First Floor BLD-04),04-Initial Architecture-2,Initial Architecture(First Floor BLD-04),0%
 BLD-05,BD,Initial Architecture(First Floor BLD-05),04-Initial Architecture-2,Initial Architecture(First Floor BLD-05),0%
-BLD-06,BD,Initial Architecture(First Floor BLD-06),04-Initial Architecture-2,Initial Architecture(First Floor BLD-06),DONE
-BLD-01,BD,Initial Architecture(Ground Floor BLD-01),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-01),DONE
+BLD-06,BD,Initial Architecture(First Floor BLD-06),04-Initial Architecture-2,Initial Architecture(First Floor BLD-06),0%
+BLD-01,BD,Initial Architecture(Ground Floor BLD-01),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-01),0%
 BLD-03,BD,Initial Architecture(Ground Floor BLD-03),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-03),0%
-BLD-04,BD,Initial Architecture(Ground Floor BLD-04),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-04),DONE
+BLD-04,BD,Initial Architecture(Ground Floor BLD-04),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-04),0%
 BLD-05,BD,Initial Architecture(Ground Floor BLD-05),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-05),0%
-BLD-06,BD,Initial Architecture(Ground Floor BLD-06),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-06),DONE
+BLD-06,BD,Initial Architecture(Ground Floor BLD-06),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-06),0%
 2000-02,MES,INLET MANIFOLD,Inlet_Manifold,MANIFOLD,71%
 NO SUBS.,MES,INLET_DISTRIBUTER,REFORMER,INLET_DISTRIBUTER,
 3000-03,MES,J-3001,Ejector(J),Ejector,73%
@@ -14209,7 +14209,7 @@ DCS-01,IN,JNFF-2001.4,CABLE,CABLE(NA),Done
 DCS-01,IN,JNFF-2001.5,CABLE,CABLE(NA),Done
 DCS-01,IN,JNFF-2001.6,CABLE,CABLE(NA),Done
 DCS-01,IN,JNFF-2001.7,CABLE,CABLE(NA),Done
-DCS-01,IN,JNFF-2001.8,CABLE,CABLE(NA),0%
+DCS-01,IN,JNFF-2001.8,CABLE,CABLE(NA),50%
 DCS-01,IN,JNFF-2001.9,CABLE,CABLE(NA),Done
 DCS-01,IN,JNFF-2001_1,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
 DCS-01,IN,JNFF-2001_2,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
@@ -14308,9 +14308,9 @@ DCS-01,IN,JNFF-6001_7,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
 DCS-01,IN,JNFF-7001,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
 DCS-01,IN,JNFF-7001.1,CABLE,CABLE(NA),0%
 DCS-01,IN,JNFF-7001.10,CABLE,CABLE(NA),0%
-DCS-01,IN,JNFF-7001.2,CABLE,CABLE(NA),0%
-DCS-01,IN,JNFF-7001.3,CABLE,CABLE(NA),0%
-DCS-01,IN,JNFF-7001.4,CABLE,CABLE(NA),0%
+DCS-01,IN,JNFF-7001.2,CABLE,CABLE(NA),50%
+DCS-01,IN,JNFF-7001.3,CABLE,CABLE(NA),50%
+DCS-01,IN,JNFF-7001.4,CABLE,CABLE(NA),50%
 DCS-01,IN,JNFF-7001.5,CABLE,CABLE(NA),Done
 DCS-01,IN,JNFF-7001.6,CABLE,CABLE(NA),Done
 DCS-01,IN,JNFF-7001.7,CABLE,CABLE(NA),Done
@@ -14968,11 +14968,11 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 4000-06,IN,LSL-75150,Instrument(LSL),Instrument(LSL),0%
 4000-06,IN,LSL-75151,Instrument(LSL),Instrument(LSL),0%
 4000-06,IN,LSL-75201A(LSL),Instrument(LSL),Instrument(LSL),50%
-4000-06,IN,LSL-75201A(NA),CABLE,CABLE(NA),0%
+4000-06,IN,LSL-75201A(NA),CABLE,CABLE(NA),Done
 4000-06,IN,LSL-75201B(LSL),Instrument(LSL),Instrument(LSL),50%
-4000-06,IN,LSL-75201B(NA),CABLE,CABLE(NA),0%
+4000-06,IN,LSL-75201B(NA),CABLE,CABLE(NA),Done
 4000-06,IN,LSL-75203A(LSL),Instrument(LSL),Instrument(LSL),50%
-4000-06,IN,LSL-75203A(NA),CABLE,CABLE(NA),0%
+4000-06,IN,LSL-75203A(NA),CABLE,CABLE(NA),Done
 4000-08,IN,LSL-80201(LSL),Instrument(LSL),Instrument(LSL),Done
 4000-08,IN,LSL-80201(NA),CABLE,CABLE(NA),0%
 4000-08,IN,LSL-80202(LSL),Instrument(LSL),Instrument(LSL),Done
@@ -15080,7 +15080,7 @@ NO SUBS.,IN,LT-20101(LT),Instrument(LT),Instrument(LT),25%
 NO SUBS.,IN,LT-20151,Pkg,Pkg,0%
 NO SUBS.,IN,LT-20151(LT),Instrument(LT),Instrument(LT),25%
 2000-03,IN,LT-2016(LT),Instrument(LT),Instrument(LT),Done
-2000-03,IN,LT-2016(NA),CABLE,CABLE(NA),0%
+2000-03,IN,LT-2016(NA),CABLE,CABLE(NA),50%
 3000-04,IN,LT-20202,Instrument(LT),Instrument(LT),0%
 2000-04,IN,LT-2373(LT),Instrument(LT),Instrument(LT),Exception(Pending)
 2000-04,IN,LT-2373(NA),CABLE,CABLE(NA),0%
@@ -15227,13 +15227,13 @@ NO SUBS.,IN,LT-20151(LT),Instrument(LT),Instrument(LT),25%
 2000-05,IN,LUSY-2441(LUSY),Instrument(X),Instrument(LUSY),0%
 2000-05,IN,LUSY-2441(NA),CABLE,CABLE(NA),0%
 2000-05,IN,LUSY-2474(LUSY),Instrument(X),Instrument(LUSY),0%
-2000-05,IN,LUSY-2474(NA),CABLE,CABLE(NA),0%
+2000-05,IN,LUSY-2474(NA),CABLE,CABLE(NA),50%
 3000-03,IN,LUSY-3161A(LUSY),Instrument(X),Instrument(LUSY),0%
 3000-03,IN,LUSY-3161A(NA),CABLE,CABLE(NA),0%
 3000-03,IN,LUSY-3161B(LUSY),Instrument(X),Instrument(LUSY),0%
 3000-03,IN,LUSY-3161B(NA),CABLE,CABLE(NA),0%
 3000-03,IN,LUSY-3192(LUSY),Instrument(X),Instrument(LUSY),0%
-3000-03,IN,LUSY-3192(NA),CABLE,CABLE(NA),0%
+3000-03,IN,LUSY-3192(NA),CABLE,CABLE(NA),50%
 5000-01,IN,LUSY-5070(LUSY),Instrument(X),Instrument(LUSY),0%
 5000-01,IN,LUSY-5070(NA),CABLE,CABLE(NA),50%
 1000-03,IN,LUSY-6021B(LUSY),Instrument(X),Instrument(LUSY),0%
@@ -15249,7 +15249,7 @@ NO SUBS.,IN,LT-20151(LT),Instrument(LT),Instrument(LT),25%
 2000-05,IN,LV-2419(LV),Instrument(LV),Instrument(LV),50%
 2000-05,IN,LV-2419(NA),CABLE,CABLE(NA),0%
 2000-05,IN,LV-2441(LV),Instrument(LV),Instrument(LV),25%
-2000-05,IN,LV-2441(NA),CABLE,CABLE(NA),0%
+2000-05,IN,LV-2441(NA),CABLE,CABLE(NA),50%
 2000-05,IN,LV-2474(LV),Instrument(LV),Instrument(LV),50%
 2000-05,IN,LV-2474(NA),CABLE,CABLE(NA),0%
 NO SUBS.,IN,LV-30106,PKG,PKG,33%
@@ -15757,18 +15757,18 @@ FGS-08,EL,MCP-0324,FGS Device,Manual Call Point,DONE
 FGS-08,EL,MCP-0325,FGS Device,Manual Call Point- EX,DONE
 FGS-08,EL,MCP-0361,FGS Device,Manual Call Point,DONE
 FGS-08,EL,MCP-0362,FGS Device,Manual Call Point,DONE
-BLD-02,BD,Mechanical Work(BLD-02),05-Mechanical Work,HVAC and piping systems installation,DONE
-BLD-07,BD,Mechanical Work(BLD-07),05-Mechanical Work,Mechanical Work(BLD-07),DONE
-BLD-01,BD,Mechanical Work(First Floor BLD-01),05-Mechanical Work,Mechanical Work(First Floor BLD-01),DONE
+BLD-02,BD,Mechanical Work(BLD-02),05-Mechanical Work,HVAC and piping systems installation,0%
+BLD-07,BD,Mechanical Work(BLD-07),05-Mechanical Work,Mechanical Work(BLD-07),0%
+BLD-01,BD,Mechanical Work(First Floor BLD-01),05-Mechanical Work,Mechanical Work(First Floor BLD-01),0%
 BLD-03,BD,Mechanical Work(First Floor BLD-03),05-Mechanical Work,Mechanical Work(First Floor BLD-03),0%
-BLD-04,BD,Mechanical Work(First Floor BLD-04),05-Mechanical Work,Mechanical Work(First Floor BLD-04),DONE
+BLD-04,BD,Mechanical Work(First Floor BLD-04),05-Mechanical Work,Mechanical Work(First Floor BLD-04),0%
 BLD-05,BD,Mechanical Work(First Floor BLD-05),05-Mechanical Work,Mechanical Work(First Floor BLD-05),0%
-BLD-06,BD,Mechanical Work(First Floor BLD-06),05-Mechanical Work,Mechanical Work(First Floor BLD-06),DONE
-BLD-01,BD,Mechanical Work(Ground Floor BLD-01),05-Mechanical Work,Mechanical Work(Ground Floor BLD-01),DONE
+BLD-06,BD,Mechanical Work(First Floor BLD-06),05-Mechanical Work,Mechanical Work(First Floor BLD-06),0%
+BLD-01,BD,Mechanical Work(Ground Floor BLD-01),05-Mechanical Work,Mechanical Work(Ground Floor BLD-01),0%
 BLD-03,BD,Mechanical Work(Ground Floor BLD-03),05-Mechanical Work,Mechanical Work(Ground Floor BLD-03),0%
-BLD-04,BD,Mechanical Work(Ground Floor BLD-04),05-Mechanical Work,Mechanical Work(Ground Floor BLD-04),DONE
+BLD-04,BD,Mechanical Work(Ground Floor BLD-04),05-Mechanical Work,Mechanical Work(Ground Floor BLD-04),0%
 BLD-05,BD,Mechanical Work(Ground Floor BLD-05),05-Mechanical Work,Mechanical Work(Ground Floor BLD-05),0%
-BLD-06,BD,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Work(Ground Floor BLD-06),DONE
+BLD-06,BD,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Work(Ground Floor BLD-06),0%
 120-01,EL,MF-2001,Local_Control_Panel,Local Control Panel (Ammeter)- MF-2001-LCP,Done
 120-01,EL,MF-2001-SH,SPACE_HEATER,Motor Space Heater- MF-2001-SH,Done
 120-01,EL,MF-2002,Local_Control_Panel,Local Control Panel (Ammeter)- MF-2002-LCP,Done
@@ -16830,9 +16830,9 @@ DCS-01,IN,NP-2457B,CABLE,CABLE(NA),0%
 DCS-01,IN,NP-CR-ESP-001A,CABLE,CABLE(NA),0%
 DCS-01,IN,NP-CR-ESP-001B,CABLE,CABLE(NA),0%
 DCS-01,IN,NP-CR-ESP-001C,CABLE,CABLE(NA),0%
-DCS-01,IN,NP-P7001A-04,CABLE,CABLE(NA),0%
+DCS-01,IN,NP-P7001A-04,CABLE,CABLE(NA),Done
 DCS-01,IN,NP-P7001A-05,CABLE,CABLE(NA),0%
-DCS-01,IN,NP-P7001B-04,CABLE,CABLE(NA),0%
+DCS-01,IN,NP-P7001B-04,CABLE,CABLE(NA),Done
 DCS-01,IN,NP-P7001B-05,CABLE,CABLE(NA),0%
 DCS-01,IN,NP-P8001A-04,CABLE,CABLE(NA),0%
 DCS-01,IN,NP-P8001A-05,CABLE,CABLE(NA),0%
@@ -17070,7 +17070,7 @@ NO SUBS.,IN,PDT-84204,Instrument(PDT),Instrument(PDT),0%
 NO SUBS.,IN,PDT-84207,Instrument(PDT),Instrument(PDT),0%
 2000-03,IN,PDV-2051(NA),CABLE,CABLE(NA),0%
 2000-03,IN,PDV-2051(PDV),Instrument(PDV),Instrument(PDV),0%
-2000-06,IN,PDV-2575(NA),CABLE,CABLE(NA),0%
+2000-06,IN,PDV-2575(NA),CABLE,CABLE(NA),Done
 2000-06,IN,PDV-2575(PDV),Instrument(PDV),Instrument(PDV),25%
 NO SUBS.,IN,PDV-30120,PKG,PKG,33%
 3000-01,IN,PDV-30120(PDV),Instrument(PDV),Instrument(PDV),Exception(Pending)
@@ -17945,9 +17945,9 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 3000-03,IN,PSL-10101,Instrument(PSL),Instrument(PSL),0%
 3000-03,IN,PSL-10103,Instrument(PSL),Instrument(PSL),0%
 3000-03,IN,PSL-10104,Instrument(PSL),Instrument(PSL),0%
-4000-02,IN,PSL-2021-1(NA),CABLE,CABLE(NA),0%
+4000-02,IN,PSL-2021-1(NA),CABLE,CABLE(NA),50%
 4000-02,IN,PSL-2021-1(PSL),Instrument(PSL),Instrument(PSL),Done
-4000-02,IN,PSL-2021-2(NA),CABLE,CABLE(NA),0%
+4000-02,IN,PSL-2021-2(NA),CABLE,CABLE(NA),50%
 4000-02,IN,PSL-2021-2(PSL),Instrument(PSL),Instrument(PSL),Done
 2000-03,IN,PSL-2038-1(NA),CABLE,CABLE(NA),0%
 2000-03,IN,PSL-2038-1(PSL),Instrument(PSL),Instrument(PSL),0%
@@ -18407,7 +18407,7 @@ NO SUBS.,IN,PT-10224,SIGNAL,SIGNAL,0%
 2000-06,IN,PT-25108(PT),Instrument(PT),Instrument(PT),0%
 1000-02,IN,PT-2536(NA),CABLE,CABLE(NA),0%
 1000-02,IN,PT-2536(PT),Instrument(PT),Instrument(PT),Done
-1000-02,IN,PT-2540(NA),CABLE,CABLE(NA),0%
+1000-02,IN,PT-2540(NA),CABLE,CABLE(NA),50%
 1000-02,IN,PT-2540(PT),Instrument(PT),Instrument(PT),Done
 2000-06,IN,PT-2579(NA),CABLE,CABLE(NA),Done
 2000-06,IN,PT-2579(PT),Instrument(PT),Instrument(PT),Done
@@ -18449,7 +18449,7 @@ NO SUBS.,IN,PT-10224,SIGNAL,SIGNAL,0%
 5000-01,IN,PT-5093(PT),Instrument(PT),Instrument(PT),DONE
 5000-01,IN,PT-5111(NA),CABLE,CABLE(NA),DONE
 5000-01,IN,PT-5111(PT),Instrument(PT),Instrument(PT),Done
-5000-01,IN,PT-5139(NA),CABLE,CABLE(NA),50%
+5000-01,IN,PT-5139(NA),CABLE,CABLE(NA),Done
 5000-01,IN,PT-5139(PT),Instrument(PT),Instrument(PT),Done
 5000-02,IN,PT-5166(NA),CABLE,CABLE(NA),Done
 5000-02,IN,PT-5166(PT),Instrument(PT),Instrument(PT),Done
@@ -18463,7 +18463,7 @@ NO SUBS.,IN,PT-10224,SIGNAL,SIGNAL,0%
 5000-02,IN,PT-5176(PT),Instrument(PT),Instrument(PT),75%
 5000-02,IN,PT-5219(NA),CABLE,CABLE(NA),Done
 5000-02,IN,PT-5219(PT),Instrument(PT),Instrument(PT),DONE
-5000-02,IN,PT-5240(NA),CABLE,CABLE(NA),0%
+5000-02,IN,PT-5240(NA),CABLE,CABLE(NA),Done
 5000-02,IN,PT-5240(PT),Instrument(PT),Instrument(PT),Done
 5000-03,IN,PT-5252(NA),CABLE,CABLE(NA),Done
 5000-03,IN,PT-5252(PT),Instrument(PT),Instrument(PT),Done
@@ -18602,7 +18602,7 @@ NO SUBS.,IN,PV-30123,PKG,PKG,33%
 3000-03,IN,PV-3194(PV),Instrument(PV),Instrument(PV),25%
 5000-01,IN,PV-5069(NA),CABLE,CABLE(NA),0%
 5000-01,IN,PV-5069(PV),Instrument(PV),Instrument(PV),25%
-5000-01,IN,PV-5091A(NA),CABLE,CABLE(NA),0%
+5000-01,IN,PV-5091A(NA),CABLE,CABLE(NA),Done
 5000-01,IN,PV-5091A(PV),Instrument(PV),Instrument(PV),25%
 5000-01,IN,PV-5091B(NA),CABLE,CABLE(NA),0%
 5000-01,IN,PV-5091B(PV),Instrument(PV),Instrument(PV),25%
@@ -18646,7 +18646,7 @@ NO SUBS.,IN,PV-30123,PKG,PKG,33%
 4000-02,IN,PV-7051B(PV),Instrument(PV),Instrument(PV),Done
 4000-02,IN,PV-7056(NA),CABLE,CABLE(NA),Done
 4000-02,IN,PV-7056(PV),Instrument(PV),Instrument(PV),75%
-4000-04,IN,PV-7094(NA),CABLE,CABLE(NA),0%
+4000-04,IN,PV-7094(NA),CABLE,CABLE(NA),50%
 4000-04,IN,PV-7094(PV),Instrument(PV),Instrument(PV),Done
 4000-04,IN,PV-7101(NA),CABLE,CABLE(NA),Done
 4000-04,IN,PV-7101(PV),Instrument(PV),Instrument(PV),75%
@@ -18699,7 +18699,7 @@ NO SUBS.,IN,PZSL-84215,Instrument(X),Instrument(PZSL),0%
 4000-02,IN,PZT-7002C(PZT),Instrument(X),Instrument(PZT),Done
 NO SUBS.,IN,PZT-84210,Instrument(X),Instrument(PZT),0%
 NO SUBS.,IN,PZT-84215,Instrument(X),Instrument(PZT),0%
-1000-01,MES,R-1001,Reactor(R),Hydrogenator,75%
+1000-01,MES,R-1001,Reactor(R),Hydrogenator,80%
 1000-01,MES,R-1002-1,Reactor(R),Sulphur Absorber,DONE
 1000-01,MES,R-1002-2,Reactor(R),Sulphur Absorber,75%
 2000-02,MES,R-2003,Reactor(R),Prereformer,60%
@@ -18935,13 +18935,13 @@ FGS-04,IN,RO-9030A,Instrument(RO),Fire Fighting(RO),Exception(Pending)
 4000-14,IN,RO-9058,Instrument(RO),Fire Fighting(RO),Done
 4000-14,IN,RO-9059,Instrument(RO),Fire Fighting(RO),Done
 4000-14,IN,RO-9060,Instrument(RO),Fire Fighting(RO),Done
-BLD-01,BD,Roof(BLD-01),08-Roof,Roof(BLD-01),DONE
-BLD-02,BD,Roof(BLD-02),08-Roof,Roof structure and waterproofing,DONE
+BLD-01,BD,Roof(BLD-01),08-Roof,Roof(BLD-01),0%
+BLD-02,BD,Roof(BLD-02),08-Roof,Roof structure and waterproofing,0%
 BLD-03,BD,Roof(BLD-03),08-Roof,Roof(BLD-03),0%
-BLD-04,BD,Roof(BLD-04),08-Roof,Roof(BLD-04),DONE
+BLD-04,BD,Roof(BLD-04),08-Roof,Roof(BLD-04),0%
 BLD-05,BD,Roof(BLD-05),08-Roof,Roof(BLD-05),0%
-BLD-06,BD,Roof(BLD-06),08-Roof,Roof(BLD-06),DONE
-BLD-07,BD,Roof(BLD-07),08-Roof,Roof(BLD-07),DONE
+BLD-06,BD,Roof(BLD-06),08-Roof,Roof(BLD-06),0%
+BLD-07,BD,Roof(BLD-07),08-Roof,Roof(BLD-07),0%
 LS-03,EL,S01(LS-03),Switch,One Pole Two Way Switch Surface Mounted,50%
 LS-04,EL,S01(LS-04),Switch,One Pole Two Way Switch Flush Mounted,0%
 LS-05,EL,S01(LS-05),Switch,One Pole Two Way Switch Flush Mounted,0%
@@ -19910,11 +19910,11 @@ TEL-08,EL,SS-TJB1,Telecom Device,Telephone Junction Box,50%
 3000-01,IN,SSV-30101,Instrument(SSV),Instrument(SSV),Exception(Pending)
 3000-01,IN,SSV-30102,Instrument(SSV),Instrument(SSV),Exception(Pending)
 NO SUBS.,MES,STACK_S_2001,REFORMER,STACK_S_2001,
-BLD-01,BD,Stair Ways(Ground Floor BLD-01),09-Stair Ways,Stair Ways(Ground Floor BLD-01),DONE
+BLD-01,BD,Stair Ways(Ground Floor BLD-01),09-Stair Ways,Stair Ways(Ground Floor BLD-01),0%
 BLD-03,BD,Stair Ways(Ground Floor BLD-03),09-Stair Ways,Stair Ways(Ground Floor BLD-03),0%
-BLD-04,BD,Stair Ways(Ground Floor BLD-04),09-Stair Ways,Stair Ways(Ground Floor BLD-04),DONE
+BLD-04,BD,Stair Ways(Ground Floor BLD-04),09-Stair Ways,Stair Ways(Ground Floor BLD-04),0%
 BLD-05,BD,Stair Ways(Ground Floor BLD-05),09-Stair Ways,Stair Ways(Ground Floor BLD-05),0%
-BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor BLD-06),DONE
+BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor BLD-06),0%
 NO SUBS.,MES,STEAM_PRE_HEATER_E_2015,REFORMER,STEAM_PRE_HEATER_E_2015,
 NO SUBS.,IN,SV-001,CABLE,CABLE(NA),0%
 NO SUBS.,IN,SV-001~004(),CABLE,CHECK,0%
@@ -20150,7 +20150,7 @@ NO SUBS.,IN,TE-10208-2,PKG,PKG,0%
 1000-01,IN,TE-2148(TE),Instrument(TE),Instrument(TE),Done
 1000-01,IN,TE-2149(NA),CABLE,CABLE(NA),0%
 1000-01,IN,TE-2149(TE),Instrument(TE),Instrument(TE),Done
-3000-04,IN,TE-2150(NA),CABLE,CABLE(NA),0%
+3000-04,IN,TE-2150(NA),CABLE,CABLE(NA),50%
 3000-04,IN,TE-2150(TE),Instrument(TE),Instrument(TE),Done
 1000-01,IN,TE-2151(NA),CABLE,CABLE(NA),0%
 1000-01,IN,TE-2151(TE),Instrument(TE),Instrument(TE),Done
@@ -20162,7 +20162,7 @@ NO SUBS.,IN,TE-10208-2,PKG,PKG,0%
 2000-02,IN,TE-2161(TE),Instrument(TE),Instrument(TE),50%
 2000-02,IN,TE-2162(NA),CABLE,CABLE(NA),0%
 2000-02,IN,TE-2162(TE),Instrument(TE),Instrument(TE),50%
-1000-01,IN,TE-2220(NA),CABLE,CABLE(NA),0%
+1000-01,IN,TE-2220(NA),CABLE,CABLE(NA),50%
 1000-01,IN,TE-2220(TE),Instrument(TE),Instrument(TE),Done
 2000-02,IN,TE-2226(NA),CABLE,CABLE(NA),0%
 2000-02,IN,TE-2226(TE),Instrument(TE),Instrument(TE),0%
@@ -20431,21 +20431,21 @@ NO SUBS.,IN,TE-10208-2,PKG,PKG,0%
 3000-03,IN,TE-3120(TE),Instrument(TE),Instrument(TE),Done
 3000-03,IN,TE-3121(NA),CABLE,CABLE(NA),0%
 3000-03,IN,TE-3121(TE),Instrument(TE),Instrument(TE),Done
-3000-03,IN,TE-3142(NA),CABLE,CABLE(NA),0%
+3000-03,IN,TE-3142(NA),CABLE,CABLE(NA),50%
 3000-03,IN,TE-3142(TE),Instrument(TE),Instrument(TE),Done
-3000-03,IN,TE-3144(NA),CABLE,CABLE(NA),0%
+3000-03,IN,TE-3144(NA),CABLE,CABLE(NA),50%
 3000-03,IN,TE-3144(TE),Instrument(TE),Instrument(TE),Done
-3000-03,IN,TE-3145(NA),CABLE,CABLE(NA),0%
+3000-03,IN,TE-3145(NA),CABLE,CABLE(NA),50%
 3000-03,IN,TE-3145(TE),Instrument(TE),Instrument(TE),Done
 3000-03,IN,TE-3147(NA),CABLE,CABLE(NA),0%
 3000-03,IN,TE-3147(TE),Instrument(TE),Instrument(TE),Done
-3000-03,IN,TE-3148(NA),CABLE,CABLE(NA),0%
+3000-03,IN,TE-3148(NA),CABLE,CABLE(NA),50%
 3000-03,IN,TE-3148(TE),Instrument(TE),Instrument(TE),Done
-3000-03,IN,TE-3150(NA),CABLE,CABLE(NA),0%
+3000-03,IN,TE-3150(NA),CABLE,CABLE(NA),50%
 3000-03,IN,TE-3150(TE),Instrument(TE),Instrument(TE),Done
 3000-03,IN,TE-3164(NA),CABLE,CABLE(NA),0%
 3000-03,IN,TE-3164(TE),Instrument(TE),Instrument(TE),Done
-3000-03,IN,TE-3194(NA),CABLE,CABLE(NA),0%
+3000-03,IN,TE-3194(NA),CABLE,CABLE(NA),50%
 3000-03,IN,TE-3194(TE),Instrument(TE),Instrument(TE),Done
 3000-03,IN,TE-3198(NA),CABLE,CABLE(NA),Done
 3000-03,IN,TE-3198(TE),Instrument(TE),Instrument(TE),Done
@@ -21069,8 +21069,8 @@ NO SUBS.,MES,TK-3013,005-Tank(TK),Run Down Tank,82%
 4000-06,MES,TK-7001-2,005-Tank(TK),Demineralized Water Tank (TK 7001 2) OUT OF SCOPE,12%
 1000-03,MES,TK-7002,005-Tank(TK),Process Condensate Buffer Tank (TK 7002) OUT OF SCOPE,6%
 4000-06,MES,TK-7501,005-Tank(TK),CONDENSATE TANK (TK 7501) OUT OF SCOPE,29%
-4000-06,MES,TK-8401,005-Tank(TK),CAUSTIC SODA TANK,94%
-4000-06,MES,TK-8402,005-Tank(TK),SULPHURIC ACID TANK,94%
+4000-06,MES,TK-8401,005-Tank(TK),CAUSTIC SODA TANK,88%
+4000-06,MES,TK-8402,005-Tank(TK),SULPHURIC ACID TANK,88%
 120-13,EL,TR01-AJB01_1,Cathodic Protection,Cable 1x35,DONE
 120-13,EL,TR01-AJB01_2,Cathodic Protection,Cable 1x35,DONE
 120-13,EL,TR01-NBB05,Cathodic Protection,Cable 1x35,DONE
@@ -21506,7 +21506,7 @@ NO SUBS.,IN,TT-10218,Pkg,Pkg,0%
 2000-04,IN,TT-2360B(TT),Instrument(TT),Instrument(TT),50%
 2000-04,IN,TT-2360C(NA),CABLE,CABLE(NA),Done
 2000-04,IN,TT-2360C(TT),Instrument(TT),Instrument(TT),50%
-2000-04,IN,TT-2371(NA),CABLE,CABLE(NA),0%
+2000-04,IN,TT-2371(NA),CABLE,CABLE(NA),50%
 2000-04,IN,TT-2371(TT),Instrument(TT),Instrument(TT),DONE
 2000-04,IN,TT-2402(NA),CABLE,CABLE(NA),Done
 2000-04,IN,TT-2402(TT),Instrument(TT),Instrument(TT),Done
@@ -21543,7 +21543,7 @@ NO SUBS.,IN,TT-10218,Pkg,Pkg,0%
 2000-06,IN,TT-25109,Pkg,Pkg,0%
 1000-02,IN,TT-2536(NA),CABLE,CABLE(NA),0%
 1000-02,IN,TT-2536(TT),Instrument(TT),Instrument(TT),DONE
-1000-02,IN,TT-2540(NA),CABLE,CABLE(NA),0%
+1000-02,IN,TT-2540(NA),CABLE,CABLE(NA),50%
 1000-02,IN,TT-2540(TT),Instrument(TT),Instrument(TT),DONE
 1000-02,IN,TT-2553(NA),CABLE,CABLE(NA),0%
 1000-02,IN,TT-2553(TT),Instrument(TT),Instrument(TT),DONE
@@ -21606,7 +21606,7 @@ NO SUBS.,IN,TT-30147,PKG,PKG,0%
 3000-03,IN,TT-3120(TT),Instrument(TT),Instrument(TT),DONE
 3000-03,IN,TT-3121(NA),CABLE,CABLE(NA),Done
 3000-03,IN,TT-3121(TT),Instrument(TT),Instrument(TT),DONE
-3000-03,IN,TT-3142(NA),CABLE,CABLE(NA),0%
+3000-03,IN,TT-3142(NA),CABLE,CABLE(NA),50%
 3000-03,IN,TT-3142(TT),Instrument(TT),Instrument(TT),DONE
 3000-03,IN,TT-3144(NA),CABLE,CABLE(NA),Done
 3000-03,IN,TT-3144(TT),Instrument(TT),Instrument(TT),Done
@@ -21614,7 +21614,7 @@ NO SUBS.,IN,TT-30147,PKG,PKG,0%
 3000-03,IN,TT-3145(TT),Instrument(TT),Instrument(TT),DONE
 3000-03,IN,TT-3147(NA),CABLE,CABLE(NA),Done
 3000-03,IN,TT-3147(TT),Instrument(TT),Instrument(TT),Done
-3000-03,IN,TT-3148(NA),CABLE,CABLE(NA),0%
+3000-03,IN,TT-3148(NA),CABLE,CABLE(NA),50%
 3000-03,IN,TT-3148(TT),Instrument(TT),Instrument(TT),DONE
 3000-03,IN,TT-3150(NA),CABLE,CABLE(NA),Done
 3000-03,IN,TT-3150(TT),Instrument(TT),Instrument(TT),Done
@@ -21826,7 +21826,7 @@ NO SUBS.,IN,TT-84208,Instrument(TT),Instrument(TT),0%
 2000-04,IN,TV-2360-22(TV),Instrument(TV),Instrument(TV),0%
 2000-05,IN,TV-2457(NA),CABLE,CABLE(NA),0%
 2000-05,IN,TV-2457(TV),Instrument(TV),Instrument(TV),25%
-4000-02,IN,TV-2540(NA),CABLE,CABLE(NA),0%
+4000-02,IN,TV-2540(NA),CABLE,CABLE(NA),50%
 4000-02,IN,TV-2540(TV),Instrument(TV),Instrument(TV),75%
 3000-01,IN,TV-30152,Instrument(TV),Instrument(TV),Exception(Pending)
 2000-05,IN,TV-5064(NA),CABLE,CABLE(NA),0%
@@ -22393,9 +22393,9 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 2000-03,IN,USY-2010A(USY),Instrument(X),Instrument(USY),0%
 2000-03,IN,USY-2010B(NA),CABLE,CABLE(NA),0%
 2000-03,IN,USY-2010B(USY),Instrument(X),Instrument(USY),0%
-4000-02,IN,USY-2021-1(NA),CABLE,CABLE(NA),0%
+4000-02,IN,USY-2021-1(NA),CABLE,CABLE(NA),50%
 4000-02,IN,USY-2021-1(USY),Instrument(X),Instrument(USY),Done
-4000-02,IN,USY-2021-2(NA),CABLE,CABLE(NA),0%
+4000-02,IN,USY-2021-2(NA),CABLE,CABLE(NA),50%
 4000-02,IN,USY-2021-2(USY),Instrument(X),Instrument(USY),Done
 2000-03,IN,USY-2038-1(NA),CABLE,CABLE(NA),Done
 2000-03,IN,USY-2038-1(USY),Instrument(X),Instrument(USY),0%
