@@ -92,6 +92,9 @@
     
     <div class="container mx-auto p-4">
         <div class="bg-white rounded shadow-sm p-2 mb-4 flex justify-end gap-2 no-print">
+            <button onclick="resetFilters()" class="bg-gray-500 text-white px-3 py-1.5 rounded hover:bg-gray-600 text-xs">
+                <i class="fas fa-redo"></i> پاک کردن فیلترها
+            </button>
             <button onclick="window.print()" class="bg-red-600 text-white px-3 py-1.5 rounded hover:bg-red-700 text-xs">
                 <i class="fas fa-print"></i> چاپ
             </button>
@@ -105,7 +108,7 @@
 
         <section class="mb-6">
             <h2 class="text-xl font-bold mb-4 text-gray-800"><i class="fas fa-chart-line"></i> نمای کلی</h2>
-            <div class="grid grid-cols-2 md:grid-cols-5 gap-4" id="globalStats"></div>
+            <div class="grid gap-4" id="globalStats"></div>
         </section>
 
         <section class="bg-white rounded-lg shadow-md mb-6 no-print">
@@ -114,11 +117,6 @@
                 <i id="filterToggleIcon" class="fas fa-chevron-down text-gray-600"></i>
             </div>
             <div id="filterContent" style="display: none;" class="p-4 pt-0">
-                <div class="flex justify-end mb-3">
-                    <button onclick="resetFilters()" class="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600 text-sm">
-                        <i class="fas fa-redo"></i> پاک کردن همه
-                    </button>
-                </div>
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
                     <div>
                         <label class="block text-sm font-medium mb-2">مرحله</label>
@@ -188,7 +186,7 @@
                             <th class="p-2 text-left">توضیحات</th>
                             <th class="p-2 text-left cursor-pointer" onclick="sortTable('RECEIVED_DATE')">تاریخ دریافت <i class="fas fa-sort"></i></th>
                             <th class="p-2 text-left cursor-pointer" onclick="sortTable('daysInStage')">روز <i class="fas fa-sort"></i></th>
-                            <th class="p-2 text-left cursor-pointer" onclick="sortTable('loops')">حلقه <i class="fas fa-sort"></i></th>
+                            <th class="p-2 text-left cursor-pointer" onclick="sortTable('loops')">تعداد مراحل <i class="fas fa-sort"></i></th>
                             <th class="p-2 text-center">جزئیات</th>
                         </tr>
                     </thead>
@@ -205,7 +203,7 @@
 
         async function loadData() {
             try {
-                const response = await fetch('https://raw.githubusercontent.com/akarimvand/SAPRA2/refs/heads/main/dbcsv/HOS_WORK_FLOW.csv');
+                const response = await fetch('../dbcsv/HOS_WORK_FLOW.csv');
                 const csvText = await response.text();
                 const parsed = Papa.parse(csvText, { header: true, skipEmptyLines: true });
                 
@@ -377,6 +375,7 @@
             documentPaths.forEach(path => { if (stats.hasOwnProperty(path.currentStep)) stats[path.currentStep]++; });
             const total = stats['Execution Activities'] + stats['FORM A'] + stats['FORM B'] + stats['FORM C'] + stats['FORM D'];
             const container = document.getElementById('globalStats');
+            container.className = 'grid gap-4 grid-cols-2 md:grid-cols-' + STEPS_ORDER.length;
             container.innerHTML = '';
             const colors = { 'Execution Activities': '#64748b', 'FORM A': '#3b82f6', 'FORM B': '#10b981', 'FORM C': '#f59e0b', 'FORM D': '#ef4444' };
             const bgColors = { 'Execution Activities': '#64748b', 'FORM A': '#3b82f6', 'FORM B': '#10b981', 'FORM C': '#f59e0b', 'FORM D': '#ef4444' };
@@ -701,7 +700,7 @@
             path.records.forEach((record, idx) => {
                 const days = idx < path.records.length - 1 ? Math.ceil((path.records[idx + 1].RECEIVED_DATE - record.RECEIVED_DATE) / 86400000) : Math.ceil((new Date() - record.RECEIVED_DATE) / 86400000);
                 const color = days > 14 ? 'red' : days > 7 ? 'yellow' : days > 3 ? 'blue' : 'green';
-                html += '<div class="flex items-start gap-3 p-3 bg-' + color + '-50 border-r-4 border-' + color + '-500 rounded"><div class="flex-shrink-0 w-8 h-8 bg-' + color + '-500 text-white rounded-full flex items-center justify-center font-bold">' + (idx + 1) + '</div><div class="flex-1"><div class="font-bold text-sm">' + record.STEP + ' - ' + record.UNIT + '</div><div class="text-xs text-gray-600 mt-1">شخص: ' + record.PERSON + '</div><div class="text-xs text-gray-600">تاریخ: ' + record.RECEIVED_DATE.toLocaleDateString('fa-IR') + '</div>' + (record.DESCRIPTION ? '<div class="text-xs text-gray-500 mt-1">' + record.DESCRIPTION + '</div>' : '') + '</div><div class="text-left"><div class="font-bold text-lg text-' + color + '-700">' + days + '</div><div class="text-xs text-gray-500">روز</div></div></div>';
+                html += '<div class="flex items-start gap-3 p-3 bg-' + color + '-50 border-r-4 border-' + color + '-500 rounded"><div class="flex-shrink-0 w-8 h-8 bg-' + color + '-500 text-white rounded-full flex items-center justify-center font-bold">' + (idx + 1) + '</div><div class="flex-1"><div class="font-bold text-sm">' + record.STEP + ' - ' + record.UNIT + '</div><div class="text-xs text-gray-600 mt-1">مسئول: ' + record.PERSON + '</div><div class="text-xs text-gray-600">تاریخ: ' + record.RECEIVED_DATE.toLocaleDateString('fa-IR') + '</div>' + (record.DESCRIPTION ? '<div class="text-xs text-gray-500 mt-1">' + record.DESCRIPTION + '</div>' : '') + '</div><div class="text-left"><div class="font-bold text-lg text-' + color + '-700">' + days + '</div><div class="text-xs text-gray-500">روز</div></div></div>';
             });
             html += '</div>';
             document.getElementById('timelineContent').innerHTML = html;
