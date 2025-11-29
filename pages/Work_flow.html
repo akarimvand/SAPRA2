@@ -95,9 +95,6 @@
             <button onclick="resetFilters()" class="bg-gray-500 text-white px-3 py-1.5 rounded hover:bg-gray-600 text-xs">
                 <i class="fas fa-redo"></i> پاک کردن فیلترها
             </button>
-            <button onclick="window.print()" class="bg-red-600 text-white px-3 py-1.5 rounded hover:bg-red-700 text-xs">
-                <i class="fas fa-print"></i> چاپ
-            </button>
             <button onclick="exportToExcel()" class="bg-green-600 text-white px-3 py-1.5 rounded hover:bg-green-700 text-xs">
                 <i class="fas fa-file-excel"></i> خروجی Excel
             </button>
@@ -108,7 +105,9 @@
 
         <section class="mb-6">
             <h2 class="text-xl font-bold mb-4 text-gray-800"><i class="fas fa-chart-line"></i> نمای کلی</h2>
-            <div class="grid gap-4" id="globalStats"></div>
+            <div class="overflow-x-auto md:overflow-visible" style="scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;">
+                <div class="grid gap-4" id="globalStats"></div>
+            </div>
         </section>
 
         <section class="bg-white rounded-lg shadow-md mb-6 no-print">
@@ -146,17 +145,17 @@
 
         <div id="criticalAlerts"></div>
 
-        <section class="bg-white rounded-lg shadow-md p-6 mb-6" id="heatmapSection">
-            <div class="flex justify-between items-center mb-4">
-                <h2 class="text-xl font-bold text-gray-800"><i class="fas fa-th"></i> ماتریس وضعیت مراحل</h2>
-                <div class="flex gap-3 text-xs">
-                    <span class="flex items-center gap-1"><span class="w-4 h-4 rounded" style="background: #d1fae5;"></span> عالی (&lt; 3 روز)</span>
-                    <span class="flex items-center gap-1"><span class="w-4 h-4 rounded" style="background: #dbeafe;"></span> خوب (3-7 روز)</span>
-                    <span class="flex items-center gap-1"><span class="w-4 h-4 rounded" style="background: #fef3c7;"></span> هشدار (7-14 روز)</span>
-                    <span class="flex items-center gap-1"><span class="w-4 h-4 rounded" style="background: #fee2e2;"></span> بحرانی (&gt; 14 روز)</span>
+        <section class="bg-white rounded-lg shadow-md p-4 md:p-6 mb-6" id="heatmapSection">
+            <div class="flex flex-col md:flex-row justify-between md:items-center mb-4 gap-3">
+                <h2 class="text-lg md:text-xl font-bold text-gray-800"><i class="fas fa-th"></i> ماتریس وضعیت مراحل</h2>
+                <div class="flex flex-wrap gap-2 text-xs">
+                    <span class="flex items-center gap-1"><span class="w-3 h-3 rounded" style="background: #d1fae5;"></span> عالی</span>
+                    <span class="flex items-center gap-1"><span class="w-3 h-3 rounded" style="background: #dbeafe;"></span> خوب</span>
+                    <span class="flex items-center gap-1"><span class="w-3 h-3 rounded" style="background: #fef3c7;"></span> هشدار</span>
+                    <span class="flex items-center gap-1"><span class="w-3 h-3 rounded" style="background: #fee2e2;"></span> بحرانی</span>
                 </div>
             </div>
-            <div id="heatmap" class="overflow-x-auto"></div>
+            <div id="heatmap" class="overflow-x-auto -mx-4 md:mx-0 px-4 md:px-0"></div>
         </section>
 
 
@@ -375,7 +374,7 @@
             documentPaths.forEach(path => { if (stats.hasOwnProperty(path.currentStep)) stats[path.currentStep]++; });
             const total = stats['Execution Activities'] + stats['FORM A'] + stats['FORM B'] + stats['FORM C'] + stats['FORM D'];
             const container = document.getElementById('globalStats');
-            container.className = 'grid gap-4 grid-cols-2 md:grid-cols-' + STEPS_ORDER.length;
+            container.className = 'flex md:grid gap-4 md:grid-cols-' + STEPS_ORDER.length;
             container.innerHTML = '';
             const colors = { 'Execution Activities': '#64748b', 'FORM A': '#3b82f6', 'FORM B': '#10b981', 'FORM C': '#f59e0b', 'FORM D': '#ef4444' };
             const bgColors = { 'Execution Activities': '#64748b', 'FORM A': '#3b82f6', 'FORM B': '#10b981', 'FORM C': '#f59e0b', 'FORM D': '#ef4444' };
@@ -391,7 +390,7 @@
                     const formName = step.replace('FORM ', '');
                     description = 'تعداد ساب سیستمی که در حال حاضر در مرحله فرم "' + formName + '" میباشد';
                 }
-                container.innerHTML += '<div id="' + cardId + '" class="stat-card bg-white rounded-xl shadow-md cursor-pointer" onclick="filterByStep(\'' + step + '\')" style="font-family: Vazir, sans-serif;"><div style="background: ' + bgColors[step] + '; color: white; padding: 12px 16px; font-size: 0.85rem; font-weight: 700; text-align: center; border-radius: 12px 12px 0 0;">' + step + '</div><div style="padding: 24px 16px; display: flex; align-items: center; gap: 16px;"><div style="flex: 1; text-align: right;"><div class="count-animate" style="font-size: 3.5rem; font-weight: 900; color: ' + bgColors[step] + '; line-height: 1;">' + count + '</div><div style="font-size: 0.75rem; color: #64748b; margin-top: 12px; font-weight: 600; text-align: right;">' + description + '</div></div><div class="doughnut-container" style="flex-shrink: 0;"><canvas id="' + canvasId + '" width="100" height="100"></canvas><div class="doughnut-percent" style="color: ' + bgColors[step] + ';">' + percentage + '%</div></div></div></div>';
+                container.innerHTML += '<div id="' + cardId + '" class="stat-card bg-white rounded-xl shadow-md cursor-pointer flex-shrink-0 w-full md:w-auto" onclick="filterByStep(\'' + step + '\')" style="font-family: Vazir, sans-serif; scroll-snap-align: start;"><div style="background: ' + bgColors[step] + '; color: white; padding: 12px 16px; font-size: 0.85rem; font-weight: 700; text-align: center; border-radius: 12px 12px 0 0;">' + step + '</div><div style="padding: 24px 16px; display: flex; align-items: center; gap: 16px;"><div style="flex: 1; text-align: right;"><div class="count-animate" style="font-size: 3.5rem; font-weight: 900; color: ' + bgColors[step] + '; line-height: 1;">' + count + '</div><div style="font-size: 0.75rem; color: #64748b; margin-top: 12px; font-weight: 600; text-align: right;">' + description + '</div></div><div class="doughnut-container" style="flex-shrink: 0;"><canvas id="' + canvasId + '" width="100" height="100"></canvas><div class="doughnut-percent" style="color: ' + bgColors[step] + ';">' + percentage + '%</div></div></div></div>';
             });
             setTimeout(() => {
                 STEPS_ORDER.forEach((step, idx) => {
