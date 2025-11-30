@@ -8,7 +8,7 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MES,13,1,12,41,2,39,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,7,2,55,0,55,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,3,0,15,7,8,0
-1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,193,54,404,144,260,107
+1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,193,56,404,144,260,107
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,53,3,176,117,59,57
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,185,0,2193,2019,174,2
 120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,346,17,3541,3238,303,31
@@ -77,14 +77,14 @@
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,6,0,0,0,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,2,4,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,51,46,1,168,105,63,19
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,55,58,460,327,133,384
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,55,60,460,327,133,384
 4000,4000-05,Utility,Blow Down,PI,24,24,0,46,33,13,13
 4000,4000-05,Utility,Blow Down,MES,4,0,4,23,0,23,0
 4000,4000-05,Utility,Blow Down,IN,17,17,0,15,6,9,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,2,13,16,0,16,5
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,53,1,207,122,85,167
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,4,8,54,0,54,0
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,62,63,176,53,123,107
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,62,67,176,53,123,107
 4000,4000-07,Utility,Plant Air,IN,2,2,0,2,0,2,2
 4000,4000-07,Utility,Plant Air,PI,10,10,0,31,4,27,30
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
@@ -128,10 +128,10 @@
 5000,5000-04,Distillation & Methanol Product,Methanol Product,PI,30,25,3,136,89,47,32
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MER,4,4,0,26,0,26,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,EL,2,2,0,12,4,8,0
-5000,5000-04,Distillation & Methanol Product,Methanol Product,IN,213,147,21,445,254,191,45
+5000,5000-04,Distillation & Methanol Product,Methanol Product,IN,213,147,25,445,254,191,45
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MES,2,0,2,0,0,0,1
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MER,2,2,0,12,0,12,0
-5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,63,45,8,80,48,32,20
+5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,63,45,10,80,48,32,20
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,10,9,1,29,22,7,2
 7000,7000-01,Flare,Flare System (In Site),IN,145,138,0,255,114,141,17
 7000,7000-01,Flare,Flare System (In Site),MER,2,2,0,14,0,14,0
