@@ -34,7 +34,7 @@ LS-01,EL,00-RP-02,PANEL(EL),Area Receptacle Panel,DONE
 LS-01,EL,00-RP-03,PANEL(EL),Area Receptacle Panel,DONE
 LS-01,EL,00-RP-04,PANEL(EL),Area Receptacle Panel,DONE
 LS-01,EL,00-SLP-01,PANEL(EL),Street Lighting Panel,DONE
-LS-04,EL,01-EJB-1,Lighting Main JB,Emergency Lighting Junction Box,0%
+LS-04,EL,01-EJB-1,Lighting Main JB,Emergency Lighting Junction Box,Done
 LS-04,EL,01-EJB1-1-L1-01,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving Lamp 30w- EX,50%
 LS-05,EL,01-EJB1-1-L1-02,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving Lamp 30w- EX,0%
 LS-04,EL,01-EJB1-1-L2-01,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving Lamp 30w- WP,50%
@@ -54,7 +54,7 @@ NO SUBS.,EL,01-EJB2-2-L2-04,Lighting Fixture,Bulkhead Lighting Fixture Energy Sa
 LS-03,EL,01-EJB2-2-L3-01,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-EJB2-2-L3-02,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 NO SUBS.,EL,01-EJB2-2-L3-03,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving Lamp 30w- WP,0%
-LS-04,EL,01-JB-1,Lighting Main JB,Normal Lighting Junction Box,0%
+LS-04,EL,01-JB-1,Lighting Main JB,Normal Lighting Junction Box,Done
 LS-04,EL,01-JB1-1-L1-01,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving Lamp 30w- EX,50%
 LS-04,EL,01-JB1-1-L1-02,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving Lamp 30w- EX,50%
 LS-04,EL,01-JB1-1-L1-03,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving Lamp 30w- WP,50%
@@ -10445,17 +10445,17 @@ LS-02,EL,EBL-05-EJB2_1-6,Power Cable B,Area 05 Emergency Lighting JB No. 2/1 -05
 LS-02,EL,EBL-05-EJB2_2-6,Power Cable B,Area 05 Emergency Lighting JB No. 2/2 -05-EJB2/2-6,Done
 LS-02,EL,EBL-05-EJB2_3-6,Power Cable B,Area 05 Emergency Lighting JB No. 2/3 -05-EJB2/3-6,Done
 LS-02,EL,EBL-05-EJB2-6,Power Cable B,Area 05 Emergency Lighting JB No. 2 -05-EJB2-6,67%
-LS-02,EL,EBL-05-EJB3-7,Power Cable B,Area 05 Emergency Lighting JB No. 3- 05-EJB3-7,67%
+LS-02,EL,EBL-05-EJB3-7,Power Cable B,Area 05 Emergency Lighting JB No. 3- 05-EJB3-7,Done
 LS-01,EL,EBL-05-JB1_1-5,Power Cable B,Area 05  Normal Lighting JB No. 1 /1- 05-JB1/1-5,Done
 LS-01,EL,EBL-05-JB1-5,Power Cable B,Area 05  Normal Lighting JB No. 1 - 05-JB1-5,Done
 LS-01,EL,EBL-05-JB2_1-6,Power Cable B, Area 05  Normal Lighting JB No. 2/1 - 05-JB2/1-6,67%
 LS-01,EL,EBL-05-JB2_2-6,Power Cable B,Area 05  Normal Lighting JB No. 2/2- 05-JB2/2-6,67%
 LS-01,EL,EBL-05-JB2_3-6,Power Cable B,Area 05  Normal Lighting JB No. 2/3 - 05-JB2/3-6,67%
 LS-01,EL,EBL-05-JB2-6,Power Cable B,Area 05  Normal Lighting JB No. 2 - 05-JB2-6,67%
-LS-01,EL,EBL-05-JB3-7,Power Cable B,Area 05  Normal Lighting JB No. 3  - 05-JB3-7,67%
+LS-01,EL,EBL-05-JB3-7,Power Cable B,Area 05  Normal Lighting JB No. 3  - 05-JB3-7,Done
 LS-01,EL,EBL-05-RJB1_1-3,Power Cable B,Area 05 Socket JB No. 1/1- 05-RJB1/1-3,Done
 LS-01,EL,EBL-05-RJB1_2-3,Power Cable B,Area 05 Socket JB No. 1/2 - 05-RJB1/2-3,Done
-LS-01,EL,EBL-05-RJB1-3,Power Cable B,Area 05 Socket JB No. 1 - 05-RJB1-3,67%
+LS-01,EL,EBL-05-RJB1-3,Power Cable B,Area 05 Socket JB No. 1 - 05-RJB1-3,Done
 LS-01,EL,EBL-05-RJB2_1-4,Power Cable B,Area 05 Socket JB No. 2/1  - 05-RJB2/1-4,Done
 LS-01,EL,EBL-05-RJB2_2-4,Power Cable B,Area 05 Socket JB No. 2/2  - 05-RJB2/2-4,Done
 LS-01,EL,EBL-05-RJB2_3-4,Power Cable B,Area 05 Socket JB No. 2/3  - 05-RJB2/3-4,Done
@@ -10821,7 +10821,7 @@ NO SUBS.,EL,EBP-MC-2001-SH_1,POWER CABLE A,CABLE(NA),0%
 5000-02,EL,EBP-MP-5004A-SH_1,POWER CABLE A,CABLE(NA),Done
 120-01,EL,EBP-MP-5004B-SH,Power Cable B,Motor Space Heater- MP-5004B-SH,Done
 5000-02,EL,EBP-MP-5004B-SH_1,POWER CABLE A,CABLE(NA),Done
-120-02,EL,EBP-MP-5005A_1,Power Cable B,MP Column Feed Pump- MP-5005A,67%
+120-02,EL,EBP-MP-5005A_1,Power Cable B,MP Column Feed Pump- MP-5005A,Done
 120-02,EL,EBP-MP-5005A_2,Power Cable B,MP Column Feed Pump- MP-5005A,Done
 120-02,EL,EBP-MP-5005B_1,Power Cable B,MP Column Feed Pump- MP-5005B,Done
 120-02,EL,EBP-MP-5005B_2,Power Cable B,MP Column Feed Pump- MP-5005B,Done
@@ -11899,7 +11899,7 @@ DCS-01,IN,FCIAX-P8001B-01,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIDF-1001,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIDF-2010,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIDF-2020,CABLE,CABLE(NA),Done
-DCS-01,IN,FCIDF-2030,CABLE,CABLE(NA),50%
+DCS-01,IN,FCIDF-2030,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIDF-2503,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIDF-3001,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIDF-3002,CABLE,CABLE(NA),Done
@@ -11939,7 +11939,7 @@ DCS-01,IN,FCIRX-P8001C-01,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIRX-P8001D-01,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIVE-2001,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIVE-2002,CABLE,CABLE(NA),Done
-DCS-01,IN,FCIVE-2004,CABLE,CABLE(NA),50%
+DCS-01,IN,FCIVE-2004,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIVE-2005,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIVE-2502,CABLE,CABLE(NA),Done
 DCS-01,IN,FCIVE-2503,CABLE,CABLE(NA),Done
@@ -12112,7 +12112,7 @@ DCS-01,IN,FCNFF-5003,CABLE,CABLE(NA),Done
 DCS-01,IN,FCNFF-6001,CABLE,CABLE(NA),Done
 DCS-01,IN,FCNFF-7001,CABLE,CABLE(NA),Done
 DCS-01,IN,FCNFF-8001,CABLE,CABLE(NA),Done
-DCS-01,IN,FCNPF-2284,CABLE,CABLE(NA),50%
+DCS-01,IN,FCNPF-2284,CABLE,CABLE(NA),Done
 DCS-01,IN,FCNVE-70004A,CABLE,CABLE(NA),Done
 DCS-01,IN,FCNVE-70004B,CABLE,CABLE(NA),Done
 DCS-01,IN,FCNVE-80004A,CABLE,CABLE(NA),Done
@@ -12978,7 +12978,7 @@ NO SUBS.,IN,FT-10219,SIGNAL,SIGNAL,0%
 1000-01,IN,FT-2151(FT),Instrument(FT),Instrument(FT),50%
 1000-01,IN,FT-2151(NA),CABLE,CABLE(NA),Done
 2000-02,IN,FT-2165(FT),Instrument(FT),Instrument(FT),Done
-2000-02,IN,FT-2165(NA),CABLE,CABLE(NA),50%
+2000-02,IN,FT-2165(NA),CABLE,CABLE(NA),Done
 2000-04,IN,FT-2372(FT),Instrument(FT),Instrument(FT),Done
 2000-04,IN,FT-2372(NA),CABLE,CABLE(NA),0%
 2000-04,IN,FT-2417(FT),Instrument(FT),Instrument(FT),50%
@@ -12986,9 +12986,9 @@ NO SUBS.,IN,FT-10219,SIGNAL,SIGNAL,0%
 2000-05,IN,FT-2476(FT),Instrument(FT),Instrument(FT),DONE
 2000-05,IN,FT-2476(NA),CABLE,CABLE(NA),0%
 1000-02,IN,FT-2531-1(FT),Instrument(FT),Instrument(FT),25%
-1000-02,IN,FT-2531-1(NA),CABLE,CABLE(NA),50%
+1000-02,IN,FT-2531-1(NA),CABLE,CABLE(NA),Done
 1000-02,IN,FT-2531-2(FT),Instrument(FT),Instrument(FT),25%
-1000-02,IN,FT-2531-2(NA),CABLE,CABLE(NA),50%
+1000-02,IN,FT-2531-2(NA),CABLE,CABLE(NA),Done
 1000-02,IN,FT-2536(FT),Instrument(FT),Instrument(FT),Done
 1000-02,IN,FT-2536(NA),CABLE,CABLE(NA),0%
 3000-03,IN,FT-2607(FT),Instrument(FT),Instrument(FT),Done
@@ -13229,13 +13229,13 @@ DCS-01,IN,FTADO16-M04R-E,CABLE,CABLE(NA),0%
 2000-03,IN,FV-2040(FV),Instrument(FV),Instrument(FV),75%
 2000-03,IN,FV-2040(NA),CABLE,CABLE(NA),0%
 1000-01,IN,FV-2061(FV),Instrument(FV),Instrument(FV),25%
-1000-01,IN,FV-2061(NA),CABLE,CABLE(NA),50%
+1000-01,IN,FV-2061(NA),CABLE,CABLE(NA),Done
 2000-01,IN,FV-2072(FV),Instrument(FV),Instrument(FV),50%
 2000-01,IN,FV-2072(NA),CABLE,CABLE(NA),0%
 3000-04,IN,FV-2079(FV),Instrument(FV),Instrument(FV),50%
 3000-04,IN,FV-2079(NA),CABLE,CABLE(NA),0%
 1000-01,IN,FV-2091(FV),Instrument(FV),Instrument(FV),0%
-1000-01,IN,FV-2091(NA),CABLE,CABLE(NA),50%
+1000-01,IN,FV-2091(NA),CABLE,CABLE(NA),Done
 2000-02,IN,FV-2111,Instrument(FV),Instrument(FV),0%
 1000-01,IN,FV-2150(FV),Instrument(FV),Instrument(FV),25%
 1000-01,IN,FV-2150(NA),CABLE,CABLE(NA),0%
@@ -13360,7 +13360,7 @@ NO SUBS.,IN,FV-30111,PKG,PKG,33%
 2000-01,IN,FZSL-2072(FZSL),Instrument(X),Instrument(FZSL),0%
 2000-01,IN,FZSL-2072(NA),CABLE,CABLE(NA),0%
 3000-04,IN,FZSL-2079(FZSL),Instrument(X),Instrument(FZSL),0%
-3000-04,IN,FZSL-2079(NA),CABLE,CABLE(NA),50%
+3000-04,IN,FZSL-2079(NA),CABLE,CABLE(NA),Done
 1000-01,IN,FZSL-2091(FZSL),Instrument(X),Instrument(FZSL),0%
 1000-01,IN,FZSL-2091(NA),CABLE,CABLE(NA),0%
 2000-02,IN,FZSL-2111,Instrument(X),Instrument(FZSL),0%
@@ -14210,7 +14210,7 @@ DCS-01,IN,JNFF-2001.4,CABLE,CABLE(NA),Done
 DCS-01,IN,JNFF-2001.5,CABLE,CABLE(NA),Done
 DCS-01,IN,JNFF-2001.6,CABLE,CABLE(NA),Done
 DCS-01,IN,JNFF-2001.7,CABLE,CABLE(NA),Done
-DCS-01,IN,JNFF-2001.8,CABLE,CABLE(NA),50%
+DCS-01,IN,JNFF-2001.8,CABLE,CABLE(NA),Done
 DCS-01,IN,JNFF-2001.9,CABLE,CABLE(NA),Done
 DCS-01,IN,JNFF-2001_1,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
 DCS-01,IN,JNFF-2001_2,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
@@ -15236,7 +15236,7 @@ NO SUBS.,IN,LT-20151(LT),Instrument(LT),Instrument(LT),25%
 3000-03,IN,LUSY-3192(LUSY),Instrument(X),Instrument(LUSY),0%
 3000-03,IN,LUSY-3192(NA),CABLE,CABLE(NA),Done
 5000-01,IN,LUSY-5070(LUSY),Instrument(X),Instrument(LUSY),0%
-5000-01,IN,LUSY-5070(NA),CABLE,CABLE(NA),50%
+5000-01,IN,LUSY-5070(NA),CABLE,CABLE(NA),Done
 1000-03,IN,LUSY-6021B(LUSY),Instrument(X),Instrument(LUSY),0%
 1000-03,IN,LUSY-6021B(NA),CABLE,CABLE(NA),0%
 1000-03,IN,LUY-6082(LUY),Instrument(X),Instrument(LUY),0%
@@ -15268,7 +15268,7 @@ NO SUBS.,IN,LV-30107,PKG,PKG,33%
 3000-03,IN,LV-3192(LV),Instrument(LV),Instrument(LV),25%
 3000-03,IN,LV-3192(NA),CABLE,CABLE(NA),Done
 5000-01,IN,LV-5070(LV),Instrument(LV),Instrument(LV),Done
-5000-01,IN,LV-5070(NA),CABLE,CABLE(NA),50%
+5000-01,IN,LV-5070(NA),CABLE,CABLE(NA),Done
 1000-03,IN,LV-6021A(LV),Instrument(LV),Instrument(LV),25%
 1000-03,IN,LV-6021A(NA),CABLE,CABLE(NA),0%
 1000-03,IN,LV-6021B(LV),Instrument(LV),Instrument(LV),Done
@@ -18408,7 +18408,7 @@ NO SUBS.,IN,PT-10224,SIGNAL,SIGNAL,0%
 2000-06,IN,PT-25108(PT),Instrument(PT),Instrument(PT),0%
 1000-02,IN,PT-2536(NA),CABLE,CABLE(NA),0%
 1000-02,IN,PT-2536(PT),Instrument(PT),Instrument(PT),Done
-1000-02,IN,PT-2540(NA),CABLE,CABLE(NA),50%
+1000-02,IN,PT-2540(NA),CABLE,CABLE(NA),Done
 1000-02,IN,PT-2540(PT),Instrument(PT),Instrument(PT),Done
 2000-06,IN,PT-2579(NA),CABLE,CABLE(NA),Done
 2000-06,IN,PT-2579(PT),Instrument(PT),Instrument(PT),Done
@@ -19869,7 +19869,7 @@ LS-03,EL,SS-LP-01-8-L3-13,Lighting Fixture,Bulkhead Lighting Fixture| 30w| WP,50
 LS-03,EL,SS-LP-01-8-L3-13-FJB,Lighting Cable,Bulkhead Lighting Fixture| 30w| WP,33%
 LS-03,EL,SS-LP-01-8-L3-14,Lighting Fixture,Bulkhead Lighting Fixture| 30w| WP,50%
 LS-03,EL,SS-LP-01-8-L3-14-FJB,Lighting Cable,Bulkhead Lighting Fixture| 30w| WP,33%
-ES-01,EL,SS-L-PRO(ES-01),Lightning Protection,Ligtining Protection,0%
+ES-01,EL,SS-L-PRO(ES-01),Lightning Protection,Ligtining Protection,Done
 LS-01,EL,SS-MLP-01,PANEL(EL),Main Normal Lighting Panel,Done
 120-16,EL,SS-NGR1A-01,Natural Ground Resistance,Neutral Grounding Resistor- SS-NGR1A-01,DONE
 120-16,EL,SS-NGR1B-01,Natural Ground Resistance,Neutral Grounding Resistor- SS-NGR1B-01,DONE
@@ -20151,7 +20151,7 @@ NO SUBS.,IN,TE-10208-2,PKG,PKG,0%
 1000-01,IN,TE-2148(TE),Instrument(TE),Instrument(TE),Done
 1000-01,IN,TE-2149(NA),CABLE,CABLE(NA),0%
 1000-01,IN,TE-2149(TE),Instrument(TE),Instrument(TE),Done
-3000-04,IN,TE-2150(NA),CABLE,CABLE(NA),50%
+3000-04,IN,TE-2150(NA),CABLE,CABLE(NA),Done
 3000-04,IN,TE-2150(TE),Instrument(TE),Instrument(TE),Done
 1000-01,IN,TE-2151(NA),CABLE,CABLE(NA),0%
 1000-01,IN,TE-2151(TE),Instrument(TE),Instrument(TE),Done
@@ -20163,7 +20163,7 @@ NO SUBS.,IN,TE-10208-2,PKG,PKG,0%
 2000-02,IN,TE-2161(TE),Instrument(TE),Instrument(TE),50%
 2000-02,IN,TE-2162(NA),CABLE,CABLE(NA),0%
 2000-02,IN,TE-2162(TE),Instrument(TE),Instrument(TE),50%
-1000-01,IN,TE-2220(NA),CABLE,CABLE(NA),50%
+1000-01,IN,TE-2220(NA),CABLE,CABLE(NA),Done
 1000-01,IN,TE-2220(TE),Instrument(TE),Instrument(TE),Done
 2000-02,IN,TE-2226(NA),CABLE,CABLE(NA),0%
 2000-02,IN,TE-2226(TE),Instrument(TE),Instrument(TE),0%
@@ -21544,7 +21544,7 @@ NO SUBS.,IN,TT-10218,Pkg,Pkg,0%
 2000-06,IN,TT-25109,Pkg,Pkg,0%
 1000-02,IN,TT-2536(NA),CABLE,CABLE(NA),0%
 1000-02,IN,TT-2536(TT),Instrument(TT),Instrument(TT),DONE
-1000-02,IN,TT-2540(NA),CABLE,CABLE(NA),50%
+1000-02,IN,TT-2540(NA),CABLE,CABLE(NA),Done
 1000-02,IN,TT-2540(TT),Instrument(TT),Instrument(TT),DONE
 1000-02,IN,TT-2553(NA),CABLE,CABLE(NA),0%
 1000-02,IN,TT-2553(TT),Instrument(TT),Instrument(TT),DONE
@@ -21827,7 +21827,7 @@ NO SUBS.,IN,TT-84208,Instrument(TT),Instrument(TT),0%
 2000-04,IN,TV-2360-22(TV),Instrument(TV),Instrument(TV),0%
 2000-05,IN,TV-2457(NA),CABLE,CABLE(NA),0%
 2000-05,IN,TV-2457(TV),Instrument(TV),Instrument(TV),25%
-4000-02,IN,TV-2540(NA),CABLE,CABLE(NA),50%
+4000-02,IN,TV-2540(NA),CABLE,CABLE(NA),Done
 4000-02,IN,TV-2540(TV),Instrument(TV),Instrument(TV),75%
 3000-01,IN,TV-30152,Instrument(TV),Instrument(TV),Exception(Pending)
 2000-05,IN,TV-5064(NA),CABLE,CABLE(NA),0%
