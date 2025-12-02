@@ -1,5 +1,4 @@
 ﻿SD_Sub_System,Discipline_Name,ITEM_Tag_NO,ITEM_Type_Code,ITEM_Description,ITEM_Status
-NO SUBS.,PI,-,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 TEL-11,EL,00-CAM-01,CCTV,CCTV,0%
 TEL-11,EL,00-CAM-02,CCTV,CCTV,0%
 TEL-11,EL,00-CAM-03,CCTV,CCTV,0%
@@ -45,15 +44,12 @@ LS-03,EL,01-EJB2-2,Lighting Main JB,Emergency Lighting Junction Box,DONE
 LS-03,EL,01-EJB2-2-FJB,Lighting Cable,Emergency Lighting Junction Box,33%
 LS-03,EL,01-EJB2-2-L1-01,Lighting Fixture,Bulkhead Lighting Fixture 30w| WP,50%
 LS-03,EL,01-EJB2-2-L1-02,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
-NO SUBS.,EL,01-EJB2-2-L1-03,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving Lamp 30w- WP,0%
 LS-03,EL,01-EJB2-2-L1-04,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-EJB2-2-L2-01,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-EJB2-2-L2-02,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-EJB2-2-L2-03,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
-NO SUBS.,EL,01-EJB2-2-L2-04,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving Lamp 30w- WP,0%
 LS-03,EL,01-EJB2-2-L3-01,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-EJB2-2-L3-02,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
-NO SUBS.,EL,01-EJB2-2-L3-03,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving Lamp 30w- WP,0%
 LS-04,EL,01-JB-1,Lighting Main JB,Normal Lighting Junction Box,Done
 LS-04,EL,01-JB1-1-L1-01,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving Lamp 30w- EX,50%
 LS-04,EL,01-JB1-1-L1-02,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving Lamp 30w- EX,50%
@@ -86,21 +82,16 @@ LS-03,EL,01-JB2-2-L1-02,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-JB2-2-L1-03,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-JB2-2-L1-04,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-JB2-2-L1-05,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
-NO SUBS.,EL,01-JB2-2-L1-06,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving Lamp 30w- WP,0%
-NO SUBS.,EL,01-JB2-2-L1-07,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving Lamp 30w- WP,0%
 LS-03,EL,01-JB2-2-L2-01,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-JB2-2-L2-02,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-JB2-2-L2-03,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-JB2-2-L2-04,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-JB2-2-L2-05,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
-NO SUBS.,EL,01-JB2-2-L2-06,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving Lamp 30w- WP,0%
-NO SUBS.,EL,01-JB2-2-L2-07,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving Lamp 30w- WP,0%
 LS-03,EL,01-JB2-2-L3-01,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-JB2-2-L3-02,Lighting Fixture,Bulkhead Lighting Fixture 30w| WP,50%
 LS-03,EL,01-JB2-2-L3-03,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-JB2-2-L3-04,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-JB2-2-L3-05,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
-NO SUBS.,EL,01-JB2-2-L3-06,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving Lamp 30w- WP,0%
 TEL-01,EL,01-PJB1,Paging Device,Paging Junction Box,0%
 LS-03,EL,01-SJB1-1,Lighting Main JB,Safety Lighting Junction Box,DONE
 LS-03,EL,01-SJB1-1-01,Lighting Fixture,Bulkhead Lighting Fixture 30w| WP,50%
@@ -4922,7 +4913,6 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 5000-05,PI,5000-05-OW-01-232,PI_TP,PIPING TEST PACKAGE,DONE
 5000-05,PI,5000-05-PMV-01-764,PI_TP,PIPING TEST PACKAGE,HYDROTEST
 4000-08,PI,56-CWS-020,PI_TP,PIPING TEST PACKAGE,DONE
-NO SUBS.,PI,56-DICH-UK-KC-294,PI_TP,,
 4000-14,PI,56-FW-010,PI_TP,PIPING TEST PACKAGE,DONE
 4000-14,PI,56-FW-014,PI_TP,PIPING TEST PACKAGE,DONE
 4000-14,PI,56-FW-015,PI_TP,PIPING TEST PACKAGE,DONE
@@ -5498,8 +5488,6 @@ TEL-12,EL,AH-IS-01,Telecom Device,Intercom Station Without Hood - EX,50%
 TEL-12,EL,AH-SP-01,Paging Device,Loud Speaker - 25W|EX,50%
 TEL-12,EL,AH-TEL-01,Telecom Device,Telephone Station Without Hood- EX,Done
 TEL-12,EL,AH-TJB1,Telecom Device,Telephone Junction Box - EX,50%
-NO SUBS.,MES,AIR_INTAKE,REFORMER,AIR_INTAKE,
-NO SUBS.,MES,AIR_PRE_HEATER_E_2007,REFORMER,AIR_PRE_HEATER_E_2007,
 120-13,EL,AJB01-DW01,Cathodic Protection,Cable 1x16,DONE
 120-13,EL,AJB01-DW02,Cathodic Protection,Cable 1x16,DONE
 DCS-01,IN,ALM_T1,CABLE,CABLE(NA),0%
@@ -5936,16 +5924,11 @@ BLD-01,PI,BLD-01-IG55-03-993,PI_TP,PIPING TEST PACKAGE,DONE
 BLD-01,PI,BLD-01-IG55-04-1089,PI_TP,PIPING TEST PACKAGE,DONE
 BLD-02,PI,BLD-02-IG55-01-986,PI_TP,PIPING TEST PACKAGE,DONE
 3000-01,IN,BRAUN--FLT,PKG,PKG,Exception(Pending)
-NO SUBS.,MES,BURNER,REFORMER,BURNER,
 2000-06,MER,C-2001,Compressor,START UP NITROGEN COMPRESSOR,79%
 120-02,EL,C2001-MF-1,Local_Control_Station,Local Control Station- C2001-MF-1,DONE
 120-02,EL,C2001-MF-2,Local_Control_Station,Local Control Station- C2001-MF-2,DONE
 3000-04,MER,C-2002,Compressor,Hydrogen recycle compressor,80%
 3000-01,MER,C-3001,Compressor(B),Synthesis compressor,71%
-NO SUBS.,MES,CATALYST_TUBE,REFORMER,CATALYST_TUBE,
-NO SUBS.,MES,COLD_AIR_DUCT,REFORMER,COLD_AIR_DUCT,
-NO SUBS.,MES,COLD_COLLECTOR,REFORMER,COLD_COLLECTOR,
-NO SUBS.,MES,COLD_FLUE_GAS_DUCT,REFORMER,COLD_FLUE_GAS_DUCT,
 BLD-02,BD,Column & Walls(BLD-02),02-Column & Walls,Structural columns and wall building,0%
 BLD-07,BD,Column & Walls(BLD-07),02-Column & Walls,Column & Walls,0%
 BLD-01,BD,Column & Walls(First Floor BLD-01),02-Column & Walls,Column & Walls(First Floor BLD-01),0%
@@ -5960,8 +5943,6 @@ BLD-05,BD,Column & Walls(Ground Floor BLD-05),02-Column & Walls,Column & Walls(G
 BLD-06,BD,Column & Walls(Ground Floor BLD-06),02-Column & Walls,Column & Walls(Ground Floor BLD-06),0%
 120-09,IN,COM-PDP-CR-01,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
 120-09,IN,COM-PDP-CR-02,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
-NO SUBS.,PI,CONTROL BULDING-FW Line-02,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
-NO SUBS.,PI,CONTROL BULDING-PW Line-01,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 DCS-01,IN,CR-CCTV-01,JUNCTION BOX,JUNCTION BOX(PANEL),0%
 TEL-09,EL,CR-CEC(CH)-01,UPS & Battery,Paging Central Exchange Cabinet Battery Charger,0%
 TEL-09,IN,CR-CEC-01,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
@@ -6197,7 +6178,6 @@ ES-02,EL,CR-L-PRO(ES-02),Lightning Protection(2),Ligtining Protection,Done
 TEL-09,EL,CR-MCS-01-1,Telecom Device,Master Call Station Media Converter,0%
 TEL-09,EL,CR-MCS-01-2,Paging Device,Paging Master Call Station,0%
 TEL-09,EL,CR-MTJB1,Telecom Device,Main Telephone Junction Box,0%
-NO SUBS.,MES,CROSS_OVER,REFORMER,CROSS_OVER,
 TEL-09,EL,CR-PJB1,Paging Device,Paging Junction Box,0%
 DCS-01,IN,CR-RBS-01,JUNCTION BOX,JUNCTION BOX(PANEL),0%
 120-07,EL,CR-SIP-01,PANEL(EL),Fire & Gas Detection System Siren Panel,0%
@@ -6313,7 +6293,6 @@ CVL-01,CV,CV-UG PIT'S,UG PIT'S,UG PIT'S,0%
 7000-01,MES,D-7101,Drum(D),Knock Out Drum,94%
 4000-06,MES,D-7501,Drum(D),CAUSTIC STORAGE DRUM,94%
 4000-06,MES,D-7502,Drum(D),SULFURIC ACID DRUM,78%
-NO SUBS.,MES,DAMPER&EXPANSION,REFORMER,DAMPER&EXPANSION,
 1000-02,PI,DE-RF-FG-001,PI_TP,PIPING TEST PACKAGE,DONE
 1000-02,PI,DE-RF-FG-002,PI_TP,PIPING TEST PACKAGE,DONE
 1000-02,PI,DE-RF-FG-003,PI_TP,PIPING TEST PACKAGE,DONE
@@ -6427,10 +6406,6 @@ FGS-01,IN,DY-9003(DY),Fire Fighting,Fire Fighting(DY),0%
 FGS-01,IN,DY-9003(NA),CABLE,CABLE(NA),0%
 FGS-01,IN,DY-9004(DY),Fire Fighting,Fire Fighting(DY),0%
 FGS-01,IN,DY-9004(NA),CABLE,CABLE(NA),0%
-NO SUBS.,MES,E_2001,REFORMER,E_2001,
-NO SUBS.,MES,E_2002,REFORMER,E_2002,
-NO SUBS.,MES,E_2004,REFORMER,E_2004,
-NO SUBS.,MES,E_2006,REFORMER,E_2006,
 120-18,EL,E_I-MC-SS-01,PANEL(EL),E/I Marshaling Cabinet,DONE
 120-18,IN,E_I-MC-SS-01-IN,PANEL(IN),E/I Marshaling Cabinet,DONE
 120-18,EL,E_I-MC-SS-02,PANEL(EL),E/I Marshaling Cabinet,DONE
@@ -10412,7 +10387,6 @@ LS-01,EL,EBL-02-RJB2_2-2,Power Cable B,Area 02 Socket JB No. 2/2  - 02-RJB2/2-2,
 LS-01,EL,EBL-02-RJB2_3-2,Power Cable B,Area 02 Socket JB No. 2/3  - 02-RJB2/3-2,Done
 LS-01,EL,EBL-02-RJB2-2,Power Cable B,Area 02 Socket JB No. 2  - 02-RJB2-2,Done
 120-11,EL,EBL-02-SJB1-2,Power Cable B,Safety Lighting JB No. 1 For Area 02- 02-SJB1-2,Done
-NO SUBS.,EL,EBL-0301,FGS Device,Evacuation Bell,0%
 FGS-08,EL,EBL-0302,FGS Device,Evacuation Bell,0%
 FGS-08,EL,EBL-0303,FGS Device,Evacuation Bell- EX,0%
 FGS-08,EL,EBL-0304,FGS Device,Evacuation Bell,0%
@@ -10761,7 +10735,6 @@ LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet 
 120-03,EL,EBP-MB-8001A,Power Cable B,Air Blower for Side Stream Filter Package - MB-8001A,Done
 120-03,EL,EBP-MB-8001B,Power Cable B,Air Blower for Side Stream Filter Package - MB-8001B,Done
 120-01,EL,EBP-MC-2001-SH,Power Cable B,Motor Space Heater- MC-2001-SH,Done
-NO SUBS.,EL,EBP-MC-2001-SH_1,POWER CABLE A,CABLE(NA),0%
 120-01,EL,EBP-MC-2002-SH,Power Cable B,Motor Space Heater- MC-2002-SH,Done
 4000-13,EL,EBP-MC-2002-SH_1,POWER CABLE A,CABLE(NA),DONE
 120-01,EL,EBP-MF-2001-SH,Power Cable B,Motor Space Heater- MF-2001-SH,Done
@@ -12520,12 +12493,6 @@ FGS-02,IN,FGD-0036(FGD),Fire Alarm,Fire Alarm(FGD),0%
 FGS-02,IN,FGD-0036(NA),CABLE,CABLE(NA),0%
 FGS-02,IN,FGD-0037(FGD),Fire Alarm,Fire Alarm(FGD),0%
 FGS-02,IN,FGD-0037(NA),CABLE,CABLE(NA),0%
-NO SUBS.,IN,FGD-0038(FGD),Fire Alarm,Fire Alarm(FGD),0%
-NO SUBS.,IN,FGD-0038(NA),CABLE,CABLE(NA),0%
-NO SUBS.,IN,FGD-0039(FGD),Fire Alarm,Fire Alarm(FGD),0%
-NO SUBS.,IN,FGD-0039(NA),CABLE,CABLE(NA),0%
-NO SUBS.,IN,FGD-0040(FGD),Fire Alarm,Fire Alarm(FGD),0%
-NO SUBS.,IN,FGD-0040(NA),CABLE,CABLE(NA),0%
 FGS-08,IN,FGD-0041,Fire Alarm,Fire Alarm(FGD),0%
 FGS-01,IN,FGD-0042(FGD),Fire Alarm,Fire Alarm(FGD),0%
 FGS-01,IN,FGD-0042(NA),CABLE,CABLE(NA),0%
@@ -12751,8 +12718,6 @@ FGS-02,IN,FLD-0027(FLD),Fire Alarm,Fire Alarm(FLD),0%
 FGS-02,IN,FLD-0027(NA),CABLE,CABLE(NA),0%
 FGS-02,IN,FLD-0028(FLD),Fire Alarm,Fire Alarm(FLD),0%
 FGS-02,IN,FLD-0028(NA),CABLE,CABLE(NA),0%
-NO SUBS.,IN,FLD-0029(FLD),Fire Alarm,Fire Alarm(FLD),0%
-NO SUBS.,IN,FLD-0029(NA),CABLE,CABLE(NA),0%
 2000-05,IN,FO-2483,Instrument(FO),Instrument(FO),Exception(Pending)
 1000-02,IN,FO-2552,Instrument(FO),Instrument(FO),DONE
 3000-01,IN,FO-30101,Instrument(FO),Instrument(FO),Exception(Pending)
@@ -12963,9 +12928,6 @@ FGS-05,IN,FS-0016(NA),CABLE,CABLE(NA),0%
 4000-08,IN,FT-0002(NA),CABLE,CABLE(NA),Done
 1000-01,IN,FT-1006(FT),Instrument(FT),Instrument(FT),Done
 1000-01,IN,FT-1006(NA),CABLE,CABLE(NA),0%
-NO SUBS.,IN,FT-1007,Instrument(FT),Instrument(FT),0%
-NO SUBS.,IN,FT-10205,PKG,PKG,0%
-NO SUBS.,IN,FT-10208,PKG,PKG,0%
 NO SUBS.,IN,FT-10215,SIGNAL,SIGNAL,0%
 NO SUBS.,IN,FT-10219,SIGNAL,SIGNAL,0%
 2000-03,IN,FT-2009(FT),Instrument(FT),Instrument(FT),50%
@@ -13126,8 +13088,6 @@ NO SUBS.,IN,FT-10219,SIGNAL,SIGNAL,0%
 4000-08,IN,FT-8014(NA),CABLE,CABLE(NA),0%
 4000-12,IN,FT-8415(FT),Instrument(FT),Instrument(FT),Done
 4000-12,IN,FT-8415(NA),CABLE,CABLE(NA),0%
-NO SUBS.,IN,FT-84205,Instrument(FT),Instrument(FT),0%
-NO SUBS.,IN,FT-84208,Instrument(FT),Instrument(FT),0%
 DCS-01,IN,FTAAI04-M05F-E,CABLE,CABLE(NA),0%
 DCS-01,IN,FTAAI05-M02R-E,CABLE,CABLE(NA),0%
 DCS-01,IN,FTAAI05-M05F-E,CABLE,CABLE(NA),0%
@@ -13492,19 +13452,13 @@ DCS-01,IN,GA-0001,Fire Fighting,Fire Fighting(GA),0%
 DCS-01,IN,GA-0002,Fire Fighting,Fire Fighting(GA),0%
 DCS-01,IN,GA-0003,Fire Fighting,Fire Fighting(GA),0%
 DCS-01,IN,GA-0004,Fire Fighting,Fire Fighting(GA),0%
-NO SUBS.,MES,H_2001,REFORMER,H_2001,
 120-02,EL,H-3013-TCP,PANEL(EL),Seal Gas Heater Thristor Control Panel,DONE
-NO SUBS.,MES,HAIRPIN,REFORMER,HAIRPIN,
 FGS-09,EL,HD-0133,F&G Device,Rate Of Rise Heat Detector,0%
 FGS-10,EL,HD-0237,FGS Device,Rate Of Rise Heat Detector,0%
-NO SUBS.,EL,HD-0319,FGS Device,Rate Of Rise Heat Detector,0%
-NO SUBS.,EL,HD-0320,FGS Device,Rate Of Rise Heat Detector,0%
 3000-01,IN,HIC-30165,SIGNAL,SIGNAL,Done
 3000-01,IN,HIC-30168,SIGNAL,SIGNAL,Done
 3000-01,IN,HIC-30170,SIGNAL,SIGNAL,Done
 3000-01,IN,HIC-30185,SIGNAL,SIGNAL,Done
-NO SUBS.,MES,HOT_AIR_DUCT,REFORMER,HOT_AIR_DUCT,
-NO SUBS.,MES,HOT_FLUE_GAS_DUCT,REFORMER,HOT_FLUE_GAS_DUCT,
 DCS-01,IN,HS-0001,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,HS-0003,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,HS-1220,SIGNAL,SIGNAL,Exception(Pending)
@@ -13562,13 +13516,11 @@ DCS-01,IN,HS-2016,SIGNAL,SIGNAL,Exception(Pending)
 2000-02,IN,HS-20172,Instrument(X),Instrument(HS),0%
 2000-02,IN,HS-20175,Instrument(X),Instrument(HS),0%
 2000-02,IN,HS-20190,Instrument(X),Instrument(HS),0%
-NO SUBS.,IN,HS-20201-L_R,PKG,PKG,0%
 3000-04,IN,HS-20201-L_R(HS),Instrument(X),Instrument(HS),0%
 3000-04,IN,HS-20201-LP,Instrument(X),Instrument(HS),0%
 3000-04,IN,HS-20201-SP-A,Instrument(X),Instrument(HS),0%
 3000-04,IN,HS-20201-ST-A,Instrument(X),Instrument(HS),0%
 3000-04,IN,HS-20201-UCP,PKG,PKG,0%
-NO SUBS.,IN,HS-20202-L_R,PKG,PKG,0%
 3000-04,IN,HS-20202-L_R(HS),Instrument(X),Instrument(HS),0%
 3000-04,IN,HS-20202-SP-A,Instrument(X),Instrument(HS),0%
 3000-04,IN,HS-20202-ST-A,Instrument(X),Instrument(HS),0%
@@ -13577,8 +13529,6 @@ NO SUBS.,IN,HS-20202-L_R,PKG,PKG,0%
 3000-04,IN,HS-20204-SP-A,Instrument(X),Instrument(HS),0%
 3000-04,IN,HS-20204-ST-A,Instrument(X),Instrument(HS),0%
 3000-04,IN,HS-20205-A,Instrument(X),Instrument(HS),0%
-NO SUBS.,IN,HS-20205-L_R,PKG,PKG,0%
-NO SUBS.,IN,HS-20205-L_R(HS),Instrument(X),Instrument(HS),0%
 3000-04,IN,HS-20206-A,Instrument(X),Instrument(HS),0%
 3000-04,IN,HS-20207-A,Instrument(X),Instrument(HS),0%
 3000-04,IN,HS-20208-A,Instrument(X),Instrument(HS),0%
@@ -13907,14 +13857,12 @@ DCS-01,IN,ICNLF-DMPC-01.02-02,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNLF-F&G-01.02,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNLF-F&G-01.02-02,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNLF-F2001|F2002-01.02,CABLE,CABLE(NA),0%
-NO SUBS.,IN,ICNLF-F2001|F2002-01.02-02,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNLF-P7001ABC|8001ABCD-01.02,CABLE,CABLE(NA),Done
 NO SUBS.,IN,ICNLF-P7001ABC|8001ABCD-01.02-02,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNLF-PDCS-01.02,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNLF-PDCS-01.02-02,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNLF-PK7502-01.02,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNLF-PK7502-01.02-02,CABLE,CABLE(NA),0%
-NO SUBS.,MES,ID&FD_FAN,REFORMER,ID&FD_FAN,
 FGS-09,EL,IEL-0101,F&G Device,Immediate Exit Light,DONE
 FGS-09,EL,IEL-0102,F&G Device,Immediate Exit Light,DONE
 FGS-09,EL,IEL-0103,F&G Device,Immediate Exit Light,DONE
@@ -13955,7 +13903,6 @@ BLD-04,BD,Initial Architecture(Ground Floor BLD-04),04-Initial Architecture-2,In
 BLD-05,BD,Initial Architecture(Ground Floor BLD-05),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-05),0%
 BLD-06,BD,Initial Architecture(Ground Floor BLD-06),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-06),0%
 2000-02,MES,INLET MANIFOLD,Inlet_Manifold,MANIFOLD,71%
-NO SUBS.,MES,INLET_DISTRIBUTER,REFORMER,INLET_DISTRIBUTER,
 3000-03,MES,J-3001,Ejector(J),Ejector,73%
 3000-02,MES,J-3002-1,Ejector(J),Start up Ejector for R 3001 1,73%
 3000-02,MES,J-3002-2,Ejector(J),Start up Ejector for R 3001 2,73%
@@ -14617,7 +14564,6 @@ DCS-01,IN,LCP-FT2002,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 DCS-01,IN,LCP-FT3001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 DCS-01,IN,LCP-MF2001,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 DCS-01,IN,LCP-MF2002,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
-NO SUBS.,IN,LFAP-01,Fire Alarm,Fire Alarm(LFAP),0%
 1000-01,IN,LG-1005,Instrument(LG),Instrument(LG),Done
 2000-02,IN,LG-20101,Instrument(LG),Instrument(LG),Done
 2000-02,IN,LG-20151,Instrument(LG),Instrument(LG),Done
@@ -14871,7 +14817,6 @@ DCS-01,IN,LHSP-9006,CABLE,CABLE(NA),0%
 1000-03,IN,LI-7101-1(LI),Instrument(LI),Instrument(LI),25%
 1000-03,IN,LI-7101-1(NA),CABLE,CABLE(NA),0%
 4000-06,IN,LI-7502-1,CABLE,CABLE(NA),0%
-NO SUBS.,IN,LIT-30101,PKG,PKG,0%
 3000-01,IN,LIT-30101(LIT),Instrument(LIT),Instrument(LIT),Exception(Pending)
 3000-01,IN,LIT-30101(NA),CABLE,CABLE(NA),Exception(Pending)
 NO SUBS.,IN,LIT-30103,Pkg,Pkg,0%
@@ -15736,11 +15681,6 @@ FGS-05,IN,MCP-0030(MCP),Fire Alarm,Fire Alarm(MCP),0%
 FGS-05,IN,MCP-0030(NA),CABLE,CABLE(NA),0%
 FGS-06,IN,MCP-0031(MCP),Fire Alarm,Fire Alarm(MCP),0%
 FGS-06,IN,MCP-0031(NA),CABLE,CABLE(NA),0%
-NO SUBS.,IN,MCP-0032(MCP),Fire Alarm,Fire Alarm(MCP),0%
-NO SUBS.,IN,MCP-0032(NA),CABLE,CABLE(NA),0%
-NO SUBS.,IN,MCP-0033(MCP),Fire Alarm,Fire Alarm(MCP),0%
-NO SUBS.,IN,MCP-0033(NA),CABLE,CABLE(NA),0%
-NO SUBS.,IN,MCP-01,Fire Alarm,Fire Alarm(MCP),0%
 FGS-09,EL,MCP-0144,F&G Device,Manual Call Point,DONE
 FGS-09,EL,MCP-0145,F&G Device,Manual Call Point,DONE
 FGS-09,EL,MCP-0146,F&G Device,Manual Call Point,DONE
@@ -15758,7 +15698,6 @@ FGS-10,EL,MCP-0230,FGS Device,Manual Call Point,0%
 FGS-10,EL,MCP-0240,FGS Device,Manual Call Point,0%
 FGS-08,EL,MCP-0321,FGS Device,Manual Call Point,DONE
 FGS-08,EL,MCP-0322,FGS Device,Manual Call Point,DONE
-NO SUBS.,EL,MCP-0323,FGS Device,Manual Call Point,0%
 FGS-08,EL,MCP-0324,FGS Device,Manual Call Point,DONE
 FGS-08,EL,MCP-0325,FGS Device,Manual Call Point- EX,DONE
 FGS-08,EL,MCP-0361,FGS Device,Manual Call Point,DONE
@@ -16640,7 +16579,6 @@ DCS-01,IN,NP-0034C,CABLE,CABLE(NA),Done
 DCS-01,IN,NP-0035A,CABLE,CABLE(NA),Done
 DCS-01,IN,NP-0035B,CABLE,CABLE(NA),Done
 DCS-01,IN,NP-0035C,CABLE,CABLE(NA),0%
-NO SUBS.,IN,NP-0035C-1,CABLE,CABLE(NA),0%
 DCS-01,IN,NP-0036A,CABLE,CABLE(NA),Done
 DCS-01,IN,NP-0036B,CABLE,CABLE(NA),Done
 DCS-01,IN,NP-0036C,CABLE,CABLE(NA),Done
@@ -17005,9 +16943,6 @@ NO SUBS.,IN,PDIT-30187,PKG,PKG,33%
 2000-03,IN,PDST-2036C(PDST),Instrument(PDST),Instrument(PDST),Done
 2000-06,IN,PDST-2573(NA),CABLE,CABLE(NA),0%
 2000-06,IN,PDST-2573(PDST),Instrument(PDST),Instrument(PDST),50%
-NO SUBS.,IN,PDT-10204,Pkg,Pkg,0%
-NO SUBS.,IN,PDT-10207,Pkg,Pkg,0%
-NO SUBS.,IN,PDT-10209,Pkg,Pkg,0%
 NO SUBS.,IN,PDT-10220,SIGNAL,SIGNAL,0%
 NO SUBS.,IN,PDT-10221,SIGNAL,SIGNAL,0%
 1000-01,IN,PDT-1032(NA),CABLE,CABLE(NA),0%
@@ -17072,8 +17007,6 @@ NO SUBS.,IN,PDT-10221,SIGNAL,SIGNAL,0%
 4000-08,IN,PDT-80130B,Instrument(PDT),Instrument(PDT),Done
 4000-08,IN,PDT-80131A,Instrument(PDT),Instrument(PDT),Done
 4000-08,IN,PDT-80131B,Instrument(PDT),Instrument(PDT),Done
-NO SUBS.,IN,PDT-84204,Instrument(PDT),Instrument(PDT),0%
-NO SUBS.,IN,PDT-84207,Instrument(PDT),Instrument(PDT),0%
 2000-03,IN,PDV-2051(NA),CABLE,CABLE(NA),0%
 2000-03,IN,PDV-2051(PDV),Instrument(PDV),Instrument(PDV),0%
 2000-06,IN,PDV-2575(NA),CABLE,CABLE(NA),Done
@@ -17599,13 +17532,7 @@ NO SUBS.,IN,PDV-30125,PKG,PKG,33%
 4000-06,IN,PG-8417A,Instrument(PG),Instrument(PG),Exception(Pending)
 4000-06,IN,PG-8417B,Instrument(PG),Instrument(PG),Exception(Pending)
 4000-12,IN,PG-8420,Instrument(PG),Instrument(PG),Done
-NO SUBS.,IN,PG-84202,Instrument(PG),Instrument(PG),0%
-NO SUBS.,IN,PG-84203,Instrument(PG),Instrument(PG),0%
-NO SUBS.,IN,PG-84206,Instrument(PG),Instrument(PG),0%
 4000-12,IN,PG-8421,Instrument(PG),Instrument(PG),Done
-NO SUBS.,IN,PG-84211,Instrument(PG),Instrument(PG),0%
-NO SUBS.,IN,PG-84213,Instrument(PG),Instrument(PG),0%
-NO SUBS.,IN,PG-84216,Instrument(PG),Instrument(PG),0%
 4000-12,IN,PG-8422,Instrument(PG),Instrument(PG),Done
 4000-12,IN,PG-8423,Instrument(PG),Instrument(PG),Done
 2000-02,IN,PI-2112,Instrument(PI),Instrument(PI),0%
@@ -17801,9 +17728,6 @@ DCS-01,IN,POS-6000-IS-29,SIGNAL,SIGNAL,Exception(Pending)
 3000-01,IN,PP-30154,Instrument(PP),Instrument(PP),Exception(Pending)
 FGS-07,IN,PSH-001(NA),CABLE,CABLE(NA),0%
 FGS-07,IN,PSH-001(PSH),Fire Fighting,Fire Fighting(PSH),0%
-NO SUBS.,IN,PSH-001~005(),CABLE,CHECK,0%
-NO SUBS.,IN,PSH-001~005(PSH),Fire Fighting,Fire Fighting(PSH),0%
-NO SUBS.,IN,PSH-001~005*,Fire Fighting,Fire Fighting(PSH),0%
 FGS-07,IN,PSH-002(NA),CABLE,CABLE(NA),0%
 FGS-07,IN,PSH-002(PSH),Fire Fighting,Fire Fighting(PSH),0%
 FGS-07,IN,PSH-003(NA),CABLE,CABLE(NA),0%
@@ -17941,11 +17865,6 @@ FGS-03,IN,PSH-9052(NA),CABLE,CABLE(NA),0%
 FGS-03,IN,PSH-9052(PSH),Fire Fighting,Fire Fighting(PSH),0%
 FGS-02,IN,PSH-9053(NA),CABLE,CABLE(NA),0%
 FGS-02,IN,PSH-9053(PSH),Fire Fighting,Fire Fighting(PSH),0%
-NO SUBS.,IN,PSL-001,CABLE,CABLE(NA),0%
-NO SUBS.,IN,PSL-001~002(),CABLE,CHECK,0%
-NO SUBS.,IN,PSL-001~002(PSL),Fire Fighting,Fire Fighting(PSL),0%
-NO SUBS.,IN,PSL-001~002*,Fire Fighting,Fire Fighting(PSL),0%
-NO SUBS.,IN,PSL-002,CABLE,CABLE(NA),0%
 FGS-01,IN,PSL-0050,SIGNAL,SIGNAL,Exception(Pending)
 FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 3000-03,IN,PSL-10101,Instrument(PSL),Instrument(PSL),0%
@@ -18302,7 +18221,6 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 4000-09,IN,PSV-84113B,Instrument(PSV),Instrument(PSV),DONE
 4000-09,IN,PSV-84114A,Instrument(PSV),Instrument(PSV),DONE
 4000-09,IN,PSV-84114B,Instrument(PSV),Instrument(PSV),DONE
-NO SUBS.,IN,PSV-9051,Fire Fighting,Fire Fighting(PSV),0%
 2000-03,IN,PSY-2047,SIGNAL,SIGNAL,Exception(Pending)
 4000-11,IN,PT-0012(NA),CABLE,CABLE(NA),DONE
 4000-11,IN,PT-0012(PT),Instrument(PT),Instrument(PT),DONE
@@ -18317,8 +18235,6 @@ NO SUBS.,IN,PSV-9051,Fire Fighting,Fire Fighting(PSV),0%
 NO SUBS.,IN,PT-1007,Instrument(PT),Instrument(PT),25%
 1000-02,IN,PT-1011(NA),CABLE,CABLE(NA),Done
 1000-02,IN,PT-1011(PT),Instrument(PT),Instrument(PT),Done
-NO SUBS.,IN,PT-10205,PKG,PKG,0%
-NO SUBS.,IN,PT-10208,PKG,PKG,0%
 NO SUBS.,IN,PT-10217,SIGNAL,SIGNAL,0%
 NO SUBS.,IN,PT-10224,SIGNAL,SIGNAL,0%
 1000-01,IN,PT-1045(NA),CABLE,CABLE(NA),Done
@@ -18559,8 +18475,6 @@ NO SUBS.,IN,PT-10224,SIGNAL,SIGNAL,0%
 4000-08,IN,PT-80121B,Instrument(PT),Instrument(PT),Done
 4000-08,IN,PT-80122A,Instrument(PT),Instrument(PT),Done
 4000-08,IN,PT-80122B,Instrument(PT),Instrument(PT),Done
-NO SUBS.,IN,PT-84205,Instrument(PT),Instrument(PT),0%
-NO SUBS.,IN,PT-84208,Instrument(PT),Instrument(PT),0%
 2000-03,IN,PUSY-2051A(NA),CABLE,CABLE(NA),0%
 2000-03,IN,PUSY-2051A(PUSY),Instrument(X),Instrument(PUSY),0%
 2000-03,IN,PUSY-2051B(NA),CABLE,CABLE(NA),0%
@@ -18685,15 +18599,11 @@ NO SUBS.,IN,PV-30123,PKG,PKG,33%
 4000-08,IN,PY-80119B,Instrument(X),Instrument(PY),Done
 3000-01,IN,PYV-30114  ,PKG,PKG,Exception(Pending)
 3000-04,IN,PZI-20237,Instrument(X),Instrument(PZI),0%
-NO SUBS.,IN,PZSH-84210,Instrument(X),Instrument(PZSH),0%
-NO SUBS.,IN,PZSH-84215,Instrument(X),Instrument(PZSH),0%
 4000-11,IN,PZSL-0012(NA),CABLE,CABLE(NA),DONE
 4000-11,IN,PZSL-0012(PZSL),Instrument(X),Instrument(PZSL),DONE
 7000-01,IN,PZSL-2073(NA),CABLE,CABLE(NA),Done
 7000-01,IN,PZSL-2073(PZSL),Instrument(X),Instrument(PZSL),Done
 2000-02,IN,PZSL-2224,Instrument(X),Instrument(PZSL),0%
-NO SUBS.,IN,PZSL-84210,Instrument(X),Instrument(PZSL),0%
-NO SUBS.,IN,PZSL-84215,Instrument(X),Instrument(PZSL),0%
 2000-02,IN,PZT-20153,Instrument(X),Instrument(PZT),0%
 1000-03,IN,PZT-2073(NA),CABLE,CABLE(NA),Done
 1000-03,IN,PZT-2073(PZT),Instrument(X),Instrument(PZT),0%
@@ -18703,8 +18613,6 @@ NO SUBS.,IN,PZSL-84215,Instrument(X),Instrument(PZSL),0%
 4000-02,IN,PZT-7002B(PZT),Instrument(X),Instrument(PZT),Done
 4000-02,IN,PZT-7002C(NA),CABLE,CABLE(NA),0%
 4000-02,IN,PZT-7002C(PZT),Instrument(X),Instrument(PZT),Done
-NO SUBS.,IN,PZT-84210,Instrument(X),Instrument(PZT),0%
-NO SUBS.,IN,PZT-84215,Instrument(X),Instrument(PZT),0%
 1000-01,MES,R-1001,Reactor(R),Hydrogenator,80%
 1000-01,MES,R-1002-1,Reactor(R),Sulphur Absorber,DONE
 1000-01,MES,R-1002-2,Reactor(R),Sulphur Absorber,75%
@@ -19117,7 +19025,6 @@ LS-04,EL,S44,Switch,One Pole Switch Surface Mounted- WP,0%
 4000-04,IN,SC-7216(SC),Instrument(SC),Instrument(SC),0%
 4000-08,IN,SC-8001A,Instrument(SC),Instrument(SC),Done
 4000-08,IN,SC-8001B,Instrument(SC),Instrument(SC),Done
-NO SUBS.,IN,SDR-01,Fire Alarm,Fire Alarm(SDR),0%
 FGS-09,EL,SDR-0101,F&G Device,Optical Room Smoke Detector,DONE
 FGS-09,EL,SDR-0102,F&G Device,Optical Room Smoke Detector,DONE
 FGS-09,EL,SDR-0103,F&G Device,Optical Room Smoke Detector,DONE
@@ -19160,7 +19067,6 @@ FGS-09,EL,SDR-0140,F&G Device,Optical Room Smoke Detector,DONE
 FGS-09,EL,SDR-0141,F&G Device,Optical Room Smoke Detector,DONE
 FGS-09,EL,SDR-0142,F&G Device,Optical Room Smoke Detector,DONE
 FGS-09,EL,SDR-0143,F&G Device,Optical Room Smoke Detector,DONE
-NO SUBS.,IN,SDR-02,Fire Alarm,Fire Alarm(SDR),0%
 FGS-10,EL,SDR-0202,FGS Device,Optical Room Smoke Detector,0%
 FGS-10,EL,SDR-0203,FGS Device,Optical Room Smoke Detector,0%
 FGS-10,EL,SDR-0204,FGS Device,Optical Room Smoke Detector,0%
@@ -19194,7 +19100,6 @@ FGS-10,EL,SDR-0235,FGS Device,Optical Room Smoke Detector,0%
 FGS-10,EL,SDR-0236,FGS Device,Optical Room Smoke Detector,0%
 FGS-10,EL,SDR-0238,FGS Device,Optical Room Smoke Detector,0%
 FGS-10,EL,SDR-0239,FGS Device,Optical Room Smoke Detector,0%
-NO SUBS.,IN,SDR-03,Fire Alarm,Fire Alarm(SDR),0%
 FGS-08,EL,SDR-0301,FGS Device,Optical Room Smoke Detector,DONE
 FGS-08,EL,SDR-0302,FGS Device,Optical Room Smoke Detector,DONE
 FGS-08,EL,SDR-0303,FGS Device,Optical Room Smoke Detector,DONE
@@ -19248,7 +19153,6 @@ FGS-08,EL,SDR-0357,FGS Device,Optical Room Smoke Detector,DONE
 FGS-08,EL,SDR-0358,FGS Device,Optical Room Smoke Detector,DONE
 FGS-08,EL,SDR-0359,FGS Device,Optical Room Smoke Detector,DONE
 FGS-08,EL,SDR-0360,FGS Device,Optical Room Smoke Detector,DONE
-NO SUBS.,IN,SDR-04,Fire Alarm,Fire Alarm(SDR),0%
 2000-02,IN,SE-20101A,Instrument(SE),Instrument(SE),Done
 2000-02,IN,SE-20101B,Instrument(SE),Instrument(SE),Done
 2000-02,IN,SE-20102A,Instrument(SE),Instrument(SE),Done
@@ -19303,7 +19207,6 @@ FGS-05,IN,SF4-0002,Fire Alarm,Fire Alarm(SF4),0%
 FGS-05,IN,SF4-0003,Fire Alarm,Fire Alarm(SF4),0%
 FGS-05,IN,SF4-0004,Fire Alarm,Fire Alarm(SF4),0%
 FGS-04,IN,SF4-0005,Fire Alarm,Fire Alarm(SF4),0%
-NO SUBS.,IN,SF4-0006,Fire Alarm,Fire Alarm(SF4),0%
 FGS-01,IN,SF4-0007,Fire Alarm,Fire Alarm(SF4),0%
 FGS-01,IN,SF4-0008,Fire Alarm,Fire Alarm(SF4),0%
 FGS-09,IN,SF4-0101,Fire Alarm,Fire Alarm(SF4),0%
@@ -19320,7 +19223,6 @@ FGS-09,IN,SF4-0101,Fire Alarm,Fire Alarm(SF4),0%
 2000-02,IN,SI-2119,Instrument(SI),Instrument(SI),0%
 2000-02,IN,SI-2167,Instrument(SI),Instrument(SI),0%
 2000-02,IN,SI-2168,SIGNAL,SIGNAL,Exception(Pending)
-NO SUBS.,IN,SI-30103,PKG,PKG,0%
 3000-01,IN,SI-30103(SI),Instrument(SI),Instrument(SI),Exception(Pending)
 4000-04,IN,SI-70160A,Instrument(SI),Instrument(SI),0%
 4000-04,IN,SI-70160B,Instrument(SI),Instrument(SI),0%
@@ -19452,7 +19354,6 @@ FGS-07,IN,SOV-102,Fire Fighting,Fire Fighting(SOV),0%
 FGS-07,IN,SOV-103,Fire Fighting,Fire Fighting(SOV),0%
 FGS-07,IN,SOV-104,Fire Fighting,Fire Fighting(SOV),0%
 FGS-07,IN,SOV-105,Fire Fighting,Fire Fighting(SOV),0%
-NO SUBS.,MES,SPRING_HANGER,REFORMER,SPRING_HANGER,
 120-15,EL,SS-CBT-01,UPS & Battery,110V DC Charger Battery Set,25%
 120-10,EL,SS-CH-01,UPS & Battery,110V DC Battery Charger Panel ,Done
 120-10,EL,SS-CIS-01,UPS & Battery,110V DC Charger Battery Isolator Box,Done
@@ -19915,21 +19816,11 @@ TEL-08,EL,SS-TJB1,Telecom Device,Telephone Junction Box,50%
 120-11,EL,SS-UPS-01,UPS & Battery, 230V AC Safety Lighting UPS,Done
 3000-01,IN,SSV-30101,Instrument(SSV),Instrument(SSV),Exception(Pending)
 3000-01,IN,SSV-30102,Instrument(SSV),Instrument(SSV),Exception(Pending)
-NO SUBS.,MES,STACK_S_2001,REFORMER,STACK_S_2001,
 BLD-01,BD,Stair Ways(Ground Floor BLD-01),09-Stair Ways,Stair Ways(Ground Floor BLD-01),0%
 BLD-03,BD,Stair Ways(Ground Floor BLD-03),09-Stair Ways,Stair Ways(Ground Floor BLD-03),0%
 BLD-04,BD,Stair Ways(Ground Floor BLD-04),09-Stair Ways,Stair Ways(Ground Floor BLD-04),0%
 BLD-05,BD,Stair Ways(Ground Floor BLD-05),09-Stair Ways,Stair Ways(Ground Floor BLD-05),0%
 BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor BLD-06),0%
-NO SUBS.,MES,STEAM_PRE_HEATER_E_2015,REFORMER,STEAM_PRE_HEATER_E_2015,
-NO SUBS.,IN,SV-001,CABLE,CABLE(NA),0%
-NO SUBS.,IN,SV-001~004(),CABLE,CHECK,0%
-NO SUBS.,IN,SV-001~004(SV),Fire Fighting,Fire Fighting(SV),0%
-NO SUBS.,IN,SV-001~005(),CABLE,CHECK,0%
-NO SUBS.,IN,SV-001~005(SV),Fire Fighting,Fire Fighting(SV),0%
-NO SUBS.,IN,SV-002,CABLE,CABLE(NA),0%
-NO SUBS.,IN,SV-003,CABLE,CABLE(NA),0%
-NO SUBS.,IN,SV-004,CABLE,CABLE(NA),0%
 3000-03,IN,SV-10105,Instrument(SV),Instrument(SV),0%
 3000-04,IN,SV-20201,Instrument(SV),Instrument(SV),0%
 3000-04,IN,SV-20202,Instrument(SV),Instrument(SV),0%
@@ -19978,18 +19869,12 @@ NO SUBS.,IN,SZSH-10217,SIGNAL,SIGNAL,0%
 NO SUBS.,IN,SZSH-10219,SIGNAL,SIGNAL,0%
 3000-01,IN,SZSH-30101,Instrument(X),Instrument(SZSH),Exception(Pending)
 3000-01,IN,SZSH-30102,Instrument(X),Instrument(SZSH),Exception(Pending)
-NO SUBS.,IN,SZSH-84209,Instrument(X),Instrument(SZSH),0%
-NO SUBS.,IN,SZSH-84212,Instrument(X),Instrument(SZSH),0%
-NO SUBS.,IN,SZSH-84214,Instrument(X),Instrument(SZSH),0%
 NO SUBS.,IN,SZSL-10209,SIGNAL,SIGNAL,0%
 NO SUBS.,IN,SZSL-10212,SIGNAL,SIGNAL,0%
 NO SUBS.,IN,SZSL-10214,SIGNAL,SIGNAL,0%
 NO SUBS.,IN,SZSL-10216,SIGNAL,SIGNAL,0%
 NO SUBS.,IN,SZSL-10217,SIGNAL,SIGNAL,0%
 NO SUBS.,IN,SZSL-10219,SIGNAL,SIGNAL,0%
-NO SUBS.,IN,SZSL-84209,Instrument(X),Instrument(SZSL),0%
-NO SUBS.,IN,SZSL-84212,Instrument(X),Instrument(SZSL),0%
-NO SUBS.,IN,SZSL-84214,Instrument(X),Instrument(SZSL),0%
 5000-01,MES,T-5001,Tower(T),STABILIZER COLUMN,Done
 5000-02,MES,T-5002,Tower(T),LP METHANOL COLUMN,Done
 5000-03,MES,T-5003,Tower(T),MP METHANOL COLUMN,Done
@@ -19997,7 +19882,6 @@ NO SUBS.,IN,SZSL-84214,Instrument(X),Instrument(SZSL),0%
 1000-03,MES,T-6001-1,Tower(T),Saturator,90%
 1000-03,MES,T-6001-2,Tower(T),Saturator,90%
 3000-01,IN,TAH-30139,PKG,PKG,Exception(Pending)
-NO SUBS.,MES,TAPER_DUCT,REFORMER,TAPER_DUCT,
 120-13,EL,TB01-TC01,Cathodic Protection,Cable 1x16,DONE
 120-13,EL,TB01-TC02,Cathodic Protection,Cable 1x16,DONE
 120-13,EL,TB02-TC01,Cathodic Protection,Cable 1x16,DONE
@@ -20040,8 +19924,6 @@ NO SUBS.,IN,TE-1007,Instrument(TE),Instrument(TE),50%
 1000-02,IN,TE-1010(TE),Instrument(TE),Instrument(TE),Done
 1000-02,IN,TE-1012(NA),CABLE,CABLE(NA),Done
 1000-02,IN,TE-1012(TE),Instrument(TE),Instrument(TE),Done
-NO SUBS.,IN,TE-10208,PKG,PKG,0%
-NO SUBS.,IN,TE-10208-2,PKG,PKG,0%
 1000-01,IN,TE-1034(NA),CABLE,CABLE(NA),Done
 1000-01,IN,TE-1034(TE),Instrument(TE),Instrument(TE),Done
 1000-01,IN,TE-1035(NA),CABLE,CABLE(NA),Done
@@ -20743,8 +20625,6 @@ NO SUBS.,IN,TE-10208-2,PKG,PKG,0%
 4000-08,IN,TE-80232B,Instrument(TE),Instrument(TE),Done
 4000-08,IN,TE-80233A,Instrument(TE),Instrument(TE),Done
 4000-08,IN,TE-80233B,Instrument(TE),Instrument(TE),Done
-NO SUBS.,IN,TE-84205,Instrument(TE),Instrument(TE),0%
-NO SUBS.,IN,TE-84208,Instrument(TE),Instrument(TE),0%
 4000-11,IN,TG-0001,Instrument(TG),Instrument(TG),DONE
 4000-08,IN,TG-0002,Instrument(TG),Instrument(TG),Done
 4000-06,IN,TG-0003,Instrument(TG),Instrument(TG),Exception(Pending)
@@ -21019,7 +20899,6 @@ NO SUBS.,IN,TG-1003,Instrument(TG),Instrument(TG),50%
 4000-08,IN,TG-8024,Instrument(TG),Instrument(TG),Done
 4000-06,IN,TG-8411,Instrument(TG),Instrument(TG),Exception(Pending)
 4000-06,IN,TG-8412,Instrument(TG),Instrument(TG),Exception(Pending)
-NO SUBS.,IN,TG-84201,Instrument(TG),Instrument(TG),0%
 FGS-05,IN,TGD-0001(NA),CABLE,CABLE(NA),0%
 FGS-05,IN,TGD-0001(TGD),Fire Alarm,Fire Alarm(TGD),0%
 FGS-05,IN,TGD-0002(NA),CABLE,CABLE(NA),0%
@@ -21040,8 +20919,6 @@ FGS-05,IN,TGD-0009(NA),CABLE,CABLE(NA),0%
 FGS-05,IN,TGD-0009(TGD),Fire Alarm,Fire Alarm(TGD),0%
 FGS-04,IN,TGD-0010(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,TGD-0010(TGD),Fire Alarm,Fire Alarm(TGD),0%
-NO SUBS.,IN,TGD-0011(NA),CABLE,CABLE(NA),0%
-NO SUBS.,IN,TGD-0011(TGD),Fire Alarm,Fire Alarm(TGD),0%
 FGS-01,IN,TGD-0012(NA),CABLE,CABLE(NA),0%
 FGS-01,IN,TGD-0012(TGD),Fire Alarm,Fire Alarm(TGD),0%
 FGS-01,IN,TGD-0013(NA),CABLE,CABLE(NA),0%
@@ -21297,11 +21174,6 @@ NO SUBS.,IN,TT-1007,Instrument(TT),Instrument(TT),50%
 1000-02,IN,TT-1010(TT),Instrument(TT),Instrument(TT),DONE
 1000-02,IN,TT-1012(NA),CABLE,CABLE(NA),Done
 1000-02,IN,TT-1012(TT),Instrument(TT),Instrument(TT),DONE
-NO SUBS.,IN,TT-10205,PKG,PKG,0%
-NO SUBS.,IN,TT-10205-2,PKG,PKG,0%
-NO SUBS.,IN,TT-10208,PKG,PKG,0%
-NO SUBS.,IN,TT-10208-2,PKG,PKG,0%
-NO SUBS.,IN,TT-10218,Pkg,Pkg,0%
 1000-01,IN,TT-1034(NA),CABLE,CABLE(NA),Done
 1000-01,IN,TT-1034(TT),Instrument(TT),Instrument(TT),DONE
 1000-01,IN,TT-1035(NA),CABLE,CABLE(NA),Done
@@ -21563,7 +21435,6 @@ NO SUBS.,IN,TT-10218,Pkg,Pkg,0%
 3000-01,IN,TT-30143,Instrument(TT),Instrument(TT),Exception(Pending)
 3000-01,IN,TT-30144,Instrument(TT),Instrument(TT),Exception(Pending)
 3000-01,IN,TT-30146,Instrument(TT),Instrument(TT),Done
-NO SUBS.,IN,TT-30147,PKG,PKG,0%
 3000-01,IN,TT-30147(TT),Instrument(TT),Instrument(TT),Done
 3000-01,IN,TT-30148A,Instrument(TT),Instrument(TT),Exception(Pending)
 3000-01,IN,TT-30148B,Instrument(TT),Instrument(TT),Exception(Pending)
@@ -21816,8 +21687,6 @@ NO SUBS.,IN,TT-30147,PKG,PKG,0%
 4000-08,IN,TT-80133B,Instrument(TT),Instrument(TT),Done
 4000-08,IN,TT-80141A,Instrument(TT),Instrument(TT),Done
 4000-08,IN,TT-80141B,Instrument(TT),Instrument(TT),Done
-NO SUBS.,IN,TT-84205,Instrument(TT),Instrument(TT),0%
-NO SUBS.,IN,TT-84208,Instrument(TT),Instrument(TT),0%
 2000-02,IN,TV-20103,Instrument(TV),Instrument(TV),25%
 2000-02,IN,TV-20153,Instrument(TV),Instrument(TV),25%
 1000-01,IN,TV-2220(NA),CABLE,CABLE(NA),0%
@@ -22296,9 +22165,6 @@ NO SUBS.,IN,TW-1007,Instrument(TW),Instrument(TW),50%
 4000-08,IN,TW-8024,Instrument(TW),Instrument(TW),Done
 4000-06,IN,TW-8411,Instrument(TW),Instrument(TW),Done
 4000-06,IN,TW-8412,Instrument(TW),Instrument(TW),Done
-NO SUBS.,IN,TW-84201,Instrument(TW),Instrument(TW),0%
-NO SUBS.,IN,TW-84205,Instrument(TW),Instrument(TW),0%
-NO SUBS.,IN,TW-84208,Instrument(TW),Instrument(TW),0%
 2000-02,IN,TY-2221A,SIGNAL,SIGNAL,Exception(Pending)
 2000-02,IN,TY-2221B,SIGNAL,SIGNAL,Exception(Pending)
 2000-02,IN,TY-2221C,SIGNAL,SIGNAL,Exception(Pending)
@@ -25038,9 +24904,7 @@ TEL-10,EL,YO-TJB2,Telecom Device,Telephone Junction Box,0%
 4000-08,IN,ZE-80234B,Instrument(ZE),Instrument(ZE),Done
 4000-08,IN,ZE-80235A,Instrument(ZE),Instrument(ZE),Done
 4000-08,IN,ZE-80235B,Instrument(ZE),Instrument(ZE),Done
-NO SUBS.,IN,ZSH-30102,PKG,PKG,0%
 3000-01,IN,ZSH-30102(ZSH),Instrument(X),Instrument(ZSH),Exception(Pending)
-NO SUBS.,IN,ZSL-30101,PKG,PKG,0%
 3000-01,IN,ZSL-30101(ZSL),Instrument(X),Instrument(ZSL),Exception(Pending)
 2000-02,IN,ZT-20101,Instrument(ZT),Instrument(ZT),0%
 2000-02,IN,ZT-20102,Instrument(ZT),Instrument(ZT),0%
