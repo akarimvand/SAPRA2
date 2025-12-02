@@ -5063,7 +5063,6 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-08,PI,61-ROW-UG-KC-235,PI_TP,PIPING TEST PACKAGE,DONE
 4000-15,PI,61-SRW-UG-131A,PI_TP,PIPING TEST PACKAGE,DONE
 4000-15,PI,61-SRW-UG-KC-236,PI_TP,PIPING TEST PACKAGE,DONE
-NO SUBS.,PI,61-SUMP-091,PI_TP,PIPING TEST PACKAGE,DONE
 4000-09,PI,61-WWO-062,PI_TP,PIPING TEST PACKAGE,DONE
 4000-09,PI,61-WWO-063,PI_TP,PIPING TEST PACKAGE,DONE
 4000-09,PI,61-WWO-064,PI_TP,PIPING TEST PACKAGE,DONE
@@ -5483,7 +5482,6 @@ LS-14,EL,AH-EJB1,Lighting Main JB,Emergency Lighting Junction Box,DONE
 LS-14,EL,AH-EJB1-FJB01,Lighting Cable,Cable of Emergency Lighting Junction Box,33%
 LS-14,EL,AH-EJB2,Lighting Main JB,Emergency Lighting Junction Box,DONE
 LS-14,EL,AH-EJB2-FJB01,Lighting Cable,Cable of Emergency Lighting Junction Box,33%
-NO SUBS.,EL,AH-HDP-01,PANEL(EL),HVAC Distribution Panel,0%
 TEL-12,EL,AH-IS-01,Telecom Device,Intercom Station Without Hood - EX,50%
 TEL-12,EL,AH-SP-01,Paging Device,Loud Speaker - 25W|EX,50%
 TEL-12,EL,AH-TEL-01,Telecom Device,Telephone Station Without Hood- EX,Done
@@ -6024,9 +6022,6 @@ LS-04,EL,CR-ELP-01-07-L1-08,Lighting Fixture,Fluorescent Fixture 4*18w- Louver T
 120-12,EL,CR-ESP-01,PDCS System ,PDC System Ethernet Switch Panel,Done
 FGS-09,EL,CR-FACP-01,PANEL(EL),Fire Alarm Control Panel,0%
 FGS-09,EL,CR-FECP-01,PANEL(EL),Fire Extinguishing Control Panel,0%
-NO SUBS.,EL,CR-HDP-01,PANEL(EL),HVAC Distribution Panel,0%
-NO SUBS.,EL,CR-HDP-02,PANEL(EL),HVAC Distribution Panel,0%
-NO SUBS.,EL,CR-LCP-0010,PANEL(EL),HVAC Local Control Panel,0%
 LS-01,EL,CR-LP-01,PANEL(EL),Normal Lighting Panel,0%
 LS-04,EL,CR-LP-01-01-L1-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
 LS-04,EL,CR-LP-01-01-L1-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,50%
@@ -12928,8 +12923,6 @@ FGS-05,IN,FS-0016(NA),CABLE,CABLE(NA),0%
 4000-08,IN,FT-0002(NA),CABLE,CABLE(NA),Done
 1000-01,IN,FT-1006(FT),Instrument(FT),Instrument(FT),Done
 1000-01,IN,FT-1006(NA),CABLE,CABLE(NA),0%
-NO SUBS.,IN,FT-10215,SIGNAL,SIGNAL,0%
-NO SUBS.,IN,FT-10219,SIGNAL,SIGNAL,0%
 2000-03,IN,FT-2009(FT),Instrument(FT),Instrument(FT),50%
 2000-03,IN,FT-2009(NA),CABLE,CABLE(NA),0%
 3000-04,IN,FT-2079(FT),Instrument(FT),Instrument(FT),50%
@@ -13216,7 +13209,6 @@ DCS-01,IN,FTADO16-M04R-E,CABLE,CABLE(NA),0%
 1000-02,IN,FV-2531-2(NA),CABLE,CABLE(NA),0%
 1000-02,IN,FV-2536(FV),Instrument(FV),Instrument(FV),75%
 1000-02,IN,FV-2536(NA),CABLE,CABLE(NA),Done
-NO SUBS.,IN,FV-30111,PKG,PKG,33%
 3000-01,IN,FV-30111(FV),Instrument(FV),Instrument(FV),Exception(Pending)
 3000-01,IN,FV-30111(NA),CABLE,CABLE(NA),Exception(Pending)
 3000-01,IN,FV-30114(FV),Instrument(FV),Instrument(FV),Exception(Pending)
@@ -13851,14 +13843,12 @@ DCS-01,IN,ICNLF-C2001-01 ,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNLF-C2002-01.02,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNLF-C2002-01.02-02,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNLF-C3001|C3002-01.02,CABLE,CABLE(NA),Done
-NO SUBS.,IN,ICNLF-C3001|C3002-01.02-02,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNLF-DMPC-01.02,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNLF-DMPC-01.02-02,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNLF-F&G-01.02,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNLF-F&G-01.02-02,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNLF-F2001|F2002-01.02,CABLE,CABLE(NA),0%
 DCS-01,IN,ICNLF-P7001ABC|8001ABCD-01.02,CABLE,CABLE(NA),Done
-NO SUBS.,IN,ICNLF-P7001ABC|8001ABCD-01.02-02,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNLF-PDCS-01.02,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNLF-PDCS-01.02-02,CABLE,CABLE(NA),Done
 DCS-01,IN,ICNLF-PK7502-01.02,CABLE,CABLE(NA),0%
@@ -14388,7 +14378,6 @@ LS-05,EL,LAB-ELP-01-04-L3-10,Lighting Fixture,Fluorescent Fixture Exit- 1*8w Wit
 LS-05,EL,LAB-ELP-01-04-L3-11,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type|Safety Lights with Battery Backup,0%
 LS-05,EL,LAB-ELP-01-04-L3-12,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type|Safety Lights with Battery Backup,0%
 FGS-10,EL,LAB-FACP-01,PANEL(EL),Fire Alarm Control Panel,0%
-NO SUBS.,EL,LAB-HDP-01,PANEL(EL),HVAC Distribution Panel,0%
 LS-01,EL,LAB-LP-01,PANEL(EL),Normal Lighting Panel,0%
 LS-05,EL,LAB-LP-01-01-L1-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
 LS-05,EL,LAB-LP-01-01-L1-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
@@ -14819,7 +14808,6 @@ DCS-01,IN,LHSP-9006,CABLE,CABLE(NA),0%
 4000-06,IN,LI-7502-1,CABLE,CABLE(NA),0%
 3000-01,IN,LIT-30101(LIT),Instrument(LIT),Instrument(LIT),Exception(Pending)
 3000-01,IN,LIT-30101(NA),CABLE,CABLE(NA),Exception(Pending)
-NO SUBS.,IN,LIT-30103,Pkg,Pkg,0%
 3000-01,IN,LIT-30103(LIT),Instrument(LIT),Instrument(LIT),Exception(Pending)
 3000-01,IN,LIT-30104A,Instrument(LIT),Instrument(LIT),Exception(Pending)
 3000-01,IN,LIT-30104B,Instrument(LIT),Instrument(LIT),Exception(Pending)
@@ -15025,11 +15013,6 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 4000-08,IN,LST-8001B(NA),CABLE,CABLE(NA),0%
 4000-08,IN,LST-8001C(LST),Instrument(LST),Instrument(LST),Done
 4000-08,IN,LST-8001C(NA),CABLE,CABLE(NA),0%
-NO SUBS.,IN,LT-10201,SIGNAL,SIGNAL,0%
-NO SUBS.,IN,LT-20101,Pkg,Pkg,33%
-NO SUBS.,IN,LT-20101(LT),Instrument(LT),Instrument(LT),25%
-NO SUBS.,IN,LT-20151,Pkg,Pkg,0%
-NO SUBS.,IN,LT-20151(LT),Instrument(LT),Instrument(LT),25%
 2000-03,IN,LT-2016(LT),Instrument(LT),Instrument(LT),Done
 2000-03,IN,LT-2016(NA),CABLE,CABLE(NA),50%
 3000-04,IN,LT-20202,Instrument(LT),Instrument(LT),0%
@@ -15203,10 +15186,8 @@ NO SUBS.,IN,LT-20151(LT),Instrument(LT),Instrument(LT),25%
 2000-05,IN,LV-2441(NA),CABLE,CABLE(NA),Done
 2000-05,IN,LV-2474(LV),Instrument(LV),Instrument(LV),50%
 2000-05,IN,LV-2474(NA),CABLE,CABLE(NA),0%
-NO SUBS.,IN,LV-30106,PKG,PKG,33%
 3000-01,IN,LV-30106(LV),Instrument(LV),Instrument(LV),Exception(Pending)
 3000-01,IN,LV-30106(NA),CABLE,CABLE(NA),Done
-NO SUBS.,IN,LV-30107,PKG,PKG,33%
 3000-01,IN,LV-30107(LV),Instrument(LV),Instrument(LV),Exception(Pending)
 3000-01,IN,LV-30107(NA),CABLE,CABLE(NA),Done
 3000-01,IN,LV-30108(LV),Instrument(LV),Instrument(LV),Exception(Pending)
@@ -16929,10 +16910,8 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 3000-01,IN,PDIT-30178(PDIT),Instrument(PDIT),Instrument(PDIT),Done
 3000-01,IN,PDIT-30183(NA),CABLE,CABLE(NA),Done
 3000-01,IN,PDIT-30183(PDIT),Instrument(PDIT),Instrument(PDIT),Exception(Pending)
-NO SUBS.,IN,PDIT-30186,PKG,PKG,67%
 3000-01,IN,PDIT-30186(NA),CABLE,CABLE(NA),Done
 3000-01,IN,PDIT-30186(PDIT),Instrument(PDIT),Instrument(PDIT),Exception(Pending)
-NO SUBS.,IN,PDIT-30187,PKG,PKG,33%
 3000-01,IN,PDIT-30187(NA),CABLE,CABLE(NA),Done
 3000-01,IN,PDIT-30187(PDIT),Instrument(PDIT),Instrument(PDIT),Exception(Pending)
 2000-03,IN,PDST-2036A(NA),CABLE,CABLE(NA),Done
@@ -16943,8 +16922,6 @@ NO SUBS.,IN,PDIT-30187,PKG,PKG,33%
 2000-03,IN,PDST-2036C(PDST),Instrument(PDST),Instrument(PDST),Done
 2000-06,IN,PDST-2573(NA),CABLE,CABLE(NA),0%
 2000-06,IN,PDST-2573(PDST),Instrument(PDST),Instrument(PDST),50%
-NO SUBS.,IN,PDT-10220,SIGNAL,SIGNAL,0%
-NO SUBS.,IN,PDT-10221,SIGNAL,SIGNAL,0%
 1000-01,IN,PDT-1032(NA),CABLE,CABLE(NA),0%
 1000-01,IN,PDT-1032(PDT),Instrument(PDT),Instrument(PDT),50%
 2000-03,IN,PDT-2004(NA),CABLE,CABLE(NA),0%
@@ -17011,9 +16988,7 @@ NO SUBS.,IN,PDT-10221,SIGNAL,SIGNAL,0%
 2000-03,IN,PDV-2051(PDV),Instrument(PDV),Instrument(PDV),0%
 2000-06,IN,PDV-2575(NA),CABLE,CABLE(NA),Done
 2000-06,IN,PDV-2575(PDV),Instrument(PDV),Instrument(PDV),25%
-NO SUBS.,IN,PDV-30120,PKG,PKG,33%
 3000-01,IN,PDV-30120(PDV),Instrument(PDV),Instrument(PDV),Exception(Pending)
-NO SUBS.,IN,PDV-30125,PKG,PKG,33%
 3000-01,IN,PDV-30125(PDV),Instrument(PDV),Instrument(PDV),Exception(Pending)
 2000-03,IN,PDZSH-2051,Instrument(X),Instrument(PDZSH),0%
 2000-03,IN,PDZSL-2051,Instrument(X),Instrument(PDZSL),0%
@@ -17605,12 +17580,10 @@ FGS-01,IN,PI-9054B,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-01,IN,PI-9055A,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-01,IN,PI-9055B,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 3000-01,IN,PIC-3007,SIGNAL,SIGNAL,Done
-NO SUBS.,IN,PIT-30101,PKG,PKG,33%
 3000-01,IN,PIT-30101(PIT),Instrument(PIT),Instrument(PIT),Exception(Pending)
 3000-01,IN,PIT-30102A,Instrument(PIT),Instrument(PIT),Exception(Pending)
 3000-01,IN,PIT-30102B,Instrument(PIT),Instrument(PIT),Exception(Pending)
 3000-01,IN,PIT-30102C,Instrument(PIT),Instrument(PIT),Exception(Pending)
-NO SUBS.,IN,PIT-30110,PKG,PKG,0%
 3000-01,IN,PIT-30110(PIT),Instrument(PIT),Instrument(PIT),Exception(Pending)
 3000-01,IN,PIT-30114,Instrument(PIT),Instrument(PIT),Done
 3000-01,IN,PIT-30117,Instrument(PIT),Instrument(PIT),Done
@@ -17623,7 +17596,6 @@ NO SUBS.,IN,PIT-30110,PKG,PKG,0%
 3000-01,IN,PIT-30122C,Instrument(PIT),Instrument(PIT),Done
 3000-01,IN,PIT-30123,Instrument(PIT),Instrument(PIT),Done
 3000-01,IN,PIT-30124,Instrument(PIT),Instrument(PIT),Done
-NO SUBS.,IN,PIT-30126,Pkg,Pkg,0%
 3000-01,IN,PIT-30126(PIT),Instrument(PIT),Instrument(PIT),Exception(Pending)
 3000-01,IN,PIT-30127A,Instrument(PIT),Instrument(PIT),Done
 3000-01,IN,PIT-30127B,Instrument(PIT),Instrument(PIT),Done
@@ -17631,10 +17603,8 @@ NO SUBS.,IN,PIT-30126,Pkg,Pkg,0%
 3000-01,IN,PIT-30128A,Instrument(PIT),Instrument(PIT),Done
 3000-01,IN,PIT-30128B,Instrument(PIT),Instrument(PIT),Done
 3000-01,IN,PIT-30128C,Instrument(PIT),Instrument(PIT),Done
-NO SUBS.,IN,PIT-30136,Pkg,Pkg,33%
 3000-01,IN,PIT-30136(NA),CABLE,CABLE(NA),Exception(Pending)
 3000-01,IN,PIT-30136(PIT),Instrument(PIT),Instrument(PIT),Exception(Pending)
-NO SUBS.,IN,PIT-30138,Pkg,Pkg,33%
 3000-01,IN,PIT-30138(PIT),Instrument(PIT),Instrument(PIT),Exception(Pending)
 3000-01,IN,PIT-30142A,Instrument(PIT),Instrument(PIT),Exception(Pending)
 3000-01,IN,PIT-30142B,Instrument(PIT),Instrument(PIT),Exception(Pending)
@@ -17651,9 +17621,7 @@ NO SUBS.,IN,PIT-30138,Pkg,Pkg,33%
 3000-01,IN,PIT-30150A,Instrument(PIT),Instrument(PIT),Exception(Pending)
 3000-01,IN,PIT-30150B,Instrument(PIT),Instrument(PIT),Exception(Pending)
 3000-01,IN,PIT-30150C,Instrument(PIT),Instrument(PIT),Exception(Pending)
-NO SUBS.,IN,PIT-30171,PKG,PKG,33%
 3000-01,IN,PIT-30171(PIT),Instrument(PIT),Instrument(PIT),Exception(Pending)
-NO SUBS.,IN,PIT-30172,PKG,PKG,33%
 3000-01,IN,PIT-30172(PIT),Instrument(PIT),Instrument(PIT),Exception(Pending)
 3000-01,IN,PIT-30179(NA),CABLE,CABLE(NA),Done
 3000-01,IN,PIT-30179(PIT),Instrument(PIT),Instrument(PIT),Done
@@ -18232,11 +18200,8 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 1000-01,IN,PT-1005(PT),Instrument(PT),Instrument(PT),Done
 1000-01,IN,PT-1006(NA),CABLE,CABLE(NA),50%
 1000-01,IN,PT-1006(PT),Instrument(PT),Instrument(PT),Done
-NO SUBS.,IN,PT-1007,Instrument(PT),Instrument(PT),25%
 1000-02,IN,PT-1011(NA),CABLE,CABLE(NA),Done
 1000-02,IN,PT-1011(PT),Instrument(PT),Instrument(PT),Done
-NO SUBS.,IN,PT-10217,SIGNAL,SIGNAL,0%
-NO SUBS.,IN,PT-10224,SIGNAL,SIGNAL,0%
 1000-01,IN,PT-1045(NA),CABLE,CABLE(NA),Done
 1000-01,IN,PT-1045(PT),Instrument(PT),Instrument(PT),Done
 2000-03,IN,PT-2001(NA),CABLE,CABLE(NA),0%
@@ -18510,7 +18475,6 @@ NO SUBS.,IN,PT-10224,SIGNAL,SIGNAL,0%
 1000-02,IN,PV-2536(PV),Instrument(PV),Instrument(PV),25%
 3000-04,IN,PV-2608(NA),CABLE,CABLE(NA),Done
 3000-04,IN,PV-2608(PV),Instrument(PV),Instrument(PV),25%
-NO SUBS.,IN,PV-30123,PKG,PKG,33%
 3000-01,IN,PV-30123(PV),Instrument(PV),Instrument(PV),Exception(Pending)
 3000-01,IN,PV-30138(NA),CABLE,CABLE(NA),Exception(Pending)
 3000-01,IN,PV-30138(PV),Instrument(PV),Instrument(PV),Exception(Pending)
@@ -18782,7 +18746,6 @@ FGS-03,IN,RHS-9053,Fire Fighting,Fire Fighting(RHS),0%
 4000-08,IN,RO-80201A,Instrument(RO),Instrument(RO),Done
 4000-08,IN,RO-80201B,Instrument(RO),Instrument(RO),Done
 4000-06,IN,RO-8411,Instrument(RO),Instrument(RO),Exception(Pending)
-NO SUBS.,IN,RO-84117,Instrument(RO),Instrument(RO),0%
 4000-06,IN,RO-8412,Instrument(RO),Instrument(RO),Exception(Pending)
 4000-06,IN,RO-84301A,Instrument(RO),Instrument(RO),50%
 4000-06,IN,RO-84301B,Instrument(RO),Instrument(RO),0%
@@ -19467,10 +19430,8 @@ FGS-08,EL,SS-FACP-01,PANEL(EL)(2),Fire Alarm Control Panel,DONE
 FGS-08,EL,SS-FAJB-01,FGS JB,Fire Alarm Junction Box,0%
 FGS-08,EL,SS-FAJB-02,FGS JB,Fire Alarm Junction Box,0%
 FGS-08,EL,SS-FECP-01,PANEL(EL)(2),Fire Extinguishing Control Panel,DONE
-NO SUBS.,EL,SS-HDP-01,PANEL(EL),HVAC Distribution Panel,0%
 TEL-08,EL,SS-IS-01,Telecom Device,Intercom Station Without Hood,50%
 TEL-08,EL,SS-IS-02,Telecom Device,Intercom Station Without Hood,50%
-NO SUBS.,EL,SS-LCP-0030,PANEL(EL),HVAC Local Control Panel,0%
 LS-01,EL,SS-LP-01,PANEL(EL),Normal Lighting Panel,0%
 LS-03,EL,SS-LP-01(LS-03),PANEL(EL),Normal Lighting Panel,0%
 LS-03,EL,SS-LP-01-11-L1-01,Socket Outlet,Outlet 3-Pole- 230v|16A|WP,DONE
@@ -19861,20 +19822,8 @@ BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor 
 4000-08,IN,SY-80111B,SIGNAL,SIGNAL,Done
 4000-08,IN,SY-80112A,SIGNAL,SIGNAL,Done
 4000-08,IN,SY-80112B,SIGNAL,SIGNAL,Done
-NO SUBS.,IN,SZSH-10209,SIGNAL,SIGNAL,0%
-NO SUBS.,IN,SZSH-10212,SIGNAL,SIGNAL,0%
-NO SUBS.,IN,SZSH-10214,SIGNAL,SIGNAL,0%
-NO SUBS.,IN,SZSH-10216,SIGNAL,SIGNAL,0%
-NO SUBS.,IN,SZSH-10217,SIGNAL,SIGNAL,0%
-NO SUBS.,IN,SZSH-10219,SIGNAL,SIGNAL,0%
 3000-01,IN,SZSH-30101,Instrument(X),Instrument(SZSH),Exception(Pending)
 3000-01,IN,SZSH-30102,Instrument(X),Instrument(SZSH),Exception(Pending)
-NO SUBS.,IN,SZSL-10209,SIGNAL,SIGNAL,0%
-NO SUBS.,IN,SZSL-10212,SIGNAL,SIGNAL,0%
-NO SUBS.,IN,SZSL-10214,SIGNAL,SIGNAL,0%
-NO SUBS.,IN,SZSL-10216,SIGNAL,SIGNAL,0%
-NO SUBS.,IN,SZSL-10217,SIGNAL,SIGNAL,0%
-NO SUBS.,IN,SZSL-10219,SIGNAL,SIGNAL,0%
 5000-01,MES,T-5001,Tower(T),STABILIZER COLUMN,Done
 5000-02,MES,T-5002,Tower(T),LP METHANOL COLUMN,Done
 5000-03,MES,T-5003,Tower(T),MP METHANOL COLUMN,Done
@@ -19919,7 +19868,6 @@ NO SUBS.,IN,SZSL-10219,SIGNAL,SIGNAL,0%
 3000-01,IN,TCV-30133,Instrument(TCV),Instrument(TCV),Exception(Pending)
 1000-01,IN,TE-1001(NA),CABLE,CABLE(NA),0%
 1000-01,IN,TE-1001(TE),Instrument(TE),Instrument(TE),Done
-NO SUBS.,IN,TE-1007,Instrument(TE),Instrument(TE),50%
 1000-02,IN,TE-1010(NA),CABLE,CABLE(NA),Done
 1000-02,IN,TE-1010(TE),Instrument(TE),Instrument(TE),Done
 1000-02,IN,TE-1012(NA),CABLE,CABLE(NA),Done
@@ -20631,7 +20579,6 @@ NO SUBS.,IN,TE-1007,Instrument(TE),Instrument(TE),50%
 4000-06,IN,TG-0004,Instrument(TG),Instrument(TG),Exception(Pending)
 4000-06,IN,TG-0005,Instrument(TG),Instrument(TG),Exception(Pending)
 1000-01,IN,TG-1002,Instrument(TG),Instrument(TG),Done
-NO SUBS.,IN,TG-1003,Instrument(TG),Instrument(TG),50%
 1000-01,IN,TG-1004,Instrument(TG),Instrument(TG),Done
 1000-01,IN,TG-1036,Instrument(TG),Instrument(TG),Done
 1000-01,IN,TG-1039,Instrument(TG),Instrument(TG),Done
@@ -20943,7 +20890,6 @@ FGS-01,IN,TGD-0022(NA),CABLE,CABLE(NA),0%
 FGS-01,IN,TGD-0022(TGD),Fire Alarm,Fire Alarm(TGD),0%
 2000-02,IN,TI-2112,Instrument(TI),Instrument(TI),0%
 3000-01,IN,TI-30140,PKG,PKG,Exception(Pending)
-NO SUBS.,MES,TK-3013,005-Tank(TK),Run Down Tank,82%
 5000-01,MES,TK-5001,005-Tank(TK),Raw Methanol Buffer Tank (TK 5001) OUT OF SCOPE,24%
 5000-04,MES,TK-5002-1,005-Tank(TK),Methanol Product Buffer Tank (TK 5002 1) OUT OF SCOPE,12%
 5000-04,MES,TK-5002-2,005-Tank(TK),Methanol Product Buffer Tank (TK 5002 2) OUT OF SCOPE,12%
@@ -21169,7 +21115,6 @@ NO SUBS.,MES,TK-3013,005-Tank(TK),Run Down Tank,82%
 3000-01,IN,TSV-30160,Instrument(TSV),Instrument(TSV),Exception(Pending)
 1000-01,IN,TT-1001(NA),CABLE,CABLE(NA),Done
 1000-01,IN,TT-1001(TT),Instrument(TT),Instrument(TT),DONE
-NO SUBS.,IN,TT-1007,Instrument(TT),Instrument(TT),50%
 1000-02,IN,TT-1010(NA),CABLE,CABLE(NA),Done
 1000-02,IN,TT-1010(TT),Instrument(TT),Instrument(TT),DONE
 1000-02,IN,TT-1012(NA),CABLE,CABLE(NA),Done
@@ -21744,9 +21689,7 @@ NO SUBS.,IN,TT-1007,Instrument(TT),Instrument(TT),50%
 4000-06,IN,TW-0005,Instrument(TW),Instrument(TW),Done
 1000-01,IN,TW-1001,Instrument(TW),Instrument(TW),Done
 1000-01,IN,TW-1002,Instrument(TW),Instrument(TW),Done
-NO SUBS.,IN,TW-1003,Instrument(TW),Instrument(TW),50%
 1000-01,IN,TW-1004,Instrument(TW),Instrument(TW),Done
-NO SUBS.,IN,TW-1007,Instrument(TW),Instrument(TW),50%
 1000-02,IN,TW-1010,Instrument(TW),Instrument(TW),Done
 1000-02,IN,TW-1012,Instrument(TW),Instrument(TW),Done
 1000-01,IN,TW-1034,Instrument(TW),Instrument(TW),Done
