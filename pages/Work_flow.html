@@ -8,7 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
     <script src="https://unpkg.com/papaparse@5.3.2/papaparse.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" media="print" onload="this.media='all'">
     <style>
         @import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css');
         body { font-family: 'Vazir', sans-serif; }
@@ -210,7 +210,7 @@
             loadingEl.innerHTML = '<div style="position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:white;padding:20px;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.15);z-index:9999;"><i class="fas fa-spinner fa-spin" style="font-size:24px;color:#3b82f6;"></i><div style="margin-top:10px;font-weight:bold;">در حال بارگذاری...</div></div>';
             document.body.appendChild(loadingEl);
             try {
-                const response = await fetch('../dbcsv/HOS_WORK_FLOW.csv');
+                const response = await fetch('../dbcsv/HOS_WORK_FLOW.csv', { cache: 'force-cache' });
                 const csvText = await response.text();
                 const parsed = Papa.parse(csvText, { header: true, skipEmptyLines: true, dynamicTyping: false });
                 
