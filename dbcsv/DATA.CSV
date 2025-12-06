@@ -35,7 +35,7 @@
 2000,2000-01,Reforming,Pre Reforming,PI,9,8,0,19,11,8,1
 2000,2000-01,Reforming,Pre Reforming,IN,92,15,13,69,24,45,11
 2000,2000-02,Reforming,Primary Reforming,PI,9,9,0,31,16,15,1
-2000,2000-02,Reforming,Primary Reforming,IN,873,105,126,721,547,174,77
+2000,2000-02,Reforming,Primary Reforming,IN,873,105,126,722,547,175,77
 2000,2000-02,Reforming,Primary Reforming,MES,8,0,8,0,0,0,0
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,26,15,5,55,23,32,79
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,363,74,40,320,181,139,50
@@ -80,7 +80,7 @@
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,55,60,460,339,121,384
 4000,4000-05,Utility,Blow Down,PI,24,24,0,46,33,13,13
 4000,4000-05,Utility,Blow Down,MES,4,0,4,23,0,23,0
-4000,4000-05,Utility,Blow Down,IN,17,17,0,15,6,9,4
+4000,4000-05,Utility,Blow Down,IN,17,17,0,16,6,10,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,2,13,16,0,16,5
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,54,0,207,134,73,167
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,4,8,54,0,54,0
@@ -112,7 +112,7 @@
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,137,87,50,29
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,8,0,48,0,48,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,4,13,78,21,57,5
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,376,27,979,767,212,147
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,376,27,983,767,216,147
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,70,0,234,161,73,10
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,7,1,6,84,43,41,1
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,2,2,25,0,25,0
