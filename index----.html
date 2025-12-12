@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SAPRA | Smart Access to Project Activities</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #0f162f;
+      color: #ffffff;
+      overflow: hidden;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #vanta-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+
+    .container {
+      position: relative;
+      width: 90%;
+      max-width: 420px;
+      background: rgba(15, 30, 60, 0.8);
+      backdrop-filter: blur(15px);
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+      border: 1px solid rgba(60, 100, 180, 0.3);
+      transform-style: preserve-3d;
+      perspective: 1000px;
+      animation: float 6s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0) rotateX(0deg) rotateY(0deg); }
+      50% { transform: translateY(-15px) rotateX(5deg) rotateY(5deg); }
+    }
+
+    .logo {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .logo img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 15px;
+    }
+
+    .logo p {
+      font-size: 0.9rem;
+      color: #a0c0ff;
+      margin-top: 5px;
+    }
+
+    .form-group {
+      margin-bottom: 25px;
+      position: relative;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 0.9rem;
+      color: #a0c0ff;
+      font-weight: 500;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 14px 18px;
+      border-radius: 12px;
+      border: 1px solid rgba(60, 120, 200, 0.4);
+      background: rgba(255, 255, 255, 0.1);
+      color: #ffffff;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      outline: none;
+    }
+
+    .form-group input:focus {
+      border-color: #4a89dc;
+      box-shadow: 0 0 15px rgba(74, 137, 220, 0.4);
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    .btn {
+      width: 100%;
+      padding: 15px;
+      border: none;
+      border-radius: 12px;
+      background: linear-gradient(45deg, #1e5799, #2989d8);
+      color: white;
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.4s cubic-bezier(0.2, 0.8, 0.7, 0.3);
+      box-shadow: 0 5px 15px rgba(30, 87, 153, 0.5);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 25px rgba(30, 87, 153, 0.7);
+    }
+
+    .btn:active {
+      transform: translateY(-1px);
+    }
+
+    .btn::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+      transition: left 0.7s;
+    }
+
+    .btn:hover::before {
+      left: 100%;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.8rem;
+      color: #8ea0d8;
+    }
+
+    .footer a {
+      color: #4a89dc;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        width: 95%;
+        padding: 30px 20px;
+      }
+      .logo img {
+        width: 80px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="vanta-bg"></div>
+  <div class="container">
+    <div class="logo">
+      <img src="images/SAPRA_WHITE-100.png" alt="SAPRA Logo" />
+      <p>Smart Access to Project Activities</p>
+    </div>
+    <form id="loginForm">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" value="Sapra_Sabalan2" readonly required />
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required />
+      </div>
+      <button type="submit" class="btn">Log In</button>
+    </form>
+    <div class="footer">
+      <p>© 2025 SAPRA. Developed by <a href="mailto:akarimvand@gmail.com">Amin Naseri Karimvand</a></p>
+    </div>
+  </div>
+
+  <script>
+    // Initialize Vanta.js effect
+    document.addEventListener("DOMContentLoaded", function() {
+      VANTA.WAVES({
+        el: "#vanta-bg",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x0d1b3a,
+        shininess: 35.00,
+        waveHeight: 15.00,
+        waveSpeed: 0.80
+      });
+
+      // Add 3D tilt effect
+      const container = document.querySelector('.container');
+      const radius = 30;
+      const depth = 30;
+
+      document.addEventListener('mousemove', function(e) {
+        let x = e.clientX;
+        let y = e.clientY;
+        
+        let centerX = window.innerWidth / 2;
+        let centerY = window.innerHeight / 2;
+        
+        let percentX = (x - centerX) / centerX;
+        let percentY = (y - centerY) / centerY;
+        
+        container.style.transform = `perspective(1000px) rotateX(${percentY * -radius}deg) rotateY(${percentX * radius}deg)`;
+      });
+
+      document.addEventListener('mouseleave', function() {
+        container.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg)';
+      });
+
+      // Handle login
+      const form = document.getElementById('loginForm');
+      const passwordInput = document.getElementById('password');
+
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        const username = document.getElementById('username').value.trim();
+        const password = passwordInput.value;
+
+        if (username === "Sapra_Sabalan2" && password === "1234") {
+          window.location.href = "main.html";
+        } else {
+          alert("Invalid password. Please try again.");
+          passwordInput.value = "";
+        }
+      });
+    });
+  </script>
+</body>
+</html>

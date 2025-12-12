@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SAPRA | Smart Access to Project Activities</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <style>
+
+    :root {
+      --primary-color: #2563eb;
+      --primary-hover: #1d4ed8;
+      --background-color: #f8fafc;
+      --card-background-color: #ffffff;
+      --text-color: #1e293b;
+      --text-muted-color: #64748b;
+      --border-color: #e2e8f0;
+      --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+      --transition-base: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      --border-radius: 0.5rem;
+      --font-family-sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font-family-sans-serif);
+      background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+      color: var(--text-color);
+    }
+
+    .login-wrapper {
+      display: flex;
+      width: 100%;
+      max-width: 900px;
+      min-height: 650px;
+      background: var(--card-background-color);
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow-lg);
+      overflow: hidden;
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      transform-style: preserve-3d;
+      perspective: 1000px;
+    }
+
+    .login-wrapper:hover {
+      transform: translateY(-8px) rotateX(2deg) rotateY(-2deg);
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    }
+
+    .login-image {
+      flex: 1;
+      margin: 1rem;
+      border-radius: var(--border-radius);
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+      transition: var(--transition-base);
+    }
+
+    .login-image:hover {
+      transform: scale(1.02);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .login-image::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url('images/loginbg2.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: crisp-edges;
+    }
+
+    .login-container {
+      flex: 1;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .logo {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .logo img {
+      width: 80px;
+      height: auto;
+      margin-bottom: 1rem;
+      filter: brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(214deg) brightness(97%) contrast(87%);
+    }
+
+    .logo p {
+      font-size: 0.875rem;
+      color: var(--text-muted-color);
+      font-weight: 500;
+      letter-spacing: 0.025em;
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+      position: relative;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-size: 0.875rem;
+      color: var(--text-color);
+      font-weight: 600;
+      letter-spacing: 0.025em;
+    }
+
+    .form-group input, .form-group select {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      border: 1px solid var(--border-color);
+      border-radius: var(--border-radius);
+      background: var(--card-background-color);
+      color: var(--text-color);
+      font-size: 1rem;
+      transition: var(--transition-base);
+      outline: none;
+      font-family: var(--font-family-sans-serif);
+    }
+
+    .form-group select {
+      cursor: pointer;
+    }
+
+    .form-group input:focus, .form-group select:focus {
+      border-color: var(--primary-color);
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+    }
+
+    .form-group input::placeholder {
+      color: var(--text-muted-color);
+      opacity: 0.7;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: var(--border-radius);
+      background: linear-gradient(135deg, var(--primary-color), #3b82f6);
+      color: white;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition-base);
+      font-family: var(--font-family-sans-serif);
+      box-shadow: var(--shadow);
+    }
+
+    .btn:hover {
+      background: linear-gradient(135deg, #3b82f6, var(--primary-color));
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .btn:active {
+      transform: translateY(0);
+      box-shadow: var(--shadow);
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 0.75rem;
+      color: var(--text-muted-color);
+    }
+
+    .footer a {
+      color: var(--primary-color);
+      text-decoration: none;
+      transition: var(--transition-base);
+    }
+
+    .footer a:hover {
+      color: var(--primary-hover);
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        background: var(--background-color);
+      }
+      .login-wrapper {
+        flex-direction: column;
+        max-width: 420px;
+        background: var(--card-background-color);
+      }
+      .login-wrapper:hover {
+        transform: translateY(-4px);
+      }
+      .login-image {
+        display: none;
+      }
+      .login-container {
+        padding: 1.5rem;
+      }
+      .logo img {
+        width: 64px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="login-wrapper">
+    <div class="login-container">
+    <div class="logo">
+      <img src="images/SAPRA.png" alt="SAPRA Logo" />
+      <p>Smart Access to Project Activities</p>
+    </div>
+    <form id="loginForm">
+      <div class="form-group">
+        <label for="projectPhase">Project Phase</label>
+        <select id="projectPhase" class="form-select" required>
+          <option value="engineering">Engineering</option>
+          <option value="procurement">Procurement</option>
+          <option value="construction">Construction</option>
+          <option value="precommissioning" selected>Precommissioning</option>
+          <option value="commissioning">Commissioning</option>
+          <option value="startup">Start-up</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="username">Username</label>
+        <select id="username" class="form-select" required>
+          <option value="Sapra_Sabalan2" selected>Sapra_Sabalan2</option>
+          <option value="Kayson_User">Kayson_User</option>
+          <option value="Administrator">Administrator</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" class="form-control" placeholder="Enter your password" required />
+      </div>
+      <button type="submit" class="btn btn-primary">Log In</button>
+    </form>
+    <div class="footer">
+      <p>© 2025 SAPRA. Developed by <a href="mailto:akarimvand@gmail.com">Amin Naseri Karimvand</a></p>
+    </div>
+    </div>
+    <div class="login-image"></div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const projectPhaseSelect = document.getElementById('projectPhase');
+      const usernameInput = document.getElementById('username');
+      const form = document.getElementById('loginForm');
+      const passwordInput = document.getElementById('password');
+
+      projectPhaseSelect.addEventListener('change', function() {
+        if (this.value === 'construction' || this.value === 'engineering' || this.value === 'procurement' || this.value === 'commissioning' || this.value === 'startup') {
+          usernameInput.value = 'Kayson_User';
+        } else {
+          usernameInput.value = 'Sapra_Sabalan2';
+        }
+      });
+
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        const projectPhase = projectPhaseSelect.value;
+        const username = usernameInput.value.trim();
+        const password = passwordInput.value;
+
+        if (username === 'Administrator') {
+          Swal.fire({
+            icon: 'error',
+            title: 'Login Failed',
+            text: 'Invalid password for Administrator.',
+            confirmButtonColor: '#2563eb',
+            customClass: {
+              popup: 'rounded-3',
+              confirmButton: 'btn btn-primary'
+            }
+          });
+          passwordInput.value = "";
+        } else if (projectPhase === 'construction' || projectPhase === 'engineering' || projectPhase === 'procurement' || projectPhase === 'commissioning' || projectPhase === 'startup') {
+          if (username === "Kayson_User" && password === "869400") {
+            window.location.href = "construction.html";
+          } else {
+            Swal.fire({
+              icon: 'error',
+              title: 'Login Failed',
+              text: `Invalid username or password for ${projectPhase.charAt(0).toUpperCase() + projectPhase.slice(1)} phase.`,
+              confirmButtonColor: '#2563eb',
+              customClass: {
+                popup: 'rounded-3',
+                confirmButton: 'btn btn-primary'
+              }
+            });
+            passwordInput.value = "";
+          }
+        } else {
+          if (username === "Sapra_Sabalan2" && password === "1234") {
+            window.location.href = "main.html";
+          } else {
+            Swal.fire({
+              icon: 'error',
+              title: 'Login Failed',
+              text: 'Invalid username or password for Precommissioning phase.',
+              confirmButtonColor: '#2563eb',
+              customClass: {
+                popup: 'rounded-3',
+                confirmButton: 'btn btn-primary'
+              }
+            });
+            passwordInput.value = "";
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAPRA File Manager Pro</title>
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <style>
+    :root {
+      --primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      --primary-solid: #667eea;
+      --secondary: #f093fb;
+      --accent: #4facfe;
+      --success: #00d4aa;
+      --warning: #ffc107;
+      --danger: #ff6b6b;
+      --info: #17a2b8;
+      
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a2e;
+      --bg-tertiary: #16213e;
+      --bg-card: rgba(255, 255, 255, 0.05);
+      --bg-glass: rgba(255, 255, 255, 0.1);
+      --bg-hover: rgba(255, 255, 255, 0.08);
+      
+      --text-primary: #ffffff;
+      --text-secondary: #b8c5d1;
+      --text-muted: #6c757d;
+      --text-accent: #667eea;
+      
+      --border: rgba(255, 255, 255, 0.1);
+      --border-hover: rgba(255, 255, 255, 0.2);
+      
+      --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+      --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.15);
+      --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.3);
+      --shadow-glow: 0 0 20px rgba(102, 126, 234, 0.3);
+      
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 16px;
+      --radius-xl: 24px;
+      
+      --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      --transition-fast: all 0.15s ease;
+      
+      --space-xs: 0.5rem;
+      --space-sm: 1rem;
+      --space-md: 1.5rem;
+      --space-lg: 2rem;
+      --space-xl: 3rem;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      min-height: 100vh;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: 
+        radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.2) 0%, transparent 50%);
+      z-index: -1;
+      animation: backgroundShift 20s ease-in-out infinite;
+    }
+
+    @keyframes backgroundShift {
+      0%, 100% { transform: scale(1) rotate(0deg); }
+      50% { transform: scale(1.1) rotate(1deg); }
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: var(--space-lg);
+      position: relative;
+      z-index: 1;
+    }
+
+
+
+    .file-manager {
+      background: var(--bg-card);
+      backdrop-filter: blur(20px);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+      overflow: hidden;
+      animation: fadeInUp 0.8s ease 0.2s both;
+    }
+
+    .toolbar {
+      display: flex;
+      align-items: center;
+      gap: var(--space-md);
+      padding: var(--space-md);
+      background: var(--bg-glass);
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(10px);
+    }
+
+    .nav-controls {
+      display: flex;
+      gap: var(--space-xs);
+    }
+
+    .nav-btn {
+      width: 40px;
+      height: 40px;
+      border: none;
+      border-radius: var(--radius-sm);
+      background: var(--bg-tertiary);
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: var(--transition);
+      font-size: 1.1rem;
+    }
+
+    .nav-btn:hover:not(:disabled) {
+      background: var(--bg-hover);
+      color: var(--text-primary);
+      transform: translateY(-2px);
+    }
+
+    .nav-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    .breadcrumb {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      gap: var(--space-xs);
+      font-size: 0.95rem;
+      color: var(--text-secondary);
+      direction: ltr;
+      text-align: left;
+    }
+
+    .breadcrumb-item {
+      display: flex;
+      align-items: center;
+      gap: var(--space-xs);
+      padding: 0.5rem 0.75rem;
+      border-radius: var(--radius-sm);
+      transition: var(--transition);
+      cursor: pointer;
+    }
+
+    .breadcrumb-item:hover {
+      background: var(--bg-hover);
+      color: var(--text-primary);
+    }
+
+    .breadcrumb-separator {
+      color: var(--text-muted);
+      font-size: 0.8rem;
+    }
+
+    .toolbar-actions {
+      display: flex;
+      gap: var(--space-xs);
+    }
+
+    .action-btn {
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: var(--radius-sm);
+      background: var(--bg-tertiary);
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: var(--transition);
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .action-btn:hover {
+      background: var(--primary-solid);
+      color: white;
+      transform: translateY(-2px);
+    }
+
+    .search-container {
+      position: relative;
+      width: 250px;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 0.75rem 1rem 0.75rem 2.5rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      background: var(--bg-tertiary);
+      color: var(--text-primary);
+      font-size: 0.9rem;
+      transition: var(--transition);
+    }
+
+    .search-input:focus {
+      outline: none;
+      border-color: var(--primary-solid);
+      box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 0.75rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    .file-list {
+      max-height: 500px;
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .file-list::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .file-list::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    .file-list::-webkit-scrollbar-thumb {
+      background: var(--border);
+      border-radius: 4px;
+    }
+
+    .file-list::-webkit-scrollbar-thumb:hover {
+      background: var(--border-hover);
+    }
+
+    .file-item {
+      display: flex;
+      align-items: center;
+      padding: var(--space-md);
+      border-bottom: 1px solid var(--border);
+      transition: var(--transition);
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .file-item::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 0;
+      height: 100%;
+      background: var(--primary);
+      transition: width 0.3s ease;
+      z-index: 0;
+    }
+
+    .file-item:hover::before {
+      width: 4px;
+    }
+
+    .file-item:hover {
+      background: var(--bg-hover);
+      transform: translateX(8px);
+    }
+
+    .file-item > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    .file-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      margin-left: var(--space-md);
+      transition: var(--transition);
+    }
+
+    .folder-icon {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+    }
+
+    .file-icon.document { background: linear-gradient(135deg, #f093fb, #f5576c); }
+    .file-icon.image { background: linear-gradient(135deg, #4facfe, #00f2fe); }
+    .file-icon.video { background: linear-gradient(135deg, #43e97b, #38f9d7); }
+    .file-icon.audio { background: linear-gradient(135deg, #fa709a, #fee140); }
+    .file-icon.archive { background: linear-gradient(135deg, #a8edea, #fed6e3); }
+    .file-icon.code { background: linear-gradient(135deg, #ff9a9e, #fecfef); }
+
+    .file-info {
+      flex: 1;
+      margin-right: var(--space-md);
+    }
+
+    .file-name {
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--text-primary);
+      margin-bottom: 0.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .file-meta {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      display: flex;
+      gap: var(--space-md);
+    }
+
+    .file-actions {
+      display: flex;
+      gap: var(--space-xs);
+      opacity: 0;
+      transition: var(--transition);
+    }
+
+    .file-item:hover .file-actions {
+      opacity: 1;
+    }
+
+    .file-action {
+      width: 36px;
+      height: 36px;
+      border: none;
+      border-radius: var(--radius-sm);
+      background: var(--bg-tertiary);
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: var(--transition);
+      font-size: 0.9rem;
+    }
+
+    .file-action:hover {
+      background: var(--primary-solid);
+      color: white;
+      transform: scale(1.1);
+    }
+
+    .file-action.download:hover { background: var(--success); }
+    .file-action.share:hover { background: var(--info); }
+    .file-action.delete:hover { background: var(--danger); }
+
+    .empty-state {
+      text-align: center;
+      padding: var(--space-xl);
+      color: var(--text-muted);
+    }
+
+    .empty-icon {
+      font-size: 4rem;
+      margin-bottom: var(--space-md);
+      opacity: 0.5;
+    }
+
+    .empty-title {
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin-bottom: var(--space-sm);
+    }
+
+    .empty-description {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: var(--space-xl);
+      gap: var(--space-md);
+    }
+
+    .spinner {
+      width: 24px;
+      height: 24px;
+      border: 2px solid var(--border);
+      border-top: 2px solid var(--primary-solid);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .status-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: var(--space-md);
+      background: var(--bg-glass);
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .status-info {
+      display: flex;
+      gap: var(--space-lg);
+    }
+
+    .status-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: var(--space-md);
+      }
+      
+      .header h1 {
+        font-size: 2rem;
+      }
+      
+      .toolbar {
+        flex-wrap: wrap;
+        gap: var(--space-sm);
+      }
+      
+      .search-container {
+        width: 100%;
+        order: 3;
+      }
+      
+      .file-item {
+        padding: var(--space-sm);
+      }
+      
+      .file-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+      }
+      
+      .file-meta {
+        flex-direction: column;
+        gap: 0.25rem;
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.05);
+      }
+    }
+
+    .file-item {
+      animation: fadeInUp 0.3s ease forwards;
+    }
+
+    .file-item:nth-child(1) { animation-delay: 0.1s; }
+    .file-item:nth-child(2) { animation-delay: 0.2s; }
+    .file-item:nth-child(3) { animation-delay: 0.3s; }
+    .file-item:nth-child(4) { animation-delay: 0.4s; }
+    .file-item:nth-child(5) { animation-delay: 0.5s; }
+
+    .context-menu {
+      position: fixed;
+      background: var(--bg-card);
+      backdrop-filter: blur(20px);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      box-shadow: var(--shadow-lg);
+      padding: 0.5rem 0;
+      min-width: 180px;
+      z-index: 1000;
+      display: none;
+    }
+
+    .context-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.75rem 1rem;
+      cursor: pointer;
+      transition: var(--transition);
+      font-size: 0.9rem;
+    }
+
+    .context-item:hover {
+      background: var(--bg-hover);
+    }
+
+    .context-separator {
+      height: 1px;
+      background: var(--border);
+      margin: 0.5rem 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+
+    <div class="file-manager">
+      <div class="toolbar">
+        <div class="nav-controls">
+          <button class="nav-btn" id="back-btn" title="Back">
+            <i class="fas fa-arrow-left"></i>
+          </button>
+          <button class="nav-btn" id="forward-btn" title="Forward">
+            <i class="fas fa-arrow-right"></i>
+          </button>
+          <button class="nav-btn" id="up-btn" title="Up">
+            <i class="fas fa-arrow-up"></i>
+          </button>
+          <button class="nav-btn" id="refresh-btn" title="Refresh">
+            <i class="fas fa-sync-alt"></i>
+          </button>
+        </div>
+
+        <div class="breadcrumb" id="breadcrumb">
+          <div class="breadcrumb-item">
+            <i class="fas fa-home"></i>
+            <span>SAPRA2</span>
+          </div>
+        </div>
+
+        <div class="toolbar-actions">
+          <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search..." id="search-input">
+            <i class="fas fa-search search-icon"></i>
+          </div>
+          <button class="action-btn" id="view-toggle" title="Toggle View">
+            <i class="fas fa-th-large"></i>
+          </button>
+          <button class="action-btn" id="sort-btn" title="Sort">
+            <i class="fas fa-sort"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="file-list" id="file-list">
+        <div class="loading">
+          <div class="spinner"></div>
+          <span>Loading...</span>
+        </div>
+      </div>
+
+      <div class="status-bar">
+        <div class="status-info">
+          <div class="status-item">
+            <i class="fas fa-folder"></i>
+            <span id="folder-count">0 folders</span>
+          </div>
+          <div class="status-item">
+            <i class="fas fa-file"></i>
+            <span id="file-count">0 files</span>
+          </div>
+          <div class="status-item">
+            <i class="fas fa-hdd"></i>
+            <span id="total-size">0 bytes</span>
+          </div>
+        </div>
+        <div class="status-item">
+          <i class="fas fa-clock"></i>
+          <span id="last-updated">Last updated: now</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="context-menu" id="context-menu">
+    <div class="context-item" data-action="download">
+      <i class="fas fa-download"></i>
+      <span>Download</span>
+    </div>
+    <div class="context-item" data-action="share">
+      <i class="fas fa-share"></i>
+      <span>Share</span>
+    </div>
+    <div class="context-separator"></div>
+    <div class="context-item" data-action="copy-link">
+      <i class="fas fa-link"></i>
+      <span>Copy Link</span>
+    </div>
+    <div class="context-item" data-action="info">
+      <i class="fas fa-info-circle"></i>
+      <span>Properties</span>
+    </div>
+  </div>
+  <script>
+    class FileManagerPro {
+      constructor() {
+        this.API_BASE = 'https://api.github.com/repos/akarimvand/SAPRA2/contents';
+        this.history = ['Resource'];
+        this.currentIndex = 0;
+        this.currentPath = 'Resource';
+        this.searchTerm = '';
+        this.sortBy = 'name';
+        this.sortOrder = 'asc';
+        this.viewMode = 'list';
+        
+        this.initElements();
+        this.bindEvents();
+        this.loadPath(this.currentPath);
+      }
+
+      initElements() {
+        this.backBtn = document.getElementById('back-btn');
+        this.forwardBtn = document.getElementById('forward-btn');
+        this.upBtn = document.getElementById('up-btn');
+        this.refreshBtn = document.getElementById('refresh-btn');
+        this.breadcrumb = document.getElementById('breadcrumb');
+        this.fileList = document.getElementById('file-list');
+        this.searchInput = document.getElementById('search-input');
+        this.viewToggle = document.getElementById('view-toggle');
+        this.sortBtn = document.getElementById('sort-btn');
+        this.contextMenu = document.getElementById('context-menu');
+        this.folderCount = document.getElementById('folder-count');
+        this.fileCount = document.getElementById('file-count');
+        this.totalSize = document.getElementById('total-size');
+        this.lastUpdated = document.getElementById('last-updated');
+      }
+
+      bindEvents() {
+        this.backBtn.addEventListener('click', () => this.goBack());
+        this.forwardBtn.addEventListener('click', () => this.goForward());
+        this.upBtn.addEventListener('click', () => this.goUp());
+        this.refreshBtn.addEventListener('click', () => this.refresh());
+        
+        this.searchInput.addEventListener('input', (e) => {
+          this.searchTerm = e.target.value.toLowerCase();
+          this.filterFiles();
+        });
+
+        this.viewToggle.addEventListener('click', () => this.toggleView());
+        this.sortBtn.addEventListener('click', () => this.toggleSort());
+
+        document.addEventListener('contextmenu', (e) => this.showContextMenu(e));
+        document.addEventListener('click', () => this.hideContextMenu());
+        document.addEventListener('keydown', (e) => this.handleKeyboard(e));
+      }
+
+      async loadPath(path) {
+        this.showLoading();
+        this.updateBreadcrumb(path);
+        this.updateNavigationButtons();
+
+        try {
+          const url = `${this.API_BASE}/${encodeURIComponent(path)}`;
+          const response = await fetch(url);
+          
+          if (!response.ok) {
+            throw new Error(`Loading error: ${response.status}`);
+          }
+
+          const items = await response.json();
+          this.renderFiles(items);
+          this.updateStats(items);
+          this.currentPath = path;
+          
+        } catch (error) {
+          console.error('Error loading path:', error);
+          this.showError(error.message);
+        }
+      }
+
+      renderFiles(items) {
+        if (!Array.isArray(items) || items.length === 0) {
+          this.showEmpty();
+          return;
+        }
+
+        const sortedItems = this.sortItems(items);
+        
+        this.fileList.innerHTML = '';
+        
+        sortedItems.forEach((item, index) => {
+          const fileElement = this.createFileElement(item, index);
+          this.fileList.appendChild(fileElement);
+        });
+
+        this.updateLastUpdated();
+      }
+
+      createFileElement(item, index) {
+        const div = document.createElement('div');
+        div.className = 'file-item';
+        div.style.animationDelay = `${index * 0.1}s`;
+        
+        const iconClass = this.getFileIcon(item);
+        const iconType = this.getFileType(item);
+        const fileSize = item.size ? this.formatFileSize(item.size) : '';
+        const fileDate = item.type === 'file' ? 'File' : 'Folder';
+
+        div.innerHTML = `
+          <div class="file-icon ${iconType}">
+            <i class="${iconClass}"></i>
+          </div>
+          <div class="file-info">
+            <div class="file-name">
+              ${item.name}
+              ${item.type === 'dir' ? '<i class="fas fa-chevron-left" style="margin-right: auto; font-size: 0.8rem; color: var(--text-muted);"></i>' : ''}
+            </div>
+            <div class="file-meta">
+              <span><i class="fas fa-tag"></i> ${fileDate}</span>
+              ${fileSize ? `<span><i class="fas fa-weight"></i> ${fileSize}</span>` : ''}
+              <span><i class="fas fa-calendar"></i> ${this.formatDate(new Date())}</span>
+            </div>
+          </div>
+          <div class="file-actions">
+            ${item.type === 'file' ? `
+              <button class="file-action download" title="Download" onclick="window.open('${item.download_url}', '_blank')">
+                <i class="fas fa-download"></i>
+              </button>
+              <button class="file-action share" title="Share">
+                <i class="fas fa-share"></i>
+              </button>
+            ` : ''}
+            <button class="file-action info" title="Properties">
+              <i class="fas fa-info-circle"></i>
+            </button>
+          </div>
+        `;
+
+        if (item.type === 'dir') {
+          div.addEventListener('click', () => this.navigateToFolder(item.path));
+        }
+
+        return div;
+      }
+
+      getFileIcon(item) {
+        if (item.type === 'dir') return 'fas fa-folder';
+        
+        const ext = item.name.split('.').pop().toLowerCase();
+        const iconMap = {
+          'pdf': 'fas fa-file-pdf',
+          'doc': 'fas fa-file-word', 'docx': 'fas fa-file-word',
+          'xls': 'fas fa-file-excel', 'xlsx': 'fas fa-file-excel',
+          'ppt': 'fas fa-file-powerpoint', 'pptx': 'fas fa-file-powerpoint',
+          'txt': 'fas fa-file-alt', 'md': 'fas fa-file-alt',
+          'jpg': 'fas fa-file-image', 'jpeg': 'fas fa-file-image',
+          'png': 'fas fa-file-image', 'gif': 'fas fa-file-image',
+          'svg': 'fas fa-file-image', 'webp': 'fas fa-file-image',
+          'mp4': 'fas fa-file-video', 'avi': 'fas fa-file-video',
+          'mov': 'fas fa-file-video', 'wmv': 'fas fa-file-video',
+          'mp3': 'fas fa-file-audio', 'wav': 'fas fa-file-audio',
+          'flac': 'fas fa-file-audio', 'aac': 'fas fa-file-audio',
+          'zip': 'fas fa-file-archive', 'rar': 'fas fa-file-archive',
+          '7z': 'fas fa-file-archive', 'tar': 'fas fa-file-archive',
+          'js': 'fas fa-file-code', 'html': 'fas fa-file-code',
+          'css': 'fas fa-file-code', 'php': 'fas fa-file-code',
+          'py': 'fas fa-file-code', 'java': 'fas fa-file-code',
+          'cpp': 'fas fa-file-code', 'c': 'fas fa-file-code'
+        };
+        
+        return iconMap[ext] || 'fas fa-file';
+      }
+
+      getFileType(item) {
+        if (item.type === 'dir') return 'folder-icon';
+        
+        const ext = item.name.split('.').pop().toLowerCase();
+        
+        if (['jpg', 'jpeg', 'png', 'gif', 'svg', 'webp'].includes(ext)) return 'image';
+        if (['mp4', 'avi', 'mov', 'wmv'].includes(ext)) return 'video';
+        if (['mp3', 'wav', 'flac', 'aac'].includes(ext)) return 'audio';
+        if (['zip', 'rar', '7z', 'tar'].includes(ext)) return 'archive';
+        if (['js', 'html', 'css', 'php', 'py', 'java', 'cpp', 'c'].includes(ext)) return 'code';
+        
+        return 'document';
+      }
+
+      navigateToFolder(path) {
+        this.history = this.history.slice(0, this.currentIndex + 1);
+        this.history.push(path);
+        this.currentIndex = this.history.length - 1;
+        
+        this.loadPath(path);
+      }
+
+      goBack() {
+        if (this.currentIndex > 0) {
+          this.currentIndex--;
+          this.loadPath(this.history[this.currentIndex]);
+        }
+      }
+
+      goForward() {
+        if (this.currentIndex < this.history.length - 1) {
+          this.currentIndex++;
+          this.loadPath(this.history[this.currentIndex]);
+        }
+      }
+
+      goUp() {
+        const pathParts = this.currentPath.split('/');
+        if (pathParts.length > 1) {
+          pathParts.pop();
+          const parentPath = pathParts.join('/') || 'Resource';
+          this.navigateToFolder(parentPath);
+        }
+      }
+
+      refresh() {
+        this.refreshBtn.style.transform = 'rotate(360deg)';
+        setTimeout(() => {
+          this.refreshBtn.style.transform = '';
+        }, 300);
+        
+        this.loadPath(this.currentPath);
+      }
+
+      updateBreadcrumb(path) {
+        const parts = path.split('/');
+        const breadcrumbItems = ['SAPRA2', ...parts];
+        
+        this.breadcrumb.innerHTML = breadcrumbItems.map((part, index) => {
+          const isLast = index === breadcrumbItems.length - 1;
+          const pathToHere = parts.slice(0, index).join('/') || 'Resource';
+          
+          return `
+            <div class="breadcrumb-item ${isLast ? 'active' : ''}" 
+                 ${!isLast ? `onclick="fileManager.navigateToFolder('${pathToHere}')"` : ''}>
+              ${index === 0 ? '<i class="fas fa-home"></i>' : ''}
+              <span>${part}</span>
+            </div>
+            ${!isLast ? '<i class="fas fa-chevron-left breadcrumb-separator"></i>' : ''}
+          `;
+        }).join('');
+      }
+
+      updateNavigationButtons() {
+        this.backBtn.disabled = this.currentIndex === 0;
+        this.forwardBtn.disabled = this.currentIndex === this.history.length - 1;
+        this.upBtn.disabled = this.currentPath === 'Resource';
+      }
+
+      sortItems(items) {
+        return items.sort((a, b) => {
+          if (a.type !== b.type) {
+            return a.type === 'dir' ? -1 : 1;
+          }
+          
+          let comparison = 0;
+          switch (this.sortBy) {
+            case 'name':
+              comparison = a.name.localeCompare(b.name);
+              break;
+            case 'size':
+              comparison = (a.size || 0) - (b.size || 0);
+              break;
+            case 'date':
+              comparison = new Date(a.updated_at || 0) - new Date(b.updated_at || 0);
+              break;
+          }
+          
+          return this.sortOrder === 'asc' ? comparison : -comparison;
+        });
+      }
+
+      filterFiles() {
+        const items = this.fileList.querySelectorAll('.file-item');
+        items.forEach(item => {
+          const name = item.querySelector('.file-name').textContent.toLowerCase();
+          const matches = name.includes(this.searchTerm);
+          item.style.display = matches ? 'flex' : 'none';
+        });
+      }
+
+      toggleSort() {
+        const sortOptions = ['name', 'size', 'date'];
+        const currentIndex = sortOptions.indexOf(this.sortBy);
+        
+        if (currentIndex === sortOptions.length - 1) {
+          this.sortBy = sortOptions[0];
+          this.sortOrder = this.sortOrder === 'asc' ? 'desc' : 'asc';
+        } else {
+          this.sortBy = sortOptions[currentIndex + 1];
+        }
+        
+        this.loadPath(this.currentPath);
+      }
+
+      toggleView() {
+        this.viewMode = this.viewMode === 'list' ? 'grid' : 'list';
+        this.viewToggle.innerHTML = this.viewMode === 'list' 
+          ? '<i class="fas fa-th"></i>' 
+          : '<i class="fas fa-th-large"></i>';
+      }
+
+      showContextMenu(e) {
+        if (e.target.closest('.file-item')) {
+          e.preventDefault();
+          this.contextMenu.style.display = 'block';
+          this.contextMenu.style.left = e.pageX + 'px';
+          this.contextMenu.style.top = e.pageY + 'px';
+        }
+      }
+
+      hideContextMenu() {
+        this.contextMenu.style.display = 'none';
+      }
+
+      handleKeyboard(e) {
+        switch (e.key) {
+          case 'F5':
+            e.preventDefault();
+            this.refresh();
+            break;
+          case 'Backspace':
+            if (e.target.tagName !== 'INPUT') {
+              e.preventDefault();
+              this.goBack();
+            }
+            break;
+          case 'ArrowUp':
+            if (e.altKey) {
+              e.preventDefault();
+              this.goUp();
+            }
+            break;
+        }
+      }
+
+      updateStats(items) {
+        const folders = items.filter(item => item.type === 'dir').length;
+        const files = items.filter(item => item.type === 'file').length;
+        const totalSize = items.reduce((sum, item) => sum + (item.size || 0), 0);
+        
+        this.folderCount.textContent = `${folders} folders`;
+        this.fileCount.textContent = `${files} files`;
+        this.totalSize.textContent = this.formatFileSize(totalSize);
+      }
+
+      updateLastUpdated() {
+        const now = new Date();
+        this.lastUpdated.textContent = `Last updated: ${this.formatTime(now)}`;
+      }
+
+      formatFileSize(bytes) {
+        if (bytes === 0) return '0 bytes';
+        const k = 1024;
+        const sizes = ['bytes', 'KB', 'MB', 'GB'];
+        const i = Math.floor(Math.log(bytes) / Math.log(k));
+        return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+      }
+
+      formatDate(date) {
+        return new Intl.DateTimeFormat('fa-IR').format(date);
+      }
+
+      formatTime(date) {
+        return new Intl.DateTimeFormat('fa-IR', {
+          hour: '2-digit',
+          minute: '2-digit'
+        }).format(date);
+      }
+
+      showLoading() {
+        this.fileList.innerHTML = `
+          <div class="loading">
+            <div class="spinner"></div>
+            <span>Loading...</span>
+          </div>
+        `;
+      }
+
+      showEmpty() {
+        this.fileList.innerHTML = `
+          <div class="empty-state">
+            <div class="empty-icon">
+              <i class="fas fa-folder-open"></i>
+            </div>
+            <div class="empty-title">Folder is empty</div>
+            <div class="empty-description">No files or folders found in this location.</div>
+          </div>
+        `;
+      }
+
+      showError(message) {
+        this.fileList.innerHTML = `
+          <div class="empty-state">
+            <div class="empty-icon" style="color: var(--danger);">
+              <i class="fas fa-exclamation-triangle"></i>
+            </div>
+            <div class="empty-title">Loading Error</div>
+            <div class="empty-description">${message}</div>
+          </div>
+        `;
+      }
+    }
+
+    let fileManager;
+    document.addEventListener('DOMContentLoaded', () => {
+      fileManager = new FileManagerPro();
+    });
+  </script>
+</body>
+</html>

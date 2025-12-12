@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About SAPRA System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1877F2;
+            --primary-hover: #166FE5;
+            --success-color: #28a745;
+            --info-color: #fc5f3f;
+            --warning-color: #ffc107;
+            --danger-color: #dc3545;
+            --background-color: #f5f7fa;
+            --card-background-color: #ffffff;
+            --text-color: #212529;
+            --text-muted-color: #6c757d;
+            --shadow-sm: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+            --shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+            --transition-base: all 0.3s ease-in-out;
+            --border-radius: 0.5rem;
+            --font-family-sans-serif: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+        
+        * {
+            font-family: var(--font-family-sans-serif);
+        }
+        
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            padding: 1.5rem 0;
+        }
+        
+        .lang-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        
+        .lang-btn {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            margin: 0 0.25rem;
+            transition: var(--transition-base);
+            font-size: 0.85rem;
+        }
+        
+        .lang-btn.active {
+            background: var(--primary-hover);
+            box-shadow: 0 2px 8px rgba(24,119,242,0.3);
+        }
+        
+        .lang-btn:hover {
+            background: var(--primary-hover);
+            transform: translateY(-1px);
+        }
+        
+        .content-card {
+            background: var(--card-background-color);
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: var(--shadow-sm);
+            border: none;
+            transition: var(--transition-base);
+        }
+        
+        .content-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+        }
+        
+        .section-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 2rem;
+            color: var(--text-color);
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: '';
+            width: 60px;
+            height: 3px;
+            background-color: var(--primary-color);
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 2px;
+        }
+        
+        .highlight-box {
+            background: rgba(24, 119, 242, 0.1);
+            border: 1px solid rgba(24, 119, 242, 0.2);
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+        }
+        
+        .warning-box {
+            background: rgba(220, 53, 69, 0.1);
+            border: 1px solid rgba(220, 53, 69, 0.2);
+            border-left: 4px solid var(--danger-color);
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1.5rem 0;
+        }
+        
+        .lang-content {
+            display: none;
+        }
+        
+        .lang-content.active {
+            display: block;
+        }
+        
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            margin: 1rem 0;
+        }
+        
+        .feature-list li {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+            padding: 0.5rem;
+            background: rgba(40, 167, 69, 0.05);
+            border-radius: 6px;
+            transition: var(--transition-base);
+        }
+        
+        .feature-list li:hover {
+            background: rgba(40, 167, 69, 0.1);
+            transform: translateX(4px);
+        }
+        
+        .feature-list i {
+            margin-right: 0.75rem;
+            margin-top: 0.1rem;
+            flex-shrink: 0;
+        }
+        
+        .contact-info {
+            text-align: center;
+            padding: 1.5rem;
+            background: rgba(108, 117, 125, 0.1);
+            border-radius: 8px;
+            margin-top: 2rem;
+            border-top: 3px solid var(--primary-color);
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .animate-in {
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+    </style>
+</head>
+<body>
+    <div class="lang-toggle">
+        <button class="lang-btn active" onclick="switchLang('en')">English</button>
+        <button class="lang-btn" onclick="switchLang('fa')">فارسی</button>
+    </div>
+
+    <div class="container">
+        <!-- English Content -->
+        <div id="en-content" class="lang-content active">
+            <div class="content-card animate-in">
+                <h1 class="section-title">About SAPRA System</h1>
+                
+                <div class="highlight-box">
+                    <i class="bi bi-building text-primary fs-4"></i>
+                    <div>
+                        <h5 class="fw-bold text-primary mb-1">SAPRA System: Document-Based Project Control</h5>
+                        <p class="mb-0 small text-muted">
+                            Integration and formal control of <strong>project information and documents</strong> based on international standards.
+                        </p>
+                    </div>
+                </div>
+
+                <p>
+                    The SAPRA system is designed to <strong>integrate and formally control project information and documents</strong>. It operates based on internal project management guidelines and Quality Control (QC) standards to ensure all project documents and reports are complete, traceable, and compliant with technical requirements.
+                </p>
+
+                <p>
+                    In this approach, <strong>progress for each activity is only calculated and displayed in the system once all related documents — including QC forms, final reports, and HOS documentation — are fully prepared, reviewed, and formally approved by authorized personnel</strong>. In other words, progress is measured by the <strong>number and approval status of mandatory documents for each work item</strong>, not merely by physical execution on-site.
+                </p>
+
+                <div class="warning-box">
+                    <div class="d-flex align-items-start gap-3">
+                        <i class="bi bi-exclamation-triangle text-danger fs-5 mt-1"></i>
+                        <div>
+                            <h6 class="fw-bold text-danger mb-1">Key Point:</h6>
+                            <p class="text-danger mb-0 small">
+                                This method of progress calculation is <strong>fundamentally different</strong> from the <strong>Weighted Progress</strong> used in other systems and is <strong>not comparable</strong>. SAPRA reports progress based on the <strong>completion and formal approval of project documents</strong>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <p>
+                    This approach aligns with the principles of <strong>ISO 19650</strong> (the international standard for information management in construction projects) and the <strong>PMBoK Guide</strong>. These standards emphasize that project progress is only reliable when based on approved, traceable documentation.
+                </p>
+
+                <p>
+                    Adhering to this principle delivers shared benefits for <strong>all project stakeholders</strong> — including the client, contractor, and supervisory teams:
+                </p>
+
+                <ul class="feature-list">
+                    <li><i class="bi bi-check-circle text-success"></i>Provides <strong>full transparency</strong> into the execution status of each activity based on verified documentation.</li>
+                    <li><i class="bi bi-check-circle text-success"></i>Ensures <strong>precise traceability</strong> for every report at any level of project detail.</li>
+                    <li><i class="bi bi-check-circle text-success"></i>Builds <strong>mutual trust</strong> grounded in documented and approved data.</li>
+                    <li><i class="bi bi-check-circle text-success"></i>Enables <strong>integrated, auditable reporting</strong> for strategic decision-making.</li>
+                </ul>
+
+                <p>
+                    Therefore, this approach is not a limitation, but rather the <strong>practical implementation of global project management standards</strong> to achieve <strong>quality, transparency, and effective collaboration</strong>.
+                </p>
+
+                <p>
+                    If real-time progress tracking or data collection from execution teams is needed before formal documentation is complete, such processes fall <strong>outside SAPRA's reporting framework</strong> and must be handled through <strong>direct coordination with relevant teams</strong>.
+                </p>
+
+                <div class="contact-info">
+                    <h6 class="fw-bold text-primary mb-2">Developer Information</h6>
+                    <p class="mb-1"><strong>Amin Naseri Karimvand</strong></p>
+                    <p class="mb-1"><i class="bi bi-envelope me-2"></i>akarimvand@gmail.com</p>
+                    <p class="mb-0"><i class="bi bi-telephone me-2"></i>+98 990 058 7168</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Persian Content -->
+        <div id="fa-content" class="lang-content" dir="rtl">
+            <div class="content-card animate-in">
+                <h1 class="section-title">درباره سامانه SAPRA</h1>
+                
+                <div class="highlight-box">
+                    <i class="bi bi-building text-primary fs-4"></i>
+                    <div>
+                        <h5 class="fw-bold text-primary mb-1">سامانه SAPRA: کنترل مبتنی بر اسناد پروژه</h5>
+                        <p class="mb-0 small text-muted">
+                            یکپارچهسازی و کنترل رسمی <strong>اطلاعات و اسناد پروژه</strong> بر اساس استانداردهای بینالمللی
+                        </p>
+                    </div>
+                </div>
+
+                <p>
+                    سامانه SAPRA با هدف <strong>یکپارچهسازی و کنترل رسمی اطلاعات و اسناد پروژه</strong> طراحی شده است. این سیستم بر اساس دستورالعملهای داخلی مدیریت پروژه و استانداردهای کنترل کیفیت (QC) عمل میکند تا اطمینان حاصل شود که تمام اسناد و گزارشهای پروژه، بهصورت کامل، قابل ردیابی و مطابق با الزامات فنی باشند.
+                </p>
+
+                <p>
+                    در این رویکرد، <strong>پیشرفت هر فعالیت تنها زمانی در سامانه محاسبه و نمایش داده میشود که تمام اسناد مرتبط با آن — از جمله فرمهای QC، گزارشهای نهایی و مدارک HOS — بهطور کامل تهیه، بررسی و توسط ذیصلاح تأیید نهایی شده باشند</strong>. به عبارت دیگر، ملاک پیشرفت، <strong>تعداد و وضعیت تأیید اسناد الزامی هر آیتم کاری</strong> است، نه صرفاً انجام فیزیکی فعالیت در محل.
+                </p>
+
+                <div class="warning-box">
+                    <div class="d-flex align-items-start gap-3">
+                        <i class="bi bi-exclamation-triangle text-danger fs-5 mt-1"></i>
+                        <div>
+                            <h6 class="fw-bold text-danger mb-1">نکته کلیدی:</h6>
+                            <p class="text-danger mb-0 small">
+                                این روش محاسبه پیشرفت <strong>اساساً متفاوت</strong> از <strong>پیشرفت وزنی</strong> مورد استفاده در سایر سیستمها است و <strong>قابل مقایسه نیست</strong>. SAPRA پیشرفت را بر اساس <strong>تکمیل و تأیید رسمی اسناد پروژه</strong> گزارش میدهد.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <p>
+                    این رویکرد با اصول <strong>ISO 19650</strong> (استاندارد بینالمللی مدیریت اطلاعات در پروژههای ساختمانی) و <strong>راهنمای PMBoK</strong> همسو است. این استانداردها تأکید میکنند که پیشرفت پروژه تنها زمانی قابل اعتماد است که بر اساس مستندات تأیید شده و قابل ردیابی باشد.
+                </p>
+
+                <p>
+                    پایبندی به این اصل مزایای مشترکی برای <strong>تمام ذینفعان پروژه</strong> — از جمله کارفرما، پیمانکار و تیمهای نظارتی — به همراه دارد:
+                </p>
+
+                <ul class="feature-list">
+                    <li><i class="bi bi-check-circle text-success"></i><strong>شفافیت کامل</strong> در وضعیت اجرای هر فعالیت بر اساس مستندات تأیید شده.</li>
+                    <li><i class="bi bi-check-circle text-success"></i>تضمین <strong>ردیابی دقیق</strong> برای هر گزارش در هر سطح از جزئیات پروژه.</li>
+                    <li><i class="bi bi-check-circle text-success"></i>ایجاد <strong>اعتماد متقابل</strong> مبتنی بر دادههای مستند و تأیید شده.</li>
+                    <li><i class="bi bi-check-circle text-success"></i>امکان <strong>گزارشگیری یکپارچه و قابل ممیزی</strong> برای تصمیمگیریهای استراتژیک.</li>
+                </ul>
+
+                <p>
+                    بنابراین، این رویکرد نه یک محدودیت، بلکه <strong>پیادهسازی عملی استانداردهای جهانی مدیریت پروژه</strong> برای دستیابی به <strong>کیفیت، شفافیت و همکاری مؤثر</strong> است.
+                </p>
+
+                <p>
+                    اگر نیاز به ردیابی پیشرفت لحظهای یا جمعآوری دادهها از تیمهای اجرایی قبل از تکمیل مستندات رسمی وجود دارد، چنین فرآیندهایی <strong>خارج از چارچوب گزارشگیری SAPRA</strong> قرار میگیرند و باید از طریق <strong>هماهنگی مستقیم با تیمهای مربوطه</strong> انجام شوند.
+                </p>
+
+                <div class="contact-info">
+                    <h6 class="fw-bold text-primary mb-2">اطلاعات توسعه‌دهنده</h6>
+                    <p class="mb-1"><strong>امین ناصری کریموند</strong></p>
+                    <p class="mb-1"><i class="bi bi-envelope me-2"></i>akarimvand@gmail.com</p>
+                    <p class="mb-0"><i class="bi bi-telephone me-2"></i>+98 990 058 7168</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function switchLang(lang) {
+            // Hide all content
+            document.querySelectorAll('.lang-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            
+            // Show selected language content
+            document.getElementById(lang + '-content').classList.add('active');
+            
+            // Update button states
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            // Update document direction
+            if (lang === 'fa') {
+                document.documentElement.setAttribute('dir', 'rtl');
+            } else {
+                document.documentElement.setAttribute('dir', 'ltr');
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const animateElements = document.querySelectorAll('.animate-in');
+            animateElements.forEach((el, index) => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                
+                setTimeout(() => {
+                    el.style.transition = 'all 0.6s ease-out';
+                    el.style.opacity = '1';
+                    el.style.transform = 'translateY(0)';
+                }, 200);
+            });
+        });
+    </script>
+</body>
+</html>
