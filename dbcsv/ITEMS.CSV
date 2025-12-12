@@ -6260,31 +6260,31 @@ CVL-01,CV,CV-TRENCH,TRENCH,TRENCH,0%
 CVL-01,CV,CV-UG PIT'S,UG PIT'S,UG PIT'S,0%
 1000-01,MES,D-1001,Drum(D),Natural gas K.O. drum,Done
 2000-04,MES,D-2001,Drum(D),HHP Steam Drum,72%
-2000-05,MES,D-2002,Drum(D),1 st Separator,94%
-2000-05,MES,D-2003,Drum(D),2nd Separator,94%
-2000-05,MES,D-2004,Drum(D),3rd Separator,94%
+2000-05,MES,D-2002,Drum(D),1 st Separator,Done
+2000-05,MES,D-2003,Drum(D),2nd Separator,Done
+2000-05,MES,D-2004,Drum(D),3rd Separator,Done
 2000-05,MES,D-2005,Drum(D),Final Separator,Done
-4000-04,MES,D-2011,Drum(D),Steam Cond. K.O. Drum for E 2008,94%
-3000-04,MES,D-2022-1,Drum(D),DRUM,94%
-3000-04,MES,D-2022-2,Drum(D),DRUM,94%
+4000-04,MES,D-2011,Drum(D),Steam Cond. K.O. Drum for E 2008,Done
+3000-04,MES,D-2022-1,Drum(D),DRUM,Done
+3000-04,MES,D-2022-2,Drum(D),DRUM,Done
 3000-03,MES,D-3001,Drum(D),HP Separator,Done
-3000-03,MES,D-3002,Drum(D),LP Separator,94%
-3000-02,MES,D-3003,Drum(D),MP Steam Drum,72%
+3000-03,MES,D-3002,Drum(D),LP Separator,Done
+3000-02,MES,D-3003,Drum(D),MP Steam Drum,78%
 5000-01,MES,D-3004,Drum(D),Slops Methanol Drum,Done
 3000-01,MES,D-3010,Drum(D),Seprator Vessle,83%
-5000-01,MES,D-5001,Drum(D),Stabilizer Column OH Accumulator,94%
-5000-02,MES,D-5002,Drum(D),LP Column OH Accumulator,94%
-5000-03,MES,D-5003,Drum(D),MP Column OH Accumulator,89%
+5000-01,MES,D-5001,Drum(D),Stabilizer Column OH Accumulator,Done
+5000-02,MES,D-5002,Drum(D),LP Column OH Accumulator,Done
+5000-03,MES,D-5003,Drum(D),MP Column OH Accumulator,94%
 5000-01,MES,D-5009,Drum(D),Steam Condensate KO Drum for E5001,Done
 1000-03,MES,D-6001,Drum(D),Feed Gas Separator,Done
-1000-03,MES,D-6002,Drum(D),Saturator Blow Down Drum,94%
+1000-03,MES,D-6002,Drum(D),Saturator Blow Down Drum,Done
 4000-04,MES,D-7001,Drum(D),Thermal Deaerator,DONE
-4000-05,MES,D-7002,Drum(D),Continuous Blow-down Drum,94%
-4000-05,MES,D-7003,Drum(D),Intermediate Blow Down Drum No.1,94%
-4000-05,MES,D-7004,Drum(D),Intermediate Blow Down Drum No.2,72%
-7000-01,MES,D-7101,Drum(D),Knock Out Drum,94%
-4000-06,MES,D-7501,Drum(D),CAUSTIC STORAGE DRUM,94%
-4000-06,MES,D-7502,Drum(D),SULFURIC ACID DRUM,78%
+4000-05,MES,D-7002,Drum(D),Continuous Blow-down Drum,Done
+4000-05,MES,D-7003,Drum(D),Intermediate Blow Down Drum No.1,Done
+4000-05,MES,D-7004,Drum(D),Intermediate Blow Down Drum No.2,78%
+7000-01,MES,D-7101,Drum(D),Knock Out Drum,Done
+4000-06,MES,D-7501,Drum(D),CAUSTIC STORAGE DRUM,Done
+4000-06,MES,D-7502,Drum(D),SULFURIC ACID DRUM,83%
 1000-02,PI,DE-RF-FG-001,PI_TP,PIPING TEST PACKAGE,DONE
 1000-02,PI,DE-RF-FG-002,PI_TP,PIPING TEST PACKAGE,DONE
 1000-02,PI,DE-RF-FG-003,PI_TP,PIPING TEST PACKAGE,DONE
@@ -6948,9 +6948,9 @@ DCS-01,IN,E1-ALM-05,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,E1-ALM-06,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,E2_ALM_03,CABLE,CABLE(NA),Done
 DCS-01,IN,E2_ALM_04,CABLE,CABLE(NA),Done
-2000-02,MES,E-2001,Exchanger(E),Reformer Feed Preheat Coil,53%
+2000-02,MES,E-2001,Exchanger(E),Reformer Feed Preheat Coil,59%
 ES-09,EL,E20-01,Earthing System,CRIMPED EARTH CONNECTION 16 TO 70mm2,0%
-2000-02,MES,E-2002,Exchanger(E),Prereformer Feed Preheat Coil,53%
+2000-02,MES,E-2002,Exchanger(E),Prereformer Feed Preheat Coil,59%
 ES-09,EL,E20-02,Earthing System,CRIMPED EARTH CONNECTION 16 TO 70mm2,0%
 ES-09,EL,E20-03,Earthing System,CRIMPED EARTH CONNECTION 16 TO 70mm2,0%
 2000-02,MES,E-2004,Exchanger(E),2 nd Natural Gas Feed Preheat Coil,53%
@@ -11668,15 +11668,15 @@ TEL-09,EL,ECR-CR-MCS-01-1,Comminucation Cable,Master Call Station Media Converte
 TEL-09,EL,ECR-CR-MCS-01-2,Comminucation Cable,Paging Master Call Station (in Control Room)- CR-MCS-01,0%
 TEL-09,EL,ECR-CR-MTJB1,Comminucation Cable,Main Telephone Terminal Box (in Control Bldg. Auxilary Room)- CR-MTJB1,0%
 TEL-09,EL,ECR-CR-PJB1,Comminucation Cable,Control Room Paging Junction Box- CR-PJB1,0%
-TEL-09,EL,ECR-CR-SP-01,COMMINUCATION CABLE,Loud Speaker Celling Mounted- 6W,0%
-TEL-09,EL,ECR-CR-SP-02,COMMINUCATION CABLE,Loud Speaker Celling Mounted- 6W,0%
-TEL-09,EL,ECR-CR-SP-03,COMMINUCATION CABLE,Loud Speaker Celling Mounted- 6W,0%
-TEL-09,EL,ECR-CR-SP-04,COMMINUCATION CABLE,Loud Speaker Celling Mounted- 6W,0%
-TEL-09,EL,ECR-CR-SP-05,COMMINUCATION CABLE,Loud Speaker Celling Mounted- 6W,0%
-TEL-09,EL,ECR-CR-SP-06,COMMINUCATION CABLE,Loud Speaker Celling Mounted- 6W,0%
-TEL-09,EL,ECR-CR-SP-07,COMMINUCATION CABLE,Loud Speaker Celling Mounted- 6W,0%
-TEL-09,EL,ECR-CR-SP-08,COMMINUCATION CABLE,Loud Speaker Celling Mounted- 6W,0%
-TEL-09,EL,ECR-CR-SP-09,COMMINUCATION CABLE,Loud Speaker Celling Mounted- 6W,0%
+TEL-09,EL,ECR-CR-SP-01,COMMINUCATION CABLE,Loud Speaker Celling Mounted- 6W,Done
+TEL-09,EL,ECR-CR-SP-02,COMMINUCATION CABLE,Loud Speaker Celling Mounted- 6W,Done
+TEL-09,EL,ECR-CR-SP-03,COMMINUCATION CABLE,Loud Speaker Celling Mounted- 6W,Done
+TEL-09,EL,ECR-CR-SP-04,COMMINUCATION CABLE,Loud Speaker Celling Mounted- 6W,Done
+TEL-09,EL,ECR-CR-SP-05,COMMINUCATION CABLE,Loud Speaker Celling Mounted- 6W,Done
+TEL-09,EL,ECR-CR-SP-06,COMMINUCATION CABLE,Loud Speaker Celling Mounted- 6W,Done
+TEL-09,EL,ECR-CR-SP-07,COMMINUCATION CABLE,Loud Speaker Celling Mounted- 6W,Done
+TEL-09,EL,ECR-CR-SP-08,COMMINUCATION CABLE,Loud Speaker Celling Mounted- 6W,Done
+TEL-09,EL,ECR-CR-SP-09,COMMINUCATION CABLE,Loud Speaker Celling Mounted- 6W,Done
 TEL-09,EL,ECR-CR-TEL-01,Comminucation Cable,Control Building (UPS Room) Telephone Set- CR-TEL-01,0%
 TEL-09,EL,ECR-CR-TEL-02,Comminucation Cable,Control Building (Battery Room) Telephone Set- CR-TEL-02,0%
 TEL-09,EL,ECR-CR-TEL-03,Comminucation Cable,Control Building (HVAC Room) Telephone Set- CR-TEL-03,0%
@@ -13882,12 +13882,12 @@ BLD-02,BD,Initial Architecture(BLD-02),04-Initial Architecture,Basic partitions 
 BLD-07,BD,Initial Architecture(BLD-07),04-Initial Architecture,Initial Architecture(BLD-07),75%
 BLD-01,BD,Initial Architecture(First Floor BLD-01),04-Initial Architecture-2,Initial Architecture(First Floor BLD-01),Done
 BLD-03,BD,Initial Architecture(First Floor BLD-03),04-Initial Architecture-2,Initial Architecture(First Floor BLD-03),0%
-BLD-04,BD,Initial Architecture(First Floor BLD-04),04-Initial Architecture-2,Initial Architecture(First Floor BLD-04),0%
+BLD-04,BD,Initial Architecture(First Floor BLD-04),04-Initial Architecture-2,Initial Architecture(First Floor BLD-04),50%
 BLD-05,BD,Initial Architecture(First Floor BLD-05),04-Initial Architecture-2,Initial Architecture(First Floor BLD-05),0%
 BLD-06,BD,Initial Architecture(First Floor BLD-06),04-Initial Architecture-2,Initial Architecture(First Floor BLD-06),Done
 BLD-01,BD,Initial Architecture(Ground Floor BLD-01),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-01),Done
 BLD-03,BD,Initial Architecture(Ground Floor BLD-03),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-03),0%
-BLD-04,BD,Initial Architecture(Ground Floor BLD-04),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-04),0%
+BLD-04,BD,Initial Architecture(Ground Floor BLD-04),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-04),50%
 BLD-05,BD,Initial Architecture(Ground Floor BLD-05),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-05),0%
 BLD-06,BD,Initial Architecture(Ground Floor BLD-06),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-06),Done
 2000-02,MES,INLET MANIFOLD,Inlet_Manifold,MANIFOLD,71%
@@ -15685,12 +15685,12 @@ BLD-02,BD,Mechanical Work(BLD-02),05-Mechanical Work,HVAC and piping systems ins
 BLD-07,BD,Mechanical Work(BLD-07),05-Mechanical Work,Mechanical Work(BLD-07),Done
 BLD-01,BD,Mechanical Work(First Floor BLD-01),05-Mechanical Work,Mechanical Work(First Floor BLD-01),Done
 BLD-03,BD,Mechanical Work(First Floor BLD-03),05-Mechanical Work,Mechanical Work(First Floor BLD-03),0%
-BLD-04,BD,Mechanical Work(First Floor BLD-04),05-Mechanical Work,Mechanical Work(First Floor BLD-04),0%
+BLD-04,BD,Mechanical Work(First Floor BLD-04),05-Mechanical Work,Mechanical Work(First Floor BLD-04),67%
 BLD-05,BD,Mechanical Work(First Floor BLD-05),05-Mechanical Work,Mechanical Work(First Floor BLD-05),0%
 BLD-06,BD,Mechanical Work(First Floor BLD-06),05-Mechanical Work,Mechanical Work(First Floor BLD-06),33%
 BLD-01,BD,Mechanical Work(Ground Floor BLD-01),05-Mechanical Work,Mechanical Work(Ground Floor BLD-01),Done
 BLD-03,BD,Mechanical Work(Ground Floor BLD-03),05-Mechanical Work,Mechanical Work(Ground Floor BLD-03),0%
-BLD-04,BD,Mechanical Work(Ground Floor BLD-04),05-Mechanical Work,Mechanical Work(Ground Floor BLD-04),0%
+BLD-04,BD,Mechanical Work(Ground Floor BLD-04),05-Mechanical Work,Mechanical Work(Ground Floor BLD-04),Done
 BLD-05,BD,Mechanical Work(Ground Floor BLD-05),05-Mechanical Work,Mechanical Work(Ground Floor BLD-05),0%
 BLD-06,BD,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Work(Ground Floor BLD-06),Done
 120-01,EL,MF-2001,Local_Control_Panel,Local Control Panel (Ammeter)- MF-2001-LCP,Done
