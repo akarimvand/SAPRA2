@@ -3902,7 +3902,7 @@ TEL-07,EL,07-SP-15,Paging Device,Loud Speaker - 25W|EX,Done
 2000-03,PI,2000-03-HPC-01-989,PI_TP,PIPING TEST PACKAGE,DONE
 2000-03,PI,2000-03-HPC-02-996,PI_TP,PIPING TEST PACKAGE,DONE
 2000-03,PI,2000-03-HPC-03-997,PI_TP,PIPING TEST PACKAGE,DONE
-2000-03,PI,2000-03-HPC-04-1000,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
+2000-03,PI,2000-03-HPC-04-1000,PI_TP,PIPING TEST PACKAGE,FL/DRY
 2000-03,PI,2000-03-HPC-05-1001,PI_TP,PIPING TEST PACKAGE,DONE
 2000-03,PI,2000-03-HPC-06-1141,PI_TP,PIPING TEST PACKAGE,HYDROTEST
 2000-03,PI,2000-03-HPS-01-1143,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4226,7 +4226,6 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-04,PI,4000-04-LO-10-1019,PI_TP,PIPING TEST PACKAGE,DONE
 4000-04,PI,4000-04-LO-11-1020,PI_TP,PIPING TEST PACKAGE,DONE
 4000-04,PI,4000-04-LO-12-1021,PI_TP,PIPING TEST PACKAGE,DONE
-4000-04,PI,4000-04-LO-13-1142,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-04,PI,4000-04-LO-13-1147,PI_TP,PIPING TEST PACKAGE,DONE
 4000-04,PI,4000-04-LPC-01-131,PI_TP,PIPING TEST PACKAGE,DONE
 4000-04,PI,4000-04-LPS-01-462,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4641,7 +4640,6 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-11,PI,4000-11-IA-13-1146,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
 4000-11,PI,4000-11-VA-01-570,PI_TP,PIPING TEST PACKAGE,DONE
 4000-12,PI,4000-12-WW-01-1088,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
-4000-12,PI,4000-12-WW-06-1088,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-12,PI,4000-12-WWC-01-1061,PI_TP,PIPING TEST PACKAGE,DONE
 4000-12,PI,4000-12-WWC-02-1066,PI_TP,PIPING TEST PACKAGE,DONE
 4000-12,PI,4000-12-WWC-03-1072,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4967,7 +4965,6 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-15,PI,57-PW-036,PI_TP,PIPING TEST PACKAGE,DONE
 4000-15,PI,57-PW-042,PI_TP,PIPING TEST PACKAGE,DONE
 4000-15,PI,57-SRW-UG-KC-240,PI_TP,PIPING TEST PACKAGE,DONE
-4000-12,PI,57-WWC-UG-KC-286,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-09,PI,57-WWO-027,PI_TP,PIPING TEST PACKAGE,DONE
 4000-09,PI,57-WWO-028,PI_TP,PIPING TEST PACKAGE,DONE
 4000-09,PI,57-WWO-030,PI_TP,PIPING TEST PACKAGE,DONE
@@ -5905,7 +5902,7 @@ LS-11,EL,AWLP3(LS-11),PANEL(EL),Aircraft Warning Light Control Panel,0%
 120-13,EL,BD-VB-7006_1,Cathodic Protection,Valve Box Cable Size :1x16mm2,DONE
 120-13,EL,BD-VB-7006_2,Cathodic Protection,Valve Box Cable Size :1x16mm2,DONE
 BLD-02,BD,Beams & Slab(BLD-02),03-Beams & Slab,Beam and slab installation,0%
-BLD-07,BD,Beams & Slab(BLD-07),03-Beams & Slab,Beams & Slab,0%
+BLD-07,BD,Beams & Slab(BLD-07),03-Beams & Slab,Beams & Slab,Done
 BLD-01,BD,Beams & Slab(First Floor BLD-01),03-Beams & Slab,Beams & Slab(First Floor BLD-01),Done
 BLD-03,BD,Beams & Slab(First Floor BLD-03),03-Beams & Slab,Beams & Slab(First Floor BLD-03),0%
 BLD-04,BD,Beams & Slab(First Floor BLD-04),03-Beams & Slab,Beams & Slab(First Floor BLD-04),0%
@@ -5928,7 +5925,7 @@ BLD-02,PI,BLD-02-IG55-01-986,PI_TP,PIPING TEST PACKAGE,DONE
 3000-04,MER,C-2002,Compressor,Hydrogen recycle compressor,86%
 3000-01,MER,C-3001,Compressor(B),Synthesis compressor,77%
 BLD-02,BD,Column & Walls(BLD-02),02-Column & Walls,Structural columns and wall building,0%
-BLD-07,BD,Column & Walls(BLD-07),02-Column & Walls,Column & Walls,0%
+BLD-07,BD,Column & Walls(BLD-07),02-Column & Walls,Column & Walls,Done
 BLD-01,BD,Column & Walls(First Floor BLD-01),02-Column & Walls,Column & Walls(First Floor BLD-01),Done
 BLD-03,BD,Column & Walls(First Floor BLD-03),02-Column & Walls,Column & Walls(First Floor BLD-03),0%
 BLD-04,BD,Column & Walls(First Floor BLD-04),02-Column & Walls,Column & Walls(First Floor BLD-04),0%
@@ -12623,24 +12620,24 @@ FGS-10,IN,FGD-0057,Fire Alarm,Fire Alarm(FGD),0%
 4000-06,MES,FI-8001C,Filter(X),Side Strem Sand Filters A,DONE
 4000-06,IN,FI-8401,Instrument(FI),Instrument(FI),50%
 4000-06,IN,FI-8402,Instrument(FI),Instrument(FI),50%
-BLD-07,BD,Final Architecture(EX),07-Final Architecture(External),The final Architecture(External works of Building BLD-07),0%
+BLD-07,BD,Final Architecture(EX),07-Final Architecture(External),The final Architecture(External works of Building BLD-07),Done
 BLD-01,BD,final Architecture(External works BLD-01),07-Final Architecture(External),The final Architecture(External works of Building BLD-01),Done
 BLD-03,BD,final Architecture(External works BLD-03),07-Final Architecture(External),The final Architecture(External works of Building BLD-03),0%
-BLD-04,BD,final Architecture(External works BLD-04),07-Final Architecture(External),The final Architecture(External works of Building BLD-04),0%
+BLD-04,BD,final Architecture(External works BLD-04),07-Final Architecture(External),The final Architecture(External works of Building BLD-04),17%
 BLD-05,BD,final Architecture(External works BLD-05),07-Final Architecture(External),The final Architecture(External works of Building BLD-05),0%
 BLD-06,BD,final Architecture(External works BLD-06),07-Final Architecture(External),The final Architecture(External works of Building BLD-06),Done
 BLD-02,BD,Final Architecture(External),07-Final Architecture(External),Final finishes like Brick Facing  and Walkway,0%
 BLD-01,BD,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),The final Architecture(First Floor BLD-01),Done
 BLD-03,BD,final Architecture(First Floor BLD-03),06-Final Architecture(Internal),The final Architecture(First Floor BLD-03),0%
-BLD-04,BD,final Architecture(First Floor BLD-04),06-Final Architecture(Internal),The final Architecture(First Floor BLD-04),0%
+BLD-04,BD,final Architecture(First Floor BLD-04),06-Final Architecture(Internal),The final Architecture(First Floor BLD-04),50%
 BLD-05,BD,final Architecture(First Floor BLD-05),06-Final Architecture(Internal),The final Architecture(First Floor BLD-05),0%
 BLD-06,BD,final Architecture(First Floor BLD-06),06-Final Architecture(Internal),The final Architecture(First Floor BLD-06),62%
 BLD-01,BD,final Architecture(Grouand Floor BLD-01),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-01),Done
 BLD-03,BD,final Architecture(Grouand Floor BLD-03),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-03),0%
-BLD-04,BD,final Architecture(Grouand Floor BLD-04),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-04),0%
+BLD-04,BD,final Architecture(Grouand Floor BLD-04),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-04),25%
 BLD-05,BD,final Architecture(Grouand Floor BLD-05),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-05),0%
 BLD-06,BD,final Architecture(Grouand Floor BLD-06),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-06),Done
-BLD-07,BD,Final Architecture(IN),06-Final Architecture(Internal),The final Architecture(Internal works of Building BLD-07),0%
+BLD-07,BD,Final Architecture(IN),06-Final Architecture(Internal),The final Architecture(Internal works of Building BLD-07),88%
 BLD-02,BD,Final Architecture(Internal),06-Final Architecture(Internal),Final finishes like flooring and painting,0%
 3000-01,IN,FIT-30165A(FIT),Instrument(FIT),Instrument(FIT),Done
 3000-01,IN,FIT-30165A(NA),CABLE,CABLE(NA),Exception(Pending)
@@ -12801,7 +12798,7 @@ BLD-03,BD,Foundation(BLD-03),01-Foundation,Foundation(BLD-03),0%
 BLD-04,BD,Foundation(BLD-04),01-Foundation,Foundation(BLD-04),0%
 BLD-05,BD,Foundation(BLD-05),01-Foundation,Foundation(BLD-05),0%
 BLD-06,BD,Foundation(BLD-06),01-Foundation,Foundation(BLD-06),Done
-BLD-07,BD,Foundation(BLD-07),01-Foundation,Foundation(BLD-07),29%
+BLD-07,BD,Foundation(BLD-07),01-Foundation,Foundation(BLD-07),Done
 LS-03,EL,From S01(LS-03),Switch,One Pole Two Way Switch Surface Mounted,50%
 LS-04,EL,From S01(LS-04),Switch,One Pole Two Way Switch Surface Mounted,0%
 LS-03,EL,From S01-FJB,Lighting Cable,One Pole Two Way Switch Surface Mounted,33%
@@ -15685,7 +15682,7 @@ FGS-08,EL,MCP-0325,FGS Device,Manual Call Point- EX,DONE
 FGS-08,EL,MCP-0361,FGS Device,Manual Call Point,DONE
 FGS-08,EL,MCP-0362,FGS Device,Manual Call Point,DONE
 BLD-02,BD,Mechanical Work(BLD-02),05-Mechanical Work,HVAC and piping systems installation,67%
-BLD-07,BD,Mechanical Work(BLD-07),05-Mechanical Work,Mechanical Work(BLD-07),33%
+BLD-07,BD,Mechanical Work(BLD-07),05-Mechanical Work,Mechanical Work(BLD-07),Done
 BLD-01,BD,Mechanical Work(First Floor BLD-01),05-Mechanical Work,Mechanical Work(First Floor BLD-01),Done
 BLD-03,BD,Mechanical Work(First Floor BLD-03),05-Mechanical Work,Mechanical Work(First Floor BLD-03),0%
 BLD-04,BD,Mechanical Work(First Floor BLD-04),05-Mechanical Work,Mechanical Work(First Floor BLD-04),0%
@@ -18819,7 +18816,7 @@ BLD-03,BD,Roof(BLD-03),08-Roof,Roof(BLD-03),0%
 BLD-04,BD,Roof(BLD-04),08-Roof,Roof(BLD-04),0%
 BLD-05,BD,Roof(BLD-05),08-Roof,Roof(BLD-05),0%
 BLD-06,BD,Roof(BLD-06),08-Roof,Roof(BLD-06),0%
-BLD-07,BD,Roof(BLD-07),08-Roof,Roof(BLD-07),0%
+BLD-07,BD,Roof(BLD-07),08-Roof,Roof(BLD-07),Done
 LS-03,EL,S01(LS-03),Switch,One Pole Two Way Switch Surface Mounted,50%
 LS-04,EL,S01(LS-04),Switch,One Pole Two Way Switch Flush Mounted,0%
 LS-05,EL,S01(LS-05),Switch,One Pole Two Way Switch Flush Mounted,0%
@@ -23080,7 +23077,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 2000-03,MES,X-2001-B,Filter(X),Oxygen Filter,DONE
 2000-03,MES,X-2002-A,Filter(X),Steam Filter,84%
 2000-03,MES,X-2002-B,Filter(X),Steam Filter,84%
-1000-02,MES,X-2003,Filter(X),Static Fuel Gas Mixer,95%
+1000-02,MES,X-2003,Filter(X),Static Fuel Gas Mixer,Done
 5000-04,MES,X-5001-A,Filter(X),PRODUCT POLISHER UNIT,84%
 5000-04,MES,X-5001-B,Filter(X),PRODUCT POLISHER UNIT,84%
 5000-01,MES,X-5003,Filter(X),FILTER,DONE
