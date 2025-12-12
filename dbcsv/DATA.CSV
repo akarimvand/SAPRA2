@@ -5,7 +5,7 @@
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,1,0,6,0,6,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,PI,12,12,0,27,24,3,3
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,IN,176,71,13,291,142,149,11
-1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MES,13,1,12,41,4,37,0
+1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MES,13,2,11,41,4,37,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,7,2,55,0,55,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,3,0,15,7,8,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,152,60,422,166,256,107
@@ -44,7 +44,7 @@
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MER,2,0,2,12,0,12,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,24,22,2,57,33,24,17
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,231,85,40,354,164,190,45
-2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,1,6,75,28,47,0
+2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,4,3,75,28,47,0
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,60,20,269,161,108,86
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,132,100,32,15
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,4,19,0,19,0
@@ -58,10 +58,10 @@
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,45,31,158,109,49,44
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,34,4,79,24,55,45
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,0,11,19,3,16,0
-3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,9,1,8,30,0,30,0
+3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,9,2,7,30,0,30,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,32,0,110,70,40,8
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,76,23,313,185,128,99
-3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,0,2,20,0,20,0
+3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,2,0,20,0,20,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,12,7,5,2
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,176,17,75,331,303,28,5
 3000,3000-04,Compression and Synthesis,Hydrogen System,MER,1,0,1,0,0,0,0
@@ -73,15 +73,15 @@
 4000,4000-03,Utility,MP Steam,MES,1,1,0,5,0,5,0
 4000,4000-03,Utility,MP Steam,IN,56,40,10,154,98,56,3
 4000,4000-03,Utility,MP Steam,PI,5,5,0,32,23,9,0
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,4,1,15,0,15,3
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,5,0,15,0,15,3
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,6,0,0,0,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,2,4,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,50,47,2,174,113,61,19
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,55,60,463,339,124,384
 4000,4000-05,Utility,Blow Down,PI,24,24,0,46,33,13,13
-4000,4000-05,Utility,Blow Down,MES,4,0,4,23,0,23,0
+4000,4000-05,Utility,Blow Down,MES,4,2,2,23,0,23,0
 4000,4000-05,Utility,Blow Down,IN,17,17,0,16,6,10,4
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,2,13,16,0,16,5
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,3,12,16,0,16,5
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,54,0,219,154,65,167
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,4,8,54,0,54,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,65,64,206,78,128,107
@@ -111,10 +111,10 @@
 4000,4000-14,Utility,Fire Water,PI,134,127,1,389,324,65,2536
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,137,87,50,29
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,8,0,48,0,48,0
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,4,13,78,21,57,5
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,5,12,78,21,57,5
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,376,27,995,888,107,147
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,70,0,232,189,43,10
-5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,7,1,6,84,43,41,1
+5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,7,2,5,84,43,41,1
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,2,2,25,0,25,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,EL,2,2,0,12,7,5,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,PI,46,46,0,137,104,33,9
@@ -135,14 +135,14 @@
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,10,9,1,29,26,3,2
 7000,7000-01,Flare,Flare System (In Site),IN,145,138,0,260,114,146,17
 7000,7000-01,Flare,Flare System (In Site),MER,2,2,0,14,0,14,0
-7000,7000-01,Flare,Flare System (In Site),MES,2,1,1,8,0,8,0
+7000,7000-01,Flare,Flare System (In Site),MES,2,2,0,8,0,8,0
 7000,7000-01,Flare,Flare System (In Site),PI,49,49,0,115,62,53,77
 BLD,BLD-01,Building,Substation,PI,4,4,0,6,3,3,9
 BLD,BLD-01,Building,Substation,BD,14,14,0,63,38,25,0
 BLD,BLD-02,Building,Control Building,PI,1,1,0,6,5,1,1
 BLD,BLD-02,Building,Control Building,BD,8,0,2,48,33,15,0
 BLD,BLD-03,Building,Laboratory,BD,14,0,0,0,0,0,0
-BLD,BLD-04,Building,Security Building,BD,14,0,3,18,8,10,0
+BLD,BLD-04,Building,Security Building,BD,14,1,6,18,8,10,0
 BLD,BLD-05,Building,Diesel Room,BD,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,BD,14,11,2,31,7,24,0
 BLD,BLD-07,Building,Analyzer House,BD,8,6,2,19,10,9,0
@@ -193,7 +193,7 @@ TEL,TEL-05,Telecom Systems,Telecom System for Area-05,EL,71,7,24,58,0,58,0
 TEL,TEL-06,Telecom Systems,Telecom System for Area-06,EL,46,0,17,64,4,60,0
 TEL,TEL-07,Telecom Systems,Telecom System for Area-07,EL,43,43,0,129,76,53,0
 TEL,TEL-08,Telecom Systems,Telecom System for Substation,EL,30,18,12,42,25,17,0
-TEL,TEL-09,Telecom Systems,Telecom System for Control Building,EL,103,0,7,10,0,10,5
+TEL,TEL-09,Telecom Systems,Telecom System for Control Building,EL,103,9,7,10,0,10,5
 TEL,TEL-09,Telecom Systems,Telecom System for Control Building,IN,1,1,0,7,6,1,0
 TEL,TEL-10,Telecom Systems,Telecom System for Laboratory,EL,89,0,0,0,0,0,0
 TEL,TEL-11,Telecom Systems,CCTV,EL,57,0,0,0,0,0,57
