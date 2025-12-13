@@ -77,7 +77,7 @@
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,6,0,0,0,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,2,4,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,50,47,2,174,113,61,19
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,55,60,463,339,124,384
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,63,60,463,339,124,384
 4000,4000-05,Utility,Blow Down,PI,24,24,0,46,33,13,13
 4000,4000-05,Utility,Blow Down,MES,4,2,2,23,0,23,0
 4000,4000-05,Utility,Blow Down,IN,17,17,0,16,6,10,4
@@ -147,7 +147,7 @@ BLD,BLD-05,Building,Diesel Room,BD,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,BD,14,11,2,31,7,24,0
 BLD,BLD-07,Building,Analyzer House,BD,8,6,2,19,10,9,0
 CVL,CVL-01,Civil Work,Civil Work of All Area,CV,14,0,0,778,11,767,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2571,969,45,4747,1952,2795,805
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2571,980,34,4747,1952,2795,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2198,2191,7,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,423,417,6,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,18,13,5,0
@@ -172,8 +172,8 @@ FGS,FGS-09,Fire and Gas Detection,Fire & Gas Detection for Control Building,IN,3
 FGS,FGS-09,Fire and Gas Detection,Fire & Gas Detection for Control Building,EL,92,60,0,397,343,54,0
 FGS,FGS-10,Fire and Gas Detection,Fire & Gas Detection for Laboratory,IN,2,0,0,0,0,0,0
 FGS,FGS-10,Fire and Gas Detection,Fire & Gas Detection for Laboratory,EL,50,0,0,0,0,0,0
-LS,LS-01,Lighting System,SS-MLP-01 for Normal Lighting System,EL,100,60,14,352,109,243,94
-LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,28,9,190,68,122,54
+LS,LS-01,Lighting System,SS-MLP-01 for Normal Lighting System,EL,100,66,8,352,109,243,94
+LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,32,5,190,68,122,54
 LS,LS-03,Lighting System,Lighting System for Substation,EL,516,47,467,1707,1699,8,0
 LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,78,159,59,38,21,0
 LS,LS-05,Lighting System,Lighting System for Laboratory & Yard Office,EL,315,0,0,0,0,0,0
