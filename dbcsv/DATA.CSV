@@ -45,7 +45,7 @@
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,24,22,2,57,33,24,17
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,231,85,40,354,164,190,45
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,4,3,75,28,47,0
-2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,60,20,269,161,108,86
+2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,60,28,269,161,108,86
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,132,100,32,15
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,4,19,0,19,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,21,7,14,0
@@ -55,7 +55,7 @@
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,829,234,0,758,576,182,21
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,36,0,75,48,27,12
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,3,8,0,8,0
-3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,45,31,158,109,49,44
+3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,48,28,158,109,49,44
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,34,4,79,24,55,45
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,0,11,19,3,16,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,9,2,7,30,0,30,0
@@ -112,26 +112,26 @@
 4000,4000-15,Utility,Potable & Service Water,PI,61,60,0,137,87,50,29
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,8,0,48,0,48,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,5,12,78,21,57,5
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,376,27,995,888,107,147
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,381,25,995,888,107,147
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,70,0,232,189,43,10
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,7,2,5,84,43,41,1
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,2,2,25,0,25,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,EL,2,2,0,12,7,5,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,PI,46,46,0,137,104,33,9
-5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,465,441,13,681,608,73,287
+5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,465,441,16,681,608,73,287
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,46,0,137,112,25,13
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,1,4,44,13,31,0
-5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,229,16,736,640,96,78
+5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,230,17,736,640,96,78
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,EL,2,2,0,12,8,4,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,6,0,35,0,35,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MES,6,0,6,34,4,30,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,PI,30,25,3,135,105,30,32
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MER,4,4,0,26,0,26,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,EL,2,2,0,12,8,4,0
-5000,5000-04,Distillation & Methanol Product,Methanol Product,IN,213,147,25,467,405,62,45
+5000,5000-04,Distillation & Methanol Product,Methanol Product,IN,213,147,26,467,405,62,45
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MES,2,0,2,0,0,0,1
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MER,2,2,0,12,0,12,0
-5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,63,45,10,85,68,17,20
+5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,63,45,11,85,68,17,20
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,10,9,1,29,26,3,2
 7000,7000-01,Flare,Flare System (In Site),IN,145,138,0,260,114,146,17
 7000,7000-01,Flare,Flare System (In Site),MER,2,2,0,14,0,14,0
@@ -147,7 +147,7 @@ BLD,BLD-05,Building,Diesel Room,BD,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,BD,14,11,2,31,7,24,0
 BLD,BLD-07,Building,Analyzer House,BD,8,6,2,19,10,9,0
 CVL,CVL-01,Civil Work,Civil Work of All Area,CV,14,0,0,778,11,767,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2571,980,34,4747,1952,2795,805
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2571,981,39,4747,1952,2795,805
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2198,2191,7,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,423,417,6,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,18,13,5,0
