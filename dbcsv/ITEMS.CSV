@@ -5066,10 +5066,10 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-09,PI,61-WWO-073,PI_TP,PIPING TEST PACKAGE,DONE
 4000-09,PI,61-WWO-087,PI_TP,PIPING TEST PACKAGE,DONE
 4000-09,PI,61-WWO-088,PI_TP,PIPING TEST PACKAGE,DONE
-4000-09,PI,61-WWO-UG-187,PI_TP,PIPING TEST PACKAGE,DONE
+4000-09,PI,61-WWO-UG-187,PI_TP,PIPING TEST PACKAGE,04-Flush/Dry
 4000-09,PI,61-WWO-UG-197,PI_TP,PIPING TEST PACKAGE,DONE
 4000-09,PI,61-WWO-UG-200,PI_TP,PIPING TEST PACKAGE,DONE
-4000-09,PI,61-WWO-UG-201,PI_TP,PIPING TEST PACKAGE,DONE
+4000-09,PI,61-WWO-UG-201,PI_TP,PIPING TEST PACKAGE,04-Flush/Dry
 4000-09,PI,61-WWO-UG-321,PI_TP,PIPING TEST PACKAGE,DONE
 4000-09,PI,61-WWO-UG-KC-173,PI_TP,PIPING TEST PACKAGE,DONE
 4000-09,PI,61-WWO-UG-KC-177,PI_TP,PIPING TEST PACKAGE,DONE
@@ -5082,7 +5082,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-09,PI,61-WWO-UG-KC-292,PI_TP,PIPING TEST PACKAGE,
 4000-10,PI,61-WWS-UG-KC-237,PI_TP,PIPING TEST PACKAGE,DONE
 4000-10,PI,61-WWS-UG-KC-238,PI_TP,PIPING TEST PACKAGE,DONE
-4000-08,PI,62-CWR-099,PI_TP,PIPING TEST PACKAGE,DONE
+4000-08,PI,62-CWR-099,PI_TP,PIPING TEST PACKAGE,04-Flush/Dry
 4000-08,PI,62-CWR-UG-124,PI_TP,PIPING TEST PACKAGE,DONE
 4000-08,PI,62-CWS-093,PI_TP,PIPING TEST PACKAGE,DONE
 4000-08,PI,62-CWS-094,PI_TP,PIPING TEST PACKAGE,DONE
@@ -5239,7 +5239,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-14,PI,66-FW-UG-138,PI_TP,PIPING TEST PACKAGE,DONE
 4000-14,PI,66-FW-UG-KC-222,PI_TP,PIPING TEST PACKAGE,DONE
 4000-09,PI,66-MO-23-UG-KC-197,PI_TP,PIPING TEST PACKAGE,DONE
-4000-13,PI,66-PMP-071,PI_TP,PIPING TEST PACKAGE,DONE
+4000-13,PI,66-PMP-071,PI_TP,PIPING TEST PACKAGE,04-Flush/Dry
 4000-13,PI,66-PMP-UG-113,PI_TP,PIPING TEST PACKAGE,DONE
 4000-13,PI,66-PMP-UG-117,PI_TP,PIPING TEST PACKAGE,DONE
 4000-13,PI,66-PMP-UG-KC-226,PI_TP,PIPING TEST PACKAGE,DONE
@@ -5249,7 +5249,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-09,PI,66-WWO-056,PI_TP,PIPING TEST PACKAGE,DONE
 4000-09,PI,66-WWO-057,PI_TP,PIPING TEST PACKAGE,DONE
 4000-09,PI,66-WWO-058,PI_TP,PIPING TEST PACKAGE,DONE
-4000-09,PI,66-WWO-059,PI_TP,PIPING TEST PACKAGE,DONE
+4000-09,PI,66-WWO-059,PI_TP,PIPING TEST PACKAGE,04-Flush/Dry
 4000-09,PI,66-WWO-060,PI_TP,PIPING TEST PACKAGE,DONE
 4000-09,PI,66-WWO-061,PI_TP,PIPING TEST PACKAGE,DONE
 4000-09,PI,66-WWO-UG-323,PI_TP,PIPING TEST PACKAGE,DONE
@@ -5266,7 +5266,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-13,PI,67-PMC-UG-121,PI_TP,PIPING TEST PACKAGE,DONE
 4000-15,PI,67-PW-025,PI_TP,PIPING TEST PACKAGE,DONE
 4000-15,PI,67-PW-UG-125,PI_TP,PIPING TEST PACKAGE,DONE
-4000-15,PI,67-SRW-UG-127,PI_TP,PIPING TEST PACKAGE,DONE
+4000-15,PI,67-SRW-UG-127,PI_TP,PIPING TEST PACKAGE,04-Flush/Dry
 4000-09,PI,67-WWO-072,PI_TP,PIPING TEST PACKAGE,DONE
 4000-09,PI,67-WWO-075,PI_TP,PIPING TEST PACKAGE,DONE
 4000-09,PI,67-WWO-UG-324,PI_TP,PIPING TEST PACKAGE,DONE
@@ -12800,22 +12800,22 @@ BLD-05,BD,Foundation(BLD-05),01-Foundation,Foundation(BLD-05),0%
 BLD-06,BD,Foundation(BLD-06),01-Foundation,Foundation(BLD-06),Done
 BLD-07,BD,Foundation(BLD-07),01-Foundation,Foundation(BLD-07),Done
 LS-03,EL,From S01(LS-03),Switch,One Pole Two Way Switch Surface Mounted,50%
-LS-04,EL,From S01(LS-04),Switch,One Pole Two Way Switch Surface Mounted,0%
+LS-04,EL,From S01(LS-04),Switch,One Pole Two Way Switch Surface Mounted,50%
 LS-03,EL,From S01-FJB,Lighting Cable,One Pole Two Way Switch Surface Mounted,33%
 LS-03,EL,From S02(LS-03),Switch,One Pole Two Way Switch Surface Mounted,50%
-LS-04,EL,From S02(LS-04),Switch,One Pole Two Way Switch Surface Mounted,0%
+LS-04,EL,From S02(LS-04),Switch,One Pole Two Way Switch Surface Mounted,50%
 LS-03,EL,From S02-FJB,Lighting Cable,One Pole Two Way Switch Surface Mounted,33%
 LS-03,EL,From S03(LS-03),Switch,One Pole Two Way Switch Surface Mounted,50%
-LS-04,EL,From S03(LS-04),Switch,One Pole Two Way Switch Surface Mounted,0%
+LS-04,EL,From S03(LS-04),Switch,One Pole Two Way Switch Surface Mounted,50%
 LS-03,EL,From S03-FJB,Lighting Cable,One Pole Two Way Switch Surface Mounted,33%
 LS-03,EL,From S04(LS-03),Switch,One Pole Two Way Switch Surface Mounted,50%
-LS-04,EL,From S04(LS-04),Switch,One Pole Two Way Switch Surface Mounted,0%
+LS-04,EL,From S04(LS-04),Switch,One Pole Two Way Switch Surface Mounted,50%
 LS-03,EL,From S04-FJB,Lighting Cable,One Pole Two Way Switch Surface Mounted,33%
 LS-03,EL,From S05(LS-03),Switch,One Pole Two Way Switch Surface Mounted,50%
-LS-04,EL,From S05(LS-04),Switch,One Pole Two Way Switch Flush Mounted,0%
+LS-04,EL,From S05(LS-04),Switch,One Pole Two Way Switch Flush Mounted,50%
 LS-03,EL,From S05-FJB,Lighting Cable,One Pole Two Way Switch Surface Mounted,33%
 LS-03,EL,From S06(LS-03),Switch,One Pole Two Way Switch Surface Mounted,50%
-LS-04,EL,From S06(LS-04),Switch,One Pole Two Way Switch Flush Mounted,0%
+LS-04,EL,From S06(LS-04),Switch,One Pole Two Way Switch Flush Mounted,50%
 LS-03,EL,From S06-FJB,Lighting Cable,One Pole Two Way Switch Surface Mounted,33%
 LS-03,EL,From S07,Switch,One Pole Two Way Switch Surface Mounted,50%
 LS-03,EL,From S07-FJB,Lighting Cable,One Pole Two Way Switch Surface Mounted,33%
@@ -18818,153 +18818,153 @@ BLD-05,BD,Roof(BLD-05),08-Roof,Roof(BLD-05),0%
 BLD-06,BD,Roof(BLD-06),08-Roof,Roof(BLD-06),0%
 BLD-07,BD,Roof(BLD-07),08-Roof,Roof(BLD-07),Done
 LS-03,EL,S01(LS-03),Switch,One Pole Two Way Switch Surface Mounted,50%
-LS-04,EL,S01(LS-04),Switch,One Pole Two Way Switch Flush Mounted,0%
+LS-04,EL,S01(LS-04),Switch,One Pole Two Way Switch Flush Mounted,50%
 LS-05,EL,S01(LS-05),Switch,One Pole Two Way Switch Flush Mounted,0%
 LS-14,EL,S01(LS-14),Switch,One Pole Two Way Switch Surface Mounted- EX,50%
 LS-14,EL,S01(LS-14)-FJB01,Lighting Cable,Cable of One Pole Two Way Switch Surface Mounted- EX,33%
 LS-03,EL,S01-FJB,Lighting Cable,One Pole Two Way Switch Surface Mounted,33%
 LS-03,EL,S02(LS-03),Switch,One Pole Two Way Switch Surface Mounted,50%
-LS-04,EL,S02(LS-04),Switch,One Pole Two Way Switch Flush Mounted,0%
+LS-04,EL,S02(LS-04),Switch,One Pole Two Way Switch Flush Mounted,50%
 LS-05,EL,S02(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-14,EL,S02(LS-14),Switch,One Pole Two Way Switch Surface Mounted- EX,50%
 LS-14,EL,S02(LS-14)-FJB01,Lighting Cable,Cable of One Pole Two Way Switch Surface Mounted- EX,33%
 LS-03,EL,S02-FJB,Lighting Cable,One Pole Two Way Switch Surface Mounted,33%
 LS-03,EL,S03(LS-03),Switch,One Pole Two Way Switch Surface Mounted,50%
-LS-04,EL,S03(LS-04),Switch,One Pole Two Way Switch Flush Mounted,0%
+LS-04,EL,S03(LS-04),Switch,One Pole Two Way Switch Flush Mounted,50%
 LS-05,EL,S03(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-14,EL,S03(LS-14),Switch,One Pole Two Way Switch Surface Mounted- EX,50%
 LS-14,EL,S03(LS-14)-FJB01,Lighting Cable,Cable of One Pole Two Way Switch Surface Mounted- EX,33%
 LS-03,EL,S03-FJB,Lighting Cable,One Pole Two Way Switch Surface Mounted,33%
 LS-03,EL,S04(LS-03),Switch,One Pole Two Way Switch Surface Mounted,50%
-LS-04,EL,S04(LS-04),Switch,One Pole Two Way Switch Flush Mounted,0%
+LS-04,EL,S04(LS-04),Switch,One Pole Two Way Switch Flush Mounted,50%
 LS-05,EL,S04(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-14,EL,S04(LS-14),Switch,One Pole Two Way Switch Surface Mounted- EX,50%
 LS-14,EL,S04(LS-14)-FJB01,Lighting Cable,Cable of One Pole Two Way Switch Surface Mounted- EX,33%
 LS-03,EL,S04-FJB,Lighting Cable,One Pole Two Way Switch Surface Mounted,33%
 LS-03,EL,S05(LS-03),Switch,One Pole Two Way Switch Surface Mounted,50%
-LS-04,EL,S05(LS-04),Switch,One Pole Two Way Switch Flush Mounted,0%
+LS-04,EL,S05(LS-04),Switch,One Pole Two Way Switch Flush Mounted,50%
 LS-05,EL,S05(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-14,EL,S05(LS-14),Switch,One Pole Two Way Switch Surface Mounted- EX,50%
 LS-14,EL,S05(LS-14)-FJB01,Lighting Cable,Cable of One Pole Two Way Switch Surface Mounted- EX,33%
 LS-03,EL,S05-FJB,Lighting Cable,One Pole Two Way Switch Surface Mounted,33%
 LS-03,EL,S06(LS-03),Switch,One Pole Two Way Switch Surface Mounted,50%
-LS-04,EL,S06(LS-04),Switch,One Pole Two Way Switch Flush Mounted,0%
+LS-04,EL,S06(LS-04),Switch,One Pole Two Way Switch Flush Mounted,50%
 LS-05,EL,S06(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-14,EL,S06(LS-14),Switch,One Pole Two Way Switch Surface Mounted- EX,50%
 LS-14,EL,S06(LS-14)-FJB01,Lighting Cable,Cable of One Pole Two Way Switch Surface Mounted- EX,33%
 LS-03,EL,S06-FJB,Lighting Cable,One Pole Two Way Switch Surface Mounted,33%
 LS-03,EL,S07(LS-03),Switch,One Pole Two Way Switch Surface Mounted,50%
-LS-04,EL,S07(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S07(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S07(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-03,EL,S07-FJB,Lighting Cable,One Pole Two Way Switch Surface Mounted,33%
 LS-03,EL,S08(LS-03),Switch,One Pole Two Way Switch Surface Mounted,50%
-LS-04,EL,S08(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S08(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S08(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-03,EL,S08-FJB,Lighting Cable,One Pole Two Way Switch Surface Mounted,33%
 LS-03,EL,S09(LS-03),Switch,One Pole Two Way Switch Surface Mounted,50%
-LS-04,EL,S09(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S09(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S09(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-03,EL,S09-FJB,Lighting Cable,One Pole Two Way Switch Surface Mounted,33%
 LS-03,EL,S10(LS-03),Switch,One Pole Two Way Switch Surface Mounted,50%
-LS-04,EL,S10(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S10(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S10(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-03,EL,S10-FJB,Lighting Cable,One Pole Two Way Switch Surface Mounted,33%
 LS-03,EL,S11(LS-03),Switch,One Pole Switch Surface Mounted- WP,50%
-LS-04,EL,S11(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S11(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S11(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-03,EL,S11-FJB,Lighting Cable,One Pole Switch Surface Mounted| WP,33%
 LS-03,EL,S12(LS-03),Switch,One Pole Switch Surface Mounted- WP,50%
-LS-04,EL,S12(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S12(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S12(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-03,EL,S12-FJB,Lighting Cable,One Pole Switch Surface Mounted| WP,33%
 LS-03,EL,S13(LS-03),Switch,One Pole Switch Surface Mounted- WP,50%
-LS-04,EL,S13(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S13(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S13(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-03,EL,S13-FJB,Lighting Cable,One Pole Switch Surface Mounted| WP,33%
 LS-03,EL,S14(LS-03),Switch,One Pole Switch Surface Mounted- WP,50%
-LS-04,EL,S14(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S14(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S14(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-03,EL,S14-FJB,Lighting Cable,One Pole Switch Surface Mounted| WP,33%
 LS-03,EL,S15(LS-03),Switch,One Pole Switch Surface Mounted- WP,50%
-LS-04,EL,S15(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S15(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S15(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-03,EL,S15-FJB,Lighting Cable,One Pole Switch Surface Mounted| WP,33%
 LS-03,EL,S16(LS-03),Switch,One Pole Switch Surface Mounted- WP,50%
-LS-04,EL,S16(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S16(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S16(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-03,EL,S16-FJB,Lighting Cable,One Pole Switch Surface Mounted| WP,33%
 LS-03,EL,S17(LS-03),Switch,One Pole Switch Surface Mounted- WP,50%
-LS-04,EL,S17(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S17(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S17(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-03,EL,S17-FJB,Lighting Cable,One Pole Switch Surface Mounted| WP,33%
 LS-03,EL,S18(LS-03),Switch,One Pole Switch Surface Mounted- WP,50%
-LS-04,EL,S18(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S18(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S18(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-03,EL,S18-FJB,Lighting Cable,One Pole Switch Surface Mounted| WP,33%
 LS-03,EL,S19(LS-03),Switch,One Pole Switch Surface Mounted- WP,50%
-LS-04,EL,S19(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S19(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S19(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-03,EL,S19-FJB,Lighting Cable,One Pole Switch Surface Mounted| WP,33%
 LS-03,EL,S20(LS-03),Switch,One Pole Switch Surface Mounted- WP,50%
-LS-04,EL,S20(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S20(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S20(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-03,EL,S20-FJB,Lighting Cable,One Pole Switch Surface Mounted| WP,33%
 LS-03,EL,S21(LS-03),Switch,One Pole Switch Surface Mounted- WP,50%
-LS-04,EL,S21(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S21(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S21(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-03,EL,S21-FJB,Lighting Cable,One Pole Switch Surface Mounted| WP,33%
 LS-03,EL,S22(LS-03),Switch,One Pole Switch Surface Mounted- WP,50%
-LS-04,EL,S22(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S22(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S22(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-03,EL,S22-FJB,Lighting Cable,One Pole Switch Surface Mounted| WP,33%
 LS-03,EL,S23(LS-03),Switch,One Pole Switch Surface Mounted- WP,50%
-LS-04,EL,S23(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S23(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S23(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-03,EL,S23-FJB,Lighting Cable,One Pole Switch Surface Mounted| WP,33%
 LS-03,EL,S24(LS-03),Switch,One Pole Switch Surface Mounted- WP,50%
-LS-04,EL,S24(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S24(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S24(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-03,EL,S24-FJB,Lighting Cable,One Pole Switch Surface Mounted| WP,33%
 LS-03,EL,S25(LS-03),Switch,One Pole Switch Surface Mounted- WP,50%
-LS-04,EL,S25(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S25(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S25(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-03,EL,S25-FJB,Lighting Cable,One Pole Switch Surface Mounted| WP,33%
 LS-03,EL,S26(LS-03),Switch,One Pole Switch Surface Mounted- WP,50%
-LS-04,EL,S26(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S26(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S26(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-03,EL,S26-FJB,Lighting Cable,One Pole Switch Surface Mounted| WP,33%
 LS-03,EL,S27(LS-03),Switch,One Pole Switch Surface Mounted- WP,50%
-LS-04,EL,S27(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S27(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S27(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-03,EL,S27-FJB,Lighting Cable,One Pole Switch Surface Mounted| WP,33%
 LS-03,EL,S28(LS-03),Switch,One Pole Switch Surface Mounted- WP,50%
-LS-04,EL,S28(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S28(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S28(LS-05),Switch,One Pole Switch Flush Mounted,0%
 LS-03,EL,S29(LS-03),Switch,One Pole Switch Surface Mounted- WP,50%
-LS-04,EL,S29(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S29(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S29(LS-05),Switch,One Pole Switch Flush Mounted,0%
-LS-04,EL,S30(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S30(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S30(LS-05),Switch,One Pole Switch Surface Mounted- WP,0%
-LS-04,EL,S31(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S31(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S31(LS-05),Switch,One Pole Switch Surface Mounted- WP,0%
-LS-04,EL,S32(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S32(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S32(LS-05),Switch,One Pole Switch Surface Mounted- WP,0%
-LS-04,EL,S33(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S33(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S33(LS-05),Switch,One Pole Two Way Switch Flush Mounted,0%
-LS-04,EL,S34(LS-04),Switch,One Pole Switch Flush Mounted,0%
+LS-04,EL,S34(LS-04),Switch,One Pole Switch Flush Mounted,50%
 LS-05,EL,S34(LS-05),Switch,One Pole Two Way Switch Flush Mounted,0%
-LS-04,EL,S35(LS-04),Switch,One Pole Switch Surface Mounted- WP,0%
+LS-04,EL,S35(LS-04),Switch,One Pole Switch Surface Mounted- WP,50%
 LS-05,EL,S35(LS-05),Switch,One Pole Two Way Switch Flush Mounted,0%
-LS-04,EL,S36(LS-04),Switch,One Pole Switch Surface Mounted- WP,0%
+LS-04,EL,S36(LS-04),Switch,One Pole Switch Surface Mounted- WP,50%
 LS-05,EL,S36(LS-05),Switch,One Pole Two Way Switch Flush Mounted,0%
-LS-04,EL,S37,Switch,One Pole Switch Flush Mounted,0%
-LS-04,EL,S38,Switch,One Pole Switch Flush Mounted,0%
-LS-04,EL,S39,Switch,One Pole Switch Flush Mounted,0%
-LS-04,EL,S40,Switch,One Pole Switch Flush Mounted,0%
-LS-04,EL,S41,Switch,One Pole Switch Surface Mounted- WP,0%
-LS-04,EL,S42,Switch,One Pole Switch Surface Mounted- WP,0%
-LS-04,EL,S43,Switch,One Pole Switch Surface Mounted- WP,0%
-LS-04,EL,S44,Switch,One Pole Switch Surface Mounted- WP,0%
+LS-04,EL,S37,Switch,One Pole Switch Flush Mounted,50%
+LS-04,EL,S38,Switch,One Pole Switch Flush Mounted,50%
+LS-04,EL,S39,Switch,One Pole Switch Flush Mounted,50%
+LS-04,EL,S40,Switch,One Pole Switch Flush Mounted,50%
+LS-04,EL,S41,Switch,One Pole Switch Surface Mounted- WP,50%
+LS-04,EL,S42,Switch,One Pole Switch Surface Mounted- WP,50%
+LS-04,EL,S43,Switch,One Pole Switch Surface Mounted- WP,50%
+LS-04,EL,S44,Switch,One Pole Switch Surface Mounted- WP,50%
 7000-01,MES,S-7101,Flare Stack,Flare Stack,Done
 120-13,EL,SA_AJB-P-002,Cathodic Protection(B),Anod Junction Box,50%
 120-13,EL,SA_NBB-P-001,Cathodic Protection(B),Negative Bond Box,50%
