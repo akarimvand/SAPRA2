@@ -83,7 +83,7 @@
 4000,4000-05,Utility,Blow Down,IN,17,17,0,16,6,10,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,3,12,16,0,16,5
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,54,0,219,154,65,167
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,4,8,54,0,54,0
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,4,8,66,0,66,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,65,64,206,78,128,107
 4000,4000-07,Utility,Plant Air,IN,2,2,0,2,0,2,2
 4000,4000-07,Utility,Plant Air,PI,10,10,0,29,4,25,30
@@ -112,7 +112,7 @@
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,137,87,50,29
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,8,0,48,0,48,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,5,12,78,21,57,5
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,381,25,995,888,107,147
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,383,23,995,888,107,147
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,70,0,232,189,43,10
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,7,2,5,84,43,41,1
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,2,2,25,0,25,0
@@ -175,7 +175,7 @@ FGS,FGS-10,Fire and Gas Detection,Fire & Gas Detection for Laboratory,EL,50,0,0,
 LS,LS-01,Lighting System,SS-MLP-01 for Normal Lighting System,EL,100,66,8,358,109,249,94
 LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,32,5,194,68,126,54
 LS,LS-03,Lighting System,Lighting System for Substation,EL,516,47,467,1811,1699,112,0
-LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,128,159,135,38,97,0
+LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,286,1,135,38,97,0
 LS,LS-05,Lighting System,Lighting System for Laboratory & Yard Office,EL,315,0,0,0,0,0,0
 LS,LS-06,Lighting System,Lighting System for Street,EL,73,71,0,312,164,148,3
 LS,LS-07,Lighting System,Lighting System for Area-02,EL,1075,0,1,1,0,1,0
