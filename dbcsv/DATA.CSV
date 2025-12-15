@@ -8,7 +8,7 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MES,13,2,11,41,4,37,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,7,2,55,0,55,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,3,0,15,7,8,0
-1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,152,60,422,167,255,107
+1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,152,60,422,176,246,107
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,53,3,182,130,52,57
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,185,0,2193,2019,174,2
 120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,347,16,3541,3238,303,31
@@ -35,7 +35,7 @@
 2000,2000-01,Reforming,Pre Reforming,PI,9,8,0,19,11,8,1
 2000,2000-01,Reforming,Pre Reforming,IN,92,15,13,69,24,45,11
 2000,2000-02,Reforming,Primary Reforming,PI,9,9,0,31,16,15,1
-2000,2000-02,Reforming,Primary Reforming,IN,873,105,126,729,547,182,77
+2000,2000-02,Reforming,Primary Reforming,IN,873,105,126,729,561,168,77
 2000,2000-02,Reforming,Primary Reforming,MES,8,0,8,0,0,0,0
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,26,15,6,55,24,31,79
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,363,74,40,320,181,139,50
@@ -43,9 +43,9 @@
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MES,11,6,5,40,3,37,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MER,2,0,2,12,0,12,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,24,22,2,59,37,22,17
-2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,231,85,40,354,164,190,45
+2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,231,85,40,354,165,189,45
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,6,1,75,28,47,0
-2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,60,28,277,161,116,86
+2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,60,28,277,182,95,86
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,132,100,32,15
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,4,19,0,19,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,21,7,14,0
@@ -84,7 +84,7 @@
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,3,12,16,0,16,5
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,54,0,219,154,65,167
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,4,8,66,0,66,0
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,65,64,208,78,130,107
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,65,64,208,94,114,107
 4000,4000-07,Utility,Plant Air,IN,2,2,0,2,0,2,2
 4000,4000-07,Utility,Plant Air,PI,10,10,0,29,4,25,30
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
