@@ -10,6 +10,7 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,3,0,15,7,8,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,152,60,422,192,230,107
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,53,3,182,130,52,57
+1000,1000-04,Gas Preparation,Gas Saturation,IN,65,0,0,0,0,0,0
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,185,0,2193,2019,174,2
 120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,347,16,3541,3238,303,31
 120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,314,15,3135,2868,267,44
@@ -56,7 +57,7 @@
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,36,0,75,48,27,12
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,3,8,0,8,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,56,28,161,109,52,44
-3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,34,4,79,24,55,45
+3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,34,4,80,29,51,45
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,3,8,19,3,16,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,9,5,4,30,0,30,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,32,0,110,70,40,8
@@ -122,8 +123,8 @@
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,46,0,137,118,19,13
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,2,3,44,13,31,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,236,16,739,640,99,78
-5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,EL,2,2,0,12,8,4,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,6,0,35,0,35,0
+5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,EL,2,2,0,12,8,4,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MES,6,0,6,34,4,30,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,PI,30,25,3,135,107,28,32
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MER,4,4,0,26,0,26,0
