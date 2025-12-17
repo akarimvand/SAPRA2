@@ -76,7 +76,7 @@
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,5,0,15,0,15,3
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,6,0,0,0,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,2,4,0
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,50,47,2,174,113,61,19
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,50,48,1,174,113,61,19
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,63,60,463,345,118,384
 4000,4000-05,Utility,Blow Down,PI,24,24,0,46,33,13,13
 4000,4000-05,Utility,Blow Down,MES,4,2,2,23,0,23,0
@@ -175,7 +175,7 @@ FGS,FGS-10,Fire and Gas Detection,Fire & Gas Detection for Laboratory,EL,50,0,0,
 LS,LS-01,Lighting System,SS-MLP-01 for Normal Lighting System,EL,100,66,8,358,119,239,94
 LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,32,5,194,72,122,54
 LS,LS-03,Lighting System,Lighting System for Substation,EL,516,47,467,1889,1699,190,0
-LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,286,1,192,38,154,0
+LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,286,1,208,38,170,0
 LS,LS-05,Lighting System,Lighting System for Laboratory & Yard Office,EL,315,0,0,0,0,0,0
 LS,LS-06,Lighting System,Lighting System for Street,EL,73,71,0,312,164,148,3
 LS,LS-07,Lighting System,Lighting System for Area-02,EL,1075,0,1,1,0,1,0
