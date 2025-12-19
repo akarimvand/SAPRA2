@@ -6257,8 +6257,8 @@ DCS-01,IN,XS-20161,SIGNAL,,After Energization The control Room (Hold Sequence),E
 2000-03,IN,XS-2030,SIGNAL,,After Energization The control Room (Hold Sequence),Energization
 DCS-01,IN,XS-2410-SP,I/O EL,,After Energization The control Room (Hold Sequence),Energization
 DCS-01,IN,XS-2410-ST,I/O EL,,After Energization The control Room (Hold Sequence),Energization
-DCS-01,IN,XS-2414-SP,I/O EL,,After Energization The control Room (Hold Sequence),Energization
-DCS-01,IN,XS-2414-ST,I/O EL,,After Energization The control Room (Hold Sequence),Energization
+2000-04,IN,XS-2414-SP,I/O EL,,After Energization The control Room (Hold Sequence),Energization
+2000-04,IN,XS-2414-ST,I/O EL,,After Energization The control Room (Hold Sequence),Energization
 DCS-01,IN,XS-2447-SP,I/O EL,,After Energization The control Room (Hold Sequence),Energization
 DCS-01,IN,XS-2447-ST,I/O EL,,After Energization The control Room (Hold Sequence),Energization
 DCS-01,IN,XS-2451-SP,I/O EL,,After Energization The control Room (Hold Sequence),Energization
