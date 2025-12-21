@@ -71,23 +71,23 @@
 4000,4000-01,Utility,Nitrogen,PI,20,20,0,51,28,23,64
 4000,4000-01,Utility,Nitrogen,IN,14,10,4,11,2,9,6
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,2,0,10,0,10,0
-4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,180,25,434,234,200,35
+4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,180,25,434,245,189,35
 4000,4000-02,Utility,HHP & HP & LP Steam,PI,68,61,0,248,126,122,74
 4000,4000-03,Utility,MP Steam,MES,1,1,0,5,0,5,0
-4000,4000-03,Utility,MP Steam,IN,56,40,10,154,100,54,3
+4000,4000-03,Utility,MP Steam,IN,56,40,10,154,104,50,3
 4000,4000-03,Utility,MP Steam,PI,5,5,0,32,23,9,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,5,0,15,0,15,3
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,6,0,0,0,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,2,4,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,50,48,1,174,113,61,19
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,63,60,463,345,118,384
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,63,60,463,363,100,384
 4000,4000-05,Utility,Blow Down,PI,24,24,0,46,33,13,13
 4000,4000-05,Utility,Blow Down,MES,4,2,2,23,0,23,0
-4000,4000-05,Utility,Blow Down,IN,17,17,0,17,6,11,4
+4000,4000-05,Utility,Blow Down,IN,17,17,0,17,9,8,4
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,3,12,16,0,16,5
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,70,54,0,219,154,65,167
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,4,8,66,0,66,0
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,81,76,208,94,114,107
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,81,76,208,103,105,107
 4000,4000-07,Utility,Plant Air,IN,2,1,1,2,0,2,2
 4000,4000-07,Utility,Plant Air,PI,10,10,0,29,4,25,30
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,5
@@ -125,7 +125,7 @@
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,46,0,137,118,19,13
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,2,3,44,13,31,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,238,14,757,640,117,78
-5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,6,0,35,0,35,0
+5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,6,0,40,0,40,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,EL,2,2,0,12,8,4,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MES,6,0,6,34,4,30,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,PI,30,25,3,135,107,28,32
