@@ -6246,17 +6246,17 @@ TEL-09,EL,CR-TJB3,Telecom Device,Telephone Junction Box,0%
 120-15,EL,CR-UBT-01_2,UPS & Battery,110V AC UPS Battery Set,25%
 120-09,EL,CR-UIS-01,UPS & Battery,110V AC UPS Battery Isolator Box,Done
 120-09,EL,CR-UPS-01,UPS & Battery,110V AC UPS Panel,Done
-CVL-01,CV,CV-COOLING,COOLING,COOLING,0%
+CVL-01,CV,CV-COOLING,COOLING,COOLING,Done
 CVL-01,CV,CV-DITCH,DITCH,DITCH,0%
-CVL-01,CV,CV-DUCT BANK,DUCT BANK,DUCT BANK,0%
-CVL-01,CV,CV-DYKE WALL & CURB WALL,DYKE WALL & CURB WALL,DYKE WALL & CURB WALL,0%
+CVL-01,CV,CV-DUCT BANK,DUCT BANK,DUCT BANK,Done
+CVL-01,CV,CV-DYKE WALL & CURB WALL,DYKE WALL & CURB WALL,DYKE WALL & CURB WALL,Done
 CVL-01,CV,CV-EQUIPMENT FOUNDATION,EQUIPMENT FOUNDATION,EQUIPMENT FOUNDATION,0%
-CVL-01,CV,CV-FLARE,FLARE,FLARE,0%
+CVL-01,CV,CV-FLARE,FLARE,FLARE,Done
 CVL-01,CV,CV-PAVING,PAVING,PAVING,0%
 CVL-01,CV,CV-PIPE RACK,PIPE RACK,PIPE RACK,0%
 CVL-01,CV,CV-ROAD,ROAD,ROAD,0%
 CVL-01,CV,CV-STRUCTURE,STRUCTURE,STRUCTURE,0%
-CVL-01,CV,CV-SUMP,SUMP,SUMP,0%
+CVL-01,CV,CV-SUMP,SUMP,SUMP,Done
 CVL-01,CV,CV-TANKS,TANKS,TANKS,0%
 CVL-01,CV,CV-TRENCH,TRENCH,TRENCH,0%
 CVL-01,CV,CV-UG PIT'S,UG PIT'S,UG PIT'S,0%
@@ -12269,12 +12269,12 @@ DCS-01,IN,FCTS-30139,CABLE,CABLE(NA),Done
 4000-02,IN,FE-7001,Instrument(FE),Instrument(FE),Done
 4000-02,IN,FE-7029,Instrument(FE),Instrument(FE),Done
 4000-02,IN,FE-7030,Instrument(FE),Instrument(FE),Done
-4000-06,IN,FE-7091,Instrument(FE),Instrument(FE),0%
+4000-06,IN,FE-7091,Instrument(FE),Instrument(FE),50%
 1000-03,IN,FE-7101,Instrument(FE),Instrument(FE),DONE
 4000-02,IN,FE-7129,Instrument(FE),Instrument(FE),Done
 4000-02,IN,FE-7134,Instrument(FE),Instrument(FE),Done
 4000-04,IN,FE-7141,Instrument(FE),Instrument(FE),Exception(Pending)
-4000-06,IN,FE-7501,Instrument(FE),Instrument(FE),0%
+4000-06,IN,FE-7501,Instrument(FE),Instrument(FE),50%
 4000-06,IN,FE-7503,Instrument(FE),Instrument(FE),Exception(Pending)
 4000-06,IN,FE-75150A,Instrument(FE),Instrument(FE),0%
 4000-06,IN,FE-75150B,Instrument(FE),Instrument(FE),0%
@@ -12790,10 +12790,10 @@ FGS-02,IN,FLD-0028(NA),CABLE,CABLE(NA),0%
 4000-04,IN,FO-7095,Instrument(FO),Instrument(FO),Exception(Pending)
 4000-04,IN,FO-7097,Instrument(FO),Instrument(FO),Exception(Pending)
 4000-04,IN,FO-7098,Instrument(FO),Instrument(FO),Exception(Pending)
-4000-06,IN,FO-7501A,Instrument(FO),Instrument(FO),0%
-4000-06,IN,FO-7501B,Instrument(FO),Instrument(FO),0%
-4000-06,IN,FO-7502A,Instrument(FO),Instrument(FO),0%
-4000-06,IN,FO-7502B,Instrument(FO),Instrument(FO),0%
+4000-06,IN,FO-7501A,Instrument(FO),Instrument(FO),50%
+4000-06,IN,FO-7501B,Instrument(FO),Instrument(FO),50%
+4000-06,IN,FO-7502A,Instrument(FO),Instrument(FO),50%
+4000-06,IN,FO-7502B,Instrument(FO),Instrument(FO),50%
 4000-06,IN,FO-7504,Instrument(FO),Instrument(FO),Exception(Pending)
 4000-08,IN,FO-8001,Instrument(FO),Instrument(FO),Done
 BLD-01,BD,Foundation(BLD-01),01-Foundation,Foundation(BLD-01),Done
@@ -12916,7 +12916,7 @@ FGS-05,IN,FS-0016(NA),CABLE,CABLE(NA),0%
 1000-03,IN,FSY-2061A,SIGNAL,SIGNAL,0%
 1000-03,IN,FSY-2061B,SIGNAL,SIGNAL,0%
 1000-03,IN,FSY-2061C,SIGNAL,SIGNAL,0%
-2000-02,IN,FSY-2111,SIGNAL,SIGNAL,
+2000-02,IN,FSY-2111,SIGNAL,SIGNAL,0%
 2000-01,IN,FSY-2233A,SIGNAL,SIGNAL,Exception(Pending)
 2000-01,IN,FSY-2233B,SIGNAL,SIGNAL,Exception(Pending)
 2000-01,IN,FSY-2233C,SIGNAL,SIGNAL,Exception(Pending)
@@ -15140,13 +15140,13 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 4000-06,IN,LT-7501(NA),CABLE,CABLE(NA),0%
 4000-06,IN,LT-7502(LT),Instrument(LT),Instrument(LT),25%
 4000-06,IN,LT-7502(NA),CABLE,CABLE(NA),0%
-4000-06,IN,LT-7503(LT),Instrument(LT),Instrument(LT),0%
+4000-06,IN,LT-7503(LT),Instrument(LT),Instrument(LT),25%
 4000-06,IN,LT-7503(NA),CABLE,CABLE(NA),0%
-4000-06,IN,LT-7504(LT),Instrument(LT),Instrument(LT),0%
+4000-06,IN,LT-7504(LT),Instrument(LT),Instrument(LT),25%
 4000-06,IN,LT-7504(NA),CABLE,CABLE(NA),0%
-4000-06,IN,LT-7505(LT),Instrument(LT),Instrument(LT),0%
+4000-06,IN,LT-7505(LT),Instrument(LT),Instrument(LT),25%
 4000-06,IN,LT-7505(NA),CABLE,CABLE(NA),0%
-4000-06,IN,LT-7506(LT),Instrument(LT),Instrument(LT),0%
+4000-06,IN,LT-7506(LT),Instrument(LT),Instrument(LT),25%
 4000-06,IN,LT-7506(NA),CABLE,CABLE(NA),0%
 4000-08,IN,LT-8003(LT),Instrument(LT),Instrument(LT),Done
 4000-08,IN,LT-8003(NA),CABLE,CABLE(NA),0%
@@ -15166,9 +15166,9 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 4000-09,IN,LT-84112,Instrument(LT),Instrument(LT),DONE
 4000-09,IN,LT-8413(LT),Instrument(LT),Instrument(LT),Done
 4000-09,IN,LT-8413(NA),CABLE,CABLE(NA),Done
-4000-06,IN,LT-8418(LT),Instrument(LT),Instrument(LT),0%
+4000-06,IN,LT-8418(LT),Instrument(LT),Instrument(LT),25%
 4000-06,IN,LT-8418(NA),CABLE,CABLE(NA),0%
-4000-06,IN,LT-8419(LT),Instrument(LT),Instrument(LT),0%
+4000-06,IN,LT-8419(LT),Instrument(LT),Instrument(LT),25%
 4000-06,IN,LT-8419(NA),CABLE,CABLE(NA),0%
 4000-06,IN,LT-8422(LT),Instrument(LT),Instrument(LT),25%
 4000-06,IN,LT-8422(NA),CABLE,CABLE(NA),0%
@@ -15846,8 +15846,8 @@ BLD-06,BD,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Wor
 4000-11,IN,MS-0001,I/O EL,I/O EL,0%
 4000-11,IN,MS-0002,I/O EL,I/O EL,0%
 4000-11,IN,MS-0013,I/O EL,I/O EL,0%
-2000-02,IN,MS-20149,SIGNAL,SIGNAL,
-2000-02,IN,MS-20199,SIGNAL,SIGNAL,
+2000-02,IN,MS-20149,SIGNAL,SIGNAL,0%
+2000-02,IN,MS-20199,SIGNAL,SIGNAL,0%
 3000-04,IN,MS-20201,PKG,PKG,0%
 3000-04,IN,MS-20202,PKG,PKG,0%
 3000-04,IN,MS-20203,PKG,PKG,0%
@@ -15861,9 +15861,9 @@ BLD-06,BD,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Wor
 2000-02,IN,MS-2056,Pkg,Pkg,0%
 2000-02,IN,MS-2057,PKG,PKG,0%
 2000-02,IN,MS-2124,Pkg,Pkg,0%
-2000-02,IN,MS-2124R,SIGNAL,SIGNAL,
+2000-02,IN,MS-2124R,SIGNAL,SIGNAL,0%
 2000-02,IN,MS-2159,Pkg,Pkg,0%
-2000-02,IN,MS-2159R,SIGNAL,SIGNAL,
+2000-02,IN,MS-2159R,SIGNAL,SIGNAL,0%
 2000-04,IN,MS-2410,I/O EL,I/O EL,0%
 2000-04,IN,MS-2414,I/O EL,I/O EL,0%
 2000-05,IN,MS-2447,I/O EL,I/O EL,Exception(Pending)
@@ -16044,8 +16044,8 @@ BLD-06,BD,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Wor
 1000-03,IN,MS-6066,I/O EL,I/O EL,0%
 1000-03,IN,MS-6081,I/O EL,I/O EL,0%
 1000-03,IN,MS-6086,I/O EL,I/O EL,0%
-4000-06,IN,MS-7005,I/O EL,I/O EL,0%
-4000-06,IN,MS-7006,I/O EL,I/O EL,0%
+4000-06,IN,MS-7005,I/O EL,I/O EL,Done
+4000-06,IN,MS-7006,I/O EL,I/O EL,Done
 4000-04,IN,MS-70101A,I/O EL,I/O EL,0%
 4000-04,IN,MS-70101B,I/O EL,I/O EL,0%
 4000-04,IN,MS-70102A,I/O EL,I/O EL,0%
@@ -16075,7 +16075,7 @@ BLD-06,BD,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Wor
 4000-04,IN,MS-7213,I/O EL,I/O EL,Done
 4000-04,IN,MS-7216,I/O EL,I/O EL,Done
 4000-06,IN,MS-7502A,I/O EL,I/O EL,0%
-4000-06,IN,MS-7502B,I/O EL,I/O EL,0%
+4000-06,IN,MS-7502B,I/O EL,I/O EL,Done
 4000-06,IN,MS-7503A,I/O EL,I/O EL,0%
 4000-06,IN,MS-7503B,I/O EL,I/O EL,0%
 4000-06,IN,MS-7504,I/O EL,I/O EL,0%
@@ -17027,7 +17027,7 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 4000-11,IN,PG-0002,Instrument(PG),Instrument(PG),Done
 4000-07,IN,PG-0003,Instrument(PG),Instrument(PG),Done
 4000-06,IN,PG-0004,Instrument(PG),Instrument(PG),Done
-4000-06,IN,PG-0005,Instrument(PG),Instrument(PG),Exception(Pending)
+4000-06,IN,PG-0005,Instrument(PG),Instrument(PG),Done
 4000-11,IN,PG-0006,Instrument(PG),Instrument(PG),50%
 4000-08,IN,PG-0007,Instrument(PG),Instrument(PG),Done
 4000-08,IN,PG-0008,Instrument(PG),Instrument(PG),Done
@@ -17403,8 +17403,8 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 4000-02,IN,PG-7022,Instrument(PG),Instrument(PG),Done
 4000-03,IN,PG-7035,Instrument(PG),Instrument(PG),Done
 4000-02,IN,PG-7054,Instrument(PG),Instrument(PG),Done
-4000-06,IN,PG-7062,Instrument(PG),Instrument(PG),Exception(Pending)
-4000-06,IN,PG-7063,Instrument(PG),Instrument(PG),Exception(Pending)
+4000-06,IN,PG-7062,Instrument(PG),Instrument(PG),Done
+4000-06,IN,PG-7063,Instrument(PG),Instrument(PG),Done
 4000-04,IN,PG-7093,Instrument(PG),Instrument(PG),Exception(Pending)
 1000-03,IN,PG-7102,Instrument(PG),Instrument(PG),DONE
 1000-03,IN,PG-7103,Instrument(PG),Instrument(PG),DONE
@@ -17557,8 +17557,8 @@ FGS-02,IN,PI-9001,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-02,IN,PI-9001A,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-02,IN,PI-9001B,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-04,IN,PI-9002,Fire Fighting,Fire Fighting(PI),Exception(Pending)
-FGS-04,IN,PI-9002A,Fire Fighting,Fire Fighting(PI),Exception(Pending)
-FGS-04,IN,PI-9002B,Fire Fighting,Fire Fighting(PI),Exception(Pending)
+FGS-04,IN,PI-9002A,Fire Fighting,Fire Fighting(PI),Done
+FGS-04,IN,PI-9002B,Fire Fighting,Fire Fighting(PI),Done
 FGS-04,IN,PI-9003,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-04,IN,PI-9003A,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-04,IN,PI-9003B,Fire Fighting,Fire Fighting(PI),Exception(Pending)
@@ -17573,27 +17573,27 @@ FGS-02,IN,PI-9007B,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-04,IN,PI-9008,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-04,IN,PI-9009,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-03,IN,PI-9010,Fire Fighting,Fire Fighting(PI),Exception(Pending)
-FGS-03,IN,PI-9010A,Fire Fighting,Fire Fighting(PI),Exception(Pending)
-FGS-03,IN,PI-9010B,Fire Fighting,Fire Fighting(PI),Exception(Pending)
+FGS-03,IN,PI-9010A,Fire Fighting,Fire Fighting(PI),Done
+FGS-03,IN,PI-9010B,Fire Fighting,Fire Fighting(PI),Done
 FGS-03,IN,PI-9011,Fire Fighting,Fire Fighting(PI),Exception(Pending)
-FGS-03,IN,PI-9011A,Fire Fighting,Fire Fighting(PI),Exception(Pending)
-FGS-03,IN,PI-9011B,Fire Fighting,Fire Fighting(PI),Exception(Pending)
-FGS-03,IN,PI-9012,Fire Fighting,Fire Fighting(PI),Exception(Pending)
-FGS-03,IN,PI-9013,Fire Fighting,Fire Fighting(PI),Exception(Pending)
-FGS-03,IN,PI-9014,Fire Fighting,Fire Fighting(PI),Exception(Pending)
-FGS-03,IN,PI-9015,Fire Fighting,Fire Fighting(PI),Exception(Pending)
+FGS-03,IN,PI-9011A,Fire Fighting,Fire Fighting(PI),Done
+FGS-03,IN,PI-9011B,Fire Fighting,Fire Fighting(PI),Done
+FGS-03,IN,PI-9012,Fire Fighting,Fire Fighting(PI),Done
+FGS-03,IN,PI-9013,Fire Fighting,Fire Fighting(PI),Done
+FGS-03,IN,PI-9014,Fire Fighting,Fire Fighting(PI),Done
+FGS-03,IN,PI-9015,Fire Fighting,Fire Fighting(PI),Done
 FGS-03,IN,PI-9016,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-03,IN,PI-9017,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-04,IN,PI-9018,Fire Fighting,Fire Fighting(PI),Exception(Pending)
-FGS-04,IN,PI-9018A,Fire Fighting,Fire Fighting(PI),Exception(Pending)
-FGS-04,IN,PI-9018B,Fire Fighting,Fire Fighting(PI),Exception(Pending)
+FGS-04,IN,PI-9018A,Fire Fighting,Fire Fighting(PI),Done
+FGS-04,IN,PI-9018B,Fire Fighting,Fire Fighting(PI),Done
 FGS-02,IN,PI-9019,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-02,IN,PI-9019A,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-02,IN,PI-9019B,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-04,IN,PI-9020,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-02,IN,PI-9021,Fire Fighting,Fire Fighting(PI),Exception(Pending)
-FGS-05,IN,PI-9022,Fire Fighting,Fire Fighting(PI),Exception(Pending)
-FGS-05,IN,PI-9023,Fire Fighting,Fire Fighting(PI),Exception(Pending)
+FGS-05,IN,PI-9022,Fire Fighting,Fire Fighting(PI),Done
+FGS-05,IN,PI-9023,Fire Fighting,Fire Fighting(PI),Done
 FGS-02,IN,PI-9024,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-02,IN,PI-9024A,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-02,IN,PI-9024B,Fire Fighting,Fire Fighting(PI),Exception(Pending)
@@ -17601,8 +17601,8 @@ FGS-02,IN,PI-9025,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-02,IN,PI-9025A,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-02,IN,PI-9025B,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-02,IN,PI-9026,Fire Fighting,Fire Fighting(PI),Exception(Pending)
-FGS-02,IN,PI-9026A,Fire Fighting,Fire Fighting(PI),Exception(Pending)
-FGS-02,IN,PI-9026B,Fire Fighting,Fire Fighting(PI),Exception(Pending)
+FGS-02,IN,PI-9026A,Fire Fighting,Fire Fighting(PI),Done
+FGS-02,IN,PI-9026B,Fire Fighting,Fire Fighting(PI),Done
 FGS-02,IN,PI-9027,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-02,IN,PI-9027A,Fire Fighting,Fire Fighting(PI),Exception(Pending)
 FGS-02,IN,PI-9027B,Fire Fighting,Fire Fighting(PI),Exception(Pending)
@@ -18598,12 +18598,12 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 4000-08,IN,PV-80118A,Instrument(PV),Instrument(PV),Done
 4000-08,IN,PV-80118B,Instrument(PV),Instrument(PV),Done
 2000-02,IN,PY-20153,Instrument(X),Instrument(PY),0%
-2000-02,IN,PY-2163A,SIGNAL,SIGNAL,
-2000-02,IN,PY-2163B,SIGNAL,SIGNAL,
-2000-02,IN,PY-2163C,SIGNAL,SIGNAL,
-2000-02,IN,PY-2224A,SIGNAL,SIGNAL,
-2000-02,IN,PY-2224B,SIGNAL,SIGNAL,
-2000-02,IN,PY-2224C,SIGNAL,SIGNAL,
+2000-02,IN,PY-2163A,SIGNAL,SIGNAL,0%
+2000-02,IN,PY-2163B,SIGNAL,SIGNAL,0%
+2000-02,IN,PY-2163C,SIGNAL,SIGNAL,0%
+2000-02,IN,PY-2224A,SIGNAL,SIGNAL,0%
+2000-02,IN,PY-2224B,SIGNAL,SIGNAL,0%
+2000-02,IN,PY-2224C,SIGNAL,SIGNAL,0%
 2000-04,IN,PY-2372A,SIGNAL,SIGNAL,0%
 2000-04,IN,PY-2372B,SIGNAL,SIGNAL,0%
 2000-04,IN,PY-2372C,SIGNAL,SIGNAL,0%
@@ -19039,8 +19039,8 @@ LS-04,EL,S44,Switch,One Pole Switch Surface Mounted- WP,Done
 3000-01,IN,SAHH-30106A,PKG,PKG,Exception(Pending)
 3000-01,IN,SAHH-30106B,PKG,PKG,Exception(Pending)
 3000-01,IN,SAHH-30106C,PKG,PKG,Exception(Pending)
-2000-02,IN,SC-2119,SIGNAL,SIGNAL,
-2000-02,IN,SC-2167,SIGNAL,SIGNAL,
+2000-02,IN,SC-2119,SIGNAL,SIGNAL,0%
+2000-02,IN,SC-2167,SIGNAL,SIGNAL,0%
 4000-04,IN,SC-7213(NA),CABLE,CABLE(NA),0%
 4000-04,IN,SC-7213(SC),Instrument(SC),Instrument(SC),0%
 4000-04,IN,SC-7216(NA),CABLE,CABLE(NA),0%
@@ -19241,10 +19241,10 @@ FGS-09,IN,SF4-0101,Fire Alarm,Fire Alarm(SF4),0%
 4000-06,IN,SG-7503,Instrument(SG),Instrument(SG),0%
 2000-02,IN,SI-20103,Instrument(SI),Instrument(SI),0%
 2000-02,IN,SI-20153,Instrument(SI),Instrument(SI),0%
-2000-02,IN,SI-2118,SIGNAL,SIGNAL,
+2000-02,IN,SI-2118,SIGNAL,SIGNAL,0%
 2000-02,IN,SI-2119,Instrument(SI),Instrument(SI),0%
 2000-02,IN,SI-2167,Instrument(SI),Instrument(SI),0%
-2000-02,IN,SI-2168,SIGNAL,SIGNAL,
+2000-02,IN,SI-2168,SIGNAL,SIGNAL,0%
 3000-01,IN,SI-30103(SI),Instrument(SI),Instrument(SI),Exception(Pending)
 4000-04,IN,SI-70160A,Instrument(SI),Instrument(SI),0%
 4000-04,IN,SI-70160B,Instrument(SI),Instrument(SI),0%
@@ -20640,9 +20640,9 @@ BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor 
 4000-08,IN,TE-80233B,Instrument(TE),Instrument(TE),Done
 4000-11,IN,TG-0001,Instrument(TG),Instrument(TG),50%
 4000-08,IN,TG-0002,Instrument(TG),Instrument(TG),Done
-4000-06,IN,TG-0003,Instrument(TG),Instrument(TG),Exception(Pending)
+4000-06,IN,TG-0003,Instrument(TG),Instrument(TG),Done
 4000-06,IN,TG-0004,Instrument(TG),Instrument(TG),Exception(Pending)
-4000-06,IN,TG-0005,Instrument(TG),Instrument(TG),Exception(Pending)
+4000-06,IN,TG-0005,Instrument(TG),Instrument(TG),Done
 1000-04,IN,TG-10001,Instrument(TG),Instrument(TG),0%
 1000-04,IN,TG-10002,Instrument(TG),Instrument(TG),0%
 1000-04,IN,TG-10003,Instrument(TG),Instrument(TG),0%
@@ -20715,8 +20715,8 @@ BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor 
 2000-04,IN,TG-2404,Instrument(TG),Instrument(TG),Exception(Pending)
 2000-04,IN,TG-2405,Instrument(TG),Instrument(TG),Exception(Pending)
 2000-05,IN,TG-2453,Instrument(TG),Instrument(TG),Exception(Pending)
-4000-06,IN,TG-2454,Instrument(TG),Instrument(TG),Exception(Pending)
-4000-06,IN,TG-2456,Instrument(TG),Instrument(TG),Exception(Pending)
+4000-06,IN,TG-2454,Instrument(TG),Instrument(TG),Done
+4000-06,IN,TG-2456,Instrument(TG),Instrument(TG),Done
 2000-05,IN,TG-2494,Instrument(TG),Instrument(TG),Exception(Pending)
 2000-06,IN,TG-2574,Instrument(TG),Instrument(TG),Done
 3000-01,IN,TG-30125,Instrument(TG),Instrument(TG),Exception(Pending)
@@ -20744,18 +20744,18 @@ BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor 
 3000-01,IN,TG-3022,Instrument(TG),Instrument(TG),Done
 4000-06,IN,TG-3026,Instrument(TG),Instrument(TG),Exception(Pending)
 3000-02,IN,TG-3051,Instrument(TG),Instrument(TG),Exception(Pending)
-3000-02,IN,TG-3074,Instrument(TG),Instrument(TG),Exception(Pending)
+3000-02,IN,TG-3074,Instrument(TG),Instrument(TG),Done
 3000-02,IN,TG-3075,Instrument(TG),Instrument(TG),Exception(Pending)
-3000-02,IN,TG-3078,Instrument(TG),Instrument(TG),Exception(Pending)
+3000-02,IN,TG-3078,Instrument(TG),Instrument(TG),Done
 3000-02,IN,TG-3079,Instrument(TG),Instrument(TG),Exception(Pending)
-3000-02,IN,TG-3082,Instrument(TG),Instrument(TG),Exception(Pending)
+3000-02,IN,TG-3082,Instrument(TG),Instrument(TG),Done
 4000-02,IN,TG-3083,Instrument(TG),Instrument(TG),Done
 3000-02,IN,TG-3085,Instrument(TG),Instrument(TG),Exception(Pending)
-3000-02,IN,TG-3086,Instrument(TG),Instrument(TG),Exception(Pending)
+3000-02,IN,TG-3086,Instrument(TG),Instrument(TG),Done
 3000-02,IN,TG-3088,Instrument(TG),Instrument(TG),Exception(Pending)
-3000-02,IN,TG-3089,Instrument(TG),Instrument(TG),Exception(Pending)
+3000-02,IN,TG-3089,Instrument(TG),Instrument(TG),Done
 3000-02,IN,TG-3091,Instrument(TG),Instrument(TG),Exception(Pending)
-3000-02,IN,TG-3092,Instrument(TG),Instrument(TG),Exception(Pending)
+3000-02,IN,TG-3092,Instrument(TG),Instrument(TG),Done
 3000-02,IN,TG-3115,Instrument(TG),Instrument(TG),Exception(Pending)
 3000-03,IN,TG-3143,Instrument(TG),Instrument(TG),Exception(Pending)
 3000-03,IN,TG-3146,Instrument(TG),Instrument(TG),Exception(Pending)
@@ -20875,7 +20875,7 @@ BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor 
 4000-05,IN,TG-7256,Instrument(TG),Instrument(TG),Done
 4000-05,IN,TG-7258,Instrument(TG),Instrument(TG),Done
 4000-05,IN,TG-7259,Instrument(TG),Instrument(TG),Done
-4000-06,IN,TG-7501,Instrument(TG),Instrument(TG),Exception(Pending)
+4000-06,IN,TG-7501,Instrument(TG),Instrument(TG),Done
 4000-06,IN,TG-7503,Instrument(TG),Instrument(TG),Exception(Pending)
 4000-06,IN,TG-7504,Instrument(TG),Instrument(TG),Exception(Pending)
 4000-06,IN,TG-75152,Instrument(TG),Instrument(TG),0%
@@ -20912,8 +20912,8 @@ BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor 
 4000-08,IN,TG-80172B,Instrument(TG),Instrument(TG),Done
 4000-08,IN,TG-8023,Instrument(TG),Instrument(TG),Done
 4000-08,IN,TG-8024,Instrument(TG),Instrument(TG),Done
-4000-06,IN,TG-8411,Instrument(TG),Instrument(TG),Exception(Pending)
-4000-06,IN,TG-8412,Instrument(TG),Instrument(TG),Exception(Pending)
+4000-06,IN,TG-8411,Instrument(TG),Instrument(TG),Done
+4000-06,IN,TG-8412,Instrument(TG),Instrument(TG),Done
 FGS-05,IN,TGD-0001(NA),CABLE,CABLE(NA),0%
 FGS-05,IN,TGD-0001(TGD),Fire Alarm,Fire Alarm(TGD),0%
 FGS-05,IN,TGD-0002(NA),CABLE,CABLE(NA),0%
@@ -22182,9 +22182,9 @@ FGS-01,IN,TGD-0022(TGD),Fire Alarm,Fire Alarm(TGD),0%
 4000-08,IN,TW-8024,Instrument(TW),Instrument(TW),Done
 4000-06,IN,TW-8411,Instrument(TW),Instrument(TW),Done
 4000-06,IN,TW-8412,Instrument(TW),Instrument(TW),Done
-2000-02,IN,TY-2221A,SIGNAL,SIGNAL,
-2000-02,IN,TY-2221B,SIGNAL,SIGNAL,
-2000-02,IN,TY-2221C,SIGNAL,SIGNAL,
+2000-02,IN,TY-2221A,SIGNAL,SIGNAL,0%
+2000-02,IN,TY-2221B,SIGNAL,SIGNAL,0%
+2000-02,IN,TY-2221C,SIGNAL,SIGNAL,0%
 2000-03,IN,TY-2305A,SIGNAL,SIGNAL,Exception(Pending)
 2000-03,IN,TY-2305B,SIGNAL,SIGNAL,Exception(Pending)
 2000-03,IN,TY-2305C,SIGNAL,SIGNAL,Exception(Pending)
@@ -23403,8 +23403,8 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 1000-03,IN,XAS-6066,I/O EL,I/O EL,0%
 1000-03,IN,XAS-6081,I/O EL,I/O EL,0%
 1000-03,IN,XAS-6086,I/O EL,I/O EL,0%
-4000-06,IN,XAS-7005,I/O EL,I/O EL,0%
-4000-06,IN,XAS-7006,I/O EL,I/O EL,0%
+4000-06,IN,XAS-7005,I/O EL,I/O EL,Done
+4000-06,IN,XAS-7006,I/O EL,I/O EL,Done
 4000-04,IN,XAS-70101A,I/O EL,I/O EL,0%
 4000-04,IN,XAS-70101B,I/O EL,I/O EL,0%
 4000-04,IN,XAS-70102A,I/O EL,I/O EL,0%
@@ -23431,7 +23431,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 4000-04,IN,XAS-7213,I/O EL,I/O EL,Done
 4000-04,IN,XAS-7216,I/O EL,I/O EL,Done
 4000-06,IN,XAS-7502A,I/O EL,I/O EL,0%
-4000-06,IN,XAS-7502B,I/O EL,I/O EL,0%
+4000-06,IN,XAS-7502B,I/O EL,I/O EL,Done
 4000-06,IN,XAS-7503A,I/O EL,I/O EL,0%
 4000-06,IN,XAS-7503B,I/O EL,I/O EL,0%
 4000-06,IN,XAS-7504,I/O EL,I/O EL,0%
