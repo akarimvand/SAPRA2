@@ -11,7 +11,7 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,152,64,426,192,234,107
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,53,3,182,130,52,57
 1000,1000-04,Gas Preparation,Gas Saturation,MES,6,0,0,0,0,0,0
-1000,1000-04,Gas Preparation,Gas Saturation,IN,80,0,0,0,0,0,0
+1000,1000-04,Gas Preparation,Gas Saturation,IN,80,27,34,67,0,67,0
 1000,1000-04,Gas Preparation,Gas Saturation,PI,1,0,0,0,0,0,0
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,185,0,2193,2019,174,2
 120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,281,49,3541,3238,303,31
@@ -141,7 +141,7 @@
 7000,7000-01,Flare,Flare System (In Site),MES,2,2,0,8,0,8,0
 7000,7000-01,Flare,Flare System (In Site),PI,49,49,0,115,63,52,77
 BLD,BLD-01,Building,Substation,PI,4,4,0,6,3,3,9
-BLD,BLD-01,Building,Substation,BD,14,14,0,63,41,22,0
+BLD,BLD-01,Building,Substation,BD,14,14,0,63,42,21,0
 BLD,BLD-02,Building,Control Building,PI,1,1,0,6,5,1,1
 BLD,BLD-02,Building,Control Building,BD,8,0,2,48,33,15,0
 BLD,BLD-03,Building,Laboratory,BD,14,0,0,0,0,0,0
