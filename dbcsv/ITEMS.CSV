@@ -9965,13 +9965,13 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-03,EL,EBC-FT8001A-HE-3,Power Cable B,Heater Safety Thermostat for FT8001A-HE-3,Done
 120-03,EL,EBC-FT8001A-MF-1,Power Cable B,Local Control Station- FT8001A-MF-1,Done
 120-02,EL,EBC-FT8001A-MP-1A,Power Cable B,Local Control Station- FT8001A-MP-1A,Done
-120-07,EL,EBC-FT8001A-MP-1B,Power Cable B,Local Control Station- FT8001A-MP-1B,33%
+120-07,EL,EBC-FT8001A-MP-1B,Power Cable B,Local Control Station- FT8001A-MP-1B,Done
 120-03,EL,EBC-FT8001B-HE-1,Power Cable B,Heater Safety Thermostat for FT8001B-HE-1,Done
 120-03,EL,EBC-FT8001B-HE-2,Power Cable B,Heater Safety Thermostat for FT8001B-HE-2,Done
 120-03,EL,EBC-FT8001B-HE-3,Power Cable B,Heater Safety Thermostat for FT8001B-HE-3,Done
 120-03,EL,EBC-FT8001B-MF-1,Power Cable B,Local Control Station- FT8001B-MF-1,Done
 120-02,EL,EBC-FT8001B-MP-1A,Power Cable B,Local Control Station- FT8001B-MP-1A,Done
-120-07,EL,EBC-FT8001B-MP-1B,Power Cable B,Local Control Station- FT8001B-MP-1B,33%
+120-07,EL,EBC-FT8001B-MP-1B,Power Cable B,Local Control Station- FT8001B-MP-1B,Done
 120-05,EL,EBC-MAE-2026-01,Power Cable B,Local Control Station- MAE-2026-01,Done
 120-05,EL,EBC-MAE-2026-01_VS,Power Cable B,Vibration Switch- MAE-2026-01/VS,0%
 120-05,EL,EBC-MAE-2026-02,Power Cable B,Local Control Station- MAE-2026-02,Done
@@ -10234,7 +10234,7 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-02,EL,EBC-MP-2002B,Power Cable B,Local Control Station- MP-2002B,Done
 120-02,EL,EBC-MP-2003A,Power Cable B,Local Control Station- MP-2003A,Done
 120-02,EL,EBC-MP-2003B,Power Cable B,Local Control Station- MP-2003B,Done
-120-07,EL,EBC-MP-3001,Power Cable B,Local Control Station- MP-3001,33%
+120-07,EL,EBC-MP-3001,Power Cable B,Local Control Station- MP-3001,Done
 120-02,EL,EBC-MP-3011A,Power Cable B,Compressor Local Control Panel (Ammeter for MP-3011A),33%
 120-02,EL,EBC-MP-3011B,Power Cable B,Compressor Local Control Panel (Ammeter for MP-3011B),33%
 120-02,EL,EBC-MP-3012A,Power Cable B,Compressor Local Control Panel (Ammeter for MP-3012A),Done
@@ -10277,7 +10277,7 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,0%
 120-02,EL,EBC-MP-7070A,Power Cable B,Local Control Station- MP-7070A,33%
 120-02,EL,EBC-MP-7070B,Power Cable B,Local Control Station- MP-7070B,33%
 120-07,EL,EBC-MP-7101A,Power Cable B,Local Control Station- MP-7101A,33%
-120-07,EL,EBC-MP-7101B,Power Cable B,Local Control Station- MP-7101B,33%
+120-07,EL,EBC-MP-7101B,Power Cable B,Local Control Station- MP-7101B,Done
 120-03,EL,EBC-MP-7502A,Power Cable B,Local Control Station- MP-7502A,DONE
 120-03,EL,EBC-MP-7502B,Power Cable B,Local Control Station- MP-7502B,Done
 120-03,EL,EBC-MP-7503A,Power Cable B,Local Control Station- MP-7503A,Done
@@ -10752,8 +10752,8 @@ LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet 
 120-03,EL,EBP-MF-8001D_2,Power Cable B,Cooling Tower Fan- MF-8001D,Done
 120-03,EL,EBP-MF-8001D-SH,Power Cable B,Motor Space Heater- MF-8001D-SH,Done
 4000-08,EL,EBP-MF-8001D-SH_1,POWER CABLE A,CABLE(NA),Done
-120-07,EL,EBP-MOV-30101,Power Cable B,Motor Operated Valve- MOV-30101,33%
-120-07,EL,EBP-MOV-30103,Power Cable B,Motor Operated Valve- MOV-30103,33%
+120-07,EL,EBP-MOV-30101,Power Cable B,Motor Operated Valve- MOV-30101,Done
+120-07,EL,EBP-MOV-30103,Power Cable B,Motor Operated Valve- MOV-30103,Done
 120-07,EL,EBP-MOV-30105,Power Cable B,Motor Operated Valve- MOV-30105,33%
 120-07,EL,EBP-MOV-30107,Power Cable B,Motor Operated Valve- MOV-30107,33%
 120-07,EL,EBP-MOV-HV1003,Power Cable B,Motor Operated Valve- MOV-HV1003,33%
@@ -10770,7 +10770,7 @@ LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet 
 120-02,EL,EBP-MP-2003A_2,Power Cable B,Process Condensate Pump No 3- MP-2003A,Done
 120-02,EL,EBP-MP-2003B_1,Power Cable B,Process Condensate Pump No 3- MP-2003B,Done
 120-02,EL,EBP-MP-2003B_2,Power Cable B,Process Condensate Pump No 3- MP-2003B,Done
-120-07,EL,EBP-MP-3001,Power Cable B,Slops Methanol Pump- MP-3001,33%
+120-07,EL,EBP-MP-3001,Power Cable B,Slops Methanol Pump- MP-3001,Done
 120-02,EL,EBP-MP-3011A,Power Cable B,Main Turbine Condensate Pump for C3001- MP-3011A,DONE
 120-02,EL,EBP-MP-3011B,Power Cable B,Main Turbine Condensate Pump for C3001- MP-3011B,Done
 120-02,EL,EBP-MP-3012A,Power Cable B,Main Lube Oil Pump  for C3001- MP-3012A,Done
@@ -10816,7 +10816,7 @@ LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet 
 120-02,EL,EBP-MP-5010B_2,Power Cable B,Excess Water Pump- MP-5010B,DONE
 120-02,EL,EBP-MP-5011A,Power Cable B,Steam Condensate Pump- MP-5011A,Done
 120-02,EL,EBP-MP-5011B,Power Cable B,Steam Condensate Pump- MP-5011B,DONE
-120-07,EL,EBP-MP-5012A,Power Cable B,Methanol Start Up Pump- MP-5012A,33%
+120-07,EL,EBP-MP-5012A,Power Cable B,Methanol Start Up Pump- MP-5012A,Done
 120-07,EL,EBP-MP-5012B,Power Cable B,Methanol Start Up Pump- MP-5012B,33%
 120-02,EL,EBP-MP-5070A,Power Cable B,NaOH Solution Dosing Pump- MP-5070A,33%
 120-02,EL,EBP-MP-5070B,Power Cable B,NaOH Solution Dosing Pump- MP-5070B,33%
@@ -10848,7 +10848,7 @@ LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet 
 120-02,EL,EBP-MP-7070A,Power Cable B,Oxygen Scavenger Dosing Pump- MP-7070A,33%
 120-02,EL,EBP-MP-7070B,Power Cable B,Oxygen Scavenger Dosing Pump- MP-7070B,33%
 120-07,EL,EBP-MP-7101A,Power Cable B,Flare Knock-out Drum Pump- MP-7101A,33%
-120-07,EL,EBP-MP-7101B,Power Cable B,Flare Knock-out Drum Pump- MP-7101B,33%
+120-07,EL,EBP-MP-7101B,Power Cable B,Flare Knock-out Drum Pump- MP-7101B,67%
 120-03,EL,EBP-MP-7502A,Power Cable B,Caustic Transfer Pump- MP-7502A,DONE
 120-03,EL,EBP-MP-7502B,Power Cable B,Caustic Transfer Pump- MP-7502B,Done
 120-03,EL,EBP-MP-7503A,Power Cable B,Sulfuric Acid Transfer Pump- MP-7503A,Done
