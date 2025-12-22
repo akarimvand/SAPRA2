@@ -54,7 +54,7 @@
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,21,7,14,0
 2000,2000-06,Reforming,Nitrogen Circuit,IN,114,25,30,231,164,67,13
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,1,0,0,0,0
-3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,4,1,23,0,23,0
+3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,4,1,27,0,27,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,832,234,0,764,576,188,21
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,36,0,75,48,27,12
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,3,8,0,8,0
@@ -141,7 +141,7 @@
 7000,7000-01,Flare,Flare System (In Site),MES,2,2,0,8,0,8,0
 7000,7000-01,Flare,Flare System (In Site),PI,49,49,0,115,63,52,77
 BLD,BLD-01,Building,Substation,PI,4,4,0,6,3,3,9
-BLD,BLD-01,Building,Substation,BD,14,14,0,63,38,25,0
+BLD,BLD-01,Building,Substation,BD,14,14,0,63,41,22,0
 BLD,BLD-02,Building,Control Building,PI,1,1,0,6,5,1,1
 BLD,BLD-02,Building,Control Building,BD,8,0,2,48,33,15,0
 BLD,BLD-03,Building,Laboratory,BD,14,0,0,0,0,0,0
