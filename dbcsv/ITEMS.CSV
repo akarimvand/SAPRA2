@@ -5903,7 +5903,7 @@ LS-11,EL,AWLP3(LS-11),PANEL(EL),Aircraft Warning Light Control Panel,0%
 120-13,EL,BD-VB-7004,Cathodic Protection,Valve Box Cable Size :1x16mm2,DONE
 120-13,EL,BD-VB-7006_1,Cathodic Protection,Valve Box Cable Size :1x16mm2,DONE
 120-13,EL,BD-VB-7006_2,Cathodic Protection,Valve Box Cable Size :1x16mm2,DONE
-BLD-02,BD,Beams & Slab(BLD-02),03-Beams & Slab,Beam and slab installation,0%
+BLD-02,BD,Beams & Slab(BLD-02),03-Beams & Slab,Beam and slab installation,Done
 BLD-07,BD,Beams & Slab(BLD-07),03-Beams & Slab,Beams & Slab,Done
 BLD-01,BD,Beams & Slab(First Floor BLD-01),03-Beams & Slab,Beams & Slab(First Floor BLD-01),Done
 BLD-03,BD,Beams & Slab(First Floor BLD-03),03-Beams & Slab,Beams & Slab(First Floor BLD-03),0%
@@ -5926,7 +5926,7 @@ BLD-02,PI,BLD-02-IG55-01-986,PI_TP,PIPING TEST PACKAGE,DONE
 120-02,EL,C2001-MF-2,Local_Control_Station,Local Control Station- C2001-MF-2,0%
 3000-04,MER,C-2002,Compressor,Hydrogen recycle compressor,86%
 3000-01,MER,C-3001,Compressor(B),Synthesis compressor,77%
-BLD-02,BD,Column & Walls(BLD-02),02-Column & Walls,Structural columns and wall building,0%
+BLD-02,BD,Column & Walls(BLD-02),02-Column & Walls,Structural columns and wall building,Done
 BLD-07,BD,Column & Walls(BLD-07),02-Column & Walls,Column & Walls,Done
 BLD-01,BD,Column & Walls(First Floor BLD-01),02-Column & Walls,Column & Walls(First Floor BLD-01),Done
 BLD-03,BD,Column & Walls(First Floor BLD-03),02-Column & Walls,Column & Walls(First Floor BLD-03),0%
@@ -12630,7 +12630,7 @@ BLD-03,BD,final Architecture(External works BLD-03),07-Final Architecture(Extern
 BLD-04,BD,final Architecture(External works BLD-04),07-Final Architecture(External),The final Architecture(External works of Building BLD-04),17%
 BLD-05,BD,final Architecture(External works BLD-05),07-Final Architecture(External),The final Architecture(External works of Building BLD-05),0%
 BLD-06,BD,final Architecture(External works BLD-06),07-Final Architecture(External),The final Architecture(External works of Building BLD-06),Done
-BLD-02,BD,Final Architecture(External),07-Final Architecture(External),Final finishes like Brick Facing  and Walkway,0%
+BLD-02,BD,Final Architecture(External),07-Final Architecture(External),Final finishes like Brick Facing  and Walkway,50%
 BLD-01,BD,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),The final Architecture(First Floor BLD-01),Done
 BLD-03,BD,final Architecture(First Floor BLD-03),06-Final Architecture(Internal),The final Architecture(First Floor BLD-03),0%
 BLD-04,BD,final Architecture(First Floor BLD-04),06-Final Architecture(Internal),The final Architecture(First Floor BLD-04),50%
@@ -12797,7 +12797,7 @@ FGS-02,IN,FLD-0028(NA),CABLE,CABLE(NA),0%
 4000-06,IN,FO-7504,Instrument(FO),Instrument(FO),Exception(Pending)
 4000-08,IN,FO-8001,Instrument(FO),Instrument(FO),Done
 BLD-01,BD,Foundation(BLD-01),01-Foundation,Foundation(BLD-01),Done
-BLD-02,BD,Foundation(BLD-02),01-Foundation,Base and footing construction,14%
+BLD-02,BD,Foundation(BLD-02),01-Foundation,Base and footing construction,Done
 BLD-03,BD,Foundation(BLD-03),01-Foundation,Foundation(BLD-03),0%
 BLD-04,BD,Foundation(BLD-04),01-Foundation,Foundation(BLD-04),0%
 BLD-05,BD,Foundation(BLD-05),01-Foundation,Foundation(BLD-05),0%
