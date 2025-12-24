@@ -55,8 +55,7 @@ const ICONS = {
         let displayedItemsInModal = []; // Added to store items currently shown in the modal
         let currentModalDataType = null; // 'items' or 'punch' or 'hold' or 'activities'
         let donutChartsInitialized = false; // Flag to track if donut charts have been initialized
-
-
+        
         const chartInstances = {
             overview: null,
             disciplines: {} // { disciplineName: chartInstance }
@@ -65,6 +64,10 @@ const ICONS = {
         let itemDetailsModal; // Added variable for item details modal instance
         let activitiesModal; // Added variable for activities modal instance
         let loadingModalInstance;
+        
+        // Make global variables accessible after modal initialization
+        window.processedData = processedData;
+        window.detailedItemsData = detailedItemsData;
 
         // --- DOM Elements ---
         const DOMElements = {
@@ -235,7 +238,7 @@ const ICONS = {
             const toastId = 'toast-' + Date.now();
             
             const toastHtml = `
-                <div class="toast toast-${type}" id="${toastId}" role="alert">
+                <div class="toast toast-${type} fade-in" id="${toastId}" role="alert">
                     <div class="toast-body d-flex align-items-center">
                         <i class="bi bi-${type === 'success' ? 'check-circle' : type === 'error' ? 'exclamation-triangle' : 'info-circle'} me-2"></i>
                         <span class="flex-grow-1">${message}</span>
@@ -263,6 +266,7 @@ const ICONS = {
             
             if (percent === 0) {
                 progressContainer.style.display = 'block';
+                progressContainer.className = 'progress mb-3 progress-enhanced';
                 progressBar.style.width = '0%';
             } else if (percent === 100) {
                 progressBar.style.width = '100%';
@@ -417,7 +421,41 @@ const ICONS = {
             }
         }
         
-        // Initialize Keyboard Shortcuts
+        // Perform search functionality
+        function performSearch(query) {
+            if (!query) {
+                renderSidebar();
+                updateMainContent();
+                return;
+            }
+            
+            // Filter data based on search query
+            const filteredData = allData.filter(item => {
+                return item.System?.toLowerCase().includes(query) ||
+                       item.SubSystem?.toLowerCase().includes(query) ||
+                       item.TagNo?.toLowerCase().includes(query) ||
+                       item.Description?.toLowerCase().includes(query) ||
+                       item.Discipline?.toLowerCase().includes(query);
+            });
+            
+            // Update sidebar with filtered results
+            renderSidebar(filteredData);
+            
+            // Update main content with filtered data
+            updateMainContent(filteredData);
+            
+            // Show search results count
+            showSearchResults(filteredData.length, query);
+        }
+        
+        // Show search results notification
+        function showSearchResults(count, query) {
+            const message = count > 0 ? 
+                `Found ${count} result${count !== 1 ? 's' : ''} for "${query}"` :
+                `No results found for "${query}"`;
+            
+            showToast(message, count > 0 ? 'success' : 'warning');
+        }
         function initKeyboardShortcuts() {
             document.addEventListener('keydown', (e) => {
                 // Ctrl+E: Export
@@ -514,9 +552,19 @@ function initModals() {
         keyboard: false,
         backdrop: 'static'
      });
+     
+     // Make global functions accessible after modal initialization
+     window.loadActivitiesForTag = loadActivitiesForTag;
+     window.activitiesModal = activitiesModal;
+     
+     // Add enhanced classes to modals
+     document.getElementById('itemDetailsModal').classList.add('modal-enhanced');
+     document.getElementById('activitiesModal').classList.add('modal-enhanced');
+     
      // Get reference to the export button inside the modal
     const exportDetailsExcelBtn = document.getElementById('exportDetailsExcelBtn');
      if (exportDetailsExcelBtn) {
+         exportDetailsExcelBtn.classList.add('btn-enhanced', 'btn-export');
          exportDetailsExcelBtn.addEventListener('click', handleDetailsExport);
      }
      
@@ -529,6 +577,7 @@ function initModals() {
      // Add print modal button listener
      const printModalBtn = document.getElementById('printModalBtn');
      if (printModalBtn) {
+         printModalBtn.classList.add('btn-enhanced', 'btn-print');
          printModalBtn.addEventListener('click', printModal);
      }
 }
@@ -548,16 +597,46 @@ function initModals() {
                 DOMElements.sidebarToggle.setAttribute('aria-expanded', 'false');
             });
 
-            // Debounced search
+            // Enhanced search functionality
             let searchTimeout;
             DOMElements.searchInput.addEventListener('input', (e) => {
                 clearTimeout(searchTimeout);
+                const query = e.target.value.toLowerCase().trim();
+                
+                // Show loading state
+                if (query.length > 0) {
+                    DOMElements.searchInput.classList.add('searching');
+                }
+                
                 searchTimeout = setTimeout(() => {
-                    searchTerm = e.target.value.toLowerCase();
-                    renderSidebar();
+                    searchTerm = query;
+                    performSearch(query);
+                    DOMElements.searchInput.classList.remove('searching');
                 }, 300);
             });
-             DOMElements.searchInput.setAttribute('aria-label', 'Search system or subsystem');
+            
+            // Clear search
+            const clearSearchBtn = document.querySelector('.clear-search');
+            if (clearSearchBtn) {
+                clearSearchBtn.addEventListener('click', () => {
+                    DOMElements.searchInput.value = '';
+                    searchTerm = '';
+                    performSearch('');
+                    DOMElements.searchInput.focus();
+                });
+            }
+            
+            // Search on Enter key
+            DOMElements.searchInput.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    const query = e.target.value.toLowerCase().trim();
+                    searchTerm = query;
+                    performSearch(query);
+                }
+            });
+            
+            DOMElements.searchInput.setAttribute('aria-label', 'Search system or subsystem');
 
 
             DOMElements.exportExcelBtn.addEventListener('click', handleExport);
@@ -922,7 +1001,8 @@ function filterDetailedItems(context) {
                     filtered = filtered.filter(item =>
                         item.SD_Sub_System && item.SD_Sub_System.trim().toLowerCase() === selectedView.id.toLowerCase()
                     );
-                    modalTitle = `Punch Items in Subsystem: ${selectedView.name}`;
+                    const subsystemName = processedData.subSystemMap[selectedView.id]?.name || selectedView.name;
+                    modalTitle = `Punch Items in ${selectedView.id}<br><small style="color: #6c757d;">${subsystemName}</small>`;
                 } else { // 'all' view
                     modalTitle = 'Punch Items (All Systems)';
                 }
@@ -936,7 +1016,8 @@ function filterDetailedItems(context) {
                     item.SD_Sub_System && item.SD_Sub_System.trim().toLowerCase() === clickedSubsystem &&
                     item.Discipline_Name && item.Discipline_Name.trim().toLowerCase() === clickedDiscipline
                 );
-                modalTitle = `Punch Items in ${rowData.subsystem.split(' - ')[0]} / ${rowData.discipline}`;
+                const subsystemName = processedData.subSystemMap[clickedSubsystem.toUpperCase()]?.name || 'N/A';
+                modalTitle = `Punch Items in ${rowData.subsystem.split(' - ')[0]}<br><small style="color: #6c757d;">${subsystemName}</small> / ${rowData.discipline}`;
             }
 
             // Additional filtering to ensure we have valid data
@@ -944,7 +1025,7 @@ function filterDetailedItems(context) {
                 item.SD_Sub_System && item.Discipline_Name && item.ITEM_Tag_NO && item.PL_Punch_Category
             );
 
-            document.getElementById('itemDetailsModalLabel').textContent = modalTitle;
+            document.getElementById('itemDetailsModalLabel').innerHTML = modalTitle;
             return filtered;
         }
 
@@ -995,11 +1076,11 @@ function filterDetailedItems(context) {
             // Define headers based on data type
             let headers = [];
             if (dataType === 'items') {
-                headers = ['#', 'Subsystem', 'Discipline', 'Tag No', 'Type', 'Description', 'Status'];
+                headers = ['#', 'Subsystem<br><small>Subsystem Name</small>', 'Discipline', 'Tag No', 'Type', 'Description', 'Status'];
             } else if (dataType === 'punch') {
-                headers = ['#', 'Subsystem', 'Discipline', 'Tag No', 'Type', 'Category', 'Description', 'PL No'];
+                headers = ['#', 'Subsystem<br><small>Subsystem Name</small>', 'Discipline', 'Tag No', 'Type', 'Category', 'Description', 'PL No'];
             } else if (dataType === 'hold') {
-                headers = ['#', 'Subsystem', 'Discipline', 'Tag No', 'Type', 'HP Priority', 'HP Description', 'HP Location'];
+                headers = ['#', 'Subsystem<br><small>Subsystem Name</small>', 'Discipline', 'Tag No', 'Type', 'HP Priority', 'HP Description', 'HP Location'];
             }
 
             // Update table headers
@@ -1028,7 +1109,7 @@ function filterDetailedItems(context) {
                     if (dataType === 'items') {
                          rowContent = `
                             <td style="word-wrap: break-word; white-space: normal;">${index + 1}</td>
-                            <td style="word-wrap: break-word; white-space: normal;">${item.subsystem || 'N/A'}</td>
+                            <td style="word-wrap: break-word; white-space: normal;">${item.subsystem || 'N/A'}<br><small style="color: #6c757d;">${processedData.subSystemMap[item.subsystem]?.name || 'N/A'}</small></td>
                             <td style="word-wrap: break-word; white-space: normal;">${item.discipline || 'N/A'}</td>
                             <td style="word-wrap: break-word; white-space: normal;"><button class="btn btn-link btn-sm tag-no-btn" data-tag-no="${item.tagNo || 'N/A'}">${item.tagNo || 'N/A'}</button></td>
                             <td style="word-wrap: break-word; white-space: normal;">${item.typeCode || 'N/A'}</td>
@@ -1045,7 +1126,7 @@ function filterDetailedItems(context) {
                         }
                         rowContent = `
                             <td style="word-wrap: break-word; white-space: normal;">${index + 1}</td>
-                            <td style="word-wrap: break-word; white-space: normal;">${item.SD_Sub_System || 'N/A'}</td>
+                            <td style="word-wrap: break-word; white-space: normal;">${item.SD_Sub_System || 'N/A'}<br><small style="color: #6c757d;">${processedData.subSystemMap[item.SD_Sub_System]?.name || 'N/A'}</small></td>
                             <td style="word-wrap: break-word; white-space: normal;">${item.Discipline_Name || 'N/A'}</td>
                             <td style="word-wrap: break-word; white-space: normal;"><button class="btn btn-link btn-sm tag-no-btn" data-tag-no="${item.ITEM_Tag_NO || 'N/A'}">${item.ITEM_Tag_NO || 'N/A'}</button></td>
                             <td style="word-wrap: break-word; white-space: normal;">${item.ITEM_Type_Code || 'N/A'}</td>
@@ -1056,7 +1137,7 @@ function filterDetailedItems(context) {
                     } else if (dataType === 'hold') {
                          rowContent = `
                              <td style="word-wrap: break-word; white-space: normal;">${index + 1}</td>
-                             <td style="word-wrap: break-word; white-space: normal;">${item.subsystem || 'N/A'}</td>
+                             <td style="word-wrap: break-word; white-space: normal;">${item.subsystem || 'N/A'}<br><small style="color: #6c757d;">${processedData.subSystemMap[item.subsystem]?.name || 'N/A'}</small></td>
                              <td style="word-wrap: break-word; white-space: normal;">${item.discipline || 'N/A'}</td>
                              <td style="word-wrap: break-word; white-space: normal;"><button class="btn btn-link btn-sm tag-no-btn" data-tag-no="${item.tagNo || 'N/A'}">${item.tagNo || 'N/A'}</button></td>
                              <td style="word-wrap: break-word; white-space: normal;">${item.typeCode || 'N/A'}</td>
@@ -1618,6 +1699,9 @@ function filterDetailedItems(context) {
                 summaryIframe.contentWindow.postMessage({type: 'sidebarSelection', view: selectedView}, '*');
             }
         }
+        
+        // Make handleNodeSelect globally accessible
+        window.handleNodeSelect = handleNodeSelect;
 
         function updateView() {
             aggregatedStats = _aggregateStatsForView(selectedView, processedData.systemMap, processedData.subSystemMap);
@@ -2048,9 +2132,9 @@ function filterDetailedItems(context) {
             if (tableData.length === 0) {
                 bodyHTML = `<tr><td colspan="${columns.length}" class="text-center py-5 text-muted">Please select a subsystem or system to view details, or no data matches the current filter.</td></tr>`;
             } else {
-                tableData.forEach(row => {
-                    bodyHTML += '<tr>';
-                    columns.forEach((col, index) => {
+                tableData.forEach((row, index) => {
+                    bodyHTML += `<tr class="fade-in" style="animation-delay: ${index * 0.05}s;">`;
+                    columns.forEach((col, colIndex) => {
                         let cellValue = row[col.accessor];
                          if (col.accessor === 'statusPercent') {
                             const badgeClass = row.statusPercent > 80 ? 'bg-success-subtle text-success' : row.statusPercent > 50 ? 'bg-info-subtle text-info' : 'bg-warning-subtle text-warning';
@@ -2069,13 +2153,27 @@ function filterDetailedItems(context) {
                         } else {
                             cellValue = (typeof cellValue === 'number') ? cellValue.toLocaleString() : cellValue;
                         }
-                        const cellTag = index === 0 ? `<th scope="row">${cellValue}</th>` : `<td>${cellValue}</td>`;
+                        const cellTag = colIndex === 0 ? `<th scope="row">${cellValue}</th>` : `<td>${cellValue}</td>`;
                         bodyHTML += cellTag;
                     });
                     bodyHTML += '</tr>';
                 });
             }
             DOMElements.dataTableBody.innerHTML = bodyHTML;
+            
+            // Add enhanced class to table
+            const table = document.getElementById('dataTable');
+            if (table) {
+                table.classList.add('table-enhanced');
+            }
+            
+            // Add enhanced classes to action buttons
+            document.getElementById('exportMainTableBtn')?.classList.add('btn-enhanced', 'btn-export');
+            document.getElementById('printMainTableBtn')?.classList.add('btn-enhanced', 'btn-print');
+            document.getElementById('clearAllFiltersBtn')?.classList.add('btn-enhanced');
+            document.getElementById('refreshDataBtn')?.classList.add('btn-enhanced', 'btn-refresh');
+            document.getElementById('exportExcelBtn')?.classList.add('btn-enhanced', 'btn-export');
+            document.getElementById('downloadAllBtn')?.classList.add('btn-enhanced');
             
             // Render Mobile Cards
             renderMobileCards(tableData);
@@ -3005,41 +3103,41 @@ function filterDetailedItems(context) {
                 const formStatusIcon = row.formStatus ? `<span class="status-indicator-icon status-${row.formStatus.toLowerCase()}" title="Status: ${row.formStatus}">${row.formStatus}</span>` : '<span class="text-muted">-</span>';
                 
                 cardsHTML += `
-                    <div class="data-card" data-row-index="${index}">
-                        <div class="data-card-header">
+                    <div class="mobile-card fade-in" data-row-index="${index}" style="animation-delay: ${index * 0.1}s;">
+                        <div class="mobile-card-header">
                             ${row.subsystem} - ${row.discipline}
                         </div>
-                        <div class="data-card-content">
-                            <div class="data-card-row">
-                                <span class="data-card-label">System:</span>
-                                <span class="data-card-value">${row.system}</span>
+                        <div class="mobile-card-content">
+                            <div class="mobile-card-row">
+                                <span class="mobile-card-label">System:</span>
+                                <span class="mobile-card-value">${row.system}</span>
                             </div>
-                            <div class="data-card-row">
-                                <span class="data-card-label">Form:</span>
-                                <span class="data-card-value">${formStatusIcon}</span>
+                            <div class="mobile-card-row">
+                                <span class="mobile-card-label">Form:</span>
+                                <span class="mobile-card-value">${formStatusIcon}</span>
                             </div>
-                            <div class="data-card-row">
-                                <span class="data-card-label">Total:</span>
-                                <span class="data-card-value clickable" data-type="total" data-row="${index}">${row.totalItems.toLocaleString()}</span>
+                            <div class="mobile-card-row">
+                                <span class="mobile-card-label">Total:</span>
+                                <span class="mobile-card-value clickable" data-type="total" data-row="${index}">${row.totalItems.toLocaleString()}</span>
                             </div>
-                            <div class="data-card-row">
-                                <span class="data-card-label">Completed:</span>
-                                <span class="data-card-value clickable" data-type="completed" data-row="${index}">${row.completed.toLocaleString()}</span>
+                            <div class="mobile-card-row">
+                                <span class="mobile-card-label">Completed:</span>
+                                <span class="mobile-card-value clickable" data-type="completed" data-row="${index}">${row.completed.toLocaleString()}</span>
                             </div>
-                            <div class="data-card-row">
-                                <span class="data-card-label">Pending:</span>
-                                <span class="data-card-value clickable" data-type="pending" data-row="${index}">${row.pending.toLocaleString()}</span>
+                            <div class="mobile-card-row">
+                                <span class="mobile-card-label">Pending:</span>
+                                <span class="mobile-card-value clickable" data-type="pending" data-row="${index}">${row.pending.toLocaleString()}</span>
                             </div>
-                            <div class="data-card-row">
-                                <span class="data-card-label">Punch:</span>
-                                <span class="data-card-value clickable" data-type="punch" data-row="${index}">${row.punch.toLocaleString()}</span>
+                            <div class="mobile-card-row">
+                                <span class="mobile-card-label">Punch:</span>
+                                <span class="mobile-card-value clickable" data-type="punch" data-row="${index}">${row.punch.toLocaleString()}</span>
                             </div>
                             <div class="data-card-row">
                                 <span class="data-card-label">Hold:</span>
                                 <span class="data-card-value clickable" data-type="hold" data-row="${index}">${row.holdPoint.toLocaleString()}</span>
                             </div>
-                            <div class="data-card-row">
-                                <span class="data-card-label">Status:</span>
+                            <div class="mobile-card-row">
+                                <span class="mobile-card-label">Status:</span>
                                 <span class="badge ${statusBadgeClass} rounded-pill" style="font-size: 0.65rem;">${row.statusPercent}%</span>
                             </div>
                         </div>
