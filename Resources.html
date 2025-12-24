@@ -644,8 +644,10 @@
   <script>
     class FileManagerPro {
       constructor() {
-        this.API_BASE = './'; // Use local directory instead of GitHub API
-        this.currentPath = '';
+        this.API_BASE = 'https://api.github.com/repos/akarimvand/SAPRA2/contents';
+        this.history = ['Resource'];
+        this.currentIndex = 0;
+        this.currentPath = 'Resource';
         this.searchTerm = '';
         this.sortBy = 'name';
         this.sortOrder = 'asc';
@@ -698,18 +700,14 @@
         this.updateNavigationButtons();
 
         try {
-          // For local directory, we'll show a simple file listing
-          const items = [
-            { name: 'dbcsv', type: 'dir', path: 'dbcsv' },
-            { name: 'docs', type: 'dir', path: 'docs' },
-            { name: 'images', type: 'dir', path: 'images' },
-            { name: 'pages', type: 'dir', path: 'pages' },
-            { name: 'main.js', type: 'file', path: 'main.js', size: 50000, download_url: './main.js' },
-            { name: 'main.css', type: 'file', path: 'main.css', size: 25000, download_url: './main.css' },
-            { name: 'index.html', type: 'file', path: 'index.html', size: 15000, download_url: './index.html' },
-            { name: 'main.html', type: 'file', path: 'main.html', size: 20000, download_url: './main.html' }
-          ];
+          const url = `${this.API_BASE}/${encodeURIComponent(path)}`;
+          const response = await fetch(url);
           
+          if (!response.ok) {
+            throw new Error(`Loading error: ${response.status}`);
+          }
+
+          const items = await response.json();
           this.renderFiles(items);
           this.updateStats(items);
           this.currentPath = path;
