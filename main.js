@@ -13,7 +13,7 @@ const GITHUB_BASE_URL = "dbcsv/";
 const CSV_URL = GITHUB_BASE_URL + "DATA.CSV";
 const ITEMS_CSV_URL = GITHUB_BASE_URL + "ITEMS.CSV";
 const PUNCH_CSV_URL = GITHUB_BASE_URL + "PUNCH.CSV";
-const HOLD_POINT_CSV_URL = GITHUB_BASE_URL + "HOLD_POINT.CSV";
+
 const ACTIVITIES_CSV_URL = GITHUB_BASE_URL + "ACTIVITES.CSV";
 
 const COLORS_STATUS_CHARTJS = {
@@ -44,16 +44,16 @@ const ICONS = {
         let processedData = { systemMap: {}, subSystemMap: {}, allRawData: [] };
         let selectedView = { type: 'all', id: 'all', name: 'All Systems' };
         let searchTerm = '';
-        let aggregatedStats = { totalItems: 0, done: 0, pending: 0, punch: 0, hold: 0, remaining: 0 };
+        let aggregatedStats = { totalItems: 0, done: 0, pending: 0, punch: 0, remaining: 0 };
         let detailedItemsData = []; // Added global variable for detailed items data
         let punchItemsData = []; // Added global variable for punch items data
-        let holdPointItemsData = []; // Added global variable for hold point items data
+
         let activitiesData = []; // Added global variable for activities data (loaded on demand)
         let activitiesLoaded = false; // Flag to track if activities data has been loaded
         let hosData = []; // Full HOS data for modal
         let subsystemStatusMap = {}; // To store the status from HOS.CSV
         let displayedItemsInModal = []; // Added to store items currently shown in the modal
-        let currentModalDataType = null; // 'items' or 'punch' or 'hold' or 'activities'
+        let currentModalDataType = null; // 'items' or 'punch' or 'activities'
         let donutChartsInitialized = false; // Flag to track if donut charts have been initialized
 
 
@@ -142,7 +142,7 @@ const ICONS = {
             console.log('aggregatedStats:', aggregatedStats);
             console.log('detailedItemsData length:', detailedItemsData.length);
             console.log('punchItemsData length:', punchItemsData.length);
-            console.log('holdPointItemsData length:', holdPointItemsData.length);
+
             console.log('hosData length:', hosData.length);
             console.log('subsystemStatusMap:', subsystemStatusMap);
             
@@ -156,7 +156,7 @@ const ICONS = {
                 mainDataLoaded: Object.keys(processedData.systemMap || {}).length > 0,
                 detailedItemsLoaded: detailedItemsData.length > 0,
                 punchItemsLoaded: punchItemsData.length > 0,
-                holdItemsLoaded: holdPointItemsData.length > 0,
+
                 hosDataLoaded: hosData.length > 0
             };
         };
@@ -191,7 +191,7 @@ const ICONS = {
             processedData = { systemMap: {}, subSystemMap: {}, allRawData: [] };
             detailedItemsData = [];
             punchItemsData = [];
-            holdPointItemsData = [];
+
             hosData = [];
             subsystemStatusMap = {};
             activitiesData = [];
@@ -694,8 +694,8 @@ function filterModalTable() {
         function handleDetailsClick(e) {
             let target = e.target;
             let statusType = null;
-            let filterContext = null; // { type: 'summary', status: 'DONE' } or { type: 'table', rowData: {...}, status: 'PUNCH' } or { type: 'table', rowData: {...}, status: 'HOLD' }
-             let dataType = null; // 'items' or 'punch' or 'hold'
+            let filterContext = null; // { type: 'summary', status: 'DONE' } or { type: 'table', rowData: {...}, status: 'PUNCH' }
+             let dataType = null; // 'items' or 'punch'
 
             // Check if click is on the total items counter badge (removed, now handled by new card)
 
@@ -718,16 +718,10 @@ function filterModalTable() {
                     // Check if clicked on the Punch or Hold Point counts in the Issues card
                      if (title === 'Issues') {
                          const punchCountElement = cardBody.querySelector('.row.g-2 .col-6:first-child h4');
-                         const holdCountElement = cardBody.querySelector('.row.g-2 .col-6:last-child h4');
-
                          if (target === punchCountElement || punchCountElement.contains(target)) {
                              statusType = 'PUNCH';
                              dataType = 'punch';
-                         } else if (target === holdCountElement || holdCountElement.contains(target)) {
-                             statusType = 'HOLD';
-                             dataType = 'hold'; // Set data type to 'hold' for hold points
                          }
-                     }
 
                     if (statusType) {
                         filterContext = { type: 'summary', status: statusType };
@@ -749,7 +743,6 @@ function filterModalTable() {
                              if (headerText === 'Completed') { statusType = 'DONE'; dataType = 'items'; }
                              else if (headerText === 'Pending') { statusType = 'PENDING'; dataType = 'items'; }
                              else if (headerText === 'Punch') { statusType = 'PUNCH'; dataType = 'punch'; }
-                             else if (headerText === 'Hold Point') { statusType = 'HOLD'; dataType = 'hold'; } // Set data type to 'hold' for hold points
                              else if (headerText === 'Status') { statusType = 'OTHER'; dataType = 'items'; }
                              else if (headerText === 'Total Items') { statusType = 'TOTAL'; dataType = 'items'; }
 
@@ -758,7 +751,7 @@ function filterModalTable() {
                                  const rowData = {};
                                  Array.from(tableRow.children).forEach((cell, idx) => {
                                      // Use the correct accessor names from renderDataTable
-                                      const accessorMap = ['system', 'subsystem', 'formStatus', 'discipline', 'totalItems', 'completed', 'pending', 'punch', 'holdPoint', 'statusPercent'];
+                                      const accessorMap = ['system', 'subsystem', 'formStatus', 'discipline', 'totalItems', 'completed', 'pending', 'punch', 'statusPercent'];
                                       if (accessorMap[idx]) {
                                           rowData[accessorMap[idx]] = cell.textContent.trim();
                                       }
@@ -784,12 +777,7 @@ function filterModalTable() {
                          dataToDisplay = filterPunchItems(filterContext);
                          dataLoaded = true;
                      }
-                 } else if (dataType === 'hold') { // Handle 'hold' data type
-                     if (holdPointItemsData.length > 0) {
-                         dataToDisplay = filterHoldItems(filterContext);
-                         dataLoaded = true;
-                     }
-                 }
+
 
                  if (dataLoaded) {
                     populateDetailsModal(dataToDisplay, filterContext, dataType);
@@ -858,8 +846,6 @@ function filterDetailedItems(context) {
                 filtered = filtered.filter(item =>
                     !item.status || (item.status.toLowerCase() !== 'done' && !isPendingStatus(item.status))
                 );
-            } else if (context.status === 'HOLD') {
-                filtered = filtered.filter(item => item.status && item.status.toLowerCase() === 'hold');
             } else if (context.status === 'PENDING') {
                 filtered = filtered.filter(item => isPendingStatus(item.status));
             } else {
@@ -948,42 +934,7 @@ function filterDetailedItems(context) {
             return filtered;
         }
 
-        function filterHoldItems(context) {
-             let filtered = holdPointItemsData;
-             let modalTitle = 'Hold Point Details';
 
-             if (context.type === 'summary') {
-                  // Filter based on current selected view (case-insensitive subsystem)
-                 if (selectedView.type === 'system' && selectedView.id) {
-                     const subSystemIds = processedData.systemMap[selectedView.id]?.subs.map(sub => sub.id.toLowerCase()) || []; // Convert subSystemIds to lower case
-                     filtered = filtered.filter(item => item.subsystem.toLowerCase() && subSystemIds.includes(item.subsystem.toLowerCase())); // Convert item.subsystem to lower case
-                     modalTitle = `Hold Point Items in System: ${selectedView.name}`;
-                 } else if (selectedView.type === 'subsystem' && selectedView.id) {
-                     filtered = filtered.filter(item => item.subsystem.toLowerCase() === selectedView.id.toLowerCase()); // Convert both to lower case
-                     modalTitle = `Hold Point Items in Subsystem: ${selectedView.name}`;
-                 } else { // 'all' view - no subsystem filter needed here
-                     modalTitle = 'Hold Point Items (All Systems)';
-                 }
-                // For hold point summary, status is always 'HOLD', no further filtering by status needed here.
-
-             } else if (context.type === 'table') {
-                 const rowData = context.rowData;
-                // Filter by Subsystem and Discipline from the clicked row (case-insensitive)
-                 const clickedSubsystem = rowData.subsystem.split(' - ')[0].toLowerCase();
-                 const clickedDiscipline = rowData.discipline.toLowerCase();
-
-                 filtered = filtered.filter(item =>
-                     item.subsystem && item.subsystem.toLowerCase() === clickedSubsystem &&
-                     item.discipline && item.discipline.toLowerCase() === clickedDiscipline
-                 );
-                // For hold point table column, status is always 'HOLD', no further filtering by status needed here.
-
-                 modalTitle = `Hold Point Items in ${rowData.subsystem.split(' - ')[0]} / ${rowData.discipline}`;
-             }
-
-            document.getElementById('itemDetailsModalLabel').textContent = modalTitle;
-            return filtered;
-        }
 
         function populateDetailsModal(items, context, dataType) {
              const tbody = document.getElementById('itemDetailsTableBody');
@@ -998,9 +949,7 @@ function filterDetailedItems(context) {
                 headers = ['#', 'Subsystem', 'Discipline', 'Tag No', 'Type', 'Description', 'Status'];
             } else if (dataType === 'punch') {
                 headers = ['#', 'Subsystem', 'Discipline', 'Tag No', 'Type', 'Category', 'Description', 'PL No'];
-            } else if (dataType === 'hold') {
-                headers = ['#', 'Subsystem', 'Discipline', 'Tag No', 'Type', 'HP Priority', 'HP Description', 'HP Location'];
-            }
+
 
             // Update table headers
             const theadRow = document.getElementById('itemDetailsModalHeader');
@@ -1053,19 +1002,7 @@ function filterDetailedItems(context) {
                             <td style="word-wrap: break-word; white-space: normal; direction: rtl; text-align: right;">${item.PL_Punch_Description || 'N/A'}</td>
                             <td style="word-wrap: break-word; white-space: normal;">${item.PL_No || 'N/A'}</td>
                         `;
-                    } else if (dataType === 'hold') {
-                         rowContent = `
-                             <td style="word-wrap: break-word; white-space: normal;">${index + 1}</td>
-                             <td style="word-wrap: break-word; white-space: normal;">${item.subsystem || 'N/A'}</td>
-                             <td style="word-wrap: break-word; white-space: normal;">${item.discipline || 'N/A'}</td>
-                             <td style="word-wrap: break-word; white-space: normal;"><button class="btn btn-link btn-sm tag-no-btn" data-tag-no="${item.tagNo || 'N/A'}">${item.tagNo || 'N/A'}</button></td>
-                             <td style="word-wrap: break-word; white-space: normal;">${item.typeCode || 'N/A'}</td>
-                             <td style="word-wrap: break-word; white-space: normal;">${item.hpPriority || 'N/A'}</td>
-                             <td style="word-wrap: break-word; white-space: normal; direction: rtl; text-align: right;">${item.hpDescription || 'N/A'}</td>
-                             <td style="word-wrap: break-word; white-space: normal;">${item.hpLocation || 'N/A'}</td>
-                         `;
-                         rowClass = '';
-                    }
+
 
                     row.innerHTML = rowContent;
                      if (rowClass) {
@@ -1275,12 +1212,11 @@ function filterDetailedItems(context) {
             try {
                 console.log('Starting data loading process...');
                 
-                const [hosResults, dataResults, itemsResults, punchResults, holdResults] = await Promise.all([
+                const [hosResults, dataResults, itemsResults, punchResults] = await Promise.all([
                     fetchCsvData(GITHUB_BASE_URL + 'HOS.CSV'),
                     fetchCsvData(CSV_URL),
                     fetchCsvData(ITEMS_CSV_URL),
-                    fetchCsvData(PUNCH_CSV_URL),
-                    fetchCsvData(HOLD_POINT_CSV_URL)
+                    fetchCsvData(PUNCH_CSV_URL)
                 ]);
                 
                 clearTimeout(loadingTimeout); // Clear timeout on success
@@ -1309,7 +1245,7 @@ function filterDetailedItems(context) {
                     totalItems: aggregatedStats.totalItems,
                     detailedItems: detailedItemsData.length,
                     punchItems: punchItemsData.length,
-                    holdItems: holdPointItemsData.length,
+
                     hosRecords: hosData.length
                 });
                 
@@ -1351,7 +1287,6 @@ function filterDetailedItems(context) {
                     subSystemMap[subId].disciplines[discipline] = {
                         total, done, pending,
                         punch: parseInt(row["TOTAL NOT CLEAR PUNCH"]) || 0,
-                        hold: parseInt(row["TOTAL HOLD POINT"]) || 0,
                         remaining: Math.max(0, total - done - pending)
                     };
                 });
@@ -1373,13 +1308,7 @@ function filterDetailedItems(context) {
                 }));
                 console.log("Punch items data loaded:", punchItemsData.length, "items");
 
-                holdPointItemsData = holdResults.data.map(item => ({
-                    subsystem: item.SD_SUB_SYSTEM?.trim() || '', discipline: item.Discipline_Name?.trim() || '',
-                    tagNo: item.ITEM_Tag_NO?.trim() || '', typeCode: item.ITEM_Type_Code?.trim() || '',
-                    hpPriority: item.HP_Priority?.trim() || '', hpDescription: item.HP_Description?.trim() || '',
-                    hpLocation: item.HP_Location?.trim() || ''
-                }));
-                console.log("Hold point items data loaded:", holdPointItemsData.length, "items");
+
 
                 // Activities data will be loaded on demand (lazy loaded)
 
@@ -1707,13 +1636,9 @@ function filterDetailedItems(context) {
                                 <span class="icon-wrapper bg-danger-subtle text-danger" aria-hidden="true">${ICONS.ExclamationTriangle}</span>
                         </div>
                             <div class="row g-2">
-                                <div class="col-6">
+                                <div class="col-12">
                                     <p class="small text-muted mb-0">Punch</p>
                                     <h4 class="text-danger fw-semibold">${aggregatedStats.punch.toLocaleString()}</h4>
-                                </div>
-                                <div class="col-6">
-                                    <p class="small text-muted mb-0">Hold Point</p>
-                                    <h4 class="text-danger fw-semibold">${aggregatedStats.hold.toLocaleString()}</h4>
                                 </div>
                             </div>
                         </div>
@@ -1871,13 +1796,12 @@ function filterDetailedItems(context) {
                 Object.values(processedData.subSystemMap).forEach(subSystem => {
                     Object.entries(subSystem.disciplines).forEach(([disciplineName, data]) => {
                         if (!disciplineData[disciplineName]) {
-                            disciplineData[disciplineName] = { total: 0, done: 0, pending: 0, punch: 0, hold: 0, remaining: 0 };
+                            disciplineData[disciplineName] = { total: 0, done: 0, pending: 0, punch: 0, remaining: 0 };
                         }
                         disciplineData[disciplineName].total += data.total;
                         disciplineData[disciplineName].done += data.done;
                         disciplineData[disciplineName].pending += data.pending;
                         disciplineData[disciplineName].punch += data.punch;
-                        disciplineData[disciplineName].hold += data.hold;
                         disciplineData[disciplineName].remaining += data.remaining;
                     });
                 });
@@ -1890,13 +1814,12 @@ function filterDetailedItems(context) {
                         if (subSystem) {
                             Object.entries(subSystem.disciplines).forEach(([disciplineName, data]) => {
                                 if (!disciplineData[disciplineName]) {
-                                    disciplineData[disciplineName] = { total: 0, done: 0, pending: 0, punch: 0, hold: 0, remaining: 0 };
+                                    disciplineData[disciplineName] = { total: 0, done: 0, pending: 0, punch: 0, remaining: 0 };
                                 }
                                 disciplineData[disciplineName].total += data.total;
                                 disciplineData[disciplineName].done += data.done;
                                 disciplineData[disciplineName].pending += data.pending;
                                 disciplineData[disciplineName].punch += data.punch;
-                                disciplineData[disciplineName].hold += data.hold;
                                 disciplineData[disciplineName].remaining += data.remaining;
                             });
                         }
@@ -2020,7 +1943,7 @@ function filterDetailedItems(context) {
                 { header: 'System', accessor: 'system' }, { header: 'Subsystem', accessor: 'subsystem' }, { header: 'Form', accessor: 'formStatus' },
                 { header: 'Discipline', accessor: 'discipline' }, { header: 'Total Items', accessor: 'totalItems' },
                 { header: 'Completed', accessor: 'completed' }, { header: 'Pending', accessor: 'pending' },
-                { header: 'Punch', accessor: 'punch' }, { header: 'Hold Point', accessor: 'holdPoint' },
+                { header: 'Punch', accessor: 'punch' },
                 { header: 'Status', accessor: 'statusPercent' },
             ];
             DOMElements.dataTableHead.innerHTML = columns.map(col => `<th scope="col">${col.header}</th>`).join('');
@@ -2167,7 +2090,7 @@ function filterDetailedItems(context) {
         function filterMainTable() {
             const tbody = DOMElements.dataTableBody;
             const rows = tbody.querySelectorAll('tr');
-            const numericColumns = [4, 5, 6, 7, 8]; // Total Items, Completed, Pending, Punch, Hold Point
+            const numericColumns = [4, 5, 6, 7]; // Total Items, Completed, Pending, Punch
             
             rows.forEach(row => {
                 const cells = row.querySelectorAll('th, td');
@@ -2263,7 +2186,7 @@ function filterDetailedItems(context) {
         }
 
         // --- Data Aggregation (Adapted from dataAggregator.ts) ---
-        const _emptyStats = () => ({ totalItems: 0, done: 0, pending: 0, punch: 0, hold: 0, remaining: 0 });
+        const _emptyStats = () => ({ totalItems: 0, done: 0, pending: 0, punch: 0, remaining: 0 });
 
         function _aggregateStatsForSubSystem(subSystemId, subSystemMap) {
             const subSystem = subSystemMap[subSystemId];
@@ -2273,7 +2196,7 @@ function filterDetailedItems(context) {
                 acc.done += discipline.done;
                 acc.pending += discipline.pending;
                 acc.punch += discipline.punch;
-                acc.hold += discipline.hold;
+
                 return acc;
             }, _emptyStats());
         }
@@ -2338,7 +2261,6 @@ function filterDetailedItems(context) {
                     completed,
                     pending: parseInt(row["TOTAL PENDING"]) || 0,
                     punch: parseInt(row["TOTAL NOT CLEAR PUNCH"]) || 0,
-                    holdPoint: parseInt(row["TOTAL HOLD POINT"]) || 0,
                     statusPercent: totalItems > 0 ? Math.round((completed / totalItems) * 100) : 0,
                 };
             });
@@ -2405,7 +2327,7 @@ function filterDetailedItems(context) {
                     SubSystem: row.subsystem, SubSystemName: row.subsystemName,
                     Discipline: row.discipline, TotalItems: row.totalItems,
                     Completed: row.completed, Pending: row.pending,
-                    Punch: row.punch, HoldPoint: row.holdPoint,
+                    Punch: row.punch,
                     ProgressPercent: `${row.statusPercent}%`
                 }));
 
@@ -2447,7 +2369,7 @@ function filterDetailedItems(context) {
 
                 const zip = new JSZip();
                 const csvFiles = [
-                    'ACTIVITES.CSV', 'DATA.CSV', 'HOLD_POINT.CSV',
+                    'ACTIVITES.CSV', 'DATA.CSV',
                     'HOS.CSV', 'ITEMS.CSV', 'PUNCH.CSV', 'TRANS.CSV'
                 ];
                 const baseUrl = GITHUB_BASE_URL; // Use GitHub URL for CSV files
@@ -3034,10 +2956,7 @@ function filterDetailedItems(context) {
                                 <span class="data-card-label">Punch:</span>
                                 <span class="data-card-value clickable" data-type="punch" data-row="${index}">${row.punch.toLocaleString()}</span>
                             </div>
-                            <div class="data-card-row">
-                                <span class="data-card-label">Hold:</span>
-                                <span class="data-card-value clickable" data-type="hold" data-row="${index}">${row.holdPoint.toLocaleString()}</span>
-                            </div>
+
                             <div class="data-card-row">
                                 <span class="data-card-label">Status:</span>
                                 <span class="badge ${statusBadgeClass} rounded-pill" style="font-size: 0.65rem;">${row.statusPercent}%</span>
@@ -3068,7 +2987,7 @@ function filterDetailedItems(context) {
                         status: type === 'total' ? 'TOTAL' : type === 'completed' ? 'DONE' : type === 'pending' ? 'PENDING' : type === 'punch' ? 'PUNCH' : 'HOLD'
                     };
                     
-                    const dataType = type === 'punch' ? 'punch' : type === 'hold' ? 'hold' : 'items';
+                    const dataType = type === 'punch' ? 'punch' : 'items';
                     
                     let dataToDisplay = [];
                     let dataLoaded = false;
@@ -3083,12 +3002,7 @@ function filterDetailedItems(context) {
                             dataToDisplay = filterPunchItems(filterContext);
                             dataLoaded = true;
                         }
-                    } else if (dataType === 'hold') {
-                        if (holdPointItemsData.length > 0) {
-                            dataToDisplay = filterHoldItems(filterContext);
-                            dataLoaded = true;
-                        }
-                    }
+
                     
                     if (dataLoaded) {
                         populateDetailsModal(dataToDisplay, filterContext, dataType);
