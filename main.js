@@ -61,6 +61,9 @@ const ICONS = {
             overview: null,
             disciplines: {} // { disciplineName: chartInstance }
         };
+        const amChartsRoots = {
+            disciplines: {} // { disciplineName: amChartsRoot }
+        };
         let bootstrapTabObjects = {}; // To store Bootstrap Tab instances
         let itemDetailsModal; // Added variable for item details modal instance
         let activitiesModal; // Added variable for activities modal instance
@@ -717,11 +720,12 @@ function filterModalTable() {
 
                     // Check if clicked on the Punch or Hold Point counts in the Issues card
                      if (title === 'Issues') {
-                         const punchCountElement = cardBody.querySelector('.row.g-2 .col-6:first-child h4');
+                         const punchCountElement = cardBody.querySelector('.row.g-2 .col-12 h4');
                          if (target === punchCountElement || punchCountElement.contains(target)) {
                              statusType = 'PUNCH';
                              dataType = 'punch';
                          }
+                     }
 
                     if (statusType) {
                         filterContext = { type: 'summary', status: statusType };
@@ -777,7 +781,7 @@ function filterModalTable() {
                          dataToDisplay = filterPunchItems(filterContext);
                          dataLoaded = true;
                      }
-
+                 }
 
                  if (dataLoaded) {
                     populateDetailsModal(dataToDisplay, filterContext, dataType);
@@ -2984,7 +2988,7 @@ function filterDetailedItems(context) {
                             subsystem: `${rowData.subsystem} - ${rowData.subsystemName}`,
                             discipline: rowData.discipline
                         },
-                        status: type === 'total' ? 'TOTAL' : type === 'completed' ? 'DONE' : type === 'pending' ? 'PENDING' : type === 'punch' ? 'PUNCH' : 'HOLD'
+                        status: type === 'total' ? 'TOTAL' : type === 'completed' ? 'DONE' : type === 'pending' ? 'PENDING' : 'PUNCH'
                     };
                     
                     const dataType = type === 'punch' ? 'punch' : 'items';
