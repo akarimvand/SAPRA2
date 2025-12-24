@@ -6242,8 +6242,8 @@ TEL-09,EL,CR-TEL-OUTLET-8-05,Telecom Device,Telephone Outlet- Flush Mounted,0%
 TEL-09,EL,CR-TJB1,Telecom Device,Telephone Junction Box,50%
 TEL-09,EL,CR-TJB2,Telecom Device,Telephone Junction Box,50%
 TEL-09,EL,CR-TJB3,Telecom Device,Telephone Junction Box,50%
-120-15,EL,CR-UBT-01_1,UPS & Battery,110V AC UPS Battery Set,25%
-120-15,EL,CR-UBT-01_2,UPS & Battery,110V AC UPS Battery Set,25%
+120-15,EL,CR-UBT-01_1,UPS & Battery,110V AC UPS Battery Set,Pending
+120-15,EL,CR-UBT-01_2,UPS & Battery,110V AC UPS Battery Set,Pending
 120-09,EL,CR-UIS-01,UPS & Battery,110V AC UPS Battery Isolator Box,Done
 120-09,EL,CR-UPS-01,UPS & Battery,110V AC UPS Panel,Done
 CVL-01,CV,CV-COOLING,COOLING,COOLING,Done
@@ -9389,7 +9389,7 @@ ES-02,EL,E58-CR-05,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,Done
 ES-02,EL,E58-CR-06,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,Done
 ES-02,EL,E58-CR-07,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,Done
 ES-02,EL,E58-CR-08,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,Done
-ES-03,EL,E58-LAB-01,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,DONE
+ES-03,EL,E58-LAB-01,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,Pending
 ES-03,EL,E58-LAB-02,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,DONE
 ES-03,EL,E58-LAB-03,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,DONE
 ES-03,EL,E58-LAB-04,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,DONE
@@ -12449,31 +12449,31 @@ FGS-04,IN,FGD-0016(FGD),Fire Alarm,Fire Alarm(FGD),0%
 FGS-04,IN,FGD-0016(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,FGD-0017(FGD),Fire Alarm,Fire Alarm(FGD),0%
 FGS-04,IN,FGD-0017(NA),CABLE,CABLE(NA),0%
-FGS-04,IN,FGD-0018(FGD),Fire Alarm,Fire Alarm(FGD),0%
+FGS-04,IN,FGD-0018(FGD),Fire Alarm,Fire Alarm(FGD),25%
 FGS-04,IN,FGD-0018(NA),CABLE,CABLE(NA),50%
 FGS-04,IN,FGD-0019(FGD),Fire Alarm,Fire Alarm(FGD),0%
 FGS-04,IN,FGD-0019(NA),CABLE,CABLE(NA),0%
-FGS-04,IN,FGD-0020(FGD),Fire Alarm,Fire Alarm(FGD),0%
+FGS-04,IN,FGD-0020(FGD),Fire Alarm,Fire Alarm(FGD),25%
 FGS-04,IN,FGD-0020(NA),CABLE,CABLE(NA),0%
-FGS-04,IN,FGD-0021(FGD),Fire Alarm,Fire Alarm(FGD),0%
+FGS-04,IN,FGD-0021(FGD),Fire Alarm,Fire Alarm(FGD),25%
 FGS-04,IN,FGD-0021(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,FGD-0022(FGD),Fire Alarm,Fire Alarm(FGD),0%
 FGS-04,IN,FGD-0022(NA),CABLE,CABLE(NA),0%
-FGS-04,IN,FGD-0023(FGD),Fire Alarm,Fire Alarm(FGD),0%
+FGS-04,IN,FGD-0023(FGD),Fire Alarm,Fire Alarm(FGD),25%
 FGS-04,IN,FGD-0023(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,FGD-0024(FGD),Fire Alarm,Fire Alarm(FGD),0%
 FGS-04,IN,FGD-0024(NA),CABLE,CABLE(NA),0%
-FGS-04,IN,FGD-0025(FGD),Fire Alarm,Fire Alarm(FGD),0%
+FGS-04,IN,FGD-0025(FGD),Fire Alarm,Fire Alarm(FGD),25%
 FGS-04,IN,FGD-0025(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,FGD-0026(FGD),Fire Alarm,Fire Alarm(FGD),0%
 FGS-04,IN,FGD-0026(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,FGD-0027(FGD),Fire Alarm,Fire Alarm(FGD),0%
 FGS-04,IN,FGD-0027(NA),CABLE,CABLE(NA),0%
-FGS-03,IN,FGD-0028(FGD),Fire Alarm,Fire Alarm(FGD),0%
+FGS-03,IN,FGD-0028(FGD),Fire Alarm,Fire Alarm(FGD),25%
 FGS-03,IN,FGD-0028(NA),CABLE,CABLE(NA),0%
 FGS-03,IN,FGD-0029(FGD),Fire Alarm,Fire Alarm(FGD),0%
 FGS-03,IN,FGD-0029(NA),CABLE,CABLE(NA),0%
-FGS-03,IN,FGD-0030(FGD),Fire Alarm,Fire Alarm(FGD),0%
+FGS-03,IN,FGD-0030(FGD),Fire Alarm,Fire Alarm(FGD),25%
 FGS-03,IN,FGD-0030(NA),CABLE,CABLE(NA),0%
 FGS-03,IN,FGD-0031(FGD),Fire Alarm,Fire Alarm(FGD),0%
 FGS-03,IN,FGD-0031(NA),CABLE,CABLE(NA),0%
@@ -12481,7 +12481,7 @@ FGS-02,IN,FGD-0032(FGD),Fire Alarm,Fire Alarm(FGD),0%
 FGS-02,IN,FGD-0032(NA),CABLE,CABLE(NA),0%
 FGS-02,IN,FGD-0033(FGD),Fire Alarm,Fire Alarm(FGD),0%
 FGS-02,IN,FGD-0033(NA),CABLE,CABLE(NA),0%
-FGS-02,IN,FGD-0034(FGD),Fire Alarm,Fire Alarm(FGD),0%
+FGS-02,IN,FGD-0034(FGD),Fire Alarm,Fire Alarm(FGD),25%
 FGS-02,IN,FGD-0034(NA),CABLE,CABLE(NA),0%
 FGS-02,IN,FGD-0035(FGD),Fire Alarm,Fire Alarm(FGD),0%
 FGS-02,IN,FGD-0035(NA),CABLE,CABLE(NA),0%
@@ -12658,31 +12658,31 @@ BLD-02,BD,Final Architecture(Internal),06-Final Architecture(Internal),Final fin
 FGS-09,EL,FLB-0101,F&G Device,Flushing Beacon,0%
 FGS-08,EL,FLB-0301,FGS Device,Flushing Beacon,0%
 FGS-08,EL,FLB-0302,FGS Device,Flushing Beacon,0%
-FGS-03,IN,FLD-0001(FLD),Fire Alarm,Fire Alarm(FLD),0%
+FGS-03,IN,FLD-0001(FLD),Fire Alarm,Fire Alarm(FLD),25%
 FGS-03,IN,FLD-0001(NA),CABLE,CABLE(NA),0%
-FGS-03,IN,FLD-0002(FLD),Fire Alarm,Fire Alarm(FLD),0%
+FGS-03,IN,FLD-0002(FLD),Fire Alarm,Fire Alarm(FLD),25%
 FGS-03,IN,FLD-0002(NA),CABLE,CABLE(NA),0%
 FGS-03,IN,FLD-0003(FLD),Fire Alarm,Fire Alarm(FLD),0%
 FGS-03,IN,FLD-0003(NA),CABLE,CABLE(NA),0%
 FGS-03,IN,FLD-0004(FLD),Fire Alarm,Fire Alarm(FLD),0%
 FGS-03,IN,FLD-0004(NA),CABLE,CABLE(NA),0%
-FGS-03,IN,FLD-0005(FLD),Fire Alarm,Fire Alarm(FLD),0%
+FGS-03,IN,FLD-0005(FLD),Fire Alarm,Fire Alarm(FLD),25%
 FGS-03,IN,FLD-0005(NA),CABLE,CABLE(NA),0%
-FGS-03,IN,FLD-0006(FLD),Fire Alarm,Fire Alarm(FLD),0%
+FGS-03,IN,FLD-0006(FLD),Fire Alarm,Fire Alarm(FLD),25%
 FGS-03,IN,FLD-0006(NA),CABLE,CABLE(NA),0%
-FGS-03,IN,FLD-0007(FLD),Fire Alarm,Fire Alarm(FLD),0%
+FGS-03,IN,FLD-0007(FLD),Fire Alarm,Fire Alarm(FLD),25%
 FGS-03,IN,FLD-0007(NA),CABLE,CABLE(NA),0%
-FGS-03,IN,FLD-0008(FLD),Fire Alarm,Fire Alarm(FLD),0%
+FGS-03,IN,FLD-0008(FLD),Fire Alarm,Fire Alarm(FLD),25%
 FGS-03,IN,FLD-0008(NA),CABLE,CABLE(NA),0%
-FGS-04,IN,FLD-0009(FLD),Fire Alarm,Fire Alarm(FLD),0%
+FGS-04,IN,FLD-0009(FLD),Fire Alarm,Fire Alarm(FLD),25%
 FGS-04,IN,FLD-0009(NA),CABLE,CABLE(NA),0%
-FGS-04,IN,FLD-0010(FLD),Fire Alarm,Fire Alarm(FLD),0%
+FGS-04,IN,FLD-0010(FLD),Fire Alarm,Fire Alarm(FLD),25%
 FGS-04,IN,FLD-0010(NA),CABLE,CABLE(NA),0%
-FGS-04,IN,FLD-0011(FLD),Fire Alarm,Fire Alarm(FLD),0%
+FGS-04,IN,FLD-0011(FLD),Fire Alarm,Fire Alarm(FLD),25%
 FGS-04,IN,FLD-0011(NA),CABLE,CABLE(NA),0%
-FGS-04,IN,FLD-0012(FLD),Fire Alarm,Fire Alarm(FLD),0%
+FGS-04,IN,FLD-0012(FLD),Fire Alarm,Fire Alarm(FLD),25%
 FGS-04,IN,FLD-0012(NA),CABLE,CABLE(NA),0%
-FGS-04,IN,FLD-0013(FLD),Fire Alarm,Fire Alarm(FLD),0%
+FGS-04,IN,FLD-0013(FLD),Fire Alarm,Fire Alarm(FLD),25%
 FGS-04,IN,FLD-0013(NA),CABLE,CABLE(NA),0%
 FGS-01,IN,FLD-0014(FLD),Fire Alarm,Fire Alarm(FLD),25%
 FGS-01,IN,FLD-0014(NA),CABLE,CABLE(NA),50%
@@ -14684,7 +14684,7 @@ FGS-04,IN,LHD-9007B(LHD),Fire Fighting,Fire Fighting(LHD),0%
 FGS-04,IN,LHD-9007B(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,LHD-9008(LHD),Fire Fighting,Fire Fighting(LHD),0%
 FGS-04,IN,LHD-9008(NA),CABLE,CABLE(NA),0%
-FGS-03,IN,LHD-9009(LHD),Fire Fighting,Fire Fighting(LHD),0%
+FGS-03,IN,LHD-9009(LHD),Fire Fighting,Fire Fighting(LHD),Done
 FGS-03,IN,LHD-9009(NA),CABLE,CABLE(NA),0%
 FGS-03,IN,LHD-9010A(LHD),Fire Fighting,Fire Fighting(LHD),0%
 FGS-03,IN,LHD-9010A(NA),CABLE,CABLE(NA),0%
@@ -14720,29 +14720,29 @@ FGS-03,IN,LHD-9017B(LHD),Fire Fighting,Fire Fighting(LHD),0%
 FGS-03,IN,LHD-9017B(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,LHD-9018A(LHD),Fire Fighting,Fire Fighting(LHD),0%
 FGS-04,IN,LHD-9018A(NA),CABLE,CABLE(NA),0%
-FGS-04,IN,LHD-9018B(LHD),Fire Fighting,Fire Fighting(LHD),0%
+FGS-04,IN,LHD-9018B(LHD),Fire Fighting,Fire Fighting(LHD),Done
 FGS-04,IN,LHD-9018B(NA),CABLE,CABLE(NA),0%
-FGS-04,IN,LHD-9018C(LHD),Fire Fighting,Fire Fighting(LHD),0%
+FGS-04,IN,LHD-9018C(LHD),Fire Fighting,Fire Fighting(LHD),Done
 FGS-04,IN,LHD-9018C(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,LHD-9018D(LHD),Fire Fighting,Fire Fighting(LHD),0%
 FGS-04,IN,LHD-9018D(NA),CABLE,CABLE(NA),0%
-FGS-04,IN,LHD-9018E(LHD),Fire Fighting,Fire Fighting(LHD),0%
+FGS-04,IN,LHD-9018E(LHD),Fire Fighting,Fire Fighting(LHD),Done
 FGS-04,IN,LHD-9018E(NA),CABLE,CABLE(NA),0%
-FGS-04,IN,LHD-9018F(LHD),Fire Fighting,Fire Fighting(LHD),0%
+FGS-04,IN,LHD-9018F(LHD),Fire Fighting,Fire Fighting(LHD),Done
 FGS-04,IN,LHD-9018F(NA),CABLE,CABLE(NA),0%
-FGS-02,IN,LHD-9019(LHD),Fire Fighting,Fire Fighting(LHD),0%
+FGS-02,IN,LHD-9019(LHD),Fire Fighting,Fire Fighting(LHD),Done
 FGS-02,IN,LHD-9019(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,LHD-9020A(LHD),Fire Fighting,Fire Fighting(LHD),0%
 FGS-04,IN,LHD-9020A(NA),CABLE,CABLE(NA),0%
-FGS-04,IN,LHD-9020B(LHD),Fire Fighting,Fire Fighting(LHD),0%
+FGS-04,IN,LHD-9020B(LHD),Fire Fighting,Fire Fighting(LHD),Done
 FGS-04,IN,LHD-9020B(NA),CABLE,CABLE(NA),0%
-FGS-04,IN,LHD-9020C(LHD),Fire Fighting,Fire Fighting(LHD),0%
+FGS-04,IN,LHD-9020C(LHD),Fire Fighting,Fire Fighting(LHD),Done
 FGS-04,IN,LHD-9020C(NA),CABLE,CABLE(NA),0%
-FGS-04,IN,LHD-9020D(LHD),Fire Fighting,Fire Fighting(LHD),0%
+FGS-04,IN,LHD-9020D(LHD),Fire Fighting,Fire Fighting(LHD),Done
 FGS-04,IN,LHD-9020D(NA),CABLE,CABLE(NA),0%
-FGS-02,IN,LHD-9021A(LHD),Fire Fighting,Fire Fighting(LHD),0%
+FGS-02,IN,LHD-9021A(LHD),Fire Fighting,Fire Fighting(LHD),Done
 FGS-02,IN,LHD-9021A(NA),CABLE,CABLE(NA),0%
-FGS-02,IN,LHD-9021B(LHD),Fire Fighting,Fire Fighting(LHD),0%
+FGS-02,IN,LHD-9021B(LHD),Fire Fighting,Fire Fighting(LHD),Done
 FGS-02,IN,LHD-9021B(NA),CABLE,CABLE(NA),0%
 FGS-05,IN,LHD-9022A(LHD),Fire Fighting,Fire Fighting(LHD),0%
 FGS-05,IN,LHD-9022A(NA),CABLE,CABLE(NA),0%
@@ -15652,13 +15652,13 @@ FGS-04,IN,MCP-0015(MCP),Fire Alarm,Fire Alarm(MCP),0%
 FGS-04,IN,MCP-0015(NA),CABLE,CABLE(NA),0%
 FGS-03,IN,MCP-0016(MCP),Fire Alarm,Fire Alarm(MCP),0%
 FGS-03,IN,MCP-0016(NA),CABLE,CABLE(NA),0%
-FGS-03,IN,MCP-0017(MCP),Fire Alarm,Fire Alarm(MCP),0%
+FGS-03,IN,MCP-0017(MCP),Fire Alarm,Fire Alarm(MCP),25%
 FGS-03,IN,MCP-0017(NA),CABLE,CABLE(NA),0%
-FGS-03,IN,MCP-0018(MCP),Fire Alarm,Fire Alarm(MCP),0%
+FGS-03,IN,MCP-0018(MCP),Fire Alarm,Fire Alarm(MCP),25%
 FGS-03,IN,MCP-0018(NA),CABLE,CABLE(NA),0%
 FGS-02,IN,MCP-0019(MCP),Fire Alarm,Fire Alarm(MCP),0%
 FGS-02,IN,MCP-0019(NA),CABLE,CABLE(NA),0%
-FGS-03,IN,MCP-0020(MCP),Fire Alarm,Fire Alarm(MCP),0%
+FGS-03,IN,MCP-0020(MCP),Fire Alarm,Fire Alarm(MCP),25%
 FGS-03,IN,MCP-0020(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,MCP-0021(MCP),Fire Alarm,Fire Alarm(MCP),0%
 FGS-04,IN,MCP-0021(NA),CABLE,CABLE(NA),0%
@@ -15671,9 +15671,9 @@ FGS-05,IN,MCP-0025(MCP),Fire Alarm,Fire Alarm(MCP),0%
 FGS-05,IN,MCP-0025(NA),CABLE,CABLE(NA),0%
 FGS-05,IN,MCP-0026(MCP),Fire Alarm,Fire Alarm(MCP),0%
 FGS-05,IN,MCP-0026(NA),CABLE,CABLE(NA),0%
-FGS-04,IN,MCP-0027(MCP),Fire Alarm,Fire Alarm(MCP),0%
+FGS-04,IN,MCP-0027(MCP),Fire Alarm,Fire Alarm(MCP),25%
 FGS-04,IN,MCP-0027(NA),CABLE,CABLE(NA),0%
-FGS-04,IN,MCP-0028(MCP),Fire Alarm,Fire Alarm(MCP),0%
+FGS-04,IN,MCP-0028(MCP),Fire Alarm,Fire Alarm(MCP),25%
 FGS-04,IN,MCP-0028(NA),CABLE,CABLE(NA),0%
 FGS-05,IN,MCP-0029(MCP),Fire Alarm,Fire Alarm(MCP),0%
 FGS-05,IN,MCP-0029(NA),CABLE,CABLE(NA),0%
@@ -17848,27 +17848,27 @@ FGS-03,IN,PSH-9017(PSH),Fire Fighting,Fire Fighting(PSH),0%
 FGS-04,IN,PSH-9018(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,PSH-9018(PSH),Fire Fighting,Fire Fighting(PSH),Done
 FGS-02,IN,PSH-9019(NA),CABLE,CABLE(NA),0%
-FGS-02,IN,PSH-9019(PSH),Fire Fighting,Fire Fighting(PSH),0%
+FGS-02,IN,PSH-9019(PSH),Fire Fighting,Fire Fighting(PSH),Done
 FGS-04,IN,PSH-9020(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,PSH-9020(PSH),Fire Fighting,Fire Fighting(PSH),0%
 FGS-02,IN,PSH-9021(NA),CABLE,CABLE(NA),0%
-FGS-02,IN,PSH-9021(PSH),Fire Fighting,Fire Fighting(PSH),0%
+FGS-02,IN,PSH-9021(PSH),Fire Fighting,Fire Fighting(PSH),Done
 FGS-05,IN,PSH-9022(NA),CABLE,CABLE(NA),0%
 FGS-05,IN,PSH-9022(PSH),Fire Fighting,Fire Fighting(PSH),Done
 FGS-05,IN,PSH-9023(NA),CABLE,CABLE(NA),0%
 FGS-05,IN,PSH-9023(PSH),Fire Fighting,Fire Fighting(PSH),Done
 FGS-02,IN,PSH-9024(NA),CABLE,CABLE(NA),0%
-FGS-02,IN,PSH-9024(PSH),Fire Fighting,Fire Fighting(PSH),0%
+FGS-02,IN,PSH-9024(PSH),Fire Fighting,Fire Fighting(PSH),Done
 FGS-02,IN,PSH-9025(NA),CABLE,CABLE(NA),0%
-FGS-02,IN,PSH-9025(PSH),Fire Fighting,Fire Fighting(PSH),0%
+FGS-02,IN,PSH-9025(PSH),Fire Fighting,Fire Fighting(PSH),Done
 FGS-02,IN,PSH-9026(NA),CABLE,CABLE(NA),0%
 FGS-02,IN,PSH-9026(PSH),Fire Fighting,Fire Fighting(PSH),Done
 FGS-02,IN,PSH-9027(NA),CABLE,CABLE(NA),0%
-FGS-02,IN,PSH-9027(PSH),Fire Fighting,Fire Fighting(PSH),0%
+FGS-02,IN,PSH-9027(PSH),Fire Fighting,Fire Fighting(PSH),Done
 FGS-02,IN,PSH-9028(NA),CABLE,CABLE(NA),0%
-FGS-02,IN,PSH-9028(PSH),Fire Fighting,Fire Fighting(PSH),0%
+FGS-02,IN,PSH-9028(PSH),Fire Fighting,Fire Fighting(PSH),Done
 FGS-02,IN,PSH-9029(NA),CABLE,CABLE(NA),0%
-FGS-02,IN,PSH-9029(PSH),Fire Fighting,Fire Fighting(PSH),0%
+FGS-02,IN,PSH-9029(PSH),Fire Fighting,Fire Fighting(PSH),Done
 FGS-04,IN,PSH-9030(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,PSH-9030(PSH),Fire Fighting,Fire Fighting(PSH),0%
 FGS-03,IN,PSH-9051(NA),CABLE,CABLE(NA),0%
@@ -19220,7 +19220,7 @@ FGS-08,EL,SDR-0360,FGS Device,Optical Room Smoke Detector,DONE
 4000-08,IN,SE-80114B,Instrument(SE),Instrument(SE),Done
 4000-08,IN,SE-80115A,Instrument(SE),Instrument(SE),Done
 4000-08,IN,SE-80115B,Instrument(SE),Instrument(SE),Done
-FGS-03,IN,SF2-0001,Fire Alarm,Fire Alarm(SF2),0%
+FGS-03,IN,SF2-0001,Fire Alarm,Fire Alarm(SF2),25%
 FGS-02,IN,SF2-0002,Fire Alarm,Fire Alarm(SF2),0%
 FGS-04,IN,SF2-0003,Fire Alarm,Fire Alarm(SF2),0%
 FGS-06,IN,SF3-0001,Fire Alarm,Fire Alarm(SF3),0%
@@ -19228,7 +19228,7 @@ FGS-05,IN,SF4-0001,Fire Alarm,Fire Alarm(SF4),0%
 FGS-05,IN,SF4-0002,Fire Alarm,Fire Alarm(SF4),0%
 FGS-05,IN,SF4-0003,Fire Alarm,Fire Alarm(SF4),0%
 FGS-05,IN,SF4-0004,Fire Alarm,Fire Alarm(SF4),0%
-FGS-04,IN,SF4-0005,Fire Alarm,Fire Alarm(SF4),0%
+FGS-04,IN,SF4-0005,Fire Alarm,Fire Alarm(SF4),25%
 FGS-01,IN,SF4-0007,Fire Alarm,Fire Alarm(SF4),0%
 FGS-01,IN,SF4-0008,Fire Alarm,Fire Alarm(SF4),0%
 FGS-09,IN,SF4-0101,Fire Alarm,Fire Alarm(SF4),0%
@@ -19376,7 +19376,7 @@ FGS-07,IN,SOV-102,Fire Fighting,Fire Fighting(SOV),0%
 FGS-07,IN,SOV-103,Fire Fighting,Fire Fighting(SOV),0%
 FGS-07,IN,SOV-104,Fire Fighting,Fire Fighting(SOV),0%
 FGS-07,IN,SOV-105,Fire Fighting,Fire Fighting(SOV),0%
-120-15,EL,SS-CBT-01,UPS & Battery,110V DC Charger Battery Set,25%
+120-15,EL,SS-CBT-01,UPS & Battery,110V DC Charger Battery Set,Pending
 120-10,EL,SS-CH-01,UPS & Battery,110V DC Battery Charger Panel ,Done
 120-10,EL,SS-CIS-01,UPS & Battery,110V DC Charger Battery Isolator Box,Done
 120-08,EL,SS-DG-5701,Diesel Generator,Diesel Generator,0%
@@ -19831,7 +19831,7 @@ TEL-08,EL,SS-TJB1,Telecom Device,Telephone Junction Box,50%
 120-17,EL,SS-TR3-02,Transformer,Main Emergency Lighting Transformer,0%
 120-17,EL,SS-TR3A-01,Transformer,Main Normal Lighting Transformer A,0%
 120-17,EL,SS-TR3B-01,Transformer,Main Normal Lighting Transformer B,0%
-120-15,EL,SS-UBT-01,UPS & Battery,230V AC Safety Lighting UPS Battery Set,25%
+120-15,EL,SS-UBT-01,UPS & Battery,230V AC Safety Lighting UPS Battery Set,Pending
 120-11,EL,SS-UIS-01,UPS & Battery,230V AC Safety Lighting UPS Battery Isolator Box,Done
 120-11,EL,SS-UPS-01,UPS & Battery, 230V AC Safety Lighting UPS,Done
 1000-04,IN,SSV-10001,VALVE,SSV_VALVE,25%
