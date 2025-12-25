@@ -141,14 +141,14 @@
 7000,7000-01,Flare,Flare System (In Site),MES,2,2,0,8,0,8,0
 7000,7000-01,Flare,Flare System (In Site),PI,49,49,0,115,63,52,0
 BLD,BLD-01,Building,Substation,PI,4,4,0,6,3,3,0
-BLD,BLD-01,Building,Substation,BD,14,14,0,63,42,21,0
+BLD,BLD-01,Building,Substation,BD,14,14,0,63,48,15,0
 BLD,BLD-02,Building,Control Building,PI,1,1,0,6,5,1,0
-BLD,BLD-02,Building,Control Building,BD,8,3,2,48,33,15,0
+BLD,BLD-02,Building,Control Building,BD,8,3,2,48,38,10,0
 BLD,BLD-03,Building,Laboratory,BD,14,0,0,0,0,0,0
-BLD,BLD-04,Building,Security Building,BD,14,1,6,18,8,10,0
+BLD,BLD-04,Building,Security Building,BD,14,1,6,18,9,9,0
 BLD,BLD-05,Building,Diesel Room,BD,14,0,0,0,0,0,0
-BLD,BLD-06,Building,Warehouse Building,BD,14,11,2,31,7,24,0
-BLD,BLD-07,Building,Analyzer House,BD,8,6,2,19,10,9,0
+BLD,BLD-06,Building,Warehouse Building,BD,14,11,2,31,15,16,0
+BLD,BLD-07,Building,Analyzer House,BD,8,6,2,19,11,8,0
 CVL,CVL-01,Civil Work,Civil Work of All Area,CV,14,5,1,778,57,721,0
 DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2574,1005,20,4851,1993,2858,0
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2198,2195,3,0
