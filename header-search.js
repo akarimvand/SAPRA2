@@ -114,13 +114,27 @@ function displayHeaderSearchResults(results, query) {
                 if (e.target.classList.contains('subsystem-badge')) {
                     e.stopPropagation();
                     const subsystemId = e.target.dataset.subsystem;
-                    const subsystemData = window.processedData?.subSystemMap[subsystemId];
+                    console.log('Subsystem badge clicked:', subsystemId);
                     
-                    if (subsystemData && typeof window.handleNodeSelect === 'function') {
-                        hideHeaderSearchResults();
-                        window.handleNodeSelect('subsystem', subsystemId, subsystemData.title || subsystemId, subsystemData.systemId);
+                    hideHeaderSearchResults();
+                    
+                    // Try handleNodeSelect first
+                    if (typeof window.handleNodeSelect === 'function' && window.processedData?.subSystemMap[subsystemId]) {
+                        const subsystemData = window.processedData.subSystemMap[subsystemId];
+                        window.handleNodeSelect('subsystem', subsystemId, subsystemData.name || subsystemId, subsystemData.systemId);
                         if (typeof window.showToast === 'function') {
                             window.showToast(`Filtered to subsystem: ${subsystemId}`, 'success');
+                        }
+                    } else if (typeof window.filterBySidebar === 'function') {
+                        // Fallback to filterBySidebar
+                        window.filterBySidebar(subsystemId);
+                        if (typeof window.showToast === 'function') {
+                            window.showToast(`Filtered to subsystem: ${subsystemId}`, 'success');
+                        }
+                    } else {
+                        console.error('No filtering function available');
+                        if (typeof window.showToast === 'function') {
+                            window.showToast('خطا در فیلتر کردن', 'error');
                         }
                     }
                     return;
@@ -137,6 +151,37 @@ function displayHeaderSearchResults(results, query) {
                     
                     if (typeof window.showToast === 'function') {
                         window.showToast(`Showing activities for ${tagNo}`, 'success');
+                    }
+                }
+            });
+        });
+        
+        // Add separate event listeners for subsystem badges to ensure they work
+        resultsDiv.querySelectorAll('.subsystem-badge').forEach(badge => {
+            badge.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                
+                const subsystemId = e.target.dataset.subsystem;
+                console.log('Direct badge click:', subsystemId);
+                
+                hideHeaderSearchResults();
+                
+                if (typeof window.handleNodeSelect === 'function' && window.processedData?.subSystemMap[subsystemId]) {
+                    const subsystemData = window.processedData.subSystemMap[subsystemId];
+                    window.handleNodeSelect('subsystem', subsystemId, subsystemData.name || subsystemId, subsystemData.systemId);
+                    if (typeof window.showToast === 'function') {
+                        window.showToast(`Filtered to subsystem: ${subsystemId}`, 'success');
+                    }
+                } else if (typeof window.filterBySidebar === 'function') {
+                    window.filterBySidebar(subsystemId);
+                    if (typeof window.showToast === 'function') {
+                        window.showToast(`Filtered to subsystem: ${subsystemId}`, 'success');
+                    }
+                } else {
+                    console.error('No filtering function available');
+                    if (typeof window.showToast === 'function') {
+                        window.showToast('خطا در فیلتر کردن', 'error');
                     }
                 }
             });

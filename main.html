@@ -76,6 +76,9 @@
                         </button>
                     </li>
                     <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="summary-report-tab" data-bs-toggle="tab" data-bs-target="#summary-report-tab-pane" type="button" role="tab" aria-controls="summary-report-tab-pane" aria-selected="false">Summary Report</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
                         <button class="nav-link" id="reports-tab" data-bs-toggle="tab" data-bs-target="#reports-tab-pane" type="button" role="tab" aria-controls="reports-tab-pane" aria-selected="false">Punch Release</button>
                     </li>
                     <li class="nav-item" role="presentation">
@@ -85,9 +88,6 @@
                         <button class="nav-link" id="help-tab" data-bs-toggle="tab" data-bs-target="#help-tab-pane" type="button" role="tab" aria-controls="help-tab-pane" aria-selected="false">Help</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="summary-report-tab" data-bs-toggle="tab" data-bs-target="#summary-report-tab-pane" type="button" role="tab" aria-controls="summary-report-tab-pane" aria-selected="false">Summary Report</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
                         <button class="nav-link" id="about-tab" data-bs-toggle="tab" data-bs-target="#about-tab-pane" type="button" role="tab" aria-controls="about-tab-pane" aria-selected="false">About</button>
                     </li>
                 </ul>
@@ -95,13 +95,10 @@
                     <!-- Header Search -->
                     <div class="header-search me-3">
                         <div class="input-group input-group-sm">
-                            <span class="input-group-text bg-transparent border-0 text-white-50">
-                                <i class="bi bi-search"></i>
-                            </span>
                             <input type="text" class="form-control bg-transparent border-0 text-white" 
                                    id="headerSearchInput" 
                                    placeholder="Search items..." 
-                                   style="width: 200px; color: white !important;">
+                                   style="width: 250px; color: white !important; border-radius: 20px; padding-left: 2.5rem;">
                         </div>
                         <div id="headerSearchResults" class="position-absolute bg-white border rounded shadow-lg mt-1 d-none" 
                              style="width: 300px; max-height: 300px; overflow-y: auto; z-index: 1060;"></div>

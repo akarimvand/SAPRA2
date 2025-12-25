@@ -448,6 +448,17 @@ const ICONS = {
             showSearchResults(filteredData.length, query);
         }
         
+        // Filter by sidebar subsystem
+        function filterBySidebar(subsystem) {
+            const subsystemData = processedData.subSystemMap[subsystem];
+            if (subsystemData) {
+                handleNodeSelect('subsystem', subsystem, subsystemData.name || subsystem, subsystemData.systemId);
+            }
+        }
+        
+        // Make filterBySidebar globally accessible
+        window.filterBySidebar = filterBySidebar;
+        
         // Show search results notification
         function showSearchResults(count, query) {
             const message = count > 0 ? 
@@ -827,6 +838,7 @@ function filterModalTable() {
                              const headerText = headerCell.textContent.trim();
                              if (headerText === 'Completed') { statusType = 'DONE'; dataType = 'items'; }
                              else if (headerText === 'Pending') { statusType = 'PENDING'; dataType = 'items'; }
+                             else if (headerText === 'Remaining') { statusType = 'OTHER'; dataType = 'items'; }
                              else if (headerText === 'Punch') { statusType = 'PUNCH'; dataType = 'punch'; }
                              else if (headerText === 'Hold Point') { statusType = 'HOLD'; dataType = 'hold'; } // Set data type to 'hold' for hold points
                              else if (headerText === 'Status') { statusType = 'OTHER'; dataType = 'items'; }
@@ -837,7 +849,7 @@ function filterModalTable() {
                                  const rowData = {};
                                  Array.from(tableRow.children).forEach((cell, idx) => {
                                      // Use the correct accessor names from renderDataTable
-                                      const accessorMap = ['system', 'subsystem', 'formStatus', 'discipline', 'totalItems', 'completed', 'pending', 'punch', 'holdPoint', 'statusPercent'];
+                                      const accessorMap = ['system', 'subsystem', 'formStatus', 'discipline', 'totalItems', 'completed', 'pending', 'remaining', 'punch', 'holdPoint', 'statusPercent'];
                                       if (accessorMap[idx]) {
                                           rowData[accessorMap[idx]] = cell.textContent.trim();
                                       }
@@ -2103,7 +2115,7 @@ function filterDetailedItems(context) {
             const columns = [
                 { header: 'System', accessor: 'system' }, { header: 'Subsystem', accessor: 'subsystem' }, { header: 'Form', accessor: 'formStatus' },
                 { header: 'Discipline', accessor: 'discipline' }, { header: 'Total Items', accessor: 'totalItems' },
-                { header: 'Completed', accessor: 'completed' }, { header: 'Pending', accessor: 'pending' },
+                { header: 'Completed', accessor: 'completed' }, { header: 'Pending', accessor: 'pending' }, { header: 'Remaining', accessor: 'remaining' },
                 { header: 'Punch', accessor: 'punch' }, { header: 'Hold Point', accessor: 'holdPoint' },
                 { header: 'Status', accessor: 'statusPercent' },
             ];
@@ -2112,7 +2124,7 @@ function filterDetailedItems(context) {
             // Add filter row with dropdown for specific columns
             const filterRow = document.getElementById('dataTableFilters');
             filterRow.innerHTML = columns.map((col, i) => {
-                if (col.header === 'Discipline' || col.header === 'Form') {
+                if (col.header === 'Discipline' || col.header === 'Form' || col.header === 'Status') {
                     return `<th><div class="dropdown-filter" data-col="${i}">
                         <button class="btn btn-sm btn-outline-secondary dropdown-toggle w-100 text-truncate" type="button" data-bs-toggle="dropdown" style="font-size: 0.75rem; height: 32px;">
                             All ${col.header}
@@ -2150,6 +2162,8 @@ function filterDetailedItems(context) {
                             cellValue = row.system;
                         } else if (col.accessor === 'subsystem') {
                             cellValue = `${row.subsystem} - ${row.subsystemName}`;
+                        } else if (col.accessor === 'remaining' || col.accessor === 'punch') {
+                            cellValue = `<span style="color: red; font-weight: bold;">${(typeof cellValue === 'number') ? cellValue.toLocaleString() : cellValue}</span>`;
                         } else {
                             cellValue = (typeof cellValue === 'number') ? cellValue.toLocaleString() : cellValue;
                         }
@@ -2181,6 +2195,7 @@ function filterDetailedItems(context) {
             // Populate dropdown options
             const disciplineDropdown = filterRow.querySelector('[data-col="3"] .dropdown-menu');
             const formDropdown = filterRow.querySelector('[data-col="2"] .dropdown-menu');
+            const statusDropdown = filterRow.querySelector('[data-col="10"] .dropdown-menu');
             
             if (disciplineDropdown && tableData.length > 0) {
                 const disciplines = [...new Set(tableData.map(row => row.discipline))].sort();
@@ -2202,6 +2217,19 @@ function filterDetailedItems(context) {
                     formOptions.push(`<li><label class="dropdown-item"><input type="checkbox" value="EMPTY" class="me-2">Empty (${emptyCount})</label></li>`);
                 }
                 formDropdown.innerHTML = formOptions.join('');
+            }
+            
+            if (statusDropdown && tableData.length > 0) {
+                let statusOptions = [
+                    `<li><label class="dropdown-item"><input type="checkbox" value="SHOW_ALL" class="me-2 show-all-checkbox">Show All</label></li>`,
+                    `<li><label class="dropdown-item"><input type="checkbox" value="0" class="me-2">0%</label></li>`,
+                    `<li><label class="dropdown-item"><input type="checkbox" value="1-25" class="me-2">1% - 25%</label></li>`,
+                    `<li><label class="dropdown-item"><input type="checkbox" value="26-50" class="me-2">26% - 50%</label></li>`,
+                    `<li><label class="dropdown-item"><input type="checkbox" value="51-75" class="me-2">51% - 75%</label></li>`,
+                    `<li><label class="dropdown-item"><input type="checkbox" value="76-99" class="me-2">76% - 99%</label></li>`,
+                    `<li><label class="dropdown-item"><input type="checkbox" value="100" class="me-2">100%</label></li>`
+                ];
+                statusDropdown.innerHTML = statusOptions.join('');
             }
             
             // Add filter event listeners with debounce
@@ -2251,7 +2279,7 @@ function filterDetailedItems(context) {
             const button = dropdown.querySelector('.dropdown-toggle');
             const checkboxes = dropdown.querySelectorAll('input[type="checkbox"]:checked');
             const colIndex = dropdown.dataset.col;
-            const colNames = ['', '', 'Form', 'Discipline', '', '', '', '', '', 'Status'];
+            const colNames = ['', '', 'Form', 'Discipline', '', '', '', '', '', '', 'Status'];
             
             if (checkboxes.length === 0) {
                 button.textContent = `All ${colNames[colIndex]}`;
@@ -2298,12 +2326,28 @@ function filterDetailedItems(context) {
                         const selectedValues = Array.from(checkedBoxes).map(cb => cb.value);
                         const cellValue = cells[colIndex].textContent.trim();
                         
+                        // Handle Status column (column 10) with percentage ranges
+                        if (colIndex === 10) {
+                            const percentage = parseInt(cellValue.replace('%', ''));
+                            let matchFound = false;
+                            
+                            selectedValues.forEach(value => {
+                                if (value === '0' && percentage === 0) matchFound = true;
+                                else if (value === '1-25' && percentage >= 1 && percentage <= 25) matchFound = true;
+                                else if (value === '26-50' && percentage >= 26 && percentage <= 50) matchFound = true;
+                                else if (value === '51-75' && percentage >= 51 && percentage <= 75) matchFound = true;
+                                else if (value === '76-99' && percentage >= 76 && percentage <= 99) matchFound = true;
+                                else if (value === '100' && percentage === 100) matchFound = true;
+                            });
+                            
+                            if (!matchFound) show = false;
+                        }
                         // Handle empty values for Form column
-                        if (selectedValues.includes('EMPTY') && !cellValue) {
+                        else if (selectedValues.includes('EMPTY') && !cellValue) {
                             return; // Show this row
                         }
-                        
-                        if (!selectedValues.includes(cellValue) && !(selectedValues.includes('EMPTY') && !cellValue)) {
+                        // Handle other columns
+                        else if (!selectedValues.includes(cellValue) && !(selectedValues.includes('EMPTY') && !cellValue)) {
                             show = false;
                         }
                     }
@@ -2425,6 +2469,8 @@ function filterDetailedItems(context) {
                 const subSystemId = row.SD_Sub_System.trim();
                 const totalItems = parseInt(row["TOTAL ITEM"]) || 0;
                 const completed = parseInt(row["TOTAL DONE"]) || 0;
+                const pending = parseInt(row["TOTAL PENDING"]) || 0;
+                const remaining = Math.max(0, totalItems - completed - pending);
                 return {
                     system: row.SD_System.trim(),
                     systemName: (row.SD_System_Name || 'N/A').trim(),
@@ -2434,7 +2480,8 @@ function filterDetailedItems(context) {
                     discipline: row.discipline.trim(),
                     totalItems,
                     completed,
-                    pending: parseInt(row["TOTAL PENDING"]) || 0,
+                    pending,
+                    remaining,
                     punch: parseInt(row["TOTAL NOT CLEAR PUNCH"]) || 0,
                     holdPoint: parseInt(row["TOTAL HOLD POINT"]) || 0,
                     statusPercent: totalItems > 0 ? Math.round((completed / totalItems) * 100) : 0,
