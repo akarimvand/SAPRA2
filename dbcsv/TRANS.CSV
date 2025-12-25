@@ -173,6 +173,7 @@
 3000-02,Methanol Synthesis,FORM A,CONTRACTOR,واحد H.O.S کیسون,12/20/2025 12:00:00 AM,آماده سازی و ارسال
 3000-02,Methanol Synthesis,FORM A,TPA,TPA (IEI),12/21/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 3000-02,Methanol Synthesis,FORM A,CONTRACTOR,واحد H.O.S کیسون,12/24/2025 12:00:00 AM,بررسی
+3000-02,Methanol Synthesis,FORM A,OWNER,واحد ساختمان نصب,12/25/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 3000-03,Synthesis Gas Cooling,FORM A,PRECOM,واحد پیش راه اندازی سبلان,12/14/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 3000-03,Synthesis Gas Cooling,FORM A,CONTRACTOR,واحد H.O.S کیسون,12/1/2025 12:00:00 AM,آماده سازی و ارسال
 3000-03,Synthesis Gas Cooling,FORM A,TPA,TPA (IEI),12/2/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
@@ -218,6 +219,7 @@
 4000-06,DM & Polishing Water & Neutralization System,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/4/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 4000-06,DM & Polishing Water & Neutralization System,FORM A,CONTRACTOR,واحد H.O.S کیسون,12/19/2025 12:00:00 AM,آماده سازی و ارسال
 4000-06,DM & Polishing Water & Neutralization System,FORM A,TPA,TPA (IEI),12/21/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
+4000-06,DM & Polishing Water & Neutralization System,FORM A,OWNER,واحد ساختمان نصب,12/25/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 4000-07,Plant Air,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,7/26/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 4000-07,Plant Air,FORM A,CONTRACTOR,واحد H.O.S کیسون,7/27/2025 12:00:00 AM,آماده سازی و ارسال (2 زونکن)
 4000-07,Plant Air,FORM A,PRECOM,واحد پیش راه اندازی سبلان,7/28/2025 12:00:00 AM,بررسی جهت تائید 
@@ -230,8 +232,9 @@
 4000-09,Oily Water Treatment,FORM A,CONTRACTOR,واحد H.O.S کیسون,10/6/2025 12:00:00 AM,آماده سازی و ارسال
 4000-09,Oily Water Treatment,FORM A,PRECOM,واحد پیش راه اندازی سبلان,10/7/2025 12:00:00 AM,بررسی جهت تائید 
 4000-09,Oily Water Treatment,FORM A,TPA,TPA (IEI),10/8/2025 12:00:00 AM,پانچ گذاری
-4000-09,Oily Water Treatment,FORM A,TPA,TPA (IEI),12/17/2025 12:00:00 AM,پانچ گذاری
+4000-09,Oily Water Treatment,FORM A,OWNER,واحد ساختمان نصب,12/25/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 4000-09,Oily Water Treatment,FORM A,CONTRACTOR,واحد H.O.S کیسون,12/24/2025 12:00:00 AM,بررسی
+4000-09,Oily Water Treatment,FORM A,TPA,TPA (IEI),12/17/2025 12:00:00 AM,پانچ گذاری
 4000-10,Sanitary Water Collection,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/4/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 4000-11,Instrument Air,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,8/23/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 4000-11,Instrument Air,FORM A,CONTRACTOR,واحد H.O.S کیسون,8/24/2025 12:00:00 AM,آماده سازی و ارسال
@@ -420,6 +423,8 @@ FGS-07,Fire & Gas Detection for Fire Zone 1007,Execution Activities,CONTRACTOR,�
 FGS-08,Fire & Gas Detection for Substation,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/4/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 FGS-08,Fire & Gas Detection for Substation,FORM A,CONTRACTOR,واحد H.O.S کیسون,12/23/2025 12:00:00 AM,آماده سازی و ارسال
 FGS-08,Fire & Gas Detection for Substation,FORM A,TPA,TPA (IEI),12/24/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
+FGS-08,Fire & Gas Detection for Substation,FORM A,OWNER,واحد ساختمان نصب,12/25/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
+FGS-09,Fire & Gas Detection for Control Building,FORM A,OWNER,واحد ساختمان نصب,12/25/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 FGS-09,Fire & Gas Detection for Control Building,FORM A,CONTRACTOR,واحد H.O.S کیسون,12/23/2025 12:00:00 AM,آماده سازی و ارسال
 FGS-09,Fire & Gas Detection for Control Building,FORM A,TPA,TPA (IEI),12/24/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 FGS-09,Fire & Gas Detection for Control Building,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/4/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
