@@ -48,14 +48,14 @@
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,24,22,2,59,37,22,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,233,85,40,354,165,189,0
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,6,1,75,28,47,0
-2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,68,20,293,182,111,0
+2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,68,20,293,184,109,0
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,132,100,32,0
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,4,33,4,29,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,21,7,14,0
 2000,2000-06,Reforming,Nitrogen Circuit,IN,114,26,30,231,164,67,0
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,1,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,4,1,30,0,30,0
-3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,832,234,0,764,576,188,0
+3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,832,234,0,764,616,148,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,36,0,75,48,27,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,3,8,0,8,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,72,28,201,109,92,0
@@ -150,9 +150,9 @@ BLD,BLD-05,Building,Diesel Room,BD,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,BD,14,11,2,31,7,24,0
 BLD,BLD-07,Building,Analyzer House,BD,8,6,2,19,10,9,0
 CVL,CVL-01,Civil Work,Civil Work of All Area,CV,14,5,1,778,57,721,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2574,1005,20,4851,1963,2888,0
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2574,1005,20,4851,1993,2858,0
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2198,2195,3,0
-ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,423,417,6,0
+ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,423,422,1,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,32,0,18,13,5,0
 ES,ES-04,Earthing System,Earthing & Roof Lightning System for Analyzer House,EL,11,11,0,11,11,0,0
 ES,ES-05,Earthing System,Earthing & Roof Lightning System for Warehouse,EL,22,22,0,45,45,0,0
@@ -160,7 +160,7 @@ ES,ES-06,Earthing System,Earthing System for Area-02,EL,696,0,0,0,0,0,0
 ES,ES-07,Earthing System,Earthing System for Area-03,EL,379,379,0,783,780,3,0
 ES,ES-08,Earthing System,Earthing System for Area-04,EL,461,0,0,0,0,0,0
 ES,ES-09,Earthing System,Earthing System for Area-05,EL,503,0,0,0,0,0,0
-ES,ES-10,Earthing System,Earthing System for Area-06,EL,394,394,0,399,393,6,0
+ES,ES-10,Earthing System,Earthing System for Area-06,EL,394,394,0,399,397,2,0
 ES,ES-11,Earthing System,Earthing System for Area-07,EL,484,484,0,507,507,0,0
 FGS,FGS-01,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1001,IN,95,5,7,10,0,10,0
 FGS,FGS-02,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1002,IN,143,21,16,13,2,11,0
@@ -186,7 +186,7 @@ LS,LS-08,Lighting System,Lighting System for Area-03,EL,440,0,55,192,135,57,0
 LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,0,113,309,216,93,0
 LS,LS-10,Lighting System,Lighting System for Area-05,EL,706,0,67,268,66,202,0
 LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,1,81,365,305,60,0
-LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,413,1,910,890,20,0
+LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,413,1,910,910,0,0
 LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,7,57,180,180,0,0
 TEL,TEL-01,Telecom Systems,Telecom System for Area-01,EL,24,2,2,4,0,4,0
 TEL,TEL-02,Telecom Systems,Telecom System for Area-02,EL,61,0,0,4,0,4,0
