@@ -4757,7 +4757,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 5000-01,PI,5000-01-PMV-01-034,PI_TP,PIPING TEST PACKAGE,DONE
 5000-01,PI,5000-01-PMV-02-124,PI_TP,PIPING TEST PACKAGE,DONE
 5000-01,PI,5000-01-PMV-03-235,PI_TP,PIPING TEST PACKAGE,DONE
-5000-01,PI,5000-01-PMV-04-252,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
+5000-01,PI,5000-01-PMV-04-252,PI_TP,PIPING TEST PACKAGE,0%
 5000-01,PI,5000-01-PMV-05-398,PI_TP,PIPING TEST PACKAGE,DONE
 5000-01,PI,5000-01-PMV-06-399,PI_TP,PIPING TEST PACKAGE,DONE
 5000-01,PI,5000-01-PMV-07-400,PI_TP,PIPING TEST PACKAGE,DONE
@@ -5545,37 +5545,37 @@ FGS-08,EL,AMI-0305,FGS Device,Auto / Manual / Inhibit Switch,0%
 3000-02,IN,AP-3114,Instrument(AP),Instrument(AP),Exception(Pending)
 3000-03,IN,AP-3195,Instrument(AP),Instrument(AP),Exception(Pending)
 3000-03,IN,AP-3197,Instrument(AP),Instrument(AP),Exception(Pending)
-5000-01,IN,AP-3212,Instrument(AP),Instrument(AP),DONE
-5000-01,IN,AP-5010,Instrument(AP),Instrument(AP),DONE
-5000-01,IN,AP-5019,Instrument(AP),Instrument(AP),DONE
-5000-01,IN,AP-5021,Instrument(AP),Instrument(AP),DONE
-5000-01,IN,AP-5044,Instrument(AP),Instrument(AP),DONE
-5000-01,IN,AP-5052,Instrument(AP),Instrument(AP),DONE
-5000-01,IN,AP-5053,Instrument(AP),Instrument(AP),DONE
-5000-01,IN,AP-5055,Instrument(AP),Instrument(AP),DONE
-5000-01,IN,AP-5056,Instrument(AP),Instrument(AP),DONE
-5000-01,IN,AP-5057,Instrument(AP),Instrument(AP),DONE
-5000-01,IN,AP-5098,Instrument(AP),Instrument(AP),DONE
-5000-01,IN,AP-5112,Instrument(AP),Instrument(AP),DONE
-5000-02,IN,AP-5164,Instrument(AP),Instrument(AP),DONE
-5000-02,IN,AP-5167,Instrument(AP),Instrument(AP),DONE
-5000-02,IN,AP-5171,Instrument(AP),Instrument(AP),DONE
-5000-02,IN,AP-5173,Instrument(AP),Instrument(AP),DONE
-5000-02,IN,AP-5174,Instrument(AP),Instrument(AP),DONE
-5000-02,IN,AP-5175,Instrument(AP),Instrument(AP),DONE
-5000-02,IN,AP-5180,Instrument(AP),Instrument(AP),DONE
-5000-02,IN,AP-5208,Instrument(AP),Instrument(AP),DONE
-5000-02,IN,AP-5218,Instrument(AP),Instrument(AP),DONE
-5000-03,IN,AP-5261,Instrument(AP),Instrument(AP),Done
-5000-03,IN,AP-5262,Instrument(AP),Instrument(AP),Done
-5000-03,IN,AP-5264,Instrument(AP),Instrument(AP),Done
-5000-03,IN,AP-5265,Instrument(AP),Instrument(AP),Done
-5000-03,IN,AP-5266,Instrument(AP),Instrument(AP),Done
-5000-03,IN,AP-5267,Instrument(AP),Instrument(AP),Done
-5000-03,IN,AP-5268,Instrument(AP),Instrument(AP),Done
-5000-03,IN,AP-5269,Instrument(AP),Instrument(AP),Done
-5000-03,IN,AP-5274,Instrument(AP),Instrument(AP),Done
-5000-03,IN,AP-5326,Instrument(AP),Instrument(AP),Done
+5000-01,IN,AP-3212,Instrument(AP),Instrument(AP),0%
+5000-01,IN,AP-5010,Instrument(AP),Instrument(AP),0%
+5000-01,IN,AP-5019,Instrument(AP),Instrument(AP),0%
+5000-01,IN,AP-5021,Instrument(AP),Instrument(AP),0%
+5000-01,IN,AP-5044,Instrument(AP),Instrument(AP),0%
+5000-01,IN,AP-5052,Instrument(AP),Instrument(AP),0%
+5000-01,IN,AP-5053,Instrument(AP),Instrument(AP),0%
+5000-01,IN,AP-5055,Instrument(AP),Instrument(AP),0%
+5000-01,IN,AP-5056,Instrument(AP),Instrument(AP),0%
+5000-01,IN,AP-5057,Instrument(AP),Instrument(AP),0%
+5000-01,IN,AP-5098,Instrument(AP),Instrument(AP),0%
+5000-01,IN,AP-5112,Instrument(AP),Instrument(AP),0%
+5000-02,IN,AP-5164,Instrument(AP),Instrument(AP),0%
+5000-02,IN,AP-5167,Instrument(AP),Instrument(AP),0%
+5000-02,IN,AP-5171,Instrument(AP),Instrument(AP),0%
+5000-02,IN,AP-5173,Instrument(AP),Instrument(AP),0%
+5000-02,IN,AP-5174,Instrument(AP),Instrument(AP),0%
+5000-02,IN,AP-5175,Instrument(AP),Instrument(AP),0%
+5000-02,IN,AP-5180,Instrument(AP),Instrument(AP),0%
+5000-02,IN,AP-5208,Instrument(AP),Instrument(AP),0%
+5000-02,IN,AP-5218,Instrument(AP),Instrument(AP),0%
+5000-03,IN,AP-5261,Instrument(AP),Instrument(AP),0%
+5000-03,IN,AP-5262,Instrument(AP),Instrument(AP),0%
+5000-03,IN,AP-5264,Instrument(AP),Instrument(AP),0%
+5000-03,IN,AP-5265,Instrument(AP),Instrument(AP),0%
+5000-03,IN,AP-5266,Instrument(AP),Instrument(AP),0%
+5000-03,IN,AP-5267,Instrument(AP),Instrument(AP),0%
+5000-03,IN,AP-5268,Instrument(AP),Instrument(AP),0%
+5000-03,IN,AP-5269,Instrument(AP),Instrument(AP),0%
+5000-03,IN,AP-5274,Instrument(AP),Instrument(AP),0%
+5000-03,IN,AP-5326,Instrument(AP),Instrument(AP),0%
 5000-04,IN,AP-5382,Instrument(AP),Instrument(AP),Done
 5000-04,IN,AP-5431,Instrument(AP),Instrument(AP),Done
 5000-05,IN,AP-5452,Instrument(AP),Instrument(AP),Done
@@ -6247,7 +6247,7 @@ TEL-09,EL,CR-TJB3,Telecom Device,Telephone Junction Box,50%
 120-09,EL,CR-UIS-01,UPS & Battery,110V AC UPS Battery Isolator Box,Done
 120-09,EL,CR-UPS-01,UPS & Battery,110V AC UPS Panel,Done
 CVL-01,CV,CV-COOLING,COOLING,COOLING,Done
-CVL-01,CV,CV-DITCH,DITCH,DITCH,62%
+CVL-01,CV,CV-DITCH,DITCH,DITCH,Done
 CVL-01,CV,CV-DUCT BANK,DUCT BANK,DUCT BANK,Done
 CVL-01,CV,CV-DYKE WALL & CURB WALL,DYKE WALL & CURB WALL,DYKE WALL & CURB WALL,Done
 CVL-01,CV,CV-EQUIPMENT FOUNDATION,EQUIPMENT FOUNDATION,EQUIPMENT FOUNDATION,0%
@@ -6962,7 +6962,7 @@ ES-09,EL,E20-03,Earthing System,CRIMPED EARTH CONNECTION 16 TO 70mm2,0%
 2000-03,MES,E-2008,Exchanger(E),Oxygen Preheater,88%
 1000-01,MES,E-2009,Exchanger(E),Fuel Gas Preheater,Done
 ES-01,EL,E2-01,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
-2000-02,MES,E-2015,Exchanger(E),Steam Air Preheater,24%
+2000-02,MES,E-2015,Exchanger(E),Steam Air Preheater,29%
 ES-01,EL,E2-02,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
 2000-04,MES,E-2020-1,Exchanger(E),Waste Heat Boiler,88%
 2000-04,MES,E-2020-2,Exchanger(E),Waste Heat Boiler,88%
@@ -9135,14 +9135,14 @@ ES-08,EL,E48-12,Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO HOR
 5000-02,MES,E-5002-1,Exchanger(E),LP Column Reboiler,Done
 5000-02,MES,E-5002-2,Exchanger(E),LP Column Reboiler,Done
 5000-02,MES,E-5002-3,Exchanger(E),LP Column Reboiler,Done
-5000-02,MES,E-5002-4,Exchanger(E),LP Column Reboiler,88%
-5000-03,MES,E-5003-1,Exchanger(E),MP Column Reboiler No.1,88%
-5000-03,MES,E-5003-2,Exchanger(E),MP Column Reboiler No.2,88%
-5000-01,MES,E-5007,Exchanger(E),Wash Water Cooler,88%
-5000-04,MES,E-5008,Exchanger(E),Methanol Product Cooler,88%
-5000-01,MES,E-5010,Exchanger(E),OH Gas Condenser,88%
-5000-05,MES,E-5011,Exchanger(E),Liquid Off Stream Cooler,76%
-5000-04,MES,E-5012,Exchanger(E),Methanol Product Cooler No.2,88%
+5000-02,MES,E-5002-4,Exchanger(E),LP Column Reboiler,94%
+5000-03,MES,E-5003-1,Exchanger(E),MP Column Reboiler No.1,94%
+5000-03,MES,E-5003-2,Exchanger(E),MP Column Reboiler No.2,94%
+5000-01,MES,E-5007,Exchanger(E),Wash Water Cooler,94%
+5000-04,MES,E-5008,Exchanger(E),Methanol Product Cooler,94%
+5000-01,MES,E-5010,Exchanger(E),OH Gas Condenser,94%
+5000-05,MES,E-5011,Exchanger(E),Liquid Off Stream Cooler,82%
+5000-04,MES,E-5012,Exchanger(E),Methanol Product Cooler No.2,94%
 ES-03,EL,E51-01(ES-03),Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO VERTICAL L.V. MOTOR,DONE
 ES-07,EL,E51-01(ES-07),Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO VERTICAL L.V. MOTOR,Done
 ES-07,EL,E51-02,Earthing System,EARTHING CONNECTION WITH 35mm2 EARTH WIRE TO VERTICAL L.V. MOTOR,Done
@@ -9413,13 +9413,13 @@ ES-05,EL,E58-WH-02,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,DONE
 ES-05,EL,E58-WH-03,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,DONE
 ES-05,EL,E58-WH-04,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,DONE
 ES-05,EL,E58-WH-05,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE,DONE
-1000-03,MES,E-6001,Exchanger(E),Saturator Feed /Effluent Exchanger,88%
+1000-03,MES,E-6001,Exchanger(E),Saturator Feed /Effluent Exchanger,94%
 ES-02,EL,E60-01,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE AND 3.6m LENGTH ROD,Done
-1000-03,MES,E-6002,Exchanger(E),Process Condensate Preheater,88%
+1000-03,MES,E-6002,Exchanger(E),Process Condensate Preheater,94%
 ES-02,EL,E60-02,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE AND 3.6m LENGTH ROD,Done
-1000-03,MES,E-6003,Exchanger(E),Saturator Blow-down Cooler,88%
+1000-03,MES,E-6003,Exchanger(E),Saturator Blow-down Cooler,94%
 ES-02,EL,E60-03,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE AND 3.6m LENGTH ROD,Done
-1000-03,MES,E-6004,Exchanger(E),Wash Water Preheater,88%
+1000-03,MES,E-6004,Exchanger(E),Wash Water Preheater,94%
 ES-02,EL,E60-04,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE AND 3.6m LENGTH ROD,Done
 ES-02,EL,E60-05,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE AND 3.6m LENGTH ROD,Done
 ES-02,EL,E60-06,Earthing System,EARTH PIT WITH 70mm2 EARTH WIRE AND 3.6m LENGTH ROD,Done
@@ -9463,7 +9463,7 @@ ES-08,EL,E63-06(ES-08),Earthing System,EARTHING CONNECTION WITH 70 mm2 EARTH WIR
 ES-10,EL,E63-06(ES-10),Earthing System,EARTHING CONNECTION WITH 70 mm2 EARTH WIRETO HORIZONTAL MV MOTOR,Done
 ES-10,EL,E63-07,Earthing System,EARTHING CONNECTION WITH 70 mm2 EARTH WIRETO HORIZONTAL MV MOTOR,Done
 ES-10,EL,E63-08,Earthing System,EARTHING CONNECTION WITH 70 mm2 EARTH WIRETO HORIZONTAL MV MOTOR,Done
-4000-05,MES,E-7001,Exchanger(E),Blow down Cooler for D7003,88%
+4000-05,MES,E-7001,Exchanger(E),Blow down Cooler for D7003,94%
 ES-02,EL,E8-01(ES-02),Earthing System,THERMOWELD EARTH CONNECTION 35 TO 70mm2,Done
 ES-05,EL,E8-01(ES-05),Earthing System,THERMOWELD EARTH CONNECTION 35 TO 70mm2,DONE
 ES-06,EL,E8-01(ES-06),Earthing System,THERMOWELD EARTH CONNECTION 35 TO 70mm2,0%
@@ -12242,18 +12242,18 @@ DCS-01,IN,FCTS-30139,CABLE,CABLE(NA),Done
 3000-03,IN,FE-3169,Instrument(FE),Instrument(FE),Exception(Pending)
 3000-03,IN,FE-3171,Instrument(FE),Instrument(FE),Exception(Pending)
 3000-03,IN,FE-3194,Instrument(FE),Instrument(FE),Exception(Pending)
-5000-01,IN,FE-5020,Instrument(FE),Instrument(FE),DONE
-5000-01,IN,FE-5041,Instrument(FE),Instrument(FE),DONE
+5000-01,IN,FE-5020,Instrument(FE),Instrument(FE),50%
+5000-01,IN,FE-5041,Instrument(FE),Instrument(FE),50%
 4000-02,IN,FE-5068,Instrument(FE),Instrument(FE),50%
-5000-01,IN,FE-5093,Instrument(FE),Instrument(FE),DONE
-5000-01,IN,FE-5107,Instrument(FE),Instrument(FE),DONE
-5000-01,IN,FE-5111,Instrument(FE),Instrument(FE),DONE
-5000-02,IN,FE-5161,Instrument(FE),Instrument(FE),DONE
-5000-02,IN,FE-5203,Instrument(FE),Instrument(FE),DONE
-5000-02,IN,FE-5239,Instrument(FE),Instrument(FE),DONE
+5000-01,IN,FE-5093,Instrument(FE),Instrument(FE),50%
+5000-01,IN,FE-5107,Instrument(FE),Instrument(FE),50%
+5000-01,IN,FE-5111,Instrument(FE),Instrument(FE),50%
+5000-02,IN,FE-5161,Instrument(FE),Instrument(FE),50%
+5000-02,IN,FE-5203,Instrument(FE),Instrument(FE),50%
+5000-02,IN,FE-5239,Instrument(FE),Instrument(FE),50%
 4000-02,IN,FE-5301,Instrument(FE),Instrument(FE),50%
-5000-03,IN,FE-5321,Instrument(FE),Instrument(FE),Done
-5000-03,IN,FE-5367,Instrument(FE),Instrument(FE),Done
+5000-03,IN,FE-5321,Instrument(FE),Instrument(FE),50%
+5000-03,IN,FE-5367,Instrument(FE),Instrument(FE),50%
 5000-04,IN,FE-5383,Instrument(FE),Instrument(FE),Done
 5000-04,IN,FE-5407,Instrument(FE),Instrument(FE),Done
 5000-05,IN,FE-5441,Instrument(FE),Instrument(FE),Done
@@ -12538,48 +12538,48 @@ FGS-10,IN,FGD-0057,Fire Alarm,Fire Alarm(FGD),0%
 2000-05,IN,FI-20608B,Instrument(FI),Instrument(FI),50%
 3000-01,IN,FI-3010,Instrument(FI),Instrument(FI),Done
 3000-01,IN,FI-3016,Instrument(FI),Instrument(FI),Exception(Pending)
-5000-01,IN,FI-30201A,Instrument(FI),Instrument(FI),Done
-5000-01,IN,FI-50201A,Instrument(FI),Instrument(FI),Done
-5000-01,IN,FI-50201B,Instrument(FI),Instrument(FI),Done
-5000-01,IN,FI-50202A,Instrument(FI),Instrument(FI),Done
-5000-01,IN,FI-50202B,Instrument(FI),Instrument(FI),Done
-5000-01,IN,FI-50203A,Instrument(FI),Instrument(FI),Done
-5000-01,IN,FI-50203B,Instrument(FI),Instrument(FI),Done
-5000-01,IN,FI-50204A,Instrument(FI),Instrument(FI),Done
-5000-01,IN,FI-50204B,Instrument(FI),Instrument(FI),Done
-5000-01,IN,FI-50205A,Instrument(FI),Instrument(FI),Done
-5000-01,IN,FI-50205B,Instrument(FI),Instrument(FI),Done
-5000-02,IN,FI-50206A,Instrument(FI),Instrument(FI),Done
-5000-02,IN,FI-50206B,Instrument(FI),Instrument(FI),Done
-5000-02,IN,FI-50207A,Instrument(FI),Instrument(FI),Done
-5000-02,IN,FI-50207B,Instrument(FI),Instrument(FI),Done
-5000-02,IN,FI-50208A,Instrument(FI),Instrument(FI),Done
-5000-02,IN,FI-50208B,Instrument(FI),Instrument(FI),Done
-5000-02,IN,FI-50209A,Instrument(FI),Instrument(FI),Done
-5000-02,IN,FI-50209B,Instrument(FI),Instrument(FI),Done
+5000-01,IN,FI-30201A,Instrument(FI),Instrument(FI),50%
+5000-01,IN,FI-50201A,Instrument(FI),Instrument(FI),50%
+5000-01,IN,FI-50201B,Instrument(FI),Instrument(FI),50%
+5000-01,IN,FI-50202A,Instrument(FI),Instrument(FI),0%
+5000-01,IN,FI-50202B,Instrument(FI),Instrument(FI),0%
+5000-01,IN,FI-50203A,Instrument(FI),Instrument(FI),0%
+5000-01,IN,FI-50203B,Instrument(FI),Instrument(FI),0%
+5000-01,IN,FI-50204A,Instrument(FI),Instrument(FI),0%
+5000-01,IN,FI-50204B,Instrument(FI),Instrument(FI),0%
+5000-01,IN,FI-50205A,Instrument(FI),Instrument(FI),0%
+5000-01,IN,FI-50205B,Instrument(FI),Instrument(FI),0%
+5000-02,IN,FI-50206A,Instrument(FI),Instrument(FI),50%
+5000-02,IN,FI-50206B,Instrument(FI),Instrument(FI),50%
+5000-02,IN,FI-50207A,Instrument(FI),Instrument(FI),50%
+5000-02,IN,FI-50207B,Instrument(FI),Instrument(FI),50%
+5000-02,IN,FI-50208A,Instrument(FI),Instrument(FI),50%
+5000-02,IN,FI-50208B,Instrument(FI),Instrument(FI),50%
+5000-02,IN,FI-50209A,Instrument(FI),Instrument(FI),0%
+5000-02,IN,FI-50209B,Instrument(FI),Instrument(FI),0%
 4000-01,IN,FI-5021,Instrument(FI),Instrument(FI),DONE
-5000-03,IN,FI-50210A,Instrument(FI),Instrument(FI),Done
-5000-03,IN,FI-50210B,Instrument(FI),Instrument(FI),Done
-5000-03,IN,FI-50211A,Instrument(FI),Instrument(FI),Done
-5000-03,IN,FI-50211B,Instrument(FI),Instrument(FI),Done
-5000-03,IN,FI-50212A,Instrument(FI),Instrument(FI),Done
-5000-03,IN,FI-50212B,Instrument(FI),Instrument(FI),Done
-5000-03,IN,FI-50213A,Instrument(FI),Instrument(FI),Done
-5000-03,IN,FI-50213B,Instrument(FI),Instrument(FI),Done
-5000-03,IN,FI-50214A,Instrument(FI),Instrument(FI),Done
-5000-03,IN,FI-50214B,Instrument(FI),Instrument(FI),Done
-5000-03,IN,FI-50215A,Instrument(FI),Instrument(FI),Done
-5000-03,IN,FI-50215B,Instrument(FI),Instrument(FI),Done
+5000-03,IN,FI-50210A,Instrument(FI),Instrument(FI),50%
+5000-03,IN,FI-50210B,Instrument(FI),Instrument(FI),50%
+5000-03,IN,FI-50211A,Instrument(FI),Instrument(FI),50%
+5000-03,IN,FI-50211B,Instrument(FI),Instrument(FI),50%
+5000-03,IN,FI-50212A,Instrument(FI),Instrument(FI),50%
+5000-03,IN,FI-50212B,Instrument(FI),Instrument(FI),50%
+5000-03,IN,FI-50213A,Instrument(FI),Instrument(FI),50%
+5000-03,IN,FI-50213B,Instrument(FI),Instrument(FI),50%
+5000-03,IN,FI-50214A,Instrument(FI),Instrument(FI),50%
+5000-03,IN,FI-50214B,Instrument(FI),Instrument(FI),50%
+5000-03,IN,FI-50215A,Instrument(FI),Instrument(FI),0%
+5000-03,IN,FI-50215B,Instrument(FI),Instrument(FI),50%
 5000-04,IN,FI-50216A,Instrument(FI),Instrument(FI),Done
 5000-04,IN,FI-50216B,Instrument(FI),Instrument(FI),Done
-5000-03,IN,FI-50218A,Instrument(FI),Instrument(FI),Done
-5000-03,IN,FI-50218B,Instrument(FI),Instrument(FI),Done
-5000-03,IN,FI-50219A,Instrument(FI),Instrument(FI),Done
-5000-03,IN,FI-50219B,Instrument(FI),Instrument(FI),Done
-5000-03,IN,FI-50220A,Instrument(FI),Instrument(FI),Done
-5000-03,IN,FI-50220B,Instrument(FI),Instrument(FI),Done
-5000-03,IN,FI-50221A,Instrument(FI),Instrument(FI),Done
-5000-03,IN,FI-50221B,Instrument(FI),Instrument(FI),Done
+5000-03,IN,FI-50218A,Instrument(FI),Instrument(FI),50%
+5000-03,IN,FI-50218B,Instrument(FI),Instrument(FI),50%
+5000-03,IN,FI-50219A,Instrument(FI),Instrument(FI),50%
+5000-03,IN,FI-50219B,Instrument(FI),Instrument(FI),50%
+5000-03,IN,FI-50220A,Instrument(FI),Instrument(FI),50%
+5000-03,IN,FI-50220B,Instrument(FI),Instrument(FI),50%
+5000-03,IN,FI-50221A,Instrument(FI),Instrument(FI),50%
+5000-03,IN,FI-50221B,Instrument(FI),Instrument(FI),50%
 4000-04,IN,FI-50222A,Instrument(FI),Instrument(FI),50%
 4000-04,IN,FI-50222B,Instrument(FI),Instrument(FI),50%
 4000-04,IN,FI-50223A,Instrument(FI),Instrument(FI),50%
@@ -12771,11 +12771,11 @@ FGS-02,IN,FLD-0028(NA),CABLE,CABLE(NA),Done
 3000-01,IN,FO-30169,Instrument(FO),Instrument(FO),Exception(Pending)
 3000-03,IN,FO-3191,Instrument(FO),Instrument(FO),Exception(Pending)
 4000-01,IN,FO-3210,Instrument(FO),Instrument(FO),Done
-5000-03,IN,FO-5353,Instrument(FO),Instrument(FO),Done
-5000-03,IN,FO-5357,Instrument(FO),Instrument(FO),Done
-5000-03,IN,FO-5361,Instrument(FO),Instrument(FO),Done
-5000-03,IN,FO-5365,Instrument(FO),Instrument(FO),Done
-5000-03,IN,FO-5368,Instrument(FO),Instrument(FO),Done
+5000-03,IN,FO-5353,Instrument(FO),Instrument(FO),0%
+5000-03,IN,FO-5357,Instrument(FO),Instrument(FO),0%
+5000-03,IN,FO-5361,Instrument(FO),Instrument(FO),0%
+5000-03,IN,FO-5365,Instrument(FO),Instrument(FO),0%
+5000-03,IN,FO-5368,Instrument(FO),Instrument(FO),50%
 1000-03,IN,FO-6001,Instrument(FO),Instrument(FO),DONE
 1000-03,IN,FO-6002,Instrument(FO),Instrument(FO),DONE
 1000-03,IN,FO-6003,Instrument(FO),Instrument(FO),DONE
@@ -13662,34 +13662,34 @@ DCS-01,IN,HS-80156B,SIGNAL,SIGNAL,Exception(Pending)
 5000-03,IN,HV-5338(NA),CABLE,CABLE(NA),Done
 4000-04,IN,HV-7096(HV),Instrument(HV),Instrument(HV),25%
 4000-04,IN,HV-7096(NA),CABLE,CABLE(NA),50%
-5000-01,IN,HY-5093-12,Instrument(X),Instrument(HY),Done
-5000-01,IN,HY-5093-3,Instrument(X),Instrument(HY),Done
-5000-01,IN,HY-5093-6,Instrument(X),Instrument(HY),Done
-5000-01,IN,HY-5093-9,Instrument(X),Instrument(HY),Done
-5000-02,IN,HY-5202-12,Instrument(X),Instrument(HY),Done
-5000-02,IN,HY-5202-15,Instrument(X),Instrument(HY),Done
-5000-02,IN,HY-5202-18,Instrument(X),Instrument(HY),Done
-5000-02,IN,HY-5202-21,Instrument(X),Instrument(HY),Done
-5000-02,IN,HY-5202-24,Instrument(X),Instrument(HY),Done
-5000-02,IN,HY-5202-27,Instrument(X),Instrument(HY),Done
-5000-02,IN,HY-5202-3,Instrument(X),Instrument(HY),Done
-5000-02,IN,HY-5202-30,Instrument(X),Instrument(HY),Done
-5000-02,IN,HY-5202-33,Instrument(X),Instrument(HY),Done
-5000-02,IN,HY-5202-36,Instrument(X),Instrument(HY),Done
-5000-02,IN,HY-5202-39,Instrument(X),Instrument(HY),Done
-5000-02,IN,HY-5202-42,Instrument(X),Instrument(HY),Done
-5000-02,IN,HY-5202-45,Instrument(X),Instrument(HY),Done
-5000-02,IN,HY-5202-48,Instrument(X),Instrument(HY),Done
-5000-02,IN,HY-5202-51,Instrument(X),Instrument(HY),Done
-5000-02,IN,HY-5202-54,Instrument(X),Instrument(HY),Done
-5000-02,IN,HY-5202-57,Instrument(X),Instrument(HY),Done
-5000-02,IN,HY-5202-6,Instrument(X),Instrument(HY),Done
-5000-02,IN,HY-5202-60,Instrument(X),Instrument(HY),Done
-5000-02,IN,HY-5202-63,Instrument(X),Instrument(HY),Done
-5000-02,IN,HY-5202-66,Instrument(X),Instrument(HY),Done
-5000-02,IN,HY-5202-69,Instrument(X),INSTRUMENT,Done
-5000-02,IN,HY-5202-72,SIGNAL,SIGNAL,DONE
-5000-02,IN,HY-5202-9,Instrument(X),Instrument(HY),Done
+5000-01,IN,HY-5093-12,Instrument(X),Instrument(HY),50%
+5000-01,IN,HY-5093-3,Instrument(X),Instrument(HY),50%
+5000-01,IN,HY-5093-6,Instrument(X),Instrument(HY),50%
+5000-01,IN,HY-5093-9,Instrument(X),Instrument(HY),50%
+5000-02,IN,HY-5202-12,Instrument(X),Instrument(HY),50%
+5000-02,IN,HY-5202-15,Instrument(X),Instrument(HY),50%
+5000-02,IN,HY-5202-18,Instrument(X),Instrument(HY),50%
+5000-02,IN,HY-5202-21,Instrument(X),Instrument(HY),50%
+5000-02,IN,HY-5202-24,Instrument(X),Instrument(HY),50%
+5000-02,IN,HY-5202-27,Instrument(X),Instrument(HY),50%
+5000-02,IN,HY-5202-3,Instrument(X),Instrument(HY),50%
+5000-02,IN,HY-5202-30,Instrument(X),Instrument(HY),0%
+5000-02,IN,HY-5202-33,Instrument(X),Instrument(HY),0%
+5000-02,IN,HY-5202-36,Instrument(X),Instrument(HY),0%
+5000-02,IN,HY-5202-39,Instrument(X),Instrument(HY),0%
+5000-02,IN,HY-5202-42,Instrument(X),Instrument(HY),0%
+5000-02,IN,HY-5202-45,Instrument(X),Instrument(HY),0%
+5000-02,IN,HY-5202-48,Instrument(X),Instrument(HY),0%
+5000-02,IN,HY-5202-51,Instrument(X),Instrument(HY),0%
+5000-02,IN,HY-5202-54,Instrument(X),Instrument(HY),0%
+5000-02,IN,HY-5202-57,Instrument(X),Instrument(HY),0%
+5000-02,IN,HY-5202-6,Instrument(X),Instrument(HY),50%
+5000-02,IN,HY-5202-60,Instrument(X),Instrument(HY),0%
+5000-02,IN,HY-5202-63,Instrument(X),Instrument(HY),0%
+5000-02,IN,HY-5202-66,Instrument(X),Instrument(HY),0%
+5000-02,IN,HY-5202-69,Instrument(X),INSTRUMENT,0%
+5000-02,IN,HY-5202-72,SIGNAL,SIGNAL,0%
+5000-02,IN,HY-5202-9,Instrument(X),Instrument(HY),50%
 5000-04,IN,HY-5404(HY),Instrument(X),Instrument(HY),Done
 5000-04,IN,HY-5404(NA),CABLE,CABLE(NA),Done
 5000-04,IN,HY-5405(HY),Instrument(X),Instrument(HY),Done
@@ -14595,10 +14595,10 @@ DCS-01,IN,LCP-MF2002,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 3000-03,IN,LG-3193,Instrument(LG),Instrument(LG),Done
 5000-01,IN,LG-50203A,Instrument(LG),Instrument(LG),Done
 5000-01,IN,LG-50203B,Instrument(LG),Instrument(LG),Done
-5000-01,IN,LG-50206A,Instrument(LG),Instrument(LG),Done
-5000-01,IN,LG-50206B,Instrument(LG),Instrument(LG),Done
-5000-01,IN,LG-50209A,Instrument(LG),Instrument(LG),Done
-5000-01,IN,LG-50209B,Instrument(LG),Instrument(LG),Done
+5000-01,IN,LG-50206A,Instrument(LG),Instrument(LG),0%
+5000-01,IN,LG-50206B,Instrument(LG),Instrument(LG),0%
+5000-01,IN,LG-50209A,Instrument(LG),Instrument(LG),0%
+5000-01,IN,LG-50209B,Instrument(LG),Instrument(LG),0%
 5000-02,IN,LG-50212A,Instrument(LG),Instrument(LG),Done
 5000-02,IN,LG-50212B,Instrument(LG),Instrument(LG),Done
 5000-02,IN,LG-50215A,Instrument(LG),Instrument(LG),Done
@@ -14621,14 +14621,14 @@ DCS-01,IN,LCP-MF2002,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 5000-02,IN,LG-5192,Instrument(LG),Instrument(LG),Done
 5000-02,IN,LG-5193,Instrument(LG),Instrument(LG),Done
 5000-02,IN,LG-5205,Instrument(LG),Instrument(LG),Done
-5000-01,IN,LG-5232,Instrument(LG),Instrument(LG),DONE
+5000-01,IN,LG-5232,Instrument(LG),Instrument(LG),0%
 5000-03,IN,LG-5272,Instrument(LG),Instrument(LG),Done
 5000-03,IN,LG-5279,Instrument(LG),Instrument(LG),Done
 5000-03,IN,LG-5309,Instrument(LG),Instrument(LG),0%
 5000-03,IN,LG-5311,Instrument(LG),Instrument(LG),0%
 5000-03,IN,LG-5323,Instrument(LG),Instrument(LG),Done
-5000-01,IN,LG-5511,Instrument(LG),Instrument(LG),DONE
-5000-01,IN,LG-5516,Instrument(LG),Instrument(LG),DONE
+5000-01,IN,LG-5511,Instrument(LG),Instrument(LG),0%
+5000-01,IN,LG-5516,Instrument(LG),Instrument(LG),0%
 1000-03,IN,LG-6023-1,Instrument(LG),Instrument(LG),Done
 1000-03,IN,LG-6023-2,Instrument(LG),Instrument(LG),Done
 1000-03,IN,LG-6033-1,Instrument(LG),Instrument(LG),Done
@@ -14982,21 +14982,21 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 3000-03,IN,LST-3192B(NA),CABLE,CABLE(NA),0%
 3000-03,IN,LST-3192C(LST),Instrument(LST),Instrument(LST),Exception(Pending)
 3000-03,IN,LST-3192C(NA),CABLE,CABLE(NA),0%
-5000-01,IN,LST-5002(LST),Instrument(LST),Instrument(LST),DONE
-5000-01,IN,LST-5002(NA),CABLE,CABLE(NA),DONE
-5000-01,IN,LST-5042(LST),Instrument(LST),Instrument(LST),Done
+5000-01,IN,LST-5002(LST),Instrument(LST),Instrument(LST),25%
+5000-01,IN,LST-5002(NA),CABLE,CABLE(NA),50%
+5000-01,IN,LST-5042(LST),Instrument(LST),Instrument(LST),50%
 5000-01,IN,LST-5042(NA),CABLE,CABLE(NA),DONE
 5000-01,IN,LST-5071(LST),Instrument(LST),Instrument(LST),Done
 5000-01,IN,LST-5071(NA),CABLE,CABLE(NA),DONE
-5000-01,IN,LST-5094(LST),Instrument(LST),Instrument(LST),Done
+5000-01,IN,LST-5094(LST),Instrument(LST),Instrument(LST),50%
 5000-01,IN,LST-5094(NA),CABLE,CABLE(NA),DONE
-5000-02,IN,LST-5162(LST),Instrument(LST),Instrument(LST),Done
+5000-02,IN,LST-5162(LST),Instrument(LST),Instrument(LST),50%
 5000-02,IN,LST-5162(NA),CABLE,CABLE(NA),Done
-5000-02,IN,LST-5204(LST),Instrument(LST),Instrument(LST),Done
+5000-02,IN,LST-5204(LST),Instrument(LST),Instrument(LST),50%
 5000-02,IN,LST-5204(NA),CABLE,CABLE(NA),Done
-5000-03,IN,LST-5271(LST),Instrument(LST),Instrument(LST),Done
+5000-03,IN,LST-5271(LST),Instrument(LST),Instrument(LST),50%
 5000-03,IN,LST-5271(NA),CABLE,CABLE(NA),Done
-5000-03,IN,LST-5322(LST),Instrument(LST),Instrument(LST),Done
+5000-03,IN,LST-5322(LST),Instrument(LST),Instrument(LST),50%
 5000-03,IN,LST-5322(NA),CABLE,CABLE(NA),Done
 5000-04,IN,LST-5397(LST),Instrument(LST),Instrument(LST),25%
 5000-04,IN,LST-5397(NA),CABLE,CABLE(NA),0%
@@ -15052,36 +15052,36 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 3000-01,IN,LT-30108C(NA),CABLE,CABLE(NA),Done
 3000-02,IN,LT-3043(LT),Instrument(LT),Instrument(LT),Exception(Pending)
 3000-02,IN,LT-3043(NA),CABLE,CABLE(NA),0%
-5000-01,IN,LT-3213(LT),Instrument(LT),Instrument(LT),DONE
-5000-01,IN,LT-3213(NA),CABLE,CABLE(NA),DONE
-5000-01,IN,LT-3214(LT),Instrument(LT),Instrument(LT),DONE
-5000-01,IN,LT-3214(NA),CABLE,CABLE(NA),DONE
-5000-01,IN,LT-5001(LT),Instrument(LT),Instrument(LT),DONE
-5000-01,IN,LT-5001(NA),CABLE,CABLE(NA),DONE
-5000-01,IN,LT-5041(LT),Instrument(LT),Instrument(LT),Done
+5000-01,IN,LT-3213(LT),Instrument(LT),Instrument(LT),25%
+5000-01,IN,LT-3213(NA),CABLE,CABLE(NA),0%
+5000-01,IN,LT-3214(LT),Instrument(LT),Instrument(LT),25%
+5000-01,IN,LT-3214(NA),CABLE,CABLE(NA),0%
+5000-01,IN,LT-5001(LT),Instrument(LT),Instrument(LT),25%
+5000-01,IN,LT-5001(NA),CABLE,CABLE(NA),50%
+5000-01,IN,LT-5041(LT),Instrument(LT),Instrument(LT),50%
 5000-01,IN,LT-5041(NA),CABLE,CABLE(NA),DONE
-5000-01,IN,LT-5065(LT),Instrument(LT),Instrument(LT),Done
+5000-01,IN,LT-5065(LT),Instrument(LT),Instrument(LT),50%
 5000-01,IN,LT-5065(NA),CABLE,CABLE(NA),DONE
 5000-01,IN,LT-5070(LT),Instrument(LT),Instrument(LT),Done
 5000-01,IN,LT-5070(NA),CABLE,CABLE(NA),DONE
-5000-01,IN,LT-5093(LT),Instrument(LT),Instrument(LT),Done
+5000-01,IN,LT-5093(LT),Instrument(LT),Instrument(LT),50%
 5000-01,IN,LT-5093(NA),CABLE,CABLE(NA),DONE
-5000-02,IN,LT-5161(LT),Instrument(LT),Instrument(LT),Done
+5000-02,IN,LT-5161(LT),Instrument(LT),Instrument(LT),50%
 5000-02,IN,LT-5161(NA),CABLE,CABLE(NA),Done
-5000-02,IN,LT-5182(LT),Instrument(LT),Instrument(LT),Done
+5000-02,IN,LT-5182(LT),Instrument(LT),Instrument(LT),50%
 5000-02,IN,LT-5182(NA),CABLE,CABLE(NA),Done
-5000-02,IN,LT-5203(LT),Instrument(LT),Instrument(LT),Done
+5000-02,IN,LT-5203(LT),Instrument(LT),Instrument(LT),50%
 5000-02,IN,LT-5203(NA),CABLE,CABLE(NA),Done
-5000-01,IN,LT-5232,Instrument(LT),Instrument(LT),DONE
-5000-03,IN,LT-5270(LT),Instrument(LT),Instrument(LT),Done
+5000-01,IN,LT-5232,Instrument(LT),Instrument(LT),0%
+5000-03,IN,LT-5270(LT),Instrument(LT),Instrument(LT),50%
 5000-03,IN,LT-5270(NA),CABLE,CABLE(NA),Done
-5000-03,IN,LT-5278(LT),Instrument(LT),Instrument(LT),Done
+5000-03,IN,LT-5278(LT),Instrument(LT),Instrument(LT),50%
 5000-03,IN,LT-5278(NA),CABLE,CABLE(NA),Done
 5000-03,IN,LT-5308(LT),Instrument(LT),Instrument(LT),50%
 5000-03,IN,LT-5308(NA),CABLE,CABLE(NA),50%
 5000-03,IN,LT-5310(LT),Instrument(LT),Instrument(LT),50%
 5000-03,IN,LT-5310(NA),CABLE,CABLE(NA),50%
-5000-03,IN,LT-5321(LT),Instrument(LT),Instrument(LT),Done
+5000-03,IN,LT-5321(LT),Instrument(LT),Instrument(LT),50%
 5000-03,IN,LT-5321(NA),CABLE,CABLE(NA),Done
 5000-04,IN,LT-5396(LT),Instrument(LT),Instrument(LT),25%
 5000-04,IN,LT-5396(NA),CABLE,CABLE(NA),0%
@@ -15089,10 +15089,10 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 5000-04,IN,LT-5413(NA),CABLE,CABLE(NA),0%
 5000-05,IN,LT-5446(LT),Instrument(LT),Instrument(LT),25%
 5000-05,IN,LT-5446(NA),CABLE,CABLE(NA),Done
-5000-01,IN,LT-5511(LT),Instrument(LT),Instrument(LT),DONE
-5000-01,IN,LT-5511(NA),CABLE,CABLE(NA),DONE
-5000-01,IN,LT-5516(LT),Instrument(LT),Instrument(LT),DONE
-5000-01,IN,LT-5516(NA),CABLE,CABLE(NA),DONE
+5000-01,IN,LT-5511(LT),Instrument(LT),Instrument(LT),0%
+5000-01,IN,LT-5511(NA),CABLE,CABLE(NA),0%
+5000-01,IN,LT-5516(LT),Instrument(LT),Instrument(LT),0%
+5000-01,IN,LT-5516(NA),CABLE,CABLE(NA),0%
 1000-03,IN,LT-6021(LT),Instrument(LT),Instrument(LT),50%
 1000-03,IN,LT-6021(NA),CABLE,CABLE(NA),0%
 1000-03,IN,LT-6033-1(LT),Instrument(LT),Instrument(LT),25%
@@ -15888,7 +15888,7 @@ BLD-06,BD,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Wor
 2000-06,IN,MS-25103A,I/O EL,I/O EL,Done
 2000-06,IN,MS-25106,I/O EL,I/O EL,Done
 2000-05,IN,MS-2577,I/O EL,I/O EL,Exception(Pending)
-5000-01,IN,MS-3001,I/O EL,I/O EL,DONE
+5000-01,IN,MS-3001,I/O EL,I/O EL,0%
 3000-01,IN,MS-30101,PKG,PKG,Exception(Pending)
 3000-01,IN,MS-30101L_R,Instrument(X),Instrument(MS),Exception(Pending)
 3000-01,IN,MS-30102,Pkg,Pkg,Exception(Pending)
@@ -15925,112 +15925,112 @@ BLD-06,BD,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Wor
 3000-03,IN,MS-3147-6,I/O EL,I/O EL,Exception(Pending)
 3000-03,IN,MS-3147-7,I/O EL,I/O EL,Exception(Pending)
 3000-03,IN,MS-3147-8,I/O EL,I/O EL,Exception(Pending)
-5000-01,IN,MS-5013,I/O EL,I/O EL,DONE
-5000-01,IN,MS-5017,I/O EL,I/O EL,DONE
-5000-01,IN,MS-5070A,I/O EL,I/O EL,DONE
-5000-01,IN,MS-5070B,I/O EL,I/O EL,DONE
+5000-01,IN,MS-5013,I/O EL,I/O EL,0%
+5000-01,IN,MS-5017,I/O EL,I/O EL,0%
+5000-01,IN,MS-5070A,I/O EL,I/O EL,0%
+5000-01,IN,MS-5070B,I/O EL,I/O EL,0%
 4000-04,IN,MS-5077,I/O EL,I/O EL,0%
 4000-04,IN,MS-5081,I/O EL,I/O EL,0%
-5000-01,IN,MS-5092-1,I/O EL,I/O EL,DONE
-5000-01,IN,MS-5092-10,I/O EL,I/O EL,DONE
-5000-01,IN,MS-5092-11,I/O EL,I/O EL,DONE
-5000-01,IN,MS-5092-12,I/O EL,I/O EL,DONE
-5000-01,IN,MS-5092-2,I/O EL,I/O EL,DONE
-5000-01,IN,MS-5092-3,I/O EL,I/O EL,DONE
-5000-01,IN,MS-5092-4,I/O EL,I/O EL,DONE
-5000-01,IN,MS-5092-5,I/O EL,I/O EL,DONE
-5000-01,IN,MS-5092-6,I/O EL,I/O EL,DONE
-5000-01,IN,MS-5092-7,I/O EL,I/O EL,DONE
-5000-01,IN,MS-5092-8,I/O EL,I/O EL,DONE
-5000-01,IN,MS-5092-9,I/O EL,I/O EL,DONE
-5000-01,IN,MS-5101,I/O EL,I/O EL,DONE
-5000-01,IN,MS-5105,I/O EL,I/O EL,DONE
-5000-01,IN,MS-5133,I/O EL,I/O EL,DONE
-5000-01,IN,MS-5137,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-1,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-10,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-11,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-12,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-13,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-14,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-15,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-16,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-17,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-18,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-19,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-2,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-20,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-21,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-22,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-23,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-24,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-25,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-26,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-27,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-28,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-29,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-3,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-30,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-31,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-32,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-33,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-34,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-35,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-36,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-37,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-38,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-39,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-4,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-40,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-41,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-42,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-43,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-44,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-45,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-46,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-47,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-48,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-49,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-5,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-50,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-51,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-52,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-53,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-54,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-55,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-56,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-57,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-58,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-59,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-6,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-60,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-61,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-62,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-63,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-64,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-65,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-66,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-67,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-68,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-69,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-7,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-70,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-71,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-72,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-8,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5201-9,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5212,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5216,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5233,I/O EL,I/O EL,DONE
-5000-02,IN,MS-5237,I/O EL,I/O EL,DONE
-5000-03,IN,MS-5329,I/O EL,I/O EL,Done
+5000-01,IN,MS-5092-1,I/O EL,I/O EL,0%
+5000-01,IN,MS-5092-10,I/O EL,I/O EL,0%
+5000-01,IN,MS-5092-11,I/O EL,I/O EL,0%
+5000-01,IN,MS-5092-12,I/O EL,I/O EL,0%
+5000-01,IN,MS-5092-2,I/O EL,I/O EL,0%
+5000-01,IN,MS-5092-3,I/O EL,I/O EL,0%
+5000-01,IN,MS-5092-4,I/O EL,I/O EL,0%
+5000-01,IN,MS-5092-5,I/O EL,I/O EL,0%
+5000-01,IN,MS-5092-6,I/O EL,I/O EL,0%
+5000-01,IN,MS-5092-7,I/O EL,I/O EL,0%
+5000-01,IN,MS-5092-8,I/O EL,I/O EL,0%
+5000-01,IN,MS-5092-9,I/O EL,I/O EL,0%
+5000-01,IN,MS-5101,I/O EL,I/O EL,0%
+5000-01,IN,MS-5105,I/O EL,I/O EL,0%
+5000-01,IN,MS-5133,I/O EL,I/O EL,0%
+5000-01,IN,MS-5137,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-1,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-10,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-11,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-12,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-13,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-14,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-15,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-16,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-17,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-18,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-19,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-2,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-20,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-21,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-22,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-23,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-24,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-25,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-26,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-27,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-28,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-29,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-3,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-30,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-31,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-32,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-33,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-34,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-35,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-36,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-37,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-38,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-39,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-4,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-40,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-41,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-42,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-43,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-44,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-45,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-46,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-47,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-48,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-49,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-5,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-50,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-51,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-52,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-53,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-54,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-55,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-56,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-57,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-58,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-59,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-6,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-60,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-61,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-62,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-63,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-64,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-65,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-66,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-67,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-68,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-69,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-7,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-70,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-71,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-72,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-8,I/O EL,I/O EL,0%
+5000-02,IN,MS-5201-9,I/O EL,I/O EL,0%
+5000-02,IN,MS-5212,I/O EL,I/O EL,0%
+5000-02,IN,MS-5216,I/O EL,I/O EL,0%
+5000-02,IN,MS-5233,I/O EL,I/O EL,0%
+5000-02,IN,MS-5237,I/O EL,I/O EL,0%
+5000-03,IN,MS-5329,I/O EL,I/O EL,0%
 5000-03,IN,MS-5333,I/O EL,I/O EL,Done
-5000-03,IN,MS-5353,I/O EL,I/O EL,Done
-5000-03,IN,MS-5357,I/O EL,I/O EL,Done
-5000-03,IN,MS-5361,I/O EL,I/O EL,Done
-5000-03,IN,MS-5365,I/O EL,I/O EL,Done
-5000-01,IN,MS-5368A,I/O EL,I/O EL,DONE
-5000-01,IN,MS-5368B,I/O EL,I/O EL,DONE
+5000-03,IN,MS-5353,I/O EL,I/O EL,0%
+5000-03,IN,MS-5357,I/O EL,I/O EL,0%
+5000-03,IN,MS-5361,I/O EL,I/O EL,0%
+5000-03,IN,MS-5365,I/O EL,I/O EL,0%
+5000-01,IN,MS-5368A,I/O EL,I/O EL,0%
+5000-01,IN,MS-5368B,I/O EL,I/O EL,0%
 5000-04,IN,MS-5404,I/O EL,I/O EL,Done
 5000-04,IN,MS-5405,I/O EL,I/O EL,Done
 5000-04,IN,MS-5425,I/O EL,I/O EL,Done
@@ -17238,26 +17238,26 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 3000-03,IN,PG-3195,Instrument(PG),Instrument(PG),Exception(Pending)
 3000-03,IN,PG-3196,Instrument(PG),Instrument(PG),Exception(Pending)
 5000-01,IN,PG-3211,Instrument(PG),Instrument(PG),DONE
-5000-01,IN,PG-5005,Instrument(PG),Instrument(PG),DONE
+5000-01,IN,PG-5005,Instrument(PG),Instrument(PG),50%
 5000-01,IN,PG-5011,Instrument(PG),Instrument(PG),DONE
 5000-01,IN,PG-5014,Instrument(PG),Instrument(PG),DONE
 5000-01,IN,PG-5015,Instrument(PG),Instrument(PG),DONE
 5000-01,IN,PG-5018,Instrument(PG),Instrument(PG),DONE
-5000-01,IN,PG-50202A,Instrument(PG),Instrument(PG),DONE
-5000-01,IN,PG-50202B,Instrument(PG),Instrument(PG),DONE
-5000-01,IN,PG-50204A,Instrument(PG),Instrument(PG),DONE
-5000-01,IN,PG-50204B,Instrument(PG),Instrument(PG),DONE
-5000-01,IN,PG-50206A,Instrument(PG),Instrument(PG),DONE
-5000-01,IN,PG-50206B,Instrument(PG),Instrument(PG),DONE
-5000-02,IN,PG-50208A,Instrument(PG),Instrument(PG),DONE
-5000-02,IN,PG-50208B,Instrument(PG),Instrument(PG),DONE
-5000-01,IN,PG-5021,Instrument(PG),Instrument(PG),DONE
-5000-02,IN,PG-50210A,Instrument(PG),Instrument(PG),DONE
-5000-02,IN,PG-50210B,Instrument(PG),Instrument(PG),DONE
-5000-03,IN,PG-50212A,Instrument(PG),Instrument(PG),Done
-5000-03,IN,PG-50212B,Instrument(PG),Instrument(PG),Done
-5000-03,IN,PG-50214A,Instrument(PG),Instrument(PG),Done
-5000-03,IN,PG-50214B,Instrument(PG),Instrument(PG),Done
+5000-01,IN,PG-50202A,Instrument(PG),Instrument(PG),50%
+5000-01,IN,PG-50202B,Instrument(PG),Instrument(PG),50%
+5000-01,IN,PG-50204A,Instrument(PG),Instrument(PG),50%
+5000-01,IN,PG-50204B,Instrument(PG),Instrument(PG),50%
+5000-01,IN,PG-50206A,Instrument(PG),Instrument(PG),50%
+5000-01,IN,PG-50206B,Instrument(PG),Instrument(PG),50%
+5000-02,IN,PG-50208A,Instrument(PG),Instrument(PG),50%
+5000-02,IN,PG-50208B,Instrument(PG),Instrument(PG),50%
+5000-01,IN,PG-5021,Instrument(PG),Instrument(PG),50%
+5000-02,IN,PG-50210A,Instrument(PG),Instrument(PG),50%
+5000-02,IN,PG-50210B,Instrument(PG),Instrument(PG),50%
+5000-03,IN,PG-50212A,Instrument(PG),Instrument(PG),50%
+5000-03,IN,PG-50212B,Instrument(PG),Instrument(PG),0%
+5000-03,IN,PG-50214A,Instrument(PG),Instrument(PG),0%
+5000-03,IN,PG-50214B,Instrument(PG),Instrument(PG),50%
 5000-04,IN,PG-50216A,Instrument(PG),Instrument(PG),Done
 5000-04,IN,PG-50216B,Instrument(PG),Instrument(PG),Done
 5000-01,IN,PG-5046,Instrument(PG),Instrument(PG),DONE
@@ -17270,7 +17270,7 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 5000-01,IN,PG-5102,Instrument(PG),Instrument(PG),DONE
 5000-01,IN,PG-5103,Instrument(PG),Instrument(PG),DONE
 5000-01,IN,PG-5106,Instrument(PG),Instrument(PG),DONE
-5000-01,IN,PG-5111,Instrument(PG),Instrument(PG),DONE
+5000-01,IN,PG-5111,Instrument(PG),Instrument(PG),50%
 5000-01,IN,PG-5112,Instrument(PG),Instrument(PG),DONE
 5000-01,IN,PG-5113,Instrument(PG),Instrument(PG),DONE
 5000-01,IN,PG-5131,Instrument(PG),Instrument(PG),DONE
@@ -17279,16 +17279,16 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 5000-01,IN,PG-5138,Instrument(PG),Instrument(PG),DONE
 5000-02,IN,PG-5178,Instrument(PG),Instrument(PG),DONE
 5000-02,IN,PG-5206,Instrument(PG),Instrument(PG),DONE
-5000-02,IN,PG-5208,Instrument(PG),Instrument(PG),DONE
+5000-02,IN,PG-5208,Instrument(PG),Instrument(PG),50%
 5000-02,IN,PG-5210,Instrument(PG),Instrument(PG),DONE
 5000-02,IN,PG-5213,Instrument(PG),Instrument(PG),DONE
 5000-02,IN,PG-5214,Instrument(PG),Instrument(PG),DONE
 5000-02,IN,PG-5217,Instrument(PG),Instrument(PG),DONE
 5000-02,IN,PG-5231,Instrument(PG),Instrument(PG),DONE
-5000-01,IN,PG-5232,Instrument(PG),Instrument(PG),DONE
+5000-01,IN,PG-5232,Instrument(PG),Instrument(PG),0%
 5000-02,IN,PG-5234,Instrument(PG),Instrument(PG),DONE
 5000-02,IN,PG-5235,Instrument(PG),Instrument(PG),DONE
-5000-01,IN,PG-5237,Instrument(PG),Instrument(PG),DONE
+5000-01,IN,PG-5237,Instrument(PG),Instrument(PG),0%
 5000-02,IN,PG-5238,Instrument(PG),Instrument(PG),DONE
 5000-03,IN,PG-5303,Instrument(PG),Instrument(PG),Done
 5000-03,IN,PG-5306,Instrument(PG),Instrument(PG),Done
@@ -17331,8 +17331,8 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 5000-04,IN,PG-54607,Instrument(PG),Instrument(PG),0%
 5000-04,IN,PG-54608,Instrument(PG),Instrument(PG),50%
 5000-04,IN,PG-54609,Instrument(PG),Instrument(PG),50%
-5000-01,IN,PG-5511,Instrument(PG),Instrument(PG),DONE
-5000-01,IN,PG-5513,Instrument(PG),Instrument(PG),DONE
+5000-01,IN,PG-5511,Instrument(PG),Instrument(PG),0%
+5000-01,IN,PG-5513,Instrument(PG),Instrument(PG),0%
 1000-03,IN,PG-6002,Instrument(PG),Instrument(PG),DONE
 1000-03,IN,PG-6005,Instrument(PG),Instrument(PG),DONE
 1000-03,IN,PG-6006,Instrument(PG),Instrument(PG),DONE
@@ -17779,13 +17779,13 @@ FGS-07,IN,PSH-105,Fire Fighting,Fire Fighting(PSH),0%
 5000-01,IN,PSH-50201B(NA),CABLE,CABLE(NA),Done
 5000-01,IN,PSH-50201B(PSH),Instrument(PSH),Instrument(PSH),50%
 5000-01,IN,PSH-50203A(NA),CABLE,CABLE(NA),DONE
-5000-01,IN,PSH-50203A(PSH),Instrument(PSH),Instrument(PSH),DONE
+5000-01,IN,PSH-50203A(PSH),Instrument(PSH),Instrument(PSH),50%
 5000-01,IN,PSH-50203B(NA),CABLE,CABLE(NA),DONE
-5000-01,IN,PSH-50203B(PSH),Instrument(PSH),Instrument(PSH),DONE
+5000-01,IN,PSH-50203B(PSH),Instrument(PSH),Instrument(PSH),50%
 5000-01,IN,PSH-50205A(NA),CABLE,CABLE(NA),DONE
-5000-01,IN,PSH-50205A(PSH),Instrument(PSH),Instrument(PSH),DONE
+5000-01,IN,PSH-50205A(PSH),Instrument(PSH),Instrument(PSH),50%
 5000-01,IN,PSH-50205B(NA),CABLE,CABLE(NA),DONE
-5000-01,IN,PSH-50205B(PSH),Instrument(PSH),Instrument(PSH),DONE
+5000-01,IN,PSH-50205B(PSH),Instrument(PSH),Instrument(PSH),50%
 5000-02,IN,PSH-50207A(NA),CABLE,CABLE(NA),Done
 5000-02,IN,PSH-50207A(PSH),Instrument(PSH),Instrument(PSH),Done
 5000-02,IN,PSH-50207B(NA),CABLE,CABLE(NA),Done
@@ -18108,8 +18108,8 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 7000-01,IN,PSV-3196,Instrument(PSV),Instrument(PSV),Done
 7000-01,IN,PSV-3197,Instrument(PSV),Instrument(PSV),Done
 7000-01,IN,PSV-3206,Instrument(PSV),Instrument(PSV),Done
-5000-01,IN,PSV-5006,Instrument(PSV),Instrument(PSV),DONE
-5000-01,IN,PSV-5007,Instrument(PSV),Instrument(PSV),DONE
+5000-01,IN,PSV-5006,Instrument(PSV),Instrument(PSV),0%
+5000-01,IN,PSV-5007,Instrument(PSV),Instrument(PSV),50%
 7000-01,IN,PSV-5058,Instrument(PSV),Instrument(PSV),Done
 7000-01,IN,PSV-5059,Instrument(PSV),Instrument(PSV),Done
 7000-01,IN,PSV-5060,Instrument(PSV),Instrument(PSV),Done
@@ -18119,8 +18119,8 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 7000-01,IN,PSV-5179,Instrument(PSV),Instrument(PSV),Done
 7000-01,IN,PSV-5180,Instrument(PSV),Instrument(PSV),Done
 4000-08,IN,PSV-5220,Instrument(PSV),Instrument(PSV),Done
-5000-01,IN,PSV-5236,Instrument(PSV),Instrument(PSV),DONE
-5000-01,IN,PSV-5239,Instrument(PSV),Instrument(PSV),DONE
+5000-01,IN,PSV-5236,Instrument(PSV),Instrument(PSV),0%
+5000-01,IN,PSV-5239,Instrument(PSV),Instrument(PSV),0%
 7000-01,IN,PSV-5250,Instrument(PSV),Instrument(PSV),Done
 7000-01,IN,PSV-5251,Instrument(PSV),Instrument(PSV),Done
 7000-01,IN,PSV-5261,Instrument(PSV),Instrument(PSV),Done
@@ -18142,8 +18142,8 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 5000-05,IN,PSV-5451,Instrument(PSV),Instrument(PSV),Done
 5000-05,IN,PSV-5461,Instrument(PSV),Instrument(PSV),Done
 5000-05,IN,PSV-5462,Instrument(PSV),Instrument(PSV),Done
-5000-01,IN,PSV-5512,Instrument(PSV),Instrument(PSV),DONE
-5000-01,IN,PSV-5514,Instrument(PSV),Instrument(PSV),DONE
+5000-01,IN,PSV-5512,Instrument(PSV),Instrument(PSV),0%
+5000-01,IN,PSV-5514,Instrument(PSV),Instrument(PSV),0%
 7000-01,IN,PSV-6021,Instrument(PSV),Instrument(PSV),Exception(Pending)
 7000-01,IN,PSV-6022,Instrument(PSV),Instrument(PSV),Exception(Pending)
 4000-03,IN,PSV-6027,Instrument(PSV),Instrument(PSV),Done
@@ -18378,7 +18378,7 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 5000-01,IN,PT-5004(NA),CABLE,CABLE(NA),Done
 5000-01,IN,PT-5004(PT),Instrument(PT),Instrument(PT),Done
 5000-01,IN,PT-5022(NA),CABLE,CABLE(NA),0%
-5000-01,IN,PT-5022(PT),Instrument(PT),Instrument(PT),Done
+5000-01,IN,PT-5022(PT),Instrument(PT),Instrument(PT),50%
 5000-01,IN,PT-5047(NA),CABLE,CABLE(NA),Done
 5000-01,IN,PT-5047(PT),Instrument(PT),Instrument(PT),Done
 5000-01,IN,PT-5049(NA),CABLE,CABLE(NA),Done
@@ -18386,17 +18386,17 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 5000-01,IN,PT-5051(NA),CABLE,CABLE(NA),Done
 5000-01,IN,PT-5051(PT),Instrument(PT),Instrument(PT),Done
 5000-01,IN,PT-5069(NA),CABLE,CABLE(NA),Done
-5000-01,IN,PT-5069(PT),Instrument(PT),Instrument(PT),DONE
+5000-01,IN,PT-5069(PT),Instrument(PT),Instrument(PT),50%
 5000-01,IN,PT-5083(NA),CABLE,CABLE(NA),DONE
 5000-01,IN,PT-5083(PT),Instrument(PT),Instrument(PT),Done
 5000-01,IN,PT-5091(NA),CABLE,CABLE(NA),Done
-5000-01,IN,PT-5091(PT),Instrument(PT),Instrument(PT),DONE
+5000-01,IN,PT-5091(PT),Instrument(PT),Instrument(PT),50%
 5000-01,IN,PT-5093(NA),CABLE,CABLE(NA),Done
 5000-01,IN,PT-5093(PT),Instrument(PT),Instrument(PT),DONE
 5000-01,IN,PT-5111(NA),CABLE,CABLE(NA),DONE
 5000-01,IN,PT-5111(PT),Instrument(PT),Instrument(PT),Done
 5000-01,IN,PT-5139(NA),CABLE,CABLE(NA),Done
-5000-01,IN,PT-5139(PT),Instrument(PT),Instrument(PT),Done
+5000-01,IN,PT-5139(PT),Instrument(PT),Instrument(PT),50%
 5000-02,IN,PT-5166(NA),CABLE,CABLE(NA),Done
 5000-02,IN,PT-5166(PT),Instrument(PT),Instrument(PT),Done
 5000-02,IN,PT-5168(NA),CABLE,CABLE(NA),Done
@@ -18410,7 +18410,7 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 5000-02,IN,PT-5219(NA),CABLE,CABLE(NA),Done
 5000-02,IN,PT-5219(PT),Instrument(PT),Instrument(PT),DONE
 5000-02,IN,PT-5240(NA),CABLE,CABLE(NA),Done
-5000-02,IN,PT-5240(PT),Instrument(PT),Instrument(PT),Done
+5000-02,IN,PT-5240(PT),Instrument(PT),Instrument(PT),50%
 5000-03,IN,PT-5252(NA),CABLE,CABLE(NA),Done
 5000-03,IN,PT-5252(PT),Instrument(PT),Instrument(PT),Done
 5000-03,IN,PT-5254(NA),CABLE,CABLE(NA),Done
@@ -18426,9 +18426,9 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 5000-03,IN,PT-5335(NA),CABLE,CABLE(NA),Done
 5000-03,IN,PT-5335(PT),Instrument(PT),Instrument(PT),DONE
 5000-03,IN,PT-5367(NA),CABLE,CABLE(NA),Done
-5000-03,IN,PT-5367(PT),Instrument(PT),Instrument(PT),Done
+5000-03,IN,PT-5367(PT),Instrument(PT),Instrument(PT),50%
 5000-01,IN,PT-5369(NA),CABLE,CABLE(NA),DONE
-5000-01,IN,PT-5369(PT),Instrument(PT),Instrument(PT),Done
+5000-01,IN,PT-5369(PT),Instrument(PT),Instrument(PT),50%
 5000-04,IN,PT-5389(NA),CABLE,CABLE(NA),Done
 5000-04,IN,PT-5389(PT),Instrument(PT),Instrument(PT),DONE
 5000-04,IN,PT-5398(NA),CABLE,CABLE(NA),0%
@@ -18613,9 +18613,9 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 3000-02,IN,PY-3042A,SIGNAL,SIGNAL,Exception(Pending)
 3000-02,IN,PY-3042B,SIGNAL,SIGNAL,Exception(Pending)
 3000-02,IN,PY-3042C,SIGNAL,SIGNAL,Exception(Pending)
-5000-02,IN,PY-5207A,SIGNAL,SIGNAL,DONE
-5000-02,IN,PY-5207B,SIGNAL,SIGNAL,DONE
-5000-02,IN,PY-5207C,SIGNAL,SIGNAL,DONE
+5000-02,IN,PY-5207A,SIGNAL,SIGNAL,0%
+5000-02,IN,PY-5207B,SIGNAL,SIGNAL,0%
+5000-02,IN,PY-5207C,SIGNAL,SIGNAL,0%
 4000-04,IN,PY-70164A,Instrument(X),Instrument(PY),0%
 4000-04,IN,PY-70164B,Instrument(X),Instrument(PY),0%
 4000-08,IN,PY-80119A,Instrument(X),Instrument(PY),Done
@@ -18741,40 +18741,40 @@ FGS-03,IN,RHS-9053,Fire Fighting,Fire Fighting(RHS),0%
 3000-04,IN,RO-20202,Instrument(RO),Instrument(RO),0%
 2000-05,IN,RO-20601A,Instrument(RO),Instrument(RO),0%
 2000-05,IN,RO-20601B,Instrument(RO),Instrument(RO),0%
-5000-01,IN,RO-30201A,Instrument(RO),Instrument(RO),Done
-5000-01,IN,RO-30202A,Instrument(RO),Instrument(RO),Done
-5000-01,IN,RO-50201A,Instrument(RO),Instrument(RO),Done
-5000-01,IN,RO-50201B,Instrument(RO),Instrument(RO),Done
-5000-01,IN,RO-50202A,Instrument(RO),Instrument(RO),Done
-5000-01,IN,RO-50202B,Instrument(RO),Instrument(RO),Done
-5000-01,IN,RO-50203A,Instrument(RO),Instrument(RO),Done
-5000-01,IN,RO-50203B,Instrument(RO),Instrument(RO),Done
-5000-02,IN,RO-50204A,Instrument(RO),Instrument(RO),Done
-5000-02,IN,RO-50204B,Instrument(RO),Instrument(RO),Done
-5000-02,IN,RO-50205A,Instrument(RO),Instrument(RO),Done
-5000-02,IN,RO-50205B,Instrument(RO),Instrument(RO),Done
-5000-03,IN,RO-50206A,Instrument(RO),Instrument(RO),Done
-5000-03,IN,RO-50206B,Instrument(RO),Instrument(RO),Done
-5000-03,IN,RO-50207A,Instrument(RO),Instrument(RO),Done
-5000-03,IN,RO-50207B,Instrument(RO),Instrument(RO),Done
+5000-01,IN,RO-30201A,Instrument(RO),Instrument(RO),50%
+5000-01,IN,RO-30202A,Instrument(RO),Instrument(RO),50%
+5000-01,IN,RO-50201A,Instrument(RO),Instrument(RO),50%
+5000-01,IN,RO-50201B,Instrument(RO),Instrument(RO),50%
+5000-01,IN,RO-50202A,Instrument(RO),Instrument(RO),0%
+5000-01,IN,RO-50202B,Instrument(RO),Instrument(RO),0%
+5000-01,IN,RO-50203A,Instrument(RO),Instrument(RO),0%
+5000-01,IN,RO-50203B,Instrument(RO),Instrument(RO),0%
+5000-02,IN,RO-50204A,Instrument(RO),Instrument(RO),0%
+5000-02,IN,RO-50204B,Instrument(RO),Instrument(RO),0%
+5000-02,IN,RO-50205A,Instrument(RO),Instrument(RO),0%
+5000-02,IN,RO-50205B,Instrument(RO),Instrument(RO),0%
+5000-03,IN,RO-50206A,Instrument(RO),Instrument(RO),0%
+5000-03,IN,RO-50206B,Instrument(RO),Instrument(RO),0%
+5000-03,IN,RO-50207A,Instrument(RO),Instrument(RO),0%
+5000-03,IN,RO-50207B,Instrument(RO),Instrument(RO),0%
 5000-04,IN,RO-50208A,Instrument(RO),Instrument(RO),Done
 5000-04,IN,RO-50208B,Instrument(RO),Instrument(RO),Done
 4000-04,IN,RO-50209A,Instrument(RO),Instrument(RO),50%
 4000-04,IN,RO-50209B,Instrument(RO),Instrument(RO),50%
-5000-01,IN,RO-50210A,Instrument(RO),Instrument(RO),Done
-5000-01,IN,RO-50210B,Instrument(RO),Instrument(RO),Done
-5000-02,IN,RO-50211A,Instrument(RO),Instrument(RO),Done
-5000-02,IN,RO-50211B,Instrument(RO),Instrument(RO),Done
-5000-02,IN,RO-50212A,Instrument(RO),Instrument(RO),Done
-5000-02,IN,RO-50212B,Instrument(RO),Instrument(RO),Done
-5000-03,IN,RO-50213A,Instrument(RO),Instrument(RO),Done
-5000-03,IN,RO-50213B,Instrument(RO),Instrument(RO),Done
-5000-03,IN,RO-50214A,Instrument(RO),Instrument(RO),Done
-5000-03,IN,RO-50214B,Instrument(RO),Instrument(RO),Done
+5000-01,IN,RO-50210A,Instrument(RO),Instrument(RO),50%
+5000-01,IN,RO-50210B,Instrument(RO),Instrument(RO),50%
+5000-02,IN,RO-50211A,Instrument(RO),Instrument(RO),50%
+5000-02,IN,RO-50211B,Instrument(RO),Instrument(RO),50%
+5000-02,IN,RO-50212A,Instrument(RO),Instrument(RO),50%
+5000-02,IN,RO-50212B,Instrument(RO),Instrument(RO),50%
+5000-03,IN,RO-50213A,Instrument(RO),Instrument(RO),50%
+5000-03,IN,RO-50213B,Instrument(RO),Instrument(RO),50%
+5000-03,IN,RO-50214A,Instrument(RO),Instrument(RO),50%
+5000-03,IN,RO-50214B,Instrument(RO),Instrument(RO),0%
 5000-04,IN,RO-50215A,Instrument(RO),Instrument(RO),Done
 5000-04,IN,RO-50215B,Instrument(RO),Instrument(RO),Done
-5000-01,IN,RO-50216A,Instrument(RO),Instrument(RO),Done
-5000-01,IN,RO-50216B,Instrument(RO),Instrument(RO),Done
+5000-01,IN,RO-50216A,Instrument(RO),Instrument(RO),50%
+5000-01,IN,RO-50216B,Instrument(RO),Instrument(RO),50%
 4000-04,IN,RO-70257A,Instrument(RO),Instrument(RO),0%
 4000-04,IN,RO-70257B,Instrument(RO),Instrument(RO),0%
 4000-04,IN,RO-70257C,Instrument(RO),Instrument(RO),0%
@@ -19828,9 +19828,9 @@ TEL-08,EL,SS-TJB1,Telecom Device,Telephone Junction Box,50%
 120-17,EL,SS-TR2B-04,Transformer,Transformer,38%
 120-17,EL,SS-TR2B-05,Transformer,Transformer,38%
 120-17,EL,SS-TR2B-06,Transformer,Transformer,25%
-120-17,EL,SS-TR3-02,Transformer,Main Emergency Lighting Transformer,0%
-120-17,EL,SS-TR3A-01,Transformer,Main Normal Lighting Transformer A,0%
-120-17,EL,SS-TR3B-01,Transformer,Main Normal Lighting Transformer B,0%
+120-17,EL,SS-TR3-02,Transformer,Main Emergency Lighting Transformer,12%
+120-17,EL,SS-TR3A-01,Transformer,Main Normal Lighting Transformer A,12%
+120-17,EL,SS-TR3B-01,Transformer,Main Normal Lighting Transformer B,12%
 120-15,EL,SS-UBT-01,UPS & Battery,230V AC Safety Lighting UPS Battery Set,25%
 120-11,EL,SS-UIS-01,UPS & Battery,230V AC Safety Lighting UPS Battery Isolator Box,Done
 120-11,EL,SS-UPS-01,UPS & Battery, 230V AC Safety Lighting UPS,Done
@@ -20740,7 +20740,7 @@ BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor 
 3000-01,IN,TG-30158,Instrument(TG),Instrument(TG),Exception(Pending)
 3000-01,IN,TG-30170,Instrument(TG),Instrument(TG),Done
 3000-01,IN,TG-30171,Instrument(TG),Instrument(TG),Done
-5000-01,IN,TG-30201A,Instrument(TG),Instrument(TG),DONE
+5000-01,IN,TG-30201A,Instrument(TG),Instrument(TG),50%
 3000-01,IN,TG-3022,Instrument(TG),Instrument(TG),Done
 4000-06,IN,TG-3026,Instrument(TG),Instrument(TG),Exception(Pending)
 3000-02,IN,TG-3051,Instrument(TG),Instrument(TG),Exception(Pending)
@@ -20761,38 +20761,38 @@ BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor 
 3000-03,IN,TG-3146,Instrument(TG),Instrument(TG),Exception(Pending)
 3000-03,IN,TG-3149,Instrument(TG),Instrument(TG),Exception(Pending)
 5000-01,IN,TG-5008,Instrument(TG),Instrument(TG),DONE
-5000-01,IN,TG-50201A,Instrument(TG),Instrument(TG),DONE
-5000-01,IN,TG-50201B,Instrument(TG),Instrument(TG),DONE
-5000-01,IN,TG-50202A,Instrument(TG),Instrument(TG),Done
-5000-01,IN,TG-50202B,Instrument(TG),Instrument(TG),DONE
-5000-01,IN,TG-50203A,Instrument(TG),Instrument(TG),DONE
-5000-01,IN,TG-50203B,Instrument(TG),Instrument(TG),DONE
+5000-01,IN,TG-50201A,Instrument(TG),Instrument(TG),50%
+5000-01,IN,TG-50201B,Instrument(TG),Instrument(TG),50%
+5000-01,IN,TG-50202A,Instrument(TG),Instrument(TG),0%
+5000-01,IN,TG-50202B,Instrument(TG),Instrument(TG),50%
+5000-01,IN,TG-50203A,Instrument(TG),Instrument(TG),0%
+5000-01,IN,TG-50203B,Instrument(TG),Instrument(TG),0%
 5000-01,IN,TG-50204A,Instrument(TG),Instrument(TG),DONE
 5000-01,IN,TG-50204B,Instrument(TG),Instrument(TG),DONE
 5000-01,IN,TG-50205A,Instrument(TG),Instrument(TG),DONE
-5000-01,IN,TG-50205B,Instrument(TG),Instrument(TG),Done
-5000-02,IN,TG-50206A,Instrument(TG),Instrument(TG),DONE
-5000-02,IN,TG-50206B,Instrument(TG),Instrument(TG),DONE
+5000-01,IN,TG-50205B,Instrument(TG),Instrument(TG),50%
+5000-02,IN,TG-50206A,Instrument(TG),Instrument(TG),50%
+5000-02,IN,TG-50206B,Instrument(TG),Instrument(TG),50%
 5000-02,IN,TG-50207A,Instrument(TG),Instrument(TG),DONE
 5000-02,IN,TG-50207B,Instrument(TG),Instrument(TG),DONE
 5000-02,IN,TG-50208A,Instrument(TG),Instrument(TG),DONE
-5000-02,IN,TG-50208B,Instrument(TG),Instrument(TG),DONE
+5000-02,IN,TG-50208B,Instrument(TG),Instrument(TG),50%
 5000-02,IN,TG-50209A,Instrument(TG),Instrument(TG),DONE
 5000-02,IN,TG-50209B,Instrument(TG),Instrument(TG),DONE
-5000-03,IN,TG-50210A,Instrument(TG),Instrument(TG),Done
-5000-03,IN,TG-50210B,Instrument(TG),Instrument(TG),Done
+5000-03,IN,TG-50210A,Instrument(TG),Instrument(TG),50%
+5000-03,IN,TG-50210B,Instrument(TG),Instrument(TG),50%
 5000-03,IN,TG-50211A,Instrument(TG),Instrument(TG),Done
-5000-03,IN,TG-50211B,Instrument(TG),Instrument(TG),Done
-5000-03,IN,TG-50212A,Instrument(TG),Instrument(TG),Done
-5000-03,IN,TG-50212B,Instrument(TG),Instrument(TG),Done
-5000-03,IN,TG-50213A,Instrument(TG),Instrument(TG),Done
-5000-03,IN,TG-50213B,Instrument(TG),Instrument(TG),Done
+5000-03,IN,TG-50211B,Instrument(TG),Instrument(TG),50%
+5000-03,IN,TG-50212A,Instrument(TG),Instrument(TG),0%
+5000-03,IN,TG-50212B,Instrument(TG),Instrument(TG),0%
+5000-03,IN,TG-50213A,Instrument(TG),Instrument(TG),0%
+5000-03,IN,TG-50213B,Instrument(TG),Instrument(TG),0%
 5000-04,IN,TG-50214A,Instrument(TG),Instrument(TG),Done
 5000-04,IN,TG-50214B,Instrument(TG),Instrument(TG),Done
 5000-04,IN,TG-50215A,Instrument(TG),Instrument(TG),Done
-5000-03,IN,TG-50216B,Instrument(TG),Instrument(TG),Done
-5000-03,IN,TG-50217A,Instrument(TG),Instrument(TG),Done
-5000-03,IN,TG-50217B,Instrument(TG),Instrument(TG),Done
+5000-03,IN,TG-50216B,Instrument(TG),Instrument(TG),50%
+5000-03,IN,TG-50217A,Instrument(TG),Instrument(TG),0%
+5000-03,IN,TG-50217B,Instrument(TG),Instrument(TG),50%
 4000-04,IN,TG-50218A,Instrument(TG),Instrument(TG),0%
 4000-04,IN,TG-50218B,Instrument(TG),Instrument(TG),50%
 5000-01,IN,TG-5098,Instrument(TG),Instrument(TG),DONE
@@ -20805,7 +20805,7 @@ BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor 
 5000-03,IN,TG-5191,Instrument(TG),Instrument(TG),Done
 5000-02,IN,TG-5192,Instrument(TG),Instrument(TG),DONE
 5000-03,IN,TG-5193,Instrument(TG),Instrument(TG),Done
-5000-02,IN,TG-5210,Instrument(TG),Instrument(TG),DONE
+5000-02,IN,TG-5210,Instrument(TG),Instrument(TG),50%
 5000-04,IN,TG-5220,Instrument(TG),Instrument(TG),Done
 5000-03,IN,TG-5275,Instrument(TG),Instrument(TG),Done
 2000-05,IN,TG-5276,Instrument(TG),Instrument(TG),Exception(Pending)
@@ -20813,7 +20813,7 @@ BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor 
 5000-03,IN,TG-5309,Instrument(TG),Instrument(TG),Done
 5000-03,IN,TG-5310,Instrument(TG),Instrument(TG),Done
 5000-03,IN,TG-5311,Instrument(TG),Instrument(TG),Done
-5000-03,IN,TG-5312,Instrument(TG),Instrument(TG),Done
+5000-03,IN,TG-5312,Instrument(TG),Instrument(TG),50%
 5000-04,IN,TG-5339,Instrument(TG),Instrument(TG),Done
 5000-01,IN,TG-5370,Instrument(TG),Instrument(TG),DONE
 5000-04,IN,TG-5394,Instrument(TG),Instrument(TG),Done
@@ -23158,12 +23158,12 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 1000-04,MES,X-1002B,Filter(X),Dry Gas Filter X-1002B,0%
 2000-03,MES,X-2001-A,Filter(X),Oxygen Filter,DONE
 2000-03,MES,X-2001-B,Filter(X),Oxygen Filter,DONE
-2000-03,MES,X-2002-A,Filter(X),Steam Filter,84%
-2000-03,MES,X-2002-B,Filter(X),Steam Filter,84%
+2000-03,MES,X-2002-A,Filter(X),Steam Filter,79%
+2000-03,MES,X-2002-B,Filter(X),Steam Filter,79%
 1000-02,MES,X-2003,Filter(X),Static Fuel Gas Mixer,Done
 5000-04,MES,X-5001-A,Filter(X),PRODUCT POLISHER UNIT,84%
 5000-04,MES,X-5001-B,Filter(X),PRODUCT POLISHER UNIT,84%
-5000-01,MES,X-5003,Filter(X),FILTER,DONE
+5000-01,MES,X-5003,Filter(X),FILTER,0%
 1000-03,MES,X-6001-A,Filter(X),Particle Filter,84%
 1000-03,MES,X-6001-B,Filter(X),Particle Filter,84%
 1000-03,MES,X-6002-A,Filter(X),Partical Filter,84%
@@ -23247,7 +23247,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 2000-06,IN,XAS-25103A,I/O EL,I/O EL,Done
 2000-06,IN,XAS-25106,I/O EL,I/O EL,Done
 2000-06,IN,XAS-2577,I/O EL,I/O EL,Done
-5000-01,IN,XAS-3001,I/O EL,I/O EL,DONE
+5000-01,IN,XAS-3001,I/O EL,I/O EL,0%
 3000-01,IN,XAS-30101,PKG,PKG,Exception(Pending)
 3000-01,IN,XAS-30101-F,Instrument(X),Instrument(XAS),Exception(Pending)
 3000-01,IN,XAS-30102,Pkg,Pkg,Exception(Pending)
@@ -23284,112 +23284,112 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 3000-03,IN,XAS-3147-6,I/O EL,I/O EL,Exception(Pending)
 3000-03,IN,XAS-3147-7,I/O EL,I/O EL,Exception(Pending)
 3000-03,IN,XAS-3147-8,I/O EL,I/O EL,Exception(Pending)
-5000-01,IN,XAS-5013,I/O EL,I/O EL,DONE
-5000-01,IN,XAS-5017,I/O EL,I/O EL,DONE
-5000-01,IN,XAS-5070A,I/O EL,I/O EL,DONE
-5000-01,IN,XAS-5070B,I/O EL,I/O EL,DONE
+5000-01,IN,XAS-5013,I/O EL,I/O EL,0%
+5000-01,IN,XAS-5017,I/O EL,I/O EL,0%
+5000-01,IN,XAS-5070A,I/O EL,I/O EL,0%
+5000-01,IN,XAS-5070B,I/O EL,I/O EL,0%
 4000-04,IN,XAS-5077,I/O EL,I/O EL,0%
 4000-04,IN,XAS-5081,I/O EL,I/O EL,0%
-5000-01,IN,XAS-5092-1,I/O EL,I/O EL,DONE
-5000-01,IN,XAS-5092-10,I/O EL,I/O EL,DONE
-5000-01,IN,XAS-5092-11,I/O EL,I/O EL,DONE
-5000-01,IN,XAS-5092-12,I/O EL,I/O EL,DONE
-5000-01,IN,XAS-5092-2,I/O EL,I/O EL,DONE
-5000-01,IN,XAS-5092-3,I/O EL,I/O EL,DONE
-5000-01,IN,XAS-5092-4,I/O EL,I/O EL,DONE
-5000-01,IN,XAS-5092-5,I/O EL,I/O EL,DONE
-5000-01,IN,XAS-5092-6,I/O EL,I/O EL,DONE
-5000-01,IN,XAS-5092-7,I/O EL,I/O EL,DONE
-5000-01,IN,XAS-5092-8,I/O EL,I/O EL,DONE
-5000-01,IN,XAS-5092-9,I/O EL,I/O EL,DONE
-5000-01,IN,XAS-5101,I/O EL,I/O EL,DONE
-5000-01,IN,XAS-5105,I/O EL,I/O EL,DONE
-5000-01,IN,XAS-5133,I/O EL,I/O EL,DONE
-5000-01,IN,XAS-5137,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-1,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-10,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-11,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-12,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-13,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-14,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-15,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-16,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-17,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-18,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-19,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-2,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-20,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-21,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-22,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-23,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-24,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-25,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-26,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-27,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-28,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-29,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-3,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-30,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-31,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-32,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-33,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-34,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-35,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-36,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-37,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-38,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-39,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-4,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-40,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-41,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-42,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-43,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-44,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-45,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-46,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-47,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-48,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-49,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-5,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-50,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-51,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-52,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-53,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-54,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-55,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-56,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-57,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-58,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-59,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-6,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-60,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-61,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-62,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-63,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-64,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-65,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-66,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-67,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-68,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-69,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-7,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-70,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-71,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-72,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-8,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5201-9,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5212,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5216,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5233,I/O EL,I/O EL,DONE
-5000-02,IN,XAS-5237,I/O EL,I/O EL,DONE
-5000-03,IN,XAS-5329,I/O EL,I/O EL,Done
+5000-01,IN,XAS-5092-1,I/O EL,I/O EL,0%
+5000-01,IN,XAS-5092-10,I/O EL,I/O EL,0%
+5000-01,IN,XAS-5092-11,I/O EL,I/O EL,0%
+5000-01,IN,XAS-5092-12,I/O EL,I/O EL,0%
+5000-01,IN,XAS-5092-2,I/O EL,I/O EL,0%
+5000-01,IN,XAS-5092-3,I/O EL,I/O EL,0%
+5000-01,IN,XAS-5092-4,I/O EL,I/O EL,0%
+5000-01,IN,XAS-5092-5,I/O EL,I/O EL,0%
+5000-01,IN,XAS-5092-6,I/O EL,I/O EL,0%
+5000-01,IN,XAS-5092-7,I/O EL,I/O EL,0%
+5000-01,IN,XAS-5092-8,I/O EL,I/O EL,0%
+5000-01,IN,XAS-5092-9,I/O EL,I/O EL,0%
+5000-01,IN,XAS-5101,I/O EL,I/O EL,0%
+5000-01,IN,XAS-5105,I/O EL,I/O EL,0%
+5000-01,IN,XAS-5133,I/O EL,I/O EL,0%
+5000-01,IN,XAS-5137,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-1,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-10,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-11,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-12,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-13,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-14,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-15,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-16,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-17,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-18,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-19,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-2,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-20,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-21,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-22,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-23,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-24,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-25,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-26,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-27,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-28,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-29,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-3,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-30,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-31,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-32,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-33,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-34,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-35,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-36,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-37,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-38,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-39,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-4,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-40,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-41,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-42,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-43,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-44,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-45,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-46,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-47,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-48,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-49,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-5,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-50,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-51,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-52,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-53,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-54,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-55,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-56,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-57,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-58,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-59,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-6,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-60,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-61,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-62,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-63,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-64,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-65,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-66,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-67,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-68,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-69,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-7,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-70,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-71,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-72,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-8,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5201-9,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5212,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5216,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5233,I/O EL,I/O EL,0%
+5000-02,IN,XAS-5237,I/O EL,I/O EL,0%
+5000-03,IN,XAS-5329,I/O EL,I/O EL,0%
 5000-03,IN,XAS-5333,I/O EL,I/O EL,Done
-5000-03,IN,XAS-5353,I/O EL,I/O EL,Done
-5000-03,IN,XAS-5357,I/O EL,I/O EL,Done
-5000-03,IN,XAS-5361,I/O EL,I/O EL,Done
-5000-03,IN,XAS-5365,I/O EL,I/O EL,Done
-5000-01,IN,XAS-5368A,I/O EL,I/O EL,DONE
-5000-01,IN,XAS-5368B,I/O EL,I/O EL,DONE
+5000-03,IN,XAS-5353,I/O EL,I/O EL,0%
+5000-03,IN,XAS-5357,I/O EL,I/O EL,0%
+5000-03,IN,XAS-5361,I/O EL,I/O EL,0%
+5000-03,IN,XAS-5365,I/O EL,I/O EL,0%
+5000-01,IN,XAS-5368A,I/O EL,I/O EL,0%
+5000-01,IN,XAS-5368B,I/O EL,I/O EL,0%
 5000-04,IN,XAS-5404,I/O EL,I/O EL,Done
 5000-04,IN,XAS-5405,I/O EL,I/O EL,Done
 5000-04,IN,XAS-5425,I/O EL,I/O EL,Done
@@ -24679,7 +24679,7 @@ TEL-10,EL,YO-TJB2,Telecom Device,Telephone Junction Box,0%
 2000-06,IN,YS-25101,Pkg,Pkg,0%
 2000-06,IN,YS-25103A,I/O EL,I/O EL,Done
 2000-06,IN,YS-2577,I/O EL,I/O EL,Done
-5000-01,IN,YS-3001,I/O EL,I/O EL,DONE
+5000-01,IN,YS-3001,I/O EL,I/O EL,0%
 3000-03,IN,YS-3141-1,I/O EL,I/O EL,Exception(Pending)
 3000-03,IN,YS-3141-2,I/O EL,I/O EL,Exception(Pending)
 3000-03,IN,YS-3141-3,I/O EL,I/O EL,Exception(Pending)
@@ -24704,112 +24704,112 @@ TEL-10,EL,YO-TJB2,Telecom Device,Telephone Junction Box,0%
 3000-03,IN,YS-3147-6,I/O EL,I/O EL,Exception(Pending)
 3000-03,IN,YS-3147-7,I/O EL,I/O EL,Exception(Pending)
 3000-03,IN,YS-3147-8,I/O EL,I/O EL,Exception(Pending)
-5000-01,IN,YS-5013,I/O EL,I/O EL,DONE
-5000-01,IN,YS-5017,I/O EL,I/O EL,DONE
-5000-01,IN,YS-5070A,I/O EL,I/O EL,DONE
-5000-01,IN,YS-5070B,I/O EL,I/O EL,DONE
+5000-01,IN,YS-5013,I/O EL,I/O EL,0%
+5000-01,IN,YS-5017,I/O EL,I/O EL,0%
+5000-01,IN,YS-5070A,I/O EL,I/O EL,0%
+5000-01,IN,YS-5070B,I/O EL,I/O EL,0%
 4000-04,IN,YS-5077,I/O EL,I/O EL,0%
 4000-04,IN,YS-5081,I/O EL,I/O EL,0%
-5000-01,IN,YS-5092-1,I/O EL,I/O EL,DONE
-5000-01,IN,YS-5092-10,I/O EL,I/O EL,DONE
-5000-01,IN,YS-5092-11,I/O EL,I/O EL,DONE
-5000-01,IN,YS-5092-12,I/O EL,I/O EL,DONE
-5000-01,IN,YS-5092-2,I/O EL,I/O EL,DONE
-5000-01,IN,YS-5092-3,I/O EL,I/O EL,DONE
-5000-01,IN,YS-5092-4,I/O EL,I/O EL,DONE
-5000-01,IN,YS-5092-5,I/O EL,I/O EL,DONE
-5000-01,IN,YS-5092-6,I/O EL,I/O EL,DONE
-5000-01,IN,YS-5092-7,I/O EL,I/O EL,DONE
-5000-01,IN,YS-5092-8,I/O EL,I/O EL,DONE
-5000-01,IN,YS-5092-9,I/O EL,I/O EL,DONE
-5000-01,IN,YS-5101,I/O EL,I/O EL,DONE
-5000-01,IN,YS-5105,I/O EL,I/O EL,DONE
-5000-01,IN,YS-5133,I/O EL,I/O EL,DONE
-5000-01,IN,YS-5137,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-1,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-10,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-11,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-12,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-13,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-14,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-15,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-16,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-17,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-18,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-19,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-2,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-20,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-21,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-22,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-23,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-24,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-25,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-26,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-27,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-28,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-29,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-3,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-30,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-31,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-32,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-33,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-34,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-35,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-36,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-37,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-38,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-39,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-4,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-40,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-41,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-42,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-43,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-44,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-45,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-46,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-47,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-48,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-49,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-5,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-50,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-51,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-52,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-53,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-54,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-55,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-56,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-57,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-58,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-59,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-6,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-60,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-61,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-62,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-63,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-64,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-65,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-66,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-67,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-68,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-69,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-7,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-70,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-71,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-72,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-8,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5201-9,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5212,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5216,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5233,I/O EL,I/O EL,DONE
-5000-02,IN,YS-5237,I/O EL,I/O EL,DONE
-5000-03,IN,YS-5329,I/O EL,I/O EL,Done
+5000-01,IN,YS-5092-1,I/O EL,I/O EL,0%
+5000-01,IN,YS-5092-10,I/O EL,I/O EL,0%
+5000-01,IN,YS-5092-11,I/O EL,I/O EL,0%
+5000-01,IN,YS-5092-12,I/O EL,I/O EL,0%
+5000-01,IN,YS-5092-2,I/O EL,I/O EL,0%
+5000-01,IN,YS-5092-3,I/O EL,I/O EL,0%
+5000-01,IN,YS-5092-4,I/O EL,I/O EL,0%
+5000-01,IN,YS-5092-5,I/O EL,I/O EL,0%
+5000-01,IN,YS-5092-6,I/O EL,I/O EL,0%
+5000-01,IN,YS-5092-7,I/O EL,I/O EL,0%
+5000-01,IN,YS-5092-8,I/O EL,I/O EL,0%
+5000-01,IN,YS-5092-9,I/O EL,I/O EL,0%
+5000-01,IN,YS-5101,I/O EL,I/O EL,0%
+5000-01,IN,YS-5105,I/O EL,I/O EL,0%
+5000-01,IN,YS-5133,I/O EL,I/O EL,0%
+5000-01,IN,YS-5137,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-1,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-10,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-11,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-12,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-13,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-14,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-15,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-16,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-17,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-18,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-19,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-2,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-20,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-21,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-22,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-23,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-24,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-25,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-26,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-27,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-28,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-29,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-3,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-30,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-31,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-32,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-33,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-34,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-35,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-36,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-37,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-38,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-39,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-4,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-40,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-41,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-42,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-43,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-44,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-45,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-46,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-47,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-48,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-49,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-5,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-50,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-51,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-52,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-53,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-54,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-55,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-56,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-57,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-58,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-59,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-6,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-60,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-61,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-62,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-63,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-64,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-65,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-66,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-67,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-68,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-69,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-7,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-70,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-71,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-72,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-8,I/O EL,I/O EL,0%
+5000-02,IN,YS-5201-9,I/O EL,I/O EL,0%
+5000-02,IN,YS-5212,I/O EL,I/O EL,0%
+5000-02,IN,YS-5216,I/O EL,I/O EL,0%
+5000-02,IN,YS-5233,I/O EL,I/O EL,0%
+5000-02,IN,YS-5237,I/O EL,I/O EL,0%
+5000-03,IN,YS-5329,I/O EL,I/O EL,0%
 5000-03,IN,YS-5333,I/O EL,I/O EL,Done
-5000-03,IN,YS-5353,I/O EL,I/O EL,Done
-5000-03,IN,YS-5357,I/O EL,I/O EL,Done
-5000-03,IN,YS-5361,I/O EL,I/O EL,Done
-5000-03,IN,YS-5365,I/O EL,I/O EL,Done
-5000-01,IN,YS-5368A,I/O EL,I/O EL,DONE
-5000-01,IN,YS-5368B,I/O EL,I/O EL,DONE
+5000-03,IN,YS-5353,I/O EL,I/O EL,0%
+5000-03,IN,YS-5357,I/O EL,I/O EL,0%
+5000-03,IN,YS-5361,I/O EL,I/O EL,0%
+5000-03,IN,YS-5365,I/O EL,I/O EL,0%
+5000-01,IN,YS-5368A,I/O EL,I/O EL,0%
+5000-01,IN,YS-5368B,I/O EL,I/O EL,0%
 5000-04,IN,YS-5404,I/O EL,I/O EL,Done
 5000-04,IN,YS-5405,I/O EL,I/O EL,Done
 5000-04,IN,YS-5425,I/O EL,I/O EL,Done
