@@ -30,7 +30,7 @@
 120,120-14,Electrical Distribution Substation,Electric Heat Tracing System,EL,3,0,0,0,0,0,0
 120,120-15,Electrical Distribution Substation,Capacitor Bank,EL,5,0,5,42,30,12,0
 120,120-16,Electrical Distribution Substation,MV Transformer,EL,12,4,2,57,50,7,0
-120,120-17,Electrical Distribution Substation,LV Transformer,EL,15,0,12,116,104,12,0
+120,120-17,Electrical Distribution Substation,LV Transformer,EL,15,0,15,116,104,12,0
 120,120-18,Electrical Distribution Substation,E/I Cabinet,EL,16,14,0,90,80,10,0
 120,120-18,Electrical Distribution Substation,E/I Cabinet,IN,16,14,0,12,12,0,0
 2000,2000-01,Reforming,Pre Reforming,EL,2,2,0,12,4,8,0
@@ -114,17 +114,17 @@
 4000,4000-14,Utility,Fire Water,PI,134,127,1,389,324,65,0
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,137,87,50,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,8,0,126,13,113,0
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,8,9,78,21,57,0
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,386,20,1201,888,313,0
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,7,9,78,21,57,0
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,212,75,1201,888,313,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,70,0,232,196,36,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,7,5,2,84,43,41,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,2,2,68,6,62,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,EL,2,2,0,12,7,5,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,PI,46,46,0,137,104,33,0
-5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,465,451,11,840,608,232,0
+5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,465,153,48,840,608,232,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,46,0,137,118,19,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,2,3,44,13,31,0
-5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,238,14,828,640,188,0
+5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,157,53,828,640,188,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,6,0,84,9,75,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,EL,2,2,0,12,8,4,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MES,6,0,6,34,4,30,0
@@ -134,7 +134,7 @@
 5000,5000-04,Distillation & Methanol Product,Methanol Product,IN,213,148,25,470,405,65,0
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MES,2,0,2,0,0,0,0
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MER,2,2,0,12,0,12,0
-5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,63,50,10,104,68,36,0
+5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,63,50,10,129,68,61,0
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,10,9,1,29,27,2,0
 7000,7000-01,Flare,Flare System (In Site),IN,145,138,0,260,143,117,0
 7000,7000-01,Flare,Flare System (In Site),MER,2,2,0,14,0,14,0
@@ -149,7 +149,7 @@ BLD,BLD-04,Building,Security Building,BD,14,1,6,18,9,9,0
 BLD,BLD-05,Building,Diesel Room,BD,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,BD,14,11,2,31,15,16,0
 BLD,BLD-07,Building,Analyzer House,BD,8,6,2,19,11,8,0
-CVL,CVL-01,Civil Work,Civil Work of All Area,CV,14,5,1,778,57,721,0
+CVL,CVL-01,Civil Work,Civil Work of All Area,CV,14,6,0,778,57,721,0
 DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2574,1005,20,4851,1993,2858,0
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2198,2195,3,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,423,422,1,0
