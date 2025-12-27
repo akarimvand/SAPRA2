@@ -112,16 +112,16 @@
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,137,87,50,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,8,0,126,13,113,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,7,9,78,21,57,0
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,212,75,1201,891,310,0
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,212,75,1201,928,273,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,70,0,232,197,35,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,7,5,2,84,43,41,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,2,2,68,6,62,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,EL,2,2,0,12,7,5,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,PI,46,46,0,137,104,33,0
-5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,465,153,48,840,610,230,0
+5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,465,153,48,840,647,193,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,46,0,137,118,19,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,2,3,44,13,31,0
-5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,157,53,828,642,186,0
+5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,157,53,828,657,171,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,EL,2,2,0,12,8,4,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,6,0,84,9,75,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MES,6,0,6,34,4,30,0
@@ -147,7 +147,7 @@ BLD,BLD-05,Building,Diesel Room,BD,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,BD,14,11,2,31,15,16,0
 BLD,BLD-07,Building,Analyzer House,BD,8,6,2,19,11,8,0
 CVL,CVL-01,Civil Work,Civil Work of All Area,CV,14,6,0,778,57,721,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2574,1005,20,4851,2064,2787,0
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2574,1005,20,4851,2083,2768,0
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2198,2195,3,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,423,422,1,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,32,0,18,13,5,0
