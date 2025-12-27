@@ -6260,7 +6260,6 @@ CVL-01,CV,CV-SUMP,SUMP,SUMP,Done
 CVL-01,CV,CV-TANKS,TANKS,TANKS,0%
 CVL-01,CV,CV-TRENCH,TRENCH,TRENCH,0%
 CVL-01,CV,CV-UG PIT'S,UG PIT'S,UG PIT'S,0%
-1000-04,MES,D-10002,Drum(D),Knock Out Drum D-10002,0%
 1000-01,MES,D-1001,Drum(D),Natural gas K.O. drum,Done
 2000-04,MES,D-2001,Drum(D),HHP Steam Drum,Done
 2000-05,MES,D-2002,Drum(D),1 st Separator,Done
@@ -11721,7 +11720,6 @@ DCS-01,IN,ESDMD-02-01,CABLE,CABLE(NA),0%
 DCS-01,IN,ESDMD-02-02,CABLE,CABLE(NA),0%
 DCS-01,IN,ESD-SC-CR-01,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
 DCS-01,IN,ESD-SC-CR-02,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
-1000-04,IN,ESSDV-10001,EM-VALVE,Emergency Valve,25%
 120-07,EL,ESWB3A-01,LV Switchgea_EM,LV Emergency Switchgear,20%
 120-07,EL,ESWB3B-01,LV Switchgea_EM,LV Emergency Switchgear,20%
 120-13,EL,EX_AJB-P-001,Cathodic Protection(B),Anod Junction Box,50%
@@ -12803,8 +12801,6 @@ BLD-04,BD,Foundation(BLD-04),01-Foundation,Foundation(BLD-04),0%
 BLD-05,BD,Foundation(BLD-05),01-Foundation,Foundation(BLD-05),0%
 BLD-06,BD,Foundation(BLD-06),01-Foundation,Foundation(BLD-06),Done
 BLD-07,BD,Foundation(BLD-07),01-Foundation,Foundation(BLD-07),Done
-1000-04,IN,FQIT-10001,Instrument(FQIT),Instrument(FQIT),25%
-1000-04,IN,FQIT-10002,Instrument(FQIT),Instrument(FQIT),25%
 LS-03,EL,From S01(LS-03),Switch,One Pole Two Way Switch Surface Mounted,50%
 LS-04,EL,From S01(LS-04),Switch,One Pole Two Way Switch Surface Mounted,Done
 LS-03,EL,From S01-FJB,Lighting Cable,One Pole Two Way Switch Surface Mounted,33%
@@ -12924,8 +12920,6 @@ FGS-05,IN,FS-0016(NA),CABLE,CABLE(NA),0%
 4000-08,IN,FT-0001(NA),CABLE,CABLE(NA),Done
 4000-08,IN,FT-0002(FT),Instrument(FT),Instrument(FT),Done
 4000-08,IN,FT-0002(NA),CABLE,CABLE(NA),Done
-1000-04,IN,FT-10001,Instrument(FT),Instrument(FT),25%
-1000-04,IN,FT-10002,Instrument(FT),Instrument(FT),25%
 1000-01,IN,FT-1006(FT),Instrument(FT),Instrument(FT),Done
 1000-01,IN,FT-1006(NA),CABLE,CABLE(NA),0%
 2000-03,IN,FT-2009(FT),Instrument(FT),Instrument(FT),50%
@@ -13450,9 +13444,6 @@ DCS-01,IN,GA-0001,Fire Fighting,Fire Fighting(GA),0%
 DCS-01,IN,GA-0002,Fire Fighting,Fire Fighting(GA),0%
 DCS-01,IN,GA-0003,Fire Fighting,Fire Fighting(GA),0%
 DCS-01,IN,GA-0004,Fire Fighting,Fire Fighting(GA),0%
-1000-04,PI,GAS STATION,PI_TP,,0%
-1000-04,IN,GTM-10001,Counter,Counter,50%
-1000-04,IN,GTM-10002,Counter,Counter,50%
 120-02,EL,H-3013-TCP,PANEL(EL),Seal Gas Heater Thristor Control Panel,DONE
 FGS-09,EL,HD-0133,F&G Device,Rate Of Rise Heat Detector,0%
 FGS-10,EL,HD-0237,FGS Device,Rate Of Rise Heat Detector,0%
@@ -13908,7 +13899,6 @@ BLD-04,BD,Initial Architecture(Ground Floor BLD-04),04-Initial Architecture-2,In
 BLD-05,BD,Initial Architecture(Ground Floor BLD-05),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-05),0%
 BLD-06,BD,Initial Architecture(Ground Floor BLD-06),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-06),Done
 2000-02,MES,INLET MANIFOLD,Inlet_Manifold,MANIFOLD,71%
-1000-04,IN,IS-10001,SIGNAL,Indicator,0%
 3000-03,MES,J-3001,Ejector(J),Ejector,79%
 3000-02,MES,J-3002-1,Ejector(J),Start up Ejector for R 3001 1,79%
 3000-02,MES,J-3002-2,Ejector(J),Start up Ejector for R 3001 2,79%
@@ -14569,7 +14559,6 @@ DCS-01,IN,LCP-FT2002,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 DCS-01,IN,LCP-FT3001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 DCS-01,IN,LCP-MF2001,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 DCS-01,IN,LCP-MF2002,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
-1000-04,IN,LG-10001,Instrument(LG),Instrument(LG),Done
 1000-01,IN,LG-1005,Instrument(LG),Instrument(LG),Done
 2000-02,IN,LG-20101,Instrument(LG),Instrument(LG),Done
 2000-02,IN,LG-20151,Instrument(LG),Instrument(LG),Done
@@ -16870,11 +16859,6 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 4000-12,MER,P-8405B,Pump, Laboratory Chemical Effluent Transfer Pumps,Done
 4000-01,IN,PCV-0007,Instrument(PCV),Instrument(PCV),DONE
 4000-11,IN,PCV-0008,Instrument(PCV),Instrument(PCV),DONE
-1000-04,IN,PCV-10001,Instrument(PCV),Instrument(PCV),Done
-1000-04,IN,PCV-10002,Instrument(PCV),Instrument(PCV),Done
-1000-04,IN,PCV-10003,Instrument(PCV),Instrument(PCV),Done
-1000-04,IN,PCV-10004,Instrument(PCV),Instrument(PCV),Done
-1000-04,IN,PCV-10005,Instrument(PCV),Instrument(PCV),Done
 1000-01,IN,PCV-1001A1,Instrument(PCV),Instrument(PCV),0%
 1000-01,IN,PCV-1001B1,Instrument(PCV),Instrument(PCV),0%
 1000-01,IN,PCV-1001C1,Instrument(PCV),Instrument(PCV),0%
@@ -16948,11 +16932,6 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 2000-03,IN,PDST-2036C(PDST),Instrument(PDST),Instrument(PDST),Done
 2000-06,IN,PDST-2573(NA),CABLE,CABLE(NA),0%
 2000-06,IN,PDST-2573(PDST),Instrument(PDST),Instrument(PDST),50%
-1000-04,IN,PDT-10001,Instrument(PDT),Instrument(PDT),50%
-1000-04,IN,PDT-10002,Instrument(PDT),Instrument(PDT),50%
-1000-04,IN,PDT-10003,Instrument(PDT),Instrument(PDT),50%
-1000-04,IN,PDT-10004,Instrument(PDT),Instrument(PDT),50%
-1000-04,IN,PDT-10005,Instrument(PDT),Instrument(PDT),50%
 1000-01,IN,PDT-1032(NA),CABLE,CABLE(NA),0%
 1000-01,IN,PDT-1032(PDT),Instrument(PDT),Instrument(PDT),50%
 2000-03,IN,PDT-2004(NA),CABLE,CABLE(NA),0%
@@ -17038,17 +17017,6 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 4000-08,IN,PG-0013,Instrument(PG),Instrument(PG),Done
 4000-06,IN,PG-0014,Instrument(PG),Instrument(PG),Exception(Pending)
 4000-08,IN,PG-0015,Instrument(PG),Instrument(PG),Done
-1000-04,IN,PG-10001,Instrument(PG),Pressure Gauge,Done
-1000-04,IN,PG-10002,Instrument(PG),Pressure Gauge,Done
-1000-04,IN,PG-10003,Instrument(PG),Pressure Gauge,Done
-1000-04,IN,PG-10004,Instrument(PG),Pressure Gauge,Done
-1000-04,IN,PG-10005,Instrument(PG),Pressure Gauge,Done
-1000-04,IN,PG-10006,Instrument(PG),Pressure Gauge,Done
-1000-04,IN,PG-10007,Instrument(PG),Pressure Gauge,Done
-1000-04,IN,PG-10008,Instrument(PG),Pressure Gauge,Done
-1000-04,IN,PG-10009,Instrument(PG),Pressure Gauge,Done
-1000-04,IN,PG-10010,Instrument(PG),Pressure Gauge,Done
-1000-04,IN,PG-10011,Instrument(PG),Pressure Gauge,Done
 1000-01,IN,PG-1002,Instrument(PG),Instrument(PG),Done
 1000-03,IN,PG-1003,Instrument(PG),Instrument(PG),DONE
 1000-01,IN,PG-1007,Instrument(PG),Instrument(PG),Done
@@ -17734,8 +17702,6 @@ DCS-01,IN,POS-5000-IS-62,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,POS-5000-IS-63,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,POS-6000-I-32,SIGNAL,SIGNAL,Exception(Pending)
 DCS-01,IN,POS-6000-IS-29,SIGNAL,SIGNAL,Exception(Pending)
-1000-04,IN,PP-10001,Instrument(PP),Instrument(PP),50%
-1000-04,IN,PP-10002,Instrument(PP),Instrument(PP),50%
 3000-01,IN,PP-30153,Instrument(PP),Instrument(PP),Exception(Pending)
 3000-01,IN,PP-30154,Instrument(PP),Instrument(PP),Exception(Pending)
 FGS-07,IN,PSH-001(NA),CABLE,CABLE(NA),0%
@@ -18019,17 +17985,6 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 4000-01,IN,PSV-0009,Instrument(PSV),Instrument(PSV),DONE
 4000-11,IN,PSV-0010,Instrument(PSV),Instrument(PSV),DONE
 4000-11,IN,PSV-0011,Instrument(PSV),Instrument(PSV),0%
-1000-04,IN,PSV-10001,Instrument(PSV),Pressure Safety Valve,50%
-1000-04,IN,PSV-10002,Instrument(PSV),Pressure Safety Valve,50%
-1000-04,IN,PSV-10003,Instrument(PSV),Pressure Safety Valve,50%
-1000-04,IN,PSV-10004,Instrument(PSV),Pressure Safety Valve,50%
-1000-04,IN,PSV-10005,Instrument(PSV),Pressure Safety Valve,50%
-1000-04,IN,PSV-10006,Instrument(PSV),Pressure Safety Valve,50%
-1000-04,IN,PSV-10007,Instrument(PSV),Pressure Safety Valve,50%
-1000-04,IN,PSV-10008,Instrument(PSV),Pressure Safety Valve,50%
-1000-04,IN,PSV-10009,Instrument(PSV),Pressure Safety Valve,50%
-1000-04,IN,PSV-10010,Instrument(PSV),Pressure Safety Valve,50%
-1000-04,IN,PSV-10011,Instrument(PSV),Pressure Safety Valve,50%
 7000-01,IN,PSV-1008,Instrument(PSV),Instrument(PSV),Done
 7000-01,IN,PSV-1009,Instrument(PSV),Instrument(PSV),Done
 7000-01,IN,PSV-1013,Instrument(PSV),Instrument(PSV),Done
@@ -18249,10 +18204,6 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 4000-11,IN,PT-0012(PT),Instrument(PT),Instrument(PT),25%
 4000-11,IN,PT-0013(NA),CABLE,CABLE(NA),0%
 4000-11,IN,PT-0013(PT),Instrument(PT),Instrument(PT),25%
-1000-04,IN,PT-10001,Instrument(PT),Instrument(PT),0%
-1000-04,IN,PT-10002,Instrument(PT),Instrument(PT),0%
-1000-04,IN,PT-10003,Instrument(PT),Instrument(PT),50%
-1000-04,IN,PT-10004,Instrument(PT),Instrument(PT),50%
 1000-01,IN,PT-1001(NA),CABLE,CABLE(NA),Done
 1000-01,IN,PT-1001(PT),Instrument(PT),Instrument(PT),Done
 1000-01,IN,PT-1005(NA),CABLE,CABLE(NA),Done
@@ -19834,11 +19785,6 @@ TEL-08,EL,SS-TJB1,Telecom Device,Telephone Junction Box,50%
 120-15,EL,SS-UBT-01,UPS & Battery,230V AC Safety Lighting UPS Battery Set,25%
 120-11,EL,SS-UIS-01,UPS & Battery,230V AC Safety Lighting UPS Battery Isolator Box,Done
 120-11,EL,SS-UPS-01,UPS & Battery, 230V AC Safety Lighting UPS,Done
-1000-04,IN,SSV-10001,VALVE,SSV_VALVE,25%
-1000-04,IN,SSV-10002,VALVE,SSV_VALVE,25%
-1000-04,IN,SSV-10003,VALVE,SSV_VALVE,25%
-1000-04,IN,SSV-10004,VALVE,SSV_VALVE,25%
-1000-04,IN,SSV-10005,VALVE,SSV_VALVE,25%
 3000-01,IN,SSV-30101,Instrument(SSV),Instrument(SSV),Exception(Pending)
 3000-01,IN,SSV-30102,Instrument(SSV),Instrument(SSV),Exception(Pending)
 BLD-01,BD,Stair Ways(Ground Floor BLD-01),09-Stair Ways,Stair Ways(Ground Floor BLD-01),Done
@@ -20643,9 +20589,6 @@ BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor 
 4000-06,IN,TG-0003,Instrument(TG),Instrument(TG),Done
 4000-06,IN,TG-0004,Instrument(TG),Instrument(TG),Exception(Pending)
 4000-06,IN,TG-0005,Instrument(TG),Instrument(TG),Done
-1000-04,IN,TG-10001,Instrument(TG),Instrument(TG),Done
-1000-04,IN,TG-10002,Instrument(TG),Instrument(TG),Done
-1000-04,IN,TG-10003,Instrument(TG),Instrument(TG),Done
 1000-01,IN,TG-1002,Instrument(TG),Instrument(TG),Done
 1000-01,IN,TG-1004,Instrument(TG),Instrument(TG),Done
 1000-01,IN,TG-1036,Instrument(TG),Instrument(TG),Done
@@ -21181,10 +21124,6 @@ FGS-01,IN,TGD-0022(TGD),Fire Alarm,Fire Alarm(TGD),0%
 3000-01,IN,TSV-30138,Instrument(TSV),Instrument(TSV),Exception(Pending)
 3000-01,IN,TSV-30159,Instrument(TSV),Instrument(TSV),Exception(Pending)
 3000-01,IN,TSV-30160,Instrument(TSV),Instrument(TSV),Exception(Pending)
-1000-04,IN,TT-10001,Instrument(TT),Instrument(TT),0%
-1000-04,IN,TT-10002,Instrument(TT),Instrument(TT),0%
-1000-04,IN,TT-10003,Instrument(TT),Instrument(TT),Done
-1000-04,IN,TT-10004,Instrument(TT),Instrument(TT),Done
 1000-01,IN,TT-1001(NA),CABLE,CABLE(NA),Done
 1000-01,IN,TT-1001(TT),Instrument(TT),Instrument(TT),DONE
 1000-02,IN,TT-1010(NA),CABLE,CABLE(NA),Done
@@ -21759,8 +21698,6 @@ FGS-01,IN,TGD-0022(TGD),Fire Alarm,Fire Alarm(TGD),0%
 4000-06,IN,TW-0003,Instrument(TW),Instrument(TW),Done
 4000-06,IN,TW-0004,Instrument(TW),Instrument(TW),Done
 4000-06,IN,TW-0005,Instrument(TW),Instrument(TW),Done
-1000-04,IN,TW-10001,Instrument(TW),Instrument(TW),0%
-1000-04,IN,TW-10002,Instrument(TW),Instrument(TW),0%
 1000-01,IN,TW-1001,Instrument(TW),Instrument(TW),Done
 1000-01,IN,TW-1002,Instrument(TW),Instrument(TW),Done
 1000-01,IN,TW-1004,Instrument(TW),Instrument(TW),Done
@@ -22225,8 +22162,6 @@ DCS-01,IN,UCP-P8001A-01,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
 DCS-01,IN,UCP-P8001B-01,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
 DCS-01,IN,UCP-PK7502-01,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
-1000-04,IN,UFM-10001,Instrument(FT),Instrument(FT),25%
-1000-04,IN,UFM-10002,Instrument(FT),Instrument(FT),25%
 7000-01,IN,US-71180A,Instrument(US),Instrument(US),Done
 7000-01,IN,US-71180B,Instrument(US),Instrument(US),Done
 7000-01,IN,US-71180C,Instrument(US),Instrument(US),Done
@@ -23151,11 +23086,6 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 3000-01,IN,VZT-30116A,Instrument(X),Instrument(VZT),Exception(Pending)
 3000-01,IN,VZT-30116B,Instrument(X),Instrument(VZT),Exception(Pending)
 3000-01,IN,VZT-30116C,Instrument(X),Instrument(VZT),Exception(Pending)
-1000-04,MES,X-1001A,Filter(X),Dry Gas Filter X-1001A,0%
-1000-04,MES,X-1001B,Filter(X),Dry Gas Filter X-1001B,0%
-1000-04,MES,X-1001C,Filter(X),Dry Gas Filter X-1001C,0%
-1000-04,MES,X-1002A,Filter(X),Dry Gas Filter X-1002A,0%
-1000-04,MES,X-1002B,Filter(X),Dry Gas Filter X-1002B,0%
 2000-03,MES,X-2001-A,Filter(X),Oxygen Filter,DONE
 2000-03,MES,X-2001-B,Filter(X),Oxygen Filter,DONE
 2000-03,MES,X-2002-A,Filter(X),Steam Filter,79%
@@ -24928,27 +24858,10 @@ TEL-10,EL,YO-TJB2,Telecom Device,Telephone Junction Box,0%
 4000-08,IN,ZE-80234B,Instrument(ZE),Instrument(ZE),Done
 4000-08,IN,ZE-80235A,Instrument(ZE),Instrument(ZE),Done
 4000-08,IN,ZE-80235B,Instrument(ZE),Instrument(ZE),Done
-1000-04,IN,ZSC-10001,SIGNAL,Limit switches Valve,0%
-1000-04,IN,ZSC-10002,SIGNAL,Limit Switch,0%
-1000-04,IN,ZSC-10003,SIGNAL,Limit Switch,0%
-1000-04,IN,ZSC-10004,SIGNAL,Limit Switch,0%
-1000-04,IN,ZSC-10005,SIGNAL,Limit Switch,0%
-1000-04,IN,ZSC-10006,SIGNAL,Limit Switch,0%
 3000-01,IN,ZSH-30102,PKG,-,0%
 3000-01,IN,ZSH-30102(ZSH),Instrument(X),Instrument(ZSH),Exception(Pending)
 3000-01,IN,ZSL-30101,PKG,-,0%
 3000-01,IN,ZSL-30101(ZSL),Instrument(X),Instrument(ZSL),Exception(Pending)
-1000-04,IN,ZSO-10001,SIGNAL,Limit switches Valve,0%
-1000-04,IN,ZSO-10002,SIGNAL,Limit Switch,0%
-1000-04,IN,ZSO-10003,SIGNAL,Limit Switch,0%
-1000-04,IN,ZSO-10004,SIGNAL,Limit Switch,0%
-1000-04,IN,ZSO-10005,SIGNAL,Limit Switch,0%
-1000-04,IN,ZSO-10006,SIGNAL,Limit Switch,0%
-1000-04,IN,ZT-10001,Instrument(ZT),Instrument(ZT),Done
-1000-04,IN,ZT-10002,Instrument(ZT),Instrument(ZT),Done
-1000-04,IN,ZT-10003,Instrument(ZT),Instrument(ZT),Done
-1000-04,IN,ZT-10004,Instrument(ZT),Instrument(ZT),Done
-1000-04,IN,ZT-10005,Instrument(ZT),Instrument(ZT),Done
 2000-02,IN,ZT-20101,Instrument(ZT),Instrument(ZT),0%
 2000-02,IN,ZT-20102,Instrument(ZT),Instrument(ZT),0%
 2000-02,IN,ZT-20103,Instrument(ZT),Instrument(ZT),0%
