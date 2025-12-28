@@ -53,7 +53,7 @@
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,1,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,5,0,30,0,30,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,832,234,0,764,617,147,0
-3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,36,0,75,49,26,0
+3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,36,36,0,75,50,25,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,3,8,0,8,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,72,28,241,117,124,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,34,5,80,34,46,0
@@ -69,10 +69,10 @@
 4000,4000-01,Utility,Nitrogen,IN,14,10,4,11,2,9,0
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,2,0,10,0,10,0
 4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,121,57,453,265,188,0
-4000,4000-02,Utility,HHP & HP & LP Steam,PI,68,61,1,248,134,114,0
+4000,4000-02,Utility,HHP & HP & LP Steam,PI,68,61,1,248,136,112,0
 4000,4000-03,Utility,MP Steam,MES,1,1,0,5,0,5,0
 4000,4000-03,Utility,MP Steam,IN,56,41,9,172,110,62,0
-4000,4000-03,Utility,MP Steam,PI,5,5,0,32,23,9,0
+4000,4000-03,Utility,MP Steam,PI,5,5,0,32,24,8,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,5,0,15,0,15,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,6,0,0,0,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,2,4,0
@@ -98,7 +98,7 @@
 4000,4000-10,Utility,Sanitary Water Collection,IN,12,4,0,0,0,0,0
 4000,4000-10,Utility,Sanitary Water Collection,PI,14,11,2,5,1,4,0
 4000,4000-10,Utility,Sanitary Water Collection,MER,1,0,1,6,0,6,0
-4000,4000-11,Utility,Instrument Air,PI,14,14,0,18,9,9,0
+4000,4000-11,Utility,Instrument Air,PI,14,14,0,18,10,8,0
 4000,4000-11,Utility,Instrument Air,IN,78,57,6,72,23,49,0
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,MER,4,4,0,8,0,8,0
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,PI,22,13,7,24,19,5,0
@@ -149,7 +149,7 @@ BLD,BLD-07,Building,Analyzer House,BD,8,6,2,19,11,8,0
 CVL,CVL-01,Civil Work,Civil Work of All Area,CV,14,7,1,778,136,642,0
 DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2574,1008,28,4866,2083,2783,0
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2198,2195,3,0
-ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,423,422,1,0
+ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,423,423,0,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,22,13,9,0
 ES,ES-04,Earthing System,Earthing & Roof Lightning System for Analyzer House,EL,11,11,0,11,11,0,0
 ES,ES-05,Earthing System,Earthing & Roof Lightning System for Warehouse,EL,22,22,0,45,45,0,0
