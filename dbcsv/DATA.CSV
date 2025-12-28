@@ -37,7 +37,7 @@
 2000,2000-02,Reforming,Primary Reforming,PI,9,9,0,31,16,15,0
 2000,2000-02,Reforming,Primary Reforming,IN,879,106,125,744,579,165,0
 2000,2000-02,Reforming,Primary Reforming,MES,8,0,8,0,0,0,0
-2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,26,15,6,55,24,31,0
+2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,26,15,6,55,29,26,0
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,363,75,39,323,200,123,0
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,MES,6,2,4,0,0,0,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MES,11,6,5,44,3,41,0
@@ -76,7 +76,7 @@
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,5,0,15,0,15,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,6,0,0,0,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,2,4,0
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,50,48,1,174,113,61,0
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,50,48,1,174,126,48,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,66,110,486,392,94,0
 4000,4000-05,Utility,Blow Down,PI,24,24,0,46,33,13,0
 4000,4000-05,Utility,Blow Down,MES,4,4,0,31,0,31,0
@@ -89,7 +89,7 @@
 4000,4000-07,Utility,Plant Air,PI,10,10,0,29,4,25,0
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,0
 4000,4000-08,Utility,Cooling Water,MER,8,3,3,20,0,20,0
-4000,4000-08,Utility,Cooling Water,PI,302,285,0,693,610,83,0
+4000,4000-08,Utility,Cooling Water,PI,302,285,0,693,618,75,0
 4000,4000-08,Utility,Cooling Water,IN,745,715,2,347,233,114,0
 4000,4000-08,Utility,Cooling Water,EL,6,6,0,56,18,38,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,4,5,4,0,4,0
@@ -108,12 +108,12 @@
 4000,4000-13,Utility,Slope Close Drain,PI,29,29,0,46,17,29,0
 4000,4000-14,Utility,Fire Water,IN,33,33,0,0,0,0,0
 4000,4000-14,Utility,Fire Water,MES,1,0,1,0,0,0,0
-4000,4000-14,Utility,Fire Water,PI,134,127,1,389,324,65,0
+4000,4000-14,Utility,Fire Water,PI,134,127,1,389,332,57,0
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,137,87,50,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,8,0,126,13,113,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,9,7,78,21,57,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,212,75,1201,950,251,0
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,70,0,232,197,35,0
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,70,0,232,198,34,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,7,6,1,84,43,41,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,2,2,68,6,62,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,EL,2,2,0,12,7,5,0
@@ -146,7 +146,7 @@ BLD,BLD-04,Building,Security Building,BD,14,1,6,18,9,9,0
 BLD,BLD-05,Building,Diesel Room,BD,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,BD,14,11,2,31,15,16,0
 BLD,BLD-07,Building,Analyzer House,BD,8,6,2,19,11,8,0
-CVL,CVL-01,Civil Work,Civil Work of All Area,CV,14,7,1,778,136,642,0
+CVL,CVL-01,Civil Work,Civil Work of All Area,CV,14,8,0,778,136,642,0
 DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2574,1008,28,4866,2083,2783,0
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2198,2195,3,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,423,423,0,0
@@ -177,7 +177,7 @@ LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,32,5,194
 LS,LS-03,Lighting System,Lighting System for Substation,EL,516,47,467,1889,1699,190,0
 LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,286,1,209,38,171,0
 LS,LS-05,Lighting System,Lighting System for Laboratory & Yard Office,EL,315,0,0,0,0,0,0
-LS,LS-06,Lighting System,Lighting System for Street,EL,73,71,0,312,214,98,0
+LS,LS-06,Lighting System,Lighting System for Street,EL,73,71,0,312,215,97,0
 LS,LS-07,Lighting System,Lighting System for Area-02,EL,1075,0,1,1,0,1,0
 LS,LS-08,Lighting System,Lighting System for Area-03,EL,440,0,55,192,135,57,0
 LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,0,113,309,216,93,0
@@ -185,16 +185,16 @@ LS,LS-10,Lighting System,Lighting System for Area-05,EL,706,0,67,268,66,202,0
 LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,1,81,365,306,59,0
 LS,LS-12,Lighting System,Lighting System for Area-07,EL,419,413,1,910,910,0,0
 LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,7,57,180,180,0,0
-TEL,TEL-01,Telecom Systems,Telecom System for Area-01,EL,24,2,2,4,0,4,0
+TEL,TEL-01,Telecom Systems,Telecom System for Area-01,EL,24,0,4,4,0,4,0
 TEL,TEL-02,Telecom Systems,Telecom System for Area-02,EL,61,0,0,4,0,4,0
 TEL,TEL-03,Telecom Systems,Telecom System for Area-03,EL,39,0,13,14,0,14,0
 TEL,TEL-04,Telecom Systems,Telecom System for Area-04,EL,37,0,12,20,3,17,0
-TEL,TEL-05,Telecom Systems,Telecom System for Area-05,EL,71,7,24,58,0,58,0
+TEL,TEL-05,Telecom Systems,Telecom System for Area-05,EL,71,0,31,58,0,58,0
 TEL,TEL-06,Telecom Systems,Telecom System for Area-06,EL,46,0,17,64,4,60,0
-TEL,TEL-07,Telecom Systems,Telecom System for Area-07,EL,43,37,0,129,76,53,0
-TEL,TEL-08,Telecom Systems,Telecom System for Substation,EL,30,15,13,42,25,17,0
-TEL,TEL-09,Telecom Systems,Telecom System for Control Building,EL,103,12,10,10,0,10,0
+TEL,TEL-07,Telecom Systems,Telecom System for Area-07,EL,43,20,17,129,76,53,0
+TEL,TEL-08,Telecom Systems,Telecom System for Substation,EL,30,4,24,42,25,17,0
+TEL,TEL-09,Telecom Systems,Telecom System for Control Building,EL,103,0,22,10,0,10,0
 TEL,TEL-09,Telecom Systems,Telecom System for Control Building,IN,1,1,0,7,6,1,0
 TEL,TEL-10,Telecom Systems,Telecom System for Laboratory,EL,89,0,0,0,0,0,0
 TEL,TEL-11,Telecom Systems,CCTV,EL,57,0,0,0,0,0,0
-TEL,TEL-12,Telecom Systems,Telecom System for Analyzer House,EL,8,4,3,7,5,2,0
+TEL,TEL-12,Telecom Systems,Telecom System for Analyzer House,EL,8,0,7,7,5,2,0
