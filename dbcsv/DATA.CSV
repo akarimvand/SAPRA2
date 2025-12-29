@@ -37,7 +37,7 @@
 2000,2000-02,Reforming,Primary Reforming,PI,9,9,0,31,16,15,0
 2000,2000-02,Reforming,Primary Reforming,IN,879,106,125,744,579,165,0
 2000,2000-02,Reforming,Primary Reforming,MES,8,0,8,0,0,0,0
-2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,26,15,6,55,29,26,0
+2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,26,15,6,55,24,31,0
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,363,75,39,323,200,123,0
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,MES,6,2,4,0,0,0,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MES,11,6,5,44,3,41,0
@@ -76,7 +76,7 @@
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,5,0,15,0,15,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,6,0,0,0,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,2,4,0
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,50,48,1,174,126,48,0
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,51,48,1,174,113,61,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,66,110,486,392,94,0
 4000,4000-05,Utility,Blow Down,PI,24,24,0,46,33,13,0
 4000,4000-05,Utility,Blow Down,MES,4,4,0,31,0,31,0
@@ -89,7 +89,7 @@
 4000,4000-07,Utility,Plant Air,PI,10,10,0,29,4,25,0
 4000,4000-08,Utility,Cooling Water,MES,5,5,0,0,0,0,0
 4000,4000-08,Utility,Cooling Water,MER,8,3,3,20,0,20,0
-4000,4000-08,Utility,Cooling Water,PI,302,285,0,693,618,75,0
+4000,4000-08,Utility,Cooling Water,PI,302,285,0,693,610,83,0
 4000,4000-08,Utility,Cooling Water,IN,745,715,2,347,233,114,0
 4000,4000-08,Utility,Cooling Water,EL,6,6,0,56,18,38,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,4,5,4,0,4,0
@@ -108,12 +108,12 @@
 4000,4000-13,Utility,Slope Close Drain,PI,29,29,0,46,17,29,0
 4000,4000-14,Utility,Fire Water,IN,33,33,0,0,0,0,0
 4000,4000-14,Utility,Fire Water,MES,1,0,1,0,0,0,0
-4000,4000-14,Utility,Fire Water,PI,134,127,1,389,332,57,0
+4000,4000-14,Utility,Fire Water,PI,134,127,1,389,324,65,0
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,137,87,50,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,8,0,126,13,113,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,9,7,78,21,57,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,212,75,1201,950,251,0
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,70,0,232,198,34,0
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,71,70,0,232,197,35,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,7,6,1,84,43,41,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,2,2,68,6,62,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,EL,2,2,0,12,7,5,0
