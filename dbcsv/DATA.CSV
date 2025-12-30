@@ -1,5 +1,5 @@
 ﻿SD_System,SD_Sub_System,SD_System_Name,SD_Subsystem_Name,discipline,TOTAL ITEM,TOTAL DONE,TOTAL PENDING,TOTAL PUNCH,TOTAL CLEAR PUNCH,TOTAL NOT CLEAR PUNCH,TOTAL HOLD POINT
-1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,114,14,336,199,137,0
+1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,114,14,337,199,138,0
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,24,23,1,72,39,33,0
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,3,2,44,7,37,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,1,0,6,0,6,0
@@ -8,11 +8,11 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MES,13,6,7,41,4,37,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,7,2,55,0,55,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,3,0,15,7,8,0
-1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,167,64,430,245,185,0
+1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,167,64,432,245,187,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,56,53,3,182,138,44,0
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,185,0,2193,2032,161,0
-120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,281,49,3541,3239,302,0
-120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,230,60,3135,2868,267,0
+120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,281,49,3565,3239,326,0
+120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,230,60,3138,2868,270,0
 120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,306,201,20,2150,2065,85,0
 120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,284,204,8,2200,2152,48,0
 120,120-06,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-05,EL,262,209,3,2476,2392,84,0
@@ -60,7 +60,7 @@
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,3,8,19,3,16,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,9,5,4,30,0,30,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,32,0,110,70,40,0
-3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,92,21,346,222,124,0
+3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,92,21,350,222,128,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,2,0,20,0,20,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,12,7,5,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,175,17,75,331,309,22,0
@@ -68,10 +68,10 @@
 4000,4000-01,Utility,Nitrogen,PI,20,20,0,51,28,23,0
 4000,4000-01,Utility,Nitrogen,IN,14,10,4,11,2,9,0
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,2,0,10,0,10,0
-4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,123,55,453,280,173,0
+4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,123,55,454,280,174,0
 4000,4000-02,Utility,HHP & HP & LP Steam,PI,68,61,1,248,139,109,0
 4000,4000-03,Utility,MP Steam,MES,1,1,0,5,0,5,0
-4000,4000-03,Utility,MP Steam,IN,56,43,7,172,115,57,0
+4000,4000-03,Utility,MP Steam,IN,56,43,7,173,115,58,0
 4000,4000-03,Utility,MP Steam,PI,5,5,0,32,26,6,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,5,0,15,0,15,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,6,0,0,0,0
@@ -84,7 +84,7 @@
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,4,11,16,0,16,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,71,54,1,219,154,65,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,4,8,66,0,66,0
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,81,76,208,109,99,0
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,81,76,210,109,101,0
 4000,4000-07,Utility,Plant Air,IN,2,1,1,2,0,2,0
 4000,4000-07,Utility,Plant Air,PI,10,10,0,29,4,25,0
 4000,4000-08,Utility,Cooling Water,MES,5,0,1,0,0,0,0
@@ -147,7 +147,7 @@ BLD,BLD-05,Building,Diesel Room,BD,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,BD,14,11,2,31,15,16,0
 BLD,BLD-07,Building,Analyzer House,BD,8,6,2,19,11,8,0
 CVL,CVL-01,Civil Work,Civil Work of All Area,CV,14,8,0,778,145,633,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2574,1019,17,4866,2116,2750,0
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2574,1019,17,4888,2116,2772,0
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2198,2195,3,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,423,423,0,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,22,13,9,0
@@ -161,11 +161,11 @@ ES,ES-10,Earthing System,Earthing System for Area-06,EL,394,394,0,399,398,1,0
 ES,ES-11,Earthing System,Earthing System for Area-07,EL,484,484,0,507,507,0,0
 FGS,FGS-01,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1001,IN,95,5,12,63,0,63,0
 FGS,FGS-02,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1002,IN,143,29,26,207,2,205,0
-FGS,FGS-03,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1003,IN,151,37,15,80,0,80,0
+FGS,FGS-03,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1003,IN,151,37,15,146,0,146,0
 FGS,FGS-04,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1004,IN,173,17,40,123,1,122,0
 FGS,FGS-05,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1005,IN,130,6,15,52,0,52,0
 FGS,FGS-06,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1006,IN,30,0,5,14,0,14,0
-FGS,FGS-07,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1007,IN,34,2,0,2,0,2,0
+FGS,FGS-07,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1007,IN,34,2,0,6,0,6,0
 FGS,FGS-08,Fire and Gas Detection,Fire & Gas Detection for Substation,EL,95,66,0,253,174,79,0
 FGS,FGS-08,Fire and Gas Detection,Fire & Gas Detection for Substation,IN,2,0,0,0,0,0,0
 FGS,FGS-09,Fire and Gas Detection,Fire & Gas Detection for Control Building,IN,3,0,0,0,0,0,0
