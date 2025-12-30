@@ -25,7 +25,7 @@
 120,120-12,Electrical Distribution Substation,SS PDCS System,EL,10,8,2,37,5,32,0
 120,120-13,Electrical Distribution Substation,Cathodic Protection System,EL,373,341,32,482,479,3,0
 120,120-14,Electrical Distribution Substation,Electric Heat Tracing System,EL,3,0,0,0,0,0,0
-120,120-15,Electrical Distribution Substation,Capacitor Bank,EL,5,5,0,42,29,13,0
+120,120-15,Electrical Distribution Substation,Capacitor Bank,EL,5,5,0,42,32,10,0
 120,120-16,Electrical Distribution Substation,MV Transformer,EL,12,4,2,57,50,7,0
 120,120-17,Electrical Distribution Substation,LV Transformer,EL,15,0,15,116,104,12,0
 120,120-18,Electrical Distribution Substation,E/I Cabinet,EL,16,14,0,90,80,10,0
@@ -38,14 +38,14 @@
 2000,2000-02,Reforming,Primary Reforming,IN,879,106,125,744,580,164,0
 2000,2000-02,Reforming,Primary Reforming,MES,8,0,8,0,0,0,0
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,26,15,6,55,24,31,0
-2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,363,75,39,323,211,112,0
+2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,363,75,39,323,214,109,0
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,MES,6,2,4,0,0,0,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MES,11,6,5,44,3,41,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MER,2,0,2,12,0,12,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,24,22,2,59,39,20,0
-2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,233,92,39,354,226,128,0
+2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,233,92,39,354,228,126,0
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,6,1,75,28,47,0
-2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,69,20,293,192,101,0
+2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,69,20,293,198,95,0
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,132,102,30,0
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,4,33,4,29,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,21,7,14,0
@@ -147,14 +147,14 @@ BLD,BLD-05,Building,Diesel Room,BD,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,BD,14,11,2,31,15,16,0
 BLD,BLD-07,Building,Analyzer House,BD,8,6,2,19,11,8,0
 CVL,CVL-01,Civil Work,Civil Work of All Area,CV,14,8,0,778,145,633,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2574,1019,17,4888,2116,2772,0
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2574,1019,17,4888,2136,2752,0
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2198,2195,3,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,423,423,0,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,22,13,9,0
 ES,ES-04,Earthing System,Earthing & Roof Lightning System for Analyzer House,EL,11,11,0,11,11,0,0
 ES,ES-05,Earthing System,Earthing & Roof Lightning System for Warehouse,EL,22,22,0,45,45,0,0
 ES,ES-06,Earthing System,Earthing System for Area-02,EL,696,0,0,0,0,0,0
-ES,ES-07,Earthing System,Earthing System for Area-03,EL,379,379,0,783,780,3,0
+ES,ES-07,Earthing System,Earthing System for Area-03,EL,379,379,0,783,781,2,0
 ES,ES-08,Earthing System,Earthing System for Area-04,EL,461,0,0,0,0,0,0
 ES,ES-09,Earthing System,Earthing System for Area-05,EL,503,0,0,0,0,0,0
 ES,ES-10,Earthing System,Earthing System for Area-06,EL,394,394,0,399,398,1,0
@@ -177,7 +177,7 @@ LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,32,5,194
 LS,LS-03,Lighting System,Lighting System for Substation,EL,516,47,467,1889,1699,190,0
 LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,286,1,209,38,171,0
 LS,LS-05,Lighting System,Lighting System for Laboratory & Yard Office,EL,315,0,0,0,0,0,0
-LS,LS-06,Lighting System,Lighting System for Street,EL,73,71,0,312,276,36,0
+LS,LS-06,Lighting System,Lighting System for Street,EL,73,71,0,312,311,1,0
 LS,LS-07,Lighting System,Lighting System for Area-02,EL,1075,0,1,1,0,1,0
 LS,LS-08,Lighting System,Lighting System for Area-03,EL,440,0,55,192,135,57,0
 LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,0,113,309,275,34,0
