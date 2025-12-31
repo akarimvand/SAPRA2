@@ -323,11 +323,11 @@ LS-07,EL,02-EJB3-3-L2-01,Lighting Fixture,LED Luminaires Fixture 40w| EX,0%
 LS-07,EL,02-EJB3-3-L2-01-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
 LS-07,EL,02-EJB3-3-L3-01,Lighting Fixture,LED Luminaires Fixture 40w| EX,0%
 LS-07,EL,02-EJB3-3-L3-01-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
-TEL-02,EL,02-IS-01,Telecom Device,Intercom Station Without Hood And Flusher- EX,0%
-TEL-02,EL,02-IS-02,Telecom Device,Intercom Station Without Hood And Flusher- EX,0%
-TEL-02,EL,02-IS-03,Telecom Device,Intercom Station Without Hood And Flusher- EX,0%
-TEL-02,EL,02-IS-04,Telecom Device,Intercom Station Without Hood And Flusher- EX,0%
-TEL-02,EL,02-IS-05,Telecom Device,Intercom Station Without Hood And Flusher- EX,0%
+TEL-02,EL,02-IS-01,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
+TEL-02,EL,02-IS-02,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
+TEL-02,EL,02-IS-03,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
+TEL-02,EL,02-IS-04,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
+TEL-02,EL,02-IS-05,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
 LS-07,EL,02-JB1_1-1,Lighting Main JB,Normal Lighting Junction Box,0%
 LS-07,EL,02-JB1_1-1-L1-01,Lighting Fixture,LED Luminaires Fixture 20w| EX,0%
 LS-07,EL,02-JB1_1-1-L1-01-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
@@ -1297,9 +1297,9 @@ LS-11,EL,03-EJB2-2-L3-04,Lighting Fixture,LED Luminaires Fixture 40w| EX,0%
 LS-11,EL,03-EJB2-2-L3-04-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
 LS-11,EL,03-EJB2-2-L3-05,Lighting Fixture,LED Luminaires Fixture 20w| EX,0%
 LS-11,EL,03-EJB2-2-L3-05-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
-TEL-03,EL,03-IS-01,Telecom Device,Intercom Station Without Hood And Flusher- EX,0%
-TEL-03,EL,03-IS-02,Telecom Device,Intercom Station Without Hood And Flusher- EX,0%
-TEL-03,EL,03-IS-03,Telecom Device,Intercom Station Without Hood And Flusher- EX,0%
+TEL-03,EL,03-IS-01,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
+TEL-03,EL,03-IS-02,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
+TEL-03,EL,03-IS-03,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
 LS-08,EL,03-JB1_1-1,Lighting Main JB,Normal Lighting Junction Box,0%
 LS-08,EL,03-JB1_1-1-L1-01,Lighting Fixture,LED Luminaires Fixture 20w| EX,0%
 LS-08,EL,03-JB1_1-1-L1-01-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
@@ -1723,9 +1723,9 @@ LS-09,EL,04-EJB2-4-L3-03,Lighting Fixture,Highbay Lighting Fixture 150w- HPMV La
 LS-09,EL,04-EJB2-4-L3-03-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
 LS-09,EL,04-EJB2-4-L3-04,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
 LS-09,EL,04-EJB2-4-L3-04-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
-TEL-04,EL,04-IS-01,Telecom Device,Intercom Station Without Hood And Flusher,0%
-TEL-04,EL,04-IS-02,Telecom Device,Intercom Station Without Hood And Flusher,0%
-TEL-04,EL,04-IS-03,Telecom Device,Intercom Station Without Hood And Flusher- EX,50%
+TEL-04,EL,04-IS-01,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher,0%
+TEL-04,EL,04-IS-02,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher,0%
+TEL-04,EL,04-IS-03,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,Done
 LS-09,EL,04-JB1_1-3,Lighting Main JB,Normal Lighting Junction Box,0%
 LS-09,EL,04-JB1_1-3-L1-01,Lighting Fixture,Fluorescent Fixture 2*18w- WP,50%
 LS-09,EL,04-JB1_1-3-L1-01-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,33%
@@ -2150,11 +2150,11 @@ LS-10,EL,05-EJB3-7-L3-03,Lighting Fixture,LED Luminaires Fixture 20w| EX,0%
 LS-10,EL,05-EJB3-7-L3-03-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,33%
 LS-10,EL,05-EJB3-7-L3-04,Lighting Fixture,LED Luminaires Fixture 40w| EX,0%
 LS-10,EL,05-EJB3-7-L3-04-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,33%
-TEL-05,EL,05-IS-01,Telecom Device,Intercom Station Without Hood And Flusher- EX,0%
-TEL-05,EL,05-IS-02,Telecom Device,Intercom Station Without Hood And Flusher- EX,0%
-TEL-05,EL,05-IS-03,Telecom Device,Intercom Station Without Hood And Flusher- EX,0%
-TEL-05,EL,05-IS-04,Telecom Device,Intercom Station Without Hood And Flusher- EX,0%
-TEL-05,EL,05-IS-05,Telecom Device,Intercom Station Without Hood And Flusher- EX,0%
+TEL-05,EL,05-IS-01,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
+TEL-05,EL,05-IS-02,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
+TEL-05,EL,05-IS-03,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
+TEL-05,EL,05-IS-04,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
+TEL-05,EL,05-IS-05,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
 LS-10,EL,05-JB1_1-5,Lighting Main JB,Normal Lighting Junction Box,0%
 LS-10,EL,05-JB1_1-5-L1-01,Lighting Fixture,LED Luminaires Fixture 20w| EX,0%
 LS-10,EL,05-JB1_1-5-L1-01-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
@@ -2927,10 +2927,10 @@ LS-11,EL,06-EJB2-4-L3-02,Lighting Fixture,LED Luminaires Fixture 40w| EX,0%
 LS-11,EL,06-EJB2-4-L3-02-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
 LS-11,EL,06-EJB2-4-L3-03,Lighting Fixture,LED Luminaires Fixture 40w| EX,0%
 LS-11,EL,06-EJB2-4-L3-03-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
-TEL-06,EL,06-IS-01,Telecom Device,Intercom Station Without Hood And Flusher- EX,0%
-TEL-06,EL,06-IS-02,Telecom Device,Intercom Station Without Hood And Flusher- EX,0%
-TEL-06,EL,06-IS-03,Telecom Device,Intercom Station Without Hood And Flusher- EX,0%
-TEL-06,EL,06-IS-04,Telecom Device,Intercom Station Without Hood And Flusher- EX,0%
+TEL-06,EL,06-IS-01,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
+TEL-06,EL,06-IS-02,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
+TEL-06,EL,06-IS-03,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
+TEL-06,EL,06-IS-04,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
 LS-11,EL,06-JB1_1-3,Lighting Main JB,Normal Lighting Junction Box,0%
 LS-11,EL,06-JB1_1-3-L1-01,Lighting Fixture,LED Luminaires Fixture 40w| EX,0%
 LS-11,EL,06-JB1_1-3-L1-01-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
@@ -3444,9 +3444,9 @@ LS-12,EL,07-EJB2-2-L3-04,Lighting Fixture(12),LED Luminaires Fixture 20w| EX,Don
 LS-12,EL,07-EJB2-2-L3-04-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-12,EL,07-EJB2-2-L3-05,Lighting Fixture(12),LED Luminaires Fixture 20w| EX,Done
 LS-12,EL,07-EJB2-2-L3-05-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
-TEL-07,EL,07-IS-01,Telecom Device,Intercom Station Without Hood And Flusher- EX,Done
-TEL-07,EL,07-IS-02,Telecom Device,Intercom Station Without Hood And Flusher- EX,Done
-TEL-07,EL,07-IS-03,Telecom Device,Intercom Station Without Hood And Flusher- EX,Done
+TEL-07,EL,07-IS-01,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,Done
+TEL-07,EL,07-IS-02,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,Done
+TEL-07,EL,07-IS-03,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,Done
 LS-12,EL,07-JB1_1-1,LIGHTING MAIN JB(AREA-07),Normal Lighting Junction Box,Done
 LS-12,EL,07-JB1_1-1-L1-01,Lighting Fixture(12),LED Luminaires Fixture 40w| EX,Done
 LS-12,EL,07-JB1_1-1-L1-01-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
@@ -3837,7 +3837,7 @@ TEL-07,EL,07-SP-15,Paging Device,Loud Speaker - 25W|EX,Done
 1000-03,PI,1000-03-BD-08-795,PI_TP,PIPING TEST PACKAGE,DONE
 1000-03,PI,1000-03-BD-09-796,PI_TP,PIPING TEST PACKAGE,FL/DRY
 1000-03,PI,1000-03-BD-10-1010,PI_TP,PIPING TEST PACKAGE,DONE
-1000-03,PI,1000-03-BD-11-1167,PI_TP,,Not Yet Activity
+1000-03,PI,1000-03-BD-11-1167,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 1000-03,PI,1000-03-BFW-01-807,PI_TP,PIPING TEST PACKAGE,DONE
 1000-03,PI,1000-03-MPC-01-456,PI_TP,PIPING TEST PACKAGE,DONE
 1000-03,PI,1000-03-MPC-02-544,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4029,7 +4029,7 @@ TEL-07,EL,07-SP-15,Paging Device,Loud Speaker - 25W|EX,Done
 3000-01,PI,3000-01-VA-11-730,PI_TP,PIPING TEST PACKAGE,DONE
 3000-01,PI,3000-01-VA-12-751,PI_TP,PIPING TEST PACKAGE,DONE
 3000-01,PI,3000-01-VA-13-752,PI_TP,PIPING TEST PACKAGE,DONE
-3000-01,PI,3000-01-VA-14-1169,PI_TP,,Not Yet Activity
+3000-01,PI,3000-01-VA-14-1169,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 3000-02,PI,3000-02-BFW-01-805,PI_TP,PIPING TEST PACKAGE,FL/DRY
 3000-02,PI,3000-02-BFW-02-806,PI_TP,PIPING TEST PACKAGE,FL/DRY
 3000-02,PI,3000-02-CBD-01-248,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4138,7 +4138,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-02,PI,4000-02-BFW-06-874,PI_TP,PIPING TEST PACKAGE,DONE
 4000-02,PI,4000-02-HHPS-01-251,PI_TP,PIPING TEST PACKAGE,DONE
 4000-02,PI,4000-02-HHPS-02-1099,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
-4000-02,PI,4000-02-HHPS-03-1159,PI_TP,,Not Yet Activity
+4000-02,PI,4000-02-HHPS-03-1159,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-02,PI,4000-02-HPC-01-695,PI_TP,PIPING TEST PACKAGE,DONE
 4000-02,PI,4000-02-HPC-02-696,PI_TP,PIPING TEST PACKAGE,DONE
 4000-02,PI,4000-02-HPC-03-953,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4190,7 +4190,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-02,PI,4000-02-LPS-22-975,PI_TP,PIPING TEST PACKAGE,DONE
 4000-02,PI,4000-02-LPS-23-1156,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-02,PI,4000-02-LPS-24-1157,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
-4000-02,PI,4000-02-LPS-25-1159,PI_TP,,Not Yet Activity
+4000-02,PI,4000-02-LPS-25-1159,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-02,PI,4000-02-VA-01-440,PI_TP,PIPING TEST PACKAGE,DONE
 4000-02,PI,4000-02-VA-02-442,PI_TP,PIPING TEST PACKAGE,DONE
 4000-02,PI,4000-02-VA-03-443,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4215,7 +4215,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-04,PI,4000-04-BFW-10-961,PI_TP,PIPING TEST PACKAGE,DONE
 4000-04,PI,4000-04-BFW-11-987,PI_TP,PIPING TEST PACKAGE,DONE
 4000-04,PI,4000-04-BFW-12-1142,PI_TP,PIPING TEST PACKAGE,DONE
-4000-04,PI,4000-04-BFW-13-1160,PI_TP,,Not Yet Activity
+4000-04,PI,4000-04-BFW-13-1160,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-04,PI,4000-04-HPC-01-1012,PI_TP,PIPING TEST PACKAGE,DONE
 4000-04,PI,4000-04-HZ-01-551,PI_TP,PIPING TEST PACKAGE,DONE
 4000-04,PI,4000-04-LO-01-902,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4306,8 +4306,8 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-06,PI,4000-06-CS-16-1125,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-06,PI,4000-06-CS-17-1126,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-06,PI,4000-06-CS-18-923,PI_TP,PIPING TEST PACKAGE,DONE
-4000-06,PI,4000-06-CS-19-1083,PI_TP,,Not Yet Activity
-4000-06,PI,4000-06-CS-19-1170,PI_TP,,Not Yet Activity
+4000-06,PI,4000-06-CS-19-1083,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
+4000-06,PI,4000-06-CS-19-1170,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-06,PI,4000-06-DMW-01-177,PI_TP,PIPING TEST PACKAGE,DONE
 4000-06,PI,4000-06-DMW-02-229,PI_TP,PIPING TEST PACKAGE,DONE
 4000-06,PI,4000-06-DMW-03-230,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4339,8 +4339,8 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-06,PI,4000-06-DMW-29-1084,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-06,PI,4000-06-DMW-30-1085,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-06,PI,4000-06-DMW-31-1086,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
-4000-06,PI,4000-06-DMW-32-1161,PI_TP,,Not Yet Activity
-4000-06,PI,4000-06-DMW-33-1162,PI_TP,,Not Yet Activity
+4000-06,PI,4000-06-DMW-32-1161,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
+4000-06,PI,4000-06-DMW-33-1162,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-15,PI,4000-06-SRW-01-061,PI_TP,PIPING TEST PACKAGE,DONE
 4000-15,PI,4000-06-SRW-02-584,PI_TP,PIPING TEST PACKAGE,DONE
 4000-15,PI,4000-06-SRW-03-585,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4647,7 +4647,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-11,PI,4000-11-IA-11-1101,PI_TP,PIPING TEST PACKAGE,DONE
 4000-11,PI,4000-11-IA-12-1103,PI_TP,PIPING TEST PACKAGE,DONE
 4000-11,PI,4000-11-IA-13-1146,PI_TP,PIPING TEST PACKAGE,DONE
-4000-11,PI,4000-11-IA-14-1163,PI_TP,,Not Yet Activity
+4000-11,PI,4000-11-IA-14-1163,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-11,PI,4000-11-VA-01-570,PI_TP,PIPING TEST PACKAGE,DONE
 4000-12,PI,4000-12-WW-01-1088,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-12,PI,4000-12-WWC-01-1061,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4759,7 +4759,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 5000-01,PI,5000-01-PMC-31-595,PI_TP,PIPING TEST PACKAGE,DONE
 5000-01,PI,5000-01-PMC-32-626,PI_TP,PIPING TEST PACKAGE,DONE
 5000-01,PI,5000-01-PMC-33-767,PI_TP,PIPING TEST PACKAGE,DONE
-5000-01,PI,5000-01-PMC-34-1166,PI_TP,,Not Yet Activity
+5000-01,PI,5000-01-PMC-34-1166,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 5000-01,PI,5000-01-PMP-01-206,PI_TP,PIPING TEST PACKAGE,DONE
 5000-01,PI,5000-01-PMP-02-634,PI_TP,PIPING TEST PACKAGE,DONE
 5000-01,PI,5000-01-PMP-03-960,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4909,7 +4909,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 5000-04,PI,5000-04-PMP-26-639,PI_TP,PIPING TEST PACKAGE,DONE
 5000-04,PI,5000-04-PMP-27-1015,PI_TP,PIPING TEST PACKAGE,DONE
 5000-04,PI,5000-04-PMP-28-1049,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
-5000-04,PI,5000-04-PMP-29-1165,PI_TP,,Not Yet Activity
+5000-04,PI,5000-04-PMP-29-1165,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 5000-04,PI,5000-04-PMV-01-035,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 5000-05,PI,5000-05-LOS-01-060,PI_TP,PIPING TEST PACKAGE,DONE
 5000-05,PI,5000-05-LOS-02-110,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4919,7 +4919,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 5000-05,PI,5000-05-LOS-06-575,PI_TP,PIPING TEST PACKAGE,DONE
 5000-05,PI,5000-05-LOS-07-576,PI_TP,PIPING TEST PACKAGE,DONE
 5000-05,PI,5000-05-LOS-08-381,PI_TP,PIPING TEST PACKAGE,DONE
-5000-05,PI,5000-05-LOS-09-1168,PI_TP,,Not Yet Activity
+5000-05,PI,5000-05-LOS-09-1168,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-01,PI,5000-05-N-01-776,PI_TP,PIPING TEST PACKAGE,DONE
 5000-05,PI,5000-05-OW-01-232,PI_TP,PIPING TEST PACKAGE,DONE
 5000-05,PI,5000-05-PMV-01-764,PI_TP,PIPING TEST PACKAGE,HYDROTEST
@@ -5383,7 +5383,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 7000-01,PI,7000-01-FLG-22-947,PI_TP,PIPING TEST PACKAGE,DONE
 7000-01,PI,7000-01-FLG-23-949,PI_TP,PIPING TEST PACKAGE,DONE
 7000-01,PI,7000-01-FLG-24-988,PI_TP,PIPING TEST PACKAGE,DONE
-7000-01,PI,7000-01-FLG-25-1164,PI_TP,,Not Yet Activity
+7000-01,PI,7000-01-FLG-25-1164,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 7000-01,PI,7000-01-NG-01-841,PI_TP,PIPING TEST PACKAGE,DONE
 7000-01,PI,7000-01-NG-02-908,PI_TP,PIPING TEST PACKAGE,DONE
 7000-01,PI,7000-01-NG-03-929,PI_TP,PIPING TEST PACKAGE,DONE
@@ -5493,10 +5493,10 @@ LS-14,EL,AH-EJB1,Lighting Main JB,Emergency Lighting Junction Box,DONE
 LS-14,EL,AH-EJB1-FJB01,Lighting Cable,Cable of Emergency Lighting Junction Box,33%
 LS-14,EL,AH-EJB2,Lighting Main JB,Emergency Lighting Junction Box,DONE
 LS-14,EL,AH-EJB2-FJB01,Lighting Cable,Cable of Emergency Lighting Junction Box,33%
-TEL-12,EL,AH-IS-01,Telecom Device,Intercom Station Without Hood - EX,50%
+TEL-12,EL,AH-IS-01,TELECOM DEVICE(A),Intercom Station Without Hood - EX,Done
 TEL-12,EL,AH-SP-01,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-12,EL,AH-TEL-01,Telecom Device,Telephone Station Without Hood- EX,0%
-TEL-12,EL,AH-TJB1,Telecom Device,Telephone Junction Box - EX,50%
+TEL-12,EL,AH-TEL-01,TELECOM DEVICE(A),Telephone Station Without Hood- EX,0%
+TEL-12,EL,AH-TJB1,TELECOM DEVICE(A),Telephone Junction Box - EX,Done
 120-13,EL,AJB01-DW01,Cathodic Protection,Cable 1x16,DONE
 120-13,EL,AJB01-DW02,Cathodic Protection,Cable 1x16,DONE
 DCS-01,IN,ALM_T1,CABLE,CABLE(NA),Done
@@ -6181,9 +6181,9 @@ LS-04,EL,CR-LP-01-21-L3-05,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,D
 LS-04,EL,CR-LP-01-21-L3-06,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
 LS-04,EL,CR-LP-01-22-L1|L2|L3-01,Socket Outlet,Outlet 5-Pole- 400v|25A|Indust Type,Done
 ES-02,EL,CR-L-PRO(ES-02),Lightning Protection,Ligtining Protection,Done
-TEL-09,EL,CR-MCS-01-1,Telecom Device,Master Call Station Media Converter,0%
+TEL-09,EL,CR-MCS-01-1,TELECOM DEVICE(A),Master Call Station Media Converter,0%
 TEL-09,EL,CR-MCS-01-2,Paging Device,Paging Master Call Station,0%
-TEL-09,EL,CR-MTJB1,Telecom Device,Main Telephone Junction Box,0%
+TEL-09,EL,CR-MTJB1,TELECOM DEVICE(A),Main Telephone Junction Box,0%
 TEL-09,EL,CR-PJB1,Paging Device,Paging Junction Box,0%
 DCS-01,IN,CR-RBS-01,JUNCTION BOX,JUNCTION BOX(PANEL),0%
 120-07,EL,CR-SIP-01,PANEL(EL),Fire & Gas Detection System Siren Panel,0%
@@ -6196,9 +6196,9 @@ TEL-09,EL,CR-SP-06,Paging Device,Loud Speaker Celling Mounted- 6W,50%
 TEL-09,EL,CR-SP-07,Paging Device,Loud Speaker Celling Mounted- 6W,50%
 TEL-09,EL,CR-SP-08,Paging Device,Loud Speaker Celling Mounted- 6W,50%
 TEL-09,EL,CR-SP-09,Paging Device,Loud Speaker Celling Mounted- 6W,0%
-TEL-09,EL,CR-TEL-01,Telecom Device,Telephone Station Without Hood,0%
-TEL-09,EL,CR-TEL-02,Telecom Device,Telephone Station Without Hood- EX,0%
-TEL-09,EL,CR-TEL-03,Telecom Device,Telephone Station Without Hood,0%
+TEL-09,EL,CR-TEL-01,TELECOM DEVICE(A),Telephone Station Without Hood,0%
+TEL-09,EL,CR-TEL-02,TELECOM DEVICE(A),Telephone Station Without Hood- EX,0%
+TEL-09,EL,CR-TEL-03,TELECOM DEVICE(A),Telephone Station Without Hood,0%
 TEL-09,EL,CR-TEL-OUTLET-1-01,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
 TEL-09,EL,CR-TEL-OUTLET-1-02,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
 TEL-09,EL,CR-TEL-OUTLET-1-03,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
@@ -6251,9 +6251,9 @@ TEL-09,EL,CR-TEL-OUTLET-8-02,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0
 TEL-09,EL,CR-TEL-OUTLET-8-03,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
 TEL-09,EL,CR-TEL-OUTLET-8-04,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
 TEL-09,EL,CR-TEL-OUTLET-8-05,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-09,EL,CR-TJB1,Telecom Device,Telephone Junction Box,50%
-TEL-09,EL,CR-TJB2,Telecom Device,Telephone Junction Box,50%
-TEL-09,EL,CR-TJB3,Telecom Device,Telephone Junction Box,50%
+TEL-09,EL,CR-TJB1,TELECOM DEVICE(A),Telephone Junction Box,0%
+TEL-09,EL,CR-TJB2,TELECOM DEVICE(A),Telephone Junction Box,0%
+TEL-09,EL,CR-TJB3,TELECOM DEVICE(A),Telephone Junction Box,0%
 120-15,EL,CR-UBT-01_1,UPS & Battery,110V AC UPS Battery Set,Done
 120-15,EL,CR-UBT-01_2,UPS & Battery,110V AC UPS Battery Set,Done
 120-09,EL,CR-UIS-01,UPS & Battery,110V AC UPS Battery Isolator Box,Done
@@ -12623,9 +12623,9 @@ FGS-10,IN,FGD-0057,Fire Alarm,Fire Alarm(FGD),0%
 4000-06,IN,FI-75203A,Instrument(FI),Instrument(FI),50%
 4000-06,IN,FI-75203B,Instrument(FI),Instrument(FI),50%
 4000-06,IN,FI-75204A,Instrument(FI),Instrument(FI),50%
-4000-06,MES,FI-8001A,Filter(X),Side Strem Sand Filters B,0%
+4000-06,MES,FI-8001A,Filter(X),Side Strem Sand Filters B,Done
 4000-06,MES,FI-8001B,Filter(X),Side Strem Sand Filters C,84%
-4000-06,MES,FI-8001C,Filter(X),Side Strem Sand Filters A,0%
+4000-06,MES,FI-8001C,Filter(X),Side Strem Sand Filters A,Done
 4000-06,IN,FI-8401,Instrument(FI),Instrument(FI),50%
 4000-06,IN,FI-8402,Instrument(FI),Instrument(FI),50%
 BLD-07,BD,Final Architecture(EX),07-Final Architecture(External),The final Architecture(External works of Building BLD-07),Done
@@ -12798,7 +12798,7 @@ FGS-02,IN,FLD-0028(NA),CABLE,CABLE(NA),Done
 4000-06,IN,FO-7501B,Instrument(FO),Instrument(FO),50%
 4000-06,IN,FO-7502A,Instrument(FO),Instrument(FO),50%
 4000-06,IN,FO-7502B,Instrument(FO),Instrument(FO),50%
-4000-06,IN,FO-7504,Instrument(FO),Instrument(FO),0%
+4000-06,IN,FO-7504,Instrument(FO),Instrument(FO),50%
 4000-08,IN,FO-8001,Instrument(FO),Instrument(FO),50%
 BLD-01,BD,Foundation(BLD-01),01-Foundation,Foundation(BLD-01),Done
 BLD-02,BD,Foundation(BLD-02),01-Foundation,Base and footing construction,Done
@@ -14514,7 +14514,7 @@ TEL-10,EL,LAB-TEL-OUTLET-4-02,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,
 TEL-10,EL,LAB-TEL-OUTLET-4-03,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
 TEL-10,EL,LAB-TEL-OUTLET-4-04,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
 TEL-10,EL,LAB-TEL-OUTLET-4-05,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,LAB-TJB1,Telecom Device,Telephone Junction Box,0%
+TEL-10,EL,LAB-TJB1,TELECOM DEVICE(A),Telephone Junction Box,0%
 DCS-01,IN,LB01-RS01R-F RMBDI11:1-RM03F-F,CABLE,CABLE(NA),0%
 DCS-01,IN,LB01-RS01R-F RMBDI11:2-RM03F-F,CABLE,CABLE(NA),0%
 DCS-01,IN,LB01-RS03R-F RMBDO08:1-RM05F-F,CABLE,CABLE(NA),0%
@@ -17011,8 +17011,8 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 4000-01,IN,PG-0001,Instrument(PG),Instrument(PG),50%
 4000-11,IN,PG-0002,Instrument(PG),Instrument(PG),Done
 4000-07,IN,PG-0003,Instrument(PG),Instrument(PG),Done
-4000-06,IN,PG-0004,Instrument(PG),Instrument(PG),0%
-4000-06,IN,PG-0005,Instrument(PG),Instrument(PG),0%
+4000-06,IN,PG-0004,Instrument(PG),Instrument(PG),Done
+4000-06,IN,PG-0005,Instrument(PG),Instrument(PG),Done
 4000-11,IN,PG-0006,Instrument(PG),Instrument(PG),50%
 4000-08,IN,PG-0007,Instrument(PG),Instrument(PG),Done
 4000-08,IN,PG-0008,Instrument(PG),Instrument(PG),Done
@@ -17021,7 +17021,7 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 4000-01,IN,PG-0011,Instrument(PG),Instrument(PG),50%
 4000-11,IN,PG-0012,Instrument(PG),Instrument(PG),Done
 4000-08,IN,PG-0013,Instrument(PG),Instrument(PG),50%
-4000-06,IN,PG-0014,Instrument(PG),Instrument(PG),0%
+4000-06,IN,PG-0014,Instrument(PG),Instrument(PG),50%
 4000-08,IN,PG-0015,Instrument(PG),Instrument(PG),50%
 1000-01,IN,PG-1002,Instrument(PG),Instrument(PG),Done
 1000-03,IN,PG-1003,Instrument(PG),Instrument(PG),DONE
@@ -17138,7 +17138,7 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 2000-05,IN,PG-2448,Instrument(PG),Instrument(PG),Exception(Pending)
 2000-05,IN,PG-2449,Instrument(PG),Instrument(PG),Exception(Pending)
 2000-05,IN,PG-2452,Instrument(PG),Instrument(PG),Exception(Pending)
-4000-06,IN,PG-2454,Instrument(PG),Instrument(PG),0%
+4000-06,IN,PG-2454,Instrument(PG),Instrument(PG),50%
 2000-05,IN,PG-2480,Instrument(PG),Instrument(PG),Exception(Pending)
 2000-05,IN,PG-2485,Instrument(PG),Instrument(PG),Exception(Pending)
 2000-05,IN,PG-2488,Instrument(PG),Instrument(PG),Exception(Pending)
@@ -17377,8 +17377,8 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 4000-02,IN,PG-7022,Instrument(PG),Instrument(PG),Done
 4000-03,IN,PG-7035,Instrument(PG),Instrument(PG),Done
 4000-02,IN,PG-7054,Instrument(PG),Instrument(PG),Done
-4000-06,IN,PG-7062,Instrument(PG),Instrument(PG),0%
-4000-06,IN,PG-7063,Instrument(PG),Instrument(PG),0%
+4000-06,IN,PG-7062,Instrument(PG),Instrument(PG),Done
+4000-06,IN,PG-7063,Instrument(PG),Instrument(PG),Done
 4000-04,IN,PG-7093,Instrument(PG),Instrument(PG),0%
 1000-03,IN,PG-7102,Instrument(PG),Instrument(PG),DONE
 1000-03,IN,PG-7103,Instrument(PG),Instrument(PG),DONE
@@ -17421,16 +17421,16 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 4000-04,IN,PG-7214,Instrument(PG),Instrument(PG),0%
 4000-04,IN,PG-7217,Instrument(PG),Instrument(PG),0%
 4000-05,IN,PG-7220,Instrument(PG),Instrument(PG),Done
-4000-06,IN,PG-7503A,Instrument(PG),Instrument(PG),0%
-4000-06,IN,PG-7503B,Instrument(PG),Instrument(PG),0%
-4000-06,IN,PG-7504A,Instrument(PG),Instrument(PG),0%
-4000-06,IN,PG-7504B,Instrument(PG),Instrument(PG),0%
-4000-06,IN,PG-7505A,Instrument(PG),Instrument(PG),0%
-4000-06,IN,PG-7505B,Instrument(PG),Instrument(PG),0%
-4000-06,IN,PG-7506A,Instrument(PG),Instrument(PG),0%
-4000-06,IN,PG-7506B,Instrument(PG),Instrument(PG),0%
-4000-06,IN,PG-7507,Instrument(PG),Instrument(PG),0%
-4000-06,IN,PG-7508,Instrument(PG),Instrument(PG),0%
+4000-06,IN,PG-7503A,Instrument(PG),Instrument(PG),Done
+4000-06,IN,PG-7503B,Instrument(PG),Instrument(PG),Done
+4000-06,IN,PG-7504A,Instrument(PG),Instrument(PG),Done
+4000-06,IN,PG-7504B,Instrument(PG),Instrument(PG),Done
+4000-06,IN,PG-7505A,Instrument(PG),Instrument(PG),50%
+4000-06,IN,PG-7505B,Instrument(PG),Instrument(PG),50%
+4000-06,IN,PG-7506A,Instrument(PG),Instrument(PG),50%
+4000-06,IN,PG-7506B,Instrument(PG),Instrument(PG),50%
+4000-06,IN,PG-7507,Instrument(PG),Instrument(PG),50%
+4000-06,IN,PG-7508,Instrument(PG),Instrument(PG),50%
 4000-06,IN,PG-75150,Instrument(PG),Instrument(PG),0%
 4000-06,IN,PG-75151A,Instrument(PG),Instrument(PG),0%
 4000-06,IN,PG-75151B,Instrument(PG),Instrument(PG),0%
@@ -17520,8 +17520,8 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 4000-09,IN,PG-84112B,Instrument(PG),Instrument(PG),50%
 4000-09,IN,PG-8415,Instrument(PG),Instrument(PG),50%
 4000-10,IN,PG-8416,Instrument(PG),Instrument(PG),Done
-4000-06,IN,PG-8417A,Instrument(PG),Instrument(PG),0%
-4000-06,IN,PG-8417B,Instrument(PG),Instrument(PG),0%
+4000-06,IN,PG-8417A,Instrument(PG),Instrument(PG),50%
+4000-06,IN,PG-8417B,Instrument(PG),Instrument(PG),50%
 4000-12,IN,PG-8420,Instrument(PG),Instrument(PG),Done
 4000-12,IN,PG-8421,Instrument(PG),Instrument(PG),Done
 4000-12,IN,PG-8422,Instrument(PG),Instrument(PG),Done
@@ -18761,8 +18761,8 @@ FGS-03,IN,RHS-9053,Fire Fighting,Fire Fighting(RHS),0%
 4000-08,IN,RO-8003,Instrument(RO),Instrument(RO),0%
 4000-08,IN,RO-80201A,Instrument(RO),Instrument(RO),0%
 4000-08,IN,RO-80201B,Instrument(RO),Instrument(RO),0%
-4000-06,IN,RO-8411,Instrument(RO),Instrument(RO),0%
-4000-06,IN,RO-8412,Instrument(RO),Instrument(RO),0%
+4000-06,IN,RO-8411,Instrument(RO),Instrument(RO),50%
+4000-06,IN,RO-8412,Instrument(RO),Instrument(RO),50%
 4000-06,IN,RO-84301A,Instrument(RO),Instrument(RO),50%
 4000-06,IN,RO-84301B,Instrument(RO),Instrument(RO),0%
 FGS-02,IN,RO-9001A,Instrument(RO),Fire Fighting(RO),Exception(Pending)
@@ -19771,23 +19771,23 @@ TEL-08,EL,SS-TEL-01,TELECOM DEVICE(A),Telephone Station Without Hood,0%
 TEL-08,EL,SS-TEL-02,TELECOM DEVICE(A),Telephone Station Without Hood,Done
 TEL-08,EL,SS-TEL-03,TELECOM DEVICE(A),Telephone Station Without Hood,0%
 TEL-08,EL,SS-TJB1,TELECOM DEVICE(A),Telephone Junction Box,Done
-120-16,EL,SS-TR1A-01,Transformer,Transformer,38%
-120-16,EL,SS-TR1B-01,Transformer,Transformer,38%
-120-17,EL,SS-TR2A-01,Transformer,Transformer,38%
-120-17,EL,SS-TR2A-02,Transformer,Transformer,38%
-120-17,EL,SS-TR2A-03,Transformer,Transformer,38%
-120-17,EL,SS-TR2A-04,Transformer,Transformer,38%
-120-17,EL,SS-TR2A-05,Transformer,Transformer,38%
-120-17,EL,SS-TR2A-06,Transformer,Transformer,25%
-120-17,EL,SS-TR2B-01,Transformer,Transformer,38%
-120-17,EL,SS-TR2B-02,Transformer,Transformer,38%
-120-17,EL,SS-TR2B-03,Transformer,Transformer,38%
-120-17,EL,SS-TR2B-04,Transformer,Transformer,38%
-120-17,EL,SS-TR2B-05,Transformer,Transformer,38%
-120-17,EL,SS-TR2B-06,Transformer,Transformer,25%
-120-17,EL,SS-TR3-02,Transformer,Main Emergency Lighting Transformer,12%
-120-17,EL,SS-TR3A-01,Transformer,Main Normal Lighting Transformer A,12%
-120-17,EL,SS-TR3B-01,Transformer,Main Normal Lighting Transformer B,12%
+120-16,EL,SS-TR1A-01,Transformer,Transformer,43%
+120-16,EL,SS-TR1B-01,Transformer,Transformer,43%
+120-17,EL,SS-TR2A-01,Transformer,Transformer,43%
+120-17,EL,SS-TR2A-02,Transformer,Transformer,43%
+120-17,EL,SS-TR2A-03,Transformer,Transformer,43%
+120-17,EL,SS-TR2A-04,Transformer,Transformer,43%
+120-17,EL,SS-TR2A-05,Transformer,Transformer,43%
+120-17,EL,SS-TR2A-06,Transformer,Transformer,29%
+120-17,EL,SS-TR2B-01,Transformer,Transformer,43%
+120-17,EL,SS-TR2B-02,Transformer,Transformer,43%
+120-17,EL,SS-TR2B-03,Transformer,Transformer,43%
+120-17,EL,SS-TR2B-04,Transformer,Transformer,43%
+120-17,EL,SS-TR2B-05,Transformer,Transformer,43%
+120-17,EL,SS-TR2B-06,Transformer,Transformer,29%
+120-17,EL,SS-TR3-02,Transformer,Main Emergency Lighting Transformer,14%
+120-17,EL,SS-TR3A-01,Transformer,Main Normal Lighting Transformer A,14%
+120-17,EL,SS-TR3B-01,Transformer,Main Normal Lighting Transformer B,14%
 120-15,EL,SS-UBT-01,UPS & Battery,230V AC Safety Lighting UPS Battery Set,Done
 120-11,EL,SS-UIS-01,UPS & Battery,230V AC Safety Lighting UPS Battery Isolator Box,Done
 120-11,EL,SS-UPS-01,UPS & Battery, 230V AC Safety Lighting UPS,Done
@@ -20592,9 +20592,9 @@ BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor 
 4000-08,IN,TE-80233B,Instrument(TE),Instrument(TE),0%
 4000-11,IN,TG-0001,Instrument(TG),Instrument(TG),50%
 4000-08,IN,TG-0002,Instrument(TG),Instrument(TG),50%
-4000-06,IN,TG-0003,Instrument(TG),Instrument(TG),0%
-4000-06,IN,TG-0004,Instrument(TG),Instrument(TG),0%
-4000-06,IN,TG-0005,Instrument(TG),Instrument(TG),0%
+4000-06,IN,TG-0003,Instrument(TG),Instrument(TG),Done
+4000-06,IN,TG-0004,Instrument(TG),Instrument(TG),50%
+4000-06,IN,TG-0005,Instrument(TG),Instrument(TG),Done
 1000-01,IN,TG-1002,Instrument(TG),Instrument(TG),Done
 1000-01,IN,TG-1004,Instrument(TG),Instrument(TG),Done
 1000-01,IN,TG-1036,Instrument(TG),Instrument(TG),Done
@@ -20664,8 +20664,8 @@ BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor 
 2000-04,IN,TG-2404,Instrument(TG),Instrument(TG),Exception(Pending)
 2000-04,IN,TG-2405,Instrument(TG),Instrument(TG),Exception(Pending)
 2000-05,IN,TG-2453,Instrument(TG),Instrument(TG),Exception(Pending)
-4000-06,IN,TG-2454,Instrument(TG),Instrument(TG),0%
-4000-06,IN,TG-2456,Instrument(TG),Instrument(TG),0%
+4000-06,IN,TG-2454,Instrument(TG),Instrument(TG),Done
+4000-06,IN,TG-2456,Instrument(TG),Instrument(TG),Done
 2000-05,IN,TG-2494,Instrument(TG),Instrument(TG),Exception(Pending)
 2000-06,IN,TG-2574,Instrument(TG),Instrument(TG),Done
 3000-01,IN,TG-30125,Instrument(TG),Instrument(TG),Exception(Pending)
@@ -20691,7 +20691,7 @@ BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor 
 3000-01,IN,TG-30171,Instrument(TG),Instrument(TG),Done
 5000-01,IN,TG-30201A,Instrument(TG),Instrument(TG),50%
 3000-01,IN,TG-3022,Instrument(TG),Instrument(TG),Done
-4000-06,IN,TG-3026,Instrument(TG),Instrument(TG),0%
+4000-06,IN,TG-3026,Instrument(TG),Instrument(TG),50%
 3000-02,IN,TG-3051,Instrument(TG),Instrument(TG),Exception(Pending)
 3000-02,IN,TG-3074,Instrument(TG),Instrument(TG),Done
 3000-02,IN,TG-3075,Instrument(TG),Instrument(TG),Exception(Pending)
@@ -20824,14 +20824,14 @@ BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor 
 4000-05,IN,TG-7256,Instrument(TG),Instrument(TG),Done
 4000-05,IN,TG-7258,Instrument(TG),Instrument(TG),Done
 4000-05,IN,TG-7259,Instrument(TG),Instrument(TG),Done
-4000-06,IN,TG-7501,Instrument(TG),Instrument(TG),0%
-4000-06,IN,TG-7503,Instrument(TG),Instrument(TG),0%
-4000-06,IN,TG-7504,Instrument(TG),Instrument(TG),0%
+4000-06,IN,TG-7501,Instrument(TG),Instrument(TG),Done
+4000-06,IN,TG-7503,Instrument(TG),Instrument(TG),50%
+4000-06,IN,TG-7504,Instrument(TG),Instrument(TG),50%
 4000-06,IN,TG-75152,Instrument(TG),Instrument(TG),0%
 4000-06,IN,TG-75153,Instrument(TG),Instrument(TG),0%
-4000-06,IN,TG-75201A,Instrument(TG),Instrument(TG),0%
-4000-06,IN,TG-75201B,Instrument(TG),Instrument(TG),0%
-4000-06,IN,TG-75202A,Instrument(TG),Instrument(TG),0%
+4000-06,IN,TG-75201A,Instrument(TG),Instrument(TG),Done
+4000-06,IN,TG-75201B,Instrument(TG),Instrument(TG),Done
+4000-06,IN,TG-75202A,Instrument(TG),Instrument(TG),50%
 4000-08,IN,TG-8002,Instrument(TG),Instrument(TG),Done
 4000-08,IN,TG-8004,Instrument(TG),Instrument(TG),Done
 4000-08,IN,TG-8005A,Instrument(TG),Instrument(TG),Done
@@ -20861,8 +20861,8 @@ BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor 
 4000-08,IN,TG-80172B,Instrument(TG),Instrument(TG),50%
 4000-08,IN,TG-8023,Instrument(TG),Instrument(TG),Done
 4000-08,IN,TG-8024,Instrument(TG),Instrument(TG),Done
-4000-06,IN,TG-8411,Instrument(TG),Instrument(TG),0%
-4000-06,IN,TG-8412,Instrument(TG),Instrument(TG),0%
+4000-06,IN,TG-8411,Instrument(TG),Instrument(TG),Done
+4000-06,IN,TG-8412,Instrument(TG),Instrument(TG),Done
 FGS-05,IN,TGD-0001(NA),CABLE,CABLE(NA),0%
 FGS-05,IN,TGD-0001(TGD),Fire Alarm,Fire Alarm(TGD),0%
 FGS-05,IN,TGD-0002(NA),CABLE,CABLE(NA),0%
@@ -24540,13 +24540,13 @@ LS-05,EL,YO-LP-01-14-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0
 LS-05,EL,YO-LP-01-14-L3-04,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
 LS-05,EL,YO-LP-01-14-L3-05,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
 LS-05,EL,YO-LP-01-14-L3-06,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,0%
-TEL-10,EL,YO-MTJB1,Telecom Device,Main Telephone Junction Box,0%
+TEL-10,EL,YO-MTJB1,TELECOM DEVICE(A),Main Telephone Junction Box,0%
 TEL-10,EL,YO-SP-01,Paging Device,Loud Speaker Celling Mounted- 6W,0%
 TEL-10,EL,YO-SP-02,Paging Device,Loud Speaker Celling Mounted- 6W,0%
 TEL-10,EL,YO-SP-03,Paging Device,Loud Speaker Celling Mounted- 6W,0%
 TEL-10,EL,YO-SP-04,Paging Device,Loud Speaker Celling Mounted- 6W,0%
 TEL-10,EL,YO-SP-05,Paging Device,Loud Speaker Celling Mounted- 6W,0%
-TEL-10,EL,YO-TEL-01,Telecom Device,Telephone Station Without Hood,0%
+TEL-10,EL,YO-TEL-01,TELECOM DEVICE(A),Telephone Station Without Hood,0%
 TEL-10,EL,YO-TEL-OUTLET-1-01,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
 TEL-10,EL,YO-TEL-OUTLET-1-02,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
 TEL-10,EL,YO-TEL-OUTLET-1-03,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
@@ -24589,8 +24589,8 @@ TEL-10,EL,YO-TEL-OUTLET-6-03,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0
 TEL-10,EL,YO-TEL-OUTLET-6-04,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
 TEL-10,EL,YO-TEL-OUTLET-6-05,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
 TEL-10,EL,YO-TEL-OUTLET-6-06,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TJB1,Telecom Device,Telephone Junction Box,0%
-TEL-10,EL,YO-TJB2,Telecom Device,Telephone Junction Box,0%
+TEL-10,EL,YO-TJB1,TELECOM DEVICE(A),Telephone Junction Box,0%
+TEL-10,EL,YO-TJB2,TELECOM DEVICE(A),Telephone Junction Box,0%
 4000-11,IN,YS-0001,I/O EL,I/O EL,Done
 4000-11,IN,YS-0002,I/O EL,I/O EL,Done
 4000-11,IN,YS-0013,I/O EL,I/O EL,0%
