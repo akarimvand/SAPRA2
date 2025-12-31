@@ -155,7 +155,7 @@ ES,ES-04,Earthing System,Earthing & Roof Lightning System for Analyzer House,EL,
 ES,ES-05,Earthing System,Earthing & Roof Lightning System for Warehouse,EL,22,22,0,45,45,0,0
 ES,ES-06,Earthing System,Earthing System for Area-02,EL,696,0,0,0,0,0,0
 ES,ES-07,Earthing System,Earthing System for Area-03,EL,379,379,0,783,781,2,0
-ES,ES-08,Earthing System,Earthing System for Area-04,EL,461,0,0,0,0,0,0
+ES,ES-08,Earthing System,Earthing System for Area-04,EL,461,0,0,4,0,4,0
 ES,ES-09,Earthing System,Earthing System for Area-05,EL,503,0,0,0,0,0,0
 ES,ES-10,Earthing System,Earthing System for Area-06,EL,394,394,0,399,398,1,0
 ES,ES-11,Earthing System,Earthing System for Area-07,EL,484,484,0,507,507,0,0
@@ -172,8 +172,8 @@ FGS,FGS-09,Fire and Gas Detection,Fire & Gas Detection for Control Building,IN,3
 FGS,FGS-09,Fire and Gas Detection,Fire & Gas Detection for Control Building,EL,92,60,0,397,343,54,0
 FGS,FGS-10,Fire and Gas Detection,Fire & Gas Detection for Laboratory,IN,2,0,0,0,0,0,0
 FGS,FGS-10,Fire and Gas Detection,Fire & Gas Detection for Laboratory,EL,50,0,0,0,0,0,0
-LS,LS-01,Lighting System,SS-MLP-01 for Normal Lighting System,EL,100,66,8,370,122,248,0
-LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,32,5,194,73,121,0
+LS,LS-01,Lighting System,SS-MLP-01 for Normal Lighting System,EL,100,66,8,356,122,234,0
+LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,32,5,187,73,114,0
 LS,LS-03,Lighting System,Lighting System for Substation,EL,516,47,467,1889,1699,190,0
 LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,286,1,209,38,171,0
 LS,LS-05,Lighting System,Lighting System for Laboratory & Yard Office,EL,315,0,0,0,0,0,0
