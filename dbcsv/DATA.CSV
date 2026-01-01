@@ -20,7 +20,7 @@
 120,120-08,Electrical Distribution Substation,Emergency Diesel Generator SS-DG-5701,EL,8,0,0,0,0,0,0
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,EL,29,26,1,127,51,76,0
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,IN,2,2,0,6,6,0,0
-120,120-10,Electrical Distribution Substation,SS-CH-01 for Electrical Supply 110V DC,EL,24,22,0,192,128,64,0
+120,120-10,Electrical Distribution Substation,SS-CH-01 for Electrical Supply 110V DC,EL,24,22,0,192,151,41,0
 120,120-11,Electrical Distribution Substation,SS-UPS-01 for Safety Lighting Supply 230 AC UPS,EL,18,17,0,127,52,75,0
 120,120-12,Electrical Distribution Substation,SS PDCS System,EL,10,8,2,37,5,32,0
 120,120-13,Electrical Distribution Substation,Cathodic Protection System,EL,373,341,32,482,479,3,0
@@ -161,7 +161,7 @@ ES,ES-10,Earthing System,Earthing System for Area-06,EL,394,394,0,399,399,0,0
 ES,ES-11,Earthing System,Earthing System for Area-07,EL,484,484,0,507,507,0,0
 FGS,FGS-01,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1001,IN,95,5,12,63,0,63,0
 FGS,FGS-02,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1002,IN,143,29,26,207,2,205,0
-FGS,FGS-03,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1003,IN,151,37,15,146,0,146,0
+FGS,FGS-03,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1003,IN,151,37,15,146,61,85,0
 FGS,FGS-04,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1004,IN,173,17,40,123,1,122,0
 FGS,FGS-05,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1005,IN,130,6,15,52,0,52,0
 FGS,FGS-06,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1006,IN,30,0,5,14,0,14,0
@@ -190,7 +190,7 @@ TEL,TEL-02,Telecom Systems,Telecom System for Area-02,EL,61,0,0,4,0,4,0
 TEL,TEL-03,Telecom Systems,Telecom System for Area-03,EL,39,0,13,14,0,14,0
 TEL,TEL-04,Telecom Systems,Telecom System for Area-04,EL,37,1,11,20,3,17,0
 TEL,TEL-05,Telecom Systems,Telecom System for Area-05,EL,71,0,31,58,0,58,0
-TEL,TEL-06,Telecom Systems,Telecom System for Area-06,EL,46,0,17,64,20,44,0
+TEL,TEL-06,Telecom Systems,Telecom System for Area-06,EL,46,0,17,64,32,32,0
 TEL,TEL-07,Telecom Systems,Telecom System for Area-07,EL,43,20,17,129,76,53,0
 TEL,TEL-08,Telecom Systems,Telecom System for Substation,EL,30,4,24,42,25,17,0
 TEL,TEL-09,Telecom Systems,Telecom System for Control Building,EL,103,0,19,10,0,10,0
