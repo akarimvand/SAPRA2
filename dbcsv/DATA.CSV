@@ -8,11 +8,11 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MES,13,6,7,41,4,37,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,7,2,55,0,55,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,3,0,15,7,8,0
-1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,167,64,432,254,178,0
+1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,167,64,432,281,151,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,57,53,3,182,138,44,0
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,185,0,2193,2032,161,0
 120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,281,49,3565,3239,326,0
-120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,230,60,3138,2868,270,0
+120,120-03,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-02,EL,337,230,60,3138,2882,256,0
 120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,306,201,20,2150,2081,69,0
 120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,284,204,8,2200,2152,48,0
 120,120-06,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-05,EL,262,209,3,2476,2392,84,0
@@ -33,7 +33,7 @@
 2000,2000-01,Reforming,Pre Reforming,EL,2,2,0,12,4,8,0
 2000,2000-01,Reforming,Pre Reforming,MES,2,2,0,10,0,10,0
 2000,2000-01,Reforming,Pre Reforming,PI,9,8,0,19,11,8,0
-2000,2000-01,Reforming,Pre Reforming,IN,92,15,13,74,33,41,0
+2000,2000-01,Reforming,Pre Reforming,IN,92,15,13,74,34,40,0
 2000,2000-02,Reforming,Primary Reforming,PI,9,9,0,31,16,15,0
 2000,2000-02,Reforming,Primary Reforming,IN,879,106,125,744,589,155,0
 2000,2000-02,Reforming,Primary Reforming,MES,8,0,8,0,0,0,0
@@ -60,7 +60,7 @@
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,3,8,19,3,16,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,9,5,4,30,0,30,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,32,0,110,70,40,0
-3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,92,21,350,228,122,0
+3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,92,21,350,230,120,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,2,0,20,0,20,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,12,7,5,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,175,17,75,331,309,22,0
@@ -68,16 +68,16 @@
 4000,4000-01,Utility,Nitrogen,PI,20,20,0,51,28,23,0
 4000,4000-01,Utility,Nitrogen,IN,14,10,4,11,2,9,0
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,2,0,10,0,10,0
-4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,123,55,454,285,169,0
+4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,123,55,454,289,165,0
 4000,4000-02,Utility,HHP & HP & LP Steam,PI,68,61,1,248,144,104,0
 4000,4000-03,Utility,MP Steam,MES,1,1,0,5,0,5,0
-4000,4000-03,Utility,MP Steam,IN,56,43,7,173,115,58,0
+4000,4000-03,Utility,MP Steam,IN,56,43,7,173,124,49,0
 4000,4000-03,Utility,MP Steam,PI,5,5,0,32,26,6,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,5,0,15,0,15,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,6,0,0,0,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,2,4,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,51,48,1,174,113,61,0
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,66,110,486,399,87,0
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,66,110,486,401,85,0
 4000,4000-05,Utility,Blow Down,PI,24,24,0,46,34,12,0
 4000,4000-05,Utility,Blow Down,MES,4,4,0,31,0,31,0
 4000,4000-05,Utility,Blow Down,IN,17,17,0,17,9,8,0
@@ -102,7 +102,7 @@
 4000,4000-11,Utility,Instrument Air,IN,78,57,6,72,23,49,0
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,MER,4,4,0,8,0,8,0
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,PI,22,13,7,24,19,5,0
-4000,4000-12,Utility,COC Water and Lab Chemical Sump,IN,25,21,2,9,2,7,0
+4000,4000-12,Utility,COC Water and Lab Chemical Sump,IN,25,21,2,9,5,4,0
 4000,4000-13,Utility,Slope Close Drain,MER,1,0,0,7,0,7,0
 4000,4000-13,Utility,Slope Close Drain,EL,1,1,0,6,4,2,0
 4000,4000-13,Utility,Slope Close Drain,PI,29,29,0,46,18,28,0
@@ -147,14 +147,14 @@ BLD,BLD-05,Building,Diesel Room,BD,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,BD,14,11,2,31,15,16,0
 BLD,BLD-07,Building,Analyzer House,BD,8,6,2,19,11,8,0
 CVL,CVL-01,Civil Work,Civil Work of All Area,CV,14,8,0,778,145,633,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2574,1019,17,4888,2171,2717,0
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2574,1019,17,4888,2257,2631,0
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2198,2195,3,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,425,423,2,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,22,13,9,0
 ES,ES-04,Earthing System,Earthing & Roof Lightning System for Analyzer House,EL,11,11,0,11,11,0,0
 ES,ES-05,Earthing System,Earthing & Roof Lightning System for Warehouse,EL,22,22,0,45,45,0,0
 ES,ES-06,Earthing System,Earthing System for Area-02,EL,696,0,0,0,0,0,0
-ES,ES-07,Earthing System,Earthing System for Area-03,EL,379,379,0,783,782,1,0
+ES,ES-07,Earthing System,Earthing System for Area-03,EL,379,379,0,783,783,0,0
 ES,ES-08,Earthing System,Earthing System for Area-04,EL,461,461,0,4,0,4,0
 ES,ES-09,Earthing System,Earthing System for Area-05,EL,503,0,0,0,0,0,0
 ES,ES-10,Earthing System,Earthing System for Area-06,EL,394,394,0,399,399,0,0
@@ -179,7 +179,7 @@ LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,286,1,209,1
 LS,LS-05,Lighting System,Lighting System for Laboratory & Yard Office,EL,315,0,0,0,0,0,0
 LS,LS-06,Lighting System,Lighting System for Street,EL,73,73,0,311,311,0,0
 LS,LS-07,Lighting System,Lighting System for Area-02,EL,1075,0,1,1,0,1,0
-LS,LS-08,Lighting System,Lighting System for Area-03,EL,440,0,55,192,171,21,0
+LS,LS-08,Lighting System,Lighting System for Area-03,EL,440,0,55,192,192,0,0
 LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,0,113,309,299,10,0
 LS,LS-10,Lighting System,Lighting System for Area-05,EL,706,0,67,268,200,68,0
 LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,1,81,365,349,16,0
