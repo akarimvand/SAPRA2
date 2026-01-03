@@ -6356,7 +6356,7 @@ FGS-02,IN,DY-2026(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,DY-3001(DY),Fire Fighting,Fire Fighting(DY),0%
 FGS-04,IN,DY-3001(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,DY-3002A(DY),Fire Fighting,Fire Fighting(DY),0%
-FGS-04,IN,DY-3002A(NA),CABLE,CABLE(NA),0%
+FGS-04,IN,DY-3002A(NA),CABLE,CABLE(NA),Done
 FGS-05,IN,DY-3002B(DY),Fire Fighting,Fire Fighting(DY),0%
 FGS-05,IN,DY-3002B(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,DY-3003(DY),Fire Fighting,Fire Fighting(DY),0%
@@ -10911,7 +10911,7 @@ LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet 
 120-03,EL,EBP-SS-CH-01A,Power Cable B,110V DC Battery Charger-A- SS-CH-01A,Done
 120-07,EL,EBP-SS-CH-01B,Power Cable B,110V DC Battery Charger-B- SS-CH-01B,0%
 120-07,EL,EBP-SS-E_I-01,Power Cable B,Substation E/I Cabinet- SS-E/I-01 (Auxiliary Supply),0%
-120-07,EL,EBP-SS-EDP-01,Power Cable B,Substation Emergency Distribution Panel- SS-EDP-01,0%
+120-07,EL,EBP-SS-EDP-01,Power Cable B,Substation Emergency Distribution Panel- SS-EDP-01,Done
 LS-02,EL,EBP-SS-ELP-01,Power Cable B,Substation Emergency Lighting Panel- SS-ELP-01,0%
 LS-02,EL,EBP-SS-EMLP-01,Power Cable B,Main Emergency Lighting Panel- SS-EMLP-01,0%
 120-07,EL,EBP-SS-EMLP-01_AS,Power Cable B,Emergency Main Lighting Panel- SS-EMLP-01  (Auxiliary Supply),0%
@@ -11018,12 +11018,12 @@ FGS-09,EL,ECC-CR-SIP-01,Power Cable B,Fire and Gas Detection System Siren Panel-
 120-03,EL,ECC-FT8001A-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-03,EL,ECC-FT8001A-HE-3_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-FT8001A-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
-120-07,EL,ECC-FT8001A-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-07,EL,ECC-FT8001A-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-03,EL,ECC-FT8001B-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-03,EL,ECC-FT8001B-HE-2_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-03,EL,ECC-FT8001B-HE-3_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-FT8001B-MP-1A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
-120-07,EL,ECC-FT8001B-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-07,EL,ECC-FT8001B-MP-1B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-H-3012_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-05,EL,ECC-MAE-2026-01_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
@@ -11176,14 +11176,14 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-02,EL,ECC-MP-2002B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
 120-02,EL,ECC-MP-2003A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-MP-2003B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
-120-07,EL,ECC-MP-3001_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-07,EL,ECC-MP-3001_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-MP-3011A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
 120-02,EL,ECC-MP-3011B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-MP-3012A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-MP-3012B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
-120-07,EL,ECC-MP-3013_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-07,EL,ECC-MP-3013_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-MP-3014_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
-120-07,EL,ECC-MP-3015_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-07,EL,ECC-MP-3015_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-MP-5001A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
 120-02,EL,ECC-MP-5001B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-MP-5002A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
@@ -11243,7 +11243,7 @@ FGS-10,EL,ECC-LAB-FACP-01,Power Cable B,Laboratory HVAC Control Panel,0%
 120-02,EL,ECC-MP-7070A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-02,EL,ECC-MP-7070B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-07,EL,ECC-MP-7101A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
-120-07,EL,ECC-MP-7101B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),0%
+120-07,EL,ECC-MP-7101B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-03,EL,ECC-MP-7502A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-03,EL,ECC-MP-7502B_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
 120-03,EL,ECC-MP-7503A_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),Done
@@ -12455,7 +12455,7 @@ FGS-04,IN,FGD-0016(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,FGD-0017(FGD),Fire Alarm,Fire Alarm(FGD),0%
 FGS-04,IN,FGD-0017(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,FGD-0018(FGD),Fire Alarm,Fire Alarm(FGD),25%
-FGS-04,IN,FGD-0018(NA),CABLE,CABLE(NA),50%
+FGS-04,IN,FGD-0018(NA),CABLE,CABLE(NA),Done
 FGS-04,IN,FGD-0019(FGD),Fire Alarm,Fire Alarm(FGD),25%
 FGS-04,IN,FGD-0019(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,FGD-0020(FGD),Fire Alarm,Fire Alarm(FGD),25%
@@ -12485,15 +12485,15 @@ FGS-03,IN,FGD-0031(NA),CABLE,CABLE(NA),0%
 FGS-02,IN,FGD-0032(FGD),Fire Alarm,Fire Alarm(FGD),25%
 FGS-02,IN,FGD-0032(NA),CABLE,CABLE(NA),Done
 FGS-02,IN,FGD-0033(FGD),Fire Alarm,Fire Alarm(FGD),25%
-FGS-02,IN,FGD-0033(NA),CABLE,CABLE(NA),0%
+FGS-02,IN,FGD-0033(NA),CABLE,CABLE(NA),50%
 FGS-02,IN,FGD-0034(FGD),Fire Alarm,Fire Alarm(FGD),25%
-FGS-02,IN,FGD-0034(NA),CABLE,CABLE(NA),0%
+FGS-02,IN,FGD-0034(NA),CABLE,CABLE(NA),50%
 FGS-02,IN,FGD-0035(FGD),Fire Alarm,Fire Alarm(FGD),25%
-FGS-02,IN,FGD-0035(NA),CABLE,CABLE(NA),0%
+FGS-02,IN,FGD-0035(NA),CABLE,CABLE(NA),50%
 FGS-02,IN,FGD-0036(FGD),Fire Alarm,Fire Alarm(FGD),25%
 FGS-02,IN,FGD-0036(NA),CABLE,CABLE(NA),Done
 FGS-02,IN,FGD-0037(FGD),Fire Alarm,Fire Alarm(FGD),25%
-FGS-02,IN,FGD-0037(NA),CABLE,CABLE(NA),0%
+FGS-02,IN,FGD-0037(NA),CABLE,CABLE(NA),50%
 FGS-08,IN,FGD-0041,Fire Alarm,Fire Alarm(FGD),0%
 FGS-01,IN,FGD-0042(FGD),Fire Alarm,Fire Alarm(FGD),0%
 FGS-01,IN,FGD-0042(NA),CABLE,CABLE(NA),0%
@@ -12502,7 +12502,7 @@ FGS-01,IN,FGD-0043(NA),CABLE,CABLE(NA),0%
 FGS-01,IN,FGD-0044(FGD),Fire Alarm,Fire Alarm(FGD),0%
 FGS-01,IN,FGD-0044(NA),CABLE,CABLE(NA),0%
 FGS-01,IN,FGD-0045(FGD),Fire Alarm,Fire Alarm(FGD),0%
-FGS-01,IN,FGD-0045(NA),CABLE,CABLE(NA),0%
+FGS-01,IN,FGD-0045(NA),CABLE,CABLE(NA),50%
 FGS-01,IN,FGD-0046(FGD),Fire Alarm,Fire Alarm(FGD),0%
 FGS-01,IN,FGD-0046(NA),CABLE,CABLE(NA),0%
 FGS-01,IN,FGD-0047(FGD),Fire Alarm,Fire Alarm(FGD),0%
@@ -12680,7 +12680,7 @@ FGS-03,IN,FLD-0007(NA),CABLE,CABLE(NA),Done
 FGS-03,IN,FLD-0008(FLD),Fire Alarm,Fire Alarm(FLD),25%
 FGS-03,IN,FLD-0008(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,FLD-0009(FLD),Fire Alarm,Fire Alarm(FLD),25%
-FGS-04,IN,FLD-0009(NA),CABLE,CABLE(NA),0%
+FGS-04,IN,FLD-0009(NA),CABLE,CABLE(NA),50%
 FGS-04,IN,FLD-0010(FLD),Fire Alarm,Fire Alarm(FLD),25%
 FGS-04,IN,FLD-0010(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,FLD-0011(FLD),Fire Alarm,Fire Alarm(FLD),25%
@@ -12692,7 +12692,7 @@ FGS-04,IN,FLD-0013(NA),CABLE,CABLE(NA),50%
 FGS-01,IN,FLD-0014(FLD),Fire Alarm,Fire Alarm(FLD),25%
 FGS-01,IN,FLD-0014(NA),CABLE,CABLE(NA),Done
 FGS-01,IN,FLD-0015(FLD),Fire Alarm,Fire Alarm(FLD),25%
-FGS-01,IN,FLD-0015(NA),CABLE,CABLE(NA),0%
+FGS-01,IN,FLD-0015(NA),CABLE,CABLE(NA),50%
 FGS-05,IN,FLD-0016(FLD),Fire Alarm,Fire Alarm(FLD),25%
 FGS-05,IN,FLD-0016(NA),CABLE,CABLE(NA),0%
 FGS-05,IN,FLD-0017(FLD),Fire Alarm,Fire Alarm(FLD),25%
@@ -12700,11 +12700,11 @@ FGS-05,IN,FLD-0017(NA),CABLE,CABLE(NA),0%
 FGS-05,IN,FLD-0018(FLD),Fire Alarm,Fire Alarm(FLD),25%
 FGS-05,IN,FLD-0018(NA),CABLE,CABLE(NA),0%
 FGS-05,IN,FLD-0019(FLD),Fire Alarm,Fire Alarm(FLD),25%
-FGS-05,IN,FLD-0019(NA),CABLE,CABLE(NA),0%
+FGS-05,IN,FLD-0019(NA),CABLE,CABLE(NA),Done
 FGS-05,IN,FLD-0020(FLD),Fire Alarm,Fire Alarm(FLD),25%
 FGS-05,IN,FLD-0020(NA),CABLE,CABLE(NA),0%
 FGS-01,IN,FLD-0021(FLD),Fire Alarm,Fire Alarm(FLD),25%
-FGS-01,IN,FLD-0021(NA),CABLE,CABLE(NA),0%
+FGS-01,IN,FLD-0021(NA),CABLE,CABLE(NA),50%
 FGS-01,IN,FLD-0022(FLD),Fire Alarm,Fire Alarm(FLD),0%
 FGS-01,IN,FLD-0022(NA),CABLE,CABLE(NA),50%
 FGS-01,IN,FLD-0023(FLD),Fire Alarm,Fire Alarm(FLD),0%
@@ -14925,13 +14925,13 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 4000-06,IN,LSL-75201B(NA),CABLE,CABLE(NA),Done
 4000-06,IN,LSL-75203A(LSL),Instrument(LSL),Instrument(LSL),Done
 4000-06,IN,LSL-75203A(NA),CABLE,CABLE(NA),Done
-4000-08,IN,LSL-80201(LSL),Instrument(LSL),Instrument(LSL),50%
+4000-08,IN,LSL-80201(LSL),Instrument(LSL),Instrument(LSL),Done
 4000-08,IN,LSL-80201(NA),CABLE,CABLE(NA),0%
 4000-08,IN,LSL-80202(LSL),Instrument(LSL),Instrument(LSL),50%
 4000-08,IN,LSL-80202(NA),CABLE,CABLE(NA),0%
 4000-08,IN,LSL-80203(LSL),Instrument(LSL),Instrument(LSL),50%
 4000-08,IN,LSL-80203(NA),CABLE,CABLE(NA),0%
-4000-08,IN,LSL-80204(LSL),Instrument(LSL),Instrument(LSL),50%
+4000-08,IN,LSL-80204(LSL),Instrument(LSL),Instrument(LSL),Done
 4000-08,IN,LSL-80204(NA),CABLE,CABLE(NA),0%
 4000-10,IN,LSL-8414(LSL),Instrument(LSL),Instrument(LSL),0%
 4000-10,IN,LSL-8414(NA),CABLE,CABLE(NA),0%
@@ -15132,9 +15132,9 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 4000-04,IN,LT-7212(NA),CABLE,CABLE(NA),0%
 4000-05,IN,LT-7251(LT),Instrument(LT),Instrument(LT),Done
 4000-05,IN,LT-7251(NA),CABLE,CABLE(NA),Done
-4000-06,IN,LT-7501(LT),Instrument(LT),Instrument(LT),25%
+4000-06,IN,LT-7501(LT),Instrument(LT),Instrument(LT),50%
 4000-06,IN,LT-7501(NA),CABLE,CABLE(NA),0%
-4000-06,IN,LT-7502(LT),Instrument(LT),Instrument(LT),25%
+4000-06,IN,LT-7502(LT),Instrument(LT),Instrument(LT),50%
 4000-06,IN,LT-7502(NA),CABLE,CABLE(NA),0%
 4000-06,IN,LT-7503(LT),Instrument(LT),Instrument(LT),25%
 4000-06,IN,LT-7503(NA),CABLE,CABLE(NA),0%
@@ -15637,13 +15637,13 @@ FGS-07,IN,MCP-0009,Fire Alarm,Fire Alarm(MCP),0%
 FGS-06,IN,MCP-0010(MCP),Fire Alarm,Fire Alarm(MCP),25%
 FGS-06,IN,MCP-0010(NA),CABLE,CABLE(NA),0%
 FGS-06,IN,MCP-0011(MCP),Fire Alarm,Fire Alarm(MCP),0%
-FGS-06,IN,MCP-0011(NA),CABLE,CABLE(NA),0%
+FGS-06,IN,MCP-0011(NA),CABLE,CABLE(NA),50%
 FGS-06,IN,MCP-0012(MCP),Fire Alarm,Fire Alarm(MCP),25%
 FGS-06,IN,MCP-0012(NA),CABLE,CABLE(NA),0%
 FGS-06,IN,MCP-0013(MCP),Fire Alarm,Fire Alarm(MCP),25%
-FGS-06,IN,MCP-0013(NA),CABLE,CABLE(NA),0%
+FGS-06,IN,MCP-0013(NA),CABLE,CABLE(NA),Done
 FGS-05,IN,MCP-0014(MCP),Fire Alarm,Fire Alarm(MCP),25%
-FGS-05,IN,MCP-0014(NA),CABLE,CABLE(NA),0%
+FGS-05,IN,MCP-0014(NA),CABLE,CABLE(NA),Done
 FGS-04,IN,MCP-0015(MCP),Fire Alarm,Fire Alarm(MCP),0%
 FGS-04,IN,MCP-0015(NA),CABLE,CABLE(NA),0%
 FGS-03,IN,MCP-0016(MCP),Fire Alarm,Fire Alarm(MCP),25%
@@ -15666,7 +15666,7 @@ FGS-07,IN,MCP-0024,Fire Alarm,Fire Alarm(MCP),0%
 FGS-05,IN,MCP-0025(MCP),Fire Alarm,Fire Alarm(MCP),25%
 FGS-05,IN,MCP-0025(NA),CABLE,CABLE(NA),0%
 FGS-05,IN,MCP-0026(MCP),Fire Alarm,Fire Alarm(MCP),0%
-FGS-05,IN,MCP-0026(NA),CABLE,CABLE(NA),0%
+FGS-05,IN,MCP-0026(NA),CABLE,CABLE(NA),Done
 FGS-04,IN,MCP-0027(MCP),Fire Alarm,Fire Alarm(MCP),25%
 FGS-04,IN,MCP-0027(NA),CABLE,CABLE(NA),50%
 FGS-04,IN,MCP-0028(MCP),Fire Alarm,Fire Alarm(MCP),25%
@@ -15674,9 +15674,9 @@ FGS-04,IN,MCP-0028(NA),CABLE,CABLE(NA),50%
 FGS-05,IN,MCP-0029(MCP),Fire Alarm,Fire Alarm(MCP),0%
 FGS-05,IN,MCP-0029(NA),CABLE,CABLE(NA),0%
 FGS-05,IN,MCP-0030(MCP),Fire Alarm,Fire Alarm(MCP),25%
-FGS-05,IN,MCP-0030(NA),CABLE,CABLE(NA),0%
+FGS-05,IN,MCP-0030(NA),CABLE,CABLE(NA),Done
 FGS-06,IN,MCP-0031(MCP),Fire Alarm,Fire Alarm(MCP),25%
-FGS-06,IN,MCP-0031(NA),CABLE,CABLE(NA),0%
+FGS-06,IN,MCP-0031(NA),CABLE,CABLE(NA),Done
 FGS-09,EL,MCP-0144,F&G Device,Manual Call Point,DONE
 FGS-09,EL,MCP-0145,F&G Device,Manual Call Point,DONE
 FGS-09,EL,MCP-0146,F&G Device,Manual Call Point,DONE
@@ -17790,7 +17790,7 @@ FGS-04,IN,PSH-9002(NA),CABLE,CABLE(NA),50%
 FGS-04,IN,PSH-9002(PSH),Fire Fighting,Fire Fighting(PSH),Done
 FGS-04,IN,PSH-9003(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,PSH-9003(PSH),Fire Fighting,Fire Fighting(PSH),0%
-FGS-05,IN,PSH-9004(NA),CABLE,CABLE(NA),0%
+FGS-05,IN,PSH-9004(NA),CABLE,CABLE(NA),Done
 FGS-05,IN,PSH-9004(PSH),Fire Fighting,Fire Fighting(PSH),0%
 FGS-05,IN,PSH-9005(NA),CABLE,CABLE(NA),0%
 FGS-05,IN,PSH-9005(PSH),Fire Fighting,Fire Fighting(PSH),0%
@@ -17826,9 +17826,9 @@ FGS-04,IN,PSH-9020(NA),CABLE,CABLE(NA),50%
 FGS-04,IN,PSH-9020(PSH),Fire Fighting,Fire Fighting(PSH),0%
 FGS-02,IN,PSH-9021(NA),CABLE,CABLE(NA),50%
 FGS-02,IN,PSH-9021(PSH),Fire Fighting,Fire Fighting(PSH),Done
-FGS-05,IN,PSH-9022(NA),CABLE,CABLE(NA),0%
+FGS-05,IN,PSH-9022(NA),CABLE,CABLE(NA),Done
 FGS-05,IN,PSH-9022(PSH),Fire Fighting,Fire Fighting(PSH),Done
-FGS-05,IN,PSH-9023(NA),CABLE,CABLE(NA),0%
+FGS-05,IN,PSH-9023(NA),CABLE,CABLE(NA),Done
 FGS-05,IN,PSH-9023(PSH),Fire Fighting,Fire Fighting(PSH),Done
 FGS-02,IN,PSH-9024(NA),CABLE,CABLE(NA),0%
 FGS-02,IN,PSH-9024(PSH),Fire Fighting,Fire Fighting(PSH),Done
@@ -18596,7 +18596,7 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Exception(Pending)
 4000-02,IN,PZT-7002C(PZT),Instrument(X),Instrument(PZT),0%
 1000-01,MES,R-1001,Reactor(R),Hydrogenator,85%
 1000-01,MES,R-1002-1,Reactor(R),Sulphur Absorber,DONE
-1000-01,MES,R-1002-2,Reactor(R),Sulphur Absorber,85%
+1000-01,MES,R-1002-2,Reactor(R),Sulphur Absorber,90%
 2000-02,MES,R-2003,Reactor(R),Prereformer,70%
 2000-03,MES,R-2004,Reactor(R),Secondary Reformer,65%
 3000-02,MES,R-3001-1,Reactor(R),Methanol Reactor,60%
@@ -20884,11 +20884,11 @@ FGS-05,IN,TGD-0009(NA),CABLE,CABLE(NA),0%
 FGS-05,IN,TGD-0009(TGD),Fire Alarm,Fire Alarm(TGD),0%
 FGS-04,IN,TGD-0010(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,TGD-0010(TGD),Fire Alarm,Fire Alarm(TGD),0%
-FGS-01,IN,TGD-0012(NA),CABLE,CABLE(NA),0%
+FGS-01,IN,TGD-0012(NA),CABLE,CABLE(NA),50%
 FGS-01,IN,TGD-0012(TGD),Fire Alarm,Fire Alarm(TGD),0%
-FGS-01,IN,TGD-0013(NA),CABLE,CABLE(NA),0%
+FGS-01,IN,TGD-0013(NA),CABLE,CABLE(NA),50%
 FGS-01,IN,TGD-0013(TGD),Fire Alarm,Fire Alarm(TGD),0%
-FGS-01,IN,TGD-0014(NA),CABLE,CABLE(NA),0%
+FGS-01,IN,TGD-0014(NA),CABLE,CABLE(NA),50%
 FGS-01,IN,TGD-0014(TGD),Fire Alarm,Fire Alarm(TGD),0%
 FGS-01,IN,TGD-0015(NA),CABLE,CABLE(NA),0%
 FGS-01,IN,TGD-0015(TGD),Fire Alarm,Fire Alarm(TGD),0%
@@ -23096,7 +23096,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),Exception(Pending)
 2000-03,MES,X-2001-A,Filter(X),Oxygen Filter,DONE
 2000-03,MES,X-2001-B,Filter(X),Oxygen Filter,DONE
 2000-03,MES,X-2002-A,Filter(X),Steam Filter,89%
-2000-03,MES,X-2002-B,Filter(X),Steam Filter,84%
+2000-03,MES,X-2002-B,Filter(X),Steam Filter,89%
 1000-02,MES,X-2003,Filter(X),Static Fuel Gas Mixer,Done
 5000-04,MES,X-5001-A,Filter(X),PRODUCT POLISHER UNIT,84%
 5000-04,MES,X-5001-B,Filter(X),PRODUCT POLISHER UNIT,84%
