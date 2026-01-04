@@ -5,7 +5,7 @@
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,1,0,6,0,6,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,PI,12,12,0,27,24,3,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,IN,176,60,19,291,232,59,0
-1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MES,13,6,7,49,4,45,0
+1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MES,13,6,7,69,4,65,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,7,2,55,0,55,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,3,0,15,7,8,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,167,64,432,286,146,0
@@ -52,15 +52,15 @@
 2000,2000-06,Reforming,Nitrogen Circuit,IN,114,26,30,235,192,43,0
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,1,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,5,0,30,0,30,0
-3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,832,234,0,764,622,142,0
+3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,832,234,0,764,625,139,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,37,36,0,75,52,23,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,3,8,0,8,0
-3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,72,28,241,140,101,0
+3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,72,28,241,167,74,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,34,5,80,44,36,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,6,5,37,3,34,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,9,6,3,41,0,41,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,32,0,110,70,40,0
-3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,92,21,386,235,151,0
+3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,92,21,386,244,142,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,2,0,20,0,20,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,12,12,0,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,175,17,75,331,319,12,0
@@ -71,7 +71,7 @@
 4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,123,55,454,321,133,0
 4000,4000-02,Utility,HHP & HP & LP Steam,PI,68,61,1,248,156,92,0
 4000,4000-03,Utility,MP Steam,MES,1,1,0,5,0,5,0
-4000,4000-03,Utility,MP Steam,IN,56,43,7,173,130,43,0
+4000,4000-03,Utility,MP Steam,IN,56,43,7,173,131,42,0
 4000,4000-03,Utility,MP Steam,PI,5,5,0,32,27,5,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,5,0,15,0,15,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,6,0,0,0,0
@@ -84,7 +84,7 @@
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,4,11,16,0,16,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,75,54,1,219,166,53,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,4,8,66,0,66,0
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,81,94,212,112,100,0
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,81,94,212,122,90,0
 4000,4000-07,Utility,Plant Air,IN,2,2,0,2,0,2,0
 4000,4000-07,Utility,Plant Air,PI,10,10,0,29,4,25,0
 4000,4000-08,Utility,Cooling Water,MES,5,0,1,0,0,0,0
@@ -111,17 +111,17 @@
 4000,4000-14,Utility,Fire Water,PI,134,128,0,389,324,65,0
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,137,87,50,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,8,0,126,13,113,0
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,10,7,80,21,59,0
-5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,367,32,1201,967,234,0
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,10,7,84,21,63,0
+5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,IN,416,367,32,1201,971,230,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,PI,72,70,0,235,206,29,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MES,7,6,1,89,43,46,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,MER,4,2,2,68,6,62,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,EL,2,2,0,12,7,5,0
 5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,PI,46,46,0,137,117,20,0
-5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,465,451,11,840,698,142,0
+5000,5000-02,Distillation & Methanol Product,Low Pressure (LP) Methanol,IN,465,451,11,840,706,134,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,46,0,137,124,13,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,5,0,44,13,31,0
-5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,238,14,828,678,150,0
+5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,238,14,828,682,146,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,EL,2,2,0,12,8,4,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,6,0,84,9,75,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MES,6,2,4,34,4,30,0
@@ -147,7 +147,7 @@ BLD,BLD-05,Building,Diesel Room,BD,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,BD,14,11,2,31,15,16,0
 BLD,BLD-07,Building,Analyzer House,BD,8,6,2,19,11,8,0
 CVL,CVL-01,Civil Work,Civil Work of All Area,CV,14,8,0,778,145,633,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2574,1019,17,4888,2515,2373,0
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2574,1019,17,4888,2605,2283,0
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2198,2195,3,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,425,423,2,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,22,13,9,0
@@ -162,7 +162,7 @@ ES,ES-11,Earthing System,Earthing System for Area-07,EL,484,484,0,507,507,0,0
 FGS,FGS-01,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1001,IN,95,5,18,63,21,42,0
 FGS,FGS-02,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1002,IN,143,29,30,207,86,121,0
 FGS,FGS-03,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1003,IN,151,37,15,146,84,62,0
-FGS,FGS-04,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1004,IN,173,19,40,127,35,92,0
+FGS,FGS-04,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1004,IN,173,19,40,127,79,48,0
 FGS,FGS-05,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1005,IN,130,13,15,80,24,56,0
 FGS,FGS-06,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1006,IN,30,2,6,24,1,23,0
 FGS,FGS-07,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1007,IN,34,2,0,6,0,6,0
