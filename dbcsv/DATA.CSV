@@ -1,6 +1,6 @@
 ﻿SD_System,SD_Sub_System,SD_System_Name,SD_Subsystem_Name,discipline,TOTAL ITEM,TOTAL DONE,TOTAL PENDING,TOTAL PUNCH,TOTAL CLEAR PUNCH,TOTAL NOT CLEAR PUNCH,TOTAL HOLD POINT
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,195,114,14,337,250,87,0
-1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,24,23,1,72,46,26,0
+1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,24,23,1,72,47,25,0
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,3,2,44,7,37,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,1,0,6,0,6,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,PI,12,12,0,27,24,3,0
@@ -34,7 +34,7 @@
 2000,2000-01,Reforming,Pre Reforming,MES,2,2,0,10,0,10,0
 2000,2000-01,Reforming,Pre Reforming,PI,9,8,0,19,11,8,0
 2000,2000-01,Reforming,Pre Reforming,IN,92,15,13,74,39,35,0
-2000,2000-02,Reforming,Primary Reforming,PI,9,9,0,31,16,15,0
+2000,2000-02,Reforming,Primary Reforming,PI,9,9,0,31,21,10,0
 2000,2000-02,Reforming,Primary Reforming,IN,879,106,125,744,645,99,0
 2000,2000-02,Reforming,Primary Reforming,MES,8,0,8,0,0,0,0
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,26,17,4,58,24,34,0
@@ -56,7 +56,7 @@
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,37,36,0,75,52,23,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,3,8,0,8,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,72,28,241,167,74,0
-3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,34,5,80,44,36,0
+3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,34,5,80,47,33,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,6,5,37,3,34,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,9,6,3,41,0,41,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,32,0,110,70,40,0
@@ -69,7 +69,7 @@
 4000,4000-01,Utility,Nitrogen,IN,14,14,0,11,2,9,0
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,2,0,10,0,10,0
 4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,123,55,454,321,133,0
-4000,4000-02,Utility,HHP & HP & LP Steam,PI,68,61,1,248,156,92,0
+4000,4000-02,Utility,HHP & HP & LP Steam,PI,68,61,1,248,166,82,0
 4000,4000-03,Utility,MP Steam,MES,1,1,0,5,0,5,0
 4000,4000-03,Utility,MP Steam,IN,56,43,7,173,131,42,0
 4000,4000-03,Utility,MP Steam,PI,5,5,0,32,27,5,0
@@ -82,14 +82,14 @@
 4000,4000-05,Utility,Blow Down,MES,4,4,0,31,0,31,0
 4000,4000-05,Utility,Blow Down,IN,17,17,0,17,12,5,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,4,11,16,0,16,0
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,75,54,1,219,166,53,0
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,75,54,1,219,171,48,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,4,8,66,0,66,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,81,94,212,122,90,0
 4000,4000-07,Utility,Plant Air,IN,2,2,0,2,0,2,0
 4000,4000-07,Utility,Plant Air,PI,10,10,0,29,4,25,0
 4000,4000-08,Utility,Cooling Water,MES,5,0,1,0,0,0,0
 4000,4000-08,Utility,Cooling Water,MER,8,3,5,20,0,20,0
-4000,4000-08,Utility,Cooling Water,PI,302,285,0,693,615,78,0
+4000,4000-08,Utility,Cooling Water,PI,302,285,0,693,618,75,0
 4000,4000-08,Utility,Cooling Water,IN,745,117,61,349,238,111,0
 4000,4000-08,Utility,Cooling Water,EL,6,6,0,56,18,38,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,4,5,4,0,4,0
@@ -101,11 +101,11 @@
 4000,4000-11,Utility,Instrument Air,PI,15,14,0,18,10,8,0
 4000,4000-11,Utility,Instrument Air,IN,78,78,0,72,23,49,0
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,MER,4,4,0,8,0,8,0
-4000,4000-12,Utility,COC Water and Lab Chemical Sump,PI,22,13,7,24,19,5,0
+4000,4000-12,Utility,COC Water and Lab Chemical Sump,PI,22,13,7,24,20,4,0
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,IN,25,21,2,9,5,4,0
 4000,4000-13,Utility,Slope Close Drain,MER,1,0,0,7,0,7,0
 4000,4000-13,Utility,Slope Close Drain,EL,1,1,0,6,4,2,0
-4000,4000-13,Utility,Slope Close Drain,PI,29,29,0,46,19,27,0
+4000,4000-13,Utility,Slope Close Drain,PI,29,29,0,46,20,26,0
 4000,4000-14,Utility,Fire Water,IN,33,33,0,0,0,0,0
 4000,4000-14,Utility,Fire Water,MES,1,0,1,0,0,0,0
 4000,4000-14,Utility,Fire Water,PI,134,128,0,389,324,65,0
