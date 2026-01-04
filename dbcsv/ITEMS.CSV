@@ -6282,17 +6282,17 @@ CVL-01,CV,CV-UG PIT'S,UG PIT'S,UG PIT'S,0%
 4000-04,MES,D-2011,Drum(D),Steam Cond. K.O. Drum for E 2008,Done
 3000-04,MES,D-2022-1,Drum(D),DRUM,Done
 3000-04,MES,D-2022-2,Drum(D),DRUM,Done
-3000-03,MES,D-3001,Drum(D),HP Separator,Done
+3000-03,MES,D-3001,Drum(D),HP Separator,DONE
 3000-03,MES,D-3002,Drum(D),LP Separator,Done
 3000-02,MES,D-3003,Drum(D),MP Steam Drum,78%
 5000-01,MES,D-3004,Drum(D),Slops Methanol Drum,Done
 3000-01,MES,D-3010,Drum(D),Seprator Vessle,DONE
 5000-01,MES,D-5001,Drum(D),Stabilizer Column OH Accumulator,Done
-5000-02,MES,D-5002,Drum(D),LP Column OH Accumulator,Done
+5000-02,MES,D-5002,Drum(D),LP Column OH Accumulator,DONE
 5000-03,MES,D-5003,Drum(D),MP Column OH Accumulator,Done
-5000-01,MES,D-5009,Drum(D),Steam Condensate KO Drum for E5001,Done
-1000-03,MES,D-6001,Drum(D),Feed Gas Separator,Done
-1000-03,MES,D-6002,Drum(D),Saturator Blow Down Drum,Done
+5000-01,MES,D-5009,Drum(D),Steam Condensate KO Drum for E5001,DONE
+1000-03,MES,D-6001,Drum(D),Feed Gas Separator,DONE
+1000-03,MES,D-6002,Drum(D),Saturator Blow Down Drum,DONE
 4000-04,MES,D-7001,Drum(D),Thermal Deaerator,DONE
 4000-05,MES,D-7002,Drum(D),Continuous Blow-down Drum,Done
 4000-05,MES,D-7003,Drum(D),Intermediate Blow Down Drum No.1,Done
@@ -13906,10 +13906,10 @@ BLD-04,BD,Initial Architecture(Ground Floor BLD-04),04-Initial Architecture-2,In
 BLD-05,BD,Initial Architecture(Ground Floor BLD-05),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-05),0%
 BLD-06,BD,Initial Architecture(Ground Floor BLD-06),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-06),Done
 2000-02,MES,INLET MANIFOLD,Inlet_Manifold,MANIFOLD,71%
-3000-03,MES,J-3001,Ejector(J),Ejector,93%
-3000-02,MES,J-3002-1,Ejector(J),Start up Ejector for R 3001 1,93%
-3000-02,MES,J-3002-2,Ejector(J),Start up Ejector for R 3001 2,93%
-3000-02,MES,J-3002-3,Ejector(J),Start up Ejector for R 3001 3,93%
+3000-03,MES,J-3001,Ejector(J),Ejector,DONE
+3000-02,MES,J-3002-1,Ejector(J),Start up Ejector for R 3001 1,DONE
+3000-02,MES,J-3002-2,Ejector(J),Start up Ejector for R 3001 2,DONE
+3000-02,MES,J-3002-3,Ejector(J),Start up Ejector for R 3001 3,DONE
 DCS-01,IN,JIAE-1001,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
 DCS-01,IN,JIAE-2001,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
 DCS-01,IN,JIAE-2002,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
