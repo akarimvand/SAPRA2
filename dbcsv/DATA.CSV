@@ -45,22 +45,22 @@
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,24,22,2,59,42,17,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,233,97,34,354,251,103,0
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,7,0,81,28,53,0
-2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,69,20,308,208,100,0
+2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,69,20,308,209,99,0
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,132,102,30,0
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,4,33,4,29,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,21,7,14,0
-2000,2000-06,Reforming,Nitrogen Circuit,IN,114,26,30,235,194,41,0
+2000,2000-06,Reforming,Nitrogen Circuit,IN,114,26,30,235,201,34,0
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,1,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,5,0,30,0,30,0
-3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,832,234,0,764,683,81,0
+3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,832,234,0,764,691,73,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,37,36,0,75,52,23,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,3,8,0,8,0
-3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,73,27,241,169,72,0
+3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,73,27,241,179,62,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,39,34,5,80,47,33,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,6,5,37,3,34,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,9,6,3,41,0,41,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,32,0,110,71,39,0
-3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,92,21,386,275,111,0
+3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,92,21,386,278,108,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,2,0,20,0,20,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,12,12,0,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,175,17,75,331,320,11,0
@@ -147,7 +147,7 @@ BLD,BLD-05,Building,Diesel Room,BD,14,0,0,0,0,0,0
 BLD,BLD-06,Building,Warehouse Building,BD,14,11,2,31,15,16,0
 BLD,BLD-07,Building,Analyzer House,BD,8,6,2,19,11,8,0
 CVL,CVL-01,Civil Work,Civil Work of All Area,CV,14,8,0,778,145,633,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2574,1021,17,4888,2762,2126,0
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2574,1021,17,4888,2766,2122,0
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2198,2196,2,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,425,423,2,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,22,13,9,0
