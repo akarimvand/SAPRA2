@@ -458,14 +458,14 @@ FGS-05,Fire & Gas Detection for Fire Zone 1005,Execution Activities,CONTRACTOR,�
 FGS-06,Fire & Gas Detection for Fire Zone 1006,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/29/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 FGS-07,Fire & Gas Detection for Fire Zone 1007,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/29/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 FGS-08,Fire & Gas Detection for Substation,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/4/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
-FGS-08,Fire & Gas Detection for Substation,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/5/2026 12:00:00 AM,بررسی
+FGS-08,Fire & Gas Detection for Substation,FORM A,PRECOM,واحد پیش راه اندازی سبلان,1/5/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 FGS-08,Fire & Gas Detection for Substation,FORM A,OWNER,واحد ساختمان نصب,12/25/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 FGS-08,Fire & Gas Detection for Substation,FORM A,CONTRACTOR,واحد H.O.S کیسون,12/23/2025 12:00:00 AM,آماده سازی و ارسال
 FGS-08,Fire & Gas Detection for Substation,FORM A,TPA,TPA (IEI),12/24/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 FGS-09,Fire & Gas Detection for Control Building,FORM A,CONTRACTOR,واحد H.O.S کیسون,12/23/2025 12:00:00 AM,آماده سازی و ارسال
 FGS-09,Fire & Gas Detection for Control Building,FORM A,TPA,TPA (IEI),12/24/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 FGS-09,Fire & Gas Detection for Control Building,FORM A,OWNER,واحد ساختمان نصب,12/25/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
-FGS-09,Fire & Gas Detection for Control Building,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/5/2026 12:00:00 AM,بررسی
+FGS-09,Fire & Gas Detection for Control Building,FORM A,PRECOM,واحد پیش راه اندازی سبلان,1/5/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 FGS-09,Fire & Gas Detection for Control Building,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/4/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 FGS-10,Fire & Gas Detection for Laboratory,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/29/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 LS-01,SS-MLP-01 for Normal Lighting System,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/4/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
@@ -490,6 +490,7 @@ LS-03,Lighting System for Substation,FORM B,CONTRACTOR,شرکت نیرو آرا 
 LS-04,Lighting System for Control Building,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/4/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 LS-04,Lighting System for Control Building,FORM A,CONTRACTOR,واحد H.O.S کیسون,12/13/2025 12:00:00 AM,آماده سازی و ارسال
 LS-04,Lighting System for Control Building,FORM A,TPA,TPA (IEI),12/14/2025 12:00:00 AM,پانچ گذاری
+LS-04,Lighting System for Control Building,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/5/2026 12:00:00 AM,بررسی
 LS-04,Lighting System for Control Building,FORM A,OWNER,واحد ساختمان نصب,1/4/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 LS-05,Lighting System for Laboratory & Yard Office,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/29/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 LS-06,Lighting System for Street,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,11/24/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
@@ -504,8 +505,16 @@ LS-06,Lighting System for Street,FORM A,CONTRACTOR,واحد H.O.S کیسون,11/
 LS-06,Lighting System for Street,FORM A,OWNER,واحد ساختمان نصب,11/29/2025 12:00:00 AM,جهت بررسی و ثبت پانچ
 LS-07,Lighting System for Area-02,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/29/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 LS-08,Lighting System for Area-03,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/29/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
+LS-08,Lighting System for Area-03,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/4/2026 12:00:00 AM,آماده سازی و ارسال
+LS-08,Lighting System for Area-03,FORM A,TPA,TPA (IEI),1/5/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
+LS-09,Lighting System for Area-04,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/4/2026 12:00:00 AM,آماده سازی و ارسال
+LS-09,Lighting System for Area-04,FORM A,TPA,TPA (IEI),1/5/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 LS-09,Lighting System for Area-04,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/29/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 LS-10,Lighting System for Area-05,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/29/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
+LS-10,Lighting System for Area-05,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/4/2026 12:00:00 AM,آماده سازی و ارسال
+LS-10,Lighting System for Area-05,FORM A,TPA,TPA (IEI),1/5/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
+LS-11,Lighting System for Area-06,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/4/2026 12:00:00 AM,آماده سازی و ارسال
+LS-11,Lighting System for Area-06,FORM A,TPA,TPA (IEI),1/5/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 LS-11,Lighting System for Area-06,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/29/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 LS-12,Lighting System for Area-07,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,11/3/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 LS-12,Lighting System for Area-07,FORM A,OWNER,واحد ساختمان نصب,11/9/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
@@ -528,6 +537,10 @@ TEL-02,Telecom System for Area-02,Execution Activities,CONTRACTOR,واحد اج�
 TEL-03,Telecom System for Area-03,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/29/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 TEL-04,Telecom System for Area-04,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/29/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 TEL-05,Telecom System for Area-05,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/29/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
+TEL-05,Telecom System for Area-05,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/4/2026 12:00:00 AM,آماده سازی و ارسال
+TEL-05,Telecom System for Area-05,FORM A,TPA,TPA (IEI),1/5/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
+TEL-06,Telecom System for Area-06,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/4/2026 12:00:00 AM,آماده سازی و ارسال
+TEL-06,Telecom System for Area-06,FORM A,TPA,TPA (IEI),1/5/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 TEL-06,Telecom System for Area-06,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/29/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 TEL-07,Telecom System for Area-07,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,10/6/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 TEL-07,Telecom System for Area-07,FORM A,OWNER,واحد ساختمان نصب,10/13/2025 12:00:00 AM,پانچ گذاری
