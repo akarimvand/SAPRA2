@@ -237,6 +237,7 @@
 4000-07,Plant Air,FORM B,CONTRACTOR,واحد اجرایی کیسون ,9/24/2025 12:00:00 AM,دریافت جهت رفع پانچ
 4000-07,Plant Air,FORM B,CONTRACTOR,واحد H.O.S کیسون,9/23/2025 12:00:00 AM,دریافت جهت بررسی
 4000-08,Cooling Water,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/4/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
+4000-08,Cooling Water,FORM A,OWNER,واحد ساختمان نصب,1/5/2026 12:00:00 AM,جهت بررسی و ثبت پانچ
 4000-08,Cooling Water,FORM A,CONTRACTOR,واحد H.O.S کیسون,12/27/2025 12:00:00 AM,آماده سازی و ارسال
 4000-08,Cooling Water,FORM A,TPA,TPA (IEI),12/29/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 4000-09,Oily Water Treatment,FORM A,OWNER,واحد ساختمان نصب,12/25/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
@@ -262,6 +263,7 @@
 4000-13,Slope Close Drain,FORM A,TPA,TPA (IEI),10/5/2025 12:00:00 AM,پانچ گذاری
 4000-13,Slope Close Drain,FORM A,CONTRACTOR,واحد تست پکیج کیسون,10/15/2025 12:00:00 AM,جهت تکمیل امضاء تست پکیج های مربوطه
 4000-14,Fire Water,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,11/20/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
+4000-14,Fire Water,FORM B,CONTRACTOR,واحد اجرایی کیسون,1/5/2026 12:00:00 AM,دریافت جهت رفع نقص و رفع پانچ
 4000-14,Fire Water,FORM A,PRECOM,واحد پیش راه اندازی سبلان,12/22/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 4000-14,Fire Water,FORM A,CONTRACTOR,واحد H.O.S کیسون,12/2/2025 12:00:00 AM,آماده سازی و ارسال
 4000-14,Fire Water,FORM A,TPA,TPA (IEI),12/3/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
@@ -456,12 +458,14 @@ FGS-05,Fire & Gas Detection for Fire Zone 1005,Execution Activities,CONTRACTOR,�
 FGS-06,Fire & Gas Detection for Fire Zone 1006,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/29/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 FGS-07,Fire & Gas Detection for Fire Zone 1007,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/29/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 FGS-08,Fire & Gas Detection for Substation,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/4/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
+FGS-08,Fire & Gas Detection for Substation,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/5/2026 12:00:00 AM,بررسی
 FGS-08,Fire & Gas Detection for Substation,FORM A,OWNER,واحد ساختمان نصب,12/25/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 FGS-08,Fire & Gas Detection for Substation,FORM A,CONTRACTOR,واحد H.O.S کیسون,12/23/2025 12:00:00 AM,آماده سازی و ارسال
 FGS-08,Fire & Gas Detection for Substation,FORM A,TPA,TPA (IEI),12/24/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 FGS-09,Fire & Gas Detection for Control Building,FORM A,CONTRACTOR,واحد H.O.S کیسون,12/23/2025 12:00:00 AM,آماده سازی و ارسال
 FGS-09,Fire & Gas Detection for Control Building,FORM A,TPA,TPA (IEI),12/24/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 FGS-09,Fire & Gas Detection for Control Building,FORM A,OWNER,واحد ساختمان نصب,12/25/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
+FGS-09,Fire & Gas Detection for Control Building,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/5/2026 12:00:00 AM,بررسی
 FGS-09,Fire & Gas Detection for Control Building,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/4/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 FGS-10,Fire & Gas Detection for Laboratory,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/29/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 LS-01,SS-MLP-01 for Normal Lighting System,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/4/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
