@@ -5921,12 +5921,10 @@ BLD-07,BD,Beams & Slab(BLD-07),03-Beams & Slab,Beams & Slab,Done
 BLD-01,BD,Beams & Slab(First Floor BLD-01),03-Beams & Slab,Beams & Slab(First Floor BLD-01),Done
 BLD-03,BD,Beams & Slab(First Floor BLD-03),03-Beams & Slab,Beams & Slab(First Floor BLD-03),0%
 BLD-04,BD,Beams & Slab(First Floor BLD-04),03-Beams & Slab,Beams & Slab(First Floor BLD-04),0%
-BLD-05,BD,Beams & Slab(First Floor BLD-05),03-Beams & Slab,Beams & Slab(First Floor BLD-05),0%
 BLD-06,BD,Beams & Slab(First Floor BLD-06),03-Beams & Slab,Beams & Slab(First Floor BLD-06),Done
 BLD-01,BD,Beams & Slab(Ground Floor BLD-01),03-Beams & Slab,Beams & Slab(Ground Floor BLD-01),Done
 BLD-03,BD,Beams & Slab(Ground Floor BLD-03),03-Beams & Slab,Beams & Slab(Ground Floor BLD-03),0%
 BLD-04,BD,Beams & Slab(Ground Floor BLD-04),03-Beams & Slab,Beams & Slab(Ground Floor BLD-04),0%
-BLD-05,BD,Beams & Slab(Ground Floor BLD-05),03-Beams & Slab,Beams & Slab(Ground Floor BLD-05),0%
 BLD-06,BD,Beams & Slab(Ground Floor BLD-06),03-Beams & Slab,Beams & Slab(Ground Floor BLD-06),Done
 BLD-01,PI,BLD-01-IG55-01-689,PI_TP,PIPING TEST PACKAGE,DONE
 BLD-01,PI,BLD-01-IG55-02-758,PI_TP,PIPING TEST PACKAGE,DONE
@@ -5944,12 +5942,10 @@ BLD-07,BD,Column & Walls(BLD-07),02-Column & Walls,Column & Walls,Done
 BLD-01,BD,Column & Walls(First Floor BLD-01),02-Column & Walls,Column & Walls(First Floor BLD-01),Done
 BLD-03,BD,Column & Walls(First Floor BLD-03),02-Column & Walls,Column & Walls(First Floor BLD-03),0%
 BLD-04,BD,Column & Walls(First Floor BLD-04),02-Column & Walls,Column & Walls(First Floor BLD-04),0%
-BLD-05,BD,Column & Walls(First Floor BLD-05),02-Column & Walls,Column & Walls(First Floor BLD-05),0%
 BLD-06,BD,Column & Walls(First Floor BLD-06),02-Column & Walls,Column & Walls(First Floor BLD-06),Done
 BLD-01,BD,Column & Walls(Ground Floor BLD-01),02-Column & Walls,Column & Walls(Ground Floor BLD-01),Done
 BLD-03,BD,Column & Walls(Ground Floor BLD-03),02-Column & Walls,Column & Walls(Ground Floor BLD-03),0%
 BLD-04,BD,Column & Walls(Ground Floor BLD-04),02-Column & Walls,Column & Walls(Ground Floor BLD-04),0%
-BLD-05,BD,Column & Walls(Ground Floor BLD-05),02-Column & Walls,Column & Walls(Ground Floor BLD-05),0%
 BLD-06,BD,Column & Walls(Ground Floor BLD-06),02-Column & Walls,Column & Walls(Ground Floor BLD-06),Done
 120-09,IN,COM-PDP-CR-01,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
 120-09,IN,COM-PDP-CR-02,JUNCTION BOX,JUNCTION BOX(PANEL),DONE
@@ -12633,18 +12629,15 @@ BLD-07,BD,Final Architecture(EX),07-Final Architecture(External),The final Archi
 BLD-01,BD,final Architecture(External works BLD-01),07-Final Architecture(External),The final Architecture(External works of Building BLD-01),Done
 BLD-03,BD,final Architecture(External works BLD-03),07-Final Architecture(External),The final Architecture(External works of Building BLD-03),0%
 BLD-04,BD,final Architecture(External works BLD-04),07-Final Architecture(External),The final Architecture(External works of Building BLD-04),17%
-BLD-05,BD,final Architecture(External works BLD-05),07-Final Architecture(External),The final Architecture(External works of Building BLD-05),0%
 BLD-06,BD,final Architecture(External works BLD-06),07-Final Architecture(External),The final Architecture(External works of Building BLD-06),Done
 BLD-02,BD,Final Architecture(External),07-Final Architecture(External),Final finishes like Brick Facing  and Walkway,67%
 BLD-01,BD,final Architecture(First Floor BLD-01),06-Final Architecture(Internal),The final Architecture(First Floor BLD-01),Done
 BLD-03,BD,final Architecture(First Floor BLD-03),06-Final Architecture(Internal),The final Architecture(First Floor BLD-03),0%
 BLD-04,BD,final Architecture(First Floor BLD-04),06-Final Architecture(Internal),The final Architecture(First Floor BLD-04),50%
-BLD-05,BD,final Architecture(First Floor BLD-05),06-Final Architecture(Internal),The final Architecture(First Floor BLD-05),0%
 BLD-06,BD,final Architecture(First Floor BLD-06),06-Final Architecture(Internal),The final Architecture(First Floor BLD-06),62%
 BLD-01,BD,final Architecture(Grouand Floor BLD-01),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-01),Done
 BLD-03,BD,final Architecture(Grouand Floor BLD-03),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-03),0%
 BLD-04,BD,final Architecture(Grouand Floor BLD-04),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-04),25%
-BLD-05,BD,final Architecture(Grouand Floor BLD-05),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-05),0%
 BLD-06,BD,final Architecture(Grouand Floor BLD-06),06-Final Architecture(Internal),The final Architecture(Grouand Floor BLD-06),Done
 BLD-07,BD,Final Architecture(IN),06-Final Architecture(Internal),The final Architecture(Internal works of Building BLD-07),88%
 BLD-02,BD,Final Architecture(Internal),06-Final Architecture(Internal),Final finishes like flooring and painting,0%
@@ -12805,7 +12798,6 @@ BLD-01,BD,Foundation(BLD-01),01-Foundation,Foundation(BLD-01),Done
 BLD-02,BD,Foundation(BLD-02),01-Foundation,Base and footing construction,Done
 BLD-03,BD,Foundation(BLD-03),01-Foundation,Foundation(BLD-03),0%
 BLD-04,BD,Foundation(BLD-04),01-Foundation,Foundation(BLD-04),0%
-BLD-05,BD,Foundation(BLD-05),01-Foundation,Foundation(BLD-05),0%
 BLD-06,BD,Foundation(BLD-06),01-Foundation,Foundation(BLD-06),Done
 BLD-07,BD,Foundation(BLD-07),01-Foundation,Foundation(BLD-07),Done
 LS-03,EL,From S01(LS-03),Switch,One Pole Two Way Switch Surface Mounted,50%
@@ -13898,12 +13890,10 @@ BLD-07,BD,Initial Architecture(BLD-07),04-Initial Architecture,Initial Architect
 BLD-01,BD,Initial Architecture(First Floor BLD-01),04-Initial Architecture-2,Initial Architecture(First Floor BLD-01),Done
 BLD-03,BD,Initial Architecture(First Floor BLD-03),04-Initial Architecture-2,Initial Architecture(First Floor BLD-03),0%
 BLD-04,BD,Initial Architecture(First Floor BLD-04),04-Initial Architecture-2,Initial Architecture(First Floor BLD-04),50%
-BLD-05,BD,Initial Architecture(First Floor BLD-05),04-Initial Architecture-2,Initial Architecture(First Floor BLD-05),0%
 BLD-06,BD,Initial Architecture(First Floor BLD-06),04-Initial Architecture-2,Initial Architecture(First Floor BLD-06),Done
 BLD-01,BD,Initial Architecture(Ground Floor BLD-01),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-01),Done
 BLD-03,BD,Initial Architecture(Ground Floor BLD-03),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-03),0%
 BLD-04,BD,Initial Architecture(Ground Floor BLD-04),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-04),50%
-BLD-05,BD,Initial Architecture(Ground Floor BLD-05),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-05),0%
 BLD-06,BD,Initial Architecture(Ground Floor BLD-06),04-Initial Architecture-2,Initial Architecture(Ground Floor BLD-06),Done
 2000-02,MES,INLET MANIFOLD,Inlet_Manifold,MANIFOLD,71%
 3000-03,MES,J-3001,Ejector(J),Ejector,DONE
@@ -15703,12 +15693,10 @@ BLD-07,BD,Mechanical Work(BLD-07),05-Mechanical Work,Mechanical Work(BLD-07),Don
 BLD-01,BD,Mechanical Work(First Floor BLD-01),05-Mechanical Work,Mechanical Work(First Floor BLD-01),Done
 BLD-03,BD,Mechanical Work(First Floor BLD-03),05-Mechanical Work,Mechanical Work(First Floor BLD-03),0%
 BLD-04,BD,Mechanical Work(First Floor BLD-04),05-Mechanical Work,Mechanical Work(First Floor BLD-04),67%
-BLD-05,BD,Mechanical Work(First Floor BLD-05),05-Mechanical Work,Mechanical Work(First Floor BLD-05),0%
 BLD-06,BD,Mechanical Work(First Floor BLD-06),05-Mechanical Work,Mechanical Work(First Floor BLD-06),33%
 BLD-01,BD,Mechanical Work(Ground Floor BLD-01),05-Mechanical Work,Mechanical Work(Ground Floor BLD-01),Done
 BLD-03,BD,Mechanical Work(Ground Floor BLD-03),05-Mechanical Work,Mechanical Work(Ground Floor BLD-03),0%
 BLD-04,BD,Mechanical Work(Ground Floor BLD-04),05-Mechanical Work,Mechanical Work(Ground Floor BLD-04),Done
-BLD-05,BD,Mechanical Work(Ground Floor BLD-05),05-Mechanical Work,Mechanical Work(Ground Floor BLD-05),0%
 BLD-06,BD,Mechanical Work(Ground Floor BLD-06),05-Mechanical Work,Mechanical Work(Ground Floor BLD-06),Done
 120-01,EL,MF-2001,Local_Control_Panel,Local Control Panel (Ammeter)- MF-2001-LCP,Done
 120-01,EL,MF-2001-SH,SPACE_HEATER,Motor Space Heater- MF-2001-SH,Done
@@ -18833,7 +18821,6 @@ BLD-01,BD,Roof(BLD-01),08-Roof,Roof(BLD-01),Done
 BLD-02,BD,Roof(BLD-02),08-Roof,Roof structure and waterproofing,0%
 BLD-03,BD,Roof(BLD-03),08-Roof,Roof(BLD-03),0%
 BLD-04,BD,Roof(BLD-04),08-Roof,Roof(BLD-04),0%
-BLD-05,BD,Roof(BLD-05),08-Roof,Roof(BLD-05),0%
 BLD-06,BD,Roof(BLD-06),08-Roof,Roof(BLD-06),0%
 BLD-07,BD,Roof(BLD-07),08-Roof,Roof(BLD-07),Done
 LS-03,EL,S01(LS-03),Switch,One Pole Two Way Switch Surface Mounted,50%
@@ -19797,7 +19784,6 @@ TEL-08,EL,SS-TJB1,TELECOM DEVICE(A),Telephone Junction Box,Done
 BLD-01,BD,Stair Ways(Ground Floor BLD-01),09-Stair Ways,Stair Ways(Ground Floor BLD-01),Done
 BLD-03,BD,Stair Ways(Ground Floor BLD-03),09-Stair Ways,Stair Ways(Ground Floor BLD-03),0%
 BLD-04,BD,Stair Ways(Ground Floor BLD-04),09-Stair Ways,Stair Ways(Ground Floor BLD-04),0%
-BLD-05,BD,Stair Ways(Ground Floor BLD-05),09-Stair Ways,Stair Ways(Ground Floor BLD-05),0%
 BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor BLD-06),Done
 3000-03,IN,SV-10105,Instrument(SV),Instrument(SV),0%
 3000-04,IN,SV-20201,Instrument(SV),Instrument(SV),0%
