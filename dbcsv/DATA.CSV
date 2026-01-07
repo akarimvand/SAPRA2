@@ -8,7 +8,7 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MES,13,6,7,69,4,65,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,7,2,55,0,55,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,3,0,15,12,3,0
-1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,115,108,441,298,143,0
+1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,115,108,441,299,142,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,57,53,3,182,139,43,0
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,185,0,2194,2067,127,0
 120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,281,49,3565,3239,326,0
@@ -52,7 +52,7 @@
 2000,2000-06,Reforming,Nitrogen Circuit,IN,114,14,33,235,201,34,0
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,1,0,0,0,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,5,0,30,0,30,0
-3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,832,216,457,779,691,88,0
+3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,832,216,457,779,698,81,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,37,36,0,75,52,23,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,3,8,0,8,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,73,40,244,179,65,0
@@ -60,7 +60,7 @@
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,6,5,37,3,34,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,9,6,3,41,0,41,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,32,0,110,82,28,0
-3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,98,39,401,278,123,0
+3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,IN,278,98,39,401,288,113,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,MES,2,2,0,20,0,20,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,PI,5,5,0,12,12,0,0
 3000,3000-04,Compression and Synthesis,Hydrogen System,IN,175,15,77,336,320,16,0
@@ -68,16 +68,16 @@
 4000,4000-01,Utility,Nitrogen,PI,20,20,0,58,28,30,0
 4000,4000-01,Utility,Nitrogen,IN,14,14,0,15,7,8,0
 4000,4000-02,Utility,HHP & HP & LP Steam,MES,2,2,0,10,0,10,0
-4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,125,56,466,350,116,0
-4000,4000-02,Utility,HHP & HP & LP Steam,PI,68,61,1,248,192,56,0
+4000,4000-02,Utility,HHP & HP & LP Steam,IN,245,125,56,466,353,113,0
+4000,4000-02,Utility,HHP & HP & LP Steam,PI,68,62,0,249,192,57,0
 4000,4000-03,Utility,MP Steam,MES,1,1,0,5,0,5,0
-4000,4000-03,Utility,MP Steam,IN,56,40,9,173,137,36,0
+4000,4000-03,Utility,MP Steam,IN,56,40,9,173,141,32,0
 4000,4000-03,Utility,MP Steam,PI,5,5,0,32,27,5,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,2,3,15,0,15,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,6,0,0,0,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,5,1,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,51,48,1,174,121,53,0
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,66,110,486,419,67,0
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,559,66,110,486,420,66,0
 4000,4000-05,Utility,Blow Down,PI,24,24,0,46,35,11,0
 4000,4000-05,Utility,Blow Down,MES,4,4,0,31,0,31,0
 4000,4000-05,Utility,Blow Down,IN,17,15,2,17,14,3,0
@@ -90,7 +90,7 @@
 4000,4000-08,Utility,Cooling Water,MES,5,0,1,0,0,0,0
 4000,4000-08,Utility,Cooling Water,MER,8,3,5,20,0,20,0
 4000,4000-08,Utility,Cooling Water,PI,302,285,0,693,621,72,0
-4000,4000-08,Utility,Cooling Water,IN,745,117,62,354,249,105,0
+4000,4000-08,Utility,Cooling Water,IN,745,117,62,354,251,103,0
 4000,4000-08,Utility,Cooling Water,EL,6,6,0,56,50,6,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,4,5,4,0,4,0
 4000,4000-09,Utility,Oily Water Treatment,PI,226,225,0,147,128,19,0
@@ -98,7 +98,7 @@
 4000,4000-10,Utility,Sanitary Water Collection,IN,12,4,0,0,0,0,0
 4000,4000-10,Utility,Sanitary Water Collection,PI,14,12,1,5,1,4,0
 4000,4000-10,Utility,Sanitary Water Collection,MER,1,0,1,6,0,6,0
-4000,4000-11,Utility,Instrument Air,PI,15,14,1,18,14,4,0
+4000,4000-11,Utility,Instrument Air,PI,15,14,1,18,12,6,0
 4000,4000-11,Utility,Instrument Air,IN,78,57,6,72,23,49,0
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,MER,4,4,0,8,0,8,0
 4000,4000-12,Utility,COC Water and Lab Chemical Sump,PI,22,13,7,24,20,4,0
@@ -133,10 +133,11 @@
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MER,2,2,0,12,0,12,0
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,63,36,12,143,88,55,0
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,11,9,1,29,28,1,0
-7000,7000-01,Flare,Flare System (In Site),IN,145,124,15,275,201,74,0
+7000,7000-01,Flare,Flare System (In Site),IN,145,124,15,275,205,70,0
 7000,7000-01,Flare,Flare System (In Site),MER,2,1,1,14,0,14,0
 7000,7000-01,Flare,Flare System (In Site),MES,2,2,0,8,0,8,0
-7000,7000-01,Flare,Flare System (In Site),PI,50,49,1,115,77,38,0
+7000,7000-01,Flare,Flare System (In Site),PI,26,25,1,97,70,27,0
+7000,7000-02,Flare,Flare System (out Site),PI,24,24,0,18,7,11,0
 BLD,BLD-01,Building,Substation,PI,4,4,0,6,4,2,0
 BLD,BLD-01,Building,Substation,BD,14,14,0,63,48,15,0
 BLD,BLD-02,Building,Control Building,PI,1,1,0,6,5,1,0
@@ -178,7 +179,7 @@ LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,286,1,209,1
 LS,LS-05,Lighting System,Lighting System for Laboratory & Yard Office,EL,315,0,1,0,0,0,0
 LS,LS-06,Lighting System,Lighting System for Street,EL,73,71,0,313,312,1,0
 LS,LS-07,Lighting System,Lighting System for Area-02,EL,1075,0,1,1,0,1,0
-LS,LS-08,Lighting System,Lighting System for Area-03,EL,440,0,141,623,192,431,0
+LS,LS-08,Lighting System,Lighting System for Area-03,EL,440,0,141,623,364,259,0
 LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,0,113,309,299,10,0
 LS,LS-10,Lighting System,Lighting System for Area-05,EL,706,0,67,268,233,35,0
 LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,1,175,365,349,16,0
