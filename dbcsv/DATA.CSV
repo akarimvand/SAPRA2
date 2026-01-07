@@ -133,11 +133,13 @@
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,MER,2,2,0,12,0,12,0
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,IN,63,36,12,143,88,55,0
 5000,5000-05,Distillation & Methanol Product,Liquid Off Stream,PI,11,9,1,29,28,1,0
-7000,7000-01,Flare,Flare System (In Site),IN,145,124,15,275,205,70,0
+7000,7000-01,Flare,Flare System (In Site),IN,117,96,15,243,189,54,0
 7000,7000-01,Flare,Flare System (In Site),MER,2,1,1,14,0,14,0
-7000,7000-01,Flare,Flare System (In Site),MES,2,2,0,8,0,8,0
+7000,7000-01,Flare,Flare System (In Site),MES,1,1,0,8,0,8,0
 7000,7000-01,Flare,Flare System (In Site),PI,26,25,1,97,70,27,0
+7000,7000-02,Flare,Flare System (out Site),IN,28,28,0,32,16,16,0
 7000,7000-02,Flare,Flare System (out Site),PI,24,24,0,18,7,11,0
+7000,7000-02,Flare,Flare System (out Site),MES,1,1,0,0,0,0,0
 BLD,BLD-01,Building,Substation,PI,4,4,0,6,4,2,0
 BLD,BLD-01,Building,Substation,BD,14,14,0,63,48,15,0
 BLD,BLD-02,Building,Control Building,PI,1,1,0,6,5,1,0
