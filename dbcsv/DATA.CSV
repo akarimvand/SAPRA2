@@ -84,13 +84,13 @@
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,4,11,16,0,16,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,75,54,2,219,175,44,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,4,8,66,0,66,0
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,81,94,212,122,90,0
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,81,94,212,129,83,0
 4000,4000-07,Utility,Plant Air,IN,2,1,1,2,1,1,0
 4000,4000-07,Utility,Plant Air,PI,10,10,0,30,4,26,0
 4000,4000-08,Utility,Cooling Water,MES,5,0,1,0,0,0,0
 4000,4000-08,Utility,Cooling Water,MER,8,3,5,20,0,20,0
 4000,4000-08,Utility,Cooling Water,PI,302,285,0,693,621,72,0
-4000,4000-08,Utility,Cooling Water,IN,745,117,62,354,251,103,0
+4000,4000-08,Utility,Cooling Water,IN,745,117,62,354,257,97,0
 4000,4000-08,Utility,Cooling Water,EL,6,6,0,56,50,6,0
 4000,4000-09,Utility,Oily Water Treatment,IN,28,4,5,4,0,4,0
 4000,4000-09,Utility,Oily Water Treatment,PI,226,225,0,147,128,19,0
@@ -163,9 +163,9 @@ ES,ES-10,Earthing System,Earthing System for Area-06,EL,394,394,0,399,399,0,0
 ES,ES-11,Earthing System,Earthing System for Area-07,EL,484,484,0,507,507,0,0
 FGS,FGS-01,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1001,IN,95,5,18,63,21,42,0
 FGS,FGS-02,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1002,IN,143,46,30,207,110,97,0
-FGS,FGS-03,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1003,IN,151,56,15,192,84,108,0
-FGS,FGS-04,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1004,IN,173,29,39,158,79,79,0
-FGS,FGS-05,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1005,IN,130,16,17,94,24,70,0
+FGS,FGS-03,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1003,IN,151,56,15,192,92,100,0
+FGS,FGS-04,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1004,IN,173,29,39,158,88,70,0
+FGS,FGS-05,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1005,IN,130,16,17,94,27,67,0
 FGS,FGS-06,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1006,IN,30,3,5,26,1,25,0
 FGS,FGS-07,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1007,IN,34,2,0,6,0,6,0
 FGS,FGS-08,Fire and Gas Detection,Fire & Gas Detection for Substation,EL,95,66,0,253,179,74,0
