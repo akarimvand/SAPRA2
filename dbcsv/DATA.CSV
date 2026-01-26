@@ -27,9 +27,9 @@
 120,120-12,Electrical Distribution Substation,SS PDCS System,EL,10,8,2,37,8,29,0
 120,120-13,Electrical Distribution Substation,Cathodic Protection System,EL,373,341,32,482,479,3,0
 120,120-14,Electrical Distribution Substation,Electric Heat Tracing System,EL,3,0,0,0,0,0,0
-120,120-15,Electrical Distribution Substation,Capacitor Bank,EL,5,5,0,41,41,0,0
+120,120-15,Electrical Distribution Substation,Capacitor Bank,EL,5,5,0,42,41,1,0
 120,120-16,Electrical Distribution Substation,MV Transformer,EL,6,6,0,57,47,10,0
-120,120-17,Electrical Distribution Substation,LV Transformer,EL,15,12,3,116,97,19,0
+120,120-17,Electrical Distribution Substation,LV Transformer,EL,15,15,0,116,91,25,0
 120,120-18,Electrical Distribution Substation,E/I Cabinet,EL,16,14,0,90,82,8,0
 120,120-18,Electrical Distribution Substation,E/I Cabinet,IN,16,14,0,12,12,0,0
 2000,2000-01,Reforming,Pre Reforming,EL,2,2,0,12,10,2,0
@@ -178,15 +178,15 @@ FGS,FGS-10,Fire and Gas Detection,Fire & Gas Detection for Laboratory,IN,2,0,0,0
 FGS,FGS-10,Fire and Gas Detection,Fire & Gas Detection for Laboratory,EL,50,0,0,0,0,0,0
 LS,LS-01,Lighting System,SS-MLP-01 for Normal Lighting System,EL,100,66,8,356,183,173,0
 LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,33,5,198,92,106,0
-LS,LS-03,Lighting System,Lighting System for Substation,EL,516,47,467,1889,1881,8,0
+LS,LS-03,Lighting System,Lighting System for Substation,EL,523,47,474,1889,1881,8,0
 LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,286,1,211,190,21,0
 LS,LS-05,Lighting System,Lighting System for Laboratory & Yard Office,EL,315,0,15,0,0,0,0
 LS,LS-06,Lighting System,Lighting System for Street,EL,73,71,0,313,312,1,0
 LS,LS-07,Lighting System,Lighting System for Area-02,EL,1075,0,445,799,0,799,0
-LS,LS-08,Lighting System,Lighting System for Area-03,EL,440,5,205,856,829,27,0
-LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,17,184,464,309,155,0
-LS,LS-10,Lighting System,Lighting System for Area-05,EL,706,31,345,490,253,237,0
-LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,22,269,1211,1196,15,0
+LS,LS-08,Lighting System,Lighting System for Area-03,EL,440,5,205,857,829,28,0
+LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,17,183,464,309,155,0
+LS,LS-10,Lighting System,Lighting System for Area-05,EL,706,31,346,798,253,545,0
+LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,22,269,1775,1196,579,0
 LS,LS-12,Lighting System,Lighting System for Area-07,EL,414,413,1,910,910,0,0
 LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,7,57,180,180,0,0
 TEL,TEL-01,Telecom Systems,Telecom System for Area-01,EL,24,0,9,14,4,10,0
