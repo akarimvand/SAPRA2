@@ -44,12 +44,15 @@ LS-03,EL,01-EJB2-2,Lighting Main JB,Emergency Lighting Junction Box,DONE
 LS-03,EL,01-EJB2-2-FJB,Lighting Cable,Emergency Lighting Junction Box,33%
 LS-03,EL,01-EJB2-2-L1-01,Lighting Fixture,Bulkhead Lighting Fixture 30w| WP,50%
 LS-03,EL,01-EJB2-2-L1-02,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
+LS-03,EL,01-EJB2-2-L1-03,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-EJB2-2-L1-04,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-EJB2-2-L2-01,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-EJB2-2-L2-02,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-EJB2-2-L2-03,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
+LS-03,EL,01-EJB2-2-L2-04,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-EJB2-2-L3-01,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-EJB2-2-L3-02,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
+LS-03,EL,01-EJB2-2-L3-03,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-04,EL,01-JB-1,Lighting Main JB,Normal Lighting Junction Box,Done
 LS-04,EL,01-JB1-1-L1-01,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,Done
 LS-04,EL,01-JB1-1-L1-02,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,Done
@@ -82,11 +85,15 @@ LS-03,EL,01-JB2-2-L1-02,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-JB2-2-L1-03,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-JB2-2-L1-04,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-JB2-2-L1-05,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
+LS-03,EL,01-JB2-2-L1-06,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
+LS-03,EL,01-JB2-2-L1-07,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-JB2-2-L2-01,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-JB2-2-L2-02,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-JB2-2-L2-03,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-JB2-2-L2-04,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-JB2-2-L2-05,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
+LS-03,EL,01-JB2-2-L2-06,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
+LS-03,EL,01-JB2-2-L2-07,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-JB2-2-L3-01,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-JB2-2-L3-02,Lighting Fixture,Bulkhead Lighting Fixture 30w| WP,50%
 LS-03,EL,01-JB2-2-L3-03,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
@@ -1790,7 +1797,7 @@ LS-09,EL,04-JB1-3-L1-05,Lighting Fixture,Fluorescent Fixture 2*36w- WP,50%
 LS-09,EL,04-JB1-3-L1-05-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
 LS-09,EL,04-JB1-3-L1-06(LS-09),Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
 LS-09,EL,04-JB1-3-L1-06-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
-LS-09,EL,04-JB1-3-L1-07,Lighting Fixture,Fluorescent Fixture 2*18w- WP,50%
+LS-09,EL,04-JB1-3-L1-07,Lighting Fixture,Fluorescent Fixture 2*18w- WP,0%
 LS-09,EL,04-JB1-3-L1-07-FJB01,Lighting Cable,LED Industrial Lighting Fixture 20w| WP,0%
 LS-09,EL,04-JB1-3-L1-08,Lighting Fixture,Fluorescent Fixture 2*36w- WP,50%
 LS-09,EL,04-JB1-3-L1-08-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
@@ -2352,7 +2359,7 @@ LS-10,EL,05-JB2_2-6-L3-02,Lighting Fixture,LED Luminaires Fixture 20w| EX,50%
 LS-10,EL,05-JB2_2-6-L3-02-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
 LS-10,EL,05-JB2_2-6-L3-03,Lighting Fixture,LED Luminaires Fixture 20w| EX,50%
 LS-10,EL,05-JB2_2-6-L3-03-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
-LS-10,EL,05-JB2_2-6-L3-04,Lighting Fixture,LED Luminaires Fixture 20w| EX,0%
+LS-10,EL,05-JB2_2-6-L3-04,Lighting Fixture,LED Luminaires Fixture 20w| EX,50%
 LS-10,EL,05-JB2_2-6-L3-04-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
 LS-10,EL,05-JB2_2-6-L3-05,Lighting Fixture,LED Luminaires Fixture 20w| EX,50%
 LS-10,EL,05-JB2_2-6-L3-05-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
@@ -16785,8 +16792,8 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 5000-02,MER,P-5004B,Pump,LP COLUMN REFLUX PUMP,92%
 5000-02,MER,P-5005A,Pump,MP COLUMN REFLUX PUMP,Done
 5000-02,MER,P-5005B,Pump,MP COLUMN FEED PUMP,DONE
-5000-03,MER,P-5006A,Pump,MP COLUMN REFLUX PUMP,Done
-5000-03,MER,P-5006B,Pump,MP COLUMN REFLUX PUMP,Done
+5000-03,MER,P-5006A,Pump,MP COLUMN REFLUX PUMP,DONE
+5000-03,MER,P-5006B,Pump,MP COLUMN REFLUX PUMP,DONE
 5000-03,MER,P-5007A,Pump,MP COLUMN RECYCLE PUMP,DONE
 5000-03,MER,P-5007B,Pump,MP COLUMN RECYCLE PUMP,DONE
 5000-04,MER,P-5008A,Pump,METHANOL PRODUCT PUMP,DONE
@@ -19760,9 +19767,9 @@ TEL-08,EL,SS-TJB1,TELECOM DEVICE(A),Telephone Junction Box,Done
 120-17,EL,SS-TR2B-04,TRANSFORMER(B),Transformer,Done
 120-17,EL,SS-TR2B-05,TRANSFORMER(B),Transformer,Done
 120-17,EL,SS-TR2B-06,TRANSFORMER(B),Transformer,Done
-120-17,EL,SS-TR3-02,TRANSFORMER(D),Main Emergency Lighting Transformer,50%
-120-17,EL,SS-TR3A-01,TRANSFORMER(D),Main Normal Lighting Transformer A,50%
-120-17,EL,SS-TR3B-01,TRANSFORMER(D),Main Normal Lighting Transformer B,50%
+120-17,EL,SS-TR3-02,TRANSFORMER(D),Main Emergency Lighting Transformer,Done
+120-17,EL,SS-TR3A-01,TRANSFORMER(D),Main Normal Lighting Transformer A,Done
+120-17,EL,SS-TR3B-01,TRANSFORMER(D),Main Normal Lighting Transformer B,Done
 120-15,EL,SS-UBT-01,UPS & Battery,230V AC Safety Lighting UPS Battery Set,Done
 120-11,EL,SS-UIS-01,UPS & Battery,230V AC Safety Lighting UPS Battery Isolator Box,Done
 120-11,EL,SS-UPS-01,UPS & Battery, 230V AC Safety Lighting UPS,Done
@@ -20885,9 +20892,9 @@ FGS-01,IN,TGD-0022(TGD),Fire Alarm,Fire Alarm(TGD),25%
 5000-04,MES,TK-5002-1,005-Tank(TK),Methanol Product Buffer Tank (TK 5002 1) OUT OF SCOPE,12%
 5000-04,MES,TK-5002-2,005-Tank(TK),Methanol Product Buffer Tank (TK 5002 2) OUT OF SCOPE,12%
 5000-05,MES,TK-5003,005-Tank(TK),Liquid off -stream Tank (TK 5003) OUT OF SCOPE,12%
-4000-06,MES,TK-7001-1,005-Tank(TK),Demineralized Water Tank (TK 7001 1) OUT OF SCOPE,12%
+4000-06,MES,TK-7001-1,005-Tank(TK),Demineralized Water Tank (TK 7001 1) OUT OF SCOPE,53%
 4000-06,MES,TK-7001-2,005-Tank(TK),Demineralized Water Tank (TK 7001 2) OUT OF SCOPE,12%
-1000-03,MES,TK-7002,005-Tank(TK),Process Condensate Buffer Tank (TK 7002) OUT OF SCOPE,6%
+1000-03,MES,TK-7002,005-Tank(TK),Process Condensate Buffer Tank (TK 7002) OUT OF SCOPE,47%
 4000-06,MES,TK-7501,005-Tank(TK),CONDENSATE TANK (TK 7501) OUT OF SCOPE,29%
 4000-06,MES,TK-8401,005-Tank(TK),CAUSTIC SODA TANK,88%
 4000-06,MES,TK-8402,005-Tank(TK),SULPHURIC ACID TANK,94%
@@ -23065,7 +23072,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),0%
 1000-02,MES,X-2003,Filter(X),Static Fuel Gas Mixer,Done
 5000-04,MES,X-5001-A,Filter(X),PRODUCT POLISHER UNIT,84%
 5000-04,MES,X-5001-B,Filter(X),PRODUCT POLISHER UNIT,84%
-5000-01,MES,X-5003,Filter(X),FILTER,58%
+5000-01,MES,X-5003,Filter(X),FILTER,74%
 1000-03,MES,X-6001-A,Filter(X),Particle Filter,84%
 1000-03,MES,X-6001-B,Filter(X),Particle Filter,84%
 1000-03,MES,X-6002-A,Filter(X),Partical Filter,84%
