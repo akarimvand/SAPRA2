@@ -9,7 +9,7 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,7,2,55,0,55,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,3,0,15,15,0,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,174,101,532,424,108,0
-1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,57,55,2,213,155,58,0
+1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,57,55,2,213,156,57,0
 1000,1000-04,Gas Preparation,Gas Station,PI,1,0,0,0,0,0,0
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,183,0,2194,2133,61,0
 120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,287,44,3617,3419,198,0
@@ -78,7 +78,7 @@
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,2,3,15,0,15,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,6,0,0,0,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,5,1,0
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,51,48,1,174,134,40,0
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,51,48,1,174,135,39,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,561,133,111,499,467,32,0
 4000,4000-05,Utility,Blow Down,PI,24,24,0,46,42,4,0
 4000,4000-05,Utility,Blow Down,MES,4,4,0,31,0,31,0
@@ -110,7 +110,7 @@
 4000,4000-13,Utility,Slope Close Drain,PI,29,29,0,46,37,9,0
 4000,4000-14,Utility,Fire Water,IN,33,0,33,0,0,0,0
 4000,4000-14,Utility,Fire Water,MES,1,0,1,1,0,1,0
-4000,4000-14,Utility,Fire Water,PI,134,128,2,425,335,90,0
+4000,4000-14,Utility,Fire Water,PI,134,128,2,425,338,87,0
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,147,97,50,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,8,0,131,21,110,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,9,8,88,37,51,0
@@ -140,7 +140,7 @@
 7000,7000-01,Flare,Flare System (In Site),MES,1,1,0,8,0,8,0
 7000,7000-01,Flare,Flare System (In Site),PI,26,26,0,99,79,20,0
 7000,7000-02,Flare,Flare System (out Site),IN,28,24,3,32,25,7,0
-7000,7000-02,Flare,Flare System (out Site),PI,24,24,0,62,15,47,0
+7000,7000-02,Flare,Flare System (out Site),PI,24,24,0,62,24,38,0
 7000,7000-02,Flare,Flare System (out Site),MES,1,1,0,2,0,2,0
 BLD,BLD-01,Building,Substation,PI,4,4,0,9,4,5,0
 BLD,BLD-01,Building,Substation,BD,14,14,0,63,49,14,0
@@ -151,8 +151,8 @@ BLD,BLD-04,Building,Security Building,BD,14,1,6,18,14,4,0
 BLD,BLD-06,Building,Warehouse Building,BD,14,11,2,31,26,5,0
 BLD,BLD-07,Building,Analyzer House,BD,8,6,2,19,14,5,0
 CVL,CVL-01,Civil Work,Civil Work of All Area,CV,14,11,1,778,486,292,0
-DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2574,1432,135,5217,4340,877,0
-ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2198,2196,2,0
+DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2574,1432,135,5217,4490,727,0
+ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2198,2198,0,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,425,423,2,0
 ES,ES-03,Earthing System,Earthing & Roof Lightning System for Laboratory & Yard Office,EL,33,33,0,22,15,7,0
 ES,ES-04,Earthing System,Earthing & Roof Lightning System for Analyzer House,EL,11,11,0,11,11,0,0
@@ -163,10 +163,10 @@ ES,ES-08,Earthing System,Earthing System for Area-04,EL,461,461,0,12,1,11,0
 ES,ES-09,Earthing System,Earthing System for Area-05,EL,503,0,0,0,0,0,0
 ES,ES-10,Earthing System,Earthing System for Area-06,EL,394,394,0,399,399,0,0
 ES,ES-11,Earthing System,Earthing System for Area-07,EL,484,484,0,521,507,14,0
-FGS,FGS-01,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1001,IN,95,13,37,117,94,23,0
-FGS,FGS-02,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1002,IN,143,68,29,273,225,48,0
-FGS,FGS-03,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1003,IN,151,58,34,231,219,12,0
-FGS,FGS-04,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1004,IN,173,64,44,290,256,34,0
+FGS,FGS-01,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1001,IN,95,13,37,117,99,18,0
+FGS,FGS-02,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1002,IN,143,68,29,273,249,24,0
+FGS,FGS-03,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1003,IN,151,58,34,231,220,11,0
+FGS,FGS-04,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1004,IN,173,64,44,290,268,22,0
 FGS,FGS-05,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1005,IN,130,19,18,101,78,23,0
 FGS,FGS-06,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1006,IN,30,3,5,29,27,2,0
 FGS,FGS-07,Fire and Gas Detection,Fire & Gas Detection for Fire Zone 1007,IN,34,2,0,6,5,1,0
@@ -198,7 +198,7 @@ TEL,TEL-06,Telecom Systems,Telecom System for Area-06,EL,46,3,35,76,53,23,0
 TEL,TEL-07,Telecom Systems,Telecom System for Area-07,EL,43,20,20,135,125,10,0
 TEL,TEL-08,Telecom Systems,Telecom System for Substation,EL,30,4,24,42,25,17,0
 TEL,TEL-09,Telecom Systems,Telecom System for Control Building,EL,103,55,19,19,0,19,0
-TEL,TEL-09,Telecom Systems,Telecom System for Control Building,IN,1,1,0,7,6,1,0
+TEL,TEL-09,Telecom Systems,Telecom System for Control Building,IN,1,1,0,7,7,0,0
 TEL,TEL-10,Telecom Systems,Telecom System for Laboratory,EL,89,0,6,12,0,12,0
 TEL,TEL-11,Telecom Systems,CCTV,EL,57,0,0,0,0,0,0
 TEL,TEL-12,Telecom Systems,Telecom System for Analyzer House,EL,8,2,5,7,5,2,0
