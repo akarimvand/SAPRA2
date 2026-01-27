@@ -58,7 +58,7 @@
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,37,37,0,97,56,41,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,3,8,0,8,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,IN,154,83,34,295,226,69,0
-3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,40,34,5,102,65,37,0
+3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,40,35,4,102,65,37,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,6,5,42,3,39,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,MES,9,6,3,41,0,41,0
 3000,3000-03,Compression and Synthesis,Synthesis Gas Cooling,PI,32,32,0,124,87,37,0
@@ -84,11 +84,11 @@
 4000,4000-05,Utility,Blow Down,MES,4,4,0,31,0,31,0
 4000,4000-05,Utility,Blow Down,IN,17,13,1,19,18,1,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MES,15,4,11,16,0,16,0
-4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,76,56,2,261,183,78,0
+4000,4000-06,Utility,DM & Polishing Water & Neutralization System,PI,77,57,1,261,183,78,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,MER,12,4,8,66,18,48,0
 4000,4000-06,Utility,DM & Polishing Water & Neutralization System,IN,465,114,89,262,213,49,0
 4000,4000-07,Utility,Plant Air,IN,2,2,0,3,3,0,0
-4000,4000-07,Utility,Plant Air,PI,11,10,0,30,13,17,0
+4000,4000-07,Utility,Plant Air,PI,11,10,1,30,13,17,0
 4000,4000-08,Utility,Cooling Water,MES,5,0,1,0,0,0,0
 4000,4000-08,Utility,Cooling Water,MER,8,3,5,25,0,25,0
 4000,4000-08,Utility,Cooling Water,PI,302,286,0,693,626,67,0
@@ -110,7 +110,7 @@
 4000,4000-13,Utility,Slope Close Drain,PI,29,29,0,46,37,9,0
 4000,4000-14,Utility,Fire Water,IN,33,0,33,0,0,0,0
 4000,4000-14,Utility,Fire Water,MES,1,0,1,1,0,1,0
-4000,4000-14,Utility,Fire Water,PI,134,128,1,425,334,91,0
+4000,4000-14,Utility,Fire Water,PI,134,128,2,425,335,90,0
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,147,97,50,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,8,0,131,21,110,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,9,8,88,37,51,0
