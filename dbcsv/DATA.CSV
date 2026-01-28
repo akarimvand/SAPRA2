@@ -1,6 +1,6 @@
 ﻿SD_System,SD_Sub_System,SD_System_Name,SD_Subsystem_Name,discipline,TOTAL ITEM,TOTAL DONE,TOTAL PENDING,TOTAL PUNCH,TOTAL CLEAR PUNCH,TOTAL NOT CLEAR PUNCH,TOTAL HOLD POINT
-1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,161,139,17,424,359,65,0
-1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,24,23,1,93,77,16,0
+1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,161,139,17,409,359,50,0
+1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,24,23,1,93,79,14,0
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,3,2,51,32,19,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,1,0,6,0,6,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,PI,12,12,0,39,25,14,0
@@ -110,7 +110,7 @@
 4000,4000-13,Utility,Slope Close Drain,PI,29,29,0,46,37,9,0
 4000,4000-14,Utility,Fire Water,IN,33,0,33,0,0,0,0
 4000,4000-14,Utility,Fire Water,MES,1,0,1,1,0,1,0
-4000,4000-14,Utility,Fire Water,PI,134,128,2,425,365,60,0
+4000,4000-14,Utility,Fire Water,PI,134,128,2,425,371,54,0
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,147,97,50,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,8,0,131,21,110,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,9,8,88,37,51,0
