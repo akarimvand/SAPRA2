@@ -110,7 +110,7 @@
 4000,4000-13,Utility,Slope Close Drain,PI,29,29,0,46,37,9,0
 4000,4000-14,Utility,Fire Water,IN,33,0,33,0,0,0,0
 4000,4000-14,Utility,Fire Water,MES,1,0,1,1,0,1,0
-4000,4000-14,Utility,Fire Water,PI,134,129,1,425,369,56,0
+4000,4000-14,Utility,Fire Water,PI,134,129,1,425,370,55,0
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,147,97,50,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,8,0,131,21,110,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,9,8,88,37,51,0
@@ -179,14 +179,14 @@ FGS,FGS-10,Fire and Gas Detection,Fire & Gas Detection for Laboratory,EL,50,0,0,
 LS,LS-01,Lighting System,SS-MLP-01 for Normal Lighting System,EL,100,70,4,356,183,173,0
 LS,LS-02,Lighting System,SS-EMLP-01 for Emergency Lighting System,EL,58,34,4,198,92,106,0
 LS,LS-03,Lighting System,Lighting System for Substation,EL,523,47,474,1889,1881,8,0
-LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,286,1,211,190,21,0
+LS,LS-04,Lighting System,Lighting System for Control Building,EL,287,286,1,196,190,6,0
 LS,LS-05,Lighting System,Lighting System for Laboratory & Yard Office,EL,315,0,15,0,0,0,0
 LS,LS-06,Lighting System,Lighting System for Street,EL,73,71,0,313,312,1,0
-LS,LS-07,Lighting System,Lighting System for Area-02,EL,1075,53,445,799,0,799,0
+LS,LS-07,Lighting System,Lighting System for Area-02,EL,1075,53,445,7,0,7,0
 LS,LS-08,Lighting System,Lighting System for Area-03,EL,440,9,205,857,829,28,0
-LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,17,183,464,309,155,0
-LS,LS-10,Lighting System,Lighting System for Area-05,EL,706,31,346,798,253,545,0
-LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,22,269,1775,1196,579,0
+LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,17,183,336,309,27,0
+LS,LS-10,Lighting System,Lighting System for Area-05,EL,706,31,346,273,253,20,0
+LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,22,269,1217,1196,21,0
 LS,LS-12,Lighting System,Lighting System for Area-07,EL,414,413,1,910,910,0,0
 LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,7,57,180,180,0,0
 TEL,TEL-01,Telecom Systems,Telecom System for Area-01,EL,24,0,9,14,4,10,0
