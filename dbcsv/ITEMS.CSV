@@ -3910,7 +3910,7 @@ TEL-07,EL,07-SP-15,Paging Device,Loud Speaker - 25W|EX,Done
 2000-03,PI,2000-03-HPC-06-1141,PI_TP,PIPING TEST PACKAGE,DONE
 2000-03,PI,2000-03-HPS-01-1143,PI_TP,PIPING TEST PACKAGE,DONE
 2000-03,PI,2000-03-PDT-01-546,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
-2000-03,PI,2000-03-PDT-02-547,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
+2000-03,PI,2000-03-PDT-02-547,PI_TP,PIPING TEST PACKAGE,Line Check
 2000-03,PI,2000-03-PDT-03-548,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 2000-03,PI,2000-03-PDT-04-549,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 2000-03,PI,2000-03-PO-01-111,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4210,7 +4210,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-04,PI,4000-04-BFW-02-532,PI_TP,PIPING TEST PACKAGE,DONE
 4000-04,PI,4000-04-BFW-03-534,PI_TP,PIPING TEST PACKAGE,DONE
 4000-04,PI,4000-04-BFW-04-594,PI_TP,PIPING TEST PACKAGE,DONE
-4000-04,PI,4000-04-BFW-05-700,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
+4000-04,PI,4000-04-BFW-05-700,PI_TP,PIPING TEST PACKAGE,DONE
 4000-04,PI,4000-04-BFW-06-240,PI_TP,PIPING TEST PACKAGE,DONE
 4000-04,PI,4000-04-BFW-07-803,PI_TP,PIPING TEST PACKAGE,DONE
 4000-04,PI,4000-04-BFW-08-804,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4289,13 +4289,13 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-06,PI,4000-06-AC-11-1071',PI_TP,,
 4000-06,PI,4000-06-AC-12-1123,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-06,PI,4000-06-AC-13-1124,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
-4000-06,PI,4000-06-AC-14-1128,PI_TP,PIPING TEST PACKAGE,Line Check
+4000-06,PI,4000-06-AC-14-1128,PI_TP,PIPING TEST PACKAGE,HYDROTEST
 4000-06,PI,4000-06-AC-15-1129,PI_TP,PIPING TEST PACKAGE,DONE
 4000-06,PI,4000-06-AC-16-1130,PI_TP,PIPING TEST PACKAGE,DONE
 4000-06,PI,4000-06-CS-01-241,PI_TP,PIPING TEST PACKAGE,DONE
 4000-06,PI,4000-06-CS-02-990,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-06,PI,4000-06-CS-03-1052,PI_TP,PIPING TEST PACKAGE,DONE
-4000-06,PI,4000-06-CS-04-1054,PI_TP,PIPING TEST PACKAGE,Line Check
+4000-06,PI,4000-06-CS-04-1054,PI_TP,PIPING TEST PACKAGE,HYDROTEST
 4000-06,PI,4000-06-CS-05-1055,PI_TP,PIPING TEST PACKAGE,DONE
 4000-06,PI,4000-06-CS-06-1056,PI_TP,PIPING TEST PACKAGE,DONE
 4000-06,PI,4000-06-CS-07-1048,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4312,7 +4312,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-06,PI,4000-06-CS-18-923,PI_TP,PIPING TEST PACKAGE,DONE
 4000-06,PI,4000-06-CS-19-1083,PI_TP,PIPING TEST PACKAGE,DONE
 4000-06,PI,4000-06-CS-19-1170,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
-4000-06,PI,4000-06-CS-20-1071,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
+4000-06,PI,4000-06-CS-20-1071,PI_TP,PIPING TEST PACKAGE,Line Check
 4000-06,PI,4000-06-DMW-01-177,PI_TP,PIPING TEST PACKAGE,DONE
 4000-06,PI,4000-06-DMW-02-229,PI_TP,PIPING TEST PACKAGE,DONE
 4000-06,PI,4000-06-DMW-03-230,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4672,7 +4672,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-14,PI,4000-14-FOS-01-504,PI_TP,PIPING TEST PACKAGE,DONE
 4000-14,PI,4000-14-FOS-02-505,PI_TP,PIPING TEST PACKAGE,DONE
 4000-14,PI,4000-14-FOS-03-1009,PI_TP,PIPING TEST PACKAGE,DONE
-4000-14,PI,4000-14-FOS-04-1138,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
+4000-14,PI,4000-14-FOS-04-1138,PI_TP,PIPING TEST PACKAGE,DONE
 4000-14,PI,4000-14-FOS-05-1139,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-14,PI,4000-14-FOS-06-1140,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-14,PI,4000-14-FW-01-002,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4709,7 +4709,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-14,PI,4000-14-FW-32-1067,PI_TP,PIPING TEST PACKAGE,DONE
 4000-14,PI,4000-14-FW-33-1109,PI_TP,PIPING TEST PACKAGE,DONE
 4000-14,PI,4000-14-FW-34-1110,PI_TP,PIPING TEST PACKAGE,DONE
-4000-14,PI,4000-14-FW-35-1148,PI_TP,PIPING TEST PACKAGE,Line Check
+4000-14,PI,4000-14-FW-35-1148,PI_TP,PIPING TEST PACKAGE,HYDROTEST
 4000-14,PI,4000-14-FW-36-1149,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-14,PI,4000-14-FW-37-1150,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-14,PI,4000-14-FW-38-1153,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4766,7 +4766,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 5000-01,PI,5000-01-PMC-31-595,PI_TP,PIPING TEST PACKAGE,DONE
 5000-01,PI,5000-01-PMC-32-626,PI_TP,PIPING TEST PACKAGE,DONE
 5000-01,PI,5000-01-PMC-33-767,PI_TP,PIPING TEST PACKAGE,DONE
-5000-01,PI,5000-01-PMC-34-1166,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
+5000-01,PI,5000-01-PMC-34-1166,PI_TP,PIPING TEST PACKAGE,DONE
 5000-01,PI,5000-01-PMP-01-206,PI_TP,PIPING TEST PACKAGE,DONE
 5000-01,PI,5000-01-PMP-02-634,PI_TP,PIPING TEST PACKAGE,DONE
 5000-01,PI,5000-01-PMP-03-960,PI_TP,PIPING TEST PACKAGE,DONE
@@ -4889,7 +4889,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-01,PI,5000-04-N-02-173,PI_TP,PIPING TEST PACKAGE,DONE
 5000-04,PI,5000-04-PMC-01-615,PI_TP,PIPING TEST PACKAGE,DONE
 5000-04,PI,5000-04-PMP-01-030,PI_TP,PIPING TEST PACKAGE,DONE
-5000-04,PI,5000-04-PMP-02-031,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
+5000-04,PI,5000-04-PMP-02-031,PI_TP,PIPING TEST PACKAGE,DONE
 5000-04,PI,5000-04-PMP-03-032,PI_TP,PIPING TEST PACKAGE,DONE
 5000-04,PI,5000-04-PMP-04-033,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
 5000-04,PI,5000-04-PMP-05-188,PI_TP,PIPING TEST PACKAGE,DONE
@@ -10276,10 +10276,10 @@ ES-08,EL,E9-38,Earthing System,THERMOWELD EARTH CONNECTION 16 TO 70mm2,Done
 120-02,EL,EBC-MP-7003B,Power Cable B,Local Control Station- MP-7003B,Done
 120-02,EL,EBC-MP-7004A,Power Cable B,Local Control Station- MP-7004A,DONE
 120-02,EL,EBC-MP-7004B,Power Cable B,Local Control Station- MP-7004B,Done
-120-02,EL,EBC-MP-7051A,Power Cable B,Local Control Station- MP-7051A,67%
-120-02,EL,EBC-MP-7051B,Power Cable B,Local Control Station- MP-7051B,67%
-120-02,EL,EBC-MP-7052A,Power Cable B,Local Control Station- MP-7052A,67%
-120-02,EL,EBC-MP-7052B,Power Cable B,Local Control Station- MP-7052B,67%
+120-02,EL,EBC-MP-7051A,Power Cable B,Local Control Station- MP-7051A,Done
+120-02,EL,EBC-MP-7051B,Power Cable B,Local Control Station- MP-7051B,Done
+120-02,EL,EBC-MP-7052A,Power Cable B,Local Control Station- MP-7052A,Done
+120-02,EL,EBC-MP-7052B,Power Cable B,Local Control Station- MP-7052B,Done
 120-02,EL,EBC-MP-7060A,Power Cable B,Local Control Station- MP-7060A,Done
 120-02,EL,EBC-MP-7060B,Power Cable B,Local Control Station- MP-7060B,Done
 120-02,EL,EBC-MP-7070A,Power Cable B,Local Control Station- MP-7070A,Done
@@ -10596,16 +10596,16 @@ LS-01,EL,EBP-CR-LP-01,Power Cable B,Control Room Normal Lighting & Socket Outlet
 120-03,EL,EBP-FT8001A-HE-3,Power Cable B,Lube Oil Heater No.3 for FT-8001A- FT8001A-HE-3,Done
 120-03,EL,EBP-FT8001A-MF-1,Power Cable B,Oil Mist Fan for FT-8001A- FT8001A-MF-1,Done
 120-02,EL,EBP-FT8001A-MP-1A,Power Cable B,Main Lube Oil Pump for FT8001A- FT8001A-MP-1A,Done
-120-07,EL,EBP-FT8001A-MP-1B,Power Cable B,Emergency Lube Oil Pump for FT-8001A- FT8001A-MP-1B,67%
+120-07,EL,EBP-FT8001A-MP-1B,Power Cable B,Emergency Lube Oil Pump for FT-8001A- FT8001A-MP-1B,Done
 120-03,EL,EBP-FT8001B-HE-1,Power Cable B,Lube Oil Heater No.1 for FT-8001B- FT8001B-HE-1,Done
 120-03,EL,EBP-FT8001B-HE-2,Power Cable B,Lube Oil Heater No.2 for FT-8001B- FT8001B-HE-2,Done
 120-03,EL,EBP-FT8001B-HE-3,Power Cable B,Lube Oil Heater No.3 for FT-8001B- FT8001B-HE-3,Done
 120-03,EL,EBP-FT8001B-MF-1,Power Cable B,Oil Mist Fan for FT-8001B- FT8001B-MF-1,Done
 120-02,EL,EBP-FT8001B-MP-1A,Power Cable B,Main Lube Oil Pump for FT8001B- FT8001B-MP-1A,Done
-120-07,EL,EBP-FT8001B-MP-1B,Power Cable B,Emergency Lube Oil Pump for FT-8001B- FT8001B-MP-1B,67%
+120-07,EL,EBP-FT8001B-MP-1B,Power Cable B,Emergency Lube Oil Pump for FT-8001B- FT8001B-MP-1B,Done
 120-02,EL,EBP-H-3012,Power Cable B,Lube Oil Heater- H-3012,Done
-120-02,EL,EBP-H-3013,Power Cable B,Seal Gas Heater- H-3013,67%
-120-02,EL,EBP-H-3013-TCP,Power Cable B,Seal Gas Heater Thristor Control Panel- H-3013-TCP,67%
+120-02,EL,EBP-H-3013,Power Cable B,Seal Gas Heater- H-3013,Done
+120-02,EL,EBP-H-3013-TCP,Power Cable B,Seal Gas Heater Thristor Control Panel- H-3013-TCP,Done
 120-03,EL,EBP-LAB-DP-01,Power Cable B,Laboratory  Distribution Panel- LAB-DP-01,33%
 LS-02,EL,EBP-LAB-ELP-01,Power Cable B,Laboratory Emergency Lighting Panel- LAB-ELP-01,33%
 120-07,EL,EBP-LAB-FACP-01,Power Cable B,Laboratory & Yard Office Fire Alarm Control Panel- LAB-FACP-01 (Auxiliary Supply),33%
@@ -10847,10 +10847,10 @@ LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet 
 120-02,EL,EBP-MP-7003B,Power Cable B,Excess Process Condensate Pump- MP-7003B,DONE
 120-02,EL,EBP-MP-7004A,Power Cable B,Excess Condensate Return Pump- MP-7004A,DONE
 120-02,EL,EBP-MP-7004B,Power Cable B,Excess Condensate Return Pump- MP-7004B,Done
-120-02,EL,EBP-MP-7051A,Power Cable B,Phosphate Dosing Pump- MP-7051A,67%
-120-02,EL,EBP-MP-7051B,Power Cable B,Phosphate Dosing Pump- MP-7051B,67%
-120-02,EL,EBP-MP-7052A,Power Cable B,Phosphate Dosing Pump- MP-7052A,67%
-120-02,EL,EBP-MP-7052B,Power Cable B,Phosphate Dosing Pump- MP-7052B,67%
+120-02,EL,EBP-MP-7051A,Power Cable B,Phosphate Dosing Pump- MP-7051A,Done
+120-02,EL,EBP-MP-7051B,Power Cable B,Phosphate Dosing Pump- MP-7051B,Done
+120-02,EL,EBP-MP-7052A,Power Cable B,Phosphate Dosing Pump- MP-7052A,Done
+120-02,EL,EBP-MP-7052B,Power Cable B,Phosphate Dosing Pump- MP-7052B,Done
 120-02,EL,EBP-MP-7060A,Power Cable B,Amine Dosing Pump- MP-7060A,Done
 120-02,EL,EBP-MP-7060B,Power Cable B,Amine Dosing Pump- MP-7060B,67%
 120-02,EL,EBP-MP-7070A,Power Cable B,Oxygen Scavenger Dosing Pump- MP-7070A,67%
@@ -10885,7 +10885,7 @@ LS-01,EL,EBP-LAB-LP-01,Power Cable B,Laboratory Normal Lighting & Socket Outlet 
 120-02,EL,EBP-P7001C-HE-2,Power Cable B,Lube Oil Heater No.2 for P-7001C- P7001C-HE-2,DONE
 120-02,EL,EBP-P7001C-MF-1,Power Cable B,Oil Mist Fan for P7001C- P7001C-MF-1,DONE
 120-02,EL,EBP-P7001C-MP-1A,Power Cable B,Main Lube Oil Pump for P7001C- P7001C-MP-1A,Done
-120-07,EL,EBP-P7001C-MP-1B,Power Cable B,Emergency Lube Oil Pump for P-7001C- P7001C-MP-1B,67%
+120-07,EL,EBP-P7001C-MP-1B,Power Cable B,Emergency Lube Oil Pump for P-7001C- P7001C-MP-1B,Done
 120-03,EL,EBP-PK7502-MB-1A,Power Cable B,Resin Mixing Air Blower A- PK7502-MB-1A,Done
 120-03,EL,EBP-PK7502-MB-1B,Power Cable B,Resin Mixing Air Blower B- PK7502-MB-1B,Done
 120-03,EL,EBP-PK7502-MP-1A,Power Cable B,Backwash Pumps A- PK7502-MP-1A,Done
@@ -10934,7 +10934,7 @@ LS-01,EL,EBP-SS-MLP-01B_2,Power Cable B,Main Normal Lighting Panel (Incomer B)- 
 LS-01,EL,EBP-SS-MLP-01B_3,Power Cable B,Main Normal Lighting Panel (Incomer B)- SS-MLP-01B,0%
 120-07,EL,EBP-SS-NGR1A-01_AS,Power Cable B,Neutral Grounding Resistor- SS-NGR1A-01 (Space Heater Terminal Box),33%
 120-07,EL,EBP-SS-NGR1B-01_AS,Power Cable B,Neutral Grounding Resistor- SS-NGR1B-01 (Space Heater Terminal Box),33%
-120-07,EL,EBP-SS-PDCS-01_AS,Power Cable B,PDC System Panel  SS-PDCS-01 (Auxiliary Supply),67%
+120-07,EL,EBP-SS-PDCS-01_AS,Power Cable B,PDC System Panel  SS-PDCS-01 (Auxiliary Supply),Done
 120-11,EL,EBP-SS-PDCS-01A,Power Cable B,PDC System Panel- SS-PDCS-01 (Feeder A),Done
 120-11,EL,EBP-SS-PDCS-01B,Power Cable B,PDC System Panel- SS-PDCS-01 (Feeder B),Done
 120-07,EL,EBP-SS-PRB-01,Power Cable B,Photocell Relay Box- SS-PRB-01 (Auxiliary Supply),33%
@@ -10942,27 +10942,27 @@ LS-01,EL,EBP-SS-MLP-01B_3,Power Cable B,Main Normal Lighting Panel (Incomer B)- 
 120-07,EL,EBP-SS-SWB2B-01_AS,Power Cable B,6kV Switchboard- SS-SWB2B-01 Bus VT Panel (Auxiliary Supply),Done
 120-07,EL,EBP-SS-SWB3A-01_AS,Power Cable B,LV Switchboard No. 01- SS-SWB3A-01 (Auxiliary Supply),33%
 120-07,EL,EBP-SS-SWB3A-02_AS,Power Cable B,LV Switchboard No. 02- SS-SWB3A-02 (Auxiliary Supply),33%
-120-07,EL,EBP-SS-SWB3A-03_AS,Power Cable B,LV Switchboard No. 03- SS-SWB3A-03 (Auxiliary Supply),67%
-120-07,EL,EBP-SS-SWB3A-04_AS,Power Cable B,LV Switchboard No. 04- SS-SWB3A-04 (Auxiliary Supply),67%
-120-07,EL,EBP-SS-SWB3A-05_AS,Power Cable B,LV Switchboard No. 05- SS-SWB3A-05 (Auxiliary Supply),67%
+120-07,EL,EBP-SS-SWB3A-03_AS,Power Cable B,LV Switchboard No. 03- SS-SWB3A-03 (Auxiliary Supply),Done
+120-07,EL,EBP-SS-SWB3A-04_AS,Power Cable B,LV Switchboard No. 04- SS-SWB3A-04 (Auxiliary Supply),Done
+120-07,EL,EBP-SS-SWB3A-05_AS,Power Cable B,LV Switchboard No. 05- SS-SWB3A-05 (Auxiliary Supply),Done
 120-07,EL,EBP-SS-SWB3B-01_AS,Power Cable B,LV Switchboard No. 01- SS-SWB3B-01 (Auxiliary Supply),33%
 120-07,EL,EBP-SS-SWB3B-02_AS,Power Cable B,LV Switchboard No. 02- SS-SWB3B-02 (Auxiliary Supply),33%
-120-07,EL,EBP-SS-SWB3B-03_AS,Power Cable B,LV Switchboard No. 03- SS-SWB3B-03 (Auxiliary Supply),67%
-120-07,EL,EBP-SS-SWB3B-04_AS,Power Cable B,LV Switchboard No. 04- SS-SWB3B-04 (Auxiliary Supply),67%
-120-07,EL,EBP-SS-SWB3B-05_AS,Power Cable B,LV Switchboard No. 05- SS-SWB3B-05 (Auxiliary Supply),67%
+120-07,EL,EBP-SS-SWB3B-03_AS,Power Cable B,LV Switchboard No. 03- SS-SWB3B-03 (Auxiliary Supply),Done
+120-07,EL,EBP-SS-SWB3B-04_AS,Power Cable B,LV Switchboard No. 04- SS-SWB3B-04 (Auxiliary Supply),Done
+120-07,EL,EBP-SS-SWB3B-05_AS,Power Cable B,LV Switchboard No. 05- SS-SWB3B-05 (Auxiliary Supply),Done
 120-07,EL,EBP-SS-TR1A-01_AS,Power Cable B,20/6.3KV Transformer SS-TR1A-01 (Auxiliary Supply),33%
 120-07,EL,EBP-SS-TR1B-01_AS,Power Cable B,20/6.3KV Transformer SS-TR1B-01 (Auxiliary Supply),33%
 120-07,EL,EBP-SS-TR2A-01_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-01 (Auxiliary Supply),33%
 120-07,EL,EBP-SS-TR2A-02_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-02 (Auxiliary Supply),33%
-120-07,EL,EBP-SS-TR2A-03_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-03 (Auxiliary Supply),67%
-120-07,EL,EBP-SS-TR2A-04_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-04 (Auxiliary Supply),67%
-120-07,EL,EBP-SS-TR2A-05_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-05 (Auxiliary Supply),67%
+120-07,EL,EBP-SS-TR2A-03_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-03 (Auxiliary Supply),Done
+120-07,EL,EBP-SS-TR2A-04_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-04 (Auxiliary Supply),Done
+120-07,EL,EBP-SS-TR2A-05_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-05 (Auxiliary Supply),Done
 120-07,EL,EBP-SS-TR2A-06_AS,Power Cable B,6/0.42KV Transformer SS-TR2A-06 (Auxiliary Supply),33%
 120-07,EL,EBP-SS-TR2B-01_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-01 (Auxiliary Supply),33%
 120-07,EL,EBP-SS-TR2B-02_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-02 (Auxiliary Supply),33%
-120-07,EL,EBP-SS-TR2B-03_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-03 (Auxiliary Supply),67%
-120-07,EL,EBP-SS-TR2B-04_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-04 (Auxiliary Supply),67%
-120-07,EL,EBP-SS-TR2B-05_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-05 (Auxiliary Supply),67%
+120-07,EL,EBP-SS-TR2B-03_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-03 (Auxiliary Supply),Done
+120-07,EL,EBP-SS-TR2B-04_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-04 (Auxiliary Supply),Done
+120-07,EL,EBP-SS-TR2B-05_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-05 (Auxiliary Supply),Done
 120-07,EL,EBP-SS-TR2B-06_AS,Power Cable B,6/0.42KV Transformer SS-TR2B-06 (Auxiliary Supply),33%
 120-07,EL,EBP-SS-TR3-02,Power Cable B,Main Emergency Lighting Transformer- SS-TR3-02,Done
 120-03,EL,EBP-SS-TR3A-01_1,Power Cable B,Main Normal Lighting Transformer A- SS-TR3A-01,Done
@@ -11560,8 +11560,8 @@ TEL-04,EL,ECR-04-FL-03,Comminucation Cable,Area-04 Flash Light 04-FL-03,0%
 TEL-04,EL,ECR-04-IS-01,Comminucation Cable,Area-04 Intercom Station 04-IS-01,Done
 TEL-04,EL,ECR-04-IS-02,Comminucation Cable,Area-04 Intercom Station 04-IS-02,33%
 TEL-04,EL,ECR-04-IS-03,Comminucation Cable,Area-04 Intercom Station 04-IS-03,Done
-TEL-04,EL,ECR-04-PJB1,Comminucation Cable,Area-04 Paging Junction Box. 04-PJB1,67%
-TEL-04,EL,ECR-04-PJB2,Comminucation Cable,Area-04 Paging Junction Box. 04-PJB2,67%
+TEL-04,EL,ECR-04-PJB1,Comminucation Cable,Area-04 Paging Junction Box. 04-PJB1,Done
+TEL-04,EL,ECR-04-PJB2,Comminucation Cable,Area-04 Paging Junction Box. 04-PJB2,Done
 TEL-04,EL,ECR-04-PJB3,Comminucation Cable,Area-04 Paging Junction Box. 04-PJB3,0%
 TEL-04,EL,ECR-04-SP-01,Comminucation Cable,Area-04 Loudspeaker 04-SP-01,33%
 TEL-04,EL,ECR-04-SP-02,Comminucation Cable,Area-04 Loudspeaker 04-SP-02,33%
@@ -11584,10 +11584,10 @@ TEL-05,EL,ECR-05-IS-02,Comminucation Cable,Area-05 Intercom Station 05-IS-02,Don
 TEL-05,EL,ECR-05-IS-03,Comminucation Cable,Area-05 Intercom Station 05-IS-03,Done
 TEL-05,EL,ECR-05-IS-04,Comminucation Cable,Area-05 Intercom Station 05-IS-04,67%
 TEL-05,EL,ECR-05-IS-05,Comminucation Cable,Area-05 Intercom Station 05-IS-05,67%
-TEL-05,EL,ECR-05-PJB1,Comminucation Cable,Area-05 Paging Junction Box. 05-PJB1,67%
-TEL-05,EL,ECR-05-PJB2,Comminucation Cable,Area-05 Paging Junction Box. 05-PJB2,67%
-TEL-05,EL,ECR-05-PJB3,Comminucation Cable,Area-05 Paging Junction Box. 05-PJB3,67%
-TEL-05,EL,ECR-05-PJB5,Comminucation Cable,Area-05 Paging Junction Box. 05-PJB5,67%
+TEL-05,EL,ECR-05-PJB1,Comminucation Cable,Area-05 Paging Junction Box. 05-PJB1,Done
+TEL-05,EL,ECR-05-PJB2,Comminucation Cable,Area-05 Paging Junction Box. 05-PJB2,Done
+TEL-05,EL,ECR-05-PJB3,Comminucation Cable,Area-05 Paging Junction Box. 05-PJB3,Done
+TEL-05,EL,ECR-05-PJB5,Comminucation Cable,Area-05 Paging Junction Box. 05-PJB5,Done
 TEL-05,EL,ECR-05-SP-01,Comminucation Cable,Area-05 Loudspeaker 05-SP-01,0%
 TEL-05,EL,ECR-05-SP-02,Comminucation Cable,Area-05 Loudspeaker 05-SP-02,Done
 TEL-05,EL,ECR-05-SP-03,Comminucation Cable,Area-05 Loudspeaker 05-SP-03,67%
@@ -11643,9 +11643,9 @@ TEL-07,EL,ECR-07-FL-03,Comminucation Cable,Area-07 Flash Light 07-FL-03,0%
 TEL-07,EL,ECR-07-IS-01,Comminucation Cable,Area-07 Intercom Station 07-IS-01,67%
 TEL-07,EL,ECR-07-IS-02,Comminucation Cable,Area-07 Intercom Station 07-IS-02,67%
 TEL-07,EL,ECR-07-IS-03,Comminucation Cable,Area-07 Intercom Station 07-IS-03,67%
-TEL-07,EL,ECR-07-PJB1,Comminucation Cable,Area-07 Paging Junction Box. 07-PJB1,67%
-TEL-07,EL,ECR-07-PJB2,Comminucation Cable,Area-07 Paging Junction Box. 07-PJB2,67%
-TEL-07,EL,ECR-07-PJB3,Comminucation Cable,Area-07 Paging Junction Box. 07-PJB3,67%
+TEL-07,EL,ECR-07-PJB1,Comminucation Cable,Area-07 Paging Junction Box. 07-PJB1,Done
+TEL-07,EL,ECR-07-PJB2,Comminucation Cable,Area-07 Paging Junction Box. 07-PJB2,Done
+TEL-07,EL,ECR-07-PJB3,Comminucation Cable,Area-07 Paging Junction Box. 07-PJB3,Done
 TEL-07,EL,ECR-07-SP-01,Comminucation Cable,Area-07 Loudspeaker 07-SP-01,67%
 TEL-07,EL,ECR-07-SP-02,Comminucation Cable,Area-07 Loudspeaker 07-SP-02,67%
 TEL-07,EL,ECR-07-SP-03,Comminucation Cable,Area-07 Loudspeaker 07-SP-03,67%
@@ -12879,9 +12879,9 @@ FGS-05,IN,FS-0016(NA),CABLE,CABLE(NA),0%
 2000-03,IN,FST-2040B(NA),CABLE,CABLE(NA),0%
 2000-03,IN,FST-2040C(FST),Instrument(FST),Instrument(FST),Done
 2000-03,IN,FST-2040C(NA),CABLE,CABLE(NA),0%
-1000-03,IN,FST-2061A(FST),Instrument(FST),Instrument(FST),75%
+1000-03,IN,FST-2061A(FST),Instrument(FST),Instrument(FST),Done
 1000-03,IN,FST-2061A(NA),CABLE,CABLE(NA),Done
-1000-03,IN,FST-2061B(FST),Instrument(FST),Instrument(FST),75%
+1000-03,IN,FST-2061B(FST),Instrument(FST),Instrument(FST),Done
 1000-03,IN,FST-2061B(NA),CABLE,CABLE(NA),Done
 1000-03,IN,FST-2061C(FST),Instrument(FST),Instrument(FST),Done
 1000-03,IN,FST-2061C(NA),CABLE,CABLE(NA),Done
@@ -12926,7 +12926,7 @@ FGS-05,IN,FS-0016(NA),CABLE,CABLE(NA),0%
 4000-08,IN,FT-0002(FT),Instrument(FT),Instrument(FT),Done
 4000-08,IN,FT-0002(NA),CABLE,CABLE(NA),Done
 1000-01,IN,FT-1006(FT),Instrument(FT),Instrument(FT),Done
-1000-01,IN,FT-1006(NA),CABLE,CABLE(NA),0%
+1000-01,IN,FT-1006(NA),CABLE,CABLE(NA),50%
 2000-03,IN,FT-2009(FT),Instrument(FT),Instrument(FT),50%
 2000-03,IN,FT-2009(NA),CABLE,CABLE(NA),0%
 3000-04,IN,FT-2079(FT),Instrument(FT),Instrument(FT),50%
@@ -14563,8 +14563,8 @@ DCS-01,IN,LCP-MF2002,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 3000-04,IN,LG-20204,Instrument(LG),Instrument(LG),Done
 3000-04,IN,LG-20205,Instrument(LG),Instrument(LG),0%
 2000-04,IN,LG-2373,Instrument(LG),Instrument(LG),Done
-2000-04,IN,LG-2374-1,Instrument(LG),Instrument(LG),0%
-2000-04,IN,LG-2374-2,Instrument(LG),Instrument(LG),0%
+2000-04,IN,LG-2374-1,Instrument(LG),Instrument(LG),Done
+2000-04,IN,LG-2374-2,Instrument(LG),Instrument(LG),Done
 2000-05,IN,LG-2405,Instrument(LG),Instrument(LG),Done
 2000-05,IN,LG-2420,Instrument(LG),Instrument(LG),Done
 2000-05,IN,LG-2443,Instrument(LG),Instrument(LG),Done
@@ -14703,23 +14703,23 @@ FGS-03,IN,LHD-9017A(NA),CABLE,CABLE(NA),Done
 FGS-03,IN,LHD-9017B(LHD),Fire Fighting,Fire Fighting(LHD),0%
 FGS-03,IN,LHD-9017B(NA),CABLE,CABLE(NA),Done
 FGS-04,IN,LHD-9018A(LHD),Fire Fighting,Fire Fighting(LHD),Done
-FGS-04,IN,LHD-9018A(NA),CABLE,CABLE(NA),50%
+FGS-04,IN,LHD-9018A(NA),CABLE,CABLE(NA),Done
 FGS-04,IN,LHD-9018B(LHD),Fire Fighting,Fire Fighting(LHD),Done
-FGS-04,IN,LHD-9018B(NA),CABLE,CABLE(NA),50%
+FGS-04,IN,LHD-9018B(NA),CABLE,CABLE(NA),Done
 FGS-04,IN,LHD-9018C(LHD),Fire Fighting,Fire Fighting(LHD),Done
-FGS-04,IN,LHD-9018C(NA),CABLE,CABLE(NA),50%
+FGS-04,IN,LHD-9018C(NA),CABLE,CABLE(NA),Done
 FGS-04,IN,LHD-9018D(LHD),Fire Fighting,Fire Fighting(LHD),Done
-FGS-04,IN,LHD-9018D(NA),CABLE,CABLE(NA),50%
+FGS-04,IN,LHD-9018D(NA),CABLE,CABLE(NA),Done
 FGS-04,IN,LHD-9018E(LHD),Fire Fighting,Fire Fighting(LHD),Done
-FGS-04,IN,LHD-9018E(NA),CABLE,CABLE(NA),50%
+FGS-04,IN,LHD-9018E(NA),CABLE,CABLE(NA),Done
 FGS-04,IN,LHD-9018F(LHD),Fire Fighting,Fire Fighting(LHD),Done
 FGS-04,IN,LHD-9018F(NA),CABLE,CABLE(NA),Done
 FGS-02,IN,LHD-9019(LHD),Fire Fighting,Fire Fighting(LHD),Done
 FGS-02,IN,LHD-9019(NA),CABLE,CABLE(NA),Done
 FGS-04,IN,LHD-9020A(LHD),Fire Fighting,Fire Fighting(LHD),Done
-FGS-04,IN,LHD-9020A(NA),CABLE,CABLE(NA),50%
+FGS-04,IN,LHD-9020A(NA),CABLE,CABLE(NA),Done
 FGS-04,IN,LHD-9020B(LHD),Fire Fighting,Fire Fighting(LHD),Done
-FGS-04,IN,LHD-9020B(NA),CABLE,CABLE(NA),50%
+FGS-04,IN,LHD-9020B(NA),CABLE,CABLE(NA),Done
 FGS-04,IN,LHD-9020C(LHD),Fire Fighting,Fire Fighting(LHD),Done
 FGS-04,IN,LHD-9020C(NA),CABLE,CABLE(NA),Done
 FGS-04,IN,LHD-9020D(LHD),Fire Fighting,Fire Fighting(LHD),Done
@@ -14737,7 +14737,7 @@ FGS-05,IN,LHD-9023A(NA),CABLE,CABLE(NA),0%
 FGS-05,IN,LHD-9023B(LHD),Fire Fighting,Fire Fighting(LHD),0%
 FGS-05,IN,LHD-9023B(NA),CABLE,CABLE(NA),0%
 FGS-04,IN,LHD-9024(LHD),Fire Fighting,Fire Fighting(LHD),Done
-FGS-04,IN,LHD-9024(NA),CABLE,CABLE(NA),50%
+FGS-04,IN,LHD-9024(NA),CABLE,CABLE(NA),Done
 FGS-02,IN,LHD-9051A(LHD),Fire Fighting,Fire Fighting(LHD),Done
 FGS-02,IN,LHD-9051A(NA),CABLE,CABLE(NA),50%
 FGS-02,IN,LHD-9051B(LHD),Fire Fighting,Fire Fighting(LHD),Done
@@ -15620,8 +15620,8 @@ FGS-01,IN,MCP-0004(MCP),Fire Alarm,Fire Alarm(MCP),Done
 FGS-01,IN,MCP-0004(NA),CABLE,CABLE(NA),Done
 FGS-01,IN,MCP-0005(MCP),Fire Alarm,Fire Alarm(MCP),Done
 FGS-01,IN,MCP-0005(NA),CABLE,CABLE(NA),50%
-FGS-07,IN,MCP-0006,Fire Alarm,Fire Alarm(MCP),0%
-FGS-07,IN,MCP-0007,Fire Alarm,Fire Alarm(MCP),0%
+FGS-07,IN,MCP-0006,Fire Alarm,Fire Alarm(MCP),25%
+FGS-07,IN,MCP-0007,Fire Alarm,Fire Alarm(MCP),25%
 FGS-07,IN,MCP-0008,Fire Alarm,Fire Alarm(MCP),0%
 FGS-07,IN,MCP-0009,Fire Alarm,Fire Alarm(MCP),0%
 FGS-06,IN,MCP-0010(MCP),Fire Alarm,Fire Alarm(MCP),25%
@@ -17897,11 +17897,11 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Done
 1000-03,IN,PSL-6082-2(NA),CABLE,CABLE(NA),0%
 1000-03,IN,PSL-6082-2(PSL),Instrument(PSL),Instrument(PSL),Done
 4000-04,IN,PSL-71180L,Pkg,Pkg,Done
-4000-06,IN,PSL-75201A(NA),CABLE,CABLE(NA),0%
+4000-06,IN,PSL-75201A(NA),CABLE,CABLE(NA),50%
 4000-06,IN,PSL-75201A(PSL),Instrument(PSL),Instrument(PSL),50%
-4000-06,IN,PSL-75201B(NA),CABLE,CABLE(NA),0%
+4000-06,IN,PSL-75201B(NA),CABLE,CABLE(NA),50%
 4000-06,IN,PSL-75201B(PSL),Instrument(PSL),Instrument(PSL),50%
-4000-06,IN,PSL-75203A(NA),CABLE,CABLE(NA),0%
+4000-06,IN,PSL-75203A(NA),CABLE,CABLE(NA),50%
 4000-06,IN,PSL-75203A(PSL),Instrument(PSL),Instrument(PSL),25%
 2000-03,IN,PST-2047(NA),CABLE,CABLE(NA),0%
 2000-03,IN,PST-2047(PST),Instrument(PST),Instrument(PST),50%
@@ -20397,7 +20397,7 @@ BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor 
 1000-03,IN,TE-6024(NA),CABLE,CABLE(NA),Done
 1000-03,IN,TE-6024(TE),Instrument(TE),Instrument(TE),Done
 4000-03,IN,TE-6026(NA),CABLE,CABLE(NA),0%
-4000-03,IN,TE-6026(TE),Instrument(TE),Instrument(TE),50%
+4000-03,IN,TE-6026(TE),Instrument(TE),Instrument(TE),Done
 1000-03,IN,TE-6031(NA),CABLE,CABLE(NA),0%
 1000-03,IN,TE-6031(TE),Instrument(TE),Instrument(TE),Done
 1000-03,IN,TE-6034(NA),CABLE,CABLE(NA),Done
@@ -21619,7 +21619,7 @@ FGS-01,IN,TGD-0022(TGD),Fire Alarm,Fire Alarm(TGD),Done
 4000-04,IN,TT-7098(TT),Instrument(TT),Instrument(TT),Done
 7000-01,IN,TT-7150(NA),CABLE,CABLE(NA),Done
 7000-01,IN,TT-7150(TT),Instrument(TT),Instrument(TT),DONE
-4000-06,IN,TT-7502(NA),CABLE,CABLE(NA),0%
+4000-06,IN,TT-7502(NA),CABLE,CABLE(NA),50%
 4000-06,IN,TT-7502(TT),Instrument(TT),Instrument(TT),Done
 4000-06,IN,TT-75150,Instrument(TT),Instrument(TT),0%
 4000-06,IN,TT-75151,Instrument(TT),Instrument(TT),0%
@@ -22032,7 +22032,7 @@ FGS-01,IN,TGD-0022(TGD),Fire Alarm,Fire Alarm(TGD),Done
 5000-05,IN,TW-5445,Instrument(TW),Instrument(TW),50%
 1000-03,IN,TW-6001,Instrument(TW),Instrument(TW),Done
 1000-03,IN,TW-6024,Instrument(TW),Instrument(TW),Done
-4000-03,IN,TW-6026,Instrument(TW),Instrument(TW),50%
+4000-03,IN,TW-6026,Instrument(TW),Instrument(TW),Done
 1000-03,IN,TW-6031,Instrument(TW),Instrument(TW),Done
 1000-03,IN,TW-6032,Instrument(TW),Instrument(TW),Done
 1000-03,IN,TW-6034,Instrument(TW),Instrument(TW),Done
