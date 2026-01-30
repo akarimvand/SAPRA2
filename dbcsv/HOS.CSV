@@ -17,9 +17,9 @@
 120-12,SS PDCS System,11/24/2025 12:00:00 AM,12/8/2025 12:00:00 AM,,
 120-13,Cathodic Protection System,9/1/2025 12:00:00 AM,9/9/2025 12:00:00 AM,,
 120-14,Electric Heat Tracing System,12/31/2025 12:00:00 AM,,,
-120-15,Capacitor Bank,9/2/2025 12:00:00 AM,9/9/2025 12:00:00 AM,1/26/2026 12:00:00 AM,
-120-16,MV Transformer,6/10/2025 12:00:00 AM,6/26/2025 12:00:00 AM,9/22/2025 12:00:00 AM,
-120-17,LV Transformer,6/10/2025 12:00:00 AM,6/26/2025 12:00:00 AM,9/19/2025 12:00:00 AM,
+120-15,Capacitor Bank,9/2/2025 12:00:00 AM,9/9/2025 12:00:00 AM,1/26/2026 12:00:00 AM,1/30/2026 12:00:00 AM
+120-16,MV Transformer,6/10/2025 12:00:00 AM,6/26/2025 12:00:00 AM,9/22/2025 12:00:00 AM,1/30/2026 12:00:00 AM
+120-17,LV Transformer,6/10/2025 12:00:00 AM,6/26/2025 12:00:00 AM,9/19/2025 12:00:00 AM,1/30/2026 12:00:00 AM
 120-18,E/I Cabinet,8/27/2025 12:00:00 AM,9/9/2025 12:00:00 AM,,
 2000-01,Pre Reforming,12/1/2025 12:00:00 AM,1/19/2026 12:00:00 AM,,
 2000-02,Primary Reforming,12/8/2025 12:00:00 AM,1/19/2026 12:00:00 AM,,
@@ -64,13 +64,13 @@ DCS-01,Panels & Marshaling Cabinets,1/8/2026 12:00:00 AM,,,
 ES-01,Earthing & Roof Lightning System for Substation,8/2/2025 12:00:00 AM,8/19/2025 12:00:00 AM,9/24/2025 12:00:00 AM,
 ES-02,Earthing & Roof Lightning System for Control Building,9/30/2025 12:00:00 AM,11/26/2025 12:00:00 AM,12/26/2025 12:00:00 AM,
 ES-03,Earthing & Roof Lightning System for Laboratory & Yard Office,8/26/2025 12:00:00 AM,9/9/2025 12:00:00 AM,,
-ES-04,Earthing & Roof Lightning System for Analyzer House,8/5/2025 12:00:00 AM,8/19/2025 12:00:00 AM,9/7/2025 12:00:00 AM,
-ES-05,Earthing & Roof Lightning System for Warehouse,8/5/2025 12:00:00 AM,8/19/2025 12:00:00 AM,9/22/2025 12:00:00 AM,
+ES-04,Earthing & Roof Lightning System for Analyzer House,8/5/2025 12:00:00 AM,8/19/2025 12:00:00 AM,9/7/2025 12:00:00 AM,1/30/2026 12:00:00 AM
+ES-05,Earthing & Roof Lightning System for Warehouse,8/5/2025 12:00:00 AM,8/19/2025 12:00:00 AM,9/22/2025 12:00:00 AM,1/30/2026 12:00:00 AM
 ES-06,Earthing System for Area-02,1/27/2026 12:00:00 AM,,,
-ES-07,Earthing System for Area-03,10/29/2025 12:00:00 AM,11/26/2025 12:00:00 AM,1/3/2026 12:00:00 AM,
+ES-07,Earthing System for Area-03,10/29/2025 12:00:00 AM,11/26/2025 12:00:00 AM,1/3/2026 12:00:00 AM,1/30/2026 12:00:00 AM
 ES-08,Earthing System for Area-04,12/31/2025 12:00:00 AM,1/13/2026 12:00:00 AM,,
 ES-09,Earthing System for Area-05,1/5/2026 12:00:00 AM,,,
-ES-10,Earthing System for Area-06,10/29/2025 12:00:00 AM,11/26/2025 12:00:00 AM,1/1/2026 12:00:00 AM,
+ES-10,Earthing System for Area-06,10/29/2025 12:00:00 AM,11/26/2025 12:00:00 AM,1/1/2026 12:00:00 AM,1/30/2026 12:00:00 AM
 ES-11,Earthing System for Area-07,9/14/2025 12:00:00 AM,1/21/2026 12:00:00 AM,,
 FGS-01,Fire & Gas Detection for Fire Zone 1001,1/15/2026 12:00:00 AM,,,
 FGS-02,Fire & Gas Detection for Fire Zone 1002,12/31/2025 12:00:00 AM,,,
@@ -87,7 +87,7 @@ LS-02,SS-EMLP-01 for Emergency Lighting System,12/27/2025 12:00:00 AM,1/17/2026 
 LS-03,Lighting System for Substation,8/2/2025 12:00:00 AM,9/9/2025 12:00:00 AM,,
 LS-04,Lighting System for Control Building,12/14/2025 12:00:00 AM,1/21/2026 12:00:00 AM,,
 LS-05,Lighting System for Laboratory & Yard Office,,,,
-LS-06,Lighting System for Street,11/26/2025 12:00:00 AM,12/8/2025 12:00:00 AM,1/1/2026 12:00:00 AM,
+LS-06,Lighting System for Street,11/26/2025 12:00:00 AM,12/8/2025 12:00:00 AM,1/1/2026 12:00:00 AM,1/30/2026 12:00:00 AM
 LS-07,Lighting System for Area-02,,,,
 LS-08,Lighting System for Area-03,1/5/2026 12:00:00 AM,1/21/2026 12:00:00 AM,,
 LS-09,Lighting System for Area-04,1/5/2026 12:00:00 AM,,,
