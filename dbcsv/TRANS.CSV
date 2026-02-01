@@ -79,8 +79,8 @@
 120-07,0-4KV SWITCHBOARD SS-ESWB3A/B-01,FORM A,TPA,TPA (IEI),1/4/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 120-07,0-4KV SWITCHBOARD SS-ESWB3A/B-01,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/29/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 120-07,0-4KV SWITCHBOARD SS-ESWB3A/B-01,FORM A,CONTRACTOR,شرکت نیرو آرا اندیش,1/29/2026 12:00:00 AM,دریافت جهت تکمیل مدارک
-120-08,Emergency Diesel Generator SS-DG-5701,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/26/2026 12:00:00 AM,بررسی جهت تکمیل مدارک ELECTRICAL
-120-08,Emergency Diesel Generator SS-DG-5701,FORM A,PRECOM,واحد پیش راه اندازی سبلان,1/29/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
+120-07,0-4KV SWITCHBOARD SS-ESWB3A/B-01,FORM A,OWNER,واحد ساختمان نصب,1/31/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
+120-08,Emergency Diesel Generator SS-DG-5701,FORM A,CONTRACTOR,واحد اجرایی کیسون,1/26/2026 12:00:00 AM,دریافت جهت رفع نقص و تکمیل امضاء
 120-08,Emergency Diesel Generator SS-DG-5701,FORM A,PRECOM,واحد پیش راه اندازی سبلان,1/26/2026 12:00:00 AM,جهت بررسی و ثبت پانچ
 120-08,Emergency Diesel Generator SS-DG-5701,FORM A,OWNER,واحد ساختمان نصب,1/23/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 120-08,Emergency Diesel Generator SS-DG-5701,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/20/2026 12:00:00 AM,آماده سازی و ارسال
@@ -188,6 +188,9 @@
 2000-02,Primary Reforming,FORM B,CONTRACTOR,واحد H.O.S کیسون,1/19/2026 12:00:00 AM,بررسی
 2000-02,Primary Reforming,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/4/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 2000-03,Process Oxygen and Secondary Reformer,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/29/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
+2000-03,Process Oxygen and Secondary Reformer,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/30/2026 12:00:00 AM,آماده سازی و ارسال
+2000-03,Process Oxygen and Secondary Reformer,FORM A,TPA,TPA (IEI),1/31/2026 12:00:00 AM,جهت بررسی و ثبت پانچ
+2000-04,Steam Generation & Superheated Steam,FORM B,CONTRACTOR,واحدهای مربوطه,1/20/2026 12:00:00 AM,دریافت جهت رفع نقص و رفع پانچ
 2000-04,Steam Generation & Superheated Steam,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/4/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 2000-04,Steam Generation & Superheated Steam,FORM B,CONTRACTOR,واحد H.O.S کیسون,1/19/2026 12:00:00 AM,بررسی
 2000-04,Steam Generation & Superheated Steam,FORM A,PRECOM,واحد پیش راه اندازی سبلان,12/31/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
@@ -195,7 +198,6 @@
 2000-04,Steam Generation & Superheated Steam,FORM A,TPA,TPA (IEI),12/17/2025 12:00:00 AM,پانچ گذاری
 2000-04,Steam Generation & Superheated Steam,FORM A,OWNER,واحد ساختمان نصب,12/21/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 2000-04,Steam Generation & Superheated Steam,FORM A,CONTRACTOR,واحد H.O.S کیسون,12/20/2025 12:00:00 AM,بررسی
-2000-04,Steam Generation & Superheated Steam,FORM B,CONTRACTOR,واحدهای مربوطه,1/20/2026 12:00:00 AM,دریافت جهت رفع نقص و رفع پانچ
 2000-05,Gas Cooling and Separation,FORM A,CONTRACTOR,واحد H.O.S کیسون,11/30/2025 12:00:00 AM,آماده سازی و ارسال
 2000-05,Gas Cooling and Separation,FORM A,TPA,TPA (IEI),12/1/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 2000-05,Gas Cooling and Separation,FORM A,CONTRACTOR,واحد H.O.S کیسون,12/8/2025 12:00:00 AM,بررسی
@@ -499,10 +501,10 @@ ES-04,Earthing & Roof Lightning System for Analyzer House,FORM B,CONTRACTOR,وا
 ES-04,Earthing & Roof Lightning System for Analyzer House,FORM B,CONTRACTOR,شرکت نیرو آرا اندیش,8/20/2025 12:00:00 AM,دریافت جهت رفع پانچ
 ES-04,Earthing & Roof Lightning System for Analyzer House,FORM C,CONTRACTOR,واحد H.O.S کیسون,9/6/2025 12:00:00 AM,آماده سازی و ارسال فرم C
 ES-04,Earthing & Roof Lightning System for Analyzer House,FORM C,PRECOM,واحد پیش راه اندازی سبلان,9/7/2025 12:00:00 AM,بررسی جهت تائید
-ES-04,Earthing & Roof Lightning System for Analyzer House,FORM C,OWNER,واحد DCC (سبلان2),1/17/2026 12:00:00 AM,بررسی جهت تائید نهایی ( D )
 ES-04,Earthing & Roof Lightning System for Analyzer House,FORM D,OWNER,واحد DCC (سبلان2),1/30/2026 12:00:00 AM,تائید نهایی ( D )
-ES-05,Earthing & Roof Lightning System for Warehouse,FORM D,OWNER,واحد DCC (سبلان2),1/30/2026 12:00:00 AM,تائید نهایی ( D )
+ES-04,Earthing & Roof Lightning System for Analyzer House,FORM C,OWNER,واحد DCC (سبلان2),1/17/2026 12:00:00 AM,بررسی جهت تائید نهایی ( D )
 ES-05,Earthing & Roof Lightning System for Warehouse,FORM C,OWNER,واحد DCC (سبلان2),1/17/2026 12:00:00 AM,بررسی جهت تائید نهایی ( D )
+ES-05,Earthing & Roof Lightning System for Warehouse,FORM D,OWNER,واحد DCC (سبلان2),1/30/2026 12:00:00 AM,تائید نهایی ( D )
 ES-05,Earthing & Roof Lightning System for Warehouse,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,8/3/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 ES-05,Earthing & Roof Lightning System for Warehouse,FORM A,CONTRACTOR,واحد H.O.S کیسون,8/4/2025 12:00:00 AM,آماده سازی و ارسال
 ES-05,Earthing & Roof Lightning System for Warehouse,FORM A,PRECOM,واحد پیش راه اندازی سبلان,8/5/2025 12:00:00 AM,بررسی جهت تائید 
@@ -512,6 +514,10 @@ ES-05,Earthing & Roof Lightning System for Warehouse,FORM B,CONTRACTOR,شرکت 
 ES-05,Earthing & Roof Lightning System for Warehouse,FORM C,CONTRACTOR,واحد H.O.S کیسون,9/21/2025 12:00:00 AM,آماده سازی و ارسال فرم C
 ES-05,Earthing & Roof Lightning System for Warehouse,FORM C,PRECOM,واحد پیش راه اندازی سبلان,9/22/2025 12:00:00 AM,بررسی جهت تائید
 ES-06,Earthing System for Area-02,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/29/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
+ES-06,Earthing System for Area-02,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/30/2026 12:00:00 AM,آماده سازی و ارسال
+ES-06,Earthing System for Area-02,FORM A,TPA,TPA (IEI),1/31/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
+ES-07,Earthing System for Area-03,FORM C,OWNER,واحد DCC (سبلان2),1/17/2026 12:00:00 AM,بررسی جهت تائید نهایی ( D )
+ES-07,Earthing System for Area-03,FORM D,OWNER,واحد DCC (سبلان2),1/30/2026 12:00:00 AM,تائید نهایی ( D )
 ES-07,Earthing System for Area-03,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,10/27/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 ES-07,Earthing System for Area-03,FORM A,TPA,TPA (IEI),10/29/2025 12:00:00 AM,پانچ گذاری
 ES-07,Earthing System for Area-03,FORM B,CONTRACTOR,واحد H.O.S کیسون,11/26/2025 12:00:00 AM,دریافت جهت بررسی
@@ -520,8 +526,6 @@ ES-07,Earthing System for Area-03,FORM A,CONTRACTOR,واحد H.O.S کیسون,10
 ES-07,Earthing System for Area-03,FORM A,OWNER,واحد ساختمان نصب,11/7/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 ES-07,Earthing System for Area-03,FORM B,PRECOM,واحد پیش راه اندازی سبلان,11/25/2025 12:00:00 AM,جهت بررسی و ثبت پانچ
 ES-07,Earthing System for Area-03,FORM C,PRECOM,واحد پیش راه اندازی سبلان,1/3/2026 12:00:00 AM,بررسی جهت تائید
-ES-07,Earthing System for Area-03,FORM C,OWNER,واحد DCC (سبلان2),1/17/2026 12:00:00 AM,بررسی جهت تائید نهایی ( D )
-ES-07,Earthing System for Area-03,FORM D,OWNER,واحد DCC (سبلان2),1/30/2026 12:00:00 AM,تائید نهایی ( D )
 ES-08,Earthing System for Area-04,FORM B,CONTRACTOR,واحد H.O.S کیسون,1/13/2026 12:00:00 AM,بررسی
 ES-08,Earthing System for Area-04,FORM B,CONTRACTOR,شرکت نیرو آرا اندیش,1/14/2026 12:00:00 AM,دریافت جهت رفع پانچ
 ES-08,Earthing System for Area-04,FORM A,PRECOM,واحد پیش راه اندازی سبلان,1/7/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
@@ -556,6 +560,7 @@ ES-11,Earthing System for Area-07,FORM A,OWNER,واحد ساختمان نصب,1/
 ES-11,Earthing System for Area-07,FORM B,CONTRACTOR,شرکت نیرو آرا اندیش,1/22/2026 12:00:00 AM,دریافت جهت رفع پانچ
 ES-11,Earthing System for Area-07,FORM B,CONTRACTOR,واحد H.O.S کیسون,1/21/2026 12:00:00 AM,بررسی
 FGS-01,Fire & Gas Detection for Fire Zone 1001,FORM A,CONTRACTOR,شرکت نیرو آرا اندیش,1/24/2026 12:00:00 AM,دریافت جهت تکمیل مدارک
+FGS-01,Fire & Gas Detection for Fire Zone 1001,FORM A,OWNER,واحد ساختمان نصب,1/31/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 FGS-01,Fire & Gas Detection for Fire Zone 1001,FORM A,OWNER,واحد ساختمان نصب,1/19/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 FGS-01,Fire & Gas Detection for Fire Zone 1001,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/14/2026 12:00:00 AM,آماده سازی و ارسال
 FGS-01,Fire & Gas Detection for Fire Zone 1001,FORM A,TPA,TPA (IEI),1/15/2026 12:00:00 AM,پانچ گذاری
@@ -567,13 +572,13 @@ FGS-02,Fire & Gas Detection for Fire Zone 1002,FORM A,CONTRACTOR,واحد H.O.S 
 FGS-02,Fire & Gas Detection for Fire Zone 1002,FORM A,OWNER,واحد ساختمان نصب,1/9/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 FGS-02,Fire & Gas Detection for Fire Zone 1002,FORM A,CONTRACTOR,واحد H.O.S کیسون,12/30/2025 12:00:00 AM,آماده سازی و ارسال
 FGS-02,Fire & Gas Detection for Fire Zone 1002,FORM A,TPA,TPA (IEI),12/31/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
+FGS-02,Fire & Gas Detection for Fire Zone 1002,FORM B,CONTRACTOR,شرکت نیرو آرا اندیش,1/31/2026 12:00:00 AM,دریافت جهت رفع نقص و رفع پانچ
+FGS-02,Fire & Gas Detection for Fire Zone 1002,FORM B,CONTRACTOR,واحد H.O.S کیسون,1/30/2026 12:00:00 AM,بررسی
 FGS-02,Fire & Gas Detection for Fire Zone 1002,FORM A,PRECOM,واحد پیش راه اندازی سبلان,1/20/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 FGS-02,Fire & Gas Detection for Fire Zone 1002,FORM A,CONTRACTOR,شرکت نیرو آرا اندیش,1/19/2026 12:00:00 AM,دریافت جهت تکمیل مدارک
-FGS-02,Fire & Gas Detection for Fire Zone 1002,FORM B,CONTRACTOR,واحد H.O.S کیسون,1/30/2026 12:00:00 AM,بررسی
-FGS-02,Fire & Gas Detection for Fire Zone 1002,FORM B,CONTRACTOR,شرکت نیرو آرا اندیش,1/31/2026 12:00:00 AM,دریافت جهت رفع نقص و رفع پانچ
-FGS-03,Fire & Gas Detection for Fire Zone 1003,FORM B,CONTRACTOR,شرکت نیرو آرا اندیش,1/31/2026 12:00:00 AM,دریافت جهت رفع نقص و رفع پانچ
-FGS-03,Fire & Gas Detection for Fire Zone 1003,FORM B,CONTRACTOR,واحد H.O.S کیسون,1/30/2026 12:00:00 AM,بررسی
 FGS-03,Fire & Gas Detection for Fire Zone 1003,FORM A,PRECOM,واحد پیش راه اندازی سبلان,1/20/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
+FGS-03,Fire & Gas Detection for Fire Zone 1003,FORM B,CONTRACTOR,واحد H.O.S کیسون,1/30/2026 12:00:00 AM,بررسی
+FGS-03,Fire & Gas Detection for Fire Zone 1003,FORM B,CONTRACTOR,شرکت نیرو آرا اندیش,1/31/2026 12:00:00 AM,دریافت جهت رفع نقص و رفع پانچ
 FGS-03,Fire & Gas Detection for Fire Zone 1003,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/3/2026 12:00:00 AM,آماده سازی و ارسال
 FGS-03,Fire & Gas Detection for Fire Zone 1003,FORM A,TPA,TPA (IEI),1/4/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 FGS-03,Fire & Gas Detection for Fire Zone 1003,FORM A,OWNER,واحد ساختمان نصب,1/11/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
@@ -585,10 +590,10 @@ FGS-04,Fire & Gas Detection for Fire Zone 1004,FORM A,OWNER,واحد ساختم�
 FGS-04,Fire & Gas Detection for Fire Zone 1004,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/10/2026 12:00:00 AM,بررسی
 FGS-04,Fire & Gas Detection for Fire Zone 1004,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/6/2026 12:00:00 AM,آماده سازی و ارسال
 FGS-04,Fire & Gas Detection for Fire Zone 1004,FORM A,TPA,TPA (IEI),1/7/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
+FGS-04,Fire & Gas Detection for Fire Zone 1004,FORM B,CONTRACTOR,شرکت نیرو آرا اندیش,1/31/2026 12:00:00 AM,دریافت جهت رفع نقص و رفع پانچ
+FGS-04,Fire & Gas Detection for Fire Zone 1004,FORM B,CONTRACTOR,واحد H.O.S کیسون,1/30/2026 12:00:00 AM,بررسی
 FGS-04,Fire & Gas Detection for Fire Zone 1004,FORM A,PRECOM,واحد پیش راه اندازی سبلان,1/20/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 FGS-04,Fire & Gas Detection for Fire Zone 1004,FORM A,CONTRACTOR,شرکت نیرو آرا اندیش,1/19/2026 12:00:00 AM,دریافت جهت تکمیل مدارک
-FGS-04,Fire & Gas Detection for Fire Zone 1004,FORM B,CONTRACTOR,واحد H.O.S کیسون,1/30/2026 12:00:00 AM,بررسی
-FGS-04,Fire & Gas Detection for Fire Zone 1004,FORM B,CONTRACTOR,شرکت نیرو آرا اندیش,1/31/2026 12:00:00 AM,دریافت جهت رفع نقص و رفع پانچ
 FGS-05,Fire & Gas Detection for Fire Zone 1005,FORM A,CONTRACTOR,شرکت نیرو آرا اندیش,1/24/2026 12:00:00 AM,دریافت جهت تکمیل مدارک
 FGS-05,Fire & Gas Detection for Fire Zone 1005,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/14/2026 12:00:00 AM,آماده سازی و ارسال
 FGS-05,Fire & Gas Detection for Fire Zone 1005,FORM A,TPA,TPA (IEI),1/15/2026 12:00:00 AM,پانچ گذاری
@@ -704,6 +709,8 @@ TEL-02,Telecom System for Area-02,Execution Activities,CONTRACTOR,واحد اج�
 TEL-02,Telecom System for Area-02,FORM A,OWNER,واحد ساختمان نصب,1/19/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 TEL-02,Telecom System for Area-02,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/14/2026 12:00:00 AM,آماده سازی و ارسال
 TEL-02,Telecom System for Area-02,FORM A,TPA,TPA (IEI),1/15/2026 12:00:00 AM,پانچ گذاری
+TEL-02,Telecom System for Area-02,FORM A,CONTRACTOR,شرکت نیرو آرا اندیش,1/30/2026 12:00:00 AM,دریافت جهت تکمیل مدارک
+TEL-03,Telecom System for Area-03,FORM A,CONTRACTOR,شرکت نیرو آرا اندیش,1/31/2026 12:00:00 AM,دریافت جهت رفع نقص و تکمیل امضاء
 TEL-03,Telecom System for Area-03,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/10/2026 12:00:00 AM,بررسی
 TEL-03,Telecom System for Area-03,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/6/2026 12:00:00 AM,آماده سازی و ارسال
 TEL-03,Telecom System for Area-03,FORM A,TPA,TPA (IEI),1/7/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
@@ -714,6 +721,8 @@ TEL-04,Telecom System for Area-04,FORM A,OWNER,واحد ساختمان نصب,1/
 TEL-04,Telecom System for Area-04,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/6/2026 12:00:00 AM,آماده سازی و ارسال
 TEL-04,Telecom System for Area-04,FORM A,TPA,TPA (IEI),1/7/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 TEL-04,Telecom System for Area-04,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/10/2026 12:00:00 AM,بررسی
+TEL-04,Telecom System for Area-04,FORM A,CONTRACTOR,شرکت نیرو آرا اندیش,1/31/2026 12:00:00 AM,دریافت جهت رفع نقص و تکمیل امضاء
+TEL-05,Telecom System for Area-05,FORM A,CONTRACTOR,شرکت نیرو آرا اندیش,1/31/2026 12:00:00 AM,دریافت جهت رفع نقص و تکمیل امضاء
 TEL-05,Telecom System for Area-05,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/10/2026 12:00:00 AM,بررسی
 TEL-05,Telecom System for Area-05,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/4/2026 12:00:00 AM,آماده سازی و ارسال
 TEL-05,Telecom System for Area-05,FORM A,TPA,TPA (IEI),1/5/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
@@ -743,6 +752,7 @@ TEL-09,Telecom System for Control Building,FORM A,CONTRACTOR,واحد H.O.S کی
 TEL-09,Telecom System for Control Building,FORM A,CONTRACTOR,واحد H.O.S کیسون,1/6/2026 12:00:00 AM,آماده سازی و ارسال
 TEL-09,Telecom System for Control Building,FORM A,TPA,TPA (IEI),1/7/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 TEL-09,Telecom System for Control Building,FORM A,OWNER,واحد ساختمان نصب,1/11/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
+TEL-09,Telecom System for Control Building,FORM A,CONTRACTOR,شرکت نیرو آرا اندیش,1/31/2026 12:00:00 AM,دریافت جهت رفع نقص و تکمیل امضاء
 TEL-10,Telecom System for Laboratory,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/29/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 TEL-11,CCTV,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/29/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 TEL-11,CCTV,FORM A,OWNER,واحد ساختمان نصب,1/11/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
