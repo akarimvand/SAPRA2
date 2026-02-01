@@ -408,6 +408,8 @@
 7000-01,Flare System (In Site),FORM A,OWNER,واحد ساختمان نصب,11/28/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
 7000-01,Flare System (In Site),FORM B,CONTRACTOR,واحدهای مربوطه,1/22/2026 12:00:00 AM,دریافت جهت رفع نقص و رفع پانچ
 7000-01,Flare System (In Site),FORM B,CONTRACTOR,واحد H.O.S کیسون,1/21/2026 12:00:00 AM,بررسی
+7000-02,Flare System (out Site),FORM A,CONTRACTOR,واحد H.O.S کیسون,1/31/2026 12:00:00 AM,بررسی
+7000-02,Flare System (out Site),FORM A,CONTRACTOR,واحدهای مربوطه,2/1/2026 12:00:00 AM,دریافت جهت رفع نقص و رفع پانچ
 7000-02,Flare System (out Site),FORM A,CONTRACTOR,واحد اجرایی کیسون,10/18/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 7000-02,Flare System (out Site),FORM A,CONTRACTOR,واحد H.O.S کیسون,1/9/2026 12:00:00 AM,آماده سازی و ارسال
 7000-02,Flare System (out Site),FORM A,TPA,TPA (IEI),1/10/2026 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
@@ -497,8 +499,8 @@ ES-04,Earthing & Roof Lightning System for Analyzer House,FORM B,CONTRACTOR,وا
 ES-04,Earthing & Roof Lightning System for Analyzer House,FORM B,CONTRACTOR,شرکت نیرو آرا اندیش,8/20/2025 12:00:00 AM,دریافت جهت رفع پانچ
 ES-04,Earthing & Roof Lightning System for Analyzer House,FORM C,CONTRACTOR,واحد H.O.S کیسون,9/6/2025 12:00:00 AM,آماده سازی و ارسال فرم C
 ES-04,Earthing & Roof Lightning System for Analyzer House,FORM C,PRECOM,واحد پیش راه اندازی سبلان,9/7/2025 12:00:00 AM,بررسی جهت تائید
-ES-04,Earthing & Roof Lightning System for Analyzer House,FORM D,OWNER,واحد DCC (سبلان2),1/30/2026 12:00:00 AM,تائید نهایی ( D )
 ES-04,Earthing & Roof Lightning System for Analyzer House,FORM C,OWNER,واحد DCC (سبلان2),1/17/2026 12:00:00 AM,بررسی جهت تائید نهایی ( D )
+ES-04,Earthing & Roof Lightning System for Analyzer House,FORM D,OWNER,واحد DCC (سبلان2),1/30/2026 12:00:00 AM,تائید نهایی ( D )
 ES-05,Earthing & Roof Lightning System for Warehouse,FORM D,OWNER,واحد DCC (سبلان2),1/30/2026 12:00:00 AM,تائید نهایی ( D )
 ES-05,Earthing & Roof Lightning System for Warehouse,FORM C,OWNER,واحد DCC (سبلان2),1/17/2026 12:00:00 AM,بررسی جهت تائید نهایی ( D )
 ES-05,Earthing & Roof Lightning System for Warehouse,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,8/3/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
