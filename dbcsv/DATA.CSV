@@ -8,8 +8,8 @@
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MES,13,8,5,69,5,64,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,9,0,55,0,55,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,3,0,15,15,0,0
-1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,265,69,571,476,95,1
-1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,57,55,2,213,160,53,0
+1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,265,70,571,476,95,1
+1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,57,56,1,213,160,53,0
 1000,1000-04,Gas Preparation,Gas Station,PI,1,0,0,0,0,0,0
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,183,0,2194,2133,61,2
 120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,297,34,3620,3439,181,0
@@ -17,8 +17,8 @@
 120,120-04,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-03,EL,306,203,18,2150,2140,10,0
 120,120-05,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-04,EL,284,196,16,2200,2192,8,0
 120,120-06,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-05,EL,262,209,3,2476,2441,35,0
-120,120-07,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-ESWB3A/B-01,EL,158,53,57,787,514,273,2
-120,120-08,Electrical Distribution Substation,Emergency Diesel Generator SS-DG-5701,EL,7,6,0,0,0,0,0
+120,120-07,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-ESWB3A/B-01,EL,158,53,61,787,514,273,2
+120,120-08,Electrical Distribution Substation,Emergency Diesel Generator SS-DG-5701,EL,7,6,1,0,0,0,0
 120,120-08,Electrical Distribution Substation,Emergency Diesel Generator SS-DG-5701,MES,1,1,0,0,0,0,0
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,EL,29,23,3,127,55,72,0
 120,120-09,Electrical Distribution Substation,CR-UPS-01 for Instrument Supply 190/110 AC UPS,IN,2,2,0,6,6,0,0
@@ -34,20 +34,20 @@
 120,120-18,Electrical Distribution Substation,E/I Cabinet,IN,16,14,0,12,12,0,0
 2000,2000-01,Reforming,Pre Reforming,EL,2,2,0,12,12,0,0
 2000,2000-01,Reforming,Pre Reforming,MES,2,2,0,10,0,10,0
-2000,2000-01,Reforming,Pre Reforming,PI,9,8,1,40,17,23,0
-2000,2000-01,Reforming,Pre Reforming,IN,92,67,15,141,103,38,0
+2000,2000-01,Reforming,Pre Reforming,PI,9,9,0,40,17,23,0
+2000,2000-01,Reforming,Pre Reforming,IN,92,67,17,141,108,33,0
 2000,2000-02,Reforming,Primary Reforming,PI,9,9,0,49,26,23,0
 2000,2000-02,Reforming,Primary Reforming,MES,8,0,8,0,0,0,0
-2000,2000-02,Reforming,Primary Reforming,IN,879,574,205,904,807,97,0
-2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,26,21,1,76,39,37,0
+2000,2000-02,Reforming,Primary Reforming,IN,879,574,212,904,826,78,0
+2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,26,21,3,76,39,37,0
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,363,99,50,486,324,162,64
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,MES,6,0,6,0,0,0,2
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MES,11,6,5,44,3,41,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MER,2,0,2,12,2,10,0
-2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,24,23,1,72,48,24,0
-2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,233,163,52,471,359,112,23
+2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,24,24,0,72,48,24,0
+2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,233,163,54,471,370,101,23
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,7,0,84,34,50,0
-2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,187,34,394,345,49,3
+2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,187,36,394,346,48,3
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,146,112,34,0
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,4,33,4,29,0
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,23,14,9,0
@@ -79,7 +79,7 @@
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,6,9,1,8,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,6,0,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,51,49,0,176,139,37,0
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,561,269,79,513,470,43,10
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,561,269,79,513,473,40,10
 4000,4000-05,Utility,Blow Down,PI,24,24,0,46,42,4,0
 4000,4000-05,Utility,Blow Down,MES,4,4,0,31,0,31,0
 4000,4000-05,Utility,Blow Down,IN,17,13,1,19,18,1,0
@@ -138,7 +138,7 @@
 7000,7000-01,Flare,Flare System (In Site),IN,117,113,4,247,221,26,1
 7000,7000-01,Flare,Flare System (In Site),MER,2,2,0,20,8,12,0
 7000,7000-01,Flare,Flare System (In Site),MES,1,1,0,8,2,6,0
-7000,7000-01,Flare,Flare System (In Site),PI,26,26,0,100,79,21,0
+7000,7000-01,Flare,Flare System (In Site),PI,26,26,0,100,93,7,0
 7000,7000-02,Flare,Flare System (out Site),IN,28,24,3,38,25,13,0
 7000,7000-02,Flare,Flare System (out Site),PI,48,24,0,62,25,37,0
 7000,7000-02,Flare,Flare System (out Site),MES,1,1,0,2,0,2,0
@@ -187,7 +187,7 @@ LS,LS-08,Lighting System,Lighting System for Area-03,EL,440,9,205,857,829,28,0
 LS,LS-09,Lighting System,Lighting System for Area-04,EL,326,17,183,336,309,27,0
 LS,LS-10,Lighting System,Lighting System for Area-05,EL,706,61,341,273,253,20,0
 LS,LS-11,Lighting System,Lighting System for Area-06,EL,593,22,269,1217,1196,21,0
-LS,LS-12,Lighting System,Lighting System for Area-07,EL,414,413,1,910,910,0,0
+LS,LS-12,Lighting System,Lighting System for Area-07,EL,414,414,0,910,910,0,0
 LS,LS-14,Lighting System,Lighting System for Analyzer House,EL,64,7,57,180,180,0,0
 TEL,TEL-01,Telecom Systems,Telecom System for Area-01,EL,24,7,2,14,4,10,0
 TEL,TEL-02,Telecom Systems,Telecom System for Area-02,EL,61,20,21,119,103,16,0
