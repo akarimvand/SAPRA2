@@ -99,7 +99,7 @@ LS-03,EL,01-JB2-2-L3-02,Lighting Fixture,Bulkhead Lighting Fixture 30w| WP,50%
 LS-03,EL,01-JB2-2-L3-03,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-JB2-2-L3-04,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
 LS-03,EL,01-JB2-2-L3-05,Lighting Fixture,Bulkhead Lighting Fixture 40w| EX,50%
-TEL-01,EL,01-PJB1,Paging Device,Paging Junction Box,50%
+TEL-01,EL,01-PJB1,Paging Device,Paging Junction Box,Done
 LS-03,EL,01-SJB1-1,Lighting Main JB,Safety Lighting Junction Box,DONE
 LS-03,EL,01-SJB1-1-01,Lighting Fixture,Bulkhead Lighting Fixture 30w| WP,50%
 LS-03,EL,01-SJB1-1-02,Lighting Fixture,Bulkhead Lighting Fixture 30w| WP,50%
@@ -115,12 +115,12 @@ LS-05,EL,01-SJB1-1-11,Lighting Fixture,Bulkhead Lighting Fixture Energy Saving L
 LS-04,EL,01-SJB1-1-CR,Lighting Cable,Safety Junction Box,67%
 LS-03,EL,01-SJB1-1-FJB,Lighting Cable,Safety Lighting Junction Box,33%
 LS-05,EL,01-SJB1-1-LAB,Lighting Cable,Safety Junction Box,33%
-TEL-01,EL,01-SP-01,Paging Device,Loud Speaker- 25W,50%
-TEL-01,EL,01-SP-02,Paging Device,Loud Speaker- 25W,50%
-TEL-01,EL,01-SP-03,Paging Device,Loud Speaker- 25W,50%
-TEL-01,EL,01-SP-04,Paging Device,Loud Speaker- 25W,50%
-TEL-01,EL,01-SP-05,Paging Device,Loud Speaker- 25W,50%
-TEL-01,EL,01-SP-06,Paging Device,Loud Speaker- 25W,50%
+TEL-01,EL,01-SP-01,Paging Device,Loud Speaker- 25W,Done
+TEL-01,EL,01-SP-02,Paging Device,Loud Speaker- 25W,Done
+TEL-01,EL,01-SP-03,Paging Device,Loud Speaker- 25W,Done
+TEL-01,EL,01-SP-04,Paging Device,Loud Speaker- 25W,Done
+TEL-01,EL,01-SP-05,Paging Device,Loud Speaker- 25W,Done
+TEL-01,EL,01-SP-06,Paging Device,Loud Speaker- 25W,Done
 LS-07,EL,02-AWLP1-1-L1-01,Lighting Fixture,Aircraft Warning Lighting Fixture,0%
 LS-07,EL,02-AWLP1-1-L1-01-FJB01,Lighting Cable,Aircraft Warning Lighting Fixture,0%
 LS-07,EL,02-AWLP1-2-L1-01,Lighting Fixture,Aircraft Warning Lighting Fixture,0%
@@ -1154,25 +1154,25 @@ LS-08,EL,02-SJB1-2-58-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,0%
 LS-07,EL,02-SJB1-2-59,Lighting Fixture,LED Luminaires Fixture 20w| EX,50%
 LS-07,EL,02-SJB1-2-59-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
 TEL-02,EL,02-SP-01,Paging Device,Loud Speaker - 25W|EX,0%
-TEL-02,EL,02-SP-02,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-02,EL,02-SP-03,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-02,EL,02-SP-04,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-02,EL,02-SP-05,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-02,EL,02-SP-06,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-02,EL,02-SP-07,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-02,EL,02-SP-08,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-02,EL,02-SP-09,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-02,EL,02-SP-10,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-02,EL,02-SP-11,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-02,EL,02-SP-12,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-02,EL,02-SP-13,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-02,EL,02-SP-14,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-02,EL,02-SP-15,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-02,EL,02-SP-16,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-02,EL,02-SP-17,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-02,EL,02-SP-18,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-02,EL,02-SP-19,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-02,EL,02-SP-20,Paging Device,Loud Speaker - 25W|EX,50%
+TEL-02,EL,02-SP-02,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-02,EL,02-SP-03,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-02,EL,02-SP-04,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-02,EL,02-SP-05,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-02,EL,02-SP-06,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-02,EL,02-SP-07,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-02,EL,02-SP-08,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-02,EL,02-SP-09,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-02,EL,02-SP-10,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-02,EL,02-SP-11,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-02,EL,02-SP-12,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-02,EL,02-SP-13,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-02,EL,02-SP-14,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-02,EL,02-SP-15,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-02,EL,02-SP-16,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-02,EL,02-SP-17,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-02,EL,02-SP-18,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-02,EL,02-SP-19,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-02,EL,02-SP-20,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
 LS-08,EL,03-AWLP1-1-L3-01,Lighting Fixture,Aircraft Warning Lighting Fixture,0%
 LS-08,EL,03-AWLP1-1-L3-01-FJB01,Lighting Cable,Aircraft Warning Lighting Fixture,0%
 LS-08,EL,03-AWLP1-2-L3-01,Lighting Fixture,Aircraft Warning Lighting Fixture,0%
@@ -1567,9 +1567,9 @@ LS-11,EL,03-JB2-2-L3-09-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
 LS-11,EL,03-JB2-2-L3-10,Lighting Fixture,LED Luminaires Fixture 20w| EX,50%
 LS-11,EL,03-JB2-2-L3-10-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
 LS-14,EL,03-JB2-2-L3-11-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,33%
-TEL-03,EL,03-PJB1,Paging Device,Paging Junction Box - EX,50%
-TEL-03,EL,03-PJB2,Paging Device,Paging Junction Box - EX,50%
-TEL-03,EL,03-PJB3,Paging Device,Paging Junction Box - EX,50%
+TEL-03,EL,03-PJB1,PAGING DEVICE_A,Paging Junction Box - EX,50%
+TEL-03,EL,03-PJB2,PAGING DEVICE_A,Paging Junction Box - EX,50%
+TEL-03,EL,03-PJB3,PAGING DEVICE_A,Paging Junction Box - EX,50%
 LS-08,EL,03-RJB1_1-1,Lighting Main JB,Receptacle  Junction Box,0%
 LS-08,EL,03-RJB1_1-1-L1-01,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,Done
 LS-08,EL,03-RJB1_1-1-L1-01-FJB01,Lighting Cable,Outlet 3-Pole| 230v| 16A| EX,0%
@@ -1641,18 +1641,18 @@ LS-08,EL,03-SJB1-3-20,Lighting Fixture,LED Luminaires Fixture 20w| EX,50%
 LS-08,EL,03-SJB1-3-20-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
 LS-08,EL,03-SJB1-3-21,Lighting Fixture,LED Luminaires Fixture 20w| EX,50%
 LS-08,EL,03-SJB1-3-21-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
-TEL-03,EL,03-SP-01,Paging Device,Loud Speaker - 25W|EX,50%
+TEL-03,EL,03-SP-01,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
 TEL-03,EL,03-SP-02,Paging Device,Loud Speaker - 25W|EX,0%
-TEL-03,EL,03-SP-03,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-03,EL,03-SP-04,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-03,EL,03-SP-05,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-03,EL,03-SP-06,Paging Device,Loud Speaker - 25W|EX,50%
+TEL-03,EL,03-SP-03,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-03,EL,03-SP-04,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-03,EL,03-SP-05,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-03,EL,03-SP-06,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
 TEL-03,EL,03-SP-07,Paging Device,Loud Speaker - 25W|EX,0%
-TEL-03,EL,03-SP-08,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-03,EL,03-SP-09,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-03,EL,03-SP-10,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-03,EL,03-SP-11,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-03,EL,03-SP-12,Paging Device,Loud Speaker - 25W|EX,50%
+TEL-03,EL,03-SP-08,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-03,EL,03-SP-09,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-03,EL,03-SP-10,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-03,EL,03-SP-11,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-03,EL,03-SP-12,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
 LS-09,EL,04-EJB1_1-3,Lighting Main JB,Emergency Lighting Junction Box,0%
 LS-09,EL,04-EJB1_1-3-L1-01,Lighting Fixture,Fluorescent Fixture 2*18w- WP,50%
 LS-09,EL,04-EJB1_1-3-L1-01-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,33%
@@ -2028,17 +2028,17 @@ LS-07,EL,04-SJB1-4-30,Lighting Fixture,LED Luminaires Fixture Exit 15w,50%
 LS-07,EL,04-SJB1-4-30-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
 LS-07,EL,04-SJB1-4-31,Lighting Fixture,LED Luminaires Fixture 40w| EX,50%
 LS-07,EL,04-SJB1-4-31-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
-TEL-04,EL,04-SP-01,Paging Device,Loud Speaker- 25W,50%
-TEL-04,EL,04-SP-02,Paging Device,Loud Speaker- 25W,50%
-TEL-04,EL,04-SP-03,Paging Device,Loud Speaker- 25W,50%
-TEL-04,EL,04-SP-04,Paging Device,Loud Speaker- 25W,50%
-TEL-04,EL,04-SP-05,Paging Device,Loud Speaker- 25W,50%
-TEL-04,EL,04-SP-06,Paging Device,Loud Speaker- 25W,50%
-TEL-04,EL,04-SP-07,Paging Device,Loud Speaker- 25W,50%
-TEL-04,EL,04-SP-08,Paging Device,Loud Speaker- 25W,50%
-TEL-04,EL,04-SP-09,Paging Device,Loud Speaker- 25W,50%
-TEL-04,EL,04-SP-10,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-04,EL,04-SP-11,Paging Device,Loud Speaker - 25W|EX,50%
+TEL-04,EL,04-SP-01,PAGING DEVICE_A,Loud Speaker- 25W,50%
+TEL-04,EL,04-SP-02,PAGING DEVICE_A,Loud Speaker- 25W,50%
+TEL-04,EL,04-SP-03,PAGING DEVICE_A,Loud Speaker- 25W,50%
+TEL-04,EL,04-SP-04,PAGING DEVICE_A,Loud Speaker- 25W,50%
+TEL-04,EL,04-SP-05,PAGING DEVICE_A,Loud Speaker- 25W,50%
+TEL-04,EL,04-SP-06,PAGING DEVICE_A,Loud Speaker- 25W,50%
+TEL-04,EL,04-SP-07,PAGING DEVICE_A,Loud Speaker- 25W,50%
+TEL-04,EL,04-SP-08,PAGING DEVICE_A,Loud Speaker- 25W,50%
+TEL-04,EL,04-SP-09,PAGING DEVICE_A,Loud Speaker- 25W,50%
+TEL-04,EL,04-SP-10,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-04,EL,04-SP-11,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
 LS-10,EL,05-EJB1_1-5,Lighting Main JB,Emergency Lighting Junction Box,0%
 LS-10,EL,05-EJB1_1-5-L1-01,Lighting Fixture,LED Luminaires Fixture 20w| EX,50%
 LS-10,EL,05-EJB1_1-5-L1-01-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
@@ -2506,10 +2506,10 @@ LS-10,EL,05-JB3-7-L3-11,Lighting Fixture,LED Luminaires Fixture 40w| EX,50%
 LS-10,EL,05-JB3-7-L3-11-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,33%
 LS-10,EL,05-JB3-7-L3-12,Lighting Fixture,LED Luminaires Fixture 20w| EX,50%
 LS-10,EL,05-JB3-7-L3-12-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
-TEL-05,EL,05-PJB1,Paging Device,Paging Junction Box - EX,50%
-TEL-05,EL,05-PJB2,Paging Device,Paging Junction Box - EX,50%
-TEL-05,EL,05-PJB3,Paging Device,Paging Junction Box - EX,50%
-TEL-05,EL,05-PJB5,Paging Device,Paging Junction Box - EX,50%
+TEL-05,EL,05-PJB1,PAGING DEVICE_A,Paging Junction Box - EX,50%
+TEL-05,EL,05-PJB2,PAGING DEVICE_A,Paging Junction Box - EX,50%
+TEL-05,EL,05-PJB3,PAGING DEVICE_A,Paging Junction Box - EX,50%
+TEL-05,EL,05-PJB5,PAGING DEVICE_A,Paging Junction Box - EX,50%
 LS-10,EL,05-RJB1_1-3,Lighting Main JB,Receptacle  Junction Box,0%
 LS-10,EL,05-RJB1_1-3-L1-01,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,Done
 LS-10,EL,05-RJB1_1-3-L1-01-FJB01,Lighting Cable,Outlet 3-Pole| 230v| 16A| EX,33%
@@ -2603,7 +2603,7 @@ LS-10,EL,05-RJB2_1-4-L1-02-FJB01,Lighting Cable,Outlet 3-Pole| 230v| 16A| EX,33%
 LS-10,EL,05-RJB2_1-4-L2-01,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,Done
 LS-10,EL,05-RJB2_1-4-L2-01-FJB01,Lighting Cable,Outlet 3-Pole| 230v| 16A| EX,33%
 LS-10,EL,05-RJB2_1-4-L2-02,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,Done
-LS-10,EL,05-RJB2_1-4-L2-02-FJB01,Lighting Cable,Outlet 3-Pole| 230v| 16A| EX,33%
+LS-10,EL,05-RJB2_1-4-L2-02-FJB01,Lighting Cable,Outlet 3-Pole| 230v| 16A| EX,67%
 LS-10,EL,05-RJB2_2-4,Lighting Main JB,Receptacle  Junction Box,0%
 LS-10,EL,05-RJB2_2-4-L1-01,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,Done
 LS-10,EL,05-RJB2_2-4-L1-01-FJB01,Lighting Cable,Outlet 3-Pole| 230v| 16A| EX,33%
@@ -2752,30 +2752,30 @@ LS-10,EL,05-SJB1-5-58,Lighting Fixture,LED Luminaires Fixture 20w| EX,50%
 LS-10,EL,05-SJB1-5-58-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,33%
 LS-10,EL,05-SJB1-5-59,Lighting Fixture,LED Luminaires Fixture Exit 15w,50%
 LS-10,EL,05-SJB1-5-59-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,33%
-TEL-05,EL,05-SP-01,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-05,EL,05-SP-02,Paging Device,Loud Speaker - 25W|EX,50%
+TEL-05,EL,05-SP-01,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-05,EL,05-SP-02,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
 TEL-05,EL,05-SP-03,Paging Device,Loud Speaker - 25W|EX,0%
 TEL-05,EL,05-SP-04,Paging Device,Loud Speaker - 25W|EX,0%
-TEL-05,EL,05-SP-05,Paging Device,Loud Speaker - 25W|EX,50%
+TEL-05,EL,05-SP-05,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
 TEL-05,EL,05-SP-06,Paging Device,Loud Speaker - 25W|EX,0%
 TEL-05,EL,05-SP-07,Paging Device,Loud Speaker - 25W|EX,0%
-TEL-05,EL,05-SP-08,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-05,EL,05-SP-09,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-05,EL,05-SP-10,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-05,EL,05-SP-11,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-05,EL,05-SP-12,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-05,EL,05-SP-13,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-05,EL,05-SP-14,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-05,EL,05-SP-15,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-05,EL,05-SP-16,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-05,EL,05-SP-17,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-05,EL,05-SP-18,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-05,EL,05-SP-19,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-05,EL,05-SP-20,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-05,EL,05-SP-21,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-05,EL,05-SP-22,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-05,EL,05-SP-23,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-05,EL,05-SP-24,Paging Device,Loud Speaker - 25W|EX,50%
+TEL-05,EL,05-SP-08,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-05,EL,05-SP-09,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-05,EL,05-SP-10,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-05,EL,05-SP-11,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-05,EL,05-SP-12,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-05,EL,05-SP-13,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-05,EL,05-SP-14,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-05,EL,05-SP-15,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-05,EL,05-SP-16,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-05,EL,05-SP-17,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-05,EL,05-SP-18,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-05,EL,05-SP-19,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-05,EL,05-SP-20,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-05,EL,05-SP-21,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-05,EL,05-SP-22,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-05,EL,05-SP-23,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-05,EL,05-SP-24,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
 LS-11,EL,06-AWLP1-1-L1-01,Lighting Fixture,Aircraft Warning Lighting Fixture,0%
 LS-11,EL,06-AWLP1-1-L1-01-FJB01,Lighting Cable,Aircraft Warning Lighting Fixture,0%
 LS-11,EL,06-AWLP1-2-L1-01,Lighting Fixture,Aircraft Warning Lighting Fixture,0%
@@ -3248,9 +3248,9 @@ LS-11,EL,06-JB2-4-L3-04,Lighting Fixture,LED Luminaires Fixture 40w| EX,50%
 LS-11,EL,06-JB2-4-L3-04-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
 LS-11,EL,06-JB2-4-L3-05,Lighting Fixture,LED Luminaires Fixture 20w| EX,50%
 LS-11,EL,06-JB2-4-L3-05-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
-TEL-06,EL,06-PJB1,Paging Device,Paging Junction Box - EX,50%
-TEL-06,EL,06-PJB2,Paging Device,Paging Junction Box - EX,50%
-TEL-06,EL,06-PJB3,Paging Device,Paging Junction Box - EX,50%
+TEL-06,EL,06-PJB1,PAGING DEVICE_A,Paging Junction Box - EX,50%
+TEL-06,EL,06-PJB2,PAGING DEVICE_A,Paging Junction Box - EX,50%
+TEL-06,EL,06-PJB3,PAGING DEVICE_A,Paging Junction Box - EX,50%
 LS-11,EL,06-RJB1_1-2,Lighting Main JB,Receptacle  Junction Box,0%
 LS-11,EL,06-RJB1_1-2-L1-01,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,Done
 LS-11,EL,06-RJB1_1-2-L1-01-FJB01,Lighting Cable,Outlet 3-Pole| 230v| 16A| EX,0%
@@ -3354,20 +3354,20 @@ LS-07,EL,06-SJB1-6-27,Lighting Fixture,LED Luminaires Fixture 40w| EX,50%
 LS-07,EL,06-SJB1-6-27-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
 LS-07,EL,06-SJB1-6-28,Lighting Fixture,LED Luminaires Fixture 40w| EX,50%
 LS-07,EL,06-SJB1-6-28-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
-TEL-06,EL,06-SP-01,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-06,EL,06-SP-02,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-06,EL,06-SP-03,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-06,EL,06-SP-04,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-06,EL,06-SP-05,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-06,EL,06-SP-06,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-06,EL,06-SP-07,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-06,EL,06-SP-08,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-06,EL,06-SP-09,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-06,EL,06-SP-10,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-06,EL,06-SP-11,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-06,EL,06-SP-12,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-06,EL,06-SP-13,Paging Device,Loud Speaker - 25W|EX,50%
-TEL-06,EL,06-SP-14,Paging Device,Loud Speaker - 25W|EX,50%
+TEL-06,EL,06-SP-01,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-06,EL,06-SP-02,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-06,EL,06-SP-03,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-06,EL,06-SP-04,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-06,EL,06-SP-05,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-06,EL,06-SP-06,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-06,EL,06-SP-07,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-06,EL,06-SP-08,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-06,EL,06-SP-09,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-06,EL,06-SP-10,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-06,EL,06-SP-11,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-06,EL,06-SP-12,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-06,EL,06-SP-13,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
+TEL-06,EL,06-SP-14,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
 LS-12,EL,07-EJB1_1-1,LIGHTING MAIN JB(AREA-07),Emergency Lighting Junction Box,Done
 LS-12,EL,07-EJB1_1-1-L1-01,Lighting Fixture(12),LED Luminaires Fixture 20w| EX,Done
 LS-12,EL,07-EJB1_1-1-L1-01-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
@@ -5525,7 +5525,7 @@ LS-14,EL,AH-EJB1-FJB01,Lighting Cable,Cable of Emergency Lighting Junction Box,3
 LS-14,EL,AH-EJB2,Lighting Main JB,Emergency Lighting Junction Box,DONE
 LS-14,EL,AH-EJB2-FJB01,Lighting Cable,Cable of Emergency Lighting Junction Box,33%
 TEL-12,EL,AH-IS-01,TELECOM DEVICE(A),Intercom Station Without Hood - EX,Done
-TEL-12,EL,AH-SP-01,Paging Device,Loud Speaker - 25W|EX,50%
+TEL-12,EL,AH-SP-01,Paging Device,Loud Speaker - 25W|EX,Done
 TEL-12,EL,AH-TEL-01,TELECOM DEVICE(A),Telephone Station Without Hood- EX,0%
 TEL-12,EL,AH-TJB1,TELECOM DEVICE(A),Telephone Junction Box - EX,Done
 120-13,EL,AJB01-DW01,Cathodic Protection,Cable 1x16,DONE
@@ -6214,14 +6214,14 @@ TEL-09,EL,CR-MTJB1,TELECOM DEVICE(A),Main Telephone Junction Box,0%
 TEL-09,EL,CR-PJB1,Paging Device,Paging Junction Box,0%
 DCS-01,IN,CR-RBS-01,JUNCTION BOX,JUNCTION BOX(PANEL),0%
 120-07,EL,CR-SIP-01,PANEL(EL),Fire & Gas Detection System Siren Panel,0%
-TEL-09,EL,CR-SP-01,Paging Device,Loud Speaker Celling Mounted- 6W,50%
-TEL-09,EL,CR-SP-02,Paging Device,Loud Speaker Celling Mounted- 6W,50%
+TEL-09,EL,CR-SP-01,Paging Device,Loud Speaker Celling Mounted- 6W,Done
+TEL-09,EL,CR-SP-02,Paging Device,Loud Speaker Celling Mounted- 6W,Done
 TEL-09,EL,CR-SP-03,Paging Device,Loud Speaker Celling Mounted- 6W,0%
-TEL-09,EL,CR-SP-04,Paging Device,Loud Speaker Celling Mounted- 6W,50%
-TEL-09,EL,CR-SP-05,Paging Device,Loud Speaker Celling Mounted- 6W,50%
-TEL-09,EL,CR-SP-06,Paging Device,Loud Speaker Celling Mounted- 6W,50%
-TEL-09,EL,CR-SP-07,Paging Device,Loud Speaker Celling Mounted- 6W,50%
-TEL-09,EL,CR-SP-08,Paging Device,Loud Speaker Celling Mounted- 6W,50%
+TEL-09,EL,CR-SP-04,Paging Device,Loud Speaker Celling Mounted- 6W,Done
+TEL-09,EL,CR-SP-05,Paging Device,Loud Speaker Celling Mounted- 6W,Done
+TEL-09,EL,CR-SP-06,Paging Device,Loud Speaker Celling Mounted- 6W,Done
+TEL-09,EL,CR-SP-07,Paging Device,Loud Speaker Celling Mounted- 6W,Done
+TEL-09,EL,CR-SP-08,Paging Device,Loud Speaker Celling Mounted- 6W,Done
 TEL-09,EL,CR-SP-09,Paging Device,Loud Speaker Celling Mounted- 6W,0%
 TEL-09,EL,CR-TEL-01,TELECOM DEVICE(A),Telephone Station Without Hood,0%
 TEL-09,EL,CR-TEL-02,TELECOM DEVICE(A),Telephone Station Without Hood- EX,0%
@@ -10581,18 +10581,18 @@ LS-01,EL,EBP-CR-LP-01,Power Cable B,Control Room Normal Lighting & Socket Outlet
 120-03,EL,EBP-CR-UPS-01A_2,Power Cable B,110V AC UPS-A- CR-UPS-01A,Done
 120-07,EL,EBP-CR-UPS-01B_1,Power Cable B,110V AC UPS-B- CR-UPS-01B,33%
 120-07,EL,EBP-CR-UPS-01B_2,Power Cable B,110V AC UPS-B- CR-UPS-01B,33%
-120-07,EL,EBP-DG-5701_1_1,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel,0%
-120-07,EL,EBP-DG-5701_1_2,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel,0%
-120-07,EL,EBP-DG-5701_1_3,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel,0%
-120-07,EL,EBP-DG-5701_1_4,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel,0%
-120-07,EL,EBP-DG-5701_1_5,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel,0%
-120-07,EL,EBP-DG-5701_1_6,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel,0%
-120-08,EL,EBP-DG-5701_2_1,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,0%
-120-08,EL,EBP-DG-5701_2_2,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,0%
-120-08,EL,EBP-DG-5701_2_3,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,0%
-120-08,EL,EBP-DG-5701_2_4,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,0%
-120-08,EL,EBP-DG-5701_2_5,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,0%
-120-08,EL,EBP-DG-5701_2_6,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,0%
+120-07,EL,EBP-DG-5701_1_1,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel,Done
+120-07,EL,EBP-DG-5701_1_2,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel,Done
+120-07,EL,EBP-DG-5701_1_3,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel,Done
+120-07,EL,EBP-DG-5701_1_4,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel,Done
+120-07,EL,EBP-DG-5701_1_5,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel,Done
+120-07,EL,EBP-DG-5701_1_6,Power Cable B,Emergency Diesel Generator DG-5701- ACB Panel,Done
+120-08,EL,EBP-DG-5701_2_1,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,Done
+120-08,EL,EBP-DG-5701_2_2,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,Done
+120-08,EL,EBP-DG-5701_2_3,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,Done
+120-08,EL,EBP-DG-5701_2_4,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,Done
+120-08,EL,EBP-DG-5701_2_5,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,Done
+120-08,EL,EBP-DG-5701_2_6,Power Cable B,Emergency Diesel Generator DG-5701- Main Terminal Box,Done
 120-07,EL,EBP-DG5701-CP-01,Power Cable B,Emergency Diesel Generator Start Panel- DG5701-CP-01 (Power Supply),0%
 120-07,EL,EBP-DG5701-CP-02,Power Cable B,Emergency Diesel Generator Fuel Pump Panel- DG5701-CP-02 (Power Supply),0%
 120-09,EL,EBP-F&G-UCP-01_1,Power Cable B,F&G System Panel- F&G-UCP-01,Done
@@ -13046,7 +13046,7 @@ FGS-05,IN,FS-0016(NA),CABLE,CABLE(NA),0%
 4000-04,IN,FT-6060(FT),Instrument(FT),Instrument(FT),50%
 4000-04,IN,FT-6060(NA),CABLE,CABLE(NA),Done
 1000-03,IN,FT-6068(FT),Instrument(FT),Instrument(FT),50%
-1000-03,IN,FT-6068(NA),CABLE,CABLE(NA),0%
+1000-03,IN,FT-6068(NA),CABLE,CABLE(NA),Done
 1000-03,IN,FT-6081(FT),Instrument(FT),Instrument(FT),Done
 1000-03,IN,FT-6081(NA),CABLE,CABLE(NA),Done
 1000-03,IN,FT-6082(FT),Instrument(FT),Instrument(FT),Done
@@ -13287,11 +13287,11 @@ DCS-01,IN,FTADO16-M04R-E,CABLE,CABLE(NA),0%
 4000-04,IN,FV-6059-2(NA),CABLE,CABLE(NA),0%
 1000-03,IN,FV-6070(FV),Instrument(FV),Instrument(FV),50%
 1000-03,IN,FV-6070(NA),CABLE,CABLE(NA),Done
-1000-03,IN,FV-6081(FV),Instrument(FV),Instrument(FV),50%
+1000-03,IN,FV-6081(FV),Instrument(FV),Instrument(FV),75%
 1000-03,IN,FV-6081(NA),CABLE,CABLE(NA),Done
-1000-03,IN,FV-6082(FV),Instrument(FV),Instrument(FV),50%
+1000-03,IN,FV-6082(FV),Instrument(FV),Instrument(FV),75%
 1000-03,IN,FV-6082(NA),CABLE,CABLE(NA),Done
-1000-03,IN,FV-6086(FV),Instrument(FV),Instrument(FV),50%
+1000-03,IN,FV-6086(FV),Instrument(FV),Instrument(FV),75%
 1000-03,IN,FV-6086(NA),CABLE,CABLE(NA),Done
 4000-06,IN,FV-7091(FV),Instrument(FV),Instrument(FV),Done
 4000-06,IN,FV-7091(NA),CABLE,CABLE(NA),Done
@@ -13945,7 +13945,7 @@ DCS-01,IN,JIAE-7001,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
 DCS-01,IN,JIAE-7101,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),Done
 DCS-01,IN,JIAE-80003A,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 DCS-01,IN,JIAE-80003B,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
-DCS-01,IN,JIAE-8001,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
+DCS-01,IN,JIAE-8001,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),Done
 DCS-01,IN,JIAF-1001,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
 DCS-01,IN,JIAF-2001,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
 DCS-01,IN,JIAF-2002,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),DONE
@@ -14962,7 +14962,7 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 2000-04,IN,LST-2372B(NA),CABLE,CABLE(NA),Done
 2000-04,IN,LST-2372C(LST),Instrument(LST),Instrument(LST),25%
 2000-04,IN,LST-2372C(NA),CABLE,CABLE(NA),Done
-2000-05,IN,LST-2404(LST),Instrument(LST),Instrument(LST),75%
+2000-05,IN,LST-2404(LST),Instrument(LST),Instrument(LST),Done
 2000-05,IN,LST-2404(NA),CABLE,CABLE(NA),Done
 2000-05,IN,LST-2442(LST),Instrument(LST),Instrument(LST),Done
 2000-05,IN,LST-2442(NA),CABLE,CABLE(NA),Done
@@ -15017,11 +15017,11 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 1000-03,IN,LST-6022-2(LST),Instrument(LST),Instrument(LST),Done
 1000-03,IN,LST-6022-2(NA),CABLE,CABLE(NA),Done
 1000-03,IN,LST-6051A(LST),Instrument(LST),Instrument(LST),75%
-1000-03,IN,LST-6051A(NA),CABLE,CABLE(NA),0%
+1000-03,IN,LST-6051A(NA),CABLE,CABLE(NA),Done
 1000-03,IN,LST-6051B(LST),Instrument(LST),Instrument(LST),75%
 1000-03,IN,LST-6051B(NA),CABLE,CABLE(NA),50%
 1000-03,IN,LST-6051C(LST),Instrument(LST),Instrument(LST),75%
-1000-03,IN,LST-6051C(NA),CABLE,CABLE(NA),0%
+1000-03,IN,LST-6051C(NA),CABLE,CABLE(NA),Done
 1000-03,IN,LST-6083(LT),Instrument(LT),Instrument(LT),Done
 1000-03,IN,LST-6083(NA),CABLE,CABLE(NA),0%
 4000-04,IN,LST-7091A(LST),Instrument(LST),Instrument(LST),Done
@@ -15045,7 +15045,7 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 3000-04,IN,LT-20202,Instrument(LT),Instrument(LT),0%
 2000-04,IN,LT-2373(LT),Instrument(LT),Instrument(LT),75%
 2000-04,IN,LT-2373(NA),CABLE,CABLE(NA),Done
-2000-05,IN,LT-2403(LT),Instrument(LT),Instrument(LT),75%
+2000-05,IN,LT-2403(LT),Instrument(LT),Instrument(LT),Done
 2000-05,IN,LT-2403(NA),CABLE,CABLE(NA),Done
 2000-05,IN,LT-2419(LT),Instrument(LT),Instrument(LT),75%
 2000-05,IN,LT-2419(NA),CABLE,CABLE(NA),Done
@@ -15229,13 +15229,13 @@ DCS-01,IN,LP-H2001-01,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 3000-03,IN,LV-3192(NA),CABLE,CABLE(NA),Done
 5000-01,IN,LV-5070(LV),Instrument(LV),Instrument(LV),Done
 5000-01,IN,LV-5070(NA),CABLE,CABLE(NA),Done
-1000-03,IN,LV-6021A(LV),Instrument(LV),Instrument(LV),50%
-1000-03,IN,LV-6021A(NA),CABLE,CABLE(NA),0%
+1000-03,IN,LV-6021A(LV),Instrument(LV),Instrument(LV),75%
+1000-03,IN,LV-6021A(NA),CABLE,CABLE(NA),Done
 1000-03,IN,LV-6021B(LV),Instrument(LV),Instrument(LV),Done
 1000-03,IN,LV-6021B(NA),CABLE,CABLE(NA),Done
-1000-03,IN,LV-6051(LV),Instrument(LV),Instrument(LV),50%
-1000-03,IN,LV-6051(NA),CABLE,CABLE(NA),0%
-1000-03,IN,LV-6082(LV),Instrument(LV),Instrument(LV),50%
+1000-03,IN,LV-6051(LV),Instrument(LV),Instrument(LV),75%
+1000-03,IN,LV-6051(NA),CABLE,CABLE(NA),Done
+1000-03,IN,LV-6082(LV),Instrument(LV),Instrument(LV),75%
 1000-03,IN,LV-6082(NA),CABLE,CABLE(NA),50%
 4000-05,IN,LV-7251(LV),Instrument(LV),Instrument(LV),0%
 4000-05,IN,LV-7251(NA),CABLE,CABLE(NA),0%
@@ -17045,8 +17045,8 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 1000-01,IN,PG-1046,Instrument(PG),Instrument(PG),Done
 1000-01,IN,PG-1047,Instrument(PGB),Instrument(PG),Done
 4000-01,IN,PG-1048,Instrument(PG),Instrument(PG),Done
-2000-03,IN,PG-2002,Instrument(PG),Instrument(PG),50%
-2000-03,IN,PG-2003,Instrument(PG),Instrument(PG),50%
+2000-03,IN,PG-2002,Instrument(PG),Instrument(PG),Done
+2000-03,IN,PG-2003,Instrument(PG),Instrument(PG),Done
 2000-02,IN,PG-20101,Instrument(PG),Instrument(PG),Done
 2000-02,IN,PG-20102,Instrument(PG),Instrument(PG),Done
 2000-02,IN,PG-20103,Instrument(PG),Instrument(PG),Done
@@ -17088,13 +17088,13 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 4000-02,IN,PG-2075,Instrument(PG),Instrument(PG),50%
 2000-01,IN,PG-2096,Instrument(PG),Instrument(PG),Done
 4000-01,IN,PG-2100,Instrument(PG),Instrument(PG),Done
-2000-01,IN,PG-2101,Instrument(PG),Instrument(PG),50%
+2000-01,IN,PG-2101,Instrument(PG),Instrument(PG),Done
 2000-02,IN,PG-2116,Instrument(PG),Instrument(PG),Done
 2000-02,IN,PG-2120,Instrument(PG),Instrument(PG),50%
 2000-02,IN,PG-2164,Instrument(PG),Instrument(PG),Done
 2000-02,IN,PG-2170,Instrument(PG),Instrument(PG),50%
-2000-01,IN,PG-2230,Instrument(PG),Instrument(PG),50%
-2000-01,IN,PG-2231,Instrument(PG),Instrument(PG),50%
+2000-01,IN,PG-2230,Instrument(PG),Instrument(PG),Done
+2000-01,IN,PG-2231,Instrument(PG),Instrument(PG),Done
 2000-02,IN,PG-2251,Instrument(PG),Instrument(PG),50%
 2000-02,IN,PG-2266,Instrument(PG),Instrument(PG),50%
 2000-02,IN,PG-2267,Instrument(PG),Instrument(PG),Done
@@ -17137,7 +17137,7 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 2000-03,IN,PG-2306,Instrument(PG),Instrument(PG),0%
 2000-04,IN,PG-2362,Instrument(PG),Instrument(PG),50%
 4000-02,IN,PG-2364,Instrument(PG),Instrument(PG),50%
-2000-04,IN,PG-2375,Instrument(PG),Instrument(PG),50%
+2000-04,IN,PG-2375,Instrument(PG),Instrument(PG),Done
 2000-05,IN,PG-2408,Instrument(PG),Instrument(PG),Done
 2000-05,IN,PG-2411,Instrument(PG),Instrument(PG),Done
 2000-05,IN,PG-2412,Instrument(PG),Instrument(PG),Done
@@ -17890,7 +17890,7 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Done
 2000-05,IN,PSL-2482-2(PSL),Instrument(PSL),Instrument(PSL),Done
 1000-02,IN,PSL-2541-1(NA),CABLE,CABLE(NA),Done
 1000-02,IN,PSL-2541-1(PSL),Instrument(PSL),Instrument(PSL),Done
-1000-02,IN,PSL-2541-2(NA),CABLE,CABLE(NA),50%
+1000-02,IN,PSL-2541-2(NA),CABLE,CABLE(NA),Done
 1000-02,IN,PSL-2541-2(PSL),Instrument(PSL),Instrument(PSL),Done
 1000-02,IN,PSL-2542-1(NA),CABLE,CABLE(NA),50%
 1000-02,IN,PSL-2542-1(PSL),Instrument(PSL),Instrument(PSL),Done
@@ -17902,7 +17902,7 @@ FGS-01,IN,PSL-0051,SIGNAL,SIGNAL,Done
 1000-02,IN,PSL-2543-2(PSL),Instrument(PSL),Instrument(PSL),Done
 1000-02,IN,PSL-2544-1(NA),CABLE,CABLE(NA),Done
 1000-02,IN,PSL-2544-1(PSL),Instrument(PSL),Instrument(PSL),Done
-1000-02,IN,PSL-2544-2(NA),CABLE,CABLE(NA),50%
+1000-02,IN,PSL-2544-2(NA),CABLE,CABLE(NA),Done
 1000-02,IN,PSL-2544-2(PSL),Instrument(PSL),Instrument(PSL),Done
 1000-02,IN,PSL-2545-1(NA),CABLE,CABLE(NA),Done
 1000-02,IN,PSL-2545-1(PSL),Instrument(PSL),Instrument(PSL),Done
@@ -19764,16 +19764,16 @@ LS-01,EL,SS-MLP-01,PANEL(EL),Main Normal Lighting Panel,Done
 120-16,EL,SS-NGR1A-01,Natural Ground Resistance,Neutral Grounding Resistor- SS-NGR1A-01,DONE
 120-16,EL,SS-NGR1B-01,Natural Ground Resistance,Neutral Grounding Resistor- SS-NGR1B-01,DONE
 120-12,EL,SS-PDCS-01,PANEL(EL),Power Distribution Control System,DONE
-TEL-08,EL,SS-PJB1,Paging Device,Paging Junction Box,50%
-TEL-08,EL,SS-PJB2,Paging Device,Paging Junction Box,50%
+TEL-08,EL,SS-PJB1,Paging Device,Paging Junction Box,Done
+TEL-08,EL,SS-PJB2,Paging Device,Paging Junction Box,Done
 LS-01,EL,SS-PRB-01,PANEL(EL),Photocell Relay Box,0%
-TEL-08,EL,SS-SP-01,Paging Device,Loud Speaker Wall Mounted- 15W,50%
-TEL-08,EL,SS-SP-02,Paging Device,Loud Speaker Wall Mounted- 15W,50%
-TEL-08,EL,SS-SP-03,Paging Device,Loud Speaker Wall Mounted- 15W,50%
-TEL-08,EL,SS-SP-04,Paging Device,Loud Speaker Wall Mounted- 15W,50%
-TEL-08,EL,SS-SP-05,Paging Device,Loud Speaker Wall Mounted- 15W,50%
-TEL-08,EL,SS-SP-06,Paging Device,Loud Speaker Wall Mounted- 15W,50%
-TEL-08,EL,SS-SP-07,Paging Device,Loud Speaker Wall Mounted- 15W,50%
+TEL-08,EL,SS-SP-01,Paging Device,Loud Speaker Wall Mounted- 15W,Done
+TEL-08,EL,SS-SP-02,Paging Device,Loud Speaker Wall Mounted- 15W,Done
+TEL-08,EL,SS-SP-03,Paging Device,Loud Speaker Wall Mounted- 15W,Done
+TEL-08,EL,SS-SP-04,Paging Device,Loud Speaker Wall Mounted- 15W,Done
+TEL-08,EL,SS-SP-05,Paging Device,Loud Speaker Wall Mounted- 15W,Done
+TEL-08,EL,SS-SP-06,Paging Device,Loud Speaker Wall Mounted- 15W,Done
+TEL-08,EL,SS-SP-07,Paging Device,Loud Speaker Wall Mounted- 15W,Done
 TEL-08,EL,SS-TEL-01,TELECOM DEVICE(A),Telephone Station Without Hood,0%
 TEL-08,EL,SS-TEL-02,TELECOM DEVICE(A),Telephone Station Without Hood,Done
 TEL-08,EL,SS-TEL-03,TELECOM DEVICE(A),Telephone Station Without Hood,0%
@@ -20070,7 +20070,7 @@ BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor 
 2000-02,IN,TE-2297(NA),CABLE,CABLE(NA),0%
 2000-02,IN,TE-2297(TE),Instrument(TE),Instrument(TE),Done
 2000-03,IN,TE-2303(NA),CABLE,CABLE(NA),0%
-2000-03,IN,TE-2303(TE),Instrument(TE),Instrument(TE),0%
+2000-03,IN,TE-2303(TE),Instrument(TE),Instrument(TE),50%
 2000-03,IN,TE-2304(NA),CABLE,CABLE(NA),0%
 2000-03,IN,TE-2304(TE),Instrument(TE),Instrument(TE),0%
 2000-03,IN,TE-2326(NA),CABLE,CABLE(NA),0%
@@ -20422,7 +20422,7 @@ BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor 
 1000-03,IN,TE-6024(TE),Instrument(TE),Instrument(TE),Done
 4000-03,IN,TE-6026(NA),CABLE,CABLE(NA),0%
 4000-03,IN,TE-6026(TE),Instrument(TE),Instrument(TE),Done
-1000-03,IN,TE-6031(NA),CABLE,CABLE(NA),0%
+1000-03,IN,TE-6031(NA),CABLE,CABLE(NA),Done
 1000-03,IN,TE-6031(TE),Instrument(TE),Instrument(TE),Done
 1000-03,IN,TE-6034(NA),CABLE,CABLE(NA),Done
 1000-03,IN,TE-6034(TE),Instrument(TE),Instrument(TE),Done
@@ -20947,11 +20947,11 @@ FGS-01,IN,TGD-0022(TGD),Fire Alarm,Fire Alarm(TGD),Done
 2000-02,IN,TSE-2221C(NA),CABLE,CABLE(NA),0%
 2000-02,IN,TSE-2221C(TSE),Instrument(TSE),Instrument(TSE),50%
 2000-03,IN,TSE-2305A(NA),CABLE,CABLE(NA),0%
-2000-03,IN,TSE-2305A(TSE),Instrument(TSE),Instrument(TSE),0%
+2000-03,IN,TSE-2305A(TSE),Instrument(TSE),Instrument(TSE),50%
 2000-03,IN,TSE-2305B(NA),CABLE,CABLE(NA),0%
-2000-03,IN,TSE-2305B(TSE),Instrument(TSE),Instrument(TSE),0%
+2000-03,IN,TSE-2305B(TSE),Instrument(TSE),Instrument(TSE),50%
 2000-03,IN,TSE-2305C(NA),CABLE,CABLE(NA),0%
-2000-03,IN,TSE-2305C(TSE),Instrument(TSE),Instrument(TSE),0%
+2000-03,IN,TSE-2305C(TSE),Instrument(TSE),Instrument(TSE),50%
 2000-03,IN,TSE-2325A(NA),CABLE,CABLE(NA),0%
 2000-03,IN,TSE-2325A(TSE),Instrument(TSE),Instrument(TSE),0%
 2000-03,IN,TSE-2325B(NA),CABLE,CABLE(NA),0%
@@ -21391,7 +21391,7 @@ FGS-01,IN,TGD-0022(TGD),Fire Alarm,Fire Alarm(TGD),Done
 1000-02,IN,TT-2536(TT),Instrument(TT),Instrument(TT),DONE
 1000-02,IN,TT-2540(NA),CABLE,CABLE(NA),Done
 1000-02,IN,TT-2540(TT),Instrument(TT),Instrument(TT),DONE
-1000-02,IN,TT-2553(NA),CABLE,CABLE(NA),0%
+1000-02,IN,TT-2553(NA),CABLE,CABLE(NA),Done
 1000-02,IN,TT-2553(TT),Instrument(TT),Instrument(TT),DONE
 2000-06,IN,TT-2572(NA),CABLE,CABLE(NA),Done
 2000-06,IN,TT-2572(TT),Instrument(TT),Instrument(TT),DONE
@@ -21797,11 +21797,11 @@ FGS-01,IN,TGD-0022(TGD),Fire Alarm,Fire Alarm(TGD),Done
 2000-02,IN,TW-2285,Instrument(TW),Instrument(TW),Done
 2000-02,IN,TW-2295,Instrument(TW),Instrument(TW),Done
 2000-02,IN,TW-2297,Instrument(TW),Instrument(TW),Done
-2000-03,IN,TW-2303,Instrument(TW),Instrument(TW),0%
+2000-03,IN,TW-2303,Instrument(TW),Instrument(TW),50%
 2000-03,IN,TW-2304,Instrument(TW),Instrument(TW),0%
-2000-03,IN,TW-2305A,Instrument(TW),Instrument(TW),0%
-2000-03,IN,TW-2305B,Instrument(TW),Instrument(TW),0%
-2000-03,IN,TW-2305C,Instrument(TW),Instrument(TW),0%
+2000-03,IN,TW-2305A,Instrument(TW),Instrument(TW),50%
+2000-03,IN,TW-2305B,Instrument(TW),Instrument(TW),50%
+2000-03,IN,TW-2305C,Instrument(TW),Instrument(TW),50%
 2000-03,IN,TW-2306,Instrument(TW),Instrument(TW),0%
 2000-03,IN,TW-2325A,Instrument(TW),Instrument(TW),0%
 2000-03,IN,TW-2325B,Instrument(TW),Instrument(TW),0%
@@ -22214,8 +22214,8 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),0%
 5000-04,IN,USV-5420,Instrument(USV),Instrument(USV),50%
 5000-04,IN,USV-5421,Instrument(USV),Instrument(USV),50%
 5000-04,IN,USV-5422,Instrument(USV),Instrument(USV),25%
-1000-03,IN,USV-6081,Instrument(USV),Instrument(USV),25%
-1000-03,IN,USV-6082,Instrument(USV),Instrument(USV),50%
+1000-03,IN,USV-6081,Instrument(USV),Instrument(USV),50%
+1000-03,IN,USV-6082,Instrument(USV),Instrument(USV),75%
 4000-02,IN,USV-70165A,Instrument(USV),Instrument(USV),0%
 4000-02,IN,USV-70165B,Instrument(USV),Instrument(USV),0%
 4000-08,IN,USV-80117A,Instrument(USV),Instrument(USV),0%
@@ -22305,7 +22305,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),0%
 1000-02,IN,USY-2545-1(USY),Instrument(X),Instrument(USY),Done
 1000-02,IN,USY-2545-2(NA),CABLE,CABLE(NA),Done
 1000-02,IN,USY-2545-2(USY),Instrument(X),Instrument(USY),Done
-1000-02,IN,USY-2547(NA),CABLE,CABLE(NA),0%
+1000-02,IN,USY-2547(NA),CABLE,CABLE(NA),Done
 1000-02,IN,USY-2547(USY),Instrument(X),Instrument(USY),Done
 1000-02,IN,USY-2548(NA),CABLE,CABLE(NA),Done
 1000-02,IN,USY-2548(USY),Instrument(X),Instrument(USY),Done
@@ -22362,7 +22362,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),0%
 1000-03,IN,USY-6008,SIGNAL,SIGNAL,Done
 1000-03,IN,USY-6061,SIGNAL,SIGNAL,Done
 1000-03,IN,USY-6065,SIGNAL,SIGNAL,Done
-1000-03,IN,USY-6081-1(NA),CABLE,CABLE(NA),0%
+1000-03,IN,USY-6081-1(NA),CABLE,CABLE(NA),Done
 1000-03,IN,USY-6081-1(USY),Instrument(X),Instrument(USY),Done
 1000-03,IN,USY-6081-2(NA),CABLE,CABLE(NA),0%
 1000-03,IN,USY-6081-2(USY),Instrument(X),Instrument(USY),Done
@@ -22453,7 +22453,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),0%
 3000-01,IN,UY-30116(UY),Instrument(X),Instrument(UY),50%
 5000-01,IN,UY-5021(NA),CABLE,CABLE(NA),Done
 5000-01,IN,UY-5021(UY),Instrument(X),Instrument(UY),0%
-1000-03,IN,UY-6035(NA),CABLE,CABLE(NA),0%
+1000-03,IN,UY-6035(NA),CABLE,CABLE(NA),Done
 1000-03,IN,UY-6035(UY),Instrument(X),Instrument(UY),Done
 4000-06,IN,UY-75150A,Instrument(X),Instrument(UY),0%
 4000-06,IN,UY-75150B,Instrument(X),Instrument(UY),0%
@@ -22655,7 +22655,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),0%
 2000-05,IN,UZSL-2482(UZSL),Instrument(X),Instrument(UZSL),Done
 1000-02,IN,UZSL-2541(NA),CABLE,CABLE(NA),Done
 1000-02,IN,UZSL-2541(UZSL),Instrument(X),Instrument(UZSL),Done
-1000-02,IN,UZSL-2542(NA),CABLE,CABLE(NA),0%
+1000-02,IN,UZSL-2542(NA),CABLE,CABLE(NA),Done
 1000-02,IN,UZSL-2542(UZSL),Instrument(X),Instrument(UZSL),Done
 1000-02,IN,UZSL-2543(NA),CABLE,CABLE(NA),Done
 1000-02,IN,UZSL-2543(UZSL),Instrument(X),Instrument(UZSL),Done
@@ -22697,7 +22697,7 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),0%
 5000-04,IN,UZSL-5421(UZSL),Instrument(X),Instrument(UZSL),0%
 5000-04,IN,UZSL-5422(NA),CABLE,CABLE(NA),Done
 5000-04,IN,UZSL-5422(UZSL),Instrument(X),Instrument(UZSL),0%
-1000-03,IN,UZSL-6035(NA),CABLE,CABLE(NA),0%
+1000-03,IN,UZSL-6035(NA),CABLE,CABLE(NA),Done
 1000-03,IN,UZSL-6035(UZSL),Instrument(X),Instrument(UZSL),Done
 1000-03,IN,UZSL-6081(NA),CABLE,CABLE(NA),Done
 1000-03,IN,UZSL-6081(UZSL),Instrument(X),Instrument(UZSL),Done
