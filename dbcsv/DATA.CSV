@@ -1,15 +1,15 @@
 ﻿SD_System,SD_Sub_System,SD_System_Name,SD_Subsystem_Name,discipline,TOTAL ITEM,TOTAL DONE,TOTAL PENDING,TOTAL PUNCH,TOTAL CLEAR PUNCH,TOTAL NOT CLEAR PUNCH,TOTAL HOLD POINT
-1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,161,150,11,549,509,40,0
+1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,IN,161,150,11,593,509,84,0
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,PI,24,24,0,94,86,8,0
 1000,1000-01,Gas Preparation,Natural Gas and Desulphurization,MES,5,5,0,51,32,19,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,MES,1,1,0,6,0,6,0
-1000,1000-02,Gas Preparation,Fuel Gas & Distribution,PI,12,12,0,39,27,12,0
+1000,1000-02,Gas Preparation,Fuel Gas & Distribution,PI,12,12,0,39,29,10,0
 1000,1000-02,Gas Preparation,Fuel Gas & Distribution,IN,176,148,21,420,349,71,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MES,13,8,5,69,5,64,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,MER,9,9,0,55,0,55,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,EL,3,3,0,15,15,0,0
 1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,IN,351,279,56,577,492,85,1
-1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,57,56,1,213,160,53,0
+1000,1000-03,Gas Preparation,Natural Gas Saturation & Condensate,PI,57,56,1,213,168,45,0
 1000,1000-04,Gas Preparation,Gas Station,PI,1,0,0,0,0,0,0
 120,120-01,Electrical Distribution Substation,6kV SWITCHBOARD SS-SWB2A/B-01,EL,185,183,0,2194,2133,61,2
 120,120-02,Electrical Distribution Substation,0-4KV SWITCHBOARD SS-SWB3A/B-01,EL,367,297,34,3620,3439,181,0
@@ -34,9 +34,9 @@
 120,120-18,Electrical Distribution Substation,E/I Cabinet,IN,16,14,0,12,12,0,0
 2000,2000-01,Reforming,Pre Reforming,EL,2,2,0,12,12,0,0
 2000,2000-01,Reforming,Pre Reforming,MES,2,2,0,10,0,10,0
-2000,2000-01,Reforming,Pre Reforming,PI,9,9,0,40,17,23,0
+2000,2000-01,Reforming,Pre Reforming,PI,9,9,0,40,20,20,0
 2000,2000-01,Reforming,Pre Reforming,IN,92,68,16,142,108,34,0
-2000,2000-02,Reforming,Primary Reforming,PI,9,9,0,51,27,24,0
+2000,2000-02,Reforming,Primary Reforming,PI,9,9,0,51,30,21,0
 2000,2000-02,Reforming,Primary Reforming,MES,8,0,8,0,0,0,0
 2000,2000-02,Reforming,Primary Reforming,IN,879,607,207,904,827,77,0
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,26,21,3,76,39,37,0
@@ -44,13 +44,13 @@
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,MES,6,0,6,0,0,0,2
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MES,11,6,5,44,3,41,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MER,2,0,2,12,2,10,0
-2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,24,24,0,72,48,24,0
+2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,24,24,0,72,50,22,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,233,165,54,471,372,99,23
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,7,0,84,34,50,0
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,192,33,394,351,43,3
-2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,146,112,34,0
+2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,146,117,29,0
 2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,4,33,4,29,0
-2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,23,14,9,0
+2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,23,18,5,0
 2000,2000-06,Reforming,Nitrogen Circuit,IN,114,78,22,254,234,20,0
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,1,8,2,6,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,5,0,30,0,30,0
@@ -78,7 +78,7 @@
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MES,5,2,3,15,0,15,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,MER,6,0,6,9,1,8,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,EL,1,1,0,6,6,0,0
-4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,51,49,0,232,139,93,0
+4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,PI,51,49,0,232,147,85,0
 4000,4000-04,Utility,Boiler Feed Water (BFW) Generation & Distribution,IN,561,276,76,513,476,37,10
 4000,4000-05,Utility,Blow Down,PI,24,24,0,46,42,4,0
 4000,4000-05,Utility,Blow Down,MES,4,4,0,31,0,31,0
@@ -140,7 +140,7 @@
 7000,7000-01,Flare,Flare System (In Site),MES,1,1,0,8,2,6,0
 7000,7000-01,Flare,Flare System (In Site),PI,26,26,0,100,96,4,0
 7000,7000-02,Flare,Flare System (out Site),IN,28,24,3,38,25,13,0
-7000,7000-02,Flare,Flare System (out Site),PI,48,24,0,62,25,37,0
+7000,7000-02,Flare,Flare System (out Site),PI,48,24,0,62,33,29,0
 7000,7000-02,Flare,Flare System (out Site),MES,1,1,0,2,0,2,0
 BLD,BLD-01,Building,Substation,PI,4,4,0,9,4,5,0
 BLD,BLD-01,Building,Substation,BD,14,14,0,63,55,8,0
