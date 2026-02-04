@@ -39,7 +39,7 @@
 2000,2000-02,Reforming,Primary Reforming,PI,9,9,0,51,30,21,0
 2000,2000-02,Reforming,Primary Reforming,MES,8,0,8,0,0,0,0
 2000,2000-02,Reforming,Primary Reforming,IN,879,607,207,904,827,77,0
-2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,26,21,4,76,39,37,0
+2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,17,13,4,30,24,6,0
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,363,102,47,486,324,162,64
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,MES,6,0,6,0,0,0,2
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,MES,11,6,5,44,3,41,0
@@ -53,6 +53,7 @@
 2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,23,15,8,0
 2000,2000-06,Reforming,Nitrogen Circuit,IN,114,78,22,254,234,20,0
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,1,8,2,6,0
+2000,2000-07,Reforming,Process Oxygen Line,PI,9,8,0,46,15,31,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,5,0,30,0,30,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,832,248,433,867,789,78,1
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,37,37,0,97,56,41,0
@@ -91,7 +92,7 @@
 4000,4000-07,Utility,Plant Air,PI,11,10,1,30,13,17,0
 4000,4000-08,Utility,Cooling Water,MES,5,0,1,0,0,0,3
 4000,4000-08,Utility,Cooling Water,MER,8,3,5,29,0,29,0
-4000,4000-08,Utility,Cooling Water,PI,302,286,0,713,626,87,13
+4000,4000-08,Utility,Cooling Water,PI,302,286,0,721,626,95,13
 4000,4000-08,Utility,Cooling Water,IN,745,214,58,513,396,117,64
 4000,4000-08,Utility,Cooling Water,EL,6,6,0,56,56,0,0
 4000,4000-09,Utility,Oily Water Treatment,IN,30,16,5,4,0,4,4
@@ -110,7 +111,7 @@
 4000,4000-13,Utility,Slope Close Drain,PI,29,29,0,46,37,9,0
 4000,4000-14,Utility,Fire Water,IN,33,33,0,0,0,0,0
 4000,4000-14,Utility,Fire Water,MES,1,0,1,1,0,1,0
-4000,4000-14,Utility,Fire Water,PI,134,129,3,425,370,55,0
+4000,4000-14,Utility,Fire Water,PI,134,130,2,425,370,55,0
 4000,4000-15,Utility,Potable & Service Water,PI,61,61,0,147,97,50,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MER,8,8,0,131,21,110,0
 5000,5000-01,Distillation & Methanol Product,Crude Methanol and Stabilizer & Slope Methanol,MES,17,9,8,88,37,51,1
@@ -145,11 +146,11 @@
 BLD,BLD-01,Building,Substation,PI,4,4,0,9,4,5,0
 BLD,BLD-01,Building,Substation,BD,14,14,0,63,55,8,0
 BLD,BLD-02,Building,Control Building,PI,1,1,0,10,5,5,0
-BLD,BLD-02,Building,Control Building,BD,8,3,2,48,46,2,0
-BLD,BLD-03,Building,Laboratory,BD,14,0,0,0,0,0,0
-BLD,BLD-04,Building,Security Building,BD,14,1,6,18,14,4,0
-BLD,BLD-06,Building,Warehouse Building,BD,14,11,2,31,27,4,0
-BLD,BLD-07,Building,Analyzer House,BD,8,6,2,19,14,5,0
+BLD,BLD-02,Building,Control Building,BD,8,8,0,48,46,2,0
+BLD,BLD-03,Building,Laboratory,BD,14,14,0,0,0,0,0
+BLD,BLD-04,Building,Security Building,BD,14,14,0,18,14,4,0
+BLD,BLD-06,Building,Warehouse Building,BD,14,14,0,31,27,4,0
+BLD,BLD-07,Building,Analyzer House,BD,8,8,0,19,14,5,0
 CVL,CVL-01,Civil Work,Civil Work of All Area,CV,14,11,1,778,486,292,0
 DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2574,1486,139,5219,4593,626,0
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2198,2195,3,0
