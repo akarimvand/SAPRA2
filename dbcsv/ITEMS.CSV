@@ -6997,7 +6997,7 @@ ES-09,EL,E20-03,Earthing System,CRIMPED EARTH CONNECTION 16 TO 70mm2,0%
 2000-02,MES,E-2004,Exchanger(E),2 nd Natural Gas Feed Preheat Coil,94%
 2000-02,MES,E-2006,Exchanger(E),1st Natural Gas Feed Preheat Coil,88%
 2000-02,MES,E-2007,Exchanger(E),Combustion Air Preheater,94%
-2000-03,MES,E-2008,Exchanger(E),Oxygen Preheater,88%
+2000-07,MES,E-2008,Exchanger(E),Oxygen Preheater,88%
 1000-01,MES,E-2009,Exchanger(E),Fuel Gas Preheater,Done
 ES-01,EL,E2-01,Earthing System,THERMOWELD EARTH CONNECTION 185 TO 300mm2,DONE
 2000-02,MES,E-2015,Exchanger(E),Steam Air Preheater,82%
@@ -23090,8 +23090,8 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),0%
 3000-01,IN,VZT-30116A,Instrument(X),Instrument(VZT),50%
 3000-01,IN,VZT-30116B,Instrument(X),Instrument(VZT),50%
 3000-01,IN,VZT-30116C,Instrument(X),Instrument(VZT),50%
-2000-03,MES,X-2001-A,Filter(X),Oxygen Filter,5%
-2000-03,MES,X-2001-B,Filter(X),Oxygen Filter,5%
+2000-07,MES,X-2001-A,Filter(X),Oxygen Filter,5%
+2000-07,MES,X-2001-B,Filter(X),Oxygen Filter,5%
 2000-03,MES,X-2002-A,Filter(X),Steam Filter,89%
 2000-03,MES,X-2002-B,Filter(X),Steam Filter,89%
 1000-02,MES,X-2003,Filter(X),Static Fuel Gas Mixer,Done
