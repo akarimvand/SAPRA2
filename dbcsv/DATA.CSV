@@ -42,23 +42,23 @@
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,PI,15,11,4,26,23,3,0
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,IN,287,79,28,385,286,99,56
 2000,2000-03,Reforming,Process Oxygen and Secondary Reformer,MES,3,0,3,0,0,0,0
-2000,2000-04,Reforming,Steam Generation & Superheated Steam,MES,11,6,5,44,3,41,0
-2000,2000-04,Reforming,Steam Generation & Superheated Steam,MER,2,0,2,12,2,10,0
+2000,2000-03-1,Reforming,Process Oxygen Line,MES,3,0,3,0,0,0,2
+2000,2000-03-1,Reforming,Process Oxygen Line,PI,11,10,0,50,16,34,0
+2000,2000-03-1,Reforming,Process Oxygen Line,IN,76,23,19,101,53,48,8
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,PI,24,24,0,72,50,22,0
 2000,2000-04,Reforming,Steam Generation & Superheated Steam,IN,233,165,54,471,376,95,23
+2000,2000-04,Reforming,Steam Generation & Superheated Steam,MES,11,6,5,44,3,41,0
+2000,2000-04,Reforming,Steam Generation & Superheated Steam,MER,2,0,2,12,2,10,0
+2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,4,33,4,29,0
 2000,2000-05,Reforming,Gas Cooling and Separation,MES,7,7,0,84,34,50,0
 2000,2000-05,Reforming,Gas Cooling and Separation,IN,229,192,33,394,351,43,3
 2000,2000-05,Reforming,Gas Cooling and Separation,PI,38,38,0,146,117,29,0
-2000,2000-05,Reforming,Gas Cooling and Separation,MER,4,0,4,33,4,29,0
-2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,23,15,8,0
-2000,2000-06,Reforming,Nitrogen Circuit,IN,114,78,22,254,234,20,0
 2000,2000-06,Reforming,Nitrogen Circuit,MER,1,0,1,8,2,6,0
-2000,2000-07,Reforming,Process Oxygen Line,PI,11,10,0,50,16,34,0
-2000,2000-07,Reforming,Process Oxygen Line,IN,76,23,19,101,53,48,8
-2000,2000-07,Reforming,Process Oxygen Line,MES,3,0,3,0,0,0,2
-3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,3,8,2,6,0
-3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,832,248,433,867,789,78,1
+2000,2000-06,Reforming,Nitrogen Circuit,IN,114,78,22,254,234,20,0
+2000,2000-06,Reforming,Nitrogen Circuit,PI,6,6,0,23,15,8,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,PI,37,37,0,97,56,41,0
+3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,IN,832,248,433,867,789,78,1
+3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MER,3,0,3,8,2,6,0
 3000,3000-01,Compression and Synthesis,Synthesis Gas Compression,MES,5,5,0,30,0,30,0
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,PI,40,35,4,102,65,37,5
 3000,3000-02,Compression and Synthesis,Methanol Synthesis,MES,11,7,4,42,3,39,0
@@ -127,8 +127,8 @@
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,PI,46,46,0,155,133,22,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MES,5,5,0,47,19,28,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,IN,259,178,53,834,777,57,4
-5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,6,0,90,17,73,0
 5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,EL,2,2,0,12,12,0,0
+5000,5000-03,Distillation & Methanol Product,Medium Pressure (MP) Methanol,MER,6,6,0,90,17,73,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MES,6,2,4,34,4,30,0
 5000,5000-04,Distillation & Methanol Product,Methanol Product,PI,31,26,2,167,117,50,1
 5000,5000-04,Distillation & Methanol Product,Methanol Product,MER,4,4,0,51,17,34,0
@@ -153,7 +153,7 @@ BLD,BLD-03,Building,Laboratory,BD,14,14,0,0,0,0,0
 BLD,BLD-04,Building,Security Building,BD,14,14,0,18,14,4,0
 BLD,BLD-06,Building,Warehouse Building,BD,14,14,0,31,27,4,0
 BLD,BLD-07,Building,Analyzer House,BD,8,8,0,19,17,2,0
-CVL,CVL-01,Civil Work,Civil Work of All Area,CV,14,11,1,778,486,292,0
+CVL,CVL-01,Civil Work,Civil Work of All Area,CV,14,11,1,778,490,288,0
 DCS,DCS-01,Distributed Control System,Panels & Marshaling Cabinets,IN,2574,1486,139,5219,4593,626,0
 ES,ES-01,Earthing System,Earthing & Roof Lightning System for Substation,EL,282,282,0,2198,2195,3,0
 ES,ES-02,Earthing System,Earthing & Roof Lightning System for Control Building,EL,189,189,0,425,423,2,0
