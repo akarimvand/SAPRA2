@@ -421,33 +421,7 @@ const ICONS = {
             }
         }
         
-        // Perform search functionality
-        function performSearch(query) {
-            if (!query) {
-                renderSidebar();
-                updateMainContent();
-                return;
-            }
-            
-            // Filter data based on search query
-            const filteredData = allData.filter(item => {
-                return item.System?.toLowerCase().includes(query) ||
-                       item.SubSystem?.toLowerCase().includes(query) ||
-                       item.TagNo?.toLowerCase().includes(query) ||
-                       item.Description?.toLowerCase().includes(query) ||
-                       item.Discipline?.toLowerCase().includes(query);
-            });
-            
-            // Update sidebar with filtered results
-            renderSidebar(filteredData);
-            
-            // Update main content with filtered data
-            updateMainContent(filteredData);
-            
-            // Show search results count
-            showSearchResults(filteredData.length, query);
-        }
-        
+
         // Filter by sidebar subsystem
         function filterBySidebar(subsystem) {
             const subsystemData = processedData.subSystemMap[subsystem];
@@ -459,14 +433,6 @@ const ICONS = {
         // Make filterBySidebar globally accessible
         window.filterBySidebar = filterBySidebar;
         
-        // Show search results notification
-        function showSearchResults(count, query) {
-            const message = count > 0 ? 
-                `Found ${count} result${count !== 1 ? 's' : ''} for "${query}"` :
-                `No results found for "${query}"`;
-            
-            showToast(message, count > 0 ? 'success' : 'warning');
-        }
         function initKeyboardShortcuts() {
             document.addEventListener('keydown', (e) => {
                 // Ctrl+E: Export
@@ -621,7 +587,7 @@ function initModals() {
                 
                 searchTimeout = setTimeout(() => {
                     searchTerm = query;
-                    performSearch(query);
+                    renderSidebar(); // Re-render sidebar with search filter
                     DOMElements.searchInput.classList.remove('searching');
                 }, 300);
             });
@@ -632,7 +598,7 @@ function initModals() {
                 clearSearchBtn.addEventListener('click', () => {
                     DOMElements.searchInput.value = '';
                     searchTerm = '';
-                    performSearch('');
+                    renderSidebar(); // Re-render sidebar without filter
                     DOMElements.searchInput.focus();
                 });
             }
@@ -643,7 +609,7 @@ function initModals() {
                     e.preventDefault();
                     const query = e.target.value.toLowerCase().trim();
                     searchTerm = query;
-                    performSearch(query);
+                    renderSidebar(); // Re-render sidebar with search filter
                 }
             });
             
@@ -2112,166 +2078,130 @@ function filterDetailedItems(context) {
         }
 
         function renderDataTable() {
-            const columns = [
-                { header: 'System', accessor: 'system' }, { header: 'Subsystem', accessor: 'subsystem' }, { header: 'Form', accessor: 'formStatus' },
-                { header: 'Discipline', accessor: 'discipline' }, { header: 'Total Items', accessor: 'totalItems' },
-                { header: 'Completed', accessor: 'completed' }, { header: 'Pending', accessor: 'pending' }, { header: 'Remaining', accessor: 'remaining' },
-                { header: 'Punch', accessor: 'punch' }, { header: 'Hold Point', accessor: 'holdPoint' },
-                { header: 'Status', accessor: 'statusPercent' },
-            ];
-            DOMElements.dataTableHead.innerHTML = columns.map(col => `<th scope="col">${col.header}</th>`).join('');
-            
-            // Add filter row with dropdown for specific columns
-            const filterRow = document.getElementById('dataTableFilters');
-            filterRow.innerHTML = columns.map((col, i) => {
-                if (col.header === 'Discipline' || col.header === 'Form' || col.header === 'Status') {
-                    return `<th><div class="dropdown-filter" data-col="${i}">
-                        <button class="btn btn-sm btn-outline-secondary dropdown-toggle w-100 text-truncate" type="button" data-bs-toggle="dropdown" style="font-size: 0.75rem; height: 32px;">
-                            All ${col.header}
-                        </button>
-                        <ul class="dropdown-menu" style="max-height: 200px; overflow-y: auto; font-size: 0.75rem;"></ul>
-                    </div></th>`;
-                } else {
-                    return `<th><input type="text" placeholder="Filter ${col.header}" data-col="${i}"></th>`;
-                }
-            }).join('');
-
             const tableData = _generateTableDataForView(selectedView, processedData, aggregatedStats.totalItems === 0);
-            window.currentTableData = tableData; // Store for export
+            window.currentTableData = tableData;
             
-            // Render Desktop Table
-            let bodyHTML = '';
+            // Render Grid View Cards
+            const container = document.querySelector('.main-table-container');
+            container.style.maxHeight = 'none';
+            container.style.overflow = 'visible';
+            
+            let gridHTML = '<div class="data-grid-container">';
+            
             if (tableData.length === 0) {
-                bodyHTML = `<tr><td colspan="${columns.length}" class="text-center py-5 text-muted">Please select a subsystem or system to view details, or no data matches the current filter.</td></tr>`;
+                gridHTML += '<div class="text-center py-5 text-muted">Please select a subsystem or system to view details</div>';
             } else {
                 tableData.forEach((row, index) => {
-                    bodyHTML += `<tr class="fade-in" style="animation-delay: ${index * 0.05}s;">`;
-                    columns.forEach((col, colIndex) => {
-                        let cellValue = row[col.accessor];
-                         if (col.accessor === 'statusPercent') {
-                            const badgeClass = row.statusPercent > 80 ? 'bg-success-subtle text-success' : row.statusPercent > 50 ? 'bg-info-subtle text-info' : 'bg-warning-subtle text-warning';
-                            cellValue = `<span class="badge ${badgeClass} rounded-pill">${row.statusPercent}%</span>`;
-                        } else if (col.accessor === 'formStatus') {
-                            const status = row.formStatus;
-                            if (status) {
-                                cellValue = `<span class="status-indicator-icon status-${status.toLowerCase()}" title="Status: ${status}">${status}</span>`;
-                            } else {
-                                cellValue = '';
-                            }
-                        } else if (col.accessor === 'system') {
-                            cellValue = row.system;
-                        } else if (col.accessor === 'subsystem') {
-                            cellValue = `${row.subsystem} - ${row.subsystemName}`;
-                        } else if (col.accessor === 'remaining' || col.accessor === 'punch') {
-                            cellValue = `<span style="color: red; font-weight: bold;">${(typeof cellValue === 'number') ? cellValue.toLocaleString() : cellValue}</span>`;
-                        } else {
-                            cellValue = (typeof cellValue === 'number') ? cellValue.toLocaleString() : cellValue;
-                        }
-                        const cellTag = colIndex === 0 ? `<th scope="row">${cellValue}</th>` : `<td>${cellValue}</td>`;
-                        bodyHTML += cellTag;
-                    });
-                    bodyHTML += '</tr>';
+                    const statusBadgeClass = row.statusPercent > 80 ? 'bg-success' : row.statusPercent > 50 ? 'bg-info' : 'bg-warning';
+                    const formIcon = row.formStatus ? `<span class="status-indicator-icon status-${row.formStatus.toLowerCase()}">${row.formStatus}</span>` : '<span class="text-muted">-</span>';
+                    
+                    gridHTML += `
+                        <div class="data-grid-card" data-index="${index}">
+                            <div class="grid-card-header">
+                                <div class="grid-card-title">${row.subsystem}</div>
+                                <div class="grid-card-badge">${formIcon}</div>
+                            </div>
+                            <div class="grid-card-body">
+                                <div class="grid-card-row">
+                                    <span class="grid-label">System:</span>
+                                    <span class="grid-value">${row.system}</span>
+                                </div>
+                                <div class="grid-card-row">
+                                    <span class="grid-label">Discipline:</span>
+                                    <span class="grid-value">${row.discipline}</span>
+                                </div>
+                                <div class="grid-card-row">
+                                    <span class="grid-label">Total:</span>
+                                    <span class="grid-value clickable" data-type="total">${row.totalItems.toLocaleString()}</span>
+                                </div>
+                                <div class="grid-card-row">
+                                    <span class="grid-label">Completed:</span>
+                                    <span class="grid-value clickable text-success" data-type="completed">${row.completed.toLocaleString()}</span>
+                                </div>
+                                <div class="grid-card-row">
+                                    <span class="grid-label">Pending:</span>
+                                    <span class="grid-value clickable text-warning" data-type="pending">${row.pending.toLocaleString()}</span>
+                                </div>
+                                <div class="grid-card-row">
+                                    <span class="grid-label">Remaining:</span>
+                                    <span class="grid-value clickable text-danger" data-type="remaining">${row.remaining.toLocaleString()}</span>
+                                </div>
+                                <div class="grid-card-row">
+                                    <span class="grid-label">Punch:</span>
+                                    <span class="grid-value clickable text-danger" data-type="punch">${row.punch.toLocaleString()}</span>
+                                </div>
+                                <div class="grid-card-row">
+                                    <span class="grid-label">Hold:</span>
+                                    <span class="grid-value clickable text-danger" data-type="hold">${row.holdPoint.toLocaleString()}</span>
+                                </div>
+                            </div>
+                            <div class="grid-card-footer">
+                                <span class="badge ${statusBadgeClass} text-white">${row.statusPercent}%</span>
+                            </div>
+                        </div>
+                    `;
                 });
             }
-            DOMElements.dataTableBody.innerHTML = bodyHTML;
             
-            // Add enhanced class to table
-            const table = document.getElementById('dataTable');
-            if (table) {
-                table.classList.add('table-enhanced');
-            }
+            gridHTML += '</div>';
+            container.innerHTML = gridHTML;
             
-            // Add enhanced classes to action buttons
-            document.getElementById('exportMainTableBtn')?.classList.add('btn-enhanced', 'btn-export');
-            document.getElementById('printMainTableBtn')?.classList.add('btn-enhanced', 'btn-print');
-            document.getElementById('clearAllFiltersBtn')?.classList.add('btn-enhanced');
-            document.getElementById('refreshDataBtn')?.classList.add('btn-enhanced', 'btn-refresh');
-            document.getElementById('exportExcelBtn')?.classList.add('btn-enhanced', 'btn-export');
-            document.getElementById('downloadAllBtn')?.classList.add('btn-enhanced');
+            // Add click handlers
+            container.querySelectorAll('.grid-value.clickable').forEach(element => {
+                element.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const card = e.target.closest('.data-grid-card');
+                    const rowIndex = parseInt(card.dataset.index);
+                    const type = e.target.dataset.type;
+                    const rowData = tableData[rowIndex];
+                    
+                    const filterContext = {
+                        type: 'table',
+                        rowData: {
+                            system: rowData.system,
+                            subsystem: `${rowData.subsystem} - ${rowData.subsystemName}`,
+                            discipline: rowData.discipline
+                        },
+                        status: type === 'total' ? 'TOTAL' : type === 'completed' ? 'DONE' : type === 'pending' ? 'PENDING' : type === 'punch' ? 'PUNCH' : 'HOLD'
+                    };
+                    
+                    const dataType = type === 'punch' ? 'punch' : type === 'hold' ? 'hold' : 'items';
+                    
+                    let dataToDisplay = [];
+                    let dataLoaded = false;
+                    
+                    if (dataType === 'items') {
+                        if (detailedItemsData.length > 0) {
+                            dataToDisplay = filterDetailedItems(filterContext);
+                            dataLoaded = true;
+                        }
+                    } else if (dataType === 'punch') {
+                        if (punchItemsData.length > 0) {
+                            dataToDisplay = filterPunchItems(filterContext);
+                            dataLoaded = true;
+                        }
+                    } else if (dataType === 'hold') {
+                        if (holdPointItemsData.length > 0) {
+                            dataToDisplay = filterHoldItems(filterContext);
+                            dataLoaded = true;
+                        }
+                    }
+                    
+                    if (dataLoaded) {
+                        populateDetailsModal(dataToDisplay, filterContext, dataType);
+                        itemDetailsModal.show();
+                    }
+                });
+            });
+            
+            // Hide old table elements
+            const oldTable = document.getElementById('dataTable');
+            if (oldTable) oldTable.style.display = 'none';
+            const filterRow = document.getElementById('dataTableFilters');
+            if (filterRow) filterRow.style.display = 'none';
             
             // Render Mobile Cards
             renderMobileCards(tableData);
-            
-            // Populate dropdown options
-            const disciplineDropdown = filterRow.querySelector('[data-col="3"] .dropdown-menu');
-            const formDropdown = filterRow.querySelector('[data-col="2"] .dropdown-menu');
-            const statusDropdown = filterRow.querySelector('[data-col="10"] .dropdown-menu');
-            
-            if (disciplineDropdown && tableData.length > 0) {
-                const disciplines = [...new Set(tableData.map(row => row.discipline))].sort();
-                let disciplineOptions = [`<li><label class="dropdown-item"><input type="checkbox" value="SHOW_ALL" class="me-2 show-all-checkbox">Show All</label></li>`];
-                disciplineOptions.push(...disciplines.map(d => 
-                    `<li><label class="dropdown-item"><input type="checkbox" value="${d}" class="me-2">${d}</label></li>`
-                ));
-                disciplineDropdown.innerHTML = disciplineOptions.join('');
-            }
-            
-            if (formDropdown && tableData.length > 0) {
-                const forms = [...new Set(tableData.map(row => row.formStatus).filter(f => f))].sort();
-                const emptyCount = tableData.filter(row => !row.formStatus).length;
-                let formOptions = [`<li><label class="dropdown-item"><input type="checkbox" value="SHOW_ALL" class="me-2 show-all-checkbox">Show All</label></li>`];
-                formOptions.push(...forms.map(f => 
-                    `<li><label class="dropdown-item"><input type="checkbox" value="${f}" class="me-2">${f}</label></li>`
-                ));
-                if (emptyCount > 0) {
-                    formOptions.push(`<li><label class="dropdown-item"><input type="checkbox" value="EMPTY" class="me-2">Empty (${emptyCount})</label></li>`);
-                }
-                formDropdown.innerHTML = formOptions.join('');
-            }
-            
-            if (statusDropdown && tableData.length > 0) {
-                let statusOptions = [
-                    `<li><label class="dropdown-item"><input type="checkbox" value="SHOW_ALL" class="me-2 show-all-checkbox">Show All</label></li>`,
-                    `<li><label class="dropdown-item"><input type="checkbox" value="0" class="me-2">0%</label></li>`,
-                    `<li><label class="dropdown-item"><input type="checkbox" value="1-25" class="me-2">1% - 25%</label></li>`,
-                    `<li><label class="dropdown-item"><input type="checkbox" value="26-50" class="me-2">26% - 50%</label></li>`,
-                    `<li><label class="dropdown-item"><input type="checkbox" value="51-75" class="me-2">51% - 75%</label></li>`,
-                    `<li><label class="dropdown-item"><input type="checkbox" value="76-99" class="me-2">76% - 99%</label></li>`,
-                    `<li><label class="dropdown-item"><input type="checkbox" value="100" class="me-2">100%</label></li>`
-                ];
-                statusDropdown.innerHTML = statusOptions.join('');
-            }
-            
-            // Add filter event listeners with debounce
-            let filterTimeout;
-            filterRow.querySelectorAll('input[type="text"]').forEach(input => {
-                input.addEventListener('input', () => {
-                    clearTimeout(filterTimeout);
-                    filterTimeout = setTimeout(filterMainTable, 300);
-                });
-            });
-            filterRow.querySelectorAll('.dropdown-menu input[type="checkbox"]').forEach(checkbox => {
-                checkbox.addEventListener('change', () => {
-                    // Handle Show All checkbox
-                    if (checkbox.classList.contains('show-all-checkbox')) {
-                        const dropdown = checkbox.closest('.dropdown-filter');
-                        const otherCheckboxes = dropdown.querySelectorAll('input[type="checkbox"]:not(.show-all-checkbox)');
-                        if (checkbox.checked) {
-                            otherCheckboxes.forEach(cb => cb.checked = false);
-                        }
-                    } else {
-                        // Uncheck Show All if any other checkbox is selected
-                        const dropdown = checkbox.closest('.dropdown-filter');
-                        const showAllCheckbox = dropdown.querySelector('.show-all-checkbox');
-                        if (checkbox.checked && showAllCheckbox) {
-                            showAllCheckbox.checked = false;
-                        }
-                    }
-                    updateDropdownButton(checkbox);
-                    filterMainTable();
-                });
-            });
-            
-            // Clear all filters button
-            document.getElementById('clearAllFiltersBtn').addEventListener('click', () => {
-                filterRow.querySelectorAll('input[type="text"]').forEach(input => input.value = '');
-                filterRow.querySelectorAll('input[type="checkbox"]:checked').forEach(cb => cb.checked = false);
-                filterRow.querySelectorAll('.dropdown-filter').forEach(dropdown => {
-                    const firstCheckbox = dropdown.querySelector('input[type="checkbox"]');
-                    if (firstCheckbox) updateDropdownButton(firstCheckbox);
-                });
-                filterMainTable();
-            });
         }
         
         function updateDropdownButton(checkbox) {
