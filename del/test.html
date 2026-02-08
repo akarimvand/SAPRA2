@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAPRA Test</title>
+    <script src="libs/css/tailwind.min.css"></script>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto p-8">
+        <h1 class="text-3xl font-bold text-blue-600 mb-4">SAPRA System Test</h1>
+        <div class="bg-white rounded-lg shadow-md p-6">
+            <h2 class="text-xl font-semibold mb-4">Issues Fixed:</h2>
+            <ul class="list-disc list-inside space-y-2">
+                <li class="text-green-600">✅ Fixed GitHub API 404 error in Resources.html</li>
+                <li class="text-green-600">✅ Fixed JavaScript syntax error in main.js (missing closing brace)</li>
+                <li class="text-green-600">✅ Added missing amChartsRoots variable declaration</li>
+                <li class="text-yellow-600">⚠️ Tailwind CDN warning (development only - should use PostCSS in production)</li>
+            </ul>
+            
+            <div class="mt-6">
+                <h3 class="text-lg font-semibold mb-2">Test Links:</h3>
+                <div class="space-y-2">
+                    <a href="index.html" class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Main Application</a>
+                    <a href="Resources.html" class="inline-block bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">File Manager</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
