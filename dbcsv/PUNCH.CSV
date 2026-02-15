@@ -4026,6 +4026,7 @@ FGS-02,IN,FGD-0056(NA),CABLE,A,EARTH GLAND SHALL BE INSTALL.,PL-60626
 BLD-04,BD,final Architecture(External works BLD-04),07-Final Architecture(External),C,تعبيه دريچه بازديد سپتيک تانک,PL-40109
 BLD-06,BD,final Architecture(External works BLD-06),07-Final Architecture(External),C,اجراي سنگ آبچک پنجره ها ,PL-24130
 BLD-06,BD,final Architecture(External works BLD-06),07-Final Architecture(External),A,تکميل QC FORM هاي مربوطه,PL-24523
+BLD-03,BD,final Architecture(Grouand Floor BLD-03),06-Final Architecture(Internal),B,پرکردن درز اطراف کليد و پريز,PL-60940
 3000-01,IN,FIT-30165A(FIT),Instrument(FIT),B,TAG DEVICE SHALL BE INSTALL.,PL-45247
 3000-01,IN,FIT-30168A(FIT),Instrument(FIT),B,TAG DEVICE SHALL BE INSTALLED.,PL-45254
 FGS-03,IN,FLD-0001(NA),CABLE,C,CABLE ARRANGEMENT AND FIXED SHALL BE DONE.,PL-59461
@@ -4359,6 +4360,10 @@ DCS-01,IN,ICNLF-PDCS-01.02,CABLE,A,CORENUMBER SHOULD BE INSTALL.,PL-47597
 DCS-01,IN,ICNLF-PDCS-01.02,CABLE,B,S.S TAG SHOULD BE INSTALL,PL-47582
 DCS-01,IN,ICNLF-PDCS-01.02-02,CABLE,C,CABLE ARRANGEMENT SHOULD BE DONE.,PL-46484
 DCS-01,IN,ICNLF-PDCS-01.02-02,CABLE,B,S.S TAG SHOULD BE DONE.,PL-46490
+BLD-03,BD,Initial Architecture(First Floor BLD-03),04-Initial Architecture-2,B,اصلاح بندکشي سراميک بدنه سرويس بهداشتي,PL-60936
+BLD-03,BD,Initial Architecture(Ground Floor BLD-03),04-Initial Architecture-2,B,اصلاح بندکشي سراميک بدنه سرويس بهداشتي,PL-60937
+BLD-03,BD,Initial Architecture(Ground Floor BLD-03),04-Initial Architecture-2,B,اصلاح سراميک کف بين چهارچوب اتاق 03 آبدارخانه,PL-60938
+BLD-03,BD,Initial Architecture(Ground Floor BLD-03),04-Initial Architecture-2,B,رنگ آميزي چهارچوب سرويس بهداشتي و اتاق,PL-60939
 3000-03,MES,J-3001,Ejector(J),C,GENERAL CLEANING,PL-52546
 3000-03,MES,J-3001,Ejector(J),C,PRESERVATION  NOT DONE,PL-52547
 3000-03,MES,J-3001,Ejector(J),C,CHECK THE GENERAL CLEANING AFTER ALL ACTIVITY DONE,PL-52548
