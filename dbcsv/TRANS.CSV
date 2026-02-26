@@ -8,7 +8,7 @@
 1000-01,Natural Gas and Desulphurization(A),FORM B,CONTRACTOR,واحد H.O.S کیسون,1/17/2026 12:00:00 AM,دریافت جهت بررسی
 1000-01,Natural Gas and Desulphurization(A),FORM B,CONTRACTOR,واحدهای مربوطه,1/18/2026 12:00:00 AM,دریافت جهت رفع نقص و رفع پانچ
 1000-01,Natural Gas and Desulphurization(A),FORM C,CONTRACTOR,واحد H.O.S کیسون,2/2/2026 12:00:00 AM,آماده سازی و ارسال فرم C
-1000-01,Natural Gas and Desulphurization(A),FORM D,CONTRACTOR,واحد H.O.S کیسون,2/3/2026 12:00:00 AM,بررسی جهت تائید نهایی ( D )
+1000-01,Natural Gas and Desulphurization(A),FORM D,OWNER,واحد DCC (سبلان2),2/3/2026 12:00:00 AM,تائید نهایی ( D )
 1000-02,Fuel Gas & Distribution(A),FORM C,CONTRACTOR,واحد H.O.S کیسون,2/2/2026 12:00:00 AM,بررسی جهت تائید
 1000-02,Fuel Gas & Distribution(A),FORM D,CONTRACTOR,واحد H.O.S کیسون,2/3/2026 12:00:00 AM,بررسی جهت تائید نهایی ( D )
 1000-02,Fuel Gas & Distribution(A),FORM B,CONTRACTOR,واحدهای مربوطه,1/20/2026 12:00:00 AM,دریافت جهت رفع نقص و رفع پانچ
@@ -493,24 +493,23 @@ BLD-04,Security Building,FORM A,PRECOM,واحد پیش راه اندازی سب�
 BLD-04,Security Building,FORM C,CONTRACTOR,واحد H.O.S کیسون,2/4/2026 12:00:00 AM,ارسال فرم C
 BLD-04,Security Building,FORM D,OWNER,واحد DCC (سبلان2),2/11/2026 12:00:00 AM,تائید نهایی ( D )
 BLD-04,Security Building,FORM D,CONTRACTOR,واحد H.O.S کیسون,2/10/2026 12:00:00 AM,تائید نهایی ( D )
-BLD-05,,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,12/29/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
+BLD-06,Warehouse Building,FORM D,CONTRACTOR,واحد H.O.S کیسون,2/10/2026 12:00:00 AM,تائید نهایی ( D )
+BLD-06,Warehouse Building,FORM D,OWNER,واحد DCC (سبلان2),2/11/2026 12:00:00 AM,تائید نهایی ( D )
+BLD-06,Warehouse Building,FORM C,CONTRACTOR,واحد H.O.S کیسون,2/4/2026 12:00:00 AM,ارسال فرم C
+BLD-06,Warehouse Building,FORM A,PRECOM,واحد پیش راه اندازی سبلان,11/19/2025 12:00:00 AM,جهت بررسی و ثبت پانچ
+BLD-06,Warehouse Building,FORM B,CONTRACTOR,واحد اجرایی کیسون,11/20/2025 12:00:00 AM,دریافت جهت رفع پانچ
 BLD-06,Warehouse Building,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,7/31/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 BLD-06,Warehouse Building,FORM A,CONTRACTOR,واحد H.O.S کیسون,8/1/2025 12:00:00 AM,آماده سازی و ارسال
 BLD-06,Warehouse Building,FORM A,PRECOM,واحد پیش راه اندازی سبلان,8/2/2025 12:00:00 AM,بررسی جهت تائید 
 BLD-06,Warehouse Building,FORM A,OWNER,مهندس رضوی,8/3/2025 12:00:00 AM,پانچ گذاری
-BLD-06,Warehouse Building,FORM A,PRECOM,واحد پیش راه اندازی سبلان,11/19/2025 12:00:00 AM,جهت بررسی و ثبت پانچ
-BLD-06,Warehouse Building,FORM B,CONTRACTOR,واحد اجرایی کیسون,11/20/2025 12:00:00 AM,دریافت جهت رفع پانچ
-BLD-06,Warehouse Building,FORM D,CONTRACTOR,واحد H.O.S کیسون,2/10/2026 12:00:00 AM,تائید نهایی ( D )
-BLD-06,Warehouse Building,FORM D,OWNER,واحد DCC (سبلان2),2/11/2026 12:00:00 AM,تائید نهایی ( D )
-BLD-06,Warehouse Building,FORM C,CONTRACTOR,واحد H.O.S کیسون,2/4/2026 12:00:00 AM,ارسال فرم C
-BLD-07,Analyzer House,FORM C,CONTRACTOR,واحد H.O.S کیسون,2/4/2026 12:00:00 AM,ارسال فرم C
-BLD-07,Analyzer House,FORM D,OWNER,واحد DCC (سبلان2),2/11/2026 12:00:00 AM,تائید نهایی ( D )
-BLD-07,Analyzer House,FORM D,CONTRACTOR,واحد H.O.S کیسون,2/10/2026 12:00:00 AM,تائید نهایی ( D )
 BLD-07,Analyzer House,Execution Activities,CONTRACTOR,واحد اجرایی کیسون ,7/28/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 BLD-07,Analyzer House,FORM A,CONTRACTOR,واحد H.O.S کیسون,7/29/2025 12:00:00 AM,آماده سازی و ارسال
 BLD-07,Analyzer House,FORM A,PRECOM,واحد پیش راه اندازی سبلان,7/30/2025 12:00:00 AM,بررسی جهت تائید 
 BLD-07,Analyzer House,FORM A,OWNER,مهندس رضوی,7/31/2025 12:00:00 AM,پانچ گذاری
 BLD-07,Analyzer House,FORM B,CONTRACTOR,واحد اجرایی کیسون ,9/5/2025 12:00:00 AM,دریافت جهت رفع پانچ
+BLD-07,Analyzer House,FORM C,CONTRACTOR,واحد H.O.S کیسون,2/4/2026 12:00:00 AM,ارسال فرم C
+BLD-07,Analyzer House,FORM D,OWNER,واحد DCC (سبلان2),2/11/2026 12:00:00 AM,تائید نهایی ( D )
+BLD-07,Analyzer House,FORM D,CONTRACTOR,واحد H.O.S کیسون,2/10/2026 12:00:00 AM,تائید نهایی ( D )
 CVL-01,Civil Work of All Area,FORM A,CONTRACTOR,واحد اجرایی کیسون,6/24/2025 12:00:00 AM,در حال تکمیل فعالیتهای اجرایی
 CVL-01,Civil Work of All Area,FORM A,CONTRACTOR,واحد H.O.S کیسون,12/5/2025 12:00:00 AM,آماده سازی و ارسال
 CVL-01,Civil Work of All Area,FORM A,OWNER,واحد ساختمان نصب,12/6/2025 12:00:00 AM,دریافت جهت بررسی و ثبت پانچ
