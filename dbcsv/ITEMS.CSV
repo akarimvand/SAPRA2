@@ -330,11 +330,11 @@ LS-07,EL,02-EJB3-3-L2-01,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
 LS-07,EL,02-EJB3-3-L2-01-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-07,EL,02-EJB3-3-L3-01,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
 LS-07,EL,02-EJB3-3-L3-01-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
-TEL-02,EL,02-IS-01,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
-TEL-02,EL,02-IS-02,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
-TEL-02,EL,02-IS-03,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
-TEL-02,EL,02-IS-04,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
-TEL-02,EL,02-IS-05,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
+TEL-02,EL,02-IS-01,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,50%
+TEL-02,EL,02-IS-02,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,50%
+TEL-02,EL,02-IS-03,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,50%
+TEL-02,EL,02-IS-04,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,50%
+TEL-02,EL,02-IS-05,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,50%
 LS-07,EL,02-JB1_1-1,Lighting Main JB,Normal Lighting Junction Box,0%
 LS-07,EL,02-JB1_1-1-L1-01,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
 LS-07,EL,02-JB1_1-1-L1-01-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
@@ -1304,9 +1304,9 @@ LS-11,EL,03-EJB2-2-L3-04,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
 LS-11,EL,03-EJB2-2-L3-04-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,67%
 LS-11,EL,03-EJB2-2-L3-05,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
 LS-11,EL,03-EJB2-2-L3-05-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
-TEL-03,EL,03-IS-01,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
-TEL-03,EL,03-IS-02,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
-TEL-03,EL,03-IS-03,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
+TEL-03,EL,03-IS-01,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,50%
+TEL-03,EL,03-IS-02,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,50%
+TEL-03,EL,03-IS-03,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,50%
 LS-08,EL,03-JB1_1-1,Lighting Main JB,Normal Lighting Junction Box,0%
 LS-08,EL,03-JB1_1-1-L1-01,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
 LS-08,EL,03-JB1_1-1-L1-01-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
@@ -1600,47 +1600,47 @@ LS-08,EL,03-RJB1-1-L3-01(LS-08),Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 LS-11,EL,03-RJB1-1-L3-01(LS-11),Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 LS-08,EL,03-SJB1-3,Lighting Main JB,Safety Lighting Junction Box,0%
 LS-08,EL,03-SJB1-3-01,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
-LS-08,EL,03-SJB1-3-01-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
+LS-08,EL,03-SJB1-3-01-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-08,EL,03-SJB1-3-02,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
-LS-08,EL,03-SJB1-3-02-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
+LS-08,EL,03-SJB1-3-02-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-08,EL,03-SJB1-3-03,Lighting Fixture,LED Luminaires Fixture 40w| EX,0%
-LS-08,EL,03-SJB1-3-03-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
+LS-08,EL,03-SJB1-3-03-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-08,EL,03-SJB1-3-04,Lighting Fixture,LED Luminaires Fixture 40w| EX,0%
-LS-08,EL,03-SJB1-3-04-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
+LS-08,EL,03-SJB1-3-04-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-08,EL,03-SJB1-3-05,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
-LS-08,EL,03-SJB1-3-05-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
+LS-08,EL,03-SJB1-3-05-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-08,EL,03-SJB1-3-06,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
-LS-08,EL,03-SJB1-3-06-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
+LS-08,EL,03-SJB1-3-06-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-08,EL,03-SJB1-3-07,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
-LS-08,EL,03-SJB1-3-07-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-08,EL,03-SJB1-3-07-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-08,EL,03-SJB1-3-08,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
-LS-08,EL,03-SJB1-3-08-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
+LS-08,EL,03-SJB1-3-08-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-08,EL,03-SJB1-3-09,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
-LS-08,EL,03-SJB1-3-09-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
+LS-08,EL,03-SJB1-3-09-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-08,EL,03-SJB1-3-10,Lighting Fixture,LED Luminaires Fixture 40w| EX,0%
-LS-08,EL,03-SJB1-3-10-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
+LS-08,EL,03-SJB1-3-10-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-08,EL,03-SJB1-3-11,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-08,EL,03-SJB1-3-11-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-08,EL,03-SJB1-3-11-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-08,EL,03-SJB1-3-12,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-08,EL,03-SJB1-3-12-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-08,EL,03-SJB1-3-12-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-08,EL,03-SJB1-3-13,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-08,EL,03-SJB1-3-13-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,0%
+LS-08,EL,03-SJB1-3-13-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 LS-08,EL,03-SJB1-3-14,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-08,EL,03-SJB1-3-14-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-08,EL,03-SJB1-3-14-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-08,EL,03-SJB1-3-15,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-08,EL,03-SJB1-3-15-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-08,EL,03-SJB1-3-15-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-08,EL,03-SJB1-3-16,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-08,EL,03-SJB1-3-16-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,0%
+LS-08,EL,03-SJB1-3-16-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 LS-08,EL,03-SJB1-3-17,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-08,EL,03-SJB1-3-17-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,0%
+LS-08,EL,03-SJB1-3-17-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 LS-08,EL,03-SJB1-3-18(LS-08),Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
 LS-11,EL,03-SJB1-3-18(LS-11),Lighting Fixture,LED Luminaires Fixture 20w| EX,0%
 LS-08,EL,03-SJB1-3-19,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-08,EL,03-SJB1-3-19-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,0%
+LS-08,EL,03-SJB1-3-19-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 LS-08,EL,03-SJB1-3-20,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-08,EL,03-SJB1-3-20-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-08,EL,03-SJB1-3-20-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-08,EL,03-SJB1-3-21,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-08,EL,03-SJB1-3-21-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-08,EL,03-SJB1-3-21-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 TEL-03,EL,03-SP-01,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
 TEL-03,EL,03-SP-02,Paging Device,Loud Speaker - 25W|EX,0%
 TEL-03,EL,03-SP-03,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
@@ -1727,9 +1727,9 @@ LS-09,EL,04-EJB2-4-L3-03,Lighting Fixture,Highbay Lighting Fixture 150w- HPMV La
 LS-09,EL,04-EJB2-4-L3-03-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-09,EL,04-EJB2-4-L3-04,Lighting Fixture,Fluorescent Fixture 2*36w- WP,Done
 LS-09,EL,04-EJB2-4-L3-04-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
-TEL-04,EL,04-IS-01,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher,0%
-TEL-04,EL,04-IS-02,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher,0%
-TEL-04,EL,04-IS-03,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,50%
+TEL-04,EL,04-IS-01,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher,50%
+TEL-04,EL,04-IS-02,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher,50%
+TEL-04,EL,04-IS-03,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,Done
 LS-09,EL,04-JB1_1-3,Lighting Main JB,Normal Lighting Junction Box,0%
 LS-09,EL,04-JB1_1-3-L1-01,Lighting Fixture,Fluorescent Fixture 2*18w- WP,Done
 LS-09,EL,04-JB1_1-3-L1-01-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
@@ -2154,11 +2154,11 @@ LS-10,EL,05-EJB3-7-L3-03,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
 LS-10,EL,05-EJB3-7-L3-03-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,67%
 LS-10,EL,05-EJB3-7-L3-04,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
 LS-10,EL,05-EJB3-7-L3-04-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
-TEL-05,EL,05-IS-01,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
-TEL-05,EL,05-IS-02,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
-TEL-05,EL,05-IS-03,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
-TEL-05,EL,05-IS-04,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
-TEL-05,EL,05-IS-05,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
+TEL-05,EL,05-IS-01,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,50%
+TEL-05,EL,05-IS-02,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,50%
+TEL-05,EL,05-IS-03,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,50%
+TEL-05,EL,05-IS-04,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,50%
+TEL-05,EL,05-IS-05,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,50%
 LS-10,EL,05-JB1_1-5,Lighting Main JB,Normal Lighting Junction Box,0%
 LS-10,EL,05-JB1_1-5-L1-01,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
 LS-10,EL,05-JB1_1-5-L1-01-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
@@ -2635,123 +2635,123 @@ LS-11,EL,05-S03-FJB01,Lighting Cable,One Pole Switch Surface Mounted| EX,0%
 LS-10,EL,05-S04-FJB01,Lighting Cable,One Pole Switch Surface Mounted| EX,0%
 LS-10,EL,05-SJB1-5,Lighting Main JB,Safety Lighting Junction Box,0%
 LS-10,EL,05-SJB1-5-01,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
-LS-10,EL,05-SJB1-5-01-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
+LS-10,EL,05-SJB1-5-01-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-10,EL,05-SJB1-5-02,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-10,EL,05-SJB1-5-02-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-10,EL,05-SJB1-5-02-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-10,EL,05-SJB1-5-03,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
-LS-10,EL,05-SJB1-5-03-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
+LS-10,EL,05-SJB1-5-03-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-10,EL,05-SJB1-5-04,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
-LS-10,EL,05-SJB1-5-04-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
+LS-10,EL,05-SJB1-5-04-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-10,EL,05-SJB1-5-05,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
-LS-10,EL,05-SJB1-5-05-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
+LS-10,EL,05-SJB1-5-05-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-10,EL,05-SJB1-5-06,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
-LS-10,EL,05-SJB1-5-06-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-10,EL,05-SJB1-5-06-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-10,EL,05-SJB1-5-07,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
-LS-10,EL,05-SJB1-5-07-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,33%
+LS-10,EL,05-SJB1-5-07-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-10,EL,05-SJB1-5-08,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
-LS-10,EL,05-SJB1-5-08-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,33%
+LS-10,EL,05-SJB1-5-08-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-10,EL,05-SJB1-5-09,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-10,EL,05-SJB1-5-09-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-10,EL,05-SJB1-5-09-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-10,EL,05-SJB1-5-10,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
-LS-10,EL,05-SJB1-5-10-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,33%
+LS-10,EL,05-SJB1-5-10-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-10,EL,05-SJB1-5-11,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-10,EL,05-SJB1-5-11-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-10,EL,05-SJB1-5-11-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-10,EL,05-SJB1-5-12,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
-LS-10,EL,05-SJB1-5-12-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
+LS-10,EL,05-SJB1-5-12-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-10,EL,05-SJB1-5-13,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
-LS-10,EL,05-SJB1-5-13-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
+LS-10,EL,05-SJB1-5-13-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-10,EL,05-SJB1-5-14,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-10,EL,05-SJB1-5-14-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,0%
+LS-10,EL,05-SJB1-5-14-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 LS-10,EL,05-SJB1-5-15,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
-LS-10,EL,05-SJB1-5-15-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
+LS-10,EL,05-SJB1-5-15-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-10,EL,05-SJB1-5-16,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-10,EL,05-SJB1-5-16-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,0%
+LS-10,EL,05-SJB1-5-16-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 LS-10,EL,05-SJB1-5-17,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
 LS-07,EL,05-SJB1-5-17-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,67%
 LS-10,EL,05-SJB1-5-18,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-10,EL,05-SJB1-5-18-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-10,EL,05-SJB1-5-18-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-10,EL,05-SJB1-5-19,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-10,EL,05-SJB1-5-19-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,0%
+LS-10,EL,05-SJB1-5-19-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 LS-10,EL,05-SJB1-5-20,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
-LS-10,EL,05-SJB1-5-20-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,0%
+LS-10,EL,05-SJB1-5-20-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-10,EL,05-SJB1-5-21,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-10,EL,05-SJB1-5-21-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,0%
+LS-10,EL,05-SJB1-5-21-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 LS-10,EL,05-SJB1-5-22,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-10,EL,05-SJB1-5-22-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,0%
+LS-10,EL,05-SJB1-5-22-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 LS-10,EL,05-SJB1-5-23,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-10,EL,05-SJB1-5-23-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-10,EL,05-SJB1-5-23-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-10,EL,05-SJB1-5-24,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-10,EL,05-SJB1-5-24-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,0%
+LS-10,EL,05-SJB1-5-24-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 LS-10,EL,05-SJB1-5-25,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-10,EL,05-SJB1-5-25-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,0%
+LS-10,EL,05-SJB1-5-25-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 LS-10,EL,05-SJB1-5-26,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-10,EL,05-SJB1-5-26-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-10,EL,05-SJB1-5-26-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-10,EL,05-SJB1-5-27,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-10,EL,05-SJB1-5-27-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-10,EL,05-SJB1-5-27-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-10,EL,05-SJB1-5-28,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-10,EL,05-SJB1-5-28-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-10,EL,05-SJB1-5-28-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-10,EL,05-SJB1-5-29,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-10,EL,05-SJB1-5-29-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,0%
+LS-10,EL,05-SJB1-5-29-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 LS-10,EL,05-SJB1-5-30,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-10,EL,05-SJB1-5-30-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,0%
+LS-10,EL,05-SJB1-5-30-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 LS-10,EL,05-SJB1-5-31,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-10,EL,05-SJB1-5-31-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-10,EL,05-SJB1-5-31-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-10,EL,05-SJB1-5-32,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-10,EL,05-SJB1-5-32-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-10,EL,05-SJB1-5-32-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-10,EL,05-SJB1-5-33,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-10,EL,05-SJB1-5-33-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-10,EL,05-SJB1-5-33-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-10,EL,05-SJB1-5-34,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-10,EL,05-SJB1-5-34-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,0%
+LS-10,EL,05-SJB1-5-34-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 LS-10,EL,05-SJB1-5-35,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-10,EL,05-SJB1-5-35-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-10,EL,05-SJB1-5-35-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-10,EL,05-SJB1-5-36,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-10,EL,05-SJB1-5-36-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,0%
+LS-10,EL,05-SJB1-5-36-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 LS-10,EL,05-SJB1-5-37,Lighting Fixture,LED Luminaires Fixture Exit 15w,0%
-LS-10,EL,05-SJB1-5-37-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,0%
+LS-10,EL,05-SJB1-5-37-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 LS-10,EL,05-SJB1-5-38,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-10,EL,05-SJB1-5-38-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-10,EL,05-SJB1-5-38-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-10,EL,05-SJB1-5-39,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-10,EL,05-SJB1-5-39-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-10,EL,05-SJB1-5-39-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-10,EL,05-SJB1-5-40,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-10,EL,05-SJB1-5-40-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,0%
+LS-10,EL,05-SJB1-5-40-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 LS-10,EL,05-SJB1-5-41,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-10,EL,05-SJB1-5-41-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-10,EL,05-SJB1-5-41-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-10,EL,05-SJB1-5-42,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-10,EL,05-SJB1-5-42-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,0%
+LS-10,EL,05-SJB1-5-42-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 LS-10,EL,05-SJB1-5-43,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-10,EL,05-SJB1-5-43-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-10,EL,05-SJB1-5-43-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-10,EL,05-SJB1-5-44,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-10,EL,05-SJB1-5-44-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,0%
+LS-10,EL,05-SJB1-5-44-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 LS-10,EL,05-SJB1-5-45,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-10,EL,05-SJB1-5-45-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-10,EL,05-SJB1-5-45-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-10,EL,05-SJB1-5-46,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-10,EL,05-SJB1-5-46-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,0%
+LS-10,EL,05-SJB1-5-46-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-10,EL,05-SJB1-5-47,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-10,EL,05-SJB1-5-47-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,33%
+LS-10,EL,05-SJB1-5-47-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 LS-10,EL,05-SJB1-5-48,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
-LS-10,EL,05-SJB1-5-48-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,33%
+LS-10,EL,05-SJB1-5-48-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-10,EL,05-SJB1-5-49,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-10,EL,05-SJB1-5-49-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,33%
+LS-10,EL,05-SJB1-5-49-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 LS-10,EL,05-SJB1-5-50,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-10,EL,05-SJB1-5-50-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,33%
+LS-10,EL,05-SJB1-5-50-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-10,EL,05-SJB1-5-51,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-10,EL,05-SJB1-5-51-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,33%
+LS-10,EL,05-SJB1-5-51-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 LS-10,EL,05-SJB1-5-52,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
-LS-10,EL,05-SJB1-5-52-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,33%
+LS-10,EL,05-SJB1-5-52-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-10,EL,05-SJB1-5-53,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-10,EL,05-SJB1-5-53-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,33%
+LS-10,EL,05-SJB1-5-53-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 LS-10,EL,05-SJB1-5-54,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-10,EL,05-SJB1-5-54-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,33%
+LS-10,EL,05-SJB1-5-54-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-10,EL,05-SJB1-5-55,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-10,EL,05-SJB1-5-55-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,33%
+LS-10,EL,05-SJB1-5-55-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 LS-10,EL,05-SJB1-5-56,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
-LS-10,EL,05-SJB1-5-56-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,33%
+LS-10,EL,05-SJB1-5-56-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-10,EL,05-SJB1-5-57,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
-LS-10,EL,05-SJB1-5-57-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,33%
+LS-10,EL,05-SJB1-5-57-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-10,EL,05-SJB1-5-58,Lighting Fixture,LED Luminaires Fixture 20w| EX,Done
-LS-10,EL,05-SJB1-5-58-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,33%
+LS-10,EL,05-SJB1-5-58-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
 LS-10,EL,05-SJB1-5-59,Lighting Fixture,LED Luminaires Fixture Exit 15w,Done
-LS-10,EL,05-SJB1-5-59-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,33%
+LS-10,EL,05-SJB1-5-59-FJB01,Lighting Cable,LED Luminaires Fixture Exit 15w,Done
 TEL-05,EL,05-SP-01,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
 TEL-05,EL,05-SP-02,PAGING DEVICE_A,Loud Speaker - 25W|EX,50%
 TEL-05,EL,05-SP-03,Paging Device,Loud Speaker - 25W|EX,0%
@@ -2929,10 +2929,10 @@ LS-11,EL,06-EJB2-4-L3-02,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
 LS-11,EL,06-EJB2-4-L3-02-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
 LS-11,EL,06-EJB2-4-L3-03,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
 LS-11,EL,06-EJB2-4-L3-03-FJB01,Lighting Cable,LED Luminaires Fixture 40w| EX,Done
-TEL-06,EL,06-IS-01,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
-TEL-06,EL,06-IS-02,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
-TEL-06,EL,06-IS-03,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
-TEL-06,EL,06-IS-04,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,0%
+TEL-06,EL,06-IS-01,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,50%
+TEL-06,EL,06-IS-02,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,50%
+TEL-06,EL,06-IS-03,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,50%
+TEL-06,EL,06-IS-04,TELECOM DEVICE(A),Intercom Station Without Hood And Flusher- EX,50%
 LS-11,EL,06-JB1_1-3,Lighting Main JB,Normal Lighting Junction Box,0%
 LS-11,EL,06-JB1_1-3-L1-01,Lighting Fixture,LED Luminaires Fixture 40w| EX,Done
 LS-11,EL,06-JB1_1-3-L1-01-FJB01,Lighting Cable, LED Luminaires Fixture 20w| EX,Done
@@ -4339,7 +4339,7 @@ LS-08,EL,3-RJB1_2-1-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|EX,0%
 4000-06,PI,4000-06-DMW-26-931,PI_TP,PIPING TEST PACKAGE,DONE
 4000-06,PI,4000-06-DMW-27-944,PI_TP,PIPING TEST PACKAGE,DONE
 4000-06,PI,4000-06-DMW-28-1065,PI_TP,PIPING TEST PACKAGE,DONE
-4000-06,PI,4000-06-DMW-29-1084,PI_TP,PIPING TEST PACKAGE,Line Check
+4000-06,PI,4000-06-DMW-29-1084,PI_TP,PIPING TEST PACKAGE,HYDROTEST
 4000-06,PI,4000-06-DMW-30-1085,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-06,PI,4000-06-DMW-31-1086,PI_TP,PIPING TEST PACKAGE,Not Yet Activity
 4000-06,PI,4000-06-DMW-32-1161,PI_TP,PIPING TEST PACKAGE,Face_Cleaning
@@ -5503,10 +5503,10 @@ LS-14,EL,AH-EJB1,Lighting Main JB,Emergency Lighting Junction Box,DONE
 LS-14,EL,AH-EJB1-FJB01,Lighting Cable,Cable of Emergency Lighting Junction Box,33%
 LS-14,EL,AH-EJB2,Lighting Main JB,Emergency Lighting Junction Box,DONE
 LS-14,EL,AH-EJB2-FJB01,Lighting Cable,Cable of Emergency Lighting Junction Box,33%
-TEL-12,EL,AH-IS-01,TELECOM DEVICE(A),Intercom Station Without Hood - EX,50%
+TEL-12,EL,AH-IS-01,TELECOM DEVICE(A),Intercom Station Without Hood - EX,Done
 TEL-12,EL,AH-SP-01,Paging Device,Loud Speaker - 25W|EX,Done
 TEL-12,EL,AH-TEL-01,TELECOM DEVICE(A),Telephone Station Without Hood- EX,0%
-TEL-12,EL,AH-TJB1,TELECOM DEVICE(A),Telephone Junction Box - EX,50%
+TEL-12,EL,AH-TJB1,TELECOM DEVICE(A),Telephone Junction Box - EX,Done
 120-13,EL,AJB01-DW01,Cathodic Protection,Cable 1x16,DONE
 120-13,EL,AJB01-DW02,Cathodic Protection,Cable 1x16,DONE
 DCS-01,IN,ALM_T1,CABLE,CABLE(NA),Done
@@ -6189,7 +6189,7 @@ LS-04,EL,CR-LP-01-22-L1|L2|L3-01,Socket Outlet,Outlet 5-Pole- 400v|25A|Indust Ty
 ES-02,EL,CR-L-PRO(ES-02),Lightning Protection,Ligtining Protection,Done
 TEL-09,EL,CR-MCS-01-1,TELECOM DEVICE(A),Master Call Station Media Converter,0%
 TEL-09,EL,CR-MCS-01-2,Paging Device,Paging Master Call Station,0%
-TEL-09,EL,CR-MTJB1,TELECOM DEVICE(A),Main Telephone Junction Box,0%
+TEL-09,EL,CR-MTJB1,TELECOM DEVICE(A),Main Telephone Junction Box,67%
 TEL-09,EL,CR-PJB1,Paging Device,Paging Junction Box,0%
 DCS-01,IN,CR-RBS-01,JUNCTION BOX,JUNCTION BOX(PANEL),0%
 120-07,EL,CR-SIP-01,PANEL(EL),Fire & Gas Detection System Siren Panel,0%
@@ -10927,7 +10927,7 @@ LS-02,EL,EBP-SS-EMLP-01,Power Cable B,Main Emergency Lighting Panel- SS-EMLP-01,
 120-03,EL,EBP-SS-HDP-01_1,Power Cable B,Substation HVAC Distribution Panel- SS-HDP-01,67%
 120-03,EL,EBP-SS-HDP-01_2,Power Cable B,Substation HVAC Distribution Panel- SS-HDP-01,67%
 LS-01,EL,EBP-SS-LP-01,Power Cable B,Substation Normal Lighting & Socket Outlet Panel- SS-LP-01,0%
-120-07,EL,EBP-SS-LSP-01,Power Cable B,Load Shedding Cabinet- SS-LSP-01 (Auxiliary Supply),Done
+120-07,EL,EBP-SS-LSP-01,Power Cable B,Load Shedding Cabinet- SS-LSP-01 (Auxiliary Supply),67%
 120-07,EL,EBP-SS-MLP-01_AS,Power Cable B,Normal Main Lighting Panel- SS-MLP-01  (Auxiliary Supply),0%
 LS-01,EL,EBP-SS-MLP-01A_1,Power Cable B,Main Normal Lighting Panel (Incomer A)- SS-MLP-01A,0%
 LS-01,EL,EBP-SS-MLP-01A_2,Power Cable B,Main Normal Lighting Panel (Incomer A)- SS-MLP-01A,0%
@@ -10977,9 +10977,9 @@ LS-01,EL,EBP-SS-MLP-01B_3,Power Cable B,Main Normal Lighting Panel (Incomer B)- 
 120-07,EL,EBP-SS-UPS-01,Power Cable B,230V AC Safety Lighting UPS- SS-UPS-01,0%
 120-07,EL,EBP-SS-UPS-01_AS,Power Cable B,230V AC Safety Lighting UPS- SS-UPS-01 (Auxiliary Supply),33%
 120-07,EL,EBP-SS-UPS-01_BY,Power Cable B,230V AC Safety Lighting UPS Bypass - SS-UPS-01/BY,0%
-120-03,EL,EBP-WH-DP-01,Power Cable B,Warehouse Distribution Panel- WH-DP-01,Done
-120-07,EL,EBP-WH-EDP-01,Power Cable B,Warehouse Emergency Distribution Panel- WH-EDP-01,Done
-120-03,EL,EBP-WS-DP-01,Power Cable B,Workshop Distribution Panel- WS-DP-01,Done
+120-03,EL,EBP-WH-DP-01,Power Cable B,Warehouse Distribution Panel- WH-DP-01,67%
+120-07,EL,EBP-WH-EDP-01,Power Cable B,Warehouse Emergency Distribution Panel- WH-EDP-01,67%
+120-03,EL,EBP-WS-DP-01,Power Cable B,Workshop Distribution Panel- WS-DP-01,67%
 LS-02,EL,EBP-YO-ELP-01,Power Cable B,Yard Office Emergency Lighting Panel- YO-ELP-01,33%
 LS-01,EL,EBP-YO-LP-01,Power Cable B,Yard Office Normal Lighting & Socket Outlet Panel- YO-LP-01,33%
 120-02,EL,ECC-C2001-HE-1_1,Power Cable B,Substation E/I Cabinet SS-E/I-01 (Command/Indication Signals),DONE
@@ -12461,6 +12461,12 @@ FGS-02,IN,FGD-0036(FGD),Fire Alarm,Fire Alarm(FGD),Done
 FGS-02,IN,FGD-0036(NA),CABLE,CABLE(NA),Done
 FGS-02,IN,FGD-0037(FGD),Fire Alarm,Fire Alarm(FGD),Done
 FGS-02,IN,FGD-0037(NA),CABLE,CABLE(NA),Done
+FGS-04,IN,FGD-0038(FGD),Fire Alarm,,0%
+FGS-04,IN,FGD-0038(NA),CABLE,,0%
+FGS-04,IN,FGD-0039(FGD),Fire Alarm,,0%
+FGS-04,IN,FGD-0039(NA),CABLE,,0%
+FGS-04,IN,FGD-0040(FGD),Fire Alarm,,0%
+FGS-04,IN,FGD-0040(NA),CABLE,,0%
 FGS-08,IN,FGD-0041,Fire Alarm,Fire Alarm(FGD),0%
 FGS-01,IN,FGD-0042(FGD),Fire Alarm,Fire Alarm(FGD),Done
 FGS-01,IN,FGD-0042(NA),CABLE,CABLE(NA),Done
@@ -12683,6 +12689,8 @@ FGS-02,IN,FLD-0027(FLD),Fire Alarm,Fire Alarm(FLD),Done
 FGS-02,IN,FLD-0027(NA),CABLE,CABLE(NA),Done
 FGS-02,IN,FLD-0028(FLD),Fire Alarm,Fire Alarm(FLD),Done
 FGS-02,IN,FLD-0028(NA),CABLE,CABLE(NA),Done
+FGS-04,IN,FLD-0029(FLD),Fire Alarm,,0%
+FGS-04,IN,FLD-0029(NA),CABLE,,0%
 2000-05,IN,FO-2483,Instrument(FO),Instrument(FO),Done
 1000-02,IN,FO-2552,Instrument(FO),Instrument(FO),Done
 3000-01,IN,FO-30101,Instrument(FO),Instrument(FO),50%
@@ -14263,8 +14271,8 @@ DCS-01,IN,JNXX-PK7502-06,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 DCS-01,IN,JNXX-PK7502-07,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 DCS-01,IN,JNXX-PK7502-08,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 2000-02,IN,KE-20101,Instrument(KE),Instrument(KE),Done
-2000-02,IN,KE-20102,Instrument(KE),Instrument(KE),Done
-2000-02,IN,KE-20103,Instrument(KE),Instrument(KE),Done
+2000-02,IN,KE-20102,Instrument(KE),Instrument(KE),0%
+2000-02,IN,KE-20103,Instrument(KE),Instrument(KE),0%
 2000-02,IN,KE-20104,Instrument(KE),Instrument(KE),Done
 2000-02,IN,KE-20151,Instrument(KE),Instrument(KE),Done
 2000-02,IN,KE-20152,Instrument(KE),Instrument(KE),Done
@@ -14283,7 +14291,7 @@ DCS-01,IN,JNXX-PK7502-08,JUNCTION BOX,JUNCTION BOX(JUNCTION BOX),0%
 4000-08,IN,KE-80236B,Instrument(KE),Instrument(KE),0%
 2000-02,IN,KT-20101,Instrument(KT),Instrument(KT),Done
 2000-02,IN,KT-20102,Instrument(KT),Instrument(KT),Done
-2000-02,IN,KT-20103,Instrument(KT),Instrument(KT),Done
+2000-02,IN,KT-20103,Instrument(KT),Instrument(KT),0%
 2000-02,IN,KT-20104,Instrument(KT),Instrument(KT),Done
 2000-02,IN,KT-20151,Instrument(KT),Instrument(KT),Done
 2000-02,IN,KT-20152,Instrument(KT),Instrument(KT),Done
@@ -14468,7 +14476,7 @@ TEL-10,EL,LAB-TEL-OUTLET-4-02,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,
 TEL-10,EL,LAB-TEL-OUTLET-4-03,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
 TEL-10,EL,LAB-TEL-OUTLET-4-04,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
 TEL-10,EL,LAB-TEL-OUTLET-4-05,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,LAB-TJB1,TELECOM DEVICE(A),Telephone Junction Box,0%
+TEL-10,EL,LAB-TJB1,TELECOM DEVICE(A),Telephone Junction Box,67%
 DCS-01,IN,LB01-RS01R-F RMBDI11:1-RM03F-F,CABLE,CABLE(NA),Done
 DCS-01,IN,LB01-RS01R-F RMBDI11:2-RM03F-F,CABLE,CABLE(NA),Done
 DCS-01,IN,LB01-RS03R-F RMBDO08:1-RM05F-F,CABLE,CABLE(NA),Done
@@ -15632,6 +15640,10 @@ FGS-05,IN,MCP-0030(MCP),Fire Alarm,Fire Alarm(MCP),Done
 FGS-05,IN,MCP-0030(NA),CABLE,CABLE(NA),Done
 FGS-06,IN,MCP-0031(MCP),Fire Alarm,Fire Alarm(MCP),Done
 FGS-06,IN,MCP-0031(NA),CABLE,CABLE(NA),Done
+FGS-04,IN,MCP-0032(MCP),Fire Alarm,,0%
+FGS-04,IN,MCP-0032(NA),CABLE,,0%
+FGS-04,IN,MCP-0033(MCP),Fire Alarm,,0%
+FGS-04,IN,MCP-0033(NA),CABLE,,0%
 FGS-09,EL,MCP-0144,F&G Device,Manual Call Point,DONE
 FGS-09,EL,MCP-0145,F&G Device,Manual Call Point,DONE
 FGS-09,EL,MCP-0146,F&G Device,Manual Call Point,DONE
@@ -16992,7 +17004,7 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 2000-02,IN,PG-20104,Instrument(PG),Instrument(PG),Done
 2000-02,IN,PG-20105,Instrument(PG),Instrument(PG),Done
 2000-02,IN,PG-20106,Instrument(PG),Instrument(PG),Done
-2000-02,IN,PG-20107,Instrument(PG),Instrument(PG),Done
+2000-02,IN,PG-20107,Instrument(PG),Instrument(PG),50%
 2000-02,IN,PG-20108,Instrument(PG),Instrument(PG),Done
 2000-03-1,IN,PG-2011,Instrument(PG),Instrument(PG),Done
 2000-02,IN,PG-20151,Instrument(PG),Instrument(PG),Done
@@ -17001,7 +17013,7 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 2000-02,IN,PG-20154,Instrument(PG),Instrument(PG),Done
 2000-02,IN,PG-20155,Instrument(PG),Instrument(PG),Done
 2000-02,IN,PG-20156,Instrument(PG),Instrument(PG),Done
-2000-02,IN,PG-20157,Instrument(PG),Instrument(PG),Done
+2000-02,IN,PG-20157,Instrument(PG),Instrument(PG),50%
 2000-02,IN,PG-20158,Instrument(PG),Instrument(PG),Done
 2000-03,IN,PG-2018,Instrument(PG),Instrument(PG),50%
 3000-04,IN,PG-20205,Instrument(PG),Instrument(PG),50%
@@ -17277,13 +17289,13 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 1000-03,IN,PG-6087,Instrument(PG),Instrument(PG),Done
 4000-02,IN,PG-7008,Instrument(PG),Instrument(PG),Done
 4000-04,IN,PG-70101A,Instrument(PG),Instrument(PG),Done
-4000-04,IN,PG-70101B,Instrument(PG),Instrument(PG),Done
+4000-04,IN,PG-70101B,Instrument(PG),Instrument(PG),50%
 4000-04,IN,PG-70102A,Instrument(PG),Instrument(PG),Done
 4000-04,IN,PG-70102B,Instrument(PG),Instrument(PG),Done
 4000-04,IN,PG-70103A,Instrument(PG),Instrument(PG),Done
-4000-04,IN,PG-70103B,Instrument(PG),Instrument(PG),Done
+4000-04,IN,PG-70103B,Instrument(PG),Instrument(PG),50%
 4000-04,IN,PG-70104A,Instrument(PG),Instrument(PG),Done
-4000-04,IN,PG-70104B,Instrument(PG),Instrument(PG),Done
+4000-04,IN,PG-70104B,Instrument(PG),Instrument(PG),50%
 4000-04,IN,PG-70107A,Instrument(PG),Instrument(PG),Done
 4000-04,IN,PG-70107B,Instrument(PG),Instrument(PG),Done
 4000-04,IN,PG-70108A,Instrument(PG),Instrument(PG),Done
@@ -17326,14 +17338,14 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 4000-02,IN,PG-7054,Instrument(PG),Instrument(PG),Done
 4000-06,IN,PG-7062,Instrument(PG),Instrument(PG),Done
 4000-06,IN,PG-7063,Instrument(PG),Instrument(PG),Done
-4000-04,IN,PG-7093,Instrument(PG),Instrument(PG),50%
+4000-04,IN,PG-7093,Instrument(PG),Instrument(PG),0%
 1000-03,IN,PG-7102,Instrument(PG),Instrument(PG),DONE
 1000-03,IN,PG-7103,Instrument(PG),Instrument(PG),DONE
 1000-03,IN,PG-7105,Instrument(PG),Instrument(PG),DONE
 1000-03,IN,PG-7106,Instrument(PG),Instrument(PG),DONE
 4000-04,IN,PG-7111,Instrument(PG),Instrument(PG),Done
-1000-03,IN,PG-71120,Instrument(PG),Instrument(PG),Done
-1000-03,IN,PG-71121,Instrument(PG),Instrument(PG),Done
+1000-03,IN,PG-71120,Instrument(PG),Instrument(PG),50%
+1000-03,IN,PG-71121,Instrument(PG),Instrument(PG),50%
 4000-04,IN,PG-7113,Instrument(PG),Instrument(PG),Done
 4000-04,IN,PG-7114,Instrument(PG),Instrument(PG),Done
 4000-04,IN,PG-7115,Instrument(PG),Instrument(PG),Done
@@ -17344,7 +17356,7 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 7000-02,IN,PG-71182,Instrument(PG),Instrument(PG),50%
 7000-02,IN,PG-71183,Instrument(PG),Instrument(PG),Done
 7000-02,IN,PG-71184,Instrument(PG),Instrument(PG),Done
-7000-02,IN,PG-71185,Instrument(PG),Instrument(PG),Done
+7000-02,IN,PG-71185,Instrument(PG),Instrument(PG),50%
 4000-04,IN,PG-7119,Instrument(PG),Instrument(PG),Done
 7000-01,IN,PG-71202A,Instrument(PG),Instrument(PG),Done
 7000-01,IN,PG-71202B,Instrument(PG),Instrument(PG),Done
@@ -17359,14 +17371,14 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 7000-01,IN,PG-7153,Instrument(PG),Instrument(PG),DONE
 7000-01,IN,PG-7155,Instrument(PG),Instrument(PG),DONE
 7000-01,IN,PG-7157,Instrument(PG),Instrument(PG),DONE
-4000-04,IN,PG-7164,Instrument(PG),Instrument(PG),50%
-4000-04,IN,PG-7167,Instrument(PG),Instrument(PG),50%
-4000-04,IN,PG-7170,Instrument(PG),Instrument(PG),50%
-4000-04,IN,PG-7173,Instrument(PG),Instrument(PG),50%
-4000-04,IN,PG-7194,Instrument(PG),Instrument(PG),50%
-4000-04,IN,PG-7197,Instrument(PG),Instrument(PG),50%
-4000-04,IN,PG-7214,Instrument(PG),Instrument(PG),50%
-4000-04,IN,PG-7217,Instrument(PG),Instrument(PG),50%
+4000-04,IN,PG-7164,Instrument(PG),Instrument(PG),0%
+4000-04,IN,PG-7167,Instrument(PG),Instrument(PG),0%
+4000-04,IN,PG-7170,Instrument(PG),Instrument(PG),0%
+4000-04,IN,PG-7173,Instrument(PG),Instrument(PG),0%
+4000-04,IN,PG-7194,Instrument(PG),Instrument(PG),0%
+4000-04,IN,PG-7197,Instrument(PG),Instrument(PG),0%
+4000-04,IN,PG-7214,Instrument(PG),Instrument(PG),0%
+4000-04,IN,PG-7217,Instrument(PG),Instrument(PG),0%
 4000-05,IN,PG-7220,Instrument(PG),Instrument(PG),Done
 4000-06,IN,PG-7503A,Instrument(PG),Instrument(PG),Done
 4000-06,IN,PG-7503B,Instrument(PG),Instrument(PG),Done
@@ -17473,7 +17485,7 @@ DCS-01,IN,NP-SY30103C,CABLE,CABLE(NA),Done
 4000-12,IN,PG-8421,Instrument(PG),Instrument(PG),Done
 4000-12,IN,PG-8422,Instrument(PG),Instrument(PG),50%
 4000-12,IN,PG-8423,Instrument(PG),Instrument(PG),50%
-2000-02,IN,PI-2112,Instrument(PI),Instrument(PI),Done
+2000-02,IN,PI-2112,Instrument(PI),Instrument(PI),50%
 FGS-02,IN,PI-9001,Fire Fighting,Fire Fighting(PI),Done
 FGS-02,IN,PI-9001A,Fire Fighting,Fire Fighting(PI),Done
 FGS-02,IN,PI-9001B,Fire Fighting,Fire Fighting(PI),Done
@@ -17538,7 +17550,7 @@ FGS-04,IN,PI-9030A,Fire Fighting,Fire Fighting(PI),Done
 FGS-04,IN,PI-9030B,Fire Fighting,Fire Fighting(PI),Done
 FGS-02,IN,PI-9053A,Fire Fighting,Fire Fighting(PI),Done
 FGS-02,IN,PI-9053B,Fire Fighting,Fire Fighting(PI),Done
-FGS-01,IN,PI-9054A,Fire Fighting,Fire Fighting(PI),Done
+FGS-01,IN,PI-9054A,Fire Fighting,Fire Fighting(PI),0%
 FGS-01,IN,PI-9054B,Fire Fighting,Fire Fighting(PI),Done
 FGS-01,IN,PI-9055A,Fire Fighting,Fire Fighting(PI),Done
 FGS-01,IN,PI-9055B,Fire Fighting,Fire Fighting(PI),Done
@@ -18943,9 +18955,9 @@ LS-04,EL,S44,Switch,One Pole Switch Surface Mounted| WP,Done
 3000-01,IN,SAHH-30106C,PKG,PKG,Done
 2000-02,IN,SC-2119,SIGNAL,SIGNAL,75%
 2000-02,IN,SC-2167,SIGNAL,SIGNAL,75%
-4000-04,IN,SC-7213(NA),CABLE,CABLE(NA),Done
+4000-04,IN,SC-7213(NA),CABLE,CABLE(NA),50%
 4000-04,IN,SC-7213(SC),Instrument(SC),Instrument(SC),Done
-4000-04,IN,SC-7216(NA),CABLE,CABLE(NA),Done
+4000-04,IN,SC-7216(NA),CABLE,CABLE(NA),50%
 4000-04,IN,SC-7216(SC),Instrument(SC),Instrument(SC),Done
 4000-08,IN,SC-8001A,Instrument(SC),Instrument(SC),0%
 4000-08,IN,SC-8001B,Instrument(SC),Instrument(SC),0%
@@ -19131,6 +19143,7 @@ FGS-05,IN,SF4-0002,Fire Alarm,Fire Alarm(SF4),Done
 FGS-05,IN,SF4-0003,Fire Alarm,Fire Alarm(SF4),Done
 FGS-05,IN,SF4-0004,Fire Alarm,Fire Alarm(SF4),Done
 FGS-04,IN,SF4-0005,Fire Alarm,Fire Alarm(SF4),Done
+FGS-04,IN,SF4-0006,Fire Alarm,,0%
 FGS-01,IN,SF4-0007,Fire Alarm,Fire Alarm(SF4),Done
 FGS-01,IN,SF4-0008,Fire Alarm,Fire Alarm(SF4),Done
 FGS-09,IN,SF4-0101,Fire Alarm,Fire Alarm(SF4),0%
@@ -19144,8 +19157,8 @@ FGS-09,IN,SF4-0101,Fire Alarm,Fire Alarm(SF4),0%
 2000-02,IN,SI-20103,Instrument(SI),Instrument(SI),67%
 2000-02,IN,SI-20153,Instrument(SI),Instrument(SI),Done
 2000-02,IN,SI-2118,SIGNAL,SIGNAL,75%
-2000-02,IN,SI-2119,Instrument(SI),Instrument(SI),Done
-2000-02,IN,SI-2167,Instrument(SI),Instrument(SI),Done
+2000-02,IN,SI-2119,Instrument(SI),Instrument(SI),67%
+2000-02,IN,SI-2167,Instrument(SI),Instrument(SI),67%
 2000-02,IN,SI-2168,SIGNAL,SIGNAL,75%
 3000-01,IN,SI-30103(SI),Instrument(SI),Instrument(SI),0%
 4000-04,IN,SI-70160A,Instrument(SI),Instrument(SI),67%
@@ -19697,7 +19710,7 @@ LS-03,EL,SS-LP-01-8-L3-13,Lighting Fixture,Bulkhead Lighting Fixture| 30w| WP,Do
 LS-03,EL,SS-LP-01-8-L3-13-FJB,Lighting Cable,Bulkhead Lighting Fixture| 30w| WP,33%
 LS-03,EL,SS-LP-01-8-L3-14,Lighting Fixture,Bulkhead Lighting Fixture| 30w| WP,Done
 LS-03,EL,SS-LP-01-8-L3-14-FJB,Lighting Cable,Bulkhead Lighting Fixture| 30w| WP,33%
-ES-01,EL,SS-L-PRO(ES-01),Lightning Protection,Ligtining Protection,50%
+ES-01,EL,SS-L-PRO(ES-01),Lightning Protection,Ligtining Protection,Done
 LS-01,EL,SS-MLP-01,PANEL(EL),Main Normal Lighting Panel,Done
 120-16,EL,SS-NGR1A-01,Natural Ground Resistance,Neutral Grounding Resistor- SS-NGR1A-01,DONE
 120-16,EL,SS-NGR1B-01,Natural Ground Resistance,Neutral Grounding Resistor- SS-NGR1B-01,DONE
@@ -19715,7 +19728,7 @@ TEL-08,EL,SS-SP-07,Paging Device,Loud Speaker Wall Mounted- 15W,Done
 TEL-08,EL,SS-TEL-01,TELECOM DEVICE(A),Telephone Station Without Hood,0%
 TEL-08,EL,SS-TEL-02,TELECOM DEVICE(A),Telephone Station Without Hood,50%
 TEL-08,EL,SS-TEL-03,TELECOM DEVICE(A),Telephone Station Without Hood,0%
-TEL-08,EL,SS-TJB1,TELECOM DEVICE(A),Telephone Junction Box,50%
+TEL-08,EL,SS-TJB1,TELECOM DEVICE(A),Telephone Junction Box,Done
 120-16,EL,SS-TR1A-01,TRANSFORMER(B),TRANSFORMER(B),Done
 120-16,EL,SS-TR1B-01,TRANSFORMER(B),TRANSFORMER(B),Done
 120-17,EL,SS-TR2A-01,TRANSFORMER(B),Transformer,Done
@@ -19866,10 +19879,10 @@ BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor 
 2000-02,IN,TE-20113,Instrument(TE),Instrument(TE),Done
 2000-02,IN,TE-20114,Instrument(TE),Instrument(TE),Done
 2000-02,IN,TE-20115,Instrument(TE),Instrument(TE),Done
-2000-02,IN,TE-20116,Instrument(TE),Instrument(TE),Done
-2000-02,IN,TE-20117,Instrument(TE),Instrument(TE),Done
-2000-02,IN,TE-20118,Instrument(TE),Instrument(TE),Done
-2000-02,IN,TE-20119,Instrument(TE),Instrument(TE),Done
+2000-02,IN,TE-20116,Instrument(TE),Instrument(TE),50%
+2000-02,IN,TE-20117,Instrument(TE),Instrument(TE),50%
+2000-02,IN,TE-20118,Instrument(TE),Instrument(TE),50%
+2000-02,IN,TE-20119,Instrument(TE),Instrument(TE),50%
 2000-02,IN,TE-20120,Instrument(TE),Instrument(TE),Done
 2000-02,IN,TE-20121,Instrument(TE),Instrument(TE),Done
 2000-02,IN,TE-20122,Instrument(TE),Instrument(TE),Done
@@ -19901,10 +19914,10 @@ BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor 
 2000-02,IN,TE-20163,Instrument(TE),Instrument(TE),Done
 2000-02,IN,TE-20164,Instrument(TE),Instrument(TE),Done
 2000-02,IN,TE-20165,Instrument(TE),Instrument(TE),Done
-2000-02,IN,TE-20166,Instrument(TE),Instrument(TE),Done
-2000-02,IN,TE-20167,Instrument(TE),Instrument(TE),Done
-2000-02,IN,TE-20168,Instrument(TE),Instrument(TE),Done
-2000-02,IN,TE-20169,Instrument(TE),Instrument(TE),Done
+2000-02,IN,TE-20166,Instrument(TE),Instrument(TE),50%
+2000-02,IN,TE-20167,Instrument(TE),Instrument(TE),50%
+2000-02,IN,TE-20168,Instrument(TE),Instrument(TE),50%
+2000-02,IN,TE-20169,Instrument(TE),Instrument(TE),50%
 2000-02,IN,TE-20170,Instrument(TE),Instrument(TE),Done
 2000-02,IN,TE-20171,Instrument(TE),Instrument(TE),Done
 2000-02,IN,TE-20172,Instrument(TE),Instrument(TE),Done
@@ -20548,14 +20561,14 @@ BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor 
 1000-01,IN,TG-1046,Instrument(TGA),Instrument(TG),Done
 2000-03-1,IN,TG-2002,Instrument(TG),Instrument(TG),Done
 2000-02,IN,TG-20101,Instrument(TG),Instrument(TG),Done
-2000-02,IN,TG-20102,Instrument(TG),Instrument(TG),Done
+2000-02,IN,TG-20102,Instrument(TG),Instrument(TG),50%
 2000-02,IN,TG-20103,Instrument(TG),Instrument(TG),Done
 2000-02,IN,TG-20104,Instrument(TG),Instrument(TG),Done
 2000-02,IN,TG-20105,Instrument(TG),Instrument(TG),Done
-2000-02,IN,TG-20106,Instrument(TG),Instrument(TG),Done
-2000-02,IN,TG-20107,Instrument(TG),Instrument(TG),Done
-2000-02,IN,TG-20108,Instrument(TG),Instrument(TG),Done
-2000-02,IN,TG-20109,Instrument(TG),Instrument(TG),Done
+2000-02,IN,TG-20106,Instrument(TG),Instrument(TG),50%
+2000-02,IN,TG-20107,Instrument(TG),Instrument(TG),50%
+2000-02,IN,TG-20108,Instrument(TG),Instrument(TG),50%
+2000-02,IN,TG-20109,Instrument(TG),Instrument(TG),50%
 2000-03-1,IN,TG-2011,Instrument(TG),Instrument(TG),Done
 2000-02,IN,TG-20110,Instrument(TG),Instrument(TG),Done
 2000-03,IN,TG-2012,Instrument(TG),Instrument(TG),Done
@@ -20682,12 +20695,12 @@ BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor 
 5000-03,IN,TG-50213B,Instrument(TG),Instrument(TG),0%
 5000-04-1,IN,TG-50214A,Instrument(TG),Instrument(TG),Done
 5000-04-1,IN,TG-50214B,Instrument(TG),Instrument(TG),Done
-5000-04-1,IN,TG-50215A,Instrument(TG),Instrument(TG),Done
+5000-04-1,IN,TG-50215A,Instrument(TG),Instrument(TG),50%
 5000-03,IN,TG-50216B,Instrument(TG),Instrument(TG),50%
 5000-03,IN,TG-50217A,Instrument(TG),Instrument(TG),50%
 5000-03,IN,TG-50217B,Instrument(TG),Instrument(TG),50%
 4000-04,IN,TG-50218A,Instrument(TG),Instrument(TG),Done
-4000-04,IN,TG-50218B,Instrument(TG),Instrument(TG),Done
+4000-04,IN,TG-50218B,Instrument(TG),Instrument(TG),50%
 5000-01,IN,TG-5098,Instrument(TG),Instrument(TG),DONE
 5000-01,IN,TG-5108,Instrument(TG),Instrument(TG),DONE
 5000-02,IN,TG-5186,Instrument(TG),Instrument(TG),DONE
@@ -20728,11 +20741,11 @@ BLD-06,BD,Stair Ways(Ground Floor BLD-06),09-Stair Ways,Stair Ways(Ground Floor 
 4000-02,IN,TG-7008,Instrument(TG),Instrument(TG),Done
 3000-01,IN,TG-7009,Instrument(TG),Instrument(TG),Done
 4000-04,IN,TG-70113A,Instrument(TG),Instrument(TG),Done
-4000-04,IN,TG-70113B,Instrument(TG),Instrument(TG),Done
+4000-04,IN,TG-70113B,Instrument(TG),Instrument(TG),50%
 4000-04,IN,TG-70114A,Instrument(TG),Instrument(TG),Done
-4000-04,IN,TG-70114B,Instrument(TG),Instrument(TG),Done
+4000-04,IN,TG-70114B,Instrument(TG),Instrument(TG),50%
 4000-04,IN,TG-70119A,Instrument(TG),Instrument(TG),Done
-4000-04,IN,TG-70119B,Instrument(TG),Instrument(TG),Done
+4000-04,IN,TG-70119B,Instrument(TG),Instrument(TG),50%
 4000-04,IN,TG-70132A,Instrument(TG),Instrument(TG),Done
 4000-04,IN,TG-70132B,Instrument(TG),Instrument(TG),Done
 4000-04,IN,TG-70138A,Instrument(TG),Instrument(TG),Done
@@ -20827,6 +20840,8 @@ FGS-05,IN,TGD-0009(NA),CABLE,CABLE(NA),Done
 FGS-05,IN,TGD-0009(TGD),Fire Alarm,Fire Alarm(TGD),0%
 FGS-04,IN,TGD-0010(NA),CABLE,CABLE(NA),Done
 FGS-04,IN,TGD-0010(TGD),Fire Alarm,Fire Alarm(TGD),Done
+FGS-04,IN,TGD-0011(NA),CABLE,,0%
+FGS-04,IN,TGD-0011(TGD),Fire Alarm,,0%
 FGS-01,IN,TGD-0012(NA),CABLE,CABLE(NA),Done
 FGS-01,IN,TGD-0012(TGD),Fire Alarm,Fire Alarm(TGD),Done
 FGS-01,IN,TGD-0013(NA),CABLE,CABLE(NA),Done
@@ -20883,7 +20898,7 @@ FGS-01,IN,TGD-0022(TGD),Fire Alarm,Fire Alarm(TGD),Done
 2000-02,IN,TSE-2221B(NA),CABLE,CABLE(NA),Done
 2000-02,IN,TSE-2221B(TSE),Instrument(TSE),Instrument(TSE),Done
 2000-02,IN,TSE-2221C(NA),CABLE,CABLE(NA),Done
-2000-02,IN,TSE-2221C(TSE),Instrument(TSE),Instrument(TSE),Done
+2000-02,IN,TSE-2221C(TSE),Instrument(TSE),Instrument(TSE),50%
 2000-03,IN,TSE-2305A(NA),CABLE,CABLE(NA),Done
 2000-03,IN,TSE-2305A(TSE),Instrument(TSE),Instrument(TSE),50%
 2000-03,IN,TSE-2305B(NA),CABLE,CABLE(NA),Done
@@ -21114,9 +21129,9 @@ FGS-01,IN,TGD-0022(TGD),Fire Alarm,Fire Alarm(TGD),Done
 2000-02,IN,TT-20114,Instrument(TT),Instrument(TT),Done
 2000-02,IN,TT-20115,Instrument(TT),Instrument(TT),Done
 2000-02,IN,TT-20116,Instrument(TT),Instrument(TT),Done
-2000-02,IN,TT-20117,Instrument(TT),Instrument(TT),Done
+2000-02,IN,TT-20117,Instrument(TT),Instrument(TT),50%
 2000-02,IN,TT-20118,Instrument(TT),Instrument(TT),Done
-2000-02,IN,TT-20119,Instrument(TT),Instrument(TT),Done
+2000-02,IN,TT-20119,Instrument(TT),Instrument(TT),50%
 2000-02,IN,TT-20120,Instrument(TT),Instrument(TT),Done
 2000-02,IN,TT-20121,Instrument(TT),Instrument(TT),Done
 2000-02,IN,TT-20132,Instrument(TT),Instrument(TT),Done
@@ -21137,9 +21152,9 @@ FGS-01,IN,TGD-0022(TGD),Fire Alarm,Fire Alarm(TGD),Done
 2000-02,IN,TT-20164,Instrument(TT),Instrument(TT),Done
 2000-02,IN,TT-20165,Instrument(TT),Instrument(TT),Done
 2000-02,IN,TT-20166,Instrument(TT),Instrument(TT),Done
-2000-02,IN,TT-20167,Instrument(TT),Instrument(TT),Done
+2000-02,IN,TT-20167,Instrument(TT),Instrument(TT),50%
 2000-02,IN,TT-20168,Instrument(TT),Instrument(TT),Done
-2000-02,IN,TT-20169,Instrument(TT),Instrument(TT),Done
+2000-02,IN,TT-20169,Instrument(TT),Instrument(TT),50%
 2000-02,IN,TT-20170,Instrument(TT),Instrument(TT),Done
 2000-02,IN,TT-20171,Instrument(TT),Instrument(TT),Done
 2000-02,IN,TT-20172,Instrument(TT),Instrument(TT),Done
@@ -21663,15 +21678,15 @@ FGS-01,IN,TGD-0022(TGD),Fire Alarm,Fire Alarm(TGD),Done
 2000-03-1,IN,TW-2001,Instrument(TW),Instrument(TW),Done
 2000-03-1,IN,TW-2002,Instrument(TW),Instrument(TW),Done
 2000-03,IN,TW-2003,Instrument(TW),Instrument(TW),Done
-2000-02,IN,TW-20101,Instrument(TW),Instrument(TW),Done
-2000-02,IN,TW-20102,Instrument(TW),Instrument(TW),Done
+2000-02,IN,TW-20101,Instrument(TW),Instrument(TW),50%
+2000-02,IN,TW-20102,Instrument(TW),Instrument(TW),50%
 2000-02,IN,TW-20103(TW),Instrument(TW),Instrument(TW),Done
 2000-02,IN,TW-20104,Instrument(TW),Instrument(TW),Done
 2000-02,IN,TW-20105,Instrument(TW),Instrument(TW),Done
-2000-02,IN,TW-20106,Instrument(TW),Instrument(TW),Done
-2000-02,IN,TW-20107,Instrument(TW),Instrument(TW),Done
-2000-02,IN,TW-20108,Instrument(TW),Instrument(TW),Done
-2000-02,IN,TW-20109,Instrument(TW),Instrument(TW),Done
+2000-02,IN,TW-20106,Instrument(TW),Instrument(TW),50%
+2000-02,IN,TW-20107,Instrument(TW),Instrument(TW),50%
+2000-02,IN,TW-20108,Instrument(TW),Instrument(TW),50%
+2000-02,IN,TW-20109,Instrument(TW),Instrument(TW),50%
 2000-03-1,IN,TW-2011,Instrument(TW),Instrument(TW),Done
 2000-02,IN,TW-20110,Instrument(TW),Instrument(TW),Done
 2000-02,IN,TW-20115,Instrument(TW),Instrument(TW),Done
@@ -21683,10 +21698,10 @@ FGS-01,IN,TGD-0022(TGD),Fire Alarm,Fire Alarm(TGD),Done
 2000-02,IN,TW-20153(TW),Instrument(TW),Instrument(TW),Done
 2000-02,IN,TW-20154,Instrument(TW),Instrument(TW),Done
 2000-02,IN,TW-20155,Instrument(TW),Instrument(TW),Done
-2000-02,IN,TW-20156,Instrument(TW),Instrument(TW),Done
-2000-02,IN,TW-20157,Instrument(TW),Instrument(TW),Done
-2000-02,IN,TW-20158,Instrument(TW),Instrument(TW),Done
-2000-02,IN,TW-20159,Instrument(TW),Instrument(TW),Done
+2000-02,IN,TW-20156,Instrument(TW),Instrument(TW),50%
+2000-02,IN,TW-20157,Instrument(TW),Instrument(TW),50%
+2000-02,IN,TW-20158,Instrument(TW),Instrument(TW),50%
+2000-02,IN,TW-20159,Instrument(TW),Instrument(TW),50%
 2000-02,IN,TW-20160,Instrument(TW),Instrument(TW),Done
 2000-02,IN,TW-20165,Instrument(TW),Instrument(TW),Done
 2000-02,IN,TW-20182,Instrument(TW),Instrument(TW),Done
@@ -22901,12 +22916,12 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),0%
 4000-08,IN,VT-80239B,Instrument(VT),Instrument(VT),0%
 4000-08,IN,VT-80240A,Instrument(VT),Instrument(VT),0%
 4000-08,IN,VT-80240B,Instrument(VT),Instrument(VT),0%
-2000-02,IN,VXE-20101,Instrument(VXE),Instrument(VXE),Done
+2000-02,IN,VXE-20101,Instrument(VXE),Instrument(VXE),0%
 2000-02,IN,VXE-20102,Instrument(VXE),Instrument(VXE),Done
-2000-02,IN,VXE-20103,Instrument(VXE),Instrument(VXE),Done
-2000-02,IN,VXE-20104,Instrument(VXE),Instrument(VXE),Done
-2000-02,IN,VXE-20105,Instrument(VXE),Instrument(VXE),Done
-2000-02,IN,VXE-20106,Instrument(VXE),Instrument(VXE),Done
+2000-02,IN,VXE-20103,Instrument(VXE),Instrument(VXE),0%
+2000-02,IN,VXE-20104,Instrument(VXE),Instrument(VXE),0%
+2000-02,IN,VXE-20105,Instrument(VXE),Instrument(VXE),0%
+2000-02,IN,VXE-20106,Instrument(VXE),Instrument(VXE),0%
 2000-02,IN,VXE-20107,Instrument(VXE),Instrument(VXE),Done
 2000-02,IN,VXE-20108,Instrument(VXE),Instrument(VXE),Done
 2000-02,IN,VXE-20109,Instrument(VXE),Instrument(VXE),Done
@@ -22956,10 +22971,10 @@ DCS-01,IN,UCP-PK7502-02,JUNCTION BOX,JUNCTION BOX(PANEL),0%
 3000-01,IN,VXT-30114,Instrument(VXT),Instrument(VXT),0%
 2000-02,IN,VYE-20101,Instrument(VYE),Instrument(VYE),Done
 2000-02,IN,VYE-20102,Instrument(VYE),Instrument(VYE),Done
-2000-02,IN,VYE-20103,Instrument(VYE),Instrument(VYE),Done
-2000-02,IN,VYE-20104,Instrument(VYE),Instrument(VYE),Done
-2000-02,IN,VYE-20105,Instrument(VYE),Instrument(VYE),Done
-2000-02,IN,VYE-20106,Instrument(VYE),Instrument(VYE),Done
+2000-02,IN,VYE-20103,Instrument(VYE),Instrument(VYE),0%
+2000-02,IN,VYE-20104,Instrument(VYE),Instrument(VYE),0%
+2000-02,IN,VYE-20105,Instrument(VYE),Instrument(VYE),0%
+2000-02,IN,VYE-20106,Instrument(VYE),Instrument(VYE),0%
 2000-02,IN,VYE-20107,Instrument(VYE),Instrument(VYE),Done
 2000-02,IN,VYE-20108,Instrument(VYE),Instrument(VYE),Done
 2000-02,IN,VYE-20109,Instrument(VYE),Instrument(VYE),Done
@@ -24336,68 +24351,68 @@ DCS-01,IN,XS-Synch-7502,SIGNAL,SIGNAL,25%
 4000-08,IN,XZSL-8021(NA),CABLE,CABLE(NA),0%
 4000-08,IN,XZSL-8021(XZSL),Instrument(X),Instrument(XZSL),Done
 LS-02,EL,YO-ELP-01,PANEL(EL),Emergency Lighting Panel,Done
-LS-05,EL,YO-ELP-01-01-L1-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-ELP-01-01-L1-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-ELP-01-01-L1-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-ELP-01-01-L1-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type|Safety Lights with Battery Backup,0%
-LS-05,EL,YO-ELP-01-01-L1-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-ELP-01-01-L1-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-ELP-01-01-L1-07,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-ELP-01-01-L1-08,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-ELP-01-01-L1-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-ELP-01-02-L2-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-ELP-01-02-L2-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type|Safety Lights with Battery Backup,0%
-LS-05,EL,YO-ELP-01-02-L2-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-ELP-01-02-L2-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-ELP-01-02-L2-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-ELP-01-02-L2-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type|Safety Lights with Battery Backup,0%
-LS-05,EL,YO-ELP-01-03-L3-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-ELP-01-03-L3-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-ELP-01-03-L3-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-ELP-01-03-L3-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-ELP-01-03-L3-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
+LS-05,EL,YO-ELP-01-01-L1-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-ELP-01-01-L1-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-ELP-01-01-L1-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-ELP-01-01-L1-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type|Safety Lights with Battery Backup,Done
+LS-05,EL,YO-ELP-01-01-L1-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-ELP-01-01-L1-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-ELP-01-01-L1-07,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-ELP-01-01-L1-08,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-ELP-01-01-L1-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-ELP-01-02-L2-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-ELP-01-02-L2-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type|Safety Lights with Battery Backup,Done
+LS-05,EL,YO-ELP-01-02-L2-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-ELP-01-02-L2-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-ELP-01-02-L2-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-ELP-01-02-L2-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type|Safety Lights with Battery Backup,Done
+LS-05,EL,YO-ELP-01-03-L3-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-ELP-01-03-L3-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-ELP-01-03-L3-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-ELP-01-03-L3-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-ELP-01-03-L3-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
 LS-05,EL,YO-ELP-01-03-L3-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-ELP-01-04-L3-01,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,0%
-LS-05,EL,YO-ELP-01-04-L3-02,Lighting Fixture,LED Luminaires Fixture| Wall Mounted,0%
-LS-05,EL,YO-ELP-01-04-L3-03,Lighting Fixture,LED Luminaires Fixture| Wall Mounted,0%
-LS-05,EL,YO-ELP-01-04-L3-04,Lighting Fixture,LED Luminaires Fixture| Wall Mounted,0%
-LS-05,EL,YO-ELP-01-04-L3-05,Lighting Fixture,LED Luminaires Fixture| Wall Mounted,0%
-LS-05,EL,YO-ELP-01-04-L3-06,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type|Safety Lights with Battery Backup,0%
-LS-05,EL,YO-ELP-01-04-L3-07,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,0%
-LS-05,EL,YO-ELP-01-04-L3-08,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type|Safety Lights with Battery Backup,0%
-LS-05,EL,YO-ELP-01-04-L3-09,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type|Safety Lights with Battery Backup,0%
-LS-05,EL,YO-ELP-01-04-L3-10,Lighting Fixture,Fluorescent Fixture 2*36w- WP,0%
-LS-05,EL,YO-ELP-01-04-L3-11,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,0%
+LS-05,EL,YO-ELP-01-04-L3-01,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,Done
+LS-05,EL,YO-ELP-01-04-L3-02,Lighting Fixture,LED Luminaires Fixture| Wall Mounted,Done
+LS-05,EL,YO-ELP-01-04-L3-03,Lighting Fixture,LED Luminaires Fixture| Wall Mounted,Done
+LS-05,EL,YO-ELP-01-04-L3-04,Lighting Fixture,LED Luminaires Fixture| Wall Mounted,Done
+LS-05,EL,YO-ELP-01-04-L3-05,Lighting Fixture,LED Luminaires Fixture| Wall Mounted,Done
+LS-05,EL,YO-ELP-01-04-L3-06,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type|Safety Lights with Battery Backup,Done
+LS-05,EL,YO-ELP-01-04-L3-07,Lighting Fixture,Fluorescent Fixture Exit- 1*8w With Battery Backup,Done
+LS-05,EL,YO-ELP-01-04-L3-08,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type|Safety Lights with Battery Backup,Done
+LS-05,EL,YO-ELP-01-04-L3-09,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type|Safety Lights with Battery Backup,Done
+LS-05,EL,YO-ELP-01-04-L3-10,Lighting Fixture,Fluorescent Fixture 2*36w- WP,Done
+LS-05,EL,YO-ELP-01-04-L3-11,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,Done
 LS-01,EL,YO-LP-01,PANEL(EL),Normal Lighting Panel,Done
-LS-05,EL,YO-LP-01-01-L1-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-LP-01-01-L1-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-LP-01-01-L1-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-LP-01-01-L1-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-LP-01-01-L1-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-LP-01-01-L1-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-LP-01-01-L1-07,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-LP-01-01-L1-08,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-LP-01-01-L1-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-LP-01-02-L2-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-LP-01-02-L2-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-LP-01-02-L2-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-LP-01-02-L2-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-LP-01-02-L2-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-LP-01-02-L2-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-LP-01-02-L2-07,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
+LS-05,EL,YO-LP-01-01-L1-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-LP-01-01-L1-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-LP-01-01-L1-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-LP-01-01-L1-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-LP-01-01-L1-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-LP-01-01-L1-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-LP-01-01-L1-07,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-LP-01-01-L1-08,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-LP-01-01-L1-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-LP-01-02-L2-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-LP-01-02-L2-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-LP-01-02-L2-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-LP-01-02-L2-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-LP-01-02-L2-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-LP-01-02-L2-06,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-LP-01-02-L2-07,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
 LS-05,EL,YO-LP-01-02-L2-08,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-LP-01-03-L3-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-LP-01-03-L3-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-LP-01-03-L3-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-LP-01-03-L3-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
+LS-05,EL,YO-LP-01-03-L3-01,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-LP-01-03-L3-02,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-LP-01-03-L3-03,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-LP-01-03-L3-04,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
 LS-05,EL,YO-LP-01-03-L3-05,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-LP-01-03-L3-06,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,0%
-LS-05,EL,YO-LP-01-03-L3-07,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-LP-01-03-L3-08,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
+LS-05,EL,YO-LP-01-03-L3-06,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,Done
+LS-05,EL,YO-LP-01-03-L3-07,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
+LS-05,EL,YO-LP-01-03-L3-08,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,Done
 LS-05,EL,YO-LP-01-03-L3-09,Lighting Fixture,Fluorescent Fixture 3*36w- Louver Type,0%
-LS-05,EL,YO-LP-01-04-L3-01,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,0%
-LS-05,EL,YO-LP-01-04-L3-02,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,0%
-LS-05,EL,YO-LP-01-04-L3-03,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,0%
+LS-05,EL,YO-LP-01-04-L3-01,Lighting Fixture,Fluorescent Fixture 4*18w- Louver Type,Done
+LS-05,EL,YO-LP-01-04-L3-02,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,Done
+LS-05,EL,YO-LP-01-04-L3-03,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,Done
 LS-05,EL,YO-LP-01-04-L3-04,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,0%
 LS-05,EL,YO-LP-01-04-L3-05,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,0%
 LS-05,EL,YO-LP-01-04-L3-06,Lighting Fixture,Lighting Fixture 30w Energy Saving- WP,0%
@@ -24466,57 +24481,57 @@ LS-05,EL,YO-LP-01-14-L3-03,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,D
 LS-05,EL,YO-LP-01-14-L3-04,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
 LS-05,EL,YO-LP-01-14-L3-05,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
 LS-05,EL,YO-LP-01-14-L3-06,Socket Outlet,Outlet 3-Pole- 230v|16A|Flush Mounted,Done
-TEL-10,EL,YO-MTJB1,TELECOM DEVICE(A),Main Telephone Junction Box,0%
+TEL-10,EL,YO-MTJB1,TELECOM DEVICE(A),Main Telephone Junction Box,67%
 TEL-10,EL,YO-SP-01,Paging Device,Loud Speaker Celling Mounted- 6W,0%
 TEL-10,EL,YO-SP-02,Paging Device,Loud Speaker Celling Mounted- 6W,0%
 TEL-10,EL,YO-SP-03,Paging Device,Loud Speaker Celling Mounted- 6W,0%
 TEL-10,EL,YO-SP-04,Paging Device,Loud Speaker Celling Mounted- 6W,0%
 TEL-10,EL,YO-SP-05,Paging Device,Loud Speaker Celling Mounted- 6W,0%
-TEL-10,EL,YO-TEL-01,TELECOM DEVICE(A),Telephone Station Without Hood,0%
-TEL-10,EL,YO-TEL-OUTLET-1-01,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-1-02,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-1-03,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-1-04,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-2-01,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-2-02,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-2-03,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-2-04,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-2-05,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-2-06,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
+TEL-10,EL,YO-TEL-01,TELECOM DEVICE(A),Telephone Station Without Hood,50%
+TEL-10,EL,YO-TEL-OUTLET-1-01,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-1-02,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-1-03,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-1-04,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-2-01,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-2-02,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-2-03,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-2-04,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-2-05,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-2-06,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
 TEL-10,EL,YO-TEL-OUTLET-2-07,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
 TEL-10,EL,YO-TEL-OUTLET-2-08,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-3-01,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-3-02,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-3-03,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-3-04,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-3-05,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-3-06,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-3-07,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-4-01,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-4-02,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-4-03,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-4-04,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-4-05,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-4-06,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-4-07,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-4-08,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-4-09,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-4-10,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-5-01,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-5-02,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-5-03,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-5-04,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-5-05,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-5-06,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-5-07,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-6-01,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TEL-OUTLET-6-02,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
+TEL-10,EL,YO-TEL-OUTLET-3-01,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-3-02,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-3-03,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-3-04,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-3-05,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-3-06,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-3-07,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-4-01,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-4-02,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-4-03,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-4-04,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-4-05,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-4-06,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-4-07,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-4-08,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-4-09,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-4-10,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-5-01,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-5-02,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-5-03,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-5-04,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-5-05,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-5-06,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-5-07,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-6-01,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
+TEL-10,EL,YO-TEL-OUTLET-6-02,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,Done
 TEL-10,EL,YO-TEL-OUTLET-6-03,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
 TEL-10,EL,YO-TEL-OUTLET-6-04,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
 TEL-10,EL,YO-TEL-OUTLET-6-05,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
 TEL-10,EL,YO-TEL-OUTLET-6-06,TELECOM DEVICE(B),Telephone Outlet- Flush Mounted,0%
-TEL-10,EL,YO-TJB1,TELECOM DEVICE(A),Telephone Junction Box,0%
-TEL-10,EL,YO-TJB2,TELECOM DEVICE(A),Telephone Junction Box,0%
+TEL-10,EL,YO-TJB1,TELECOM DEVICE(A),Telephone Junction Box,67%
+TEL-10,EL,YO-TJB2,TELECOM DEVICE(A),Telephone Junction Box,67%
 4000-11,IN,YS-0001,I/O EL,I/O EL,Done
 4000-11,IN,YS-0002,I/O EL,I/O EL,Done
 4000-11,IN,YS-0013,I/O EL,I/O EL,0%
@@ -24752,10 +24767,10 @@ TEL-10,EL,YO-TJB2,TELECOM DEVICE(A),Telephone Junction Box,0%
 4000-12,IN,YS-8407B,I/O EL,I/O EL,0%
 2000-02,IN,ZE-20101,Instrument(ZE),Instrument(ZE),0%
 2000-02,IN,ZE-20102,Instrument(ZE),Instrument(ZE),Done
-2000-02,IN,ZE-20103,Instrument(ZE),Instrument(ZE),Done
-2000-02,IN,ZE-20104,Instrument(ZE),Instrument(ZE),Done
-2000-02,IN,ZE-20105,Instrument(ZE),Instrument(ZE),Done
-2000-02,IN,ZE-20106,Instrument(ZE),Instrument(ZE),Done
+2000-02,IN,ZE-20103,Instrument(ZE),Instrument(ZE),0%
+2000-02,IN,ZE-20104,Instrument(ZE),Instrument(ZE),0%
+2000-02,IN,ZE-20105,Instrument(ZE),Instrument(ZE),0%
+2000-02,IN,ZE-20106,Instrument(ZE),Instrument(ZE),0%
 2000-02,IN,ZE-20107,Instrument(ZE),Instrument(ZE),Done
 2000-02,IN,ZE-20108,Instrument(ZE),Instrument(ZE),Done
 2000-02,IN,ZE-20151,Instrument(ZE),Instrument(ZE),Done
